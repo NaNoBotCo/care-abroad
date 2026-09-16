@@ -1,0 +1,97 @@
+{
+ "schema": 1,
+ "id": "mhtc",
+ "type": "org",
+ "names": {
+  "name": "Malaysia Healthcare Travel Council",
+  "aliases": [
+   "MHTC"
+  ],
+  "said": "A government agency that markets. Hospitals are licensed by the Ministry of Health; MHTC lists them."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "kind": "ministry",
+  "iso2": "MY",
+  "founded": 2005,
+  "status": "open"
+ },
+ "text": {
+  "what": "A Malaysian government agency set up in 2005 and incorporated as an independent entity in 2011 to promote and coordinate the country's healthcare travel trade. It sits under the Ministry of Health, moved to the Ministry of Finance in 2018, and works as the promoting and facilitating arm of the health ministry rather than as a licensing authority.",
+  "story": "Malaysia built a state marketing body before most of its competitors did, and the structure is the interesting part. MHTC does not license a hospital — the Ministry of Health does that under the private healthcare legislation. MHTC admits hospitals to a membership list and promotes them, which means its list is a marketing roster with an entry requirement, not a register of who may lawfully operate.\n\n*Inference —* that distinction decides what a reader can do with the list. Absence from it does not make a hospital unlicensed. Presence on it does not add a licence. It says a hospital chose to join a promotional scheme and met its terms.\n\nThe agency publishes arrival and revenue figures for the trade, and those numbers travel widely. *Trade practice —* national healthcare-travel counts of this kind generally derive from hospital returns of foreign patient episodes, which count visits by non-residents rather than people who came for treatment, and include expatriates and visitors who fell ill. This directory does not carry the headline totals as facts about how many people travelled to Malaysia for care.",
+  "how": "A hospital or clinic applies for MHTC membership, meets the entry criteria, and is listed and promoted. MHTC runs concierge desks, publishes destination material, and reports the sector's numbers to government. Its own site returned a server error to every fetch from this project on 16 September 2026, so this record rests on the secondary source named in sources.",
+  "today": "As of 16 September 2026 the agency's own site could not be read by this project. The most recent figure this record could source is 2019, when Malaysia is reported to have received over 1.2 million healthcare travellers — a count of episodes reported by facilities, not of individuals who travelled for treatment."
+ },
+ "geo": {
+  "lat": 3.139,
+  "lon": 101.6869,
+  "precision": "city",
+  "source": "s:mhtc-wikipedia"
+ },
+ "address": {
+  "city": "Kuala Lumpur",
+  "country": "MY"
+ },
+ "kin": [
+  {
+   "to": "malaysia",
+   "as": "The country whose inbound trade it markets and reports on.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "as": "The rule record for what membership is and is not; licensing sits with the health ministry.",
+   "rel": "governs"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "One of the private hospitals on its member roster.",
+   "rel": "org"
+  },
+  {
+   "to": "island-hospital-penang",
+   "as": "The Penang hospital the agency's Indonesian corridor is built around.",
+   "rel": "org"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where a national healthcare-traveller total is taken apart.",
+   "rel": "story"
+  },
+  {
+   "to": "khidi",
+   "as": "Korea's equivalent state body, which publishes a patient count instead of a visit count.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Malaysia Healthcare Travel Council",
+   "url": "https://www.mhtc.org.my/"
+  }
+ ],
+ "sources": [
+  "s:mhtc-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mhtc-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the second paragraph is this project's inference; the third is the trade's general practice on national counts, marked inline"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "MHTC operates from Kuala Lumpur; city precision only"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

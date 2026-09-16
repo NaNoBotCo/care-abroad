@@ -1,0 +1,117 @@
+{
+ "schema": 1,
+ "id": "knee-replacement",
+ "type": "procedure",
+ "names": {
+  "name": "Total knee replacement",
+  "aliases": ["total knee arthroplasty", "TKA", "knee arthroplasty", "knee replacement"],
+  "said": "Surgeons say TKA. Package pages say total knee replacement. Brokers say knee, and mean either one knee or two without saying which."
+ },
+ "etymology": {
+  "root": "arthroplasty: Greek arthron, a joint, plus plastos, moulded — a joint remoulded. The word predates the implant by a century and once meant cutting a new joint surface out of the patient's own bone.",
+  "tier": "tradition",
+  "note": "bilateral means both knees in one anaesthetic; unilateral means one. A package priced for one is roughly half a package priced for two, and the two words are easy to miss on a price page."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "regional"
+ },
+ "text": {
+  "what": "The worn surfaces of the knee are cut away and replaced with metal and plastic: a femoral component on the thigh bone, a tibial tray on the shin, a polyethylene bearing between them, and often a patellar button behind the kneecap. It is done for arthritis that has stopped responding to anything else. Recovery runs in weeks, not days, and the implant itself is a separate purchase from the operation on most package price lists.",
+  "story": "Knee replacement is one of the two or three operations that built cross-border care, for a reason that has nothing to do with surgery: it is elective, it is standardised, it is expensive at home, and the queue for it is long in every country that funds healthcare publicly. A patient who cannot walk to the shops and has been told to wait fourteen months has a motive that a patient facing an emergency does not.\n\n*Trade practice —* the operation also suits the package model better than almost anything else. The steps are the same everywhere, the implant comes from one of four or five multinational manufacturers, and the length of stay is predictable enough that a hospital can quote a fixed price and mostly hold to it. That is why the price pages exist for knees and hips and not for, say, a pancreatic resection.\n\n*Inference —* the same standardisation is what makes the published prices comparable at all, and it is also what makes them misleading. A package that names three nights and excludes the implant is quoting a different object from one that names five nights and includes it.",
+  "how": "Regional anaesthesia is usual — a spinal or an epidural with sedation — because it lowers the rate of clots and lets the patient begin moving sooner. The surgeon opens the front of the knee, cuts the ends of the femur and tibia to jigs, trials the components, cements or press-fits them, closes, and the physiotherapist has the patient standing the same day or the next. Published packages usually name three to five nights on the ward. The implant is billed separately by most hospitals that publish a package price, and it is frequently the largest single line.",
+  "today": "Where a price is published at all, a unilateral knee runs from roughly ten thousand US dollars in Southeast Asia to several times that in the United States, and every figure on this site's price table names its own date, currency and what it includes. The comparison that matters is not the headline number: it is the headline number plus the implant, plus the nights past the package, plus the flight, plus the follow-up at home that nobody quoted.",
+  "notes": "This page describes an operation. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 3,
+  "days_before_flying": 10,
+  "recovery_weeks": 12,
+  "note": "Three nights is the ward stay named in the Bumrungrad package read for this record, not a clinical standard; stays elsewhere run longer. The ten-day figure is the CDC's guidance not to fly for ten days after chest or abdominal surgery, which orthopaedic teams commonly apply to major lower-limb surgery for the clot risk; the twelve weeks is the usual span quoted for getting back to ordinary walking, and it varies widely.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 356500,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["operating theatre, 3 hours", "nursing and surgical team fees within those 3 hours", "3 nights in the surgical ward", "medical equipment and supplies", "medications related to the procedure", "surgeon", "assistant surgeon if needed", "anaesthesiologist"],
+   "excludes": ["the implant", "first consultation and follow-up visits", "specialist consultations", "nights beyond 3, and any ICU", "blood transfusion", "laboratory and imaging before or after surgery", "take-home medication", "outpatient charges before admission", "complex or emergency cases"],
+   "source": "s:bumrungrad-joint04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "note": "package JOINT04, price stated valid until 31 December 2026. The exclusion list is longer than the inclusion list, and the implant — often the single largest line on a knee bill — sits on it.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 525600,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["both knees in one admission"],
+   "excludes": ["the implant"],
+   "source": "s:bumrungrad-packages",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "note": "bilateral, listed at 525,600 THB against a struck-through 584,000 THB. Two knees for less than twice one knee is the usual shape of a bilateral price.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 945000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["both knees", "robotic assistance (MAKO)"],
+   "excludes": ["the implant"],
+   "source": "s:bumrungrad-packages",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "note": "robot-assisted bilateral, listed at 945,000 THB against a struck-through 1,050,000 THB. The robot is a price tier, and whether it changes outcomes is argued in the literature rather than settled.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "hip-replacement", "as": "The same trade, the other joint — and the one whose package price is usually higher.", "rel": "contrast"},
+  {"to": "bumrungrad", "as": "Publishes the knee package this page reads, implant excluded.", "rel": "performed-at"},
+  {"to": "thailand", "as": "Where the knee package on this page is sold.", "rel": "destination"},
+  {"to": "package-price", "as": "The pricing form this operation is usually sold in, and the reason its exclusions matter.", "rel": "term"},
+  {"to": "implant-excluded", "as": "The line item this operation's headline price usually leaves out.", "rel": "risk"},
+  {"to": "flying-after-surgery", "as": "The clot risk that sets how long after this operation a patient can board.", "rel": "risk"},
+  {"to": "waiting-lists", "as": "The queue at home that sends most knee patients abroad in the first place.", "rel": "kin"},
+  {"to": "follow-up-gap", "as": "Who takes the stitches out, and who sees the knee at six weeks.", "rel": "risk"},
+  {"to": "world-bank-health-spending", "as": "The series behind the map of what each country spends on health per person.", "rel": "measured-by"}
+ ],
+ "confusable_with": [
+  {"id": "hip-replacement", "tell": "Knee and hip packages are priced separately and recover differently; a broker's \"joint replacement\" quote names neither until you ask."}
+ ],
+ "links": [
+  {"label": "Bumrungrad package JOINT04", "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"}
+ ],
+ "sources": ["s:bumrungrad-joint04", "s:bumrungrad-packages", "s:cdc-yellowbook-medical-tourism"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "tradition", "note": "the trade's account of why this operation travels; the inline marks say which stretches are which"},
+   "text.how": {"tier": "tradition", "note": "standard operative description; the three-night figure is cited to the package page"},
+   "etymology": {"tier": "tradition"},
+   "prices": {"tier": "cited", "source": "s:bumrungrad-joint04"}
+  }
+ },
+ "x_commons_files": ["File:Knee replacement implant.jpg", "File:Total Knee Replacement X-ray.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

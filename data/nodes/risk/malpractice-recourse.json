@@ -1,0 +1,115 @@
+{
+ "id": "malpractice-recourse",
+ "names": {
+  "name": "Malpractice recourse across a border",
+  "aliases": [
+   "legal recourse",
+   "cross-border liability",
+   "suing abroad"
+  ],
+  "said": "The brochure says \"fully accredited\". Neither word is a forum."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "legal"
+ },
+ "text": {
+  "what": "The question of which court will hear a claim against a clinician abroad, which country's law it will apply, how long the claimant has to bring it, and whether any judgment can be collected. The CDC puts the position in one sentence: patients \"might not have the same legal recourse as they would if they received their care in the United States\". The American Medical Association's guiding principles ask that patients be informed of their rights and legal recourse before agreeing to travel.",
+  "story": "The subject has a founding legal text. Nathan Cortez's *Patients Without Borders*, at 83 Indiana Law Journal 71 (2008), set out the problem as one of health law rather than tort: a body of consumer protection, licensing, insurance regulation and malpractice liability that was built nationally and does not follow a patient across a frontier. I. Glenn Cohen's *Patients with Passports* (Oxford University Press, 2014) is the book-length treatment.\n\nWhat little empirical work exists looks at the destination rather than the source. Crooks, Cohen and colleagues convened nine lawyers in Barbados in February 2014 and found liability the first of five themes they raised unprompted; the ability of arriving patients to recover damages for an adverse event was one of the two concerns the authors identified as predominant both in the room and in the literature.\n\n*Inference —* the structural position is four separate obstacles, each of which is enough on its own. A suit brought at home must first establish that the home court has jurisdiction over a defendant who never traded there, and may be met with an argument that the proper forum is the country where the treatment happened. A suit brought there is governed by that country's law, including its limitation period and any statutory cap on damages, and is litigated in its language through local counsel. Damages awarded in either place reflect the cost of care where the award is made, not where the claimant will be treated. And a judgment is a piece of paper until a court where the defendant holds assets agrees to enforce it, which is a matter of bilateral arrangements that mostly do not exist between source markets and destinations.\n\nNone of that is specific to a bad clinic. It applies equally to a university hospital.",
+  "how": "Contracts in this trade commonly name a governing law and a forum, and where a facilitator is involved its terms usually distinguish its own obligations — introducing, booking, arranging — from the clinical obligations of the treating facility. This project has read no such contract and holds none; the terms are private documents between a patient and a company.",
+  "today": "As of 16 September 2026 no register, regulator or research group publishes a count of malpractice claims brought by cross-border patients, how many were heard, how many succeeded, or how many judgments were paid. The absence is not a gap in this site's research. Nobody has counted."
+ },
+ "metrics": {
+  "note": "No figure is carried on this record because none exists. There is no published count of cross-border malpractice claims brought, settled, tried or enforced, in any jurisdiction, by any body. The empirical work in the field is qualitative: the 2015 Barbados study interviewed nine lawyers in one focus group.",
+  "as_of": "2026-09-16",
+  "source": "s:crooks-barbados-lawyers-2015",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/26215979/"
+ },
+ "kin": [
+  {
+   "to": "complaint-and-claim",
+   "as": "The step this risk decides the outcome of.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step at which the question first gets asked.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The reason there is often no name to sue.",
+   "rel": "kin"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The same contract, read at the other end of the trip.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The bill that lands while the claim is still theoretical.",
+   "rel": "kin"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The one instrument that gives a defined class of cross-border patients a stated route, inside one bloc.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step at which a third party enters the contract, and the liability question splits in two.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "as": "Accreditation is not a forum, and the accreditor is not a party.",
+   "rel": "contrast"
+  },
+  {
+   "to": "language-consent",
+   "as": "What was consented to, in which language, is the first thing any such claim turns on.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Cortez, Patients Without Borders, 83 Ind. L.J. 71 (2008)",
+   "url": "https://www.repository.law.indiana.edu/ilj/vol83/iss1/3/"
+  },
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:cortez-patients-without-borders-2008",
+  "s:cohen-patients-with-passports-2014",
+  "s:crooks-barbados-lawyers-2015"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cortez-patients-without-borders-2008"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument and it is not legal advice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of the contracts in this trade; this project holds none of them"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

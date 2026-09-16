@@ -1,0 +1,104 @@
+{
+ "id": "insurance-exclusions",
+ "names": {
+  "name": "Insurance exclusions for treatment abroad",
+  "aliases": [
+   "elective treatment exclusion",
+   "the travel policy gap"
+  ],
+  "said": "A travel policy covers an emergency that happens to you. It is not written for an operation you flew out to have."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "reimbursement",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The gap between what a travel policy, a domestic health plan and a public programme each decline to pay for when someone travels abroad to be operated on. Three separate refusals that usually arrive together: the travel insurer excludes treatment that was the purpose of the trip, the home health plan excludes care delivered outside its network or its country, and the public programme excludes everything but an emergency.",
+  "story": "The refusals are structural rather than punitive, and each has its own logic.\n\nA travel policy underwrites an unforeseen event during a journey. Treatment arranged in advance is not unforeseen, which is why the exclusion exists; and a complication of that treatment is a consequence of the excluded thing. The United Kingdom government's travel insurance guidance does not discuss planned treatment abroad at all — it is about declaring existing conditions and pending tests \"so that you are covered if there are related complications during your trip\" — and the absence is itself the answer.\n\nA public programme excludes by territory. Medicare's rule is the flat one: it does not pay outside the United States except in three narrow circumstances, none of them elective. Australia's Better Health Channel page on medical travel and insurance makes the parallel point for a system with reciprocal agreements.\n\nThe NHS page on cosmetic surgery abroad states the practical consequence for the patient rather than the insurer: aftercare is where the patient lives, and the surgeon is not.\n\n*Inference —* the three exclusions compound rather than overlap. A patient who has a complication abroad is outside the travel policy because the treatment was planned; outside the domestic plan because the care is foreign; and outside the public programme because it is elective. The bill that then arrives is the one the published price comparison never carried, and the revision performed at home lands on a system that did not sell the operation.\n\n*Trade practice —* a specialist medical-travel policy exists and is sold by a small number of underwriters, usually as complication cover with a named surgeon, a named facility and a fixed window. This project has read no policy wording and carries no terms.",
+  "how": "What a reader would have to read, in the policy itself rather than the brochure: whether \"treatment which is the purpose of the trip\" is excluded; whether a complication of an excluded treatment is also excluded; whether repatriation by air ambulance is covered at all and to what ceiling; whether the policy requires a fitness-to-fly certificate; whether cover lapses at a stated number of days post-operatively; and whether the insurer requires the facility to hold a named accreditation.\n\nThe CDC's Yellow Book chapter puts medical evacuation at USD 25,000 to over USD 250,000, which is the figure most often missing from a package price.",
+  "today": "As of 17 September 2026 no regulator in any market this project has read publishes a count of claims declined for travel undertaken to obtain treatment. The exclusions are read off policy wordings and public-programme rules, one at a time."
+ },
+ "kin": [
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where this is discovered, or is not.",
+   "rel": "step"
+  },
+  {
+   "to": "us-medicare-abroad",
+   "as": "The territorial exclusion, in a public programme.",
+   "rel": "rule"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "The single largest number that falls in the gap.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who pays for the second operation.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clause about fitness to fly, and the clinical reason behind it.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The one bloc where an entitlement crosses the border instead of an exclusion.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Why a package price and a total cost are different numbers.",
+   "rel": "story"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The other contract nobody reads before signing.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "GOV.UK — Foreign travel insurance",
+   "url": "https://www.gov.uk/guidance/foreign-travel-insurance"
+  },
+  {
+   "label": "CDC Yellow Book 2026 — Travel insurance, travel health insurance, and medical evacuation insurance",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html"
+  }
+ ],
+ "sources": [
+  "s:gov-uk-foreign-travel-insurance",
+  "s:cdc-yellowbook-travel-insurance",
+  "s:betterhealth-vic-medical-tourism",
+  "s:medicare-travel-outside-us",
+  "s:nhs-cosmetic-surgery-abroad"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the compounding argument is this project reasoning from three read sources; the *Trade practice —* stretch is unsourced and marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the questions a policy wording answers; this project holds no policy wording"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

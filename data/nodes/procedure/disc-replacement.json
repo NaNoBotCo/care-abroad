@@ -1,0 +1,119 @@
+{
+ "schema": 1,
+ "id": "disc-replacement",
+ "type": "procedure",
+ "names": {
+  "name": "Artificial disc replacement",
+  "aliases": ["total disc replacement", "TDR", "disc arthroplasty", "cervical disc replacement", "CDR", "ADR"],
+  "said": "Surgeons say cervical or lumbar and then the level. Hospitals selling it say motion-preserving, which is the argument against fusion said as a product name."
+ },
+ "etymology": {
+  "root": "disc: Greek diskos, a flat plate, by way of Latin discus. Prosthesis is Greek prosthesis, an addition or something put on. Arthroplasty again: arthron, a joint, plastos, moulded — a spinal segment treated as a joint rather than as a beam to be pinned.",
+  "tier": "tradition",
+  "note": "The unit is the motion segment, and every price read for this record is a one-level price."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The worn disc is removed and replaced with a metal-and-polymer implant that keeps the two vertebrae moving, instead of a cage and screws that lock them together. It is done at one level in the neck or the lower back, for degenerative disc disease with nerve symptoms that has not settled with conservative treatment.",
+  "story": "Disc replacement is fusion's competitor, and the pages that sell one usually sell the other. On Bumrungrad's Spine Institute price list, read on 16 September 2026, a one-level cervical disc replacement is 468,600 baht with one night, sitting directly above a one-level anterior cervical fusion at 420,000 and a one-level lumbar fusion at 576,300. The exclusion on the disc replacement package is one line long and reads: artificial cervical disc.\n\nThat single line is the same trap as the knee implant. The package buys two hours of theatre, a night in a standard single room, the surgeon, the assistant and the anaesthetist — and not the device the operation is named after.\n\nAustralia prices the two rivals identically. Item 51131, cervical artificial intervertebral total disc replacement at one motion segment, pays $1,295.85 as at 1 July 2026, exactly what item 51041 pays for a one-segment fusion. What the item adds instead of money is a gate: five written conditions the patient must meet — no prior surgery at that cervical level, skeletal maturity, symptomatic degenerative disc disease with radiculopathy, no vertebral osteoporosis, and failed conservative therapy.\n\nIn India, Yashoda Hospitals in Hyderabad publishes its own cost page for the operation: a range of Rs. 3,50,000 to Rs. 6,00,000, an average of about Rs. 4,00,000 and a table figure of Rs. 4,20,000, with no date on the page and no statement of what the figure covers.\n\n*Inference —* three publishers, three different objects again: a package with the implant carved out, a payer's fee with an eligibility test attached, and a hospital's own range with neither date nor inclusion list. Only the first can be compared with a bill.",
+  "how": "General anaesthesia. In the neck the surgeon works from the front through a crease incision, removes the disc and the marginal osteophytes — bone spurs at the rim — and seats the prosthesis between the vertebral bodies; Bumrungrad's package books two hours of theatre and one night. Lumbar replacement is done from the front through the abdomen and is the bigger undertaking. Motion at the treated level is kept, which is the whole argument for the device.",
+  "today": "As of 16 September 2026 the published disc replacement prices on this site are 468,600 baht in Bangkok excluding the disc itself, an Australian schedule fee of $1,295.85 with a five-part eligibility test written into the item, and an Indian hospital's own range of Rs. 3,50,000 to Rs. 6,00,000 carrying no date.",
+  "notes": "This page describes an operation, its rivalry with fusion, and the prices published for it. Nothing here is medical advice."
+ },
+ "metrics": {
+  "stay_days": 1,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "One night is the stay named in Bumrungrad's CDR01 package for a one-level cervical disc replacement. No page read for this record states a recovery span or a flying interval, so both stay empty.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-cdr01",
+  "url": "https://www.bumrungrad.com/en/packages/cervical-disc-replacement"
+ },
+ "prices": [
+  {
+   "procedure": "disc-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 468600,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["operating room charges for 2 hours including OR room, recovery room, scrub nurse and circulating nurse", "accommodation for 1 day in a standard single room", "medical equipment and medical supplies specified in the package", "anaesthesia and medications related to the procedure", "surgeon", "assistant surgeon if necessary", "anaesthesiologist"],
+   "excludes": ["artificial cervical disc", "consultation fee for an initial visit and follow-up visits", "inpatient stay more than 1 day, ICU, or stay past the approved discharge day", "internist's and other specialists' consultations", "outpatient fees before admission", "complex cases requiring emergency surgery", "laboratory and diagnostic tests before and after operation, blood transfusion and biopsy", "take-home medications and medical supplies", "pre-operative exercise programme by a physical therapist"],
+   "source": "s:bumrungrad-cdr01",
+   "url": "https://www.bumrungrad.com/en/packages/cervical-disc-replacement",
+   "note": "package CDR01, one level, price stated valid until 31 December 2026. The first exclusion is the prosthesis the operation is named for.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "disc-replacement",
+   "country": "AU",
+   "amount": 1295.85,
+   "currency": "AUD",
+   "as_of": "2026-07-01",
+   "kind": "tariff",
+   "includes": ["the medical service described in item 51131: cervical artificial intervertebral total disc replacement, at one motion segment only, including removal of disc and marginal osteophytes"],
+   "excludes": ["hospital accommodation and theatre", "the prosthesis", "the anaesthetist's own items", "any amount charged above the schedule fee"],
+   "source": "s:mbs-51131",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=51131&qt=item",
+   "note": "Medicare Benefits Schedule item 51131, fee last updated 1 July 2026; 75% benefit $971.90. The item pays only where the patient has had no prior surgery at the same cervical level, is skeletally mature, has symptomatic degenerative disc disease with radiculopathy, does not have vertebral osteoporosis and has failed conservative therapy. The identical fee is paid for a one-segment fusion under item 51041.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "disc-replacement",
+   "country": "IN",
+   "city": "Hyderabad",
+   "amount": 350000,
+   "amount_high": 600000,
+   "currency": "INR",
+   "as_of": "2026",
+   "kind": "quoted-range",
+   "includes": [],
+   "excludes": [],
+   "source": "s:yashoda-adr-cost",
+   "url": "https://www.yashodahospitals.com/procedure-cost/artificial-disc-replacement-surgery-cost-in-india/",
+   "note": "the hospital's own cost page gives \"Rs. 3,50,000 to Rs. 6,00,000\", an average of \"approximately Rs. 4,00,000\" and a table line of \"4,20,000/- (Approx.)\". The page carries no publication date and no statement of what the figure covers, so as_of is the year it was read, 16 September 2026, and not a date the hospital published.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "spinal-fusion", "as": "The operation this one competes with, 48,600 baht cheaper at the same Bangkok hospital and paid the same fee in Australia.", "rel": "contrast"},
+  {"to": "bumrungrad", "as": "Publishes the one-level cervical disc replacement package this page reads, prosthesis excluded.", "rel": "performed-at"},
+  {"to": "thailand", "as": "Where the package price on this page is sold.", "rel": "destination"},
+  {"to": "india", "as": "Where the hospital's own undated range on this page comes from.", "rel": "destination"},
+  {"to": "australia", "as": "Whose schedule attaches a five-part eligibility test to the fee.", "rel": "destination"},
+  {"to": "implant-excluded", "as": "The exclusion that removes the device the operation is named after.", "rel": "risk"},
+  {"to": "reading-the-exclusions", "as": "The step on which this package's headline figure turns.", "rel": "step"},
+  {"to": "prior-authorisation", "as": "What five written eligibility conditions amount to when a payer applies them.", "rel": "term"},
+  {"to": "tariff", "as": "What the Australian figure is, and why it is not a bill.", "rel": "term"},
+  {"to": "the-price-that-isnt", "as": "A headline price with the prosthesis taken out of it.", "rel": "story"}
+ ],
+ "confusable_with": [
+  {"id": "spinal-fusion", "tell": "Both clear the disc space; fusion locks the segment with a cage and screws, replacement keeps it moving with a prosthesis, and both exclude the hardware from the package price."}
+ ],
+ "links": [
+  {"label": "Bumrungrad package CDR01", "url": "https://www.bumrungrad.com/en/packages/cervical-disc-replacement"},
+  {"label": "MBS item 51131", "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=51131&qt=item"}
+ ],
+ "sources": ["s:bumrungrad-cdr01", "s:bumrungrad-spine-packages", "s:mbs-51131", "s:yashoda-adr-cost"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "prices, exclusions and item conditions read off named pages; the closing stretch is this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "standard operative description; theatre time and nights cited to the package page"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:bumrungrad-cdr01"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Cervical disc prosthesis.jpg", "File:Artificial disc replacement X-ray.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

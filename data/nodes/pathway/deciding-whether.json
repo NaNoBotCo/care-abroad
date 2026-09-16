@@ -1,0 +1,87 @@
+{
+ "id": "deciding-whether",
+ "names": {
+  "name": "Deciding whether to go",
+  "aliases": [
+   "the decision to travel for treatment"
+  ],
+  "said": "Brokers call it the enquiry. Clinicians, where they hear about it at all, hear about it after the flight is booked."
+ },
+ "facets": {
+  "stage": "deciding"
+ },
+ "x_order": 1,
+ "text": {
+  "what": "The step before any money moves: a person weighs a price, a queue or a refusal at home against a procedure in another country. Nobody is a patient yet and no contract exists, so the exposure here is informational — what is written down, who wrote it, and who is paid when it is believed.",
+  "story": "The published reasons people give divide three ways: a bill at home they cannot meet, a wait at home measured in months, and a treatment at home that is unlawful, unfunded or unavailable to them. The three carry different pressure. A person in a queue can wait longer; a person refused cannot.\n\nWhat gets read at this stage is mostly commercial. Penney and colleagues took 17 English-language Canadian broker websites in the summer of 2010 and counted what they told a reader: 47% made no mention of risks at all, only two of the seventeen raised risks specific to travelling for care, 17.6% addressed possible negative outcomes, 70.6% carried patient testimonials, and 29.4% named a price. Their conclusion was that Canadian brokers \"currently lack a common standard of care and accreditation, and are widely lacking in providing adequate risk communication\".\n\nThe medical side of the decision has its own timetable, and it sits later than most people expect. The CDC Yellow Book puts the pre-travel consultation \"4–6 weeks before travel\", which is usually after the destination has been chosen and often after a deposit has been paid. *Inference —* by the time a clinician who knows about travel medicine is in the conversation, most of the decisions this site describes have already been made.",
+  "how": "No register anywhere this project could read records who decides to travel, or why. The counts that circulate — patients per year, percentage cheaper — come from market summaries that resell each other and generally count foreign nationals treated at a hospital, which includes every resident expatriate with a chest infection. A hospital's own count of its own international patients, a national statistics office, or a peer-reviewed study is a narrower number and says what it counts.\n\nThe questions that have documentary answers at this stage are dull and specific: which named surgeon will operate, what the price covers and excludes in the provider's own words, who provides follow-up and where, and which country's law governs the contract being signed. Each of those has a paper answer or it does not exist.",
+  "today": "As of 16 September 2026 the evidence a person meets while deciding is written almost entirely by parties paid when the answer is yes. The counterweight published by states — the CDC Yellow Book chapter, the NHS page on cosmetic surgery abroad — describes hazards rather than providers, and names no hospital."
+ },
+ "kin": [
+  {
+   "to": "second-opinion",
+   "as": "The next step for a diagnosis that has only been made once.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "Where the price being weighed here turns into a document with exclusions.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The party who wrote most of what gets read at this stage, and who is paid when the answer is yes.",
+   "rel": "step"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The published series behind the queue at home that is half of this decision.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The comparison this step is built on, taken apart.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why the headline number of people who travel is not a count of people.",
+   "rel": "story"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The cost that is rarely in the comparison being made here.",
+   "rel": "risk"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The name this site uses for what is being decided.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:penney-broker-websites",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's reading of what is and is not documented at this stage"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,52 @@
+{
+ "schema": 1,
+ "id": "nuevo-progreso",
+ "type": "hub",
+ "names": {
+  "name": "Nuevo Progreso",
+  "aliases": ["Nuevo Progreso, Tamaulipas", "Progreso"],
+  "said": "The Rio Grande Valley says Progreso and means the Mexican side; the Texas town across the river is Progreso Lakes."
+ },
+ "region": ["mexico", "north-america"],
+ "facets": {
+  "iso2": "MX",
+  "radius_km": 6,
+  "specialty": ["dentistry", "pharmacy", "optometry"],
+  "draws": ["dental-implant", "dental-crown", "root-canal", "full-mouth-restoration"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "A town in Río Bravo Municipality, Tamaulipas, at the Mexican end of a road bridge over the Rio Grande. Wikipedia records 10,178 inhabitants at the 2010 census and, in the five-block centre, more than a hundred dentists and more than a hundred pharmacies. Like Los Algodones it is walked to, not flown to; unlike Los Algodones the walk starts in Texas.",
+  "story": "The bridge came first. The Progreso–Nuevo Progreso International Bridge has been in operation since 1952 and was rebuilt in 2003 with four traffic lanes and a separate crossing for trucks. The town at the far end grew a single main street of surgeries, pharmacies, opticians and restaurants aimed at the people coming over it.\n\nThe traffic is winter traffic. The Bureau of Transportation Statistics recorded 1,020,916 northbound pedestrian crossings at Progreso, Texas in calendar 2025, against 947,149 in 2024. Two months of the 2025 pedestrian series are missing from the federal data, so this record does not draw a seasonal curve from it, only the totals.\n\n*Trade practice —* the pharmacy trade here is at least as large as the dental trade and is a different business: a prescription filled at a counter rather than a course of treatment. A patient crossing for both is doing two errands, and only one of them has a follow-up.\n\n*Inference —* the security reputation of Tamaulipas is the variable that does not appear in any price. Nuevo Progreso is described in its own Wikipedia article as one of the safest border towns in the state, which is a sentence that only gets written about a state where the question is live.",
+  "how": "Cross on foot from Progreso, Texas, walk the main street, cross back. Wikipedia's article on the bridge states a four-dollar toll per vehicle in either direction and pedestrian tolls of one dollar into Mexico and thirty cents into the United States; it gives no date for those figures, and this record does not treat them as current. Dental work follows the same two-visit rhythm as any implant case — impressions and fitting weeks apart — which is manageable for a Winter Texan parked twenty minutes away for five months and awkward for anybody else.",
+  "today": "As of 16 September 2026 this project has found no surgery in Nuevo Progreso publishing a dated price list on its own site that could be read and cited the way the Los Algodones lists can. Prices quoted for the town circulate through broker directories, and this directory does not carry them.",
+  "notes": "A figure this record could not source is absent rather than estimated."
+ },
+ "geo": {"lat": 26.0561, "lon": -97.9522, "precision": "city", "source": "s:wp-nuevo-progreso"},
+ "address": {"city": "Nuevo Progreso", "area": "Tamaulipas", "country": "MX"},
+ "kin": [
+  {"to": "mexico", "as": "The country the bridge lands in.", "rel": "destination"},
+  {"to": "los-algodones", "as": "The same trade at the far western end of the border, denser, and with its prices in the window.", "rel": "contrast"},
+  {"to": "united-states", "as": "Where the walkers come from, most of them wintering in the Rio Grande Valley.", "rel": "kin"},
+  {"to": "dental-implant", "as": "The largest single item on the street, sold across two visits.", "rel": "performs"},
+  {"to": "dental-crown", "as": "Ordinary restorative work, done at a fraction of the price across the river.", "rel": "performs"},
+  {"to": "cross-border-prescriptions", "as": "Half the street is pharmacies, and that is a different transaction from a course of treatment.", "rel": "governed-by"},
+  {"to": "counterfeit-medicines", "as": "The risk that attaches to the pharmacy half of the trade rather than the dental half.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Nearly closed here, because the patient is parked twenty minutes away until April.", "rel": "risk"}
+ ],
+ "links": [
+  {"label": "Border Crossing/Entry Data — Progreso, Texas", "url": "https://data.bts.gov/d/keg4-3bc2"}
+ ],
+ "sources": ["s:wp-nuevo-progreso", "s:wp-progreso-bridge", "s:bts-border-crossing"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "harvested", "source": "s:bts-border-crossing", "note": "the crossing counts are queried from the federal series; the last two paragraphs carry their own inline marks"},
+   "text.how": {"tier": "tradition", "note": "the shape of the day trip; the tolls are the bridge article's figures and are undated there"}
+  }
+ },
+ "x_commons_files": ["File:Progreso-Nuevo Progreso International Bridge.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

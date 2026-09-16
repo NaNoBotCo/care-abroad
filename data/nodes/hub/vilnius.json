@@ -1,0 +1,140 @@
+{
+ "schema": 1,
+ "id": "vilnius",
+ "type": "hub",
+ "names": {
+  "name": "Vilnius",
+  "aliases": [
+   "Wilno",
+   "Vilna"
+  ],
+  "said": "Baltic clinics sell to Britain, Ireland and Scandinavia in English and quote in euros; the Lithuanian name of the street rarely appears in the quote."
+ },
+ "region": [
+  "europe-north"
+ ],
+ "facets": {
+  "iso2": "LT",
+  "radius_km": 12,
+  "specialty": [
+   "dentistry",
+   "orthopaedics",
+   "cosmetic surgery",
+   "fertility",
+   "bariatric surgery"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "hip-replacement",
+   "ivf",
+   "gastric-sleeve"
+  ],
+  "languages": [
+   "Lithuanian",
+   "English",
+   "Russian",
+   "Polish"
+  ]
+ },
+ "text": {
+  "what": "A capital of 619,405 people in mid-2026, administered in twenty elderships, with the private clinics that take foreign patients in and around Naujamiestis and the streets north of the Old Town, and the large public hospital estate out at Santariškės. Vilnius sells dentistry, joint replacement and cosmetic surgery to patients from Britain, Ireland and the Nordic countries on short flights, against waiting lists rather than against uninsured bills.",
+  "story": "The Baltic pitch is a queue argument, not a price argument, and the numbers that get quoted say so. The commonly cited Lithuanian figure is a hip replacement at £3,340, put at roughly a third of what the same operation costs privately in the United Kingdom — a comparison carried in the encyclopaedia to a named reference, without a date on the page, and old enough that this record treats it as a claim about the shape of the gap rather than a current price.\n\n*Inference —* that shape explains who comes. A patient with no insurance is choosing between a bill and nothing; a patient inside a public system is choosing between a wait and a fee, and the fee has to beat the wait rather than beat a competing bill. Elective orthopaedics is the procedure where that calculation bites hardest, and it is what the Baltic clinics lead with.\n\nDirective 2011/24/EU gives an insured EU patient reimbursement at the home tariff for care that would have been covered at home, with prior authorisation required for some categories — the route by which a wait in one member state is converted into a booking in another. *Trade practice —* Lithuanian clinics quote the self-payer anyway, because the reimbursement is a fraction and arrives afterwards.",
+  "how": "*Trade practice —* the Vilnius booking is made by email in English, confirmed with imaging sent ahead, and sized to a long weekend for dentistry and to a week or more for a joint. Packages name the nights, the surgeon and the physiotherapy sessions; the implant is a separate line on the orthopaedic quotes, as it is nearly everywhere. Rehabilitation after a joint replacement is the part that goes home unbooked.",
+  "today": "As of 16 September 2026 this record carries no price row for Vilnius: the figure in circulation has no date attached to a page this project could read.",
+  "notes": "Twelve kilometres from the city point covers the Old Town, Naujamiestis, Žirmūnai and the Santariškės hospital campus."
+ },
+ "geo": {
+  "lat": 54.6872,
+  "lon": 25.28,
+  "precision": "city",
+  "source": "s:wp-vilnius"
+ },
+ "address": {
+  "city": "Vilnius",
+  "country": "LT"
+ },
+ "kin": [
+  {
+   "to": "lithuania",
+   "as": "The country this cluster is the capital of.",
+   "rel": "whole"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The operation the Baltic pitch leads with, sold against a waiting list.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The short-stay work that fills the rest of the schedule.",
+   "rel": "procedure"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route that converts a wait in one member state into a booking here.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "as": "The scheme a British patient would be claiming under, and the reason the queue is the argument.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The line an orthopaedic quote from here usually carries separately.",
+   "rel": "risk"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where the physiotherapy after a joint replacement actually happens.",
+   "rel": "step"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that measures the queue this cluster sells against.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Directive 2011/24/EU",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32011L0024"
+  }
+ ],
+ "sources": [
+  "s:wp-vilnius",
+  "s:wp-medical-travel",
+  "s:eu-directive-2011-24",
+  "s:oecd-health-statistics",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-travel",
+    "note": "the £3,340 comparison is carried as the encyclopaedia carries it, undated; the second paragraph is this project reasoning"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-vilnius"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Vilnius Old Town rooftops.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

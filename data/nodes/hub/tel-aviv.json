@@ -1,0 +1,144 @@
+{
+ "schema": 1,
+ "id": "tel-aviv",
+ "type": "hub",
+ "names": {
+  "name": "Tel Aviv",
+  "aliases": [
+   "Tel Aviv-Yafo",
+   "תל אביב-יפו"
+  ],
+  "said": "Patients and taxi drivers say Ichilov; the hospital's own name is the Tel Aviv Sourasky Medical Center, and the two are the same building."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "IL",
+  "radius_km": 15,
+  "specialty": [
+   "fertility",
+   "reproductive medicine",
+   "oncology",
+   "haematology",
+   "neurosurgery"
+  ],
+  "draws": [
+   "ivf",
+   "icsi",
+   "pgt",
+   "egg-donation",
+   "car-t"
+  ],
+  "languages": [
+   "Hebrew",
+   "English",
+   "Russian",
+   "Arabic"
+  ]
+ },
+ "text": {
+  "what": "A city of 494,900 people whose inbound medical work runs through large public teaching hospitals rather than through a clinic strip. The Tel Aviv Sourasky Medical Center — founded in 1963, public, 1,171 beds as of 2020 on Israel Ministry of Health figures, and known to everyone as Ichilov — is the largest teaching hospital serving the city and its metropolitan area, and the second largest hospital complex in the country. The work foreign patients arrive for is reproductive medicine, oncology and haematology, and the agents who bring them are registered with the government.",
+  "story": "The trade is small, public-sector and regulated, which makes it unlike almost every other cluster in this directory. The counts are correspondingly modest: 15,000 people came to Israel for treatment in 2006, bringing about $40 million; 30,000 were treated in 2010; income was assessed at roughly $140 million in 2012. Those figures come from newspaper reporting rather than from a statistics office, and no more recent count could be read for this record.\n\nBecause the hospitals are public, the argument here is domestic. A foreign patient paying full cost occupies a bed and an operating list inside a system that funds beds and lists for residents, and the objection is queue displacement rather than price.\n\n*Inference —* that is why registration exists at all. A country regulating this trade in a public hospital estate is not regulating the export; it is rationing it against its own citizens' claim on the same theatre.\n\n*Trade practice —* Israeli fertility medicine is the draw most often named, and the reason given is volume: a system that funds treatment generously for its own residents builds laboratories and embryologists that a foreign self-payer can then buy into.",
+  "how": "*Trade practice —* the route runs through a registered agent who arranges the estimate, the deposit, the interpreter and the accommodation, and through a hospital's international department that quotes a price for the episode. The hospitals are public, so the bill is a schedule rather than a negotiated package, and what falls outside it is the same list as everywhere: imaging before admission, a complication, a night past the estimate.",
+  "today": "As of 16 September 2026 medical travel agents are required by Israeli law to register with the government. This record names no statute and no date for that requirement: the government page stating it could not be opened for this batch, and the requirement is carried here on the encyclopaedia entry that cites it.",
+  "notes": "Fifteen kilometres from the city point reaches Ramat Gan and the Sheba campus at Tel HaShomer, and covers the Tel Aviv district hospitals."
+ },
+ "geo": {
+  "lat": 32.08,
+  "lon": 34.78,
+  "precision": "city",
+  "source": "s:wp-tel-aviv"
+ },
+ "address": {
+  "city": "Tel Aviv-Yafo",
+  "country": "IL"
+ },
+ "kin": [
+  {
+   "to": "israel",
+   "as": "The country whose registration requirement governs the agents who bring patients here.",
+   "rel": "whole"
+  },
+  {
+   "to": "sheba",
+   "as": "The larger hospital campus at Tel HaShomer, inside this record's harvest radius.",
+   "rel": "part"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment most often named as the reason for the journey.",
+   "rel": "procedure"
+  },
+  {
+   "to": "pgt",
+   "as": "Sold alongside the cycle, and a reason some patients choose this system over their own.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "as": "The kind of work a large public teaching hospital takes and a clinic strip cannot.",
+   "rel": "procedure"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "The rule whose changes here decided who could use this city's clinics and when.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a fifteen-year-old newspaper figure is still the count in circulation.",
+   "rel": "story"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "What a public hospital's schedule does and does not absorb when something goes wrong.",
+   "rel": "governed-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Tel Aviv Sourasky Medical Center",
+   "url": "https://en.wikipedia.org/wiki/Tel_Aviv_Sourasky_Medical_Center"
+  }
+ ],
+ "sources": [
+  "s:wp-tel-aviv",
+  "s:wp-sourasky",
+  "s:wp-medical-tourism-israel",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-tourism-israel",
+    "note": "the third and fourth paragraphs are marked inline as inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-medical-tourism-israel",
+    "note": "the primary government page could not be opened for this batch; the requirement is second-hand and flagged as such"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-tel-aviv"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Tel Aviv Sourasky Medical Center.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

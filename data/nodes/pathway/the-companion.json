@@ -1,0 +1,74 @@
+{
+ "id": "the-companion",
+ "names": {
+  "name": "The companion",
+  "aliases": [
+   "escort",
+   "medical attendant",
+   "carer",
+   "the person who comes along"
+  ],
+  "said": "India's visa system calls them a medical attendant. Hospitals say relative. Nobody bills for them and nobody counts them."
+ },
+ "facets": {
+  "stage": "before-you-fly"
+ },
+ "x_order": 10,
+ "text": {
+  "what": "Somebody travels with the patient: a spouse, an adult child, a friend. They are not a patient, not staff and not a party to the contract, and they end up doing the work nobody costed — sitting through the consent conversation, moving a post-operative body through an airport, watching a wound at 3am in a hotel room.",
+  "story": "One state has put a number on it. India's e-Visa scheme grants the e-Medical Attendant Visa alongside the patient's visa and caps it: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\". That is an immigration rule rather than a clinical finding, but it is the clearest published statement this project found of how many people a treatment trip is expected to involve.\n\n*Inference —* the companion is the part of the cost that never appears in a comparison. A second airfare, a hotel room for the length of the stay, unpaid leave, and in a hair or dental trip the entire nursing function after discharge. The package price sits on one side of the ledger; none of this is on the other.\n\nThe companion is also the person who absorbs the failures of every earlier step. Where the consent conversation runs through an interpreter, they are the second listener. Where the discharge summary is thin, they are the one who remembers what was said. Where the patient cannot fly on the booked date, they are the one who rebooks.\n\nNothing this project could find measures any of it: not how many patients travel with someone, not what the companion spends, not what happens to patients who travel alone.",
+  "how": "What a reader would have to ask: whether the destination admits a companion in its own right or only as an ordinary visitor, whether the hospital permits a relative to stay overnight on the ward and at what charge, whether the package includes a second bed or a hotel room, what happens to the companion's own visa if the patient's stay extends, and who provides care in the recovery hotel — staff, or the person who came along.",
+  "today": "As of 16 September 2026 the only hard number this project can attach to this step is a visa quota: two attendants per patient, in one country's immigration rules. The clinical and financial load on that person is undocumented."
+ },
+ "kin": [
+  {
+   "to": "the-escort-burden",
+   "as": "The risk record for what this person carries.",
+   "rel": "risk"
+  },
+  {
+   "to": "alone-after-discharge",
+   "as": "What the same step looks like when nobody comes.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "as": "Where the companion becomes a legal category, and a quota.",
+   "rel": "step"
+  },
+  {
+   "to": "arrival-and-consent",
+   "as": "The conversation the companion is the second listener in.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where the nursing the companion started gets handed to nobody in particular.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:india-emedical-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "the visa quota is cited; everything about the burden is marked inference because nothing published measures it"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:india-emedical-visa",
+    "note": "first paragraph cited, the rest marked inline"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

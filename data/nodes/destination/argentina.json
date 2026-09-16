@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "id": "argentina",
+ "type": "destination",
+ "names": {
+  "name": "Argentina",
+  "aliases": ["República Argentina", "Argentine Republic"],
+  "said": "Buenos Aires, and mostly for neighbours. Argentine surgeons name Brazil, Paraguay and the United States as the places their foreign patients come from, in that order."
+ },
+ "region": ["south-america"],
+ "facets": {
+  "iso2": "AR",
+  "direction": "inbound",
+  "currency": "ARS",
+  "languages": ["Spanish"],
+  "draws": ["rhinoplasty", "breast-augmentation", "liposuction", "dental-implant"]
+ },
+ "text": {
+  "what": "A regional cosmetic and dental destination with a deep specialist base and a currency that has moved faster than its price lists. Buenos Aires carries almost all of it. The foreign share is modest and regional: a median 5.0% of patients from other locations, at the worldwide median, with an average of 11.6%.",
+  "story": "Argentina is the one country in this batch where the mix tips away from the knife. In the ISAPS survey of 2024 it reported 435,936 aesthetic procedures, of which 226,176 were non-surgical and 209,760 surgical — the only one of the Latin American countries this site carries where injectables and devices outnumber operations. Botulinum toxin alone accounted for 59,006 of them.\n\nThe professional body is the Sociedad Argentina de Cirugía Plástica, Estética y Reparadora, which maintains a public surgeon finder and puts the reason for it plainly: \"Cuando elige un cirujano plástico que sea miembro de la SACPER, puede estar seguro de que su cirujano está calificado\". *Inference —* a society directory answers one question, whether a surgeon is a member of that society. It does not answer what a hospital's infection rate is, or who is on call at the weekend, and no register in this subject answers all three.\n\n*Trade practice —* the pull for a foreign patient here has usually been the exchange rate rather than a waiting list, and a peso price read in a foreign currency is a different number every few months. This site carries no Argentine price for that reason: a price with a date is a fact, and a converted peso price without one is arithmetic.",
+  "how": "*Trade practice —* consultations are booked directly with the surgeon's consulting room in Recoleta or Palermo, quoted in pesos or in US dollars depending on the practice, and paid on arrival. Domestic private insurance — prepagas — covers reconstructive work and not aesthetic work, and covers nothing for a visitor. Dental courses are staged across two visits in the same way they are everywhere.",
+  "today": "As of the 2024 survey year Argentina's reported volume is 435,936 procedures, majority non-surgical, and its foreign-patient share sits at the worldwide median. The figures are survey extrapolations from board-certified plastic surgeons and count no dentistry, which is part of what brings patients across from Paraguay and Brazil."
+ },
+ "geo": {"lat": -34.6037, "lon": -58.3816, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "435,936 aesthetic procedures in 2024, 209,760 surgical and 226,176 non-surgical; a reported median 5.0% / average 11.6% of patients attending from other locations. ISAPS survey extrapolations from 2,975 responding board-certified plastic surgeons across 32 locations; aesthetic work by plastic surgeons only.",
+  "as_of": "2024",
+  "source": "s:isaps-global-survey-2024",
+  "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+ },
+ "kin": [
+  {"to": "brazil", "as": "The first origin Argentine surgeons name, and the regional giant next door.", "rel": "contrast"},
+  {"to": "rhinoplasty", "as": "One of the operations Buenos Aires is known for.", "rel": "procedure"},
+  {"to": "breast-augmentation", "as": "A staple of the surgical half of the country's count.", "rel": "procedure"},
+  {"to": "dental-implant", "as": "The work that brings patients across the land borders, and that no survey here counts.", "rel": "procedure"},
+  {"to": "isaps", "as": "The society whose survey supplies the counts on this page.", "rel": "measured-by"},
+  {"to": "package-price", "as": "The pricing form this country mostly does not use, quoting per procedure instead.", "rel": "term"},
+  {"to": "counting-patients", "as": "Why a procedure count is not a patient count, here as everywhere.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Sociedad Argentina de Cirugía Plástica, Estética y Reparadora", "url": "https://www.sacper.org.ar/"},
+  {"label": "ISAPS survey of procedures performed in 2024", "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"}
+ ],
+ "sources": ["s:isaps-global-survey-2024", "s:sacper", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:isaps-global-survey-2024"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "survey figures from ISAPS, the quotation from the society's own page; the readings after each are marked inline"},
+   "text.how": {"tier": "tradition", "note": "the shape of a Buenos Aires booking, hedged in the prose"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Buenos Aires skyline.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

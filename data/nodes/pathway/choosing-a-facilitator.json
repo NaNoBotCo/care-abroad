@@ -1,0 +1,94 @@
+{
+ "id": "choosing-a-facilitator",
+ "names": {
+  "name": "Choosing a facilitator",
+  "aliases": [
+   "broker",
+   "medical travel agency",
+   "patient coordinator",
+   "medical concierge"
+  ],
+  "said": "The industry says facilitator. The research literature says broker. The contract, where there is one, often says agent."
+ },
+ "facets": {
+  "stage": "booking"
+ },
+ "x_order": 5,
+ "text": {
+  "what": "An intermediary stands between the patient and the hospital: it collects records, produces a quote, books the surgeon, sometimes books the flight and the hotel, and meets the patient at the airport. It is a commercial party, it is usually paid by the hospital rather than by the patient, and in most countries no licence is required to be one.",
+  "story": "The most-cited empirical work counted what these firms tell the people who read them. Penney and colleagues examined 17 English-language Canadian broker websites in the summer of 2010: 47% made no mention of risks, only two of the seventeen displayed certified accreditation, 35.3% displayed a membership logo instead, 52.9% promised follow-up care, and one site stated it had \"no ongoing involvement in the doctor-patient relationship\". The authors concluded that brokers \"currently lack a common standard of care and accreditation\".\n\n*Trade practice —* the commercial arrangement is the part that is rarely written down where a patient can see it: the facilitator is typically remunerated by the hospital on a commission or referral basis, which means the party choosing the surgeon is paid by the surgeon's employer. Facilitator sites this project read do not state the arrangement.\n\n*Inference —* the accreditation logos that appear in place of a licence are not equivalent. A hospital accreditation says something about the hospital; a trade-body membership says the firm paid a subscription. Neither is a licence and neither creates a body that can strike a facilitator off.\n\nWhen something goes wrong, the question is what the intermediary agreed to be. An agent who arranged a service and a provider who supplied one carry different obligations, and that distinction turns on contract wording rather than on the job title used on the website.",
+  "how": "No national licensing regime for medical travel facilitators turned up anywhere this project could read. Some destinations license the hospital, and some license a health-tourism intermediary as a condition of operating in that country — those regimes are described on their own rule records — but the firm a patient contracts with is frequently registered in the patient's own country as an ordinary company, selling a service performed eight time zones away.\n\nWhat a reader would have to ask to find out: which legal entity is named on the contract and where it is registered, whether that entity is paid by the hospital and how much, which country's law and which forum the contract names, what the firm undertakes to do if a complication occurs, and whether it carries any insurance of its own.",
+  "today": "As of 16 September 2026 the only systematic evidence about this trade that this project could find is content analysis of what facilitators publish — the Canadian sample above and studies like it — not audit of what they do. Nothing counts how many patients travel through a facilitator, and nothing counts what happens to those who do."
+ },
+ "kin": [
+  {
+   "to": "getting-a-quote",
+   "as": "The document this party usually issues.",
+   "rel": "step"
+  },
+  {
+   "to": "the-deposit",
+   "as": "Where the money often lands first — in the intermediary's account, not the hospital's.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "as": "The word, and the argument about what the job is.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "What the intermediary's contract wording decides in advance.",
+   "rel": "risk"
+  },
+  {
+   "to": "medical-tourism-association",
+   "as": "A trade body whose logo appears where a licence does not exist.",
+   "rel": "org"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "What an accreditation mark on a broker's page does and does not say.",
+   "rel": "story"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The paper the facilitator's promises have to survive.",
+   "rel": "step"
+  },
+  {
+   "to": "defiant",
+   "as": "A named facilitator, listed here because its fee basis and its posted prices are the two things this step says are worth reading; this directory and it share an owner.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:penney-broker-websites"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "Penney 2011 is cited; the commission paragraph is marked trade practice and the accreditation paragraph inference, inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's search for a licensing regime; absence here means not found, not proven absent"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

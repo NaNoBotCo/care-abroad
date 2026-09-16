@@ -1,0 +1,63 @@
+{
+ "schema": 1,
+ "id": "united-kingdom",
+ "type": "destination",
+ "names": {
+  "name": "United Kingdom",
+  "aliases": ["UK", "Britain", "Great Britain and Northern Ireland"],
+  "said": "In the trade the UK is a source market first: the country the packages in Istanbul, Kraków and Budapest are priced in sterling for. Inbound, it is Harley Street and a private wing inside an NHS hospital."
+ },
+ "region": ["europe-west"],
+ "facets": {
+  "iso2": "GB",
+  "direction": "both",
+  "currency": "GBP",
+  "languages": ["English"],
+  "draws": ["proton-therapy", "executive-health-screening", "cabg", "bone-marrow-transplant"]
+ },
+ "text": {
+  "what": "A net exporter of patients with a small, profitable import trade. British patients travel for dentistry, hair restoration, cosmetic and bariatric surgery and fertility treatment; foreign patients arrive for complex care in London teaching hospitals and private clinics, some of them paid for by their own governments. The queue is the engine on the outbound side, and it is measured monthly.",
+  "story": "The queue first. NHS England's statistical press notice of 10 September 2026 put 7.3 million RTT pathways waiting to start treatment at the end of July 2026, an estimated 6.2 million unique patients, since some people wait on more than one pathway. In 111,379 cases the patient had waited more than 52 weeks and in 235 more than 104. In 65.4% of cases the wait was within 18 weeks, against a standard of 92%; the median wait was 12.0 weeks. That figure is published every month, and it is the single most reliable driver of outbound travel anywhere in this directory.\n\nThe travel itself has been counted once properly. Hanefeld and colleagues, using the UK International Passenger Survey alongside interviews and Freedom of Information returns from NHS foundation trusts, estimated that 63,000 UK residents travelled abroad for treatment in 2010 while around 52,000 patients came to the UK — and that inbound private patients treated in NHS facilities produced close to a quarter of the revenue from 7% of the volume in the data examined. The direction of that balance is the finding: the country that talks about being visited is a country that leaves.\n\n*Trade practice —* the inbound side splits three ways: private hospitals and clinics in London, private patient units inside NHS trusts, and patients whose bills are paid by a foreign government's health office, which is the arrangement Gulf states have long used for citizens referred abroad. No published count of state-sponsored arrivals was read for this record, and none is asserted here.\n\nWhat returns with the outbound patient is documented from the other end. Published UK surgical series describe revision work, infection and reconstruction after cosmetic surgery performed abroad landing on NHS units that were not paid for the original operation — a cost the price comparison never carried."
+ ,
+  "how": "An outbound patient books directly or through a facilitator, pays a deposit, and is quoted in sterling by a clinic abroad against a comparison column the clinic wrote. NHS entitlement does not follow them: aftercare is a new referral at home, and a complication is an emergency presentation. Inbound, an overseas patient either pays a private provider or is billed by an NHS trust's private patient unit at the trust's own tariff, sometimes under an agreement with a foreign government's health office.",
+  "today": "As of the July 2026 data, published 10 September 2026, 7.3 million pathways are waiting and the median wait is 12.0 weeks. The most recent national count of how many British patients that sends abroad remains the 2010 estimate; nothing newer with a stated method was read for this record."
+ },
+ "geo": {"lat": 51.5072, "lon": -0.1276, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "wait_days_home": 84,
+  "note": "The median RTT wait at the end of July 2026 was 12.0 weeks, which is the 84 days carried here; 7.3 million pathways were waiting, an estimated 6.2 million unique patients, with 111,379 waiting over 52 weeks and 65.4% within 18 weeks against a 92% standard. Figures include NHS England's estimates for three trusts and one independent provider that did not submit.",
+  "as_of": "2026-07",
+  "source": "s:nhs-rtt-july-2026",
+  "url": "https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/"
+ },
+ "kin": [
+  {"to": "turkiye", "as": "Where most British outbound hair, dental and bariatric traffic goes, priced in sterling.", "rel": "contrast"},
+  {"to": "poland", "as": "The dental corridor whose price list carries a column labelled average UK price.", "rel": "contrast"},
+  {"to": "hungary", "as": "The older dental destination for the same patients.", "rel": "contrast"},
+  {"to": "spain", "as": "Where 9% of its foreign-resident fertility cycles were run in 2022.", "rel": "contrast"},
+  {"to": "ireland", "as": "The other mostly outbound country in this region, with a different queue and a different scheme.", "rel": "contrast"},
+  {"to": "uk-nhs-treatment-abroad", "as": "What the NHS will and will not fund when a patient goes.", "rel": "governed-by"},
+  {"to": "hfea", "as": "The regulator that licenses every UK fertility clinic and publishes each one's results — the comparison a patient abroad loses.", "rel": "accredited-by"},
+  {"to": "revision-at-home", "as": "The operation the NHS performs and did not price.", "rel": "risk"},
+  {"to": "oecd-waiting-times", "as": "The series that puts this queue beside other countries'.", "rel": "measured-by"},
+  {"to": "is-it-cheaper", "as": "The question a 12-week median wait answers differently for each patient.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "NHS England — referral to treatment waiting times", "url": "https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/"},
+  {"label": "Medical Tourism: A Cost or Benefit to the NHS? (PLOS ONE, 2013)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0070406"}
+ ],
+ "sources": ["s:nhs-rtt-july-2026", "s:hanefeld-2013-nhs", "s:whiteman-nhs-burden-2025", "s:ahari-breast-unit-2024", "s:nhs-cosmetic-surgery-abroad", "s:sef-registro-2022", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:nhs-rtt-july-2026", "note": "waiting figures and the 2010 estimate are read off their own publications; the paragraph on state-sponsored arrivals is marked trade practice and carries no number"},
+   "text.how": {"tier": "tradition", "note": "how the two sides work in practice; the entitlement point is general and is not advice"},
+   "metrics": {"tier": "cited", "source": "s:nhs-rtt-july-2026"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Harley Street London.jpg"],
+ "needs_verification": false,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

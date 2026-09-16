@@ -1,0 +1,173 @@
+{
+ "schema": 1,
+ "id": "india",
+ "type": "destination",
+ "names": {
+  "name": "India",
+  "aliases": [
+   "भारत",
+   "Republic of India",
+   "Bharat"
+  ],
+  "said": "The trade says India and means four clusters — Chennai, the Delhi capital region, Mumbai and Bengaluru — and a handful of listed hospital chains inside them. The state says Medical Value Travel, abbreviated MVT, and runs it as a brand called Heal in India."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "direction": "inbound",
+  "currency": "INR",
+  "languages": [
+   "English",
+   "Hindi",
+   "Bengali",
+   "Arabic",
+   "Tamil"
+  ],
+  "draws": [
+   "cabg",
+   "kidney-transplant",
+   "liver-transplant",
+   "bone-marrow-transplant",
+   "knee-replacement",
+   "ivf",
+   "panchakarma"
+  ]
+ },
+ "text": {
+  "what": "The inbound flow an immigration desk counts. India issues a medical visa and an attendant visa, and the arrival is recorded by purpose, so the figure a reader gets is an arrivals count rather than a hospital's estimate of itself. In 2025 that count was 507,244, against 9.15 million foreign arrivals of every kind. The work is heavy — cardiac surgery, transplants, cancer, orthopaedics — and the patients come overwhelmingly from India's own region.",
+  "story": "Bangladesh alone supplied 325,127 of the 2025 medical arrivals. Iraq followed at 30,989, then Uzbekistan at 13,699, Somalia at 11,506, Turkmenistan at 10,231, Oman at 9,738 and Kenya at 9,357.\n\n*Inference —* that shape matters more than the total. Roughly three in five arrivals came from one neighbouring country, and the rest of the top seven are places where the alternative is not a long queue but no operating theatre. The Western patient trading a waiting list for a package price, who supplies most of the writing about cross-border care, is a rounding error in India's numbers.\n\nThe count itself is an arrival, not a person. A patient who flies home between cycles of chemotherapy and returns is counted twice; an attendant travelling on a separate visa class is counted separately again. India's advantage is that it says which of these it is counting, which most national figures in this subject do not.\n\n*Trade practice —* the hospitals doing the work are private chains that grew from single institutions founded by named cardiologists in the 1980s and 1990s, and the capital behind them is listed on Indian exchanges. Pricing is per item more often than per package, and the quotation a foreign patient receives is usually assembled by a hospital's international office from a tariff the hospital does not publish.",
+  "how": "The e-Medical Visa and the e-Medical Attendant Visa are open to nationals of 172 countries, and e-AYUSH and e-AYUSH Attendant classes were added for treatment under Indian systems of medicine. A Medical Value Travel portal handles planning and payment, and concierge desks at major airports are planned. The National Medical and Wellness Tourism Promotion Board, constituted by the Ministry of Tourism in 2015 and chaired by the Union Minister for Tourism, coordinates the ministries and the states.\n\nAccreditation runs through the National Accreditation Board for Hospitals and Healthcare Providers, which had accredited more than 1,299 hospitals as of 2026 against more than 600 safety parameters, and which is recognised internationally through its affiliation with the International Society for Quality in Healthcare. Several Indian hospitals also hold Joint Commission International accreditation.",
+  "today": "The Press Information Bureau's May 2026 backgrounder states the 2025 arrival figures and then reaches for a market size: \"Industry estimates place the medical tourism market at about USD 8.7 billion in 2025, with projections of USD 16.2 billion by 2030.\" It does not name the industry, the method, or what a dollar in that total is a dollar of. The arrivals count and the market estimate sit two lines apart on the same page and are not the same kind of number.",
+  "notes": "India has 69,364 hospitals — 43,486 private and 25,778 public — and 1.2 million registered doctors, on the same government page. Those describe the system Indians use; the hospitals in this directory are a small and expensive slice of it."
+ },
+ "geo": {
+  "lat": 13.0827,
+  "lon": 80.2707,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 507244,
+  "note": "Foreign nationals arriving in India specifically for medical treatment in 2025, about 5.5 per cent of 9.15 million foreign arrivals. It counts arrivals recorded by visa purpose, not individual people: a patient who leaves and returns is two. Attendants travel on their own visa class and are counted apart.",
+  "as_of": "2025",
+  "source": "s:pib-medical-wellness-tourism-2026",
+  "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202652862301.pdf"
+ },
+ "kin": [
+  {
+   "to": "india-e-medical-visa",
+   "as": "The visa class whose arrivals are the number this page carries.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "chennai",
+   "as": "The cluster this country is most often named for, and where its oldest corporate hospital chain started.",
+   "rel": "part"
+  },
+  {
+   "to": "delhi-ncr",
+   "as": "The capital-region cluster that takes most of the arrivals from West Asia and Africa.",
+   "rel": "part"
+  },
+  {
+   "to": "mumbai",
+   "as": "The financial capital's hospital cluster, and the one closest to the listed-company money.",
+   "rel": "part"
+  },
+  {
+   "to": "bengaluru",
+   "as": "Where the volume-surgery model was built and costed.",
+   "rel": "part"
+  },
+  {
+   "to": "apollo-chennai",
+   "as": "The hospital the country's private sector is usually dated from.",
+   "rel": "part"
+  },
+  {
+   "to": "narayana-health",
+   "as": "The chain that made cardiac surgery a volume calculation.",
+   "rel": "part"
+  },
+  {
+   "to": "nabh",
+   "as": "The national accreditor, holding more than 1,299 hospitals as of 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "cabg",
+   "as": "The operation most often named in this country's inbound cardiac work.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Sought here, and the reason the transplant rules are read closely.",
+   "rel": "procedure"
+  },
+  {
+   "to": "panchakarma",
+   "as": "The AYUSH course that earned its own visa class.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ndm-1-2010",
+   "as": "The 2010 resistance-gene naming row, argued over this country's name and over surgery abroad.",
+   "rel": "event"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why an arrivals count and a market estimate are not the same number.",
+   "rel": "story"
+  },
+  {
+   "to": "thailand",
+   "as": "The other Asian country with a long-running inbound trade, and a different patient at the door.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical and Wellness Tourism in India — PIB backgrounder, 2 May 2026",
+   "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202652862301.pdf"
+  }
+ ],
+ "sources": [
+  "s:pib-medical-wellness-tourism-2026",
+  "s:worldbank-open-data",
+  "s:osm",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:pib-medical-wellness-tourism-2026",
+    "note": "the arrival figures and source countries are the government's; the inline marks say which stretches are inference and which are trade practice"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:pib-medical-wellness-tourism-2026"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Chennai, the city most often called the country's care capital; the flow is spread across four clusters"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:pib-medical-wellness-tourism-2026"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Apollo Hospitals Chennai.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

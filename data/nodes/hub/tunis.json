@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "id": "tunis",
+ "type": "hub",
+ "names": {
+  "name": "Tunis",
+  "aliases": [
+   "تونس"
+  ],
+  "said": "The trade word here is clinique, not hospital, and it is French because the market is: the quote arrives in French and in euros."
+ },
+ "region": [
+  "africa-north"
+ ],
+ "facets": {
+  "iso2": "TN",
+  "radius_km": 18,
+  "specialty": [
+   "cosmetic surgery",
+   "bariatric surgery",
+   "dentistry",
+   "ophthalmology",
+   "thalassotherapy"
+  ],
+  "draws": [
+   "rhinoplasty",
+   "liposuction",
+   "abdominoplasty",
+   "breast-augmentation",
+   "gastric-sleeve",
+   "dental-implant"
+  ],
+  "languages": [
+   "Arabic",
+   "French",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A capital of 693,210 people, 2,885,040 across its metropolitan area, administered in fifteen municipal districts including El Menzah and the Medina. The private clinics that take foreign patients sit in the northern and coastal districts of the agglomeration rather than in the old city, and they sell cosmetic and bariatric surgery to a French-speaking market, alongside a separate seaside trade in thalassotherapy. Tunisia's private sector holds about 12% of the country's hospital beds and about 70% of its top-range medical equipment.",
+  "story": "Two claims travel with this city and both need their footing stated. The first is that medical travel is Tunisia's second largest employer and second highest foreign currency earner — carried in the encyclopaedia entry on Tunisian healthcare without a date and without a statistics office behind it, and repeated widely since. The second is a ranking: Tunisia placed second in Africa for health tourism and named the world's second thalassotherapy destination behind France, again a ranking rather than a count.\n\n*Inference —* neither claim tells a reader how many operations were performed on how many people, which is the thing a directory needs. What is documented is the structure: a private hospital sector holding a tenth of the beds and most of the modern equipment, which is the shape of a system with an export wing attached to a public one.\n\n*Trade practice —* the market is French and francophone African. Quotes arrive in euros, the surgeon corresponds in French, and the package includes the clinic stay, a convalescence hotel and the transfers. Cosmetic surgery is the advertised core, with sleeve gastrectomy beside it.\n\nLibyan patients are the other flow, and they arrive for reasons that have nothing to do with price. A neighbouring health system under prolonged disruption sends patients across a land border for ordinary care as well as for surgery, and that traffic is a referral trade rather than an elective one.",
+  "how": "*Trade practice —* the Tunis package is quoted per procedure with the nights, the transfers and a convalescence hotel written in, and arranged through an agency that corresponds in French. A deposit holds the date; the balance is paid on arrival. What sits outside is the same list as everywhere — imaging, a complication, a night past the package, and the revision six months later at home.",
+  "today": "As of 16 September 2026 this record carries no price row and no inbound patient count for Tunis. The claims in circulation are rankings and shares rather than counts with a method.",
+  "notes": "Eighteen kilometres from the city point covers the Medina, El Menzah, the lake districts and the coastal suburbs toward La Marsa."
+ },
+ "geo": {
+  "lat": 36.8064,
+  "lon": 10.1817,
+  "precision": "city",
+  "source": "s:wp-tunis"
+ },
+ "address": {
+  "city": "Tunis",
+  "country": "TN"
+ },
+ "kin": [
+  {
+   "to": "tunisia",
+   "as": "The country whose export wing this city holds most of.",
+   "rel": "whole"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "The advertised core of the francophone cosmetic trade here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "Sold here with the convalescence hotel written into the quote.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "The bariatric line beside the cosmetic one.",
+   "rel": "procedure"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The thalassotherapy coast belongs to this older category and is counted in the same figures.",
+   "rel": "term"
+  },
+  {
+   "to": "istanbul",
+   "as": "The other Mediterranean cosmetic cluster, selling to a different language market.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a ranking keeps standing in for a count here.",
+   "rel": "story"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who operates again, in Paris or Lyon, when a result needs correcting.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Healthcare in Tunisia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Tunisia"
+  }
+ ],
+ "sources": [
+  "s:wp-tunis",
+  "s:wp-healthcare-tunisia",
+  "s:wp-medical-travel",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-healthcare-tunisia",
+    "note": "the two claims are carried with their weak provenance stated; paragraphs two to four are marked inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-tunis"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Tunis Avenue Habib Bourguiba.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16"
+}

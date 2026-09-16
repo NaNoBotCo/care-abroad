@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "id": "greece",
+ "type": "destination",
+ "names": {
+  "name": "Greece",
+  "aliases": ["Ελλάδα", "Hellenic Republic", "Ελληνική Δημοκρατία"],
+  "said": "In the fertility trade Greece means Athens and Thessaloniki clinics with English-language desks, donor programmes, and a court that has to approve a surrogacy before it happens."
+ },
+ "region": ["europe-south"],
+ "facets": {
+  "iso2": "GR",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": ["Greek", "English"],
+  "draws": ["ivf", "egg-donation", "surrogacy", "icsi", "dental-implant"]
+ },
+ "text": {
+  "what": "A fertility destination with a court in the middle of it. Greek clinics run donor-egg and IVF programmes for patients from Britain, Italy, Germany and the Balkans; Greek surrogacy is distinctive in Europe because a court authorises the arrangement in advance rather than a registry resolving it afterwards. The rest of Greek cross-border care is small: 56 reimbursement requests in 2022, of which 54 were granted.",
+  "story": "*Trade practice —* the trade's account of Greece is price against Spain and law against almost everywhere else: donor programmes at lower fees than Spanish clinics charge, and a surrogacy route open to people whose own countries treat the arrangement as unenforceable or unlawful. The specific terms of Greek assisted-reproduction law, the age limits and the residence conditions, have been amended repeatedly; this project did not read the statutes for this record and states no article numbers here.\n\nWhat can be read is the state machinery around it. Greece runs a prior-notification system — one of ten in the EU — and a prior-authorisation system that handled four requests in 2022, authorising two. For care needing no authorisation it received 56 requests and granted 54. Those are the movements of Greek residents, and they are almost nothing.\n\n*Inference —* a country can be a significant destination in one specialty and invisible in every official cross-border table, because the patients who come are paying privately and the tables count refunds. Greece is the clearest case of that gap in Southern Europe."
+ ,
+  "how": "Fertility programmes quoted in euro, medication outside the quote, two visits timed to stimulation and transfer. Where a surrogacy is involved the sequence begins with a court application rather than a clinic booking, and the timetable is the court's. English-language coordination is standard at the clinics that advertise abroad.",
+  "today": "Greek fertility law has moved more than once in the last decade and the direction of the most recent changes, including who must be resident in Greece for a surrogacy to be approved, is the subject of that law's own record rather than this one. Nothing here should be read as the current rule."
+ },
+ "geo": {"lat": 37.9838, "lon": 23.7275, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "56 requests for reimbursement of care not subject to prior authorisation in 2022, 54 granted; four prior-authorisation requests, two authorised. These count Greek residents treated abroad. No official count of patients travelling into Greece for treatment was found on this pass.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "kin": [
+  {"to": "ivf", "as": "The treatment its export clinics are built on.", "rel": "procedure"},
+  {"to": "egg-donation", "as": "The programme priced against Spain's.", "rel": "procedure"},
+  {"to": "surrogacy", "as": "The arrangement a Greek court authorises before it begins.", "rel": "procedure"},
+  {"to": "surrogacy-law", "as": "Where the conditions, including residence, are set out and dated.", "rel": "governed-by"},
+  {"to": "cyprus", "as": "The other Eastern Mediterranean fertility destination, with its own licensing council.", "rel": "contrast"},
+  {"to": "spain", "as": "The larger donor-egg market it competes with on price.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route that carries almost none of this traffic.", "rel": "governed-by"}
+ ],
+ "sources": ["s:ec-crossborder-2022", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:ec-crossborder-2022"},
+  "fields": {
+   "text.what": {"tier": "tradition", "note": "the reimbursement figures are cited; the description of the court route is the trade's and is not tied here to an article of Greek law"},
+   "text.story": {"tier": "cited", "source": "s:ec-crossborder-2022", "note": "first paragraph marked trade practice, third marked inference"},
+   "text.how": {"tier": "tradition"},
+   "text.today": {"tier": "inference"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Athens Acropolis view.jpg"],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16"
+}

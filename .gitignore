@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.pyc
+.DS_Store
+data/images/_triage/
+# card masters regenerate from the data in about a minute (tools/cards.py);
+# the published copies under docs/cards/ are what the unfurlers fetch.
+/cards/

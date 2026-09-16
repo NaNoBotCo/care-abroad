@@ -1,0 +1,1173 @@
+{
+"note": "mined by build.py from data/nodes names + aliases — synonymy only",
+"groups": [
+[
+"argentina",
+"argentine republic",
+"república argentina"
+],
+[
+"australia",
+"commonwealth of australia"
+],
+[
+"belgien",
+"belgique",
+"belgium",
+"belgië",
+"royaume de belgique"
+],
+[
+"brazil",
+"federative republic of brazil",
+"república federativa do brasil"
+],
+[
+"canada",
+"dominion of canada"
+],
+[
+"china",
+"people's republic of china",
+"prc",
+"中华人民共和国"
+],
+[
+"colombia",
+"republic of colombia",
+"república de colombia"
+],
+[
+"costa rica",
+"republic of costa rica",
+"república de costa rica"
+],
+[
+"croatia",
+"hrvatska",
+"republika hrvatska"
+],
+[
+"cuba",
+"republic of cuba",
+"república de cuba"
+],
+[
+"cyprus",
+"kıbrıs",
+"republic of cyprus",
+"κυπριακή δημοκρατία",
+"κύπρος"
+],
+[
+"czech republic",
+"czechia",
+"česko",
+"česká republika"
+],
+[
+"dominican republic",
+"dr",
+"república dominicana"
+],
+[
+"arab republic of egypt",
+"egypt",
+"miṣr",
+"جمهورية مصر العربية"
+],
+[
+"bundesrepublik deutschland",
+"deutschland",
+"germany"
+],
+[
+"greece",
+"hellenic republic",
+"ελλάδα",
+"ελληνική δημοκρατία"
+],
+[
+"hungary",
+"magyarország"
+],
+[
+"bharat",
+"india",
+"republic of india",
+"भारत"
+],
+[
+"indonesia",
+"republic of indonesia",
+"republik indonesia"
+],
+[
+"iran",
+"islamic republic of iran",
+"persia",
+"ایران"
+],
+[
+"israel",
+"state of israel",
+"מדינת ישראל"
+],
+[
+"japan",
+"nihon",
+"nippon",
+"日本"
+],
+[
+"hashemite kingdom of jordan",
+"jordan",
+"المملكة الأردنية الهاشمية"
+],
+[
+"jamhuri ya kenya",
+"kenya",
+"republic of kenya"
+],
+[
+"lietuva",
+"lietuvos respublika",
+"lithuania"
+],
+[
+"federation of malaysia",
+"malaysia"
+],
+[
+"estados unidos mexicanos",
+"mexico",
+"united mexican states"
+],
+[
+"kingdom of morocco",
+"morocco",
+"royaume du maroc",
+"المملكة المغربية",
+"ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"
+],
+[
+"federal democratic republic of nepal",
+"nepal",
+"नेपाल"
+],
+[
+"federal republic of nigeria",
+"naijíríyà",
+"nigeria"
+],
+[
+"kktc",
+"kuzey kıbrıs",
+"n. cyprus",
+"northern cyprus",
+"trnc",
+"turkish republic of northern cyprus"
+],
+[
+"panama",
+"republic of panama",
+"república de panamá"
+],
+[
+"philippines",
+"pilipinas",
+"republic of the philippines"
+],
+[
+"poland",
+"polska",
+"rzeczpospolita polska"
+],
+[
+"portugal",
+"portuguesa",
+"república portuguesa"
+],
+[
+"romania",
+"românia"
+],
+[
+"kingdom of saudi arabia",
+"ksa",
+"saudi arabia",
+"المملكة العربية السعودية"
+],
+[
+"republic of singapore",
+"singapore",
+"新加坡共和国"
+],
+[
+"iningizimu afrika",
+"republic of south africa",
+"rsa",
+"south africa",
+"suid-afrika"
+],
+[
+"korea",
+"republic of korea",
+"south korea",
+"대한민국"
+],
+[
+"españa",
+"reino de españa",
+"spain"
+],
+[
+"ceylon",
+"sri lanka",
+"இலங்கை",
+"ශ්‍රී ලංකාව"
+],
+[
+"schweiz",
+"suisse",
+"svizra",
+"svizzera",
+"swiss confederation",
+"switzerland"
+],
+[
+"chinese taipei",
+"republic of china",
+"taiwan",
+"中華民國"
+],
+[
+"kingdom of thailand",
+"thailand",
+"ราชอาณาจักรไทย"
+],
+[
+"république tunisienne",
+"tunisia",
+"tunisian republic",
+"الجمهورية التونسية"
+],
+[
+"republic of türkiye",
+"turkey",
+"türkiye",
+"türkiye cumhuriyeti"
+],
+[
+"emirates",
+"uae",
+"united arab emirates",
+"الإمارات العربية المتحدة"
+],
+[
+"britain",
+"great britain and northern ireland",
+"uk",
+"united kingdom"
+],
+[
+"united states",
+"united states of america",
+"us",
+"usa"
+],
+[
+"socialist republic of vietnam",
+"vietnam",
+"việt nam"
+],
+[
+"amman",
+"عمّان"
+],
+[
+"antalya",
+"antalya clinic-and-hotel belt"
+],
+[
+"bangkok",
+"krung thep",
+"krung thep maha nakhon",
+"กรุงเทพมหานคร"
+],
+[
+"barcelona",
+"barna"
+],
+[
+"bangalore",
+"bengaluru",
+"ಬೆಂಗಳೂರು"
+],
+[
+"bogota",
+"bogotá",
+"distrito capital",
+"santafé de bogotá"
+],
+[
+"buda and pest",
+"budapest"
+],
+[
+"cairo",
+"greater cairo",
+"القاهرة"
+],
+[
+"benito juárez",
+"cancun",
+"cancún"
+],
+[
+"chennai",
+"madras",
+"சென்னை"
+],
+[
+"chiang mai",
+"chiangmai",
+"เชียงใหม่"
+],
+[
+"colombo",
+"கொழும்பு",
+"කොළඹ"
+],
+[
+"delhi",
+"delhi ncr",
+"gurgaon",
+"gurugram",
+"national capital region",
+"दिल्ली"
+],
+[
+"dhcc",
+"dubai",
+"dubai healthcare city",
+"دبي"
+],
+[
+"ciudad de la habana",
+"havana",
+"la habana"
+],
+[
+"istanbul",
+"i̇stanbul",
+"şişli–nişantaşı clinic belt"
+],
+[
+"izmir",
+"i̇zmir",
+"smyrna"
+],
+[
+"egoli",
+"joburg",
+"johannesburg",
+"jozi"
+],
+[
+"kl",
+"klang valley",
+"kuala lumpur"
+],
+[
+"algodones",
+"los algodones",
+"molar city"
+],
+[
+"medellin",
+"medellín",
+"the aburrá valley"
+],
+[
+"monterrey",
+"monterrey, nuevo león",
+"mty"
+],
+[
+"bombay",
+"mumbai",
+"मुंबई"
+],
+[
+"lefkosia",
+"lefkoşa",
+"nicosia",
+"north nicosia",
+"λευκωσία"
+],
+[
+"nuevo progreso",
+"nuevo progreso, tamaulipas",
+"progreso"
+],
+[
+"george town",
+"penang",
+"pulau pinang",
+"槟城"
+],
+[
+"mueang phuket",
+"phuket",
+"phuket town",
+"ภูเก็ต"
+],
+[
+"prague",
+"praha"
+],
+[
+"san josé",
+"san josé, costa rica",
+"the central valley"
+],
+[
+"distrito nacional",
+"santo domingo",
+"santo domingo de guzmán"
+],
+[
+"gangnam",
+"seoul",
+"강남",
+"서울"
+],
+[
+"novena health city",
+"orchard medical belt",
+"singapore",
+"新加坡"
+],
+[
+"sopron",
+"ödenburg"
+],
+[
+"taipei",
+"taipei city",
+"臺北"
+],
+[
+"tbilisi",
+"tiflis",
+"თბილისი"
+],
+[
+"tel aviv",
+"tel aviv-yafo",
+"תל אביב-יפו"
+],
+[
+"tijuana",
+"tijuana, baja california",
+"tj"
+],
+[
+"tunis",
+"تونس"
+],
+[
+"vilna",
+"vilnius",
+"wilno"
+],
+[
+"warsaw",
+"warszawa"
+],
+[
+"abdominoplasty",
+"lipectomy",
+"mini abdominoplasty",
+"panniculectomy",
+"tummy tuck"
+],
+[
+"acl reconstruction",
+"aclr",
+"anterior cruciate ligament reconstruction",
+"knee ligament reconstruction"
+],
+[
+"detox and rehab",
+"inpatient rehabilitation",
+"rehab",
+"residential addiction treatment",
+"residential treatment programme"
+],
+[
+"bbl",
+"brazilian butt lift",
+"buttock augmentation with fat grafting",
+"fat transfer to the buttocks",
+"gluteal fat grafting",
+"gluteal lipofilling"
+],
+[
+"bmt",
+"bone marrow transplant",
+"haematopoietic stem cell transplant",
+"hsct",
+"stem cell transplant"
+],
+[
+"augmentation mammoplasty",
+"boob job",
+"breast augmentation",
+"breast enlargement",
+"fat transfer to the breast"
+],
+[
+"axicabtagene ciloleucel",
+"car t-cell therapy",
+"car-t",
+"chimeric antigen receptor t-cell therapy",
+"tisagenlecleucel"
+],
+[
+"auditory prosthesis",
+"ci",
+"cochlear implant",
+"cochlear implantation"
+],
+[
+"dental implant",
+"endosseous implant",
+"implant fixture",
+"single tooth implant"
+],
+[
+"choi implanter technique",
+"dhi",
+"direct hair implantation (dhi)",
+"direct hair transplantation",
+"implanter pen technique"
+],
+[
+"adr",
+"artificial disc replacement",
+"cdr",
+"cervical disc replacement",
+"disc arthroplasty",
+"tdr",
+"total disc replacement"
+],
+[
+"divf",
+"donor egg ivf",
+"egg donation",
+"od",
+"oocyte donation",
+"ovodonación"
+],
+[
+"egg freezing",
+"fertility preservation",
+"oocyte cryopreservation",
+"oocyte vitrification",
+"social freezing"
+],
+[
+"annual physical",
+"comprehensive medical check-up",
+"executive check-up",
+"executive health screening",
+"health screening package"
+],
+[
+"deep plane facelift",
+"facelift",
+"mid-facelift",
+"neck lift",
+"rhytidectomy",
+"smas facelift"
+],
+[
+"gamma knife radiosurgery",
+"gamma knife surgery",
+"leksell gamma knife",
+"srs",
+"stereotactic radiosurgery"
+],
+[
+"allurion",
+"gastric balloon",
+"intragastric balloon",
+"orbera",
+"swallowable balloon",
+"weight loss balloon"
+],
+[
+"gastric bypass",
+"mini gastric bypass",
+"oagb",
+"one-anastomosis gastric bypass",
+"roux-en-y gastric bypass",
+"rygb"
+],
+[
+"gastric sleeve",
+"sleeve",
+"sleeve gastrectomy",
+"vertical sleeve gastrectomy",
+"vsg"
+],
+[
+"follicular unit excision",
+"follicular unit extraction",
+"fue",
+"hair transplant",
+"sapphire fue"
+],
+[
+"hip arthroplasty",
+"tha",
+"thr",
+"total hip arthroplasty",
+"total hip replacement"
+],
+[
+"icsi",
+"intracytoplasmic sperm injection",
+"ivf-icsi",
+"sperm injection"
+],
+[
+"art",
+"assisted reproductive technology",
+"in vitro fertilisation",
+"in vitro fertilization",
+"ivf"
+],
+[
+"kidney graft",
+"kidney transplant",
+"renal transplant",
+"renal transplantation"
+],
+[
+"arthroscopic partial meniscectomy",
+"keyhole knee surgery",
+"knee arthroscopy",
+"knee scope",
+"meniscus surgery"
+],
+[
+"knee arthroplasty",
+"knee replacement",
+"tka",
+"total knee arthroplasty",
+"total knee replacement"
+],
+[
+"body contouring",
+"lipo",
+"lipoplasty",
+"liposuction",
+"suction-assisted lipectomy"
+],
+[
+"ayurveda cure",
+"ayurvedic purification therapy",
+"body purification programme",
+"pancakarma",
+"panchakarma"
+],
+[
+"embryo screening",
+"pgd",
+"pgs",
+"pgt",
+"pgt-a",
+"pgt-m",
+"pgt-sr",
+"preimplantation genetic testing"
+],
+[
+"particle therapy",
+"pbt",
+"proton beam radiotherapy",
+"proton beam therapy",
+"proton therapy"
+],
+[
+"closed rhinoplasty",
+"nasal reshaping",
+"nose job",
+"open rhinoplasty",
+"rhinoplasty",
+"septorhinoplasty"
+],
+[
+"reverse total shoulder replacement",
+"rtsa",
+"shoulder arthroplasty",
+"total shoulder arthroplasty",
+"total shoulder replacement",
+"tsa"
+],
+[
+"aid",
+"di",
+"donor insemination",
+"donor sperm",
+"sperm donation"
+],
+[
+"acdf",
+"anterior cervical discectomy and fusion",
+"arthrodesis of the spine",
+"interbody fusion",
+"spinal fusion",
+"tlif",
+"transforaminal lumbar interbody fusion"
+],
+[
+"gestational carrier",
+"gestational surrogacy",
+"host surrogacy",
+"surrogacy",
+"traditional surrogacy"
+],
+[
+"apollo greams road",
+"apollo hospitals, greams road, chennai",
+"apollo main hospital",
+"அப்பல்லோ மருத்துவமனை"
+],
+[
+"bangkok hospital",
+"bangkok hospital headquarters",
+"bhq",
+"โรงพยาบาลกรุงเทพ"
+],
+[
+"bumrungrad",
+"bumrungrad international hospital",
+"โรงพยาบาลบำรุงราษฎร์"
+],
+[
+"fmri",
+"fortis gurgaon",
+"fortis memorial research institute",
+"fortis memorial research institute, gurugram"
+],
+[
+"gleneagles hospital kuala lumpur",
+"gleneagles kl",
+"gleneagles kuala lumpur",
+"hospital gleneagles kuala lumpur"
+],
+[
+"hospital pulau",
+"island hospital",
+"island hospital penang"
+],
+[
+"kdah",
+"kokilaben dhirubhai ambani hospital",
+"kokilaben hospital",
+"कोकिलाबेन धीरूभाई अंबानी हॉस्पिटल"
+],
+[
+"max healthcare saket",
+"max saket",
+"max smart super speciality hospital",
+"max super speciality hospital, saket"
+],
+[
+"medanta",
+"medanta — the medicity, gurugram",
+"the medicity",
+"मेदांता"
+],
+[
+"narayana health",
+"narayana hrudayalaya",
+"nh",
+"ನಾರಾಯಣ ಹೃದಯಾಲಯ"
+],
+[
+"pcmc",
+"prince court",
+"prince court medical centre"
+],
+[
+"samitivej",
+"samitivej sukhumvit hospital",
+"โรงพยาบาลสมิติเวช สุขุมวิท"
+],
+[
+"aftercare at home",
+"follow-up",
+"post-operative care at home",
+"the six-week check"
+],
+[
+"arrival and consent",
+"signing the consent form",
+"the pre-operative consultation"
+],
+[
+"booking the flight",
+"the outbound and the return",
+"ticketing"
+],
+[
+"broker",
+"choosing a facilitator",
+"medical concierge",
+"medical travel agency",
+"patient coordinator"
+],
+[
+"complaint and claim",
+"malpractice claim",
+"redress",
+"regulatory complaint"
+],
+[
+"cost estimate",
+"estimate",
+"getting a quote",
+"package quotation"
+],
+[
+"getting your records out",
+"medical records request",
+"records portability",
+"subject access request"
+],
+[
+"in hospital",
+"the admission",
+"the inpatient stay"
+],
+[
+"policy exclusions",
+"reading the exclusions",
+"the small print",
+"what the package leaves out"
+],
+[
+"remote opinion",
+"second consultation",
+"the second opinion"
+],
+[
+"carer",
+"escort",
+"medical attendant",
+"the companion",
+"the person who comes along"
+],
+[
+"advance payment",
+"booking fee",
+"prepayment",
+"the deposit"
+],
+[
+"discharge letter",
+"epicrisis",
+"operation report",
+"the discharge summary"
+],
+[
+"repatriation by scheduled flight",
+"the flight home",
+"the return leg"
+],
+[
+"medical attendant visa",
+"medical visa",
+"the visa",
+"treatment visa"
+],
+[
+"the complication",
+"the emergency abroad",
+"the failed result",
+"when it goes wrong"
+],
+[
+"amr",
+"antimicrobial resistance acquired abroad",
+"carbapenem-resistant enterobacterales",
+"cre",
+"multidrug-resistant organisms"
+],
+[
+"bbl death",
+"death from gluteal fat grafting",
+"macroscopic fat embolism",
+"pulmonary fat embolism"
+],
+[
+"blood screening",
+"blood supply safety",
+"transfusion-transmissible infection",
+"tti"
+],
+[
+"blood-borne infection",
+"bloodborne virus from treatment abroad",
+"hepatitis b",
+"hepatitis c",
+"hiv"
+],
+[
+"c. auris",
+"candida auris",
+"candidozyma auris"
+],
+[
+"counterfeit medicines",
+"falsified medical products",
+"sf medical products",
+"substandard and falsified medicines"
+],
+[
+"booking fee",
+"cancellation terms",
+"prepayment"
+],
+[
+"dvt",
+"pe",
+"venous thromboembolism",
+"vte"
+],
+[
+"fitness to fly",
+"flying after surgery",
+"the ten-day rule"
+],
+[
+"loss to follow-up",
+"no aftercare",
+"the follow-up gap"
+],
+[
+"fungal meningitis after epidural anaesthesia",
+"fusarium solani meningitis",
+"the matamoros outbreak"
+],
+[
+"device billed separately",
+"excluding implant",
+"prosthesis not included",
+"the implant is excluded"
+],
+[
+"cross-border liability",
+"legal recourse",
+"malpractice recourse across a border",
+"suing abroad"
+],
+[
+"mycobacterium abscessus",
+"nontuberculous mycobacteria",
+"ntm",
+"rapidly growing mycobacteria"
+],
+[
+"air ambulance",
+"medevac",
+"medical evacuation",
+"repatriation and medical evacuation cost"
+],
+[
+"corrective surgery",
+"putting it right",
+"revision at home",
+"the second operation"
+],
+[
+"ssi",
+"surgical site infection",
+"wound infection"
+],
+[
+"commercial transplantation",
+"organ trafficking",
+"transplant harm",
+"transplant tourism"
+],
+[
+"stem cell clinics",
+"unproven stem cell treatment"
+],
+[
+"aaci",
+"aaci healthcare",
+"american accreditation commission international"
+],
+[
+"achs international",
+"achsi"
+],
+[
+"declaration of istanbul custodian group",
+"dicg"
+],
+[
+"defiant",
+"defiant.to"
+],
+[
+"det norske veritas",
+"dias",
+"dnv",
+"dnv healthcare",
+"niaho"
+],
+[
+"national contact points",
+"ncps"
+],
+[
+"dg estat",
+"european statistical office",
+"eurostat"
+],
+[
+"gha",
+"global healthcare accreditation"
+],
+[
+"imtj",
+"international medical travel journal"
+],
+[
+"ieea",
+"isqua eea",
+"isqua external evaluation association",
+"the accreditor of accreditors"
+],
+[
+"jci",
+"joint commission international"
+],
+[
+"khidi",
+"korea health industry development institute",
+"한국보건산업진흥원"
+],
+[
+"medical tourism association",
+"mta"
+],
+[
+"malaysia healthcare travel council",
+"mhtc"
+],
+[
+"ocde",
+"oecd"
+],
+[
+"temos",
+"temos international gmbh",
+"temos international healthcare accreditation"
+],
+[
+"ha thailand",
+"hai",
+"healthcare accreditation institute",
+"สถาบันรับรองคุณภาพสถานพยาบาล",
+"สรพ."
+],
+[
+"oms",
+"who",
+"world health organization"
+],
+[
+"current health expenditure per person",
+"health spending per capita",
+"sh.xpd.chex.pc.cd"
+],
+[
+"medical travel",
+"medical tourism",
+"health tourism",
+"cross-border care",
+"patient mobility"
+],
+[
+"knee replacement",
+"total knee arthroplasty",
+"tka",
+"knee arthroplasty"
+],
+[
+"hip replacement",
+"total hip arthroplasty",
+"tha",
+"hip arthroplasty"
+],
+[
+"ivf",
+"in vitro fertilisation",
+"in vitro fertilization",
+"fertility treatment"
+],
+[
+"gastric sleeve",
+"sleeve gastrectomy",
+"bariatric surgery",
+"weight loss surgery"
+],
+[
+"dental implant",
+"implant",
+"tooth implant"
+],
+[
+"hair transplant",
+"fue",
+"follicular unit extraction",
+"hair restoration"
+],
+[
+"lasik",
+"laser eye surgery",
+"refractive surgery"
+],
+[
+"heart bypass",
+"cabg",
+"coronary artery bypass graft",
+"bypass surgery"
+],
+[
+"facilitator",
+"medical travel agent",
+"broker",
+"patient coordinator"
+],
+[
+"package price",
+"bundled price",
+"all-inclusive price",
+"case rate"
+],
+[
+"accreditation",
+"jci",
+"joint commission international"
+]
+]
+}

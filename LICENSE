@@ -1,0 +1,44 @@
+The records in data/ and the pages built from them are licensed
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+Two parts of this repository are NOT under that licence, and carry their own:
+
+  data/harvest/osm-places.json, data/harvest/osm-towns.json and every place point
+  derived from them, including build/api/places.json and docs/api/places.json
+      © OpenStreetMap contributors, Open Database Licence 1.0 (share-alike)
+      https://opendatacommons.org/licenses/odbl/1-0/
+
+  data/images/** and docs/images/**
+      each picture carries its own licence in the .json sidecar beside it and on
+      the page that shows it: CC0, public domain, CC BY, CC BY-SA, the Free Art
+      Licence, or a "no known copyright restrictions" rights statement from the
+      holding institution. None of them is relicensed by this repository.
+
+Recipes copied in full are from books published before 1930 and are in the public
+domain, or from Wikibooks under CC BY-SA 4.0, named on the page. Recipes still in
+copyright appear as their ingredient list only.
+
+State outlines in data/geo/states.json: Natural Earth, public domain.
+
+The code in tools/ is MIT:
+
+Copyright (c) 2026 NaN
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR OTHERWISE ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

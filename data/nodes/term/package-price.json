@@ -1,0 +1,87 @@
+{
+ "id": "package-price",
+ "names": {
+  "name": "Package price",
+  "aliases": [
+   "package",
+   "all-inclusive package",
+   "fixed-price package",
+   "surgery package"
+  ],
+  "said": "Hospitals say package. Brokers say all-inclusive. Neither phrase is defined by anybody except the party selling it."
+ },
+ "etymology": {
+  "root": "package is pack plus the noun suffix -age, 1530s, and first meant the act of packing; the sense of a bundle or a quantity pressed together follows in 1722. The commercial compound arrives much later — the Online Etymology Dictionary dates package deal, \"transaction agreed to as a whole\", to 1952 — so the word this trade prices in comes from post-war selling, not from medicine.",
+  "first_attested": "1722 for the bundle sense; 1952 for package deal",
+  "tier": "cited",
+  "source": "s:etymonline-package",
+  "note": "A package is a list, not a total. Items left off the list are billed at the ordinary rate."
+ },
+ "text": {
+  "what": "One figure covering a named list of items for one episode of treatment: theatre time, a surgeon, an anaesthetist, a stated number of nights. It is the form almost every price on this site takes. Its meaning sits entirely in the two lists the seller publishes beside it — what the figure covers and what it does not.",
+  "story": "Read one and the shape is plain. Bumrungrad's total knee replacement package, JOINT04, read on 16 September 2026, buys three hours of theatre, the nursing and surgical team within those three hours, three nights on the surgical ward, equipment and supplies, medications related to the procedure, the surgeon, an assistant surgeon if needed, and the anaesthesiologist. Its exclusion list is longer: the implant, the first consultation and the follow-up visits, specialist consultations, nights beyond three and any intensive care, blood transfusion, laboratory and imaging before or after surgery, take-home medication, outpatient charges before admission, and complex or emergency cases. The package name itself carries the word — exclude implant.\n\nA package can also be the instrument that hides a unit. Estenove in Istanbul prices hair restoration at 3,395, 4,595 and 6,595 euro for what it calls the maximum number of grafts, and states that it does not price per graft. One seller's package removes the unit of comparison; another seller's package removes the largest line on the bill.\n\n*Inference —* a package price is therefore comparable only against a package with the same list. A joint package that excludes the implant and one that includes it are two different objects wearing the same word, and the gap between them is not a discount.",
+  "how": "Four things decide what a package figure means: whether the stated nights are a floor or a ceiling and what night N+1 costs; whether the price has an expiry date on the page; whether a complication is inside the package, outside it, or covered by a separate undertaking with its own duration; and whether the implant, prosthesis or device is a line of its own.",
+  "today": "As of 17 September 2026 every price on this site that carries the kind package is read off a seller's own page with its date, its inclusion list and its exclusion list beside it. No regulator anywhere requires a common inclusion list, which is why two packages for the same operation cannot be subtracted from one another."
+ },
+ "kin": [
+  {
+   "to": "bundled-payment",
+   "as": "The payer's version of the same idea: one price for an episode, set by an insurer instead of by a seller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "case-rate",
+   "as": "The trade term for the flat fee a package is built out of.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step in the journey where this form of price is actually read.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The commonest missing line, and the reason two package prices are not comparable.",
+   "rel": "risk"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "Where a package number is first put in front of a patient.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation whose package this record reads, implant excluded.",
+   "rel": "procedure"
+  }
+ ],
+ "sources": [
+  "s:etymonline-package",
+  "s:bumrungrad-joint04",
+  "s:estenove-cost"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the four questions are this project's, drawn from the exclusion lists it has read"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "P"
+ }
+}

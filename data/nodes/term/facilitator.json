@@ -1,0 +1,89 @@
+{
+ "id": "facilitator",
+ "names": {
+  "name": "Facilitator",
+  "aliases": [
+   "broker",
+   "medical travel agency",
+   "intermediary",
+   "patient coordinator",
+   "medical travel agent"
+  ],
+  "said": "The trade says facilitator. The research literature says broker. Türkiye's regulation says intermediary institution, and means a licensed travel agency."
+ },
+ "etymology": {
+  "root": "facilitate, 1610s, \"make easy, render less difficult\", from French faciliter, from the stem of Latin facilis, easy to do, from facere, to do or make — so a facilitator is one who makes a thing easy. The Online Etymology Dictionary carries no separate entry for the agent noun; it hangs off the verb.",
+  "first_attested": "1610s for the verb; this project could not date the trade sense from a dictionary",
+  "tier": "cited",
+  "source": "s:etymonline-facilitate",
+  "note": "The word names a service and asserts no qualification. Nothing in it says who pays the facilitator, and the answer is usually the hospital."
+ },
+ "text": {
+  "what": "The commercial party between a patient and a hospital abroad. It gathers records, produces a quote, books the surgeon, often books the flight and the hotel, and meets the patient at the airport. In most countries the job needs no licence, and the word carries no qualification with it.",
+  "story": "The most-cited empirical work on these firms counted what they publish. Penney and colleagues examined 17 English-language Canadian broker websites in the summer of 2010: 47% made no mention of risks, two of the seventeen displayed certified accreditation, 35.3% displayed a membership logo instead, and 52.9% promised follow-up care. One site stated it had \"no ongoing involvement in the doctor-patient relationship\". The authors concluded that brokers \"currently lack a common standard of care and accreditation\".\n\nTwo states have written the role into law rather than leaving it to the word. Türkiye's regulation of 13 July 2017 defines an international health tourism intermediary and requires it to be an authorised travel agency, so in Antalya the invoice is frequently written by the agency and not by the hospital. Israel's Medical Tourism Law, 5778-2018, in force from 29 January 2019, put agents on a Ministry of Health register and bound the hospitals that use them.\n\n*Trade practice —* the arrangement the word conceals is the money. The facilitator is typically paid by the hospital on commission, which means the party choosing the surgeon is paid by the surgeon's employer. The facilitator sites this project has read do not state it.",
+  "how": "Where no licence exists, the word is the only credential on offer, and it is self-applied. What distinguishes one firm from another is contractual rather than lexical: which legal entity signs, where it is registered, who pays it, which country's law the contract names, and what it undertakes if a complication occurs.",
+  "today": "As of 17 September 2026 no national licensing regime aimed at medical travel facilitators as such turned up anywhere this project could read. Where a regime exists it licenses the intermediary as a travel agency, as in Türkiye, or registers the agent, as in Israel."
+ },
+ "kin": [
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step where this word is chosen from, and what a reader can check about it.",
+   "rel": "step"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The risk that follows from an unlicensed party holding the money.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "What a facilitator sells: a single number assembled out of other people's services.",
+   "rel": "term"
+  },
+  {
+   "to": "temos",
+   "as": "One of the few accreditors that certifies this trade at all.",
+   "rel": "org"
+  },
+  {
+   "to": "defiant",
+   "as": "A named firm doing this job, described in the same voice as any other.",
+   "rel": "org"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The wider name for the traffic these firms sit inside.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-facilitate",
+  "s:penney-broker-websites",
+  "s:rg-saglik-turizmi-2017",
+  "s:loc-israel-medical-tourism-law"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the commission arrangement is marked as the trade's account, not a sourced fact"
+   },
+   "text.how": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "F"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "id": "medanta",
+ "type": "facility",
+ "names": {
+  "name": "Medanta — The Medicity, Gurugram",
+  "aliases": ["Medanta", "The Medicity", "मेदांता"],
+  "said": "Medanta, stress on the second syllable. The hospital calls the campus The Medicity; the group is listed as MEDANTA on the National Stock Exchange."
+ },
+ "region": ["south-asia"],
+ "facets": {
+  "iso2": "IN",
+  "ownership": "private",
+  "founded": 2009,
+  "specialty": ["cardiac sciences", "liver transplant", "neurosciences", "oncology", "orthopaedics", "health screening"],
+  "draws": ["cabg", "liver-transplant", "knee-replacement", "executive-health-screening"],
+  "status": "open",
+  "languages": ["English", "Hindi", "Arabic"]
+ },
+ "text": {
+  "what": "A 1,250-bed hospital on 43 acres in Sector 38 of Gurugram, founded in 2009 by the cardiac surgeon Naresh Trehan and Sunil Sachdeva and built for about 1,200 crore rupees. The group listed on both Indian exchanges in November 2022 and now runs five hospitals. It publishes its health-check prices, and it publishes the maximum retail price of the coronary stents and knee implants it fits.",
+  "story": "Medanta was built as a single campus rather than a chain: one 43-acre site in Gurugram with a named surgeon at the top of it, opened in 2009. The group reported revenue of 3,771 crore rupees for 2025 and ran five hospitals — Gurugram, Lucknow, Patna, Indore and Ranchi — between 160 and 1,250 beds each. It was ranked second among India's hospitals in the 2020 and 2021 Newsweek and Statista listings and 132nd globally in 2022.\n\nThe implant price disclosure is the part of this record that matters most to a foreign patient, and it is not a marketing decision. India's drug pricing regulator capped the price of coronary stents in 2017 and of knee implants shortly after, and hospitals display the maximum retail price of each device against the cap. Medanta's policies page carries both lists, the coronary stent prices dated to notifications from April 2018 onward and a further update effective April 2023.\n\n*Inference —* a hospital that must publish what the metal costs has less room to move the cost of an operation between the surgery line and the implant line. The published cap is the reason an Indian joint quote and a Thai joint quote are not comparing the same object: the Thai package usually leaves the implant out, and the Indian bill usually has it priced against a ceiling.",
+  "how": "Health-check programmes are bought off a public list with the rupee price beside each name; the tests inside each one sit a click deeper. Surgical work is quoted rather than listed. The stent and knee-implant price lists sit under Policies and Forms rather than under prices, which is where a regulator's disclosure requirement tends to put them.",
+  "today": "As of 16 September 2026 the Gurugram health-check list runs from 5,500 rupees for a basic diabetes package to 28,000 for the group's longest whole-body programme, with the Medanta Whole Body Package at 25,000 rupees for men and for women. The policies page names current documents for coronary stent and orthopaedic knee-system maximum retail prices; the figures themselves sit inside linked files this record has not opened."
+ },
+ "geo": {"lat": 28.4389467, "lon": 77.0402727, "precision": "street", "source": "s:osm"},
+ "address": {"street": "CH Baktawar Singh Road, Sector 38", "city": "Gurugram", "area": "Haryana", "country": "IN", "postcode": "122001"},
+ "metrics": {
+  "beds": 1250,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "revenue_usd": 390000000,
+  "note": "1,250 beds is the Gurugram campus, not the group, which runs five hospitals between 160 and 1,250 beds. The revenue figure is the group's reported 2025 revenue of 3,771 crore rupees, given in the source as about 390 million US dollars at that year's rate; this project has not reconverted it. No patient count and no foreign-patient count was found published.",
+  "as_of": "2025",
+  "source": "s:wp-medanta",
+  "url": "https://en.wikipedia.org/wiki/Medanta"
+ },
+ "tags": [
+  {"tag": "price-published", "source": "s:medanta-healthcheck", "tier": "cited", "note": "health-check packages priced in rupees on a public list", "url": "https://www.medanta.org/healthcheckup/gurugram-hospital"},
+  {"tag": "package", "source": "s:medanta-healthcheck", "tier": "cited"},
+  {"tag": "listed-company", "source": "s:wp-medanta", "tier": "cited", "note": "National Stock Exchange ticker MEDANTA and BSE 543654, listed November 2022"},
+  {"tag": "chain", "source": "s:wp-medanta", "tier": "cited", "note": "five hospitals: Gurugram, Lucknow, Patna, Indore, Ranchi"},
+  {"tag": "transplant-programme", "source": "s:wp-medanta", "tier": "cited", "note": "the hospital's liver transplant programme is one of the campus's named units"}
+ ],
+ "recognitions": [
+  {"by": "newsweek-statista", "what": "Second among India's hospitals in the 2020 and 2021 listings, 132nd globally in 2022", "year": 2020, "valid_until": null, "source": "s:wp-medanta", "url": "https://en.wikipedia.org/wiki/Medanta", "note": "a survey-and-indicator listing, counted here and never read as a quality score"}
+ ],
+ "prices": [
+  {
+   "procedure": "executive-health-screening",
+   "country": "IN",
+   "city": "Gurugram",
+   "facility": "medanta",
+   "amount": 25000,
+   "currency": "INR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["whole body check, men's or women's version"],
+   "excludes": ["anything the screening then finds"],
+   "source": "s:medanta-healthcheck",
+   "url": "https://www.medanta.org/healthcheckup/gurugram-hospital",
+   "note": "the Medanta Whole Body Package, priced identically for men and women. The list it sits on runs from 5,500 rupees for a basic diabetes package to 28,000 for the longest programme. The listing page carries the price only; the test list sits on the individual package page.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "delhi-ncr", "as": "One of the two Gurugram campuses the Delhi cluster is named for, eight kilometres from the other.", "rel": "place"},
+  {"to": "india", "as": "An Indian hospital that publishes what the implant costs as well as what the check-up costs.", "rel": "destination"},
+  {"to": "fortis-gurgaon", "as": "Its neighbour and competitor in the same city, which publishes neither.", "rel": "contrast"},
+  {"to": "liver-transplant", "as": "One of the campus's named referral programmes.", "rel": "performs"},
+  {"to": "executive-health-screening", "as": "Sold here off a public list at a stated rupee price.", "rel": "performs"},
+  {"to": "implant-excluded", "as": "The counter-example: here the implant price is published against a regulator's ceiling instead of left out of the quote.", "rel": "risk"},
+  {"to": "package-price", "as": "Sells check-ups in this form; operations are still quoted case by case.", "rel": "term"},
+  {"to": "bumrungrad", "as": "The comparison a joint patient actually faces: a Thai package without the implant against an Indian bill with the implant priced.", "rel": "contrast"}
+ ],
+ "links": [
+  {"label": "Medanta", "url": "https://www.medanta.org/"},
+  {"label": "Health checkup packages, Gurugram", "url": "https://www.medanta.org/healthcheckup/gurugram-hospital"},
+  {"label": "Policies and forms, including implant and stent prices", "url": "https://www.medanta.org/policy-and-forms"}
+ ],
+ "sources": ["s:wp-medanta", "s:medanta-healthcheck", "s:medanta-policy-forms", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "OpenStreetMap node Medanta The Medicity, Sector 38"},
+   "metrics": {"tier": "cited", "source": "s:wp-medanta"}
+  }
+ },
+ "x_commons_files": ["File:Medanta The Medicity.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

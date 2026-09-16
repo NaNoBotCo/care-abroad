@@ -1,0 +1,154 @@
+{
+ "schema": 1,
+ "id": "dubai",
+ "type": "hub",
+ "names": {
+  "name": "Dubai",
+  "aliases": [
+   "Dubai Healthcare City",
+   "DHCC",
+   "دبي"
+  ],
+  "said": "In this city a clinic states which licence it holds before it states what it treats, because the free zone and the emirate license separately."
+ },
+ "region": [
+  "gulf"
+ ],
+ "facets": {
+  "iso2": "AE",
+  "radius_km": 25,
+  "founded": 2002,
+  "specialty": [
+   "health screening",
+   "dentistry",
+   "cosmetic surgery",
+   "fertility",
+   "orthopaedics",
+   "hair restoration"
+  ],
+  "draws": [
+   "executive-health-screening",
+   "dental-implant",
+   "ivf",
+   "rhinoplasty",
+   "hair-transplant-fue",
+   "liposuction"
+  ],
+  "languages": [
+   "Arabic",
+   "English",
+   "Hindi",
+   "Urdu",
+   "Russian"
+  ]
+ },
+ "text": {
+  "what": "A designated healthcare free zone with its own regulator, and a city of clinics around it. Dubai Healthcare City was launched in 2002 by Mohammed bin Rashid Al Maktoum; Phase 1 sits on Oud Metha Road in Bur Dubai across 4.1 million square feet given to care and medical education, and Phase 2 at Al Jaddaf covers 19 million square feet given to wellness. The free zone's own site counted 168 clinical facilities, 10 hospitals and 4,425 healthcare professionals when it was read on 16 September 2026. Outside its boundary the emirate's own health authority licenses everything else, which is why an address in this city carries a regulatory meaning.",
+  "story": "The free zone is the interesting structure here, and it is a legal one rather than a medical one. A company inside it is licensed by Dubai Healthcare City Authority, and its clinicians hold that authority's licence rather than the emirate's. A clinic a few minutes away is licensed by the Dubai Health Authority. Two regulators, two registers, two complaints routes, one city.\n\n*Inference —* that arrangement was built to import institutions, not patients. A free zone exists so that a foreign operator can hold its own licence, own its own entity and recruit clinicians registered elsewhere; the patient flow followed the institutions rather than the other way round. It is the opposite sequence from Bangkok or Istanbul, where a trade grew and a state regulated it afterwards.\n\n*Trade practice —* the traffic is regional and expatriate before it is intercontinental. A Gulf state that sends its own nationals abroad on sponsored treatment is also a place people fly into from South Asia, East Africa and the wider Middle East, and the same city is a source market and a destination in the same week.\n\nThis record carries no count of arrivals. The figures published for the emirate count visits by non-residents to licensed facilities, which sweeps in every expatriate consultation.",
+  "how": "*Trade practice —* the Dubai offer is built around the screening package and the short elective: a day of imaging and bloods sold as a programme, or a cosmetic or dental procedure fitted into a stopover. Payment is direct or through an insurer, and the large groups bill international insurers directly. What a reader can check here that they cannot check in most cities is the licence: both regulators publish registers, and a clinician's name either appears on one of them or does not.",
+  "today": "As of 16 September 2026 Dubai Healthcare City's own homepage states 168 clinical facilities, 10 hospitals and 4,425 healthcare professionals. Those are the free zone's counts of its own members, not of patients.",
+  "notes": "Twenty-five kilometres from the Dubai Healthcare City point covers Bur Dubai, Deira, Jumeirah, Al Barsha and Al Jaddaf, and stops short of Jebel Ali."
+ },
+ "geo": {
+  "lat": 25.2331,
+  "lon": 55.3236,
+  "precision": "city",
+  "source": "s:wp-dubai-healthcare-city"
+ },
+ "address": {
+  "street": "Oud Metha Road",
+  "area": "Umm Hurair, Bur Dubai",
+  "city": "Dubai",
+  "country": "AE"
+ },
+ "kin": [
+  {
+   "to": "uae",
+   "as": "The federation this free zone and this city sit in.",
+   "rel": "whole"
+  },
+  {
+   "to": "dha-dubai",
+   "as": "The emirate's health authority, which licenses everything outside the free zone boundary.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "as": "The two-register arrangement that makes an address here a regulatory fact.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "as": "One of the city's large private hospitals, and a destination behind a share of the arrivals described here.",
+   "rel": "part"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The programme this city sells most, priced as a day.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "Sold here to a regional market that often cannot buy it at home.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The scheme by which this city's own region sends patients out while it brings others in.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "who-travels",
+   "as": "Why a city can be a source market and a destination in the same week.",
+   "rel": "story"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "The body that accredits the standards a regulator writes, rather than the hospital.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "Dubai Healthcare City",
+   "url": "https://www.dhcc.ae/"
+  }
+ ],
+ "sources": [
+  "s:dhcc",
+  "s:wp-dubai-healthcare-city",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:dhcc"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-dubai-healthcare-city",
+    "note": "paragraphs two and three are marked inline as inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-dubai-healthcare-city",
+    "note": "the coordinates of Dubai Healthcare City, used as the cluster point rather than the city centroid"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Dubai Healthcare City.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

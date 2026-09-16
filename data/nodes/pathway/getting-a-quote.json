@@ -1,0 +1,84 @@
+{
+ "id": "getting-a-quote",
+ "names": {
+  "name": "Getting a quote",
+  "aliases": [
+   "estimate",
+   "cost estimate",
+   "package quotation"
+  ],
+  "said": "Hospitals say estimate. Brokers say quote. Neither word is a contract price unless the paper says so."
+ },
+ "facets": {
+  "stage": "booking"
+ },
+ "x_order": 4,
+ "text": {
+  "what": "A provider or an intermediary puts a number on paper. The number is usually a package: a bundle of theatre time, a named number of nights and a set of professional fees, with a list of what falls outside it. What the number excludes is the part that moves.",
+  "story": "Published price transparency is rare enough that its absence is the finding. Of 17 Canadian broker websites examined by Penney and colleagues in 2010, 29.4% included specific pricing at all; the other seven in ten invited an enquiry instead.\n\nWhere a duty to quote clearly exists, it is territorial. Directive 2011/24/EU requires that healthcare providers in the Member State of treatment provide \"clear invoices and clear information on prices\" (Article 4(2)(b)). That obligation binds a clinic in Kraków and says nothing about a clinic in Bangkok or Tijuana.\n\n*Inference —* the exclusion list is where a package and a bill diverge, and the divergence is structural rather than deceptive. A fixed price can only be fixed for the predictable part. The implant, the unplanned night, the intensive care bed, the second bag of blood and the histology are the unpredictable part, and they are commonly listed as excluded in the provider's own words. A package that names three nights has priced three nights.",
+  "how": "A quote is normally produced from a description of the problem rather than from an examination — records emailed, photographs uploaded, a form filled. It is commonly revised on arrival, after the consultation and the pre-operative tests, and that revision is the first point at which the traveller is already in the country.\n\nThe documentary questions are: whether the paper is an estimate or an offer, what currency and what exchange date, what happens to the price if the operation takes longer or the stay runs over, who is the counter-party named on it, and whether a second procedure found during surgery is billed separately.",
+  "today": "As of 16 September 2026 no cross-border standard this project could find requires a quote for treatment abroad to state inclusions, exclusions and the conditions on which it changes. The exclusion lists that do exist are published voluntarily, and the clearest of them sit on hospital package pages rather than on intermediaries' sites."
+ },
+ "kin": [
+  {
+   "to": "reading-the-exclusions",
+   "as": "The half of the quote that decides what the bill becomes.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "Who usually issues the quote, and who is paid on it.",
+   "rel": "step"
+  },
+  {
+   "to": "the-deposit",
+   "as": "The step that turns the number into money already sent.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this step almost always takes.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The single line most often outside the quoted number.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "What happens between a quoted package and a discharge bill.",
+   "rel": "story"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The one instrument that obliges a provider to invoice and price clearly, and only inside the EU.",
+   "rel": "governed-by"
+  }
+ ],
+ "sources": [
+  "s:penney-broker-websites",
+  "s:dir-2011-24-chapter-ii"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "how quotes are produced and revised, as the trade does it"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

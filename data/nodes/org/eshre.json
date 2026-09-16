@@ -1,0 +1,114 @@
+{
+ "schema": 1,
+ "id": "eshre",
+ "type": "org",
+ "names": {
+  "name": "European Society of Human Reproduction and Embryology",
+  "aliases": [
+   "ESHRE"
+  ],
+  "said": "ESHRE writes the guidelines and collects the European IVF numbers. The numbers arrive from national registries, already added up."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east"
+ ],
+ "facets": {
+  "kind": "professional-society",
+  "iso2": "BE",
+  "founded": 1985,
+  "status": "open"
+ },
+ "text": {
+  "what": "The European professional society for reproductive medicine and embryology, founded in 1985 and run from Strombeek-Bever outside Brussels. It publishes clinical guidelines and journals, certifies practitioners, and runs the European IVF Monitoring Consortium, which assembles assisted reproduction figures from national registries.",
+  "story": "Fertility is the corner of cross-border care with the best data in the world and it is still not good enough to answer the question a patient asks.\n\nThe European IVF Monitoring Consortium is \"a group of representatives of national registries on assisted reproductive technology\", and data submission is restricted to those national representatives. So what arrives at ESHRE is what each country's registry already holds, in whatever shape that country collects it, and the European picture is a stack of national aggregates rather than a clinic-by-clinic table.\n\n*Inference —* that is the granularity problem in one sentence. A patient choosing between a Spanish clinic and a Czech one can read a European report and learn what Spain and Czechia did in aggregate. Only two regulators in the world publish clinic-level outcomes for a patient to compare: the British authority and the American federal reporting. Everywhere else, the clinic's own figure is the clinic's own claim.\n\nESHRE has begun a newer project, EuMAR, aimed at cycle-level European monitoring, which would change that picture if it delivers.",
+  "how": "National registry representatives submit to a core dataset; ESHRE compiles, publishes with ICMART and in its own journals, and issues guidelines separately through working groups. Membership is by subscription and the society runs an annual meeting.",
+  "today": "As of 16 September 2026 ESHRE's registered office is at Nijverheidslaan 3, Strombeek-Bever, and the EIM data collection for 2023 is the cycle named on its consortium page."
+ },
+ "geo": {
+  "lat": 50.902,
+  "lon": 4.339,
+  "precision": "street",
+  "source": "s:eshre-about"
+ },
+ "address": {
+  "street": "Nijverheidslaan 3, 1st floor",
+  "city": "Strombeek-Bever",
+  "country": "BE",
+  "postcode": "1853"
+ },
+ "kin": [
+  {
+   "to": "ivf",
+   "as": "The treatment its consortium counts across Europe.",
+   "rel": "procedure"
+  },
+  {
+   "to": "icmart",
+   "as": "The global registry body it feeds and publishes with.",
+   "rel": "org"
+  },
+  {
+   "to": "hfea",
+   "as": "The one European regulator that publishes clinic-level results rather than national aggregates.",
+   "rel": "contrast"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The treatment that moves the most patients across European borders, and the hardest to count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The legal difference that drives much of the European fertility traffic.",
+   "rel": "governs"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The phrase researchers use for this traffic, and the argument inside it.",
+   "rel": "term"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Where national aggregates and clinic-level results are set against each other.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "ESHRE",
+   "url": "https://www.eshre.eu/"
+  },
+  {
+   "label": "European IVF Monitoring Consortium",
+   "url": "https://www.eshre.eu/Data-collection-and-research/Consortia/EIM"
+  }
+ ],
+ "sources": [
+  "s:eshre-about",
+  "s:eshre-eim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eshre-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eshre-eim",
+    "note": "the third paragraph is marked as this project's inference"
+   },
+   "facets": {
+    "tier": "tradition",
+    "note": "the 1985 founding by Robert Edwards and Jean Cohen is on ESHRE's history page, which this project read only in a search summary"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

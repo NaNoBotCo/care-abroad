@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "id": "facelift",
+ "type": "procedure",
+ "names": {
+  "name": "Facelift",
+  "aliases": ["rhytidectomy", "SMAS facelift", "deep plane facelift", "mid-facelift", "neck lift"],
+  "said": "Surgeons say rhytidectomy in an operation note and SMAS or deep plane in a consultation, naming which layer is lifted. Price lists say facelift, and rarely say which layer they mean."
+ },
+ "etymology": {
+  "root": "rhytidectomy: Greek rhytis, a wrinkle, plus ektome, a cutting out - a wrinkle excised. SMAS is an acronym, not a word: the superficial musculoaponeurotic system, the fibrous sheet under the skin of the cheek that modern techniques lift rather than simply pulling the skin.",
+  "tier": "tradition",
+  "note": "skin-only lifts, SMAS lifts and deep plane lifts are different operations with the same name on a price page; the layer decides the durability, the swelling and the price."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "cosmetic",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Incisions are made in front of and behind the ear and into the hairline, the skin is lifted, the fibrous layer beneath it is repositioned or tightened, excess skin is trimmed and the wound closed along the lines where the scars can hide. Neck lifts and brow lifts are separate operations sold alongside. The facial nerve runs through the field, and injury to a branch of it is the complication surgeons describe first.",
+  "story": "Facelift is the most expensive of the standard cosmetic operations in every market read for this record, and the widest spread between them. Yanhee in Bangkok prices a mid-facelift at 165,000 baht with two nights, a secondary facelift at 171,000 and an endoscopic facelift at 250,000. Premier Clinic in Prague prices a SMAS facelift from 84,000 koruna. Artplastica in Poland prices a facelift from 25,000 zloty with the ward day separate. The American society publishes an average surgeon fee of 11,395 US dollars and says it excludes anaesthesia and the theatre.\n\n*Inference --* the reason those numbers do not line up is that the word covers several operations. A skin-only lift and a deep plane lift take different times, different anaesthetics and different skill, and only a consultation note says which one a price bought. The published figure that is easiest to compare across borders is the least informative one.\n\n*Trade practice --* recovery is the constraint that makes this operation travel awkwardly. Bruising and swelling are visible for two to three weeks, sutures come out in stages over ten days, and a patient who has flown a long way is usually asked to stay locally until the first review. The accommodation, not the theatre, is what a two-week facelift trip is mostly buying.",
+  "how": "General anaesthesia in most published packages, one to two nights, drains sometimes, a head dressing overnight. Sutures come out between five and twelve days depending on the site, which sets the earliest flight home. Numbness in front of the ear lasts months. Smoking is the contraindication surgeons enforce hardest, because the skin flap depends on a blood supply that nicotine narrows.",
+  "today": "Four published prices from four countries, read in September 2026, ranging from 25,000 zloty in Poland to 250,000 baht for an endoscopic lift in Bangkok, with an American surgeon's fee of 11,395 dollars that does not include the operating room. None of the four pages says which layer of the face its price lifts.",
+  "notes": "This page describes an operation. It gives no advice about having one."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "note": "Two nights is the stay printed beside the mid-facelift and endoscopic facelift lines on the Yanhee table read for this record; the neck lift and forehead lift on the same table show one night. No figure for nerve injury or revision is carried here because no source read for this record published one with a defined denominator.",
+  "as_of": "2026-09-16",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {"procedure": "facelift", "country": "TH", "city": "Bangkok", "amount": 136000, "amount_high": 250000, "currency": "THB", "as_of": "2026-09-16", "kind": "list", "includes": ["the named operation", "one to two nights on the ward, as printed per line"], "excludes": ["not stated on the page"], "source": "s:yanhee-plastic-prices", "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/", "note": "neck lift 136,000 THB with one night; forehead lift 146,000 with one night; mid-facelift 165,000 with two; secondary facelift 171,000 with two; facelift with endoscope 250,000 with two", "tier": "cited"},
+  {"procedure": "facelift", "country": "CZ", "city": "Prague", "amount": 84000, "currency": "CZK", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["SMAS facelift"], "excludes": ["not stated on the page"], "source": "s:premier-clinic-prague-prices", "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/", "note": "listed as 'from'. This is the only one of the four prices on this record that names the layer it lifts.", "tier": "cited"},
+  {"procedure": "facelift", "country": "PL", "city": "Szczecin", "amount": 25000, "currency": "PLN", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["facelift"], "excludes": ["hospitalisation, listed separately at 800 PLN a day"], "source": "s:artplastica-cennik", "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/", "note": "listed as 'from', with the clinic's statement that prices are indicative", "tier": "cited"},
+  {"procedure": "facelift", "country": "US", "amount": 11395, "currency": "USD", "as_of": "2026-09-16", "kind": "survey", "includes": ["surgeon fee only, rhytidectomy"], "excludes": ["anesthesia", "operating room facilities", "other related expenses"], "source": "s:asps-cost-facelift", "url": "https://www.plasticsurgery.org/cosmetic-procedures/facelift/cost", "note": "no year named on the page; the highest average surgeon fee of the six cosmetic operations read from this society's cost pages", "tier": "cited"}
+ ],
+ "kin": [
+  {"to": "rhinoplasty", "as": "The other face operation on the same price lists, at roughly half the price.", "rel": "contrast"},
+  {"to": "south-korea", "as": "A destination that built a face-surgery trade on technique rather than on discount.", "rel": "destination"},
+  {"to": "thailand", "as": "Where the same word is priced as five different operations with their ward nights printed.", "rel": "destination"},
+  {"to": "czechia", "as": "Where the price names the layer of the face it lifts.", "rel": "destination"},
+  {"to": "united-states", "as": "The source market whose published figure is a surgeon's fee alone.", "rel": "destination"},
+  {"to": "the-companion", "as": "Two weeks of visible bruising, and somebody has to be in the room.", "rel": "step"},
+  {"to": "aftercare-at-home", "as": "Sutures out in stages, and the last of them often after the flight.", "rel": "step"},
+  {"to": "package-price", "as": "The form that bundles hotel nights with theatre time, and which this operation depends on most.", "rel": "term"},
+  {"to": "informed-consent", "as": "The facial nerve is the risk that consent conversations turn on, and language is part of that conversation.", "rel": "term"}
+ ],
+ "confusable_with": [
+  {"id": "rhinoplasty", "tell": "Both are face surgery sold by the same clinics; a facelift repositions skin and the layer beneath it, a rhinoplasty reshapes bone and cartilage."}
+ ],
+ "links": [
+  {"label": "ASPS average surgeon fee, facelift", "url": "https://www.plasticsurgery.org/cosmetic-procedures/facelift/cost"}
+ ],
+ "sources": ["s:yanhee-plastic-prices", "s:premier-clinic-prague-prices", "s:artplastica-cennik", "s:asps-cost-facelift"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "prices read off the four named pages; the two closing paragraphs are marked inference and trade practice inline"},
+   "text.how": {"tier": "tradition"},
+   "etymology": {"tier": "tradition"}
+  }
+ },
+ "x_commons_files": ["File:Facelift incision.png"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

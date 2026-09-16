@@ -1,0 +1,95 @@
+{
+ "id": "gcc-sponsored-treatment-abroad",
+ "names": {
+  "name": "Gulf state-sponsored treatment abroad",
+  "aliases": [
+   "overseas medical treatment scheme",
+   "health office",
+   "medical missions"
+  ],
+  "said": "The trade calls the sending body \"the health office\", and it is the office that picks the hospital."
+ },
+ "region": [
+  "gulf",
+  "west-asia"
+ ],
+ "facets": {
+  "kind": "entitlement",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "A state programme that sends its own nationals abroad for treatment at public expense, choosing the destination, paying the hospital and paying the patient and an approved escort a daily allowance. Dubai's is written down: Administrative Resolution No. (14) of 2017 Approving the Bylaw for Sending Patients for Overseas Medical Treatment, issued by the Director General of the Dubai Health Authority on 6 February 2017 and effective from 1 February 2017.",
+  "story": "This is the half of cross-border care that does not fit the picture of an individual buying a cheaper operation. Here the state is the purchaser, the patient is a citizen, the direction of travel runs from a rich country to a richer one, and the money moves under an administrative bylaw rather than a contract.\n\nThe Dubai bylaw reads like a procurement document because that is what it is. Article 5 sets eligibility: a UAE national, with passport, family book, Emirates ID and health insurance, and a medical report from a government or accredited private hospital recommending that the patient be sent. Article 6 sets what the Authority pays — treatment, a four-week supply of medication on departure, medical devices, interpreting, air ambulance, airport transport to the first appointment, and extensions of visa and ticket in special cases.\n\nArticles 8 and 9 are the ones that show what a state thinks a patient needs beside them. One escort for a patient of 18 or over. Two for a patient under 18, and the bylaw names them: both parents. Two for a patient of 65 or over, or paralysed, or comatose, or disabled.\n\nThe allowance schedule is a map of where the Gulf sends people, priced by destination. Europe outside the United Kingdom, EUR 150 a day for the patient and the first escort and EUR 50 for the second. The United Kingdom, GBP 120 and GBP 50. The United States, USD 150 and USD 50. Singapore and South Korea, USD 130 and USD 50. India, Thailand and Arab countries, AED 300 and AED 100.\n\n*Inference —* a per-diem schedule that separates India and Thailand from Singapore and Korea, and both from Europe and the United States, is a state's own reading of what a day costs in each of them. It is also the clearest published statement this project has found of the Gulf's outbound map, drawn by the payer rather than by a marketing survey.",
+  "how": "The route runs through a health office rather than a booking. A treating clinician recommends; the Authority approves; the Authority selects the facility abroad; the patient and escort travel on the Authority's arrangements and draw the allowance. Neither the destination hospital nor the patient sets the price.\n\nOther Gulf states run comparable schemes through health attaché offices attached to their embassies. This project has read the Dubai bylaw and holds none of the others; where a record on this site says a Gulf state sends patients abroad and does not name an instrument, it is describing a practice, not reading a law.",
+  "today": "As of 17 September 2026 Administrative Resolution No. (14) of 2017 is the instrument this project has read for Dubai. Dubai is simultaneously an inbound destination: the Dubai Media Office reported more than 691,000 international health travellers in 2023, a count of arrivals rather than of people."
+ },
+ "kin": [
+  {
+   "to": "uae",
+   "as": "The country that both sends its nationals abroad under this bylaw and sells treatment to arrivals.",
+   "rel": "destination"
+  },
+  {
+   "to": "dha-dubai",
+   "as": "The authority that issued the bylaw and selects the hospital.",
+   "rel": "org"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "as": "The same authority, working the other direction.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-companion",
+   "as": "The escort the bylaw counts, and pays.",
+   "rel": "step"
+  },
+  {
+   "to": "dubai",
+   "as": "The city whose authority wrote it.",
+   "rel": "hub"
+  },
+  {
+   "to": "saudi-arabia",
+   "as": "Another Gulf state that sends patients abroad, through a health attaché rather than a bylaw this project has read.",
+   "rel": "destination"
+  },
+  {
+   "to": "who-travels",
+   "as": "The half of the subject where the state, not the patient, is the buyer.",
+   "rel": "story"
+  },
+  {
+   "to": "king-hussein-cancer-center",
+   "as": "One of the regional hospitals such schemes buy from.",
+   "rel": "facility"
+  }
+ ],
+ "links": [
+  {
+   "label": "Administrative Resolution No. (14) of 2017 (Dubai)",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html"
+  }
+ ],
+ "sources": [
+  "s:dubai-resolution-14-2017",
+  "s:dha-law-6-2018",
+  "s:dubai-media-office-health-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the general shape of the route; the Dubai specifics are read off the bylaw and the other Gulf schemes are named as unread"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

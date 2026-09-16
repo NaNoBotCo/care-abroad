@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "id": "apollo-chennai",
+ "type": "facility",
+ "names": {
+  "name": "Apollo Hospitals, Greams Road, Chennai",
+  "aliases": ["Apollo Main Hospital", "Apollo Greams Road", "அப்பல்லோ மருத்துவமனை"],
+  "said": "Greams Road, or Greams Lane — the hospital is on the lane and the city names it for the road. Within the group it is simply the Main Hospital."
+ },
+ "region": ["south-asia"],
+ "facets": {
+  "iso2": "IN",
+  "ownership": "private",
+  "founded": 1983,
+  "specialty": ["cardiac sciences", "oncology", "transplants", "orthopaedics", "neurosciences", "gastroenterology"],
+  "draws": ["cabg", "liver-transplant", "kidney-transplant", "knee-replacement"],
+  "status": "open",
+  "languages": ["English", "Tamil", "Hindi"]
+ },
+ "text": {
+  "what": "The first hospital of the Apollo group, opened at Greams Road in Chennai in 1983 and still its flagship. It runs over sixty departments, states 1,500-plus outpatient visits a day and 500-plus international patient consultations a month, and sits within a few hundred metres of the group's children's hospital, women's hospital and heart centre.",
+  "story": "Apollo Hospitals was founded by Prathap C. Reddy in 1983 as the first corporate hospital company in India, and the first branch — this one — was opened by the President of India, Zail Singh. The date matters for the subject: an Indian private hospital company existed before India had a private hospital industry, and the cross-border patient trade that grew around Chennai grew around it.\n\nSeveral of the group's hospitals were among the first in India to take Joint Commission International accreditation, and the group also holds accreditation from NABH, the Indian national board. *Inference —* Apollo's early move on JCI is the same move Bumrungrad made in Bangkok two decades ago and for the same reason: an accreditation is a name a foreign insurer already recognises, attached to a hospital it does not.\n\nThe Chennai cluster around Greams Road is denser than a single hospital. The group lists twelve facilities in the city, including a proton therapy centre at Tharamani — one of a small number in Asia, and the reason a particular kind of cancer patient flies to Chennai rather than Bangkok.",
+  "how": "An international patient reaches a separate lifeline number, quoted on every page, and a consultation is arranged before travel. *Trade practice —* Indian corporate hospitals quote a foreign patient an estimate by email rather than publishing a price, and the estimate is a band with the implant, the ICU nights and the length of stay named as variables. Nothing on this hospital's own pages, read on 16 September 2026, carried a rupee figure for an operation.",
+  "today": "As of 16 September 2026 the hospital's own page states it was established in 1983, runs over sixty departments, and records 1,500-plus daily outpatient visits and 500-plus international patient consultations a month. It publishes no price. Its bed count is rendered by script on that page and did not resolve for this project, so this record carries none."
+ },
+ "geo": {"lat": 13.0632248, "lon": 80.2515817, "precision": "street", "source": "s:osm"},
+ "address": {"street": "Greams Lane, 21 Greams Road, Thousand Lights West", "city": "Chennai", "area": "Tamil Nadu", "country": "IN", "postcode": "600006"},
+ "metrics": {
+  "beds": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "inbound_patients_year": "500+ international patient consultations a month, the hospital's own figure",
+  "note": "Both numbers on the hospital's page count EPISODES, not people: 1,500-plus daily outpatient visits and 500-plus international consultations a month. A patient seen three times before surgery is three consultations. The bed count on that page is a script-rendered counter that returned zero to this project and is therefore absent here rather than guessed.",
+  "as_of": "2026-09-16",
+  "source": "s:apollo-greams-road",
+  "url": "https://www.apollohospitals.com/hospitals/apollo-hospitals-greams-road-chennai"
+ },
+ "tags": [
+  {"tag": "chain", "source": "s:wp-apollo-hospitals", "tier": "cited", "note": "Apollo Hospitals Enterprise, the first corporate hospital group in India"},
+  {"tag": "listed-company", "source": "s:wp-apollo-hospitals", "tier": "cited"},
+  {"tag": "international-office", "source": "s:apollo-greams-road", "tier": "cited", "note": "a separate international patient helpline printed on every page of the hospital's site"},
+  {"tag": "transplant-programme", "source": "s:apollo-greams-road", "tier": "cited", "note": "the hospital's own specialty list names transplants, including liver and kidney"},
+  {"tag": "no-price-published", "source": "s:apollo-greams-road", "tier": "cited", "note": "no rupee figure for any operation on the hospital's own pages, checked 16 September 2026"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation; several Apollo hospitals were among the first in India to take it", "year": null, "valid_until": null, "source": "s:wp-apollo-hospitals", "url": "https://en.wikipedia.org/wiki/Apollo_Hospitals", "note": "reported of the group rather than dated to this hospital; the year first granted is not recorded here"},
+  {"by": "nabh", "what": "NABH accreditation, the Indian national hospital standard", "year": null, "valid_until": null, "source": "s:wp-apollo-hospitals", "url": "https://en.wikipedia.org/wiki/Apollo_Hospitals", "note": "reported of the group; NABH publishes its own register, which this record has not read"}
+ ],
+ "kin": [
+  {"to": "chennai", "as": "The hospital the Chennai cluster grew around, and the reason the cluster is on Greams Road.", "rel": "place"},
+  {"to": "india", "as": "The hospital most often meant when India is called a destination for heart surgery.", "rel": "destination"},
+  {"to": "prathap-reddy", "as": "Its founder, who opened it in 1983 as the first corporate hospital in the country.", "rel": "person"},
+  {"to": "cabg", "as": "The operation the Chennai cardiac trade was built on.", "rel": "performs"},
+  {"to": "proton-therapy", "as": "The group runs a proton centre at Tharamani in the same city, which draws a different patient again.", "rel": "procedure"},
+  {"to": "jci", "as": "An accreditor Apollo hospitals took early for India.", "rel": "accredited-by"},
+  {"to": "nabh", "as": "The Indian national board whose standard the group holds.", "rel": "accredited-by"},
+  {"to": "india-e-medical-visa", "as": "The visa class most of its foreign consultations arrive on.", "rel": "governed-by"},
+  {"to": "getting-a-quote", "as": "Publishes no price; a foreign patient here gets an emailed estimate instead.", "rel": "step"}
+ ],
+ "links": [
+  {"label": "Apollo Hospitals, Greams Road, Chennai", "url": "https://www.apollohospitals.com/hospitals/apollo-hospitals-greams-road-chennai"},
+  {"label": "Apollo hospitals in Chennai", "url": "https://www.apollohospitals.com/hospital/chennai"}
+ ],
+ "sources": ["s:wp-apollo-hospitals", "s:apollo-greams-road", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.how": {"tier": "tradition", "note": "how Indian corporate hospitals quote a foreign patient; the hedged sentence is marked in the prose"},
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "OpenStreetMap node Apollo Hospital, Greams Lane"},
+   "metrics": {"tier": "cited", "source": "s:apollo-greams-road"}
+  }
+ },
+ "x_commons_files": ["File:Apollo Hospitals Chennai.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

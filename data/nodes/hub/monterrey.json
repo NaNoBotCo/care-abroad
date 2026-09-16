@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "monterrey",
+ "type": "hub",
+ "names": {
+  "name": "Monterrey",
+  "aliases": ["Monterrey, Nuevo León", "MTY"],
+  "said": "Mon-te-RREY. Regiomontano is what a person from here is called."
+ },
+ "region": ["mexico", "north-america"],
+ "facets": {
+  "iso2": "MX",
+  "radius_km": 25,
+  "specialty": ["oncology", "cardiology", "orthopaedics", "transplant", "bariatric surgery", "health screening"],
+  "draws": ["cabg", "angioplasty-stent", "knee-replacement", "hip-replacement", "gastric-sleeve", "executive-health-screening", "bone-marrow-transplant"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "The capital of Nuevo León, a few hours' drive south of the Texas border, anchoring Mexico's second-largest metropolitan area at some 5.3 million people and a city its Wikipedia article calls the richest in Latin America. Its clinical export trade is hospital medicine rather than border dentistry: cancer, cardiac and orthopaedic work sold to Texans, to Mexicans living in the United States, and to patients from the rest of Mexico.",
+  "story": "Monterrey is the case where the private hospital came out of the university rather than the tourism ministry. TecSalud is the health system of the Tecnológico de Monterrey, the country's largest private university, and runs Hospital San José and Hospital Zambrano Hellion. Its page for foreign and out-of-state patients describes what an international department actually consists of: bilingual clinical and nursing staff, clinical documentation and consent forms available in English, interpreter coordination on request, help with paperwork and logistics, and a list of hotels under agreement.\n\nThe credentials it names are national rather than international — certification by the Consejo de Salubridad General, the Pathway to Excellence nursing designation, and COMLE certification — and its own quality page stated, when read on 16 September 2026, that the system was in a recertification process.\n\n*Inference —* the absence of an international accreditation mark on a university hospital of this size is worth noticing precisely because it is the exception. Most hospitals selling across a border buy the mark that a foreign patient recognises; a teaching hospital with a domestic reputation and a captive referral network has less use for one.\n\nMonterrey is also the only Latin American city with its own edition of the trade's standard consumer guidebook: Josef Woodman's \"Patients Beyond Borders\" published a Monterrey, Mexico edition in 2012, alongside country editions for Korea, Taiwan, Singapore, Malaysia, Thailand and Turkey and a city edition for Dubai Healthcare City.",
+  "how": "Patients arrive by air from Texas or by road from the border, usually on a referral or a second opinion rather than a package. Costing is per case and quoted on request; this project found no published price list from the city's main hospitals. Stays are hospital stays, not hotel recoveries, and companions are housed in the partner hotels the hospital names.",
+  "today": "As of 16 September 2026 TecSalud's page for foreign and international patients names its languages, its documentation practice and its hotel agreements, and lists national certifications with a recertification under way."
+ },
+ "geo": {"lat": 25.6844, "lon": -100.3181, "precision": "city", "source": "s:wp-monterrey"},
+ "address": {"city": "Monterrey", "area": "Nuevo León", "country": "MX"},
+ "tags": [
+  {"tag": "international-office", "source": "s:tecsalud-international", "tier": "cited", "note": "a named department for foreign and out-of-state patients, with logistics and paperwork support", "url": "https://www.tecsalud.mx/pacientes-foraneos-e-internacionales"},
+  {"tag": "interpreter", "source": "s:tecsalud-international", "tier": "cited", "note": "Spanish and English clinical staff, with interpreters coordinated on request and consent documents available in English"},
+  {"tag": "university-hospital", "source": "s:tecsalud-international", "tier": "cited", "note": "TecSalud is the health system of the Tecnológico de Monterrey"},
+  {"tag": "recovery-hotel", "source": "s:tecsalud-international", "tier": "cited", "note": "the hospital names hotels under agreement for patients and companions"}
+ ],
+ "kin": [
+  {"to": "mexico", "as": "The country whose hospital-grade export trade concentrates here rather than on the border.", "rel": "destination"},
+  {"to": "united-states", "as": "The market three hours north by road, and the one the English-language consent forms are for.", "rel": "kin"},
+  {"to": "tijuana", "as": "The other Mexican surgical hub — cheaper, faster, and sold through packages rather than referrals.", "rel": "contrast"},
+  {"to": "josef-woodman", "as": "Wrote the only city edition of his guidebook devoted to a Latin American hub, and it was this one.", "rel": "person"},
+  {"to": "cabg", "as": "Cardiac surgery is among the work the city's hospitals sell across the border.", "rel": "performs"},
+  {"to": "executive-health-screening", "as": "The screening package a hospital sells to a corporate market on its doorstep.", "rel": "performs"},
+  {"to": "language-consent", "as": "Answered here by policy — consent documents in English, interpreters on request — which is not the norm.", "rel": "risk"},
+  {"to": "the-accreditation-question", "as": "A large university hospital naming national certifications and no international mark is one answer to it.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "TecSalud — pacientes foráneos e internacionales", "url": "https://www.tecsalud.mx/pacientes-foraneos-e-internacionales"}
+ ],
+ "sources": ["s:wp-monterrey", "s:tecsalud-international", "s:tecsalud-quality", "s:wp-patients-beyond-borders"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:tecsalud-international", "note": "read off the hospital's own pages on 16 September 2026; the third paragraph is marked as this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a referral-driven hospital trade; no single page describes it"}
+  }
+ },
+ "x_commons_files": ["File:Monterrey skyline.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

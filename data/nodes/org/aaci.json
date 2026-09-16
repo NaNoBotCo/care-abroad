@@ -1,0 +1,115 @@
+{
+ "schema": 1,
+ "id": "aaci",
+ "type": "org",
+ "names": {
+  "name": "American Accreditation Commission International",
+  "aliases": [
+   "AACI",
+   "AACI Healthcare"
+  ],
+  "said": "The initials collide with the Accreditation Association for Ambulatory Health Care, which is a different American body entirely."
+ },
+ "region": [
+  "global",
+  "north-america"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "US",
+  "status": "open"
+ },
+ "text": {
+  "what": "An independent accreditation body registered in the United States and run from Hendersonville, North Carolina. It accredits healthcare organisations and certifies clinical programmes, and holds three current ISQua EEA awards: as an organisation for 2022 to 2026, for its standards for 2023 to 2027, and for its surveyor training programme for 2024 to 2028.",
+  "story": "AACI appears on hospital websites across the Gulf, South Asia and Türkiye, usually beside or instead of JCI, and it is the scheme most often confused with something else. The abbreviation AACI is also used by the Accreditation Association for Ambulatory Health Care's international arm, and by an Israeli immigrants' association; a reader checking a clinic's badge should check which body issued it.\n\nThe ISQua EEA awards are the useful fact here, because they are dated on both ends and published by a third party rather than by AACI. An award that expires in 2026 says something precise: an external body found the scheme conforming, and that finding runs out.\n\n*Inference —* the split into three awards — organisation, standards, surveyor training — is worth reading. A scheme can hold one and not the others, and the three answer different questions: is the body run properly, is what it measures sound, and are the people who measure it trained.",
+  "how": "An organisation applies, pays, is surveyed and is listed in AACI's directory of accredited and certified organisations. The pages read for this record do not state the cycle length or whether the standards are downloadable without an application.",
+  "today": "As of 16 September 2026 AACI lists its three ISQua EEA awards with their year ranges on its own about page, and runs an accredited and certified organisations directory.",
+  "notes": "The founding year is reported as 2013 in company databases but is not stated on AACI's own about page, so this record leaves facets.founded out rather than carry an unsourced year."
+ },
+ "geo": {
+  "lat": 35.3187,
+  "lon": -82.461,
+  "precision": "street",
+  "source": "s:aaci-about"
+ },
+ "address": {
+  "street": "658 E Sunset Dr",
+  "city": "Hendersonville",
+  "area": "North Carolina",
+  "country": "US",
+  "postcode": "28791"
+ },
+ "recognitions": [
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation as an organisation",
+   "year": 2022,
+   "valid_until": "2026",
+   "source": "s:aaci-about",
+   "url": "https://aacihealthcare.com/about-us/"
+  },
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation of the AACI standards",
+   "year": 2023,
+   "valid_until": "2027",
+   "source": "s:aaci-about",
+   "url": "https://aacihealthcare.com/about-us/"
+  },
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation of the AACI surveyor training programme",
+   "year": 2024,
+   "valid_until": "2028",
+   "source": "s:aaci-about",
+   "url": "https://aacihealthcare.com/about-us/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "isqua-ieea",
+   "as": "Holds three dated awards over this body, its standards and its surveyor training.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "jci",
+   "as": "The scheme it most often appears beside on a hospital's badge wall.",
+   "rel": "contrast"
+  },
+  {
+   "to": "uae",
+   "as": "One of the markets where its mark turns up on private clinic pages.",
+   "rel": "place"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a badge wall is counted rather than weighed.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "AACI Healthcare",
+   "url": "https://aacihealthcare.com/"
+  }
+ ],
+ "sources": [
+  "s:aaci-about"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:aaci-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:aaci-about",
+    "note": "the name collision is this project's observation; the closing paragraph is marked as inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,104 @@
+{
+ "id": "fungal-meningitis",
+ "names": {
+  "name": "Fungal meningitis after epidural anaesthesia",
+  "aliases": [
+   "Fusarium solani meningitis",
+   "the Matamoros outbreak"
+  ],
+  "said": "The investigation called it a point source. The patients had gone for liposuction."
+ },
+ "region": [
+  "global",
+  "mexico"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "Infection of the lining of the brain and spinal cord by a mould introduced at the moment an epidural is placed. The CDC's medical travel chapter names it among the documented outbreaks in travelling patients: \"fungal meningitis in patients who received epidural anesthesia in Mexico\".",
+  "story": "The investigation ran from 8 May 2023, when it was announced, to 13 May, when the two clinics at the centre of it closed. Both were in Matamoros, Tamaulipas: River Side Surgical Center and Clinica K-3. The exposure window was 1 January to 13 May 2023.\n\nAs reported in Clinical Infectious Diseases in 2024, 185 residents of 22 US states and jurisdictions were identified as potentially exposed. Ten cases were confirmed, 10 probable and 11 suspected. Eight people died — seven confirmed cases and one probable. The organism was the Fusarium solani species complex, its antifungal susceptibility profile poor enough to require triple-drug therapy, and the deaths were driven by severe vascular complications rather than by the meningitis alone.\n\nMetagenomic sequencing published by the CDC in 2025 examined isolates from five patients and found the strains clustered together, consistent with a single point source. The finding supported the epidemiological conclusion that a contaminated drug or device used for the epidural was the cause.\n\n*Inference —* two features of this outbreak make it structural rather than local. The infection came from the anaesthetic, not the operation, so no amount of scrutiny of the surgeon would have found it. And the patients dispersed to 22 jurisdictions before anyone was ill, which is why the case-finding had to be run as a public appeal to people who had been to a named address on a named date.",
+  "how": "Presentation was delayed and non-specific — headache, fever, neck stiffness, nausea — in people who had been discharged well and flown home. Diagnosis required lumbar puncture and, in most cases, molecular testing rather than culture. Case definitions in the CDC investigation were tiered as suspected, probable and confirmed by whether fungal signal was detected in cerebrospinal fluid, which is why the published counts come in three numbers rather than one.",
+  "today": "As of 16 September 2026 the outbreak is closed and the published totals stand at 31 US cases across the three case definitions with 8 deaths, from 185 people identified as potentially exposed. A separate Fusarium solani meningitis outbreak associated with neuraxial blockade was reported in Durango, Mexico, over 2022 and 2023; this record covers the Matamoros one."
+ },
+ "metrics": {
+  "note": "185 US residents in 22 states and jurisdictions identified as potentially exposed; 10 confirmed, 10 probable and 11 suspected cases; 8 deaths, of which 7 were confirmed cases and 1 probable. Exposure window 1 January to 13 May 2023 at two clinics in Matamoros, Tamaulipas. Counts of an investigated outbreak, not a rate for epidural anaesthesia anywhere.",
+  "as_of": "2024",
+  "source": "s:smith-fungal-meningitis-2024",
+  "url": "https://academic.oup.com/cid/article/78/6/1554/7280488"
+ },
+ "kin": [
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "as": "The outbreak itself, with its dates and its two addresses.",
+   "rel": "event"
+  },
+  {
+   "to": "mexico",
+   "as": "Where both clinics were, and one of the two countries named in the CDC's outbreak list.",
+   "rel": "place"
+  },
+  {
+   "to": "anaesthetic-risk-unscreened",
+   "as": "The anaesthetic, not the operation, was the route of infection here.",
+   "rel": "kin"
+  },
+  {
+   "to": "liposuction",
+   "as": "Among the cosmetic procedures the exposed patients had travelled for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The commoner infection after the same trips, and a far less lethal one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Why case-finding had to be run as a public appeal to people who had been to a named address.",
+   "rel": "kin"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "What it costs to move a patient in this condition.",
+   "rel": "kin"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step at which a headache two weeks after a flight becomes an emergency.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Smith et al., Clinical Infectious Diseases 2024",
+   "url": "https://academic.oup.com/cid/article/78/6/1554/7280488"
+  },
+  {
+   "label": "CDC, Emerging Infectious Diseases 2025 — metagenomic identification",
+   "url": "https://wwwnc.cdc.gov/eid/article/31/5/24-1657_article"
+  }
+ ],
+ "sources": [
+  "s:smith-fungal-meningitis-2024",
+  "s:eid-fusarium-metagenomics-2025",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:smith-fungal-meningitis-2024"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is marked inline as this project's reading"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

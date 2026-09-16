@@ -1,0 +1,328 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://wichaa.net/schema/medical-tourism-node.schema.json",
+ "title": "Cross-border care node record",
+ "description": "One record per node of the subject: a country as a destination, a city cluster, a procedure, a hospital or clinic, a step in the journey, a risk, a rule, an organization, a person, an event, a word, a dataset, or a long piece of writing. Every field carries provenance (record default + per-field override). Keys beginning with x_ are free extension slots and are never rejected.",
+ "type": "object",
+ "required": ["schema", "id", "type", "names", "region", "text", "sources", "provenance", "confidence", "updated"],
+ "additionalProperties": false,
+ "patternProperties": {"^x_": {}},
+ "properties": {
+  "schema": {"type": "integer", "const": 1},
+  "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+  "type": {
+   "type": "string",
+   "enum": ["destination", "hub", "procedure", "facility", "pathway", "risk", "rule", "org", "person", "event", "term", "dataset", "story"]
+  },
+  "names": {
+   "type": "object",
+   "required": ["name"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string", "minLength": 1, "description": "what the thing is called in English"},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "said": {"type": "string", "description": "the local name, or how the trade says it, when that differs"},
+    "sort": {"type": "string"}
+   }
+  },
+  "etymology": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "root": {"type": "string", "description": "where the word comes from, e.g. Greek arthron joint + plastia moulding"},
+    "first_attested": {"type": "string", "description": "earliest dated use you can NAME with a source; blank if none"},
+    "note": {"type": "string"},
+    "tier": {"$ref": "#/$defs/tier"},
+    "source": {"type": "string"}
+   }
+  },
+  "region": {
+   "type": "array",
+   "minItems": 1,
+   "items": {"type": "string"},
+   "description": "open list, validated against data/vocab/regions.json with a warning"
+  },
+  "facets": {
+   "type": "object",
+   "description": "open per-type facets; values are scalars or lists of scalars. Known keys per type are listed in data/vocab/facets.json",
+   "additionalProperties": {
+    "type": ["string", "number", "boolean", "null", "array"],
+    "items": {"type": ["string", "number"]}
+   }
+  },
+  "text": {
+   "type": "object",
+   "required": ["what"],
+   "additionalProperties": false,
+   "properties": {
+    "what": {"type": "string", "minLength": 1, "description": "one plain paragraph: what it is"},
+    "story": {"type": "string", "description": "the narrative. Source marks inline: *Trade practice —* / *Inference —*"},
+    "how": {"type": "string", "description": "how it is done, priced, regulated, or travelled"},
+    "today": {"type": "string", "description": "present-tense state, dated"},
+    "notes": {"type": "string"}
+   }
+  },
+  "sections": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["h", "text"],
+    "additionalProperties": false,
+    "properties": {
+     "h": {"type": "string"},
+     "text": {"type": "string"},
+     "images": {"type": "array", "items": {"type": "integer"}}
+    }
+   }
+  },
+  "kin": {
+   "type": "array",
+   "description": "what other nodes ARE to this one, said from here. Directional: the other record says its own sentence back.",
+   "items": {
+    "type": "object",
+    "required": ["to", "as"],
+    "additionalProperties": false,
+    "properties": {
+     "to": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+     "as": {"type": "string", "minLength": 1},
+     "rel": {
+      "type": "string",
+      "enum": ["part", "whole", "origin", "descendant", "contrast", "place", "person", "event", "term",
+               "procedure", "performs", "performed-at", "destination", "governs", "governed-by",
+               "accredits", "accredited-by", "risk", "step", "measures", "measured-by", "kin", "org", "story", "source",
+               "rule", "facility", "hub", "dataset", "pathway"]
+     }
+    }
+   }
+  },
+  "confusable_with": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["id", "tell"],
+    "additionalProperties": false,
+    "properties": {"id": {"type": "string"}, "tell": {"type": "string"}}
+   }
+  },
+  "geo": {
+   "type": ["object", "null"],
+   "additionalProperties": false,
+   "required": ["lat", "lon"],
+   "properties": {
+    "lat": {"type": "number"},
+    "lon": {"type": "number"},
+    "precision": {"type": "string", "enum": ["exact", "street", "city", "region", "country"]},
+    "source": {"type": "string"}
+   }
+  },
+  "address": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "street": {"type": "string"},
+    "city": {"type": "string"},
+    "area": {"type": "string", "description": "state, province, emirate, governorate — the country's own second level"},
+    "country": {"type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO 3166-1 alpha-2"},
+    "postcode": {"type": "string"}
+   }
+  },
+  "links": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["label", "url"],
+    "additionalProperties": false,
+    "properties": {"label": {"type": "string"}, "url": {"type": "string", "pattern": "^https?://"}}
+   }
+  },
+  "sources": {
+   "type": "array",
+   "items": {"type": "string", "pattern": "^s:"},
+   "description": "ids from data/sources/sources.json only"
+  },
+  "provenance": {
+   "type": "object",
+   "required": ["default"],
+   "additionalProperties": false,
+   "properties": {
+    "default": {"$ref": "#/$defs/prov"},
+    "fields": {
+     "type": "object",
+     "additionalProperties": {"$ref": "#/$defs/prov"},
+     "description": "dotted field path -> provenance override, e.g. text.story"
+    }
+   }
+  },
+  "images": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["file", "source", "license"],
+    "additionalProperties": false,
+    "properties": {
+     "file": {"type": "string"},
+     "source": {"type": "string", "enum": ["commons", "own", "contributed", "flickr", "loc", "diagram", "other"]},
+     "title": {"type": "string"},
+     "url": {"type": "string"},
+     "page_url": {"type": "string"},
+     "license": {"type": "string"},
+     "license_url": {"type": "string"},
+     "author": {"type": "string"},
+     "credit": {"type": "string"},
+     "alt": {"type": "string"},
+     "date": {"type": "string"},
+     "primary": {"type": "boolean"},
+     "sha256": {"type": "string"},
+     "width": {"type": "integer"},
+     "height": {"type": "integer"}
+    }
+   }
+  },
+  "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+  "needs_verification": {"type": "boolean"},
+  "updated": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+  "tags": {
+   "type": "array",
+   "description": "Claims a reader might choose by. Every tag names its evidence. The validator refuses tier tradition or inference on a tag.",
+   "items": {
+    "type": "object",
+    "required": ["tag", "source"],
+    "additionalProperties": false,
+    "properties": {
+     "tag": {"type": "string", "description": "key from data/vocab/tags.json"},
+     "source": {"type": "string", "pattern": "^s:"},
+     "tier": {"type": "string", "enum": ["cited", "harvested", "field"]},
+     "note": {"type": "string"},
+     "since": {"type": "string"},
+     "url": {"type": "string", "pattern": "^https?://"}
+    }
+   }
+  },
+  "recognitions": {
+   "type": "array",
+   "description": "Accreditations, certifications, listings and awards by named bodies. Counted, never weighted, and never read as a quality score by this project.",
+   "items": {
+    "type": "object",
+    "required": ["by", "what", "source"],
+    "additionalProperties": false,
+    "properties": {
+     "by": {"type": "string", "description": "key from data/vocab/recognizers.json"},
+     "what": {"type": "string"},
+     "year": {"type": ["integer", "string", "null"]},
+     "valid_until": {"type": ["string", "null"], "description": "an accreditation expires; null where the body publishes no end date"},
+     "source": {"type": "string", "pattern": "^s:"},
+     "url": {"type": "string", "pattern": "^https?://"},
+     "note": {"type": "string"}
+    }
+   }
+  },
+  "prices": {
+   "type": "array",
+   "description": "A published price, with its currency, its date, and what it includes. NEVER a quote somebody was given, never an average this project computed, never a range with no source. The unit is one episode of the named procedure.",
+   "items": {
+    "type": "object",
+    "required": ["procedure", "country", "amount", "currency", "as_of", "source", "kind"],
+    "additionalProperties": false,
+    "properties": {
+     "procedure": {"type": "string", "description": "a procedure record id"},
+     "country": {"type": "string", "pattern": "^[A-Z]{2}$"},
+     "city": {"type": "string"},
+     "facility": {"type": "string", "description": "a facility record id, where the price is that facility's own"},
+     "amount": {"type": ["number", "null"]},
+     "amount_high": {"type": ["number", "null"], "description": "the top of a published range; amount is then the bottom"},
+     "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+     "usd": {"type": ["number", "null"], "description": "converted by tools/prices.py at a dated rate; never typed by hand"},
+     "as_of": {"type": "string", "description": "the date the price was published or read, YYYY-MM-DD or YYYY"},
+     "kind": {"type": "string", "enum": ["package", "list", "estimate", "survey", "tariff", "reimbursement", "quoted-range"]},
+     "includes": {"type": "array", "items": {"type": "string"}, "description": "surgeon, anaesthesia, implant, ward nights, hotel, transfers, follow-up — the maker's own words"},
+     "excludes": {"type": "array", "items": {"type": "string"}},
+     "source": {"type": "string", "pattern": "^s:"},
+     "url": {"type": "string", "pattern": "^https?://"},
+     "note": {"type": "string"},
+     "tier": {"type": "string", "enum": ["cited", "harvested", "field"]}
+    }
+   }
+  },
+  "legality": {
+   "type": "array",
+   "description": "Where a thing is lawful for a non-resident, one row per jurisdiction, each naming its instrument and its date. Law moves; every row carries as_of and a link, and a stale row is a wrong row.",
+   "items": {
+    "type": "object",
+    "required": ["country", "status", "as_of", "source"],
+    "additionalProperties": false,
+    "properties": {
+     "country": {"type": "string", "pattern": "^[A-Z]{2}$"},
+     "status": {
+      "type": "string",
+      "enum": ["lawful", "lawful-with-conditions", "residents-only", "unlawful", "unregulated", "no-data"]
+     },
+     "conditions": {"type": "string"},
+     "instrument": {"type": "string", "description": "the act, code article, directive or ministerial regulation, named"},
+     "as_of": {"type": "string"},
+     "source": {"type": "string", "pattern": "^s:"},
+     "url": {"type": "string", "pattern": "^https?://"},
+     "note": {"type": "string"}
+    }
+   }
+  },
+  "metrics": {
+   "type": "object",
+   "description": "Numbers this record states about itself, each with its own source and date. A number nobody published stays null, and null prints as a gap on the page.",
+   "additionalProperties": false,
+   "properties": {
+    "beds": {"type": ["integer", "null"]},
+    "staff": {"type": ["integer", "null"]},
+    "doctors": {"type": ["integer", "null"]},
+    "annual_patients": {"type": ["integer", "null"]},
+    "annual_foreign_patients": {"type": ["integer", "null"]},
+    "foreign_patient_countries": {"type": ["integer", "null"]},
+    "inbound_patients_year": {"type": ["integer", "string", "null"]},
+    "revenue_usd": {"type": ["number", "null"]},
+    "stay_days": {"type": ["number", "null"], "description": "nights in hospital, as published for the procedure"},
+    "days_before_flying": {"type": ["number", "null"], "description": "clinical guidance on the wait before a flight home"},
+    "recovery_weeks": {"type": ["number", "null"]},
+    "success_rate_pct": {"type": ["number", "null"]},
+    "complication_rate_pct": {"type": ["number", "null"]},
+    "mortality_per_1000": {"type": ["number", "null"]},
+    "wait_days_home": {"type": ["number", "null"], "description": "a published waiting time in a source market, with the market named in note"},
+    "wait_days_abroad": {"type": ["number", "null"]},
+    "note": {"type": "string"},
+    "as_of": {"type": "string"},
+    "source": {"type": "string", "pattern": "^s:"},
+    "url": {"type": "string", "pattern": "^https?://"}
+   }
+  },
+  "dataset": {
+   "type": "object",
+   "description": "For type dataset: what the series actually measures, and what it does not. The honest half of a data-heavy site.",
+   "additionalProperties": false,
+   "properties": {
+    "publisher": {"type": "string"},
+    "url": {"type": "string", "pattern": "^https?://"},
+    "api": {"type": "string"},
+    "license": {"type": "string"},
+    "unit": {"type": "string"},
+    "indicator": {"type": "string", "description": "the publisher's own indicator code, e.g. SH.XPD.CHEX.PC.CD"},
+    "years": {"type": "string"},
+    "countries": {"type": ["integer", "null"]},
+    "updated_by_publisher": {"type": "string"},
+    "counts": {"type": "string", "description": "what a row counts, in the publisher's definition"},
+    "does_not_count": {"type": "string", "description": "what falls outside it — the sentence most charts leave out"},
+    "used_on": {"type": "array", "items": {"type": "string"}, "description": "pages of this site that draw on it"}
+   }
+  }
+ },
+ "$defs": {
+  "tier": {"type": "string", "enum": ["cited", "harvested", "tradition", "inference", "field"]},
+  "prov": {
+   "type": "object",
+   "required": ["tier"],
+   "additionalProperties": false,
+   "properties": {
+    "tier": {"$ref": "#/$defs/tier"},
+    "source": {"type": "string"},
+    "note": {"type": "string"}
+   }
+  }
+ }
+}

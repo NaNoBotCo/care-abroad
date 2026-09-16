@@ -1,0 +1,135 @@
+{
+ "schema": 1,
+ "id": "los-algodones",
+ "type": "hub",
+ "names": {
+  "name": "Los Algodones",
+  "aliases": ["Algodones", "Molar City"],
+  "said": "Al-go-DOH-nes. Yuma calls it Algodones; the trade, and the town's own signage, call it Molar City."
+ },
+ "region": ["mexico", "north-america"],
+ "facets": {
+  "iso2": "MX",
+  "radius_km": 6,
+  "specialty": ["dentistry", "optometry", "pharmacy"],
+  "draws": ["dental-implant", "all-on-four", "dental-crown", "root-canal", "veneers", "full-mouth-restoration"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "A town of a few square blocks in the north-east corner of Baja California, pressed against the Colorado River and the Arizona line, where several hundred dental surgeries, opticians and pharmacies trade almost entirely with people who walk across the border in the morning and walk back the same afternoon. Wikipedia puts the resident population at 5,474 at the 2010 census and the dentists at approximately 600. Nobody flies here for treatment. They park in California and cross on foot.",
+  "story": "The cluster is an accident of geometry. Los Algodones sits in a pocket of Mexican territory bounded by the Colorado River and the international line, reached from the United States through one small crossing at Andrade, California — a port established in 1909 for a Southern Pacific branch line, about six miles west of downtown Yuma. The railway was gone by 1960. What replaced it, from the 1990s onward, was dentistry: Wikipedia's article on the port records that dentists and pharmacies set up primarily for United States customers, and that this is what keeps a remote desert crossing among the busiest in the country for pedestrians. It ranked eleventh in the United States for pedestrian crossings in 2010.\n\nThe traffic has a season, and the season is legible in the federal count. The Bureau of Transportation Statistics recorded 563,552 pedestrian crossings northbound at Andrade in calendar 2025. January took 66,785 of them and July took 23,437. That shape belongs to the winter residents of Yuma and the Imperial Valley, who arrive in November and leave in spring.\n\n*Inference —* the density is the product. A patient who needs eight crowns and two implants cannot compare four surgeries in a city where they are scattered across forty kilometres; here they can walk past forty front doors in twenty minutes, and the surgeries know it. The competition is conducted in printed price cards in the window, which is why Los Algodones is one of the few places in this directory where prices are simply published.",
+  "how": "The crossing is the whole logistics problem. Drivers park on the California side at Andrade and cross on foot; the return leg is the one with the queue, because it is a United States immigration and customs inspection. Treatment is day-work built around that: consultation and impressions in the morning, laboratory work in the town, fitting in the afternoon, and for implant cases a second trip months later once the bone has taken. Surgeries quote in United States dollars and take cards and cash. Medication bought in the pharmacies crosses back under United States personal-importation rules, which treat a controlled substance differently from an ordinary prescription.",
+  "today": "As of 16 September 2026 Sani Dental Group, which lists clinics in Los Algodones, Cancún and Playa del Carmen, publishes an open price list in dollars and pesos: a titanium implant at 890 dollars, the crown that goes on it at a further 720, an acrylic all-on-four arch at 8,110. The page states that every figure is a base or starting-at price, and it carries no line telling a reader which of the three towns it applies to.",
+  "notes": "This page describes a place. It is not advice about treatment, and no figure here is a quotation to any particular patient."
+ },
+ "geo": {"lat": 32.7153, "lon": -114.7289, "precision": "city", "source": "s:wp-los-algodones"},
+ "address": {"city": "Los Algodones", "area": "Baja California", "country": "MX"},
+ "prices": [
+  {
+   "procedure": "dental-implant",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 890,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["the titanium implant fixture"],
+   "excludes": ["the crown, which the same list prices separately at 720 dollars", "the abutment is stated as part of the crown line, not the implant line"],
+   "source": "s:sani-price-list",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "listed as Titanium Dental Implant (implant only), 890 dollars or 17,800 pesos. A single restored tooth is therefore 1,610 dollars on this list, not 890. The page states all prices are a base or starting-at price.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-crown",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 490,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["a zirconia crown"],
+   "excludes": ["preparation, root treatment or extraction, each priced on its own line"],
+   "source": "s:sani-price-list",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "the same list carries porcelain-fused-to-metal at 230 dollars, e-max at 395 and porcelain-fused-to-gold at 600; the material is the price.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "root-canal",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 340,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["root canal, any tooth"],
+   "excludes": ["the crown that usually follows it"],
+   "source": "s:sani-price-list",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "listed as Root Canal (any tooth), 340 dollars or 6,800 pesos — one price whatever the tooth, where most schedules charge more for a molar.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "veneers",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 450,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["one porcelain veneer"],
+   "excludes": ["everything beyond the single unit — a front-teeth case is this figure multiplied"],
+   "source": "s:sani-price-list",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "per veneer. A zirconia veneer is listed at 490.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "all-on-four",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 8110,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["four implants and an acrylic hybrid fixed denture", "upper or lower arch"],
+   "excludes": ["the second arch", "the branded-implant versions, listed separately at 8,950 dollars with Nobel and 9,710 with Straumann"],
+   "source": "s:sani-price-list",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "one arch. The words Upper or lower arch are the list's own, and they are the difference between this figure and a whole mouth.",
+   "tier": "cited"
+  }
+ ],
+ "tags": [
+  {"tag": "price-published", "source": "s:sani-price-list", "tier": "cited", "note": "a public price list in dollars and pesos, read on 16 September 2026", "url": "https://sanidentalgroup.com/price-list"}
+ ],
+ "kin": [
+  {"to": "mexico", "as": "The country this cluster sits in, though almost nothing about it is aimed at Mexicans.", "rel": "destination"},
+  {"to": "nuevo-progreso", "as": "The same trade at the other end of the same border, serving Texas instead of Arizona.", "rel": "contrast"},
+  {"to": "tijuana", "as": "The other Baja California cluster — bigger, surgical, and reached by a different kind of trip.", "rel": "contrast"},
+  {"to": "united-states", "as": "Where the patients live, and where the dental bill they are avoiding was written.", "rel": "kin"},
+  {"to": "dental-implant", "as": "The operation the town is built on, priced here as a fixture with the crown billed separately.", "rel": "performs"},
+  {"to": "all-on-four", "as": "Sold here by the arch, which is the word that decides whether a quote is half a mouth or a whole one.", "rel": "performs"},
+  {"to": "dental-crown", "as": "Priced by material on the open lists in the windows.", "rel": "performs"},
+  {"to": "revision-at-home", "as": "Who refits the crown in Ohio when it fails, and at whose price.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Short here — the patient can come back across in an afternoon, which is not true of anywhere else in this directory.", "rel": "risk"},
+  {"to": "the-price-that-isnt", "as": "A base-price list with the crown on its own line is the clearest case this site has of the problem.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Border Crossing/Entry Data — Andrade, California", "url": "https://data.bts.gov/d/keg4-3bc2"},
+  {"label": "Sani Dental Group price list", "url": "https://sanidentalgroup.com/price-list"}
+ ],
+ "sources": ["s:wp-los-algodones", "s:wp-andrade-poe", "s:bts-border-crossing", "s:sani-price-list"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "harvested", "source": "s:bts-border-crossing", "note": "the crossing counts are queried from the Bureau of Transportation Statistics series; the third paragraph is marked as this project's own reasoning"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a day trip across a land border for dental work; no single page describes it"},
+   "prices": {"tier": "cited", "source": "s:sani-price-list"}
+  }
+ },
+ "x_commons_files": ["File:Los Algodones, Baja California.jpg", "File:Andrade Port of Entry.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

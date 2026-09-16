@@ -1,0 +1,98 @@
+{
+ "schema": 1,
+ "id": "dnv-healthcare",
+ "type": "org",
+ "names": {
+  "name": "DNV Healthcare",
+  "aliases": [
+   "DNV",
+   "Det Norske Veritas",
+   "NIAHO",
+   "DIAS"
+  ],
+  "said": "A ship classification society that accredits hospitals. The lineage is not a joke; the method comes straight from it."
+ },
+ "region": [
+  "global",
+  "europe-north",
+  "north-america"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "NO",
+  "founded": 1864,
+  "status": "open"
+ },
+ "text": {
+  "what": "The healthcare accreditation arm of DNV, a Norwegian assurance and classification company founded in 1864, owned by the Det Norske Veritas Foundation and run from Høvik outside Oslo. It accredits hospitals in the United States under NIAHO, its own standard aligned to the federal Conditions of Participation, and hospitals and clinics elsewhere under DIAS. Both are built on ISO 9001 quality management.",
+  "story": "DNV began by classing ships: an insurer needed to know whether a hull was sound, and a third party was paid to say so. The healthcare programme carries that inheritance in its structure — a management-system standard, a certificate, and a surveyor who returns.\n\nThe United States programme matters to this subject because of what it proves about the market. Until 2008 the Joint Commission was effectively the only route to Medicare deeming; DNV entering with its own deeming authority made accreditation a thing a hospital could shop for. *Trade practice —* once a hospital can choose its accreditor, the accreditor is competing for the hospital's business, which is the commercial fact underneath every voluntary scheme on this site.\n\n*Inference —* the ISO 9001 base is the genuinely different thing here. ISO 9001 audits a quality management system rather than a clinical standard, and a system audit answers a narrower question than most badge walls imply.",
+  "how": "A hospital applies and pays. The NIAHO programme is unusual in surveying annually rather than at the end of a three-year cycle, which changes what the certificate means: it is a recent inspection rather than one that may be nearly three years old. The DIAS programme serves hospitals and clinics outside the United States on the same ISO 9001 base.",
+  "today": "As of 16 September 2026 DNV runs NIAHO for acute care, critical access and psychiatric hospitals in the United States, and DIAS internationally. The pages read for this record do not state the fee, the public status of the accredited list, or whether the standards are downloadable."
+ },
+ "geo": {
+  "lat": 59.8899,
+  "lon": 10.5233,
+  "precision": "city",
+  "source": "s:dnv-wikipedia"
+ },
+ "address": {
+  "city": "Høvik",
+  "country": "NO"
+ },
+ "kin": [
+  {
+   "to": "jci",
+   "as": "The scheme it broke a near-monopoly on in the United States in 2008.",
+   "rel": "contrast"
+  },
+  {
+   "to": "united-states",
+   "as": "Where its NIAHO programme carries federal deeming weight.",
+   "rel": "place"
+  },
+  {
+   "to": "achsi",
+   "as": "Another national scheme selling itself abroad, on a different standards base.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a system audit and a clinical audit are separated.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "DNV hospital accreditation",
+   "url": "https://www.dnv.com/services/hospital-accreditation-niaho-and-dias-programs/"
+  }
+ ],
+ "sources": [
+  "s:dnv-niaho",
+  "s:dnv-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:dnv-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the 2008 entry and the annual survey interval are widely reported in the American hospital trade press but are not on the DNV pages read here; marked inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "same"
+   },
+   "facets": {
+    "tier": "cited",
+    "source": "s:dnv-wikipedia",
+    "note": "1864 is the founding of DNV, not of the healthcare programme"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,179 @@
+{
+ "schema": 1,
+ "id": "egg-donation",
+ "type": "procedure",
+ "names": {
+  "name": "Egg donation",
+  "aliases": ["oocyte donation", "donor egg IVF", "DIVF", "OD", "ovodonación"],
+  "said": "Clinics write DIVF or OD on a price list. Registers write donor oocyte. The recipient's paperwork says recipient; the donor's says compensation, and how large that word is allowed to be is the whole legal argument."
+ },
+ "etymology": {
+  "root": "oocyte: Greek ōion, an egg, plus kytos, a vessel — the egg cell. Donation carries Latin donare, to give, which is the word every jurisdiction keeps even where a fixed sum changes hands and the sum is printed on the clinic's own price list.",
+  "tier": "tradition",
+  "note": "fresh means the donor is stimulated for this recipient and the eggs are used within days; frozen means they come from a bank and are thawed. The two words sit next to each other on price lists at a difference of several thousand euro, and only one of them includes the eggs."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "fertility",
+  "setting": "outpatient-course",
+  "anaesthesia": "sedation"
+ },
+ "text": {
+  "what": "A donor is screened and stimulated, her eggs are collected, and they are fertilised with the recipient's partner's sperm or with donor sperm; the resulting embryo goes into the recipient, whose own cycle is timed to match or suppressed and replaced with hormones. The recipient has no egg collection and needs no sedation of her own. What is bought is a stranger's ovarian reserve, and what varies across borders is whether that stranger may be paid, whether she stays anonymous, and how old the recipient is allowed to be.",
+  "story": "Egg donation is where the price gap and the law gap point the same way, which is why it is the most travelled fertility treatment in Europe. The ESHRE taskforce that surveyed six destination countries found legal barriers leading the reasons patients gave for crossing a border at all, ahead of cost.\n\nThe pricing is unusually legible because the clinics are selling to people who are comparing across jurisdictions. Reprofit's price list, valid from 1 January 2026, puts \"selection + STANDARD stimulation and compensation of the donor\" inside a 5,525 EUR cycle — the donor's payment is a printed line item in a published Czech price, not an inference. The UK regulator sets the other kind of number: a cap. An egg donor in the UK may receive up to 985 pounds per donation cycle, raised from 750 pounds on 1 October 2024, and may not be paid more.\n\n*Trade practice —* the clinics advertising to British, German and Nordic patients advertise anonymity, guaranteed blastocyst counts and short waiting lists, in that order. Which countries actually provide donor anonymity, under which instrument and on what date, belongs on the rule record rather than here, because it changes.\n\n*Inference —* a guarantee of two blastocysts is a pricing device as much as a clinical one: it moves the risk of a poor cycle from the patient to the clinic and prices it, which is why the guaranteed packages cost roughly double the unguaranteed ones on the same list."
+ ,
+  "how": "Three legal facts set the price and the destination. Whether the donor may be paid, and how much: a published cycle price that names donor compensation among its inclusions is a price from a jurisdiction that allows it, while a capped jurisdiction such as the UK produces a donor shortage rather than a cheaper cycle. Whether the donor stays anonymous: the UK ended anonymity for donations made after 1 April 2005, and a person conceived from such a donation can have the donor's name, date of birth and last known address at 18 — patients who want an unnamed donor cannot buy one at home. And who may be a recipient: statutory age limits and rules on marital status and sexual orientation sit in national law, not clinic policy. The rule records carry the country map with instruments and dates.\n\nOn the bill, the item to find is the eggs. Newlife IVF in Thessaloniki lists frozen donor-egg treatment from an external bank at 3,300 EUR and then names \"donor egg cost\" and the shipment of the eggs to the clinic among the exclusions: the cheapest donor-egg line on the page is the one that does not include the donor eggs. Medication for the recipient is excluded almost everywhere; Fertilab in Barcelona is unusual in stating that the donor's medication is inside its guaranteed-blastocyst price. UK donors are limited to creating children in up to ten families, which is a supply constraint rather than a price.",
+  "today": "As of September 2026 the published donor-egg cycle prices read off clinic pages for this record run from 3,300 EUR in Thessaloniki without the eggs, through 5,525 EUR in Brno with donor compensation inside it, to 7,635 EUR in Barcelona with a blastocyst guarantee and 11,994 US dollars in New York state. A UK donor is capped at 985 pounds for the cycle that produces the eggs in any of those prices that were paid for under UK rules.",
+  "notes": "This page describes a treatment and the published prices and caps attached to it. It is not medical advice and it is not legal advice."
+ },
+ "metrics": {
+  "success_rate_pct": 51.3,
+  "note": "51.3% is the European mean PREGNANCY rate per embryo transfer after egg donation in 2020, from the ESHRE fact sheet drawing on the EIM registries. It is a pregnancy rate, not a live-birth rate, and it is per embryo transferred, not per cycle started or per patient — the three differ by roughly a factor of two and clinics quote whichever is highest. The comparable ESHRE figures are 33.2% after conventional IVF and 33.0% after ICSI with the patient's own eggs; the gap is the donor's age, not the clinic's skill. The CDC's US national rows for 2022 give 42.2% of transfers using donated embryos ending in a live-birth delivery, on a different denominator again.",
+  "as_of": "2020",
+  "source": "s:eshre-art-factsheet",
+  "url": "https://www.eshre.eu/-/media/sitecore-files/Press-room/ESHRE_ARTFactSheet_v10_2025.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "egg-donation",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 5525,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": ["consultation", "treatment plan", "protocol preparation", "selection, standard stimulation and compensation of the donor", "donor's egg retrieval", "sperm analysis and preparation", "male partner's STDs testing", "ICSI", "extended cultivation", "embryotransfer (fresh embryo)"],
+   "excludes": ["MFSS / MACS", "PICSI", "EmbryoGlue", "TimeLaps cultivation", "cryopreservation"],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"IVF cycle with donated eggs (DIVF, OD)\", valid from 1 January 2026. Compensation of the donor is a named inclusion. Nothing on the five-page list names stimulation medication for the recipient.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 11110,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": ["donor selection, standard stimulation and compensation", "donor's egg retrieval", "ICSI", "extended cultivation", "up to 4 transfers", "cryopreservation of all embryos and 1 year of storage"],
+   "excludes": ["MFSS / MACS", "PICSI", "EmbryoGlue", "TimeLaps cultivation"],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"IVF cycle with donated eggs Baby Guarantee Program\" — twice the standard cycle for up to four transfers. The list does not state on its face what the programme returns if no baby follows.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "GR",
+   "city": "Thessaloniki",
+   "amount": 3300,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["treatment with frozen donor oocytes from an external bank"],
+   "excludes": ["donor egg cost", "shipment of the eggs from the bank to the clinic", "preliminary tests", "medications"],
+   "source": "s:newlife-ivf-costs",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "note": "the cheapest donor-egg line on the page excludes the donor eggs. This is the fertility version of a joint-replacement package that excludes the implant. Read on 16 September 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "GR",
+   "city": "Thessaloniki",
+   "amount": 7350,
+   "amount_high": 10550,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": ["fresh oocyte donation", "standard package guarantees 2 top-quality blastocysts", "advanced package guarantees 4"],
+   "excludes": ["preliminary obligatory investigations for both partners", "medications", "embryo storage"],
+   "source": "s:newlife-ivf-costs",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "note": "7,350 EUR standard, 10,550 EUR advanced; the difference is two more guaranteed blastocysts. Read on 16 September 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "ES",
+   "city": "Barcelona",
+   "amount": 7635,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["donor selection", "donor's medication", "genetic testing", "EmbryoScope+", "blastocyst culture", "first transfer"],
+   "excludes": [],
+   "source": "s:fertilab-pricing",
+   "url": "https://fertilab.com/en/pricing/",
+   "note": "listed as from 7,635 EUR under a guaranteed-blastocysts programme. The donor's medication is named as included, which is rare enough on these lists to be worth reading twice; the recipient's is not mentioned either way. Read on 16 September 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "US",
+   "city": "Syracuse",
+   "amount": 11994,
+   "currency": "USD",
+   "as_of": "2026-07-07",
+   "kind": "package",
+   "includes": ["4 fresh donor eggs", "ICSI", "assisted hatching", "cryopreservation", "frozen embryo transfer"],
+   "excludes": ["medications"],
+   "source": "s:cny-ivf-cost",
+   "url": "https://www.cnyfertility.com/ivf-cost/",
+   "note": "the clinic's in-house donor egg package, page dated 7 July 2026. Four eggs is a count, not a cycle: the unit being sold differs from the European cycle prices above.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "GB",
+   "amount": 985,
+   "currency": "GBP",
+   "as_of": "2024-10-01",
+   "kind": "tariff",
+   "includes": ["the maximum compensation a UK egg donor may receive per donation cycle"],
+   "excludes": ["travel, accommodation and childcare, which may be claimed as expenses on top"],
+   "source": "s:hfea-donating-eggs",
+   "url": "https://www.hfea.gov.uk/donation/donors/donating-your-eggs/",
+   "note": "a regulator's cap, not a treatment price: it is what the donor receives, not what the recipient pays. Raised from 750 pounds on 1 October 2024. UK egg donors are aged 18 to 35, and a person conceived from their donation may have the donor's name, date of birth and address at 18.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "ivf", "as": "The cycle this is a version of, run on somebody else's eggs.", "rel": "whole"},
+  {"to": "donor-anonymity-law", "as": "The rule that decides whether the donor can stay unnamed, and so which country the cycle is bought in.", "rel": "governed-by"},
+  {"to": "sperm-donation", "as": "The same bargain on the other side of the dish, with a different cap and a different queue.", "rel": "contrast"},
+  {"to": "egg-freezing", "as": "Where the frozen eggs in a donor bank come from, and the same laboratory step.", "rel": "kin"},
+  {"to": "circumvention-travel", "as": "What this traffic is called when the reason for it is a prohibition at home.", "rel": "term"},
+  {"to": "reproductive-exile", "as": "The word offered for the patient who must leave to be treated.", "rel": "term"},
+  {"to": "hfea", "as": "Sets the UK compensation cap and the ten-family limit this record quotes.", "rel": "governs"},
+  {"to": "eshre", "as": "Publishes the European pregnancy rate per transfer after egg donation.", "rel": "measures"},
+  {"to": "reading-the-exclusions", "as": "The step where a donor-egg package that excludes the donor eggs is found.", "rel": "step"},
+  {"to": "czechia", "as": "Where a published cycle price names the donor's compensation among its inclusions.", "rel": "destination"},
+  {"to": "greece", "as": "Where the guaranteed-blastocyst packages on this page are sold.", "rel": "destination"},
+  {"to": "spain", "as": "The largest European destination for this treatment by cycle count in the ESHRE registries.", "rel": "destination"}
+ ],
+ "confusable_with": [
+  {"id": "egg-freezing", "tell": "Egg freezing banks a patient's own eggs for herself; egg donation banks or transfers another woman's for someone else. The laboratory step is the same and the consent forms are not."},
+  {"id": "surrogacy", "tell": "Egg donation moves a gamete; surrogacy moves a pregnancy. A donor-egg cycle can be lawful in a country where surrogacy is not."}
+ ],
+ "links": [
+  {"label": "Newlife IVF costs, Thessaloniki", "url": "https://www.newlife-ivf.co.uk/ivf-costs"},
+  {"label": "HFEA — donating your eggs", "url": "https://www.hfea.gov.uk/donation/donors/donating-your-eggs/"}
+ ],
+ "sources": ["s:eshre-art-factsheet", "s:shenfield-2010", "s:reprofit-pricelist-2026", "s:newlife-ivf-costs", "s:fertilab-pricing", "s:cny-ivf-cost", "s:hfea-donating-eggs", "s:hfea-donating-sperm", "s:hfea-2023-trends", "s:cdc-art-2022-summary"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:reprofit-pricelist-2026", "note": "the compensation line and the UK cap are cited; the paragraph on what clinics advertise is marked Trade practice and the reading of blastocyst guarantees is marked Inference"},
+   "text.how": {"tier": "cited", "source": "s:newlife-ivf-costs"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:eshre-art-factsheet"},
+   "prices": {"tier": "cited", "source": "s:reprofit-pricelist-2026"}
+  }
+ },
+ "x_commons_files": ["File:Oocyte.jpg", "File:Human oocyte with corona radiata.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

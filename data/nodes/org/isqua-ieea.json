@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "id": "isqua-ieea",
+ "type": "org",
+ "names": {
+  "name": "ISQua External Evaluation Association",
+  "aliases": [
+   "ISQua EEA",
+   "IEEA",
+   "the accreditor of accreditors"
+  ],
+  "said": "The trade calls it the accreditor of accreditors, and that phrase does more work in marketing copy than in any contract."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "IE",
+  "founded": 2018,
+  "status": "open"
+ },
+ "text": {
+  "what": "The body that assesses the bodies. Established by the International Society for Quality in Health Care in 2018 and trading from 2019, registered in Switzerland, it runs an International Accreditation Programme in four categories: health and social care standards, external evaluation organisations, surveyor training programmes, and quality and patient safety training programmes. It states plainly that it \"does not directly accredit health or social care services\".",
+  "story": "Every other accreditor on this site is a private or public body selling an inspection to the organisation it inspects. The obvious question — who inspects the inspector — has exactly one industrial answer, and this is it.\n\nThe answer is smaller than it sounds. ISQua EEA does not audit a hospital and does not re-run an accreditor's surveys. It assesses whether a standards set, an evaluation organisation, or a surveyor training programme meets its own published principles, and grants an award for four years against annual progress reports. The applicant pays: a once-off Access Fee \"entitles an organisation to enter the International Accreditation Programme and to receive the full information pack\", banded by the World Bank income group of the country the applicant operates from — 1,716 to 2,946 euros for 2026.\n\n*Inference —* so the chain runs applicant pays accreditor, accreditor pays meta-accreditor, and nobody in the chain is paid by a patient. That is worth stating once, without indignation, because it is the shape of the whole field and most pages that cite these marks leave it out.",
+  "how": "An organisation pays the Access Fee, receives the information pack, submits a self-assessment against the relevant ISQua EEA principles, and is reviewed by external surveyors. An award runs four years and requires an annual progress report with supporting evidence. Awards are dated on both ends, and accredited bodies publish the year range — AACI, for example, lists an organisational award for 2022 to 2026, a standards award for 2023 to 2027 and a surveyor training award for 2024 to 2028.",
+  "today": "As of 16 September 2026 ISQua EEA holds awards over Temos, Global Healthcare Accreditation, AACI, NABH, CBAHI, the ACHS EQuIP standards and Thailand's Healthcare Accreditation Institute, among others. ISQua itself remains a separate Dublin-based not-for-profit, Irish registered charity number 20072445.",
+  "notes": "Two countries sit on this record. The association is registered in Switzerland; the office the point is pinned on is ISQua's in Dublin, which is where the programme is run from. The country facet follows the point, so this record groups under Ireland on the maps and indexes."
+ },
+ "geo": {
+  "lat": 53.3498,
+  "lon": -6.2603,
+  "precision": "city",
+  "source": "s:isqua-about"
+ },
+ "address": {
+  "city": "Dublin",
+  "country": "IE"
+ },
+ "kin": [
+  {
+   "to": "jci",
+   "as": "One of the accreditors whose standards it sits above, and the largest.",
+   "rel": "accredits"
+  },
+  {
+   "to": "temos",
+   "as": "Holds its award; the first German accreditor to take one.",
+   "rel": "accredits"
+  },
+  {
+   "to": "gha",
+   "as": "Holds its award over the Standards for Medical Travel 5.0.",
+   "rel": "accredits"
+  },
+  {
+   "to": "aaci",
+   "as": "Holds three of its awards, each with a published year range.",
+   "rel": "accredits"
+  },
+  {
+   "to": "nabh",
+   "as": "Holds its award over the Indian hospital standards.",
+   "rel": "accredits"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where the chain of who pays whom is followed to the end.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "International Accreditation Programme",
+   "url": "https://ieea.ch/international-accreditation-programme/"
+  },
+  {
+   "label": "ISQua",
+   "url": "https://isqua.org/"
+  }
+ ],
+ "sources": [
+  "s:ieea-iap",
+  "s:isqua-about"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ieea-iap"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ieea-iap",
+    "note": "third paragraph marked as this project's inference"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:isqua-about",
+    "note": "ISQua's Dublin base; ISQua EEA is registered in Switzerland and publishes no street address this project could read"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "needs_verification": true
+}

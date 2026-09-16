@@ -1,0 +1,83 @@
+{
+ "id": "complaint-and-claim",
+ "names": {
+  "name": "Complaint and claim",
+  "aliases": [
+   "redress",
+   "malpractice claim",
+   "regulatory complaint"
+  ],
+  "said": "Two different things with one name: a complaint to a regulator, which can sanction a doctor, and a claim in court, which can pay money."
+ },
+ "facets": {
+  "stage": "when-it-goes-wrong"
+ },
+ "x_order": 17,
+ "text": {
+  "what": "The attempt to hold somebody answerable after harm. It divides into a regulatory complaint against a licensed clinician, heard by the body that licensed them, and a civil claim for compensation, heard by a court. For a patient treated abroad both routes sit in the destination's jurisdiction, in the destination's language, under the destination's limitation period.",
+  "story": "Inside the European Union the position is written down, and it is the exception rather than the pattern. Directive 2011/24/EU requires the Member State of treatment to ensure \"transparent complaints procedures and mechanisms in place for patients, in order for them to seek remedies ... if they suffer harm arising from the healthcare\" (Article 4(2)(c)), and to ensure that \"systems of professional liability insurance, or a guarantee or similar arrangement that is equivalent or essentially comparable\" are in place (Article 4(2)(d)). Article 6 obliges every Member State to run a national contact point that tells patients about providers, rights, complaints procedures and dispute resolution. The Member State of affiliation must in turn provide information on \"procedures for accessing ... appeal and redress if patients consider that their rights have not been respected\" (Article 5(b)). The governing law is the destination's: cross-border healthcare is provided in accordance with the legislation of the Member State of treatment.\n\n*Inference —* outside that bloc no comparable instrument turned up in this project's reading. The claim, if there is one, is brought where the treatment happened, and the practical obstacles are ordinary rather than exotic: a limitation period that runs from the operation, court fees and local counsel, a contract that may name a forum, evidence in another language, and a defendant whose insurer — if the hospital carries insurance at all — has no obligation to a foreign claimant beyond what that country's law imposes.\n\nThe regulatory route has a matching gap. A home regulator registers home licensees; a complaint about a surgeon in another country is a complaint to that country's register, if it maintains one that accepts complaints from non-residents. An intermediary who arranged the trip is usually not registered by anybody at all, which is the subject of the facilitator step.",
+  "how": "What a reader would have to ask, and the answers are documentary rather than clinical: which body registers the operating surgeon and whether it publishes its register, whether that body accepts a complaint from a non-resident and in which language, what the limitation period is for a claim in that jurisdiction and when it starts, whether the signed contract or consent form names a governing law or a forum, whether the hospital carries professional liability insurance and whether the policy responds to a foreign claimant, and whether any judgment obtained at home could be enforced against assets in the destination.",
+  "today": "As of 16 September 2026 the EU national contact points are the only cross-border complaint infrastructure this project could find that is built into an instrument. Elsewhere the route is the destination's own, and no body this project could find publishes how many claims foreign patients bring, or what becomes of them."
+ },
+ "kin": [
+  {
+   "to": "malpractice-recourse",
+   "as": "The risk record this step is the procedure for.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The one instrument that names complaints, redress and liability insurance across borders.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "as": "The bodies Article 6 obliges each Member State to run.",
+   "rel": "org"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The clinical event that precedes this step.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The party whose contract wording often decides where this step can be brought.",
+   "rel": "step"
+  },
+  {
+   "to": "arrival-and-consent",
+   "as": "Where the forum and the governing law were probably fixed, in a form signed on arrival.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention",
+   "as": "Why some patients cannot complain at home without disclosing what they travelled for.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:dir-2011-24-chapter-ii",
+  "s:eu-directive-2011-24"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

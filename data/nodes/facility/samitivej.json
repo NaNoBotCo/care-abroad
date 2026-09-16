@@ -1,0 +1,92 @@
+{
+ "schema": 1,
+ "id": "samitivej",
+ "type": "facility",
+ "names": {
+  "name": "Samitivej Sukhumvit Hospital",
+  "aliases": ["Samitivej", "โรงพยาบาลสมิติเวช สุขุมวิท"],
+  "said": "Sa-mi-ti-wet. Bangkok residents say Samitivej and mean the Sukhumvit 49 hospital; the group runs six more, and the children's hospital next door is the one families mean."
+ },
+ "region": ["southeast-asia"],
+ "facets": {
+  "iso2": "TH",
+  "ownership": "private",
+  "founded": 1979,
+  "specialty": ["paediatrics", "spine", "health screening", "obstetrics", "orthopaedics", "sports medicine"],
+  "draws": ["executive-health-screening"],
+  "status": "open",
+  "languages": ["Thai", "English", "Japanese", "Burmese", "Arabic", "Indonesian", "Chinese"]
+ },
+ "text": {
+  "what": "A 275-bed private hospital on Sukhumvit Soi 49 in Bangkok, opened in June 1979 and now owned by Bangkok Dusit Medical Services. It runs a children's hospital on the same site and a second general hospital at Srinakarin, and publishes an unusually long price list of check-up programmes broken down by sex and by decade of life.",
+  "story": "Samitivej's first hospital opened in June 1979. The group now runs seven facilities in Thailand — Sukhumvit, Srinakarin, Sriracha, Thonburi, Chonburi, Chinatown and the children's hospitals — plus an international clinic in Yangon, and it belongs to Bangkok Dusit Medical Services, the largest private hospital company in the country.\n\nSukhumvit 49 sits in the part of Bangkok where the Japanese community lives, and the hospital's language list reflects it. As of 2009, 40 per cent of the patients seen across Samitivej's centres were not Thai — a figure reported about the group and about visits, not about individual people, and not refreshed since.\n\n*Inference —* the shape of the published price list says something about who is buying. A hospital that prices knees sells operations to people who fly in for them; a hospital that prices fifteen different annual check-ups by age band sells a yearly appointment to people who already live nearby. Samitivej publishes both, but the check-up list is far longer.",
+  "how": "Check-up programmes are bought off the page, each with a promotional price beside a struck-through regular price and a date by which the voucher must be used. Surgical packages are quoted the same way: the endoscopic discectomy programme for senior patients read on 16 September 2026 named two nights in a standard room and then excluded pre-operative screening, laboratory work, special X-rays, medication for underlying conditions, complications, implanted screws, take-home medicine, physiotherapy and orthoses. The exclusion list is four times the length of the inclusion list.",
+  "today": "As of 16 September 2026 the hospital lists a Basic Check-up Program for men or women at 3,500 baht against a regular 7,500, usable to 31 January 2027, and runs the same list up through age bands to 74,500 baht for a longevity and brain-health programme for women over 60. Its spinal package is 365,000 baht for endoscopic discectomy, screws not included. The site names Joint Commission International accreditation without a year."
+ },
+ "geo": {"lat": 13.7348588, "lon": 100.5765266, "precision": "street", "source": "s:osm"},
+ "address": {"street": "133 Sukhumvit Soi 49, Khlong Tan Nuea, Watthana", "city": "Bangkok", "country": "TH", "postcode": "10110"},
+ "metrics": {
+  "beds": 275,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "275 beds and more than 400 care specialists are the hospital's own figures for the Sukhumvit site, read on 16 September 2026; the group's other hospitals are counted separately. The only foreign-patient figure found is the 2009 statement that 40 per cent of patients seen at Samitivej centres were not Thai — a share of VISITS across the group, not a count of people, and seventeen years old.",
+  "as_of": "2026-09-16",
+  "source": "s:samitivej-hospitals",
+  "url": "https://www.samitivejhospitals.com/about-us/hospital"
+ },
+ "tags": [
+  {"tag": "price-published", "source": "s:samitivej-checkup-sukhumvit", "tier": "cited", "note": "check-up and surgical packages priced in baht with redemption dates", "url": "https://www.samitivejhospitals.com/package/detail/annual-health-check-up-packages-samitivej-sukhumvit"},
+  {"tag": "package", "source": "s:samitivej-disc-package", "tier": "cited", "note": "the spinal package names its nights and then names nine exclusions"},
+  {"tag": "paediatric", "source": "s:samitivej-hospitals", "tier": "cited", "note": "a separate children's hospital on the same site, with its own specialist staff"},
+  {"tag": "chain", "source": "s:wp-samitivej", "tier": "cited", "note": "Bangkok Dusit Medical Services"},
+  {"tag": "interpreter", "source": "s:samitivej-medical-travel", "tier": "cited", "note": "the hospital states complimentary interpretation in many languages"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation, named on the hospital's own international-patient pages", "year": null, "valid_until": null, "source": "s:samitivej-medical-travel", "url": "https://www.samitivejhospitals.com/about-us/medical-tourism", "note": "the hospital's accreditation page is rendered by script and returned no list to this project; the year first granted is not recorded here"}
+ ],
+ "prices": [
+  {
+   "procedure": "executive-health-screening",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "samitivej",
+   "amount": 3500,
+   "amount_high": 7500,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["basic check-up programme for men or women"],
+   "excludes": ["anything the screening then finds"],
+   "source": "s:samitivej-checkup-sukhumvit",
+   "url": "https://www.samitivejhospitals.com/package/detail/annual-health-check-up-packages-samitivej-sukhumvit",
+   "note": "3,500 baht is the promotional price and 7,500 the regular price printed beside it; the page states the service can be used until 31 January 2027. The same list runs to 45,000 baht for a woman over 60 and 74,500 for the longevity programme, so the cheapest row on a screening page is rarely the one being sold.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "bangkok", "as": "The Sukhumvit end of the Bangkok cluster, four soi east of Bumrungrad.", "rel": "place"},
+  {"to": "thailand", "as": "A Bangkok hospital whose foreign trade is largely residents of Bangkok rather than arrivals.", "rel": "destination"},
+  {"to": "bumrungrad", "as": "The nearer comparison on price transparency: both publish, one leads with operations and this one with annual check-ups.", "rel": "contrast"},
+  {"to": "bangkok-hospital", "as": "Same parent company, Bangkok Dusit Medical Services, different campus and different price list.", "rel": "kin"},
+  {"to": "executive-health-screening", "as": "Priced here in fifteen versions, split by sex and by decade of life.", "rel": "performs"},
+  {"to": "jci", "as": "The accreditor it names, without a year.", "rel": "accredited-by"},
+  {"to": "reading-the-exclusions", "as": "Its spinal package prints two nights and nine exclusions, screws among them.", "rel": "step"}
+ ],
+ "links": [
+  {"label": "Samitivej Hospitals", "url": "https://www.samitivejhospitals.com/"},
+  {"label": "Annual health check-up packages, Sukhumvit", "url": "https://www.samitivejhospitals.com/package/detail/annual-health-check-up-packages-samitivej-sukhumvit"}
+ ],
+ "sources": ["s:wp-samitivej", "s:samitivej-hospitals", "s:samitivej-medical-travel", "s:samitivej-checkup-sukhumvit", "s:samitivej-disc-package", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "OpenStreetMap node โรงพยาบาลสมิติเวช สุขุมวิท on Soi Sukhumvit 49"},
+   "metrics": {"tier": "cited", "source": "s:samitivej-hospitals"}
+  }
+ },
+ "x_commons_files": ["File:Samitivej Sukhumvit Hospital.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

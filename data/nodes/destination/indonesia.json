@@ -1,0 +1,125 @@
+{
+ "schema": 1,
+ "id": "indonesia",
+ "type": "destination",
+ "names": {
+  "name": "Indonesia",
+  "aliases": [
+   "Republik Indonesia",
+   "Republic of Indonesia"
+  ],
+  "said": "berobat ke luar negeri — to go abroad for treatment. The phrase is ordinary Indonesian, which tells you how ordinary the journey is."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "ID",
+  "direction": "outbound",
+  "currency": "IDR",
+  "languages": [
+   "Indonesian",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "The largest source market in Southeast Asia, and the country whose departing patients built its neighbours' hospitals. Indonesians fly to Penang, Kuala Lumpur and Singapore in numbers their own government describes in the hundreds of thousands to a million a year, and the state has spent a decade trying to keep them home.",
+  "story": "On 25 March 2022 the Deputy Minister of Health, Dante Saksono Harbuwono, put it in one sentence: \"Every year, we lose 11.5 billion US dollars because many Indonesians, about 600 thousand to one million people, seek medical treatment abroad.\" The destinations he named were Malaysia, Singapore and Thailand.\n\nThat is a minister's estimate, given in a range that spans a factor of nearly two, and this record carries it as a statement rather than as a series. It is nonetheless the clearest official account of an outflow anywhere in Asia, and it is stated as a loss — which is how a source market's government sees this subject, and why so few of them fund a count.\n\nThe receiving end agrees. Indonesians were 75 per cent of Malaysia's foreign patients in 2008 and still 57 per cent in 2011, the share falling only because other nationalities grew.\n\n*Trade practice —* the geography does most of the work. Penang is a forty-minute flight from Medan and has run a Sumatran patient trade for decades; Singapore takes the harder cases and the richer patients from Jakarta. The complaint that drives the journey is rarely price — it is waiting, referral and the way patients are spoken to, the same complaint a survey of Nepali travellers found.\n\n*Inference —* an outflow described in dollars lost is a policy argument, not a measurement. The 11.5 billion figure has no published method attached to it, and nothing in this directory should be built on it.",
+  "how": "*Trade practice —* the trip is booked the way any regional trip is booked: a low-cost flight, a hospital's Indonesian-language desk, a deposit paid by transfer, and an interpreter who is often a Malaysian nurse who speaks Malay. Indonesian doctors' referrals travel informally, and the discharge summary comes home to a doctor who did not order the operation.",
+  "today": "Indonesia's own hospital beds, doctors and health spending per person sit on the country page's chart from the World Bank series with their own years. They are the reason for the outflow more than any hospital abroad is."
+ },
+ "geo": {
+  "lat": -6.2088,
+  "lon": 106.8456,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "No inbound count is carried; Indonesia is a source market on this page. The outbound figure that exists is a statement, not a series: the Deputy Minister of Health said on 25 March 2022 that about 600,000 to 1,000,000 Indonesians seek treatment abroad each year at a cost he put at 11.5 billion US dollars. No published method accompanies either number.",
+  "as_of": "2022",
+  "source": "s:antara-indonesia-outbound-2022",
+  "url": "https://en.antaranews.com/news/221741/one-million-indonesians-annually-seek-medical-treatment-abroad-govt"
+ },
+ "kin": [
+  {
+   "to": "malaysia",
+   "as": "Where most of these patients land, and the destination their numbers built.",
+   "rel": "destination"
+  },
+  {
+   "to": "penang",
+   "as": "Forty minutes from Medan, and the cluster that lives on this outflow.",
+   "rel": "destination"
+  },
+  {
+   "to": "singapore",
+   "as": "Where the harder diagnoses and the larger bills go.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "as": "The third destination the deputy minister named in 2022.",
+   "rel": "destination"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The check-up that starts most of these journeys and sometimes is the whole of it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The Indonesian doctor reading a discharge summary from an operation they did not order.",
+   "rel": "risk"
+  },
+  {
+   "to": "who-travels",
+   "as": "A source market whose government counts the money leaving, not the people.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind what this country spends on health per person, and behind the outflow.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "One million Indonesians annually seek medical treatment abroad — ANTARA, 25 March 2022",
+   "url": "https://en.antaranews.com/news/221741/one-million-indonesians-annually-seek-medical-treatment-abroad-govt"
+  }
+ ],
+ "sources": [
+  "s:antara-indonesia-outbound-2022",
+  "s:wp-medical-tourism-malaysia",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:antara-indonesia-outbound-2022"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:antara-indonesia-outbound-2022",
+    "note": "the quotation and the Malaysian shares are cited; the last two stretches are marked trade practice and inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:antara-indonesia-outbound-2022"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

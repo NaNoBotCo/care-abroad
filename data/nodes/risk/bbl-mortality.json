@@ -1,0 +1,125 @@
+{
+ "id": "bbl-mortality",
+ "names": {
+  "name": "Death from gluteal fat grafting",
+  "aliases": [
+   "BBL death",
+   "pulmonary fat embolism",
+   "macroscopic fat embolism"
+  ],
+  "said": "The surgeons' own task force called it the highest mortality of any aesthetic procedure, and set up to reduce it."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "Fat injected into the buttock enters a torn gluteal vein and travels to the lung. Death can follow within minutes and often on the operating table. The mechanism is specific to injection below the muscle fascia, and the procedure it belongs to is gluteal fat grafting, marketed as the \"Brazilian butt lift\" and named by the CDC among the cosmetic procedures US residents travel for.",
+  "story": "The figure came from the surgeons who perform it. In 2017 a task force convened by the Aesthetic Surgery Education and Research Foundation surveyed 4,843 plastic surgeons worldwide. Six hundred and ninety-two replied, a response rate of 14.3%, of whom 612 performed the procedure, and between them they reported 198,857 cases. Over their careers those respondents reported 32 deaths from pulmonary fat emboli and 103 non-fatal ones. Three per cent of respondents had lost a patient; seven per cent had had at least one pulmonary fat embolism.\n\nThe task force converted that into three mortality estimates by three different methods: 1 in 6,214 from career case volume, 1 in 3,448 from an annual rate, and 1 in 2,351 from accredited facility data. It concluded the true rate was likely higher than the 1 in 4,000 previously estimated, and it identified the technical causes — injection into deep muscle, cannulae narrower than 4 mm, and pointing the cannula downwards.\n\nThe survey has the weaknesses of every voluntary survey of adverse events by the people who caused them: a 14.3% response rate, recall over a career, and self-selection in both directions.\n\nBy 2022 the Multi-Society Task Force's advisory had moved on to two new levers, both of them about the conditions of work rather than the anatomy. It recommended ultrasound-guided documentation of cannula placement before and during injection, and a limit of three of these cases per surgeon per day — the second because, as the advisory records, in Florida the majority of deaths from the procedure occur at the end of the week, a distribution its authors read as fatigue and distraction.\n\n*Inference —* that last finding is the one that travels. A daily case limit is an operational constraint, and the economics of a high-volume clinic selling a fixed-price package to patients who have flown in for a fixed week push directly against it. Nothing in an accreditation logo discloses how many of these a surgeon did the day a given patient was on the table.\n\nWhat happens to those who survive is visible in the UK readmission series. In a Royal London review of 20 patients treated for complications of cosmetic surgery abroad, all four major complications were gluteal augmentations; in a Royal Free series of 24, gluteal enhancement was the commonest procedure at 38%.",
+  "how": "Safety guidance across the advisories converges on keeping the fat in the subcutaneous layer and out of the muscle: a cannula of 4 mm or more, angled upward rather than down, moving continuously, with the patient's position and the cannula's plane confirmed — since 2022, by ultrasound. Onset of a fatal embolism is intraoperative or immediately postoperative, which means it happens where the surgery happens and is survivable only if the theatre is equipped for it.",
+  "today": "As of 16 September 2026 the published mortality estimates for this procedure remain the three from the 2017 task force survey, between 1 in 2,351 and 1 in 6,214. No country publishes a death rate for it, and no destination publishes one for the operations it sells to foreign patients."
+ },
+ "metrics": {
+  "mortality_per_1000": 0.43,
+  "note": "0.43 deaths per 1,000 cases is 1 in 2,351, the highest of the three estimates published by the ASERF task force in 2017; the other two were 1 in 3,448 and 1 in 6,214, and the task force judged the true figure likely higher than the 1 in 4,000 previously estimated. The population is patients of the 612 surveyed plastic surgeons who performed gluteal fat grafting, reporting 198,857 cases and 32 fatal pulmonary fat emboli over their careers, at a 14.3% survey response rate. It is not a rate for any country, clinic or surgeon, and not specific to patients who travelled.",
+  "as_of": "2017",
+  "source": "s:mofid-gluteal-2017",
+  "url": "https://academic.oup.com/asj/article/37/7/796/3075249"
+ },
+ "kin": [
+  {
+   "to": "bbl",
+   "as": "The procedure this is the mortality of.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liposuction",
+   "as": "Where the fat comes from, and its own share of the risk.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dvt-pe",
+   "as": "A different embolism — clot rather than fat — over days rather than minutes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Gluteal augmentation accounts for most of the major complications in the published UK readmission series.",
+   "rel": "kin"
+  },
+  {
+   "to": "nontuberculous-mycobacteria",
+   "as": "What the survivors of the Dominican clusters had come for.",
+   "rel": "kin"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "What moving a patient in this condition costs, when they can be moved at all.",
+   "rel": "kin"
+  },
+  {
+   "to": "dominican-republic",
+   "as": "One of the destinations the published case series name.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "Named as the country of surgery in most of the UK readmission series.",
+   "rel": "place"
+  },
+  {
+   "to": "isaps",
+   "as": "One of the societies whose members made up the surveyed population.",
+   "rel": "org"
+  },
+  {
+   "to": "anaesthetic-risk-unscreened",
+   "as": "A long operation under general anaesthesia on a patient assessed the same morning.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Mofid et al., Aesthetic Surgery Journal 2017",
+   "url": "https://academic.oup.com/asj/article/37/7/796/3075249"
+  },
+  {
+   "label": "Del Vecchio and Kenkel, Practice Advisory on Gluteal Fat Grafting, 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35404456/"
+  }
+ ],
+ "sources": [
+  "s:mofid-gluteal-2017",
+  "s:delvecchio-gluteal-advisory-2022",
+  "s:farid-cosmetic-abroad-2019",
+  "s:thacoor-nhs-cost-2019",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mofid-gluteal-2017"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the paragraph on daily case limits and package economics is marked inline as this project's reasoning"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:delvecchio-gluteal-advisory-2022"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:mofid-gluteal-2017"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

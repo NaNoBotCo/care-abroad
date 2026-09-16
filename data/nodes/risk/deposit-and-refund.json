@@ -1,0 +1,114 @@
+{
+ "id": "deposit-and-refund",
+ "names": {
+  "name": "The deposit, and whether it comes back",
+  "aliases": [
+   "prepayment",
+   "booking fee",
+   "cancellation terms"
+  ],
+  "said": "The clinic calls it securing the date. The bank calls it an international transfer with no chargeback."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "Money paid before travel to hold a surgical date, and what happens to it when the operation does not take place — because the patient withdrew, because the clinic cancelled, because a visa was refused, or because a preoperative test on the day of admission found something that made the operation unsafe. The CDC notes that costs for these procedures are usually out of pocket, and that travellers should expect to pay up front and claim later where they can claim at all.",
+  "story": "This is the item on which this site has the least to say, and the silence is the finding.\n\nNobody has published what share of deposits are refunded, on what terms, or how often an operation is cancelled on arrival. There is no regulator collecting it, no trade body reporting it, and no study counting it. The terms are private contracts between a patient and a clinic or a facilitator, and this project holds none of them.\n\nWhat is documented is the information environment the deposit is paid into. A 2011 content analysis of 17 Canadian broker websites found price among the most commonly included business dimensions, alongside the speed of surgery and the broker's role in follow-up care — while discussion of surgical risk was absent from 47% of the same sites. Price is what these pages are built to carry; the conditions attached to it are not.\n\nThe United Kingdom's General Medical Council, in guidance in force since 1 June 2016, requires a doctor on its register to \"explain your charges clearly, so patients know the financial implications of any decision to proceed to the next stage or to withdraw\", and separately not to \"use promotional tactics in ways that could encourage people to make an ill-considered decision\". Both obligations attach to the doctor. A time-limited price offered by a clinic in another country, taken by a patient who transfers a deposit that week, sits outside the reach of that register entirely.\n\n*Inference —* the structural asymmetry is in the payment instrument rather than the contract. A deposit sent by international bank transfer to a company in another jurisdiction carries no chargeback right, and recovering it means the same four obstacles that stand in front of any other claim against a provider abroad — forum, applicable law, limitation, and enforcement against assets held somewhere else.",
+  "how": "Where terms exist they usually distinguish a non-refundable booking or administration fee from a treatment deposit, set a sliding scale by how close the cancellation falls to the date, and treat a cancellation by the clinic differently from one by the patient. A separate question is what happens when the clinic cancels on arrival after a preoperative assessment, since the patient has by then also bought flights and a hotel. This project has read no set of such terms and describes the shape rather than any instance.",
+  "today": "As of 16 September 2026 no published figure exists for deposit forfeiture, refusal on arrival, or refund in this trade, anywhere. That is a gap in the record, not a finding that the problem is small."
+ },
+ "metrics": {
+  "note": "Nobody has measured this. No regulator, trade body or study reports what share of deposits paid for treatment abroad is refunded when the operation does not happen, or how often an operation is cancelled after the patient arrives. The nearest published measurement is of what broker sites carry: in 17 Canadian broker websites analysed in 2011, price was among the most commonly included business dimensions and discussion of surgical risk was absent from 47%.",
+  "as_of": "2011",
+  "source": "s:penney-broker-consent-2011",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/21943392/"
+ },
+ "kin": [
+  {
+   "to": "the-deposit",
+   "as": "The step this risk is about.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step at which the number is given and the conditions are not.",
+   "rel": "step"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The same document, read for what the price does not cover.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "Decides who the deposit is actually paid to, and who is liable if the clinic cancels.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "as": "The party that often holds the money without performing the treatment.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "The same four obstacles, in front of a smaller sum.",
+   "rel": "kin"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The other way a headline price and a final bill diverge.",
+   "rel": "kin"
+  },
+  {
+   "to": "package-price",
+   "as": "The form the money is quoted in.",
+   "rel": "term"
+  },
+  {
+   "to": "anaesthetic-risk-unscreened",
+   "as": "The preoperative test on the day of admission is the commonest reason a booked operation is called off on arrival.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "GMC — Guidance for doctors who offer cosmetic interventions",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions"
+  },
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:gmc-cosmetic-interventions",
+  "s:penney-broker-consent-2011",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:gmc-cosmetic-interventions"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is marked inline as this project's reasoning; the GMC wording and the 2011 content analysis are quoted"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of such terms as the trade writes them; this project holds no instance"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

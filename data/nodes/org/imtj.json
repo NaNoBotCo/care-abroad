@@ -1,0 +1,93 @@
+{
+ "schema": 1,
+ "id": "imtj",
+ "type": "org",
+ "names": {
+  "name": "International Medical Travel Journal",
+  "aliases": [
+   "IMTJ"
+  ],
+  "said": "A trade publication, not a peer-reviewed journal, and the word journal in the title does a lot of work."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "trade-body",
+  "iso2": "GB",
+  "founded": 2007,
+  "status": "open"
+ },
+ "text": {
+  "what": "A British trade publication covering cross-border care, established in 2007 and edited by Keith Pollard. It publishes a biweekly newsletter and news coverage, sells market reports, and runs an annual summit and the Medical Travel Awards. It was published by Intuition Communication of Berkhamsted, which LaingBuisson acquired.",
+  "story": "The field has two houses that publish about itself, and this is the sceptical one. Its news coverage has spent years pulling apart the market-size claims the rest of the trade repeats, which makes it unusually useful and does not make it disinterested: it sells reports, sponsorship, conference places and award entries into the same industry it covers.\n\nThe awards are judged by a panel — reported as 21 medical travel experts chaired by the editor — and entrants pay to enter, which is the standard shape of a trade award. *Inference —* a trade award is evidence that a company entered a competition and a panel preferred its entry. It is not an inspection, it has no standard behind it, and it should never be counted alongside an accreditation.\n\nIts market reports are sold rather than published, so their methods sit behind a price. This record cannot say what is in them.",
+  "how": "Revenue comes from advertising, sponsorship, market report sales, the summit and the awards. Much of the news is free to read; the reports are not. IMTJ's own site refused every fetch from this project on 16 September 2026, so this record rests on the secondary source named in sources and the record is thinner than it should be.",
+  "today": "As of 16 September 2026 IMTJ continues as a trade title under LaingBuisson with Keith Pollard as editor in chief."
+ },
+ "geo": {
+  "lat": 51.76,
+  "lon": -0.565,
+  "precision": "city",
+  "source": "s:imtj-wikipedia"
+ },
+ "address": {
+  "city": "Berkhamsted",
+  "country": "GB"
+ },
+ "kin": [
+  {
+   "to": "keith-pollard",
+   "as": "Its editor in chief, and the founder of the company that published it.",
+   "rel": "person"
+  },
+  {
+   "to": "imtj-summit",
+   "as": "The annual conference it runs, and part of how it is paid.",
+   "rel": "event"
+  },
+  {
+   "to": "medical-tourism-association",
+   "as": "The other house that publishes about this trade, from inside a membership body.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where its long argument with the industry's headline numbers is set out.",
+   "rel": "story"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The two words it put in its title, in preference to the other two.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "IMTJ",
+   "url": "https://www.imtj.com/"
+  }
+ ],
+ "sources": [
+  "s:imtj-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the publisher, the Berkhamsted base, the LaingBuisson acquisition and the 21-judge panel come from trade press this project read only in search summaries; the closing inference is marked inline"
+   },
+   "geo": {
+    "tier": "tradition",
+    "note": "Berkhamsted was the publisher's base; city precision, not confirmed on a page read directly"
+   }
+  }
+ },
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "id": "rhinoplasty",
+ "type": "procedure",
+ "names": {
+  "name": "Rhinoplasty",
+  "aliases": ["nose job", "nasal reshaping", "septorhinoplasty", "open rhinoplasty", "closed rhinoplasty"],
+  "said": "Surgeons say open or closed, and mean whether a small cut crosses the strip of skin between the nostrils. Price pages say nose job. Septorhinoplasty means the breathing partition inside the nose was straightened in the same operation, which is a different bill and sometimes a different payer."
+ },
+ "etymology": {
+  "root": "rhinoplasty: Greek rhis, rhinos, a nose, plus plastos, moulded. The word carries no promise about which nose the moulding aims at; that argument is conducted in consultations and in national aesthetics, not in the Greek.",
+  "tier": "tradition",
+  "note": "augmentation rhinoplasty builds a bridge up, usually with an implant or the patient's own rib or ear cartilage; reduction rhinoplasty takes bone and cartilage away. Bangkok price tables sell the first by implant brand, European ones sell the second by operating time."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "cosmetic",
+  "setting": "day-case",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Bone and cartilage of the nose are cut, filed, repositioned or added to, through the nostrils or through a small bridging incision at the base of the nose. An implant or a graft of the patient's own cartilage builds a bridge; a rasp and osteotomes take one down. Swelling hides the result for months, and the operation has one of the higher revision rates in cosmetic surgery.",
+  "story": "Rhinoplasty travels for two different reasons that end up on the same price page. One is money: the operation is elective everywhere, excluded by insurers everywhere, and priced four or five times higher in the United States than in Bangkok or Prague. The other is taste. Surgeons in Seoul, Istanbul and Bangkok built reputations for particular noses, and patients cross borders for a house style as much as for a discount.\n\nThe price tables show the split plainly. Yanhee Hospital in Bangkok lists augmentation rhinoplasty by implant origin - standard, USA, Korea - at 30,000, 40,000 and 50,000 baht, and a rib-graft reconstruction at 220,000 with a night on the ward. Premier Clinic in Prague lists one line, open rhinoplasty from 51,300 koruna. The American Society of Plastic Surgeons publishes an average surgeon fee of 7,637 US dollars and states in the same breath that it excludes anaesthesia and the operating room.\n\n*Trade practice --* revision is the number that decides whether a cheap nose was cheap. A second operation is harder than the first, most surgeons will not revise another surgeon's work for a year, and a revision booked at home after a rhinoplasty bought abroad is priced as a new private operation.",
+  "how": "General anaesthesia is usual, and most published packages send the patient out the same day or after one night. Splints and internal dressings come off at five to seven days, which sets the earliest sensible flight home. Bruising around the eyes fades over two to three weeks; the fine shape of the tip settles over a year or more, which is why before-and-after photographs taken at six weeks show a nose that is still swollen. Where the operation also straightens the septum, some health systems pay for that half and not the other, and the surgeon's letter has to separate them.",
+  "today": "Four published prices sit on this record, from Thailand, Czechia, Poland and the United States, each read off the seller's own page in September 2026. They are not comparable until the reader adds what each leaves out: the American figure is a surgeon's fee alone, the Polish one is indicative and excludes an 800 zloty ward day, the Thai one is sorted by implant brand, and the Czech one begins with the word from.",
+  "notes": "This page describes an operation. It does not advise anyone to have one, or to have one anywhere."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "note": "Day-case is the usual published setting: Yanhee's table shows no night for implant augmentation and two nights for nose reshaping and ultrasonic rhinoplasty, so the figure here is the lower of the hospital's own published stays and not a clinical standard. No revision rate is carried on this record because no source read for it published one that counts a defined population.",
+  "as_of": "2026-09-16",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {"procedure": "rhinoplasty", "country": "TH", "city": "Bangkok", "amount": 30000, "currency": "THB", "as_of": "2026-09-16", "kind": "list", "includes": ["augmentation rhinoplasty with a standard nose implant"], "excludes": ["stated nights on the ward: the table shows none for this line"], "source": "s:yanhee-plastic-prices", "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/", "note": "the same table prices a USA implant at 40,000 THB, a Korean implant at 50,000 THB, an open-technique rhinoplasty at 105,000 THB and a rib-graft reconstruction at 220,000 THB with one night. The page carries no validity date and no inclusion list.", "tier": "cited"},
+  {"procedure": "rhinoplasty", "country": "CZ", "city": "Prague", "amount": 51300, "currency": "CZK", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["full nose surgery, open rhinoplasty"], "excludes": ["not stated on the page"], "source": "s:premier-clinic-prague-prices", "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/", "note": "listed as 'from'; full nose surgery including alar reduction is listed from 61,500 CZK", "tier": "cited"},
+  {"procedure": "rhinoplasty", "country": "PL", "city": "Szczecin", "amount": 23000, "currency": "PLN", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["full osteocartilaginous nose correction"], "excludes": ["hospitalisation, listed separately at 800 PLN a day"], "source": "s:artplastica-cennik", "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/", "note": "the clinic states the listed prices are indicative and may change at the individual medical consultation", "tier": "cited"},
+  {"procedure": "rhinoplasty", "country": "US", "amount": 7637, "currency": "USD", "as_of": "2026-09-16", "kind": "survey", "includes": ["surgeon fee only"], "excludes": ["anesthesia", "operating room facilities", "other related expenses"], "source": "s:asps-cost-rhinoplasty", "url": "https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/cost", "note": "the society's published average, described only as 'the latest statistics' with no year named on the page, which is why this row carries the date it was read", "tier": "cited"}
+ ],
+ "kin": [
+  {"to": "facelift", "as": "The other face operation sold by the same clinics, at roughly twice the price.", "rel": "contrast"},
+  {"to": "south-korea", "as": "A destination whose surgeons are sought for a house style rather than a discount.", "rel": "destination"},
+  {"to": "turkiye", "as": "Where nose surgery sits in the same package economy that built the hair clinics.", "rel": "destination"},
+  {"to": "thailand", "as": "Where the price is published by implant brand.", "rel": "destination"},
+  {"to": "czechia", "as": "The European price list this record reads, in koruna.", "rel": "destination"},
+  {"to": "revision", "as": "The second operation this one needs more often than any other face procedure, and which the first price never covers.", "rel": "term"},
+  {"to": "revision-at-home", "as": "Who fixes it, and at what price, once the patient has flown back.", "rel": "risk"},
+  {"to": "flying-after-surgery", "as": "The splint comes off before the flight, and the clot risk of the flight itself is argued separately.", "rel": "risk"},
+  {"to": "package-price", "as": "The pricing form that hides whether the implant, the ward night and the anaesthetist are in the number.", "rel": "term"},
+  {"to": "the-price-that-isnt", "as": "Why four published prices for one operation are not four comparable numbers.", "rel": "story"}
+ ],
+ "confusable_with": [
+  {"id": "facelift", "tell": "Both are sold as face surgery; a rhinoplasty changes bone and cartilage under the skin, a facelift moves the skin and the layer beneath it."}
+ ],
+ "links": [
+  {"label": "Yanhee Hospital plastic surgery price table", "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"},
+  {"label": "ASPS average surgeon fee", "url": "https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/cost"}
+ ],
+ "sources": ["s:yanhee-plastic-prices", "s:premier-clinic-prague-prices", "s:artplastica-cennik", "s:asps-cost-rhinoplasty"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "the price paragraphs are read off the four pages in sources; the revision paragraph is marked as trade practice inline"},
+   "text.how": {"tier": "tradition", "note": "standard operative and recovery description; the day-case setting is cited to the Yanhee table"},
+   "etymology": {"tier": "tradition"}
+  }
+ },
+ "x_commons_files": ["File:Rhinoplasty.jpg", "File:Nose surgery diagram.png"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

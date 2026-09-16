@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "bengaluru",
+ "type": "hub",
+ "names": {
+  "name": "Bengaluru",
+  "aliases": ["ಬೆಂಗಳೂರು", "Bangalore"],
+  "said": "Ben-ga-loo-roo. The heart work is not in the city: it is twenty kilometres down Hosur Road at Bommasandra, past the electronics parks, and the taxi fare there is part of the quote nobody quotes."
+ },
+ "region": ["south-asia"],
+ "facets": {
+  "iso2": "IN",
+  "radius_km": 25,
+  "specialty": ["cardiac surgery", "transplant", "oncology", "orthopaedics", "neurosurgery"],
+  "draws": ["cabg", "heart-valve-replacement", "angioplasty-stent", "knee-replacement", "bone-marrow-transplant"],
+  "languages": ["Kannada", "English", "Hindi", "Tamil"]
+ },
+ "text": {
+  "what": "Two poles, about twenty kilometres apart. Narayana Health City stands on Hosur Road at Bommasandra, on the far southern edge of the city beyond the Electronics City corridor, where Devi Prasad Shetty put a 280-bed cardiac hospital in 2000 and then a campus around it. The older pole is central: Manipal Hospital on HAL Old Airport Road at Kodihalli, with the private hospitals and diagnostic chains of Indiranagar and Richmond Town around it. Whitefield, twelve kilometres east of the centre, is the third and newest.",
+  "story": "Devi Prasad Shetty founded Narayana Hrudayalaya in 2000 with an initial 280-bed cardiac facility; the group as of 2025 runs 24 hospitals and seven heart centres and reported revenue of ₹5,483 crore. It opened Health City Cayman Islands in 2014 — an Indian hospital group building a hospital in the Caribbean to sell to Americans, which is the export of a format rather than of a service.\n\n*Trade practice —* Bengaluru's argument in the trade has always been volume rather than location. A cardiac programme doing several thousand operations a year on a campus at the edge of the city prices differently from a tower in a capital, and the city's surgeons have said so in public for twenty years.\n\n*Inference —* the geography is what the harvest has to solve. Bommasandra and Old Airport Road are twenty kilometres apart with almost nothing clinical between them, so a point set on either misses the other. This record splits the difference and takes a 25-kilometre radius, which also catches Whitefield.",
+  "how": "An estimate against a room category and a projected stay, as everywhere in India, with an international desk handling the visa invitation and the interpreter. What is different here is the distance: the hospital at Bommasandra is an hour from the airport on a good day and further from the hotels, and the companion's accommodation is a separate arrangement rather than a floor upstairs.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits between Bommasandra and Old Airport Road, with a 25-kilometre radius reaching both and Whitefield beyond. No Bengaluru price has been read off a page into this directory yet.",
+  "notes": "A description of two hospital districts and the road between them. Not advice about cardiac surgery."
+ },
+ "geo": {"lat": 12.885, "lon": 77.672, "precision": "city", "source": "s:osm-nominatim"},
+ "address": {"city": "Bengaluru", "area": "Karnataka", "country": "IN"},
+ "kin": [
+  {"to": "narayana-health", "as": "The Hosur Road campus at Bommasandra the southern pole is built on.", "rel": "part"},
+  {"to": "devi-shetty", "as": "The cardiac surgeon who put a 280-bed heart hospital at the edge of this city in 2000.", "rel": "person"},
+  {"to": "india", "as": "The country whose highest-volume cardiac programmes sit here.", "rel": "whole"},
+  {"to": "cabg", "as": "The operation the southern campus was built to do at volume.", "rel": "procedure"},
+  {"to": "heart-valve-replacement", "as": "The other half of the cardiac list this city is known for.", "rel": "procedure"},
+  {"to": "knee-replacement", "as": "Sold on an estimate in the central hospitals rather than as a package.", "rel": "procedure"},
+  {"to": "india-e-medical-visa", "as": "The entry route foreign patients arrive on.", "rel": "governed-by"},
+  {"to": "chennai", "as": "The neighbouring cardiac cluster, older and closer to its airport.", "rel": "contrast"},
+  {"to": "the-companion", "as": "Twenty kilometres from the city means the relative needs housing, not a chair.", "rel": "step"},
+  {"to": "osm-facilities", "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.", "rel": "measured-by"}
+ ],
+ "links": [
+  {"label": "Narayana Health", "url": "https://www.narayanahealth.org/"}
+ ],
+ "sources": ["s:osm-nominatim", "s:wp-narayana-health", "s:wp-medical-tourism-india", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:osm-nominatim", "note": "Bommasandra and Old Airport Road located from OpenStreetMap address tags"},
+   "text.story": {"tier": "cited", "source": "s:wp-narayana-health", "note": "the founding, the group figures and the Cayman hospital are cited; the inline marks say which stretches are inference and trade practice"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "inference", "source": "s:osm-nominatim", "note": "the midpoint between the Bommasandra and Old Airport Road poles, not a point anybody published"}
+  }
+ },
+ "x_commons_files": ["File:Narayana Health City Bangalore.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

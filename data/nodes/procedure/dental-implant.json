@@ -1,0 +1,135 @@
+{
+ "schema": 1,
+ "id": "dental-implant",
+ "type": "procedure",
+ "names": {
+  "name": "Dental implant",
+  "aliases": ["implant fixture", "endosseous implant", "single tooth implant"],
+  "said": "Clinics say implant and mean one of three things: the screw in the bone, the screw plus the part that sticks through the gum, or the whole tooth. The price list usually means the first."
+ },
+ "etymology": {
+  "root": "implant: Latin in- plus plantare, to plant. Fixture is the trade's own word for the screw, from Latin figere, to fix. Osseointegration — the bone growing onto titanium, which is what the waiting months are for — is Latin os, bone, plus integrare, to make whole.",
+  "tier": "tradition",
+  "note": "Three parts, three prices: fixture, abutment, crown. A page that quotes one number for an implant is quoting one of the three unless it says otherwise."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "dental",
+  "setting": "staged",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "A titanium or ceramic screw is placed in the jaw where a tooth was. Bone grows onto it over months; then an abutment is screwed into it and a crown is cemented or screwed onto that. The surgery is a clinic appointment under local anaesthetic. The waiting is the part that decides how many flights a foreign patient takes.",
+  "story": "The implant is the dental version of the knee implant trap, and the price pages say so plainly enough that nobody has to be caught.\n\nBangkok International Dental Center prices the fixture and the crown in two separate columns. On 16 September 2026 a SIC Swiss Invent fixture is 35,000 baht, a Straumann Roxolid SLA 54,000, a Nobel Biocare titanium 55,000 and a Straumann BLX 70,000 — and in every row the implant crown is a further 25,000 baht. The brand of the screw moves the price by a factor of two at one clinic, on one day.\n\nIn Budapest, Medicare Dental Clinic splits it three ways and prints the lab fee as its own line: a NeoDent or Alpha Bio implant at €381 plus €255 lab, a Straumann or Nobel at €594 plus €398 lab, an abutment at €258 for the first pair and €393 for the second, and a zirconia crown at €226 plus €152 lab. Four lines to finish one tooth.\n\nIn Los Algodones, Sani Dental Group lists a titanium implant at $890, with MXN 17,800 beside it, and a standard implant crown including the abutment at $720. Beside each the clinic prints a \"US COST\" column — $1,290 for the implant, $1,650 for the crown — which is the seller's own comparison and carries no source.\n\nIndexmedica in Kraków is the one page read for this batch that resolves the ambiguity in its own wording: an implant screw at £575, and separately an implant \"complete\" at £1,450, described as \"including implant screw, healing ring, individual abutment and full-ceramic zirconoxide crown\".\n\n*Inference —* the £575 and the £1,450 are the same clinic quoting the same tooth twice. Every comparison a reader makes between two countries is only worth the part-count behind each number.",
+  "how": "One visit to place the fixture, a wait of months while bone integrates, a second visit for the abutment and crown. Clinics selling to foreign patients compress this by fitting a temporary and finishing on a second trip, or by loading the implant immediately where the bone allows. Bone grafting and sinus lifting, needed where the ridge is thin, are priced separately — Budapest lists sinus lifting at €409 per quadrant and bone augmentation at €302 plus the cost of the graft material.",
+  "today": "As of 16 September 2026 a single implant fixture is published at 35,000 to 70,000 baht in Bangkok, €381 plus a €255 lab fee in Budapest, $890 in Los Algodones and £575 in Kraków — with the abutment and the crown extra in each case, and only the Kraków page quoting a finished tooth as its own line at £1,450.",
+  "notes": "This page describes a procedure and the prices published for it. It is not dental advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "No hospital stay: every price read for this record is a clinic fee, not an admission. None of the four price pages states how long osseointegration takes or how many trips it needs, which is the figure a travelling patient most needs, so recovery_weeks stays empty.",
+  "as_of": "2026-09-16",
+  "source": "s:bidc-fees",
+  "url": "https://bangkokdentalcenter.com/fees/"
+ },
+ "prices": [
+  {
+   "procedure": "dental-implant",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 35000,
+   "amount_high": 70000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["the implant fixture only"],
+   "excludes": ["the implant crown, listed at 25,000 THB in every row", "sterilisation and nursing fee of 150 to 250 baht per visit", "x-rays, medications and clinic service fees", "digital surgical guide, 7,000 THB for one to two teeth"],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "the clinic's own fee table runs SIC Swiss Invent at 35,000, Straumann Roxolid SLA at 54,000, Nobel Biocare titanium at 55,000, Straumann Roxolid SLActive at 60,000, Straumann BLX at 70,000 and a Zi all-ceramic at 70,000, each against a struck-through higher figure. The page states package rates are applicable till 30 September 2026. Consultation is free, but the page adds that this is \"not inclusive of x-rays, medications, sterilization, nursing fees and clinic service fees that are charged separately\".",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 381,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["the implant fixture: NeoDent or Alpha Bio"],
+   "excludes": ["the lab fee of €255 printed as a separate line", "the abutment, €258 for these brands and €393 for Straumann or Nobel", "the crown, €226 plus €152 lab for zirconia", "sinus lifting at €409 per quadrant and bone augmentation at €302 plus the graft"],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "the premium brands are listed at €594 plus €398 lab. The clinic's own note above the table reads: \"Please note that many treatments include both the treatment price and a separate fabrication/lab fee.\" Finishing one tooth takes four of its price lines.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 890,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["titanium dental implant, implant only"],
+   "excludes": ["the standard implant crown including abutment, listed at $720"],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "listed as $890 with MXN $17,800 beside it, and a Straumann BLX implant-only line at $1,350. The page states \"All prices on this website are Base Price or Starting At price\" and prints a US comparison column — $1,290 against this implant — which is the clinic's own figure with no source attached.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "PL",
+   "city": "Kraków",
+   "amount": 575,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["implant (screw)"],
+   "excludes": ["the healing ring, the individual abutment and the crown, which the same page bundles into a separate line"],
+   "source": "s:indexmedica-prices",
+   "url": "https://www.indexmedica.com/prices/",
+   "note": "the same price list carries an implant \"complete\" at £1,450, described as \"including implant screw, healing ring, individual abutment and full-ceramic zirconoxide crown\", and gives €1,552 for the same item. One clinic, one tooth, two published numbers two and a half times apart, and the wording is what separates them.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "dental-crown", "as": "The part that goes on top, billed separately on every price list read for this page.", "rel": "part"},
+  {"to": "all-on-four", "as": "What four of these become when a whole jaw is rebuilt on them.", "rel": "whole"},
+  {"to": "full-mouth-restoration", "as": "The larger job single implants are counted into.", "rel": "whole"},
+  {"to": "thailand", "as": "Where the fixture-and-crown split is printed as two columns.", "rel": "destination"},
+  {"to": "hungary", "as": "Where the lab fee is printed as its own line beside every implant.", "rel": "destination"},
+  {"to": "mexico", "as": "Where the border clinics price the implant against a US comparison of their own.", "rel": "destination"},
+  {"to": "poland", "as": "Where one page quotes both the screw alone and the finished tooth.", "rel": "destination"},
+  {"to": "los-algodones", "as": "The border town whose dental surgeries this page's Mexican price comes from.", "rel": "place"},
+  {"to": "budapest", "as": "The city whose clinics price implants in parts and sell the parts as packages.", "rel": "place"},
+  {"to": "implant-excluded", "as": "The same trap as the joint implant, written smaller and more often.", "rel": "risk"},
+  {"to": "reading-the-exclusions", "as": "The step that decides whether a quoted implant is a screw or a tooth.", "rel": "step"},
+  {"to": "follow-up-gap", "as": "Who sees the implant at the six-month check, and who fixes a failed one.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "dental-crown", "tell": "The crown is the visible tooth and the implant is the root it sits on; a quoted implant price usually excludes the crown, and a crown price assumes something to fix it to."}
+ ],
+ "links": [
+  {"label": "BIDC dental fees", "url": "https://bangkokdentalcenter.com/fees/"},
+  {"label": "Indexmedica price list", "url": "https://www.indexmedica.com/prices/"}
+ ],
+ "sources": ["s:bidc-fees", "s:mdental-budapest-prices", "s:sani-dental-prices", "s:indexmedica-prices"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "every figure read off the clinic's own fee page on the accessed date; the closing stretch is this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "standard staging; the graft and sinus lift prices are cited to the Budapest list"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:bidc-fees"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Dental implant.jpg", "File:Implant dentaire.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

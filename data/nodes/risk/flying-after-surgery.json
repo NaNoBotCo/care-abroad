@@ -1,0 +1,108 @@
+{
+ "id": "flying-after-surgery",
+ "names": {
+  "name": "Flying after surgery",
+  "aliases": [
+   "fitness to fly",
+   "the ten-day rule"
+  ],
+  "said": "The clinic calls it the fit-to-fly letter. The airline calls it medical clearance."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "travel"
+ },
+ "text": {
+  "what": "A cabin at cruising altitude is pressurised to roughly the outside air pressure at 6,000 to 8,000 feet. Gas trapped in a body cavity expands at that pressure, and a passenger sits still for hours in a state that clots more readily than usual. The CDC states that medical travellers should not fly for 10 days after chest or abdominal surgery, and cites the American Society of Plastic Surgeons recommendation that patients who have had laser treatments or cosmetic procedures to the face, eyelids or nose wait 7 to 10 days before flying.",
+  "story": "The ten-day figure is the one number in this subject that almost every package quietly contradicts. A fixed-price bundle that names three ward nights and a hotel week is selling a trip shorter than the interval the CDC names for chest or abdominal surgery, and the difference is made up by the patient booking the return flight before the surgeon has seen the wound at a week.\n\n*Trade practice —* the fit-to-fly letter is the instrument that resolves this in practice: a signed note from the operating team saying the patient may board. It is issued by the party whose ward night ends when the patient leaves, which is the structural problem with it, and no register of such letters exists anywhere.\n\nThe Aerospace Medical Association's medical guidelines for air travel are the standing reference the CDC points to for travel with particular conditions.",
+  "how": "Airlines apply their own medical clearance rules and may require a form completed by a physician; the thresholds differ by carrier and are not published as a single standard. The clinical concerns split into three: gas expansion in a chest, abdomen, eye or middle ear; reduced cabin oxygen against a patient who has just lost blood; and immobility against a fresh surgical wound. The last of those is the clot risk, and it is carried on its own record.",
+  "today": "As of 16 September 2026 the published guidance this site carries is the CDC's 10 days after chest or abdominal surgery and the American Society of Plastic Surgeons' 7 to 10 days after facial, eyelid and nasal procedures. Neither is a rule an airline enforces, and neither is priced into a package."
+ },
+ "metrics": {
+  "days_before_flying": 10,
+  "note": "Ten days is the CDC's guidance not to fly after chest or abdominal surgery. The American Society of Plastic Surgeons figure the same chapter cites is 7 to 10 days after laser treatments or cosmetic procedures to the face, eyelids or nose. Both are guidance to clinicians, not airline rules, and neither is a measured rate of anything.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-2026-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "kin": [
+  {
+   "to": "dvt-pe",
+   "as": "The clot risk that the seated hours add to the surgical one.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The step this guidance is about.",
+   "rel": "step"
+  },
+  {
+   "to": "booking-the-flight",
+   "as": "The step at which the return date is fixed, usually before anyone has seen the wound.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Major lower-limb surgery, where orthopaedic teams commonly apply the same ten-day interval for the clot risk.",
+   "rel": "procedure"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "A nasal procedure, and the one the plastic surgeons' 7-to-10-day figure was written for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "Abdominal surgery, which is what the ten-day figure names.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "Abdominal surgery sold in packages shorter than the interval the guidance names.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form whose stated length of stay sits against this interval.",
+   "rel": "term"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "What it costs when the patient cannot board at all.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:asps-flying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the fit-to-fly letter paragraph is the trade's practice, marked inline; the ten-day and seven-to-ten-day figures are cited"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard aviation-medicine account; the cabin pressure figure is cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

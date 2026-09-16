@@ -1,0 +1,152 @@
+{
+ "schema": 1,
+ "id": "hip-replacement",
+ "type": "procedure",
+ "names": {
+  "name": "Total hip replacement",
+  "aliases": ["total hip arthroplasty", "THA", "THR", "hip arthroplasty"],
+  "said": "Surgeons say THA or THR. Package pages say total hip replacement. Where a page says direct anterior approach it is naming the way in, not a different joint."
+ },
+ "etymology": {
+  "root": "arthroplasty: Greek arthron, a joint, plus plastos, moulded. Hip is Old English hype, the same word for the bone and the flesh over it; the Latin acetabulum, the socket the surgeon reams, means a little vinegar cup.",
+  "tier": "tradition",
+  "note": "Unilateral is one hip, bilateral is both in one anaesthetic, and a price page that omits the word is usually quoting one."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "regional"
+ },
+ "text": {
+  "what": "The worn ball and socket of the hip are cut out and replaced: a stem driven into the femur carrying a metal or ceramic head, and a cup fixed into the pelvis with a bearing inside it. It is done for arthritis, for fracture, and for a collapsed femoral head. The operation is short, the ward stay on published packages runs three to five nights, and the implant is billed separately from the surgery on most package price lists.",
+  "story": "Hip replacement travels for the same reasons knee replacement does: it is elective, standardised, expensive at home, and queued. Where the two differ is on the price page. In Bangkok on 16 September 2026 the hip package at Bumrungrad is 425,200 baht against 356,500 for a knee, and it names four nights against the knee's three — the hip costs more and keeps the patient longer at the same hospital, under the same exclusions.\n\n*Trade practice —* the hip is also the joint most often sold with the approach named in the package title. Bangkok International Hospital prices a direct anterior approach hip at 420,000 baht for one side and 713,000 for two, implant excluded. The approach is a surgical argument, not a pricing category, and the literature on whether it changes the outcome at a year is not settled.\n\nThe same operation appears on three other kinds of page, and each counts something different. Practice Plus Group in England sells a hip replacement to a self-paying patient at £13,199, one number covering theatre, anaesthetic, the overnight stay, physiotherapy and post-operative appointments. Nordorthopaedics in Kaunas advertises hip replacement \"from 4.560 € / 3.800 £\" with no inclusion list on the page. Australia's Medicare Benefits Schedule sets item 49318, total arthroplasty of hip, at a schedule fee of $1,577.30 as at 1 July 2026 — which is the surgeon's fee alone, not the hospital, not the prosthesis, not the anaesthetist's own item.\n\n*Inference —* four numbers, four objects. Only the first two are the sort of thing a patient pays in one transaction, and only the first of those admits in writing that the implant is extra.",
+  "how": "Spinal or epidural anaesthesia with sedation is usual. The surgeon reaches the joint from the back, the side or the front, dislocates it, cuts the femoral neck, reams the socket, seats the cup, broaches the femur, trials the components, reduces the new joint and closes. Standing happens the same day or the next. The NHS tells patients in England that a fit patient usually goes home one to three days after the operation, that stitches or clips come out at about ten days, and that the follow-up appointment falls six to twelve weeks out. Published packages abroad name three to five nights, which is longer, and a patient who flies has bought a hotel as well as a ward.",
+  "today": "As of 16 September 2026, the hip prices on this site run from a Lithuanian clinic's advertised floor of 4,560 euro to £13,199 at an English self-pay hospital, with two Bangkok hospitals between them at 420,000 and 425,200 baht — both with the implant on the exclusion list. The Australian schedule fee of $1,577.30 sits in a different column because it buys a different thing: one doctor's service, with the bed and the prosthesis billed elsewhere.",
+  "notes": "This page describes an operation and the prices published for it. It is not advice about having one, or about where."
+ },
+ "metrics": {
+  "stay_days": 4,
+  "days_before_flying": 10,
+  "recovery_weeks": 12,
+  "note": "Four nights is the ward stay named in the Bumrungrad JOINT08 package; the NHS tells patients in England that a fit patient usually goes home one to three days after the operation, so the package night count is a commercial figure as much as a clinical one. The follow-up appointment at six to twelve weeks is the NHS figure. The ten days before flying is the CDC's guidance for chest or abdominal surgery, which orthopaedic teams commonly apply to major lower-limb surgery for the clot risk; no page read for this record names a figure for the hip itself.",
+  "as_of": "2026-09-16",
+  "source": "s:nhs-hip-recovery",
+  "url": "https://www.nhs.uk/tests-and-treatments/hip-replacement/recovering-from-a-hip-replacement/"
+ },
+ "prices": [
+  {
+   "procedure": "hip-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 425200,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["operating theatre 2.5 hours, including nursing and surgical team fees within those hours", "accommodation for 4 nights in the surgical ward", "medical equipment and medical supplies", "medications related to the procedure", "surgeon", "1 assistant surgeon if necessary", "anaesthesiologist", "physical therapy 7 sessions and occupational therapy 1 session"],
+   "excludes": ["charges for implant", "consultation fee for an initial visit and follow-up visits", "inpatient stays beyond 4 nights, ICU, or stays past the approved discharge day", "specialist consultations", "outpatient fees before admission", "complex or emergency cases", "blood transfusion, laboratory tests and other diagnostic tests before and after operation", "take-home medications and medical supplies", "items of a personal nature"],
+   "source": "s:bumrungrad-joint08",
+   "url": "https://www.bumrungrad.com/en/packages/total-hip-replacement-surgery",
+   "note": "package JOINT08, price stated valid until 31 December 2026. The hip package runs 68,700 baht above the same hospital's knee package and adds a night. Exclusion nine on the hospital's own list reads: not include charges for implant.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hip-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 420000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["operating room charges", "recovery room charges", "medical supplies", "fees of the surgical and anaesthesia teams", "standard room, nursing and meals for 4 nights", "medications related to the surgery to take home"],
+   "excludes": ["implants", "medical clearance evaluation", "specialist consultant fees", "treatment of underlying conditions", "laboratory tests", "complications", "ICU or extended stay charges"],
+   "source": "s:bangkok-hospital-hip-knee",
+   "url": "https://www.bangkokhospital.com/en/bangkok-bone-brain/package/hip-knee-surgery-packages",
+   "note": "direct anterior approach total hip arthroplasty, one side, four nights, implant excluded; the two-sided package on the same page is 713,000 THB for five nights. Prices stated valid until 31 December 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hip-replacement",
+   "country": "GB",
+   "city": "England",
+   "amount": 13199,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["pre-operative nurse review", "prescriptions, dressings and equipment", "anaesthetic", "any overnight stay required", "physiotherapy", "pathology and histology needed whilst admitted", "any post-operative appointments required", "a named consultant from start to finish"],
+   "excludes": ["the initial consultation, listed separately at £145, which the page says includes x-rays and blood tests"],
+   "source": "s:practiceplus-hip",
+   "url": "https://practiceplusgroup.com/treatments/hip-surgery/",
+   "note": "the group's published self-pay price for hip replacement; hip revision on the same list is £22,249 and hip resurfacing £13,999 at one hospital only. The implant is not named on either side of the list, which is a different silence from naming it as an exclusion.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hip-replacement",
+   "country": "LT",
+   "city": "Kaunas",
+   "amount": 4560,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [],
+   "excludes": [],
+   "source": "s:nordorthopaedics-prices",
+   "url": "https://www.nordorthopaedics.com/hip-knee-wrist-hand-ankle-foot-shoulder-surgery-prices/",
+   "note": "advertised as \"from 4.560 € / 3.800 £\"; the price page carries no inclusion or exclusion list at all. The same page heads the list with an offer to help patients claim a refund from their home health board under the EU cross-border care route.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hip-replacement",
+   "country": "AU",
+   "amount": 1577.3,
+   "currency": "AUD",
+   "as_of": "2026-07-01",
+   "kind": "tariff",
+   "includes": ["the medical service described in item 49318: total arthroplasty of hip, including minor bone grafting if performed"],
+   "excludes": ["hospital accommodation and theatre", "the prosthesis", "the anaesthetist's own items", "any amount the surgeon charges above the schedule fee"],
+   "source": "s:mbs-49318",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49318&qt=item",
+   "note": "Medicare Benefits Schedule item 49318, fee last updated 1 July 2026. The 75% benefit — what Medicare pays towards a private in-hospital service — is $1,183.00, and the remainder falls to an insurer or the patient. *Trade practice —* the bed, the theatre and the prosthesis are paid on other schedules entirely, which is why a schedule fee and a package price can never be compared straight across.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "knee-replacement", "as": "The same trade, the other joint — and the cheaper package at the same Bangkok hospital, by 68,700 baht.", "rel": "contrast"},
+  {"to": "bumrungrad", "as": "Publishes the four-night hip package this page reads, implant excluded.", "rel": "performed-at"},
+  {"to": "bangkok-hospital", "as": "Prices a direct anterior approach hip on its own page, implant excluded.", "rel": "performed-at"},
+  {"to": "thailand", "as": "Where both package prices on this page are sold.", "rel": "destination"},
+  {"to": "united-kingdom", "as": "Where the self-pay price on this page is sold, and the queue most of its buyers are leaving.", "rel": "destination"},
+  {"to": "lithuania", "as": "Where the advertised floor price on this page comes from, refund paperwork offered with it.", "rel": "destination"},
+  {"to": "implant-excluded", "as": "The line the Bangkok packages put in writing and the English price list does not mention.", "rel": "risk"},
+  {"to": "package-price", "as": "The pricing form this operation is sold in, and the reason its exclusions decide the bill.", "rel": "term"},
+  {"to": "tariff", "as": "What the Australian schedule fee is, and why it is not a price a patient pays.", "rel": "term"},
+  {"to": "flying-after-surgery", "as": "The clot risk that sets how long after this operation a patient can board.", "rel": "risk"},
+  {"to": "revision-at-home", "as": "Who operates when the cup loosens, and who pays for it.", "rel": "risk"},
+  {"to": "oecd-waiting-times", "as": "The series that counts the queue this operation is best known for.", "rel": "measured-by"},
+  {"to": "eu-directive-2011-24", "as": "The refund route the Lithuanian price page leads with.", "rel": "governed-by"}
+ ],
+ "confusable_with": [
+  {"id": "knee-replacement", "tell": "A broker's \"joint replacement\" quote names neither joint until asked; the hip package is dearer and the knee recovers more slowly."},
+  {"id": "disc-replacement", "tell": "Both are called replacements and both exclude the implant, but one is a limb joint and the other a spinal segment priced by the level."}
+ ],
+ "links": [
+  {"label": "Bumrungrad package JOINT08", "url": "https://www.bumrungrad.com/en/packages/total-hip-replacement-surgery"},
+  {"label": "MBS item 49318", "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49318&qt=item"}
+ ],
+ "sources": ["s:bumrungrad-joint08", "s:bangkok-hospital-hip-knee", "s:practiceplus-hip", "s:nordorthopaedics-prices", "s:mbs-49318", "s:nhs-hip-recovery", "s:cdc-yellowbook-medical-tourism"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "every figure is read off a named page; the marked stretches are trade account and this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "standard operative description; the day counts are cited to the NHS recovery page"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:nhs-hip-recovery", "note": "the flying figure is the CDC's guidance for other surgery, applied by analogy and marked as such"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Hip replacement Image 3684-PH.jpg", "File:Total hip replacement radiograph.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

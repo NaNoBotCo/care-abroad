@@ -1,0 +1,86 @@
+{
+ "id": "out-of-pocket",
+ "names": {
+  "name": "Out-of-pocket",
+  "aliases": [
+   "OOP",
+   "self-pay",
+   "direct payment",
+   "out-of-pocket expenditure"
+  ],
+  "said": "Health economists say out-of-pocket expenditure and mean a national share. Clinics say self-pay and mean this patient, today, by card."
+ },
+ "etymology": {
+  "root": "pocket is mid-14c. pokete, a small bag or pouch, from Anglo-French pokete, a diminutive of Old North French poque; by the early 18th century the word stands in for a person's money. The idiom itself is older than that sense: \"out of pocket\", to expend or lose money, is attested from the 1690s. The phrase has always meant money gone, not money budgeted.",
+  "first_attested": "1690s for the idiom; mid-14c. for the noun",
+  "tier": "cited",
+  "source": "s:etymonline-pocket",
+  "note": "Out-of-pocket means paid by the household directly to the provider. Anything a payer refunds afterwards stops being out-of-pocket, which is why a reimbursement scheme and a cash payment look identical at the counter and different in the statistics."
+ },
+ "text": {
+  "what": "Money a household hands to a provider itself, rather than through a tax, a premium or a pooled fund. It is how nearly every price on this site is actually paid, and it is the one payment form with no gatekeeper, no appeal and no ceiling.",
+  "story": "The World Bank series that measures it, SH.XPD.OOPC.CH.ZS, defines it in one line: \"Share of out-of-pocket payments of total current health expenditures. Out-of-pocket payments are spending on health directly out-of-pocket by households.\" It is compiled from the WHO Global Health Expenditure Database, most recently updated on 12 December 2025. What that series does not separate is why the money left the household — a high share can mean a weak public system, a large private sector, or a country where people pay cash for care that is free to somebody else.\n\nThe American cap illustrates the trap in the word. A plan's out-of-pocket maximum is \"the most you have to pay for covered services in a plan year\", and four things sit outside it: \"Your monthly premiums\"; \"Anything you spend for services your plan doesn't cover\"; \"Out-of-network care and services\"; and \"Costs above the allowed amount for a service that a provider may charge\". A ceiling on covered, in-network spending is not a ceiling on spending.\n\n*Inference —* a hospital in another country is by definition out-of-network and usually not a covered service, so the whole of a foreign bill falls outside an American out-of-pocket maximum. Crossing a border converts a capped exposure into an uncapped one.",
+  "how": "Three payments in this journey are almost always out-of-pocket wherever the patient lives: the deposit, the items on the package's exclusion list, and anything a complication adds after discharge. A reimbursement route can put some of it back later, and the patient carries the money in the meantime.",
+  "today": "As of 17 September 2026 the out-of-pocket share by country is published annually through the WHO database the World Bank republishes. No series anywhere separates out what residents of one country pay to providers in another, which is the flow this site is about."
+ },
+ "kin": [
+  {
+   "to": "co-payment",
+   "as": "The share a payer fixes in advance, and the only part of out-of-pocket spending anybody plans for.",
+   "rel": "term"
+  },
+  {
+   "to": "the-deposit",
+   "as": "The first out-of-pocket payment in almost every trip for treatment.",
+   "rel": "step"
+  },
+  {
+   "to": "tariff",
+   "as": "What a payer will refund, and the gap that becomes this.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The gate that decides whether a bill is covered at all, and so whether it lands here.",
+   "rel": "term"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The companion series: what a country spends per person, beside how much of it households pay directly.",
+   "rel": "dataset"
+  },
+  {
+   "to": "package-price",
+   "as": "The form of price this money usually buys.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-pocket",
+  "s:worldbank-oop-indicator",
+  "s:healthcare-gov-oop-max"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "O"
+ }
+}

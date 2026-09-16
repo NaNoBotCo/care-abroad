@@ -1,0 +1,99 @@
+{
+ "id": "repatriation-cost",
+ "names": {
+  "name": "Repatriation and medical evacuation cost",
+  "aliases": [
+   "medevac",
+   "air ambulance",
+   "medical evacuation"
+  ],
+  "said": "The industry says medevac. An invoice says air ambulance, and it is five or six figures."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "The cost of moving a patient who cannot fly commercially from where they were treated to a hospital that can finish the job. The CDC's travel insurance chapter states the range: \"The total cost of a medevac varies by location, ranging from USD 25,000 for transport within North America to over USD 250,000 for more distant and remote locations\", and adds that costs increase when the patient is critically ill or needs complex infection control measures.",
+  "story": "Three features of that figure decide who carries it, and none of them is the number.\n\nThe first is that the decision is not the patient's. \"The decision to medically evacuate is at the discretion of the insurance company; it is not made at the request of the traveler\", the CDC states, and the usual threshold is hospitalisation with more days expected, or a treatment not available to comparable standard where the patient is.\n\nThe second is that domestic cover mostly does not reach. For US Medicare beneficiaries the position is stated flatly: except in limited circumstances the programme does not cover medical costs incurred outside the United States, nor medical evacuation. Medigap plans C, D, F, G, M and N cover some emergency care begun in the first 60 days abroad, at 80% of billed charges after a USD 250 deductible, with a USD 50,000 lifetime maximum. A single distant evacuation can exceed that lifetime cap five times over.\n\nThe third is that a policy bought is not a claim paid. The CDC cites a study of international travellers with travel health insurance claims in which insurers fully paid only two-thirds of them, the main reasons for refusal being pre-existing illness and poor documentation of expenses incurred.\n\n*Trade practice —* travel policies sold to leisure travellers commonly exclude treatment the traveller went abroad to obtain, and complications arising from it, on the ground that the trip was not a holiday during which something went wrong. This project has read no policy wording and states this as the trade's account rather than a fact; the wordings are private documents, and no regulator publishes a survey of them.\n\n*Inference —* the exposure therefore tends to land on the family, because the patient is unconscious or immobile and somebody has to guarantee the flight before it takes off.",
+  "how": "An evacuation is an aircraft, a medical crew, ground transport at both ends and a receiving bed that has agreed to take the patient. Dedicated medical evacuation cover is bought separately or bundled; the CDC describes the standalone product as \"relatively inexpensive\" against the cost of the event. Features that decide whether it works are whether the insurer will guarantee payment direct to the hospital, whether there is a 24-hour physician-backed centre, and whether the policy repatriates to the home country or only to the nearest adequate facility.",
+  "today": "As of 16 September 2026 the published range this site carries is USD 25,000 to over USD 250,000, from the CDC's 2026 edition. No figure exists for how often an evacuation follows an elective operation abroad, or for what share of those bills an insurer paid."
+ },
+ "metrics": {
+  "note": "USD 25,000 for transport within North America to over USD 250,000 for more distant and remote locations, as published by the CDC in the 2026 Yellow Book; higher for a critically ill patient or one needing complex infection control. The same chapter reports that in a study of international travellers with travel health insurance claims, insurers fully paid two-thirds of claims. Neither figure is specific to patients who travelled in order to be operated on; no such figure has been published.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-travel-insurance",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html"
+ },
+ "kin": [
+  {
+   "to": "insurance-exclusions",
+   "as": "The rule that decides whether any of this is covered.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "us-medicare-abroad",
+   "as": "The entitlement that does not extend to this, stated in the same chapter.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step at which the aircraft is chartered.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The ordinary version of the same journey, at the price of a seat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The guidance that, followed, keeps a patient off this aircraft.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl-mortality",
+   "as": "The complication most likely to make a patient unfit to board a scheduled flight.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "What the bill becomes once the patient has landed.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "Who signs the guarantee when the patient cannot.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Travel Insurance and Medical Evacuation Insurance",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-travel-insurance",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the fourth and fifth paragraphs are marked inline as trade practice and inference; this project has read no policy wording"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

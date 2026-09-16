@@ -1,0 +1,120 @@
+{
+ "id": "transplant-harm",
+ "names": {
+  "name": "Transplant harm",
+  "aliases": [
+   "transplant tourism",
+   "commercial transplantation",
+   "organ trafficking"
+  ],
+  "said": "The Declaration of Istanbul separates three things: travel for transplantation, transplant commercialism, and organ trafficking."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "ethical"
+ },
+ "text": {
+  "what": "Harm from receiving an organ, tissue or stem cell transplant abroad from an unrelated donor — to the recipient, whose graft and screening were worse; to the donor, who may have been paid, coerced or trafficked; and to the system at home that inherits the follow-up. The CDC's account is blunt: donors \"might not be screened as thoroughly\", organs \"might be obtained using unethical means\", and recipients \"may not receive adequate follow-up, including documentation from their surgeons\".",
+  "story": "The recipient side has been measured, and the measurements agree. A transplant centre in Riyadh compared 60 patients who had been transplanted abroad against 254 transplanted locally and followed at the same hospital between January 2015 and December 2018. Delayed graft function ran at 18.3% against 6.3%. Acute rejection ran at 40% against 7.9%. Graft failure at three years ran at 11.7% against 0.8%. Post-transplant infection and urological complications were both higher. The travelling group were younger; the two groups were otherwise similar on sex, body mass index, diabetes and hypertension.\n\nA 2021 review of liver transplantation reached the same conclusion for that organ: higher post-transplant complications and higher mortality than domestic transplantation, with improper pre- and post-transplant infectious screening, inadequate prophylaxis against opportunistic infection, and loss to follow-up named as the mechanisms.\n\nThe donor side is the reason this record is filed as an ethical risk rather than a clinical one. The Declaration of Istanbul, first agreed in 2008 and revised in 2018, is the instrument the field uses to separate three things that get collapsed together: a patient travelling for a transplant, the sale of organs, and the trafficking of people for their organs. Only the first is lawful anywhere.\n\n*Inference —* the recipient figures above understate the harm in one direction and overstate it in another. They count the patients who came back and presented to a follow-up clinic, so a recipient who died abroad is not in them; and they are single-centre, so they carry the referral pattern of the hospital that published them.",
+  "how": "An episode typically runs as a short admission abroad with a living unrelated donor, discharge with an immunosuppressive regimen and little documentation, and presentation at home for the rest of the patient's life. The parts that go wrong are identifiable in advance and none of them is surgical: donor infectious screening, tissue matching, the record of what was given and when, and whether anyone at home has agreed to take the follow-up before the flight is booked.",
+  "today": "As of 16 September 2026 no country publishes a count of its residents transplanted abroad, and no destination publishes a count of non-resident recipients. The figures on this record are from two hospital series and a review, and there is no denominator behind any of them."
+ },
+ "metrics": {
+  "complication_rate_pct": 40.0,
+  "note": "Acute rejection in 40% of 60 kidney recipients transplanted abroad and followed at one Riyadh centre, against 7.9% in 254 transplanted locally at the same hospital, January 2015 to December 2018 (p<0.001). The same series: delayed graft function 18.3% against 6.3% (p 0.005) and graft failure at three years 11.7% against 0.8% (p<0.001). One centre, one country of follow-up, and only the patients who returned and presented.",
+  "as_of": "2022",
+  "source": "s:altheaby-transplant-tourism-2022",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36092382/"
+ },
+ "kin": [
+  {
+   "to": "kidney-transplant",
+   "as": "The organ the outcome figures on this page are for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The organ with the same pattern and a higher mortality penalty.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "as": "The stem cell case the CDC folds into the same category.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-prohibition",
+   "as": "The rules that decide where a non-resident may be transplanted at all.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "declaration-of-istanbul-group",
+   "as": "Keeps the instrument that separates travel for transplantation from commercialism and trafficking.",
+   "rel": "org"
+  },
+  {
+   "to": "istanbul-declaration-2008",
+   "as": "The year the field drew the line it still uses.",
+   "rel": "event"
+  },
+  {
+   "to": "bloodborne-virus",
+   "as": "Donor-derived infection is the named screening failure.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Immunosuppression makes the gap immediately dangerous rather than eventually.",
+   "rel": "kin"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "A claim arising from an unlawful transaction has nowhere to go.",
+   "rel": "kin"
+  },
+  {
+   "to": "candida-auris",
+   "as": "What immunosuppression turns from colonisation into disease.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Declaration of Istanbul",
+   "url": "https://www.declarationofistanbul.org/"
+  },
+  {
+   "label": "Altheaby et al., Avicenna Journal of Medicine 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36092382/"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:altheaby-transplant-tourism-2022",
+  "s:neupane-liver-transplant-2021",
+  "s:declaration-of-istanbul"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is marked inline as this project's reading of what the series can and cannot support"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:altheaby-transplant-tourism-2022"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,132 @@
+{
+ "schema": 1,
+ "id": "knee-arthroscopy",
+ "type": "procedure",
+ "names": {
+  "name": "Knee arthroscopy",
+  "aliases": ["keyhole knee surgery", "arthroscopic partial meniscectomy", "meniscus surgery", "knee scope"],
+  "said": "Patients say keyhole. Surgeons name what was done through the keyhole — meniscectomy, meniscal repair, chondroplasty, loose body removal — because the camera is the access, not the operation."
+ },
+ "etymology": {
+  "root": "arthroscopy: Greek arthron, a joint, plus skopein, to look. Meniscus is Greek meniskos, a little moon, for the crescent of cartilage. Meniscectomy adds ektome, a cutting out.",
+  "tier": "tradition",
+  "note": "A diagnostic arthroscopy looks; a therapeutic one cuts. Australia's schedule separates the two, and pays for the look only where the diagnosis was undetermined beforehand."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "day-case",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A camera and instruments go into the knee through two or three small portals. Torn meniscus is trimmed or stitched, loose bodies are removed, roughened cartilage is smoothed, the joint is washed out. It is usually a day case or one night, and it is the cheapest of the knee operations on this site's price table by a factor of three.",
+  "story": "Arthroscopy is the procedure whose indications moved under it. *Trade practice —* trial evidence on arthroscopy for the worn knee has been argued over for two decades, and the argument reached patients not as a headline but as a payer's fine print: the schedule kept paying, and narrowed whom it paid for.\n\nAustralia's schedule shows what that looks like in an item number. Item 49572 pays $795.05 as at 1 July 2026 for partial meniscectomy for an atraumatic tear — and excludes, in its own wording, a service performed for the purpose of treating osteoarthritis. Item 49570 pays for a diagnostic arthroscopy only where the pre-procedure diagnosis is undetermined. The payer did not ban the operation; it defined the patient.\n\nThe package market has no such clause. Bumrungrad prices arthroscopic knee meniscus surgery — repair or resection, with debridement, chondroplasty, synovectomy and microfracture named in the same package — at 243,300 baht with one night, marked down from 270,300. Practice Plus Group lists knee arthroscopy at £5,899 in England, the same figure as its meniscus surgery line. Nordorthopaedics advertises knee arthroscopy \"from 1.500 € / 1.250 £\", the cheapest orthopaedic price this batch read.\n\n*Inference —* a patient reading only package pages would not learn that the indication is contested. The dispute lives in the payer's fine print, and the fine print does not travel.",
+  "how": "General or spinal anaesthesia, twenty to forty-five minutes of surgery, two or three portals, and home the same day or the next. Walking is immediate and unaided within days for a simple trim; a meniscal repair, as against a resection, is followed by weeks of restricted weight-bearing and a brace, and the two are priced identically on most of the pages read for this record.",
+  "today": "As of 16 September 2026 knee arthroscopy prices on this site run from an advertised Lithuanian floor of 1,500 euro through £5,899 in England to 243,300 baht in Bangkok with one night included, against an Australian schedule fee of $795.05 that carries a written indication test the package prices do not.",
+  "notes": "This page describes an operation, the argument about when it is warranted, and the prices published for it. It is not clinical advice."
+ },
+ "metrics": {
+  "stay_days": 1,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "One night is the stay named on Bumrungrad's arthroscopic knee meniscus package. No page read for this record publishes a recovery span or a flying interval for keyhole knee surgery, and the CDC's ten-day figure quoted elsewhere in this batch is guidance for chest and abdominal surgery, so it is not carried onto a day case here.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-joint-packages",
+  "url": "https://www.bumrungrad.com/en/packages/packages-center/joint-replacement-surgery"
+ },
+ "prices": [
+  {
+   "procedure": "knee-arthroscopy",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 243300,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["arthroscopic surgery to repair or resect the meniscus", "debridement, abrasive chondroplasty, synovectomy", "cartilage procedures such as microfracture", "1 night of hospital stay"],
+   "excludes": [],
+   "source": "s:bumrungrad-joint-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/joint-replacement-surgery",
+   "note": "listed at 243,300 THB against 270,300 THB under a campaign the page labels \"Special Campaign Discount Common Procedures\". Repair and resection — two operations with different recoveries — are priced as one package. The per-package exclusion list sits on the package's own detail page, not read for this record.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "knee-arthroscopy",
+   "country": "GB",
+   "city": "England",
+   "amount": 5899,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["pre-operative nurse review", "prescriptions, dressings and equipment", "anaesthetic", "any overnight stay required", "physiotherapy", "pathology and histology needed whilst admitted", "any post-operative appointments required", "a named knee consultant from start to finish"],
+   "excludes": ["the initial consultation, listed separately at £145"],
+   "source": "s:practiceplus-knee",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/",
+   "note": "knee arthroscopy and knee repair — meniscus surgery are both listed at £5,899 on the same page, which prices the camera rather than what is done through it.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "knee-arthroscopy",
+   "country": "LT",
+   "city": "Kaunas",
+   "amount": 1500,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [],
+   "excludes": [],
+   "source": "s:nordorthopaedics-prices",
+   "url": "https://www.nordorthopaedics.com/hip-knee-wrist-hand-ankle-foot-shoulder-surgery-prices/",
+   "note": "advertised as \"from 1.500 € / 1.250 £\", the lowest orthopaedic figure read for this batch; the page states no inclusion list.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "knee-arthroscopy",
+   "country": "AU",
+   "amount": 795.05,
+   "currency": "AUD",
+   "as_of": "2026-07-01",
+   "kind": "tariff",
+   "includes": ["the medical service described in item 49572: partial meniscectomy of knee, by arthroscopic means, for atraumatic meniscus tear"],
+   "excludes": ["a service for the purpose of treating osteoarthritis, which the item excludes in its own wording", "hospital accommodation and theatre", "the anaesthetist's own items", "any amount charged above the schedule fee"],
+   "source": "s:mbs-49572",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49572&qt=item",
+   "note": "Medicare Benefits Schedule item 49572, fee last updated 1 July 2026; 75% benefit $596.30. The item is the clearest example in this batch of a payer writing a contested indication into the price itself.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "acl-reconstruction", "as": "The bigger operation through the same portals, and three times the price.", "rel": "contrast"},
+  {"to": "knee-replacement", "as": "What the arthritic knee ends up having when the keyhole work does not hold.", "rel": "contrast"},
+  {"to": "bumrungrad", "as": "Packages repair and resection of the meniscus at one price with one night.", "rel": "performed-at"},
+  {"to": "thailand", "as": "Where the Bangkok arthroscopy package on this page is sold.", "rel": "destination"},
+  {"to": "united-kingdom", "as": "Where the £5,899 self-pay price on this page is sold.", "rel": "destination"},
+  {"to": "lithuania", "as": "Where the cheapest advertised orthopaedic price in this batch comes from.", "rel": "destination"},
+  {"to": "australia", "as": "Whose schedule writes the disputed indication into the item's own wording.", "rel": "destination"},
+  {"to": "day-case", "as": "What this operation usually is, and what a one-night package quietly is not.", "rel": "term"},
+  {"to": "prior-authorisation", "as": "The gate a payer uses where the indication is contested.", "rel": "term"},
+  {"to": "is-it-cheaper", "as": "The question a day case answers worst, once the flight is counted.", "rel": "story"}
+ ],
+ "confusable_with": [
+  {"id": "acl-reconstruction", "tell": "Both are keyhole; a scope trims or repairs cartilage, a reconstruction replaces a ligament with a graft, and the Bangkok packages differ by 35,700 baht."}
+ ],
+ "links": [
+  {"label": "MBS item 49572", "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49572&qt=item"}
+ ],
+ "sources": ["s:bumrungrad-joint-packages", "s:practiceplus-knee", "s:nordorthopaedics-prices", "s:mbs-49572"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "the item wording and every price are read off named pages; the state of the trial literature is marked as trade account because no study is cited here, and the closing stretch is this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "standard operative description"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:bumrungrad-joint-packages"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Knee arthroscopy.jpg", "File:Arthroscopy of the knee joint.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

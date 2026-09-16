@@ -1,0 +1,69 @@
+{
+ "schema": 1,
+ "id": "dhi-hair-transplant",
+ "type": "procedure",
+ "names": {
+  "name": "Direct hair implantation (DHI)",
+  "aliases": ["DHI", "implanter pen technique", "Choi implanter technique", "direct hair transplantation"],
+  "said": "DHI is a trade name belonging to DHI Global Medical Group, and clinics outside it sell the same technique as the implanter pen or the Choi pen. On a price page DHI usually denotes a tier above FUE rather than a different operation."
+ },
+ "etymology": {
+  "root": "implant: Latin in plus plantare, to plant - the same verb used of setting a seedling in ground. Direct in the trade name marks the step it removes: the follicular unit goes from the punch into the scalp without a slit being cut first.",
+  "tier": "tradition",
+  "note": "the technique is named after its instrument. A hollow needle loaded with a single follicular unit makes the channel and delivers the graft in one movement, which is why the method is described as implanting rather than placing."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "hair",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "Follicular units are harvested as in follicular unit extraction, then loaded one at a time into a hollow implanter pen that both makes the recipient channel and delivers the graft in a single movement, rather than the two-stage method of cutting slits first and placing grafts into them. The harvest, the anaesthetic, the day and the donor limits are the same as FUE. What changes is the instrument, the number of staff hours, and the price tier.",
+  "story": "DHI is a brand-linked technique rather than a separate operation, and the record says so because the price pages do not. DHI Medical Group's own Dubai page describes a patented implanter pen that allows surgeons to directly implant hair follicles without the need for creating incisions beforehand, and claims more precise control over the depth, direction and angle of each implanted follicle, a no-shave option, and a higher survival rate of grafts because follicles spend less time outside the body. Those are the seller's claims, published by the seller.\n\nThe pricing is where the distinction shows. Estenove in Istanbul quotes the same package prices - 3,395, 4,595 and 6,595 euro - for FUE and DHI alike, which is one clinic's answer to whether the pen is a different product. DHI Medical Group in Dubai publishes a ladder instead: about 9,999 dirham for minor procedures with fewer grafts, 12,000 to 18,000 for moderate hair loss, and 35,000 or more for extensive work.\n\n*Trade practice --* the argument between the two techniques is conducted almost entirely in clinic marketing. Whether the pen improves graft survival, and by how much, is not settled by any trial that this record could find published; what is documented is that it changes how many staff are needed and how long the session takes, and therefore what the session costs.\n\nThe question the International Society of Hair Restoration Surgery raises about hair surgery generally applies here with particular force, because the pen is often the part of the operation handed to technicians. Its position statement holds that donor hair harvesting, hairline design and recipient site creation should be done by a properly trained and licensed physician or physician extender; in the pen technique, recipient site creation and graft placement are the same movement.",
+  "how": "Local anaesthetic, a full day, no ward. The scalp may be left unshaved, which is the feature most often sold with the technique and the one that lengthens the session. Loading pens is slow, so a DHI session usually involves more assistants than an FUE session of the same size, or fewer grafts in the same time. Aftercare, shedding and the twelve-to-eighteen-month judgement date are identical to FUE.",
+  "today": "Two published prices sit on this record, from Turkiye and the United Arab Emirates, read in September 2026. One clinic prices the pen the same as the punch; the other prices by extent of hair loss. Neither publishes a graft count with the price.",
+  "notes": "This page describes a technique and the claims made for it by those who sell it. It is not advice about having one."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "note": "Day case, as with FUE. No graft-survival figure is carried on this record: the higher survival claimed for the implanter pen is the seller's claim on the seller's page, and no independent measurement with a defined population was found for it.",
+  "as_of": "2026-09-16",
+  "source": "s:dhi-dubai-cost",
+  "url": "https://www.dhiinternational.com/cost-of-hair-transplant-in-dubai-dhi-medical-group/"
+ },
+ "prices": [
+  {"procedure": "dhi-hair-transplant", "country": "TR", "city": "Istanbul", "amount": 3395, "amount_high": 6595, "currency": "EUR", "as_of": "2026-09-16", "kind": "package", "includes": ["a fixed session, the clinic quoting the same three package prices for FUE and DHI", "MD participation in extraction and incision", "PRP session", "hotel accommodation three to four nights", "VIP transfer", "aftercare kit", "18 months aftercare support"], "excludes": ["flights"], "source": "s:estenove-cost", "url": "https://www.estenove.com/hair-transplant-cost-istanbul-turkey/", "note": "the clinic states its prices are quoted for FUE and DHI at the same rate, which is itself a statement about whether the pen is a different operation", "tier": "cited"},
+  {"procedure": "dhi-hair-transplant", "country": "AE", "city": "Dubai", "amount": 9999, "amount_high": 35000, "currency": "AED", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["surgeon fees, anaesthesia, facility charges, graft extraction and implantation, post-operative care including medications and follow-up visits, in the group's own words"], "excludes": ["not stated on the page"], "source": "s:dhi-dubai-cost", "url": "https://www.dhiinternational.com/cost-of-hair-transplant-in-dubai-dhi-medical-group/", "note": "the ladder on the brand owner's own page: approximately 9,999 AED for minor procedures with fewer grafts, 12,000 to 18,000 AED for moderate hair loss, 35,000 AED or more for extensive procedures", "tier": "cited"}
+ ],
+ "kin": [
+  {"to": "hair-transplant-fue", "as": "The operation this is a branded variant of, with the same harvest and the same donor limits.", "rel": "origin"},
+  {"to": "graft", "as": "The unit both techniques are sold in, and which neither of these two prices states.", "rel": "term"},
+  {"to": "istanbul", "as": "Where the two techniques are sold from the same price list.", "rel": "place"},
+  {"to": "turkiye", "as": "The destination that sells both at a package price.", "rel": "destination"},
+  {"to": "uae", "as": "Where the brand owner publishes its own ladder of prices.", "rel": "destination"},
+  {"to": "dubai", "as": "The hub whose clinics price by extent of hair loss rather than by graft.", "rel": "place"},
+  {"to": "ishrs", "as": "The society whose statement on who may create recipient sites bears directly on a technique that makes the site and places the graft in one movement.", "rel": "org"},
+  {"to": "advertising-rules", "as": "Where claims of higher graft survival may be made, and where they may not.", "rel": "governed-by"},
+  {"to": "getting-a-quote", "as": "The step at which a technique name becomes a price tier.", "rel": "step"}
+ ],
+ "confusable_with": [
+  {"id": "hair-transplant-fue", "tell": "Same harvest, same donor area, same day. DHI names the instrument that places the graft, and on most price lists it names a tier."}
+ ],
+ "links": [
+  {"label": "DHI Medical Group, cost of hair transplant in Dubai", "url": "https://www.dhiinternational.com/cost-of-hair-transplant-in-dubai-dhi-medical-group/"}
+ ],
+ "sources": ["s:dhi-dubai-cost", "s:estenove-cost", "s:ishrs-unlicensed-technicians"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:dhi-dubai-cost", "note": "the technique claims are quoted from the brand owner's page and attributed there; the paragraph on marketing is marked as trade practice inline"},
+   "text.how": {"tier": "tradition"},
+   "etymology": {"tier": "tradition"}
+  }
+ },
+ "x_commons_files": ["File:Hair transplantation implanter.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "reading-the-exclusions",
+ "names": {
+  "name": "Reading the exclusions",
+  "aliases": [
+   "the small print",
+   "what the package leaves out",
+   "policy exclusions"
+  ],
+  "said": "Two documents carry exclusion lists, and they are usually read as one: the package page and the insurance policy."
+ },
+ "facets": {
+  "stage": "booking"
+ },
+ "x_order": 6,
+ "text": {
+  "what": "Two separate exclusion lists govern a trip for treatment. The provider's package names what its price does not cover. The insurer's policy names what it will not pay for. They are written by different parties for different purposes, and the gap between them is where an unplanned bill falls.",
+  "story": "On the provider side the list is often longer than the inclusions. The knee package this site reads at one Bangkok hospital covers three hours of theatre, three nights on the ward, surgeon, assistant and anaesthesiologist — and excludes the implant, the first consultation and the follow-up visits, nights beyond three, any intensive care, blood transfusion, laboratory and imaging before or after surgery, take-home medication, and complex or emergency cases. A joint package that excludes the implant is quoting the operation, not the joint.\n\nOn the insurance side the NHS states the general position for its own readers plainly: travel insurance \"does not normally cover if things go wrong in surgery\". The UK government's travel insurance guidance is written around emergencies and lists repatriation, emergency transport and getting home after treatment when the original ticket cannot be used; it also warns that EHIC and GHIC \"are not alternatives to travel insurance as they do not cover any private medical healthcare costs, repatriation or additional costs\".\n\nThe CDC Yellow Book puts the same duty on the traveller in its own terms: check what the domestic plan covers outside the country, and consider supplemental cover \"including medical evacuation insurance\".\n\n*Inference —* the structural trap is that a planned operation is not an emergency, and most travel policies are emergency instruments. A complication of a procedure the traveller flew out to have can be a genuine emergency in the ward and an excluded event on the policy at the same time.",
+  "how": "Specialist products exist that cover complications of treatment abroad for a defined window after surgery, sold separately from both the package and the travel policy. This project has not read a policy wording of that kind end to end and states no terms for them.\n\nWhat a reader would have to ask: whether the package's stated price is per night or per stay, what triggers the excluded items, whether the provider's complication cover is a contractual term with a duration or a customer-service statement, whether the travel policy excludes treatment the trip was taken for and also excludes its complications, and who pays for a changed flight if discharge slips.",
+  "today": "As of 16 September 2026 no regulator this project could find publishes a comparison of what travel policies exclude for planned treatment abroad. The exclusion wording lives in individual policy documents, which is the only place the answer exists."
+ },
+ "kin": [
+  {
+   "to": "getting-a-quote",
+   "as": "The number these lists qualify.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The commonest exclusion on an orthopaedic or dental package.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "The rule side of the policy half of this step.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "The bill an excluded policy leaves with the family.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The form of price whose exclusions this step reads.",
+   "rel": "term"
+  },
+  {
+   "to": "the-deposit",
+   "as": "The next step, usually taken before these two documents have been read together.",
+   "rel": "step"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes an exclusion list this step quotes.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:nhs-cosmetic-surgery-abroad",
+  "s:gov-uk-foreign-travel-insurance",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the questions are this project's; the statement about specialist complication policies is deliberately unsourced because no wording was read"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

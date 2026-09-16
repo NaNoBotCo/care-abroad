@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "chiang-mai",
+ "type": "hub",
+ "names": {
+  "name": "Chiang Mai",
+  "aliases": ["เชียงใหม่", "Chiangmai"],
+  "said": "Chiang Mai, two words, and in the north it is เจียงใหม่ — Jiang Mai — because Kham Mueang softens the ch."
+ },
+ "region": ["southeast-asia"],
+ "facets": {
+  "iso2": "TH",
+  "radius_km": 12,
+  "specialty": ["dental", "cosmetic", "orthopaedics", "gender-affirming", "long-stay rehabilitation", "health screening"],
+  "draws": ["dental-implant", "knee-replacement", "hair-transplant-fue"],
+  "languages": ["Thai", "Northern Thai", "English"]
+ },
+ "text": {
+  "what": "Thailand's second cluster, and the one that sells the long stay rather than the flight in and out. Private hospitals and dental surgeries run along the Superhighway and Chang Klan, with the university hospital at Suan Dok as the tertiary backstop. What distinguishes it from Bangkok is who the patient is: Chiang Mai treats a large resident foreign population — retirees, remote workers, people on long-stay visas — as well as visitors, and the two use the same buildings.",
+  "story": "*Trade practice —* the city's medical trade grew out of its expatriate population rather than out of an export push. A place with tens of thousands of long-term foreign residents accumulates the things those residents need — English-speaking dentists, a hospital that will bill an overseas insurer, pharmacists used to being asked for a drug under an American brand name — and a visitor arriving for a course of work finds the infrastructure already there.\n\nThat is also why the mix here runs to dentistry, dermatology, orthopaedics and rehabilitation rather than to cardiac surgery. The complex cases go to Bangkok. Chiang Mai sells the four-week stay: a course of dental work, a knee and the physiotherapy after it, a screening package, a recovery that needs somewhere quiet and cheap to happen.\n\n*Inference —* the cost of a month here against a month in Bangkok is the whole argument for the place, and nobody publishes a comparison of the two.",
+  "how": "Private hospitals cluster on Superhighway Chiang Mai–Lampang and around Chang Klan and the Night Bazaar; Maharaj Nakorn Chiang Mai, the Chiang Mai University teaching hospital at Suan Dok, is the public tertiary centre. Dental surgeries are spread through Nimmanhaemin and the old city rather than concentrated in one street. The airport is fifteen minutes from most of it.",
+  "today": "No price from this city has been read into this directory yet. The facilities index here is thinner than Bangkok's for that reason and not for any other."
+ },
+ "geo": {"lat": 18.7883, "lon": 98.9853, "precision": "city", "source": "s:osm"},
+ "kin": [
+  {"to": "thailand", "as": "The country's second cluster, and its long-stay one.", "rel": "part"},
+  {"to": "bangkok", "as": "Where the complex cases and the flagship private hospitals are, six hundred kilometres south.", "rel": "contrast"},
+  {"to": "defiant", "as": "A facilitator working out of this city.", "rel": "org"},
+  {"to": "dental-implant", "as": "A course of dental work is the commonest reason a visitor stays a month here.", "rel": "procedure"},
+  {"to": "aftercare-at-home", "as": "The long stay exists partly to move the recovery here rather than home.", "rel": "step"}
+ ],
+ "sources": ["s:osm", "s:defiant-site"],
+ "provenance": {
+  "default": {"tier": "tradition"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm"},
+   "text.story": {"tier": "tradition", "note": "the trade's account of how the city's medical work grew; the inline marks say which stretches are inference"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "lithuania",
+ "type": "destination",
+ "names": {
+  "name": "Lithuania",
+  "aliases": ["Lietuva", "Lietuvos Respublika"],
+  "said": "In the trade Lithuania means Vilnius and Kaunas, dentistry and cosmetic surgery, and a short flight from Dublin, Oslo or London."
+ },
+ "region": ["europe-north"],
+ "facets": {
+  "iso2": "LT",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": ["Lithuanian", "English", "Russian"],
+  "draws": ["dental-implant", "all-on-four", "rhinoplasty", "breast-augmentation", "abdominoplasty"]
+ },
+ "text": {
+  "what": "The smallest of the European dental and cosmetic corridors, and the one that grew on emigration. Lithuanian clinics in Vilnius, Kaunas and Klaipėda advertise in English and Norwegian as well as Lithuanian, and sell implant work, full-arch restorations and cosmetic surgery to patients from Ireland, Britain and the Nordic countries. The country operates no prior-authorisation system for its own residents seeking care abroad.",
+  "story": "The official cross-border numbers are tiny and worth reading precisely for that. In the Commission's 2022 data Lithuania received 131 requests for reimbursement of care not subject to prior authorisation and granted 125, and it sits among the eight countries that run no prior-authorisation regime at all. Whatever traffic the clinics carry is not passing through any reimbursement channel that counts it.\n\n*Trade practice —* the trade's own account is a diaspora account. Lithuanian emigration after 2004 built the routes and the language skills; the clinics that served returning Lithuanians were already working in English when other patients started arriving, and the low-cost carriers that made the labour migration cheap made the dental trip cheap with it.\n\n*Inference —* the country is small enough that its inbound trade is a handful of clinics rather than an industry, which changes what a reader can check: there is no national register of foreign patients to consult, and the evidence available is what individual clinics publish about themselves."
+ ,
+  "how": "Itemised dental pricing in euro, with implant work staged across two trips and full-arch cases often quoted as one figure. Cosmetic clinics sell a fixed price with a stated number of nights and follow-up before the flight home; the clot risk sets that interval, not the calendar of the booking.",
+  "today": "No published national count of inbound patients was found for this record. The figure that can be read is the reimbursement one: 131 requests in 2022, which describes Lithuanians treated abroad rather than anyone treated here."
+ },
+ "geo": {"lat": 54.6872, "lon": 25.2797, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "131 requests for reimbursement of care not subject to prior authorisation in 2022, 125 granted. That counts outbound Lithuanian patients reclaiming at home. No inbound count is carried: none was found on this pass, which is not evidence that none exists.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "kin": [
+  {"to": "vilnius", "as": "The capital cluster, where most of the English-language clinics are.", "rel": "part"},
+  {"to": "dental-implant", "as": "The commonest reason a foreign patient books a flight here.", "rel": "procedure"},
+  {"to": "ireland", "as": "A source market two and a half hours away, with a queue at home.", "rel": "contrast"},
+  {"to": "poland", "as": "The bigger corridor selling the same work to the same markets.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The reimbursement route this country's residents use, and its visitors do not.", "rel": "governed-by"},
+  {"to": "flying-after-surgery", "as": "What sets the number of nights between a cosmetic operation and the flight home.", "rel": "risk"}
+ ],
+ "sources": ["s:ec-crossborder-2022", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:ec-crossborder-2022"},
+  "fields": {
+   "text.what": {"tier": "tradition", "note": "the clinics' own self-description; the prior-authorisation point is cited"},
+   "text.story": {"tier": "cited", "source": "s:ec-crossborder-2022", "note": "the second and third paragraphs are marked trade practice and inference"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Vilnius Old Town.jpg"],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "id": "cbahi",
+ "type": "org",
+ "names": {
+  "name": "Saudi Central Board for Accreditation of Healthcare Institutions",
+  "aliases": [
+   "CBAHI"
+  ],
+  "said": "CBAHI is an accreditor that behaves like a regulator, because in Saudi Arabia it is one."
+ },
+ "region": [
+  "gulf",
+  "west-asia"
+ ],
+ "facets": {
+  "kind": [
+   "accreditor",
+   "regulator"
+  ],
+  "iso2": "SA",
+  "founded": 2005,
+  "status": "open"
+ },
+ "text": {
+  "what": "Saudi Arabia's national healthcare accreditation body, a not-for-profit established in October 2005 on the recommendation of the Council of Health Services. It is described in the peer-reviewed literature as \"the only legally recognized institution in Saudi Arabia that evaluates all governmental and private healthcare providers\", and accreditation is mandatory for Ministry of Health hospitals. It accredits hospitals, primary healthcare centres, clinical laboratories and ambulatory centres.",
+  "story": "Every other accreditor on this list sells something a facility may decline. CBAHI does not, for the facilities the mandate covers, and that single difference changes what its mark carries.\n\nA voluntary accreditation is evidence of a choice: this hospital decided the fee and the preparation were worth it. A mandatory one is evidence of a floor: this hospital met the minimum the state requires of everyone. Neither is a quality score, but they are different facts, and a badge wall that shows both side by side does not distinguish them.\n\nCBAHI published its first national standards in 2006 and a second hospital edition in 2012, developed with public and private sector experts, and holds an ISQua EEA award over its standards.",
+  "how": "Facilities are surveyed against the national standards. The pages read for this record do not establish the cycle length, the fee, or whether the accredited list is published as a searchable register — the CBAHI portal refused every connection from this project on 16 September 2026, so this record rests on a 2023 peer-reviewed paper and leaves those gaps open rather than filling them.",
+  "today": "As of 16 September 2026 CBAHI runs accreditation programmes for hospitals, primary healthcare centres, laboratories and ambulatory centres, with further programmes reported as being rolled out."
+ },
+ "geo": {
+  "lat": 21.4858,
+  "lon": 39.1925,
+  "precision": "city",
+  "source": "s:cbahi-jmdh-2023"
+ },
+ "address": {
+  "city": "Jeddah",
+  "country": "SA"
+ },
+ "recognitions": [
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation of the CBAHI standards",
+   "year": null,
+   "valid_until": null,
+   "source": "s:cbahi-jmdh-2023",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10153434/",
+   "note": "reported in the cited paper; the award year and term are not stated there"
+  }
+ ],
+ "kin": [
+  {
+   "to": "saudi-arabia",
+   "as": "The country whose public and private facilities it is the legally recognised evaluator of.",
+   "rel": "place"
+  },
+  {
+   "to": "jci",
+   "as": "The voluntary international mark Saudi hospitals hold on top of this compulsory one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The state route that sends Saudi patients out while this board raises the floor at home.",
+   "rel": "governs"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a compulsory floor and a bought badge are pulled apart.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "CBAHI",
+   "url": "https://portal.cbahi.gov.sa/"
+  }
+ ],
+ "sources": [
+  "s:cbahi-jmdh-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cbahi-jmdh-2023"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cbahi-jmdh-2023",
+    "note": "the second paragraph is this project reasoning about what a mandatory mark carries"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "CBAHI's registered office is in Jeddah; city precision only, and the portal could not be reached to confirm"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

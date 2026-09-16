@@ -1,0 +1,101 @@
+{
+ "schema": 1,
+ "id": "who",
+ "type": "org",
+ "names": {
+  "name": "World Health Organization",
+  "aliases": [
+   "WHO",
+   "OMS"
+  ],
+  "said": "The intergovernmental agency, not a non-governmental one — it is the member states, meeting."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "ngo",
+  "founded": 1948,
+  "status": "open"
+ },
+ "text": {
+  "what": "The United Nations health agency, established on 7 April 1948 and based in Geneva. Its governing body, the World Health Assembly, is made up of 193 member states. It publishes the Global Health Observatory, the data platform this site draws national health indicators from, and it maintains the health expenditure database the World Bank republishes.",
+  "story": "WHO is on this list for what it does not collect. Its indicators come from member states — routine health information systems, civil registration, surveys, facility assessments — and a member state reports what it counts. Almost none of them count foreign patients as a category.\n\nSo the agency that holds the most complete picture of world health holds close to nothing on the flow this site is about. The health expenditure database behind the World Bank series measures what residents consume, which by construction excludes what a country earns treating other countries' residents. *Inference —* an export trade in surgery can be a real industry in a country and still leave no trace in any WHO series, and that absence is a fact about the data, not about the trade.\n\nWhere WHO has acted on cross-border care it has been through ethics and standards rather than statistics: the Guiding Principles on human cell, tissue and organ transplantation, and the official relations it maintains with the fertility registry body ICMART.",
+  "how": "Member states report to WHO on agreed instruments and schedules. The Global Health Observatory republishes the results as indicators with country, year and value, reachable through an OData interface. The reporting year differs by country, which is why every value on this site carries its own year.",
+  "today": "As of 16 September 2026 the Global Health Observatory remains the source behind several indicators this site charts, and none of them counts a patient who crossed a border for treatment."
+ },
+ "geo": {
+  "lat": 46.2325,
+  "lon": 6.14,
+  "precision": "street",
+  "source": "s:who-wikipedia"
+ },
+ "address": {
+  "street": "Avenue Appia 20",
+  "city": "Geneva",
+  "country": "CH",
+  "postcode": "1211"
+ },
+ "kin": [
+  {
+   "to": "who-global-health-observatory",
+   "as": "The data platform it publishes, and what that platform does and does not count.",
+   "rel": "measures"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series the World Bank republishes from WHO's health expenditure database.",
+   "rel": "measures"
+  },
+  {
+   "to": "icmart",
+   "as": "The fertility registry body it keeps in official relations, and with which it wrote the ART glossary.",
+   "rel": "org"
+  },
+  {
+   "to": "declaration-of-istanbul-group",
+   "as": "The professional body whose declaration WHO's transplant principles sit beside.",
+   "rel": "org"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Where the gap between world health data and cross-border care is the subject.",
+   "rel": "story"
+  },
+  {
+   "to": "oecd",
+   "as": "The other body with comparable cross-country health figures, and the only one that has tried to measure the trade itself.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "World Health Organization",
+   "url": "https://www.who.int/"
+  },
+  {
+   "label": "Global Health Observatory",
+   "url": "https://www.who.int/data/gho"
+  }
+ ],
+ "sources": [
+  "s:who-wikipedia",
+  "s:who-gho"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:who-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:who-gho",
+    "note": "the second paragraph's conclusion is marked as this project's inference; the Guiding Principles are named from general knowledge and are not sourced on this disk"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

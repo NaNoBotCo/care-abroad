@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "switzerland",
+ "type": "destination",
+ "names": {
+  "name": "Switzerland",
+  "aliases": ["Schweiz", "Suisse", "Svizzera", "Svizra", "Swiss Confederation"],
+  "said": "In the trade Switzerland means the private wing of a Zurich, Geneva or Lausanne clinic, a second opinion, and a bill nobody publishes."
+ },
+ "region": ["europe-west"],
+ "facets": {
+  "iso2": "CH",
+  "direction": "inbound",
+  "currency": "CHF",
+  "languages": ["German", "French", "Italian", "English"],
+  "draws": ["executive-health-screening", "addiction-rehab", "ivf", "gamma-knife", "knee-replacement"]
+ },
+ "text": {
+  "what": "The expensive end of the European market. Swiss private clinics and university hospitals sell complex care, screening and residential addiction treatment to foreign self-payers at Swiss prices, and Switzerland sends very few patients anywhere. It sits outside the EU cross-border Directive, which binds Member States, so none of the European reimbursement machinery reaches a Swiss bill.",
+  "story": "Switzerland appears in the one European study that counted cross-border fertility patients directly: in the ESHRE taskforce survey of six receiving countries in 2010, 16.3% of the 1,230 patients surveyed were being treated in Switzerland. The reasons patients gave were legal restrictions at home first and quality second, and the nationalities were Italian, German, French and Dutch.\n\n*Trade practice —* the rest of the Swiss inbound trade is sold on discretion, which is also why it is unmeasured. Residential addiction and psychiatric clinics, executive screening programmes and private wings quote individually, publish nothing, and describe their patients only as international. This project found no Swiss national count of foreign patients to carry.\n\n*Inference —* what Switzerland exports is not cheapness but its opposite: a price high enough that the patient paying it is buying separation from a queue, a system and sometimes a jurisdiction. The World Bank health-spending series puts Swiss spending per person among the highest anywhere, and that number describes the domestic system rather than the export trade, but the two share a cost base."
+ ,
+  "how": "A Swiss private clinic quotes a daily rate plus the operation and asks for a deposit or a guarantee of payment before admission; the foreign self-payer is not on the Swiss insurance tariff and the bill reflects it. Residential programmes are quoted by the week. Nothing in the Swiss system is reclaimable by an EU patient under the Directive, because Switzerland is not a Member State; a Swiss resident treated abroad is governed by Swiss insurance rules instead, which this record does not attempt to summarise.",
+  "today": "No published count of inbound patients is carried here — none was found on this pass, which is not evidence that none exists. The dated facts available are a 2010 survey share and a spending series, and both are stated as what they are."
+ },
+ "geo": {"lat": 46.9480, "lon": 7.4474, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No inbound patient count. The only direct measurement read for this record is the ESHRE taskforce survey of 2010, in which Swiss centres held 16.3% of 1,230 cross-border fertility patients surveyed in one month across six countries.",
+  "as_of": "2010",
+  "source": "s:shenfield-2010"
+ },
+ "kin": [
+  {"to": "executive-health-screening", "as": "The course of tests sold here to people who fly in for a week.", "rel": "procedure"},
+  {"to": "addiction-rehab", "as": "The residential programme priced by the week and never published.", "rel": "procedure"},
+  {"to": "germany", "as": "The neighbour that shares its patients and undercuts its prices.", "rel": "contrast"},
+  {"to": "spain", "as": "Where Swiss fertility patients go when Swiss law or a waiting list stops them.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route that does not reach here: Switzerland is not a Member State.", "rel": "contrast"},
+  {"to": "world-bank-health-spending", "as": "The series that places its cost base near the top of the world.", "rel": "measured-by"},
+  {"to": "is-it-cheaper", "as": "The country that answers the question by refusing the premise.", "rel": "story"}
+ ],
+ "sources": ["s:shenfield-2010", "s:eu-directive-2011-24", "s:worldbank-open-data", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "tradition"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:eu-directive-2011-24", "note": "the Directive binds Member States; the rest of the paragraph is the trade's own description"},
+   "text.story": {"tier": "cited", "source": "s:shenfield-2010", "note": "first paragraph cited; second marked trade practice, third marked inference"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Universitätsspital Zürich.jpg"],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "id": "dominican-republic",
+ "type": "destination",
+ "names": {
+  "name": "Dominican Republic",
+  "aliases": ["República Dominicana", "DR"],
+  "said": "In the trade it is Santo Domingo, and the operation is body work — liposuction, abdominoplasty, buttock augmentation, often in one list."
+ },
+ "region": ["caribbean"],
+ "facets": {
+  "iso2": "DO",
+  "direction": "inbound",
+  "currency": "DOP",
+  "languages": ["Spanish", "English"],
+  "draws": ["liposuction", "abdominoplasty", "bbl", "breast-augmentation"]
+ },
+ "text": {
+  "what": "A Caribbean cosmetic surgery destination, two to four hours from the US east coast, selling body contouring largely to women travelling from the United States. It also carries the longest published outbreak record of any destination in this directory: two multi-state clusters of rapidly growing nontuberculous mycobacteria — environmental bacteria that infect surgical wounds and take months of antibiotics to clear — traced to cosmetic surgery here, four years apart, and named in the CDC's own chapter on care abroad.",
+  "story": "The first cluster ran March 2013 to February 2014. The CDC counted 19 cases in five states — New York 11, Massachusetts three, Connecticut two, Maryland two, Pennsylvania one — 16 confirmed and three probable. Twelve of the 19 had been operated on at one clinic; the other seven at seven different Dominican clinics. The commonest procedures were liposuction in 74%, abdominoplasty in 58% and breast implantation in 32%. Fourteen of the 19 were admitted to hospital in the United States and needed repeated corrective surgery and long courses of antibiotics. Of the 16 confirmed, 13 were Mycobacterium abscessus and two M. fortuitum.\n\nThe second ran through 2017 and was larger. By 8 November 2017 the CDC had been notified of 52 patients from nine states with a surgical site infection after cosmetic surgery in the Dominican Republic; 38 met the confirmed case definition, \"a diagnosed SSI and laboratory evidence confirming the presence of NTM in a U.S. resident who underwent a cosmetic surgery procedure in the Dominican Republic since January 1, 2017\". All confirmed cases were women, operated on between 4 January and 14 July 2017. The confirmed patients named 14 surgeons at seven surgical centres. Twenty-six of the 32 with information available — 81% — had been operated on at one centre, CIPLA, which closed temporarily on 8 July 2017. One patient died.\n\n*Inference —* the pattern in both clusters is the same and it is not a pattern about surgeons. Rapidly growing mycobacteria live in water and in solutions; a cluster that concentrates in one building, then appears in six others, is describing a practice, not a person. Neither report reached a denominator: nobody published how many patients travelled for cosmetic surgery to the country in either period, so no rate can be computed from these counts, and this record does not compute one.",
+  "how": "*Trade practice —* the Dominican trade is booked directly with a surgeon's office or through a co-ordinator, and sold as a package that names the operating fee, a recovery house with a nurse, post-operative garments and lymphatic massage. Stays run one to two weeks because drains and dressings need attending. The patient flies home with sutures in and the surgeon who placed them four hours behind. That gap is where both outbreaks were detected: by American infectious disease physicians, weeks later, and not by the clinic that operated.",
+  "today": "As of September 2026 the two CDC reports remain the clearest published record of what has gone wrong here, and they are eight and twelve years old. This record carries no current national count of foreign patients and no current inspection register: the Dominican Republic did not appear among the 32 locations reported individually in the ISAPS 2024 survey, and no Dominican register was read for this record."
+ },
+ "geo": {"lat": 18.4861, "lon": -69.9312, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No patient count is carried. The two CDC clusters — 19 cases in 2013-14, 52 notified and 38 confirmed in 2017 — are counts of US residents who fell ill and were reported, not of patients treated; neither report carries a denominator, so neither supports a rate.",
+  "as_of": "2018",
+  "source": "s:mmwr-ntm-dominican-2018",
+  "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6712a5.htm"
+ },
+ "kin": [
+  {"to": "santo-domingo", "as": "Where the clinics named in both CDC reports sit.", "rel": "part"},
+  {"to": "dominican-republic-ntm-outbreak", "as": "The two clusters, in their own record.", "rel": "event"},
+  {"to": "nontuberculous-mycobacteria", "as": "The organism that made this country a case study.", "rel": "risk"},
+  {"to": "surgical-site-infection", "as": "What 38 confirmed patients flew home with in 2017.", "rel": "risk"},
+  {"to": "liposuction", "as": "The commonest procedure in the 2013-14 cluster, at 74% of cases.", "rel": "procedure"},
+  {"to": "abdominoplasty", "as": "The second commonest, at 58%.", "rel": "procedure"},
+  {"to": "bbl", "as": "The body operation the trade here is currently known for.", "rel": "procedure"},
+  {"to": "revision-at-home", "as": "Fourteen of 19 in the first cluster were admitted in the United States for it.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Both outbreaks were found by doctors at home, weeks after discharge abroad.", "rel": "risk"},
+  {"to": "united-states", "as": "Where every counted patient in both clusters lived.", "rel": "contrast"}
+ ],
+ "links": [
+  {"label": "MMWR 2018 — NTM infections after plastic surgery, Dominican Republic 2017", "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6712a5.htm"},
+  {"label": "MMWR 2014 — NTM wound infections, March 2013–February 2014", "url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm6309a5.htm"}
+ ],
+ "sources": ["s:mmwr-ntm-dominican-2018", "s:mmwr-ntm-dominican-2014", "s:cdc-yellowbook-medical-tourism", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:mmwr-ntm-dominican-2018", "note": "both clusters are read off the two MMWR reports; the closing paragraph is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the shape of a Dominican cosmetic package, hedged in the prose"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Santo Domingo skyline.jpg"],
+ "needs_verification": true,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

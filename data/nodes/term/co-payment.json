@@ -1,0 +1,82 @@
+{
+ "id": "co-payment",
+ "names": {
+  "name": "Co-payment",
+  "aliases": [
+   "copay",
+   "copayment",
+   "patient contribution",
+   "user charge"
+  ],
+  "said": "American plans say copay. European systems say patient contribution or user charge. All three name the same thing: the part the patient pays on a bill somebody else is also paying."
+ },
+ "etymology": {
+  "root": "co-, the Latin prefix com-, with or together, on payment — behind which sits pay, c. 1200, from Old French paier, from Latin pacare, to please, pacify or satisfy, from pax, peace. To pay was first to appease a creditor; the sense of giving what is due for goods or services follows in the early 13th century. A co-payment is two parties appeasing one bill.",
+  "first_attested": "c. 1200 for pay; this project could not date the insurance compound from a dictionary",
+  "tier": "cited",
+  "source": "s:etymonline-pay",
+  "note": "A co-payment is a fixed amount. Coinsurance is a percentage. A deductible is an amount paid before cover begins at all. Trade writing uses the three interchangeably and they behave very differently on a large bill."
+ },
+ "text": {
+  "what": "A fixed sum the patient pays for a covered service while the payer pays the rest. The US federal glossary puts it plainly: \"A fixed amount ($20, for example) you pay for a covered health care service after you've paid your deductible.\" The word only means anything where somebody else is paying the remainder.",
+  "story": "Set against its two neighbours the word becomes readable. Coinsurance is \"The percentage of costs of a covered health care service you pay (20%, for example) after you've paid your deductible\" — on a $100 allowed amount at 20%, the patient pays $20. A deductible is paid first and in full. A fixed co-payment is predictable and a percentage is not, and on an operation rather than an office visit the difference is the whole argument.\n\n*Inference —* the word is a poor fit for cross-border care and is used there anyway. A co-payment presupposes a payer with a schedule. A patient paying a foreign hospital has no payer and no schedule, so the correct word for what they hand over is not a co-payment but the whole price.",
+  "how": "Three things decide what a co-payment costs over a year: whether it is a flat sum or a percentage, whether it counts towards an annual cap, and whether the service is in the payer's network at all. The third question answers itself for a hospital in another country.",
+  "today": "As of 17 September 2026 no record on this site carries a co-payment figure as a price. Where a state's user charge is the whole of what a patient pays — the English dental bands, for instance — the amount is recorded as a tariff and named as one."
+ },
+ "kin": [
+  {
+   "to": "out-of-pocket",
+   "as": "The wider category this sits inside, and the only part of it a payer has agreed to in advance.",
+   "rel": "term"
+  },
+  {
+   "to": "tariff",
+   "as": "The schedule a co-payment is calculated against.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The gate that has to be passed before a co-payment is the only thing owed.",
+   "rel": "term"
+  },
+  {
+   "to": "dental-implant",
+   "as": "A treatment where the patient contribution at home is what makes the fare abroad arithmetic.",
+   "rel": "procedure"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where the difference between a fixed sum and a percentage is discovered.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-pay",
+  "s:healthcare-gov-copayment",
+  "s:healthcare-gov-coinsurance",
+  "s:nhs-dental-charges"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "C"
+ }
+}

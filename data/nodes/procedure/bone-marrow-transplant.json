@@ -1,0 +1,98 @@
+{
+ "schema": 1,
+ "id": "bone-marrow-transplant",
+ "type": "procedure",
+ "names": {
+  "name": "Bone marrow transplant",
+  "aliases": ["haematopoietic stem cell transplant", "HSCT", "stem cell transplant", "BMT"],
+  "said": "Haematologists say transplant and then say autologous or allogeneic, because the two are different operations with different prices, different stays and different risks. Registries say haematopoietic cell transplantation. Families say bone marrow, even when the cells came out of a vein."
+ },
+ "etymology": {
+  "root": "marrow: Old English mearg, the soft interior of a bone. Transplant: Latin transplantare, to plant across. Autologous, from Greek autos, self; allogeneic, from allos, other, and genos, kind — the whole distinction the field turns on sits in those two prefixes.",
+  "tier": "tradition",
+  "note": "graft-versus-host disease names the direction of the attack: in this one transplant the tissue can reject the patient."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "transplant",
+  "setting": "inpatient",
+  "anaesthesia": "varies"
+ },
+ "text": {
+  "what": "The blood-forming system is destroyed by chemotherapy, with or without radiation, and replaced with stem cells — the patient's own, harvested and stored beforehand, or another person's. Milliman's terms are the usable ones: autologous, \"where the donor is the recipient\", and allogeneic, \"where the donor may be related or unrelated to the recipient\". The cells are given through a drip, not implanted. What follows is weeks of no immune system, and, in the allogeneic case, a lifetime of watching for the graft attacking the patient.",
+  "story": "This treatment travels for a reason no other page in this directory carries: the thing that is scarce is a person.\n\nAn allogeneic transplant needs a tissue-matched donor. About a quarter to a third of patients have a matched sibling; the rest are searched for in the international registries, which are federated and queried as one. The World Marrow Donor Association's front-page counter gave 44,206,627 volunteer donors and cord blood units in the global database when it was read on 16 September 2026 — a count of registrations, not of people who will answer the phone.\n\nThe registries are not evenly composed, and that is the second scarcity. Modelling the US registry for 21 racial and ethnic groups, Gragert and colleagues found in the New England Journal of Medicine in 2014 that \"the likelihood of finding an optimal adult donor varies among racial and ethnic groups, with the highest probability among whites of European descent, at 75%, and the lowest probability among blacks of South or Central American descent, at 16%\". A patient's ancestry, in other words, sets the odds that the world's donor pool contains them. Cord blood closes part of the gap: units mismatched at one or two loci \"are available for almost all patients younger than 20 years of age and for more than 80% of patients 20 years of age or older, regardless of racial and ethnic background\".\n\n*Trade practice —* the workaround that changed the map is the half-matched, or haploidentical, transplant from a parent or child, which needs no registry at all. Units in India and Türkiye built large haploidentical programmes, and patients from countries with no transplant unit travel to them.\n\n*Inference —* a search that crosses borders is ordinary here in a way it is nowhere else in this directory: the patient may stay put while the graft flies. Cells are couriered between registries under time limits, and the courier is the part of the journey nobody writes a package price for.",
+  "how": "Conditioning chemotherapy first, for days; then the infusion; then the wait for the new marrow to start making blood, during which the patient has almost no immune defence and is nursed in isolation. Milliman's 2025 estimate of the average US hospital stay is 33.3 days for an allogeneic transplant and 20.3 for an autologous one. *Trade practice —* transplant units commonly ask allogeneic patients to remain close to the centre for roughly the first hundred days after discharge, with a full-time carer, which is the sentence that decides whether a transplant abroad is possible at all. Graft-versus-host disease, infection and the immunosuppression that follows are managed for months to years afterwards.",
+  "today": "The only publicly readable price for this record is an actuarial estimate of what American hospitals bill. Milliman's February 2025 report puts average 2025 billed charges at 1,261,800 US dollars for an allogeneic transplant and 577,000 for an autologous one, covering 30 days before admission to 180 days after discharge. The report is explicit that this is not what anyone pays: \"billed charges are unlikely to equal the actual amount paid for the transplant services due to the presence of negotiated reimbursement arrangements such as case rates, prescribed fee schedules, discounts, or other agreements in place.\" No hospital price list for a self-paying foreign patient was read for this record on 16 September 2026.",
+  "notes": "This page describes a treatment. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 33.3,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "Milliman's estimated 2025 US average hospital length of stay for an allogeneic transplant; the autologous figure is 20.3 days. It is an estimate from claims data, not a protocol. No published wait before flying was found for this treatment, and the constraint that matters is the months near the centre rather than the flight itself.",
+  "as_of": "2025",
+  "source": "s:milliman-transplant-2025",
+  "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization"
+ },
+ "prices": [
+  {
+   "procedure": "bone-marrow-transplant",
+   "country": "US",
+   "amount": 1261800,
+   "currency": "USD",
+   "as_of": "2025",
+   "kind": "estimate",
+   "includes": ["30 days pretransplant, $94,300", "procurement, $97,400", "hospital transplant admission, $669,300", "physician services during the admission, $18,900", "180 days posttransplant discharge, $314,200", "outpatient immunosuppressants and other prescriptions, $67,700"],
+   "excludes": ["anything outside the window of 30 days before admission to 180 days after discharge", "the difference between a billed charge and a negotiated rate"],
+   "source": "s:milliman-transplant-2025",
+   "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization",
+   "note": "allogeneic. An actuarial estimate of average US billed charges, not a quoted price; the six component figures are the report's own breakdown and are given here because the admission is barely half of the total.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "bone-marrow-transplant",
+   "country": "US",
+   "amount": 577000,
+   "currency": "USD",
+   "as_of": "2025",
+   "kind": "estimate",
+   "includes": ["30 days pretransplant, $77,900", "procurement, $36,100", "hospital transplant admission, $275,500", "physician services during the admission, $11,500", "180 days posttransplant discharge, $129,800", "outpatient immunosuppressants and other prescriptions, $46,200"],
+   "excludes": ["anything outside the window of 30 days before admission to 180 days after discharge"],
+   "source": "s:milliman-transplant-2025",
+   "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization",
+   "note": "autologous — the patient's own cells, so the procurement line is a third of the allogeneic one and there is no donor to find.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "car-t", "as": "Grew out of these units and is still given in them; the accreditation that qualifies a centre for one qualifies it for the other.", "rel": "descendant"},
+  {"to": "kidney-transplant", "as": "The other transplant in this directory where a second person carries the risk.", "rel": "kin"},
+  {"to": "india", "as": "Built large half-matched transplant programmes that take patients from countries with no unit.", "rel": "destination"},
+  {"to": "turkiye", "as": "Runs transplant units that treat foreign patients, and publishes a licensing regime for them.", "rel": "destination"},
+  {"to": "blood-supply-safety", "as": "The transfusions that carry a patient through the weeks without marrow.", "rel": "risk"},
+  {"to": "antimicrobial-resistance", "as": "What an infection means in a patient with no immune system, and what a patient can carry home.", "rel": "risk"},
+  {"to": "the-escort-burden", "as": "A hundred days near the centre with a full-time carer, which no package price covers.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Graft-versus-host disease declares itself months later, in another country.", "rel": "risk"},
+  {"to": "who", "as": "Sets the framework under which donated cells and tissues move between countries.", "rel": "org"}
+ ],
+ "confusable_with": [
+  {"id": "stem-cell-unproven", "tell": "A haematopoietic transplant is a licensed treatment with registries, matching and published outcomes. Clinics selling stem cells for arthritis or autism are selling something else under a borrowed word."}
+ ],
+ "links": [
+  {"label": "World Marrow Donor Association", "url": "https://wmda.info/"},
+  {"label": "Milliman 2025 US organ and tissue transplants", "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization"}
+ ],
+ "sources": ["s:milliman-transplant-2025", "s:wmda-global-database", "s:gragert-nejm-2014"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:gragert-nejm-2014", "note": "registry and match figures cited; the haploidentical paragraph is marked Trade practice and the closing paragraph Inference"},
+   "text.how": {"tier": "cited", "source": "s:milliman-transplant-2025", "note": "length of stay cited; the hundred-day convention is marked Trade practice"},
+   "prices": {"tier": "cited", "source": "s:milliman-transplant-2025"},
+   "etymology": {"tier": "tradition"}
+  }
+ },
+ "x_commons_files": ["File:Bone marrow harvest.jpg", "File:Hematopoietic stem cell transplantation.svg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

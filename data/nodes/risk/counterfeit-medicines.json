@@ -1,0 +1,97 @@
+{
+ "id": "counterfeit-medicines",
+ "names": {
+  "name": "Substandard and falsified medicines",
+  "aliases": [
+   "counterfeit medicines",
+   "falsified medical products",
+   "SF medical products"
+  ],
+  "said": "WHO stopped saying counterfeit, because the word turned every quality failure into a trademark dispute."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "A medicine that is not what its label says: falsified in its identity, composition or source, or substandard because it failed a quality specification, expired, was contaminated, or was stored wrongly. The CDC notes that pharmaceuticals, laboratory services and medical devices used in other countries \"might not be subject to the same regulatory scrutiny and oversight\", and that \"some drugs could be counterfeit or otherwise ineffective because of expiration, contamination, or improper storage\".",
+  "story": "The headline number comes from a 2017 WHO study and has stood since: at least 1 in 10 medicines in low- and middle-income countries are substandard or falsified, a figure derived from products that failed quality control testing. WHO puts the money at an estimated USD 30.5 billion a year spent on them, and notes they are often sold online or through informal markets.\n\n*Inference —* that figure is a national market measure, and it is not the same thing as the risk inside an accredited hospital pharmacy, which buys through a tendered supply chain and is typically the last place in a country where a falsified product would surface. Carrying the 1 in 10 figure across to the ward would be reading the wrong denominator.\n\nWhere it does bear on a trip for treatment is at the edges: a drug bought over a counter for pain during the recovery week, a course of antibiotics dispensed to take home, a prescription refilled in the destination because it was easier than bringing enough, and anything bought online afterwards because the home prescription ran out and the operating clinic is not reachable.\n\nThe naming matters and is itself part of the record. WHO's current term is \"substandard and falsified medical products\"; the older word counterfeit collapsed a public health problem into an intellectual property one, and is kept on this page as an alias rather than as the heading.",
+  "how": "Neither a patient nor a pharmacist can identify a falsified product by looking at it in most cases; detection is by laboratory testing, by supply chain verification, or by a cluster of treatment failures. The relevant exposure on a trip for treatment is therefore procedural rather than perceptual: whether the product came from the hospital's own pharmacy against a prescription, and whether the patient left with enough of it to finish the course at home.",
+  "today": "As of 16 September 2026 no study has measured the quality of medicines dispensed specifically to foreign patients, in any destination. The WHO figure is the only quantity available and it describes a country's medicine supply, not a hospital's."
+ },
+ "metrics": {
+  "note": "At least 1 in 10 medicines in low- and middle-income countries are substandard or falsified, from WHO's 2017 study of products failing quality control testing, restated in the fact sheet dated 3 December 2024; countries spend an estimated USD 30.5 billion a year on them. This is a measure of national medicine markets. It is not a measure of what an accredited hospital pharmacy dispenses, and no study has measured that for foreign patients anywhere.",
+  "as_of": "2024-12-03",
+  "source": "s:who-substandard-falsified",
+  "url": "https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products"
+ },
+ "kin": [
+  {
+   "to": "cross-border-prescriptions",
+   "as": "The rule that decides whether a prescription written abroad can be filled at home.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step at which the course runs out and is refilled somewhere.",
+   "rel": "step"
+  },
+  {
+   "to": "addiction-rehab",
+   "as": "Where the substance itself is the treatment, and its identity is the whole of the question.",
+   "rel": "procedure"
+  },
+  {
+   "to": "unproven-stem-cell",
+   "as": "A different failure of the same regulatory gap: the product is what it says, and no trial has shown it does anything.",
+   "rel": "contrast"
+  },
+  {
+   "to": "who",
+   "as": "Publishes the only figure this record carries.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Why a treatment failure at home is rarely traced back to what was dispensed abroad.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "WHO — Substandard and falsified medical products",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products"
+  },
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:who-substandard-falsified",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:who-substandard-falsified"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the second paragraph is marked inline as this project's reasoning about the denominator"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the detection account is general knowledge of the field"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

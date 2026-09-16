@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "id": "singapore-city",
+ "type": "hub",
+ "names": {
+  "name": "Singapore",
+  "aliases": ["Orchard medical belt", "Novena health city", "新加坡"],
+  "said": "The trade says Orchard and Novena. Both are stops on the North–South line, four minutes apart, and between them they hold most of the private beds a foreign patient will be quoted for."
+ },
+ "region": ["southeast-asia"],
+ "facets": {
+  "iso2": "SG",
+  "radius_km": 15,
+  "specialty": ["oncology", "cardiac surgery", "neurosurgery", "transplant", "paediatrics", "health screening"],
+  "draws": ["cabg", "heart-valve-replacement", "bone-marrow-transplant", "executive-health-screening", "cataract-surgery"],
+  "languages": ["English", "Mandarin", "Malay", "Tamil", "Indonesian", "Bahasa"]
+ },
+ "text": {
+  "what": "Two clusters, four minutes apart on the subway. The Orchard belt holds Mount Elizabeth Hospital at 3 Mount Elizabeth in Cairnhill, 345 beds, open since 8 December 1979, and Gleneagles Hospital at 6 Napier Road in Tanglin, with the specialist suites of Paragon and Camden on Orchard Road between them. Novena, a kilometre and a half north, holds Mount Elizabeth Novena at 38 Irrawaddy Road, 313 beds, alongside Tan Tock Seng and the medical school. Raffles Hospital is separate again, at 585 North Bridge Road on the edge of Bugis, 380 beds, opened on 16 March 2002.",
+  "story": "Singapore went after the trade as policy. SingaporeMedicine launched in October 2003 with a target of a million foreign patients a year by 2012, on a base of over 200,000 in 2002. Khaw Boon Wan, then health minister, put the reasoning plainly: \"In three specialties alone, heart, eye and cancer, I see tens of millions of middle-class patients within a 7-hour flying radius.\"\n\nThe target was not met, and the trade turned. Medical expenditure from foreign patients was S$832 million in 2013, down 25 per cent from S$1.11 billion in 2012, as hospitals lost the less complex work to neighbouring countries. *Inference —* that decline is the most instructive number in this record. Singapore did not become cheaper; Bangkok, Kuala Lumpur and Penang became good enough at the routine operation, and what stayed was the case nobody else wanted to take.\n\n*Trade practice —* what the city now sells is complexity and a legal system. Paediatric oncology, complex cardiac surgery, transplant, the second opinion on a difficult scan, and the assurance of a regulator and a court that a patient's own country may not offer. It is the most expensive destination in this batch and says so in its own quotes.",
+  "how": "Private hospitals here are run by two groups — Parkway Pantai, which holds Gleneagles, Mount Elizabeth, Mount Elizabeth Novena and Parkway East and is owned by IHH Healthcare, and Raffles Medical Group. A quote is an itemised estimate against a room class, a surgeon's fee schedule and a projected stay, and the surgeon's fee is separate from the hospital's. Public hospitals treat foreign patients at an unsubsidised rate that is published.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits between the Orchard and Novena clusters, with a 15-kilometre radius that reaches most of the island. No Singapore price has been read off a page into this directory yet.",
+  "notes": "A description of two hospital districts and one policy. Not advice about either."
+ },
+ "geo": {"lat": 1.309, "lon": 103.839, "precision": "city", "source": "s:osm-nominatim"},
+ "address": {"city": "Singapore", "area": "Orchard and Novena", "country": "SG"},
+ "metrics": {
+  "revenue_usd": null,
+  "note": "Foreign patients' medical expenditure in Singapore was S$832 million in 2013, down about 25 per cent from S$1.11 billion in 2012. That is a spending figure, not a patient count, and it is national rather than for these two districts. No dollar conversion is carried because the series is in Singapore dollars and this project converts only dated price rows.",
+  "as_of": "2013",
+  "source": "s:wp-medical-tourism",
+  "url": "https://en.wikipedia.org/wiki/Medical_tourism"
+ },
+ "kin": [
+  {"to": "mount-elizabeth", "as": "At 3 Mount Elizabeth in Cairnhill, 345 beds, the anchor of the Orchard belt.", "rel": "part"},
+  {"to": "raffles-hospital", "as": "At 585 North Bridge Road, 380 beds, the group's own hospital away from both clusters.", "rel": "part"},
+  {"to": "singapore", "as": "The country whose entire private trade sits in these few square kilometres.", "rel": "whole"},
+  {"to": "cabg", "as": "One of the three specialties the 2003 policy was written around.", "rel": "procedure"},
+  {"to": "bone-marrow-transplant", "as": "The complex work that stayed when the routine work left.", "rel": "procedure"},
+  {"to": "executive-health-screening", "as": "The regional screening trade, now competed for by Penang and Bangkok.", "rel": "procedure"},
+  {"to": "kuala-lumpur", "as": "One of the neighbours that took the less complex work after 2012.", "rel": "contrast"},
+  {"to": "bangkok", "as": "The other, and the one that made the published package price ordinary.", "rel": "contrast"},
+  {"to": "malpractice-recourse", "as": "Part of what is being bought here: a regulator and a court that will hear a complaint.", "rel": "risk"},
+  {"to": "is-it-cheaper", "as": "The destination that answers no, and sells on something else.", "rel": "story"},
+  {"to": "osm-facilities", "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.", "rel": "measured-by"}
+ ],
+ "links": [
+  {"label": "Mount Elizabeth Hospital", "url": "https://www.mountelizabeth.com.sg/"},
+  {"label": "Raffles Hospital", "url": "https://www.rafflesmedicalgroup.com/"}
+ ],
+ "sources": ["s:osm-nominatim", "s:wp-mount-elizabeth", "s:wp-raffles-hospital", "s:wp-healthcare-singapore", "s:wp-medical-tourism", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:osm-nominatim", "note": "streets and house numbers read off OpenStreetMap address tags and the hospitals' Wikipedia entries"},
+   "text.story": {"tier": "cited", "source": "s:wp-healthcare-singapore", "note": "the 2003 policy, the target and the minister's words are cited; the 2013 decline is from the Wikipedia article on the field; the inline marks say which stretches are inference and trade practice"},
+   "text.how": {"tier": "tradition", "note": "the ownership of the two groups is cited to the Healthcare in Singapore article"},
+   "geo": {"tier": "inference", "source": "s:osm-nominatim", "note": "a point between the Orchard and Novena clusters, not a point anybody published"},
+   "metrics": {"tier": "cited", "note": "the S$832 million figure is quoted in the Wikipedia article on the field, which attributes it to reporting rather than to a government release; flagged for verification"}
+  }
+ },
+ "x_commons_files": ["File:Mount Elizabeth Hospital Singapore.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

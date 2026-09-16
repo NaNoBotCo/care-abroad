@@ -1,0 +1,71 @@
+{
+ "schema": 1,
+ "id": "bumrungrad",
+ "type": "facility",
+ "names": {
+  "name": "Bumrungrad International Hospital",
+  "aliases": ["Bumrungrad", "โรงพยาบาลบำรุงราษฎร์"],
+  "said": "Bam-roong-raat. The name means care of the people; in Bangkok it is simply Bumrungrad, and the taxi knows Sukhumvit Soi 3."
+ },
+ "region": ["southeast-asia"],
+ "facets": {
+  "iso2": "TH",
+  "ownership": "private",
+  "founded": 1980,
+  "specialty": ["orthopaedics", "cardiology", "oncology", "fertility", "spine", "health screening"],
+  "draws": ["knee-replacement", "hip-replacement"],
+  "status": "open",
+  "languages": ["Thai", "English", "Arabic", "Japanese", "Mandarin"]
+ },
+ "text": {
+  "what": "A private hospital on Sukhumvit Soi 3 in Bangkok, opened in 1980 with 200 beds and listed on the Stock Exchange of Thailand since 1989. It treats more international patients than any other single hospital in the region and publishes fixed package prices for the operations it sells most, which is why it appears throughout this directory's price table.",
+  "story": "Bumrungrad opened on 17 September 1980 as a 200-bed hospital on an initial investment of 90 million baht, and listed on the Thai exchange on 15 December 1989 under the ticker BH. Its major shareholders include Bangkok Bank, Bangkok Insurance and the Sophonpanich family.\n\nIt took Joint Commission International accreditation in 2002, among the first hospitals in Asia to do so, and has been reaccredited five consecutive times. *Inference —* the accreditation mattered less as a clinical fact than as a translation device: it gave an American insurer, and an American patient, a name they already recognised for a hospital eight thousand miles away.\n\nBy 2018 the hospital was reporting more than 1.1 million patients a year, over 520,000 of them international, from more than 190 countries. Those are the hospital's own counts of patient visits, not of individual people, and this directory carries them as such.",
+  "how": "The international patient side works the way most large Asian private hospitals work: an inquiry desk that answers in several languages, a quoted package for standard operations, a deposit, an interpreter for the consultation, and a discharge summary the patient carries home. Prices for its commonest orthopaedic and spinal work sit on public package pages with a stated validity date. The implant is billed separately from the operation on the joint packages.",
+  "today": "As of 16 September 2026 the hospital lists a unilateral total knee replacement at 356,500 baht excluding the implant, and prices its bilateral, robotic and hip packages on the same public pages. The site's footer names the JCI accreditation. Package prices are stated valid until 31 December 2026."
+ },
+ "geo": {"lat": 13.74639, "lon": 100.5525, "precision": "street", "source": "s:wp-bumrungrad"},
+ "address": {"street": "33 Sukhumvit Soi 3, Wattana", "city": "Bangkok", "country": "TH", "postcode": "10110"},
+ "metrics": {
+  "beds": 643,
+  "annual_patients": 1100000,
+  "annual_foreign_patients": 520000,
+  "foreign_patient_countries": 190,
+  "note": "Beds are the 2019 figure — 580 inpatient plus 63 ICU. The patient counts are the hospital's 2018 reporting and count visits rather than people; a patient who comes back three times is three. Nothing here is audited by this project.",
+  "as_of": "2019",
+  "source": "s:wp-bumrungrad",
+  "url": "https://en.wikipedia.org/wiki/Bumrungrad_International_Hospital"
+ },
+ "tags": [
+  {"tag": "price-published", "source": "s:bumrungrad-joint04", "tier": "cited", "note": "public package pages with prices and a stated validity date", "url": "https://www.bumrungrad.com/en/packages"},
+  {"tag": "package", "source": "s:bumrungrad-joint04", "tier": "cited", "note": "fixed-price packages naming inclusions and exclusions"},
+  {"tag": "international-office", "source": "s:wp-bumrungrad", "tier": "cited"},
+  {"tag": "listed-company", "source": "s:wp-bumrungrad", "tier": "cited", "note": "Stock Exchange of Thailand, ticker BH, listed 15 December 1989"},
+  {"tag": "interpreter", "source": "s:wp-bumrungrad", "tier": "cited"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation, first granted 2002 and renewed five consecutive times", "year": 2002, "valid_until": null, "source": "s:wp-bumrungrad", "url": "https://www.jointcommissioninternational.org/", "note": "JCI accreditation runs in three-year cycles; the hospital's own footer states it as current"}
+ ],
+ "kin": [
+  {"to": "knee-replacement", "as": "One of the operations it sells at a published fixed price, implant excluded.", "rel": "performs"},
+  {"to": "bangkok", "as": "The hospital the Bangkok cluster is usually named for.", "rel": "place"},
+  {"to": "thailand", "as": "The single institution most often meant when Thailand is called a destination.", "rel": "destination"},
+  {"to": "jci", "as": "The accreditor whose mark it took in 2002, early for Asia.", "rel": "accredited-by"},
+  {"to": "package-price", "as": "Sells in this form, with the inclusions and exclusions written out.", "rel": "term"},
+  {"to": "implant-excluded", "as": "Its joint packages are priced without the implant, which the page states.", "rel": "risk"}
+ ],
+ "links": [
+  {"label": "Bumrungrad International Hospital", "url": "https://www.bumrungrad.com/"},
+  {"label": "Packages and programs", "url": "https://www.bumrungrad.com/en/packages"}
+ ],
+ "sources": ["s:wp-bumrungrad", "s:bumrungrad-joint04", "s:bumrungrad-packages"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.how": {"tier": "tradition", "note": "the general shape of an international patient department at a large Asian private hospital"},
+   "metrics": {"tier": "cited", "source": "s:wp-bumrungrad"}
+  }
+ },
+ "x_commons_files": ["File:Bumrungrad International Hospital.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

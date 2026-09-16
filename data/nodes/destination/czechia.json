@@ -1,0 +1,105 @@
+{
+ "schema": 1,
+ "id": "czechia",
+ "type": "destination",
+ "names": {
+  "name": "Czechia",
+  "aliases": ["Czech Republic", "Česko", "Česká republika"],
+  "said": "In the fertility trade Czechia means Prague and Brno, and it means donated eggs. In the border trade it means the Slovak, Polish and German patients who drive in for dentistry and surgery and drive home the same day."
+ },
+ "region": ["europe-central"],
+ "facets": {
+  "iso2": "CZ",
+  "direction": "both",
+  "currency": "CZK",
+  "languages": ["Czech", "English", "German", "Italian"],
+  "draws": ["ivf", "egg-donation", "icsi", "pgt", "dental-implant"]
+ },
+ "text": {
+  "what": "Europe's second workshop for donor-egg treatment, and a border country whose clinics are the destination for more authorised cross-border patients than anywhere else in the EU. Czech fertility clinics publish euro price lists, run waiting times for donated eggs measured in weeks rather than years, and draw patients from Germany, Italy, Britain and the Nordic countries. The country runs no prior-authorisation system of its own for care abroad.",
+  "story": "In the ESHRE registry returns for 2019 the highest egg-donation volumes in Europe came from Spain, Czechia and Russia — registry counts of cycles reported by clinics, not a market estimate. The older ESHRE taskforce survey put numbers on who was in the waiting rooms: of 1,230 cross-border patients surveyed across six receiving countries in a single month in 2010, 20.5% were being treated in Czechia, and legal reasons at home dominated the answers of German patients at 80.2% and Italian patients at 70.6%.\n\nThe Commission's 2022 data shows the other half of the country's position. Czechia authorised no prior-authorisation regime at all — it is one of eight countries with none — received 440 reimbursement requests from its own insured and granted 380, and was the single most common country of treatment in the EU for authorised cross-border patients, with 513, most of them from Slovakia.\n\n*Trade practice —* what draws the fertility patient is anonymity and supply. Donation is anonymous on both sides in Czech practice, the donor pool is young, and the waiting time is short; this project did not read the Czech statute for this record and does not state its terms here. The distinction matters because the same patient would be turned away, or put on a years-long list, in the country she flew from."
+ ,
+  "how": "Fertility clinics quote a programme rather than an operation: stimulation and laboratory work as one line, with medication, genetic testing and storage outside it. Donor programmes are sold with a guarantee attached to a number of embryos or attempts, which is a commercial term and not a clinical one. Payment is in euro, up front, and the treatment is timed to two short visits so that the patient can fly in for retrieval or transfer and fly home.",
+  "today": "As of 16 September 2026 a Prague clinic lists IVF with the patient's own eggs from EUR 3,000 including basic laboratory methods, a guaranteed donor-egg programme from EUR 5,950, a frozen embryo transfer from EUR 990 and egg freezing for non-medical reasons from EUR 1,990, the last excluding medication and including two years of storage. Every one of those is a starting price: what the cycle costs depends on what the laboratory is asked to do."
+ },
+ "geo": {"lat": 50.0755, "lon": 14.4378, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "513 authorised cross-border patients were treated in Czechia in 2022, the highest of any country of treatment in the EU that year, most of them Slovak. That counts only patients whose home system authorised the trip in advance; the fertility trade this country is known for sits almost entirely outside it, paid privately.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "prices": [
+  {
+   "procedure": "ivf",
+   "country": "CZ",
+   "city": "Prague",
+   "amount": 3000,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["the cycle with the patient's own eggs", "basic laboratory methods"],
+   "excludes": ["medication", "genetic testing", "storage", "travel"],
+   "source": "s:pronatal-prices",
+   "url": "https://www.pronatal.cz/en/price-list/",
+   "note": "PRONATAL, Prague, stated as a starting price. Medication is the line most often left out of a fertility comparison and can run to four figures on its own.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-donation",
+   "country": "CZ",
+   "city": "Prague",
+   "amount": 5950,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["donor egg programme with guarantee", "basic laboratory methods"],
+   "excludes": ["medication", "genetic testing", "storage", "travel"],
+   "source": "s:pronatal-prices",
+   "url": "https://www.pronatal.cz/en/price-list/",
+   "note": "the guarantee is a commercial term set out by the clinic, not a clinical prediction; what it promises is defined on the clinic's own page.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "egg-freezing",
+   "country": "CZ",
+   "city": "Prague",
+   "amount": 1990,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["retrieval and vitrification", "two years of storage"],
+   "excludes": ["medication", "storage beyond two years", "any later thaw and transfer"],
+   "source": "s:pronatal-prices",
+   "url": "https://www.pronatal.cz/en/price-list/",
+   "note": "the two-year storage window is the term that sets the next bill; the thaw and transfer are priced separately, from EUR 990 on the same list.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "prague", "as": "Where most of the clinics and the euro price lists are.", "rel": "part"},
+  {"to": "egg-donation", "as": "The treatment this country is known for across Europe.", "rel": "procedure"},
+  {"to": "ivf", "as": "Sold here as a programme in euro, priced from a published list.", "rel": "procedure"},
+  {"to": "donor-anonymity-law", "as": "The rule that decides whether a patient must travel for a donor at all.", "rel": "governed-by"},
+  {"to": "spain", "as": "The larger donor-egg destination it is measured against.", "rel": "contrast"},
+  {"to": "germany", "as": "The neighbour whose restrictions send its patients across this border.", "rel": "contrast"},
+  {"to": "poland", "as": "The source of the busiest patient flow into this country in the EU data.", "rel": "contrast"},
+  {"to": "reproductive-exile", "as": "The word for what a patient does when the treatment is lawful next door and not at home.", "rel": "term"},
+  {"to": "eshre", "as": "The society whose registry counts these cycles, clinic by clinic.", "rel": "org"}
+ ],
+ "links": [
+  {"label": "ART in Europe, 2019 — ESHRE registry report", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10694409/"}
+ ],
+ "sources": ["s:eshre-eim-2019", "s:shenfield-2010", "s:ec-crossborder-2022", "s:pronatal-prices", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:eshre-eim-2019", "note": "registry and Commission figures are cited; the closing paragraph is marked trade practice because the Czech statute was not read for this record"},
+   "text.how": {"tier": "tradition", "note": "the standard shape of a Czech fertility programme; the prices below are cited to the clinic's page"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Prague Old Town Square panorama.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

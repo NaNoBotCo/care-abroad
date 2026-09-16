@@ -1,0 +1,113 @@
+{
+ "schema": 1,
+ "id": "turkiye",
+ "type": "destination",
+ "names": {
+  "name": "Türkiye",
+  "aliases": ["Turkey", "Türkiye Cumhuriyeti", "Republic of Türkiye"],
+  "said": "In the trade Türkiye means Istanbul, and Istanbul means hair. The ministry's word for the whole business is uluslararası sağlık turizmi, international health tourism, and it is a licensing category before it is a marketing one."
+ },
+ "region": ["west-asia"],
+ "facets": {
+  "iso2": "TR",
+  "direction": "inbound",
+  "currency": "TRY",
+  "languages": ["Turkish", "English", "Arabic", "Russian", "German"],
+  "draws": ["hair-transplant-fue", "dhi-hair-transplant", "dental-implant", "rhinoplasty", "gastric-sleeve"]
+ },
+ "text": {
+  "what": "The largest inbound trade in Europe, and the only one the state licenses as its own category. A facility that treats foreign patients must hold an international health tourism authorisation certificate from the Ministry of Health, and so must the agency that books them. Hair restoration, dental work, rhinoplasty and bariatric surgery carry the volume; the packages bundle hotel, transfers and an interpreter into the price and quote in euros, sterling or dollars rather than lira.",
+  "story": "The regulation arrived on 13 July 2017 in Resmî Gazete No. 30123. Article 5(1) makes the authorisation certificate compulsory for the health facility and for the intermediary, which must be a licensed A-group travel agency, and it lets the Ministry stop the activity of anyone trading without one. Article 6 requires an international health tourism unit inside the facility, headed by a doctor with at least five years in practice, with at least two staff who speak a foreign language and English among them at B2. Every patient treated under the regulation is registered in a web-based system the Ministry runs.\n\nThe counting follows from that registration. USHAŞ, the Ministry's own international health services company, publishes the series it attributes to TÜİK: 756,926 visitors in 2019, a collapse to 435,691 in 2020, then 1,381,807 in 2022, 1,538,643 in 2023, 1,506,442 in 2024 and 1,398,580 in 2025 against revenue of USD 3,022,452 thousand. Read the unit before the trend: this counts visitors who state a health purpose, so it takes in the day patient and the person who came for one consultation, and revenue divided by visitors gives roughly USD 2,160 a head for 2025 — a number that describes a dental appointment and a cardiac operation in the same breath.\n\n*Trade practice —* the hair clinics are the part of the trade that grew fastest and is watched hardest. The International Society of Hair Restoration Surgery has named Türkiye in its campaign against unlicensed operators and reports Turkish technician teams working abroad under licensed doctors; the Turkish rule that the operation is a doctor's act, and the clinic's own page telling readers that a price below EUR 1,500 is a warning sign, describe the same market from two directions.\n\n*Inference —* the one flow that runs the other way is reproductive. Turkish law restricts third-party assisted reproduction, and a 2010 regulation reached at patients who went abroad for it, so Turkish patients travel out for donor treatment while foreign patients travel in for hair and teeth. The country is a destination and a source market in different specialties, on the same flights."
+ ,
+  "how": "Sold as a package with a fixed number quoted in a foreign currency: operation, hospital or clinic, hotel nights, airport and hotel transfers, an interpreter, and aftercare products. Flights, travel insurance, extra nights and anything found once the patient is on the table sit outside. Payment is usually a deposit to hold the date and the balance on arrival. The certificate the facility holds is a Ministry document rather than a voluntary accreditation, and it is separate from any JCI mark the hospital also carries.",
+  "today": "As of 16 September 2026 an Istanbul hair clinic lists sapphire FUE up to 4,000 grafts at EUR 2,550 and DHI at EUR 3,290, each with a megasession surcharge above 4,000 grafts, and an Istanbul bariatric clinic lists a gastric sleeve at EUR 2,600 all-inclusive. USHAŞ reports 563,327 visitors and USD 1.580 billion for the first half of 2026. What none of those numbers carry is the revision: the operation booked at home when something needs doing again."
+ },
+ "geo": {"lat": 39.9334, "lon": 32.8597, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "inbound_patients_year": 1398580,
+  "note": "USHAŞ's figure for 2025, attributed to TÜİK. It counts visitors who gave a health purpose, not operations and not people: one visitor may be one consultation. Revenue for the same year is USD 3,022,452 thousand, about USD 2,160 per visitor.",
+  "as_of": "2025",
+  "source": "s:ushas-saglik-turizmi-verileri",
+  "url": "https://ushas.gov.tr/saglik-turizmi-verileri/"
+ },
+ "prices": [
+  {
+   "procedure": "hair-transplant-fue",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 2550,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["the procedure, up to 4,000 grafts", "hotel accommodation", "airport and hotel transfers", "aftercare products"],
+   "excludes": ["flights", "travel insurance", "nights beyond the package", "personal expenses", "grafts above 4,000, which add EUR 900"],
+   "source": "s:cosmedica-price",
+   "url": "https://cosmedica.com/price/",
+   "note": "Cosmedica Clinic, Istanbul, sapphire FUE. The graft cap is the line to read: the price is per package, not per graft, and a megasession to 6,000 grafts is a separate surcharge.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dhi-hair-transplant",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 3290,
+   "amount_high": 8000,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": ["the procedure, up to 4,000 grafts", "hotel", "transfers", "aftercare products"],
+   "excludes": ["flights", "travel insurance", "extra nights", "grafts above 4,000"],
+   "source": "s:cosmedica-price",
+   "url": "https://cosmedica.com/price/",
+   "note": "the same clinic's two DHI tiers on one page: EUR 3,290 for micro sapphire DHI and EUR 8,000 for the tier where the named surgeon operates. Who holds the punch is a price tier here, stated as such.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "gastric-sleeve",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 2600,
+   "currency": "EUR",
+   "as_of": "2026-01",
+   "kind": "package",
+   "includes": ["surgery", "hospital stay", "hotel", "transfers", "nutritionist support", "aftercare"],
+   "excludes": ["flights"],
+   "source": "s:carely-gastric-sleeve",
+   "url": "https://carelyclinic.com/gastric-sleeve-turkey/",
+   "note": "Carely Clinic, Istanbul, listed at EUR 2,600 against a struck-through EUR 3,715; the page states the price is valid until April 2026 and prints the same figure in dollars and sterling for its two biggest source markets.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "istanbul", "as": "Where most of the clinics, and nearly all of the hair work, actually are.", "rel": "part"},
+  {"to": "antalya", "as": "The second cluster, selling the same operations beside a resort strip.", "rel": "part"},
+  {"to": "izmir", "as": "A third cluster, smaller and cheaper on the same price tables.", "rel": "part"},
+  {"to": "turkiye-health-tourism-authorisation", "as": "The certificate a facility here must hold before it may treat a foreign patient at all.", "rel": "governed-by"},
+  {"to": "turkiye-health-services-directorate", "as": "The directorate inside the Ministry that issues and withdraws that certificate.", "rel": "org"},
+  {"to": "hair-transplant-fue", "as": "The operation that made this country's name abroad, and the one its clinics price in euros.", "rel": "procedure"},
+  {"to": "gastric-sleeve", "as": "Sold here as a fixed all-inclusive package with the hotel in the price.", "rel": "procedure"},
+  {"to": "turkiye-hair-boom", "as": "The years the hair trade scaled, and the regulation that followed it.", "rel": "event"},
+  {"to": "acibadem", "as": "The hospital group that carries the complex end of the inbound work.", "rel": "part"},
+  {"to": "counting-patients", "as": "Why a figure of 1.4 million visitors is not 1.4 million operations.", "rel": "story"},
+  {"to": "united-kingdom", "as": "One of the source markets its packages are priced for, in sterling.", "rel": "contrast"},
+  {"to": "revision-at-home", "as": "The bill that lands on another health system when a graft or a sleeve needs doing again.", "rel": "risk"}
+ ],
+ "links": [
+  {"label": "Resmî Gazete 13 July 2017, No. 30123 — the health tourism regulation", "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm"},
+  {"label": "USHAŞ — health tourism data by year", "url": "https://ushas.gov.tr/saglik-turizmi-verileri/"}
+ ],
+ "sources": ["s:rg-saglik-turizmi-2017", "s:ushas-saglik-turizmi-verileri", "s:cosmedica-price", "s:carely-gastric-sleeve", "s:ishrs-buyer-beware", "s:gurtin-2011-turkey", "s:wp-medical-tourism-turkiye", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:rg-saglik-turizmi-2017", "note": "regulation and statistics are cited; the hair-market paragraph is marked trade practice and the reproductive paragraph is marked inference from the Gürtin citation, which this project could not read in full"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a Turkish package; the certificate requirement is cited to the regulation"},
+   "metrics": {"tier": "cited", "source": "s:ushas-saglik-turizmi-verileri"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Istanbul asv2021-10 img56 Hagia Sophia.jpg"],
+ "needs_verification": true,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

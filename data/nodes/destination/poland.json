@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "id": "poland",
+ "type": "destination",
+ "names": {
+  "name": "Poland",
+  "aliases": ["Polska", "Rzeczpospolita Polska"],
+  "said": "In the trade Poland means Kraków and Wrocław for teeth, Warsaw for cosmetic work, and — for a decade — the flight a Polish family in Britain or Ireland was already taking home."
+ },
+ "region": ["europe-central"],
+ "facets": {
+  "iso2": "PL",
+  "direction": "both",
+  "currency": "PLN",
+  "languages": ["Polish", "English", "German"],
+  "draws": ["dental-implant", "dental-crown", "veneers", "rhinoplasty", "breast-augmentation"]
+ },
+ "text": {
+  "what": "A dental and cosmetic destination whose first customers were its own emigrants. Polish practices price in sterling and euro, against columns labelled average UK price and average Irish price, because the patient flying in often has a Polish surname and a British dentist. Poland is also one of the heaviest users of the EU cross-border reimbursement route in the other direction: Poles going abroad, mostly next door.",
+  "story": "The Commission's data for reference year 2022 makes the two-way traffic legible. Poland received 14,176 requests for reimbursement of care that needed no prior authorisation and granted 11,862 — more than any country except France and Germany — and the report names the flow from Poland to Czechia among the busiest in the EU. In the other direction Poland received one request for care subject to prior authorisation and authorised none.\n\n*Trade practice —* the inbound dental trade grew on the same aircraft routes. Budget airlines opened Kraków, Wrocław, Gdańsk and Rzeszów to British and Irish cities in the 2000s for a labour migration, and the practices that advertised in Polish to that migration were already set up in English when the non-Polish patient arrived.\n\n*Inference —* the price pages show what is actually being sold. A Kraków clinic's list prices an implant with its abutment and zirconia crown at GBP 1,450 or EUR 1,552 and sets it against columns it labels average UK and Irish prices of GBP 4,000 and EUR 3,750. Those comparison columns are the clinic's own reading of other people's websites, not a survey, and they are the number most quoted and least sourced in this trade."
+ ,
+  "how": "Itemised price lists rather than bundles, with examination, x-rays and local anaesthetic often listed free — the loss leaders that get a treatment plan written. A deposit is taken against each stage rather than the whole plan: one Kraków clinic asks 80% of a stage on signing. Implant work runs across two visits months apart; crown and veneer work can be done in one week if the laboratory is in the building.",
+  "today": "As of 16 September 2026 a Kraków clinic lists a complete implant at GBP 1,450 and a full-ceramic zirconia crown at GBP 429, and states that American Express and Diners Club are not accepted. What the list does not price is the flight taken twice, the week off work, or the dentist at home who inherits the case."
+ },
+ "geo": {"lat": 52.2297, "lon": 21.0122, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "14,176 reimbursement requests for care not subject to prior authorisation, 11,862 granted, in reference year 2022. That counts Poles treated abroad and reclaiming at home; no comparable official count exists here for patients travelling into Poland.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "prices": [
+  {
+   "procedure": "dental-implant",
+   "country": "PL",
+   "city": "Kraków",
+   "amount": 1450,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["implant screw", "healing ring", "individual abutment", "full-ceramic zirconia crown"],
+   "excludes": ["flights", "accommodation", "bone graft or sinus lift where needed", "treatment at home afterwards"],
+   "source": "s:indexmedica-prices",
+   "url": "https://www.indexmedica.com/prices/",
+   "note": "Index Medica, Kraków. The same page lists the implant screw alone at GBP 575, and the euro table prices the complete implant at EUR 1,552 for its Irish readers. The clinic's comparison columns — GBP 4,000 and EUR 3,750 — are its own estimate of prices at home, taken from other practices' websites.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "warsaw", "as": "The capital cluster, weighted to cosmetic and aesthetic work.", "rel": "part"},
+  {"to": "dental-implant", "as": "The line item its price lists are built around.", "rel": "procedure"},
+  {"to": "united-kingdom", "as": "The source market its sterling price column is written for.", "rel": "contrast"},
+  {"to": "ireland", "as": "The second source market, priced in euro on the same page.", "rel": "contrast"},
+  {"to": "czechia", "as": "Where Polish patients themselves cross for care, the busiest flow in the EU reimbursement data.", "rel": "contrast"},
+  {"to": "hungary", "as": "The older dental corridor it competes with.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route its own residents use heavily, and its inbound patients almost never.", "rel": "governed-by"},
+  {"to": "facilitator", "as": "The agent between a British patient and a Kraków chair, paid by the clinic.", "rel": "term"},
+  {"to": "the-price-that-isnt", "as": "The comparison column on a clinic's price list, and who wrote it.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Member State data on cross-border patient healthcare, reference year 2022", "url": "https://health.ec.europa.eu/publications/commission-report-operation-directive-201124eu-application-patients-rights-cross-border-healthcare-0_en"}
+ ],
+ "sources": ["s:ec-crossborder-2022", "s:indexmedica-prices", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:ec-crossborder-2022", "note": "the reimbursement figures are cited; the airline paragraph is marked trade practice and the price-column paragraph is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the shape of a Polish dental price list; the 80% stage deposit is cited to the clinic's own page"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Kraków - Rynek Główny.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

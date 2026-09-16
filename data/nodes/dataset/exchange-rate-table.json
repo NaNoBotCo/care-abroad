@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "id": "exchange-rate-table",
+ "type": "dataset",
+ "names": {
+  "name": "The dated exchange rate table",
+  "aliases": ["rates.json", "USD base rate table"],
+  "said": "One table, one date. Every dollar figure on this site is a published price multiplied by a number fetched on a stated day."
+ },
+ "region": ["global"],
+ "facets": {"publisher": "ExchangeRate-API"},
+ "text": {
+  "what": "One set of exchange rates, fetched once and stamped, so prices published in twenty-odd currencies can sit on a single axis. The copy on disk holds 166 currencies against the US dollar, rates dated Wednesday 16 September 2026, fetched the same day from the open endpoint of ExchangeRate-API.",
+  "story": "A price on this site keeps the currency it was published in. The dollar figure beside it is this table applied, and it moves whenever the table is refetched — so a page can change its dollar column without a hospital changing its price.\n\nThat is not a rounding problem. A Turkish package quoted at 60,000 lira in 2019 and the same 60,000 lira today are different amounts of money to a foreign buyer; converting an old price at a new rate reports something nobody paid. Two dates therefore travel with every converted figure on this site: the date the price was published and the date of the rate.\n\n*Inference —* the rate is also not the price of a transaction. A patient pays a card rate, an interbank rate plus a spread, a foreign-transaction fee, or a currency conversion offered at the terminal, and the difference between the mid-market rate in this table and what leaves an account can run to several per cent on a five-figure bill. This site converts at mid-market because it is a stated, dated, reproducible number, not because it is what anybody was charged.",
+  "how": "tools/fetch_rates.py reads https://open.er-api.com/v6/latest/USD, keeps every positive numeric rate, and stores them with the provider's own time_last_update_utc as the rate date. A currency the table does not carry leaves its price unconverted, and the page prints it in its own currency. tools/build.py computes the usd field on every price row from this table; a usd figure typed by hand into a record is overwritten.",
+  "notes": "The open endpoint updates once a day and requires attribution to ExchangeRate-API on any page that uses the rates; its terms do not permit redistributing the rate data itself."
+ },
+ "dataset": {
+  "publisher": "ExchangeRate-API (open endpoint, open.er-api.com)",
+  "url": "https://www.exchangerate-api.com/docs/free",
+  "api": "https://open.er-api.com/v6/latest/USD",
+  "license": "Free open endpoint; attribution required, redistribution not permitted",
+  "unit": "units of each currency per US dollar",
+  "years": "a single snapshot, rates dated 16 September 2026",
+  "countries": null,
+  "updated_by_publisher": "once a day",
+  "counts": "166 currency codes with a mid-market rate against the US dollar on one stated date.",
+  "does_not_count": "What a patient's bank charges. This is a mid-market rate on one day: it carries no card spread, no foreign-transaction fee, no cash-advance charge and no airport-counter margin, and it is not the rate on the day any price on this site was published. It holds no history, so an old price converted here is converted at a new rate and says nothing about what that patient's currency bought at the time. Several of its rates are administered pegs rather than traded prices — the UAE dirham sits at 3.6725 and the Saudi riyal at 3.75 — and nothing in the file marks which is which."
+ },
+ "kin": [
+  {"to": "package-price", "as": "What a package price is quoted in, before this table touches it.", "rel": "term"},
+  {"to": "the-price-that-isnt", "as": "The conversion is one of the several steps between a published figure and what somebody pays.", "rel": "story"},
+  {"to": "is-it-cheaper", "as": "Every comparison on that page passes through this table and inherits its date.", "rel": "story"},
+  {"to": "how-this-was-built", "as": "Why a rate is fetched once and stamped rather than looked up live.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Open endpoint documentation", "url": "https://www.exchangerate-api.com/docs/free"}
+ ],
+ "sources": ["s:er-api", "s:er-api-free-terms"],
+ "provenance": {
+  "default": {"tier": "harvested", "source": "s:er-api"},
+  "fields": {
+   "text.story": {"tier": "inference", "note": "the rate date and currency count are from data/harvest/rates.json; the reasoning about what a mid-market rate is not is this project's"},
+   "text.notes": {"tier": "cited", "source": "s:er-api-free-terms"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

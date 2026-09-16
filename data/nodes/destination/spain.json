@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "id": "spain",
+ "type": "destination",
+ "names": {
+  "name": "Spain",
+  "aliases": ["España", "Reino de España"],
+  "said": "In the fertility trade Spain means Barcelona, Madrid, Valencia and Alicante, and it means donated eggs. In the Directive's paperwork it means the country other Europeans are authorised to travel to."
+ },
+ "region": ["europe-south"],
+ "facets": {
+  "iso2": "ES",
+  "direction": "inbound",
+  "currency": "EUR",
+  "languages": ["Spanish", "Catalan", "English", "French", "Italian"],
+  "draws": ["ivf", "egg-donation", "icsi", "pgt", "egg-freezing"]
+ },
+ "text": {
+  "what": "The largest fertility destination in Europe, measured by its own national registry rather than by anyone's market estimate. Spanish clinics ran 27,564 cycles for patients resident in other countries in 2022, more than half of them with donated eggs. Spain receives; it barely sends. Its own residents made nine reimbursement requests under the EU cross-border Directive that year.",
+  "story": "The registry is the point. The Registro Nacional de Actividad, compiled by the Sociedad Española de Fertilidad for the Ministry of Health, is the official national count of assisted reproduction, and it has a section for patients resident abroad. In 2022 those patients accounted for 27,564 fresh and frozen cycles: France 39.0%, Italy 20.6%, the United Kingdom 9.0%, Germany 6.4%, and a fifth spread across everywhere else. Donated eggs were used in 52.3% of them.\n\nThe same table carries the sentence most reports leave out. The registry asks why the patient came, and in 90.8% of those cycles no reason was recorded. Of the few that were, 1.6% named a technique unlawful at home and 1.1% a patient who did not meet the legal conditions at home. The registry that counts this trade better than any other in Europe still cannot say, for nine cycles in ten, what the patient crossed a border for.\n\nThe ESHRE registry returns for 2019 put Spain at 137,276 cycles from 244 clinics, second in Europe, with the continent's largest egg-donation volumes. And in the Commission's cross-border data Spain was the most prominent country of treatment in 2021, with 1,209 authorised requests, 96% of them from France — a figure that fell to 79 in 2022 only because France could not separate its Directive cases from its social-security cases that year.\n\n*Inference —* two different trades share the word Spain. One is fertility, private, paid in euro, and counted. The other is the routine care of resident foreigners and the authorised patient from across the Pyrenees, and it runs through state machinery that counts differently and changes its mind about what it can report."
+ ,
+  "how": "Fertility clinics quote a programme in euro with medication outside it, and time the cycle to two visits. Egg donation is anonymous in Spanish practice and the clinic matches the donor; waiting is measured in weeks. For the state route, a patient from another EU country either uses the Directive — pay in Spain, reclaim at home at home prices — or the older social-security route, where the home system authorises the treatment in advance and pays the Spanish tariff.",
+  "today": "Spain's registry figures are dated 2022 and its ESHRE figures 2019, and both are the most recent this project read. The number that has not been published anywhere is what those 27,564 cycles cost, or what proportion ended in a birth for a patient who had flown home before the test."
+ },
+ "geo": {"lat": 40.4168, "lon": -3.7038, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "inbound_patients_year": "27,564 cycles in 2022",
+  "note": "Cycles, not patients: one patient may have several in a year, and the registry counts fresh and frozen transfers among them. The figure is the official national ART registry's own, and covers assisted reproduction only — no other specialty in Spain is counted this way.",
+  "as_of": "2022",
+  "source": "s:sef-registro-2022",
+  "url": "https://www.registrosef.com/public/docs/sef2022_IAFIV.pdf"
+ },
+ "kin": [
+  {"to": "barcelona", "as": "The city with the densest concentration of the clinics counted here.", "rel": "part"},
+  {"to": "egg-donation", "as": "More than half of every cycle it runs for a patient from abroad.", "rel": "procedure"},
+  {"to": "ivf", "as": "The treatment its national registry counts, clinic by clinic.", "rel": "procedure"},
+  {"to": "czechia", "as": "The other big donor-egg destination, cheaper and smaller.", "rel": "contrast"},
+  {"to": "portugal", "as": "The neighbour whose donor supply collapsed when anonymity ended, sending patients this way.", "rel": "contrast"},
+  {"to": "united-kingdom", "as": "9% of the cycles it ran for foreign residents in 2022.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route that made it the EU's most authorised country of treatment in 2021.", "rel": "governed-by"},
+  {"to": "reproductive-exile", "as": "The word for the journey most of these cycles represent.", "rel": "term"},
+  {"to": "what-the-data-cannot-see", "as": "A registry that counts every cycle and cannot say why nine in ten patients came.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Registro Nacional de Actividad 2022 — Registro SEF", "url": "https://www.registrosef.com/public/docs/sef2022_IAFIV.pdf"}
+ ],
+ "sources": ["s:sef-registro-2022", "s:eshre-eim-2019", "s:ec-crossborder-2022", "s:shenfield-2010", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:sef-registro-2022", "note": "registry and Commission figures read off their own documents; the closing paragraph is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the shape of a Spanish fertility programme; the two state routes are cited to the Directive"},
+   "metrics": {"tier": "cited", "source": "s:sef-registro-2022"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Barcelona Hospital de Sant Pau.jpg"],
+ "needs_verification": false,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

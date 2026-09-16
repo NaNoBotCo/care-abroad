@@ -1,0 +1,74 @@
+{
+ "id": "the-deposit",
+ "names": {
+  "name": "The deposit",
+  "aliases": [
+   "booking fee",
+   "advance payment",
+   "prepayment"
+  ],
+  "said": "Clinics say deposit or booking fee; the bank statement says international transfer."
+ },
+ "facets": {
+  "stage": "booking"
+ },
+ "x_order": 7,
+ "text": {
+  "what": "Money crosses the border before the patient does. A deposit — or in dental and hair work often the whole price — is paid to secure a date, usually by card or bank transfer, to an entity in another country that the payer has not met and may not be able to identify from the invoice.",
+  "story": "*Inference —* this is the first irreversible step in the journey and the least documented. Nothing this project could find measures how often deposits are taken, how large they are, what share is refunded when a patient cancels or is found unfit, or what happens when a clinic closes between the payment and the date.\n\nWhat can be said from the paper: a deposit paid to a facilitator is money held by a party that is not the provider, and a deposit paid by international bank transfer has no chargeback route, while a card payment may have one against the merchant that appears on the statement rather than against the party that failed. Whether that merchant is the hospital, the intermediary, or a payment processor in a third country is visible only on the invoice and the statement.\n\nThe deposit also changes the shape of every later decision. A pre-operative test that comes back wrong, a surgeon who turns out not to be the one named, a revised price on arrival — each is met by a patient who has already sent money and bought a ticket. *Trade practice —* clinics commonly credit a deposit against a rescheduled date rather than refund it; that is a policy, published at the clinic's discretion, not a rule.",
+  "how": "What a reader would have to ask, because no published source answers it: which legal entity receives the money and in which country, whether the sum is a deposit or a prepayment of the whole price, what is refundable and by when, what happens if the operation is cancelled by the provider rather than the patient, whether the payment route leaves any dispute mechanism at all, and whether a consumer-protection regime in the payer's own country reaches a service supplied abroad.",
+  "today": "As of 16 September 2026 deposit and refund practice in this trade is unmeasured as far as this project could read: no regulator collects it, no study counts it, and the terms exist only in individual provider and intermediary contracts."
+ },
+ "kin": [
+  {
+   "to": "getting-a-quote",
+   "as": "The number this payment attaches to.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "Often the party that actually receives the money.",
+   "rel": "step"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The risk this step creates, and who carries it.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "as": "The next step, and one that can fail after the money has gone.",
+   "rel": "step"
+  },
+  {
+   "to": "out-of-pocket",
+   "as": "What almost every payment in this journey is.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:penney-broker-websites"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "no published measurement of deposit practice was found; the record says so and says what would have to be asked"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text.how": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "low",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

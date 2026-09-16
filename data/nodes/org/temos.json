@@ -1,0 +1,114 @@
+{
+ "schema": 1,
+ "id": "temos",
+ "type": "org",
+ "names": {
+  "name": "Temos International Healthcare Accreditation",
+  "aliases": [
+   "Temos",
+   "Temos International GmbH"
+  ],
+  "said": "Temos International GmbH — a limited company, not a society, and the legal form is on the page."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "DE",
+  "founded": 2010,
+  "status": "open"
+ },
+ "text": {
+  "what": "A German accreditation company founded in 2010 and run from Bergisch Gladbach, near Cologne. It accredits in six programmes — medical care, dental care, eye care, reproductive care, rehabilitation care, and medical travel coordinators — and is built around facilities that treat patients from abroad rather than around hospitals in general.",
+  "story": "Temos grew out of aeromedical and expatriate care work and kept that shape: the standards ask about the international patient's passage through a facility, not only about the clinical unit. The medical travel coordinator programme accredits the broker, which almost no other scheme does.\n\nThe fee structure is published, which is rarer than it should be. Fees scale with the level of care and the bed count, are quoted over three years with a first and a second annual fee, and cover \"all professional services… but do not include travel and accommodation costs for the Temos assessors\". A small clinic in a country an assessor must fly to therefore pays a different real price from a large one next door to the office, and the difference is on the applicant.\n\n*Inference —* the three-year fee schedule implies a three-year cycle with annual maintenance, the same shape as JCI. Temos does not state the validity period on the pages read for this record, so the cycle length here is read off the fee table and not off a claim.",
+  "how": "An applicant enquires, receives a quotation against its care level and bed count, self-assesses, and is audited on site by Temos assessors whose travel it pays for on top of the fee. The list of accredited partners is public, on a separate Temos-run register. ISQua EEA holds an award over the Temos standards, including the dental set.",
+  "today": "As of 16 September 2026 Temos operates from the Bergisch Gladbach office with regional offices it describes as spanning six continents, and publishes its accredited partners as a searchable list."
+ },
+ "geo": {
+  "lat": 50.9925,
+  "lon": 7.1298,
+  "precision": "street",
+  "source": "s:temos-company"
+ },
+ "address": {
+  "street": "Friedrich-Ebert-Straße 75, Campus 1",
+  "city": "Bergisch Gladbach",
+  "country": "DE",
+  "postcode": "51429"
+ },
+ "recognitions": [
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation of the Temos standards, the first German accreditation body to hold it",
+   "year": null,
+   "valid_until": null,
+   "source": "s:temos-company",
+   "url": "https://ieea.ch/international-accreditation-programme/",
+   "note": "the year of first award is not stated on the pages read for this record"
+  }
+ ],
+ "kin": [
+  {
+   "to": "jci",
+   "as": "The larger competitor, built for hospitals rather than for international patients.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gha",
+   "as": "The nearest competitor by purpose: both certify the journey rather than the ward.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "The body holding an award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "facilitator",
+   "as": "The trade this scheme is unusual in accrediting at all.",
+   "rel": "term"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step of the journey where a broker's accreditation is the only external mark on offer.",
+   "rel": "step"
+  },
+  {
+   "to": "ivf",
+   "as": "One of the treatments its reproductive care programme covers.",
+   "rel": "procedure"
+  }
+ ],
+ "links": [
+  {
+   "label": "Temos International GmbH",
+   "url": "https://temos-worldwide.com/"
+  },
+  {
+   "label": "Accredited partners",
+   "url": "https://temos-accreditation.com/AccreditedPartners/List.aspx"
+  }
+ ],
+ "sources": [
+  "s:temos-company",
+  "s:temos-medical-care"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:temos-company"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:temos-medical-care",
+    "note": "the cycle length in the third paragraph is inferred from the published fee table and marked as such"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

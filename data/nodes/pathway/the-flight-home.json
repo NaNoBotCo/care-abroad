@@ -1,0 +1,89 @@
+{
+ "id": "the-flight-home",
+ "names": {
+  "name": "The flight home",
+  "aliases": [
+   "the return leg",
+   "repatriation by scheduled flight"
+  ],
+  "said": "The ticket was bought before the operation. The body it now has to carry is a different one."
+ },
+ "facets": {
+  "stage": "going-home"
+ },
+ "x_order": 14,
+ "text": {
+  "what": "A post-operative body in a pressurised cabin, hours from any theatre, on a date chosen before the operation. It is the point where the booking made at step nine meets the guidance written by aviation medicine, and where a clot, a wound or a cast turns a ticket into a problem.",
+  "story": "The intervals are published and they are procedure-specific. The UK Civil Aviation Authority: \"travel should be avoided for 10 days following abdominal surgery\"; about 24 hours after laparoscopic surgery because of residual CO2; about 7 days after neurosurgery; a week after intra-ocular surgery, and \"approximately 2 weeks if sulphur hexafluoride is used and 6 weeks with the use of perfluoropropane\" where gas is injected into the eye. The CDC Yellow Book states travellers \"should not fly for 10 days after chest or abdominal surgery\" and gives 7 to 10 days for laser and cosmetic work on the face, eyelids or nose. The NHS gives 5 to 7 days after breast surgery and liposuction, 7 to 10 days after facial procedures and abdominoplasty, and names the mechanism: \"Air travel and major surgery increase your risk of a blood clot, which can be life threatening.\"\n\n*Inference —* the collision is arithmetical. A package that names three ward nights and a return booked for day five sits inside the ten-day interval the same guidance applies to the operation. The person who resolves that conflict is the patient at a check-in desk, with a non-refundable fare and a hotel bill running.\n\nIf the patient cannot fly, the next options are commercial and expensive: a changed fare, extra nights, a seat the airline will clear, a medical escort, or an air ambulance. What each costs is not published by anyone this project could read, and travel policies commonly exclude the very event that caused the delay.",
+  "how": "*Trade practice —* airlines may require medical clearance for recent surgery, assessed by the carrier's own medical department against a form completed by a doctor, and the carrier can refuse carriage. Oxygen, a stretcher and a lie-flat seat are booked as services with their own charges and lead times.\n\nWhat a reader would have to ask: what interval the operating surgeon gives in writing for this operation, whether that is in the discharge summary, what the airline requires, what a change costs on the fare bought, and what the policy pays if the return is delayed on medical advice.",
+  "today": "As of 16 September 2026 the flying intervals in this record come from aviation-medicine and public-health guidance. No provider page this project read prices the possibility that the patient will not be fit to fly on the booked date."
+ },
+ "metrics": {
+  "days_before_flying": 10,
+  "note": "The ten-day figure is for chest or abdominal surgery, from both the CDC Yellow Book and the UK Civil Aviation Authority. Other procedures carry different intervals — about 24 hours after laparoscopic surgery, about 7 days after neurosurgery, up to 6 weeks after retinal surgery with perfluoropropane gas — and airlines set their own rules on top.",
+  "as_of": "2026-09-16",
+  "source": "s:caa-surgical-conditions",
+  "url": "https://www.caa.co.uk/passengers-and-public/passenger-guidance/health-guidance/guidance-for-health-professionals/surgical-conditions/"
+ },
+ "kin": [
+  {
+   "to": "flying-after-surgery",
+   "as": "The risk record for this leg, with the guidance in full.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "as": "The clot that the intervals exist to avoid, and the commonest fatal event on this leg.",
+   "rel": "risk"
+  },
+  {
+   "to": "booking-the-flight",
+   "as": "Where this date was chosen, weeks before the body existed to fly it.",
+   "rel": "step"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "What this step becomes when a scheduled seat is no longer possible.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The document that should carry the surgeon's fitness-to-fly interval, and often does not.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "What lands on the other side.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:caa-surgical-conditions",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:nhs-cosmetic-surgery-abroad"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:caa-surgical-conditions"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

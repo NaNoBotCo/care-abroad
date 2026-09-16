@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "romania",
+ "type": "destination",
+ "names": {
+  "name": "Romania",
+  "aliases": ["România"],
+  "said": "In the trade Romania means Bucharest, Cluj-Napoca and Timișoara for dentistry, and it means Romanian patients abroad at least as much as foreign patients here."
+ },
+ "region": ["europe-east"],
+ "facets": {
+  "iso2": "RO",
+  "direction": "both",
+  "currency": "RON",
+  "languages": ["Romanian", "English", "Italian", "German"],
+  "draws": ["dental-implant", "all-on-four", "veneers", "dental-crown"]
+ },
+ "text": {
+  "what": "A two-way country. Romanian dental groups in Bucharest, Cluj and Timișoara sell implant and full-arch work to Romanians living in Italy, Spain, Germany and Britain, and to their neighbours; at the same time Romanians travel out for care their own system cannot supply in time. Romania is also one of only two EU countries that has given itself a mechanism to limit patients coming in.",
+  "story": "The Commission's 2022 data puts both directions on one page. Romania received 889 requests for reimbursement of care not needing prior authorisation and granted 512. It processes a prior-authorisation request faster than any other reporting country — an average of 3 days against a European average of 21, with a legal limit of 5 days, the shortest in the EU. And with Denmark it is one of two countries reporting a mechanism to limit inflow of foreign patients, though it recorded zero cases of anyone's access being limited in 2022.\n\n*Trade practice —* the inbound dental trade follows the diaspora. A Romanian family in Turin or Madrid flies home for the summer and books the dentist; the practices that grew on that traffic now advertise to non-Romanians in the same cities. The trade sells the full-arch case in particular, where the gap between an Italian and a Romanian quote is large enough to pay for two flights.\n\n*Inference —* the country's own outbound flow is the part the state can see, and even that is small against the number of Romanians who simply pay privately at home or abroad without claiming anything back."
+ ,
+  "how": "Itemised dental pricing in euro or lei, full-arch cases quoted as one figure with the temporary bridge included and the final bridge billed on the second visit. Clinic-side coordination rather than a facilitator industry: the group's own international desk books the hotel.",
+  "today": "The measurable facts are the state's: 889 reimbursement requests in 2022, 512 granted, a 3-day average for a prior-authorisation decision. The dental trade is privately paid and does not appear in any of those lines."
+ },
+ "geo": {"lat": 44.4268, "lon": 26.1025, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "889 requests for reimbursement of care not subject to prior authorisation in 2022, 512 granted; 4 requests subject to prior authorisation, 1 authorised; average 3 days to decide a prior-authorisation request. All of these count Romanian patients treated abroad, not patients arriving.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "kin": [
+  {"to": "dental-implant", "as": "The item its clinics sell to the diaspora and to their neighbours.", "rel": "procedure"},
+  {"to": "all-on-four", "as": "The full-arch case where the price gap covers the flights.", "rel": "procedure"},
+  {"to": "hungary", "as": "The neighbouring dental corridor, older and better surveyed.", "rel": "contrast"},
+  {"to": "croatia", "as": "The other newer EU dental destination, working a different border.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route whose Romanian figures are the only official count of this traffic.", "rel": "governed-by"},
+  {"to": "who-travels", "as": "The diaspora trip that is half of this country's inbound trade.", "rel": "story"}
+ ],
+ "sources": ["s:ec-crossborder-2022", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:ec-crossborder-2022"},
+  "fields": {
+   "text.what": {"tier": "tradition", "note": "the inflow-limitation point is cited to the Commission report"},
+   "text.story": {"tier": "cited", "source": "s:ec-crossborder-2022", "note": "second paragraph marked trade practice, third marked inference"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Bucharest Calea Victoriei.jpg"],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16"
+}

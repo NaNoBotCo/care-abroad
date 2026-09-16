@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "saudi-arabia",
+ "type": "destination",
+ "names": {
+  "name": "Saudi Arabia",
+  "aliases": ["المملكة العربية السعودية", "Kingdom of Saudi Arabia", "KSA"],
+  "said": "The trade says Saudi and means two different things at once: the largest single payer sending Gulf patients abroad, and a domestic hospital-building programme that intends to stop doing it."
+ },
+ "region": ["gulf", "west-asia"],
+ "facets": {
+  "iso2": "SA",
+  "direction": "both",
+  "currency": "SAR",
+  "languages": ["Arabic", "English"],
+  "draws": ["cabg", "kidney-transplant", "bone-marrow-transplant"]
+ },
+ "text": {
+  "what": "A state that pays for its own citizens to be treated abroad through a committee route, and is at the same time rebuilding its hospital sector under a named national programme with the stated intention of keeping that care at home. The outbound programme is the flow with published numbers behind it. The inbound one is promoted, projected and forecast, but not counted in any figure this project could trace to a publisher.",
+  "story": "Treatment abroad in Saudi Arabia is an administrative decision, not a purchase. A case goes to a medical committee, and approval carries the treatment, the travel and a companion with it; patients referred out have been paid a daily allowance while away. The destinations are the high-cost ones — a Health Ministry count reported in May 2021 put 488 patients sent abroad in 2020 against 2,842 in 2019, with the United States taking 245 of the 2020 cases, Germany 142 and the United Kingdom 101. Tumours were the largest single category. Those are small numbers per year and very large numbers per patient.\n\nThe Health Sector Transformation Program, one of the Vision 2030 realisation programmes, sets out the other direction: private-sector investment, a unified digital medical record across the whole population, a virtual hospital connecting more than 150 hospitals since 2022, and a set of published targets. *Inference —* what those published targets do not contain is a number for foreign patients. The objectives named on the programme's own page are access, value, prevention and road safety; the targets are beneficiary satisfaction, record coverage, readiness and road deaths. A reader shown a forecast of the kingdom's inbound trade is being shown a market-research projection, not a state target, and this record does not carry one.\n\n*Trade practice —* the reason Saudi patients dominate the waiting rooms of Amman, Dubai and Bangkok is not that Saudi hospitals are bad. It is that the state sponsorship travels, the escort travels with it, and a family that would have to pay out of pocket for a private consultation at home can be flown to a hospital that has taken the trouble to hire Arabic-speaking staff.",
+  "how": "Outbound: a referral, a committee, an approval by recommendation or by royal decree, and a posting abroad with a companion and an allowance. Health attachés in the main destination countries handle the placements. Inbound: private hospitals sell directly and accreditation runs through CBAHI, the national board, which is compulsory for Saudi facilities rather than an optional badge bought for foreign readers — a difference worth holding onto when an accreditation count is put in front of a patient.",
+  "today": "As of September 2026 the state programme is the half of this country's cross-border care that can be counted, and the most recent count this project could read is the 2020 one, a year the pandemic distorts. Whether the inbound flow is now the larger is a question nobody has published an answer to, and this record leaves it open rather than filling it with a forecast.",
+  "notes": "Nothing here is a statement about the quality of Saudi hospitals. It is a statement about which flows somebody has counted."
+ },
+ "geo": {"lat": 24.7136, "lon": 46.6753, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No inbound foreign-patient count is carried. On the outbound side a Saudi Health Ministry report, as carried by Gulf News in May 2021, gave 488 patients sent abroad in 2020 against 2,842 in 2019 — a count of state-sponsored referrals, not of Saudis who paid their own way, and 2020 is a closed-borders year. This project could not trace a published inbound figure to its publisher.",
+  "as_of": "2020",
+  "source": "s:gulfnews-saudi-treatment-abroad-2021",
+  "url": "https://gulfnews.com/world/gulf/saudi/saudi-arabia-82-drop-in-overseas-medical-treatment-1.79245048"
+ },
+ "kin": [
+  {"to": "gcc-sponsored-treatment-abroad", "as": "The committee route by which this state buys care in other countries.", "rel": "governed-by"},
+  {"to": "cbahi", "as": "The national accreditor, compulsory at home rather than bought for a foreign audience.", "rel": "accredited-by"},
+  {"to": "uae", "as": "The neighbour running the same two flows, with a published inbound count this country lacks.", "rel": "kin"},
+  {"to": "jordan", "as": "One of the places Saudi patients and their escorts have gone for decades.", "rel": "contrast"},
+  {"to": "the-escort-burden", "as": "Paid for here by the sponsor, which is what makes this a source market rather than a trickle.", "rel": "risk"},
+  {"to": "germany", "as": "A destination the state's own referral counts name, alongside the United States and Britain.", "rel": "contrast"},
+  {"to": "counting-patients", "as": "Why this page carries an outbound number and refuses an inbound one.", "rel": "story"},
+  {"to": "world-bank-health-spending", "as": "The series behind what this country spends on health per person.", "rel": "measured-by"}
+ ],
+ "links": [
+  {"label": "Health Sector Transformation Program — Saudi Vision 2030", "url": "https://www.vision2030.gov.sa/en/explore/programs/health-sector-transformation-program"}
+ ],
+ "sources": ["s:gulfnews-saudi-treatment-abroad-2021", "s:vision2030-hstp", "s:natural-earth", "s:worldbank-open-data"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:vision2030-hstp", "note": "the referral counts are cited to the Health Ministry report; the reading of what the programme's targets omit is marked inline as inference, and the third paragraph is trade practice"},
+   "text.how": {"tier": "tradition", "note": "the shape of the referral route; CBAHI's compulsory status is on the recognizers list"},
+   "text.today": {"tier": "inference"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

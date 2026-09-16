@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "id": "kuala-lumpur",
+ "type": "hub",
+ "names": {
+  "name": "Kuala Lumpur",
+  "aliases": ["KL", "Klang Valley"],
+  "said": "KL. The hospitals a foreign patient is sent to are not downtown: they are on Jalan Ampang, at Bukit Bintang's eastern edge, in Bangsar, and out in Petaling Jaya and Subang Jaya, which are a different state."
+ },
+ "region": ["southeast-asia"],
+ "facets": {
+  "iso2": "MY",
+  "radius_km": 25,
+  "specialty": ["fertility", "cardiology", "oncology", "health screening", "orthopaedics", "neurosurgery"],
+  "draws": ["ivf", "icsi", "cabg", "angioplasty-stent", "executive-health-screening", "knee-replacement"],
+  "languages": ["Malay", "English", "Mandarin", "Tamil", "Indonesian"]
+ },
+ "text": {
+  "what": "The Klang Valley cluster is spread across two states. Gleneagles Kuala Lumpur stands on Jalan Ampang at Ampang Hilir, on the eastern edge of the city; Prince Court Medical Centre sits off Jalan Bukit Bintang beside the Tun Razak Exchange; Pantai Hospital is in Bangsar to the south-west; Institut Jantung Negara, the national heart institute, is on Jalan Tun Razak; and Subang Jaya Medical Centre and Sunway Medical Centre are out in Selangor, sixteen kilometres from the middle. Nothing here is walkable between hospitals. The corridor is a motorway, not a street.",
+  "story": "Malaysia's foreign-patient count is kept by the Malaysia Healthcare Travel Council, set up in 2009 as the state agency for the trade: 641,000 patients in 2011 rising to 921,000 in 2016. The council's own definition is the useful part — the figures cover all registered patients holding a foreign passport, which sweeps in expatriates, migrant workers, business travellers and holidaymakers whose reason for being in a hospital had nothing to do with why they came to Malaysia.\n\nA 2024 note reprinted by the Malaysian Investment Development Authority put Indonesia at 64.9 per cent of the patients, China at 5 per cent and India at 3.1 per cent, and split the revenue between Kuala Lumpur at 41 per cent and Penang at 40.5 per cent; the percentages are attributed to a TA Securities analysis rather than to a government register.\n\n*Trade practice —* what Kuala Lumpur sells against Penang is complexity and fertility. The heart institute takes regional referrals, the private groups run large in-vitro fertilisation programmes, and the city's argument to an Indonesian or Bangladeshi patient is a direct flight and a hospital that will answer in their language.\n\n*Inference —* the split between Kuala Lumpur and Penang at roughly 41 and 40.5 per cent of revenue, in a country where the capital holds several times the population, says that Penang's business is denser and that the two cities are selling different things to different people.",
+  "how": "Malaysian private hospitals licensed for the trade quote before arrival, usually as an itemised estimate and sometimes as a package, and the Malaysia Healthcare Travel Council maintains a list of member hospitals a patient can check against. Payment is by deposit and settlement; the larger groups bill some foreign insurers directly.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits in central Kuala Lumpur, with a 25-kilometre radius reaching Petaling Jaya, Subang Jaya and Ampang. No Kuala Lumpur price has been read off a page into this directory yet.",
+  "notes": "A description of a cluster and of who counts its patients. Not advice about treatment."
+ },
+ "geo": {"lat": 3.148, "lon": 101.71, "precision": "city", "source": "s:osm-nominatim"},
+ "address": {"city": "Kuala Lumpur", "area": "Federal Territory and Selangor", "country": "MY"},
+ "metrics": {
+  "annual_foreign_patients": 921000,
+  "note": "The Malaysia Healthcare Travel Council's 2016 national count, not a Kuala Lumpur figure. It counts every registered patient holding a foreign passport, so it includes expatriates, migrant workers and visitors who fell ill; it is not a count of people who travelled in order to be treated.",
+  "as_of": "2016",
+  "source": "s:wp-medical-tourism-malaysia",
+  "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Malaysia"
+ },
+ "kin": [
+  {"to": "gleneagles-kl", "as": "On Jalan Ampang at Ampang Hilir, 376 beds, open since 1996.", "rel": "part"},
+  {"to": "prince-court", "as": "Off Jalan Bukit Bintang beside the Tun Razak Exchange.", "rel": "part"},
+  {"to": "malaysia", "as": "The country whose capital cluster this is, and which counts its patients by passport.", "rel": "whole"},
+  {"to": "mhtc", "as": "The state council that licenses and lists the hospitals here, and keeps the count.", "rel": "governed-by"},
+  {"to": "malaysia-mhtc-licence", "as": "The licensing route a hospital takes to sell to foreign patients.", "rel": "governed-by"},
+  {"to": "ivf", "as": "The fertility work that distinguishes this cluster from Penang's.", "rel": "procedure"},
+  {"to": "cabg", "as": "The national heart institute on Jalan Tun Razak takes regional referrals for it.", "rel": "procedure"},
+  {"to": "executive-health-screening", "as": "The screening package the private groups sell across the strait.", "rel": "procedure"},
+  {"to": "penang", "as": "The island cluster taking almost the same share of national revenue from a far smaller city.", "rel": "contrast"},
+  {"to": "indonesia", "as": "Where about two-thirds of this country's foreign patients come from, on one 2024 analysis.", "rel": "kin"},
+  {"to": "counting-patients", "as": "Why a count of foreign passports in a hospital is not a count of medical travellers.", "rel": "story"},
+  {"to": "osm-facilities", "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.", "rel": "measured-by"}
+ ],
+ "links": [
+  {"label": "Malaysia Healthcare Travel Council", "url": "https://www.mhtc.org.my/"},
+  {"label": "Gleneagles Kuala Lumpur", "url": "https://gleneagles.com.my/kuala-lumpur"}
+ ],
+ "sources": ["s:osm-nominatim", "s:wp-gleneagles-kl", "s:wp-medical-tourism-malaysia", "s:mida-malaysia-medical-tourism-2024", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:osm-nominatim", "note": "roads and localities read off OpenStreetMap address tags"},
+   "text.story": {"tier": "cited", "source": "s:wp-medical-tourism-malaysia", "note": "the council's counts and the 2024 percentages are cited to their publishers; the inline marks say which stretches are inference and trade practice"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "inference", "source": "s:osm-nominatim", "note": "a central point chosen to reach both the city hospitals and the Selangor ones, not a point anybody published"}
+  }
+ },
+ "x_commons_files": ["File:Kuala Lumpur Jalan Ampang.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

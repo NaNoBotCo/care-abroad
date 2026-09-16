@@ -1,0 +1,119 @@
+{
+ "id": "surgical-site-infection",
+ "names": {
+  "name": "Surgical site infection",
+  "aliases": [
+   "SSI",
+   "wound infection"
+  ],
+  "said": "Surgeons say SSI. A discharge summary says wound infection. A package page says nothing at all."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "An infection of the tissue an operation opened — skin, the layers beneath it, or the space around an implant. It is counted by surveillance systems within thirty days of surgery, or within ninety days where a device was left in. The CDC's medical travel chapter puts surgical site infection among the main infection concerns of treatment abroad, and names it alongside hepatitis B, hepatitis C, HIV, bloodstream infections and donor-derived infections.",
+  "story": "Among people who travel for treatment, \"the most common complications are infection-related\", in the CDC's words, and inadequate infection prevention and control is the mechanism it names.\n\nThe background rate is not the same everywhere. A WHO-funded meta-analysis of 220 studies published between 1995 and 2008 put the pooled cumulative incidence of surgical site infection in developing countries at 5.6 per 100 surgical procedures, and called it the leading hospital infection in those settings — against a pooled health-care-associated infection prevalence of 15.5 per 100 patients in the high-quality studies, itself much higher than European and US figures. The authors note that many countries returned no data at all.\n\nA 2023 systematic review of 44 studies found 589 people who presented with complications after cosmetic surgery abroad; infection was the commonest complication, 98% of the organisms were bacterial, and 81% of those were from the genus Mycobacterium.\n\n*Inference —* the exposure here is not only clinical. A surgical site infection is normally counted by the hospital that made the wound, which also carries the cost of treating it. When the patient boards a plane, the numerator lands in one health system and the denominator stays in another. Neither figure is wrong; they are simply never added up, and no country publishes a surgical site infection rate for operations its residents had abroad.",
+  "how": "Presentation is usually redness, discharge, fever or a wound that will not close, and it typically begins in the first weeks. Treatment runs from oral antibiotics to reopening the wound, removing an implant, and weeks or months of intravenous therapy where the organism is resistant. The CDC asks US facilities to take an explicit travel history at admission, and to screen anyone who had an overnight stay in a healthcare facility outside the United States within the previous six months for carbapenem-resistant Enterobacterales.",
+  "today": "As of 16 September 2026 the narrow numbers this site can stand on are the 5.6 per 100 pooled incidence from the 2011 meta-analysis and the case counts in the named outbreak investigations. No published series gives a surgical site infection rate for cross-border surgery as a class, because no one holds both halves of the fraction."
+ },
+ "metrics": {
+  "complication_rate_pct": 5.6,
+  "note": "Pooled cumulative incidence of surgical site infection, 5.6 per 100 surgical procedures, from a WHO-funded systematic review of 220 studies in developing countries published 1995-2008. It is not a rate for cross-border surgery and not a rate for any one hospital; it is the background against which a traveller's operation is performed. The same review put pooled health-care-associated infection prevalence at 15.5 per 100 patients in its high-quality studies.",
+  "as_of": "2011",
+  "source": "s:allegranzi-hai-2011",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/21146207/"
+ },
+ "kin": [
+  {
+   "to": "nontuberculous-mycobacteria",
+   "as": "The organism behind the best-documented cluster of these infections in cosmetic surgery patients returning from abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "as": "What decides whether this infection is a week of antibiotics or six months of them.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Why the infection is usually diagnosed by someone who did not make the wound.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who pays for the theatre time when the wound has to be reopened.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl-mortality",
+   "as": "The other thing that goes wrong after gluteal fat grafting, and the faster one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bloodborne-virus",
+   "as": "The same failure of infection control, with a longer incubation and a quieter arrival.",
+   "rel": "kin"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation where an infection means the implant comes out.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "The procedure with the longest stay among UK patients readmitted after surgery abroad.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dominican-republic",
+   "as": "Where the clearest documented cluster of these infections among travelling patients was traced to.",
+   "rel": "place"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step at which this is usually found.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step this risk turns into.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:allegranzi-hai-2011",
+  "s:alkaelani-aesthetic-review-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the last paragraph is marked as this project's own reasoning about the denominator"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:allegranzi-hai-2011"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

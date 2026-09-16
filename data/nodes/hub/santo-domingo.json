@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "santo-domingo",
+ "type": "hub",
+ "names": {
+  "name": "Santo Domingo",
+  "aliases": ["Santo Domingo de Guzmán", "Distrito Nacional"],
+  "said": "The city is coterminous with the Distrito Nacional; Greater Santo Domingo runs well past it."
+ },
+ "region": ["caribbean"],
+ "facets": {
+  "iso2": "DO",
+  "radius_km": 20,
+  "specialty": ["cosmetic surgery", "dentistry", "bariatric surgery", "ophthalmology"],
+  "draws": ["bbl", "liposuction", "abdominoplasty", "breast-augmentation", "facelift", "dental-implant"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "The capital of the Dominican Republic, founded 1496 and the oldest continuously inhabited European settlement in the Americas, with just over a million people in the city centre and 4.27 million in Greater Santo Domingo as of 2022. Its export trade in care is cosmetic surgery, sold largely to women in the United States, and it is the hub in this directory with the longest documented record of infections travelling home with the patients.",
+  "story": "The outbreaks are the reason this city is a case study rather than a listing. In March 2013 to February 2014 United States health departments recorded a multistate cluster of rapidly growing nontuberculous mycobacteria — environmental bacteria that infect surgical wounds and are slow to respond to ordinary antibiotics — in patients who had had cosmetic surgery in the Dominican Republic.\n\nIt happened again. On 1 May 2017 the New York City health department told the Centers for Disease Control and Prevention about three patients with nontuberculous mycobacterial surgical site infections, all operated on by one surgeon at the Centro Internacional de Cirugía Plástica Avanzada, CIPLA. By 8 November 2017 the count stood at 52 patients across nine states, 38 of them meeting the confirmed case definition, with surgery dates between 4 January and 14 July 2017. Twenty-six of thirty-two confirmed patients with information available had been operated on at CIPLA, which was temporarily closed on 8 July 2017. One death was reported among confirmed cases.\n\nThe detail that matters most is the one that complicates the simple story. Whole genome sequencing of isolates from 22 cases by the New York State Wadsworth Center found three distinct genetic clusters, and none of them mapped to a single clinic or a single surgeon. Fourteen surgeons across seven centres were implicated in all. This was not one bad operator.\n\n*Inference —* a pattern that recurs across a sector four years apart, in clinics that do not share a surgeon or an organism, points at something the sector holds in common — water, instruments, reprocessing, or the practice of operating on several patients in one session — rather than at an individual. CDC's report does not say which, and neither does this record.",
+  "how": "Patients fly in from the east coast of the United States, are operated on within a day or two of arrival, recover in a rented flat or a recovery house rather than a ward, and fly home inside two weeks. Packages are sold through intermediaries and often include the accommodation and the post-operative massages. The surgeon is frequently not met until shortly before the operation. Follow-up, when an infection appears weeks later, happens in an emergency department in the United States that did not perform the surgery and has no operative note.",
+  "today": "As of 16 September 2026 the CDC report closest to hand on this city remains Gaines and colleagues in MMWR, 2018, covering the 2017 cluster and citing the 2013–2014 one before it."
+ },
+ "geo": {"lat": 18.4625, "lon": -69.9361, "precision": "city", "source": "s:wp-santo-domingo"},
+ "address": {"city": "Santo Domingo", "area": "Distrito Nacional", "country": "DO"},
+ "kin": [
+  {"to": "dominican-republic", "as": "The country whose cosmetic surgery export runs almost entirely through this city.", "rel": "destination"},
+  {"to": "dominican-republic-ntm-outbreak", "as": "The 2017 cluster: 52 patients, nine states, one clinic temporarily closed, three genetic clusters and no single culprit.", "rel": "event"},
+  {"to": "united-states", "as": "Where the patients live and where every one of these infections was diagnosed.", "rel": "kin"},
+  {"to": "medellin", "as": "The other cosmetic surgery hub in this batch, with a hospital group that publishes and a sector that does not.", "rel": "contrast"},
+  {"to": "havana", "as": "The other Caribbean hub — public, neurological and legally hard to reach, where this one is private and a two-hour flight.", "rel": "contrast"},
+  {"to": "bbl", "as": "Among the operations sold here, and the one with its own mortality record in this directory.", "rel": "performs"},
+  {"to": "liposuction", "as": "The base of the body-contouring trade, and the wound the mycobacteria entered.", "rel": "performs"},
+  {"to": "nontuberculous-mycobacteria", "as": "The organism that made this city a case study, twice, four years apart.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "An infection that presents at week six, in a country the surgeon does not practise in.", "rel": "risk"},
+  {"to": "malpractice-recourse", "as": "What a patient has after an infection acquired in a clinic that has since been closed.", "rel": "risk"},
+  {"to": "alone-after-discharge", "as": "A recovery house is not a ward, and the difference shows up in who notices a wound going wrong.", "rel": "risk"}
+ ],
+ "links": [
+  {"label": "MMWR 2018;67(12):369–370", "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6712a5.htm"}
+ ],
+ "sources": ["s:wp-santo-domingo", "s:cdc-mmwr-dr-ntm-2018"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:cdc-mmwr-dr-ntm-2018", "note": "every figure, date and name in the first three paragraphs is from the MMWR report; the fourth is marked as this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a cosmetic surgery trip to the Caribbean; the CDC report supports the multi-clinic and intermediary picture but does not describe an itinerary"}
+  }
+ },
+ "x_commons_files": ["File:Santo Domingo Zona Colonial.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

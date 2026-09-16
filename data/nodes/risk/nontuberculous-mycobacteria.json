@@ -1,0 +1,120 @@
+{
+ "id": "nontuberculous-mycobacteria",
+ "names": {
+  "name": "Nontuberculous mycobacteria",
+  "aliases": [
+   "NTM",
+   "rapidly growing mycobacteria",
+   "Mycobacterium abscessus"
+  ],
+  "said": "The first culture comes back negative, because the organism grows too slowly for a standard plate."
+ },
+ "region": [
+  "global",
+  "caribbean"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "Environmental mycobacteria that live in water and soil, are not tuberculosis, resist most ordinary antibiotics, and infect surgical wounds where instruments, rinse water or injectables were contaminated. The CDC names the resulting outbreak in its medical travel chapter: \"surgical site infections caused by nontuberculous mycobacteria in patients who underwent cosmetic surgery in the Dominican Republic\".",
+  "story": "The first cluster began with two Maryland residents in 2013 whose surgical sites would not respond to treatment after cosmetic procedures at one Dominican clinic. The multistate investigation that followed identified 21 case-patients in 6 states who had been operated on at one of 5 clinics, 13 of them — 62% — at the same one. Isolates from 12 of those patients, 92%, grew Mycobacterium abscessus complex.\n\nWhat the same investigation recorded about treatment is the part worth carrying. Of 9 case-patients from that clinic with data available, all required therapeutic surgical intervention, 8 were hospitalised, and 7 needed three months or more of antibacterial therapy. The report notes incomplete information on the financial burden, with some patients experiencing insurance claim denials and lost wages.\n\nIt happened again. In 2018 the CDC reported a second Dominican cluster: 52 patients reported, 38 meeting the confirmed case definition, with surgery between 4 January and 14 July 2017. Twenty-six of 32 confirmed cases with information available had been treated at one centre, Centro Internacional de Cirugía Plástica Avanzada; 14 surgeons at seven surgical centres were identified in total. Fourteen of 15 with treatment information required therapeutic surgical procedures after returning to the United States. One death was reported.\n\nA 2023 systematic review of 44 studies covering 589 patients who presented with complications after cosmetic surgery abroad found that 98% of the infectious organisms were bacterial and 81% of those were from the genus Mycobacterium.\n\n*Inference —* the organism is not exotic, and the pattern is not about a country. It is about water and instrument reprocessing in high-volume elective surgery, which is a procurement and engineering question rather than a surgical one, and which no accreditation logo on a website discloses.",
+  "how": "These infections declare themselves late, over weeks rather than days, as painless or mildly painful nodules and non-healing wounds that do not respond to standard antibiotics. Diagnosis needs the laboratory to be told to look: standard cultures may be reported negative because the organism grows slowly. Treatment is multi-drug, months long, frequently intravenous, and usually requires the wound to be opened and debrided more than once.",
+  "today": "As of 16 September 2026 the two Dominican investigations remain the best-documented clusters, at 21 and 38 confirmed cases respectively, and they are counts of people who presented in the United States rather than rates for any clinic or any country."
+ },
+ "metrics": {
+  "note": "From the 2013-2014 investigation: 21 case-patients in 6 US states operated on at 5 Dominican clinics, 13 of them at one clinic; Mycobacterium abscessus complex in 12 of 13 isolates tested; of 9 patients from that clinic with data, all required therapeutic surgery, 8 were hospitalised and 7 needed three months or more of antibacterial therapy. From the 2017 cluster: 52 patients reported, 38 confirmed, 1 death, 14 of 15 with data requiring surgery after returning. Case counts, not rates.",
+  "as_of": "2016",
+  "source": "s:eid-dr-mycobacteria-2016",
+  "url": "https://wwwnc.cdc.gov/eid/article/22/8/15-1938_article"
+ },
+ "kin": [
+  {
+   "to": "dominican-republic-ntm-outbreak",
+   "as": "The investigations themselves, with their clinics and dates.",
+   "rel": "event"
+  },
+  {
+   "to": "dominican-republic",
+   "as": "Where both clusters were traced to.",
+   "rel": "place"
+  },
+  {
+   "to": "santo-domingo",
+   "as": "The city the named clinics operated in.",
+   "rel": "place"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The general case this is the hardest version of.",
+   "rel": "whole"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "as": "Resistant by nature rather than by acquisition, which is why the courses run months.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl",
+   "as": "Among the cosmetic procedures the case-patients had travelled for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liposuction",
+   "as": "Among the procedures in both Dominican clusters.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "Among the procedures in both Dominican clusters.",
+   "rel": "procedure"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "All of the documented cases needed further surgery after returning.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Weeks-long incubation means the first clinician to see it is always at home.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Emerging Infectious Diseases 2016 — multistate outbreak, Dominican Republic 2013-2014",
+   "url": "https://wwwnc.cdc.gov/eid/article/22/8/15-1938_article"
+  },
+  {
+   "label": "MMWR 2018 — Notes from the Field, Dominican Republic 2017",
+   "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6712a5.htm"
+  }
+ ],
+ "sources": [
+  "s:eid-dr-mycobacteria-2016",
+  "s:mmwr-dr-mycobacteria-2018",
+  "s:alkaelani-aesthetic-review-2023",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eid-dr-mycobacteria-2016"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is marked inline as this project's reading"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the clinical and laboratory account is general knowledge of the organism; the case numbers are cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

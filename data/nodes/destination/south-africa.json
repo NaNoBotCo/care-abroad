@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "id": "south-africa",
+ "type": "destination",
+ "names": {
+  "name": "South Africa",
+  "aliases": ["Republic of South Africa", "RSA", "Suid-Afrika", "iNingizimu Afrika"],
+  "said": "The brochures say surgeon and safari. The larger flow is regional and unglamorous: patients from Zimbabwe, Zambia, Botswana, Namibia and Mozambique arriving in Johannesburg because the hospital at home cannot do it."
+ },
+ "region": ["africa-south"],
+ "facets": {
+  "iso2": "ZA",
+  "direction": "inbound",
+  "currency": "ZAR",
+  "languages": ["English", "Afrikaans", "isiZulu", "Sesotho"],
+  "draws": ["breast-augmentation", "liposuction", "abdominoplasty", "dental-implant", "ivf"]
+ },
+ "text": {
+  "what": "Sub-Saharan Africa's referral hospital and Europe's rand-priced cosmetic destination at the same time. South African Tourism's own survey of why visitors came put medical reasons at 1.8 per cent of international arrivals in 2016, and average foreign direct spend by those travellers at R10,600. The cosmetic and dental trade sells to the United Kingdom, the Netherlands and Germany; the larger flow by headcount comes from the rest of the continent.",
+  "story": "Two trades share one country and they have almost nothing in common. Crush and Chikanda, writing in Social Science & Medicine in 2015, made the case that movement to South Africa from within the region is larger, in numbers and in money, than movement from the global North — and that the second is what gets studied while the first is where the patients are. Patients from Zimbabwe, Zambia, Botswana, Namibia, Mozambique and further north arrive for oncology, orthopaedics, fertility and cardiac work, because those services exist in Johannesburg, Pretoria and Cape Town and do not exist reliably at home.\n\nThe European half is priced, packaged and advertised. Breast augmentation, liposuction, nose reshaping, facelifts and abdominoplasty are the operations named most often, alongside dentistry. Wesgro, the Western Cape's own trade and investment agency, recorded the province's share of arrivals travelling for medical reasons rising from 0.8 per cent in 2015 to 0.9 per cent in 2016, and named the United Kingdom and the Netherlands as its top source markets, with German visitors coming largely for dentistry.\n\n*Inference —* the survey share is the better number and it is small. South African Tourism asks arriving visitors their main purpose of visit; 1.8 per cent of them said medical in 2016, down from 2.3 per cent in 2014. That is a measured share of a measured population, and it sits underneath every larger figure quoted for this country without one.",
+  "how": "The European route is an agency booking against a package quoted in rand, with the exchange rate doing much of the selling and a recovery stay attached. The regional route is a referral, often self-funded, sometimes by a national health ministry buying a service its own hospitals cannot provide, and it arrives at a private hospital group or a public tertiary centre rather than at a cosmetic clinic. Wesgro's own interviewee, Faith Cartwright of Medical Tourism South Africa, said arrivals here tend not to buy treatment packages at all, being wary of undisclosed costs inside them.",
+  "today": "As of September 2026 the most recent survey figures this record could read are South African Tourism's for 2014-2016, carried in the Wesgro study: a medical share of 2.3, 1.9 and 1.8 per cent of international arrivals, with average foreign direct spend by those travellers of R7,600, R10,100 and R10,600.",
+  "notes": "A share of arrivals who named a main purpose is not a count of operations. It counts people who said so at the border."
+ },
+ "geo": {"lat": -26.2041, "lon": 28.0473, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "South African Tourism's survey of main purpose of visit put medical at 1.8% of international arrivals in 2016, 1.9% in 2015 and 2.3% in 2014, with average total foreign direct spend by those travellers of R10,600, R10,100 and R7,600 respectively. It counts visitors who named medical treatment as the main purpose of the trip, so it misses anyone who came for a holiday and had work done, and it counts trips rather than operations. Western Cape share rose from 0.8% in 2015 to 0.9% in 2016.",
+  "as_of": "2016",
+  "source": "s:wesgro-medical-tourism-study",
+  "url": "https://www.wesgro.co.za/uploads/files/Medical-Tourism-Study.pdf"
+ },
+ "kin": [
+  {"to": "johannesburg", "as": "The hospital city the regional flow arrives at.", "rel": "part"},
+  {"to": "kenya", "as": "The other African country with a tertiary sector its neighbours use — and an outflow of its own.", "rel": "contrast"},
+  {"to": "nigeria", "as": "A source market whose patients go to India and to London rather than south.", "rel": "contrast"},
+  {"to": "breast-augmentation", "as": "One of the operations the European end of this trade is built on.", "rel": "procedure"},
+  {"to": "ivf", "as": "Named as a draw for patients from across the continent.", "rel": "procedure"},
+  {"to": "who-travels", "as": "The regional patient this country's larger flow is made of, against the one the brochures show.", "rel": "story"},
+  {"to": "world-bank-tourism-arrivals", "as": "The series the survey share above is a percentage of.", "rel": "measured-by"},
+  {"to": "counting-patients", "as": "Why a share of arrivals who named a purpose is not a count of operations.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Wesgro medical travel study, with South African Tourism 2017 data", "url": "https://www.wesgro.co.za/uploads/files/Medical-Tourism-Study.pdf"}
+ ],
+ "sources": ["s:wesgro-medical-tourism-study", "s:crush-chikanda-2015", "s:natural-earth", "s:worldbank-open-data"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wesgro-medical-tourism-study"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:crush-chikanda-2015", "note": "the Crush and Chikanda finding is carried from the publisher's listing and flagged for verification; the closing reading is marked inline as inference"},
+   "text.how": {"tier": "tradition", "note": "the two routes as the trade describes them; the Cartwright remark is cited to the Wesgro study"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,109 @@
+{
+ "note": "The thirteen node types and how the directory groups each one. Order here is the order on the front page.",
+ "entries": [
+  {
+   "key": "destination",
+   "name": "Countries",
+   "one": "destination",
+   "path": "country",
+   "blurb": "Where people fly for treatment, what each country sells, and who counts the arrivals.",
+   "group_by": "region"
+  },
+  {
+   "key": "hub",
+   "name": "Cities",
+   "one": "hub",
+   "path": "city",
+   "blurb": "The clusters: a street of dental surgeries, a hospital district, a corridor of hair clinics.",
+   "group_by": "facets.iso2"
+  },
+  {
+   "key": "procedure",
+   "name": "Procedures",
+   "one": "procedure",
+   "path": "procedure",
+   "blurb": "The operations people cross borders for, what each one involves, and what it costs where.",
+   "group_by": "facets.family"
+  },
+  {
+   "key": "facility",
+   "name": "Hospitals and clinics",
+   "one": "facility",
+   "path": "hospital",
+   "blurb": "Named institutions with an international patient department, their beds, their accreditations, their published prices.",
+   "group_by": "facets.iso2"
+  },
+  {
+   "key": "pathway",
+   "name": "The journey",
+   "one": "step",
+   "path": "step",
+   "blurb": "Records, quotes, deposits, visas, interpreters, the flight home, the follow-up nobody booked.",
+   "group_by": "facets.stage"
+  },
+  {
+   "key": "risk",
+   "name": "Risks",
+   "one": "risk",
+   "path": "risk",
+   "blurb": "What goes wrong, how often anybody measures it, and who carries the cost when it does.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "rule",
+   "name": "Rules",
+   "one": "rule",
+   "path": "rule",
+   "blurb": "Visas, licensing regimes, entitlements, reimbursement, and the things a country will not do for a visitor.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "org",
+   "name": "Organizations",
+   "one": "organization",
+   "path": "org",
+   "blurb": "Accreditors, ministries, trade bodies, registries, the societies that write the standards.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "person",
+   "name": "People",
+   "one": "person",
+   "path": "person",
+   "blurb": "Surgeons, founders, regulators, researchers, patients who wrote it down.",
+   "group_by": "facets.role"
+  },
+  {
+   "key": "event",
+   "name": "Events",
+   "one": "event",
+   "path": "event",
+   "blurb": "The conferences, the rulings, the outbreaks, the years the field turned.",
+   "group_by": "facets.kind"
+  },
+  {
+   "key": "term",
+   "name": "Words",
+   "one": "word",
+   "path": "word",
+   "blurb": "Package price, facilitator, day case, DRG, graft, cycle, tariff — with roots.",
+   "group_by": "facets.letter"
+  },
+  {
+   "key": "dataset",
+   "name": "The data",
+   "one": "dataset",
+   "path": "dataset",
+   "blurb": "Every series this site draws a chart from, what it counts, and the sentence about what it does not count.",
+   "group_by": "facets.publisher"
+  },
+  {
+   "key": "story",
+   "name": "Stories",
+   "one": "story",
+   "path": "story",
+   "blurb": "Longer pieces: whether it is cheaper, who really travels, what the numbers cannot see.",
+   "group_by": "facets.kind"
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "schema": 1,
+ "id": "philippines",
+ "type": "destination",
+ "names": {
+  "name": "Philippines",
+  "aliases": [
+   "Republic of the Philippines",
+   "Pilipinas"
+  ],
+  "said": "The programme has a name — the Philippine Medical Tourism Program — and a list of hospitals. What it has never had is a number, and the government's own researcher said so in print."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "PH",
+  "direction": "both",
+  "currency": "PHP",
+  "languages": [
+   "English",
+   "Filipino"
+  ],
+  "draws": [
+   "dental-implant",
+   "lasik",
+   "rhinoplasty"
+  ]
+ },
+ "text": {
+  "what": "A country that exports clinicians and has never managed to import many patients. Prices are competitive with its Asian neighbours, English is the working language of medicine, and the inbound trade has stayed small — concentrated in about twenty hospitals, served largely by the Filipino diaspora returning home, and, on the state's own account, barely measured at all.",
+  "story": "The Philippine Institute for Development Studies, the government's own policy research body, published Oscar Picazo's assessment in October 2013. It is the most useful document in this record because of what it refuses to claim: \"The exact size of the market (number of medical tourists) and its revenue potential remain unclear, however, due to the absence of an agreed-upon definition of medical tourism.\"\n\nIts benchmarking table is blunter still. Against the benchmark for a standardised database system it records: \"Very weak; absence of key data; hesitance of private sector to share sensitive data.\" Against coordination: \"No medical tourism council or board; weak and informal coordination; too many offices and agencies involved (48), not counting private providers.\" Against marketing: the programme's \"lackluster performance\" is put down to its lack of a campaign.\n\nThe programme covered about twenty top-tier hospitals. A Long Stay Visitor Visa Extension good for 36 months was introduced in June 2013. Gross revenues for health and wellness activities ran to about 80 billion pesos in 2009 against costs of about 53 billion — a figure the note is careful to say covers the whole health and wellness industry, domestic included, not the spending of visiting patients.\n\n*Inference —* the study is thirteen years old and the specifics have moved. The structural finding has not: a country whose best-known health export is its nurses, whose private hospitals compete for a diaspora that is already coming home for Christmas, and whose state has no single body counting the trade, does not produce a national patient number.",
+  "how": "*Trade practice —* the inbound work is dental, eye surgery, cosmetic surgery and executive screening, bought in Metro Manila and Cebu, frequently by Filipinos living abroad who are also visiting family. Prices are quoted in pesos, packages are commoner in dentistry than in surgery, and the facilitator layer is thin because most patients already know the country.",
+  "today": "No official national count of foreign patients is carried on this page. The 2013 policy note remains the last government-published assessment read for this record."
+ },
+ "geo": {
+  "lat": 14.5995,
+  "lon": 120.9842,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "None carried, on the government's own advice. The Philippine Institute for Development Studies recorded in 2013 that the size of the market was unclear for want of an agreed definition, and rated the country's database system \"very weak\" with an \"absence of key data\". The figures that circulate for the Philippines come from trade summaries, and this record does not repeat them.",
+  "as_of": "2013",
+  "source": "s:pids-medical-tourism-2013",
+  "url": "https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidspn1311.pdf"
+ },
+ "kin": [
+  {
+   "to": "dental-implant",
+   "as": "One of the few procedures sold here to visitors at a published price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "lasik",
+   "as": "Eye surgery bought on short visits, often by returning Filipinos.",
+   "rel": "procedure"
+  },
+  {
+   "to": "thailand",
+   "as": "The neighbour that built the trade the Philippine programme was written to catch.",
+   "rel": "contrast"
+  },
+  {
+   "to": "malaysia",
+   "as": "The regional competitor with a council, a count, and a marketing budget.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A government research body writing down why it cannot give a number.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Forty-eight agencies, no register, no total.",
+   "rel": "story"
+  },
+  {
+   "to": "facilitator",
+   "as": "The layer that stayed thin here because the patients were already family.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Health-enhancing holidays — PIDS Policy Notes 2013-11",
+   "url": "https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidspn1311.pdf"
+  }
+ ],
+ "sources": [
+  "s:pids-medical-tourism-2013",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:pids-medical-tourism-2013"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:pids-medical-tourism-2013",
+    "note": "quotations are from the 2013 policy note; the closing paragraph is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:pids-medical-tourism-2013"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

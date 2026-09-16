@@ -1,0 +1,240 @@
+{
+ "schema": 1,
+ "id": "hair-transplant-fue",
+ "type": "procedure",
+ "names": {
+  "name": "Follicular unit extraction",
+  "aliases": [
+   "FUE",
+   "follicular unit excision",
+   "sapphire FUE",
+   "hair transplant"
+  ],
+  "said": "Clinics say FUE. The society that certifies the surgeons renamed it follicular unit excision, because nothing is extracted whole - a punch cuts around each follicular unit and the unit is lifted out. Sapphire FUE names the blade material used to make the recipient sites, not a different operation."
+ },
+ "etymology": {
+  "root": "follicle: Latin folliculus, a little bag, the diminutive of follis, a bellows or a leather sack. A follicular unit is the natural cluster of one to four hairs with its own gland and muscle; the unit, not the hair, is the thing counted and the thing sold.",
+  "first_attested": "",
+  "tier": "tradition",
+  "note": "graft and follicular unit are used interchangeably on price pages, and a graft may hold one hair or four. A quote of 4,000 grafts therefore describes an unknown number of hairs, which is the first ambiguity in every hair transplant price."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "hair",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "Follicular units are cut out of the back and sides of the scalp one at a time with a punch under a millimetre across, sorted under magnification, and placed into slits made in the bald area. The donor area is finite and does not regrow; a transplant moves hair, it does not make more. The operation takes most of a day under local anaesthetic, and the transplanted hairs shed before they grow.",
+  "story": "*Inference --* FUE is the operation that made Istanbul a destination, and the reason is arithmetic. The work is long, repetitive and labour-intensive, it needs no ward, no general anaesthetic and no implant, and its cost is almost entirely staff time. A trade built on staff time relocates to where staff time is cheaper, and it did.\n\nThe pricing unit is the graft, and that is where the comparison fails. Estenove in Istanbul states plainly that it does not price per graft: its packages run at 3,395, 4,595 and 6,595 euro for what the clinic describes as the maximum number of grafts necessary, with hotel nights, transfers, a PRP session and an aftercare kit inside the price. The same page quotes a per-graft range of 0.65 to 0.95 euro across Turkish clinics generally. In London, Wimpole Clinic publishes hair transplant prices from 3,499 pounds with pre-care, surgery and aftercare included and no VAT added.\n\nA per-graft price and a per-session price are two different contracts. Per graft, the number of grafts decides the bill, and the number is set by the seller after the sale. Per session, the bill is fixed and the number of grafts is set by the seller after the sale as well - but in the other direction. Wimpole's own mystery-shopper survey put one photograph of a man with Norwood stage 2-3 hair loss to 104 UK clinics and used the replies of 58: the recommended graft counts for the same head differed by 2,100 grafts, and the clinic's report states that in many cases the number of grafts recommended was inflated and the price per graft reduced to appear more competitive. Their averages: 4,820 pounds for a 1,500 graft procedure, 3.25 pounds per graft, with quotes running from 1,995 to 15,000 pounds.\n\nThe International Society of Hair Restoration Surgery has published a position statement on who does the cutting. In its words a properly trained and licensed physician or physician extender should perform the preoperative diagnostic evaluation and consultation, surgery planning and surgery execution - including donor hair harvesting, hairline design and recipient site creation - and it names three risks when unlicensed technicians do that work: misdiagnosis, failure to diagnose hair disorders and related systemic diseases, and unnecessary or ill-advised surgery. The statement is dated 10 January 2024, updated from September 2014.",
+  "how": "Local anaesthetic, one long day or two, no ward. The donor strip is shaved in most techniques; unshaven variants cost more and take longer. Grafts are counted out loud in some clinics and not in others, and the count on the invoice is the count the clinic states. Transplanted hairs fall out within weeks and regrow from three months; the result is judged at twelve to eighteen months, well after the patient has flown home. Redness and crusting last about ten days, which is what package hotel nights are built around.",
+  "today": "Three published prices sit on this record - a Turkish package, a London 'from' price, and a Dubai range - plus one clinic's published survey of 58 UK clinics quoting on the same photograph. The graft count, not the currency, is what makes them hard to compare.",
+  "notes": "This page describes an operation and how it is sold. It is not advice about having one."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "note": "Day case: no published package read for this record includes a hospital night, and the hotel nights in Turkish packages are accommodation rather than ward stay. No graft-survival figure is carried here; clinics publish their own, none of the sources read for this record published one measured against a defined population.",
+  "as_of": "2026-09-16",
+  "source": "s:estenove-cost",
+  "url": "https://www.estenove.com/hair-transplant-cost-istanbul-turkey/"
+ },
+ "prices": [
+  {
+   "procedure": "hair-transplant-fue",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 3395,
+   "amount_high": 6595,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "a fixed session rather than a graft count: in the clinic's words, the maximum number of grafts necessary for the procedure at a fixed price",
+    "MD participation in extraction and incision",
+    "anaesthesia",
+    "a PRP session",
+    "hotel accommodation, three to four nights depending on package",
+    "VIP transfer",
+    "aftercare kit",
+    "18 months of aftercare support"
+   ],
+   "excludes": [
+    "flights",
+    "anything the clinic bills after the session"
+   ],
+   "source": "s:estenove-cost",
+   "url": "https://www.estenove.com/hair-transplant-cost-istanbul-turkey/",
+   "note": "three packages at 3,395, 4,595 and 6,595 EUR. The same page quotes a general Turkish per-graft range of 0.65 to 0.95 EUR and states that at this clinic the patient does not pay per graft.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hair-transplant-fue",
+   "country": "GB",
+   "city": "London",
+   "amount": 3499,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "pre-care, surgery and aftercare, in the clinic's words",
+    "a stimulating laser session"
+   ],
+   "excludes": [
+    "nothing named: the page states there are no hidden costs, no added VAT and nothing extra for medication"
+   ],
+   "source": "s:wimpole-prices",
+   "url": "https://wimpole.com/prices-how-much-does-hair-transplant-cost/",
+   "note": "listed as 'from'. The same clinic states its average procedure runs between 3,500 and 7,000 GBP.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hair-transplant-fue",
+   "country": "GB",
+   "amount": 4820,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "survey",
+   "includes": [
+    "the average quoted for a 1,500 graft procedure across the clinics that replied"
+   ],
+   "excludes": [
+    "not applicable: this is a survey figure, not a bill"
+   ],
+   "source": "s:wimpole-uk-cost-survey",
+   "url": "https://wimpole.com/blog/hair-transplant-cost-uk-analysis/",
+   "note": "one clinic's own mystery-shopper survey: the same photograph of a Norwood stage 2-3 patient sent to 104 UK clinics, replies used from 58. Average 3.25 GBP per graft, quotes from 1,995 to 15,000 GBP, and a 2,100 graft spread in what the same head was told it needed.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hair-transplant-fue",
+   "country": "AE",
+   "city": "Dubai",
+   "amount": 12000,
+   "amount_high": 35000,
+   "currency": "AED",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "surgeon fees, anaesthesia, facility charges, graft extraction and implantation, and post-operative care including medications and follow-up visits, in the group's own words"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:dhi-dubai-cost",
+   "url": "https://www.dhiinternational.com/cost-of-hair-transplant-in-dubai-dhi-medical-group/",
+   "note": "the group's stated range for FUE in Dubai; it quotes FUT at 10,000 to 25,000 AED on the same page",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {
+   "to": "dhi-hair-transplant",
+   "as": "The same operation with a branded implanter pen doing the placing, priced as a tier above it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fue",
+   "as": "The three letters, and what the society that certifies the surgeons renamed them.",
+   "rel": "term"
+  },
+  {
+   "to": "graft",
+   "as": "The unit this operation is priced in, and the one that is routinely inflated.",
+   "rel": "term"
+  },
+  {
+   "to": "istanbul",
+   "as": "The city this operation built, and which built it.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "The destination whose hair trade is the largest single procedure market in cross-border care.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "as": "The years the corridor formed.",
+   "rel": "event"
+  },
+  {
+   "to": "ishrs",
+   "as": "The society whose position statement names who should be cutting.",
+   "rel": "org"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "Where before-and-after photography and graft-count claims are regulated, and where they are not.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where a photograph produces a graft number, and the number produces the price.",
+   "rel": "step"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "A source market whose own clinics publish what they quote, and what their competitors quote.",
+   "rel": "destination"
+  },
+  {
+   "to": "uae",
+   "as": "A second destination pricing the same operation in a different currency and a wider range.",
+   "rel": "destination"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "dhi-hair-transplant",
+   "tell": "DHI is a trademarked variant of this operation using an implanter pen, not a separate procedure; clinics price it as an upgrade."
+  }
+ ],
+ "links": [
+  {
+   "label": "Estenove package prices",
+   "url": "https://www.estenove.com/hair-transplant-cost-istanbul-turkey/"
+  },
+  {
+   "label": "ISHRS statement on unlicensed technicians",
+   "url": "https://ishrs.org/beware-of-unlicensed-technicians-performing-hair-restoration-surgery/"
+  },
+  {
+   "label": "Wimpole Clinic UK cost survey",
+   "url": "https://wimpole.com/blog/hair-transplant-cost-uk-analysis/"
+  }
+ ],
+ "sources": [
+  "s:estenove-cost",
+  "s:wimpole-prices",
+  "s:wimpole-uk-cost-survey",
+  "s:dhi-dubai-cost",
+  "s:ishrs-unlicensed-technicians"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wimpole-uk-cost-survey",
+    "note": "prices and the survey are read off the named pages; the opening paragraph on why the trade relocated is this project's reading and is marked in the record as such"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the ten-day crusting figure is the trade's, and the hotel nights are cited to the package"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Follicular unit extraction.jpg",
+  "File:Hair transplant donor area.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "revision",
+ "names": {
+  "name": "Revision",
+  "aliases": [
+   "revision surgery",
+   "redo",
+   "corrective surgery",
+   "revision arthroplasty"
+  ],
+  "said": "Surgeons say revision. Package pages say it too, and usually mean something narrower than the patient does."
+ },
+ "etymology": {
+  "root": "revision, 1610s, \"act of looking over again, re-examination and correction\", from French révision, from Late Latin revisionem; behind it the verb revise, 1560s, from Latin revisere, to look at again, a frequentative of revidere. The surgical sense keeps the literal one: the operation is looked at again, and cut again.",
+  "first_attested": "1610s for the noun; 1560s for the verb",
+  "tier": "cited",
+  "source": "s:etymonline-revision",
+  "note": "On a price page revision usually means the same surgeon correcting his own result within a stated window. A revision done at home by somebody else is a different event with a different payer."
+ },
+ "text": {
+  "what": "A second operation on the site of a first: an implant replaced, a nose re-cut, a sleeve converted, a graft redone. In cross-border care it is the event that decides who actually paid for the treatment, because the first price almost never covers it and the second surgeon is usually in another country.",
+  "story": "The revision is the only part of this subject with a running set of published costs, because publicly funded systems that pay for it have a reason to count. Five UK plastic surgery units have published their own ledgers. A London teaching hospital costed 24 patients surgically managed between 2006 and 2018 for complications of cosmetic surgery abroad at USD 406,233, a mean of USD 16,296 each. A Birmingham tertiary centre costed 29 patients between 2020 and 2025 at £518,058.47, a mean of £17,864, with 82.8% of the original procedures done in Türkiye and nearly half the presentations being repeat attendances.\n\n*Inference —* a revision is harder than the original for reasons unrelated to the first surgeon's skill: the operative note is missing, the device model is unknown, the organism may be atypical, and the tissue has been cut once already. Where a device is involved, it is bought a second time.",
+  "how": "Three questions separate a revision clause that means something from one that does not: whether it is a contractual term with a duration, whether it requires the patient to fly back, and who pays the fare. The General Medical Council requires a doctor on its register to say at the outset what revision or routine follow-up might cost. That duty binds the register, not the surgeon abroad.",
+  "today": "As of 17 September 2026 no country publishes a national figure for revisions after treatment abroad, and no destination publishes what its own clinics spend on them. The published series are single-hospital counts of the patients who reached one hospital."
+ },
+ "kin": [
+  {
+   "to": "revision-at-home",
+   "as": "The risk this word names, with the published ledgers behind it.",
+   "rel": "risk"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "The face operation revised more often than any other, and the first price never covers it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The space a revision falls into when nobody at home agreed to see the patient.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The form of price whose revision clause is the fine print that matters most.",
+   "rel": "term"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step in the journey this word belongs to.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-revision",
+  "s:thacoor-nhs-cost-2019",
+  "s:mafi-cosmetic-tourism-cost-2026",
+  "s:gmc-cosmetic-interventions"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the three questions are this project's; the GMC duty is cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "R"
+ }
+}

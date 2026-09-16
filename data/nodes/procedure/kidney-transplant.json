@@ -1,0 +1,86 @@
+{
+ "schema": 1,
+ "id": "kidney-transplant",
+ "type": "procedure",
+ "names": {
+  "name": "Kidney transplant",
+  "aliases": ["renal transplant", "renal transplantation", "kidney graft"],
+  "said": "Nephrologists say living or deceased donor first and everything else second, because that distinction sets the waiting time, the outcome and, across a border, the law. Brokers say kidney transplant package and name neither."
+ },
+ "etymology": {
+  "root": "graft: from Old French greffe, ultimately Greek graphion, a stylus — the shoot cut for grafting was named for the shape of a writing stylus. Allograft: Greek allos, other, plus the same word; the organ is another person's tissue and the body knows it. Renal: Latin ren, kidney.",
+  "tier": "tradition",
+  "note": "financial neutrality is the term of art for the line between lawful reimbursement and purchase: the Declaration of Istanbul defines it as donors and their families neither losing nor gaining financially by donating."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "transplant",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A kidney from a living or a deceased donor is placed in the recipient's lower abdomen and plumbed into the iliac vessels and the bladder; the recipient's own kidneys are usually left in place. It replaces dialysis rather than curing the disease that destroyed the kidneys, and it commits the recipient to immunosuppressant drugs and monitoring for as long as the graft works. A living donor has a healthy organ removed and gains nothing clinically by it.",
+  "story": "Two people are operated on, and only one of them is ill. That is what makes this the hardest subject in cross-border care, and it is why the law, rather than the price, is the first thing on this page.\n\nThe standing international statement is the Declaration of Istanbul on Organ Trafficking and Transplant Tourism, agreed by 151 participants in Istanbul in April 2008, published in The Lancet on 5 July 2008 and revised in Madrid in July 2018. Its definitions do the work. \"Travel for transplantation is the movement of persons across jurisdictional borders for transplantation purposes.\" It \"becomes transplant tourism, and thus unethical, if it involves trafficking in persons for the purpose of organ removal or trafficking in human organs, or if the resources (organs, professionals and transplant centres) devoted to providing transplants to non-resident patients undermine the country's ability to provide transplant services for its own population.\" Organ trafficking, in the same text, covers \"removing organs from living or deceased donors without valid consent or authorisation or in exchange for financial gain or comparable advantage to the donor and/or a third person\", and also the soliciting or recruiting of donors or recipients \"where carried out for financial gain or comparable advantage\". Crossing a border for a transplant is not, by that text, wrong in itself. Buying the organ is.\n\nThe World Health Organization says the same thing as a rule rather than a definition. Guiding Principle 5, endorsed by the Sixty-third World Health Assembly in May 2010: \"Cells, tissues and organs should only be donated freely, without any monetary payment or other reward of monetary value. Purchasing, or offering to purchase, cells, tissues or organs for transplantation, or their sale by living persons or by the next of kin for deceased persons, should be banned.\" The same principle permits \"reimbursing reasonable and verifiable expenses incurred by the donor, including loss of income\", which is the line every national statute has to draw somewhere.\n\nNational law then diverges, and it diverges on two separate questions. Whether a non-resident may be transplanted at all, and whether a living donor unrelated to the recipient may donate. Some countries permit both under conditions — an authorisation committee, a documented relationship, a ministry approval. Some permit transplantation of residents only. Commercial purchase is prohibited nearly everywhere: in the United States the National Organ Transplant Act makes it \"unlawful for any person to knowingly acquire, receive, or otherwise transfer any human organ for valuable consideration for use in human transplantation if the transfer affects interstate commerce\", while excluding from valuable consideration the reasonable costs of removal, transport and storage and the donor's \"travel, housing, and lost wages\". The country-by-country reading, one named instrument and one date at a time, sits on this directory's transplant prohibition page.\n\nOn scale, the figure most often repeated comes from the Declaration's own preamble, and it is old: \"In 2007 it was estimated that up to 10% of transplants worldwide involved such practices\", citing a provisional picture assembled by Shimazono in the Bulletin of the World Health Organization. It was a reconstruction from fragmentary reporting, its author said so, and nothing better has replaced it here.",
+  "how": "General anaesthesia, three to five hours, and a ward stay that is short by the standards of major surgery: Milliman's 2025 estimate of the average US hospital stay is 7.5 days, against 20.2 for a liver. Immunosuppression starts at once and does not stop. Rejection is commonest early; infection is the price of the drugs that prevent it. What the published literature records about grafts obtained abroad through commercial routes is worse on every axis. A Riyadh centre compared 60 patients who had been transplanted abroad with 254 transplanted locally between January 2015 and December 2018: delayed graft function 18.3% against 6.3%, acute rejection 40% against 7.9%, and graft failure at three years 11.7% against 0.8%, with \"higher posttransplant infection in general\" and more urological complications. The US Centers for Disease Control's account of what travels with the patient is that donors \"might not be screened as thoroughly\", that organs \"might be obtained using unethical means\", and that recipients \"may not receive adequate follow-up, including documentation from their surgeons\". A transplant with no operative note is a lifelong medical problem for whoever inherits the patient.",
+  "today": "The only price read for this record on 16 September 2026 is an American actuarial estimate. Milliman puts average 2025 US billed charges for a kidney transplant at 446,800 dollars across the window from 30 days before admission to 180 days after discharge, of which procurement — recovering, preserving and transporting the organ — is 135,400 and the transplant admission itself 142,500. The report states that billed charges \"are unlikely to equal the actual amount paid\". No hospital price for a self-paying foreign recipient was read here, and a price quoted for an operation whose second participant is a living donor is not a comparable object in any case.",
+  "notes": "This page describes an operation and reports what published instruments and studies say about it. It is not medical advice and it is not legal advice, and it does not say what any reader should do."
+ },
+ "metrics": {
+  "stay_days": 7.5,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "Milliman's estimated 2025 US average hospital length of stay, from claims data rather than a protocol. No published wait before flying was read for this record; the constraint after a kidney transplant is the immunosuppression and the monitoring, not the flight.",
+  "as_of": "2025",
+  "source": "s:milliman-transplant-2025",
+  "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization"
+ },
+ "prices": [
+  {
+   "procedure": "kidney-transplant",
+   "country": "US",
+   "amount": 446800,
+   "currency": "USD",
+   "as_of": "2025",
+   "kind": "estimate",
+   "includes": ["30 days pretransplant, $30,900", "procurement, $135,400", "hospital transplant admission, $142,500", "physician services during the admission, $22,100", "180 days posttransplant discharge, $88,200", "outpatient immunosuppressants and other prescriptions, $27,700"],
+   "excludes": ["anything outside the window of 30 days before admission to 180 days after discharge", "immunosuppressants past that window, which the recipient takes for the life of the graft", "the difference between a billed charge and a negotiated rate"],
+   "source": "s:milliman-transplant-2025",
+   "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization",
+   "note": "an actuarial estimate of US average billed charges, not a quoted price. Procurement is the second largest line and is the one that has no equivalent on any other price page in this directory.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "liver-transplant", "as": "The same law, the same donor question, a longer operation and four times the bill.", "rel": "kin"},
+  {"to": "transplant-prohibition", "as": "Where the country-by-country law sits: one named instrument, one date, one jurisdiction at a time.", "rel": "governed-by"},
+  {"to": "transplant-harm", "as": "What the published follow-up records about grafts bought abroad, for the recipient and for the donor.", "rel": "risk"},
+  {"to": "declaration-of-istanbul-group", "as": "Keeps the standing international text this page quotes, and revised it in 2018.", "rel": "org"},
+  {"to": "istanbul-declaration-2008", "as": "The Istanbul summit of April 2008, where the definitions on this page were agreed.", "rel": "event"},
+  {"to": "who", "as": "Guiding Principle 5, endorsed by the World Health Assembly in 2010, is the rule the statutes are written against.", "rel": "org"},
+  {"to": "bone-marrow-transplant", "as": "The other transplant here where a healthy second person takes the risk.", "rel": "kin"},
+  {"to": "bloodborne-virus", "as": "What an unscreened donor can transmit with the graft.", "rel": "risk"},
+  {"to": "malpractice-recourse", "as": "Who answers for an operation performed where the recipient cannot sue and the donor cannot be found.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "A graft that arrives home without an operative note, and a clinic that must take it on anyway.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "dialysis-holiday", "tell": "Dialysis abroad is a booked treatment slot on a trip. A transplant abroad is an operation on two people, one of whom is not the traveller."}
+ ],
+ "links": [
+  {"label": "The Declaration of Istanbul, 2018 edition", "url": "https://www.declarationofistanbul.org/the-declaration"},
+  {"label": "WHO Guiding Principles on Human Cell, Tissue and Organ Transplantation (WHA63.22, 2010)", "url": "https://iris.who.int/server/api/core/bitstreams/53e1102b-4874-49bf-97bc-c529b1c246f0/content"},
+  {"label": "42 U.S. Code § 274e", "url": "https://www.law.cornell.edu/uscode/text/42/274e"}
+ ],
+ "sources": ["s:doi-2018-text", "s:declaration-of-istanbul", "s:who-guiding-principles", "s:usc-42-274e", "s:milliman-transplant-2025", "s:altheaby-transplant-tourism-2022", "s:cdc-yellowbook-2026-medical-tourism"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:doi-2018-text", "note": "every quotation is from the named instrument; the 10% figure is carried as the Declaration carries it, with its 2007 date and its provisional method stated"},
+   "text.how": {"tier": "cited", "source": "s:altheaby-transplant-tourism-2022"},
+   "prices": {"tier": "cited", "source": "s:milliman-transplant-2025"},
+   "etymology": {"tier": "tradition"}
+  }
+ },
+ "x_commons_files": ["File:Kidney transplant.svg", "File:Renal transplant surgery.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

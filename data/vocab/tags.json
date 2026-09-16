@@ -1,0 +1,27 @@
+{
+ "note": "Tag keys a facility, hub or destination record may carry. Each tag names the source it came from. Tier cited = a named page; harvested = a public register or dataset fetched by a tool; field = someone stood there. The validator currently rejects a tag at the tradition and inference tiers.",
+ "entries": [
+  {"key": "international-office", "label": "International patient office", "icon": "✈", "group": "service", "evidence": "the hospital's own international-patient page, or a directory entry naming the department"},
+  {"key": "interpreter", "label": "Interpreters on staff", "icon": "🗣", "group": "service", "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report"},
+  {"key": "price-published", "label": "Publishes prices", "icon": "💰", "group": "money", "evidence": "a public price list or package page on the facility's own site, read on a dated visit"},
+  {"key": "no-price-published", "label": "No published price", "icon": "—", "group": "money", "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit"},
+  {"key": "package", "label": "Sells packages", "icon": "🧳", "group": "money", "evidence": "a bundled price on the facility's own page covering more than the operation"},
+  {"key": "insurer-direct", "label": "Bills foreign insurers", "icon": "📄", "group": "money", "evidence": "the facility names the insurers or schemes it bills directly"},
+  {"key": "public-hospital", "label": "Public hospital", "icon": "🏛", "group": "ownership", "evidence": "a ministry register, a national health service list, or the hospital's own statement"},
+  {"key": "university-hospital", "label": "University hospital", "icon": "🎓", "group": "ownership", "evidence": "the affiliated university's own page or the hospital's charter"},
+  {"key": "chain", "label": "Part of a hospital group", "icon": "🔗", "group": "ownership", "evidence": "the group's own list of hospitals, or a filing naming the parent"},
+  {"key": "listed-company", "label": "Publicly listed", "icon": "📈", "group": "ownership", "evidence": "an exchange listing or an annual report"},
+  {"key": "transplant-programme", "label": "Transplant programme", "icon": "🫀", "group": "clinical", "evidence": "a national transplant registry, a ministry licence list, or the facility's own programme page"},
+  {"key": "paediatric", "label": "Treats children", "icon": "🧸", "group": "clinical", "evidence": "the facility's own paediatric department page or a ministry register"},
+  {"key": "teaching", "label": "Teaching hospital", "icon": "📚", "group": "clinical", "evidence": "a recognised training post list or the hospital's own statement"},
+  {"key": "outcomes-published", "label": "Publishes outcomes", "icon": "📊", "group": "clinical", "evidence": "a registry submission, an annual clinical report, or a national outcome dataset naming the unit"},
+  {"key": "lgbtq-friendly", "label": "LGBTQ+ welcoming", "icon": "🌈", "group": "welcome", "evidence": "the facility's own statement, a named clinic programme, or a public directory of welcoming providers — read off one of those rather than inferred from a name or a photograph"},
+  {"key": "women-only", "label": "Women's hospital", "icon": "♀", "group": "welcome", "evidence": "the facility's own charter or a ministry register"},
+  {"key": "faith-based", "label": "Faith-founded", "icon": "✝", "group": "welcome", "evidence": "the founding body's own statement or the hospital's charter"},
+  {"key": "visa-support", "label": "Helps with the visa", "icon": "🛂", "group": "service", "evidence": "the facility or ministry names the letter or invitation it issues, with the visa class"},
+  {"key": "airport-transfer", "label": "Airport transfer", "icon": "🚘", "group": "service", "evidence": "the facility's own package terms"},
+  {"key": "recovery-hotel", "label": "Recovery accommodation", "icon": "🏨", "group": "service", "evidence": "the facility's own page naming the hotel or its own ward-hotel"},
+  {"key": "complication-cover", "label": "Complication cover included", "icon": "🛡", "group": "money", "evidence": "the written terms of the package, naming what is covered and for how long"},
+  {"key": "closed", "label": "Closed", "icon": "🔒", "group": "status", "evidence": "a closure notice, a ministry deregistration, or reporting that names the date"}
+ ]
+}

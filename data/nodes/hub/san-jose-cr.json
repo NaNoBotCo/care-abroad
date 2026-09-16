@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "san-jose-cr",
+ "type": "hub",
+ "names": {
+  "name": "San José, Costa Rica",
+  "aliases": ["San José", "the Central Valley"],
+  "said": "San Ho-SAY. The private hospitals sit in and around Escazú, west of the centre, which is also where the patients stay."
+ },
+ "region": ["central-america"],
+ "facets": {
+  "iso2": "CR",
+  "radius_km": 20,
+  "specialty": ["dentistry", "cosmetic surgery", "orthopaedics", "bariatric surgery", "ophthalmology"],
+  "draws": ["dental-implant", "all-on-four", "full-mouth-restoration", "facelift", "abdominoplasty", "breast-augmentation", "knee-replacement", "gastric-sleeve"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "Costa Rica's capital, in the Central Valley, with a municipal population of about 352,000 and a metropolitan area of more than two million. Its private hospitals sell dentistry, cosmetic surgery and orthopaedic work to North Americans, a trade that predates most of the Asian hubs in this directory and grew alongside the country's retirement and residency market rather than its beaches.",
+  "story": "The oldest institution in the cluster was a mission hospital. Hospital Clínica Bíblica opened in 1929 as the Hospital Clínico Bíblico, founded by Henry and Susan Strachan of what became the Latin American Mission, in a country where life expectancy was then around forty and the state hospital system did not yet reach most people. The Costa Rican Social Security system — the Caja — grew up around it, and the Bíblica became the largest private hospital in the country.\n\nWhat it sells abroad now is a hospital with a mark a North American recognises: the Bíblica states Joint Commission International accreditation on its own front page. What it does not sell is a number. Its quotation page invites a patient to choose a category — surgery and procedures, imaging, pharmacy, maternity — fill in a form, and wait for a call. Read on 16 September 2026 it printed no figure at all.\n\n*Inference —* that contrast is the point of putting San José beside Los Algodones. Both trade on price. One publishes it on a card in the window and the other treats it as the output of a consultation, and the difference is the product, not the candour: a crown is a thing with a price, and a knee is a thing with a patient attached.\n\n*Trade practice —* the sector has had a national promotion body for many years, PROMED, the country's council for providers serving international patients. Its domain now redirects to the Cámara Costarricense de la Salud, the Costa Rican health chamber, which this project records as an observation about the web and not as a statement about PROMED's status.",
+  "how": "Patients fly into Juan Santamaría, stay in Escazú or Santa Ana near the hospitals, and are seen on a consult-then-treat schedule over one to three weeks depending on whether the work is dental, cosmetic or orthopaedic. Facilitators are a large part of the market here and sit between the patient and the surgeon, which changes who holds the deposit and who answers when something goes wrong. Costs are quoted per case rather than published.",
+  "today": "As of 16 September 2026 Hospital Clínica Bíblica names its Joint Commission International accreditation on its own site and publishes no prices; the PROMED domain resolves to the Cámara Costarricense de la Salud."
+ },
+ "geo": {"lat": 9.9325, "lon": -84.08, "precision": "city", "source": "s:wp-san-jose-cr"},
+ "address": {"city": "San José", "area": "San José", "country": "CR"},
+ "tags": [
+  {"tag": "no-price-published", "source": "s:clinica-biblica-presupuestos", "tier": "cited", "note": "the largest private hospital in the country routes every enquiry through a quotation form; read 16 September 2026", "url": "https://www.clinicabiblica.com/es/presupuestos"},
+  {"tag": "faith-based", "source": "s:wp-clinica-biblica", "tier": "cited", "note": "founded 1929 by Henry and Susan Strachan of the Latin American Mission"}
+ ],
+ "kin": [
+  {"to": "costa-rica", "as": "The country this cluster is, for practical purposes, the whole of.", "rel": "destination"},
+  {"to": "clinica-biblica", "as": "The hospital the cluster is usually named for, and the oldest part of it.", "rel": "place"},
+  {"to": "hospital-cima-san-jose", "as": "The other large private hospital in the Escazú cluster.", "rel": "place"},
+  {"to": "promed", "as": "The national council that certifies providers here for international patients.", "rel": "accredits"},
+  {"to": "los-algodones", "as": "The opposite pricing habit at a comparable distance from the same market: a card in the window against a form and a callback.", "rel": "contrast"},
+  {"to": "dental-implant", "as": "The single commonest reason a North American books a flight to this valley.", "rel": "performs"},
+  {"to": "choosing-a-facilitator", "as": "The step that matters most here, because a facilitator stands between patient and surgeon in much of this market.", "rel": "step"},
+  {"to": "getting-a-quote", "as": "In this city that is a form and a telephone call, not a page.", "rel": "step"},
+  {"to": "jci", "as": "The mark the cluster's flagship hospital leads with.", "rel": "accredited-by"},
+  {"to": "the-price-that-isnt", "as": "A hospital that sells on price and prints none is the other half of that argument.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Hospital Clínica Bíblica", "url": "https://www.clinicabiblica.com/es-cr/"},
+  {"label": "Hospital Clínica Bíblica — presupuestos", "url": "https://www.clinicabiblica.com/es/presupuestos"}
+ ],
+ "sources": ["s:wp-san-jose-cr", "s:wp-clinica-biblica", "s:clinica-biblica", "s:clinica-biblica-presupuestos"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:wp-clinica-biblica", "note": "the founding is the encyclopedia article; the accreditation and quotation observations were read off the hospital's own pages on 16 September 2026; the last two paragraphs carry their own inline marks"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a Central American treatment trip, and the role facilitators play in it"}
+  }
+ },
+ "x_commons_files": ["File:San Jose Costa Rica.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

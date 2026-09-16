@@ -1,0 +1,62 @@
+{
+ "schema": 1,
+ "id": "phuket",
+ "type": "hub",
+ "names": {
+  "name": "Phuket",
+  "aliases": ["ภูเก็ต", "Phuket Town", "Mueang Phuket"],
+  "said": "Poo-ket, the h silent. The hospitals are not at the beaches: they are in and around Phuket Town, on the east side of the island, half an hour from Patong."
+ },
+ "region": ["southeast-asia"],
+ "facets": {
+  "iso2": "TH",
+  "radius_km": 15,
+  "specialty": ["cosmetic surgery", "gender-affirming surgery", "dentistry", "orthopaedics", "trauma", "health screening"],
+  "draws": ["rhinoplasty", "breast-augmentation", "liposuction", "vaginoplasty", "dental-implant"],
+  "languages": ["Thai", "English", "Russian", "Chinese"]
+ },
+ "text": {
+  "what": "A small cluster on the eastern side of Phuket island, in and just outside Phuket Town. Bangkok Hospital Phuket stands off Prayoon Soi in the Samkong quarter, north of the old town; Phuket International Hospital — Sirirot on Thai signage — sits at 44 Chalermprakiat Ror 9 Road in Wichit, about two kilometres south; Vachira Phuket, the Ministry of Public Health's provincial hospital, holds the town itself. The province has six hospitals in all, three of them private.",
+  "story": "Phuket's private hospitals were built for an island that received roughly ten million visitors in 2017 and where tourism made up about 80 per cent of provincial GDP, and for the hundred thousand or so foreigners estimated to have settled there. *Inference —* that is a different founding logic from Bangkok's. A hospital whose catchment is holidaymakers and residents starts with trauma, dive medicine, paediatrics and a twenty-four-hour emergency department, and adds elective surgery afterwards, rather than the other way round.\n\n*Trade practice —* what the island then sells to people who fly in on purpose is the short, recoverable operation that sits well beside a fortnight somewhere warm: cosmetic surgery, dentistry, laser eye work, and the gender-affirming surgery that Thai surgeons took up earlier than most. The pitch is recovery in a resort, and it is also the risk, because the aftercare is a taxi ride from a beach rather than a floor of a teaching hospital.\n\n*Inference —* the cluster is compact in a way Bangkok's is not. Three private hospitals within a few kilometres of one another is the whole of it, so a harvest set tight on Phuket Town catches the surgeries and dental practices strung between them and little that is irrelevant.",
+  "how": "The island trades in two directions at once. A resident or a visitor with an emergency arrives at whichever hospital is nearest and is billed on an itemised account. A patient who flew for a procedure is quoted in advance, usually as a package, and is often booked into a recovery hotel rather than kept on a ward. Insurance settlement for the first kind is routine; the second is almost always paid for out of pocket.",
+  "today": "As of 16 September 2026 no record in this directory carries a published price from a Phuket facility, and none of the island's hospitals is on this project's cast list yet. The harvest point sits between Bangkok Hospital Phuket and Phuket International, with a 15-kilometre radius that reaches Patong on the west coast and Thalang to the north.",
+  "notes": "Recovery beside a beach is described here, not recommended. This page is not medical advice."
+ },
+ "geo": {"lat": 7.9005, "lon": 98.372, "precision": "city", "source": "s:osm-nominatim"},
+ "address": {"city": "Phuket", "area": "Mueang Phuket District, Phuket Province", "country": "TH"},
+ "metrics": {
+  "note": "No inbound patient count is carried for this island. The province's tourism figure — about ten million visitors in 2017, roughly 80 per cent of provincial GDP — counts arrivals of every kind and says nothing about how many came for treatment.",
+  "as_of": "2017",
+  "source": "s:wp-phuket-province",
+  "url": "https://en.wikipedia.org/wiki/Phuket_Province"
+ },
+ "kin": [
+  {"to": "thailand", "as": "The country whose second cluster this is.", "rel": "whole"},
+  {"to": "bangkok", "as": "The capital cluster that sells the complex work this island refers upward to.", "rel": "contrast"},
+  {"to": "rhinoplasty", "as": "One of the short operations the island's private hospitals quote to people who fly in.", "rel": "procedure"},
+  {"to": "breast-augmentation", "as": "Sold here on the same recovery-in-a-resort footing.", "rel": "procedure"},
+  {"to": "vaginoplasty", "as": "Thai surgeons took this work up early, and some of it is quoted on the island.", "rel": "procedure"},
+  {"to": "dental-implant", "as": "The shopfront trade strung along the roads into Phuket Town.", "rel": "procedure"},
+  {"to": "flying-after-surgery", "as": "The wait before boarding, which matters more on an island whose patients arrive by air.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Recovery in a hotel means the six-week check is somebody else's, somewhere else.", "rel": "risk"},
+  {"to": "osm-facilities", "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.", "rel": "measured-by"}
+ ],
+ "links": [
+  {"label": "Bangkok Hospital Phuket", "url": "https://www.phukethospital.com/"},
+  {"label": "Phuket International Hospital", "url": "https://www.phuketinternationalhospital.com/"}
+ ],
+ "sources": ["s:osm-nominatim", "s:wp-phuket-province", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:osm-nominatim", "note": "streets read off OpenStreetMap address tags; the hospital count is the Phuket Province article"},
+   "text.story": {"tier": "tradition", "note": "the trade's account of what an island cluster sells; the inline marks say which stretches are inference"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "inference", "source": "s:osm-nominatim", "note": "the midpoint between the two private hospitals, not a point anybody published"}
+  }
+ },
+ "x_commons_files": ["File:Phuket Town Thalang Road.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

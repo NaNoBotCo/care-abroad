@@ -1,0 +1,70 @@
+{
+ "schema": 1,
+ "id": "liposuction",
+ "type": "procedure",
+ "names": {
+  "name": "Liposuction",
+  "aliases": ["lipoplasty", "suction-assisted lipectomy", "lipo", "body contouring"],
+  "said": "Clinics price it by area, and the definition of an area is the clinic's. Tumescent means the fat was flooded first with dilute local anaesthetic and adrenaline; power-assisted, ultrasound-assisted and laser-assisted name the machine."
+ },
+ "etymology": {
+  "root": "liposuction: Greek lipos, fat, plus Latin sugere, to suck. Lipectomy, the older word on hospital price lists, is fat plus ektome, a cutting out - a different operation, in which skin and fat are excised rather than aspirated.",
+  "tier": "tradition",
+  "note": "an area, a site and a zone are the same unit under three names, and no two clinics draw them the same way. A price 'per site' is uninterpretable until the page says what a site is."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "cosmetic",
+  "setting": "day-case",
+  "anaesthesia": "varies"
+ },
+ "text": {
+  "what": "Fat is broken up and aspirated through small cannulas passed under the skin, usually after the area has been flooded with dilute local anaesthetic and adrenaline. It removes fat, not weight and not skin: where skin has lost its recoil, the result is loose skin over a smaller volume. Large-volume removal is a physiologically bigger operation than the price pages suggest, and anaesthetic and fluid management is where the published complications cluster.",
+  "story": "Liposuction is the most-performed surgical cosmetic procedure in the American society's annual count, and the one whose price is hardest to compare across borders, because the unit is invented by the seller. Yanhee in Bangkok prices a tumescent site at 55,000 baht and names ten named regions at 66,000 to 74,000 with a night on the ward. Premier Clinic in Prague prices one MicroAire area from 19,500 koruna, two from 56,000, three from 72,500, four from 85,000 - a curve that says the second area is the expensive one. Artplastica in Poland lists fat aspiration from 12,000 zloty with no area count at all. The American society publishes 4,711 US dollars as a surgeon's fee with no theatre in it.\n\n*Inference --* four prices, four units. Comparing them requires a reader to know how many areas each covers, and only one of the four pages says.\n\nLiposuction also travels as an ingredient. Fat grafting to the buttock, to the breast and to the face all begin with a liposuction, and the harvest is priced inside those operations rather than beside them - which is why a buttock price and a liposuction price cannot be added together.",
+  "how": "Local anaesthesia with sedation for a small area, general for several; published Thai packages name one night, European day surgery is routine. Compression garments are worn for weeks. Swelling and firmness settle over months, and the contour at four weeks is not the contour at six months. Volume removed is the figure that changes the risk profile, and the safe ceiling in a single sitting is argued in the literature rather than fixed by one number.",
+  "today": "The four published prices on this record, read in September 2026, span 12,000 zloty to 74,000 baht per named region, plus a US surgeon's fee of 4,711 dollars. Each one prices a different quantity of the same operation.",
+  "notes": "This page describes an operation. It gives no advice about having one."
+ },
+ "metrics": {
+  "stay_days": 1,
+  "note": "One night is the stay printed beside every liposuction line on the Yanhee table read for this record; day-case liposuction under local anaesthesia is routine elsewhere and carries no ward stay at all. No complication rate is carried here: the published series measure by volume aspirated and by anaesthetic setting, which are not comparable to a single figure for the operation.",
+  "as_of": "2026-09-16",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {"procedure": "liposuction", "country": "TH", "city": "Bangkok", "amount": 55000, "amount_high": 74000, "currency": "THB", "as_of": "2026-09-16", "kind": "list", "includes": ["one site, tumescent technique, at the bottom of the range", "one night on the ward"], "excludes": ["not stated on the page"], "source": "s:yanhee-plastic-prices", "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/", "note": "55,000 THB per site tumescent; named regions - both arms, upper abdomen, lower abdomen, hip and waist per side, back - at 66,000 THB; outer and inner thighs and calves at 74,000 THB", "tier": "cited"},
+  {"procedure": "liposuction", "country": "CZ", "city": "Prague", "amount": 19500, "amount_high": 85000, "currency": "CZK", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["MicroAire liposuction, one area at the bottom of the range, four areas at the top"], "excludes": ["not stated on the page"], "source": "s:premier-clinic-prague-prices", "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/", "note": "one area from 19,500 CZK, two from 56,000, three from 72,500, four from 85,000. The jump from one area to two is larger than any step after it.", "tier": "cited"},
+  {"procedure": "liposuction", "country": "PL", "city": "Szczecin", "amount": 12000, "currency": "PLN", "as_of": "2026-09-16", "kind": "quoted-range", "includes": ["fat aspiration"], "excludes": ["hospitalisation, listed separately at 800 PLN a day", "the number of areas is not stated"], "source": "s:artplastica-cennik", "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/", "note": "listed as 'from', with the clinic's statement that prices are indicative", "tier": "cited"},
+  {"procedure": "liposuction", "country": "US", "amount": 4711, "currency": "USD", "as_of": "2026-09-16", "kind": "survey", "includes": ["surgeon fee only"], "excludes": ["anesthesia", "operating room facilities", "other related expenses"], "source": "s:asps-cost-liposuction", "url": "https://www.plasticsurgery.org/cosmetic-procedures/liposuction/cost", "note": "no year named on the page; the row carries the date it was read", "tier": "cited"}
+ ],
+ "kin": [
+  {"to": "bbl", "as": "The operation that begins with this one, and then injects what it harvested.", "rel": "part"},
+  {"to": "abdominoplasty", "as": "The operation that removes the skin this one leaves behind, and the one it is often sold beside.", "rel": "contrast"},
+  {"to": "breast-augmentation", "as": "Where the harvested fat goes when no implant is used.", "rel": "contrast"},
+  {"to": "thailand", "as": "Where the price is published per named region of the body.", "rel": "destination"},
+  {"to": "czechia", "as": "Where the price is published per area, with the area count on the page.", "rel": "destination"},
+  {"to": "united-states", "as": "The market whose published figure is a surgeon's fee rather than a price.", "rel": "destination"},
+  {"to": "anaesthetic-risk-unscreened", "as": "Large-volume aspiration is an anaesthetic problem as much as a surgical one.", "rel": "risk"},
+  {"to": "package-price", "as": "The form in which areas, garments and ward nights are bundled or not.", "rel": "term"},
+  {"to": "the-price-that-isnt", "as": "Four prices for one operation, each counting a different quantity.", "rel": "story"}
+ ],
+ "confusable_with": [
+  {"id": "abdominoplasty", "tell": "Liposuction takes fat through a cannula and leaves the skin; abdominoplasty cuts skin and fat away and moves the navel. Packages sometimes sell both under one word."}
+ ],
+ "links": [
+  {"label": "Premier Clinic Prague price list", "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/"}
+ ],
+ "sources": ["s:yanhee-plastic-prices", "s:premier-clinic-prague-prices", "s:artplastica-cennik", "s:asps-cost-liposuction"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "prices read off the four named pages; the comparison paragraph is marked as inference inline"},
+   "text.how": {"tier": "tradition"},
+   "etymology": {"tier": "tradition"}
+  }
+ },
+ "x_commons_files": ["File:Liposuction.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

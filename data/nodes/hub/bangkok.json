@@ -1,0 +1,173 @@
+{
+ "schema": 1,
+ "id": "bangkok",
+ "type": "hub",
+ "names": {
+  "name": "Bangkok",
+  "aliases": [
+   "กรุงเทพมหานคร",
+   "Krung Thep",
+   "Krung Thep Maha Nakhon"
+  ],
+  "said": "Krung Thep. In the trade Bangkok means two streets rather than a city: Sukhumvit, where Bumrungrad stands on Soi 3 and Samitivej on Soi 49, and New Phetchaburi, where Bangkok Hospital fills Soi Soonvijai."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "TH",
+  "radius_km": 25,
+  "specialty": [
+   "orthopaedics",
+   "cardiology",
+   "health screening",
+   "fertility",
+   "gender-affirming surgery",
+   "dentistry",
+   "oncology"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement",
+   "executive-health-screening",
+   "dental-implant",
+   "ivf",
+   "vaginoplasty"
+  ],
+  "languages": [
+   "Thai",
+   "English",
+   "Arabic",
+   "Japanese",
+   "Mandarin"
+  ]
+ },
+ "text": {
+  "what": "The private-hospital quarter of Bangkok runs along two corridors about four kilometres apart. Sukhumvit carries Bumrungrad at 33 Soi 3 in Watthana and Samitivej at 133 Soi 49 in Khlong Tan Nuea; New Phetchaburi carries Bangkok Hospital at 2 Soi Phetchaburi 47, the lane the taxis still call Soi Soonvijai, in Bang Kapi, Huai Khwang. Add the university hospitals — Siriraj across the river, Chulalongkorn at Rama IV — and the dental and cosmetic shopfronts strung between them, and the cluster is the densest concentration of fixed-price surgery sold to foreigners anywhere in Asia.",
+  "story": "The corridor grew outward from Sukhumvit, where the embassies, the serviced apartments and the Arabic-speaking quarter around Soi 3 already were. Bumrungrad opened there in 1980 and took Joint Commission International accreditation in 2002; Samitivej settled on Soi 49 in the Thonglor end, where about 40 per cent of its patients were reported to be non-Thai as of 2009. Bangkok Hospital, opened on 26 February 1972, sits off New Phetchaburi with 488 inpatient beds and grew into the hub of a listed hospital group rather than a single building.\n\n*Trade practice —* the corridors also explain the shape of the day. A patient staying in a Sukhumvit hotel can reach three hospitals, two dental groups and a laboratory without leaving the Skytrain, and the hospitals price and market against each other at that walking distance. Soi Soonvijai is the exception: the Bangkok Hospital campus is a compound of its own, reached by taxi, and its scale is the argument it makes.\n\n*Inference —* the second-order effect is a marketplace rather than a destination. Because a dozen hospitals quote against each other in the same few square kilometres, the package price with its inclusion and exclusion list became the local unit of account, and the exclusion list became the place a reader has to look.",
+  "how": "A Bangkok inquiry is answered by an international patient department, in English, Arabic, Japanese or Mandarin at the largest hospitals, with a quoted package naming the operation, the surgeon, the anaesthetist, a fixed number of ward nights and a list of what is billed on top. The implant, the imaging, the laboratory work and every night past the package are the usual exclusions. A deposit is taken before admission and the balance settled at discharge.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits between the Sukhumvit and New Phetchaburi corridors, with a 25-kilometre radius that reaches Siriraj and Chulalongkorn to the west and the Praram 9 and Vejthani hospitals to the east. Bumrungrad's published knee package and the prices beside it are read on the procedure pages, each with its own date.",
+  "notes": "This is a description of a district. Nothing here is advice about treatment or about where to have it."
+ },
+ "geo": {
+  "lat": 13.744,
+  "lon": 100.569,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "city": "Bangkok",
+  "area": "Watthana and Huai Khwang",
+  "country": "TH"
+ },
+ "kin": [
+  {
+   "to": "bumrungrad",
+   "as": "The hospital on Sukhumvit Soi 3 that the cluster is usually named for.",
+   "rel": "part"
+  },
+  {
+   "to": "bangkok-hospital",
+   "as": "The Soi Soonvijai campus off New Phetchaburi, the other pole of the cluster.",
+   "rel": "part"
+  },
+  {
+   "to": "samitivej",
+   "as": "The Soi 49 hospital at the Thonglor end of the Sukhumvit corridor.",
+   "rel": "part"
+  },
+  {
+   "to": "thailand",
+   "as": "The country this cluster does nearly all the work for.",
+   "rel": "whole"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Sold here at a published fixed price, implant billed separately.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The other joint on the same package pages.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The day-long screening package that fills the quiet end of these hospitals' order books.",
+   "rel": "procedure"
+  },
+  {
+   "to": "vaginoplasty",
+   "as": "Bangkok surgeons took this work early, and the city is still where much of it is quoted.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The unit of account a dozen hospitals within a few kilometres quote each other in.",
+   "rel": "term"
+  },
+  {
+   "to": "phuket",
+   "as": "The island cluster that sells a different mix to a different arrival.",
+   "rel": "contrast"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "Six hundred kilometres north, selling the long stay rather than the operation.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/"
+  },
+  {
+   "label": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-bumrungrad",
+  "s:wp-bangkok-hospital",
+  "s:wp-samitivej",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "streets and house numbers read off OpenStreetMap address tags and the hospitals' Wikipedia entries"
+   },
+   "text.story": {
+    "tier": "tradition",
+    "note": "the trade's account of why the two corridors formed; the inline marks say which stretches are inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the standard shape of an international patient department in this city"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "the midpoint between the Sukhumvit and New Phetchaburi anchors, not a point anybody published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Bumrungrad International Hospital.jpg",
+  "File:Sukhumvit Road Bangkok.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "id": "prague",
+ "type": "hub",
+ "names": {
+  "name": "Prague",
+  "aliases": [
+   "Praha"
+  ],
+  "said": "In the fertility trade Prague means egg donation, and the clinics say donor programme rather than donation because the donor is compensated and anonymous."
+ },
+ "region": [
+  "europe-central"
+ ],
+ "facets": {
+  "iso2": "CZ",
+  "radius_km": 15,
+  "specialty": [
+   "fertility",
+   "reproductive medicine",
+   "dentistry",
+   "cosmetic surgery",
+   "ophthalmology"
+  ],
+  "draws": [
+   "ivf",
+   "egg-donation",
+   "icsi",
+   "pgt",
+   "dental-implant"
+  ],
+  "languages": [
+   "Czech",
+   "English",
+   "German",
+   "Italian"
+  ]
+ },
+ "text": {
+  "what": "A capital of 1,407,084 people at the start of 2026, administered in 10 municipal and 22 administrative districts, with the fertility clinics that draw foreign patients spread across the inner districts — Vinohrady, Karlín, Smíchov — rather than gathered on one street. Prague's export is reproductive medicine: Czechia is one of the three European countries reporting the largest volumes of egg-donation cycles, and the patients arriving for them come from states where donation is scarcer, slower, or bound by rules that do not apply here.",
+  "story": "The number that anchors this record is a registry return rather than a market estimate. The European IVF-monitoring Consortium of ESHRE, reporting on 2019, collected 1,077,813 treatment cycles from 1,488 clinics in 40 countries, and named Spain, Czechia and Russia as the sources of the highest egg-donation volumes.\n\n*Inference —* that ranking is the whole Prague story in one line. A country of ten and a half million does not generate that volume from its own residents. The cycles are bought by people who flew in, and what they flew from is usually a shortage of donors or a rule about who may be one.\n\nThe rules on the other side of the transaction are the subject of the donor anonymity record, and they differ sharply across the short distances involved here — which is why the same treatment is described as routine in one country and unavailable in its neighbour. Surrogacy sits in a different position again: it is not regulated by a Czech statute, and is generally treated as lawful for that reason, which is a weaker footing than a permission.\n\nAn insured EU patient has a reimbursement route under Directive 2011/24/EU at the home tariff, with prior authorisation required for some categories. *Trade practice —* fertility clinics here price for the self-payer and quote in euros.",
+  "how": "*Trade practice —* the Prague donor cycle is sold as a programme: a video consultation, a donor matched on physical characteristics and blood group from a list the clinic holds, synchronisation, the donor's retrieval, fertilisation with the partner's or a donor's sperm, and one or two transfers, with the patient in the city for a few days around the transfer rather than for the cycle. Genetic testing of embryos is a priced extra. What the quote excludes is medication, freezing and storage, and the next attempt.",
+  "today": "As of 16 September 2026 this record carries no price row for Prague. The clinic pages read for this batch quoted programme prices without stating the date they were set.",
+  "notes": "Fifteen kilometres from the city point reaches Motol in the west and the outer administrative districts."
+ },
+ "geo": {
+  "lat": 50.0875,
+  "lon": 14.4214,
+  "precision": "city",
+  "source": "s:wp-prague"
+ },
+ "address": {
+  "city": "Prague",
+  "country": "CZ"
+ },
+ "kin": [
+  {
+   "to": "czechia",
+   "as": "The country whose egg-donation volume this city carries most of.",
+   "rel": "whole"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The treatment this city is known for, and the one its registry volume is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "The cycle the donation sits inside.",
+   "rel": "procedure"
+  },
+  {
+   "to": "pgt",
+   "as": "The priced extra on most programmes quoted here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "barcelona",
+   "as": "The other European donation centre, reporting larger volumes still.",
+   "rel": "contrast"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The rule that decides who arrives here and who does not.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The reimbursement route an insured EU patient can use, at the home tariff.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for what brings most of this city's fertility traffic.",
+   "rel": "term"
+  },
+  {
+   "to": "eshre",
+   "as": "The society whose registry return is the only count this record stands on.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "Unregulated here rather than permitted, which is a different footing from a licence.",
+   "rel": "governed-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "ART in Europe, 2019 (ESHRE EIM)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10694409/"
+  }
+ ],
+ "sources": [
+  "s:wp-prague",
+  "s:eshre-eim-2019",
+  "s:wp-surrogacy-laws",
+  "s:eu-directive-2011-24",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eshre-eim-2019",
+    "note": "the second paragraph is this project reasoning from the registry figure"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a donor programme; no single page read for this record states it"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-prague"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Vinohrady Prague street.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

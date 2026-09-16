@@ -1,0 +1,31 @@
+{
+ "note": "Known facet keys per type, with their known values. Open: an unknown value warns, never fails.",
+ "facets": {
+  "iso2": {"types": ["destination", "hub", "facility", "org", "event", "rule", "person", "story"], "values": []},
+  "letter": {"types": ["term"], "values": []},
+  "family": {"types": ["procedure"], "values": ["orthopaedic", "dental", "fertility", "bariatric", "cardiac", "ophthalmic", "cosmetic", "hair", "oncology", "neurological", "transplant", "gender-affirming", "diagnostic", "rehabilitation", "unproven"]},
+  "setting": {"types": ["procedure"], "values": ["day-case", "inpatient", "outpatient-course", "staged"]},
+  "anaesthesia": {"types": ["procedure"], "values": ["general", "regional", "sedation", "local", "none", "varies"]},
+  "ownership": {"types": ["facility"], "values": ["private", "public", "nonprofit", "university", "military", "mixed"]},
+  "specialty": {"types": ["facility", "hub"], "values": []},
+  "beds": {"types": ["facility"], "values": []},
+  "founded": {"types": ["facility", "org", "event", "hub"], "values": []},
+  "status": {"types": ["facility", "org", "event", "rule"], "values": ["open", "closed", "merged", "in-force", "repealed", "proposed", "suspended", "annual", "one-off", "unknown"]},
+  "stage": {"types": ["pathway"], "values": ["deciding", "booking", "before-you-fly", "on-arrival", "in-hospital", "going-home", "aftercare", "when-it-goes-wrong"]},
+  "kind": {
+   "types": ["risk", "rule", "org", "event", "story"],
+   "values": ["infection", "clinical", "legal", "financial", "travel", "ethical", "data",
+              "visa", "entitlement", "licensing", "prohibition", "reimbursement", "treaty", "advertising",
+              "accreditor", "regulator", "ministry", "trade-body", "registry", "professional-society", "ngo", "insurer", "facilitator",
+              "conference", "ruling", "outbreak", "turning-point",
+              "essay", "explainer", "method", "resources"]
+  },
+  "role": {"types": ["person"], "values": ["surgeon", "physician", "founder", "regulator", "researcher", "journalist", "patient", "administrator", "broker", "ethicist"]},
+  "publisher": {"types": ["dataset"], "values": []},
+  "direction": {"types": ["destination"], "values": ["inbound", "outbound", "both"]},
+  "currency": {"types": ["destination"], "values": []},
+  "languages": {"types": ["destination", "hub", "facility"], "values": []},
+  "draws": {"types": ["hub", "destination", "facility"], "values": [], "note": "the procedure ids this place is known for"},
+  "when": {"types": ["event"], "values": []}
+ }
+}

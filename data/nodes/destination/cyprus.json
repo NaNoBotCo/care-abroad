@@ -1,0 +1,69 @@
+{
+ "schema": 1,
+ "id": "cyprus",
+ "type": "destination",
+ "names": {
+  "name": "Cyprus",
+  "aliases": ["Κύπρος", "Kıbrıs", "Republic of Cyprus", "Κυπριακή Δημοκρατία"],
+  "said": "In the fertility trade Cyprus means two answers to the same question, twenty minutes apart. This record is the southern one: the Republic, the EU member, the licensing council."
+ },
+ "region": ["europe-south"],
+ "facets": {
+  "iso2": "CY",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": ["Greek", "English", "Turkish"],
+  "draws": ["ivf", "egg-donation", "icsi", "pgt"]
+ },
+ "text": {
+  "what": "An EU island whose fertility clinics work under a single national statute and a council that licenses them. The Republic of Cyprus runs medically assisted reproduction under the Law of 2015, 69(I)/2015, amended four times since, and a Council of Medically Assisted Reproduction that publishes the framework. The island's other jurisdiction, across the line, writes its own rules — which is the whole reason patients compare the two.",
+  "story": "The statute is recent and it has moved: 69(I)/2015 and then 194(I)/2015, 92(I)/2016, 113(I)/2018 and 166(I)/2023. A fertility law amended four times in eight years is a fertility law under pressure, and in a jurisdiction that treats foreign patients the pressure is partly external — every amendment changes who may be treated here rather than somewhere else.\n\nThe Republic is also one of the few EU countries that has taken a prior-authorisation system away rather than adding one: the Commission's data records Cyprus removing its regime, and for 2022 it lists Cyprus receiving 44 reimbursement requests for care not subject to prior authorisation and granting 43. That is the whole official cross-border traffic of the country, in both directions, for a year.\n\n*Inference —* the gap between 44 reimbursement claims and a clinic sector that advertises across Europe is the same gap that appears in every record in this batch. The Directive counts refunds. Fertility patients pay privately, so they are not in the table at all."
+ ,
+  "how": "Treatment is provided by units licensed under the 2015 law, and the Council of Medically Assisted Reproduction is the body that publishes the framework they work to. Clinics quote programmes in euro with medication outside; patients fly in for retrieval or transfer. A patient comparing the island's two sides is comparing two legal systems, not two price lists, and the tell is which authority licenses the clinic.",
+  "today": "The law in force in the Republic, as this record was written, is 69(I)/2015 as amended, most recently by 166(I)/2023. Nothing here describes the rules across the line; that is the north's own record."
+ },
+ "geo": {"lat": 35.1856, "lon": 33.3823, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "44 requests for reimbursement of care not subject to prior authorisation in 2022, 43 granted. Cyprus runs no prior-authorisation system, having removed it. No count of inbound fertility patients is published by the Republic that this project could read.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "legality": [
+  {
+   "country": "CY",
+   "status": "lawful-with-conditions",
+   "conditions": "Medically assisted reproduction is regulated by statute and practised through units working under the framework the Council of Medically Assisted Reproduction publishes; the terms have been amended four times since 2015.",
+   "instrument": "Medically Assisted Reproduction Law 69(I)/2015, as amended by 194(I)/2015, 92(I)/2016, 113(I)/2018 and 166(I)/2023",
+   "as_of": "2026-09-16",
+   "source": "s:cmar-cyprus",
+   "url": "https://cmar.org.cy/en/law_eng/",
+   "note": "the Council's own legal-framework page names the law and its amendments. This row records that the statute governs and is current; the detailed conditions inside it are for the donor-anonymity and surrogacy rule records, each with its own reading and date."
+  }
+ ],
+ "kin": [
+  {"to": "north-cyprus", "as": "The other half of the island and the other answer: same twenty-minute drive, different fertility law.", "rel": "contrast"},
+  {"to": "nicosia", "as": "The capital the two jurisdictions share, and the line runs through it.", "rel": "part"},
+  {"to": "ivf", "as": "The treatment its licensed units are built around.", "rel": "procedure"},
+  {"to": "egg-donation", "as": "The programme patients compare across the island's line.", "rel": "procedure"},
+  {"to": "donor-anonymity-law", "as": "The rule whose terms decide which side of the line a patient books.", "rel": "governed-by"},
+  {"to": "greece", "as": "The nearest comparable destination, with a court rather than a council at the centre.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route it applies with no prior-authorisation regime at all.", "rel": "governed-by"},
+  {"to": "circumvention", "as": "What a border twenty minutes wide does to a fertility law.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Council of Medically Assisted Reproduction — legal framework", "url": "https://cmar.org.cy/en/law_eng/"}
+ ],
+ "sources": ["s:cmar-cyprus", "s:ec-crossborder-2022", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:cmar-cyprus", "note": "the statute and amendment chain come from the Council's own page and the cross-border figures from the Commission; the closing paragraph is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the licensing point is cited; the programme shape is the trade's"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Nicosia Ledra Street crossing.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

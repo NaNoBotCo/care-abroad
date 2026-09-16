@@ -1,0 +1,82 @@
+{
+ "id": "getting-your-records",
+ "names": {
+  "name": "Getting your records out",
+  "aliases": [
+   "medical records request",
+   "records portability",
+   "subject access request"
+  ],
+  "said": "Data-protection lawyers say subject access. Hospitals say records release. Both mean the same envelope."
+ },
+ "facets": {
+  "stage": "deciding"
+ },
+ "x_order": 3,
+ "text": {
+  "what": "The patient asks the home health system for a copy of their own file — imaging, operation notes, pathology, drug list — so that a clinician in another country can read it. Two different bodies of law govern the request, and neither of them was written with a foreign surgeon in mind.",
+  "story": "In the European Union the right is squarely written. GDPR Article 15(3) states that \"The controller shall provide a copy of the personal data undergoing processing\", with a reasonable administrative fee permitted only for further copies. Article 20 adds portability — a structured, commonly used, machine-readable format, and direct transmission from one controller to another \"where technically feasible\" — but only where the processing rests on consent or on a contract and is carried out by automated means, which is not the footing most public hospital records sit on.\n\nDirective 2011/24/EU adds a health-specific right in both directions: the Member State of treatment must ensure patients are \"entitled to a written or electronic medical record\" of the treatment and \"access to at least a copy of this record\" (Article 4(2)(f)), and the Member State of affiliation must ensure patients have \"remote access to or have at least a copy of their medical records\" (Article 5(d)).\n\nIn the United States the instrument is 45 CFR § 164.524. A covered entity must act within 30 days, may take one 30-day extension on written notice, must provide the record \"in the form and format requested by the individual, if it readily producible in such form and format\", and may charge only \"a reasonable, cost-based fee\".\n\n*Inference —* none of those instruments reaches the second half of the journey. A patient travelling from a country with no equivalent statute has whatever the hospital's own policy gives, and a patient asking a hospital abroad for the record of what it did to them is asking under that country's law, not their own.",
+  "how": "What actually fails is mechanical. Imaging arrives as a disc in a viewer nobody abroad can open, or as a report without the images. Pathology sits as a block in a laboratory that releases it only to another laboratory. A thirty-day clock, lawful at home, lands after the flight. The file comes in a language the receiving surgeon does not read, and no one in the transaction owns the translation.\n\nThe CDC Yellow Book pushes the same request in the other direction, telling travellers to \"request copies of their overseas medical records in English\" and to hand them to whoever provides follow-up, and citing the American College of Surgeons on obtaining \"a complete set of medical records before returning home\".",
+  "today": "As of 16 September 2026 the legal right to a copy is strong in the EU and the United States and undocumented in much of the rest of the world as far as this project could read. What no instrument anywhere supplies is a format both ends can open and a translation somebody is responsible for."
+ },
+ "kin": [
+  {
+   "to": "second-opinion",
+   "as": "The step these records are usually collected for.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The same request made in the other direction, at the far end.",
+   "rel": "step"
+  },
+  {
+   "to": "patient-data-transfer",
+   "as": "The rule that governs moving a file across a border.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "Names the record right on both sides of an EU cross-border episode.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "What a record that never arrives becomes at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "informed-consent",
+   "as": "What the receiving surgeon is consenting the patient to without the file.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:gdpr-art-15",
+  "s:gdpr-art-20",
+  "s:hipaa-access-164-524",
+  "s:dir-2011-24-chapter-ii",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the failure modes are trade knowledge; the CDC paragraph is cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

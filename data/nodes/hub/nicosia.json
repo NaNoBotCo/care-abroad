@@ -1,0 +1,140 @@
+{
+ "schema": 1,
+ "id": "nicosia",
+ "type": "hub",
+ "names": {
+  "name": "Nicosia",
+  "aliases": [
+   "Lefkosia",
+   "Λευκωσία",
+   "Lefkoşa",
+   "North Nicosia"
+  ],
+  "said": "One city, two names, two health systems and two sets of rules. A clinic address here carries a side, and the side is the material fact."
+ },
+ "region": [
+  "europe-south",
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "CY",
+  "radius_km": 13,
+  "specialty": [
+   "fertility",
+   "reproductive medicine",
+   "oncology",
+   "hair restoration"
+  ],
+  "draws": [
+   "ivf",
+   "egg-donation",
+   "icsi",
+   "pgt"
+  ],
+  "languages": [
+   "Greek",
+   "Turkish",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A capital of 111,797 in its municipality and 256,119 across its urban area, cut through the middle by the United Nations buffer zone — the Green Line, named for the colour of the pen a UN officer drew it with. The southern half is the capital of the Republic of Cyprus; the northern half, Lefkoşa, is the de facto capital of Northern Cyprus, recognised only by Türkiye, and the Republic claims it. Fertility clinics operate on both sides under different regimes, and pedestrians cross at Ledra Palace, opened on 23 April 2003, and at Ledra Street, reopened on 3 April 2008.",
+  "story": "On the southern side the law is nameable and dated. Medically assisted reproduction is governed by the Medically Assisted Reproduction Law of 2015, 69(I)/2015, as amended by 194(I)/2015, 92(I)/2016, 113(I)/2018 and 166(I)/2023, and administered by a Council of Medically Assisted Reproduction. A treatment sold in the south sits inside that statute and inside the European Union.\n\nOn the northern side this project can name no equivalent instrument. That is a gap in what was read for this record, not a finding: the absence of a statute on this disk is not evidence that none exists, and the north's regime is left as no-data here rather than described.\n\n*Inference —* the buffer zone is the reason Nicosia belongs in a directory about cross-border care at all. Most clusters in this directory are a city with a price. This one is a city with a frontier running through it, where a treatment's lawfulness, its regulator, its recourse and its European Union membership can change inside a fifteen-minute walk.\n\n*Trade practice —* clinics on the northern side advertise to Turkish, Middle Eastern and British patients and quote in sterling or euros; clinics in the south advertise into the European market. Patients do cross, and the crossing is a border for legal purposes even where it takes a passport check and a few minutes.",
+  "how": "*Trade practice —* a Nicosia fertility programme is arranged remotely, quoted per cycle, and needs the patient present for a few days. What differs by side is not the clinical sequence but everything around it: which regulator holds the licence, which court hears a complaint, and whether a European reimbursement route exists at all.",
+  "today": "As of 16 September 2026 this record carries no price row and no legality row for the northern side. The southern legality question belongs to the surrogacy and donor anonymity records, which name their instruments; this record names the statute and leaves the reading to them.",
+  "notes": "Thirteen kilometres around the city point covers both municipalities and the crossings between them. An OpenStreetMap harvest at that radius returns facilities on both sides, and the map does not mark which regulator licensed them. This record's iso2 is CY because that is the only ISO 3166-1 code covering the city; the northern half has no code of its own, and a map coloured by iso2 will not show the line."
+ },
+ "geo": {
+  "lat": 35.1725,
+  "lon": 33.365,
+  "precision": "city",
+  "source": "s:wp-nicosia"
+ },
+ "address": {
+  "city": "Nicosia",
+  "country": "CY"
+ },
+ "kin": [
+  {
+   "to": "cyprus",
+   "as": "The state whose capital the southern half is, and whose 2015 statute governs treatment there.",
+   "rel": "whole"
+  },
+  {
+   "to": "north-cyprus",
+   "as": "The entity administering the northern half, whose regime this record does not describe because it could not read one.",
+   "rel": "whole"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment both sides of this city sell.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "as": "Sold here into the same European shortage that feeds Barcelona and Prague.",
+   "rel": "procedure"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "The question that changes most sharply across this city's buffer zone.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The other rule that decides which side of the line a patient books on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "What a journey across a line like this one is usually called.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Which court hears the complaint, and whether its judgment is recognised anywhere else.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Council of Medically Assisted Reproduction — legal framework",
+   "url": "https://cmar.org.cy/en/law_eng/"
+  }
+ ],
+ "sources": [
+  "s:wp-nicosia",
+  "s:wp-north-nicosia",
+  "s:cmar-cyprus",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cmar-cyprus",
+    "note": "paragraphs three and four are marked inline as inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-nicosia"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Ledra Street crossing Nicosia.jpg",
+  "File:Nicosia buffer zone.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

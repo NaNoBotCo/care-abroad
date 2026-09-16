@@ -1,0 +1,67 @@
+{
+ "schema": 1,
+ "id": "north-cyprus",
+ "type": "destination",
+ "names": {
+  "name": "Northern Cyprus",
+  "aliases": ["Kuzey Kıbrıs", "Turkish Republic of Northern Cyprus", "KKTC", "TRNC", "N. Cyprus"],
+  "said": "In the trade it is simply north Cyprus, and it means fertility clinics in Kyrenia and north Nicosia that answer in Turkish and English and quote in euro or sterling."
+ },
+ "region": ["europe-south"],
+ "facets": {
+  "iso2": "XN",
+  "direction": "inbound",
+  "currency": "TRY",
+  "languages": ["Turkish", "English"],
+  "draws": ["ivf", "egg-donation", "sperm-donation", "pgt", "icsi"]
+ },
+ "text": {
+  "what": "A fertility destination whose whole proposition is a legal line on a small island. Clinics in the north treat patients who cannot get the same treatment at home or in the Republic, work under the Turkish Cypriot Ministry of Health rather than the EU's framework, and sell to Britain, Turkey, the Gulf and Israel. The code this project carries for it is XN, which is what data/geo/countries.json holds for the territory it labels N. Cyprus, ISO3 CYN — not an ISO 3166-1 assignment but the mapping code the site's geometry uses.",
+  "story": "The north regulates assisted reproduction through its own ministry. The Ministry of Health publishes a regulation on assisted reproduction centres numbered 381/2016, made under Article 32 of the law governing those centres, and runs an assisted-reproduction system of its own inside its online services. The PDF the ministry hosts is a scan and its text could not be extracted for this record, so what is stated here is the title, the number and the fact of ministry licensing — not the terms inside it.\n\n*Trade practice —* what the clinics sell on is the difference from the south. The two jurisdictions on this island write separate rules on donation, on who may be treated and on what may be tested for, and a patient can be refused in one and accepted in the other after a twenty-minute drive through a checkpoint. The trade advertises exactly that, and reports of what is permitted here have changed more than once; this record names no specific permission, because none was read from an instrument.\n\n*Inference —* recognition is the practical problem for a patient, not a political one. A territory recognised by one state has no European reimbursement route, no EU contact point to complain to, and no professional register another country's regulator will check. What a patient gets instead is a clinic's own undertaking, enforceable where the clinic is."
+ ,
+  "how": "Programmes are quoted in euro or sterling as packages, with medication and travel outside; patients fly to Ercan through Türkiye or land at Larnaca in the Republic and cross by road. Payment is direct to the clinic, up front. No EU cross-border reimbursement applies, and a complaint has nowhere to go but the Turkish Cypriot ministry.",
+  "today": "The record carries no patient count: none is published that this project could read. The verifiable facts are a ministry, a regulation number, and a line across an island that makes two fertility markets out of one."
+ },
+ "geo": {"lat": 35.1950, "lon": 33.3650, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No inbound count. The north is not in the EU cross-border reporting, has no ESHRE registry return read for this record, and publishes no figure this project found. Absence here means not found, not absent.",
+  "as_of": "2026-09-16",
+  "source": "s:trnc-moh-art-tuzuk"
+ },
+ "legality": [
+  {
+   "country": "XN",
+   "status": "lawful-with-conditions",
+   "conditions": "Assisted reproduction centres operate under the Turkish Cypriot Ministry of Health, which publishes a regulation numbered 381/2016 made under Article 32 of the law on those centres. The regulation's terms were not read for this record: the ministry's copy is a scan.",
+   "instrument": "Üremeye Yardımcı Tedavi Merkezleri regulation 381/2016, made under Article 32 of the assisted reproduction centres law, Ministry of Health, Turkish Republic of Northern Cyprus",
+   "as_of": "2026-09-16",
+   "source": "s:trnc-moh-art-tuzuk",
+   "url": "https://saglik.gov.ct.tr/Portals/9/Uremeye_Yardimci_Tedavi_Merkezleri_381-2016_Madde_32_Altinda_Yapilan_Tuzuk.pdf",
+   "note": "the row records that a licensing regime exists and who runs it. It does not state what is permitted under it, and it should not be read as saying any particular treatment is lawful here."
+  }
+ ],
+ "kin": [
+  {"to": "cyprus", "as": "The same island under the other law, and the comparison that makes both markets.", "rel": "contrast"},
+  {"to": "nicosia", "as": "The divided capital: the crossing is inside it.", "rel": "part"},
+  {"to": "ivf", "as": "The treatment nearly every clinic here sells.", "rel": "procedure"},
+  {"to": "egg-donation", "as": "The programme patients cross the line for.", "rel": "procedure"},
+  {"to": "turkiye", "as": "The state whose flights, currency and medical profession the north runs on.", "rel": "kin"},
+  {"to": "donor-anonymity-law", "as": "The rule this territory writes for itself, separately from the Republic.", "rel": "governed-by"},
+  {"to": "malpractice-recourse", "as": "What is left when no EU contact point and no home regulator can reach the clinic.", "rel": "risk"},
+  {"to": "circumvention", "as": "A twenty-minute drive as a legal strategy.", "rel": "story"}
+ ],
+ "sources": ["s:trnc-moh-art-tuzuk", "s:cmar-cyprus", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:trnc-moh-art-tuzuk"},
+  "fields": {
+   "text.what": {"tier": "harvested", "source": "s:natural-earth", "note": "the XN code and the N. Cyprus label were read from data/geo/countries.json, which is built from Natural Earth"},
+   "text.story": {"tier": "cited", "source": "s:trnc-moh-art-tuzuk", "note": "first paragraph cited to the ministry's own published title; second marked trade practice, third marked inference"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Kyrenia harbour Cyprus.jpg"],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "medellin",
+ "type": "hub",
+ "names": {
+  "name": "Medellín",
+  "aliases": ["Medellin", "the Aburrá Valley"],
+  "said": "Me-de-YEEN, or Me-de-JEEN depending on who is saying it. Officially the Special District of Science, Technology and Innovation."
+ },
+ "region": ["south-america"],
+ "facets": {
+  "iso2": "CO",
+  "radius_km": 20,
+  "specialty": ["cosmetic surgery", "oncology", "dentistry", "cardiology", "transplant"],
+  "draws": ["bbl", "liposuction", "abdominoplasty", "breast-augmentation", "rhinoplasty", "facelift", "dental-implant", "hair-transplant-fue"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "Colombia's second city, 2.4 million people at the 2018 census in the Aburrá Valley, and the country's cosmetic surgery capital. Its export trade is body-contouring and dentistry sold to North Americans and to Colombians living abroad, run out of private clinics and out of one large hospital group with a dedicated international office.",
+  "story": "Clínica Las Américas Auna, on Diagonal 75B in the south-west of the city, runs an Oficina Internacional that is a useful specimen of what such a department actually publishes. Its pages are not clinical. They are: how to contact us; how to enter Colombia; the Colombian health visa; the yellow fever vaccination; the public holiday calendar; how to get here from the airport; safety advice; accommodation through a named partner; flights. The medicine is assumed and the logistics are the product.\n\nThe visa page states the rule plainly: a non-resident foreigner entering Colombia for medical treatment, and any companion, needs a health visa where the stay is expected to exceed ninety days, applied for through the Cancillería de Colombia. Below ninety days the ordinary visitor rules apply.\n\nThe group's own certifications page lists what it holds and who gave it: INVIMA good clinical practice under a named 2019 resolution, an AABB reaccreditation of the blood bank in 2022, College of American Pathologists recertification of the laboratory in 2022, a palliative care certification in 2020. Every row names an issuer and a year.\n\n*Inference —* Medellín's cosmetic sector is larger than any one hospital group and most of it is not visible in records of this kind. A city known abroad for buttock augmentation and liposuction is a city where the meaningful safety question concerns the clinics that publish nothing at all, and this directory has nothing cited to say about them.",
+  "how": "Patients fly into José María Córdova, stay near El Poblado or near the clinic, and are seen over one to three weeks. Body-contouring work is sold as a package with post-operative massage and garments, and the recovery — not the operation — is what sets the length of stay. The flight home is the constraint that matters most: a large-volume liposuction or a gluteal fat transfer is not a case for an early boarding pass.",
+  "today": "As of 16 September 2026 Clínica Las Américas Auna's international office publishes its entry, visa, vaccination and accommodation pages, and the group's certifications page dates each credential to its issuer and year."
+ },
+ "geo": {"lat": 6.2308, "lon": -75.5906, "precision": "city", "source": "s:wp-medellin"},
+ "address": {"street": "Diagonal 75B N. 2A-80/140", "city": "Medellín", "area": "Antioquia", "country": "CO"},
+ "tags": [
+  {"tag": "international-office", "source": "s:lasamericas-international", "tier": "cited", "note": "a named department handling entry, visas, vaccination, flights and accommodation for non-resident patients", "url": "https://www.lasamericas.com.co/oficina-internacional"},
+  {"tag": "visa-support", "source": "s:lasamericas-visa", "tier": "cited", "note": "the hospital's own page names the Colombian health visa and the ninety-day threshold", "url": "https://www.lasamericas.com.co/oficina-internacional/paso-a-paso/visa-medica-en-colombia"},
+  {"tag": "recovery-hotel", "source": "s:lasamericas-international", "tier": "cited", "note": "accommodation arranged through a named partner rather than in-house"}
+ ],
+ "kin": [
+  {"to": "colombia", "as": "The country whose cosmetic surgery trade is concentrated here.", "rel": "destination"},
+  {"to": "clinica-las-americas", "as": "The hospital group whose international office this record reads.", "rel": "place"},
+  {"to": "bogota", "as": "The other Colombian hub — cardiac and oncological where this one is cosmetic.", "rel": "contrast"},
+  {"to": "bbl", "as": "The operation this city is best known abroad for, and the one this directory keeps a separate mortality record on.", "rel": "performs"},
+  {"to": "liposuction", "as": "The base of the body-contouring trade here, sold with the garments and the massage.", "rel": "performs"},
+  {"to": "bbl-mortality", "as": "The reason the operation this city is known for is the one with a named death rate attached.", "rel": "risk"},
+  {"to": "flying-after-surgery", "as": "The constraint that sets the length of a body-contouring stay, not the operating time.", "rel": "risk"},
+  {"to": "the-visa", "as": "Colombia's health visa, needed past ninety days, with the hospital itself explaining it.", "rel": "step"},
+  {"to": "the-companion", "as": "Named in the visa rule here: a companion falls under the same requirement as the patient.", "rel": "step"},
+  {"to": "alone-after-discharge", "as": "What a body-contouring patient faces in a rented flat rather than a ward.", "rel": "risk"}
+ ],
+ "links": [
+  {"label": "Clínica Las Américas Auna — Oficina Internacional", "url": "https://www.lasamericas.com.co/oficina-internacional"},
+  {"label": "Visa médica en Colombia", "url": "https://www.lasamericas.com.co/oficina-internacional/paso-a-paso/visa-medica-en-colombia"}
+ ],
+ "sources": ["s:wp-medellin", "s:lasamericas-international", "s:lasamericas-visa"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:lasamericas-international", "note": "read off the hospital group's own pages on 16 September 2026; the last paragraph is marked as this project's reasoning and says what it cannot source"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a body-contouring trip; the length-of-stay driver is trade practice, not a cited protocol"}
+  }
+ },
+ "x_commons_files": ["File:Medellin skyline.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

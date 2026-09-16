@@ -1,0 +1,101 @@
+{
+ "schema": 1,
+ "id": "surrogacy",
+ "type": "procedure",
+ "names": {
+  "name": "Surrogacy",
+  "aliases": ["gestational surrogacy", "gestational carrier", "traditional surrogacy", "host surrogacy"],
+  "said": "US registers say gestational carrier. UK law says the surrogate, and calls her the mother until a court says otherwise. Agencies say journey, and price it as one."
+ },
+ "etymology": {
+  "root": "surrogate: Latin surrogare, to put in another's place — sub, in place of, plus rogare, to ask or propose, a word from Roman public law about substituting one officeholder for another. The pregnancy, not the parenthood, is what is substituted, and the two come apart in court.",
+  "tier": "tradition",
+  "note": "gestational surrogacy uses an embryo made from other people's gametes, so the surrogate is not genetically related to the child; traditional surrogacy uses her own egg. Statutes treat the two differently, and a price page usually means the first."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "fertility",
+  "setting": "staged",
+  "anaesthesia": "varies"
+ },
+ "text": {
+  "what": "A woman carries a pregnancy for someone else. In the usual form an embryo is created by IVF from the intended parents' or donors' gametes and transferred to her; she has no genetic link to the child. The medical part is a frozen embryo transfer, which is an outpatient appointment. Everything expensive and everything contested is elsewhere: the screening, the insurance, the compensation, the contract, and the legal step that moves parenthood from the woman who gave birth to the people who commissioned the pregnancy.",
+  "story": "Surrogacy is the case where the law does not merely change the price. It changes whether the thing exists.\n\nThe UK regulator states the English position in flat terms: a surrogate in the UK cannot be paid except for reasonable expenses; the agreement is not legally binding; the surrogate is the legal mother of the child unless a parental order is obtained, whatever the gametes were and whoever the intended parents are; and a foreign birth certificate naming the intended parents does not change any of that, because UK law recognises the surrogate as the legal parent until the order is made. Anything paid above reasonable expenses has to be authorised by the family court before an order can be granted.\n\nThe United States prices what England forbids. Circle Surrogacy publishes a fixed-cost programme at 189,500 US dollars covering agency fees, surrogate base compensation, screening, insurance and legal fees, with surrogate compensation stated at 60,000 to 75,000 dollars and above — and IVF and egg-donor costs explicitly outside the total, egg donors themselves running 30,000 to 60,000 dollars.\n\n*Inference —* the two paragraphs above are the same transaction viewed from two jurisdictions, and the gap between them is what generates the travel. Cohen's term for travelling to do lawfully abroad what is criminal at home is circumvention tourism; where the traveller feels pushed rather than pulled, Inhorn and Patrizio's word is exile. Which countries permit it, for whom, and under which instrument is the rule record's work, and it moves faster than any other law on this site."
+ ,
+  "how": "Priced as a programme, not a procedure, and the programme is mostly other people's fees. The published US total separates into agency fee, surrogate compensation, medical insurance for the surrogate and the baby, screening, and legal fees for both sides — and then sets the IVF itself and any egg donor outside the total, which is the single largest exclusion on any price in this batch. Payment is staged against events rather than months: 56,500 dollars at sign-on and 133,000 dollars at match, on the published schedule.\n\nThe legal facts that decide the destination are three. Whether surrogacy is lawful at all for a non-resident. Whether payment beyond expenses is lawful, which separates a compensated market from an altruistic one and roughly decides the supply of surrogates. And how parenthood transfers: a pre-birth order in the destination, an adoption, or a home-country parental order obtained after the family returns, which is the UK route and which no foreign document replaces. A fourth question decides whether the child can leave at all — nationality and travel documents — and it is where cross-border arrangements fail in practice rather than in principle.\n\nThe clinical bill is small beside all of this and is bought separately. Reprofit in Brno prices the consultation and preparation of a frozen transfer for a patient using a surrogate and the patient's own imported embryos at 680 EUR, with the transfer itself another 815 EUR: twice the fee for the same preparation without a surrogate, and still a rounding error against the programme price.",
+  "today": "As of September 2026 the one published all-in programme price read off a page for this record is 189,500 US dollars, with IVF and egg donation outside it. No European clinic page read for this batch publishes a surrogacy programme price; the Czech list prices only the embryo transfer and its preparation. The gap between a 189,500-dollar published total and an unpriceable one is a legal gap, not a market one.",
+  "notes": "This page describes an arrangement and the published prices and rules attached to it. It is not legal advice and it is not medical advice. Which countries allow this, for whom, is on the rule record with its instruments and dates."
+ },
+ "metrics": {
+  "success_rate_pct": null,
+  "note": "No success rate is carried: the registers read for this record count gestational-carrier transfers but do not publish a live-birth rate for them separately. The CDC's 2022 US national rows put 4.7% of all transfers as using a gestational carrier, rising with patient age from 3.1% under 35 to 9.6% over 40 — a share of transfers, not a share of patients and not a rate of anything succeeding.",
+  "as_of": "2022",
+  "source": "s:cdc-art-2022-summary",
+  "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye"
+ },
+ "prices": [
+  {
+   "procedure": "surrogacy",
+   "country": "US",
+   "amount": 189500,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["surrogate compensation and expenses", "surrogacy agency fees", "medical insurance for the surrogate and the baby", "surrogate screening costs", "legal fees for surrogacy", "parental legal rights"],
+   "excludes": ["IVF costs, paid directly to the clinic", "egg donor costs, stated at 30,000 to 60,000 USD"],
+   "source": "s:circle-surrogacy-cost",
+   "url": "https://www.circlesurrogacy.com/intended-parents/process/surrogacy-cost",
+   "note": "the agency's fixed-cost programme, read on 16 September 2026; the page carries no date of its own. Surrogate compensation is stated separately at 60,000 to 75,000 USD and above, inside the total. Payment is staged: 56,500 USD at sign-on, 133,000 USD at match. The exclusion of the IVF is the largest single exclusion on any price in this batch.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "surrogacy",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 680,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "list",
+   "includes": ["consultation and preparation of frozen embryo transfer treatment for a patient with a surrogate mother, using the patient's own imported embryos"],
+   "excludes": ["the frozen embryo transfer itself, listed at 815 EUR", "any arrangement with, or payment to, a surrogate"],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "the same preparation without a surrogate is listed at 340 EUR on the same page: the clinic charges double for the paperwork of a third party. This is a clinical fee, not a surrogacy programme price, and the list carries no other surrogacy line.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "surrogacy-law", "as": "The rule that decides whether this exists at all in a given country, for whom, and at what payment.", "rel": "governed-by"},
+  {"to": "ivf", "as": "The treatment that makes the embryo, priced and bought separately from the programme.", "rel": "part"},
+  {"to": "egg-donation", "as": "Frequently the other purchase in the same arrangement, and excluded from the programme price alongside the IVF.", "rel": "kin"},
+  {"to": "pgt", "as": "Commonly added to embryos before a carrier transfer, and charged per embryo.", "rel": "kin"},
+  {"to": "circumvention-travel", "as": "The name for crossing a border to do what home law forbids.", "rel": "term"},
+  {"to": "reproductive-exile", "as": "The word for the same journey told from the traveller's side.", "rel": "term"},
+  {"to": "hfea", "as": "Publishes the UK position this record quotes: expenses only, no binding agreement, and a parental order after the birth.", "rel": "governs"},
+  {"to": "united-states", "as": "Where the one published all-in programme price on this page is sold.", "rel": "destination"},
+  {"to": "malpractice-recourse", "as": "Whose court hears it when an arrangement across two jurisdictions fails.", "rel": "risk"},
+  {"to": "deposit-and-refund", "as": "The staged payments, and what is returned when a journey ends between them.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "egg-donation", "tell": "Donation moves a gamete and ends at the transfer; surrogacy moves a pregnancy and ends in a court. A country can allow the first and criminalise the second."}
+ ],
+ "links": [
+  {"label": "HFEA — surrogacy", "url": "https://www.hfea.gov.uk/treatments/explore-all-treatments/surrogacy/"},
+  {"label": "Circle Surrogacy — cost", "url": "https://www.circlesurrogacy.com/intended-parents/process/surrogacy-cost"}
+ ],
+ "sources": ["s:hfea-surrogacy", "s:circle-surrogacy-cost", "s:reprofit-pricelist-2026", "s:cdc-art-2022-summary", "s:cohen-circumvention-2012", "s:inhorn-patrizio-2009"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:hfea-surrogacy", "note": "the UK position and the US programme price are cited; the paragraph reading them against each other is marked Inference"},
+   "text.how": {"tier": "cited", "source": "s:circle-surrogacy-cost", "note": "the fourth point, on nationality and travel documents, is this project's summary of where such arrangements fail and is not attached to a named instrument here"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:cdc-art-2022-summary"},
+   "prices": {"tier": "cited", "source": "s:circle-surrogacy-cost"}
+  }
+ },
+ "x_commons_files": ["File:Pregnant woman silhouette.svg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,161 @@
+{
+ "id": "implant-excluded",
+ "names": {
+  "name": "The implant is excluded",
+  "aliases": [
+   "excluding implant",
+   "device billed separately",
+   "prosthesis not included"
+  ],
+  "said": "The package title says it out loud, in brackets, after the name of the operation."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "A fixed package price for an operation that installs a manufactured device, quoted without the device. The headline number covers theatre time, the surgical team, the anaesthetist and a stated number of ward nights; the component that will be screwed, cemented or seated into the patient is billed separately at a price the page does not give.",
+  "story": "The worked case sits on this site's knee record. Bumrungrad International Hospital in Bangkok publishes package JOINT04 for a unilateral total knee replacement at 356,500 baht, and titles the page \"Total Knee Replacement Surgery (Exclude implant)\". The inclusion list runs to eight lines: three hours of operating theatre, the nursing and surgical team fees inside those three hours, three nights on the surgical ward, equipment and supplies, medications related to the procedure, surgeon, assistant surgeon if needed, anaesthesiologist. The exclusion list runs to ten, and the implant is the first of them. Also excluded: the first consultation and the follow-up visits, specialist consultations, any night past the third and any ICU, blood transfusion, laboratory and imaging before or after surgery, take-home medication, outpatient charges before admission, and complex or emergency cases. The price is stated valid until 31 December 2026.\n\nNothing about that page is concealed. The exclusion is in the title. The point is what it does to a comparison: a knee package that excludes the implant and a knee price at home that includes it are two different objects, and the difference between them is not a discount.\n\nThe pattern is not confined to joints. A dental implant package quoted per fixture may exclude the abutment and the crown; a cardiac package may exclude the valve or the stent; a cochlear package may exclude the processor.\n\n*Trade practice —* the reason is procurement rather than marketing. Implant prices move with the manufacturer, the model, the size and the contract, and a hospital that fixed a package price including the device would be quoting a component cost it does not control. The effect on a price page is the same either way.\n\nThe United Kingdom's General Medical Council requires a doctor on its register to \"be clear about what is included in quoted prices and what other charges might be payable, including possible charges for revision or routine follow up\", and to tell patients if an implanted device may need to be removed or replaced and after how long. A clinic abroad is not on that register.",
+  "how": "The exclusion is read off the page: the title, the line that names the device, and the validity date. Where a package names a device it usually names a tier — a standard implant against a premium one, a manual technique against a robot-assisted one — and the tier changes the number. Every price row on this site carries its own inclusion and exclusion list in the provider's words for this reason, and the exclusion list is the half worth reading.",
+  "today": "As of 16 September 2026 the package this record is built on lists 356,500 baht for one knee, implant excluded, valid until 31 December 2026. This project has not found a published figure for what that implant costs at that hospital, and has not found any destination that requires an implant price to be published alongside a package."
+ },
+ "metrics": {
+  "note": "Nobody publishes the size of the gap. A package price excluding the implant is public; the implant price is quoted to the patient, not posted, and no register, ministry or accreditor requires otherwise. The measurable part is the count of exclusions: ten on the knee package read for this record, against eight inclusions.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-joint04",
+  "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+ },
+ "prices": [
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 356500,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "operating theatre, 3 hours",
+    "nursing and surgical team fees within those 3 hours",
+    "3 nights in the surgical ward",
+    "medical equipment and supplies",
+    "medications related to the procedure",
+    "surgeon",
+    "assistant surgeon if needed",
+    "anaesthesiologist"
+   ],
+   "excludes": [
+    "the implant",
+    "first consultation and follow-up visits",
+    "specialist consultations",
+    "nights beyond 3, and any ICU",
+    "blood transfusion",
+    "laboratory and imaging before or after surgery",
+    "take-home medication",
+    "outpatient charges before admission",
+    "complex or emergency cases"
+   ],
+   "source": "s:bumrungrad-joint04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "note": "package JOINT04, titled Total Knee Replacement Surgery (Exclude implant), price stated valid until 31 December 2026. Carried here as the worked case for this risk; the same row sits on the knee record.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {
+   "to": "knee-replacement",
+   "as": "The operation this exclusion was read off, and the one where the device is often the largest line.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The same trade, the same exclusion, usually a higher package.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "Priced per fixture, with the abutment and crown on their own lines.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cochlear-implant",
+   "as": "Where the external processor is a separate purchase from the operation.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the package this record is built on, exclusion stated in the title.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this risk lives inside.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which this is caught, when it is caught.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step at which the headline number is supplied and the device price is not.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "The longer piece on what a published price covers.",
+   "rel": "story"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "When the device fails, the second one is bought in a different country.",
+   "rel": "kin"
+  },
+  {
+   "to": "blood-supply-safety",
+   "as": "Also on that exclusion list, and a risk rather than a charge.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package JOINT04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  },
+  {
+   "label": "GMC — Guidance for doctors who offer cosmetic interventions",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:bumrungrad-packages",
+  "s:gmc-cosmetic-interventions",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the procurement paragraph is marked as trade practice; everything else is read off the package page or the GMC guidance"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:bumrungrad-joint04"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

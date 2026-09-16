@@ -1,0 +1,137 @@
+{
+ "schema": 1,
+ "id": "iran",
+ "type": "destination",
+ "names": {
+  "name": "Iran",
+  "aliases": [
+   "ایران",
+   "Islamic Republic of Iran",
+   "Persia"
+  ],
+  "said": "Tehran calls it health tourism and counts it by the million. The patients are overwhelmingly from the countries next door, and almost none of them can pay by card."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "IR",
+  "direction": "both",
+  "currency": "IRR",
+  "languages": [
+   "Persian",
+   "Arabic",
+   "Azerbaijani",
+   "English"
+  ],
+  "draws": [
+   "rhinoplasty",
+   "hair-transplant-fue",
+   "ivf"
+  ]
+ },
+ "text": {
+  "what": "A large regional destination that operates outside the international payment system. Iran's tourism minister said in June 2025 that the country had received 1.2 million health travellers in the previous Iranian year, generating more than two billion dollars, and set a target of more than two million a year under the Seventh Development Plan. The patients come from neighbouring states; the work is cosmetic surgery, fertility treatment and general specialist care.",
+  "story": "The figure is an announcement rather than a series. Seyyed Reza Salehi-Amiri, the tourism minister, gave 1.2 million and \"more than $2 billion in revenue\" for the Iranian year 1403, which ran from 21 March 2024 to 20 March 2025, and the same statement carried the Seventh Development Plan's targets of more than two million travellers and revenue of around six billion dollars.\n\nThis directory carries the number and says what it is: a minister's total, reported in the press, with no published definition, no breakdown and no method. It is the only official figure for Iran read for this record.\n\n*Trade practice —* the patients come from Iraq, Afghanistan, Azerbaijan, Turkmenistan, Oman and Pakistan, and the single best-known product is rhinoplasty, which Tehran performs at a volume that has made it a national joke as well as an industry.\n\n*Inference —* sanctions shape everything about how this trade works. A patient cannot pay an Iranian hospital by international card or bank transfer, so money arrives as cash, through exchange houses, or through an agency abroad. That makes the flow hard to audit from outside, hard for a foreign insurer to touch, and unusually dependent on brokers — and it means the revenue figure in the minister's statement rests on estimates of cash.\n\n*Trade practice —* the flow runs outward too. Iranians travel to Türkiye and the Gulf for care they cannot get at home or cannot get quickly, and for procedures involving imported devices that sanctions have made scarce.",
+  "how": "*Trade practice —* a foreign patient is usually brought in by an agency that handles the visa, the airport pickup, the hospital and the hotel as one price, quoted in dollars and settled in cash on arrival. Prices are low in hard currency because the rial is weak, and they move with the exchange rate rather than with the medicine.",
+  "today": "As of 16 September 2026 the 1403 figure remains the most recent official total read for this record. It is carried with medium confidence and marked for verification."
+ },
+ "geo": {
+  "lat": 35.6892,
+  "lon": 51.389,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 1200000,
+  "note": "Health travellers in the Iranian year 1403 (21 March 2024 to 20 March 2025), with revenue put at more than two billion US dollars. Stated by the tourism minister, Seyyed Reza Salehi-Amiri, and reported on 7 June 2025; it is a ministerial statement, not a published statistical series, and carries no definition, breakdown or method. Treat it as an announcement with a date on it.",
+  "as_of": "2024",
+  "source": "s:tehran-times-health-travel-2025",
+  "url": "https://www.tehrantimes.com/news/513984/Iran-sets-target-to-attract-two-million-medical-tourists-over"
+ },
+ "kin": [
+  {
+   "to": "rhinoplasty",
+   "as": "The operation this country performs at the volume it is known for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The other cosmetic staple of the Tehran clinics.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "Fertility treatment sought here by patients from across the region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "turkiye",
+   "as": "The neighbour competing for the same patients, and the place Iranians themselves travel to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "as": "The broker who books the visa, the hotel and the surgeon as one price — and who handles the cash.",
+   "rel": "term"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "What happens to money paid in cash to an agency when the operation does not happen.",
+   "rel": "risk"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "What a foreign patient can do afterwards, in a jurisdiction their own courts cannot reach.",
+   "rel": "risk"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A national total announced by a minister, with no series behind it.",
+   "rel": "story"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Prices that move with the exchange rate rather than with the medicine.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Iran sets target to attract two million medical travellers — Tehran Times, 7 June 2025",
+   "url": "https://www.tehrantimes.com/news/513984/Iran-sets-target-to-attract-two-million-medical-tourists-over"
+  }
+ ],
+ "sources": [
+  "s:tehran-times-health-travel-2025",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:tehran-times-health-travel-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:tehran-times-health-travel-2025",
+    "note": "the minister's figures and targets are cited; the source countries, the payment account and the outflow are marked trade practice or inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:tehran-times-health-travel-2025"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

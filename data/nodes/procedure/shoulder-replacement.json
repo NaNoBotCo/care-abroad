@@ -1,0 +1,117 @@
+{
+ "schema": 1,
+ "id": "shoulder-replacement",
+ "type": "procedure",
+ "names": {
+  "name": "Total shoulder replacement",
+  "aliases": ["total shoulder arthroplasty", "TSA", "reverse total shoulder replacement", "rTSA", "shoulder arthroplasty"],
+  "said": "Surgeons say anatomic or reverse, and the difference is which side of the joint gets the ball. Price pages usually say shoulder replacement and say neither."
+ },
+ "etymology": {
+  "root": "arthroplasty: Greek arthron, a joint, plus plastos, moulded. Glenoid, the socket, is Greek glene, the pupil of the eye or a socket, plus eidos, form — an eye-shaped hollow.",
+  "tier": "tradition",
+  "note": "Reverse means the ball is fixed to the socket side and the cup to the arm, which lets the deltoid drive a shoulder whose rotator cuff has gone. Australia's schedule covers anatomic and reverse under one item number."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The arthritic or destroyed shoulder joint is replaced with a stemmed or stemless humeral component and a glenoid component. In an anatomic replacement the ball stays on the arm bone; in a reverse, the ball is fixed to the shoulder blade and the socket to the arm, so the deltoid can lift where the rotator cuff cannot. It is done for arthritis, for cuff-deficient arthritis and for some fractures.",
+  "story": "Shoulder replacement is the joint operation that travels least well and prices worst. It is done in smaller numbers than hip or knee, the reverse version depends on tendon anatomy a package page cannot assess in advance, and the first six weeks afterwards are a sling and a physiotherapy schedule rather than a walk to the shops.\n\nThe price pages show the gap. Bangkok's two largest international hospitals publish arthroscopic shoulder work and no shoulder replacement at all: at Bumrungrad on 16 September 2026 a basic arthroscopic shoulder package is 337,300 baht, a labral repair 345,100 and a rotator cuff repair 371,200, each with two nights — and nothing for a replacement. A patient who wants the joint replaced in Bangkok is asking for a quote, not buying a package.\n\nWhere a replacement is priced, the numbers come in the two shapes this subject keeps producing. Practice Plus Group in England lists shoulder replacement at £12,749, one figure covering the stay and the tests. Nordorthopaedics in Kaunas advertises it \"from 4.500 € / 3.750 £\" with no inclusion list. Australia's Medicare Benefits Schedule sets item 48918, anatomic or reverse total shoulder replacement, at $1,803.15 as at 1 July 2026 — the highest of the joint schedule fees this batch read, and still only the surgeon's fee.\n\n*Inference —* the schedule fee ranking is worth reading beside the package ranking. Australia's payer prices the shoulder above the hip and the knee; the Bangkok package market prices the shoulder at nothing, because it does not sell one.",
+  "how": "General anaesthesia, usually with an interscalene nerve block. The surgeon opens the front of the shoulder between deltoid and pectoralis, cuts the humeral head, prepares the glenoid, seats the components, tests the tension and closes. The arm goes into a sling. Australia's item 48918 includes, in its own wording, associated rotator cuff repair, biceps tenodesis and tuberosity osteotomy if performed — three separate operations folded into one fee, which is what a bundled item number does.",
+  "today": "As of 16 September 2026 the published shoulder prices on this site are an English self-pay figure of £12,749, a Lithuanian advertised floor of 4,500 euro, and an Australian schedule fee of $1,803.15. No hospital read for this batch publishes a shoulder replacement package price in Asia, and the largest Bangkok price pages carry arthroscopy instead.",
+  "notes": "This page describes an operation and the prices published for it, and says nothing about whether any reader should have one."
+ },
+ "metrics": {
+  "stay_days": null,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "No page read for this record publishes a ward stay, a recovery span or a flying interval for shoulder replacement. The nearest figure found is the two nights Bumrungrad names for its arthroscopic shoulder packages, which are different operations, so it is not carried here. The gaps are real gaps, not omissions.",
+  "as_of": "2026-09-16",
+  "source": "s:practiceplus-shoulder",
+  "url": "https://practiceplusgroup.com/treatments/shoulder-and-elbow-surgery/"
+ },
+ "prices": [
+  {
+   "procedure": "shoulder-replacement",
+   "country": "GB",
+   "city": "England",
+   "amount": 12749,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": ["the quoted price for surgery includes any necessary tests or hospital stays"],
+   "excludes": ["the initial consultation, listed separately at £145"],
+   "source": "s:practiceplus-shoulder",
+   "url": "https://practiceplusgroup.com/treatments/shoulder-and-elbow-surgery/",
+   "note": "the group's published self-pay price. On the same list a rotator cuff repair is £5,749 and a shoulder arthroscopy £5,149, so the replacement is priced at roughly twice the keyhole work.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "shoulder-replacement",
+   "country": "LT",
+   "city": "Kaunas",
+   "amount": 4500,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [],
+   "excludes": [],
+   "source": "s:nordorthopaedics-prices",
+   "url": "https://www.nordorthopaedics.com/hip-knee-wrist-hand-ankle-foot-shoulder-surgery-prices/",
+   "note": "advertised as \"from 4.500 € / 3.750 £\". The page lists shoulder arthroscopy at 1.700 € and rotator cuff repair at 2.000 €, and states no inclusion list for any of them.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "shoulder-replacement",
+   "country": "AU",
+   "amount": 1803.15,
+   "currency": "AUD",
+   "as_of": "2026-07-01",
+   "kind": "tariff",
+   "includes": ["the medical service described in item 48918: anatomic or reverse total shoulder replacement, including associated rotator cuff repair, biceps tenodesis or tuberosity osteotomy if performed"],
+   "excludes": ["hospital accommodation and theatre", "the prosthesis", "the anaesthetist's own items", "any amount charged above the schedule fee"],
+   "source": "s:mbs-48918",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=48918&qt=item",
+   "note": "Medicare Benefits Schedule item 48918, fee last updated 1 July 2026; the 75% benefit is $1,352.40. The item is the dearest of the joint replacement fees read for this batch, above hip at $1,577.30.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "hip-replacement", "as": "The joint that sells as a package everywhere this one does not.", "rel": "contrast"},
+  {"to": "knee-replacement", "as": "The operation whose package pages set the shape this one is missing from.", "rel": "contrast"},
+  {"to": "bumrungrad", "as": "Publishes arthroscopic shoulder packages and no shoulder replacement price.", "rel": "performed-at"},
+  {"to": "united-kingdom", "as": "Where the self-pay price on this page is sold.", "rel": "destination"},
+  {"to": "lithuania", "as": "Where the advertised floor price on this page comes from.", "rel": "destination"},
+  {"to": "australia", "as": "Whose payer sets the schedule fee on this page, and prices the shoulder above the hip.", "rel": "destination"},
+  {"to": "implant-excluded", "as": "The cost the Australian schedule fee leaves entirely outside itself.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Who runs the sling protocol and the six weeks of physiotherapy after the flight home.", "rel": "risk"},
+  {"to": "tariff", "as": "What a schedule fee is, and what it does not buy.", "rel": "term"},
+  {"to": "getting-a-quote", "as": "The step a shoulder patient cannot skip, because the package price does not exist.", "rel": "step"}
+ ],
+ "confusable_with": [
+  {"id": "hip-replacement", "tell": "Both are joint replacements, but the shoulder is rarely packaged and its recovery is measured in sling weeks rather than walking weeks."}
+ ],
+ "links": [
+  {"label": "MBS item 48918", "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=48918&qt=item"},
+  {"label": "Practice Plus Group shoulder prices", "url": "https://practiceplusgroup.com/treatments/shoulder-and-elbow-surgery/"}
+ ],
+ "sources": ["s:practiceplus-shoulder", "s:nordorthopaedics-prices", "s:mbs-48918", "s:bumrungrad-joint-packages"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "the absence of a Bangkok package price is a reading of the hospital's own package list on the accessed date"},
+   "text.how": {"tier": "tradition", "note": "standard operative description; the bundled wording is quoted from the MBS item"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "note": "every number is null because no page read publishes one"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Shoulder replacement.jpg", "File:Reverse shoulder prosthesis X-ray.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,107 @@
+{
+ "id": "unproven-stem-cell",
+ "names": {
+  "name": "Unproven stem cell treatment",
+  "aliases": [
+   "stem cell clinics",
+   "regenerative medicine offered direct to consumers"
+  ],
+  "said": "The clinic says regenerative. The regulator says unapproved. The distance between those two words is the whole market."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "A cell preparation sold as a treatment for a condition it has not been shown to treat, usually paid for out of pocket and usually outside any approval process. The CDC's account of cancer treatment abroad names the same structure: treatments obtained abroad \"may have no established benefit\", placing the patient at risk both from complications and from delaying or forgoing an approved therapy at home.",
+  "story": "Two papers set the shape of this subject and neither is about a distant country.\n\nIn 2016 Turner and Knoepfler examined internet marketing of unapproved stem cell interventions and found the practice, already familiar in countries with permissive regulation, being carried on widely by businesses based in the United States. Their conclusion was directed at regulators rather than at patients: the marketplace needed better oversight. The finding matters here because it undercuts the geographic framing. This is not a risk that begins at a border.\n\nIn 2017 the New England Journal of Medicine reported three patients who received intravitreal injections of autologous adipose-derived \"stem cells\" at one US clinic. Before the injection their best documented visual acuity ranged from 20/30 to 20/200. After it they had ocular hypertension, haemorrhagic retinopathy, vitreous haemorrhage, retinal detachment or a dislocated lens. At one year their acuity ranged from 20/200 to no light perception. Three patients is not an incidence. It is a demonstration that the downside is not a wasted fee.\n\n*Inference —* the exposure here is unlike the rest of this section in one respect. Every other risk on these pages is a way a real treatment can go wrong. This one is a fee paid for a treatment with no demonstrated benefit, so the loss is certain at the moment of payment and the clinical harm is the tail on top of it. A patient who forgoes an approved therapy to pursue it loses a third thing that cannot be bought back.",
+  "how": "The commercial pattern is consistent: a condition with poor conventional options, a cell preparation described by its source rather than by any tested mechanism, payment in advance, no control arm, and testimonials in place of published outcomes. The regulatory position varies by country and by preparation, and is carried on this site's rule record rather than asserted here.",
+  "today": "As of 16 September 2026 no register counts how many people travel across a border for an unapproved cell treatment, what they pay, or what happens to them. The published record consists of marketplace surveys and case reports, and the case reports exist because the harm was severe enough to reach a specialist unit."
+ },
+ "metrics": {
+  "note": "Nobody has measured the incidence. The three patients reported in the New England Journal of Medicine in 2017 went from a best documented visual acuity of 20/30 to 20/200 before injection to 20/200 to no light perception one year after. That is a case series of three at a single clinic, not a rate, and no denominator for this market exists in any country.",
+  "as_of": "2017",
+  "source": "s:kuriyan-stem-cell-2017",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/28296617/"
+ },
+ "kin": [
+  {
+   "to": "stem-cell-unproven",
+   "as": "The treatment itself, and what is actually sold under the name.",
+   "rel": "procedure"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "as": "The rules that decide where this can lawfully be offered and on what terms.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "What may be claimed, and by whom, in each jurisdiction.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "deciding-whether",
+   "as": "The step at which a poor prognosis meets a confident marketing page.",
+   "rel": "step"
+  },
+  {
+   "to": "second-opinion",
+   "as": "The step this risk is most often avoided at.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "A claim for a treatment that was never approved, against a provider in another country.",
+   "rel": "kin"
+  },
+  {
+   "to": "counterfeit-medicines",
+   "as": "The mirror case: a product that is not what it says, rather than a product that is exactly what it says and does nothing.",
+   "rel": "contrast"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "The CDC files unrelated-donor stem cell transplantation in the same category as organ transplantation abroad.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Kuriyan et al., New England Journal of Medicine 2017",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28296617/"
+  },
+  {
+   "label": "Turner and Knoepfler, Cell Stem Cell 2016",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27374789/"
+  }
+ ],
+ "sources": [
+  "s:kuriyan-stem-cell-2017",
+  "s:turner-knoepfler-2016",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:kuriyan-stem-cell-2017"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is marked inline as this project's reasoning"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the commercial pattern as the literature describes it"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

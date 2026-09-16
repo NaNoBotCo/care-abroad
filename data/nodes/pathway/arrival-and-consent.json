@@ -1,0 +1,77 @@
+{
+ "id": "arrival-and-consent",
+ "names": {
+  "name": "Arrival and consent",
+  "aliases": [
+   "the pre-operative consultation",
+   "signing the consent form"
+  ],
+  "said": "The first meeting with the surgeon and the signing of the form usually happen on the same day, sometimes in the same hour."
+ },
+ "facets": {
+  "stage": "on-arrival"
+ },
+ "x_order": 11,
+ "text": {
+  "what": "The patient lands, is examined for the first time by the person who will operate, and signs a consent form. In a domestic pathway these events are separated by weeks. Here they are compressed into a day or two, at the far end of a flight, after the money has gone.",
+  "story": "Consent across a language barrier is measured, and the measurements are not reassuring even in the easy case. Schenker and colleagues matched 74 pairs of patients at a US public teaching hospital with on-site professional interpreters, for lumbar puncture, thoracentesis and paracentesis, between January 2004 and January 2006. Full documentation of informed consent was present for 53% of English-speaking patients and 28% of patients with limited English proficiency — an adjusted odds ratio of 3.10 (95% CI 1.49–6.47, p=0.003). Only 41% of the limited-English charts contained a consent form in the patient's own language or signed by an interpreter. The conclusion: \"Despite the availability of on-site professional interpreter services, hospitalized patients who do not speak English are less likely to have documentation of informed consent for common invasive procedures.\"\n\n*Inference —* that is the well-resourced version of the problem. The patient in this step is the linguistic minority in the building, the interpreter may be the coordinator who sold the package, and the form is in the hospital's working language and under the hospital's law.\n\nThe consent form is also a legal document doing work the clinical conversation does not mention. It names the procedure, and sometimes the surgeon; it may name the implant; it may contain the only written statement of which country's courts hear a dispute. Directive 2011/24/EU obliges providers in an EU state of treatment to give \"relevant information ... on treatment options ... quality and safety\" (Article 4(2)(b)); outside the EU, what must be disclosed is whatever that jurisdiction's own law requires.",
+  "how": "*Trade practice —* the sequence on arrival is consultation, blood tests and imaging, an anaesthetic review, a revised price, and the form. The revision at this point is where the package meets the body: an unexpected finding, a second procedure suggested, a higher grade of implant offered.\n\nWhat a reader would have to ask: who interprets and who employs them, whether the form exists in a language the patient reads, whether the named surgeon on the form is the surgeon who operates, whether any part of the form waives a right or fixes a forum, and what the price is now.",
+  "today": "As of 16 September 2026 no cross-border standard this project could find requires a consent form for a foreign patient to be given in that patient's own language, or requires an independent interpreter. Where accreditation standards touch it, they bind the hospital that chose to be accredited."
+ },
+ "kin": [
+  {
+   "to": "language-consent",
+   "as": "The risk this step runs on, with the published measurement of it.",
+   "rel": "risk"
+  },
+  {
+   "to": "informed-consent",
+   "as": "The doctrine, and what it assumes about a shared language.",
+   "rel": "term"
+  },
+  {
+   "to": "in-hospital",
+   "as": "What the signature starts.",
+   "rel": "step"
+  },
+  {
+   "to": "anaesthetic-risk-unscreened",
+   "as": "The assessment this compressed day is supposed to contain.",
+   "rel": "risk"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Decided, often, by wording inside the form signed here.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "What a provider in an EU state of treatment must disclose.",
+   "rel": "governed-by"
+  }
+ ],
+ "sources": [
+  "s:schenker-consent-language",
+  "s:dir-2011-24-chapter-ii"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

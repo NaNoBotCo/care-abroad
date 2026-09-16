@@ -1,0 +1,68 @@
+{
+ "schema": 1,
+ "id": "max-saket",
+ "type": "facility",
+ "names": {
+  "name": "Max Super Speciality Hospital, Saket",
+  "aliases": ["Max Saket", "Max Smart Super Speciality Hospital", "Max Healthcare Saket"],
+  "said": "Max Saket. The Saket complex holds more than one Max building on the same Press Enclave Road frontage, and the group's own signage distinguishes them by block."
+ },
+ "region": ["south-asia"],
+ "facets": {
+  "iso2": "IN",
+  "ownership": "private",
+  "founded": 2004,
+  "specialty": ["oncology", "cardiac sciences", "orthopaedics", "neurosciences", "transplants"],
+  "draws": ["knee-replacement", "cabg", "kidney-transplant"],
+  "status": "open",
+  "languages": ["English", "Hindi"]
+ },
+ "text": {
+  "what": "The flagship tertiary hospital of Max Healthcare, on Press Enclave Road in Saket, South Delhi. Its East Block was completed in 2004. The group was founded in 2001, listed on the Indian exchanges in August 2020, and ran 22 hospitals with over 5,000 beds, mostly in northern India, as of June 2025.",
+  "story": "Max Saket is the northern counterpart to the Gurugram campuses: a South Delhi address rather than an airport-road one, and a patient base drawn from the city as much as from abroad.\n\nOne piece of its history belongs in a directory about who pays. In 2016 the hospital was fined, along with four other Delhi hospitals, for failing to provide free treatment to poor patients as required by the land concession agreements under which the sites were granted. *Inference —* that obligation is the thing a foreign patient never sees on a price list and the thing that shapes the bed base underneath it: a private Delhi hospital built on concessional public land owes a share of its capacity to patients who pay nothing, and the paying beds carry that share.\n\nThe group's growth since listing has been in bed count rather than in transparency. No rupee figure for any operation at this hospital was found published.",
+  "how": "*Trade practice —* the Delhi private hospitals quote foreign patients by email against a named surgeon and a named length of stay, and the estimate moves with the implant and with ICU nights. Nothing about that process is published on this hospital's own pages, which refused every request made by this project on 16 September 2026.",
+  "today": "As of 16 September 2026 this record carries no bed count, no accreditation and no price for the Saket hospital, because the group's website refused this project's requests and no other source read here supplies them. What is carried is the group's founding, listing and size, the opening year of the East Block, and the point and address from OpenStreetMap."
+ },
+ "geo": {"lat": 28.5273506, "lon": 77.2116849, "precision": "street", "source": "s:osm"},
+ "address": {"street": "Press Enclave Road, Saket", "city": "New Delhi", "area": "Delhi", "country": "IN", "postcode": "110017"},
+ "metrics": {
+  "beds": null,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "Nothing site-specific. Max Healthcare reported over 5,000 beds across 22 hospitals as of June 2025; that is the GROUP and it is not broken out per hospital in any source read here. The Saket bed count is therefore absent rather than apportioned, and absence means not found by this project.",
+  "as_of": "2025-06",
+  "source": "s:wp-max-healthcare",
+  "url": "https://en.wikipedia.org/wiki/Max_Healthcare"
+ },
+ "tags": [
+  {"tag": "chain", "source": "s:wp-max-healthcare", "tier": "cited", "note": "Max Healthcare, 22 hospitals as of June 2025"},
+  {"tag": "listed-company", "source": "s:wp-max-healthcare", "tier": "cited", "note": "listed on the Indian exchanges in August 2020"}
+ ],
+ "recognitions": [],
+ "kin": [
+  {"to": "delhi-ncr", "as": "The South Delhi end of the cluster, against the two Gurugram campuses on the airport road.", "rel": "place"},
+  {"to": "india", "as": "A northern Indian tertiary hospital whose foreign trade is not separately reported.", "rel": "destination"},
+  {"to": "medanta", "as": "The Gurugram competitor that publishes its check-up prices and its implant ceilings; this one publishes neither.", "rel": "contrast"},
+  {"to": "knee-replacement", "as": "One of the operations the Delhi corridor sells to foreign patients, quoted rather than listed.", "rel": "performs"},
+  {"to": "india-e-medical-visa", "as": "The visa class most of this corridor's foreign patients arrive on.", "rel": "governed-by"},
+  {"to": "getting-a-quote", "as": "Publishes no price; the quote is an email against a named surgeon and a named stay.", "rel": "step"},
+  {"to": "the-accreditation-question", "as": "No accreditation is recorded here, which is a gap in this project's reading rather than a finding about the hospital.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Max Healthcare", "url": "https://www.maxhealthcare.in/"}
+ ],
+ "sources": ["s:wp-max-healthcare", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.how": {"tier": "tradition", "note": "how Delhi private hospitals quote foreign patients; hedged in the prose and carrying no figure"},
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "OpenStreetMap node MAX Hospital on Press Enclave Marg, Saket"},
+   "metrics": {"tier": "cited", "source": "s:wp-max-healthcare"}
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "id": "tijuana",
+ "type": "hub",
+ "names": {
+  "name": "Tijuana",
+  "aliases": ["TJ", "Tijuana, Baja California"],
+  "said": "Tee-HWA-na. San Diego says TJ. Patients say across the line."
+ },
+ "region": ["mexico", "north-america"],
+ "facets": {
+  "iso2": "MX",
+  "radius_km": 20,
+  "specialty": ["bariatric surgery", "dentistry", "cosmetic surgery", "ophthalmology", "oncology"],
+  "draws": ["gastric-sleeve", "gastric-bypass", "dental-implant", "all-on-four", "liposuction", "abdominoplasty", "breast-augmentation", "stem-cell-unproven"],
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "A city of roughly 2.3 million on the Pacific end of the Mexico–United States border, sharing about 24 kilometres of line with San Diego. Its Wikipedia article calls it the most visited border city in the world and puts the crossings between the two cities at more than fifty million a year. The clinical trade here is surgical rather than dental-first: weight-loss operations above all, then cosmetic surgery, dentistry and a fringe of clinics selling treatments that are not licensed in the United States.",
+  "story": "Tijuana's medical trade is a by-product of proximity. The Bureau of Transportation Statistics counted 7,968,038 northbound pedestrian crossings at San Ysidro in calendar 2025 — a figure that counts crossings and not people, and includes commuters, shoppers, families and patients without distinguishing them. No published series separates out the last group, and this directory does not repeat the round numbers that circulate for it.\n\nWhat is documented is what went wrong. Between August 2018 and December 2019 the Centers for Disease Control and Prevention traced 44 cases of an extensively drug-resistant Pseudomonas aeruginosa, carrying the Verona integron-encoded metallo-β-lactamase, across 19 United States states. Of 38 patients with confirmed or probable infection, 34 had undergone sleeve gastrectomy — a weight-loss operation — at a single unnamed facility in Tijuana. Their median age was 39 and 89.5 per cent were women. One of the sixteen admitted to hospital died nine days after surgery. CDC issued an Alert Level 2 travel health notice in January 2019. An earlier Mexican regulatory inspection of the facility in December 2018 had recorded poor hand hygiene, incomplete clinical records, and no chemical or biological indicators to confirm that reprocessed instruments had been sterilised.\n\n*Inference —* the episode is instructive less for the organism than for the accounting. The operation was cheap and the infection was not, and the cost of the infection fell on United States hospitals and insurers who had not priced it. That asymmetry — the bill split across a border that the patient crossed in twenty minutes — is the structural fact about this hub.\n\n*Trade practice —* Tijuana also hosts clinics selling stem cell and other unlicensed interventions to United States patients, trading precisely on the fact that the treatment cannot lawfully be sold to them at home.",
+  "how": "Most patients drive or fly to San Diego and are collected on the United States side by a driver the clinic sends; the crossing southbound is fast and unremarked, and the clinic handles the return. Bariatric packages are sold as a fixed bundle covering the operation, the hospital nights and the transfers, and the exclusions are the tell: a leak, a revision, an intensive-care night, and the flight home if the patient cannot board. Surgery is done in small private hospitals rather than in the public system, which does not sell to foreigners.",
+  "today": "As of 16 September 2026 Tijuana is the busiest surgical border town on the continent and the only one in this directory with a named, dated, multi-state outbreak attached to it in the peer-reviewed literature. The paper is Kracalik and colleagues in Emerging Infectious Diseases, 2022.",
+  "notes": "This page describes a place and reports a published outbreak investigation. It is not advice about whether to have an operation, or where."
+ },
+ "geo": {"lat": 32.525, "lon": -117.0333, "precision": "city", "source": "s:wp-tijuana"},
+ "address": {"city": "Tijuana", "area": "Baja California", "country": "MX"},
+ "kin": [
+  {"to": "mexico", "as": "The country whose surgical export trade is most concentrated here.", "rel": "destination"},
+  {"to": "united-states", "as": "The source market, fifteen miles away, and the health system that treats the complications.", "rel": "kin"},
+  {"to": "los-algodones", "as": "The other Baja California cluster — dental, smaller, and priced in the window.", "rel": "contrast"},
+  {"to": "hospital-angeles-tijuana", "as": "One of the private hospitals the international trade runs through.", "rel": "place"},
+  {"to": "gastric-sleeve", "as": "The operation this city sells most, and the one named in the 2018–2019 outbreak.", "rel": "performs"},
+  {"to": "gastric-bypass", "as": "The other weight-loss operation on the package lists here.", "rel": "performs"},
+  {"to": "antimicrobial-resistance", "as": "What the CDC actually found: an organism resistant to the first-line drugs, carried home in 19 states.", "rel": "risk"},
+  {"to": "surgical-site-infection", "as": "The route the resistant organism took — abdominal wounds after sleeve gastrectomy.", "rel": "risk"},
+  {"to": "stem-cell-unproven", "as": "Sold here to patients who cannot buy it at home, which is the whole of its business model.", "rel": "performs"},
+  {"to": "circumvention", "as": "Travel undertaken because the thing is not available at home; Tijuana is the North American case.", "rel": "story"},
+  {"to": "malpractice-recourse", "as": "What a patient has, and does not have, when the surgeon is in another jurisdiction twenty minutes away.", "rel": "risk"}
+ ],
+ "links": [
+  {"label": "Kracalik et al., Emerging Infectious Diseases 2022;28(1):51–61", "url": "https://wwwnc.cdc.gov/eid/article/28/1/21-1880_article"},
+  {"label": "Border Crossing/Entry Data — San Ysidro, California", "url": "https://data.bts.gov/d/keg4-3bc2"}
+ ],
+ "sources": ["s:wp-tijuana", "s:bts-border-crossing", "s:cdc-eid-tijuana-vim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:cdc-eid-tijuana-vim", "note": "the outbreak paragraph is the CDC paper; the crossing count is harvested from the federal series; the last two paragraphs carry their own inline marks"},
+   "text.how": {"tier": "tradition", "note": "the general shape of a cross-border bariatric package; no single page describes it"}
+  }
+ },
+ "x_commons_files": ["File:Tijuana skyline.jpg", "File:San Ysidro Port of Entry.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

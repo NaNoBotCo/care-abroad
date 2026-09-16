@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "id": "belgium",
+ "type": "destination",
+ "names": {
+  "name": "Belgium",
+  "aliases": ["België", "Belgique", "Belgien", "Royaume de Belgique"],
+  "said": "In the trade Belgium means an hour's drive: Dutch patients to Antwerp and Genk, French patients to Lille's Belgian side, British patients to Brussels for a fertility clinic that will treat them."
+ },
+ "region": ["europe-west"],
+ "facets": {
+  "iso2": "BE",
+  "direction": "inbound",
+  "currency": "EUR",
+  "languages": ["Dutch", "French", "German", "English"],
+  "draws": ["ivf", "egg-donation", "sperm-donation", "hip-replacement", "knee-replacement"]
+ },
+ "text": {
+  "what": "The classic European cross-border case: a small country with spare hospital capacity, short waits and three land borders, which has been treating its neighbours' patients since long before the EU wrote a directive about it. Belgian fertility centres in particular draw patients from across Western Europe. And Belgium is the country that could not report its own cross-border numbers to the Commission, because its sickness funds do not collect them the same way.",
+  "story": "The ESHRE taskforce counted the fertility side in a single month in 2010, across six receiving countries: Belgium took the largest share of the 1,230 patients surveyed, 29.7%. Of the patients in that study overall, 31.8% came from Italy, 14.4% from Germany, 12.1% from the Netherlands and 8.7% from France, and the reason they gave, again and again, was law rather than price.\n\nThe Commission's data for 2022 shows what the state can and cannot see. Belgium received 47 requests for prior authorisation and granted six — 12.7%, among the lowest rates in the EU — and reimbursed EUR 11,880 for authorised cross-border care in the whole year. For care not needing authorisation, it reported nothing at all: the national contact point told the Commission that not all health insurance funds had supplied data and it would rather report none than part.\n\n*Inference —* a country whose hospitals have treated foreign patients for decades and whose central reporting cannot count them is not unusual; it is the normal case, stated plainly for once. The trade that shows up in the Commission's tables is the small, authorised, state-mediated part. The rest is a Dutch family in a Belgian waiting room, paying an insurer that settles the bill without anyone writing the word cross-border on it."
+ ,
+  "how": "Two routes and a private one. Under the Directive the patient pays the Belgian hospital and reclaims at home at home rates; under the older social-security coordination the home fund authorises first and the treatment is billed between the systems; privately, the patient simply pays. Belgian hospitals are used to all three and quote in euro against the national fee schedule, which is published and applies to residents.",
+  "today": "Belgium's most recent reported cross-border figures remain those for 2022: 47 authorisation requests, six granted, EUR 11,880 reimbursed, and a blank where the larger column should be."
+ },
+ "geo": {"lat": 50.8503, "lon": 4.3517, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No inbound patient count is carried. Belgium's national contact point reported no data on reimbursement for care not subject to prior authorisation in 2022 because its sickness funds had not all supplied it; the authorised figures are 47 requests, six granted, EUR 11,880 reimbursed.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "kin": [
+  {"to": "ivf", "as": "The treatment that brings patients here from countries that restrict it.", "rel": "procedure"},
+  {"to": "egg-donation", "as": "One of the reasons a French or Italian patient books a Brussels clinic.", "rel": "procedure"},
+  {"to": "eu-directive-2011-24", "as": "The route it applies and cannot fully count.", "rel": "governed-by"},
+  {"to": "eu-national-contact-points", "as": "The office that reported a blank rather than a partial number.", "rel": "org"},
+  {"to": "germany", "as": "The neighbour that sends fertility patients across this border and receives complex cases in return.", "rel": "contrast"},
+  {"to": "spain", "as": "The bigger fertility destination working the same European restrictions.", "rel": "contrast"},
+  {"to": "counting-patients", "as": "A country that treats its neighbours and cannot say how many.", "rel": "story"},
+  {"to": "donor-anonymity-law", "as": "The rule that decides which patients cross this border and which stay home.", "rel": "governed-by"}
+ ],
+ "sources": ["s:ec-crossborder-2022", "s:shenfield-2010", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:ec-crossborder-2022", "note": "survey and Commission figures cited; the closing paragraph is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the two state routes are set out in the Directive and the coordination regulations; the working practice is the trade's"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Brussels UZ Brussel hospital.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,106 @@
+{
+ "schema": 1,
+ "id": "jci",
+ "type": "org",
+ "names": {
+  "name": "Joint Commission International",
+  "aliases": [
+   "JCI"
+  ],
+  "said": "Hospitals write JCI-accredited on the homepage and the brochure. Almost nobody writes the date the cycle ends."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "US",
+  "founded": 1998,
+  "status": "open"
+ },
+ "text": {
+  "what": "The international arm of the Joint Commission, the body that accredits hospitals in the United States. Founded in 1998 and run through Joint Commission Resources, a not-for-profit private affiliate, it surveys hospitals, clinics and programmes outside the United States against its own standards and grants a three-year accreditation. It is the mark most often named when a hospital abroad advertises itself to a foreign patient.",
+  "story": "The hospital applies. The hospital pays. JCI quotes an average of 46,000 US dollars a year to hold the accreditation, plus travel and other costs, and the fee is set from the services a hospital offers and its average daily census. That structure is not a scandal; it is how nearly every voluntary accreditation on earth works, and saying it out loud is the only way a reader can size what the mark means.\n\nThe survey is scheduled. JCI's own American surveys are unannounced; its international ones \"still take place at a time known in advance by the hospitals being surveyed, often after considerable preparation by those hospitals\". A reader who takes the mark as a snapshot of any ordinary Tuesday is reading it wrong.\n\n*Inference —* what the accreditation reliably certifies is that a named external body inspected named systems on a named date and found them conforming. It does not rank hospitals against each other, does not measure surgical outcomes, and does not survive the three years by itself. This directory therefore counts accreditations and never weighs them.",
+  "how": "An organisation applies, signs a contract, pays a deposit against the survey fee, prepares, and is surveyed on an agreed date by a team of physicians, nurses and administrators working the tracer method — following real patients through real systems. Accreditation runs three years. The standards are published as manuals JCI sells; the directory of accredited organisations sits on JCI's own site. Reaccreditation is another survey and another fee.",
+  "today": "As of 16 September 2026 JCI accredits organisations in more than 60 countries. Its own site refused every automated fetch on that date, so the figures here come from the secondary source named in sources, and the count is dated rather than current.",
+  "notes": "An accreditation is a fact about an inspection somebody bought. It is not a quality score, and this site does not read it as one."
+ },
+ "geo": {
+  "lat": 41.8497,
+  "lon": -87.9773,
+  "precision": "city",
+  "source": "s:jci-wikipedia"
+ },
+ "address": {
+  "city": "Oakbrook Terrace",
+  "area": "Illinois",
+  "country": "US"
+ },
+ "kin": [
+  {
+   "to": "isqua-ieea",
+   "as": "The body that accredits accreditors, and the answer to who checks this one.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Took this mark in 2002, early for Asia, and has renewed it five times.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci-accredited-list",
+   "as": "The published directory this site draws its accreditation counts from.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "The argument over what a bought inspection proves, laid out at length.",
+   "rel": "story"
+  },
+  {
+   "to": "temos",
+   "as": "A competitor built for international patients rather than for hospitals in general.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gha",
+   "as": "A competitor that certifies the travel pathway rather than the clinical unit.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "as": "The country whose hospitals hold more of these marks than any other in Southeast Asia.",
+   "rel": "place"
+  }
+ ],
+ "links": [
+  {
+   "label": "Joint Commission International",
+   "url": "https://www.jointcommissioninternational.org/"
+  }
+ ],
+ "sources": [
+  "s:jci-wikipedia",
+  "s:jci-accreditation"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:jci-wikipedia",
+    "note": "the third paragraph is marked as this project's inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of a JCI survey cycle; the three-year interval and the public directory are cited"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

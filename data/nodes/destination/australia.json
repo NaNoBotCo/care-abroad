@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "id": "australia",
+ "type": "destination",
+ "names": {
+  "name": "Australia",
+  "aliases": ["Commonwealth of Australia"],
+  "said": "A source market with a Bali-adjacent geography and a Thai-and-Turkish booking habit. The trade phrase here is cosmetic tourism, and the professional body that uses it does so to argue against it."
+ },
+ "region": ["oceania"],
+ "facets": {
+  "iso2": "AU",
+  "direction": "outbound",
+  "currency": "AUD",
+  "languages": ["English"],
+  "draws": []
+ },
+ "text": {
+  "what": "A country people leave for dental and cosmetic work and almost never arrive at for either. Australians fly to Thailand, Türkiye, Malaysia, South Korea and India for procedures their own system either does not fund or prices out of reach; Medicare does not follow them, and private cover usually does not either. The best-measured thing about the flow is what comes back: patients presenting at Australian public hospitals with complications after surgery abroad.",
+  "story": "The measurement problem here is the usual one. A Victorian government health page carries two figures — around 15,000 Australians travelling overseas for healthcare each year, and about $300 million a year spent on cosmetic surgery abroad — and names no source for either; the page's own review date is December 2017. This record repeats them as what that page says and not as facts.\n\nThe firm number is smaller and much more specific. Res and colleagues, in the ANZ Journal of Surgery in 2026, reviewed patients presenting to Westmead Hospital in New South Wales with complications after cosmetic surgery overseas across two windows, July 2022 to January 2023 and May to December 2024. Twenty-four patients met the criteria. Türkiye was the country of surgery in 54.2 per cent of them, Thailand in 12.5 per cent, Lebanon in 8.3 per cent, with single cases from Jordan, Syria, Korea, India, Iraq and Mongolia. Abdominoplasty was the commonest procedure at 54.2 per cent, liposuction 25 per cent, breast augmentation 20.8 per cent, and 58.3 per cent had multiple procedures in one sitting. Wound dehiscence appeared in 45.8 per cent, infection in 41.7 per cent, seroma in 20.8 per cent. Median time from surgery to presentation was 3.8 weeks; mean stay was 3.3 days. The authors state that costing was outside the study's scope.\n\n*Inference —* twenty-four patients at one Sydney hospital across roughly thirteen months of sampling is a denominator-free number, and it should not be read as a complication rate. What it does show is the shape: the operations that come back are the long abdominal ones done several at a time, and they come back about a month later, which is after the travel insurance and after the surgeon abroad has closed the file.\n\nThe Australian Society of Plastic Surgeons, in a statement dated January 2024, opposes the practice and names its own concern that restricted private theatre access at home may be pushing patients out. That is the argument, from a body with an interest in where its members' patients are operated on, and it is reported here as such.",
+  "how": "An agency or a clinic abroad quotes a package; the patient books flights and a recovery hotel; the consultation is often the day before the operation. On return, follow-up falls to a general practitioner, a public emergency department or a plastic surgeon who did not do the case. Medicare does not reimburse treatment abroad and Australia's reciprocal health agreements cover a short list of countries for immediate need, not elective surgery. Devices implanted overseas may arrive without documentation, which is the practical problem a revision surgeon meets first.",
+  "today": "As of September 2026 the published Australian evidence on this flow is a single-centre complications series and a government consumer page whose two headline numbers carry no source. Inbound care is not a meaningful trade in this country and this record carries no inbound figure.",
+  "notes": "The single-centre series counts presentations at one hospital. It has no denominator and is not a rate."
+ },
+ "geo": {"lat": -33.8688, "lon": 151.2093, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No outbound count is carried as a fact. The Victorian government's consumer page states around 15,000 Australians travelling overseas for healthcare a year and about $300 million a year on cosmetic surgery abroad, and names no source for either; its review date is 5 December 2017. The 24-patient figure from Westmead Hospital is a count of presentations with complications at one hospital across two sampling windows in 2022-23 and 2024, with no denominator, and is not a complication rate.",
+  "as_of": "2026",
+  "source": "s:anzjs-cosmetic-tourism-2026",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006713/"
+ },
+ "kin": [
+  {"to": "thailand", "as": "The destination Australians have used longest, and the country of surgery in 12.5% of the Westmead series.", "rel": "destination"},
+  {"to": "turkiye", "as": "Where most of the complications presenting at Westmead had been operated on.", "rel": "destination"},
+  {"to": "abdominoplasty", "as": "The procedure that came back most often in the Australian series.", "rel": "procedure"},
+  {"to": "dental-implant", "as": "The other half of the Australian outflow, and the one that rarely reaches a hospital.", "rel": "procedure"},
+  {"to": "revision-at-home", "as": "Who fixes it, and at whose cost, once the patient has landed.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "A median of 3.8 weeks from surgery to presentation is the gap, measured.", "rel": "risk"},
+  {"to": "insurance-exclusions", "as": "Medicare does not travel, and private cover usually does not either.", "rel": "governed-by"},
+  {"to": "surgical-site-infection", "as": "Present in 41.7% of the Australian series.", "rel": "risk"},
+  {"to": "is-it-cheaper", "as": "The question a returned patient's second operation reopens.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "The Impact of Overseas Cosmetic Tourism on the Australian Public Hospital System", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006713/"},
+  {"label": "Medical tourism and insurance — Better Health Channel, Victoria", "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/medical-tourism"}
+ ],
+ "sources": ["s:anzjs-cosmetic-tourism-2026", "s:betterhealth-vic-medical-tourism", "s:asps-cosmetic-tourism-2024", "s:natural-earth", "s:worldbank-open-data"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:anzjs-cosmetic-tourism-2026"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:anzjs-cosmetic-tourism-2026", "note": "the study figures are read off the open-access paper; the reading of what 24 patients can and cannot show is marked inline as inference"},
+   "text.how": {"tier": "tradition", "note": "the ordinary route; the Medicare point follows the Victorian government page"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "needs_verification": false,
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

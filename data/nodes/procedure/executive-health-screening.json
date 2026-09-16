@@ -1,0 +1,224 @@
+{
+ "schema": 1,
+ "id": "executive-health-screening",
+ "type": "procedure",
+ "names": {
+  "name": "Executive health screening",
+  "aliases": [
+   "executive check-up",
+   "health screening package",
+   "comprehensive medical check-up",
+   "annual physical"
+  ],
+  "said": "Asian hospitals say check-up and grade the packages by age, sex and price: essential, executive, comprehensive, premier. Executive is a price tier, not a clinical category."
+ },
+ "etymology": {
+  "root": "screening: from the sieve. A screening test is applied to people without symptoms to sort them into two piles, and its value depends entirely on what happens to the pile that is sorted wrongly. Check-up is twentieth-century commercial English, arriving with the periodic health examination sold to corporate employees.",
+  "tier": "tradition",
+  "note": "an executive package differs from a basic one by the number of tests in it, not by the evidence behind them. Several national screening committees recommend against some tests that appear in the larger packages; the packages are sold in markets where that recommendation does not run."
+ },
+ "region": [
+  "global",
+  "southeast-asia",
+  "east-asia"
+ ],
+ "facets": {
+  "family": "diagnostic",
+  "setting": "outpatient-course",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "A fixed bundle of tests run in half a day: history and examination, bloods, urine and stool, an electrocardiogram, a chest X-ray, an abdominal ultrasound, with imaging, endoscopy and cardiac stress testing added in the larger tiers. The result is a printed report and a consultation. It is bought, not prescribed, and the buyer is usually well.",
+  "story": "*Inference --* The check-up package is the first purchase in cross-border care. It is cheap enough to buy on impulse, it needs no referral, it fits into a working trip, and it introduces a hospital to a patient who may come back for something larger. Bangkok, Kuala Lumpur, Singapore and Seoul all sell it, and hospitals publish these prices when they publish nothing else.\n\nBumrungrad in Bangkok prices its Executive Program Health Check-up Package, CKUP1701, at 16,300 baht, states the price is valid until 31 December 2026, states that it includes the doctor's fee and is per person in Thai currency, and lists the contents test by test: complete blood count, fasting sugar, HbA1c, lipids, uric acid, kidney and liver panels, urine, stool with occult blood, ECG, chest X-ray, whole abdominal ultrasound, hepatitis B surface antigen and antibody. It says the programme takes approximately three to four hours. The same terms and conditions carry a line that belongs to this trade and to no other: tourism activity price is not included in the procedure package price.\n\nPrince Court Medical Centre in Kuala Lumpur publishes a Vibrant Male package for men under 40 at 900 ringgit, with much the same panel plus hepatitis A, C and HIV screening and an abdominal ultrasound. Raffles Medical in Singapore publishes women's screening packages at 361.31 and 563.16 Singapore dollars.\n\n*Inference --* what none of the packages price is the consequence. A screening test in a hospital eight time zones from home produces findings that need repeating, and the second scan, the follow-up bloods and the anxious six weeks are billed at home to a doctor who did not order the first test and cannot see the images.",
+  "how": "Fasting from the night before, half a day in a dedicated screening centre, results the same day or the next, a consultation with a physician to read them. Hospitals sell the packages online with a cart and a price, which is why this is one of the few procedures where a price comparison across countries is straightforward. Reports travel as PDFs; images usually do not, unless asked for on a disc before departure.",
+  "today": "Three published prices on this record, from Thailand, Malaysia and Singapore, each read off the hospital's own page in September 2026. The Thai price names its validity date and its exclusions; the other two name their contents but not their dates.",
+  "notes": "This page describes a product sold by hospitals. Nothing here says which tests a reader should have, which is a question for a doctor who knows them."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "note": "Bumrungrad states its executive programme takes approximately three to four hours, with no overnight stay. Nothing on this record measures yield: no hospital read for it publishes how many of its screening patients were found to have disease, which is the number that would say what the package buys.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-executive-checkup",
+  "url": "https://www.bumrungrad.com/en/packages/executive-health-check-male"
+ },
+ "prices": [
+  {
+   "procedure": "executive-health-screening",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 16300,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "doctor's fee",
+    "vital signs and physical examination",
+    "complete blood count",
+    "fasting blood sugar and HbA1c",
+    "lipid profile",
+    "uric acid",
+    "kidney function panel",
+    "liver function panel",
+    "urine examination",
+    "stool examination with occult blood",
+    "electrocardiogram",
+    "chest X-ray",
+    "ultrasound whole abdomen",
+    "HBsAg and HBsAb"
+   ],
+   "excludes": [
+    "tourism activity price, in the hospital's own terms",
+    "any discount: the hospital states no discount of any kind may be applied to package prices",
+    "settlement other than directly to the hospital"
+   ],
+   "source": "s:bumrungrad-executive-checkup",
+   "url": "https://www.bumrungrad.com/en/packages/executive-health-check-male",
+   "note": "package CKUP1701, price stated valid until 31 December 2026 and per person in Thai currency; the service is available 365 days from purchase. The same hospital lists an Executive Program (Female) at 20,700 THB and a Comprehensive Program (Male) at 34,900 THB.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "executive-health-screening",
+   "country": "MY",
+   "city": "Kuala Lumpur",
+   "amount": 900,
+   "currency": "MYR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "consultation and physical examination by doctor",
+    "vital signs, vision, hearing, body composition",
+    "glucose, kidney and liver function, lipid profile, thyroid, full blood count",
+    "hepatitis A, B and C and HIV screening",
+    "resting ECG",
+    "chest X-ray with radiologist report",
+    "abdominal ultrasound"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:princecourt-health-screening",
+   "url": "https://princecourt.com/health-screening",
+   "note": "the Vibrant Male package for men below 40. The hospital grades its packages by age and sex, so the price is a function of the buyer rather than of the test.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "executive-health-screening",
+   "country": "SG",
+   "city": "Singapore",
+   "amount": 361.31,
+   "amount_high": 563.16,
+   "currency": "SGD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "gynaecologist consultation, cervical smear and transvaginal pelvic ultrasound at the lower price",
+    "screening mammogram and breast ultrasound added at the higher price"
+   ],
+   "excludes": [
+    "the general medical panel: these two are women's screening packages, not whole-body executive panels",
+    "whether GST is included is not stated on the page"
+   ],
+   "source": "s:raffles-screening-ladies",
+   "url": "https://www.rafflesmedicalgroup.com/health-screening/health-screening-packages/",
+   "note": "carried here as the Singapore price point because the provider publishes it with its contents; the group's general packages are named on the site but priced only inside its online store",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the executive package this record reads, with its validity date and its exclusions.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the check-up is sold with a shopping cart and a price valid to a stated date.",
+   "rel": "destination"
+  },
+  {
+   "to": "malaysia",
+   "as": "Where the package is graded by the buyer's age and sex.",
+   "rel": "destination"
+  },
+  {
+   "to": "singapore",
+   "as": "The third published price on this record, and the most specific in what it covers.",
+   "rel": "destination"
+  },
+  {
+   "to": "bangkok",
+   "as": "The hub whose hospitals sell screening as the first purchase.",
+   "rel": "place"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The neighbouring trade, and the one screening packages are sold beside in hotel and spa bundles.",
+   "rel": "term"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this product is native to.",
+   "rel": "term"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "What happens to an abnormal result eight time zones from the doctor who will act on it.",
+   "rel": "risk"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The report travels as a PDF; the images usually need asking for before departure.",
+   "rel": "step"
+  },
+  {
+   "to": "dialysis-holiday",
+   "as": "The other outpatient course sold to travellers, priced per session rather than per programme.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "dialysis-holiday",
+   "tell": "Both are outpatient courses sold to travellers; screening is bought by the well, dialysis abroad is bought by people who cannot travel without it."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package CKUP1701",
+   "url": "https://www.bumrungrad.com/en/packages/executive-health-check-male"
+  },
+  {
+   "label": "Prince Court health screening",
+   "url": "https://princecourt.com/health-screening"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-executive-checkup",
+  "s:princecourt-health-screening",
+  "s:raffles-screening-ladies"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bumrungrad-executive-checkup",
+    "note": "package contents and terms quoted from the hospitals' own pages; the closing paragraph is marked as inference inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Health check up.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

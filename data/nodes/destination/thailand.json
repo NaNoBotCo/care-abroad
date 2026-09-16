@@ -1,0 +1,125 @@
+{
+ "schema": 1,
+ "id": "thailand",
+ "type": "destination",
+ "names": {
+  "name": "Thailand",
+  "aliases": [
+   "ราชอาณาจักรไทย",
+   "Kingdom of Thailand"
+  ],
+  "said": "In the trade Thailand means Bangkok, and Bangkok means about a dozen private hospitals along Sukhumvit and Phetchaburi. Phuket and Chiang Mai sell a different mix."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "TH",
+  "direction": "both",
+  "currency": "THB",
+  "languages": [
+   "Thai",
+   "English"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement"
+  ]
+ },
+ "text": {
+  "what": "The country that made the package price ordinary. A tier of large private hospitals in Bangkok sells fixed-price operations to foreign patients, publishes what they cost, and has done so for long enough that the format spread from here to Kuala Lumpur, Delhi and Istanbul. Thailand also runs a public health system its own citizens use, and the two barely touch.",
+  "story": "The private hospitals that dominate the trade grew out of the 1990s: Thai hospitals built for a middle class that then lost its money in the 1997 crash, with beds to fill and a devalued baht. *Tradition holds —* the foreign patient arrived as the answer to that empty ward, and the industry that followed was built on the exchange rate as much as on the medicine.\n\nJoint Commission International accreditation arrived in 2002, at Bumrungrad, and the mark did the work of translation: it told a foreign insurer what to make of a hospital it had never heard of. The Thai state came in behind the private sector rather than in front of it, with a medical visa class and a run of promotion campaigns.\n\n*Inference —* the numbers everyone quotes for Thailand — millions of medical travellers a year — mostly come from market research firms reselling each other, and they usually count hospital visits by foreigners, which sweeps in every expatriate with a chest infection and every holidaymaker who cut a foot on a reef. The count this directory trusts is the narrow one a named hospital publishes about its own patients, and even that counts visits rather than people.",
+  "how": "A Bangkok private hospital quotes a package: the operation, a named number of ward nights, the surgeon and anaesthetist, and an exclusion list that usually runs longer than the inclusion list. Implants, imaging, laboratory work and any night beyond the package are billed on top. Payment is a deposit before admission and settlement at discharge. Interpreters are salaried staff at the largest hospitals rather than agency bookings.",
+  "today": "Thailand's own health spending per person and its doctor and bed density sit on the country page's chart, drawn from the World Bank series and each carrying its own year. Those are facts about the health system Thai people use; the hospitals in this directory are a small, expensive slice of it, and a reader should not read one as the other."
+ },
+ "geo": {
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried here. The widely quoted figures for Thailand come from market-research summaries whose method this project could not read; the hospital-level counts on the facility pages are what it stands on instead.",
+  "as_of": "2026-09-16",
+  "source": "s:worldbank-open-data"
+ },
+ "kin": [
+  {
+   "to": "bangkok",
+   "as": "Where nearly all of it happens.",
+   "rel": "part"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "The hospital that made the format, and the country's shorthand abroad.",
+   "rel": "part"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "One of the operations sold here at a published fixed price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this country normalised.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why the headline patient numbers for this country should be read slowly.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind what this country spends on health per person.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "The second cluster, and the one that sells the month-long stay.",
+   "rel": "part"
+  },
+  {
+   "to": "defiant",
+   "as": "One facilitator routing patients into this country, with its prices posted.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "Thailand — CDC Yellow Book destination chapter",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK620903/"
+  }
+ ],
+ "sources": [
+  "s:worldbank-open-data",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:wp-bumrungrad",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "tradition",
+    "note": "the trade's own account of the 1997 origin; the inline marks say which stretches are inference"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:worldbank-open-data"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

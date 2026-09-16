@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "germany",
+ "type": "destination",
+ "names": {
+  "name": "Germany",
+  "aliases": ["Deutschland", "Bundesrepublik Deutschland"],
+  "said": "In the trade Germany means university hospitals — Berlin, Heidelberg, Munich, Hamburg — and the international office attached to one. Patients arrive for oncology, cardiac surgery and diagnosis, not for a price."
+ },
+ "region": ["europe-west"],
+ "facets": {
+  "iso2": "DE",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": ["German", "English", "Russian", "Arabic"],
+  "draws": ["proton-therapy", "bone-marrow-transplant", "cabg", "executive-health-screening", "gamma-knife"]
+ },
+ "text": {
+  "what": "An inbound destination for complex care and an outbound one for everything cheap. German university hospitals run international offices that take patients from Russia, the Gulf, the Netherlands and Eastern Europe for oncology, cardiac and neurosurgical work billed at German rates; German residents, meanwhile, file more cross-border reimbursement claims than any country in the EU except France, mostly for dentistry and routine care over a nearby border.",
+  "story": "The inbound count is old and worth carrying with its age. In 2009 Deutsches Ärzteblatt reported work by Jens Juszczak of Hochschule Bonn-Rhein-Sieg putting about 71,000 foreign patients in German hospitals in 2008, led by Dutch, French and Belgian patients with growth from Russia, the UAE and China. The finding that matters more than the headline sat underneath it: in 85% of the hospitals surveyed, foreign patients accounted for under 1% of revenue. A trade that fills the trade press is, for almost every German hospital, a rounding error. No newer national count was read for this record.\n\nThe outbound side is measured much better, by accident. Germany reported data to the Commission's cross-border survey for the first time in 2022 and immediately became the second largest reporter in the EU: 160,647 requests for reimbursement of care not subject to prior authorisation, 141,411 granted, plus 2,781 requests for care that did need authorisation, 2,377 granted. The German contact point told the Commission the figure is not clean — German law applies the Directive's rules to claims that fall outside the Directive, so the cases cannot be separated. The largest cross-border number in Europe comes with a warning attached to it by the people who produced it.\n\nGerman patients also travel for what German law does not allow. In the ESHRE taskforce survey of cross-border fertility patients in six receiving countries, Germans were 14.4% of those surveyed, and 80.2% of them gave legal reasons at home as the motive — the highest proportion of any nationality in the study.\n\n*Inference —* the two directions do not balance and are not meant to. Inbound Germany sells what is hard; outbound Germany buys what is restricted or nearer."
+ ,
+  "how": "The inbound patient is quoted a cost estimate by a university hospital's international office, pays a deposit into an escrow-style account before admission, and is billed against the German DRG system — a case-rate schedule — with a surcharge that foreign self-payers are charged and domestic insurers are not. An interpreter and a visa letter come from the same office. The outbound patient pays the foreign dentist or clinic directly and claims back at German rates afterwards, which caps the refund at what the treatment would have cost at home.",
+  "today": "The German figure that can be stated for 2026 is a reimbursement figure, not a patient figure: 160,647 requests in reference year 2022, with the caveat its own reporter attached. What a German hospital charges an overseas self-payer for a course of proton therapy is not published anywhere this project could read."
+ },
+ "geo": {"lat": 52.5200, "lon": 13.4050, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "annual_foreign_patients": 71000,
+  "note": "Foreign patients in German hospitals in 2008, as reported in 2009 from Jens Juszczak's survey work. Seventeen years old at the time of writing and carried only because it is the narrowest published figure read for this record; in 85% of the hospitals surveyed foreign patients were under 1% of revenue.",
+  "as_of": "2008",
+  "source": "s:aerzteblatt-auslaendische-patienten-2009",
+  "url": "https://aerzteblatt.de/nachrichten/37490/Auslaendische-Patienten-bescheren-Kliniken-Millionenerloese"
+ },
+ "kin": [
+  {"to": "charite-international", "as": "The Berlin university hospital's international office, one of the main inbound doors.", "rel": "part"},
+  {"to": "heidelberg-university-hospital", "as": "The other, with the proton centre attached.", "rel": "part"},
+  {"to": "proton-therapy", "as": "The treatment foreign patients most often fly here to buy.", "rel": "procedure"},
+  {"to": "czechia", "as": "Where German patients cross for dentistry and for treatment German law restricts.", "rel": "contrast"},
+  {"to": "poland", "as": "The other near border German patients cross, and a source of patients in return.", "rel": "contrast"},
+  {"to": "hungary", "as": "The dental corridor German patients have used for thirty years.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The route its residents use more than anyone's except France's, on figures its own contact point calls impure.", "rel": "governed-by"},
+  {"to": "drg", "as": "The case-rate schedule a German hospital bills a foreign patient against.", "rel": "term"},
+  {"to": "counting-patients", "as": "Why the largest cross-border number in Europe is not a count of journeys.", "rel": "story"}
+ ],
+ "sources": ["s:aerzteblatt-auslaendische-patienten-2009", "s:ec-crossborder-2022", "s:shenfield-2010", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:ec-crossborder-2022", "note": "all three counts are cited to their own publications; the closing line is marked inference"},
+   "text.how": {"tier": "tradition", "note": "the standard working of a German international patient office and the self-payer surcharge; the reimbursement cap is cited to the Directive"},
+   "metrics": {"tier": "cited", "source": "s:aerzteblatt-auslaendische-patienten-2009"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Charité Campus Mitte Berlin.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,92 @@
+{
+ "schema": 1,
+ "id": "narayana-health",
+ "type": "facility",
+ "names": {
+  "name": "Narayana Health",
+  "aliases": ["Narayana Hrudayalaya", "NH", "ನಾರಾಯಣ ಹೃದಯಾಲಯ"],
+  "said": "Narayana Hrudayalaya — hrudayalaya is Kannada and Sanskrit for temple of the heart. The group renamed itself Narayana Health; the cardiac hospital at Bommasandra keeps the older name."
+ },
+ "region": ["south-asia"],
+ "facets": {
+  "iso2": "IN",
+  "ownership": "private",
+  "founded": 2000,
+  "specialty": ["cardiac surgery", "paediatric cardiac surgery", "oncology", "transplants", "neurosciences"],
+  "draws": ["cabg", "heart-valve-replacement", "angioplasty-stent", "bone-marrow-transplant"],
+  "status": "open",
+  "languages": ["English", "Kannada", "Hindi"]
+ },
+ "text": {
+  "what": "A hospital group rather than a single building: 24 hospitals and seven heart centres in India plus Health City Cayman Islands, founded by the cardiac surgeon Devi Shetty and listed on both Indian exchanges since January 2016. This record is the group. Its point on the map is the cardiac hospital at Bommasandra on the southern edge of Bengaluru, which is where the group started and which holds its Joint Commission International accreditation.",
+  "story": "Devi Shetty founded Narayana Hrudayalaya at Bommasandra, outside Bangalore, in 2001 — the company dates itself to 2000 — with an argument about volume rather than about technology: surgeons who operate thirty to thirty-five times a day, the group has said, against one or two in an American hospital, and the fixed costs of a theatre spread across all of them.\n\nThe number the group is famous for follows from that argument, and it is a group figure, not a price list. Bloomberg reported in 2013 that Narayana had brought coronary bypass surgery to 95,000 rupees, about 1,583 US dollars at the time, half what it had been twenty years earlier, and set the same procedure at the Cleveland Clinic in Ohio at 106,385 dollars. Shetty said then that he aimed to reach 800 dollars within a decade.\n\n*Inference —* that pair of numbers is the single most-quoted comparison in this whole subject, and it is quoted almost everywhere without its date, its currency, or the fact that it describes an Indian patient's bill at an Indian hospital rather than a package sold to somebody who flew in. It is carried here as what it is: a figure published in 2013, thirteen years before this record was written.\n\nThe Cayman Islands hospital is the other half of the story. A group that had already built the cheapest cardiac surgery in India built a hospital an hour's flight from Miami, which is what the trade calls arbitrage and what the group's own filings call expansion.",
+  "how": "The group's model is stated openly: high volume, standardised surgical steps, in-house manufacture and procurement where it can, and cross-subsidy between paying and non-paying patients. *Trade practice —* a foreign patient reaches the group through an international office, gets an estimate by email, and is treated at whichever of the 24 hospitals holds the relevant programme; the price is not published per hospital.",
+  "today": "As of 16 September 2026 the group reports 5,483 crore rupees of revenue for the 2025 financial year and 19,214 employees as of 2024. Two of its hospitals — the cardiac hospital at Bommasandra and Health City Cayman Islands — hold Joint Commission International accreditation. The famous bypass figure has not been restated by the group in a source read here since 2013."
+ },
+ "geo": {"lat": 12.808022, "lon": 77.6947837, "precision": "street", "source": "s:osm"},
+ "address": {"street": "Bommasandra Industrial Area, Anekal Taluk", "city": "Bengaluru", "area": "Karnataka", "country": "IN", "postcode": "560099"},
+ "metrics": {
+  "beds": null,
+  "staff": 19214,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "revenue_usd": 570000000,
+  "note": "Staff and revenue are the GROUP's, not the Bommasandra hospital's: 19,214 employees as of 2024 and 5,483 crore rupees of revenue for the 2025 financial year, given in the source as about 570 million US dollars at that year's rate. No bed count for the flagship and no patient count of any kind was found published, and a group total would in any case count visits across 24 hospitals rather than people.",
+  "as_of": "2025",
+  "source": "s:wp-narayana-health",
+  "url": "https://en.wikipedia.org/wiki/Narayana_Health"
+ },
+ "tags": [
+  {"tag": "chain", "source": "s:wp-narayana-health", "tier": "cited", "note": "24 hospitals and seven heart centres in India, plus Health City Cayman Islands"},
+  {"tag": "listed-company", "source": "s:wp-narayana-health", "tier": "cited", "note": "listed on the BSE and NSE on 6 January 2016 at a valuation above one billion US dollars"},
+  {"tag": "transplant-programme", "source": "s:wp-narayana-health", "tier": "cited", "note": "the group's cardiac and bone-marrow transplant programmes"},
+  {"tag": "no-price-published", "source": "s:wp-narayana-health", "tier": "cited", "note": "no per-hospital price list was found; the figure the group is known by is a 2013 press report, carried in prices[] as an estimate"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation held by Narayana Institute of Cardiac Sciences, Bangalore, and by Health City Cayman Islands", "year": null, "valid_until": null, "source": "s:wp-narayana-health", "url": "https://en.wikipedia.org/wiki/Narayana_Health", "note": "two hospitals of twenty-five, not the group; the year first granted is not recorded here"}
+ ],
+ "prices": [
+  {
+   "procedure": "cabg",
+   "country": "IN",
+   "city": "Bengaluru",
+   "facility": "narayana-health",
+   "amount": 95000,
+   "currency": "INR",
+   "as_of": "2013",
+   "kind": "estimate",
+   "includes": ["coronary bypass surgery, as reported"],
+   "excludes": ["unstated — the report names no inclusion list"],
+   "source": "s:wp-devi-shetty",
+   "url": "https://en.wikipedia.org/wiki/Devi_Shetty",
+   "note": "A GROUP figure, not a package price at a named hospital and not a current one. Bloomberg reported in 2013 that Narayana had brought coronary bypass to 95,000 rupees, about 1,583 US dollars then, and set the same operation at the Cleveland Clinic at 106,385 dollars. It is the number the group is famous for and the number most often reprinted without its date. Thirteen years old at the time this record was written.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "bengaluru", "as": "The city its first hospital was built outside, at Bommasandra on the Hosur road.", "rel": "place"},
+  {"to": "india", "as": "The group whose volume argument is what people mean when they say Indian heart surgery is cheap.", "rel": "destination"},
+  {"to": "devi-shetty", "as": "Its founder and the author of the volume argument.", "rel": "person"},
+  {"to": "cabg", "as": "The operation the group is known for, and the one the 2013 figure describes.", "rel": "performs"},
+  {"to": "is-it-cheaper", "as": "The 95,000-rupee figure against the Cleveland Clinic's 106,385 dollars is the comparison that essay exists to take apart.", "rel": "story"},
+  {"to": "the-price-that-isnt", "as": "A group figure from 2013, reprinted as a current price ever since.", "rel": "story"},
+  {"to": "apollo-chennai", "as": "The older Indian corporate hospital company, built on referral prestige rather than on volume.", "rel": "contrast"},
+  {"to": "jci", "as": "The accreditor whose mark two of its twenty-five hospitals hold.", "rel": "accredited-by"}
+ ],
+ "links": [
+  {"label": "Narayana Health", "url": "https://www.narayanahealth.org/"}
+ ],
+ "sources": ["s:wp-narayana-health", "s:wp-devi-shetty", "s:osm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.how": {"tier": "tradition", "note": "how a foreign patient reaches a multi-hospital Indian group; hedged in the prose"},
+   "geo": {"tier": "harvested", "source": "s:osm", "note": "OpenStreetMap node Narayana Hrudayalaya, Bommasandra — the group's flagship, standing for a group that has no single building"},
+   "metrics": {"tier": "cited", "source": "s:wp-narayana-health"}
+  }
+ },
+ "x_commons_files": ["File:Narayana Hrudayalaya.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

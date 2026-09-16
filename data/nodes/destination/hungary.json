@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "id": "hungary",
+ "type": "destination",
+ "names": {
+  "name": "Hungary",
+  "aliases": ["Magyarország"],
+  "said": "In the trade Hungary means teeth. Sopron, on the Austrian border, is where the traffic started; Budapest is where it grew a waiting room and an airport transfer."
+ },
+ "region": ["europe-central"],
+ "facets": {
+  "iso2": "HU",
+  "direction": "inbound",
+  "currency": "HUF",
+  "languages": ["Hungarian", "German", "English"],
+  "draws": ["dental-implant", "all-on-four", "dental-crown", "veneers", "full-mouth-restoration"]
+ },
+ "text": {
+  "what": "The oldest dental corridor in Europe, built on a border. Austrian patients crossed to Sopron for crowns and implants before Hungary joined the EU; Budapest practices now draw from further away and sell whole treatment plans across two trips. The work is almost entirely dental and almost entirely private, paid out of pocket, and it sits beside a Hungarian public health system the visiting patient never sees.",
+  "story": "The first measurement of the trade was a survey of dentists rather than a market forecast. Österle, Balázs and Delgado wrote to practices in Western Hungary and Budapest in 2009 — 25.3% and 20.7% answered — and found the border region dominated by patients from neighbouring countries while Budapest drew from further afield. The dentists ranked relative price first among motives, and service second.\n\nKovács and Szócska went back in 2013 with 273 dentists and ten interviews with professional bodies. They put the complication rate in Hungarian dental care at around 5% and called it comparable with the rest of Europe, and they recorded the profession's own worry: that price differences were narrowing and the selling point was shifting to something harder to quote.\n\nThe cross-border care Directive barely touches any of this. In the Commission's data for 2022 Hungary could not report reimbursement figures at all, and told the Commission that the planned treatments of Hungarian insured people abroad — over 500 cases a year — run under the older social-security Regulations instead. Hungary received three requests for prior authorisation that year and authorised none, and it brought in a prior-notification system, the tenth in the EU. *Inference —* a dental trade of tens of thousands of patients and a reimbursement system that handles single figures are the same country described by two instruments that do not meet.",
+  "how": "A dental plan here is priced item by item off a published list rather than as one package: an implant, an abutment, a crown, each with its own line. The treatment runs in two visits — surgery and healing on the first, the fixed work on the second — with three to six months between them, which is why the airline ticket is bought twice. Guarantees are written by the practice and depend on the patient returning to it, which is the clause that decides what a failure costs.",
+  "today": "Hungarian practices still quote against Austrian, German, British and Irish price lists, and the comparison column is the practice's own. *Trade practice —* Sopron's density of surgeries per head is the trade's standing boast about itself, repeated more often than it is measured."
+ },
+ "geo": {"lat": 47.4979, "lon": 19.0402, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No inbound count is carried here. The two published surveys measured dentists, not patients, and the widely repeated figures for Hungarian dental volume come from market summaries whose method this project could not read.",
+  "as_of": "2026-09-16",
+  "source": "s:osterle-2009-hungary"
+ },
+ "kin": [
+  {"to": "budapest", "as": "Where the longer-distance patients land and the bigger practices are.", "rel": "part"},
+  {"to": "dental-implant", "as": "The item at the centre of every treatment plan sold here.", "rel": "procedure"},
+  {"to": "all-on-four", "as": "The full-arch job this corridor sells to patients who have run out of teeth.", "rel": "procedure"},
+  {"to": "germany", "as": "A neighbour that supplies patients rather than receiving them, in dentistry at least.", "rel": "contrast"},
+  {"to": "poland", "as": "The other Central European dental corridor, selling the same work to different markets.", "rel": "contrast"},
+  {"to": "eu-directive-2011-24", "as": "The reimbursement route that carries almost none of this country's dental traffic.", "rel": "governed-by"},
+  {"to": "revision-at-home", "as": "Who refits a crown that fails after the second flight home.", "rel": "risk"},
+  {"to": "package-price", "as": "The form this country does not use: the bill here is itemised, not bundled.", "rel": "term"}
+ ],
+ "links": [
+  {"label": "Travelling for teeth (British Dental Journal, 2009)", "url": "https://pubmed.ncbi.nlm.nih.gov/19396208/"}
+ ],
+ "sources": ["s:osterle-2009-hungary", "s:kovacs-szocska-2013-hungary", "s:ec-crossborder-2022", "s:eu-directive-2011-24", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.how": {"tier": "tradition", "note": "the standard two-visit implant sequence and the practice-held guarantee, as the trade runs them"},
+   "text.today": {"tier": "tradition"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Sopron - Fő tér.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

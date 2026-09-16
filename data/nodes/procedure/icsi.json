@@ -1,0 +1,130 @@
+{
+ "schema": 1,
+ "id": "icsi",
+ "type": "procedure",
+ "names": {
+  "name": "Intracytoplasmic sperm injection",
+  "aliases": ["ICSI", "sperm injection", "IVF-ICSI"],
+  "said": "Embryologists say ICSI, pronounced ick-see. Price lists say ICSI all when they mean every egg and ICSI of a single egg when they mean one. Patients are often told they are having IVF and have in fact bought this."
+ },
+ "etymology": {
+  "root": "intracytoplasmic: Latin intra, within, plus Greek kytos, a vessel, and plasma, something moulded — inside the substance of the cell. The name describes the target, a single egg's interior, and the whole technique is one needle crossing one membrane.",
+  "tier": "tradition",
+  "note": "conventional IVF leaves thousands of sperm in a dish with an egg and lets one find its way in. ICSI picks one sperm and puts it there. The words are used as though they were the same treatment because the bill usually is."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "fertility",
+  "setting": "outpatient-course",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "An embryologist holds one egg with a suction pipette, picks up one sperm in a glass needle a few micrometres across, pushes the needle through the egg's outer coat and membrane and releases the sperm inside. It was devised for male-factor infertility, where too few sperm swim or none can penetrate an egg, and it is now applied far beyond that. The step happens to a gamete on a microscope stage; the patient is not in the room, and is under anaesthesia only for the egg collection that precedes it.",
+  "story": "ICSI has overtaken the treatment it was invented to rescue. ESHRE's fact sheet puts it at around 73% of all fertilisation treatments worldwide against 27% for conventional insemination, and notes in the same breath that outcome rates with each technique are comparable. The CDC's national rows say the same thing about the United States: 77.7% of transfers in 2022 involved at least one embryo fertilised by ICSI, rising to 82.0% among patients under 35 — the age band least likely to have a male-factor diagnosis.\n\n*Trade practice —* the reason is partly commercial and partly defensive. ICSI removes the failed-fertilisation phone call, which is the worst call a clinic makes, and on a price list it is either bundled at no visible charge or added as a line the patient will not refuse. Reprofit's 2026 list shows the second shape plainly: 620 EUR to inject every egg in a standard cycle, 190 EUR for a single egg in a minimal-stimulation or native cycle.\n\n*Inference —* where ICSI is bundled, comparing a cycle price across two countries compares two different laboratory operations sold under one word.",
+  "how": "Done on the day of egg collection, hours after the eggs are stripped of their surrounding cells and judged mature. Sperm may come from an ejaculate, or from a testicular extraction where there is none in the ejaculate: Reprofit prices TESE under general anaesthetic at 1,545 EUR, with screening and sperm freezing outside it. Sperm-selection add-ons are priced separately again — PICSI at 355 EUR, magnetic separation at 475 EUR, microfluidic sorting at 350 EUR on the same list.\n\nThe legal facts that move this step across a border are the ones attached to the sperm rather than the needle. Where donor sperm is banned outright, as under Türkiye's 2010 regulation on assisted reproduction practices and centres, an ICSI cycle using a donor cannot be bought at home at any price; where donor anonymity has been abolished, as in the UK for donations after 1 April 2005, the cycle can be bought but the donor cannot be anonymous. Both push the same cycle to a different country. The rule records carry the jurisdictions and their instruments.",
+  "today": "As of September 2026 ICSI appears on the published price lists read for this record in three forms: invisible inside a cycle price in Barcelona and Thessaloniki, itemised at 620 EUR in Brno, and standard-with-no-surcharge in the US clinic's base package. A cycle price that does not name ICSI either way is not saying whether it is included.",
+  "notes": "This page describes a laboratory technique and what registers and price lists record about it. It is not medical advice."
+ },
+ "metrics": {
+  "success_rate_pct": 33.0,
+  "note": "33.0% is the European mean PREGNANCY rate per embryo transfer after ICSI in 2020, from the ESHRE fact sheet drawing on the EIM consortium registries — a pregnancy rate, not a birth rate, and per transfer, not per cycle started. The same source gives 33.2% after conventional IVF, 35.9% after frozen embryo transfer and 51.3% after egg donation, and puts the world average delivery rate at 15.4% per aspiration with a 32.3% cumulative delivery rate from one started aspiration. The gap between 33% per transfer and 15.4% per aspiration is the same arithmetic that makes clinic advertising possible: every cycle that never reached a transfer has left the denominator.",
+  "as_of": "2020",
+  "source": "s:eshre-art-factsheet",
+  "url": "https://www.eshre.eu/-/media/sitecore-files/Press-room/ESHRE_ARTFactSheet_v10_2025.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "icsi",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 620,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "list",
+   "includes": ["injection of a single sperm into an egg, all eggs", "priced for IVF treatment"],
+   "excludes": ["the cycle itself"],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"ICSI all\" on the self-payer list valid from 1 January 2026. The same list already folds ICSI into the 3,245 EUR standard cycle, so this line is charged against the minimal-stimulation and native cycles that exclude it.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "icsi",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 190,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "list",
+   "includes": ["injection of a single sperm into an egg, one single egg", "priced for IVF min and IVF native"],
+   "excludes": ["the cycle itself"],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"ICSI of a single egg\". A native cycle at 1,100 EUR plus one injection at 190 EUR is a different bill from the 3,245 EUR cycle that includes it.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "icsi",
+   "country": "ES",
+   "city": "Barcelona",
+   "amount": 5290,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["ICSI", "EmbryoScope+", "blastocyst culture", "first transfer"],
+   "excludes": [],
+   "source": "s:fertilab-pricing",
+   "url": "https://fertilab.com/en/pricing/",
+   "note": "the clinic's single line reads \"In Vitro Fertilisation IVF (ICSI)\" — one price, both words, no separable ICSI charge. Read on 16 September 2026; special prices stated to hold for reservations until 30 September 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "icsi",
+   "country": "GR",
+   "city": "Thessaloniki",
+   "amount": 3860,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["ICSI", "initial consultation", "follow-ups", "ultrasounds", "sedation", "blastocyst culture", "assisted hatching", "sperm freezing", "first embryo transfer"],
+   "excludes": ["preliminary investigations", "extra tests", "medications", "embryo storage"],
+   "source": "s:newlife-ivf-costs",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "note": "the Thessaloniki clinic sells one line, IVF/ICSI, at one price; ICSI carries no separate charge and no separate consent on the price page. Read on 16 September 2026.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "ivf", "as": "The cycle this step sits inside, and the word most price pages use for both.", "rel": "whole"},
+  {"to": "sperm-donation", "as": "Where the sperm comes from when it does not come from a partner, and the law that decides whether it may.", "rel": "kin"},
+  {"to": "pgt", "as": "The next laboratory charge on the same embryos, priced per embryo.", "rel": "kin"},
+  {"to": "egg-donation", "as": "The other half of the cycle that can be bought from a stranger.", "rel": "kin"},
+  {"to": "eshre", "as": "Publishes the European registry figures that put ICSI at three-quarters of all treatment.", "rel": "measures"},
+  {"to": "cdc-art-results", "as": "The US series behind the 77.7% of 2022 transfers using ICSI.", "rel": "measured-by"},
+  {"to": "donor-anonymity-law", "as": "Decides whether the sperm in the needle can belong to an unnamed donor.", "rel": "governed-by"},
+  {"to": "package-price", "as": "The form that hides this step inside a cycle price, or itemises it.", "rel": "term"},
+  {"to": "reading-the-exclusions", "as": "The step of the journey where a bundled ICSI and an itemised one turn out to differ.", "rel": "step"}
+ ],
+ "confusable_with": [
+  {"id": "ivf", "tell": "Conventional IVF leaves sperm and egg together in a dish; ICSI injects one sperm. Most price lists sell the second and print the first."},
+  {"id": "pgt", "tell": "Both are laboratory steps charged on top of a cycle, but ICSI is done to the egg on collection day and PGT to the embryo five days later."}
+ ],
+ "links": [
+  {"label": "ESHRE ART fact sheet", "url": "https://www.eshre.eu/-/media/sitecore-files/Press-room/ESHRE_ARTFactSheet_v10_2025.pdf"},
+  {"label": "Reprofit price list, valid from 1 January 2026", "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf"}
+ ],
+ "sources": ["s:eshre-art-factsheet", "s:cdc-art-2022-summary", "s:reprofit-pricelist-2026", "s:fertilab-pricing", "s:newlife-ivf-costs", "s:gurtin-2011-turkey", "s:hfea-donating-sperm"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:eshre-art-factsheet", "note": "the share figures are cited; the paragraph on why clinics prefer ICSI is marked Trade practice and the comparability point is marked Inference"},
+   "text.how": {"tier": "cited", "source": "s:reprofit-pricelist-2026"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:eshre-art-factsheet"},
+   "prices": {"tier": "cited", "source": "s:reprofit-pricelist-2026"}
+  }
+ },
+ "x_commons_files": ["File:ICSI oocyte.jpg", "File:Intracytoplasmic sperm injection.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

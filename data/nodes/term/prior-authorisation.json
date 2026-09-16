@@ -1,0 +1,91 @@
+{
+ "id": "prior-authorisation",
+ "names": {
+  "name": "Prior authorisation",
+  "aliases": [
+   "prior authorization",
+   "preauthorization",
+   "pre-approval",
+   "precertification",
+   "prior approval"
+  ],
+  "said": "US plans say prior authorization or precertification. UK commissioners say prior approval or individual funding request. The act is the same: a payer deciding before the treatment, not after."
+ },
+ "etymology": {
+  "root": "prior, 1714, \"earlier, preceding in order of time\", from Latin prior, former or previous, the comparative of Old Latin pri, before; with authorize, late 14c. auctorisen, \"give formal approval or sanction to\", from Old French autoriser and Medieval Latin auctorizare, from Latin auctor, from auctus, past participle of augere, to increase. The phrase therefore means approval given beforehand — and nothing in the words promises money.",
+  "first_attested": "1714 for prior; late 14c. for authorize",
+  "tier": "cited",
+  "source": "s:etymonline-authorize",
+  "note": "The US federal glossary states the limit in terms: \"Preauthorization isn't a promise your health insurance or plan will cover the cost.\""
+ },
+ "text": {
+  "what": "A payer's advance decision that a treatment is medically necessary. The US federal glossary defines it as \"A decision by your health insurer or plan that a health care service, treatment plan, prescription drug or durable medical equipment is medically necessary\", sometimes called prior authorization, prior approval or precertification.",
+  "story": "The gate is where a payer's clinical policy becomes a patient's travel plan. Where a treatment is contested — a knee arthroscopy for degenerative change, a disc replacement with five written eligibility conditions — prior authorisation is the instrument that refuses it, and a refusal is one of the recurring reasons a patient starts pricing the same operation abroad.\n\nThe caveat the glossary attaches matters as much as the definition: \"Preauthorization isn't a promise your health insurance or plan will cover the cost.\" Authorisation is a finding about necessity, not an undertaking about money.\n\n*Inference —* the gate also does not travel. An authorisation issued against a domestic network says nothing about a hospital in another country, and US Medicare does not pay for care outside the United States except in narrow circumstances set out in 42 CFR Part 424, Subpart H. A patient who was refused at home and a patient who was approved at home are in the same position at a foreign cashier's desk.",
+  "how": "Three questions decide whether an authorisation is worth anything abroad: whether the plan covers any care outside its own country, whether the foreign provider can be paid directly or only reimbursed, and whether the decision names the procedure or the provider. Reimbursement routes that do cross borders — the European directive route, the S2 route — run their own prior approval on their own terms, and those are held on rule records here.",
+  "today": "As of 17 September 2026 this site carries prior authorisation as a reason a procedure is sought abroad, not as a route to paying for it. No record here reports a US plan authorising treatment in another country."
+ },
+ "kin": [
+  {
+   "to": "out-of-pocket",
+   "as": "What a bill becomes when this gate is closed, or when it never applied.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "as": "What remains owed once the gate has been passed.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-arthroscopy",
+   "as": "The operation where a payer wrote a contested indication into the schedule itself.",
+   "rel": "procedure"
+  },
+  {
+   "to": "disc-replacement",
+   "as": "Five written eligibility conditions, which is what this gate looks like in a fee schedule.",
+   "rel": "procedure"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The European scheme with its own prior approval, which does cross a border.",
+   "rel": "term"
+  },
+  {
+   "to": "deciding-whether",
+   "as": "The step a refusal usually starts.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-authorize",
+  "s:healthcare-gov-preauthorization",
+  "s:ecfr-42-424-h",
+  "s:medicare-travel-outside-us"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "P"
+ }
+}

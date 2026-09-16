@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "id": "gastric-bypass",
+ "type": "procedure",
+ "names": {
+  "name": "Gastric bypass",
+  "aliases": ["Roux-en-Y gastric bypass", "RYGB", "mini gastric bypass", "one-anastomosis gastric bypass", "OAGB"],
+  "said": "Surgeons say Roux-en-Y, or mini bypass for the single-join version. Price lists put them 200 US dollars apart and do not always say which one the number belongs to."
+ },
+ "etymology": {
+  "root": "bypass is plain English for a road built around a town, borrowed into surgery for a gut built around itself. Roux-en-Y names the shape of the join — two limbs of bowel meeting a third, drawn as a Y — after the Swiss surgeon César Roux, who described the reconstruction in the nineteenth century.",
+  "tier": "tradition",
+  "note": "the mini or one-anastomosis bypass makes one join instead of two. It is a different operation with a different revision profile, and on a price list it looks like a discount."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "bariatric",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The stomach is divided with staples to leave a small pouch at the top, and that pouch is joined to the lower part of the small intestine, so food passes most of the stomach and the first stretch of bowel without meeting them. The NHS puts the operation at around two hours. It restricts what can be eaten and reduces what is absorbed, and the second half of that sentence is what makes lifelong supplementation and blood monitoring a condition of having had it rather than an optional extra.",
+  "story": "The bypass is the sleeve's more expensive neighbour on every package price list read for this record, and the destination of a sleeve that did not work. On one Tijuana page the two sit in a column with six other operations: a balloon at 1,880 US dollars, a sleeve at 4,580, a mini bypass at 5,780, a bypass at 5,980, a duodenal switch at 7,500. A patient reads that column as a menu of prices. It is a menu of different amounts of malabsorption.\n\n*Trade practice —* the operation that reroutes the gut is the one whose aftercare cannot be skipped. Iron, B12, calcium, vitamin D and annual bloods are the standing requirement, and the deficiency that follows from missing them arrives years later, in a different country from the surgeon.\n\n*Inference —* that timing is what makes the bypass the hardest bariatric operation to buy abroad well. The package is bought for a week; the operation's failure mode is measured in years; and none of the pages read for this record prices the correction of either a nutritional failure or a mechanical one."
+ ,
+  "how": "Priced and bundled exactly like the sleeve — surgeon, theatre, anaesthetist, one to two nights on a ward, a hotel either side, transfers, a coordinator — and sold from the same pages, roughly 1,400 US dollars above it in Tijuana. What sits outside is also the same: flights, the companion, extra nights, take-home medication, lifelong vitamins, and any complication that declares itself after the flight home.\n\nThe legal and administrative facts attached to this operation are not prohibitions but payment rules. Whether a home insurer or a public system will pay for a complication of an operation it did not authorise, and whether it will fund a revision, is an insurance question rather than a criminal one, and it decides who bears the cost of the years the package does not cover. Those sit on the rule and risk records.\n\nNo regulator read for this record publishes national outcome figures for this operation. The numbers on the clinic pages are the clinics' own, and this record carries none of them.",
+  "today": "As of September 2026 the published package prices read off pages for this record are from 5,900 US dollars and 5,980 US dollars in Tijuana, with a one-join mini bypass at 5,780 on the same page. No Türkiye clinic page read for this batch published a bypass price, though all three published a sleeve price — a gap in what is advertised rather than in what is done.",
+  "notes": "This page describes an operation and reads the published package prices attached to it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": null,
+  "days_before_flying": 10,
+  "success_rate_pct": null,
+  "note": "The ten-day figure is the CDC's guidance not to fly for ten days after abdominal surgery. Hospital stay is left null because the pages that publish a bypass price for this record name their ward nights against the sleeve rather than the bypass, and a number read off the wrong line is not a number. No national regulator read for this record publishes weight loss, complication or mortality figures for this operation, so those fields print as gaps.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "gastric-bypass",
+   "country": "MX",
+   "city": "Tijuana",
+   "amount": 5900,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["pre-op consultations and medical evaluation", "pre-op blood work in Mexico", "the operation by a board-certified surgeon", "anaesthesia and anaesthesiologist fees", "hospital stay in a private room", "post-op hotel recovery", "airport, hotel and hospital transfers", "post-op medications", "bilingual coordinator", "nutrition support and follow-up calls"],
+   "excludes": ["round-trip flights", "travel companion's hotel and meals", "pre-op blood work done in the home country", "lifetime daily multivitamins", "optional travel-complication insurance", "body-contouring surgery", "travel insurance for trip cancellation"],
+   "source": "s:alo-bariatrics-cost",
+   "url": "https://www.alobariatrics.com/gastric-sleeve-cost/",
+   "note": "listed as from 5,900 USD beside the same clinic's sleeve at from 4,500 USD, on a page read on 16 September 2026. The inclusion and exclusion lists are the page's own and are stated for the packages together; lifetime daily multivitamins are excluded by name from an operation that makes them compulsory.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "gastric-bypass",
+   "country": "MX",
+   "city": "Tijuana",
+   "amount": 5980,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": ["hospital and surgical team", "San Diego to Tijuana transportation", "hotel recovery stay", "anaesthesiologist fees", "one companion free"],
+   "excludes": ["airfare", "additional hotel nights", "extra medications", "financing fees", "services not listed in the personalized quote"],
+   "source": "s:tijuana-bariatric-center-cost",
+   "url": "https://tijuanabariatriccenter.com/about/financing/bariatric-surgery-tijuana-cost/",
+   "note": "a starting price. The same column lists a mini gastric bypass at 5,780 USD, a SADI-S at 6,480 USD and a duodenal switch at 7,500 USD: four operations that differ in how much bowel is bypassed, sold 1,700 USD apart. Read on 16 September 2026.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "gastric-sleeve", "as": "The cheaper operation on the same price lists, and the one a bypass is often a revision of.", "rel": "contrast"},
+  {"to": "gastric-balloon", "as": "The temporary device at a third of the price on the same page, and not an operation at all.", "rel": "contrast"},
+  {"to": "mexico", "as": "Where both published prices on this page are sold, a short drive from the border.", "rel": "destination"},
+  {"to": "tijuana", "as": "The city that prices eight bariatric operations in one column.", "rel": "place"},
+  {"to": "follow-up-gap", "as": "Who orders the annual bloods this operation makes compulsory, once the coordinator's calls stop.", "rel": "risk"},
+  {"to": "revision-at-home", "as": "Who operates when a join leaks or a pouch fails, in a country that did not do the first operation.", "rel": "risk"},
+  {"to": "insurance-exclusions", "as": "Whether a home payer covers a complication of an operation it did not authorise.", "rel": "governed-by"},
+  {"to": "flying-after-surgery", "as": "The clot risk that sets how long after this abdominal operation a patient can board.", "rel": "risk"},
+  {"to": "package-price", "as": "The pricing form this operation is sold in, and what the week-long bundle leaves out.", "rel": "term"}
+ ],
+ "confusable_with": [
+  {"id": "gastric-sleeve", "tell": "The sleeve removes stomach and leaves the bowel alone; the bypass reroutes the bowel. Only the second is malabsorptive, and only the second makes supplementation compulsory rather than advisable."}
+ ],
+ "links": [
+  {"label": "NHS — weight loss surgery, how it's done", "url": "https://www.nhs.uk/conditions/weight-loss-surgery/how-its-done/"},
+  {"label": "Tijuana Bariatric Center — prices", "url": "https://tijuanabariatriccenter.com/about/financing/bariatric-surgery-tijuana-cost/"}
+ ],
+ "sources": ["s:nhs-weight-loss-surgery", "s:nhs-weight-loss-surgery-how", "s:alo-bariatrics-cost", "s:tijuana-bariatric-center-cost", "s:cdc-yellowbook-medical-tourism"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:nhs-weight-loss-surgery-how"},
+   "text.story": {"tier": "cited", "source": "s:tijuana-bariatric-center-cost", "note": "the price column is quoted from the named page; the paragraph on aftercare is marked Trade practice and the paragraph on timing is marked Inference"},
+   "text.how": {"tier": "cited", "source": "s:alo-bariatrics-cost"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:cdc-yellowbook-medical-tourism"},
+   "prices": {"tier": "cited", "source": "s:alo-bariatrics-cost"}
+  }
+ },
+ "x_commons_files": ["File:Gastric bypass icon.svg", "File:Roux-en-Y gastric bypass.png"],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

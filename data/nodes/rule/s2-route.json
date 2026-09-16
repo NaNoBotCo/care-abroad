@@ -1,0 +1,106 @@
+{
+ "id": "s2-route",
+ "names": {
+  "name": "The S2 route",
+  "aliases": [
+   "S2 certificate",
+   "planned treatment scheme",
+   "Article 20 authorisation",
+   "the old E112"
+  ],
+  "said": "Named for the form. Before 2010 the same authorisation travelled on an E112."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "entitlement",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Prior authorisation to be treated in another EEA state's public system at that state's expense, issued on a certificate the patient carries. It rests on Article 20 of Regulation (EC) No 883/2004 on the coordination of social security systems. Where it is granted, the patient is treated on the same terms as a resident of the destination — including that country's own co-payments — and the two states settle the cost between themselves. No invoice reaches the patient for the treatment itself.",
+  "story": "Coordination came first. Regulation (EC) No 883/2004 replaced Regulation 1408/71 and carried forward a rule written for migrant workers, not for people shopping for surgery: a person insured in one Member State who needs care in another should not lose the cover they have paid for. Article 20(2) sets two conditions and only two. The treatment must be \"among the benefits provided for by the legislation in the Member State where the person concerned resides\", and the person must not be able to be \"given such treatment within a time-limit which is medically justifiable, taking into account his current state of health and the probable course of his illness\".\n\nThat second condition is the queue, written into law. It is also what makes the route generous: authorisation granted, the destination's public system bills the patient's home system at its own rates, and the patient pays what a local pays. Against the Directive route — pay the foreign price, reclaim the home price — the arithmetic runs the other way for anyone travelling from a cheap system to an expensive one.\n\n*Inference —* the two conditions between them close the route to almost everyone this directory is about. A patient who wants a procedure sooner than their own system offers, but not so much sooner that the delay is medically unjustifiable, does not qualify. A patient who wants a private hospital does not qualify: the NHS states the scheme \"applies to public healthcare providers only\". A patient who wants something their own system does not fund at all does not qualify under either route.\n\nThe United Kingdom kept this route after Brexit and lost the other. That is the single clearest statement of which of the two a state considers worth keeping when it is choosing.",
+  "how": "The application goes in before travel. NHS England's version asks that the applicant be \"ordinarily resident in England and entitled to treatment on the NHS\", be registered with an NHS general practitioner, and have \"seen your NHS GP for a consultation or assessment about the condition\". Approval issues an S2 certificate from the NHS Business Services Authority, described as a payment guarantee form, and the stated service standard is up to 20 working days for a complete application.\n\nWhat the certificate does not cover: travel, accommodation, and \"the clinical trial or experimental part of any treatment\". What it does not undo: a co-payment. \"This could mean you have to pay a percentage of the costs yourself\", which in a system that charges its own residents a share — France, Belgium, much of central Europe — the visiting patient pays too.\n\nTreatment paid for before authorisation cannot be reimbursed afterwards, except for co-payments. The certificate is issued against a named provider and a named course of treatment.",
+  "today": "As of 17 September 2026 the S2 route is open to residents of EU Member States and, for UK residents, to treatment in an EU country or Switzerland, Norway, Iceland or Liechtenstein — with additional nationality conditions for Switzerland. It is the only planned-treatment funding route the NHS still operates in Europe."
+ },
+ "kin": [
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The newer route, and the contrast: private providers, no queue test, and the patient carries the price difference.",
+   "rel": "contrast"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "as": "The national system that runs this route, and the page where its own conditions are set out.",
+   "rel": "kin"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The word for the gate this route is entirely made of.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "as": "What survives the certificate.",
+   "rel": "term"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that measures the queue Article 20(2) turns on.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step this route removes, by paying at the destination's own tariff.",
+   "rel": "step"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Travel, accommodation and the experimental part of a treatment are outside the certificate.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Regulation (EC) No 883/2004, Article 20",
+   "url": "https://www.legislation.gov.uk/eur/2004/883/article/20/adopted"
+  },
+  {
+   "label": "NHS — The Planned Treatment Scheme (S2 funding route)",
+   "url": "https://www.nhs.uk/using-the-nhs/healthcare-abroad/going-abroad-for-treatment/planned-treatment-s2-funding-route/"
+  }
+ ],
+ "sources": [
+  "s:eu-reg-883-2004",
+  "s:nhs-s2-route",
+  "s:legislation-eu-directive-2011-24",
+  "s:ec-crossborder-2022"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eu-reg-883-2004"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:nhs-s2-route",
+    "note": "the English application conditions; other Member States run their own"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eu-reg-883-2004",
+    "note": "the paragraph marked *Inference —* is this project reasoning from the two instruments"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

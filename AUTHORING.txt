@@ -1,0 +1,277 @@
+CARE ABROAD — HOW TO WRITE A RECORD, AND THE CAST LIST
+======================================================
+One JSON file per node, at data/nodes/<type>/<id>.json. The id is the filename. The
+schema is schema/node.schema.json and validate.py enforces it.
+
+Read the three hand-written exemplars before writing anything:
+  data/nodes/procedure/knee-replacement.json   depth, price block, inline source marks
+  data/nodes/facility/bumrungrad.json          metrics, tags, recognitions, geo
+  data/nodes/dataset/world-bank-health-spending.json   what a series counts, and does not
+
+
+THE FIELDS
+----------
+schema        always 1
+id            kebab-case, matches the filename
+type          matches the folder
+names         name · aliases[] · said (the local name, or how the trade says it)
+etymology     root · first_attested · note · tier · source. Words and procedures earn one;
+              a hospital does not.
+region        one or more keys from data/vocab/regions.json
+facets        per type, keys from data/vocab/facets.json. facets.iso2 is ISO 3166-1
+              alpha-2 and is the join key for every map, chart and table on the site.
+text.what     one paragraph. What it is. No preamble.
+text.story    the narrative, told as narrative. Mark each stretch inline:
+              plain prose = cited · *Trade practice —* · *Tradition holds —* · *Inference —*
+text.how      how it is done, priced, regulated or travelled
+text.today    present tense, dated
+kin           what other nodes ARE to this one, said from here. See KIN below.
+geo           lat/lon + precision (exact, street, city, region, country) + source
+address       street · city · area · country (ISO-2) · postcode
+metrics       numbers the record states about itself, each with as_of and source. A number
+              nobody published stays null and prints as a gap.
+prices        see MONEY below
+legality      see LAW below
+tags          keys from data/vocab/tags.json; each names its source. Tier cited,
+              harvested or field — the validator refuses tradition and inference here.
+recognitions  accreditations and listings; `by` from data/vocab/recognizers.json
+dataset       for type dataset only: publisher, unit, counts, does_not_count
+sources       ids from data/sources/sources.json
+provenance    default tier + per-field overrides
+confidence    high / medium / low  ·  needs_verification: true where you are unsure
+updated       the date you wrote it
+
+
+THE THIRTEEN TYPES
+------------------
+destination  a country as a place people are treated in, or leave. direction: inbound,
+             outbound or both. A country people mostly LEAVE is as much a record as one
+             they arrive in, and the outflow is half the subject.
+hub          a city or a district — a street of dental surgeries, a hospital quarter, a
+             corridor of hair clinics. facets.radius_km sets how far tools/harvest_osm.py
+             queries around its point.
+procedure    an operation or a course of treatment. Carries prices[].
+facility     a named hospital or clinic. Carries metrics, tags, recognitions, prices[].
+pathway      one step of the journey, from deciding to complaining. facets.stage orders them.
+risk         what goes wrong, who measures it, who pays.
+rule         a visa class, a licensing regime, an entitlement, a prohibition, a
+             reimbursement route. Carries legality[] where it maps across countries.
+org          an accreditor, a ministry, a trade body, a registry, a society.
+person       a surgeon, a founder, a regulator, a researcher, a patient who wrote it down.
+event        a conference, a ruling, an outbreak, a year the field turned.
+term         a word, with its root and the fight over it where there is one.
+dataset      a series this site draws a chart from. The does_not_count sentence is the point.
+story        a longer piece.
+
+
+KIN IS THE SPINE
+----------------
+Each kin entry says what the other node IS to this one, in one sentence a reader standing
+on this page would want. Not "see also". The other record answers in its own words, so
+write yours from here. Link only to ids on the cast list. 5–12 kin on a rich record, 3–6
+on a small one. Reach across batches freely — another agent is writing that record now.
+
+
+MONEY
+-----
+A price row is a number somebody PUBLISHED, with its currency, its date, and what it
+covers. Not a quote you were given, not an average, not a range with no source.
+
+  kind    package      a fixed bundle off a provider's own page
+          list         a single-item list price
+          tariff       a state or insurer schedule
+          reimbursement what a payer refunds
+          survey       a published survey or study figure
+          estimate     a published estimate, method named in the note
+          quoted-range what a provider advertises as "from X to Y"
+  amount / amount_high  the range, low first
+  currency ISO 4217. Leave usd alone — build.py computes it from one dated rate table.
+  as_of    YYYY-MM-DD or YYYY. A price without a date fails validation.
+  includes / excludes   the provider's own words. The exclusion list is usually where
+          the story is: a joint package that excludes the implant is quoting half a bill.
+
+Read the price off the page yourself and register that page as a source. Where the page
+is rendered by script and WebFetch returns a shell, use the browser tools.
+
+
+LAW
+---
+A legality row is a reading of ONE named instrument on ONE date.
+  status  lawful · lawful-with-conditions · residents-only · unlawful · unregulated · no-data
+  instrument  the act, article, directive or ministerial regulation, named
+  as_of   the date of the reading. Law moves; an undated row cannot be read.
+Put legality[] on the rule record for a cross-border question (surrogacy, donor anonymity,
+assisted dying, transplant), not on every procedure. Nothing on this site is legal advice
+and no record says what a reader should do.
+
+
+VOICE
+-----
+BANNED, hard error (validate.py).            [stylecheck: allow-start]
+  load-bearing · honest · authentic · inauthentic · purist · tourist · the real thing
+  world-class · state-of-the-art · cutting-edge · top-rated · award-winning · risk-free
+  pain-free · hassle-free · life-changing · miracle · breakthrough treatment
+  guaranteed results · save up to · savings of up to · up to N% cheaper
+  we recommend · you should choose/book/go/travel/have · your best option
+  don't worry · rest assured · peace of mind   [stylecheck: allow-end]
+A quotation in quotation marks is exempt, so quote and attribute instead of asserting.
+
+The sixth word on that list is the field's own name for itself. So this site writes
+medical travel and cross-border care, and the two-word phrase built on that sixth word
+appears in quotation marks with a speaker, or on the word's own page, where the fight
+over it is the subject.
+
+This subject runs on argument — cheaper against riskier, queue against fee, the state that
+will not pay against the state that will not allow. REPORT every argument. JOIN none.
+A back-street hair clinic gets described the same way a university hospital does.
+
+Write short. Lead with a verb. Cut "the" and "what" wherever the sentence survives it.
+Fewer adjectives, more verbs. Define every non-obvious word in a clause at first use —
+DRG, graft, cycle, tariff, ASA grade, day case. No sentence that announces the next
+sentence. No closing summary. Every price and every number carries its date.
+
+This is a directory, not a clinic. It describes; it does not advise. No second person
+telling a reader what to do about their own body.
+
+
+PICTURES
+--------
+images[] stays empty. Put candidate Wikimedia Commons file titles in
+x_commons_files: ["File:...jpg"] and a later pass fetches them with their licences.
+The visuals on this site are drawn from the data, not photographed.
+
+
+FINISH BY
+---------
+  BUILD_DRAFT=1 python3 tools/validate.py
+Fix every ERROR naming one of YOUR records. Kin-target warnings for records other agents
+are still writing are expected.
+
+
+THE CAST LIST
+=============
+Ids are fixed: link to these exact strings. ✓ = already written.
+
+DESTINATIONS — Asia
+  thailand ✓ · india · malaysia · singapore · south-korea · japan · taiwan · vietnam
+  philippines · indonesia · china · sri-lanka · iran · nepal
+
+DESTINATIONS — Europe
+  turkiye · hungary · poland · czechia · lithuania · spain · germany · belgium · greece
+  cyprus · north-cyprus · portugal · croatia · romania · switzerland · united-kingdom
+  ireland
+
+DESTINATIONS — Americas
+  mexico · costa-rica · colombia · brazil · dominican-republic · panama · argentina
+  united-states · canada · cuba
+
+DESTINATIONS — Middle East and Africa
+  uae · saudi-arabia · jordan · israel · tunisia · morocco · egypt · south-africa
+  kenya · nigeria
+
+DESTINATIONS — Oceania
+  australia
+
+HUBS
+  bangkok · phuket · chennai · delhi-ncr · mumbai · bengaluru · istanbul · antalya
+  izmir · los-algodones · tijuana · cancun · monterrey · san-jose-cr · bogota · medellin
+  budapest · warsaw · prague · vilnius · barcelona · seoul · kuala-lumpur · penang
+  singapore-city · dubai · amman · tel-aviv · tunis · cairo · johannesburg · colombo
+  taipei · nicosia · havana · santo-domingo · panama-city · tbilisi
+
+PROCEDURES — bone, joint, spine
+  knee-replacement ✓ · hip-replacement · shoulder-replacement · spinal-fusion
+  acl-reconstruction · knee-arthroscopy · disc-replacement
+
+PROCEDURES — teeth
+  dental-implant · all-on-four · dental-crown · root-canal · veneers · full-mouth-restoration
+
+PROCEDURES — heart, eye, general
+  cabg · angioplasty-stent · heart-valve-replacement · cataract-surgery · lasik · icl
+  hysterectomy · prostatectomy · hernia-repair · gallbladder-removal
+
+PROCEDURES — fertility
+  ivf · icsi · egg-donation · egg-freezing · sperm-donation · surrogacy · pgt
+
+PROCEDURES — weight
+  gastric-sleeve · gastric-bypass · gastric-balloon
+
+PROCEDURES — cosmetic and hair
+  rhinoplasty · breast-augmentation · liposuction · bbl · abdominoplasty · facelift
+  hair-transplant-fue · dhi-hair-transplant
+
+PROCEDURES — cancer, brain, transplant, gender
+  proton-therapy · gamma-knife · car-t · bone-marrow-transplant · kidney-transplant
+  liver-transplant · cochlear-implant · vaginoplasty · phalloplasty · top-surgery
+
+PROCEDURES — courses and the contested edge
+  executive-health-screening · addiction-rehab · panchakarma · dialysis-holiday
+  stem-cell-unproven · abortion-care · assisted-dying
+
+FACILITIES
+  bumrungrad ✓ · bangkok-hospital · samitivej · apollo-chennai · fortis-gurgaon
+  medanta · narayana-health · max-saket · kokilaben · acibadem · anadolu-medical-center
+  memorial-sisli · liv-hospital · medicana · gleneagles-kl · prince-court
+  island-hospital-penang · mount-elizabeth · raffles-hospital · samsung-medical-center
+  asan-medical-center · severance · clinica-biblica · hospital-cima-san-jose
+  hospital-angeles-tijuana · fundacion-santa-fe · clinica-las-americas
+  albert-einstein-sao-paulo · sheba · hadassah · king-hussein-cancer-center
+  american-hospital-dubai · charite-international · heidelberg-university-hospital
+  wooridul · anadolu-hair? (drop if unsourceable)
+
+ORGANIZATIONS
+  jci · isqua-ieea · temos · gha · aaci · nabh · cbahi · mhtc · promed · khidi
+  thai-ha-institute · medical-tourism-association · imtj · who · oecd · eurostat
+  eu-national-contact-points · declaration-of-istanbul-group · eshre · icmart · isaps
+  ishrs · hfea · turkiye-health-services-directorate · dha-dubai
+
+RULES
+  eu-directive-2011-24 · s2-route · uk-nhs-treatment-abroad · us-medicare-abroad
+  thai-medical-visa · india-e-medical-visa · turkiye-health-tourism-authorisation
+  malaysia-mhtc-licence · korea-foreign-patient-registration · uae-clinic-licensing
+  surrogacy-law · donor-anonymity-law · abortion-travel-law · assisted-dying-law
+  transplant-prohibition · stem-cell-regulation · advertising-rules
+  gender-affirming-care-access · gcc-sponsored-treatment-abroad · insurance-exclusions
+  cross-border-prescriptions · schengen-medical-visa · patient-data-transfer
+
+RISKS
+  surgical-site-infection · antimicrobial-resistance · flying-after-surgery · dvt-pe
+  follow-up-gap · malpractice-recourse · blood-supply-safety · implant-excluded
+  unproven-stem-cell · bbl-mortality · repatriation-cost · language-consent
+  counterfeit-medicines · deposit-and-refund · revision-at-home · bloodborne-virus
+  fungal-meningitis · candida-auris · nontuberculous-mycobacteria · transplant-harm
+  alone-after-discharge · the-escort-burden · anaesthetic-risk-unscreened
+
+THE JOURNEY (pathway)
+  deciding-whether · second-opinion · getting-your-records · getting-a-quote
+  choosing-a-facilitator · reading-the-exclusions · the-deposit · the-visa
+  booking-the-flight · the-companion · arrival-and-consent · in-hospital
+  the-discharge-summary · the-flight-home · aftercare-at-home · when-it-goes-wrong
+  complaint-and-claim
+
+WORDS
+  medical-tourism · medical-travel · patient-mobility · health-tourism · wellness-travel
+  circumvention-travel · reproductive-exile · package-price · bundled-payment
+  facilitator · day-case · length-of-stay · drg · tariff · case-rate · out-of-pocket
+  co-payment · prior-authorisation · graft · cycle · asa-grade · informed-consent
+  revision · repatriation · medical-visa · all-on-four · fue · top-surgery
+
+DATA
+  world-bank-health-spending ✓ · world-bank-doctors · world-bank-beds
+  world-bank-out-of-pocket · world-bank-tourism-arrivals · oecd-waiting-times
+  who-global-health-observatory · osm-facilities · jci-accredited-list · hfea-results
+  cdc-art-results · natural-earth-countries · exchange-rate-table
+
+PEOPLE
+  prathap-reddy · devi-shetty · josef-woodman · leigh-turner · john-connell
+  keith-pollard · francis-fukuyama? (drop) · a patient voice where one is published
+
+EVENTS
+  istanbul-declaration-2008 · ndm-1-2010 · directive-2011-24-adopted
+  dominican-republic-ntm-outbreak · mexico-fungal-meningitis-2023 · covid-shutdown-2020
+  turkiye-hair-boom · imtj-summit
+
+STORIES
+  is-it-cheaper · counting-patients · the-accreditation-question · who-travels
+  the-price-that-isnt · circumvention · the-follow-up-nobody-books
+  what-the-data-cannot-see · how-this-was-built · the-word-itself

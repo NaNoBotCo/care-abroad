@@ -1,0 +1,84 @@
+{
+ "id": "the-visa",
+ "names": {
+  "name": "The visa",
+  "aliases": [
+   "medical visa",
+   "treatment visa",
+   "medical attendant visa"
+  ],
+  "said": "Several states run a named medical category; others admit the same patient as a visitor and never count them."
+ },
+ "facets": {
+  "stage": "before-you-fly"
+ },
+ "x_order": 8,
+ "text": {
+  "what": "Entry permission for treatment. Some states issue a dedicated class that names the hospital and admits a companion; others treat a patient arriving for surgery as an ordinary visitor. Which applies decides how long the patient may stay, whether a companion may come, and whether the trip appears in any official count.",
+  "story": "India's e-Visa scheme is one of the explicit ones, and it is worth reading because it states what a state thinks a treatment trip needs. The e-Medical Visa runs \"One year (365 days) from the date of arrival into India\" with multiple entries, and requires a \"Copy of Letter from the Hospital concerned in India on its letterhead which including the date / tentative date which admission have been suggested\". Alongside it sits the e-Medical Attendant Visa, and the rule is numerical: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\". Two — a state's own arithmetic of how many people one patient needs.\n\n*Inference —* the named category cuts both ways. It ties the stay to a hospital letter, so a change of provider on arrival is a paperwork problem as well as a clinical one; and it makes the purpose of travel a matter of record, which matters where a treatment is lawful at the destination and not at home.\n\nWhere no medical class exists, the patient enters as a visitor. Nothing about that is unlawful in itself, but the trip then leaves no trace in migration statistics, which is one reason the counts of who travels for care are as poor as they are.",
+  "how": "A medical class typically wants the hospital's letter, evidence of funds and a return ticket, and it typically runs from a date fixed weeks in advance. Treatment dates move; visa validity does not move with them.\n\nWhat a reader would have to ask: whether the destination issues a medical class at all and whether their nationality is eligible for it, whether the hospital issues the letter before or after the deposit, how many companions the class admits, whether the stay can be extended if recovery runs long, and whether entering as a visitor while intending treatment breaches the terms of that visitor permission.",
+  "today": "As of 16 September 2026 the visa classes that name treatment are held on individual rule records on this site, each naming its own instrument and date. The e-Medical and e-Medical Attendant classes described here are read off the Government of India's own e-Visa page."
+ },
+ "kin": [
+  {
+   "to": "india-e-medical-visa",
+   "as": "The rule this step reads in full.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "thai-medical-visa",
+   "as": "The same instrument in another jurisdiction.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "as": "The European version, and the one with no dedicated treatment class.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "as": "Who the attendant visa is for, and how many of them a state will admit.",
+   "rel": "step"
+  },
+  {
+   "to": "booking-the-flight",
+   "as": "The next step, and the one whose dates the visa constrains.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention",
+   "as": "Why the stated purpose of a trip is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a patient admitted as a visitor is a patient nobody counted.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:india-emedical-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of a medical visa application; the India specifics are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,146 @@
+{
+ "schema": 1,
+ "id": "sopron",
+ "type": "hub",
+ "names": {
+  "name": "Sopron",
+  "aliases": [
+   "Ödenburg"
+  ],
+  "said": "Ödenburg in German, and the street signs say both. An Austrian patient says Sopron the way a Londoner says Croydon — a place reached and returned from in a day."
+ },
+ "region": [
+  "europe-central"
+ ],
+ "facets": {
+  "iso2": "HU",
+  "radius_km": 12,
+  "specialty": [
+   "dentistry",
+   "oral surgery",
+   "prosthodontics"
+  ],
+  "draws": [
+   "dental-implant",
+   "dental-crown",
+   "root-canal",
+   "all-on-four",
+   "full-mouth-restoration",
+   "veneers"
+  ],
+  "languages": [
+   "Hungarian",
+   "German",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A Hungarian border town of 62,116 people, 70 km from Vienna and 77 km from Bratislava, whose economy carries an unusual weight of dental surgeries — Wikipedia puts it at more than 300 and repeats the trade's name for the place, the dental capital of the world. Street and traffic signs are in Hungarian and German. A patient from Vienna can be treated between breakfast and dinner, and many are: the practices are sized for the day trip, with a driver, a German-speaking desk and a treatment room, rather than for a stay.",
+  "story": "The trade is a direct product of where the Iron Curtain used to be. Sopron sat against a closed frontier; when it opened, an Austrian price and a Hungarian cost sat 70 km apart with a motorway between them, and dentistry — portable, elective, priced per unit and barely covered by Austrian insurance — was the first thing to cross.\n\nThe density claim deserves its provenance stated, because this directory keeps finding the record attached to the wrong town. Sopron's figure of more than 300 dental clinics rests, in the encyclopaedia that carries it, on a 2005 newspaper travel piece and on a column whose site is dead. The count that is actually documented belongs to Mosonmagyaróvár, 80 km north on the same border: about 350 practising dentists as of 2015, reported in a national newspaper, which is stated there as the highest ratio of dentists to population anywhere. The same passage reports official Hungarian government figures of 160,000 Austrians crossing the border for dental care each year.\n\n*Inference —* Sopron is the better-known name and Mosonmagyaróvár is the better-documented one, and both are the same phenomenon: a frontier, a price step, and a procedure small enough to drive to. Treat the clinic counts on either side of that border as reputation, not as a census.\n\nFor an insured EU patient the price is not the only route. Directive 2011/24/EU allows reimbursement at the home tariff for care that would have been covered at home, which for Austrian dentistry means a share rather than the bill.",
+  "how": "*Trade practice —* the Sopron practice sells the appointment, not the journey. A consultation and a radiograph on the first morning, treatment the same day where the work is a filling, a crown or an extraction, and a second date some months later where implants have to integrate. German is the working language of the desk. Transport is often the practice's own minibus from a Vienna meeting point, and the fee for it is quoted separately or waived above a threshold.",
+  "today": "As of 16 September 2026 this record carries no price row. The prices in circulation for Sopron are comparisons against Vienna rather than figures with a date and an inclusion list on a named page, and a comparison is not a price.",
+  "notes": "Twelve kilometres around the town point is the whole town and its approaches, and stops short of the Austrian border villages."
+ },
+ "geo": {
+  "lat": 47.685,
+  "lon": 16.5831,
+  "precision": "city",
+  "source": "s:wp-sopron"
+ },
+ "address": {
+  "city": "Sopron",
+  "area": "Győr-Moson-Sopron",
+  "country": "HU"
+ },
+ "kin": [
+  {
+   "to": "hungary",
+   "as": "The country whose border-town dentistry this place is the emblem of.",
+   "rel": "whole"
+  },
+  {
+   "to": "budapest",
+   "as": "The capital version of the same trade, reached by air rather than by car.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The work that brings a second visit, and the reason a day trip becomes two.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-crown",
+   "as": "The unit most of this town's traffic is actually booked for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "root-canal",
+   "as": "Day-case work that fits between a morning drive and an evening one.",
+   "rel": "procedure"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route an Austrian patient can claim a share of the bill back through.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why this town's clinic count is a reputation rather than a census.",
+   "rel": "story"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who repairs the crown, ninety minutes back across the border.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sopron",
+   "url": "https://en.wikipedia.org/wiki/Sopron"
+  }
+ ],
+ "sources": [
+  "s:wp-sopron",
+  "s:wp-mosonmagyarovar",
+  "s:guardian-cross-border-2015",
+  "s:usatoday-incidental-tourist",
+  "s:wp-medical-travel",
+  "s:eu-directive-2011-24",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-sopron",
+    "note": "the clinic count is carried as the encyclopaedia carries it, with its own weak sourcing named in the story"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mosonmagyarovar",
+    "note": "third paragraph is this project reasoning about which town the documented record belongs to"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-sopron"
+   },
+   "facets.radius_km": {
+    "tier": "inference",
+    "note": "12 km is the town and its approaches; the cluster is compact"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Sopron Fő tér.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

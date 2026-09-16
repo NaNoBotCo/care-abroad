@@ -1,0 +1,101 @@
+{
+ "schema": 1,
+ "id": "medical-tourism-association",
+ "type": "org",
+ "names": {
+  "name": "Medical Tourism Association",
+  "aliases": [
+   "MTA"
+  ],
+  "said": "A membership organisation. Governments, hospitals and insurers pay to belong, and it publishes an index of destinations."
+ },
+ "region": [
+  "global",
+  "north-america"
+ ],
+ "facets": {
+  "kind": "trade-body",
+  "iso2": "US",
+  "founded": 2007,
+  "status": "open"
+ },
+ "text": {
+  "what": "A non-profit membership organisation founded in 2007 and run from West Palm Beach, Florida, serving the industry that sells cross-border care: healthcare providers, referral organisations, insurers and governments. It runs conferences, training and certification, works with destinations on their national marketing, and is associated with the Medical Tourism Index.",
+  "story": "A trade association exists to advance its members' interests, and this one says so: its stated goal is making it easier for stakeholders to connect and do business, and it names the destination brands it has helped launch — South Korea, Dubai, Washington DC, the State of Florida, Abu Dhabi. Those are clients. Reading its published material without that fact in view is reading a brochure as a survey.\n\nThe Medical Tourism Index is the output most often cited as though it were an independent ranking. Its method is published in outline: three editions to date, the most recent covering 46 destinations, built from 41 criteria across three dimensions and from a national survey of 3,030 Americans. It is credited to Renée-Marie Stephano, who co-founded this association, with Marc Fetscherin of Rollins College, and published through the International Healthcare Research Center.\n\nSo the index measures what a sample of Americans believed about 46 destinations. It does not measure outcomes, prices, complication rates or how many people went. *Inference —* an index of perception, published by people commercially engaged in the field it ranks, is a legitimate object as long as it is labelled as what it is. This directory reports the method and does not repeat the ranking as a finding, and does not carry the association's market-size figures at all.",
+  "how": "Members pay dues. The association sells conference places, sponsorship, training and certification, and consults to governments on destination branding. Global Healthcare Accreditation is its named strategic partner for training, accreditation and certification.",
+  "today": "As of 16 September 2026 the most recent Medical Tourism Index edition is 2020-21, covering 46 destinations. The 2014-15 edition covered 25 and the 2016-17 edition 41.",
+  "notes": "This record names the method where the method is published and says where it is not. It takes no view on whether the rankings are right."
+ },
+ "geo": {
+  "lat": 26.7153,
+  "lon": -80.0534,
+  "precision": "city",
+  "source": "s:mta-about"
+ },
+ "address": {
+  "city": "West Palm Beach",
+  "area": "Florida",
+  "country": "US"
+ },
+ "kin": [
+  {
+   "to": "gha",
+   "as": "The accreditation body it names as its strategic partner, founded by its co-founder.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj",
+   "as": "The other side of the trade's own publishing: a commercial journal rather than an association.",
+   "rel": "contrast"
+  },
+  {
+   "to": "medical-tourism",
+   "as": "The word it put in its own name, and the fight over that word.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where the industry's market-size figures are traced back to their sources.",
+   "rel": "story"
+  },
+  {
+   "to": "keith-pollard",
+   "as": "The trade's other long-standing publisher, and a frequent critic of its numbers.",
+   "rel": "person"
+  },
+  {
+   "to": "uae",
+   "as": "One of the destinations whose national brand it names as its own work.",
+   "rel": "place"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical Tourism Association",
+   "url": "https://www.medicaltourismassociation.com/"
+  },
+  {
+   "label": "Medical Tourism Index",
+   "url": "https://www.medicaltourism.com/mti/home"
+  }
+ ],
+ "sources": [
+  "s:mta-about",
+  "s:mti-home"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:mti-home",
+    "note": "the closing paragraph is marked as this project's inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

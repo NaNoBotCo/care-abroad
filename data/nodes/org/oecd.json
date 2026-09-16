@@ -1,0 +1,102 @@
+{
+ "schema": 1,
+ "id": "oecd",
+ "type": "org",
+ "names": {
+  "name": "Organisation for Economic Co-operation and Development",
+  "aliases": [
+   "OECD",
+   "OCDE"
+  ],
+  "said": "The rich-country statistics club. It is the only body that has seriously tried to measure this trade, and it said the numbers are small."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "ngo",
+  "founded": 1961,
+  "status": "open"
+ },
+ "text": {
+  "what": "An intergovernmental organisation of 38 member countries, founded in 1961 as successor to the Organisation for European Economic Co-operation of 1948, headquartered at the Château de la Muette in Paris. It publishes OECD Health Statistics, the comparative health database behind most cross-country health charts, including waiting times — the queue that sends a large share of Europe's patients abroad.",
+  "story": "In June 2011 the OECD published the one serious attempt to put trade in health services on a statistical footing: a final report, funded by the European Commission's health directorate, on improving estimates of exports and imports of health services under the System of Health Accounts framework. Its findings are the most useful thing on this site about the size of the field.\n\nIt found the data patchy and the reason structural. \"The traditional data sources used in the estimation of imports and exports (i.e. in the Balance of Payments) become less and less adequate.\" Residency rules cut across the question — a foreign patient may keep non-resident status past a year, a retiree abroad technically leaves the resident population while staying insured at home. Third-party payment complicates it further. And several of the things cross-border patients most often buy sit on or outside the boundary of health care as the accounts define it: \"Many other services linked to 'health travel' are on the borderline or outside of the definition of health care (e.g. cosmetic surgery, patient transport abroad, etc)\".\n\nThe size finding is the one worth carrying: \"for the vast majority of countries the level of trade in health care remains marginal – typically accounting for 0.0 to 1.0% of total health spending, even if this is still likely to be an underestimate\". That is a dated figure from a named report with a stated method and a stated limit — which is more than any market-research total on this subject offers.",
+  "how": "Member countries report health accounts to a shared framework jointly maintained by the OECD, Eurostat and WHO. OECD Health Statistics assembles them into comparable series. The 2011 project produced supplementary trade tables; reporting against them is voluntary and, at the time of the report, thin.",
+  "today": "As of 16 September 2026 the OECD Health Statistics landing page refused an automated fetch from this project, so this record's account of what the collection contains rests on the 2011 report and on the existing source entry."
+ },
+ "geo": {
+  "lat": 48.8656,
+  "lon": 2.2705,
+  "precision": "street",
+  "source": "s:oecd-wikipedia"
+ },
+ "address": {
+  "street": "2 rue André Pascal",
+  "city": "Paris",
+  "country": "FR",
+  "postcode": "75016"
+ },
+ "kin": [
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series behind the queue at home, which is half of why anyone travels.",
+   "rel": "measures"
+  },
+  {
+   "to": "eurostat",
+   "as": "The partner that runs the same accounting framework for Europe, and excludes exports from it.",
+   "rel": "org"
+  },
+  {
+   "to": "who",
+   "as": "The third partner in the System of Health Accounts.",
+   "rel": "org"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "Where the 0.0 to 1.0 per cent finding is set against the market-size claims.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "The residency and boundary problems this report names, one layer up.",
+   "rel": "story"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The instrument adopted the same year, whose reporting produces the other European numbers.",
+   "rel": "governs"
+  }
+ ],
+ "links": [
+  {
+   "label": "OECD Health Statistics",
+   "url": "https://www.oecd.org/en/data/datasets/oecd-health-statistics.html"
+  },
+  {
+   "label": "Improving estimates of exports and imports of health services (2011)",
+   "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/sha-guidelines/49011758.pdf"
+  }
+ ],
+ "sources": [
+  "s:oecd-trade-health-2011",
+  "s:oecd-wikipedia",
+  "s:oecd-health-statistics"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:oecd-trade-health-2011"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:oecd-trade-health-2011",
+    "note": "every quoted sentence was read in the report itself"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

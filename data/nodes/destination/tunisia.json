@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "id": "tunisia",
+ "type": "destination",
+ "names": {
+  "name": "Tunisia",
+  "aliases": ["الجمهورية التونسية", "République tunisienne", "Tunisian Republic"],
+  "said": "Sold in French, to France and to Libya. The trade word here is tourisme médical and the shop front is a private clinic in Tunis or Sousse with a price list in euros and a surgeon trained in Paris."
+ },
+ "region": ["africa-north"],
+ "facets": {
+  "iso2": "TN",
+  "direction": "inbound",
+  "currency": "TND",
+  "languages": ["Arabic", "French"],
+  "draws": ["rhinoplasty", "liposuction", "abdominoplasty", "dental-implant", "ivf"]
+ },
+ "text": {
+  "what": "North Africa's largest inbound care trade, run out of about a hundred specialised private clinics and sold in French. Libyans are the biggest group of foreign patients, then Algerians, then patients from sub-Saharan Africa; Europeans are a smaller share and come mostly for cosmetic surgery. A Tunisian health ministry official put the sector at roughly 3.5 billion dinars a year, more than a billion euros, and said it accounted for half the revenue of the whole tourism sector.",
+  "story": "Tunisia's inbound trade grew from two things it already had: a French-language medical elite, and a tourism industry with hotels, flights and tour operators in place. Dr Nadia Fenina of the Ministry of Health, speaking to Agence France-Presse in January 2024, said more than 500,000 foreign patients are admitted to hospital in Tunisia each year and more than two million are treated as outpatients, and that the country is first in Africa on both demand and supply. More than half of those patients come for assisted reproduction, oncology — chemotherapy and hormone therapy — cardiology or orthopaedics. Cosmetic surgery, the thing the country is best known for abroad, is 15 per cent of the work.\n\nThe Libyan share is the part of the story that is not about price. Libya's own hospital system has been degraded since 2011, and Tunisia is a short drive or a short flight from Tripoli in a language Libyan doctors were trained in. That flow is regional, continuous and largely paid in cash or by a Libyan sponsor, and it is the reason the numbers are as large as they are.\n\n*Inference —* the same AFP report frames the trade against a Tunisian public health system in difficulty. A country whose private clinics run a billion-euro export business while its public hospitals are described as in crisis is running two health systems, and the foreign patient is in the smaller and better-funded one. That is not unique to Tunisia; it is visible here because somebody put a number on it.",
+  "how": "A French or Libyan patient books through a clinic or an agency that quotes an all-in price — operation, clinic nights, hotel, transfers — in euros or dinars. The consultation is in French. Payment is up front. Follow-up happens at home, with whoever will take it; the surgeon who operated is on the other side of the Mediterranean, which is the single structural weakness of a cosmetic package sold across a border.",
+  "today": "As of September 2026 the most recent published figures this record could read are the ministry's from January 2024: more than 500,000 inpatient admissions, more than two million outpatient episodes, about 3.5 billion dinars. Those are episodes, not people.",
+  "notes": "The revenue figure is a ministry official's, given in an interview, with no published method behind it. It is carried here as what she said, not as a measurement."
+ },
+ "geo": {"lat": 36.8065, "lon": 10.1815, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "inbound_patients_year": 500000,
+  "note": "More than 500,000 foreign patients admitted a year, plus more than two million outpatient episodes, as given by Dr Nadia Fenina of the Tunisian Ministry of Health to Agence France-Presse, published 31 January 2024. These count episodes of care, not individual people, and no year is attached to them in the report. Sector revenue was given as about 3.5 billion dinars, more than one billion euros.",
+  "as_of": "2024",
+  "source": "s:afp-tunisia-2024",
+  "url": "https://www.voaafrique.com/a/dans-une-tunisie-en-crise-le-tourisme-m%C3%A9dical-est-en-pleine-sant%C3%A9/7464645.html"
+ },
+ "kin": [
+  {"to": "tunis", "as": "Where the clinics and the agencies are.", "rel": "part"},
+  {"to": "morocco", "as": "The other francophone North African destination, smaller and later.", "rel": "contrast"},
+  {"to": "turkiye", "as": "The competitor that took the European cosmetic trade this country built first.", "rel": "contrast"},
+  {"to": "rhinoplasty", "as": "One of the operations the European end of this trade is built on.", "rel": "procedure"},
+  {"to": "ivf", "as": "Named by the health ministry among the treatments more than half its foreign patients come for.", "rel": "procedure"},
+  {"to": "follow-up-gap", "as": "The structural weakness of a package sold across the Mediterranean.", "rel": "risk"},
+  {"to": "package-price", "as": "The form the trade sells in, quoted in euros.", "rel": "term"},
+  {"to": "counting-patients", "as": "Why half a million admissions and two million outpatient episodes are not half a million people.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "AFP report on Tunisia's medical travel sector, January 2024", "url": "https://www.voaafrique.com/a/dans-une-tunisie-en-crise-le-tourisme-m%C3%A9dical-est-en-pleine-sant%C3%A9/7464645.html"}
+ ],
+ "sources": ["s:afp-tunisia-2024", "s:natural-earth", "s:worldbank-open-data"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:afp-tunisia-2024"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:afp-tunisia-2024", "note": "the Libyan paragraph is the trade's ordinary account of why that flow exists; the closing reading is marked inline as inference"},
+   "text.how": {"tier": "tradition"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,136 @@
+{
+ "id": "revision-at-home",
+ "names": {
+  "name": "Revision at home",
+  "aliases": [
+   "putting it right",
+   "corrective surgery",
+   "the second operation"
+  ],
+  "said": "The clinic abroad calls it a touch-up. The unit at home codes it as an emergency admission."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "The second operation, performed in the patient's own country by a surgeon who did not perform the first, on a wound whose details nobody recorded. It is the only part of this subject with a running set of published costs, because a publicly funded system that pays for it has a reason to count.",
+  "story": "Five UK plastic surgery units have published their own ledgers, and they agree in shape.\n\nA London teaching hospital reviewed patients surgically managed between 2006 and 2018 for complications of cosmetic surgery abroad: 24 patients, 22 of them women, mean age 36. Gluteal enhancement was the commonest procedure at 38% and infection the commonest complication at 92%. Twenty-one were inpatients, mean stay 8 days with a range of 1 to 49. Total cost to the hospital USD 406,233, mean USD 16,296 per patient, range USD 817 to USD 41,778; abdominoplasty complications cost most per patient at USD 20,404. Most of the procedures had been done in Turkey.\n\nA major trauma centre reviewed January 2013 to August 2017 and found 20 patients. Costed against national tariffs and grouped by severity, the eight minor cases came to £3,448, the eight intermediate to £18,271, and the four major to £42,083.59. All four major complications were gluteal augmentations.\n\nA Manchester breast unit, twelve months across 2022 and 2023: 25 patients, 20 operated on abroad, 15 of those in Turkey, at least £37,000.\n\nA London hospital across 17 months to 2025: 96% of the surgical patients presenting with complications had been operated on abroad, 73% in Turkey, total estimated £110,690.\n\nA Birmingham tertiary centre, 2020 to 2025: 749 records screened, 29 patients, 58 hospital presentations, 82.8% of the procedures done in Turkey, mean inpatient stay 9.2 days, 27 theatre interventions. Nearly half the presentations — 48.3% — were repeat attendances after an earlier complication. Total £518,058.47, mean £17,864 per patient, individual presentations from about £46 to £57,691.\n\n*Inference —* these are counts of arrivals at five doors, not rates. No national system records how many of its residents had surgery abroad, so there is no denominator, and the totals are floors rather than estimates. What they do establish is the direction of the transfer: the fee was paid to a private provider in one country and the correction was paid for by a public system in another, which was never party to the transaction and cannot bill anyone for it.\n\nThe patient's own position is separate and worse documented. A publicly funded system will treat a complication; whether it will redo an unsatisfactory cosmetic result is a different question, usually answered no, and this project has found no published national policy stating the line.",
+  "how": "The revision is harder than the original for a reason that has nothing to do with the first surgeon's skill. The operative note is usually missing, the implant or device model is unknown, the organism may be atypical and slow-growing, and the tissue has already been operated on once. Where an implant is involved the second device is bought again. The General Medical Council requires a doctor on its register to say at the outset what revision or routine follow-up might cost; that duty does not travel.",
+  "today": "As of 16 September 2026 the five published UK series this record carries total roughly £1.1 million across 123 patients, over periods from one year to twelve, at five hospitals. No country publishes a national figure, and no destination publishes what its own clinics spend on revisions."
+ },
+ "metrics": {
+  "note": "Mean cost per patient of correcting complications of cosmetic surgery abroad, from five single-centre UK series: USD 16,296 (Royal Free London, 2006-2018, 24 patients); £3,448 minor, £18,271 intermediate and £42,083.59 major (Royal London, 2013-2017, 20 patients); at least £37,000 total (Wythenshawe breast unit, 2022-2023, 25 patients); £110,690 total (a London hospital, 17 months to 2025); and £17,864 mean per patient on £518,058.47 total (Queen Elizabeth Birmingham, 2020-2025, 29 patients over 58 presentations). Each is a count of who arrived at one hospital. There is no denominator, so no rate can be computed from any of them.",
+  "as_of": "2026",
+  "source": "s:mafi-cosmetic-tourism-cost-2026",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42311717/"
+ },
+ "kin": [
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step this is the bill for.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step it interrupts.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Why the second surgeon operates without an operative note.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision",
+   "as": "The word, and what it covers when a package says it is included.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye",
+   "as": "Named as the country of the first operation in most of the UK series.",
+   "rel": "place"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The system that published its own ledgers, which is why this record has numbers at all.",
+   "rel": "place"
+  },
+  {
+   "to": "bbl",
+   "as": "Gluteal augmentation was the commonest procedure and the source of every major complication in two of the series.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "The highest cost per patient in the Royal Free series.",
+   "rel": "procedure"
+  },
+  {
+   "to": "breast-augmentation",
+   "as": "The commonest procedure in the Manchester breast unit series.",
+   "rel": "procedure"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "as": "The entitlement that does not cover any of this.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The complication driving 92% of one series.",
+   "rel": "kin"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The second device is bought again, in a second country.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Thacoor et al., Aesthetic Surgery Journal 2019",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30590431/"
+  },
+  {
+   "label": "Mafi et al., Cureus 2026",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42311717/"
+  }
+ ],
+ "sources": [
+  "s:thacoor-nhs-cost-2019",
+  "s:farid-cosmetic-abroad-2019",
+  "s:ahari-breast-unit-2024",
+  "s:whiteman-nhs-burden-2025",
+  "s:mafi-cosmetic-tourism-cost-2026",
+  "s:gmc-cosmetic-interventions",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mafi-cosmetic-tourism-cost-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the paragraph on denominators is marked inline as this project's reasoning"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the operative account is the trade's; the GMC duty is cited"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:mafi-cosmetic-tourism-cost-2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16"
+}

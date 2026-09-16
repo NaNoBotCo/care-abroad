@@ -1,0 +1,70 @@
+CARE ABROAD — AGENT BRIEF (shared by every drafting agent)
+=========================================================
+Repo: /Users/annikapeacock/Developer/claude code projects/medical-tourism
+Every path below is relative to it. Work only inside it.
+
+READ FIRST, IN THIS ORDER
+  1. AUTHORING.txt              the record spec, the voice rules and the full cast list
+  2. schema/node.schema.json    what a record must look like
+  3. The three exemplars, written by hand. Match their depth, their voice and their
+     provenance discipline:
+       data/nodes/procedure/knee-replacement.json
+       data/nodes/facility/bumrungrad.json
+       data/nodes/dataset/world-bank-health-spending.json
+  4. data/vocab/*.json          regions, types, facets, tags, recognizers, markets
+
+WHAT YOU DO
+  Write the records in YOUR batch, one JSON file per record at
+  data/nodes/<type>/<id>.json. Nothing else. Do not touch tools/, do not edit
+  data/sources/sources.json, do not edit another agent's records, do not run build.py.
+
+SOURCES
+  Cite only ids that exist in data/sources/sources.json, OR add your own to
+  data/sources/new-<your-batch-name>.json in the same shape:
+    {"sources":[{"id":"s:web-slug","kind":"web","title":"...","publisher":"...",
+                 "url":"https://...","accessed":"2026-09-16"}]}
+  build.py merges those in. Use WebSearch and WebFetch; where a page is rendered by
+  script and WebFetch returns an empty shell, use the browser tools
+  (mcp__Claude_Browser__preview_start with a url, then get_page_text).
+
+  NEVER invent a source, a URL, a statute number, an ISBN, a date, a price, a bed count,
+  a success rate or a death. A figure you cannot source is hedged in the prose with
+  *Trade practice —* or *Inference —*, or it stays out.
+
+PROVENANCE, WHICH IS THE POINT OF THE PROJECT
+  provenance.default.tier plus per-field overrides. Tiers:
+    cited      a named source in sources[] backs this
+    harvested  a tool fetched it from an open dataset (World Bank, OpenStreetMap)
+    tradition  general knowledge of the trade; hedge it in the prose
+    inference  this project reasoning from the above; say so in the prose
+    field      somebody stood there (nothing carries this yet)
+  In text.story mark each stretch inline: plain prose = cited; *Trade practice —* ;
+  *Tradition holds —* ; *Inference —*.
+  Set needs_verification: true and confidence: "medium"/"low" where you are unsure.
+
+WHAT THIS SUBJECT PUNISHES
+  Numbers. The headline figures in this field — "X million medical travellers a year",
+  "up to 80% cheaper" — come from market-research summaries that resell each other and
+  count hospital visits by foreigners, which includes every expatriate with a chest
+  infection. Do not repeat them as facts. Where a number is worth carrying, carry the
+  narrow one: a named hospital's count of its own patients, a regulator's register, a
+  national statistics office, a peer-reviewed study. Say what it counts.
+
+  Prices. A price is a number somebody PUBLISHED, with a date and an inclusion list.
+  Read it off the page yourself. The exclusion list is usually the story.
+
+  Law. One named instrument, one date, one jurisdiction per legality row. Nothing here
+  is legal advice and nothing here is medical advice; the pages describe, and never tell
+  a reader what to do about their own body.
+
+THE ARGUMENT IS REPORTED, NEVER JOINED
+  Cheaper against riskier. The queue at home against the fee abroad. The state that will
+  not pay against the state that will not allow. A university hospital and a back-street
+  hair clinic get described the same way, in the same voice, with the same evidence rules.
+
+FINISH BY
+  running, from the repo root:  BUILD_DRAFT=1 python3 tools/validate.py
+  Fix every ERROR that names one of YOUR records. Kin-target warnings for records other
+  agents are still writing are expected and fine.
+  Then report: how many records you wrote, which cast-list ids you could NOT source and
+  why, every price you found and read off a page, and any fact you had to hedge.

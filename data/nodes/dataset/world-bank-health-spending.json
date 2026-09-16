@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "id": "world-bank-health-spending",
+ "type": "dataset",
+ "names": {
+  "name": "Current health expenditure per person",
+  "aliases": ["SH.XPD.CHEX.PC.CD", "health spending per capita"],
+  "said": "Everyone calls it health spending per capita. The World Bank calls it current health expenditure, and the word current is doing work."
+ },
+ "region": ["global"],
+ "facets": {"publisher": "World Bank"},
+ "text": {
+  "what": "What a country spends on health in a year, divided by its population, in current US dollars. The World Bank republishes it from the WHO Global Health Expenditure Database. It is the series behind this site's first world map, and 218 countries carry a value.",
+  "story": "The number is assembled from national health accounts, which countries compile to a shared WHO framework and submit on their own schedule. That is why the most recent year differs by country: some report within eighteen months, some are four years behind. Every value on this site carries its own year for that reason.\n\n*Inference —* the series is also the reason a price comparison needs a second column. A country can be cheap to be operated in because its wages are low, because its state absorbs the capital cost of the hospital, because its currency fell, or because the operation billed is a smaller thing than the one billed at home. Spending per person separates none of those out. It is a scale, not an explanation.",
+  "how": "Fetched by tools/harvest_worldbank.py from the World Bank indicator API, no key, most recent non-null year kept per country, the year stored beside the value. Aggregates — the Bank's own regions and income groups — are dropped, because their iso2 codes are not country codes.",
+  "notes": "Current US dollars, not adjusted for what a dollar buys locally. A purchasing-power version exists and tells a different story; this site does not carry it yet."
+ },
+ "dataset": {
+  "publisher": "World Bank Open Data, from the WHO Global Health Expenditure Database",
+  "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD",
+  "api": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.CHEX.PC.CD?format=json",
+  "license": "CC BY 4.0",
+  "unit": "current US$ per person per year",
+  "indicator": "SH.XPD.CHEX.PC.CD",
+  "years": "1960 to the most recent reporting year, which differs by country",
+  "countries": 218,
+  "updated_by_publisher": "annually, as national health accounts arrive",
+  "counts": "Final consumption of health goods and services in a year: government schemes, compulsory insurance, voluntary insurance, and household out-of-pocket payments, divided by mid-year population.",
+  "does_not_count": "Capital spending — a new hospital building does not appear. Nor does anything a foreign patient pays for treatment in that country, which is exactly the flow this site is about: a country can run a large export trade in surgery and show nothing for it here.",
+  "used_on": ["/map/", "/numbers/", "every country page"]
+ },
+ "kin": [
+  {"to": "thailand", "as": "One of 218 countries carrying a value in this series.", "rel": "measures"},
+  {"to": "counting-patients", "as": "The same problem one layer up: what a health number counts is rarely what a reader assumes.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "World Bank indicator page", "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD"}
+ ],
+ "sources": ["s:worldbank-open-data", "s:who-gho"],
+ "provenance": {
+  "default": {"tier": "harvested", "source": "s:worldbank-open-data"},
+  "fields": {
+   "text.story": {"tier": "inference", "note": "the second paragraph is this project reasoning about what the series can and cannot support"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

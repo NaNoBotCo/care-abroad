@@ -1,0 +1,98 @@
+{
+ "schema": 1,
+ "id": "promed",
+ "type": "org",
+ "names": {
+  "name": "PROMED",
+  "aliases": [
+   "Council for the International Promotion of Costa Rica Medicine",
+   "Consejo para la Promoción Internacional de la Medicina de Costa Rica"
+  ],
+  "said": "PROMED now sits inside the Cámara Costarricense de la Salud, and promedcostarica.org redirects there."
+ },
+ "region": [
+  "central-america"
+ ],
+ "facets": {
+  "kind": "trade-body",
+  "iso2": "CR",
+  "status": "open"
+ },
+ "text": {
+  "what": "Costa Rica's membership body for providers serving international patients, now run within the Cámara Costarricense de la Salud, the country's health chamber. Its members include hospitals, medical and dental clinics and spas, and affiliated businesses — recovery retreats, hotels, transport, travel facilitators, insurers, law firms, marketing agencies and consultants. It issues a Seal of Quality to members.",
+  "story": "PROMED is a trade association, not a regulator, and the membership list shows it: a law firm and a hotel sit in the same scheme as a hospital. That mix is the point of a destination promotion body and it is also the reason its seal answers a different question from an accreditation.\n\n*Inference —* a seal issued by a body whose members pay it, to members who are also its constituency, is a membership badge with conditions attached. It may carry real entry requirements. It is not an external inspection of a clinical service, and a reader who takes it as one has substituted one kind of evidence for another.\n\nCosta Rica's clinical licensing sits elsewhere, with the Ministry of Health and the professional colleges, and a dentist practising in San José is licensed by a body that has nothing to do with this council.",
+  "how": "A provider joins, pays dues, and meets the scheme's terms to carry the Seal of Quality. The chamber runs a directory of members. The pages read for this record do not state the founding year, the dues, the seal's criteria or its renewal interval.",
+  "today": "As of 16 September 2026 promedcostarica.org redirects to the Cámara Costarricense de la Salud, which describes PROMED's membership categories and the Seal of Quality on its English page."
+ },
+ "geo": {
+  "lat": 9.9281,
+  "lon": -84.0907,
+  "precision": "city",
+  "source": "s:promed-salud-cr"
+ },
+ "address": {
+  "city": "San José",
+  "country": "CR"
+ },
+ "kin": [
+  {
+   "to": "costa-rica",
+   "as": "The destination this council exists to promote.",
+   "rel": "place"
+  },
+  {
+   "to": "san-jose-cr",
+   "as": "The hub its member hospitals and dental clinics cluster in.",
+   "rel": "place"
+  },
+  {
+   "to": "clinica-biblica",
+   "as": "One of the hospitals the scheme is built around.",
+   "rel": "org"
+  },
+  {
+   "to": "medical-tourism-association",
+   "as": "The same form of body one scale up: members pay, the body promotes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The work that brings most of Costa Rica's international patients in.",
+   "rel": "procedure"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step where a membership seal is often read as an inspection.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "PROMED, via the Cámara Costarricense de la Salud",
+   "url": "https://salud.co.cr/english/"
+  }
+ ],
+ "sources": [
+  "s:promed-salud-cr"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:promed-salud-cr"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:promed-salud-cr",
+    "note": "the second paragraph is this project's inference; the third is general knowledge of Costa Rican licensing and is not sourced on this disk"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "San José, city precision"
+   }
+  }
+ },
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

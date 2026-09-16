@@ -1,0 +1,109 @@
+{
+ "id": "uk-nhs-treatment-abroad",
+ "names": {
+  "name": "NHS funding for treatment abroad",
+  "aliases": [
+   "planned treatment abroad",
+   "the Proton Overseas Programme",
+   "S2 from England"
+  ],
+  "said": "Two different things travel under one phrase: a route the patient applies for, and a programme the NHS sends people on."
+ },
+ "region": [
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "entitlement",
+  "iso2": "GB",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "What the National Health Service will pay for when the treatment happens outside the United Kingdom. Two channels, and they are not alike. A patient may apply for S2 authorisation to be treated in another EEA state's public system. Separately, NHS England commissions named treatments abroad and sends patients there — the Proton Overseas Programme ran that way before domestic proton centres opened. Everything else a UK resident buys abroad, the UK resident pays for.",
+  "story": "Until the end of 2020 a UK resident had both European routes. The EU Directive route let them buy treatment in the EEA and claim the NHS-equivalent cost back; the S2 route let them be treated in another country's public system at NHS expense. The Directive route closed with the transition period. The NHS's own page is flat about it: \"now that the UK has left the EU, the EU Directive route has ended in the UK.\" Legacy claims survive only for treatment started, completed or authorised before 31 December 2020, and even the legacy window states that treatment after 31 December 2021 \"will not be reimbursed, unless there are exceptional circumstances\".\n\nThe commissioning channel is a different animal, and it is the one that moved the most money. Where the NHS could not deliver a treatment in the United Kingdom, it bought it abroad and sent the patient — proton beam therapy to the United States and Switzerland, on a national programme, with published outcome papers for the central-nervous-system and non-CNS cohorts. *Inference —* that channel is not a patient choosing a country. It is a commissioner buying capacity, which is why it comes with follow-up, records and a named clinician at home, and why the patient who arranges their own trip gets none of those.\n\nThe third thing that travels under this heading is the bill going the other way. Published work on cosmetic surgery abroad describes the cost to NHS units of treating complications after operations bought privately overseas; one 2024 paper follows a single breast surgery unit across one year. The NHS does not decline to treat a complication because the operation was bought elsewhere. It treats it and does not recover the cost.",
+  "how": "S2 applications go to NHS England and issue through the NHS Business Services Authority; eligibility turns on ordinary residence in England, entitlement to NHS treatment, registration with an NHS general practitioner and, where relevant, a consultation about the condition. Wales, Scotland and Northern Ireland run their own arrangements.\n\nFor anything self-arranged, the NHS position on aftercare is set out on its cosmetic surgery abroad page rather than in any instrument: the responsibility for follow-up sits where the patient is, and the operation's own surgeon is in another country. Travel insurance is a separate question again — the government's travel insurance guidance is about declaring conditions and covering emergencies, and says nothing at all about planned treatment bought abroad.",
+  "today": "As of 17 September 2026 the S2 route is the only planned-treatment funding route the NHS operates in Europe. NHS referral-to-treatment waiting statistics are published monthly and sit on this site's own chart; they are the number most often cited by patients who then buy abroad, and the NHS publishes no count of how many do."
+ },
+ "kin": [
+  {
+   "to": "s2-route",
+   "as": "The route this system still runs, in full.",
+   "rel": "rule"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route this system lost at the end of the transition period.",
+   "rel": "rule"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The country whose system this is, and one of the largest source markets in Europe.",
+   "rel": "destination"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "The treatment the NHS bought abroad and commissioned by name before it could deliver it at home.",
+   "rel": "procedure"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The bill the NHS picks up when an operation bought abroad goes wrong.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The queue that sends the patients.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "What the patient finds when they look for someone else to pay.",
+   "rel": "kin"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The arithmetic that looks different once the home system is paying for the revision.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "NHS — The Planned Treatment Scheme (S2 funding route)",
+   "url": "https://www.nhs.uk/using-the-nhs/healthcare-abroad/going-abroad-for-treatment/planned-treatment-s2-funding-route/"
+  },
+  {
+   "label": "NHS — The EU Directive route",
+   "url": "https://www.nhs.uk/using-the-nhs/healthcare-abroad/going-abroad-for-treatment/eu-directive-route/"
+  }
+ ],
+ "sources": [
+  "s:nhs-s2-route",
+  "s:nhs-eu-directive-route",
+  "s:nhs-cosmetic-surgery-abroad",
+  "s:pop-cns-outcomes",
+  "s:pop-noncns-outcomes",
+  "s:ahari-breast-unit-2024",
+  "s:gov-uk-foreign-travel-insurance",
+  "s:nhs-rtt-july-2026"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:nhs-s2-route"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:nhs-eu-directive-route",
+    "note": "the commissioning-channel paragraph marked *Inference —* is this project reasoning from the published programme papers"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:nhs-cosmetic-surgery-abroad"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

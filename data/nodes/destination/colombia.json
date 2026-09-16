@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "id": "colombia",
+ "type": "destination",
+ "names": {
+  "name": "Colombia",
+  "aliases": ["República de Colombia", "Republic of Colombia"],
+  "said": "Two cities carry it. Medellín is the cosmetic surgery name; Bogotá is where the teaching hospitals and the complex cases are."
+ },
+ "region": ["south-america"],
+ "facets": {
+  "iso2": "CO",
+  "direction": "inbound",
+  "currency": "COP",
+  "languages": ["Spanish", "English"],
+  "draws": ["liposuction", "bbl", "breast-augmentation", "rhinoplasty", "abdominoplasty"]
+ },
+ "text": {
+  "what": "The South American country whose surgeons report the highest share of foreign patients anywhere in the ISAPS survey. Cosmetic surgery is the trade — liposuction, buttock augmentation, breast and body work — concentrated in Medellín and Bogotá, sold mostly to the United States and to Colombians living abroad. The country also runs a large domestic insurance system that the visiting patient does not touch.",
+  "story": "The number worth carrying here is a proportion, not a headcount. In the ISAPS survey of procedures performed in 2024, Colombian plastic surgeons reported a median 20.0% of their patients attending from other locations, and an average of 30.0% — against a worldwide median of 5.0% and average of 14.3%. The three origins Colombian surgeons named most often were the United States, Spain and Canada. Only Tunisia, at a median 45.0%, and the UAE, at 30.0%, report higher; Singapore ties it. It is a survey answer from surgeons about their own practices, extrapolated across an estimated surgeon population, and not a count of arrivals.\n\nThe volume behind that share is 490,944 aesthetic procedures in 2024, 321,408 of them surgical. Where they happen is unusual: 46.5% of Colombian cosmetic procedures were performed in a free-standing surgicentre, against 16.3% worldwide and 30.9% in a hospital. *Inference —* a free-standing centre is not by itself a worse place to be operated in, but it is a different place to have a complication in, because the intensive care unit is somewhere else and somebody has to decide to move you.\n\n*Trade practice —* the argument in Colombia is over who holds the knife: the specialist register on one side, the unlicensed operator on the other, and a professional society in between publishing a searchable list of its own members. A patient booking from abroad is buying at one remove from every one of those registers, and this record did not read the Colombian ones.",
+  "how": "*Trade practice —* the Colombian trade runs through co-ordinators who bundle the operation, a recovery apartment or hotel, post-operative massage and drains, and a driver. Multiple procedures in one anaesthetic is the house style and the reason the quoted totals look low per item. Payment is a deposit by transfer and the balance in cash or card on arrival. Colombian law and Colombian professional registers govern the surgeon; a complication that appears three weeks later appears in another country's hospital.",
+  "today": "As of the 2024 survey year Colombia's reported foreign-patient share leads the Americas and its procedure mix is body-led. No Colombian government arrival series is carried on this page: the ProColombia figures the trade press quotes were not read off a publisher's page for this record, and they are left out rather than repeated."
+ },
+ "geo": {"lat": 4.711, "lon": -74.0721, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "490,944 aesthetic procedures in 2024, 321,408 surgical, and a reported median 20.0% / average 30.0% of patients attending from other locations. These are ISAPS survey extrapolations from 2,975 responding board-certified plastic surgeons across 32 locations, built on an estimated count of surgeons per country. They count aesthetic work by plastic surgeons and nothing else — no dentistry, no fertility, no orthopaedics, and no procedure done by anyone outside that specialty.",
+  "as_of": "2024",
+  "source": "s:isaps-global-survey-2024",
+  "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+ },
+ "kin": [
+  {"to": "medellin", "as": "The cosmetic surgery cluster, and the name the trade sells.", "rel": "part"},
+  {"to": "bogota", "as": "The capital cluster, where the teaching hospitals and complex cases sit.", "rel": "part"},
+  {"to": "clinica-las-americas", "as": "One of the Medellín institutions the trade routes patients to.", "rel": "part"},
+  {"to": "fundacion-santa-fe", "as": "The Bogotá hospital on the complex end of the same country.", "rel": "part"},
+  {"to": "bbl", "as": "The operation most argued over here, and the one with a published mortality literature.", "rel": "procedure"},
+  {"to": "liposuction", "as": "The volume operation behind the country's surgical count.", "rel": "procedure"},
+  {"to": "bbl-mortality", "as": "The risk attached to the operation this country is best known for.", "rel": "risk"},
+  {"to": "surgical-site-infection", "as": "What a free-standing surgicentre manages differently from a hospital.", "rel": "risk"},
+  {"to": "united-states", "as": "The origin Colombian surgeons name most often for their foreign patients.", "rel": "contrast"},
+  {"to": "isaps", "as": "The society whose survey supplies every number on this page.", "rel": "measured-by"}
+ ],
+ "links": [
+  {"label": "ISAPS survey of procedures performed in 2024", "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"}
+ ],
+ "sources": ["s:isaps-global-survey-2024", "s:cdc-yellowbook-medical-tourism", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:isaps-global-survey-2024"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:isaps-global-survey-2024", "note": "the surgicentre reading and the society paragraph are marked inline as inference and trade practice"},
+   "text.how": {"tier": "tradition", "note": "the shape of a co-ordinated Colombian cosmetic trip, hedged in the prose"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "x_commons_files": ["File:Medellín skyline.jpg", "File:Bogotá skyline.jpg"],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16"
+}
