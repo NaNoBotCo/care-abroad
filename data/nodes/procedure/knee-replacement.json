@@ -118,6 +118,31 @@
    "url": "https://www.bumrungrad.com/en/packages",
    "note": "robot-assisted bilateral, listed at 945,000 THB against a struck-through 1,050,000 THB. The robot is a price tier, and whether it changes outcomes is argued in the literature rather than settled.",
    "tier": "cited"
+  },
+  {
+   "procedure": "knee-replacement",
+   "country": "GB",
+   "amount": 13799,
+   "currency": "GBP",
+   "as_of": "2026-04",
+   "kind": "list",
+   "includes": [
+    "pre-operative nurse review",
+    "prescriptions, dressings and equipment",
+    "the anaesthetic",
+    "any overnight stay required",
+    "physiotherapy",
+    "pathology and histology needed whilst admitted",
+    "any post-operative appointments required",
+    "a named consultant from start to finish"
+   ],
+   "excludes": [
+    "the initial consultation, listed separately at £145"
+   ],
+   "source": "s:practiceplus-knee",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/",
+   "note": "Self-pay list price, the page stating \"Prices correct as at April 2026\". Seven of the nine things the Bangkok package excludes sit inside this one. The implant is named on neither side — not as an inclusion here and not as a price anywhere this project could read — which is a different silence from the Bangkok exclusion rather than a smaller one.",
+   "tier": "cited"
   }
  ],
  "kin": [
@@ -211,5 +236,5 @@
   "File:Total Knee Replacement X-ray.jpg"
  ],
  "confidence": "high",
- "updated": "2026-09-16"
+ "updated": "2026-09-17"
 }

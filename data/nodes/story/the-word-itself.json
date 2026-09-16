@@ -1,0 +1,119 @@
+{
+ "schema": 1,
+ "id": "the-word-itself",
+ "type": "story",
+ "names": {
+  "name": "The word itself",
+  "aliases": [
+   "why this site says medical travel",
+   "the naming rule"
+  ],
+  "said": "The rule is stated here rather than left for a reader to work out from an absence."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "explainer"
+ },
+ "text": {
+  "what": "This site writes medical travel and cross-border care. The more familiar compound appears only inside a quotation with a speaker attached, inside a proper name, or on the word's own page, where the argument over it is the subject rather than a convention. This page states the rule and points at where the argument is set out.",
+  "story": "The mechanism is a regular expression, not a judgement. This project's validator treats the singular agent noun behind the familiar compound as a hard error in reader-facing prose, and strips quoted spans and a short list of proper names before it checks. So a page may report what somebody said, name an organisation that has the word in its title, or discuss the word as a word — and may not use it to describe a patient. Saying that plainly is better than leaving a reader to infer a position from the gap.\n\nThe argument the rule sits on top of is long, and it is written out on this site's record for the term. In short: the compound is older than the industry wearing it, appearing in two unrelated registers in 1997 — once as a warning about restricting donor payment, once in scare quotes for foreigners arriving to use a health service. Its crossover in the English book corpus comes in 2005, after which it rises steeply through the years the consumer guidebooks and the trade bodies appeared. The OECD scoping review of 2011 adopts the term and then quotes three refusals of it: that it \"insinuates leisurely travelling and does not capture the seriousness of most patient mobility\"; that it \"is a misnomer, as it carries connotations of pleasure not always associated with this travel\"; and that it is \"A term that suggests leisure and frivolity\" which \"promotes a market place model that disregards the suffering that patients experience\". The patients' own objection is on the record too: analysing German and Israeli press coverage in 2013, Sharon Bassan and Marie Alice Michaelsen report that couples travelling for fertility treatment \"do not refer to themselves as 'reproductive tourists'. They might even be offended by this term\".\n\nThe substitutes are not neutral either, and this directory's vocabulary records say so one by one. Medical travel drops the leisure claim and keeps the assumption that the journey was chosen, which is the assumption the exile literature disputes. Reproductive exile asserts compulsion, which is a claim about cause, and the cause differs case by case — it was proposed in 2005, rejected in the same journal as overstating it, and settled by a third phrase, cross border reproductive care. Patient mobility is Brussels administrative language for an entitlement and covers people who would never call themselves travellers. Circumvention travel names a legal difference rather than a motive. Health tourism is the widest of them, and is usually the category sitting behind a very large national figure: Türkiye's 2017 regulation defines it twice and then defines it again by subtraction, excluding everybody reached by a social security arrangement, a treaty, refugee status or a state programme. Wellness travel is defined by motive, counts the traveller whose motive was secondary, and counts the whole trip.\n\n*Inference —* which is why the vocabulary records sit beside the country records here rather than in a glossary at the back. The choice of word decides the category, the category decides the count, and the count is what a ministry publishes. A destination that counts under the widest word publishes a figure dominated by its cheapest contents; a directory that writes the narrowest word has to leave out the patient sent by a state scheme and the patient who walked across a land border for a filling. Neither problem is solved by picking a better word, and this site does not claim to have picked one. It has picked a rule, and printed it.",
+  "today": "As of 17 September 2026 this site holds 26 vocabulary records. Six of them are names for this subject as a whole — the contested compound, medical travel, health tourism, wellness travel, patient mobility and circumvention travel — with reproductive exile beside them for the fertility case. Each carries its root, its earliest dated use this project could name, and the argument where there is one."
+ },
+ "kin": [
+  {
+   "to": "medical-tourism",
+   "as": "The word's own page, where the fight over it is the subject and the objections are quoted with their speakers.",
+   "rel": "term"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The name this site uses, and the trade's own substitute since about 2009.",
+   "rel": "term"
+  },
+  {
+   "to": "health-tourism",
+   "as": "The widest category, and the one usually sitting behind a very large national figure.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "Brussels administrative language for an entitlement, with a directive behind it.",
+   "rel": "term"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "Defined by motive, counting secondary motive and whole-trip spending.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "A name for a legal difference rather than for a motive.",
+   "rel": "term"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The name proposed as a correction, and rejected in the same journal issue as overstating compulsion.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "What happens downstream: the word chosen decides the category, and the category decides the count.",
+   "rel": "story"
+  },
+  {
+   "to": "how-this-was-built",
+   "as": "Where this rule is enforced, alongside the rest of the editorial rules.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "OECD Health Working Paper 70 — medical travel scoping review",
+   "url": "https://www.oecd.org/en/publications/medical-tourism_5kgj0r4gbd60-en.html"
+  }
+ ],
+ "sources": [
+  "s:etymonline-tourism",
+  "s:etymonline-tourist",
+  "s:etymonline-travel",
+  "s:etymonline-exile",
+  "s:etymonline-mobility",
+  "s:oecd-lunt-scoping-2011",
+  "s:turner-beyond-2012",
+  "s:bassan-michaelsen-2013",
+  "s:ngram-naming",
+  "s:inhorn-patrizio-2009",
+  "s:matorras-2005",
+  "s:pennings-2004",
+  "s:cohen-circumvention-2012",
+  "s:schult-origins-2009",
+  "s:sauer-1997",
+  "s:sheaff-1997",
+  "s:rg-saglik-turizmi-2017",
+  "s:gwi-wellness-tourism",
+  "s:connell-2006"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the quotations and dates are drawn from the vocabulary records and their sources; the closing reading is marked Inference inline"
+   },
+   "text.what": {
+    "tier": "inference",
+    "note": "this project stating its own naming rule"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counted over the term records on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}
