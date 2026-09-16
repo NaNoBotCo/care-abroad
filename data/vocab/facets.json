@@ -41,7 +41,10 @@
     "rehabilitation",
     "unproven",
     "reproductive",
-    "end-of-life"
+    "end-of-life",
+    "general-surgery",
+    "gynaecological",
+    "urological"
    ],
    "note": "reproductive and end-of-life were added after the fact: abortion care does not belong under fertility, which describes the opposite intention, and assisted dying belongs to neither. A family that has to be forced into an existing value is a value missing from this list."
   },

@@ -305,7 +305,9 @@ def price_strip(groups: list, *, w=840, unit="US$", title="", note="", ident="pr
     groups: [{"label": "Thailand", "iso": "TH", "points": [{"usd": 9800, "tip": "...",
               "kind": "package"}]}]
     """
-    vals = [p["usd"] for g in groups for p in g["points"] if p.get("usd")]
+    # the top of a range belongs in the axis, or the bar for it runs off the plot
+    vals = [v for g in groups for p in g["points"]
+            for v in (p.get("usd"), p.get("usd_high")) if v]
     if not vals:
         return ""
     lo, hi = min(vals), max(vals)
