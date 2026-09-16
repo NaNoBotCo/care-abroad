@@ -1,5 +1,8 @@
 CARE ABROAD
 ===========
+Live at https://nanobotco.github.io/care-abroad/
+Repo: github.com/NaNoBotCo/care-abroad (GitHub Pages serves docs/)
+
 
 A directory of treatment across borders, built the way wichaa.net is built: one JSON
 record per node of the subject — a country, a city cluster, a procedure, a hospital, a
