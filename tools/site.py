@@ -32,7 +32,7 @@ import worldmap  # noqa: E402
 
 SITE = BUILD / "site"
 API = BUILD / "api"
-SITE_URL = os.environ.get("SITE_URL", "https://nanobotco.github.io/medical-tourism").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://nanobotco.github.io/care-abroad").rstrip("/")
 SITE_NAME = "Care Abroad"
 TAGLINE = "who goes where, what it costs, and who checked"
 DATA_LICENSE = "https://creativecommons.org/licenses/by/4.0/"

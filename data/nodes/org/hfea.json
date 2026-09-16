@@ -1,0 +1,152 @@
+{
+ "schema": 1,
+ "id": "hfea",
+ "type": "org",
+ "names": {
+  "name": "Human Fertilisation and Embryology Authority",
+  "aliases": [
+   "HFEA"
+  ],
+  "said": "British clinics call it the Register, and quote their rate out of it. The rate is a rate OF something, and which something changes the answer by more than any clinic does."
+ },
+ "region": [
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "regulator",
+  "iso2": "GB",
+  "founded": 1991,
+  "status": "open"
+ },
+ "text": {
+  "what": "The United Kingdom's fertility regulator, and the body that licenses every clinic in the country performing IVF, donor insemination or research on human embryos. It describes itself as \"the UK's independent regulator of fertility treatment and research using human embryos\" and \"the first statutory body of our type in the world\", set up under the Human Fertilisation and Embryology Act 1990 as an arm's-length body of the Department of Health and collecting data on every licensed treatment since 1 August 1991. It licenses, inspects, can amend, suspend or revoke a licence, publishes results clinic by clinic, and rates the extras sold alongside a cycle.",
+  "story": "Start with what makes this record unusual. The Authority regulates over 75,000 cycles of treatment a year and holds what it calls \"the largest register of fertility data in the world\", and it publishes out of that register a table of named clinics with each one's birth rate beside it. Two regulators on earth do that: this one and the American federal reporting. Everywhere else a clinic's figure is the clinic's own claim about itself.\n\nThe second thing is what the figure counts. A birth rate is a fraction, and the fight is in the bottom half of it. Birth per embryo transferred is \"the percentage of the total number of embryos transferred that led to a birth\" over twelve months, and it counts only the cycles that got as far as a transfer. Birth per egg collection procedure starts earlier, at the retrieval, and gathers in the frozen transfers from that same collection for up to two years. A rate per cycle started begins earlier again, at the ovulatory stimulation stage, so it carries every cycle that yielded no eggs, or eggs that made no embryo worth transferring. In 2024 the average IVF birth rate per embryo transferred was 30 per cent — 38 per cent for patients aged 18 to 34, 8 per cent for those aged 43 to 44.\n\n*Inference —* the further back the denominator starts, the smaller the number, and the gap is not a rounding difference. The American register shows the size of it in one line: for patients over 40 in 2022, live-birth deliveries ran at 25.4 per cent of transfers against 7.7 per cent of intended egg retrievals, because every cycle that never reached a transfer has dropped out of the smaller denominator. A percentage quoted with no denominator attached cannot be read, and the clinic pages a patient compares abroad rarely attach one.\n\nThe third thing is the add-on ratings. An add-on is an extra treatment, test or technique sold alongside a standard cycle, and the Authority grades each one on a five-colour scale by what the evidence shows: green where high-quality evidence shows it improves the outcome, yellow where it is not clear, grey where there is not enough moderate or high quality evidence to rate it, black where the evidence shows no effect, and red where \"There are potential safety concerns and/or, on balance, the findings from moderate/high quality evidence shows that this add-on may reduce treatment effectiveness.\" Five add-ons carried the red rating on the page read for this record: endometrial receptivity testing, intravenous immunoglobulin, steroids, platelet-rich plasma, and pre-implantation genetic testing for aneuploidy. PGT-A — screening embryos for chromosome number before transfer — is rated red for improving the chance of a birth and green for reducing miscarriage, rated 16 October 2023, on the reasoning that it \"is a selection tool that often reduces the number of embryos available for transfer\".\n\nAnd then the regulator argues with its own table. \"Use success rates as a rough guide and not a prediction\", it says, because \"differences of just one or two percentage points are often down to chance rather than being a reflection of a clinic's abilities\".\n\n*Inference —* every one of these instruments stops at the border. The licence, the register, the rating and the complaints route cover clinics in the United Kingdom. A patient who flies to Alicante, Prague or Kyrenia is buying from a clinic this Authority does not license, cannot inspect and does not count, and the add-on rated red here is sold there with no rating at all.",
+  "how": "A clinic applies for a licence, is inspected, and holds it subject to conditions; the Authority can amend, suspend or revoke it. Every treatment in a licensed clinic is reported to the Register, which runs continuously since August 1991. Out of the Register come two publications: an annual trends and figures report, and Choose a Fertility Clinic, the clinic-by-clinic comparison tool. Separately, an evidence review rates treatment add-ons on the five-colour scale and republishes the rating with the reasoning attached. The Register also holds donor records, which is the mechanism behind the identity-release rule.",
+  "today": "As of 17 September 2026 the most recent published year is 2024, in a report issued 16 June 2026 from a register snapshot taken on 6 May 2026, with its birth outcomes marked preliminary. 107 clinics held a licence in 2023/24. The PGT-A ratings date from 16 October 2023.",
+  "notes": "A published birth rate on this site always carries its denominator. Per embryo transferred, per egg collection and per cycle started are three different numbers about the same treatment."
+ },
+ "geo": {
+  "lat": 51.5427,
+  "lon": -0.0052,
+  "precision": "street",
+  "source": "s:hfea-foi"
+ },
+ "address": {
+  "street": "2nd floor, 2 Redman Place",
+  "city": "London",
+  "country": "GB",
+  "postcode": "E20 1JQ"
+ },
+ "kin": [
+  {
+   "to": "hfea-results",
+   "as": "The register this authority keeps and the clinic table it publishes out of it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The jurisdiction it licenses, clinic by clinic, and the border its register stops at.",
+   "rel": "place"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment it licenses, counts and publishes a birth rate for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "pgt",
+   "as": "The add-on it rates red for improving the chance of a birth and green for reducing miscarriage.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "as": "Sets the compensation cap and the ten-family limit that British donors are recruited under.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-freezing",
+   "as": "Sets the storage limit, and publishes the average price a British cycle is quoted at.",
+   "rel": "procedure"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "Holds the donor register, and releases what the identity rule says it may.",
+   "rel": "governs"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The only other register in the world publishing clinic-level rates, counted from a different starting line.",
+   "rel": "dataset"
+  },
+  {
+   "to": "eshre",
+   "as": "The European society whose consortium collects national aggregates where this body publishes clinics.",
+   "rel": "contrast"
+  },
+  {
+   "to": "north-cyprus",
+   "as": "A destination British patients fly to, outside this licence and invisible to this register.",
+   "rel": "contrast"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for the patients who leave, and whom the register cannot see.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "HFEA",
+   "url": "https://www.hfea.gov.uk/"
+  },
+  {
+   "label": "Choose a fertility clinic",
+   "url": "https://www.hfea.gov.uk/choose-a-fertility-clinic/"
+  },
+  {
+   "label": "Treatment add-ons",
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/"
+  }
+ ],
+ "sources": [
+  "s:hfea",
+  "s:hfea-about",
+  "s:hfea-key-facts",
+  "s:hfea-2024-trends",
+  "s:hfea-2024-methodology",
+  "s:hfea-choose-clinic",
+  "s:hfea-add-ons",
+  "s:hfea-pgt-a",
+  "s:hfea-cafc-consultation",
+  "s:hfea-foi",
+  "s:cdc-art-2022-summary"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:hfea-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:hfea-2024-trends",
+    "note": "the denominator definitions are from the Choose a Fertility Clinic consultation page, the 2024 rates from the trends report, the rating scale and the red list from the add-ons pages, the PGT-A reasoning and date from its own page, the comparison warning from the clinic-choosing page, the American per-transfer and per-retrieval figures from the CDC 2022 summary; the two paragraphs marked inference are this project's reading"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:hfea-about"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:hfea-foi",
+    "note": "the postal address is printed on the freedom of information page; the point is the International Quarter at Stratford and is street precision at best"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Redman Place, Stratford.jpg"
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-17"
+}

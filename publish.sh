@@ -7,7 +7,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 DOMAIN="${CNAME:-$(head -1 docs/CNAME 2>/dev/null || true)}"
-if [ -n "$DOMAIN" ]; then SITE_URL="https://$DOMAIN"; else SITE_URL="https://nanobotco.github.io/medical-tourism"; fi
+if [ -n "$DOMAIN" ]; then SITE_URL="https://$DOMAIN"; else SITE_URL="https://nanobotco.github.io/care-abroad"; fi
 
 python3 tools/validate.py
 SITE_URL="$SITE_URL" python3 tools/build.py

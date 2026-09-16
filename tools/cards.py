@@ -352,7 +352,7 @@ def main(argv: list[str]) -> int:
             by_proc.setdefault(p["procedure"], []).append(p)
     ctx = {"countries": countries, "prices_by_proc": by_proc,
            "iso_name": {c["iso"]: c["name"] for c in jload(GEO / "countries.json")["countries"]},
-           "host": "nanobotco.github.io/medical-tourism"}
+           "host": "nanobotco.github.io/care-abroad"}
     n = 0
     for r in recs:
         key = f'{r["type"]}__{r["id"]}'
