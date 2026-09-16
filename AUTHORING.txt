@@ -172,8 +172,8 @@ DESTINATIONS — Middle East and Africa
 DESTINATIONS — Oceania
   australia
 
-HUBS
-  bangkok · phuket · chennai · delhi-ncr · mumbai · bengaluru · istanbul · antalya
+HUBS — chiang-mai and sopron were added in the writing; both belong
+  bangkok · chiang-mai · phuket · chennai · delhi-ncr · mumbai · bengaluru · istanbul · antalya
   izmir · los-algodones · tijuana · cancun · monterrey · san-jose-cr · bogota · medellin
   budapest · warsaw · prague · vilnius · barcelona · seoul · kuala-lumpur · penang
   singapore-city · dubai · amman · tel-aviv · tunis · cairo · johannesburg · colombo
@@ -208,16 +208,17 @@ PROCEDURES — courses and the contested edge
   executive-health-screening · addiction-rehab · panchakarma · dialysis-holiday
   stem-cell-unproven · abortion-care · assisted-dying
 
-FACILITIES
-  bumrungrad ✓ · bangkok-hospital · samitivej · apollo-chennai · fortis-gurgaon
-  medanta · narayana-health · max-saket · kokilaben · acibadem · anadolu-medical-center
-  memorial-sisli · liv-hospital · medicana · gleneagles-kl · prince-court
-  island-hospital-penang · mount-elizabeth · raffles-hospital · samsung-medical-center
+FACILITIES — all written
+  bumrungrad · bangkok-hospital · samitivej · apollo-chennai · fortis-gurgaon · medanta
+  narayana-health · max-saket · kokilaben · gleneagles-kl · prince-court
+  island-hospital-penang · wooridul · acibadem · anadolu-medical-center · memorial-sisli
+  liv-hospital · medicana · mount-elizabeth · raffles-hospital · samsung-medical-center
   asan-medical-center · severance · clinica-biblica · hospital-cima-san-jose
   hospital-angeles-tijuana · fundacion-santa-fe · clinica-las-americas
   albert-einstein-sao-paulo · sheba · hadassah · king-hussein-cancer-center
   american-hospital-dubai · charite-international · heidelberg-university-hospital
-  wooridul · anadolu-hair? (drop if unsourceable)
+
+  Two of the thirty-four publish a price. That ratio is the finding, not a gap.
 
 ORGANIZATIONS
   jci · isqua-ieea · temos · gha · aaci · nabh · cbahi · mhtc · promed · khidi
@@ -266,7 +267,7 @@ DATA
 
 PEOPLE
   prathap-reddy · devi-shetty · josef-woodman · leigh-turner · john-connell
-  keith-pollard · francis-fukuyama? (drop) · a patient voice where one is published
+  keith-pollard · a patient voice where one is published
 
 EVENTS
   istanbul-declaration-2008 · ndm-1-2010 · directive-2011-24-adopted

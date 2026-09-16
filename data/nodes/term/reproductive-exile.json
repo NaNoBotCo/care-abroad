@@ -1,0 +1,98 @@
+{
+ "id": "reproductive-exile",
+ "names": {
+  "name": "Reproductive exile",
+  "aliases": [
+   "cross border reproductive care",
+   "CBRC",
+   "reproductive travel"
+  ],
+  "said": "Proposed in 2005 as a replacement for the leisure word, rejected in the same journal issue as overstating compulsion, and settled by a third phrase: cross border reproductive care."
+ },
+ "etymology": {
+  "root": "exile is c. 1300, \"forced removal from one's country\", from Old French exil and Latin exilium, banishment or a place of banishment, from exul, a banished person, on a root meaning to wander. The word asserts compulsion, and that assertion is both the argument for it and the argument against it.",
+  "first_attested": "c. 1300 for exile; December 2005 for the compound, in Human Reproduction",
+  "tier": "cited",
+  "source": "s:etymonline-exile",
+  "note": "Exile is not neutral either. It claims the patient was driven out, which is a claim about cause, and the cause differs case by case."
+ },
+ "text": {
+  "what": "Travelling abroad for fertility treatment because it is unlawful, unavailable or unaffordable at home. The phrase was proposed by clinicians and anthropologists as a correction to the leisure vocabulary, and it has been argued over ever since.",
+  "story": "It was born as a rebuttal. Guido Pennings had published \"Legal harmonization and reproductive tourism in Europe\" in Human Reproduction in December 2004. Roberto Matorras replied in the same journal in December 2005 under the title \"Reproductive exile versus reproductive tourism\"; as reported by Bassan and Michaelsen, his ground was that the leisure word \"may be offensive both to couples and to professionals involved in the process\", and that exile \"better expresses the difficulties and constraints faced by infertile patients who are forced to travel globally\".\n\nPennings replied in turn, and the objection to the objection is worth as much as the objection. Again as reported by Bassan and Michaelsen, he agreed the first word was derogatory but held that exile \"creates the misleading impression that patients are forced to go abroad as a punishment\", and proposed a neutral phrase instead: cross border reproductive care. That is where the field's working term came from.\n\nMarcia Inhorn and Pasquale Patrizio made the fuller case in Fertility and Sterility in 2009, at 92(3):904-906, in their own words: \"Whereas reproductive 'tourism' implies leisure travel, reproductive 'exile' bespeaks the numerous difficulties and constraints faced by infertile patients who are 'forced' to travel globally for assisted reproduction. Given this reality, it is time to rethink the language of 'reproductive tourism,' replacing it with more accurate and patient-centered terms.\" One of the two authors is a practising fertility clinician.\n\nThe compromise then became institutional. Pennings and colleagues published the ESHRE Task Force on Ethics and Law paper under the new phrase in 2008, and the society's taskforce used it again for its six-country study in Human Reproduction in 2010, which found legal reasons predominant among Italian, German, French, Norwegian and Swedish patients crossing borders.\n\n*Inference —* the three words fit three different patients, which is why none of them won. A patient flying to a country with anonymous donation because her own law forbids it has been driven out by a prohibition. A patient flying to a cheaper clinic under the same law has been driven out by a price. A patient choosing a clinic abroad on its published results has not been driven out at all.",
+  "how": "The reasons a fertility patient crosses a border are legal, financial and clinical, and one trip usually has several: a ban on donor gametes or on paid donation, a rule about who may be treated, an anonymity regime, a waiting list, a funding limit, a price. The rule records here carry the legal half country by country, each with its instrument and date.",
+  "today": "As of 17 September 2026 the registers that count these cycles count them where they were performed, not where the patient came from. No register anywhere counts the journey, which is why the size of this traffic is estimated and not known."
+ },
+ "kin": [
+  {
+   "to": "ivf",
+   "as": "The treatment most of these journeys are made for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The same journeys named from the law's side rather than the patient's.",
+   "rel": "contrast"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The treatment where an anonymity or payment rule most often forces the crossing.",
+   "rel": "procedure"
+  },
+  {
+   "to": "eshre",
+   "as": "The society whose taskforce adopted the compromise phrase and whose registry counts the cycles.",
+   "rel": "org"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The rule that decides which country a patient must leave.",
+   "rel": "rule"
+  },
+  {
+   "to": "medical-tourism",
+   "as": "The word this one was coined against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cycle",
+   "as": "The unit these journeys are counted and sold in.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-exile",
+  "s:matorras-2005",
+  "s:pennings-2004",
+  "s:inhorn-patrizio-2009",
+  "s:pennings-eshre-tf15-2008",
+  "s:shenfield-2010",
+  "s:bassan-michaelsen-2013"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the Matorras and Pennings letters sit behind a paywall; their grounds are quoted here as reported in Bassan and Michaelsen 2013, which was read in full"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "R"
+ }
+}

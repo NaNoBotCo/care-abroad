@@ -1,0 +1,90 @@
+{
+ "id": "circumvention-travel",
+ "names": {
+  "name": "Circumvention travel",
+  "aliases": [
+   "circumvention tourism",
+   "circumvention medical tourism",
+   "travel to evade a prohibition"
+  ],
+  "said": "The legal literature says circumvention tourism, after the paper that named it, and this site writes circumvention travel under its own rule. No other user of the second form was found for this record."
+ },
+ "etymology": {
+  "root": "circumvent is mid-15c., \"surround by hostile stratagem\", from Latin circumventus, past participle of circumvenire, to get around, be around or encircle, from circum, around, plus venire, to come; the noun circumvention is early 15c., an act of outwitting. The word says the law was gone around rather than broken, and that distinction is the whole of the category.",
+  "first_attested": "mid-15c. for the verb; 2012 for the legal category",
+  "tier": "cited",
+  "source": "s:etymonline-circumvent",
+  "note": "I. Glenn Cohen wrote circumvention tourism and, in the same abstract, circumvention medical tourism. The form used on this site is this site's, imposed by its own banned-word rule, and is not offered as anyone else's usage."
+ },
+ "text": {
+  "what": "Travelling to a country where a treatment is lawful in order to have it, because it is prohibited at home. The treatment is legal where it happens. Whether the traveller's own state reaches the conduct is a separate question, and mostly it does not.",
+  "story": "I. Glenn Cohen named the category in the Cornell Law Review in 2012, at volume 97, pages 1309 to 1398. His own definition: travel \"for services that are legal in the patient's destination country but illegal in the patient's home country—that is, travel to circumvent domestic prohibitions on accessing certain medical services\". The four worked examples in that paper are female genital cutting, abortion, the use of reproductive technology, and assisted suicide. His 2014 book put the same problem inside a wider account of law and ethics, and the argument is still live: the Journal of Law, Medicine and Ethics ran an exchange on it in 2022 between Joshua Shaw and Jeremy Snyder.\n\n*Inference —* a category defined by a legal difference behaves unlike the rest of this subject. A price gap narrows when a currency moves; a prohibition does not. The traffic is steady, it points one way, and it stops the day the law at home changes — which is why these journeys cluster on borders rather than on airline routes.",
+  "how": "Three questions decide what a journey of this kind exposes a traveller to, and each pair of countries answers them differently: whether the home state criminalises the act when its own nationals commit it abroad, whether a status created abroad — a parentage order, a certificate — is recognised at home, and whether a professional at home may lawfully provide the follow-up. None of the three is answered by the destination's law, which is the law the patient will have read.",
+  "today": "As of 17 September 2026 the rule records on this site carry these questions country by country, each row naming one instrument and one date. This record names a category. It gives no legal advice and tells no reader what to do."
+ },
+ "kin": [
+  {
+   "to": "reproductive-exile",
+   "as": "The same journeys named from the traveller's side rather than the law's.",
+   "rel": "contrast"
+  },
+  {
+   "to": "surrogacy",
+   "as": "The clearest case: lawful in one country, void or criminal in the next.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abortion-travel-law",
+   "as": "The rule record that maps this category across borders.",
+   "rel": "rule"
+  },
+  {
+   "to": "assisted-dying-law",
+   "as": "Where the prohibition falls on whoever assists rather than on the patient.",
+   "rel": "rule"
+  },
+  {
+   "to": "pgt",
+   "as": "A test that moves country when the permitted indications differ rather than when the price does.",
+   "rel": "procedure"
+  },
+  {
+   "to": "medical-tourism",
+   "as": "The wider contested name, and the page where the argument over it is held.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-circumvent",
+  "s:cohen-circumvention-2012",
+  "s:cohen-patients-with-passports-2014",
+  "s:jlme-circumvention-2022"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "note": "no attested user of the -travel form was found; the note says so"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "C"
+ }
+}

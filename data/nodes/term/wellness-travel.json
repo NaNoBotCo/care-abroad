@@ -1,0 +1,81 @@
+{
+ "id": "wellness-travel",
+ "names": {
+  "name": "Wellness travel",
+  "aliases": [
+   "wellness tourism",
+   "spa travel",
+   "retreat travel",
+   "high-level wellness"
+  ],
+  "said": "The sector names itself by the traveller's motive, and then counts everybody whose motive was partial."
+ },
+ "etymology": {
+  "root": "wellness is 1650s, \"state of being in good health\", from well as an adverb plus the suffix -ness, on the Proto-Indo-European root meaning to wish or will. It lay almost unused for three centuries. Halbert L. Dunn revived it in its modern sense in 1959, in \"High-level wellness for man and society\" in the American Journal of Public Health, and in the book High Level Wellness in 1961; Donald Ardell carried it to a general readership in 1977. The word has never meant a diagnosis or a treatment, which is what recommends it commercially.",
+  "first_attested": "1650s; revived by Dunn in 1959",
+  "tier": "cited",
+  "source": "s:etymonline-wellness",
+  "note": "The category is defined by motive, and a definition built on motive can be satisfied by a spa afternoon in the middle of a business trip. The sector's totals depend on that."
+ },
+ "text": {
+  "what": "Travel undertaken to maintain or improve wellbeing rather than to treat a condition. The body that publishes the sector's figures, the Global Wellness Institute, defines it as \"travel associated with the pursuit of maintaining or enhancing one's personal wellbeing\". It is not medicine, it is routinely counted beside medicine, and the two overlap wherever a state uses the wider health word.",
+  "story": "The counting rule is published, which is more than most figures in this field manage. The institute splits travellers in two and counts both: a primary traveller, \"whose trip or destination choice is primarily motivated by wellness\", and a secondary one, who \"seeks to maintain wellness while traveling or participates in wellness experiences while taking any type of trip for leisure or business\".\n\nIt also counts the whole trip rather than the wellness part of it, and says so: \"In addition to wellness experiences, all wellness tourists need transportation, food and lodging, and they will likely seek out shopping or entertainment. All of these businesses—whether they are wellness-specific or not—benefit from wellness tourism and are part of the wellness tourism economy.\" Against that rule the institute puts the sector at 894 billion US dollars in 2024; its first report, in 2013, gave 439 billion for 2012.\n\nThe institute draws the line this site depends on and disowns the conflation itself: wellness travel sits on the proactive side of a health continuum, and travel for surgery or dentistry on the side of illness and injury, with \"health tourism\" named as the catch-all that causes the confusion.\n\n*Inference —* a total built on secondary motive and whole-trip spending is not a count of anything a hospital would recognise. It is how a national figure can run to millions of arrivals while the operating lists stay short.",
+  "how": "Where a wellness figure and a treatment figure appear in the same national announcement they are frequently the same series. A record here names the publisher, the definition and the year, and does not add the two together.",
+  "today": "As of 17 September 2026 no record on this site carries a wellness market size as a fact about treatment. The share of these trips that are primary rather than secondary is not published free of a form, and this project does not state one."
+ },
+ "kin": [
+  {
+   "to": "health-tourism",
+   "as": "The administrative word that counts this category and surgery in one total.",
+   "rel": "whole"
+  },
+  {
+   "to": "panchakarma",
+   "as": "A course this site treats as a procedure and the sector counts as a retreat.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The other product sold to people who are not ill.",
+   "rel": "procedure"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The traffic this one is routinely added to, and should not be.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where the arithmetic of these categories is taken apart.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:etymonline-wellness",
+  "s:dunn-1959",
+  "s:gwi-wellness-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "W"
+ }
+}

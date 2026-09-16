@@ -1,0 +1,88 @@
+{
+ "id": "patient-mobility",
+ "names": {
+  "name": "Patient mobility",
+  "aliases": [
+   "cross-border healthcare",
+   "free movement of patients",
+   "the Directive route"
+  ],
+  "said": "Brussels says patient mobility. It is an administrative word for a legal right, and it covers people who would never describe themselves as travellers."
+ },
+ "region": [
+  "global",
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east"
+ ],
+ "etymology": {
+  "root": "mobility is early 15c., \"capacity for motion, ability to move or be moved\", from Old French mobilité and Latin mobilitatem, from mobilis, movable, from movere, to move; the sociological sense arrives about 1900. Applied to patients it is a policy word, not a clinical one. What moves first in it is an entitlement; the patient moves after it.",
+  "first_attested": "early 15c. for mobility; in a European Commission document title by 20 April 2004",
+  "tier": "cited",
+  "source": "s:etymonline-mobility",
+  "note": "The only name in this glossary with a directive behind it. It describes movement inside a reimbursement scheme, not the private market most of this site describes."
+ },
+ "text": {
+  "what": "The European Union's word for patients receiving healthcare in a member state other than the one that insures them, and being reimbursed for it at home. Two separate legal routes carry it, with different rules and different arithmetic, and a patient on the wrong one is paid on the wrong basis.",
+  "story": "The court moved first. On 28 April 1998 the Court of Justice decided two Luxembourg cases on the same day: Decker, Case C-120/95, on a pair of spectacles bought in Belgium, under the free movement of goods; and Kohll, Case C-158/96, on orthodontic treatment in Germany, under the freedom to provide services. Kohll held that the Treaty precluded national rules making reimbursement of treatment provided in another member state subject to the insurer's authorisation. In Watts, Case C-372/04, decided by the Grand Chamber on 16 May 2006, the court held that authorisation could not be refused on the bare existence of a waiting list: what mattered was whether the wait exceeded \"the period which is acceptable on the basis of an objective medical assessment of the clinical needs of the person concerned\".\n\nThe administration followed, and the phrase arrives with it. The Commission's communication of 20 April 2004, COM(2004) 301 final, is titled \"Follow-up to the high level reflection process on patient mobility and healthcare developments in the European Union\", and reports a process set up after the Health Council of June 2002 which produced nineteen recommendations.\n\nThe legislature wrote it down seven years later. Directive 2011/24/EU on the application of patients' rights in cross-border healthcare was done at Strasbourg on 9 March 2011, published in the Official Journal of 4 April 2011 at L 88/45, and had to be transposed by 25 October 2013. Its recital 10 gives the word a job: the directive aims \"to ensure patient mobility in accordance with the principles established by the Court of Justice\". Its arithmetic is Article 7(4): costs \"shall be reimbursed or paid directly by the Member State of affiliation up to the level of costs that would have been assumed by the Member State of affiliation, had this healthcare been provided in its territory, without exceeding the actual costs of healthcare received\". Article 8 lets a state keep prior authorisation, limited to care involving an overnight stay, highly specialised infrastructure, particular risk, or a provider raising quality and safety concerns.\n\n*Inference —* the ceiling in Article 7(4) is the character of the whole scheme. A patient is refunded at the home state's price and never more than was actually spent, so this is a route for being treated sooner or nearer, not for buying more cheaply.",
+  "how": "The older route runs on different rails. Regulation (EC) No 883/2004 of 29 April 2004 coordinates social security between member states, and its planned-treatment authorisation — the S2 route in British usage — has the treating state's public system take the patient on its own terms, with the two states settling between themselves. The directive says how the two fit: recital 30 provides that \"either this Directive applies or the Union regulations on the coordination of social security systems apply\", and recital 31 requires the affiliation state to draw a patient's attention to the regulation route where that route is more advantageous. Pay first and claim back at home rates, or seek authorisation and be treated on the host state's public terms.",
+  "today": "As of 17 September 2026 the European Commission publishes annual member-state data on cross-border patient healthcare under the directive, and uses this phrase for the series. The administrative vocabulary is not always careful with its own citations: the 2004 communication footnotes the Kohll judgment twice as Case C-155/96."
+ },
+ "kin": [
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The instrument this word carries, with its dates and its articles.",
+   "rel": "rule"
+  },
+  {
+   "to": "s2-route",
+   "as": "The other rail: authorisation first, then treatment on the host state's public terms.",
+   "rel": "rule"
+  },
+  {
+   "to": "tariff",
+   "as": "The home-state schedule a reimbursement is capped at.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The gate Article 8 allows a member state to keep, and the four grounds for it.",
+   "rel": "term"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The wider name for the same movement outside any reimbursement scheme.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "as": "The network the directive created to answer the questions this word raises.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:etymonline-mobility",
+  "s:eu-directive-2011-24",
+  "s:com-2004-301",
+  "s:ecj-decker-1998",
+  "s:ecj-kohll-1998",
+  "s:ecj-watts-2006",
+  "s:eu-reg-883-2004",
+  "s:nhs-s2-route",
+  "s:ec-crossborder-2022"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "P"
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "id": "medical-travel",
+ "names": {
+  "name": "Medical travel",
+  "aliases": [
+   "cross-border care",
+   "cross-border healthcare",
+   "treatment abroad",
+   "international patient services"
+  ],
+  "said": "The trade's preferred substitute since about 2009. Hospitals put it, or international patient services, on the department that answers foreign enquiries."
+ },
+ "etymology": {
+  "root": "Plain English chosen against a loaded compound, and duller only on the surface. Travel is a late 14th-century variant of Middle English travailen, from 1300, which meant to struggle, toil or labour; the Online Etymology Dictionary suggests the journey sense came \"via the notion of 'go on a difficult journey.'\" The word this trade reached for as its neutral option is built on hardship, which is closer to the thing than the word it replaced.",
+  "first_attested": "late 14c. for travel; the compound is the trade's preference from about 2009",
+  "tier": "cited",
+  "source": "s:etymonline-travel",
+  "note": "The substitution is not neutral either. Travel drops the leisure claim and keeps the assumption that the journey was chosen, which is the assumption the exile literature disputes."
+ },
+ "text": {
+  "what": "Travelling from one country to another to be treated. It is the name this site uses throughout, alongside cross-border care, and the name the trade itself has moved towards over twenty years.",
+  "story": "The drift is legible on the cover of one book. Josef Woodman's guide was published in March 2007 as \"Everybody's Guide to Affordable, World-Class Medical Tourism\". The cataloguing record for the 2011 edition reads \"Everybody's Guide to Affordable, World-Class Medical Travel\"; the 2012 and 2013 editions read \"Everybody's Guide to Affordable, World-Class Healthcare\"; the 2015 edition returns to medical travel. Three names on one book by one author inside eight years.\n\nA trade author wrote the reason down in 2009. Jeff Schult, who had published his own guide in 2006 with the other word in its title: \"I don't know anyone who likes to refer to 'Medical Tourism' as 'Medical Tourism.'\" and \"Increasingly, people in the business prefer the reference 'medical travel,' which doesn't have the assumed frivolity of 'tourism' as baggage.\"\n\nThe academic version of the same retreat is Leigh Turner's 2012 paper in Globalization and Health, whose finding is that the firms themselves do not fit the older label: \"During the search process it became apparent that many Canadian business promoting medical travel are not medical tourism companies.\"\n\n*Inference —* the substitution buys precision and costs a directory nothing. It covers the patient who flew for an operation, the patient sent by a state scheme and the patient who crossed a land border for a filling, without asserting a motive for any of them.",
+  "how": "On this site the two names do specific work. Medical travel is the general term. Cross-border care appears where a payer, a directive or a statistical series is in view, because that is the phrase those instruments use. Neither is used inside a quotation, where the speaker's own word stands.",
+  "today": "As of 17 September 2026 the subtitle sequence above rests on a single crowd-sourced cataloguing source and is carried here as such. The field has no agreed name, and this site claims only to state the one it uses."
+ },
+ "kin": [
+  {
+   "to": "medical-tourism",
+   "as": "The word this one replaced, and the page where the fight over it is held.",
+   "rel": "contrast"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The administrative version, for patients moving inside a reimbursement scheme.",
+   "rel": "term"
+  },
+  {
+   "to": "imtj",
+   "as": "The trade publisher that took these two words as its title.",
+   "rel": "org"
+  },
+  {
+   "to": "deciding-whether",
+   "as": "The step where a reader first meets the thing this word names.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "as": "The commercial layer that grew up inside this traffic.",
+   "rel": "term"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "A hospital whose foreign-patient services are named in these terms rather than the other.",
+   "rel": "facility"
+  }
+ ],
+ "sources": [
+  "s:etymonline-travel",
+  "s:openlibrary-pbb-editions",
+  "s:openlibrary-pbb",
+  "s:schult-origins-2009",
+  "s:turner-beyond-2012",
+  "s:imtj-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:openlibrary-pbb-editions",
+    "note": "the subtitle sequence comes from one crowd-sourced catalogue and was not confirmed against a second"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "M"
+ }
+}
