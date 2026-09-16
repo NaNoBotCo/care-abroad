@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "id": "counting-patients",
+ "type": "story",
+ "names": {
+  "name": "Counting patients",
+  "aliases": [
+   "how many people actually travel",
+   "the volume numbers"
+  ],
+  "said": "Every destination has a number. No two of them count the same thing, and several say so on their own pages."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "Why the headline figures for how many people travel for treatment cannot be added, compared or trusted as counts of people. Twelve of the 52 country records on this site carry an inbound figure. They are assembled from a trade council's member returns, a compulsory ministry register, an emirate's press release, a border exit survey of stated purpose, a visa class, a minister's statement, one pilot zone, and a hospital association counting the patients it billed. Each is described here with the unit it actually uses.",
+  "story": "Four different objects circulate under one word. A count of people who crossed a border in order to be treated. A count of episodes of care given to somebody holding a foreign passport. A count of arrivals recorded at a frontier under a stated purpose. And a count of registrations. The first is the thing readers assume; it is also the one almost nobody publishes.\n\nMalaysia's series is the clearest case of the drift. The Malaysia Healthcare Travel Council, set up inside the Ministry of Health in 2009, has published a traveller count ever since: 641,000 in 2011, 728,800 in 2012, 881,000 in 2013, 882,000 in 2014, 859,000 in 2015, 921,000 in 2016. For 2024 it reported 1.6 million healthcare travellers and 2.72 billion ringgit of revenue. *Inference —* the step from 921,000 to 1.6 million is steeper than any plausible growth in operating theatres, and the council publishes no definition of a healthcare traveller. A figure of that size in a country of about 34 million reads as foreign patients seen at member facilities — every check-up, every follow-up visit, every resident expatriate with a fever — rather than people who crossed a border for treatment. The revenue line is the one with a defensible denominator.\n\nSouth Korea does the hardest version and is worth setting out because it is the exception. Facilities that treat foreign patients must register under the Act on Supporting Overseas Expansion of Medical Services and Attraction of International Patients, Act No. 13599 of 22 December 2015, and report; the Korea Health Industry Development Institute compiles the returns and the Ministry of Health and Welfare published the 2024 figures on 3 April 2025. The total is 1,170,467 patients from 202 countries, stated as unique patients excluding repeat visits, with 999,642 of them treated in Seoul, 82.0 per cent at clinics rather than hospitals, and dermatology and plastic surgery leading. *Inference —* a stated counting rule and a compulsory register put this in a different class of evidence from a market total. It is still not a count of journeys made for treatment, because the series is administrative: it grows when registration grows, and a 93 per cent rise in one year is a fact about how many facilities enrolled as well as about how many patients arrived. The fastest-growing origins that year were Taiwan, up 550.6 per cent, and Japan, up 135.0 per cent — two-hour flights to a dermatology clinic, not admissions.\n\nDubai publishes a number whose own composition gives it away. The Dubai Health Authority reported more than 691,000 health travellers in 2023 against 674,000 the year before, with AED 1.03 billion of direct spending, and broke the demand down as 29 per cent dentistry, 27 per cent dermatology and 13 per cent gynaecology. *Inference —* a total led by teeth and skin is a count of short outpatient contacts, and the release does not publish the rule separating a visiting patient from one of the emirate's own large resident foreign population. It is also one emirate, not the federation; health regulation in the UAE is emirate-level, and no federal equivalent exists.\n\nThe Philippines is the country whose own government wrote the problem down. The Philippine Institute for Development Studies, the state's policy research body, published Oscar Picazo's assessment in October 2013 and recorded that \"The exact size of the market (number of medical tourists) and its revenue potential remain unclear, however, due to the absence of an agreed-upon definition of medical tourism.\" Against the benchmark for a standardised database, the same note records: \"Very weak; absence of key data; hesitance of private sector to share sensitive data.\" Against coordination it counts 48 offices and agencies involved and no council or board. The country therefore publishes no national patient number, and this site carries none for it.\n\nTürkiye and India both count at the border, and the border counts trips. USHAŞ, the health ministry's international services company, puts 2025 at 1,398,580, attributing it to the national statistical institute, whose own footer calls the instrument a Departing Visitors Survey — an exit survey of stated purpose rather than a count of patients treated. Of that total, 250,401 were Turkish citizens resident abroad, which is a different journey from the one the number is usually cited to describe. India's Press Information Bureau records 507,244 foreign nationals arriving for medical treatment in 2025, about 5.5 per cent of 9.15 million foreign arrivals, counted by visa purpose: a patient who leaves and returns is two, and attendants travel on a separate visa class and are counted apart. Two of those three units — survey responses and visa stamps — are counts of crossings.\n\nSingapore ran both methods at once and they disagreed. The Ministry of Health told Parliament on 22 January 2009 that the tourism board's airport exit survey estimated about 348,000 medical travellers for 2007 against about 410,000 for 2006, and attached its own caveat: every hospital had reported higher admissions and patient-days in 2007 while the survey showed a 15 per cent fall, and the board was re-examining the method. No later official count was read for this record. *Inference —* that is the cleanest natural experiment in this file. One country, one year, two instruments, opposite directions, and the discrepancy was published rather than reconciled.\n\nThe rest of the file behaves the same way. Iran's 1.2 million for the year to March 2025 is a tourism minister's statement with no method attached. China's 410,000 is one pilot zone on Hainan, where the visitor is most likely domestic, and is not a national count of foreigners treated. Tunisia's 500,000 admissions plus more than two million outpatient episodes are episodes rather than people, given by a health ministry official to a news agency. Jordan's 230,000 for 2025 comes from the Private Hospitals Association, counts what its members billed, includes clinic episodes — the association itself says only a quarter were treated in hospitals — and was published by a body arguing for the sector it counts. *Inference —* none of these is dishonest reporting. Each is a real measurement of something, published by an institution that had a reason to measure it, and the distortion happens later, when a summary strips the unit off and adds the totals together.",
+  "how": "What a reader can do with a volume figure depends entirely on three questions the publisher usually answers somewhere: what the unit is — people, episodes, arrivals, registrations; who collected it — a regulator with a statutory return, a trade body with member submissions, a statistics office with a survey, or a ministry at a press conference; and what the denominator is. Where a destination publishes revenue as well as headcount, the revenue is normally the firmer number, because money has an accounting trail and a patient does not. Where a destination publishes a facility-level count, that count belongs to the facility and this site carries it as the facility's own.",
+  "today": "As of 17 September 2026 twelve of the 52 country records on this site carry an inbound figure, and every one of them states its unit and its collector in the record's metrics note. Forty carry none. Thailand, the destination most often named in this trade, carries no inbound count here at all: the figures in circulation come from market summaries whose method this project could not read, and the hospital-level counts on the facility pages are what the Thai records stand on instead."
+ },
+ "kin": [
+  {
+   "to": "malaysia",
+   "as": "The council series that runs from 641,000 to 1.6 million without publishing a definition.",
+   "rel": "destination"
+  },
+  {
+   "to": "south-korea",
+   "as": "The compulsory register, and the one national figure here with a stated counting rule.",
+   "rel": "destination"
+  },
+  {
+   "to": "khidi",
+   "as": "The institute that compiles the Korean returns and states the count excludes repeat visits.",
+   "rel": "org"
+  },
+  {
+   "to": "uae",
+   "as": "The emirate figure whose own breakdown — 29 per cent dentistry, 27 per cent dermatology — says what it counts.",
+   "rel": "destination"
+  },
+  {
+   "to": "philippines",
+   "as": "The government research body that rated its own database very weak and published no total.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye",
+   "as": "The border exit survey of stated purpose, 250,401 of it citizens resident abroad.",
+   "rel": "destination"
+  },
+  {
+   "to": "india",
+   "as": "Arrivals counted by visa purpose, so a patient who returns is two.",
+   "rel": "destination"
+  },
+  {
+   "to": "singapore",
+   "as": "The year an exit survey and the hospitals' own admissions moved in opposite directions.",
+   "rel": "destination"
+  },
+  {
+   "to": "jordan",
+   "as": "Counted by the hospitals that billed them, three quarters of it outpatient work.",
+   "rel": "destination"
+  },
+  {
+   "to": "mhtc",
+   "as": "The council whose membership list is a marketing roster rather than a register of who may operate.",
+   "rel": "org"
+  },
+  {
+   "to": "world-bank-tourism-arrivals",
+   "as": "The arrivals series with no purpose field at all, which is why it cannot be used here.",
+   "rel": "dataset"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "The same problem across every series this site draws a chart from.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "PIDS Policy Note 2013-11 — medical travel in the Philippines",
+   "url": "https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidspn1311.pdf"
+  },
+  {
+   "label": "Korean Ministry of Health and Welfare, foreign patient statistics 2024",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207"
+  }
+ ],
+ "sources": [
+  "s:mhtc-mymt-2026",
+  "s:mhtc-wikipedia",
+  "s:mohw-kr-foreign-patients-2024",
+  "s:khidi-medicalkorea",
+  "s:kr-act-13599",
+  "s:dubai-media-office-health-2023",
+  "s:pids-medical-tourism-2013",
+  "s:ushas-saglik-turizmi-verileri",
+  "s:pib-india-mvt-2026",
+  "s:pib-medical-wellness-tourism-2026",
+  "s:moh-sg-medical-travellers-2009",
+  "s:tehran-times-health-travel-2025",
+  "s:govcn-lecheng-2025",
+  "s:afp-tunisia-2024",
+  "s:agbi-jordan-2026",
+  "s:wb-tourist-arrivals",
+  "s:imtj-wikipedia",
+  "s:mti-home"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every figure is the publisher's own, cited to it; the readings of what each figure counts are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's three questions, drawn from the records it has written"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counted over the destination records on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

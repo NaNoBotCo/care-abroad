@@ -711,6 +711,13 @@
 "valve replacement"
 ],
 [
+"hernia repair",
+"hernioplasty",
+"herniorrhaphy",
+"inguinal hernia repair",
+"umbilical hernia repair"
+],
+[
 "hip arthroplasty",
 "tha",
 "thr",
@@ -811,6 +818,13 @@
 "genital reconstruction",
 "phalloplasty",
 "rff phalloplasty"
+],
+[
+"prostatectomy",
+"radical prostatectomy",
+"rarp",
+"robotic-assisted radical prostatectomy",
+"turp"
 ],
 [
 "particle therapy",
@@ -1523,6 +1537,23 @@
 "world health organization"
 ],
 [
+"devi prasad shetty",
+"devi shetty",
+"dr devi prasad shetty"
+],
+[
+"j. connell",
+"john connell"
+],
+[
+"josef woodman",
+"josef woodman, patients beyond borders"
+],
+[
+"leigh g. turner",
+"leigh turner"
+],
+[
 "dr prathap chandra reddy",
 "prathap c. reddy",
 "prathap chandra reddy"
@@ -1570,6 +1601,12 @@
 "flat rate per case",
 "global fee",
 "per-case payment"
+],
+[
+"circumvention medical tourism",
+"circumvention tourism",
+"circumvention travel",
+"travel to evade a prohibition"
 ],
 [
 "co-payment",
@@ -1623,6 +1660,13 @@
 "hair graft"
 ],
 [
+"curative tourism",
+"health tourism",
+"sağlık turizmi",
+"spa tourism",
+"thermal tourism"
+],
+[
 "consent",
 "consent to treatment",
 "informed consent",
@@ -1634,6 +1678,21 @@
 "length of stay",
 "los",
 "ward nights"
+],
+[
+"cosmetic tourism",
+"dental tourism",
+"health tourism",
+"medical tourism",
+"medical travel",
+"surgical tourism"
+],
+[
+"cross-border care",
+"cross-border healthcare",
+"international patient services",
+"medical travel",
+"treatment abroad"
 ],
 [
 "e-medical visa",
@@ -1657,6 +1716,12 @@
 "surgery package"
 ],
 [
+"cross-border healthcare",
+"free movement of patients",
+"patient mobility",
+"the directive route"
+],
+[
 "pre-approval",
 "preauthorization",
 "precertification",
@@ -1672,6 +1737,12 @@
 "repatriation of remains"
 ],
 [
+"cbrc",
+"cross border reproductive care",
+"reproductive exile",
+"reproductive travel"
+],
+[
 "corrective surgery",
 "redo",
 "revision",
@@ -1684,6 +1755,13 @@
 "reimbursement rate",
 "schedule fee",
 "tariff"
+],
+[
+"high-level wellness",
+"retreat travel",
+"spa travel",
+"wellness tourism",
+"wellness travel"
 ],
 [
 "art success rates",
@@ -1747,9 +1825,24 @@
 "st.int.arvl"
 ],
 [
+"counting patients",
+"how many people actually travel",
+"the volume numbers"
+],
+[
 "is it cheaper",
 "one knee, two prices",
 "the price comparison, worked"
+],
+[
+"reading a badge wall",
+"the accreditation question",
+"who inspects the inspector"
+],
+[
+"the queue is the product",
+"the wait",
+"waiting lists"
 ],
 [
 "medical travel",

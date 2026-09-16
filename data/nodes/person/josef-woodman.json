@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "josef-woodman",
+ "type": "person",
+ "names": {
+  "name": "Josef Woodman",
+  "aliases": ["Josef Woodman, Patients Beyond Borders"],
+  "said": "Styled in his own publisher's releases as CEO of Patients Beyond Borders — a consumer guidebook that is also a business selling services to the hospitals it covers."
+ },
+ "region": ["north-america", "global"],
+ "facets": {
+  "role": "journalist",
+  "iso2": "US"
+ },
+ "text": {
+  "what": "Author of \"Patients Beyond Borders: Everybody's Guide to Affordable, World-Class Medical Tourism\", the consumer guidebook that introduced most English-speaking readers to this subject. Open Library records the first edition on 12 March 2007, published by Healthy Travel Media. A press release from that publisher on 21 January 2020 announcing the fourth edition describes him as \"CEO of Patients Beyond Borders\", covering \"800 medical centers and clinics in 70 countries\".",
+  "story": "The guidebook did something no register did: it listed hospitals abroad by procedure, with prices and with what to ask, for a reader with no clinical training. For fifteen years it was the most widely read single object in this field, and the vocabulary it used — package, facilitator, accreditation — is the vocabulary the trade still uses with patients.\n\nThe same 2020 release also shows the field's characteristic arithmetic in its natural habitat. It states that \"the international medical travel market is expanding at 15-18% annually\" and that \"more than two million US patients will cross borders for medical care\" that year. Neither figure carries a method, a denominator or a source in the release, and this site does not repeat either as a fact.\n\n*Inference —* a guidebook with an audience is also a business, and whose money it takes matters to how it should be read. This record does not have first-party access to how that business worked at its height: patientsbeyondborders.com's own about and services pages are gone from the live site, and the archived copies could not be retrieved from this machine.\n\nWhat can be read today is the ending. As of 17 September 2026 patientsbeyondborders.com carries no author name and no book, and directs the reader elsewhere: \"If you are a patient seeking assistance with medical travel, please visit Medical Departures, or contact info@medicaldepartures.com.\" The most-read consumer guide in this trade now forwards its readers to a booking platform.",
+  "notes": "No birth year is published in any source read for this record, and none is asserted."
+ },
+ "kin": [
+  {"to": "facilitator", "as": "The trade his guidebook taught a generation of readers to use, and to check.", "rel": "term"},
+  {"to": "package-price", "as": "The unit his book listed hospitals in.", "rel": "term"},
+  {"to": "choosing-a-facilitator", "as": "The step of the journey his guide was written for.", "rel": "pathway"},
+  {"to": "medical-tourism", "as": "The word in his title, and the fight over it.", "rel": "term"},
+  {"to": "counting-patients", "as": "Where the two-million figure in his publisher's release is taken apart.", "rel": "story"},
+  {"to": "leigh-turner", "as": "The academic reading of the same industry, from outside it.", "rel": "contrast"}
+ ],
+ "links": [
+  {"label": "Open Library — Patients Beyond Borders", "url": "https://openlibrary.org/works/OL9228481W"},
+  {"label": "Healthy Travel Media announces fourth edition (21 January 2020)", "url": "https://www.newswise.com/articles/healthy-travel-media-announces-fourth-edition-of-patients-beyond-borders"},
+  {"label": "patientsbeyondborders.com", "url": "https://www.patientsbeyondborders.com/"}
+ ],
+ "sources": ["s:openlibrary-pbb", "s:newswise-pbb-2020", "s:pbb-homepage-2026"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:newswise-pbb-2020"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:newswise-pbb-2020", "note": "the quoted market claims are from the publisher's own release; the third paragraph is marked inference; the closing quotation was read on the live site on 2026-09-17"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-17"
+}

@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "id": "waiting-lists",
+ "type": "story",
+ "names": {
+  "name": "The queue is the product",
+  "aliases": ["waiting lists", "the wait"],
+  "said": "The trade sells a price. What most of its customers are buying is a date."
+ },
+ "region": ["global"],
+ "facets": {"kind": "essay"},
+ "text": {
+  "what": "Half this directory is about money and the other half is about law, and both miss the commonest reason a person with an insured, funded, free-at-the-point-of-use operation available to them gets on a plane anyway: the operation is available in fourteen months. A queue is not a price, and no price comparison on this site can see it.",
+  "story": "England publishes its queue monthly, which makes it the easiest one to read. At the end of July 2026, 7.3 million referral-to-treatment pathways were waiting to start treatment — an estimated 6.2 million people, since a person can wait on more than one pathway at once. The median wait was 12.0 weeks. 111,379 pathways had been waiting more than a year. 65.4 per cent were inside eighteen weeks, against a standard of 92 per cent.\n\nCanada measures the same thing from the other end and gets a number that sounds better until you take its complement. CIHI reported hip replacements at 68 per cent and knee replacements at 61 per cent inside the 182-day benchmark for 2024. Read the other side of that: close to four knee patients in ten were still waiting more than six months after being found ready for surgery, in a country where the surgery itself carries no bill at all.\n\n*Inference —* this is why the price table on this site explains less than it appears to. A Canadian who flies to Bangkok for a knee is not choosing between 356,500 baht and nothing; they are choosing between 356,500 baht now and nothing in eight months, and the second figure in that comparison is not a figure. The published price is doing work the queue set up.\n\nThe measurement itself has a seam in it, and the OECD names it. Its waiting-time series counts from specialist assessment to treatment, and excludes, in its own words, \"the time elapsed from the date of referral of the general practitioner to the date of specialist assessment\". In systems where the bottleneck is getting seen by the specialist in the first place, the published wait begins after the part the patient experienced as the wait. Two countries with identical numbers can be running very different queues.\n\n*Inference —* and the queue explains something about the destination mix that price alone does not. Hips and knees, cataracts, hernias, gallbladders, hysterectomies — the operations that travel on waiting lists — are unglamorous, high-volume, and cheap to do well. They are not the operations a brochure leads with, and they are a large part of what actually crosses borders. The brochure sells the saving. The queue sells the calendar.\n\nOne thing this directory cannot do is put the two on one axis. A month of pain has no exchange rate, nobody publishes one, and a site that invented one would be selling something.",
+  "today": "The figures above are the ones the records on this site carry: England's at July 2026, Canada's from CIHI's 2024 reporting and its June 2026 update. Both are refreshed by their publishers on a schedule this project does not follow automatically, so a reader checking a decision should go to the publisher rather than to this page."
+ },
+ "kin": [
+  {"to": "united-kingdom", "as": "Publishes its queue monthly, which is why it is the one this piece reads first.", "rel": "destination"},
+  {"to": "canada", "as": "Measures the same thing as a share inside a benchmark, which reads better until you take the complement.", "rel": "destination"},
+  {"to": "oecd-waiting-times", "as": "The series, and the sentence about where its clock starts.", "rel": "measured-by"},
+  {"to": "knee-replacement", "as": "The operation the queue sends abroad more than any other.", "rel": "procedure"},
+  {"to": "hip-replacement", "as": "Its twin on every waiting list that publishes one.", "rel": "procedure"},
+  {"to": "cataract-surgery", "as": "The highest-volume operation in the world, and a queue in most systems that fund it.", "rel": "procedure"},
+  {"to": "deciding-whether", "as": "The step where the calendar, rather than the price, is usually what decides it.", "rel": "step"},
+  {"to": "is-it-cheaper", "as": "The money question this one sits behind.", "rel": "story"}
+ ],
+ "sources": ["s:nhs-rtt-july-2026", "s:cihi-wait-times-2025", "s:cihi-joint-replacement-waits", "s:oecd-waiting-definitions-2025"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "note": "every figure is carried from the country and dataset records that sourced it; the stretches marked Inference are this project's reading of what those figures do and do not support"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

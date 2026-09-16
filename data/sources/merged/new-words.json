@@ -1,520 +1,245 @@
 {
  "sources": [
   {
-   "id": "s:etymonline-package",
+   "id": "s:etymonline-medical",
    "kind": "dictionary",
-   "title": "package (n.), package deal — etymology",
+   "title": "medical (adj.) — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/package",
+   "url": "https://www.etymonline.com/word/medical",
    "accessed": "2026-09-17",
-   "note": "1530s; bundle sense 1722; package deal 1952"
+   "note": "1640s, from Late Latin medicalis, from Latin medicus"
   },
   {
-   "id": "s:etymonline-facilitate",
+   "id": "s:etymonline-travel",
    "kind": "dictionary",
-   "title": "facilitate (v.) — etymology",
+   "title": "travel (v.) — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/facilitate",
+   "url": "https://www.etymonline.com/word/travel",
    "accessed": "2026-09-17",
-   "note": "1610s"
+   "note": "late 14c., a variant of travailen, to struggle, toil, labour"
   },
   {
-   "id": "s:etymonline-tariff",
+   "id": "s:etymonline-patient",
    "kind": "dictionary",
-   "title": "tariff (n.) — etymology",
+   "title": "patient (n.) — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/tariff",
+   "url": "https://www.etymonline.com/word/patient",
    "accessed": "2026-09-17",
-   "note": "1590s, from Italian tariffa and Arabic ta'rif"
+   "note": "late 14c., from Latin patientem, bearing, supporting, suffering"
   },
   {
-   "id": "s:etymonline-revision",
+   "id": "s:etymonline-health",
    "kind": "dictionary",
-   "title": "revision (n.), revise (v.) — etymology",
+   "title": "health (n.) — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/revision",
+   "url": "https://www.etymonline.com/word/health",
    "accessed": "2026-09-17",
-   "note": "1610s / 1560s"
+   "note": "Old English haelth, wholeness; an abstract noun on whole, not on heal"
   },
   {
-   "id": "s:etymonline-repatriate",
+   "id": "s:etymonline-spa",
    "kind": "dictionary",
-   "title": "repatriate (v.) — etymology",
+   "title": "spa (n.) — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/repatriate",
+   "url": "https://www.etymonline.com/word/spa",
    "accessed": "2026-09-17",
-   "note": "1610s, from Late Latin repatriare"
+   "note": "1620s, from the town of Spa in eastern Belgium, from Walloon espa, a spring"
   },
   {
-   "id": "s:etymonline-visa",
+   "id": "s:etymonline-balneal",
    "kind": "dictionary",
-   "title": "visa (n.) — etymology",
+   "title": "balneal (adj.), balneography — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/visa",
+   "url": "https://www.etymonline.com/word/balneal",
    "accessed": "2026-09-17",
-   "note": "1831, from French visa, Modern Latin charta visa"
+   "note": "1640s, from Latin balneum and Greek balaneion, a warm bath"
   },
   {
-   "id": "s:etymonline-cycle",
+   "id": "s:etymonline-circumvent",
    "kind": "dictionary",
-   "title": "cycle (n.) — etymology",
+   "title": "circumvent (v.), circumvention (n.) — etymology",
    "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/cycle",
+   "url": "https://www.etymonline.com/word/circumvent",
    "accessed": "2026-09-17",
-   "note": "late 14c., from Greek kyklos"
+   "note": "mid-15c. and early 15c., from Latin circumvenire"
   },
   {
-   "id": "s:etymonline-stay",
+   "id": "s:wiktionary-de-kur",
    "kind": "dictionary",
-   "title": "stay (v.1), stay (n.3) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/stay",
+   "title": "Kur",
+   "publisher": "Wiktionary (German edition)",
+   "url": "https://de.wiktionary.org/wiki/Kur",
    "accessed": "2026-09-17",
-   "note": "mid-15c. / 1520s"
+   "note": "attested since the 16th century, borrowed from Latin cura, care; compounds Badekur, Trinkkur, Wasserkur, Luftkur"
   },
   {
-   "id": "s:etymonline-pocket",
-   "kind": "dictionary",
-   "title": "pocket (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/pocket",
+   "id": "s:sauer-1997",
+   "kind": "paper",
+   "title": "Reproductive prohibition: restricting donor payment will lead to medical tourism",
+   "publisher": "Sauer MV. Human Reproduction 1997;12(9):1844-5",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9363693/",
    "accessed": "2026-09-17",
-   "note": "mid-14c.; the idiom out of pocket from the 1690s"
+   "note": "the earliest journal title carrying the compound that this project verified, through the NCBI eutils API (PMID 9363693)"
   },
   {
-   "id": "s:etymonline-pay",
-   "kind": "dictionary",
-   "title": "pay (v.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/pay",
+   "id": "s:sheaff-1997",
+   "kind": "paper",
+   "title": "Healthcare access and mobility between the UK and other European Union states: an 'implementation surplus'",
+   "publisher": "Sheaff R. Health Policy 1997;42(3):239-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10176303/",
    "accessed": "2026-09-17",
-   "note": "c. 1200, from Latin pacare"
+   "note": "the same phrase in the older, gatekeeping sense, in scare quotes in the abstract (PMID 10176303)"
   },
   {
-   "id": "s:etymonline-authorize",
-   "kind": "dictionary",
-   "title": "authorize (v.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/authorize",
-   "accessed": "2026-09-17",
-   "note": "late 14c., from Latin auctor"
+   "id": "s:bishop-litch-2000",
+   "kind": "paper",
+   "title": "Medical tourism can do harm",
+   "publisher": "Bishop R, Litch JA. BMJ 2000;320(7240):1017",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10753174/",
+   "accessed": "2026-09-17"
   },
   {
-   "id": "s:etymonline-prior",
-   "kind": "dictionary",
-   "title": "prior (adj.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/prior",
-   "accessed": "2026-09-17",
-   "note": "1714, from Latin prior"
-  },
-  {
-   "id": "s:etymonline-graft",
-   "kind": "dictionary",
-   "title": "graft (n.1), graft (v.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/graft",
-   "accessed": "2026-09-17",
-   "note": "late 15c.; surgical sense 1871"
-  },
-  {
-   "id": "s:etymonline-tourism",
-   "kind": "dictionary",
-   "title": "tourism (n.), tour (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/tourism",
-   "accessed": "2026-09-17",
-   "note": "1811 / c. 1300"
-  },
-  {
-   "id": "s:etymonline-tourist",
-   "kind": "dictionary",
-   "title": "tourist (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/tourist",
-   "accessed": "2026-09-17",
-   "note": "1772"
-  },
-  {
-   "id": "s:etymonline-exile",
-   "kind": "dictionary",
-   "title": "exile (n.), exile (v.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/exile",
-   "accessed": "2026-09-17",
-   "note": "c. 1300, from Latin exilium"
-  },
-  {
-   "id": "s:etymonline-bundle",
-   "kind": "dictionary",
-   "title": "bundle (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/bundle",
-   "accessed": "2026-09-17",
-   "note": "early 14c., from Middle Dutch bondel"
-  },
-  {
-   "id": "s:etymonline-consent",
-   "kind": "dictionary",
-   "title": "consent (n.), consent (v.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/consent",
-   "accessed": "2026-09-17",
-   "note": "c. 1300, from Latin consentire"
-  },
-  {
-   "id": "s:etymonline-wellness",
-   "kind": "dictionary",
-   "title": "wellness (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/wellness",
-   "accessed": "2026-09-17",
-   "note": "1650s"
-  },
-  {
-   "id": "s:etymonline-mobility",
-   "kind": "dictionary",
-   "title": "mobility (n.), mobile (adj.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/mobility",
-   "accessed": "2026-09-17",
-   "note": "early 15c. / late 15c."
-  },
-  {
-   "id": "s:etymonline-case",
-   "kind": "dictionary",
-   "title": "case (n.1) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/case",
-   "accessed": "2026-09-17",
-   "note": "early 13c., from Latin casus; medical sense late 14c."
-  },
-  {
-   "id": "s:etymonline-diagnosis",
-   "kind": "dictionary",
-   "title": "diagnosis (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/diagnosis",
-   "accessed": "2026-09-17",
-   "note": "1680s, from Greek diagnosis"
-  },
-  {
-   "id": "s:worldbank-oop-indicator",
+   "id": "s:ngram-naming",
    "kind": "dataset",
-   "title": "Out-of-pocket expenditure (% of current health expenditure), indicator SH.XPD.OOPC.CH.ZS",
-   "publisher": "World Bank Open Data, from the WHO Global Health Expenditure Database",
-   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
-   "api": "https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json",
+   "title": "Relative frequency of medical tourism, health tourism, medical travel and wellness tourism in the Google Books English 2019 corpus",
+   "publisher": "Google Books Ngram Viewer",
+   "url": "https://books.google.com/ngrams/json?content=medical+tourism,health+tourism&year_start=1970&year_end=2019&corpus=en-2019&smoothing=0",
    "accessed": "2026-09-17",
-   "note": "definition and the source database read off the World Bank indicator API on 17 September 2026; the API records the WHO database as updated 12 December 2025"
+   "note": "queried directly against the JSON endpoint, smoothing 0. The crossover year is 2005. Pre-1980 non-zero values in this corpus are OCR noise and are not read as attestations"
   },
   {
-   "id": "s:healthcare-gov-copayment",
-   "kind": "gov",
-   "title": "Copayment — glossary",
-   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
-   "url": "https://www.healthcare.gov/glossary/co-payment/",
-   "accessed": "2026-09-17"
+   "id": "s:oecd-lunt-scoping-2011",
+   "kind": "report",
+   "title": "Medical Tourism: Treatments, Markets and Health System Implications — a scoping review, DELSA/HEA/WD/HWP(2011)3",
+   "publisher": "Lunt N, Smith R, Exworthy M, Green ST, Horsfall D, Mannion R; OECD Directorate for Employment, Labour and Social Affairs",
+   "url": "https://www.birmingham.ac.uk/documents/college-social-sciences/social-policy/hsmc/publications/2011/medical-tourism-scoping-review.pdf",
+   "accessed": "2026-09-17",
+   "note": "page 8 collects the objections to the term and quotes Glinos et al. (Health and Place 2010;16(6):1145-55), Whittaker (Global Public Health 2008;3(3):271-90, at 272) and Kangas (Medical Anthropology 2010;29(4):344-62, at 350). Those three quotations are verified as quoted here, not against the paywalled originals; the OECD text mis-dates Glinos as 2011 in the body and 2010 in its reference list. The oecd.org copy returns 403; this university mirror was read in full"
   },
   {
-   "id": "s:healthcare-gov-coinsurance",
-   "kind": "gov",
-   "title": "Coinsurance — glossary",
-   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
-   "url": "https://www.healthcare.gov/glossary/co-insurance/",
-   "accessed": "2026-09-17"
-  },
-  {
-   "id": "s:healthcare-gov-preauthorization",
-   "kind": "gov",
-   "title": "Preauthorization — glossary",
-   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
-   "url": "https://www.healthcare.gov/glossary/preauthorization/",
-   "accessed": "2026-09-17"
-  },
-  {
-   "id": "s:healthcare-gov-oop-max",
-   "kind": "gov",
-   "title": "Out-of-pocket maximum/limit — glossary",
-   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
-   "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
-   "accessed": "2026-09-17"
-  },
-  {
-   "id": "s:headington-1984",
+   "id": "s:turner-beyond-2012",
    "kind": "paper",
-   "title": "Transverse microscopic anatomy of the human scalp. A basis for a morphometric approach to disorders of the hair follicle",
-   "publisher": "Headington JT. Archives of Dermatology 1984 Apr;120(4):449-56",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/6703750/",
+   "title": "Beyond 'medical tourism': Canadian companies marketing medical travel",
+   "publisher": "Turner L. Globalization and Health 2012;8:16",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3503750/",
    "accessed": "2026-09-17",
-   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 6703750); the definition of the follicular unit is quoted here from the ISHRS terminology document, which reproduces it"
+   "note": "full text read; DOI 10.1186/1744-8603-8-16, PMID 22703873"
   },
   {
-   "id": "s:ishrs-fue-terminology-2019",
-   "kind": "org",
-   "title": "A 2019 Guide to Currently Accepted FUE and Implanter Terminology",
-   "publisher": "International Society of Hair Restoration Surgery; dated 15 July 2019, editor Robert H. True",
-   "url": "https://ishrs.org/wp-content/uploads/2019/08/July-15-2019-FUE-Terminology.pdf",
-   "accessed": "2026-09-17",
-   "note": "carries the Headington definition of the follicular unit, the 2018 renaming of FUE from extraction to excision, and the CFGE and CFGA measures"
-  },
-  {
-   "id": "s:ishrs-fue-what-is-it",
-   "kind": "org",
-   "title": "FUE — what is it?",
-   "publisher": "International Society of Hair Restoration Surgery",
-   "url": "https://ishrs.org/fue-what-is-it/",
-   "accessed": "2026-09-17",
-   "note": "follicular units of 1 to 4 hairs, punches 0.7 to 1.2 mm, overharvesting as an uncorrectable problem, and the society's black-market warning"
-  },
-  {
-   "id": "s:rassman-fue-2002",
+   "id": "s:bassan-michaelsen-2013",
    "kind": "paper",
-   "title": "Follicular unit extraction: minimally invasive surgery for hair transplantation",
-   "publisher": "Rassman WR, Bernstein RM, McClellan R, Jones R, Worton E, Uyttendaele H. Dermatologic Surgery 2002 Aug;28(8):720-8",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/12174065/",
+   "title": "Honeymoon, medical treatment or big business? An analysis of the meanings of the term 'reproductive tourism' in German and Israeli public media discourses",
+   "publisher": "Bassan S, Michaelsen MA. Philosophy, Ethics, and Humanities in Medicine 2013;8:9",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3854005/",
    "accessed": "2026-09-17",
-   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 12174065)"
+   "note": "CC BY, full text read; carries the patients' objection, Matorras's ground and Pennings's counter-argument, all at one remove from the paywalled letters"
   },
   {
-   "id": "s:malo-all-on-four-2003",
-   "kind": "paper",
-   "title": "\"All-on-Four\" immediate-function concept with Brånemark System implants for completely edentulous mandibles: a retrospective clinical study",
-   "publisher": "Maló P, Rangert B, Nobre M. Clinical Implant Dentistry and Related Research 2003;5 Suppl 1:2-9",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/12691645/",
+   "id": "s:openlibrary-pbb-editions",
+   "kind": "catalogue",
+   "title": "Patients Beyond Borders — edition records showing the subtitle changing across printings",
+   "publisher": "Open Library",
+   "url": "https://openlibrary.org/works/OL9228481W/editions.json",
    "accessed": "2026-09-17",
-   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 12691645)"
+   "note": "first edition 12 March 2007 with medical tourism in the subtitle; 2011 with medical travel; 2012 and 2013 with healthcare; 2015 with medical travel again. One crowd-sourced cataloguing source, not confirmed against a second"
   },
   {
-   "id": "s:nobel-biocare-trademarks",
+   "id": "s:schult-origins-2009",
    "kind": "web",
-   "title": "Trademarks",
-   "publisher": "Nobel Biocare Services AG",
-   "url": "https://www.nobelbiocare.com/en-us/trademarks",
+   "title": "Origins of the Term 'Medical Tourism', 23 October 2009",
+   "publisher": "Jeff Schult, beautyfromafar.com (author of Beauty from Afar, 2006)",
+   "url": "https://beautyfromafar.com/2009/10/23/origins-of-the-term-medical-tourism/",
    "accessed": "2026-09-17",
-   "note": "lists All-on-4 as a registered trademark with \"treatment concept\" given as the suggested generic term; no registration number read"
+   "note": "a trade author stating the drift as it happened; his own 2006 book title still used the other word"
   },
   {
-   "id": "s:statpearls-asa-physical-status",
-   "kind": "reference",
-   "title": "ASA Physical Status Classification System",
-   "publisher": "StatPearls, National Center for Biotechnology Information bookshelf NBK441940",
-   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/",
+   "id": "s:com-2004-301",
+   "kind": "regulation",
+   "title": "Communication from the Commission — Follow-up to the high level reflection process on patient mobility and healthcare developments in the European Union, COM(2004) 301 final, 20 April 2004",
+   "publisher": "European Commission, via EUR-Lex (CELEX 52004DC0301)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52004DC0301",
    "accessed": "2026-09-17",
-   "note": "introduced 1941; six ordinal categories plus the E designation; current table approved 15 October 2014 and last amended 13 December 2020. The ASA's own statement URL now redirects to a paywalled journal page, so this is the reachable source"
+   "note": "the phrase patient mobility appears fifteen times in the English text; footnotes 1 and 2 mis-cite the Kohll judgment as Case C-155/96"
   },
   {
-   "id": "s:etymonline-anesthesia",
-   "kind": "dictionary",
-   "title": "anesthesia (n.) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/anesthesia",
+   "id": "s:ecj-decker-1998",
+   "kind": "ruling",
+   "title": "Case C-120/95, Nicolas Decker v Caisse de maladie des employés privés, judgment of 28 April 1998, ECR 1998 I-1831",
+   "publisher": "Court of Justice of the European Communities, via EUR-Lex (CELEX 61995CJ0120)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:61995CJ0120",
    "accessed": "2026-09-17",
-   "note": "1721, from Greek anaisthesia; the surgical sense from 1846"
+   "note": "spectacles bought in Belgium; decided under the free movement of goods"
   },
   {
-   "id": "s:salgo-1957",
-   "kind": "law",
-   "title": "Salgo v. Leland Stanford Jr. University Board of Trustees, 154 Cal. App. 2d 560, 317 P.2d 170 (Cal. Ct. App., 22 October 1957)",
-   "publisher": "CourtListener, Free Law Project",
-   "url": "https://www.courtlistener.com/opinion/2619445/salgo-v-leland-stanford-jr-university-board-of-trustees/",
+   "id": "s:ecj-kohll-1998",
+   "kind": "ruling",
+   "title": "Case C-158/96, Raymond Kohll v Union des caisses de maladie, judgment of 28 April 1998, ECR 1998 I-1931",
+   "publisher": "Court of Justice of the European Communities, via EUR-Lex (CELEX 61996CJ0158)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:61996CJ0158",
    "accessed": "2026-09-17",
-   "note": "case name, citations, court and filing date verified through the CourtListener search API on 17 September 2026; the opinion text itself was not read for this record"
+   "note": "orthodontic treatment in Germany; decided under the freedom to provide services"
   },
   {
-   "id": "s:schloendorff-1914",
-   "kind": "law",
-   "title": "Schloendorff v. Society of the New York Hospital, 211 N.Y. 125, 105 N.E. 92 (N.Y. Court of Appeals, 14 April 1914)",
-   "publisher": "CourtListener, Free Law Project",
-   "url": "https://www.courtlistener.com/opinion/3599100/schloendorff-v-society-of-the-new-york-hospital/",
-   "accessed": "2026-09-17",
-   "note": "citations, court and date verified through the CourtListener search API on 17 September 2026"
+   "id": "s:ecj-watts-2006",
+   "kind": "ruling",
+   "title": "Case C-372/04, The Queen (on the application of Yvonne Watts) v Bedford Primary Care Trust and Secretary of State for Health, Grand Chamber judgment of 16 May 2006",
+   "publisher": "Court of Justice of the European Communities, via EUR-Lex (CELEX 62004CJ0372)",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62004CJ0372",
+   "accessed": "2026-09-17"
   },
   {
-   "id": "s:nuremberg-code-bmj",
-   "kind": "web",
-   "title": "The Nuremberg Code (1947)",
-   "publisher": "reprinted in the BMJ, No 7070, Volume 313, page 1448, 7 December 1996",
-   "url": "https://media.tghn.org/medialibrary/2011/04/BMJ_No_7070_Volume_313_The_Nuremberg_Code.pdf",
-   "accessed": "2026-09-17",
-   "note": "Principle 1 opens: The voluntary consent of the human subject is absolutely essential"
-  },
-  {
-   "id": "s:wma-helsinki",
+   "id": "s:gwi-wellness-tourism",
    "kind": "org",
-   "title": "WMA Declaration of Helsinki — Ethical Principles for Medical Research Involving Human Subjects",
-   "publisher": "World Medical Association",
-   "url": "https://www.wma.net/policies-post/wma-declaration-of-helsinki/",
+   "title": "What is Wellness Tourism?",
+   "publisher": "Global Wellness Institute",
+   "url": "https://globalwellnessinstitute.org/what-is-wellness/what-is-wellness-tourism/",
    "accessed": "2026-09-17",
-   "note": "adopted June 1964 at the 18th WMA General Assembly, Helsinki; most recently amended at the 75th General Assembly, Helsinki, 2024"
+   "note": "carries the definition, the primary and secondary traveller categories, the whole-trip counting rule, 894 billion US dollars for 2024 and 439 billion for 2012"
   },
   {
-   "id": "s:wpath-soc8",
+   "id": "s:dunn-1959",
    "kind": "paper",
-   "title": "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8",
-   "publisher": "Coleman E, Radix AE, Bouman WP, et al. International Journal of Transgender Health 2022;23(Suppl 1):S1-S259",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/",
+   "title": "High-level wellness for man and society",
+   "publisher": "Dunn HL. American Journal of Public Health and the Nation's Health 1959;49(6):786-92",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1372807/",
    "accessed": "2026-09-17",
-   "note": "published online 15 September 2022, DOI 10.1080/26895269.2022.2100644; the surgery chapter was not reached for this record and no terminology is attributed to it here"
+   "note": "DOI 10.2105/ajph.49.6.786, PMID 13661471; the book High Level Wellness followed in 1961"
   },
   {
-   "id": "s:dictionary-com-top-surgery",
-   "kind": "dictionary",
-   "title": "top surgery",
-   "publisher": "Dictionary.com",
-   "url": "https://www.dictionary.com/browse/top-surgery",
-   "accessed": "2026-09-17",
-   "note": "records the term as first used 1990-95"
-  },
-  {
-   "id": "s:oecd-alos-metadata-2025",
-   "kind": "dataset",
-   "title": "Hospital discharges and average length of stay by diagnostic categories — definitions, sources and methods",
-   "publisher": "OECD Health Statistics 2025",
-   "url": "https://stats.oecd.org/wbos/fileview2.aspx?IDFile=1aac08d9-99d5-4b52-9aa8-bbc8da33454b",
-   "accessed": "2026-09-17",
-   "note": "ALOS is bed-days divided by discharges, counted as date of discharge minus date of admission; day cases are excluded, and a day-care patient retained overnight because of a complication is counted as an inpatient discharge"
-  },
-  {
-   "id": "s:etymonline-rate",
-   "kind": "dictionary",
-   "title": "rate (n.1) — etymology",
-   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
-   "url": "https://www.etymonline.com/word/rate",
-   "accessed": "2026-09-17",
-   "note": "early 15c., from Medieval Latin rata pars, from Latin reri, to reckon"
-  },
-  {
-   "id": "s:fetter-drg-1980",
+   "id": "s:matorras-2005",
    "kind": "paper",
-   "title": "Case mix definition by diagnosis-related groups",
-   "publisher": "Fetter RB, Shin Y, Freeman JL, Averill RF, Thompson JD. Medical Care 1980 Feb;18(2 Suppl):iii, 1-53",
-   "url": "https://pubmed.ncbi.nlm.nih.gov/7188781/",
+   "title": "Reproductive exile versus reproductive tourism",
+   "publisher": "Matorras R. Human Reproduction 2005 Dec;20(12):3571 (with author reply 3571-2)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16308333/",
    "accessed": "2026-09-17",
-   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 7188781); the Yale origin story of the late 1960s is widely repeated and was not confirmed against a primary source for this record"
+   "note": "DOI 10.1093/humrep/dei223, PMID 16308333; a comment on Pennings 2004. The letter itself is paywalled and was not read; its ground is quoted here as reported in Bassan and Michaelsen 2013"
   },
   {
-   "id": "s:pl-98-21-statute",
-   "kind": "statute",
-   "title": "Social Security Amendments of 1983, Public Law 98-21, 97 Stat. 65, approved 20 April 1983 — Title VI, Prospective Payments for Medicare, section 601",
-   "publisher": "United States Statutes at Large, via govinfo",
-   "url": "https://www.govinfo.gov/content/pkg/STATUTE-97/pdf/STATUTE-97-Pg65.pdf",
+   "id": "s:pennings-2004",
+   "kind": "paper",
+   "title": "Legal harmonization and reproductive tourism in Europe",
+   "publisher": "Pennings G. Human Reproduction 2004 Dec;19(12):2689-94",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15513984/",
    "accessed": "2026-09-17",
-   "note": "carries the three-year phase-in: 75 per cent target and 25 per cent DRG for discharges on or after 1 October 1983"
+   "note": "DOI 10.1093/humrep/deh486; the paper Matorras was answering"
   },
   {
-   "id": "s:cms-acute-inpatient-pps",
-   "kind": "gov",
-   "title": "Acute Inpatient PPS",
-   "publisher": "US Centers for Medicare & Medicaid Services",
-   "url": "https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps",
-   "accessed": "2026-09-17"
-  },
-  {
-   "id": "s:cfr-409-10",
-   "kind": "statute",
-   "title": "42 CFR § 409.10 — Included services (inpatient hospital services)",
-   "publisher": "Legal Information Institute, Cornell Law School",
-   "url": "https://www.law.cornell.edu/cfr/text/42/409.10",
+   "id": "s:pennings-eshre-tf15-2008",
+   "kind": "paper",
+   "title": "ESHRE Task Force on Ethics and Law 15: Cross-border reproductive care",
+   "publisher": "Pennings G, de Wert G, Shenfield F, Cohen J, Tarlatzis B, Devroey P. Human Reproduction 2008 Oct;23(10):2182-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18611918/",
    "accessed": "2026-09-17",
-   "note": "paragraph (b)(3) excludes physician services paid on a fee schedule basis"
+   "note": "DOI 10.1093/humrep/den184; the compromise phrase adopted by the society, with Pennings as first author"
   },
   {
-   "id": "s:cfr-412-2",
-   "kind": "statute",
-   "title": "42 CFR § 412.2 — Basis of payment",
-   "publisher": "Legal Information Institute, Cornell Law School",
-   "url": "https://www.law.cornell.edu/cfr/text/42/412.2",
+   "id": "s:jlme-circumvention-2022",
+   "kind": "paper",
+   "title": "The Flaw in Formalist Accounts of Circumvention Tourism, and Revisiting the Ethics of Circumvention Tourism",
+   "publisher": "Shaw J, pp. 551-562; Snyder JC, pp. 563-565. Journal of Law, Medicine and Ethics 2022;50(3)",
+   "url": "https://doi.org/10.1017/jme.2022.93",
    "accessed": "2026-09-17",
-   "note": "paragraph (e) names the costs excluded from the prospective payment amounts and paid on a reasonable cost basis"
-  },
-  {
-   "id": "s:cfr-412-4",
-   "kind": "statute",
-   "title": "42 CFR § 412.4 — Discharges and transfers",
-   "publisher": "Legal Information Institute, Cornell Law School",
-   "url": "https://www.law.cornell.edu/cfr/text/42/412.4",
-   "accessed": "2026-09-17"
-  },
-  {
-   "id": "s:khg-17b",
-   "kind": "statute",
-   "title": "Krankenhausfinanzierungsgesetz § 17b — Einführung eines pauschalierenden Entgeltsystems für DRG-Krankenhäuser",
-   "publisher": "Bundesministerium der Justiz, gesetze-im-internet.de",
-   "url": "https://www.gesetze-im-internet.de/khg/__17b.html",
-   "accessed": "2026-09-17"
-  },
-  {
-   "id": "s:bmg-fallpauschalen",
-   "kind": "gov",
-   "title": "Fallpauschalen",
-   "publisher": "Bundesministerium für Gesundheit",
-   "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/f/fallpauschalen",
-   "accessed": "2026-09-17",
-   "note": "DRG billing voluntary for hospitals in 2003 and compulsory for somatic hospitals from 2004; convergence 2005-2009; a state-uniform base rate from 1 January 2010"
-  },
-  {
-   "id": "s:cms-bpci",
-   "kind": "gov",
-   "title": "Bundled Payments for Care Improvement (BPCI) Initiative",
-   "publisher": "CMS Innovation Center",
-   "url": "https://www.cms.gov/priorities/innovation/innovation-models/bundled-payments",
-   "accessed": "2026-09-17",
-   "note": "Model 1 awardees from April 2013, Models 2, 3 and 4 from October 2013; carries each model's episode definition"
-  },
-  {
-   "id": "s:cms-bpci-advanced",
-   "kind": "gov",
-   "title": "BPCI Advanced",
-   "publisher": "CMS Innovation Center",
-   "url": "https://www.cms.gov/priorities/innovation/innovation-models/bpci-advanced",
-   "accessed": "2026-09-17",
-   "note": "first cohort from 1 October 2018; episode is the anchor stay or procedure plus 90 days"
-  },
-  {
-   "id": "s:cms-cjr",
-   "kind": "gov",
-   "title": "Comprehensive Care for Joint Replacement Model",
-   "publisher": "CMS Innovation Center",
-   "url": "https://www.cms.gov/priorities/innovation/innovation-models/cjr",
-   "accessed": "2026-09-17",
-   "note": "performance period 1 April 2016 to 31 December 2024; 90-day episode"
-  },
-  {
-   "id": "s:cms-team-model",
-   "kind": "gov",
-   "title": "Transforming Episode Accountability Model (TEAM)",
-   "publisher": "CMS Innovation Center",
-   "url": "https://www.cms.gov/priorities/innovation/innovation-models/team-model",
-   "accessed": "2026-09-17",
-   "note": "mandatory for selected hospitals, 1 January 2026 to 31 December 2030, five surgical categories, 30-day episode"
-  },
-  {
-   "id": "s:jucm-case-rate-2017",
-   "kind": "web",
-   "title": "Understanding Case-Rate Reimbursement",
-   "publisher": "Journal of Urgent Care Medicine, 1 December 2017",
-   "url": "https://www.jucm.com/understanding-case-rate-reimbursement/",
-   "accessed": "2026-09-17",
-   "note": "a trade journal definition; no standards body publishes one"
-  },
-  {
-   "id": "s:nhs-payment-scheme",
-   "kind": "gov",
-   "title": "NHS Payment Scheme",
-   "publisher": "NHS England",
-   "url": "https://www.england.nhs.uk/pay-syst/nhs-payment-scheme/",
-   "accessed": "2026-09-17",
-   "note": "the 2026/27 scheme took effect 1 April 2026; the page carries the primary-care and high-cost-drug exclusions"
-  },
-  {
-   "id": "s:nhs-national-tariff",
-   "kind": "gov",
-   "title": "National tariff",
-   "publisher": "NHS England",
-   "url": "https://www.england.nhs.uk/pay-syst/national-tariff/",
-   "accessed": "2026-09-17",
-   "note": "states that the NHS Payment Scheme replaced the national tariff from 1 April 2023"
+   "note": "metadata confirmed through Crossref; the articles themselves were not read"
   }
  ]
 }

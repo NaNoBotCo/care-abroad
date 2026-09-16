@@ -1,0 +1,137 @@
+{
+ "schema": 1,
+ "id": "hernia-repair",
+ "type": "procedure",
+ "names": {
+  "name": "Hernia repair",
+  "aliases": ["herniorrhaphy", "hernioplasty", "inguinal hernia repair", "umbilical hernia repair"],
+  "said": "Price pages say hernia and then say which one and how many sides: unilateral or bilateral, open, laparoscopic or robotic. Four words, four prices, one page."
+ },
+ "etymology": {
+  "root": "hernia is Latin for a rupture, from a root meaning a bud or sprout pushing through. Herniorrhaphy adds Greek rhaphē, a seam or suture — sewing the rupture; hernioplasty, plastos, moulded, names the version done with a mesh. Inguinal is Latin inguen, the groin.",
+  "tier": "tradition",
+  "note": "Mesh is the point of contention in this operation's literature and is not a separate line on any package read for this record; where the package says medical supplies used during surgery under the physician's consideration, specific model, the mesh is inside that phrase."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "general-surgery",
+  "setting": "day-case",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A defect in the abdominal wall is closed and usually reinforced with a synthetic mesh, through an open incision or through keyhole ports. The commonest general-surgical operation in most countries. One night on the Bangkok packages read for this record; a day case on the Irish and Australian payer schedules, which price it both ways.",
+  "story": "Eight prices for one operation, on one hospital's page, on one day.\n\nBumrungrad in Bangkok lists open initial inguinal hernia repair at 199,600 baht for one side and 304,700 for two; laparoscopic at 243,500 and 382,000; robotic-assisted at 350,000 and 430,000; and robotic umbilical hernia repair at 420,000. The route is a price tier, and the second side is not double.\n\nThe package that was read in full — laparoscopic, one side, SUR05, prices stated valid until 31 December 2026 — buys two hours of theatre, one night in a single room, the medical supplies and equipment used during surgery under the physician's consideration, the anaesthesia, and fees for surgeon, assistant, anaesthetist, admission, one day of ward rounds and the discharge summary. It excludes outpatient charges and anything before the operation, stays beyond one day or in intensive care, other specialists' consultations, complex or emergency cases, blood transfusion, tests before and after, and take-home medication.\n\nThe payer versions do the arithmetic differently. Ireland prices hernia interventions at minor complexity as DRG G10B: EUR 9,046 as an inpatient stay and EUR 5,151 as a day case, the group covering repair of incisional, femoral, inguinal, umbilical or epigastric hernia — five operations in one price. Australia pays the surgeon $556.05 under item 30648, femoral or inguinal hernia repair by open or minimally invasive approach in a patient ten years or over, with a 75% benefit of $417.05, and says nothing about which approach.\n\n*Inference —* the Thai page prices the technique and the Irish tariff prices the diagnosis, which is why a robot costs 75% more in Bangkok and nothing at all in Dublin. Both are internally consistent. Neither is a price for the same thing.",
+  "how": "Open repair is a groin incision, the sac reduced, a mesh laid over the defect, the wound closed — often under general anaesthesia on these pages, though the operation is also done under local. Laparoscopic and robotic repairs place the mesh from inside through three ports, and cost more on every page read here.\n\nRecovery is measured in days for desk work and weeks for lifting, which is why this is the operation most often sold as a day case where a health service is buying and as a one-night package where a hospital is selling. Ireland's tariff prices both forms of the same group and the day case is 57% of the inpatient price.\n\nThe queue is the other half. Ireland's National Treatment Purchase Fund counted 115,450 people waiting for an inpatient or day-case appointment at the end of May 2026; NHS England's median wait across all pathways at the end of July 2026 was 12.0 weeks, with 111,379 people past 52 weeks.",
+  "today": "As of 17 September 2026 a one-sided inguinal repair is published at 199,600 baht open, 243,500 laparoscopic and 350,000 robotic in Bangkok, with one night included. Ireland's own price for the hernia group is EUR 9,046 as an inpatient and EUR 5,151 as a day case, and the Australian schedule fee for the surgeon is $556.05.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 1,
+  "days_before_flying": 10,
+  "recovery_weeks": 4,
+  "wait_days_home": 84,
+  "note": "One night is the stay named in the Bumrungrad laparoscopic hernia package read for this record; Ireland's tariff prices the same group as a day case at EUR 5,151 and as an inpatient stay with an average length of 2.1 days. The eighty-four days is the median wait of 12.0 weeks across all pathways waiting to start treatment in England at the end of July 2026, published by NHS England — an all-specialty median for the English market, not a hernia figure. The ten-day figure is the CDC's guidance not to fly for ten days after abdominal surgery. Four weeks is the span usually quoted before heavy lifting.",
+  "as_of": "2026-07-31",
+  "source": "s:nhs-rtt-july-2026",
+  "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "hernia-repair",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 243500,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": ["operating room for 2 hours including theatre, nurse assisting surgeon and operating team", "single room for 1 night including nursing service and regular menu meals", "medical supplies and equipment used during surgery under the physician's consideration, specific model", "anaesthesia and necessary medication during the procedure", "doctor fees: surgeon, assistant surgeon, anaesthesiologist", "admission physician fees, one day of daily round physician fees and the discharge summary fee"],
+   "excludes": ["expenses at the outpatient unit or before the operation", "inpatient stays beyond one day, intensive care, or nights past the day discharge was approved", "consultations with other specialists", "complex cases requiring emergency surgery or equipment beyond the package", "blood transfusion, laboratory tests and other diagnostic tests before and after the operation", "items of a personal nature", "take-home medication and supplies"],
+   "source": "s:bumrungrad-sur05",
+   "url": "https://www.bumrungrad.com/en/packages/laparoscopic-inguinal-hernia-repair-1-side",
+   "note": "package SUR05, laparoscopic, one side, prices stated valid until 31 December 2026. Both sides is 382,000 THB. The mesh is not named anywhere on the page: it sits inside 'medical supplies and equipment used during surgery under the physician's consideration (specific model)'.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hernia-repair",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 199600,
+   "amount_high": 430000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["the ladder of routes on one page: open one side 199,600 and both sides 304,700; laparoscopic 243,500 and 382,000; robotic-assisted 350,000 and 430,000; robotic umbilical repair 420,000"],
+   "excludes": ["as the individual packages: outpatient charges, extra nights, other specialists, tests before and after, home medication"],
+   "source": "s:bumrungrad-surgical-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/surgical-clinics",
+   "note": "read off the surgical clinic's package list on 17 September 2026. The robot adds 75% to the open price for the same hernia, and the second side adds between 53% and 57% rather than 100%.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hernia-repair",
+   "country": "IE",
+   "amount": 5151,
+   "amount_high": 9046,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "reimbursement",
+   "includes": ["DRG G10B HERNIA INTERVENTIONS, MINC: repair of incisional, femoral, inguinal, umbilical or epigastric hernia", "the whole episode — EUR 5,151 as a day case, EUR 9,046 as an inlier inpatient stay"],
+   "excludes": ["stays beyond the high boundary, paid per diem on top", "travel and accommodation"],
+   "source": "s:hse-cbd-niphs-drg-guide",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "note": "what Ireland repays a patient treated abroad under the Cross Border Directive or the Northern Ireland Planned Healthcare Scheme, and its own price for the admission. The major-complexity version, G10A, is EUR 15,366. One price for five different hernias and for every surgical route.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "hernia-repair",
+   "country": "AU",
+   "amount": 556.05,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": ["item 30648: femoral or inguinal hernia or infantile hydrocele, repair of, by open or minimally invasive approach, on a patient 10 years of age or over"],
+   "excludes": ["the hospital, the theatre, the ward, the anaesthetist and the mesh"],
+   "source": "s:mbs-30648",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=30648&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $417.05, read on 17 September 2026. One fee whether the surgeon operates open or by keyhole — the opposite of the Thai page, where the route is the price.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "gallbladder-removal", "as": "The other keyhole operation on the same Bangkok package list and the same Irish tariff.", "rel": "kin"},
+  {"to": "prostatectomy", "as": "The other pelvic operation sold by the night and the route.", "rel": "kin"},
+  {"to": "bumrungrad", "as": "Publishes the eight hernia prices this page reads, mesh unnamed inside the supplies line.", "rel": "performed-at"},
+  {"to": "thailand", "as": "Where the surgical route is a price tier and the second side is not double.", "rel": "destination"},
+  {"to": "australia", "as": "Where one schedule fee covers every route to the same repair.", "rel": "destination"},
+  {"to": "united-kingdom", "as": "The source market whose waiting list makes a foreign price worth reading.", "rel": "destination"},
+  {"to": "eu-directive-2011-24", "as": "The route under which an Irish patient is repaid at the Irish price for a hernia done abroad.", "rel": "rule"},
+  {"to": "reading-the-exclusions", "as": "The step at which one night turns out to mean one night exactly.", "rel": "step"},
+  {"to": "revision-at-home", "as": "Who repairs a recurrence, and who deals with chronic groin pain after a mesh.", "rel": "risk"},
+  {"to": "flying-after-surgery", "as": "The clot risk that sets how long after abdominal surgery a patient can board.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Who looks at the wound at two weeks once the patient has flown.", "rel": "risk"},
+  {"to": "oecd-waiting-times", "as": "The series that counts the queue for exactly this kind of operation.", "rel": "measured-by"}
+ ],
+ "confusable_with": [
+  {"id": "gallbladder-removal", "tell": "Both are sold as short keyhole packages; one closes a wall and one removes an organ, and the gallbladder package is the dearer of the two at the same hospital."}
+ ],
+ "links": [
+  {"label": "Bumrungrad — laparoscopic inguinal hernia repair, one side", "url": "https://www.bumrungrad.com/en/packages/laparoscopic-inguinal-hernia-repair-1-side"},
+  {"label": "HSE — CBD / NIPHS most common procedures DRG guide", "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf"}
+ ],
+ "sources": ["s:bumrungrad-sur05", "s:bumrungrad-surgical-packages", "s:hse-cbd-niphs-drg-guide", "s:hse-abf-2024-inpatient", "s:mbs-30648", "s:nhs-rtt-july-2026", "s:ntpf-may-2026", "s:cdc-yellowbook-medical-tourism"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:bumrungrad-sur05", "note": "all eight Thai prices and the package terms read off the hospital's own pages on 17 September 2026; tariff figures read off the Irish guide and the Australian item page; the closing stretch is this project's reasoning and is marked"},
+   "text.how": {"tier": "tradition", "note": "standard operative description; the waiting figures are cited and labelled as all-specialty"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:nhs-rtt-july-2026"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Inguinal hernia repair.jpg", "File:Hernia mesh.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

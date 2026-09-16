@@ -1,0 +1,137 @@
+{
+ "schema": 1,
+ "id": "the-accreditation-question",
+ "type": "story",
+ "names": {
+  "name": "The accreditation question",
+  "aliases": [
+   "who inspects the inspector",
+   "reading a badge wall"
+  ],
+  "said": "The badge says a named body inspected named systems on a named date. Everything else on the badge wall is inference."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "explainer"
+ },
+ "text": {
+  "what": "An accreditation is a fact about an inspection somebody bought. The organisation applies, the organisation pays, the survey is scheduled, and the mark runs for a fixed term. This page sets out what the fee buys, what the standards measure, what they do not, who assesses the bodies that issue them, and why the ten schemes on this site are ten different instruments wearing one word.",
+  "story": "Every voluntary accreditation in this trade runs on the same transaction. The hospital applies. The hospital pays. The body it pays then decides whether to grant the mark the hospital will put on its homepage. That is not a scandal and it is not unusual — it is the structure of nearly every voluntary certification on earth — but a reader cannot size any of these marks without holding it in view, and most pages that cite them leave it out.\n\nThe fees are published often enough to be quoted. Joint Commission International states an average of 46,000 US dollars a year to hold its accreditation, plus travel and other costs, with the fee set from the services a hospital offers and its average daily census. The ISQua External Evaluation Association charges a once-off Access Fee that \"entitles an organisation to enter the International Accreditation Programme and to receive the full information pack\", banded by the World Bank income group of the applicant's country: 1,716 to 2,946 euros for 2026. Temos publishes a fee table scaling with level of care and bed count, quoted over three years with a first and a second annual fee, covering professional services but not \"travel and accommodation costs for the Temos assessors\". *Inference —* that last clause means a small clinic somewhere an assessor must fly to pays a different real price from a large one near the office, and the difference falls on the applicant rather than on the scheme.\n\nThe survey is also scheduled. JCI's American surveys are unannounced; its international ones, on the account carried in this site's source for it, take place at a time known in advance by the hospital, often after considerable preparation. DNV's NIAHO programme in the United States is unusual in surveying annually rather than at the end of a three-year cycle, which changes what its certificate means: a recent inspection rather than one that may be nearly three years old. *Inference —* a reader who takes any of these marks as a snapshot of an ordinary Tuesday is reading it wrong. What it certifies is that named systems conformed on a named date after a period in which the organisation knew the date.\n\nWhat the register holds is narrower still. This site's dataset record for the JCI directory states the boundary: it counts organisations that applied, paid for the survey, met the standards on the survey date and are inside a three-year cycle — and it carries no infection rate, no mortality, no revision rate, no price, no patient volume and no record of a complaint. Nobody appears in it involuntarily. It also keeps no public history of the lapsed, so an expired accreditation leaves a hospital's website long after it leaves the list, and no reader can check what used to be there.\n\nThe obvious question has exactly one industrial answer. The ISQua External Evaluation Association, established in 2018 by the International Society for Quality in Health Care and registered in Switzerland, assesses the bodies: health and social care standards, external evaluation organisations, surveyor training programmes, and quality and safety training programmes, with an award running four years against annual progress reports. It states plainly that it \"does not directly accredit health or social care services\". It does not audit a hospital and it does not re-run an accreditor's surveys. *Inference —* so the chain runs applicant pays accreditor, accreditor pays meta-accreditor, and no one in the chain is paid by a patient. The chain is nonetheless the most useful thing on a badge wall, because an ISQua EEA award is dated at both ends by a third party: the American Accreditation Commission International holds an organisational award for 2022 to 2026, a standards award for 2023 to 2027 and a surveyor training award for 2024 to 2028, and an award that expires says something precise.\n\nThe ten schemes on this site are not substitutes for one another, and adding their marks together is the commonest error made with them. Saudi Arabia's central board is mandatory for Ministry of Health hospitals, so its mark is evidence of a floor the state requires of everyone rather than a choice a hospital made. India's national board is reassessed every two years and is the gate to domestic government and insurer empanelment, so an Indian hospital chasing it is chasing a reimbursement channel as well as a foreign patient's confidence. DNV's programmes are built on ISO 9001, which audits a quality management system rather than a clinical standard, and a system audit answers a narrower question than a badge wall implies. Global Healthcare Accreditation surveys the journey — the enquiry, the quotation, the transfer, the interpreter, the discharge pack, the handover — and not the ward, which is why a GHA mark and a JCI mark answer different questions. The Australian council's standards are part of a compulsory national safety system at home and a purchasable product abroad: the mark is the same, what stands behind it is not.\n\nTwo things that appear on the same walls are not inspections at all. Costa Rica's PROMED issues a Seal of Quality to members who pay it, in a scheme that also admits hotels, law firms and marketing agencies. The International Medical Travel Journal runs the Medical Travel Awards, judged by a panel chaired by its editor, which entrants pay to enter. *Inference —* a trade award is evidence that a company entered a competition and a panel preferred its entry; a membership seal is evidence of membership with conditions. Neither has a standard behind it, neither is an external inspection of a clinical service, and neither should be counted beside an accreditation.\n\nSo a count of marks measures attention bought, and buying attention costs money, which is why the large private hospitals in this directory carry several and the district hospital next door carries none. This site holds 63 recognition rows across 35 records: 20 from JCI, ten from a magazine ranking, eight ISQua EEA awards, five Turkish ministry authorisations, and the rest scattered. Each row names its issuer, its year and its source. None of them is read here as a quality score, and none is weighted against another.",
+  "how": "What can be established about a badge, in order: who issued it, on what date, for how long, and whether the issuing body itself holds a dated award from the meta-accreditor. Then whether the register is public and searchable, because a scheme whose accredited list cannot be read gives a reader no way to check that a mark is still live. Then what the mark covers — the whole organisation, one programme, one laboratory, or one department. Several schemes on this site publish none of the cycle length, the fee or the register, and those gaps are left open in their records rather than filled.",
+  "today": "As of 17 September 2026 this site carries records for ten accreditors and certifying bodies, one meta-accreditor, and two trade organisations whose marks are frequently mistaken for accreditations. JCI's own site refused every automated request from this project on 16 and 17 September 2026, so the counts in its record are dated rather than current, and Saudi Arabia's board refused every connection, so the gaps in that record stay open. No scheme read for this project publishes outcome data alongside its mark."
+ },
+ "kin": [
+  {
+   "to": "jci",
+   "as": "The mark most often named, at a stated average of 46,000 dollars a year, surveyed on an agreed date.",
+   "rel": "org"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "The body that assesses the bodies, and the only dated third-party check on a badge wall.",
+   "rel": "org"
+  },
+  {
+   "to": "jci-accredited-list",
+   "as": "The register itself, and the sentence saying what it does not hold.",
+   "rel": "dataset"
+  },
+  {
+   "to": "temos",
+   "as": "Publishes its fee table, and puts the assessors' travel on the applicant.",
+   "rel": "org"
+  },
+  {
+   "to": "gha",
+   "as": "Surveys the journey rather than the ward, which is why its mark is not a substitute for a clinical one.",
+   "rel": "org"
+  },
+  {
+   "to": "cbahi",
+   "as": "Mandatory rather than voluntary, so its mark is evidence of a floor rather than of a choice.",
+   "rel": "org"
+  },
+  {
+   "to": "nabh",
+   "as": "A national scheme with domestic reimbursement attached, reassessed every two years.",
+   "rel": "org"
+  },
+  {
+   "to": "dnv-healthcare",
+   "as": "Surveys annually and audits a management system, which is a narrower question.",
+   "rel": "org"
+  },
+  {
+   "to": "achsi",
+   "as": "A regulator's partner at home and a vendor abroad, selling the same standards into systems with nothing behind them.",
+   "rel": "org"
+  },
+  {
+   "to": "promed",
+   "as": "A membership seal from a body its members pay, in a scheme that also admits hotels.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj",
+   "as": "Runs a paid-entry trade award that is routinely counted beside an inspection.",
+   "rel": "org"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Took the mark in 2002, early for Asia, and states it in its own footer.",
+   "rel": "facility"
+  }
+ ],
+ "links": [
+  {
+   "label": "ISQua EEA International Accreditation Programme",
+   "url": "https://ieea.ch/"
+  },
+  {
+   "label": "JCI accreditation",
+   "url": "https://www.jointcommissioninternational.org/"
+  }
+ ],
+ "sources": [
+  "s:jci-accreditation",
+  "s:jci-wikipedia",
+  "s:ieea-iap",
+  "s:isqua-about",
+  "s:temos-company",
+  "s:temos-medical-care",
+  "s:gha-about",
+  "s:gha-accredited-list",
+  "s:aaci-about",
+  "s:nabh-home",
+  "s:nabh-wikipedia",
+  "s:cbahi-jmdh-2023",
+  "s:achsi-home",
+  "s:dnv-niaho",
+  "s:dnv-wikipedia",
+  "s:promed-salud-cr",
+  "s:imtj-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every fee, term and statement is the scheme's own or its cited secondary source; the readings are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's reading order, drawn from the accreditor records it has written"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counted over the records on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

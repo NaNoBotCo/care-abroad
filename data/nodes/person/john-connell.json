@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "john-connell",
+ "type": "person",
+ "names": {
+  "name": "John Connell",
+  "aliases": ["J. Connell"],
+  "said": "The geographer who got here first. His 2006 paper is the most cited single article in the field, and it read the trade as a story about globalisation rather than about hospitals."
+ },
+ "region": ["oceania", "global"],
+ "facets": {
+  "role": "researcher",
+  "iso2": "AU"
+ },
+ "text": {
+  "what": "Honorary Professor in the Faculty of Science at the University of Sydney, attached to the School of Geosciences, and the author of the first widely read academic treatment of cross-border care. His own university profile describes him as \"a social geographer with a longstanding interest in migration and development issues in the island Pacific, notably in Bougainville and Tuvalu\".",
+  "story": "The article is Connell J, \"Medical tourism: Sea, sun, sand and … surgery\", Tourism Management 2006;27(6):1093–1100. It arrived before the market-research reports, before the accreditation business had scaled, and before any government had written a health-travel licensing regime, and it treated the subject as a geographer treats a labour flow: who moves, in which direction, and what that reveals about the systems they are moving between.\n\nThe book followed. The Wellcome Collection catalogues \"Medical tourism\", John Connell, CABI, Wallingford, 2011, 209 pages, ISBN 9781845936600; Open Library records the same title reissued by CABI in 2013 under ISBN 9781780643694. Retail listings dating the book to 2010 are common, and the library record is the one carried here.\n\n*Inference —* his framing is why this directory is organised the way it is. A person travelling for an operation is a migration event with a medical reason attached, and the useful questions about it — who can afford to move, which countries export and which import, what the movement does to the health system left behind — are the questions a geographer asks, not the questions a brochure answers.",
+  "notes": "English Wikipedia gives a birth year of 1946, uncited, on an article carrying a neutrality banner; it is not asserted here. His university profile's own title is Honorary Professor, not the \"Professor of Human Geography\" that appears on his book jackets."
+ },
+ "kin": [
+  {"to": "medical-tourism", "as": "The word in his title, used academically before the trade contested it.", "rel": "term"},
+  {"to": "who-travels", "as": "The question his 2006 paper set, and the one this site keeps returning to.", "rel": "story"},
+  {"to": "patient-mobility", "as": "The other word for the same movement, preferred by the people who regulate it.", "rel": "term"},
+  {"to": "australia", "as": "Where he writes from, and a country that both sends and receives patients.", "rel": "destination"},
+  {"to": "leigh-turner", "as": "The bioethicist working the same subject from the direction of what is being sold.", "rel": "contrast"},
+  {"to": "counting-patients", "as": "The problem his book named twenty years before the market reports learned to state it.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "University of Sydney profile", "url": "https://profiles.sydney.edu.au/john.connell"},
+  {"label": "Medical tourism: Sea, sun, sand and … surgery (2006)", "url": "https://doi.org/10.1016/j.tourman.2005.11.005"},
+  {"label": "Wellcome Collection — Medical tourism, CABI 2011", "url": "https://wellcomecollection.org/works/v9j3qseb"}
+ ],
+ "sources": ["s:sydney-connell-profile", "s:connell-2006", "s:wellcome-connell-2011", "s:openlibrary-connell-medical-tourism", "s:wp-john-connell"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:sydney-connell-profile"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:sydney-connell-profile", "note": "title, faculty, school and the quoted biography line were read on the university's own profile in a browser on 2026-09-17; the page does not render to a plain fetch"},
+   "text.story": {"tier": "cited", "source": "s:wellcome-connell-2011", "note": "the 2006 citation was confirmed through Crossref; the book's date and ISBN are from the Wellcome Collection record; the closing paragraph is marked inference"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}
