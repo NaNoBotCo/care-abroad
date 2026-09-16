@@ -116,10 +116,12 @@ BANNED, hard error (validate.py).            [stylecheck: allow-start]
   don't worry · rest assured · peace of mind   [stylecheck: allow-end]
 A quotation in quotation marks is exempt, so quote and attribute instead of asserting.
 
-The sixth word on that list is the field's own name for itself. So this site writes
-medical travel and cross-border care, and the two-word phrase built on that sixth word
-appears in quotation marks with a speaker, or on the word's own page, where the fight
-over it is the subject.
+The sixth word on that list is the agent noun for a person on holiday, and the field's
+own name for itself is built on it. The checker matches that noun and its plural, not the
+abstract noun, so the two-word name of the field passes the regex — what keeps it out of
+the prose here is this rule rather than the checker. So: this site writes medical travel
+and cross-border care, and the field's own name appears in quotation marks with a speaker,
+or on the word's own page, where the fight over it is the subject.
 
 This subject runs on argument — cheaper against riskier, queue against fee, the state that
 will not pay against the state that will not allow. REPORT every argument. JOIN none.

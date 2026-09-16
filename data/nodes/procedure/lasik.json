@@ -4,7 +4,12 @@
  "type": "procedure",
  "names": {
   "name": "LASIK",
-  "aliases": ["laser in situ keratomileusis", "laser eye surgery", "femto-LASIK", "laser vision correction"],
+  "aliases": [
+   "laser in situ keratomileusis",
+   "laser eye surgery",
+   "femto-LASIK",
+   "laser vision correction"
+  ],
   "said": "Clinics say laser eye surgery and price four different operations under it — LASEK, LASIK, SMILE, Presbyond — which is why a quoted price means nothing until the acronym beside it is read."
  },
  "etymology": {
@@ -12,7 +17,9 @@
   "tier": "tradition",
   "note": "A flap is cut in the cornea, lifted, the bed underneath reshaped by an excimer laser, the flap replaced. LASEK and PRK do without the flap and hurt more for longer; SMILE removes a disc of tissue through a small incision and cuts no flap at all."
  },
- "region": ["global"],
+ "region": [
+  "global"
+ ],
  "facets": {
   "family": "ophthalmic",
   "setting": "day-case",
@@ -22,7 +29,7 @@
   "what": "A thin flap is cut in the surface of the cornea, the tissue beneath is reshaped with an excimer laser to change where the eye focuses, and the flap is laid back without stitches. Both eyes in one sitting, minutes each, drops rather than injections. It treats the cornea, which means it cannot help an eye whose prescription is too strong or whose cornea is too thin — and that is the eye the implanted lens exists for.",
   "story": "Almost nobody pays for this out of a public budget, which is why its price pages are the plainest in this batch: a per-eye figure and a list of what the figure buys.\n\nOptegra in the United Kingdom publishes a four-rung ladder, all per eye: LASEK £1,495, LASIK £2,095, ReLEx SMILE £2,695, Presbyond £2,995, each stated to include consultations, treatment, aftercare, medication and any enhancement treatment if clinically required. Two eyes doubles all four.\n\nLasikPlus in the United States states prices starting between $2,495 and $2,895 per eye before any discounts or promotions, covering the all-laser procedure, pre-operative exams and follow-up care, and cites a Market Scope survey range of $1,500 to $5,000 per eye across the country.\n\nBumrungrad in Bangkok does not sell LASIK on the page read for this record. It sells the newer lenticule operation: vision correction with ReLEx SMILE for both eyes, 102,000 baht, package IPDEYE34 — and its terms state the package does not include the doctor's fee for the initial consultation or the examinations that decide whether the patient is suitable at all.\n\n*Inference —* that is the comparison worth making. Both eyes by SMILE in Bangkok is a little over half the price of one eye by SMILE in England, and the Thai package leaves out exactly the appointment that decides eligibility, which is the appointment a traveller cannot have before booking.\n\nThe state's position is written into the Australian schedule. Item 42702 pays for lens extraction with an intraocular lens and excludes, in its own descriptor, \"surgery performed to correct a refractive error\". Refractive surgery is a purchase, not an entitlement, in every market read for this record.",
   "how": "A suitability examination first — corneal thickness, prescription stability, dry eye, pupil size — and it is the examination that turns patients away. Then the flap, the laser, the flap back, an hour of rest, drops for weeks, a check the next day. Vision is usually usable within a day or two.\n\nWhat the price pages differ on is the aftercare and the enhancement. Optegra's figure states that it covers aftercare, medication and a further treatment if clinically required; the Bangkok package covers the procedure and excludes the consultation and the screening; the American page describes an enhancement policy in the words \"often included\" within a set period. For a patient who flies home, an enhancement included at the clinic that did the surgery is an enhancement in another country.",
-  "today": "As of 17 September 2026 the published per-eye prices read for this record are £1,495 to £2,995 in the United Kingdom by technique, and $2,495 to $2,895 in the United States before discounts. In Bangkok the equivalent page sells the lenticule operation for both eyes at 102,000 baht, with the screening and the initial consultation outside the package.",
+  "today": "As of 17 September 2026 the published per-eye prices read for this record are £1,495 to £2,995 in the United Kingdom by technique, $2,495 to $2,895 in the United States before discounts, and CAD 490 to CAD 3,090 at one Canadian chain, from its starting tier to its top one. In Bangkok the equivalent page sells the lenticule operation for both eyes at 102,000 baht, with the screening and the initial consultation outside the package.",
   "notes": "This page describes an elective eye operation and the prices published for it. It is not medical advice and it does not say who is a candidate."
  },
  "metrics": {
@@ -43,8 +50,17 @@
    "currency": "GBP",
    "as_of": "2026-09-17",
    "kind": "list",
-   "includes": ["LASIK, one eye", "consultations", "treatment", "aftercare", "medication", "any enhancement treatment if clinically required"],
-   "excludes": ["the second eye"],
+   "includes": [
+    "LASIK, one eye",
+    "consultations",
+    "treatment",
+    "aftercare",
+    "medication",
+    "any enhancement treatment if clinically required"
+   ],
+   "excludes": [
+    "the second eye"
+   ],
    "source": "s:optegra-laser-costs",
    "url": "https://www.optegra.com/laser-eye-surgery/costs/",
    "note": "the provider's own table, stated per eye: LASEK £1,495, LASIK £2,095, ReLEx SMILE £2,695, Presbyond £2,995, with finance quoted from £36 a month on a 20% deposit over 60 months. The page carries no date of its own and was read on 17 September 2026.",
@@ -58,8 +74,15 @@
    "currency": "USD",
    "as_of": "2026-09-17",
    "kind": "quoted-range",
-   "includes": ["all-laser LASIK, one eye", "pre-operative exams", "follow-up care"],
-   "excludes": ["the second eye", "any enhancement outside the stated period"],
+   "includes": [
+    "all-laser LASIK, one eye",
+    "pre-operative exams",
+    "follow-up care"
+   ],
+   "excludes": [
+    "the second eye",
+    "any enhancement outside the stated period"
+   ],
    "source": "s:lasikplus-lasik-cost",
    "url": "https://www.lasikplus.com/cost-of-lasik/",
    "note": "stated as starting between $2,495 and $2,895 per eye 'before any discounts or promotions'. The same page cites a Market Scope survey range of $1,500 to $5,000 per eye nationally — a figure from a commercial survey, carried here as the page's own citation rather than as a price.",
@@ -74,47 +97,155 @@
    "currency": "THB",
    "as_of": "2026-09-17",
    "kind": "package",
-   "includes": ["ReLEx SMILE laser vision correction for both eyes", "the doctor's fee for the procedure"],
-   "excludes": ["the doctor's fee for the initial consultation", "the examinations that determine whether the procedure is suitable"],
+   "includes": [
+    "ReLEx SMILE laser vision correction for both eyes",
+    "the doctor's fee for the procedure"
+   ],
+   "excludes": [
+    "the doctor's fee for the initial consultation",
+    "the examinations that determine whether the procedure is suitable"
+   ],
    "source": "s:bumrungrad-relex-smile",
    "url": "https://www.bumrungrad.com/en/packages/relex-smile",
    "note": "package IPDEYE34. This is SMILE, not LASIK — the hospital's eye centre sells the lenticule operation rather than the flap one on the page read for this record — and it is carried on this page because it is the same purchase for the same patient, at a price for two eyes that is below the British per-eye figure for the same technique.",
    "tier": "cited"
+  },
+  {
+   "procedure": "lasik",
+   "country": "CA",
+   "amount": 490,
+   "amount_high": 3090,
+   "currency": "CAD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": [
+    "LASIK, one eye, at the technology tier the price buys"
+   ],
+   "excludes": [
+    "the second eye",
+    "the optional Vision Enhancement Plan the page names for future enhancements"
+   ],
+   "source": "s:lasikmd-pricing",
+   "url": "https://www.lasikmd.com/cost-and-affordability/pricing",
+   "note": "the page states 'LASIK starting at $490 per eye' and 'Custom LASIK up to $3,090/eye'. A sixfold spread inside one provider and one country, which is the clearest illustration on this page that a per-eye laser price is a tier rather than a figure. The footer states prices vary by market, technology, prescription strength and plan selected, and change without notice.",
+   "tier": "cited"
   }
  ],
  "kin": [
-  {"to": "icl", "as": "The operation for the eyes this one cannot treat, at roughly twice the price per eye from the same providers.", "rel": "contrast"},
-  {"to": "cataract-surgery", "as": "The lens operation the Australian schedule funds, in the same descriptor that refuses this one.", "rel": "contrast"},
-  {"to": "bumrungrad", "as": "Sells the lenticule version of this operation for both eyes, screening excluded.", "rel": "performed-at"},
-  {"to": "united-kingdom", "as": "Where the four techniques are priced as a ladder, per eye, aftercare included.", "rel": "destination"},
-  {"to": "united-states", "as": "Where the price is quoted per eye before discounts and the survey range is four times wide.", "rel": "destination"},
-  {"to": "thailand", "as": "Where both eyes cost less than one eye elsewhere, and the suitability examination is a separate purchase.", "rel": "destination"},
-  {"to": "bangkok", "as": "The city whose hospital eye centres sell refractive surgery as a package.", "rel": "place"},
-  {"to": "insurance-exclusions", "as": "Why this operation is bought rather than claimed, in every market read here.", "rel": "rule"},
-  {"to": "getting-a-quote", "as": "The step at which a per-eye price turns into a per-patient one.", "rel": "step"},
-  {"to": "follow-up-gap", "as": "Who sees the eye the next day, and who does the enhancement a year later.", "rel": "risk"},
-  {"to": "revision-at-home", "as": "What an included enhancement is worth once the patient is on another continent.", "rel": "risk"}
+  {
+   "to": "icl",
+   "as": "The operation for the eyes this one cannot treat, at roughly twice the price per eye from the same providers.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "The lens operation the Australian schedule funds, in the same descriptor that refuses this one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Sells the lenticule version of this operation for both eyes, screening excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where the four techniques are priced as a ladder, per eye, aftercare included.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "Where the price is quoted per eye before discounts and the survey range is four times wide.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "as": "Where both eyes cost less than one eye elsewhere, and the suitability examination is a separate purchase.",
+   "rel": "destination"
+  },
+  {
+   "to": "bangkok",
+   "as": "The city whose hospital eye centres sell refractive surgery as a package.",
+   "rel": "place"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Why this operation is bought rather than claimed, in every market read here.",
+   "rel": "rule"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step at which a per-eye price turns into a per-patient one.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who sees the eye the next day, and who does the enhancement a year later.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "What an included enhancement is worth once the patient is on another continent.",
+   "rel": "risk"
+  }
  ],
  "confusable_with": [
-  {"id": "icl", "tell": "LASIK reshapes the cornea and removes tissue; an ICL adds a lens inside the eye and removes nothing. Clinics sell both from one page and the second costs several times the first."},
-  {"id": "cataract-surgery", "tell": "Cataract surgery replaces a clouded natural lens; refractive surgery reshapes a clear cornea in an eye that sees, to get rid of glasses."}
+  {
+   "id": "icl",
+   "tell": "LASIK reshapes the cornea and removes tissue; an ICL adds a lens inside the eye and removes nothing. Clinics sell both from one page and the second costs several times the first."
+  },
+  {
+   "id": "cataract-surgery",
+   "tell": "Cataract surgery replaces a clouded natural lens; refractive surgery reshapes a clear cornea in an eye that sees, to get rid of glasses."
+  }
  ],
  "links": [
-  {"label": "Optegra — laser eye surgery costs", "url": "https://www.optegra.com/laser-eye-surgery/costs/"},
-  {"label": "Bumrungrad — ReLEx SMILE package", "url": "https://www.bumrungrad.com/en/packages/relex-smile"}
+  {
+   "label": "Optegra — laser eye surgery costs",
+   "url": "https://www.optegra.com/laser-eye-surgery/costs/"
+  },
+  {
+   "label": "Bumrungrad — ReLEx SMILE package",
+   "url": "https://www.bumrungrad.com/en/packages/relex-smile"
+  }
  ],
- "sources": ["s:optegra-laser-costs", "s:lasikplus-lasik-cost", "s:bumrungrad-relex-smile", "s:bumrungrad-eye-packages", "s:mbs-42702"],
+ "sources": [
+  "s:optegra-laser-costs",
+  "s:lasikplus-lasik-cost",
+  "s:bumrungrad-relex-smile",
+  "s:bumrungrad-eye-packages",
+  "s:mbs-42702",
+  "s:lasikmd-pricing"
+ ],
  "provenance": {
-  "default": {"tier": "cited"},
+  "default": {
+   "tier": "cited"
+  },
   "fields": {
-   "text.story": {"tier": "cited", "source": "s:optegra-laser-costs", "note": "each price read off the provider's own page on 17 September 2026; the comparison between the Thai and British SMILE prices is this project's arithmetic and is marked"},
-   "text.how": {"tier": "tradition", "note": "standard description of the operation and the screening; the aftercare differences are cited to the three pages"},
-   "etymology": {"tier": "tradition"},
-   "metrics": {"tier": "cited", "source": "s:optegra-laser-costs"},
-   "prices": {"tier": "cited"}
+   "text.story": {
+    "tier": "cited",
+    "source": "s:optegra-laser-costs",
+    "note": "each price read off the provider's own page on 17 September 2026; the comparison between the Thai and British SMILE prices is this project's arithmetic and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard description of the operation and the screening; the aftercare differences are cited to the three pages"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:optegra-laser-costs"
+   },
+   "prices": {
+    "tier": "cited"
+   }
   }
  },
- "x_commons_files": ["File:Lasik surgery.jpg", "File:LASIK flap.jpg"],
+ "x_commons_files": [
+  "File:Lasik surgery.jpg",
+  "File:LASIK flap.jpg"
+ ],
  "confidence": "high",
  "updated": "2026-09-17"
 }

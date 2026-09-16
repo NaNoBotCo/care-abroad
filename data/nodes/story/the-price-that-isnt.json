@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "id": "the-price-that-isnt",
+ "type": "story",
+ "names": {
+  "name": "The price that isn't",
+  "aliases": [
+   "the exclusion list",
+   "what a package leaves out"
+  ],
+  "said": "A package is a list, not a total. The interesting half of the list is the second one."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "explainer"
+ },
+ "text": {
+  "what": "A published price covers a named list of things and excludes another named list, and across 214 price rows on this site the second list is longer than the first 68 times. This page works through the real exclusions: the implant missing from a joint package, the donor eggs missing from a donor-egg price, the lifetime multivitamins missing from a weight-loss package, the drugs missing from a fertility cycle, the second jaw missing from a full-mouth price, and the 36 rows that publish no exclusion list at all.",
+  "story": "Bumrungrad International Hospital in Bangkok prices a unilateral total knee replacement at 356,500 baht and titles the page Total Knee Replacement Surgery (Exclude implant). The inclusion list runs to eight lines: three hours of theatre, the nursing and surgical team fees inside those hours, three nights on the surgical ward, equipment and supplies, medications related to the procedure, the surgeon, an assistant surgeon if needed, the anaesthesiologist. The exclusion list runs to ten, and the device that will be cemented into the patient is the first of them. Nothing about the page is concealed. What the exclusion does is make the number incomparable: a knee price that contains the joint and a knee price that does not are two different objects wearing one word, and the gap between them is not a discount.\n\nFertility sells the same shape. Newlife IVF in Thessaloniki lists treatment with frozen donor oocytes from an external bank at 3,300 euros, and names among its exclusions \"donor egg cost\" and the shipment of the eggs from the bank to the clinic. The cheapest donor-egg line on the page is the one that does not include the donor eggs. On the same list, preliminary tests and medications sit outside every line.\n\nSome exclusions name the operation's permanent cost. ALO Bariatrics in Tijuana sells a package it describes as covering everything — consultations, pre-operative blood work in Mexico, the surgeon, the anaesthetist, one or two nights in a private room, two nights of hotel recovery, transfers, post-operative medications, a bilingual coordinator, nutrition support and follow-up calls — from 4,500 US dollars for a sleeve and 5,900 for a bypass. Its exclusion list names round-trip flights, the travel companion's hotel and meals, pre-operative blood work done at home, optional complication insurance, body-contouring surgery, and lifetime daily multivitamins. *Inference —* that last line is the decade written into the small print of a price that sells the week. A sleeve gastrectomy makes those supplements compulsory for as long as the patient lives, and the package that excludes them is quoting the operation without its consequence.\n\nThe commonest missing line across the whole table is drugs. CNY Fertility in Syracuse publishes a base IVF price of 4,999 dollars with monitoring and medications outside it, a complete cycle at 7,994 to 12,888 once monitoring and standard add-ons are counted, and medications billed separately at about 2,700 dollars typically and 1,500 to over 7,000 across protocols — a spread wider than the cycle it attaches to. Reprofit in Brno publishes a five-page self-payer price list valid from 1 January 2026 on which stimulation medication appears in no inclusion column of any line. Newlife names medications in its exclusions in terms. Of 214 price rows on this site, thirteen name medications among their exclusions and none names them among the inclusions; twelve name flights the same way.\n\nDentistry hides the unit instead. Sani Dental in Los Algodones lists a titanium implant fixture at 890 dollars and the implant crown including abutment at 720 on the same page, so one restored tooth is 1,610 rather than 890. M Dental in Budapest prices the fixture at 381 euros, the laboratory fee at 255, the abutment at 258, the crown at 226 plus 152 of lab — four price lines to finish one tooth, under the clinic's own note that many treatments carry both a treatment price and a separate fabrication fee. Full-arch work does it with a single word: the Mexican, Thai and Hungarian full-mouth rows read for this site all exclude the second arch, so a price that looks like a whole mouth is half of one. Genetic testing does it per embryo — 600 euros each at Reprofit, which makes six embryos 3,600, more than the same clinic's entire standard cycle at 3,245.\n\nThe opposite move exists too. Estenove in Istanbul prices hair restoration at 3,395, 4,595 and 6,595 euros for what it calls the maximum number of grafts, and states that it does not price per graft. *Inference —* one seller's package removes the largest line on the bill; another seller's package removes the unit that would let the bill be compared at all. Both leave a reader holding a number that cannot be set beside anything.\n\nThirty-six of the 214 rows carry no exclusion list whatsoever, thirteen of them recorded here as not stated on the page. A Lithuanian orthopaedic clinic advertises a hip from 4,560 euros with no inclusion or exclusion list at all. In England, Practice Plus Group lists knee replacement at £13,799 with a long inclusion list — the nurse review, the anaesthetic, any overnight stay required, physiotherapy, any post-operative appointments required — and names the implant on neither side. *Inference —* silence is not inclusion. An item that appears in neither list has not been promised, and the only page on which the answer exists is one no reader has seen.\n\nThe last thing on many of these pages is a comparison the seller wrote. Sani Dental prints a United States column of 25,000, 27,000 and 30,000 dollars beside its own full-arch rows; Index Medica prints columns labelled average UK price; a facilitator routing patients to Thai hospitals prints a US comparison beside every line. None of the three names a source for the figure it is beaten by. *Inference —* a price page that supplies its own comparator has closed the comparison, which is the function of printing it. None of those columns is carried as a price row on this site, and the reason is the same reason the exclusion lists are carried in the seller's own words: a number with no publisher behind it is not evidence of anything.",
+  "how": "What can be read off a price page, in order. Whether the figure says from, which makes it a floor. Whether it says one side, per arch, per embryo, per graft or per session, which is where the unit hides. What the stated number of nights is and what night N plus one costs — a Polish clinic prints 800 zloty a day beside prices that exclude the ward entirely. Whether there is a separate laboratory or fabrication fee. Whether there is a validity date: several packages here expire on 30 September or 31 December 2026. And whether any device, prosthesis, implant, processor, valve or stent has a line of its own. Every price row on this site carries the seller's inclusion and exclusion lists in the seller's own words for exactly these reasons.",
+  "today": "As of 17 September 2026 this site holds 214 price rows: 69 packages, 62 list prices, 44 advertised ranges, 17 published estimates, 14 state tariffs, seven survey figures and one reimbursement, across 21 countries and twelve currencies. Thirty-six carry no exclusion list, 25 carry no inclusion list, and 68 of the rest exclude more lines than they include. No regulator read for this project requires a common inclusion list for a published price, and no destination read for this project requires a device price to be published beside a package that excludes it."
+ },
+ "kin": [
+  {
+   "to": "implant-excluded",
+   "as": "The risk record for the single commonest missing line, worked on the knee package.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The word, its root, and why two packages cannot be subtracted from one another.",
+   "rel": "term"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The same exclusions carried through one comparison to a ratio.",
+   "rel": "story"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where this is caught, against a second exclusion list written by an insurer.",
+   "rel": "step"
+  },
+  {
+   "to": "egg-donation",
+   "as": "Where the cheapest donor-egg line on the page excludes the donor eggs.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "Where lifetime daily multivitamins sit in the exclusions of an operation that requires them.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "Where the drugs are the missing line, at 1,500 to over 7,000 dollars on one clinic's own page.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "as": "Where the excluded item is the other half of the mouth.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "Four price lines to finish one tooth, on a page that says so.",
+   "rel": "procedure"
+  },
+  {
+   "to": "pgt",
+   "as": "Priced per embryo, so six embryos cost more than the cycle that made them.",
+   "rel": "procedure"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "Where the headline number arrives and the excluded lines do not.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation whose package names the exclusion in its own title.",
+   "rel": "procedure"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package JOINT04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  },
+  {
+   "label": "Reprofit self-payer price list, valid from 1 January 2026",
+   "url": "https://www.reprofit.cz/en/price-list/"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:newlife-ivf-costs",
+  "s:alo-bariatrics-cost",
+  "s:cny-ivf-cost",
+  "s:reprofit-pricelist-2026",
+  "s:pronatal-prices",
+  "s:sani-dental-prices",
+  "s:sani-price-list",
+  "s:mdental-budapest-prices",
+  "s:indexmedica-prices",
+  "s:bidc-fees",
+  "s:artplastica-cennik",
+  "s:estenove-cost",
+  "s:practiceplus-knee",
+  "s:nordorthopaedics-prices",
+  "s:defiant-prices",
+  "s:hfea-egg-freezing",
+  "s:gmc-cosmetic-interventions"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every inclusion and exclusion is quoted or paraphrased from the seller's own page and carried on a price row elsewhere on this site; the readings are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's reading order, drawn from the price pages it has read"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counted over the price rows on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

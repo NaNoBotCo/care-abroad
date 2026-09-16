@@ -51,6 +51,27 @@ PUBLISHER_TITLE = {
 }
 
 
+_REAL: set = set()
+
+
+def real_countries() -> set:
+    """The World Bank's own list of what is a country. Its indicator endpoint returns
+    aggregates — income groups, regions, the euro area — alongside countries, and several
+    of them wear two-letter codes that collide with real ones: XN is "Lower middle income"
+    here and northern Cyprus on this site's map. An aggregate is the row whose region id
+    is NA, so that is the test, rather than a hand-kept list of codes to drop."""
+    global _REAL
+    if _REAL:
+        return _REAL
+    url = f"{API}/country?format=json&per_page=400"
+    with urllib.request.urlopen(url, timeout=120) as r:
+        body = json.loads(r.read().decode("utf-8"))
+    for row in body[1]:
+        if (row.get("region") or {}).get("id") != "NA":
+            _REAL.add(row["iso2Code"].upper())
+    return _REAL
+
+
 def fetch(code: str, since: int) -> list:
     rows, page = [], 1
     while True:
@@ -70,14 +91,16 @@ def fetch(code: str, since: int) -> list:
 
 
 def latest(rows: list) -> dict:
-    """Most recent year with a value, per country. Aggregates (the World Bank's own
-    regions and income groups) come back on the same endpoint and are dropped: their
-    iso2Code is not a country code."""
+    """Most recent year with a value, per country. Aggregates — the Bank's own regions and
+    income groups — come back on the same endpoint wearing two-letter codes, and are
+    dropped against its own country list rather than by eye."""
+    real = real_countries()
     out: dict = {}
     for r in rows:
-        iso = (r.get("country", {}) or {}).get("id") or r.get("countryiso3code", "")
         iso2 = (r.get("country", {}) or {}).get("id", "")
         if len(iso2) != 2 or not iso2.isalpha() or r.get("value") is None:
+            continue
+        if real and iso2.upper() not in real:
             continue
         y = int(r["date"])
         cur = out.get(iso2.upper())

@@ -4,14 +4,22 @@
  "type": "dataset",
  "names": {
   "name": "Hospital beds per 1,000 people",
-  "aliases": ["SH.MED.BEDS.ZS", "bed density"],
+  "aliases": [
+   "SH.MED.BEDS.ZS",
+   "bed density"
+  ],
   "said": "A bed is the unit hospitals are sized in, and the one number a ministry will give out when it will not give out anything else."
  },
- "region": ["global"],
- "facets": {"publisher": "World Bank"},
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "World Bank"
+ },
  "text": {
-  "what": "How many hospital beds a country has for every thousand residents. The World Bank republishes WHO data supplemented by country returns, under a definition that is broad on purpose: \"Hospital beds include inpatient beds available in public, private, general, and specialized hospitals and rehabilitation centers. In most cases beds for both acute and chronic care are included.\" 192 codes carry a value here — the thinnest coverage of the four World Bank series on this site.",
-  "story": "The spread is wider than any other capacity number and it does not run the way a reader expects. Korea stands at 12.81 beds per 1,000 in 2022 and Japan at 12.59; Germany at 7.55 in 2023; the United States at 2.68 in 2022 and the United Kingdom at 2.42. India stands at 1.59 in 2021, Mexico at 1.01 in 2022, the Dominican Republic at 0.75 in 2023. Countries with a great many beds are not the countries people fly to, and countries with few include several that sell surgery.\n\n*Inference —* a bed count is an inventory, not a capability. The same number covers an intensive care bed with a ventilator and a rehabilitation bed in a district hospital; it says nothing about operating theatres, staffing, sterile supply or whether the bed is free tonight. For this subject the relevant capacity is a small private sector inside a large national total, and the series cannot see inside it.\n\nCoverage is where this one is weakest. South Africa's most recent figure in the series is 2010, Uganda's and Zambia's are 2010, and Nigeria carries no value at all. A map drawn from the latest available year puts a fifteen-year-old figure next to a two-year-old one unless it prints both dates, which is why every value on this site travels with its year."
+  "what": "How many hospital beds a country has for every thousand residents. The World Bank republishes WHO data supplemented by country returns, under a definition that is broad on purpose: \"Hospital beds include inpatient beds available in public, private, general, and specialized hospitals and rehabilitation centers. In most cases beds for both acute and chronic care are included.\" 177 codes carry a value here — the thinnest coverage of the four World Bank series on this site.",
+  "story": "The spread is wider than any other capacity number and it does not run the way a reader expects. Korea stands at 12.81 beds per 1,000 in 2022 and Japan at 12.59; Germany at 7.55 in 2023; the United States at 2.68 in 2022 and the United Kingdom at 2.42. India stands at 1.59 in 2021, Mexico at 1.01 in 2022, the Dominican Republic at 0.75 in 2023. Countries with a great many beds are not the countries people fly to, and countries with few include several that sell surgery.\n\n*Inference —* a bed count is an inventory, not a capability. The same number covers an intensive care bed with a ventilator and a rehabilitation bed in a district hospital; it says nothing about operating theatres, staffing, sterile supply or whether the bed is free tonight. For this subject the relevant capacity is a small private sector inside a large national total, and the series cannot see inside it.\n\nCoverage is where this one is weakest. South Africa's most recent figure in the series is 2010, Uganda's and Zambia's are 2010, and Nigeria carries no value at all. A map drawn from the latest available year puts a fifteen-year-old figure next to a two-year-old one unless it prints both dates, which is why every value on this site travels with its year.",
+  "notes": "Country counts on this page were re-read on 17 September 2026, after the harvest started dropping the World Bank's own aggregates — income groups, regions, the euro area — which arrive on the same endpoint wearing two-letter codes. One of them, XN, is \"Lower middle income\" at the Bank and northern Cyprus on this site's map."
  },
  "dataset": {
   "publisher": "World Bank Open Data, from WHO data supplemented by country data",
@@ -21,26 +29,60 @@
   "unit": "hospital beds per 1,000 people",
   "indicator": "SH.MED.BEDS.ZS",
   "years": "2010 to the most recent reporting year; 74 codes stand at 2023, 46 at 2022, and nine at 2010",
-  "countries": 192,
+  "countries": 177,
   "updated_by_publisher": "irregularly, as country returns arrive",
   "counts": "Inpatient beds in public, private, general and specialised hospitals and rehabilitation centres, acute and chronic care in most cases, divided by mid-year population and multiplied by a thousand.",
   "does_not_count": "Whether a bed is staffed, equipped or empty. It counts no operating theatre, no intensive-care capability, no dialysis station and no day-case chair, and it draws no line between the public system a resident queues for and the private wing a foreign patient is admitted to. Forty-seven of the 220 country outlines this site draws carry no value at all — Nigeria, the Democratic Republic of the Congo, Côte d'Ivoire, Namibia and South Sudan among them — and twenty-seven codes that carry a doctor count carry no bed count. Absence here is absence of a return, not absence of beds."
  },
  "kin": [
-  {"to": "world-bank-doctors", "as": "The staff number beside this one, counted per thousand the same way.", "rel": "dataset"},
-  {"to": "world-bank-health-spending", "as": "What the country spends, against what it has built.", "rel": "dataset"},
-  {"to": "south-korea", "as": "12.81 beds per 1,000 in 2022, the highest national figure among this site's destinations.", "rel": "measures"},
-  {"to": "india", "as": "1.59 per 1,000 in 2021, in the country with the largest private hospital export trade in this directory.", "rel": "measures"},
-  {"to": "what-the-data-cannot-see", "as": "Twenty-seven countries with no value, and a South African figure dated 2010.", "rel": "story"}
+  {
+   "to": "world-bank-doctors",
+   "as": "The staff number beside this one, counted per thousand the same way.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "What the country spends, against what it has built.",
+   "rel": "dataset"
+  },
+  {
+   "to": "south-korea",
+   "as": "12.81 beds per 1,000 in 2022, the highest national figure among this site's destinations.",
+   "rel": "measures"
+  },
+  {
+   "to": "india",
+   "as": "1.59 per 1,000 in 2021, in the country with the largest private hospital export trade in this directory.",
+   "rel": "measures"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Twenty-seven countries with no value, and a South African figure dated 2010.",
+   "rel": "story"
+  }
  ],
  "links": [
-  {"label": "World Bank indicator page", "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS"}
+  {
+   "label": "World Bank indicator page",
+   "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS"
+  }
  ],
- "sources": ["s:wb-hospital-beds", "s:worldbank-open-data", "s:who-gho"],
+ "sources": [
+  "s:wb-hospital-beds",
+  "s:worldbank-open-data",
+  "s:who-gho"
+ ],
  "provenance": {
-  "default": {"tier": "harvested", "source": "s:wb-hospital-beds"},
+  "default": {
+   "tier": "harvested",
+   "source": "s:wb-hospital-beds"
+  },
   "fields": {
-   "text.story": {"tier": "harvested", "source": "s:wb-hospital-beds", "note": "values counted off data/harvest/worldbank.json on 2026-09-17; the middle paragraph is marked as this project's inference"}
+   "text.story": {
+    "tier": "harvested",
+    "source": "s:wb-hospital-beds",
+    "note": "values counted off data/harvest/worldbank.json on 2026-09-17; the middle paragraph is marked as this project's inference"
+   }
   }
  },
  "confidence": "high",

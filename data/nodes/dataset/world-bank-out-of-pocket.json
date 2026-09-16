@@ -4,16 +4,23 @@
  "type": "dataset",
  "names": {
   "name": "Out-of-pocket share of health spending",
-  "aliases": ["SH.XPD.OOPC.CH.ZS", "OOP share"],
+  "aliases": [
+   "SH.XPD.OOPC.CH.ZS",
+   "OOP share"
+  ],
   "said": "Households paying at the counter, as a share of everything a country spends on health. It is the closest a public series comes to the question a traveller is actually asking."
  },
- "region": ["global"],
- "facets": {"publisher": "World Bank"},
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "World Bank"
+ },
  "text": {
-  "what": "What share of a country's health spending comes straight out of households' pockets, rather than from government schemes or insurance. The World Bank republishes it from the WHO Global Health Expenditure Database, which its own metadata records as updated on 12 December 2025. 218 codes carry a value here; 193 of them stand at 2023 and 24 at 2024.",
+  "what": "What share of a country's health spending comes straight out of households' pockets, rather than from government schemes or insurance. The World Bank republishes it from the WHO Global Health Expenditure Database, which its own metadata records as updated on 12 December 2025. 193 codes carry a value here; 193 of them stand at 2023 and 24 at 2024.",
   "story": "The range is the widest of any series on this site. Armenia stands at 80.47% in 2023, Bangladesh at 79.31%, Turkmenistan at 77.39% and Afghanistan at 77.14%. Nigeria stands at 71.90%, India at 43.89% and Mexico at 41.24%. Thailand, which sells more surgery to foreigners than either, stands at 9.93%, below Germany's 10.71% and the United States' 10.93%.\n\n*Inference —* the share describes what residents pay at home, and it runs in two directions for this subject at once. A high share is a push: a country whose own citizens already pay cash for care is a country whose citizens shop, compare and cross borders, and much of the world's outbound traffic starts in one. A low share is a pull in the other direction: Thailand's public system is not what the trade sells, and the same country can carry a small out-of-pocket share and a large private export hospital sector without contradiction.\n\nWhat the series cannot do is follow the money across a border. The OECD's 2011 report on measuring trade in health services under the same accounting framework found the traditional sources — balance of payments — \"become less and less adequate\", and put the level of trade in health care at \"0.0 to 1.0% of total health spending\" for the vast majority of countries, an estimate its authors called likely to be low. A payment by a visiting patient is a rounding error inside the denominator of this indicator, if it is inside it at all.",
   "how": "Fetched by tools/harvest_worldbank.py from the World Bank indicator API, values from 2010 onwards, the most recent non-null year kept per country with the year stored beside the value.",
-  "notes": "A share, not an amount. A country can shift on this indicator because households paid more or because the state paid less, and the series does not say which."
+  "notes": "A share, not an amount. A country can shift on this indicator because households paid more or because the state paid less, and the series does not say which. Country counts on this page were re-read on 17 September 2026, after the harvest started dropping the World Bank's own aggregates — income groups, regions, the euro area — which arrive on the same endpoint wearing two-letter codes. One of them, XN, is \"Lower middle income\" at the Bank and northern Cyprus on this site's map."
  },
  "dataset": {
   "publisher": "World Bank Open Data, from the WHO Global Health Expenditure Database",
@@ -23,28 +30,70 @@
   "unit": "% of current health expenditure",
   "indicator": "SH.XPD.OOPC.CH.ZS",
   "years": "2010 to the most recent reporting year; 193 codes stand at 2023 and 24 at 2024",
-  "countries": 218,
+  "countries": 193,
   "updated_by_publisher": "annually, as national health accounts arrive",
   "counts": "Spending on health paid directly by households at the point of use — fees, co-payments, medicines bought over the counter — as a percentage of everything the country spends on health in the same year.",
   "does_not_count": "The amount. It is a ratio, and a poor country with a high share may pay less per household than a rich country with a low one; the amount sits in a separate series. It counts nothing a foreign patient pays for treatment in the country, which belongs to the other side of the account as an export. It does not separate a co-payment inside an insured system from a whole bill paid in cash, and it does not distinguish a payment made by choice from one made because nothing else was on offer."
  },
  "kin": [
-  {"to": "world-bank-health-spending", "as": "The amount this one is a share of.", "rel": "dataset"},
-  {"to": "out-of-pocket", "as": "The word, and what the accounts mean by it.", "rel": "term"},
-  {"to": "india", "as": "43.89% in 2023, in a country that is both a destination and a large source of outbound patients.", "rel": "measures"},
-  {"to": "nigeria", "as": "71.90% in 2023, in the country this directory treats as an outbound market first.", "rel": "measures"},
-  {"to": "is-it-cheaper", "as": "The share a household already pays at home is where the comparison starts.", "rel": "story"},
-  {"to": "oecd", "as": "Whose 2011 report measured what this indicator cannot: the trade across the border.", "rel": "org"}
+  {
+   "to": "world-bank-health-spending",
+   "as": "The amount this one is a share of.",
+   "rel": "dataset"
+  },
+  {
+   "to": "out-of-pocket",
+   "as": "The word, and what the accounts mean by it.",
+   "rel": "term"
+  },
+  {
+   "to": "india",
+   "as": "43.89% in 2023, in a country that is both a destination and a large source of outbound patients.",
+   "rel": "measures"
+  },
+  {
+   "to": "nigeria",
+   "as": "71.90% in 2023, in the country this directory treats as an outbound market first.",
+   "rel": "measures"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The share a household already pays at home is where the comparison starts.",
+   "rel": "story"
+  },
+  {
+   "to": "oecd",
+   "as": "Whose 2011 report measured what this indicator cannot: the trade across the border.",
+   "rel": "org"
+  }
  ],
  "links": [
-  {"label": "World Bank indicator page", "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS"},
-  {"label": "WHO Global Health Expenditure Database", "url": "https://apps.who.int/nha/database"}
+  {
+   "label": "World Bank indicator page",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS"
+  },
+  {
+   "label": "WHO Global Health Expenditure Database",
+   "url": "https://apps.who.int/nha/database"
+  }
  ],
- "sources": ["s:wb-oop-share", "s:worldbank-open-data", "s:who-nha-database", "s:oecd-trade-health-2011"],
+ "sources": [
+  "s:wb-oop-share",
+  "s:worldbank-open-data",
+  "s:who-nha-database",
+  "s:oecd-trade-health-2011"
+ ],
  "provenance": {
-  "default": {"tier": "harvested", "source": "s:wb-oop-share"},
+  "default": {
+   "tier": "harvested",
+   "source": "s:wb-oop-share"
+  },
   "fields": {
-   "text.story": {"tier": "cited", "source": "s:oecd-trade-health-2011", "note": "the values are harvested from disk; the middle paragraph is marked inference; the quoted sentences are from the OECD 2011 report"}
+   "text.story": {
+    "tier": "cited",
+    "source": "s:oecd-trade-health-2011",
+    "note": "the values are harvested from disk; the middle paragraph is marked inference; the quoted sentences are from the OECD 2011 report"
+   }
   }
  },
  "confidence": "high",

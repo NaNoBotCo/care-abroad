@@ -306,6 +306,105 @@
    "url": "https://ishrs.org/consumer-alert/",
    "accessed": "2026-09-17",
    "note": "page carries dates 18 January 2017 and 30 January 2026; 'increasing numbers of unlicensed personnel worldwide are performing substantial medical aspects of hair restoration surgery'; names no country and gives no figures"
+  },
+  {
+   "id": "s:apolloclinic-chairman",
+   "kind": "web",
+   "title": "Our Chairman's Profile — Dr Prathap C Reddy",
+   "publisher": "Apollo Clinic (Apollo Hospitals Group)",
+   "url": "https://www.apolloclinic.com/for-patients/services/vaccinations/adult/our-chairmans-profile",
+   "accessed": "2026-09-17",
+   "note": "medical degree at Stanley Medical College, Chennai; cardiology training in the UK and USA; fellowship at Massachusetts General Hospital, Boston; Apollo set up in Chennai in 1983 as a 150-bed hospital; Padma Bhushan 1991; Padma Vibhushan March 2010"
+  },
+  {
+   "id": "s:iitk-shetty-profile",
+   "kind": "web",
+   "title": "Profile — Dr Devi Prasad Shetty (convocation)",
+   "publisher": "Indian Institute of Technology Kanpur, Dean of Academic Affairs",
+   "url": "https://www.iitk.ac.in/doaa/convocation/data/Profile-Dr.-Devi-Prasad-Shetty.pdf",
+   "accessed": "2026-09-17",
+   "note": "'Dr Devi Prasad Shetty is the Founder and Chairman of Narayana Health'; MBBS University of Mysore 1978, MS 1982, FRCS England 2009; the Yeshaswini scheme with the Government of Karnataka; awards listed without years"
+  },
+  {
+   "id": "s:hcci-about-archived",
+   "kind": "web",
+   "title": "About Us — Health City Cayman Islands (archived capture, 13 December 2025)",
+   "publisher": "Health City Cayman Islands, via the Internet Archive",
+   "url": "http://web.archive.org/web/20251213104822/https://healthcitycaymanislands.com/about-us/",
+   "accessed": "2026-09-17",
+   "note": "the hospital opened in 2014 and describes itself as a member of the Narayana Health network and 'the first hospital in the Caribbean and one of only six organisations globally to receive the prestigious Joint Commission International (JCI) Enterprise Accreditation'; the live site refuses automated requests and the Internet Archive could not be reached from this machine, so this entry rests on a capture read during research rather than on a fetch made for the record"
+  },
+  {
+   "id": "s:wp-narayana-health-2",
+   "kind": "wikipedia",
+   "title": "Narayana Health",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Narayana_Health",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:newswise-pbb-2020",
+   "kind": "article",
+   "title": "Healthy Travel Media announces fourth edition of Patients Beyond Borders",
+   "publisher": "Newswise (press release from Healthy Travel Media), 21 January 2020",
+   "url": "https://www.newswise.com/articles/healthy-travel-media-announces-fourth-edition-of-patients-beyond-borders",
+   "accessed": "2026-09-17",
+   "note": "describes Josef Woodman as 'CEO of Patients Beyond Borders'; names Healthy Travel Media as publisher and Calvander Communications as parent; the fourth edition covers '800 medical centers and clinics in 70 countries'; carries the claims that the market is 'expanding at 15-18% annually' and that 'more than two million US patients will cross borders for medical care' in 2020, neither with a method"
+  },
+  {
+   "id": "s:pbb-homepage-2026",
+   "kind": "web",
+   "title": "patientsbeyondborders.com homepage",
+   "publisher": "Patients Beyond Borders",
+   "url": "https://www.patientsbeyondborders.com/",
+   "accessed": "2026-09-17",
+   "note": "as read on this date the site names no author and no book and states: 'If you are a patient seeking assistance with medical travel, please visit Medical Departures, or contact info@medicaldepartures.com.' The /about and /services paths return 404"
+  },
+  {
+   "id": "s:turner-2021-stem-cell-sell",
+   "kind": "paper",
+   "title": "The American stem cell sell in 2021: U.S. businesses selling unlicensed and unproven stem cell interventions",
+   "publisher": "Cell Stem Cell 2021;28(11):1891-1895 (Turner L), doi:10.1016/j.stem.2021.10.008",
+   "url": "https://doi.org/10.1016/j.stem.2021.10.008",
+   "accessed": "2026-09-17",
+   "note": "abstract read through Europe PMC: 'In March 2021, 1,480 U.S. businesses operating 2,754 clinics were found selling purported stem cell treatments for various indications'; citation confirmed through Crossref"
+  },
+  {
+   "id": "s:turner-2011-intqhc",
+   "kind": "paper",
+   "title": "Quality in health care and globalization of health services: accreditation and regulatory oversight of medical tourism companies",
+   "publisher": "International Journal for Quality in Health Care 2011;23(1):1-7 (Turner L), doi:10.1093/intqhc/mzq078",
+   "url": "https://doi.org/10.1093/intqhc/mzq078",
+   "accessed": "2026-09-17",
+   "note": "citation confirmed through the Crossref API; the publisher's page refuses automated requests"
+  },
+  {
+   "id": "s:turner-2012-globalization-health",
+   "kind": "paper",
+   "title": "Beyond 'medical tourism': Canadian companies marketing medical travel",
+   "publisher": "Globalization and Health 2012;8:16 (Turner L), doi:10.1186/1744-8603-8-16",
+   "url": "https://doi.org/10.1186/1744-8603-8-16",
+   "accessed": "2026-09-17",
+   "note": "citation confirmed through the Crossref API; open access"
+  },
+  {
+   "id": "s:sydney-connell-profile",
+   "kind": "web",
+   "title": "John Connell — academic profile",
+   "publisher": "The University of Sydney",
+   "url": "https://profiles.sydney.edu.au/john.connell",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page renders only with script: 'PROFESSOR / John Connell / Honorary Professor / Faculty of Science', School of Geosciences and the Sydney Southeast Asia Centre, with the biography line describing him as a social geographer"
+  },
+  {
+   "id": "s:wellcome-connell-2011",
+   "kind": "catalogue",
+   "title": "Medical tourism — John Connell, CABI, 2011 (ISBN 9781845936600)",
+   "publisher": "Wellcome Collection catalogue",
+   "url": "https://wellcomecollection.org/works/v9j3qseb",
+   "accessed": "2026-09-17",
+   "note": "Wallingford, Oxfordshire, 2011, xii, 209 pp.; retail listings dating the book to 2010 are common and the library record is preferred here"
   }
  ]
 }

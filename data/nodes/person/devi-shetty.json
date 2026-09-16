@@ -4,12 +4,21 @@
  "type": "person",
  "names": {
   "name": "Devi Prasad Shetty",
-  "aliases": ["Devi Shetty", "Dr Devi Prasad Shetty"],
+  "aliases": [
+   "Devi Shetty",
+   "Dr Devi Prasad Shetty"
+  ],
   "said": "A cardiac surgeon who argues about cost the way an industrial engineer does, and who says so in public more often than most surgeons say anything."
  },
- "region": ["south-asia", "caribbean"],
+ "region": [
+  "south-asia",
+  "caribbean"
+ ],
  "facets": {
-  "role": ["surgeon", "founder"],
+  "role": [
+   "surgeon",
+   "founder"
+  ],
   "iso2": "IN"
  },
  "text": {
@@ -18,22 +27,65 @@
   "notes": "The career operation total widely attached to him traces to a magazine article and was not verified in a first-party or peer-reviewed source; it is not carried here."
  },
  "kin": [
-  {"to": "narayana-health", "as": "The group he founded, and the record carrying its volume argument and its 2013 bypass figure.", "rel": "facility"},
-  {"to": "bengaluru", "as": "Where the first hospital was built, on the southern edge of the city.", "rel": "hub"},
-  {"to": "cabg", "as": "The operation his cost argument was made about.", "rel": "procedure"},
-  {"to": "india", "as": "The country whose low-cost cardiac surgery he is the public face of.", "rel": "destination"},
-  {"to": "prathap-reddy", "as": "The earlier founder, who made the corporate hospital a category before this argument could be made inside one.", "rel": "contrast"},
-  {"to": "is-it-cheaper", "as": "Volume against price, which is his claim and this site's question.", "rel": "story"}
+  {
+   "to": "narayana-health",
+   "as": "The group he founded, and the record carrying its volume argument and its 2013 bypass figure.",
+   "rel": "facility"
+  },
+  {
+   "to": "bengaluru",
+   "as": "Where the first hospital was built, on the southern edge of the city.",
+   "rel": "hub"
+  },
+  {
+   "to": "cabg",
+   "as": "The operation his cost argument was made about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india",
+   "as": "The country whose low-cost cardiac surgery he is the public face of.",
+   "rel": "destination"
+  },
+  {
+   "to": "prathap-reddy",
+   "as": "The earlier founder, who made the corporate hospital a category before this argument could be made inside one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "Volume against price, which is his claim and this site's question.",
+   "rel": "story"
+  }
  ],
  "links": [
-  {"label": "IIT Kanpur — convocation profile", "url": "https://www.iitk.ac.in/doaa/convocation/data/Profile-Dr.-Devi-Prasad-Shetty.pdf"},
-  {"label": "Cureus 2024 profile", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11530259/"}
+  {
+   "label": "IIT Kanpur — convocation profile",
+   "url": "https://www.iitk.ac.in/doaa/convocation/data/Profile-Dr.-Devi-Prasad-Shetty.pdf"
+  },
+  {
+   "label": "Cureus 2024 profile",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11530259/"
+  }
  ],
- "sources": ["s:iitk-shetty-profile", "s:cureus-devi-shetty", "s:hcci-about-archived", "s:wp-devi-shetty", "s:wp-narayana-health"],
+ "sources": [
+  "s:iitk-shetty-profile",
+  "s:cureus-devi-shetty",
+  "s:hcci-about-archived",
+  "s:wp-devi-shetty",
+  "s:wp-narayana-health-2"
+ ],
  "provenance": {
-  "default": {"tier": "cited", "source": "s:iitk-shetty-profile"},
+  "default": {
+   "tier": "cited",
+   "source": "s:iitk-shetty-profile"
+  },
   "fields": {
-   "text.story": {"tier": "cited", "source": "s:cureus-devi-shetty", "note": "the biography, the founding year, the bed and throughput figures, the Yeshasvini premium and the two Padma years are from the Cureus profile; the qualification conflict is between that paper and the IIT Kanpur profile; the Cayman sentence is quoted from an archived capture of the hospital's own page and the paragraph's closing reading is marked inference"}
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cureus-devi-shetty",
+    "note": "the biography, the founding year, the bed and throughput figures, the Yeshasvini premium and the two Padma years are from the Cureus profile; the qualification conflict is between that paper and the IIT Kanpur profile; the Cayman sentence is quoted from an archived capture of the hospital's own page and the paragraph's closing reading is marked inference"
+   }
   }
  },
  "needs_verification": true,

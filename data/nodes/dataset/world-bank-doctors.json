@@ -4,16 +4,24 @@
  "type": "dataset",
  "names": {
   "name": "Physicians per 1,000 people",
-  "aliases": ["SH.MED.PHYS.ZS", "doctors per 1,000", "physician density"],
+  "aliases": [
+   "SH.MED.PHYS.ZS",
+   "doctors per 1,000",
+   "physician density"
+  ],
   "said": "The trade quotes it as doctors per thousand, usually without the year, and usually against a country it has already decided about."
  },
- "region": ["global"],
- "facets": {"publisher": "World Bank"},
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "World Bank"
+ },
  "text": {
-  "what": "How many doctors a country has for every thousand residents. The World Bank republishes it from WHO Global Health Workforce Statistics, the OECD and country returns, under a one-line definition: \"Physicians include generalist and specialist medical practitioners.\" In the fetch on this disk 219 codes carry a value, and the year behind each differs — 104 stand at 2022, 58 at 2023, and the Isle of Man's at 2010.",
+  "what": "How many doctors a country has for every thousand residents. The World Bank republishes it from WHO Global Health Workforce Statistics, the OECD and country returns, under a one-line definition: \"Physicians include generalist and specialist medical practitioners.\" In the fetch on this disk 194 codes carry a value, and the year behind each differs — 104 stand at 2022, 58 at 2023, and the Isle of Man's at 2010.",
   "story": "The series is a headcount over a population, and both halves move. A country that trains doctors and loses them to emigration counts them in the country they practise in, not the country that paid for the degree; a country that imports them counts them too. The ratio is arithmetic on two national totals and holds no information about where inside the country anybody works.\n\n*Inference —* that is the gap a reader of this site walks into. Thailand stands at 0.54 physicians per 1,000 in 2021 and India at 0.72 in 2020, and both sell surgery to foreigners; Germany stands at 4.53 in 2022 and imports almost nobody. The private hospitals a foreign patient actually reaches sit in a handful of districts of a handful of cities, and a national ratio cannot see a district. Cuba, at 9.54 in 2021, is the highest value in the series and describes a state medical workforce, not a market.",
   "how": "Fetched by tools/harvest_worldbank.py from the World Bank indicator API, no key, values from 2010 onwards, the most recent non-null year kept per country with the year stored beside the value.",
-  "notes": "Thirty of the 219 codes will not colour on this site's map. Twenty-four are the Bank's own aggregates, which arrive on the same endpoint with two-letter codes that look like country codes and are not — High income (XD), OECD members (OE), Sub-Saharan Africa (ZG), European Union (EU). The other six are real countries the 1:110m outline file has no polygon for: Monaco, San Marino, Maldives, St Kitts and Nevis, Nauru, Tuvalu."
+  "notes": "Thirty of the 194 codes will not colour on this site's map. Twenty-four are the Bank's own aggregates, which arrive on the same endpoint with two-letter codes that look like country codes and are not — High income (XD), OECD members (OE), Sub-Saharan Africa (ZG), European Union (EU). The other six are real countries the 1:110m outline file has no polygon for: Monaco, San Marino, Maldives, St Kitts and Nevis, Nauru, Tuvalu. Country counts on this page were re-read on 17 September 2026, after the harvest started dropping the World Bank's own aggregates — income groups, regions, the euro area — which arrive on the same endpoint wearing two-letter codes. One of them, XN, is \"Lower middle income\" at the Bank and northern Cyprus on this site's map."
  },
  "dataset": {
   "publisher": "World Bank Open Data, from WHO Global Health Workforce Statistics, the OECD, and country data",
@@ -23,29 +31,71 @@
   "unit": "physicians per 1,000 people",
   "indicator": "SH.MED.PHYS.ZS",
   "years": "2010 to the most recent reporting year, which differs by country",
-  "countries": 219,
+  "countries": 194,
   "updated_by_publisher": "annually, as WHO and OECD workforce returns arrive",
   "counts": "Generalist and specialist medical practitioners registered as working in the country, divided by mid-year population and multiplied by a thousand.",
   "does_not_count": "Where the doctors are. A national ratio cannot separate the capital from the province, the private hospital from the district clinic, or the surgeon who operates on visitors from the physician who never sees one. It counts no nurse — that is a separate indicator — records no specialty, and holds no measure of what any of them do. Nothing in it distinguishes a doctor trained at home from one trained abroad, and nothing in it counts the foreign patients treated.",
-  "used_on": ["/numbers/", "every country page"]
+  "used_on": [
+   "/numbers/",
+   "every country page"
+  ]
  },
  "kin": [
-  {"to": "world-bank-health-spending", "as": "The money series beside this one, from the same publisher and with the same year-by-country problem.", "rel": "dataset"},
-  {"to": "world-bank-beds", "as": "The other capacity number, counted per thousand the same way and just as blind to where the beds are.", "rel": "dataset"},
-  {"to": "thailand", "as": "0.54 physicians per 1,000 in 2021, in a country that sells surgery to foreigners.", "rel": "measures"},
-  {"to": "india", "as": "0.72 per 1,000 in 2020, the lowest of the large destinations in this series.", "rel": "measures"},
-  {"to": "what-the-data-cannot-see", "as": "A national average over a population is the clearest case of it.", "rel": "story"}
+  {
+   "to": "world-bank-health-spending",
+   "as": "The money series beside this one, from the same publisher and with the same year-by-country problem.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-beds",
+   "as": "The other capacity number, counted per thousand the same way and just as blind to where the beds are.",
+   "rel": "dataset"
+  },
+  {
+   "to": "thailand",
+   "as": "0.54 physicians per 1,000 in 2021, in a country that sells surgery to foreigners.",
+   "rel": "measures"
+  },
+  {
+   "to": "india",
+   "as": "0.72 per 1,000 in 2020, the lowest of the large destinations in this series.",
+   "rel": "measures"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A national average over a population is the clearest case of it.",
+   "rel": "story"
+  }
  ],
  "links": [
-  {"label": "World Bank indicator page", "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS"},
-  {"label": "WHO health workforce data", "url": "https://www.who.int/data/gho/data/themes/topics/health-workforce"}
+  {
+   "label": "World Bank indicator page",
+   "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS"
+  },
+  {
+   "label": "WHO health workforce data",
+   "url": "https://www.who.int/data/gho/data/themes/topics/health-workforce"
+  }
  ],
- "sources": ["s:wb-physicians", "s:worldbank-open-data", "s:who-health-workforce"],
+ "sources": [
+  "s:wb-physicians",
+  "s:worldbank-open-data",
+  "s:who-health-workforce"
+ ],
  "provenance": {
-  "default": {"tier": "harvested", "source": "s:wb-physicians"},
+  "default": {
+   "tier": "harvested",
+   "source": "s:wb-physicians"
+  },
   "fields": {
-   "text.story": {"tier": "inference", "note": "the values are harvested; the second paragraph is this project reasoning about what a national ratio can support"},
-   "text.notes": {"tier": "harvested", "note": "counted off data/harvest/worldbank.json against data/geo/countries.json on 2026-09-17"}
+   "text.story": {
+    "tier": "inference",
+    "note": "the values are harvested; the second paragraph is this project reasoning about what a national ratio can support"
+   },
+   "text.notes": {
+    "tier": "harvested",
+    "note": "counted off data/harvest/worldbank.json against data/geo/countries.json on 2026-09-17"
+   }
   }
  },
  "confidence": "high",

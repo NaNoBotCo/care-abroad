@@ -229,6 +229,15 @@
    "note": "names Dr Prathap C. Reddy as Founder, Chairman and states that he established Apollo Hospitals in 1983; the same page carries the group's own counts of hospitals, beds, doctors and accreditations"
   },
   {
+   "id": "s:apolloclinic-chairman",
+   "kind": "web",
+   "title": "Our Chairman's Profile — Dr Prathap C Reddy",
+   "publisher": "Apollo Clinic (Apollo Hospitals Group)",
+   "url": "https://www.apolloclinic.com/for-patients/services/vaccinations/adult/our-chairmans-profile",
+   "accessed": "2026-09-17",
+   "note": "medical degree at Stanley Medical College, Chennai; cardiology training in the UK and USA; fellowship at Massachusetts General Hospital, Boston; Apollo set up in Chennai in 1983 as a 150-bed hospital; Padma Bhushan 1991; Padma Vibhushan March 2010"
+  },
+  {
    "id": "s:ar-decreto-62-2025",
    "kind": "gov",
    "title": "Se limitan los tratamientos de hormonización y las intervenciones quirúrgicas en menores",
@@ -2548,6 +2557,15 @@
    "note": "the intergovernmental project on cross-border parentage; cited here where a national instrument was not read"
   },
   {
+   "id": "s:hcci-about-archived",
+   "kind": "web",
+   "title": "About Us — Health City Cayman Islands (archived capture, 13 December 2025)",
+   "publisher": "Health City Cayman Islands, via the Internet Archive",
+   "url": "http://web.archive.org/web/20251213104822/https://healthcitycaymanislands.com/about-us/",
+   "accessed": "2026-09-17",
+   "note": "the hospital opened in 2014 and describes itself as a member of the Narayana Health network and 'the first hospital in the Caribbean and one of only six organisations globally to receive the prestigious Joint Commission International (JCI) Enterprise Accreditation'; the live site refuses automated requests and the Internet Archive could not be reached from this machine, so this entry rests on a capture read during research rather than on a fetch made for the record"
+  },
+  {
    "id": "s:headington-1984",
    "kind": "paper",
    "title": "Transverse microscopic anatomy of the human scalp. A basis for a morphometric approach to disorders of the hair follicle",
@@ -2830,6 +2848,15 @@
    "url": "https://ieea.ch/international-accreditation-programme/",
    "accessed": "2026-09-16",
    "note": "four assessment categories, the statement that ISQua EEA does not directly accredit health or social care services, the once-off Access Fee and the 2026 fee band"
+  },
+  {
+   "id": "s:iitk-shetty-profile",
+   "kind": "web",
+   "title": "Profile — Dr Devi Prasad Shetty (convocation)",
+   "publisher": "Indian Institute of Technology Kanpur, Dean of Academic Affairs",
+   "url": "https://www.iitk.ac.in/doaa/convocation/data/Profile-Dr.-Devi-Prasad-Shetty.pdf",
+   "accessed": "2026-09-17",
+   "note": "'Dr Devi Prasad Shetty is the Founder and Chairman of Narayana Health'; MBBS University of Mysore 1978, MS 1982, FRCS England 2009; the Yeshaswini scheme with the Government of Karnataka; awards listed without years"
   },
   {
    "id": "s:imtj-about-2010-archive",
@@ -3333,6 +3360,15 @@
    "url": "https://www.lasamericas.com.co/oficina-internacional/paso-a-paso/visa-medica-en-colombia",
    "accessed": "2026-09-16",
    "note": "states that a non-resident foreigner coming for treatment, and any companion, needs a Colombian health visa where the stay is expected to exceed 90 days, and points at the Cancillería de Colombia"
+  },
+  {
+   "id": "s:lasikmd-pricing",
+   "kind": "web",
+   "title": "Pricing",
+   "publisher": "LASIK MD, Canada",
+   "url": "https://www.lasikmd.com/cost-and-affordability/pricing",
+   "accessed": "2026-09-17",
+   "note": "read 17 September 2026: 'LASIK starting at $490 per eye' and 'Custom LASIK up to $3,090/eye', per eye, with no date on the page. The footer states prices are subject to change without prior notice and vary by market, technology, prescription strength and plan selected. The page publishes no ICL or SMILE price."
   },
   {
    "id": "s:lasikplus-lasik-cost",
@@ -3919,6 +3955,15 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:newswise-pbb-2020",
+   "kind": "article",
+   "title": "Healthy Travel Media announces fourth edition of Patients Beyond Borders",
+   "publisher": "Newswise (press release from Healthy Travel Media), 21 January 2020",
+   "url": "https://www.newswise.com/articles/healthy-travel-media-announces-fourth-edition-of-patients-beyond-borders",
+   "accessed": "2026-09-17",
+   "note": "describes Josef Woodman as 'CEO of Patients Beyond Borders'; names Healthy Travel Media as publisher and Calvander Communications as parent; the fourth edition covers '800 medical centers and clinics in 70 countries'; carries the claims that the market is 'expanding at 15-18% annually' and that 'more than two million US patients will cross borders for medical care' in 2020, neither with a method"
+  },
+  {
    "id": "s:ngram-naming",
    "kind": "dataset",
    "title": "Relative frequency of medical tourism, health tourism, medical travel and wellness tourism in the Google Books English 2019 corpus",
@@ -4300,6 +4345,15 @@
    "publisher": "Ayurveda Parkschloesschen, Bad Wildstein, Germany",
    "url": "https://www.ayurveda-parkschloesschen.de/uebersicht/panchakarma_kur_klassisch/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:pbb-homepage-2026",
+   "kind": "web",
+   "title": "patientsbeyondborders.com homepage",
+   "publisher": "Patients Beyond Borders",
+   "url": "https://www.patientsbeyondborders.com/",
+   "accessed": "2026-09-17",
+   "note": "as read on this date the site names no author and no book and states: 'If you are a patient seeking assistance with medical travel, please visit Medical Departures, or contact info@medicaldepartures.com.' The /about and /services paths return 404"
   },
   {
    "id": "s:pegasos-faqs",
@@ -5000,6 +5054,15 @@
    "note": "a mirror, read because fedlex.admin.ch renders by script and did not return text on this date. The mirror does not display the SR number, so this project does not print one from it. The provision punishes inciting or assisting suicide only where the actor is led by a selfish motive; it carries no nationality or residence condition."
   },
   {
+   "id": "s:sydney-connell-profile",
+   "kind": "web",
+   "title": "John Connell — academic profile",
+   "publisher": "The University of Sydney",
+   "url": "https://profiles.sydney.edu.au/john.connell",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page renders only with script: 'PROFESSOR / John Connell / Honorary Professor / Faculty of Science', School of Geosciences and the Sydney Southeast Asia Centre, with the biography line describing him as a social geographer"
+  },
+  {
    "id": "s:tc-portugal-225-2018",
    "kind": "law",
    "title": "Ruling 225/2018 (Acórdão n.º 225/2018) — medically assisted procreation, donor anonymity and surrogacy",
@@ -5194,6 +5257,33 @@
    "year": 2026,
    "url": "https://veriportali.tuik.gov.tr/tr/press/58143",
    "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:turner-2011-intqhc",
+   "kind": "paper",
+   "title": "Quality in health care and globalization of health services: accreditation and regulatory oversight of medical tourism companies",
+   "publisher": "International Journal for Quality in Health Care 2011;23(1):1-7 (Turner L), doi:10.1093/intqhc/mzq078",
+   "url": "https://doi.org/10.1093/intqhc/mzq078",
+   "accessed": "2026-09-17",
+   "note": "citation confirmed through the Crossref API; the publisher's page refuses automated requests"
+  },
+  {
+   "id": "s:turner-2012-globalization-health",
+   "kind": "paper",
+   "title": "Beyond 'medical tourism': Canadian companies marketing medical travel",
+   "publisher": "Globalization and Health 2012;8:16 (Turner L), doi:10.1186/1744-8603-8-16",
+   "url": "https://doi.org/10.1186/1744-8603-8-16",
+   "accessed": "2026-09-17",
+   "note": "citation confirmed through the Crossref API; open access"
+  },
+  {
+   "id": "s:turner-2021-stem-cell-sell",
+   "kind": "paper",
+   "title": "The American stem cell sell in 2021: U.S. businesses selling unlicensed and unproven stem cell interventions",
+   "publisher": "Cell Stem Cell 2021;28(11):1891-1895 (Turner L), doi:10.1016/j.stem.2021.10.008",
+   "url": "https://doi.org/10.1016/j.stem.2021.10.008",
+   "accessed": "2026-09-17",
+   "note": "abstract read through Europe PMC: 'In March 2021, 1,480 U.S. businesses operating 2,754 clinics were found selling purported stem cell treatments for various indications'; citation confirmed through Crossref"
   },
   {
    "id": "s:turner-beyond-2012",
@@ -5450,6 +5540,15 @@
    "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
    "accessed": "2026-09-17",
    "note": "the long definition and its caveats read off https://api.worldbank.org/v2/indicator/ST.INT.ARVL?format=json, including the sentences on differing national collection methods and on arrivals not being people; source organisation UN Tourism, Yearbook and Compendium of Tourism Statistics"
+  },
+  {
+   "id": "s:wellcome-connell-2011",
+   "kind": "catalogue",
+   "title": "Medical tourism — John Connell, CABI, 2011 (ISBN 9781845936600)",
+   "publisher": "Wellcome Collection catalogue",
+   "url": "https://wellcomecollection.org/works/v9j3qseb",
+   "accessed": "2026-09-17",
+   "note": "Wallingford, Oxfordshire, 2011, xii, 209 pp.; retail listings dating the book to 2010 are common and the library record is preferred here"
   },
   {
    "id": "s:wesgro-medical-tourism-study",
@@ -6241,6 +6340,15 @@
    "url": "https://en.wikipedia.org/wiki/Narayana_Health",
    "license": "CC BY-SA 4.0",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-narayana-health-2",
+   "kind": "wikipedia",
+   "title": "Narayana Health",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Narayana_Health",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17"
   },
   {
    "id": "s:wp-netcare",
