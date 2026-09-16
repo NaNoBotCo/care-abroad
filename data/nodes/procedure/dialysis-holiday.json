@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "id": "dialysis-holiday",
+ "type": "procedure",
+ "names": {
+  "name": "Dialysis away from home",
+  "aliases": ["holiday dialysis", "vacation dialysis", "guest dialysis", "transient dialysis", "haemodialysis for travelling patients"],
+  "said": "Units say holiday dialysis, and chains run departments under that name. Nephrologists say transient or guest patient, which is the word on the booking form. The patient is not seeking treatment abroad; the patient is already having treatment and is trying to go somewhere."
+ },
+ "etymology": {
+  "root": "dialysis: Greek dialusis, a separating or dissolving — dia, apart, plus luein, to loosen. Thomas Graham took the word for the laboratory process in the 1860s, a century before it was a treatment. Haemodiafiltration adds Latin filtrum, felt, the cloth a liquid was strained through.",
+  "tier": "tradition",
+  "note": "Haemodialysis clears the blood across a membrane; haemodiafiltration adds convection and is priced higher where a unit offers both. A session is the unit of sale on every price page read here, and three a week is the usual prescription, so a fortnight away is six sessions before anything else is counted."
+ },
+ "region": ["global", "southeast-asia", "west-asia", "europe-south", "north-america"],
+ "facets": {
+  "family": "rehabilitation",
+  "setting": "outpatient-course",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "A person on maintenance haemodialysis books sessions at a unit somewhere else and goes there. The treatment is the one they already have: needles into a fistula or a line, four hours on a machine, three times a week, indefinitely. What travels with them is a prescription — dry weight, dialysate composition, heparin, machine settings — and a set of virology results the receiving unit will want before it agrees to a slot.",
+  "story": "This is the long-stay, non-surgical end of cross-border care and it inverts the usual story. Nobody here is buying an operation that is cheaper abroad. They are buying the ability to leave home for a fortnight, and the price of that is six or eight dialysis sessions bought retail in a country where they are not insured.\n\nWhat gets published is the session. Bangkok Hospital Phuket runs a department called the Holiday Dialysis Center and states its rates: 7,000 baht a session of four hours for conventional haemodialysis, 8,000 for online haemodiafiltration, both excluding medications. Vibhavadi Hospital in Bangkok publishes a domestic figure on the same kind of page: 2,200 baht a session, 3,400 for a first session including the nephrologist, 1,200 to open a dialyser and 4,700 for a session in intensive care, with the same exclusion of medications and any additional diagnosis. *Inference —* the two numbers are not the same product bought at two prices. One is a department built to take booked foreign patients with interpreters and a concierge; the other is a hospital's standard outpatient rate. But a traveller reading only the first has no idea the second exists, and the comparison is the kind a directory can make and a clinic page cannot.\n\nIn Europe the price is frequently not a price at all, because entitlement gets there first: a UK agency page listing Spanish units notes that most accept the European Health Insurance Card or its UK successor. Where they do not, it quotes a private unit in Benidorm at 450 euro a session. The same agency lists Turkish units at roughly 220 to 300 euro a session, some with transport to the resort included and one explicitly cheaper without it. Those are an intermediary's numbers, not a unit's own price list, and they are labelled as such here.\n\nThe largest chain publishes no prices whatsoever. Fresenius Medical Care's NephroCare runs a holiday dialysis service and routes it through the patient's home centre: the booking is made by the unit that already treats them, which is also the arrangement that gets the prescription transmitted correctly.\n\n*Trade practice —* a unit asks for the dialysis prescription, recent hepatitis B, hepatitis C and HIV serology, and confirmation of who pays, before it confirms a slot; isolation machines are limited and a positive result can mean no slot at all rather than a higher price. Sessions in a resort in August are booked out months ahead for the same reason hotel rooms are.",
+  "how": "Booked ahead, session by session, usually through the home unit and sometimes through an agency that holds slots at named units. The receiving unit repeats what it needs: weight, bloods, machine settings, and a signature. Payment is per session and in advance at most private units; within the EU an entitlement card may replace payment entirely, and where it does the transaction leaves no price behind at all. What is not bought in a session is the rest of the care — the medication, the pathology, the access problem that arrives on day three, the admission if it does not resolve.",
+  "today": "As of 17 September 2026 four countries' published per-session figures were read for this record: two Thai hospitals' own pages, an agency's numbers for Spain and Türkiye, and a US federal tariff. They are four different kinds of document. The American one is the only rate in the set set by a payer rather than a seller: the Medicare base rate for one dialysis treatment, 281.71 dollars from 1 January 2026, covering a bundle that includes the drugs the Thai pages exclude.",
+  "notes": "This page describes a treatment and reports published prices. It is not medical advice, and nothing here says whether anybody should travel."
+ },
+ "metrics": {
+  "stay_days": null,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "None of these is the right unit. The number that matters is sessions: the published Thai rates are quoted per four-hour session, and a maintenance prescription is usually three a week, so a two-week trip is six sessions before medication, transport or anything that goes wrong. No source read here publishes a wait before flying, and this is the one record in this batch where the traveller is fit to fly by definition.",
+  "as_of": "2026-09-17",
+  "source": "s:bph-holiday-dialysis",
+  "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/phuket-holiday-dialysis-center-bpk/treatments-and-services"
+ },
+ "prices": [
+  {
+   "procedure": "dialysis-holiday",
+   "country": "TH",
+   "city": "Phuket",
+   "amount": 7000,
+   "amount_high": 8000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["one session of four hours"],
+   "excludes": ["medications, stated on the page", "laboratory tests", "transport to and from the unit", "any admission"],
+   "source": "s:bph-holiday-dialysis",
+   "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/phuket-holiday-dialysis-center-bpk/treatments-and-services",
+   "note": "the hospital's own rates for its Holiday Dialysis Center: 7,000 baht conventional, 8,000 for online haemodiafiltration. No validity date on the page.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dialysis-holiday",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 2200,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["one haemodialysis session"],
+   "excludes": ["medications and any additional diagnosis, stated on the page", "the first session, priced at 3,400 including the nephrologist's fee", "opening a dialyser, 1,200", "a session in intensive care, 4,700"],
+   "source": "s:vibhavadi-hemodialysis",
+   "url": "https://www.vibhavadi.com/en/department-hemodialysis",
+   "note": "a Bangkok hospital's standard published rate, on its own department page, alongside partial refunds it names for government-officer and social-security patients. Carried here as the domestic figure against which a holiday dialysis rate can be read; it is not the same service and not the same unit.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dialysis-holiday",
+   "country": "ES",
+   "city": "Benidorm",
+   "amount": 450,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": ["one session at a named private unit"],
+   "excludes": ["everything else; the agency page names no inclusion list"],
+   "source": "s:freedom-dialysis-spain",
+   "url": "https://www.holidaydialysis.co.uk/spain.php",
+   "note": "an agency's figure, not the unit's own price list, and the only Spanish price on a page that names more than thirty units. The same page states that most Spanish units accept the European Health Insurance Card or its UK successor, in which case no price arises at all.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dialysis-holiday",
+   "country": "TR",
+   "amount": 200,
+   "amount_high": 300,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": ["one session; at some named units, transport to the resort area"],
+   "excludes": ["transport where it is priced out: one unit is listed at 250 euro with transport and 200 without"],
+   "source": "s:freedom-dialysis-turkey",
+   "url": "https://www.holidaydialysis.co.uk/turkey.php",
+   "note": "an agency's approximate figures for named units in Aydın, Muğla, the Antalya region and Istanbul; every one is prefixed approx. and the page carries no date. Not a unit's own price list.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dialysis-holiday",
+   "country": "US",
+   "amount": 281.71,
+   "currency": "USD",
+   "as_of": "2026-01-01",
+   "kind": "tariff",
+   "includes": ["all renal dialysis services furnished for outpatient maintenance dialysis, including drugs and biological products", "a training add-on adjustment for home and self-dialysis"],
+   "excludes": ["adjustment for local wages, which is applied on top with a floor of 0.6000 and a 5% cap on annual decreases", "anything outside the bundle"],
+   "source": "s:cms-esrd-pps-2026",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2026-end-stage-renal-disease-esrd-prospective-payment-system-final-rule",
+   "note": "the Medicare base rate for one dialysis treatment from 1 January 2026, up from 273.82 dollars in 2025. A payer's price rather than a seller's, and the only figure in this set that includes the drugs the Thai pages exclude.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "kidney-transplant", "as": "What this treatment is the alternative to, and the operation that ends it.", "rel": "contrast"},
+  {"to": "liver-transplant", "as": "The other organ in this directory where a traveller is already a patient before the journey starts.", "rel": "kin"},
+  {"to": "thailand", "as": "Where the only two hospital-published per-session rates read for this record are posted.", "rel": "destination"},
+  {"to": "phuket", "as": "The resort with a hospital department named for this traffic.", "rel": "hub"},
+  {"to": "spain", "as": "Where entitlement usually replaces the price, and a private unit's session appears when it does not.", "rel": "destination"},
+  {"to": "turkiye", "as": "Where an agency quotes sessions by resort, sometimes with the transfer inside the number.", "rel": "destination"},
+  {"to": "eu-directive-2011-24", "as": "The route by which a European patient's home system may meet the cost of treatment in another member state.", "rel": "governed-by"},
+  {"to": "insurance-exclusions", "as": "Whether a travel policy covers pre-existing renal failure is the question that decides this trip.", "rel": "rule"},
+  {"to": "getting-your-records", "as": "The prescription and the serology are what the receiving unit books on.", "rel": "step"},
+  {"to": "booking-the-flight", "as": "Sessions are booked before the flight here, not after it.", "rel": "step"},
+  {"to": "bloodborne-virus", "as": "Hepatitis status decides whether a unit has a machine for the patient at all.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "The reverse case: the home unit keeps the patient and lends them out for a fortnight.", "rel": "contrast"}
+ ],
+ "confusable_with": [
+  {"id": "kidney-transplant", "tell": "Dialysis abroad is a booked treatment slot on a trip somebody was going to take anyway. A transplant abroad is an operation on two people, one of whom is not the traveller."}
+ ],
+ "links": [
+  {"label": "Bangkok Hospital Phuket — Holiday Dialysis Center", "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/phuket-holiday-dialysis-center-bpk/treatments-and-services"},
+  {"label": "Vibhavadi Hospital — haemodialysis department", "url": "https://www.vibhavadi.com/en/department-hemodialysis"},
+  {"label": "CMS — CY2026 ESRD Prospective Payment System final rule", "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2026-end-stage-renal-disease-esrd-prospective-payment-system-final-rule"}
+ ],
+ "sources": ["s:bph-holiday-dialysis", "s:vibhavadi-hemodialysis", "s:freedom-dialysis-spain", "s:freedom-dialysis-turkey", "s:cms-esrd-pps-2026", "s:nephrocare-holiday-dialysis"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:bph-holiday-dialysis", "note": "the rates are read off the named pages; the comparison between the two Thai figures is marked Inference and the booking conditions are marked Trade practice"},
+   "text.how": {"tier": "tradition", "note": "the booking sequence is the trade's; the payment and entitlement points are cited to the pages named in the prices"},
+   "etymology": {"tier": "tradition"},
+   "prices": {"tier": "cited", "source": "s:bph-holiday-dialysis"},
+   "metrics": {"tier": "cited", "source": "s:bph-holiday-dialysis"}
+  }
+ },
+ "x_commons_files": ["File:Hemodialysis machine.jpg", "File:Dialysis ward.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

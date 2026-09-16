@@ -1,0 +1,362 @@
+{
+ "id": "abortion-travel-law",
+ "names": {
+  "name": "Travelling for a termination",
+  "aliases": [
+   "abortion access across borders",
+   "the residence bar"
+  ],
+  "said": "The bar is rarely a border. It is usually a waiting period, a second signature, or a rule about who counts as resident."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Where a termination may lawfully be performed, on what grounds and to what gestational limit, and whether the law reaches someone who does not live there. The rows below record the position for an adult traveller: a row is marked lawful-with-conditions where a condition binds an adult who has come from elsewhere — grounds rather than request, spousal consent, a mandatory wait — and residents-only where the statute itself excludes non-residents.",
+  "story": "Two statutes in this table exclude a non-resident outright, and one of them is not the one usually named.\n\nSingapore's is written on the face of the Act. Section 3 of the Termination of Pregnancy Act 1974 confines treatment to citizens, to wives of citizens, to work-pass holders and their wives, or to a person who has been \"a resident in Singapore for a period of at least 4 months immediately preceding\" — with one exception, where the procedure is needed to save the woman's life.\n\nCzechia's is older and quieter. Section 10 of zákon č. 66/1986 Sb. bars the procedure for foreign women who are in the country only temporarily. The provision is unamended and in force. The WHO Global Abortion Policies Database, which is the best comparative source in this field, records other Czech restrictions and not this one; it was read in the statute directly.\n\nEverywhere else the friction is procedural, and procedure is what defeats a traveller. Italy invites a seven-day pause. Germany requires counselling and then three days. Belgium, six. Hungary, Portugal and Ireland, three. Singapore and Malaysia, two. Thailand requires counselling on alternatives between 12 and 20 weeks. *Inference —* a waiting period is a residence requirement for anyone who has to buy two flights, and none of these statutes were written with that in mind.\n\nThe consent rules do the same work by another route. Japan's Maternal Health Act still requires the spouse's consent, waived only where the spouse is unknown, unable to express an intention, or dead. Taiwan and Türkiye require it on named grounds. Indonesia requires the husband's permission except for victims of rape. Korea's criminal provisions lapsed after the 2019 Constitutional Court decision and were never replaced, leaving a Mother and Child Health Act that was never amended and still carries spousal consent.\n\nThe two long-standing destinations in this table admit non-residents by the plain text of their statutes. The Netherlands' Act has no residence bar and no week limit on its face; the word for residence appears only in the statistical reporting article. Great Britain's Abortion Act 1967 has no residence or nationality requirement anywhere in section 1 — its constraints are the grounds, the two doctors' good-faith opinion and the approved place.",
+  "how": "Reading a row: a gestational limit is counted from a date the statute names, and states do not all count from the same date — last menstrual period in Switzerland, conception in Belgium. A ground-based regime is not a limit regime, and a law that permits a termination does not oblige any particular doctor to perform one; conscientious objection is separately provided for in most of these systems and is not recorded here.\n\nThis table does not record cost, availability, distance to the nearest provider, or whether the procedure is funded. Ireland's row is the clearest case of the difference: lawful for a non-resident, free only for the ordinarily resident.",
+  "today": "As of 17 September 2026 most rows below are read in the WHO Global Abortion Policies Database's country records, which embed the survey data and the retrieved statute text, and several were additionally read against the national statute database — the URL on each row says which. The WHO database is not uniformly current: its last-updated dates run from 2017 for Morocco, Jordan and the United Arab Emirates to 2026 for Kenya, Mexico and Indonesia."
+ },
+ "legality": [
+  {
+   "country": "NL",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:nl-abortion-act-1981",
+   "instrument": "Wet afbreking zwangerschap (Wet van 1 mei 1981), articles 3 and 6, as amended in 2022",
+   "note": "No week limit in the Act itself and no residence or nationality bar; the word woonplaats appears only in the article 11 statistical reporting. The fixed five-day waiting period was removed by the Act of 22 August 2022 and the doctor and the woman now set the term together."
+  },
+  {
+   "country": "GB",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:uk-abortion-act-1967",
+   "instrument": "Abortion Act 1967, section 1",
+   "conditions": "Grounds-based: two registered medical practitioners must be of the opinion, formed in good faith, that a ground is met, and the treatment must be at an approved place. Ground (a) runs to 24 weeks. There is no residence or nationality requirement anywhere in section 1.",
+   "note": "Section 7(3): the Act does not extend to Northern Ireland, which has its own arrangements."
+  },
+  {
+   "country": "CZ",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:cz-act-66-1986",
+   "instrument": "Zákon č. 66/1986 Sb., o umělém přerušení těhotenství, §§ 4 and 10",
+   "conditions": "Twelve weeks on written request for a resident — but § 10 bars the procedure for foreign women who are in the country only temporarily. A second termination within six months is also barred.",
+   "note": "The text is unamended and in force. The WHO Global Abortion Policies Database's additional-restrictions note for Czechia records the six-month rule and physician refusal but not § 10; the statute was read directly for this row."
+  },
+  {
+   "country": "SG",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:sg-termination-act",
+   "instrument": "Termination of Pregnancy Act 1974, section 3, with the Termination of Pregnancy Regulations 1987",
+   "conditions": "Twenty-four weeks, but section 3 confines treatment to citizens, wives of citizens, work-pass holders and their wives, or a person resident in Singapore for at least four months immediately preceding — the only exception being where the procedure is necessary to save the woman's life. A two-day waiting period follows counselling.",
+   "url": "https://abortion-policies.srhr.org/country/singapore"
+  },
+  {
+   "country": "IE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ie-termination-act-2018",
+   "instrument": "Health (Regulation of Termination of Pregnancy) Act 2018, section 12",
+   "conditions": "Twelve weeks, with a waiting period of not less than three days. There is no residence bar on lawfulness — section 20 expressly contemplates a woman who resides outside the State — but free care is confined to the ordinarily resident, which is a funding rule and not a legal one."
+  },
+  {
+   "country": "DE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:de-stgb-218a",
+   "instrument": "Strafgesetzbuch § 218a, with § 219",
+   "conditions": "Twelve weeks, after mandatory counselling and a wait of at least three days before the procedure. No residence condition."
+  },
+  {
+   "country": "ES",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:es-lo-2-2010",
+   "instrument": "Ley Orgánica 2/2010, artículos 3, 13 bis y 14",
+   "conditions": "Fourteen weeks at the woman's request. Article 3.2 extends the rights it sets out to all persons present in Spain."
+  },
+  {
+   "country": "FR",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:fr-csp-l2212-1",
+   "instrument": "Code de la santé publique, article L2212-1, as amended by loi n° 2022-295",
+   "conditions": "To the end of the fourteenth week on request; the article carries no residence condition."
+  },
+  {
+   "country": "BE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:be-abortion-law-2018",
+   "instrument": "Loi du 15 octobre 2018 relative à l'interruption volontaire de grossesse, article 2",
+   "conditions": "Twelve weeks from conception, and not until six days after the first consultation."
+  },
+  {
+   "country": "IT",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:it-legge-194-1978",
+   "instrument": "Legge 22 maggio 1978, n. 194, articoli 4 e 5",
+   "conditions": "The first 90 days; article 5 requires the doctor to invite the woman to pause for seven days."
+  },
+  {
+   "country": "PT",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:pt-codigo-penal-142",
+   "instrument": "Código Penal, artigo 142.º, as amended by Lei n.º 16/2007",
+   "conditions": "Ten weeks by the woman's choice, after a reflection period of not less than three days."
+  },
+  {
+   "country": "PL",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:pl-family-planning-act-1993",
+   "instrument": "Ustawa z dnia 7 stycznia 1993 r. o planowaniu rodziny, ochronie płodu ludzkiego i warunkach dopuszczalności przerywania ciąży (Dz.U. 1993 nr 17 poz. 78)",
+   "conditions": "Grounds only: danger to life or health, and pregnancy resulting from a criminal act. The fetal-defect ground was struck down by the Constitutional Tribunal in 2020.",
+   "url": "https://abortion-policies.srhr.org/country/poland"
+  },
+  {
+   "country": "TR",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:tr-law-2827",
+   "instrument": "Nüfus Planlaması Hakkında Kanun (Kanun No. 2827), Madde 5 ve Madde 6",
+   "conditions": "Ten weeks on request, and the consent of the husband is required for a married woman.",
+   "url": "https://abortion-policies.srhr.org/country/turkey"
+  },
+  {
+   "country": "MT",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:mt-criminal-code",
+   "instrument": "Criminal Code (Chapter 9), articles 241 and 243B",
+   "conditions": "Criminal in all cases but for the narrow exception added by Act XXII of 2023: before viability, where the woman's life is at immediate risk or her health in grave jeopardy."
+  },
+  {
+   "country": "CH",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ch-penal-118-120",
+   "instrument": "Code pénal suisse, articles 118, 119 et 120",
+   "conditions": "Twelve weeks from the last menstrual period, on the written request of a woman invoking distress, after an in-depth consultation."
+  },
+  {
+   "country": "US",
+   "status": "unregulated",
+   "as_of": "2026-09-17",
+   "source": "s:us-dobbs-2022",
+   "instrument": "Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)",
+   "url": "https://abortion-policies.srhr.org/country/united-states-of-america",
+   "note": "Federal position only. There is no federal right and no federal prohibition; state law governs, and the WHO database codes every field for the United States as varying by jurisdiction. This project has read no state statute for this row."
+  },
+  {
+   "country": "ZA",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:za-choice-act-1996",
+   "instrument": "Choice on Termination of Pregnancy Act 92 of 1996, as amended in 2008, with Regulation 168 of 1997",
+   "conditions": "Twelve weeks at the woman's request. No spousal consent, no parental consent, no counselling requirement, and no citizenship or residence bar recorded.",
+   "url": "https://abortion-policies.srhr.org/country/south-africa"
+  },
+  {
+   "country": "TN",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:who-gapd",
+   "instrument": "Code pénal, article 214",
+   "conditions": "The first three months on request; no spousal or parental consent recorded.",
+   "url": "https://abortion-policies.srhr.org/country/tunisia"
+  },
+  {
+   "country": "IN",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:in-mtp-act-1971",
+   "instrument": "The Medical Termination of Pregnancy Act 1971, with the Medical Termination of Pregnancy (Amendment) Act 2021",
+   "conditions": "Grounds-based rather than on request. Only the consent of the woman is required; a guardian consents under 18.",
+   "url": "https://abortion-policies.srhr.org/country/india"
+  },
+  {
+   "country": "TH",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:th-penal-code-301-305",
+   "instrument": "Criminal Code sections 301 and 305, as amended by the Criminal Code Amendment Act (No. 28) B.E. 2564 (2021)",
+   "conditions": "On request to 12 weeks. Between 12 and 20 weeks an examination and counselling on alternatives are required under a 2022 decree.",
+   "url": "https://abortion-policies.srhr.org/country/thailand"
+  },
+  {
+   "country": "JP",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:jp-maternal-health-act",
+   "instrument": "母体保護法 (Maternal Health Act, Act No. 156 of 1948), article 14",
+   "conditions": "Grounds-based, including economic grounds, and the consent of the spouse is required — waived only where the spouse is unknown, cannot express an intention, or is dead.",
+   "url": "https://abortion-policies.srhr.org/country/japan"
+  },
+  {
+   "country": "ID",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:id-health-law-2023",
+   "instrument": "Undang-Undang No. 17 Tahun 2023 tentang Kesehatan, with PP 28/2024 and the 2023 Criminal Code",
+   "conditions": "Rape or sexual violence, or a medical emergency. The husband's permission is required except for victims of rape, and counselling is mandatory.",
+   "url": "https://abortion-policies.srhr.org/country/indonesia"
+  },
+  {
+   "country": "PH",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:who-gapd",
+   "instrument": "Revised Penal Code (1930), articles 256 to 259",
+   "url": "https://abortion-policies.srhr.org/country/philippines",
+   "note": "Criminalised in all circumstances; the database records no legal ground."
+  },
+  {
+   "country": "CA",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:ca-morgentaler-1988",
+   "instrument": "R. v. Morgentaler, [1988] 1 S.C.R. 30, with the Canada Health Act",
+   "conditions": "No criminal abortion law and no gestational limit in federal law. Provincial insurance coverage varies, which is a funding question rather than a legal bar.",
+   "url": "https://abortion-policies.srhr.org/country/canada"
+  },
+  {
+   "country": "MX",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:who-gapd",
+   "instrument": "Federal Penal Code as amended, with Supreme Court decisions 2017/148 (2021) and 267/2023",
+   "conditions": "Federal criminalisation has been struck down, and the position is governed mainly at state level rather than nationally. This project has read no state code.",
+   "url": "https://abortion-policies.srhr.org/country/mexico"
+  },
+  {
+   "country": "RO",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-gapd",
+   "url": "https://abortion-policies.srhr.org/country/romania",
+   "note": "The WHO database codes Romania as grounds-based with termination on request recorded as unavailable, which conflicts with the usual reading of article 201 of the Criminal Code. The Romanian statute database refused the connection on this pass, so the conflict is left open rather than resolved."
+  },
+  {
+   "country": "AU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-gapd",
+   "url": "https://abortion-policies.srhr.org/country/australia",
+   "note": "State and territory law, not federal. The WHO database codes every field as varying by jurisdiction and lists no state act; no state act was read on this pass."
+  },
+  {
+   "country": "AE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-gapd",
+   "url": "https://abortion-policies.srhr.org/country/united-arab-emirates",
+   "note": "The WHO record was last updated 7 May 2017 and predates Federal Decree-Law No. 31 of 2021, which this project did not read. The older position it records is near-total prohibition with spousal consent."
+  }
+ ],
+ "kin": [
+  {
+   "to": "abortion-care",
+   "as": "The procedure these instruments govern.",
+   "rel": "procedure"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The category this is the oldest example of.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "The argument, reported.",
+   "rel": "story"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The neighbouring word, and the fight over which one to use.",
+   "rel": "term"
+  },
+  {
+   "to": "the-visa",
+   "as": "Why a named purpose of travel matters here.",
+   "rel": "pathway"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "A destination whose statute contains no residence bar.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "The source market the question moved to in 2022.",
+   "rel": "destination"
+  },
+  {
+   "to": "who",
+   "as": "The body whose database is the comparative reading behind most of these rows.",
+   "rel": "org"
+  },
+  {
+   "to": "assisted-dying-law",
+   "as": "The other question where the residence gate is the whole instrument.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:who-gapd",
+  "s:nl-abortion-act-1981",
+  "s:uk-abortion-act-1967",
+  "s:cz-act-66-1986",
+  "s:sg-termination-act",
+  "s:ie-termination-act-2018",
+  "s:de-stgb-218a",
+  "s:es-lo-2-2010",
+  "s:fr-csp-l2212-1",
+  "s:be-abortion-law-2018",
+  "s:it-legge-194-1978",
+  "s:pt-codigo-penal-142",
+  "s:pl-family-planning-act-1993",
+  "s:tr-law-2827",
+  "s:mt-criminal-code",
+  "s:ch-penal-118-120",
+  "s:us-dobbs-2022",
+  "s:za-choice-act-1996",
+  "s:in-mtp-act-1971",
+  "s:th-penal-code-301-305",
+  "s:jp-maternal-health-act",
+  "s:id-health-law-2023",
+  "s:ca-morgentaler-1988",
+  "s:tw-eugenics-act",
+  "s:women-on-web"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:who-gapd"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cz-act-66-1986",
+    "note": "the Singapore and Czech provisions are read in the statutes; the stretch marked *Inference —* is this project's reasoning"
+   },
+   "legality": {
+    "tier": "cited",
+    "source": "s:who-gapd",
+    "note": "each row's url names the page read — a WHO country record, or a national statute database where one was reachable"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

@@ -58,6 +58,7 @@ CSS = """
 .viz-grat{stroke:var(--line);stroke-width:.5;fill:none;opacity:.55}
 .viz-cell{stroke:var(--panel);stroke-width:2}
 .viz-dot{stroke:var(--panel);stroke-width:2}
+.osmdot{r:2.6;opacity:.72}
 .viz-arc{fill:none;stroke-width:1.4;opacity:.75}
 .twin{margin:.5rem 0 0}
 .twin summary{cursor:pointer;font-size:.84rem;color:var(--mute);font-family:var(--ui)}
@@ -612,8 +613,8 @@ def hub_map(lat: float, lon: float, radius_km: float, rows: list, curated: list,
         k = k if k in kinds else ("clinic" if "clinic" in str(k) else "other")
         counts[k] = counts.get(k, 0) + 1
         cls = kinds.get(k, ("viz-land", ""))[0]
-        dots.append(f'<circle class="{cls}" cx="{x:.1f}" cy="{y:.1f}" r="2.6" opacity=".72" '
-                    f'data-tip="<b>{E(r["name"])}</b>{E(k)}"></circle>')
+        dots.append(f'<circle class="{cls} osmdot" cx="{x:.0f}" cy="{y:.0f}" '
+                    f'data-tip="{E(r["name"])}"/>')
     marks = []
     taken: list = []          # label rows already used, so two hospitals a street apart
     for c in sorted(curated, key=lambda c: c["lat"], reverse=True):   # do not print over each other
@@ -653,8 +654,10 @@ def hub_map(lat: float, lon: float, radius_km: float, rows: list, curated: list,
     twin = table_twin(["Name", "Kind"],
                       [[E(r["name"]), E((r.get("tags", {}).get("amenity")
                                          or r.get("tags", {}).get("healthcare") or ""))]
-                       for r in sorted(rows, key=lambda r: r["name"].lower())[:400]],
-                      f"{total} points on this map" + (", first 400 listed" if total > 400 else ""))
+                       for r in sorted(rows, key=lambda r: r["name"].lower())[:120]],
+                      f"{total} points on this map" + (", first 120 listed" if total > 120 else ""),
+                      note=("The whole harvest, every hub, is in api/facilities.json."
+                            if total > 120 else ""))
     return (f'<figure class="fig" id="{E(ident)}"><p class="head">Every one OpenStreetMap carries</p>'
             f'<svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img" '
             f'aria-label="Hospitals, clinics and dental surgeries around {E(label)}">'

@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "id": "samsung-medical-center",
+ "type": "facility",
+ "names": {
+  "name": "Samsung Medical Center",
+  "aliases": ["SMC", "삼성서울병원", "Samsung Seoul Hospital"],
+  "said": "Samsung Seoul Byeongwon in Korean — Samsung Seoul Hospital. It stands at 81 Ilwon-ro in Gangnam, and it is owned by a welfare foundation of the Samsung group rather than by the company."
+ },
+ "region": ["east-asia"],
+ "facets": {
+  "iso2": "KR",
+  "ownership": "nonprofit",
+  "founded": 1994,
+  "specialty": ["oncology", "cardiology", "neurosciences", "transplantation", "proton therapy"],
+  "draws": ["proton-therapy", "car-t", "bone-marrow-transplant", "kidney-transplant", "liver-transplant"],
+  "status": "open",
+  "languages": ["Korean", "English", "Russian", "Arabic", "Mandarin"]
+ },
+ "text": {
+  "what": "A 1,766-bed hospital in Gangnam, Seoul, opened on 9 November 1994 and run by the Samsung Life Public Welfare Foundation. It employs 7,929 people including 915 physicians and 3,337 nurses, and has been the teaching hospital of the Sungkyunkwan University School of Medicine since 1997.",
+  "story": "The hospital is a corporate foundation's, not a company's, and it arrived late — 1994, decades after Severance and five years after Asan. What it built instead of history was systems: it holds Stage 7 validation, the top level, across all four HIMSS digital maturity models and took a 2024 Davies Award for the use of that record system.\n\n*Inference —* that is an unusual thing for a hospital to lead with, and it is the Korean pattern. The three Seoul hospitals in this directory compete on measurement and on rank rather than on price, and none of them publishes one.\n\nIts major clinical institutes are the Samsung Comprehensive Cancer Center, opened 2008, and the Heart Vascular Stroke Institute, opened 2014.\n\nThe hospital is also known for a failure. It was the centre of South Korea's 2015 Middle East respiratory syndrome outbreak and was criticised over its handling of it — a reminder that an outbreak inside a hospital is a hazard of hospitals, including large ones with good systems, and that this directory reports it the same way anywhere.\n\nKorea regulates foreign-patient work directly: a facility must register with the Ministry of Health and Welfare to treat foreign patients, and the ministry publishes the national count. It reported 1.17 million foreign patients for 2024, which counts registered treatment episodes across every registered provider from a university hospital to a skin clinic.",
+  "how": "*Trade practice —* the Korean route for a foreign patient runs through an international healthcare centre inside the hospital, and the hospital must be registered with the ministry to run one. Screening and oncology carry most of the serious inbound work; cosmetic and dermatological work runs through a separate and far larger clinic sector in the same districts.\n\nNo price is published by the hospital.",
+  "today": "As of 17 September 2026 the hospital carries 1,766 beds and 7,929 employees including 915 physicians and 3,337 nurses, on the figures published as of 31 December 2024. It holds HIMSS Stage 7 across DIAM, EMRAM and INFRAM and a 2024 Davies Award. No price and no foreign patient count of its own is published."
+ },
+ "geo": {"lat": 37.488452, "lon": 127.085341, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "81 Ilwon-ro, Gangnam-gu", "city": "Seoul", "country": "KR", "postcode": "06351"},
+ "metrics": {
+  "beds": 1766,
+  "doctors": 915,
+  "staff": 7929,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "1,766 beds, 7,929 employees, 915 physicians and 3,337 nurses, all as of 31 December 2024. No patient count of any kind is published by the hospital — not visits, not people — and no foreign patient count. South Korea's ministry reported 1.17 million foreign patients nationally for 2024, which counts registered treatment episodes across every registered provider in the country and is not this hospital's.",
+  "as_of": "2024",
+  "source": "s:wp-samsung-medical",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Medical_Center"
+ },
+ "tags": [
+  {"tag": "university-hospital", "source": "s:wp-samsung-medical", "tier": "cited", "note": "teaching hospital of the Sungkyunkwan University School of Medicine since 1997"},
+  {"tag": "teaching", "source": "s:wp-samsung-medical", "tier": "cited"},
+  {"tag": "international-office", "source": "s:khidi-medicalkorea", "tier": "cited", "note": "Korean facilities treating foreign patients must register with the Ministry of Health and Welfare; the promotion runs through KHIDI's Medical Korea programme"},
+  {"tag": "no-price-published", "source": "s:smc-home", "tier": "cited", "note": "no price list was found on the hospital's own site"},
+  {"tag": "outcomes-published", "source": "s:wp-samsung-medical", "tier": "cited", "note": "HIMSS Stage 7 across four digital maturity models and a 2024 Davies Award — a measure of the record system, not of clinical outcome, and the note says so"}
+ ],
+ "recognitions": [
+  {"by": "kohta", "what": "Registered with the Korean Ministry of Health and Welfare to treat foreign patients, the registration that is compulsory there", "year": null, "valid_until": null, "source": "s:khidi-medicalkorea", "url": "http://www.medicalkorea.or.kr/en/aboutkhidi", "note": "a registration, not an accreditation: a Korean facility may not lawfully treat foreign patients without it"},
+  {"by": "other", "what": "HIMSS Stage 7 validation across DIAM, EMRAM and INFRAM, and the 2024 HIMSS Davies Award", "year": 2024, "valid_until": null, "source": "s:wp-samsung-medical", "url": "https://en.wikipedia.org/wiki/Samsung_Medical_Center", "note": "a health information systems maturity scheme, outside this project's recognizer vocabulary and outside clinical accreditation altogether"}
+ ],
+ "kin": [
+  {"to": "seoul", "as": "The Gangnam hospital of the three the Seoul cluster is built on.", "rel": "place"},
+  {"to": "south-korea", "as": "A corporate foundation's hospital in a system where every foreign patient is registered with the ministry.", "rel": "destination"},
+  {"to": "asan-medical-center", "as": "The larger Seoul hospital, five years older and across the river in Songpa.", "rel": "contrast"},
+  {"to": "severance", "as": "The oldest of the three, founded 1885, against this one opened in 1994.", "rel": "contrast"},
+  {"to": "korea-foreign-patient-registration", "as": "Operates under the registration a Korean facility must hold to treat a foreign patient at all.", "rel": "governed-by"},
+  {"to": "proton-therapy", "as": "Among the oncology programmes its foreign referrals come for.", "rel": "performs"},
+  {"to": "surgical-site-infection", "as": "The 2015 MERS outbreak centred here is the reminder that a hospital is also a place infections happen.", "rel": "risk"},
+  {"to": "counting-patients", "as": "1.17 million foreign patients in Korea for 2024 counts registered episodes at every provider, from this hospital to a skin clinic.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Samsung Medical Center", "url": "http://www.samsunghospital.com/home/main/index.do"}
+ ],
+ "sources": ["s:wp-samsung-medical", "s:smc-home", "s:khidi-medicalkorea", "s:mohw-kr-foreign-patients-2024", "s:wp-medical-tourism-south-korea", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "how the Korean route runs through an in-hospital international centre; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:wp-samsung-medical"}
+  }
+ },
+ "x_commons_files": ["File:Samsung Medical Center.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

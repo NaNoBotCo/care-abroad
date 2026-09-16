@@ -371,6 +371,7 @@ def share_row(url: str, title: str) -> str:
 GEO_CACHE: dict = {}
 MARKETS: list = []
 OSM_BY_HUB: dict = {}
+PRICES_BY_PROC: dict = {}
 
 
 # ------------------------------------------------------------------ node page
@@ -583,6 +584,39 @@ def node_page(r: dict, by_id: dict, sources: dict, countries: dict) -> str:
                      f'<div class="prose">{prose(r["text"][key])}</div>')
     for sec in (r.get("sections") or []):
         body += f'<h2>{E(sec["h"])}</h2><div class="prose">{prose(sec["text"])}</div>'
+
+    # every price for this procedure, wherever it sits, on one axis
+    if r["type"] == "procedure" and PRICES_BY_PROC.get(r["id"]):
+        rows = PRICES_BY_PROC[r["id"]]
+        groups: dict = {}
+        for p in rows:
+            groups.setdefault(p["country"], []).append(p)
+        gs = []
+        for iso, items in sorted(groups.items(), key=lambda kv: min(
+                (x["usd"] for x in kv[1] if x["usd"] is not None), default=9e12)):
+            pts = []
+            for p in items:
+                fac = by_id.get(p.get("facility") or "")
+                native = f'{p["amount"]:,.0f} {p["currency"]}' if p.get("amount") is not None else ""
+                if p.get("amount_high"):
+                    native = f'{p["amount"]:,.0f}–{p["amount_high"]:,.0f} {p["currency"]}'
+                tip = ("<b>" + E(fac["names"]["name"] if fac else (p.get("city") or ISO_NAME.get(iso, iso)))
+                       + "</b>" + E(native) + f' &middot; {E(p["kind"])}<br>dated {E(p["as_of"])}'
+                       + (f'<br><b>excludes {E(", ".join(p["excludes"][:3]))}</b>' if p.get("excludes") else ""))
+                pts.append({"usd": p["usd"], "usd_high": p.get("usd_high"), "kind": p["kind"],
+                            "tip": tip, "native": native, "as_of": p["as_of"],
+                            "src_html": (f'<a href="{E(p["url"])}" rel="noopener">page</a>'
+                                         if p.get("url") else E(p["source"]))})
+            gs.append({"label": ISO_NAME.get(iso, iso), "iso": iso, "points": pts})
+        fig = viz.price_strip(gs, w=760, ident=f"strip-{r['id']}",
+                              note=(f'{len(rows)} published price{"s" if len(rows) != 1 else ""} for '
+                                    f'this procedure, across {len(groups)} '
+                                    f'{"countries" if len(groups) != 1 else "country"}.'))
+        if fig:
+            body += ("<h2>What it costs where anyone publishes a price</h2>" + fig
+                     + f'<p class="mute" style="font-size:.86rem">Every price this directory has read, '
+                       f'for every procedure, sits together on <a href="{rel(depth)}prices/index.html">'
+                       f'the prices page</a>.</p>')
 
     # prices on this record
     if r.get("prices"):
@@ -938,21 +972,19 @@ def coverage_page(cov: dict) -> str:
                 f"{SITE_URL}/coverage/", card="coverage")
 
 
-def search_page(docs: list[dict]) -> str:
+def search_page(n_docs: int) -> str:
     body = f"""
 <h1><span class="kind">{E(SITE_NAME)}</span>Search</h1>
 <p class="lede">Spell it however you spell it. If the match had to stretch, the page says so.</p>
 <form class="search" role="search" onsubmit="return false"><input id="q" type="search" placeholder="knee · IVF · Bumrungrad · surrogacy · package price · Istanbul…" aria-label="Search" autofocus><button id="go" type="button">Search</button></form>
 <p id="tier" class="tierline" aria-live="polite"></p>
 <div id="out" class="cards"></div>
-<p class="legend" id="how">Runs in your browser over every record: exact → same meaning, other word → near spellings → partial.</p>
+<p class="legend" id="how">Runs in your browser over all {n_docs} records: exact → same meaning, other word → near spellings → partial. The index is fetched once, then searched without another request.</p>
 <script src="../vendor/searchcore.js"></script>
 <script>
 (function(){{
-var DOCS={json.dumps(docs, ensure_ascii=False)};
-var PATH={json.dumps(PATH_OF)};
-var TABLES=null, core=null, index=null, PREP=null;
-var byId={{}}; DOCS.forEach(function(d){{byId[d.id]=d}});
+var DOCS=null, PATH={json.dumps(PATH_OF)};
+var TABLES=null, core=null, index=null, PREP=null, byId={{}};
 var TIER={{exact:"exact match",thesaurus:"same meaning, other word",loose:"near spellings — closest first",partial:"partial matches"}};
 function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
 function build(){{
@@ -983,7 +1015,9 @@ function run(){{
   lex.forEach(function(r){{if(worst==null||SEARCHCORE.TIER_ORDER.indexOf(r.tier)>SEARCHCORE.TIER_ORDER.indexOf(worst))worst=r.tier}});
   render(lex,worst||"exact");
 }}
-fetch("tables.json").then(function(r){{return r.json()}}).then(function(t){{TABLES=t;build();
+Promise.all([fetch("tables.json").then(function(r){{return r.json()}}),
+             fetch("docs.json").then(function(r){{return r.json()}})]).then(function(a){{
+  TABLES=a[0]; DOCS=a[1].docs; DOCS.forEach(function(d){{byId[d.id]=d}}); build();
   var u=new URL(location.href); var q0=u.searchParams.get("q"); if(q0){{document.getElementById("q").value=q0;run()}}
 }});
 document.getElementById("go").addEventListener("click",run);
@@ -1255,6 +1289,10 @@ def main() -> int:
     ISO_NAME = {c["iso"]: c["name"] for c in geo["countries"]}
     REGION_LABEL = {e["key"]: e["name"] for e in jload(API / "vocab" / "regions.json")["entries"]}
     pages.set_iso_names(ISO_NAME)
+    global PRICES_BY_PROC
+    for row in prices["prices"]:
+        if row.get("procedure"):
+            PRICES_BY_PROC.setdefault(row["procedure"], []).append(row)
 
     if SITE.exists():
         shutil.rmtree(SITE)
@@ -1305,7 +1343,9 @@ def main() -> int:
 
     docs = jload(BUILD / "searchdocs.json")["docs"]
     (SITE / "search").mkdir(exist_ok=True)
-    (SITE / "search" / "index.html").write_text(search_page(docs), encoding="utf-8")
+    (SITE / "search" / "index.html").write_text(search_page(len(docs)), encoding="utf-8")
+    (SITE / "search" / "docs.json").write_text(
+        json.dumps({"built": time.strftime("%Y-%m-%d"), "docs": docs}, ensure_ascii=False), encoding="utf-8")
     groups = []
     p = DATA / "search" / "care.thesaurus.json"
     if p.exists():

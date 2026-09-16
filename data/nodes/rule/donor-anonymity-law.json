@@ -1,0 +1,312 @@
+{
+ "id": "donor-anonymity-law",
+ "names": {
+  "name": "Donor anonymity",
+  "aliases": [
+   "identity-release donation",
+   "open-identity donors",
+   "the right to know one's origins"
+  ],
+  "said": "Two rights pulling opposite ways: the donor's privacy and the child's claim to know where it came from."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Whether a gamete or embryo donor may remain unknown to the person conceived. In the rows below, lawful means anonymous donation is available; unlawful means identity release is compulsory and anonymity is not on offer; lawful-with-conditions means both tracks run, or only non-identifying information is released.",
+  "story": "The direction of travel in Europe has been one way for twenty years, and it has moved patients with it.\n\nBritain ended anonymity for donations made from 1 April 2005 by regulations made under the 1990 Act. Sweden had gone first, decades earlier. The Netherlands, Germany, Finland and others followed, each building a register and each fixing an age at which the person conceived may ask. Spain did not: article 5.5 of Ley 14/2006 makes anonymity compulsory and confidentiality of the donor's identity a duty, breakable only in extraordinary circumstances carrying a definite danger to the child's life or health.\n\n*Inference —* Spain therefore sits in the middle of Europe running the opposite rule to most of its neighbours, and it is also the largest egg-donation destination on the continent. The Spanish registry recorded 27,564 cycles in 2022 for patients resident in other countries — France 39.0%, Italy 20.6%, the United Kingdom 9.0%, Germany 6.4% — and 52.3% of those cycles used donated eggs. The registry did not record why the patient came in 90.8% of them.\n\nThat last figure is the one to hold. The correlation between an anonymity rule and an inflow is visible; the causation is not recorded, because the question was not asked of nine patients in ten. Waiting lists, price, age limits and access rules for single women and female couples all point the same direction, and the registry cannot separate them.\n\nThe rule that changed the facts on the ground was not a rule at all. *Inference —* consumer DNA databases have made anonymity a promise a clinic can no longer keep, whatever the statute says, in any country where enough relatives have tested. A register decides what a state will tell you. It does not decide what a cousin's saliva sample will.",
+  "how": "What a row does not tell a reader: whether the rule applies to donations already in storage, what happens to gametes exported from a release regime into an anonymous one or the other way, whether a donor recruited abroad is covered by the treating country's rule or their own, and how many families one donor may create — which is capped in most European systems and not in all.\n\nThe ESHRE and European IVF-Monitoring Consortium survey covering 43 European countries at 31 December 2022 is the widest comparative reading available. It is a survey of national correspondents, not a reading of statutes, and several of its groupings do not match this project's understanding of the countries concerned — which is why the rows that rest on it say so, and why three rows say no-data instead.",
+  "today": "As of 17 September 2026 the rows resting on named national instruments are Spain, the United Kingdom, Germany, the Netherlands, Sweden and Czechia. The rest rest on the comparative survey or say no-data."
+ },
+ "legality": [
+  {
+   "country": "ES",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:es-ley-14-2006",
+   "instrument": "Ley 14/2006 sobre técnicas de reproducción humana asistida, artículo 5.5",
+   "conditions": "Anonymity is compulsory, not optional: the donation is anonymous and the confidentiality of identity data must be guaranteed. Disclosure is possible only exceptionally, in extraordinary circumstances carrying a definite danger to the life or health of the child.",
+   "note": "Spain is the largest egg-donation destination in Europe, and this article is one reason. Its national registry recorded 27,564 cycles in 2022 for patients resident in other countries, 52.3% of them using donated eggs."
+  },
+  {
+   "country": "GB",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:uk-donor-info-regs-2004",
+   "instrument": "The Human Fertilisation and Embryology Authority (Disclosure of Donor Information) Regulations 2004 (SI 2004/1511)",
+   "conditions": "Anonymity ended for donations made from 1 April 2005. A person conceived from such a donation may obtain non-identifying details at 16 — physical description, year and country of birth — and identifying details at 18, including the donor's full name now and at birth. Donations between 1 August 1991 and 31 March 2005 release non-identifying information only, and nothing is held from before August 1991.",
+   "note": "The Authority's own page is the practical statement of what is released and when."
+  },
+  {
+   "country": "DE",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:de-saregg",
+   "instrument": "Samenspenderregistergesetz (SaRegG) § 10",
+   "conditions": "A national sperm-donor register holds the donor's identity and a person conceived may apply for disclosure from the register."
+  },
+  {
+   "country": "NL",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:nl-donor-data-act",
+   "instrument": "Wet donorgegevens kunstmatige bevruchting",
+   "conditions": "Donor data are held by a statutory foundation and released to the person conceived on request at the age the Act sets."
+  },
+  {
+   "country": "SE",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:se-genetic-integrity-act",
+   "instrument": "Lag (2006:351) om genetisk integritet m.m., 6 kap. 5 §",
+   "conditions": "A person conceived by donation who is sufficiently mature has the right to information about the donor."
+  },
+  {
+   "country": "CZ",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:cz-act-373-2011",
+   "instrument": "Zákon č. 373/2011 Sb., o specifických zdravotních službách, § 10(1)",
+   "conditions": "The provider must preserve mutual anonymity between the anonymous donor and the infertile couple, and between the donor and the child born. Section 6(1) confines treatment to a woman and a man who undergo it together."
+  },
+  {
+   "country": "PT",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:tc-portugal-225-2018",
+   "note": "Two readings conflict and this project has resolved neither. The Constitutional Court's ruling 225/2018 heard a challenge to donor anonymity under article 15 of Lei 32/2006, argued against the child's right to know its origins under article 26 of the Constitution; the ESHRE survey's position at 31 December 2022 groups Portugal with the strict-anonymity states. The Portuguese instrument in its current form was not read."
+  },
+  {
+   "country": "FR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/",
+   "note": "The ESHRE survey lists France in both its strict-anonymity and its identity-release groups at 31 December 2022, which is the year the French change took effect. This project did not read the French instrument and will not resolve the contradiction by guessing which side of it France was on."
+  },
+  {
+   "country": "CH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/",
+   "note": "The survey's summary groups Switzerland with strict anonymity, which does not match the usual account of Swiss law. No Swiss instrument was read on this pass."
+  },
+  {
+   "country": "AT",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/",
+   "note": "Grouped with strict anonymity in the survey summary read here; no Austrian instrument was read, and the grouping is not relied on."
+  },
+  {
+   "country": "GR",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "The survey records Greece as running both anonymous and identity-release options. No Greek article number was read for this row.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "HU",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "The survey records anonymity for sperm donation and identity release for oocyte donation. No Hungarian article number was read for this row.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "BE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "Recorded as a mixed system, with both anonymous and known donation. No Belgian article number was read for this row.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "CY",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "Grouped with the strict-anonymity states at 31 December 2022. No Cypriot article number was read for this row.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "HR",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "Grouped with the strict-anonymity states at 31 December 2022.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "LT",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "Grouped with the strict-anonymity states at 31 December 2022.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "PL",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "Grouped with the strict-anonymity states at 31 December 2022.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "RO",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "instrument": "National assisted-reproduction legislation as recorded by the ESHRE survey",
+   "conditions": "The survey distinguishes imported gametes, recorded as anonymous, from local donations, recorded as identity-release.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/"
+  },
+  {
+   "country": "TR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:eshre-survey-2024",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11373472/",
+   "note": "Third-party gamete donation is itself unavailable in Türkiye, so the anonymity question does not arise in the form this table asks it. No Turkish instrument was read."
+  },
+  {
+   "country": "US",
+   "status": "unregulated",
+   "as_of": "2026-09-17",
+   "source": "s:ecfr-21-1271",
+   "note": "No federal instrument requires identity release or guarantees anonymity. 21 CFR Part 1271 governs donor eligibility, screening and testing of human cells and tissues; it is a safety regime, not a parentage or identity one. What a clinic offers is contractual, and commercial DNA databases have made the contract hard to keep."
+  },
+  {
+   "country": "IN",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "The Assisted Reproductive Technology (Regulation) Act 2021 governs donation in India; this project did not read it on this pass."
+  },
+  {
+   "country": "TH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "The 2015 Act prohibits trade in gametes and embryos; its treatment of donor identity was not read."
+  },
+  {
+   "country": "ZA",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "No South African instrument was read on this pass."
+  },
+  {
+   "country": "AU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "Donor identity is state law in Australia and Victoria's retrospective release is the most-cited example; no state act was read on this pass."
+  }
+ ],
+ "kin": [
+  {
+   "to": "egg-donation",
+   "as": "The procedure this question follows.",
+   "rel": "procedure"
+  },
+  {
+   "to": "sperm-donation",
+   "as": "The other half of it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment the donation feeds.",
+   "rel": "procedure"
+  },
+  {
+   "to": "spain",
+   "as": "The destination whose rule runs opposite to most of its neighbours.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The source market that ended anonymity in 2005.",
+   "rel": "destination"
+  },
+  {
+   "to": "hfea",
+   "as": "The regulator that holds the British register and publishes what it releases.",
+   "rel": "org"
+  },
+  {
+   "to": "eshre",
+   "as": "The society whose survey is the widest comparative reading of European law here.",
+   "rel": "org"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "The neighbouring question, often in the same statute.",
+   "rel": "kin"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for what the rows below produce.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "The argument, reported.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:es-ley-14-2006",
+  "s:uk-donor-info-regs-2004",
+  "s:hfea-donor-info",
+  "s:de-saregg",
+  "s:nl-donor-data-act",
+  "s:se-genetic-integrity-act",
+  "s:cz-act-373-2011",
+  "s:eshre-survey-2024",
+  "s:tc-portugal-225-2018",
+  "s:sef-registro-2022",
+  "s:ecfr-21-1271",
+  "s:hcch-parentage-surrogacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:es-ley-14-2006"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:sef-registro-2022",
+    "note": "the registry figures are the registry's own; the stretches marked *Inference —* are this project's reasoning and are not claims of causation"
+   },
+   "legality": {
+    "tier": "cited",
+    "source": "s:eshre-survey-2024",
+    "note": "rows resting on the comparative survey say so in their own note; rows resting on a named national instrument cite it"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

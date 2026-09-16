@@ -1,0 +1,319 @@
+{
+ "id": "surrogacy-law",
+ "names": {
+  "name": "Surrogacy law across borders",
+  "aliases": [
+   "surrogate motherhood agreements",
+   "gestational surrogacy law",
+   "parental orders"
+  ],
+  "said": "Two questions, not one: whether the arrangement is lawful where it happens, and whether the parenthood it creates is recognised where the child goes home."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Where a surrogacy arrangement may lawfully be made, for whom, and on what terms. The legality rows below read one named instrument per jurisdiction, on one date. Three broad settlements recur: altruistic surrogacy permitted under a supervising body and a court, with a residence requirement that closes it to arrivals; an explicit or implicit prohibition; and no regulation at all, which is not permission but absence.",
+  "story": "The residence requirement is the pattern. Every European Member State that has legislated for surrogacy — Greece, Cyprus, Portugal, Ireland — requires the intended parents, the surrogate, or both to live there. The European Parliamentary Research Service puts it plainly across the four: all of them require permanent or habitual residence in the country where the child is to be born, and Ireland asks for two years of it.\n\nThe states that permit it therefore permit it for their own residents. The states that arrivals actually travel to are, mostly, the states that have not legislated — and in those the arrangement is not protected, the contract may be unenforceable, and parenthood is established, if at all, after the fact.\n\nThe second question is recognition at home, and it is a different body of law. Since 2014 the European Court of Human Rights has issued a run of judgments on parenthood established abroad, the effect of which is that a state which refuses to recognise it must provide some means of regularising what the Court calls a limping legal relationship. The Hague Conference has run a project on parentage and surrogacy for years; the European Commission proposed a parenthood regulation in 2022 and the Council is still discussing it.\n\nItaly is the outlier and worth naming for it: Article 12(6) of Legge 40/2004 was amended in November 2024 to reach Italian nationals who conclude a surrogacy agreement abroad. It is the only extraterritorial clause among the Member States the briefing surveys.\n\nThe two big Asian destinations closed within a year of each other and closed by nationality rather than by conduct. India's 2021 Act defines a couple as a legally married Indian man and woman. Thailand's 2015 Act, passed after a scandal over a child left behind by foreign intended parents, requires adult Thai citizenship. *Inference —* a nationality gate is a cleaner instrument than a conduct rule: it does not ask what was paid or who arranged it, and it cannot be satisfied by any amount of documentation.\n\n*Inference —* the rows that say no-data are the other half of this table, and they are statements about this project rather than about those countries. Georgia, Ukraine and Mexico are among the places most often named in this trade, and no national instrument for any of them could be read on this pass.",
+  "how": "Reading a row: status describes the position for an arrangement made in that jurisdiction, not the recognition of one made elsewhere. A prohibition in the country of origin can still block recognition on public-policy grounds, which is a separate question this table does not answer.\n\nWhat a reader would have to establish, and what no table can answer: whose law governs the agreement, which court establishes parenthood and when, whether the child acquires a nationality at birth and which, what travel document the child needs to leave, and what the home state does on arrival.",
+  "today": "As of 17 September 2026 the European rows rest on the European Parliamentary Research Service briefing of February 2025, which names the national instrument for each Member State it covers. The Indian and Thai rows are read off the statutes themselves. Every row carries the date it was read, and a row older than the law is a wrong row."
+ },
+ "legality": [
+  {
+   "country": "GR",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Law 3089/2002 amending the Civil Code, with Law 3305/2005 on medically assisted reproduction",
+   "conditions": "Altruistic only; the intended mother must be medically unable to carry, must reside in Greece, and a family court approves the agreement before embryo transfer. Maximum intended-parent age 50, extendable to 54. The surrogate must be 25 to 50 and may act at most twice. Expenses are capped: EUR 10,000 for physical strain in a single pregnancy, EUR 15,000 for a multiple, and lost income capped at EUR 10,000.",
+   "note": "81 children were born from surrogacy arrangements in 2022 and 51 in 2023, on the figures the briefing carries."
+  },
+  {
+   "country": "CY",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Medically Assisted Reproduction Law 2015 (69(I)/2015), Articles 22 to 27",
+   "conditions": "Altruistic only; a special body consents and a family court approves before transfer. The surrogate must normally reside in Cyprus, with one exception: if no surrogate can be found, one residing abroad may be used provided she is in Cyprus from the 28th week.",
+   "note": "21 applications in 2022 and 10 in 2023, all approved except one each year. More detailed decrees are envisaged."
+  },
+  {
+   "country": "PT",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Lei 90/2021, amending Lei 32/2006 on medically assisted procreation",
+   "conditions": "Altruistic only, and the implementing regulation is still missing: the law entered into force on 1 January 2022, and on 13 January 2024 the President referred a draft regulation back to the government. Without it the route does not run.",
+   "note": "Two earlier attempts, Lei 25/2016 and its amended successor, were held unconstitutional in rulings 225/2018 and 465/2019, chiefly over the surrogate's inability to withdraw consent."
+  },
+  {
+   "country": "IE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Health (Assisted Human Reproduction) Act 2024",
+   "conditions": "Altruistic only; the relevant sections were not yet in force at the briefing's date. At least one intended parent and the surrogate must have resided in Ireland for two years; intended parents must be 21 or over; at least one must be genetically related to the child; a parental order is made by a court between 28 days and six months after birth."
+  },
+  {
+   "country": "ES",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:es-ley-14-2006",
+   "instrument": "Ley 14/2006 sobre técnicas de reproducción humana asistida, artículo 10",
+   "note": "The contract is null of full right, with or without payment, and parentage follows the birth. The same prohibition stood in article 10 of the predecessor Ley 35/1988."
+  },
+  {
+   "country": "DE",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Embryonenschutzgesetz § 1(1)(7), with Adoptionsvermittlungsgesetz Article 13c",
+   "note": "The Embryo Protection Act penalises the medical professional with up to three years; the adoption placement act prohibits the arrangement itself."
+  },
+  {
+   "country": "HR",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Article 31 of Law NN 86/12 on medically assisted reproduction"
+  },
+  {
+   "country": "LT",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Article 11 of Law XII-2608 on Assisted Reproduction"
+  },
+  {
+   "country": "IT",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Article 12(6) of Legge 40/2004",
+   "note": "Three months to two years' imprisonment. Amended in November 2024 to reach Italian nationals who conclude a surrogacy agreement abroad — the only extraterritorial clause among the Member States the briefing surveys."
+  },
+  {
+   "country": "FR",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Code civil, article 16-7",
+   "note": "Any surrogacy agreement has been null and void since 1994."
+  },
+  {
+   "country": "HU",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:ep-surrogacy-2025",
+   "instrument": "Implicit prohibition under the assisted reproduction rules, which confine treatment to a marriage or registered partnership",
+   "note": "The briefing groups Hungary with Austria, Estonia, Finland and Sweden as implicit bans and names no article; this project has not read the Hungarian instrument."
+  },
+  {
+   "country": "CZ",
+   "status": "unregulated",
+   "as_of": "2026-09-17",
+   "source": "s:wp-surrogacy-laws",
+   "note": "Recorded as unregulated, which means arrangements happen but parentage and enforcement are unsettled. No Czech instrument was read for this row."
+  },
+  {
+   "country": "IN",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:in-surrogacy-act-2021",
+   "instrument": "The Surrogacy (Regulation) Act, 2021 (Act No. 47 of 2021), sections 2(h), 2(r), 2(s) and 4",
+   "conditions": "Closed to foreign intended parents by definition: section 2(h) defines a couple as \"the legally married Indian man and woman\", and section 2(s) defines an intending woman as an Indian widow or divorcee aged 35 to 45. Altruistic only. A medical indication is required, certified by a District Medical Board; the couple must be married and aged 23 to 50 (female) and 26 to 55 (male); they must have no surviving child; and a magistrate's order on parentage and custody must precede the procedure.",
+   "note": "A couple of Indian origin must obtain a certificate of recommendation from the Board."
+  },
+  {
+   "country": "TH",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:stasi-thailand-art-act-2017",
+   "instrument": "Protection for Children Born through Assisted Reproductive Technologies Act, B.E. 2558 (2015), section 21(1)",
+   "conditions": "The intending parents must be adult Thai citizens, or where only one is Thai must have been married at least three years, and must be a legally married couple whose wife cannot conceive. Commercial surrogacy, trade in gametes and embryos, brokering and promotion are prohibited.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753847/",
+   "note": "Enacted 19 February 2015 after a scandal over a surrogate child abandoned by foreign intended parents; in effect 30 July 2015. Surrogacy for profit carries 10 years and up to 200,000 baht; acting as an agent, 5 years and up to 100,000 baht."
+  },
+  {
+   "country": "ZA",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:za-childrens-act-2005",
+   "instrument": "Children's Act 38 of 2005, Chapter 19 (surrogate motherhood agreements)",
+   "conditions": "The agreement must be confirmed by the High Court before artificial fertilisation, and the chapter ties the arrangement to domicile in the Republic.",
+   "note": "This project read the Act's chapter heading and structure; the domicile subsection was not quoted on this pass."
+  },
+  {
+   "country": "GB",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:uk-surrogacy-act-1985",
+   "instrument": "Surrogacy Arrangements Act 1985, sections 2 and 3, with the Human Fertilisation and Embryology Act 2008, section 54",
+   "conditions": "Altruistic only: negotiating a surrogacy arrangement on a commercial basis and advertising are offences under the 1985 Act. The agreement is unenforceable, and parenthood transfers only by a parental order under section 54, which requires at least one applicant to be domiciled in the United Kingdom."
+  },
+  {
+   "country": "CA",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ca-ahra-2004",
+   "instrument": "Assisted Human Reproduction Act (S.C. 2004, c. 2), section 6",
+   "conditions": "Paying a surrogate, offering to pay, or advertising such payment is an offence; reimbursement of receipted expenditure is permitted under the regulations. Parentage is provincial law."
+  },
+  {
+   "country": "US",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ca-fam-7962",
+   "instrument": "No federal statute; state law governs. California Family Code § 7962 is the example read for this row.",
+   "conditions": "California's section requires separate independent counsel for the surrogate and the intended parents, notarised signatures, and disclosure of how the intended parents will cover medical expenses. It carries no residency requirement and no cap on compensation. Other states prohibit or restrict the arrangement; this project has read no other state's code."
+  },
+  {
+   "country": "GE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "Georgia is widely described as permitting commercial surrogacy for foreign intended parents, and a restriction has been announced repeatedly since 2023. The consolidated Law of Georgia on Health Care could not be read to its Article 143 on this pass, and this project will not print an article it has not read."
+  },
+  {
+   "country": "UA",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "Ukraine is one of the largest destinations for commissioned surrogacy. No Ukrainian instrument was read on this pass."
+  },
+  {
+   "country": "IL",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "No Israeli instrument was read on this pass."
+  },
+  {
+   "country": "CN",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "No Chinese instrument was read on this pass."
+  },
+  {
+   "country": "MX",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "Mexican law is state law and has moved repeatedly through the federal courts. No state code was read on this pass."
+  },
+  {
+   "country": "CO",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "No Colombian instrument was read on this pass."
+  },
+  {
+   "country": "AU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:hcch-parentage-surrogacy",
+   "note": "Surrogacy in Australia is state and territory law, and some states reach arrangements made abroad. No state act was read on this pass."
+  }
+ ],
+ "kin": [
+  {
+   "to": "surrogacy",
+   "as": "The procedure these instruments govern.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment that makes gestational surrogacy possible, and which many of the same acts regulate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for travelling because the law at home says no.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The wider category this sits in.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "The argument, reported.",
+   "rel": "story"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The neighbouring question, on the same treatments and often in the same statute.",
+   "rel": "kin"
+  },
+  {
+   "to": "eshre",
+   "as": "The society whose European survey maps the surrounding fertility law.",
+   "rel": "org"
+  },
+  {
+   "to": "india",
+   "as": "The destination that closed by nationality in 2021.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "as": "The destination that closed by nationality in 2015.",
+   "rel": "destination"
+  },
+  {
+   "to": "greece",
+   "as": "One of the four Member States with a working altruistic regime, and a residence requirement.",
+   "rel": "destination"
+  },
+  {
+   "to": "the-visa",
+   "as": "Why the stated purpose of a journey matters here more than anywhere else.",
+   "rel": "pathway"
+  }
+ ],
+ "sources": [
+  "s:ep-surrogacy-2025",
+  "s:hcch-parentage-surrogacy",
+  "s:in-surrogacy-act-2021",
+  "s:za-childrens-act-2005",
+  "s:uk-surrogacy-act-1985",
+  "s:uk-hfea-2008",
+  "s:ca-ahra-2004",
+  "s:es-ley-14-2006",
+  "s:stasi-thailand-art-act-2017",
+  "s:hibino-thailand-surrogacy-2020",
+  "s:ca-fam-7962",
+  "s:wp-surrogacy-laws",
+  "s:hfea-surrogacy"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ep-surrogacy-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ep-surrogacy-2025",
+    "note": "the stretches marked *Inference —* are this project reasoning from the instruments read"
+   },
+   "legality": {
+    "tier": "cited",
+    "source": "s:ep-surrogacy-2025",
+    "note": "each row names its own instrument and source; a no-data row means this project could not read the instrument, not that none exists"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}
