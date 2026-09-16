@@ -1,0 +1,504 @@
+{
+ "schema": 1,
+ "id": "jci",
+ "type": "org",
+ "names": {
+  "name": "Joint Commission International",
+  "aliases": [
+   "JCI"
+  ],
+  "said": "Hospitals write JCI-accredited on the homepage and the brochure. Almost nobody writes the date the cycle ends."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "US",
+  "founded": 1998,
+  "status": "open"
+ },
+ "text": {
+  "what": "The international arm of the Joint Commission, the body that accredits hospitals in the United States. Founded in 1998 and run through Joint Commission Resources, a not-for-profit private affiliate, it surveys hospitals, clinics and programmes outside the United States against its own standards and grants a three-year accreditation. It is the mark most often named when a hospital abroad advertises itself to a foreign patient.",
+  "story": "The hospital applies. The hospital pays. JCI quotes an average of 46,000 US dollars a year to hold the accreditation, plus travel and other costs, and the fee is set from the services a hospital offers and its average daily census. That structure is not a scandal; it is how nearly every voluntary accreditation on earth works, and saying it out loud is the only way a reader can size what the mark means.\n\nThe survey is scheduled. JCI's own American surveys are unannounced; its international ones \"still take place at a time known in advance by the hospitals being surveyed, often after considerable preparation by those hospitals\". A reader who takes the mark as a snapshot of any ordinary Tuesday is reading it wrong.\n\n*Inference —* what the accreditation reliably certifies is that a named external body inspected named systems on a named date and found them conforming. It does not rank hospitals against each other, does not measure surgical outcomes, and does not survive the three years by itself. This directory therefore counts accreditations and never weighs them.",
+  "how": "An organisation applies, signs a contract, pays a deposit against the survey fee, prepares, and is surveyed on an agreed date by a team of physicians, nurses and administrators working the tracer method — following real patients through real systems. Accreditation runs three years. The standards are published as manuals JCI sells; the directory of accredited organisations sits on JCI's own site. Reaccreditation is another survey and another fee.",
+  "today": "As of 16 September 2026 JCI accredits organisations in more than 60 countries. Its own site refused every automated fetch on that date, so the figures here come from the secondary source named in sources, and the count is dated rather than current.",
+  "notes": "An accreditation is a fact about an inspection somebody bought. It is not a quality score, and this site does not read it as one."
+ },
+ "geo": {
+  "lat": 41.8497,
+  "lon": -87.9773,
+  "precision": "city",
+  "source": "s:jci-wikipedia"
+ },
+ "address": {
+  "city": "Oakbrook Terrace",
+  "area": "Illinois",
+  "country": "US"
+ },
+ "kin": [
+  {
+   "to": "isqua-ieea",
+   "as": "The body that accredits accreditors, and the answer to who checks this one.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Took this mark in 2002, early for Asia, and has renewed it five times.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci-accredited-list",
+   "as": "The published directory this site draws its accreditation counts from.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "The argument over what a bought inspection proves, laid out at length.",
+   "rel": "story"
+  },
+  {
+   "to": "temos",
+   "as": "A competitor built for international patients rather than for hospitals in general.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gha",
+   "as": "A competitor that certifies the travel pathway rather than the clinical unit.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "as": "The country whose hospitals hold more of these marks than any other in Southeast Asia.",
+   "rel": "place"
+  }
+ ],
+ "links": [
+  {
+   "label": "Joint Commission International",
+   "url": "https://www.jointcommissioninternational.org/"
+  }
+ ],
+ "sources": [
+  "s:jci-wikipedia",
+  "s:jci-accreditation"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:jci-wikipedia",
+    "note": "the third paragraph is marked as this project's inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of a JCI survey cycle; the three-year interval and the public directory are cited"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The international arm of the Joint Commission, the body that accredits hospitals in the United States.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "The body that accredits accreditors, and the answer to who checks this one.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Took this mark in 2002, early for Asia, and has renewed it five times.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "The published directory this site draws its accreditation counts from.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "The argument over what a bought inspection proves, laid out at length.",
+   "rel": "story"
+  },
+  {
+   "to": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "A competitor built for international patients rather than for hospitals in general.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "A competitor that certifies the travel pathway rather than the clinical unit.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The country whose hospitals hold more of these marks than any other in Southeast Asia.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:jci-wikipedia",
+   "kind": "wikipedia",
+   "title": "Joint Commission International",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Joint_Commission_International",
+   "accessed": "2026-09-16",
+   "note": "used for the 1998 founding, the Joint Commission Resources affiliation, the quoted average annual fee and the announced-survey criticism; jointcommissioninternational.org redirected to jointcommission.org, which refused every fetch on this date"
+  },
+  {
+   "id": "s:jci-accreditation",
+   "kind": "org",
+   "title": "Joint Commission International — accreditation standards and accredited organizations",
+   "publisher": "Joint Commission International",
+   "url": "https://www.jointcommissioninternational.org/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia",
+   "note": "the third paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of a JCI survey cycle; the three-year interval and the public directory are cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The accreditor whose mark the San José hospitals hold.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "amman",
+   "type": "hub",
+   "name": "Amman",
+   "as": "The accreditor whose mark this city's flagship hospital carries, undated on the page read.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "bogota",
+   "type": "hub",
+   "name": "Bogotá",
+   "as": "Accredited the city's flagship hospital in 2010 and has renewed it five times since.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "cancun",
+   "type": "hub",
+   "name": "Cancún",
+   "as": "One of four schemes the city's main private hospital names on its own accreditations page.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "panama-city",
+   "type": "hub",
+   "name": "Panama City",
+   "as": "The mark the flagship hospital counts in fifths, without dating any of them.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "san-jose-cr",
+   "type": "hub",
+   "name": "San José, Costa Rica",
+   "as": "The mark the cluster's flagship hospital leads with.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The accreditor whose mark seven of its hospitals hold.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "albert-einstein-sao-paulo",
+   "type": "facility",
+   "name": "Hospital Israelita Albert Einstein",
+   "as": "The first institution outside the United States it accredited, in 1999.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "Its accreditor, and the first award the body made in the Middle East.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "anadolu-medical-center",
+   "type": "facility",
+   "name": "Anadolu Medical Center",
+   "as": "The accreditor whose mark it has held since 2007, re-surveyed every three years to a seventh award.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "An accreditor Apollo hospitals took early for India.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "The international accreditor whose seal sits in its footer, undated.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "The accreditor whose mark it took in 2002, early for Asia.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "clinica-biblica",
+   "type": "facility",
+   "name": "Hospital Clínica Bíblica",
+   "as": "Its accreditor, shown as the gold seal on its own front page without a date.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "fundacion-santa-fe",
+   "type": "facility",
+   "name": "Fundación Santa Fe de Bogotá",
+   "as": "Its accreditor since 2010, in the academic medical centre category, renewed five times.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "The international accreditor whose mark it holds alongside the Malaysian national one.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "hospital-cima-san-jose",
+   "type": "facility",
+   "name": "Hospital CIMA San José",
+   "as": "Its accreditor, undated in the sources read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "Its accreditor, in the disease-specific category rather than the hospital-wide one.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "kokilaben",
+   "type": "facility",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "as": "One of four bodies whose marks it carries on its own front page.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "liv-hospital",
+   "type": "facility",
+   "name": "Liv Hospital",
+   "as": "Named on its site as its accreditor, without a year or a campus.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "memorial-sisli",
+   "type": "facility",
+   "name": "Memorial Şişli Hospital",
+   "as": "The accreditor whose mark it took first in the country and 21st in the world.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "Named as its accreditor, undated in the source read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "narayana-health",
+   "type": "facility",
+   "name": "Narayana Health",
+   "as": "The accreditor whose mark two of its twenty-five hospitals hold.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "raffles-hospital",
+   "type": "facility",
+   "name": "Raffles Hospital",
+   "as": "Named as its accreditor, undated on the pages read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "samitivej",
+   "type": "facility",
+   "name": "Samitivej Sukhumvit Hospital",
+   "as": "The accreditor it names, without a year.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "Its accreditor since 2007, the first award the body made in Korea.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "Certifies that a hospital runs a process; it is not a party to a consent.",
+   "rel": "contrast"
+  },
+  {
+   "from": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Accreditation is not a forum, and the accreditor is not a party.",
+   "rel": "contrast"
+  },
+  {
+   "from": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The accreditation the top membership tier is built on.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "aaci",
+   "type": "org",
+   "name": "American Accreditation Commission International",
+   "as": "The scheme it most often appears beside on a hospital's badge wall.",
+   "rel": "contrast"
+  },
+  {
+   "from": "cbahi",
+   "type": "org",
+   "name": "Saudi Central Board for Accreditation of Healthcare Institutions",
+   "as": "The voluntary international mark Saudi hospitals hold on top of this compulsory one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "The voluntary mark Dubai's private hospitals buy on top of this compulsory licence.",
+   "rel": "org"
+  },
+  {
+   "from": "dnv-healthcare",
+   "type": "org",
+   "name": "DNV Healthcare",
+   "as": "The scheme it broke a near-monopoly on in the United States in 2008.",
+   "rel": "contrast"
+  },
+  {
+   "from": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "Surveys the ward where this scheme surveys the journey; the two are not substitutes.",
+   "rel": "contrast"
+  },
+  {
+   "from": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "One of the accreditors whose standards it sits above, and the largest.",
+   "rel": "accredits"
+  },
+  {
+   "from": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The international mark an Indian hospital holds alongside this one, for a different audience.",
+   "rel": "contrast"
+  },
+  {
+   "from": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "The larger competitor, built for hospitals rather than for international patients.",
+   "rel": "contrast"
+  },
+  {
+   "from": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "The purchased international mark a Thai hospital holds for a different audience.",
+   "rel": "contrast"
+  },
+  {
+   "from": "turkiye-health-services-directorate",
+   "type": "org",
+   "name": "Türkiye General Directorate of Health Services",
+   "as": "A voluntary mark a hospital buys, against a compulsory state certificate it must hold to trade at all.",
+   "rel": "contrast"
+  },
+  {
+   "from": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "The body that keeps the list, sells the standards and takes the fee.",
+   "rel": "org"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "The mark most often named, at a stated average of 46,000 dollars a year, surveyed on an agreed date.",
+   "rel": "org"
+  }
+ ]
+}

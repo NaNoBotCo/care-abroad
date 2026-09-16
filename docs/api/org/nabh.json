@@ -1,0 +1,295 @@
+{
+ "schema": 1,
+ "id": "nabh",
+ "type": "org",
+ "names": {
+  "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+  "aliases": [
+   "NABH"
+  ],
+  "said": "In India a hospital says NABH the way a hospital in Bangkok says JCI, and the two are not the same object."
+ },
+ "region": [
+  "south-asia",
+  "global"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "IN",
+  "founded": 2005,
+  "status": "open"
+ },
+ "text": {
+  "what": "India's hospital accreditation board, set up in 2005 as a constituent board of the Quality Council of India. It accredits hospitals, small healthcare organisations, eye care centres, blood banks, clinics, AYUSH hospitals, ethics committees and laboratories, and its accreditation is reassessed every two years rather than every three.",
+  "story": "NABH matters to cross-border care for a reason that has nothing to do with quality: it is the gate. Indian government schemes and insurer empanelment — CGHS, ECHS — run through NABH status, so accreditation in India is tied to being paid domestically in a way that a voluntary international mark is not.\n\nThat changes the incentive. A hospital chasing JCI is chasing a foreign patient's confidence. A hospital chasing NABH is chasing both that and a domestic reimbursement channel, and the second is the larger sum for almost every hospital in the country.\n\n*Inference —* a foreign reader comparing an Indian hospital's NABH mark with a Thai hospital's JCI mark is comparing two different instruments. One is a national scheme with money attached; the other is an international product. Counting them as equivalent badges flattens the difference.",
+  "how": "The hospital applies to NABH, pays, is assessed, and is reassessed every two years. The standards are published, currently in their fifth edition, and the accredited organisations are searchable on NABH's own site. The standards themselves hold an ISQua EEA award.",
+  "today": "As of 16 September 2026 NABH's homepage claims more than 30,000 accreditations and certifications across all its programmes — a count of certificates across every scheme it runs, not of accredited hospitals. The hospital figure most often cited is 1,299."
+ },
+ "geo": {
+  "lat": 28.6139,
+  "lon": 77.209,
+  "precision": "city",
+  "source": "s:nabh-home"
+ },
+ "address": {
+  "city": "New Delhi",
+  "country": "IN"
+ },
+ "recognitions": [
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation of the NABH hospital standards",
+   "year": null,
+   "valid_until": null,
+   "source": "s:nabh-wikipedia",
+   "url": "https://nabh.co/",
+   "note": "award year not established from the pages read for this record"
+  }
+ ],
+ "kin": [
+  {
+   "to": "india",
+   "as": "The country whose hospitals this scheme gates, for domestic payment as much as for foreign patients.",
+   "rel": "place"
+  },
+  {
+   "to": "apollo-chennai",
+   "as": "One of the private hospitals whose badge wall carries this mark.",
+   "rel": "accredits"
+  },
+  {
+   "to": "fortis-gurgaon",
+   "as": "Another, in the Delhi cluster.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci",
+   "as": "The international mark an Indian hospital holds alongside this one, for a different audience.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The other Indian instrument a foreign patient meets before arrival.",
+   "rel": "governed-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "NABH",
+   "url": "https://nabh.co/"
+  }
+ ],
+ "sources": [
+  "s:nabh-home",
+  "s:nabh-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:nabh-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:nabh-home",
+    "note": "the empanelment link is from NABH's own programme list; the closing paragraph is marked as inference"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "NABH operates from the Quality Council of India offices in New Delhi; city precision only"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "India's hospital accreditation board, set up in 2005 as a constituent board of the Quality Council of India.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  },
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The country whose hospitals this scheme gates, for domestic payment as much as for foreign patients.",
+   "rel": "place"
+  },
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "One of the private hospitals whose badge wall carries this mark.",
+   "rel": "accredits"
+  },
+  {
+   "to": "fortis-gurgaon",
+   "type": "facility",
+   "name": "Fortis Memorial Research Institute, Gurugram",
+   "as": "Another, in the Delhi cluster.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The international mark an Indian hospital holds alongside this one, for a different audience.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The other Indian instrument a foreign patient meets before arrival.",
+   "rel": "governed-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:nabh-home",
+   "kind": "web",
+   "title": "National Accreditation Board for Hospitals & Healthcare Providers",
+   "publisher": "NABH",
+   "url": "https://nabh.co/",
+   "accessed": "2026-09-16",
+   "note": "the programme list, the Find an Accredited Healthcare Organisation search, and the headline figure of more than 30,000 accreditations and certifications"
+  },
+  {
+   "id": "s:nabh-wikipedia",
+   "kind": "wikipedia",
+   "title": "National Accreditation Board for Hospitals & Healthcare Providers",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Accreditation_Board_for_Hospitals_%26_Healthcare_Providers",
+   "accessed": "2026-09-16",
+   "note": "2005 establishment under the Quality Council of India, the two-year reassessment interval, and the count of accredited hospitals"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:nabh-wikipedia"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:nabh-home",
+   "note": "the empanelment link is from NABH's own programme list; the closing paragraph is marked as inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:nabh-wikipedia"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:nabh-wikipedia"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "NABH operates from the Quality Council of India offices in New Delhi; city precision only"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:nabh-wikipedia"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [
+  {
+   "key": "isqua-eea",
+   "label": "ISQua External Evaluation Association",
+   "what": "ISQua EEA accreditation of the NABH hospital standards",
+   "url": "https://nabh.co/",
+   "kind": "meta",
+   "year": null,
+   "valid_until": null,
+   "source": "s:nabh-wikipedia"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The national accreditor, holding more than 1,299 hospitals as of 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The Indian national board whose standard the group holds.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "fortis-gurgaon",
+   "type": "facility",
+   "name": "Fortis Memorial Research Institute, Gurugram",
+   "as": "The Indian national board; this record holds no dated grant for this hospital.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "kokilaben",
+   "type": "facility",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "as": "The Indian national board, inspecting against a domestic standard rather than an international one.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "achsi",
+   "type": "org",
+   "name": "ACHS International",
+   "as": "The Indian equivalent: a domestic scheme that also sells abroad.",
+   "rel": "contrast"
+  },
+  {
+   "from": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "Holds its award over the Indian hospital standards.",
+   "rel": "accredits"
+  },
+  {
+   "from": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "India's equivalent domestic board.",
+   "rel": "contrast"
+  },
+  {
+   "from": "prathap-reddy",
+   "type": "person",
+   "name": "Prathap C. Reddy",
+   "as": "The Indian accreditation system his group's hospitals are counted in.",
+   "rel": "org"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "A national scheme with domestic reimbursement attached, reassessed every two years.",
+   "rel": "org"
+  }
+ ]
+}

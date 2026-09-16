@@ -1,0 +1,234 @@
+{
+ "schema": 1,
+ "id": "world-bank-tourism-arrivals",
+ "type": "dataset",
+ "names": {
+  "name": "International arrivals",
+  "aliases": [
+   "ST.INT.ARVL",
+   "international tourist arrivals"
+  ],
+  "said": "Every market-size claim about this field eventually leans on an arrivals number. The series counts crossings."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "World Bank"
+ },
+ "text": {
+  "what": "How many international arrivals a country recorded in a year. The World Bank republishes it from UN Tourism's Yearbook and Compendium of Tourism Statistics. Its own definition sets the boundary: \"International inbound tourists (overnight visitors) are the number of tourists who travel to a country other than that in which they have their usual residence, but outside their usual environment, for a period not exceeding 12 months\". 199 codes carry a value here.",
+  "story": "Two sentences in the World Bank's own metadata do most of the work. The first: \"The data on inbound tourists refer to the number of arrivals, not to the number of people traveling. Thus a person who makes several trips to a country during a given period is counted each time as a new arrival.\" A patient who flies out for a consultation, again for the operation and again for a review is three arrivals and one person.\n\nThe second concerns comparability. Collection differs by country — border police in one, hotel registrations in another, air arrivals only in a third — and some countries count nationals resident abroad while others do not: \"Caution should thus be used in comparing arrivals across countries.\" Where a country cannot supply overnight visitors, the Bank prints visitors instead, which includes same-day crossings, cruise passengers and crew. Poland's 88,515,000 for 2019 and Hungary's 31,641,000 for 2020 are counts of that kind, and neither describes a holiday, still less a hospital admission.\n\nThe third thing is the calendar. For 132 of the 199 codes in this fetch the most recent year with a value is 2020, and for 70 more it is 2019. A map drawn from the latest available year therefore draws the year the borders shut, and this site says so beside the map rather than under it.\n\n*Inference —* the series has no field for purpose. Somebody who flew in for a knee replacement and somebody who flew in for a beach sit in the same cell, and no arithmetic on this table separates them. The market-research totals for this field are usually built by taking a number of this shape and applying a percentage from elsewhere; that operation is not in the data.",
+  "how": "Fetched by tools/harvest_worldbank.py from the World Bank indicator API, values from 2010 onwards, the most recent non-null year kept per country with the year stored beside the value.",
+  "notes": "The Bank's own aggregates ride the same endpoint with two-letter codes — High income (XD), OECD members (OE), Latin America & Caribbean (ZJ) — and are the largest values in the table. They are not countries and they are excluded from this site's maps by joining on the country outline file rather than on the series. Country counts on this page were re-read on 17 September 2026, after the harvest started dropping the World Bank's own aggregates — income groups, regions, the euro area — which arrive on the same endpoint wearing two-letter codes. One of them, XN, is \"Lower middle income\" at the Bank and northern Cyprus on this site's map."
+ },
+ "dataset": {
+  "publisher": "World Bank Open Data, from UN Tourism (Yearbook and Compendium of Tourism Statistics)",
+  "url": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+  "api": "https://api.worldbank.org/v2/country/all/indicator/ST.INT.ARVL?format=json",
+  "license": "CC BY 4.0",
+  "unit": "arrivals a year",
+  "indicator": "ST.INT.ARVL",
+  "years": "2010 to the most recent reporting year; 132 codes stand at 2020 and 70 at 2019",
+  "countries": 199,
+  "updated_by_publisher": "annually, as UN Tourism compiles national returns; coverage past 2020 is thin",
+  "counts": "Arrivals of overnight visitors from abroad, or, where a country cannot report those, visitors — which takes in same-day crossings, cruise passengers and crew.",
+  "does_not_count": "People. Each trip by the same person counts again, so the total is crossings, not travellers. Nothing in the series records why anybody came: there is no treatment field, no purpose field, and no way to separate a patient from a holidaymaker or a visiting relative. It counts nobody who crossed by land where a country reports air arrivals only — which removes most of the Mexican border dental trade — and nobody who did not appear at a border at all."
+ },
+ "kin": [
+  {
+   "to": "counting-patients",
+   "as": "The story this series is the main exhibit in: what an arrivals figure will and will not carry.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The money series beside it, and the one that also cannot see a foreign patient.",
+   "rel": "dataset"
+  },
+  {
+   "to": "mexico",
+   "as": "51,128,000 arrivals in 2020, in the country whose dental trade mostly walks across a line.",
+   "rel": "measures"
+  },
+  {
+   "to": "thailand",
+   "as": "39,916,000 arrivals in 2019, the figure most often repurposed as a medical-travel total.",
+   "rel": "measures"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A table with no field for why anyone came.",
+   "rel": "story"
+  },
+  {
+   "to": "medical-tourism",
+   "as": "The word whose market-size claims are built on numbers of this shape.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "World Bank indicator page",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL"
+  },
+  {
+   "label": "UN Tourism statistics database",
+   "url": "https://www.unwto.org/tourism-statistics/tourism-statistics-database"
+  }
+ ],
+ "sources": [
+  "s:wb-tourist-arrivals",
+  "s:worldbank-open-data",
+  "s:un-tourism-statistics"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:wb-tourist-arrivals"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wb-tourist-arrivals",
+    "note": "the quoted sentences are the World Bank's own indicator metadata; the values and year counts are from data/harvest/worldbank.json; the closing paragraph is marked inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "How many international arrivals a country recorded in a year. The World Bank republishes it from UN Tourism's Yearbook and Compendium of Tourism Statistics.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The story this series is the main exhibit in: what an arrivals figure will and will not carry.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The money series beside it, and the one that also cannot see a foreign patient.",
+   "rel": "dataset"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "51,128,000 arrivals in 2020, in the country whose dental trade mostly walks across a line.",
+   "rel": "measures"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "39,916,000 arrivals in 2019, the figure most often repurposed as a medical-travel total.",
+   "rel": "measures"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A table with no field for why anyone came.",
+   "rel": "story"
+  },
+  {
+   "to": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The word whose market-size claims are built on numbers of this shape.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wb-tourist-arrivals",
+   "kind": "dataset",
+   "title": "International tourism, number of arrivals — indicator ST.INT.ARVL",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "the long definition and its caveats read off https://api.worldbank.org/v2/indicator/ST.INT.ARVL?format=json, including the sentences on differing national collection methods and on arrivals not being people; source organisation UN Tourism, Yearbook and Compendium of Tourism Statistics"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:un-tourism-statistics",
+   "kind": "dataset",
+   "title": "Tourism Statistics Database",
+   "publisher": "UN Tourism (World Tourism Organization)",
+   "url": "https://www.unwto.org/tourism-statistics/tourism-statistics-database",
+   "accessed": "2026-09-17",
+   "note": "the Yearbook and Compendium of Tourism Statistics, which the World Bank republishes as ST.INT.ARVL"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:wb-tourist-arrivals"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wb-tourist-arrivals",
+   "note": "the quoted sentences are the World Bank's own indicator metadata; the values and year counts are from data/harvest/worldbank.json; the closing paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "harvested",
+   "source": "s:wb-tourist-arrivals"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "The series the survey share above is a percentage of.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "covid-shutdown-2020",
+   "type": "event",
+   "name": "The 2020 shutdown",
+   "as": "The series where 2020 is still the most recent year for 132 of 223 codes.",
+   "rel": "dataset"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The arrivals series with no purpose field at all, which is why it cannot be used here.",
+   "rel": "dataset"
+  },
+  {
+   "from": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Counts crossings with no purpose field, and misses the land border entirely where a country reports air arrivals only.",
+   "rel": "dataset"
+  }
+ ]
+}

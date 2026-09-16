@@ -1,0 +1,253 @@
+{
+ "id": "us-medicare-abroad",
+ "names": {
+  "name": "Medicare outside the United States",
+  "aliases": [
+   "42 CFR Part 424 Subpart H",
+   "foreign hospital services"
+  ],
+  "said": "Medicare's own page opens with the rule and then spends the rest of the page on the exceptions."
+ },
+ "region": [
+  "north-america"
+ ],
+ "facets": {
+  "kind": "entitlement",
+  "iso2": "US",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Medicare does not pay for healthcare outside the United States, with three narrow exceptions written into 42 CFR Part 424, Subpart H. None of them covers planned treatment. The programme's own summary: \"Medicare usually doesn't cover health care while you're traveling outside the U.S. but there are some exceptions.\"",
+  "story": "The exceptions are geographic accidents, not policy choices. Under 42 CFR 424.122, Part A pays for emergency inpatient hospital services in a foreign country where the beneficiary was \"In the United States\" or \"In Canada traveling between Alaska and another State without unreasonable delay and by the most direct route\" when the emergency arose, and where \"The foreign hospital was closer to, or more accessible from, the site of the emergency than the nearest United States hospital equipped to deal with, and available to treat, the individual's illness or injury\". A second limb covers non-emergency inpatient services at a foreign hospital closer to the beneficiary's residence than any US hospital that could treat them — which in practice means a border town. Section 424.124 then pays for the physician and ambulance services attached to a covered inpatient stay, provided the physician is \"legally authorized to practice in the country where he or she furnishes the services\".\n\nMedicare.gov adds a cruise ship rule: Part B may pay for services aboard a ship in a US port or \"no more than 6 hours away from a U.S. port\".\n\n*Inference —* every exception is about proximity at the moment of an emergency. A beneficiary who plans a knee replacement in Costa Rica falls outside all of them, and so does the complication that follows it home — which is covered, because it is treated in the United States, by a programme that never saw the operation and holds no record of it. The person who paid for the surgery abroad and the programme that pays for its aftermath are not the same payer, and nobody counts the transfer.\n\nMedigap supplemental policies are a separate matter and some do carry foreign travel emergency benefit; the CDC's Yellow Book chapter on travel insurance sets out the limits alongside medical evacuation costs, which it puts at USD 25,000 to over USD 250,000.",
+  "how": "A foreign hospital is not obliged to bill Medicare. Medicare.gov: \"Foreign hospitals aren't required to file Medicare claims for your travel medical costs. You need to submit an itemized bill to Medicare\" where the admission qualifies and the hospital does not file. The beneficiary therefore pays, collects the itemised bill, and claims — the same sequence the EU Directive route uses, without the entitlement underneath it.\n\nWhat a reader would have to ask of any US plan: whether it is Original Medicare, a Medicare Advantage plan with its own foreign emergency benefit, or a Medigap policy; whether the benefit is emergency-only; what the lifetime cap is; and whether medical evacuation is covered separately, since it usually is not.",
+  "today": "As of 17 September 2026 the rule and its three exceptions stand as written in 42 CFR Part 424, Subpart H. No Medicare benefit covers elective treatment abroad, and no federal programme counts how many beneficiaries buy it."
+ },
+ "kin": [
+  {
+   "to": "united-states",
+   "as": "The country whose public programme this is, and the largest source market in the world.",
+   "rel": "destination"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "The private half of the same answer.",
+   "rel": "kin"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "What a reimbursement entitlement looks like where one exists.",
+   "rel": "contrast"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "The bill the exceptions do not reach.",
+   "rel": "risk"
+  },
+  {
+   "to": "los-algodones",
+   "as": "The border town the proximity rule was not written for, and does not help.",
+   "rel": "hub"
+  },
+  {
+   "to": "out-of-pocket",
+   "as": "What a US patient abroad is, in one word.",
+   "rel": "term"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The care that is covered, because it happens on the right side of the border.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medicare.gov — Travel outside the U.S.",
+   "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s."
+  },
+  {
+   "label": "42 CFR 424.122 — emergency inpatient services in a foreign country",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.122"
+  },
+  {
+   "label": "42 CFR 424.124 — foreign physician and ambulance services",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.124"
+  }
+ ],
+ "sources": [
+  "s:medicare-travel-outside-us",
+  "s:cfr-424-122",
+  "s:cfr-424-124",
+  "s:ecfr-42-424-h",
+  "s:cdc-yellowbook-travel-insurance"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cfr-424-122"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cfr-424-122",
+    "note": "the paragraph marked *Inference —* is this project reasoning from the regulation; no source counts the transfer it describes"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:medicare-travel-outside-us"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "Medicare does not pay for healthcare outside the United States, with three narrow exceptions written into 42 CFR Part 424, Subpart H. None of them covers planned treatment.",
+ "region_terms": [
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The country whose public programme this is, and the largest source market in the world.",
+   "rel": "destination"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The private half of the same answer.",
+   "rel": "kin"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "What a reimbursement entitlement looks like where one exists.",
+   "rel": "contrast"
+  },
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The bill the exceptions do not reach.",
+   "rel": "risk"
+  },
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The border town the proximity rule was not written for, and does not help.",
+   "rel": "hub"
+  },
+  {
+   "to": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "What a US patient abroad is, in one word.",
+   "rel": "term"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The care that is covered, because it happens on the right side of the border.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:medicare-travel-outside-us",
+   "kind": "web",
+   "title": "Travel outside the U.S.",
+   "publisher": "Medicare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cfr-424-122",
+   "kind": "statute",
+   "title": "42 CFR § 424.122 — emergency inpatient hospital services furnished in a foreign country",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.122",
+   "accessed": "2026-09-17",
+   "note": "the eCFR's own page redirected to an unblock gateway on this date; the CFR text was read at the Legal Information Institute"
+  },
+  {
+   "id": "s:cfr-424-124",
+   "kind": "statute",
+   "title": "42 CFR § 424.124 — foreign physician and ambulance services",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.124",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:ecfr-42-424-h",
+   "kind": "statute",
+   "title": "42 CFR Part 424, Subpart H — Payment for services furnished in a foreign country (§§ 424.120–424.124)",
+   "publisher": "Electronic Code of Federal Regulations, U.S. Government",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-424/subpart-H",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-travel-insurance",
+   "kind": "org",
+   "title": "Travel Insurance, Travel Health Insurance, and Medical Evacuation Insurance — CDC Yellow Book 2026, chapter by Rhett J. Stoney",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html",
+   "accessed": "2026-09-16",
+   "note": "carries the USD 25,000 to over USD 250,000 medevac range, the Medicare and Medigap limits, and the finding that insurers fully paid two-thirds of travel health claims"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cfr-424-122"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:cfr-424-122",
+   "note": "the paragraph marked *Inference —* is this project reasoning from the regulation; no source counts the transfer it describes"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:medicare-travel-outside-us"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cfr-424-122"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The rule that decides what a US patient carries abroad, which is almost nothing.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The entitlement that does not extend to this, stated in the same chapter.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The territorial exclusion, in a public programme.",
+   "rel": "rule"
+  }
+ ]
+}

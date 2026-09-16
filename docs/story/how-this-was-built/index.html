@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How this was built — Care Abroad</title>
+<meta name="description" content="The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files could build the same…">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Care Abroad"><meta property="og:locale" content="en">
+<meta property="og:title" content="How this was built — Care Abroad"><meta property="og:description" content="The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files co"><meta property="og:type" content="article">
+<meta property="og:image" content="https://nanobotco.github.io/care-abroad/cards/story__how-this-was-built.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="How this was built — Care Abroad"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/care-abroad/cards/story__how-this-was-built.jpg"><meta name="twitter:title" content="How this was built — Care Abroad"><meta name="twitter:description" content="The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files co">
+<link rel="canonical" href="https://nanobotco.github.io/care-abroad/story/how-this-was-built/">
+<link rel="alternate" type="application/json" href="https://nanobotco.github.io/care-abroad/api/story/how-this-was-built.json">
+<link rel="manifest" href="../../manifest.webmanifest">
+<meta name="theme-color" content="#2a78d6">
+<link rel="icon" href="../../icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Care Abroad" href="../../opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Care Abroad updates" href="../../feed.xml">
+
+<style>
+:root{--bg:#f7f6f2;--panel:#fffefb;--ink:#15171a;--mute:#5f6670;--line:#e0ddd4;
+  --blue:#2a78d6;--ember:#eb6834;--aqua:#1baf7a;--deep:#184f95;--warn:#fab219;--crit:#d03b3b;
+  --chip:#eceae2;--focus:#1f5fa8;--land:#e2ded1;--landline:#b9b3a2;
+  /* A directory about hospitals should read like a timetable, not like a brochure: a
+     grotesque for headings, a humanist sans for the reading text, tabular figures
+     wherever a number sits beside another number. All of it is already on the machine. */
+  --display:"Helvetica Neue","Inter","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+  --body:"Charter","Iowan Old Style","Source Serif 4",Georgia,"Times New Roman",serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#101215;--panel:#191c20;--ink:#eef1f4;
+  --mute:#a3abb5;--line:#2b3037;--blue:#3987e5;--ember:#d95926;--aqua:#199e70;--deep:#86b6ef;
+  --chip:#22262b;--focus:#8ab4f8;--land:#333941;--landline:#4c545e}}
+:root[data-theme="dark"]{--bg:#101215;--panel:#191c20;--ink:#eef1f4;--mute:#a3abb5;--line:#2b3037;
+  --blue:#3987e5;--ember:#d95926;--aqua:#199e70;--deep:#86b6ef;--chip:#22262b;--focus:#8ab4f8;--land:#333941;--landline:#4c545e}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem;
+  font-variant-numeric:tabular-nums}
+a{color:var(--blue);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--deep)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:68rem;margin:0 auto;display:flex;gap:.5rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-family:var(--display);font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:-.01em;font-size:1.05rem}
+header.top .brand b{color:var(--blue)}
+nav.crumbs{font-size:.83rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:68rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(1.9rem,4.2vw,2.7rem);line-height:1.1;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.02em}
+h1 .kind{display:block;font-size:.72rem;color:var(--mute);text-transform:uppercase;letter-spacing:.2em;font-family:var(--ui);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.28rem;margin:1.9rem 0 .5rem;border-bottom:1px solid var(--line);padding-bottom:.28rem;font-weight:700;letter-spacing:-.01em}
+h3{font-family:var(--display);font-size:1.04rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.1rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.75rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.1rem}
+.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--blue)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}
+.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:var(--ui)}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.77rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:var(--ui)}
+.tier-cited{border-color:var(--blue)}.tier-harvested{border-color:var(--aqua)}.tier-tradition{border-color:var(--warn)}
+.tier-inference{border-style:dashed}.tier-field{border-color:var(--ember)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.94rem}
+th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}
+th{width:26%;color:var(--mute);font-weight:600;font-family:var(--ui);font-size:.88rem}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}
+.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink)}
+.kin a.card b{display:block;font-size:1.02rem;color:var(--blue);font-family:var(--display);font-weight:700}
+.kin a.card small{display:block;font-size:.68rem;color:var(--mute);text-transform:uppercase;letter-spacing:.16em;font-family:var(--ui)}
+.kin a.card span{display:block;margin-top:.3rem;font-size:.9rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--deep)}
+figure{margin:0 0 1rem}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.7rem;margin:.6rem 0 1.2rem}
+.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center;flex:1 1 8rem}
+.fact .n{font-family:var(--display);font-size:1.9rem;font-weight:700;line-height:1;letter-spacing:-.02em}
+.fact .l{font-size:.72rem;color:var(--mute);margin-top:.28rem;font-family:var(--ui);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem;flex-wrap:wrap}
+.search input,.search select{flex:1;min-width:12rem;font:inherit;font-family:var(--ui);font-size:1rem;padding:.55rem .7rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}
+.search button{font:inherit;font-family:var(--ui);padding:.55rem 1rem;border-radius:10px;border:2px solid var(--blue);background:var(--blue);color:#fff;cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.8rem 0 .2rem}
+.chips button{font:inherit;font-size:.85rem;font-family:var(--ui);padding:.3rem .75rem;border-radius:999px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}
+.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}
+.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.04rem}
+.card p{margin:.3rem 0 0;font-size:.89rem;color:var(--mute)}
+footer{max-width:68rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.84rem;border-top:1px solid var(--line);font-family:var(--ui)}
+.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.5rem 1rem;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--blue);font-family:var(--ui);font-size:.9rem}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--blue)}
+.cta{display:flex;gap:.55rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--warn);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.hero{display:grid;grid-template-columns:1fr;gap:1rem;margin:.4rem 0 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.83rem;font-family:var(--ui);color:var(--ink)}
+.tagrow .tg.money{border-color:var(--warn)}.tagrow .tg.clinical{border-color:var(--aqua)}.tagrow .tg.welcome{border-color:#9b59b6}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:var(--ui)}
+.acc b{color:var(--mute)}
+.pricebox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1.1rem;margin:.6rem 0 1rem}
+.pricebox .amt{font-family:var(--display);font-size:1.5rem;font-weight:700;letter-spacing:-.02em}
+.pricebox .usd{color:var(--mute);font-size:1rem;font-weight:400}
+.pricebox ul{margin:.35rem 0 0;padding-left:1.1rem;font-size:.9rem}
+.pricebox .ex li{color:var(--ink)}
+.pricebox .meta{font-size:.82rem;color:var(--mute);font-family:var(--ui);margin-top:.45rem}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}
+@media(max-width:760px){.two-up{grid-template-columns:1fr}html{font-size:18px}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.wander{font-size:.85rem;color:var(--mute)}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}
+.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}
+.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.03)}}
+
+.shareme{margin:2.4rem 0 .4rem;padding:.9rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.93rem;margin-bottom:.5rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.86rem;font-family:var(--ui);padding:.35rem .8rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--blue);color:var(--blue)}
+.shareme .said{font-size:.84rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--blue);color:#fff;background:var(--blue)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.fig{margin:1.1rem 0 1.4rem}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.83rem;color:var(--mute);margin-top:.45rem;font-family:var(--ui)}
+.fig .head{font-family:var(--display);font-weight:700;font-size:1.02rem;margin:0 0 .15rem}
+.fig .sub{font-size:.85rem;color:var(--mute);margin:0 0 .5rem}
+.viz-grid{stroke:var(--line);stroke-width:1;fill:none}
+.viz-ax{font:500 11px var(--ui);fill:var(--mute)}
+.viz-lab{font:600 11.5px var(--ui);fill:var(--ink)}
+.viz-val{font:600 11.5px var(--ui);fill:var(--ink)}
+.viz-land{fill:var(--land);stroke:var(--landline);stroke-width:.7}
+.viz-nodata{fill:url(#hatch);stroke:var(--line);stroke-width:.6}
+.viz-grat{stroke:var(--line);stroke-width:.5;fill:none;opacity:.55}
+.viz-cell{stroke:var(--panel);stroke-width:2}
+.viz-dot{stroke:var(--panel);stroke-width:2}
+.osmdot{r:2.6;opacity:.72}
+.viz-arc{fill:none;stroke-width:1.4;opacity:.75}
+.twin{margin:.5rem 0 0}
+.twin summary{cursor:pointer;font-size:.84rem;color:var(--mute);font-family:var(--ui)}
+.twin table{font-size:.86rem;margin:.5rem 0 0}
+.twin th{width:auto}
+.vtip{position:fixed;z-index:60;pointer-events:none;background:var(--panel);border:1px solid var(--line);
+  border-radius:9px;padding:.4rem .6rem;font:500 .82rem/1.35 var(--ui);color:var(--ink);
+  box-shadow:0 8px 22px rgba(0,0,0,.16);max-width:19rem}
+.vtip b{display:block;font-size:.9rem}
+.vkey{display:flex;flex-wrap:wrap;gap:.3rem .9rem;font-size:.8rem;color:var(--mute);
+  font-family:var(--ui);margin:.45rem 0 0;align-items:center}
+.vkey i{width:.85rem;height:.85rem;border-radius:3px;display:inline-block;vertical-align:-1px;margin-right:.3rem}
+.vramp{display:flex;align-items:center;gap:.4rem;font-size:.78rem;color:var(--mute);font-family:var(--ui);margin-top:.4rem}
+.vramp .steps{display:flex;height:.7rem;border-radius:3px;overflow:hidden;flex:0 0 12rem}
+.vramp .steps span{flex:1}
+
+/* The sequential ramp and the three categorical slots as classes rather than baked
+   fills. Dark mode takes its own steps off the same blue ramp rather than an
+   inversion of the light ones. The dark ramp starts at the 550 step rather than the 700:
+   below that a country sits within about 2:1 of the dark surface and a whole continent
+   reads as unmapped when it is merely at the low end. */
+.seq-0{fill:#cde2fb}
+.seq-1{fill:#b7d3f6}
+.seq-2{fill:#9ec5f4}
+.seq-3{fill:#86b6ef}
+.seq-4{fill:#6da7ec}
+.seq-5{fill:#5598e7}
+.seq-6{fill:#3987e5}
+.seq-7{fill:#2a78d6}
+.seq-8{fill:#256abf}
+.seq-9{fill:#1c5cab}
+.seq-10{fill:#184f95}
+.seq-11{fill:#104281}
+.seq-12{fill:#0d366b}
+.s1{fill:#2a78d6}.s2{fill:#eb6834}.s3{fill:#1baf7a}
+.st1{stroke:#2a78d6}.st2{stroke:#eb6834}.st3{stroke:#1baf7a}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) {
+.seq-0{fill:#184f95}.seq-1{fill:#1c5cab}.seq-2{fill:#256abf}.seq-3{fill:#2a78d6}.seq-4{fill:#3987e5}.seq-5{fill:#5598e7}.seq-6{fill:#6da7ec}.seq-7{fill:#86b6ef}.seq-8{fill:#9ec5f4}.seq-9{fill:#b7d3f6}.seq-10{fill:#cde2fb}.seq-11{fill:#deebfd}.seq-12{fill:#eef4fe}.s1{fill:#3987e5}.s2{fill:#d95926}.s3{fill:#199e70}.st1{stroke:#3987e5}.st2{stroke:#d95926}.st3{stroke:#199e70}
+}}
+:root[data-theme="dark"]{
+.seq-0{fill:#184f95}.seq-1{fill:#1c5cab}.seq-2{fill:#256abf}.seq-3{fill:#2a78d6}.seq-4{fill:#3987e5}.seq-5{fill:#5598e7}.seq-6{fill:#6da7ec}.seq-7{fill:#86b6ef}.seq-8{fill:#9ec5f4}.seq-9{fill:#b7d3f6}.seq-10{fill:#cde2fb}.seq-11{fill:#deebfd}.seq-12{fill:#eef4fe}.s1{fill:#3987e5}.s2{fill:#d95926}.s3{fill:#199e70}.st1{stroke:#3987e5}.st2{stroke:#d95926}.st3{stroke:#199e70}
+}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "url": "https://nanobotco.github.io/care-abroad/story/how-this-was-built/", "name": "How this was built", "description": "The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files could build the same…", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "name": "Care Abroad", "url": "https://nanobotco.github.io/care-abroad/"}, "license": "https://creativecommons.org/licenses/by/4.0/", "dateModified": "2026-09-17", "alternateName": ["the method", "rebuilding this directory"], "@type": "DefinedTerm", "inDefinedTermSet": "https://nanobotco.github.io/care-abroad/stories/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Care Abroad", "item": "https://nanobotco.github.io/care-abroad/"}, {"@type": "ListItem", "position": 2, "name": "Stories", "item": "https://nanobotco.github.io/care-abroad/stories/"}, {"@type": "ListItem", "position": 3, "name": "How this was built", "item": "https://nanobotco.github.io/care-abroad/story/how-this-was-built/"}]}</script>
+</head>
+<body>
+<header class="top"><a class="brand" href="../../index.html">Care <b>Abroad</b></a>
+<nav class="crumbs"><a href="../../index.html">Everything</a> · <a href="../../map/index.html">Map</a> · <a href="../../prices/index.html">Prices</a> · <a href="../../rules/index.html">Rules</a> · <a href="../../near/index.html">Near me</a> · <a href="../../journey/index.html">Journey</a> · <a href="../../numbers/index.html">Numbers</a> · <a href="../../countries/index.html">Countries</a> · <a href="../../procedures/index.html">Procedures</a> · <a href="../../hospitals/index.html">Hospitals</a> · <a href="../../risks/index.html">Risks</a> · <a href="../../words/index.html">Words</a> · <a href="../../data/index.html">Data</a> · <a href="../../search/index.html">Search</a> · <a href="../../sources/index.html">Sources</a> · <a href="../../coverage/index.html">Coverage</a> · <a href="../../api/index.json">API</a> · <a href="../../llms.txt">llms.txt</a> · <a class="wander" href="../../wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<main>
+<h1><span class="kind">a long one</span>How this was built</h1><p class="mute" style="margin:.1rem 0">also: the method · rebuilding this directory</p><p class="said">One JSON file per thing, every field carrying where it came from, and a validator that refuses a price with no date.</p><div class="prose"><p class="lede">The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files could build the same thing and check this one. Nothing on this site is medical advice or legal advice, and the rules below are most of the reason it is not.</p></div><h2>The story <span class="chip tier-inference" title="an account of this project&#x27;s own method, with the projection paper and every licence cited">Inference</span></h2><div class="prose"><p>The unit is a record, not a page. One JSON file sits at data/nodes/&lt;type&gt;/&lt;id&gt;.json, the id is the filename, and thirteen types carry the whole subject: a country as a place people are treated in or leave, a city cluster, a procedure, a named hospital or clinic, one step of the journey, a risk, a rule, an organisation, a person, an event, a word, a dataset, and a longer piece of writing like this one. A schema at schema/node.schema.json states what a record must look like, and tools/validate.py runs it before anything is built: identifier against filename, type against folder, every kin target resolving, every source identifier existing, every country code ISO 3166-1 alpha-2, every price carrying a currency and a date and a source, every legality row carrying an instrument date and a source, every image licence on a free-to-use allowlist, and every provenance path pointing at a field the record actually has.</p><p>Provenance is the point of the project, so it sits on the record and on individual fields. Five tiers: cited, where a named source backs it; harvested, where a tool fetched it from an open dataset; tradition, which is how the trade works and is hedged in the prose; inference, which is this project reasoning from the above and says so; and field, meaning somebody stood there — nothing on this site carries it yet. A record declares a default and overrides per dotted field path, and the prose marks each stretch inline, so that plain prose is cited and the reasoning is labelled where it happens rather than in a footnote. Records also carry a confidence of high, medium or low and a needs_verification flag: of 330 records on disk, 175 are high, 129 medium and 26 low, and 160 are flagged for verification.</p><p>Kin is the spine and it is directional. Each entry says, in one sentence, what another node is to this one, written from here — not see also. The other record answers in its own words from its own page, so a pair of records produces two different sentences about the same relationship. There are 2,742 such edges across the 330 records, and a rich record carries five to twelve of them.</p><p>A price is a number somebody published, read off their own page. Not a quote a patient was given, not an average this project computed, not a range with no source: the schema has no field for an average, and the validator rejects a price with no date or no source outright. Each row carries the currency it was billed in, the date it was published or read, one of seven kinds — a provider&#x27;s package, a single list price, a state tariff, an insurer&#x27;s reimbursement, a published survey figure, a published estimate with its method named, or an advertised range — and the seller&#x27;s own inclusion list and exclusion list in the seller&#x27;s own words. Dollar figures are the row&#x27;s own currency put through one table of mid-market rates whose date is printed on the page, because a 2019 lira price converted at a 2026 rate is not what that patient paid, and both dates sit on the row so the gap is visible. The price chart uses a logarithmic axis, because the published prices for one operation run over two orders of magnitude.</p><p>A legality row is one reading of one named instrument, in one jurisdiction, on one date. Six statuses: lawful, lawful with conditions, residents only, prohibited, unregulated, and not read by this project — which is hatched on the grid and is a statement about this directory rather than about the country. Law moves between the reading and the reader, so every cell carries the date it was read, and a stale row is a wrong row rather than an old one. Nothing on the site says what a reader should do about any of it.</p><p>Four harvests supply the charts, and each keeps its licence. Eleven World Bank series, one request each, CC BY 4.0, most recent non-null year per country with the year stored beside the value and the Bank&#x27;s own regional and income aggregates dropped because their codes are not country codes. Every named hospital, clinic and dental surgery within a set radius of each hub, fetched through the OpenStreetMap Overpass API under ODbL 1.0 with attribution to OpenStreetMap contributors. Country outlines from Natural Earth, public domain in the publisher&#x27;s own words: &quot;No permission is needed to use Natural Earth.&quot; And one dated exchange-rate table from an open endpoint whose terms require attribution and forbid redistribution. The WHO repository is used under terms allowing non-commercial reuse with attribution. Every fetch date is stored in the file it produced.</p><p>Every map is drawn in Equal Earth, the equal-area pseudocylindrical projection published by Bojan Šavrič, Tom Patterson and Bernhard Jenny in 2018, implemented directly in tools/worldmap.py. <mark class="tier">Inference —</mark> the reason is specific to this subject. Most of these maps colour countries by a rate, and on Mercator the high northern latitudes swell to several times their true area — which is exactly where the patients come from rather than where they go, so the commonest projection would inflate the wrong end of every map on the site. On Equal Earth a square kilometre takes the same ink anywhere. What it trades away is shape: high latitudes are stretched east-west and squashed north-south, which is the price every equal-area projection pays, and Antarctica is cropped because nobody in this directory flies there. Distances elsewhere are great-circle kilometres on a 6,371-kilometre sphere, and the flying times printed beside them are that distance at 850 km/h plus 45 minutes — arithmetic rather than a timetable, and the page says so where it prints one.</p><p>The editorial rules are enforced by the same validator, as hard errors, and both lists are escapable the same way: put the words in quotation marks and name who said them. The first list is the fleet&#x27;s, and the sixth entry on it is the field&#x27;s own name for itself — which is why this site writes medical travel and cross-border care throughout, and why the familiar two-word compound appears only inside a quotation, inside a proper name, or on the word&#x27;s own page, where the argument over it is the subject. That list also bars an adjective meaning truthful, on the ground that prose claiming the quality rarely has it. The second list is what this subject attracts: the brochure adjectives, the savings claim with no date attached, and the second-person instruction. A directory that tells a reader what to do about their own hip has become a clinic, and this is not one. <mark class="tier">Inference —</mark> two further rules follow from the same place. A number nobody published stays null and prints on the page as a gap rather than a zero. And a university hospital and a back-street hair clinic are described in the same voice, under the same evidence rules, with the arguments around both reported and neither joined.</p></div><h2>How it works <span class="chip tier-inference" title="">Inference</span></h2><div class="prose"><p>The pipeline runs in order from the repository root. python3 tools/validate.py — every record must pass, and BUILD_DRAFT=1 downgrades unwritten kin targets to warnings while records are still being drafted, which is not a state to publish from. python3 tools/build.py assembles records and harvests into build/api, the search tables, the price table, the legality grid and the country join. python3 tools/cards.py draws the share cards it is missing. python3 tools/site.py writes build/site — pages, maps, charts, search, JSON-LD, a sitemap, llms.txt, robots, and CSV and JSONL exports. python3 tools/serve.py serves it locally. The harvests refresh independently: harvest_worldbank.py, fetch_rates.py, fetch_geo.py and harvest_osm.py, each stamping its own fetch date into the file it writes. build/ is generated and safe to delete.</p></div><h2>Today <span class="chip tier-inference" title="counted over the records on disk on 17 September 2026">Inference</span></h2><div class="prose"><p>As of 17 September 2026 this site holds 330 records — 58 procedures, 52 countries, 40 city clusters, 34 hospitals and clinics, 26 words, 23 rules, 23 risks, 22 organisations, 17 journey steps, 13 datasets, nine longer pieces, eight events and five people — drawing on 762 registered sources, carrying 214 published price rows across 21 countries and twelve currencies, 151 legality rows, 166 evidenced tags and 2,742 kin edges. Fourteen records carry a default provenance tier other than cited. No record carries the field tier, because nobody has stood anywhere yet.</p></div><h2>The particulars</h2><table><tr><th>kind</th><td>method</td></tr><tr><th>region</th><td>Everywhere</td></tr><tr><th>links</th><td><a href="https://doi.org/10.1080/13658816.2018.1504949" rel="noopener">Equal Earth projection</a> · <a href="https://www.naturalearthdata.com/about/terms-of-use/" rel="noopener">Natural Earth terms of use</a></td></tr><tr><th>confidence</th><td>high · updated 2026-09-17</td></tr></table><h2>What it connects to</h2><div class="kin"><a class="card" href="../../story/what-the-data-cannot-see/index.html"><small>a long one</small><b>What the data cannot see</b><span>The thirteen series this method draws on, and the sentence each of them cannot answer.</span></a><a class="card" href="../../dataset/natural-earth-countries/index.html"><small>a series</small><b>Natural Earth country outlines</b><span>The geometry every Equal Earth map is drawn from, and the codes that drop out of it.</span><span class="mute" style="font-size:.82rem;font-style:italic;margin-top:.45rem">and of this page it says: The simplification, the rounding and the five patched codes are all in the method.</span></a><a class="card" href="../../dataset/exchange-rate-table/index.html"><small>a series</small><b>The dated exchange rate table</b><span>The one dated rate table every dollar figure on the site passes through.</span><span class="mute" style="font-size:.82rem;font-style:italic;margin-top:.45rem">and of this page it says: Why a rate is fetched once and stamped rather than looked up live.</span></a><a class="card" href="../../dataset/osm-facilities/index.html"><small>a series</small><b>OpenStreetMap hospitals, clinics and dental surgeries</b><span>The harvest that supplies the hub maps, under ODbL with attribution.</span><span class="mute" style="font-size:.82rem;font-style:italic;margin-top:.45rem">and of this page it says: The Overpass query, the radii and the tag list are all in the method.</span></a><a class="card" href="../../dataset/world-bank-health-spending/index.html"><small>a series</small><b>Current health expenditure per person</b><span>The series behind the first world map, and the exemplar record this schema was written against.</span></a><a class="card" href="../../story/is-it-cheaper/index.html"><small>a long one</small><b>Is it cheaper</b><span>The price rule applied end to end to one operation.</span></a><a class="card" href="../../story/the-price-that-isnt/index.html"><small>a long one</small><b>The price that isn&#x27;t</b><span>Why every price row carries the seller&#x27;s own exclusion list.</span></a><a class="card" href="../../story/circumvention/index.html"><small>a long one</small><b>Circumvention</b><span>The law rule applied across six subjects, one named instrument at a time.</span></a><a class="card" href="../../story/counting-patients/index.html"><small>a long one</small><b>Counting patients</b><span>Why a headline volume figure is never carried here without its unit and its collector.</span></a><a class="card" href="../../story/the-word-itself/index.html"><small>a long one</small><b>The word itself</b><span>The naming rule this method enforces, and where the argument over it is set out.</span><span class="mute" style="font-size:.82rem;font-style:italic;margin-top:.45rem">and of this page it says: Where this rule is enforced, alongside the rest of the editorial rules.</span></a><a class="card" href="../../word/package-price/index.html"><small>a word</small><b>Package price</b><span>The form most prices here take, and the reason two of them cannot be subtracted.</span></a><a class="card" href="../../dataset/jci-accredited-list/index.html"><small>a series</small><b>The JCI list of accredited organizations</b><span>Counted and never weighted, which is a rule rather than a judgement about any hospital.</span></a></div><h2>Sources</h2><ul><li>The Equal Earth map projection — Savric B, Patterson T, Jenny B. International Journal of Geographical Information Science 2019;33(3):454-465, published online 7 August 2018, doi:10.1080/13658816.2018.1504949 · <a href="https://doi.org/10.1080/13658816.2018.1504949" rel="noopener">link</a> <span class="mute">(read 2026-09-17)</span></li><li>Equal Earth projection — Wikipedia · <a href="https://en.wikipedia.org/wiki/Equal_Earth_projection" rel="noopener">link</a> <span class="mute">(read 2026-09-17)</span></li><li>Natural Earth — Admin 0 Countries, 1:110m — Natural Earth · <a href="https://www.naturalearthdata.com/" rel="noopener">link</a> <span class="mute">(read 2026-09-16)</span></li><li>Terms of Use — Natural Earth · <a href="https://www.naturalearthdata.com/about/terms-of-use/" rel="noopener">link</a> <span class="mute">(read 2026-09-17)</span></li><li>OpenStreetMap — OpenStreetMap contributors · <a href="https://www.openstreetmap.org/" rel="noopener">link</a> <span class="mute">(read 2026-09-16)</span></li><li>Open Database License (ODbL) v1.0 — Open Data Commons · <a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener">link</a> <span class="mute">(read 2026-09-17)</span></li><li>World Bank Open Data — health and tourism indicators — The World Bank · <a href="https://data.worldbank.org/" rel="noopener">link</a> <span class="mute">(read 2026-09-16)</span></li><li>Open Exchange Rates API (open.er-api.com) — ExchangeRate-API · <a href="https://open.er-api.com/v6/latest/USD" rel="noopener">link</a> <span class="mute">(read 2026-09-16)</span></li><li>Free exchange rate API documentation — open endpoint — ExchangeRate-API · <a href="https://www.exchangerate-api.com/docs/free" rel="noopener">link</a> <span class="mute">(read 2026-09-17)</span></li><li>Global Health Observatory — World Health Organization · <a href="https://www.who.int/data/gho" rel="noopener">link</a> <span class="mute">(read 2026-09-16)</span></li><li>Terms of use — World Health Organization · <a href="https://www.who.int/about/policies/terms-of-use" rel="noopener">link</a> <span class="mute">(read 2026-09-17)</span></li><li>Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025 — US Centers for Disease Control and Prevention · <a href="https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html" rel="noopener">link</a> <span class="mute">(read 2026-09-16)</span></li></ul><p class="legend">Where it came from: <span class="chip tier-cited">Cited</span> a source named here · <span class="chip tier-harvested">Harvested</span> pulled from an open dataset · <span class="chip tier-tradition">Trade practice</span> how the trade works, hedged · <span class="chip tier-inference">Inference</span> this project's own reasoning · <span class="chip tier-field">Field</span> somebody stood there. <a href="../../api/story/how-this-was-built.json">This record as JSON</a>.</p>
+<section class="shareme" data-url="https://nanobotco.github.io/care-abroad/story/how-this-was-built/" data-title="How this was built"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=How%20this%20was%20built%20https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=How%20this%20was%20built&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=How%20this%20was%20built&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F&amp;title=How%20this%20was%20built" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=How%20this%20was%20built%20https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=How%20this%20was%20built&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fcare-abroad%2Fstory%2Fhow-this-was-built%2F" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>
+(function(){var t=null;
+function show(e){var el=e.target.closest('[data-tip]');if(!el){hide();return}
+ if(!t){t=document.createElement('div');t.className='vtip';document.body.appendChild(t)}
+ t.innerHTML=el.getAttribute('data-tip');t.style.display='block';
+ var x=e.clientX+14,y=e.clientY+14;var r=t.getBoundingClientRect();
+ if(x+r.width>innerWidth-8)x=e.clientX-r.width-14; if(y+r.height>innerHeight-8)y=e.clientY-r.height-14;
+ t.style.left=x+'px';t.style.top=y+'px'}
+function hide(){if(t)t.style.display='none'}
+document.addEventListener('mousemove',show,{passive:true});
+document.addEventListener('mouseleave',hide);
+document.addEventListener('scroll',hide,{passive:true});})();
+</script>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea|select/i.test(e.target.tagName))location.href="../../wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="../../api/nodes.json">nodes.json</a> <a href="../../api/countries.json">countries.json</a> <a href="../../api/prices.json">prices.json</a> <a href="../../api/legality.json">legality.json</a> <a href="../../api/facilities.json">facilities.json</a> <a href="../../api/kin.json">kin.json</a> <a href="../../nodes.jsonl">nodes.jsonl</a> <a href="../../nodes.csv">nodes.csv</a> <a href="../../llms-full.txt">llms-full.txt</a> <a href="../../sitemap.xml">sitemap.xml</a> <a href="../../feed.xml">feed.xml</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Country outlines from <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. Health and tourism indicators from <a href="https://data.worldbank.org/">World Bank Open Data</a>, CC BY 4.0. Hospital and clinic points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Each field carries a provenance tier.</p>
+<p>Nothing here is medical advice or legal advice. It is a directory of what other people have published, with the dates they published it.</p>
+</footer>
+</body>
+</html>

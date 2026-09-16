@@ -1,0 +1,414 @@
+{
+ "schema": 1,
+ "id": "malaysia",
+ "type": "destination",
+ "names": {
+  "name": "Malaysia",
+  "aliases": [
+   "Federation of Malaysia"
+  ],
+  "said": "Two places, not one. Kuala Lumpur sells cardiac work and fertility; Penang sells everything to Sumatra, forty minutes away by air."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "MY",
+  "direction": "inbound",
+  "currency": "MYR",
+  "languages": [
+   "Malay",
+   "English",
+   "Mandarin",
+   "Tamil",
+   "Indonesian"
+  ],
+  "draws": [
+   "ivf",
+   "executive-health-screening",
+   "cabg",
+   "knee-replacement"
+  ]
+ },
+ "text": {
+  "what": "A destination built on one neighbour. Malaysia's healthcare-travel figures are published by a council inside the Ministry of Health, and the patients behind them are mostly Indonesian, mostly arriving through Penang and Kuala Lumpur, and mostly buying screening, fertility and cardiac care rather than the cosmetic work that carries the trade's reputation elsewhere.",
+  "story": "The Malaysia Healthcare Travel Council was set up in 2009 by the Ministry of Health, replacing an earlier committee, and it has published a traveller count ever since. Its series runs 641,000 in 2011, 728,800 in 2012, 881,000 in 2013, 882,000 in 2014, 859,000 in 2015 and 921,000 in 2016. Revenue went from 299 million ringgit in 2008 to 527 million in 2011 to 1.7 billion in 2019. For 2024 the council reported 1.6 million healthcare travellers, up 14 per cent, and 2.72 billion ringgit, up 21 per cent.\n\nIndonesians were 75 per cent of the foreign patients in 2008 and 57 per cent by 2011, the share falling as other nationalities grew rather than because Indonesians stopped coming.\n\n*Inference —* the jump from 921,000 in 2016 to 1.6 million in 2024 is steeper than any plausible growth in operations, and the council does not publish what a healthcare traveller is. A figure that size in a country of about 34 million reads as a count of foreign patients seen at member facilities — every check-up, every follow-up visit, every expatriate with a fever — rather than a count of people who crossed a border for treatment. The council's revenue figure is the number with a defensible denominator.",
+  "how": "Hospitals join the council as members and report through it, which is how the national figure is assembled. Malaysian private hospitals quote in ringgit, publish package prices for screening and fertility more readily than for surgery, and market through the council's own channels. The council also runs awards, which are marketing instruments and are counted here, never weighted.",
+  "today": "As of July 2025 the council was promoting 2026 as a national year for the trade and holding a target of 12 billion ringgit in industry revenue by 2030. The 2024 traveller and revenue figures are the council's own and have not been audited by this project."
+ },
+ "geo": {
+  "lat": 3.139,
+  "lon": 101.6869,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 1600000,
+  "note": "The council's own count of \"healthcare travellers\" for 2024, alongside 2.72 billion ringgit of revenue. The release does not define the unit, so it cannot be told from a count of people, of visits, or of foreign patients seen at member hospitals. Read against the council's own earlier series — 921,000 in 2016 — the rise is steeper than the operating theatres.",
+  "as_of": "2024",
+  "source": "s:mhtc-mymt-2026",
+  "url": "https://www.prnewswire.com/apac/news-releases/malaysia-healthcare-travel-council-launches-mymt-2026-malaysias-first-medical-tourism-year-302513594.html"
+ },
+ "kin": [
+  {
+   "to": "mhtc",
+   "as": "The council inside the health ministry that publishes this country's traveller count.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "as": "The registration a hospital passes through to be counted and marketed as a destination facility.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "kuala-lumpur",
+   "as": "The cardiac and fertility half of the trade.",
+   "rel": "part"
+  },
+  {
+   "to": "penang",
+   "as": "The Indonesian half, forty minutes from Medan.",
+   "rel": "part"
+  },
+  {
+   "to": "indonesia",
+   "as": "The source market that built this destination, and still supplies most of it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "One of the private hospitals the council's figures are assembled from.",
+   "rel": "part"
+  },
+  {
+   "to": "prince-court",
+   "as": "The Kuala Lumpur hospital most often named in the country's marketing.",
+   "rel": "part"
+  },
+  {
+   "to": "island-hospital-penang",
+   "as": "The Penang hospital that made the Sumatra route ordinary.",
+   "rel": "part"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment Malaysia sells hardest, and the one its neighbours travel for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The package that fills the appointment book between operations.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a 1.6 million figure with no published definition is a marketing number.",
+   "rel": "story"
+  },
+  {
+   "to": "thailand",
+   "as": "The neighbour whose package-price format arrived here in the 2000s.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Malaysia Healthcare Travel Council",
+   "url": "https://www.mhtc.org.my/"
+  }
+ ],
+ "sources": [
+  "s:mhtc-mymt-2026",
+  "s:wp-medical-tourism-malaysia",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mhtc-mymt-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-tourism-malaysia",
+    "note": "the 2011-2016 series and the Indonesian share come from the Wikipedia article citing MHTC; the 2024 figures come from MHTC's own release; the closing paragraph is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of council membership and reporting; not read off an instrument"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:mhtc-mymt-2026"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A destination built on one neighbour. Malaysia's healthcare-travel figures are published by a council inside the Ministry of Health, and the patients behind them are mostly Indonesian, mostly arriving through Penang and…",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The council inside the health ministry that publishes this country's traveller count.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The registration a hospital passes through to be counted and marketed as a destination facility.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The cardiac and fertility half of the trade.",
+   "rel": "part"
+  },
+  {
+   "to": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "The Indonesian half, forty minutes from Medan.",
+   "rel": "part"
+  },
+  {
+   "to": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "The source market that built this destination, and still supplies most of it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "One of the private hospitals the council's figures are assembled from.",
+   "rel": "part"
+  },
+  {
+   "to": "prince-court",
+   "type": "facility",
+   "name": "Prince Court Medical Centre",
+   "as": "The Kuala Lumpur hospital most often named in the country's marketing.",
+   "rel": "part"
+  },
+  {
+   "to": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "The Penang hospital that made the Sumatra route ordinary.",
+   "rel": "part"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The treatment Malaysia sells hardest, and the one its neighbours travel for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The package that fills the appointment book between operations.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a 1.6 million figure with no published definition is a marketing number.",
+   "rel": "story"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The neighbour whose package-price format arrived here in the 2000s.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:mhtc-mymt-2026",
+   "kind": "web",
+   "title": "Malaysia Healthcare Travel Council Launches MYMT 2026, Malaysia's First Medical Tourism Year",
+   "publisher": "Malaysia Healthcare Travel Council",
+   "url": "https://www.prnewswire.com/apac/news-releases/malaysia-healthcare-travel-council-launches-mymt-2026-malaysias-first-medical-tourism-year-302513594.html",
+   "accessed": "2026-09-16",
+   "note": "MHTC's own release, dated 25 July 2025, carrying its 2024 healthcare-traveller and revenue figures. The council's own site returned a server error on the date of access"
+  },
+  {
+   "id": "s:wp-medical-tourism-malaysia",
+   "kind": "web",
+   "title": "Medical tourism in Malaysia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Malaysia",
+   "accessed": "2026-09-16",
+   "note": "used for the year-by-year MHTC series 2011-2016 and the Indonesian share of arrivals"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:mhtc-mymt-2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-medical-tourism-malaysia",
+   "note": "the 2011-2016 series and the Indonesian share come from the Wikipedia article citing MHTC; the 2024 figures come from MHTC's own release; the closing paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of council membership and reporting; not read off an instrument"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:mhtc-mymt-2026"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:mhtc-mymt-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "Where most of these patients land, and the destination their numbers built.",
+   "rel": "destination"
+  },
+  {
+   "from": "philippines",
+   "type": "destination",
+   "name": "Philippines",
+   "as": "The regional competitor with a council, a count, and a marketing budget.",
+   "rel": "contrast"
+  },
+  {
+   "from": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "The cheaper neighbour, and the place Singaporeans themselves cross to.",
+   "rel": "contrast"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The country whose capital cluster this is, and which counts its patients by passport.",
+   "rel": "whole"
+  },
+  {
+   "from": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "The country whose second cluster takes almost as much revenue as its capital.",
+   "rel": "whole"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Where the package is graded by the buyer's age and sex.",
+   "rel": "destination"
+  },
+  {
+   "from": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "A hospital whose pricing exists in the gap between Singapore's and Thailand's.",
+   "rel": "destination"
+  },
+  {
+   "from": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "The clearest case in Malaysia of regional rather than intercontinental cross-border care.",
+   "rel": "destination"
+  },
+  {
+   "from": "prince-court",
+   "type": "facility",
+   "name": "Prince Court Medical Centre",
+   "as": "A Malaysian hospital that publishes cosmetic surgery prices with the implant brand named.",
+   "rel": "destination"
+  },
+  {
+   "from": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "The state that licenses the advertisement itself.",
+   "rel": "destination"
+  },
+  {
+   "from": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The country whose two regimes these are.",
+   "rel": "destination"
+  },
+  {
+   "from": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The country whose inbound trade it markets and reports on.",
+   "rel": "place"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The council series that runs from 641,000 to 1.6 million without publishing a definition.",
+   "rel": "destination"
+  }
+ ]
+}

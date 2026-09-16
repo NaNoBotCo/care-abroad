@@ -1,0 +1,301 @@
+{
+ "id": "malaysia-mhtc-licence",
+ "names": {
+  "name": "Malaysia's healthcare travel registration",
+  "aliases": [
+   "MHTC membership",
+   "MHTC Elite Partner",
+   "Act 586 licence"
+  ],
+  "said": "Two different things get called a licence here, and only one of them is issued by law."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "kind": "licensing",
+  "iso2": "MY",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Malaysia has a statutory licence to operate a private hospital and a separate, non-statutory membership scheme for hospitals selling to foreign patients. The licence is issued under the Private Healthcare Facilities and Services Act 1998 (Act 586): no person may establish or maintain a private healthcare facility, other than a private medical or dental clinic, without the approval of the Director General of Health. The membership is the Malaysia Healthcare Travel Council's, and it is a trade register, not a permit.",
+  "story": "The Council was set up by the Ministry of Health in 2005, incorporated as an independent entity in 2011, and moved from the Ministry of Health to the Ministry of Finance in 2018. Its own site lists more than 80 partner hospitals and clinics, and it grades them — Elite Partner at the top, where the Council states that every Elite Partner holds accreditation from an international body such as Joint Commission International, the Malaysian Society for Quality in Health, the Australian Council on Healthcare Standards, Temos, or the Reproductive Technology Accreditation Committee.\n\n*Inference —* the distinction matters to a reader trying to check a hospital. Losing the Act 586 licence closes the hospital. Losing Council membership closes a marketing channel. Both are called accreditation in the brochures, and they are different instruments with different consequences, held by different bodies, and only one of them is enforced by a regulator.\n\nA selection committee drawn from the private and government sectors decides membership. *Inference —* a committee that both promotes an industry and vets its members is doing two jobs, and this project counts recognitions rather than weighting them for exactly that reason.",
+  "how": "The statutory route: approval to establish, then a licence to operate, from the Director General of Health, under Act 586 and its regulations. The Act covers private hospitals, ambulatory care centres, blood banks, hospice care, nursing homes, psychiatric hospitals and community mental health centres.\n\nThe Council route: application to MHTC, evaluation by its committee, and a tier. What the tier signals is an accreditation held elsewhere.\n\nAdvertising is a third regime again: under section 4B of the Medicines (Advertisement and Sale) Act 1956 and the Medicine Advertisements Board Regulations 1976, a healthcare advertisement needs Board approval before publication and carries a KKLIU serial number, valid six months.",
+  "today": "As of 17 September 2026 MHTC's own site could not be read directly — mhtc.org.my returned a server error on 16 September 2026 and again on this date — and the counts here are read off malaysiahealthcare.org and the Council's Wikipedia entry. The statutory position under Act 586 is read off the Ministry of Health's own publication of the Act."
+ },
+ "kin": [
+  {
+   "to": "malaysia",
+   "as": "The country whose two regimes these are.",
+   "rel": "destination"
+  },
+  {
+   "to": "mhtc",
+   "as": "The council that runs the membership half.",
+   "rel": "org"
+  },
+  {
+   "to": "kuala-lumpur",
+   "as": "Where most member hospitals are.",
+   "rel": "hub"
+  },
+  {
+   "to": "penang",
+   "as": "The second cluster, and the one that draws from Indonesia.",
+   "rel": "hub"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "One of the member hospitals.",
+   "rel": "facility"
+  },
+  {
+   "to": "island-hospital-penang",
+   "as": "Another, in the northern cluster.",
+   "rel": "facility"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditation the top membership tier is built on.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Why two things called accreditation are not the same instrument.",
+   "rel": "story"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "The third regime, and the KKLIU number on every advertisement.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Private Healthcare Facilities and Services Act 1998 (Act 586) — Ministry of Health Malaysia",
+   "url": "https://www.moh.gov.my/index.php/pages/view/198"
+  },
+  {
+   "label": "Malaysia Healthcare Travel Council",
+   "url": "https://malaysiahealthcare.org/"
+  }
+ ],
+ "sources": [
+  "s:my-act-586-overview",
+  "s:malaysiahealthcare-about",
+  "s:mhtc-wikipedia",
+  "s:mhtc-mymt-2026",
+  "s:my-mab-kkliu"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:my-act-586-overview"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:malaysiahealthcare-about",
+    "note": "the stretches marked *Inference —* are this project's reading of the difference between the two instruments"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:mhtc-wikipedia",
+    "note": "mhtc.org.my was unreachable on both attempts"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "Malaysia has a statutory licence to operate a private hospital and a separate, non-statutory membership scheme for hospitals selling to foreign patients.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The country whose two regimes these are.",
+   "rel": "destination"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The council that runs the membership half.",
+   "rel": "org"
+  },
+  {
+   "to": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "Where most member hospitals are.",
+   "rel": "hub"
+  },
+  {
+   "to": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "The second cluster, and the one that draws from Indonesia.",
+   "rel": "hub"
+  },
+  {
+   "to": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "One of the member hospitals.",
+   "rel": "facility"
+  },
+  {
+   "to": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "Another, in the northern cluster.",
+   "rel": "facility"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The accreditation the top membership tier is built on.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Why two things called accreditation are not the same instrument.",
+   "rel": "story"
+  },
+  {
+   "to": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "The third regime, and the KKLIU number on every advertisement.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:my-act-586-overview",
+   "kind": "web",
+   "title": "Regulatory framework for setting up private healthcare facilities and services in Malaysia",
+   "publisher": "Halim Hong & Quek (HHQ), Malaysian law firm",
+   "url": "https://hhq.com.my/posts/regulatory-framework-for-setting-up-private-healthcare-facilities-and-services-in-malaysia/",
+   "accessed": "2026-09-17",
+   "note": "a practitioner overview, not the statute. Quoted for the Act 586 approval requirement and the Private Healthcare Facilities and Services (Private Hospitals and Other Private Healthcare Facilities) Regulations 2006. The Act's own text could not be read on this date: the Attorney General's Chambers page returned an invalid request, CommonLII returned 403, and the circulating PDF reprint would not extract."
+  },
+  {
+   "id": "s:malaysiahealthcare-about",
+   "kind": "org",
+   "title": "Malaysia Healthcare — about",
+   "publisher": "Malaysia Healthcare Travel Council",
+   "url": "https://malaysiahealthcare.org/about-us",
+   "accessed": "2026-09-17",
+   "note": "company registration number 201101035226; the site's own count of more than 80 partner hospitals and clinics. mhtc.org.my itself returned HTTP 500 on this date, as it did on 16 September 2026."
+  },
+  {
+   "id": "s:mhtc-wikipedia",
+   "kind": "wikipedia",
+   "title": "Malaysia Healthcare Travel Council",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malaysia_Healthcare_Travel_Council",
+   "accessed": "2026-09-16",
+   "note": "set up 2005, incorporated as an independent entity 2011, moved from the Ministry of Health to the Ministry of Finance in 2018, and the 2019 arrivals figure; mhtc.org.my returned HTTP 500 on this date"
+  },
+  {
+   "id": "s:mhtc-mymt-2026",
+   "kind": "web",
+   "title": "Malaysia Healthcare Travel Council Launches MYMT 2026, Malaysia's First Medical Tourism Year",
+   "publisher": "Malaysia Healthcare Travel Council",
+   "url": "https://www.prnewswire.com/apac/news-releases/malaysia-healthcare-travel-council-launches-mymt-2026-malaysias-first-medical-tourism-year-302513594.html",
+   "accessed": "2026-09-16",
+   "note": "MHTC's own release, dated 25 July 2025, carrying its 2024 healthcare-traveller and revenue figures. The council's own site returned a server error on the date of access"
+  },
+  {
+   "id": "s:my-mab-kkliu",
+   "kind": "gov",
+   "title": "Is it necessary for medical advertisements on the internet to get approval from MAB?",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/faq/it-necessary-medical-advertisements-internet-get-approval-mab.html",
+   "accessed": "2026-09-17",
+   "note": "the Ministry's own answer: all dissemination of information about products and healthcare services to attract public attention, including on the internet, is an advertisement, and section 4B of the Medicines (Advertisement and Sale) Act 1956 requires Medicine Advertisements Board approval before publication"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:my-act-586-overview"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:malaysiahealthcare-about",
+   "note": "the stretches marked *Inference —* are this project's reading of the difference between the two instruments"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:my-act-586-overview"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:mhtc-wikipedia",
+   "note": "mhtc.org.my was unreachable on both attempts"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The registration a hospital passes through to be counted and marketed as a destination facility.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The licensing route a hospital takes to sell to foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "The national arrangement under which Malaysian hospitals take foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "The national arrangement under which it takes foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "The third Malaysian regime, alongside the statutory licence and the council membership.",
+   "rel": "kin"
+  },
+  {
+   "from": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The rule record for what membership is and is not; licensing sits with the health ministry.",
+   "rel": "governs"
+  }
+ ]
+}

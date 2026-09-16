@@ -1,0 +1,485 @@
+{
+ "id": "implant-excluded",
+ "names": {
+  "name": "The implant is excluded",
+  "aliases": [
+   "excluding implant",
+   "device billed separately",
+   "prosthesis not included"
+  ],
+  "said": "The package title says it out loud, in brackets, after the name of the operation."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "A fixed package price for an operation that installs a manufactured device, quoted without the device. The headline number covers theatre time, the surgical team, the anaesthetist and a stated number of ward nights; the component that will be screwed, cemented or seated into the patient is billed separately at a price the page does not give.",
+  "story": "The worked case sits on this site's knee record. Bumrungrad International Hospital in Bangkok publishes package JOINT04 for a unilateral total knee replacement at 356,500 baht, and titles the page \"Total Knee Replacement Surgery (Exclude implant)\". The inclusion list runs to eight lines: three hours of operating theatre, the nursing and surgical team fees inside those three hours, three nights on the surgical ward, equipment and supplies, medications related to the procedure, surgeon, assistant surgeon if needed, anaesthesiologist. The exclusion list runs to ten, and the implant is the first of them. Also excluded: the first consultation and the follow-up visits, specialist consultations, any night past the third and any ICU, blood transfusion, laboratory and imaging before or after surgery, take-home medication, outpatient charges before admission, and complex or emergency cases. The price is stated valid until 31 December 2026.\n\nNothing about that page is concealed. The exclusion is in the title. The point is what it does to a comparison: a knee package that excludes the implant and a knee price at home that includes it are two different objects, and the difference between them is not a discount.\n\nThe pattern is not confined to joints. A dental implant package quoted per fixture may exclude the abutment and the crown; a cardiac package may exclude the valve or the stent; a cochlear package may exclude the processor.\n\n*Trade practice —* the reason is procurement rather than marketing. Implant prices move with the manufacturer, the model, the size and the contract, and a hospital that fixed a package price including the device would be quoting a component cost it does not control. The effect on a price page is the same either way.\n\nThe United Kingdom's General Medical Council requires a doctor on its register to \"be clear about what is included in quoted prices and what other charges might be payable, including possible charges for revision or routine follow up\", and to tell patients if an implanted device may need to be removed or replaced and after how long. A clinic abroad is not on that register.",
+  "how": "The exclusion is read off the page: the title, the line that names the device, and the validity date. Where a package names a device it usually names a tier — a standard implant against a premium one, a manual technique against a robot-assisted one — and the tier changes the number. Every price row on this site carries its own inclusion and exclusion list in the provider's words for this reason, and the exclusion list is the half worth reading.",
+  "today": "As of 16 September 2026 the package this record is built on lists 356,500 baht for one knee, implant excluded, valid until 31 December 2026. This project has not found a published figure for what that implant costs at that hospital, and has not found any destination that requires an implant price to be published alongside a package.",
+  "notes": "The Bumrungrad knee package that this record works from is carried once, on the knee replacement record, so the price table counts it once."
+ },
+ "metrics": {
+  "note": "Nobody publishes the size of the gap. A package price excluding the implant is public; the implant price is quoted to the patient, not posted, and no register, ministry or accreditor requires otherwise. The measurable part is the count of exclusions: ten on the knee package read for this record, against eight inclusions.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-joint04",
+  "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+ },
+ "kin": [
+  {
+   "to": "knee-replacement",
+   "as": "The operation this exclusion was read off, and the one where the device is often the largest line.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The same trade, the same exclusion, usually a higher package.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "Priced per fixture, with the abutment and crown on their own lines.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cochlear-implant",
+   "as": "Where the external processor is a separate purchase from the operation.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the package this record is built on, exclusion stated in the title.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this risk lives inside.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which this is caught, when it is caught.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step at which the headline number is supplied and the device price is not.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "The longer piece on what a published price covers.",
+   "rel": "story"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "When the device fails, the second one is bought in a different country.",
+   "rel": "kin"
+  },
+  {
+   "to": "blood-supply-safety",
+   "as": "Also on that exclusion list, and a risk rather than a charge.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package JOINT04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  },
+  {
+   "label": "GMC — Guidance for doctors who offer cosmetic interventions",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:bumrungrad-packages",
+  "s:gmc-cosmetic-interventions",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the procurement paragraph is marked as trade practice; everything else is read off the package page or the GMC guidance"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "A fixed package price for an operation that installs a manufactured device, quoted without the device.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The operation this exclusion was read off, and the one where the device is often the largest line.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The same trade, the same exclusion, usually a higher package.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "Priced per fixture, with the abutment and crown on their own lines.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "Where the external processor is a separate purchase from the operation.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the package this record is built on, exclusion stated in the title.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form this risk lives inside.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which this is caught, when it is caught.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The step at which the headline number is supplied and the device price is not.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "The longer piece on what a published price covers.",
+   "rel": "story"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "When the device fails, the second one is bought in a different country.",
+   "rel": "kin"
+  },
+  {
+   "to": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "Also on that exclusion list, and a risk rather than a charge.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  },
+  {
+   "id": "s:bumrungrad-packages",
+   "kind": "web",
+   "title": "Packages & Programs — joint replacement and spine",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:gmc-cosmetic-interventions",
+   "kind": "org",
+   "title": "Guidance for doctors who offer cosmetic interventions — in effect 1 June 2016, updated 13 December 2024",
+   "publisher": "General Medical Council (United Kingdom)",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions",
+   "accessed": "2026-09-16",
+   "note": "paragraph numbers cited on this site are from the sections Communication, partnership and teamwork (paras 14-45) and Maintaining trust (paras 46-56)"
+  },
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the procurement paragraph is marked as trade practice; everything else is read off the package page or the GMC guidance"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "vilnius",
+   "type": "hub",
+   "name": "Vilnius",
+   "as": "The line an orthopaedic quote from here usually carries separately.",
+   "rel": "risk"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The same trap as the joint implant: a headline price that is a subtotal.",
+   "rel": "risk"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "The trap by its own name: the stent is the special device the package leaves out.",
+   "rel": "risk"
+  },
+  {
+   "from": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "The line item that decides whether a published price is half a bill; here the device is usually inside it, which is the exception.",
+   "rel": "risk"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The trap this operation mostly avoids by naming the lens — and reopens by naming only some lenses.",
+   "rel": "risk"
+  },
+  {
+   "from": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "The same trick in another trade: a price for the operation that is not a price for the hardware.",
+   "rel": "risk"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The same trap as the joint implant, written smaller and more often.",
+   "rel": "risk"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "The exclusion that removes the device the operation is named after.",
+   "rel": "risk"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "The line item this operation's headline price leaves out.",
+   "rel": "risk"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The line the Bangkok packages put in writing and the English price list does not mention.",
+   "rel": "risk"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The same shape of exclusion, here a sealing device rather than a joint.",
+   "rel": "risk"
+  },
+  {
+   "from": "icl",
+   "type": "procedure",
+   "name": "Implantable collamer lens",
+   "as": "The trap this package avoids by naming the lens, and narrows by naming only some types.",
+   "rel": "risk"
+  },
+  {
+   "from": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The line item this operation's headline price usually leaves out.",
+   "rel": "risk"
+  },
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "The prosthesis is excluded from the prosthesis row, in the same way an artificial joint is excluded from a joint package.",
+   "rel": "risk"
+  },
+  {
+   "from": "shoulder-replacement",
+   "type": "procedure",
+   "name": "Total shoulder replacement",
+   "as": "The cost the Australian schedule fee leaves entirely outside itself.",
+   "rel": "risk"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "The cage, the screws and the graft — the first line on the Bangkok exclusion list.",
+   "rel": "risk"
+  },
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "Its arthroscopy package says so in the title; the largest line on a joint bill is not in the number.",
+   "rel": "risk"
+  },
+  {
+   "from": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Its joint packages are priced without the implant, which the page states.",
+   "rel": "risk"
+  },
+  {
+   "from": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "The counter-example: here the implant price is published against a regulator's ceiling instead of left out of the quote.",
+   "rel": "risk"
+  },
+  {
+   "from": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The single line most often outside the quoted number.",
+   "rel": "risk"
+  },
+  {
+   "from": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The commonest exclusion on an orthopaedic or dental package.",
+   "rel": "risk"
+  },
+  {
+   "from": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "The other half of what a fixed price leaves out: one removes items, this removes patients.",
+   "rel": "kin"
+  },
+  {
+   "from": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "The same exclusion list, read for what else is missing from it.",
+   "rel": "kin"
+  },
+  {
+   "from": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The other way a headline price and a final bill diverge.",
+   "rel": "kin"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The second device is bought again, in a second country.",
+   "rel": "kin"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "Why the implant's lot number is worth asking for by name.",
+   "rel": "risk"
+  },
+  {
+   "from": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The commonest missing line, and the reason two package prices are not comparable.",
+   "rel": "risk"
+  },
+  {
+   "from": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "The unpriced line the whole comparison turns on.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "The risk record for the single commonest missing line, worked on the knee package.",
+   "rel": "risk"
+  }
+ ]
+}

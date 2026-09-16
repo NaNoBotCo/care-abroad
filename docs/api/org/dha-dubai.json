@@ -1,0 +1,389 @@
+{
+ "schema": 1,
+ "id": "dha-dubai",
+ "type": "org",
+ "names": {
+  "name": "Dubai Health Authority",
+  "aliases": [
+   "DHA",
+   "هيئة الصحة بدبي"
+  ],
+  "said": "DHA licenses the clinic, writes the insurance rules, promotes the trade and publishes the arrivals figure. Four jobs, one body, and the fourth is the one this directory has to read."
+ },
+ "region": [
+  "gulf",
+  "west-asia"
+ ],
+ "facets": {
+  "kind": [
+   "regulator",
+   "ministry"
+  ],
+  "iso2": "AE",
+  "founded": 2007,
+  "status": "open"
+ },
+ "text": {
+  "what": "The health regulator of one emirate. In its own words, \"Dubai Health Authority (DHA) is the regulatory body responsible for overseeing and governing the healthcare sector in the Emirate of Dubai\", with a mandate covering \"regulating, licensing, and monitoring the delivery of healthcare services across both the public and private sectors\", and which \"also regulates, governs and manages health insurance, health investments and health tourism to enhance the sector's contribution to Dubai's economy\". Formed in 2007 under Law No. (13) and now constituted by Law No. (6) of 2018, it is one of four licensing regimes in the country: Abu Dhabi has its own authority, the northern emirates answer to the federal ministry, and Dubai Healthcare City licenses inside its own free-zone boundary.",
+  "story": "The licence first, because it is the part a patient can check. DHA licenses both facilities and professionals, and Sheryan, its licensing system, carries a public search across Facilities, Professionals and the Dubai Medical Registry. A clinic in Jumeirah either appears there or it does not.\n\nThe count is the part that needs reading. In a release of 19 August 2024 the Authority reported \"more than 691,000 health tourists\" in 2023, spending AED 1.03 billion directly, against 674,000 and AED 992 million in 2022, with a further AED 2.3 billion claimed as indirect revenue. It gave the breakdown by specialty: dentistry 29 per cent, dermatology 27 per cent, gynaecology 13 per cent. Fifty-eight per cent were women. A third came from Asia, 28 per cent from the Gulf states and 23 per cent from Europe and the CIS.\n\n*Inference —* that specialty split is the most useful thing in the release, because it says what the number counts. A tally led by teeth and skin is a tally of short outpatient visits: a filling and a skin consultation are cheap, quick, repeated, and frequently bought by someone already living in the emirate. A flown-in tertiary admission is none of those things. The arithmetic confirms the shape. AED 1.03 billion across 691,000 gives about AED 1,490 a head, roughly 405 US dollars at the pegged rate — a morning at a dentist, not a hospital stay. That division is done here; the Authority publishes no per-visitor figure.\n\nAnd the release does not publish the rule that separates a visiting patient from a resident one, which is the rule the whole number turns on. *Inference —* set it beside Korea, where attracting foreign patients is a registered activity and the national report states in terms that it counts unique patients and excludes repeat visits. Both figures are around the same order of magnitude. Only one of them says what it is counting.\n\nThe outbound side of the same authority is documented far better than the inbound side. Administrative Resolution No. (14) of 2017 sets out whom DHA will send abroad for treatment and what it will pay — the care, the medicines and devices, interpreting, air ambulance where needed, repatriation of the body if the patient dies, one escort for an adult and two for a child or a patient who is elderly, paralysed, comatose or disabled — with a daily allowance schedule by destination at the back.",
+  "how": "A facility or a professional applies for a licence through Sheryan and appears on the public register once granted; the register is the check a reader can actually perform. Insurance is mandatory for residents under the emirate's own scheme, which DHA administers. The inbound figure is compiled by the Authority and released through the Dubai Media Office rather than as a statistical publication with a method note. The outbound programme runs administratively: a medical report, a committee recommendation, then an approval that carries the flights, the escort and the per-diem with it.",
+  "today": "As of 17 September 2026 the most recent published inbound figure is the 2023 one, released in August 2024, and no newer annual count was found on this pass. The Authority's overview page carried a last-modified date of 16 September 2026.",
+  "notes": "The 691,000 figure is one emirate's, not the federation's, and this record does not extend it. Its counting rule is not published."
+ },
+ "geo": {
+  "lat": 25.2048,
+  "lon": 55.2708,
+  "precision": "city",
+  "source": "s:dha-wikipedia"
+ },
+ "address": {
+  "city": "Dubai",
+  "area": "Dubai",
+  "country": "AE"
+ },
+ "metrics": {
+  "inbound_patients_year": 691000,
+  "note": "Dubai only, 2023, as released by the Dubai Health Authority on 19 August 2024. It counts visits by non-residents to licensed Dubai providers; the release states no rule separating a visiting patient from a resident, and its own specialty split — 29% dentistry, 27% dermatology, 13% gynaecology — points at short outpatient contacts rather than admissions. Direct spend AED 1.03 billion, with AED 2.3 billion further claimed as indirect revenue. The same figure is carried on the UAE destination record; it is one emirate's count, and there is no federal equivalent.",
+  "as_of": "2023",
+  "source": "s:dubai-media-office-health-2023",
+  "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k"
+ },
+ "kin": [
+  {
+   "to": "uae",
+   "as": "The federation this authority licenses one emirate of, and whose only published inbound count is its own.",
+   "rel": "place"
+  },
+  {
+   "to": "dubai",
+   "as": "The emirate itself: everything outside the free-zone boundary answers to this licence.",
+   "rel": "hub"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "as": "Why a licence here names an emirate rather than a country.",
+   "rel": "rule"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The outbound programme it runs under the 2017 bylaw, escort allowance and all.",
+   "rel": "rule"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "as": "One of the private hospitals trading under this licence.",
+   "rel": "facility"
+  },
+  {
+   "to": "dental-implant",
+   "as": "Dentistry is 29 per cent of what the emirate's own count says its visitors came for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "khidi",
+   "as": "The other agency that promotes and counts at once — and publishes its counting rule.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mhtc",
+   "as": "Malaysia's equivalent, publishing a visit count rather than a patient count.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "as": "The voluntary mark Dubai's private hospitals buy on top of this compulsory licence.",
+   "rel": "org"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why 691,000 cannot be read until somebody says what a one in it is.",
+   "rel": "story"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "Written into this authority's own bylaw, with a daily allowance attached.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "DHA overview",
+   "url": "https://www.dha.gov.ae/en/AboutUs"
+  },
+  {
+   "label": "Sheryan public search",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/public-search"
+  },
+  {
+   "label": "2023 health travel figures",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k"
+  }
+ ],
+ "sources": [
+  "s:dha-about",
+  "s:dha-law-6-2018",
+  "s:dha-sheryan",
+  "s:dha-wikipedia",
+  "s:dubai-media-office-health-2023",
+  "s:dubai-resolution-14-2017",
+  "s:seoul-foreign-patients-2024"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:dha-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:dubai-media-office-health-2023",
+    "note": "the licence and register description is from the Authority's own pages, the 2023 figures and splits from the media office release, the outbound entitlements from Administrative Resolution No. (14) of 2017, the Korean comparison from the 2024 Korean reporting; the per-visitor arithmetic and the two paragraphs marked inference are this project's"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:dubai-media-office-health-2023"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:dha-wikipedia",
+    "note": "city precision only; the Authority's head office is in Dubai and no street point is pinned here"
+   },
+   "facets": {
+    "tier": "cited",
+    "source": "s:dha-wikipedia",
+    "note": "formed 2007 under Law No. (13), launched March 2008, successor to the Department of Health and Medical Services of 1973"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Dubai Health Authority headquarters.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "The health regulator of one emirate. In its own words, \"Dubai Health Authority (DHA) is the regulatory body responsible for overseeing and governing the healthcare sector in the Emirate of Dubai\", with a mandate…",
+ "region_terms": [
+  {
+   "key": "gulf",
+   "name": "The Gulf",
+   "note": "the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain — a source market that is building itself into a destination"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "The federation this authority licenses one emirate of, and whose only published inbound count is its own.",
+   "rel": "place"
+  },
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The emirate itself: everything outside the free-zone boundary answers to this licence.",
+   "rel": "hub"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "Why a licence here names an emirate rather than a country.",
+   "rel": "rule"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The outbound programme it runs under the 2017 bylaw, escort allowance and all.",
+   "rel": "rule"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "One of the private hospitals trading under this licence.",
+   "rel": "facility"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "Dentistry is 29 per cent of what the emirate's own count says its visitors came for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "khidi",
+   "type": "org",
+   "name": "Korea Health Industry Development Institute",
+   "as": "The other agency that promotes and counts at once — and publishes its counting rule.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "Malaysia's equivalent, publishing a visit count rather than a patient count.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The voluntary mark Dubai's private hospitals buy on top of this compulsory licence.",
+   "rel": "org"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why 691,000 cannot be read until somebody says what a one in it is.",
+   "rel": "story"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "Written into this authority's own bylaw, with a daily allowance attached.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dha-about",
+   "kind": "gov",
+   "title": "DHA Overview",
+   "publisher": "Dubai Health Authority",
+   "url": "https://www.dha.gov.ae/en/AboutUs",
+   "accessed": "2026-09-17",
+   "note": "'Dubai Health Authority (DHA) is the regulatory body responsible for overseeing and governing the healthcare sector in the Emirate of Dubai'; core mandate of 'regulating, licensing, and monitoring the delivery of healthcare services across both the public and private sectors'; 'DHA also regulates, governs and manages health insurance, health investments and health tourism to enhance the sector's contribution to Dubai's economy'. Page footer read on 17 September 2026 gives a last modification date of 16/09/2026."
+  },
+  {
+   "id": "s:dha-law-6-2018",
+   "kind": "law",
+   "title": "Law No. (6) of 2018 Concerning the Dubai Health Authority",
+   "publisher": "Government of Dubai Legal Affairs Department",
+   "year": 2018,
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2018/Law%20No.%20(6)%20of%202018%20Concerning%20the%20Dubai%20Health%20Authority.pdf",
+   "accessed": "2026-09-16",
+   "note": "the current constituting law; licensing of health facilities sits with the Authority, and the law repeals any contradicting provision in other legislation"
+  },
+  {
+   "id": "s:dha-sheryan",
+   "kind": "web",
+   "title": "Sheryan — Dubai Health Licensing System, public search",
+   "publisher": "Dubai Health Authority",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/public-search",
+   "accessed": "2026-09-16",
+   "note": "public search across Facilities, Professionals and the Dubai Medical Registry"
+  },
+  {
+   "id": "s:dha-wikipedia",
+   "kind": "wikipedia",
+   "title": "Dubai Health Authority",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dubai_Health_Authority",
+   "accessed": "2026-09-16",
+   "note": "formed 2007 under Law 13, launched March 2008, successor to the Department of Health and Medical Services of 1973; operates Latifa, Dubai, Rashid and Hatta hospitals"
+  },
+  {
+   "id": "s:dubai-media-office-health-2023",
+   "kind": "gov",
+   "title": "Dubai welcomes more than 691,000 international health travellers in 2023",
+   "publisher": "Dubai Media Office, Government of Dubai",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k",
+   "accessed": "2026-09-16",
+   "note": "Dubai Health Authority figures released 19 August 2024; gives arrivals, spend, regional split and the leading specialties. The release does not publish the counting rule behind the headline number."
+  },
+  {
+   "id": "s:dubai-resolution-14-2017",
+   "kind": "law",
+   "title": "Administrative Resolution No. (14) of 2017 Approving the Bylaw for Sending Patients for Overseas Medical Treatment",
+   "publisher": "Government of Dubai Legislation portal",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html",
+   "accessed": "2026-09-16",
+   "note": "issued 6 February 2017 by the Director General of the Dubai Health Authority; sets eligibility, what the state pays, escort entitlement and a daily allowance schedule by destination country"
+  },
+  {
+   "id": "s:seoul-foreign-patients-2024",
+   "kind": "web",
+   "title": "Seoul Draws 1M International Medical Tourists in 2024 with ₩1.2T in Medical Spending",
+   "publisher": "Seoul Metropolitan Government",
+   "year": 2026,
+   "url": "https://english.seoul.go.kr/seoul-draws-1m-international-medical-tourists-in-2024-with-%E2%82%A91-2t-in-medical-spending/",
+   "accessed": "2026-09-16",
+   "note": "reports the MOHW and KHIDI 2024 count: 1,170,467 patients from 202 countries, 999,642 of them treated in Seoul"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:dha-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:dubai-media-office-health-2023",
+   "note": "the licence and register description is from the Authority's own pages, the 2023 figures and splits from the media office release, the outbound entitlements from Administrative Resolution No. (14) of 2017, the Korean comparison from the 2024 Korean reporting; the per-visitor arithmetic and the two paragraphs marked inference are this project's"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:dha-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:dha-about"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:dha-wikipedia",
+   "note": "city precision only; the Authority's head office is in Dubai and no street point is pinned here"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:dha-about"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:dubai-media-office-health-2023"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "The authority that licenses the clinics and publishes the arrivals figure.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The emirate's health authority, which licenses everything outside the free zone boundary.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The authority that issued the bylaw and selects the hospital.",
+   "rel": "org"
+  },
+  {
+   "from": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "The authority that licenses, registers and publishes.",
+   "rel": "org"
+  }
+ ]
+}

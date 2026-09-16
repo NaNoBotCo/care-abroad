@@ -1,0 +1,106 @@
+{
+ "sources": [
+  {
+   "id": "s:wp-panama-city",
+   "kind": "wikipedia",
+   "title": "Panama City",
+   "publisher": "Wikipedia",
+   "license": "CC BY-SA 4.0",
+   "url": "https://en.wikipedia.org/wiki/Panama_City",
+   "accessed": "2026-09-17",
+   "note": "2023 census: 410,354 in the city proper, 1,086,990 in Panamá District, 2,100,189 in the metropolitan area; coordinates 8°58′16″N 79°32′05″W; Tocumen International Airport on the eastern edge of the metropolitan area; San Francisco, Bella Vista, Costa del Este and Paitilla named as modern districts"
+  },
+  {
+   "id": "s:pacificasalud-about",
+   "kind": "web",
+   "title": "About Us — Pacífica Salud",
+   "publisher": "Pacífica Salud (Hospital Punta Pacífica)",
+   "url": "https://www.pacificasalud.com/en/about-us/",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own account: opened at Punta Pacífica in 2006, second campus at Costa del Este opened February 2022, founded by a group of Panamanian doctors and business owners, affiliated with Johns Hopkins Medicine International. No bed count, no doctor count and no price on the page"
+  },
+  {
+   "id": "s:pacificasalud-respaldo",
+   "kind": "web",
+   "title": "Respaldo institucional — accreditations and affiliations, Pacífica Salud",
+   "publisher": "Pacífica Salud (Hospital Punta Pacífica)",
+   "url": "https://www.pacificasalud.com/en/respaldo-institucional/",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own credential page: affiliation with Johns Hopkins Medicine International since the hospital's beginnings and renewed in 2017, extended to the Costa del Este campus; a fifth Joint Commission International accreditation at Punta Pacífica and a first at Costa del Este, neither dated on the page; World Stroke Organization certification 12 November 2025 to 12 November 2028; ISO 9001:2015 for radiology at both campuses"
+  },
+  {
+   "id": "s:wp-hospital-nacional",
+   "kind": "wikipedia",
+   "title": "Hospital Nacional (Panama City)",
+   "publisher": "Wikipedia",
+   "license": "CC BY-SA 4.0",
+   "url": "https://en.wikipedia.org/wiki/Hospital_Nacional",
+   "accessed": "2026-09-17",
+   "note": "opened 9 July 1973 as Clínica Nacional, renamed Hospital Nacional on 20 August 1998 at Avenida Cuba between 38th and 39th Streets; 80 beds including 8 adult and 5 paediatric intensive care beds and a 5-bed neonatal unit; an International Insurances Department handling foreign insurance programmes"
+  },
+  {
+   "id": "s:pa-ley-6-1987",
+   "kind": "statute",
+   "title": "Ley Nº 6 de 16 de junio de 1987, por la cual se adoptan medidas en beneficio de los ciudadanos jubilados, pensionados, de la tercera y cuarta edad",
+   "publisher": "República de Panamá, published in Gaceta Oficial 20.827 of 22 June 1987; text hosted by the Ministerio de Comercio e Industrias",
+   "year": 1987,
+   "url": "https://mici.gob.pa/wp-content/uploads/2021/09/01-03-ley-6-1987.pdf",
+   "accessed": "2026-09-17",
+   "note": "Article 1, as subrogated by Article 1 of Ley 15 of 13 July 1992 (G.O. 22.080 of 17 July 1992), covers Panamanians and foreigners resident in the national territory aged 55 (women) or 60 (men) and over, and all retirees and pensioners. Item 6: 15% off the total bill for private hospital and clinic services where the beneficiary holds no hospitalisation insurance. Item 8(a): 20% off fees for general medicine consultations and medical and surgical specialties; 8(b) 15% dental; 8(c) 15% optometry. Item 7: 10% off prescribed medicines. A parágrafo raises the ages to 57 and 62 from 12 January 1995"
+  },
+  {
+   "id": "s:wooridul-history",
+   "kind": "web",
+   "title": "History — Wooridul Spine Hospital",
+   "publisher": "Wooridul Spine Hospital",
+   "url": "https://www.wooridul.com/introduce/history",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own dated milestone list: 1982 Sangho Lee Neurosurgery Clinic founded; 1984 Dongrae Wooridul Hospital; 1992 Yeoksam Wooridul Hospital; 1999 Cheongdam Wooridul Spine Hospital as headquarters; 2001 international training centre for ISMISS and IMLAS; 2002 international training centre and Korea branch of the Royal College of Physicians and Surgeons; 2005 and 2011 spine specialty hospital designations by the Korean Ministry of Health and Welfare; 2006 Wooridul International Patient Center; 2009 Shanghai; 2010 Jakarta; 2011 Istanbul and Dubai; 2012 Singapore; 2012 first medical institution certificate from the Ministry"
+  },
+  {
+   "id": "s:wooridul-greetings",
+   "kind": "web",
+   "title": "Greetings — Wooridul Spine Hospital",
+   "publisher": "Wooridul Spine Hospital",
+   "url": "https://www.wooridul.com/introduce/greetings",
+   "accessed": "2026-09-17",
+   "note": "founder Dr Sang-Ho Lee's own page: a spine doctor since 1975, minimally invasive spine treatment, an International Training Center for doctors at home and abroad, and the hospital describing itself as a \"world-class spine hospital\". Current locations listed: Cheongdam, Gimpo Airport, Busan, Daegu, Gwangju, Dubai and Abu Dhabi"
+  },
+  {
+   "id": "s:wooridul-location",
+   "kind": "web",
+   "title": "Location — Wooridul Spine Hospital",
+   "publisher": "Wooridul Spine Hospital",
+   "url": "https://wooridul.com/introduce/location",
+   "accessed": "2026-09-17",
+   "note": "headquarters address given as 445 Hakdong-ro, Gangnam-gu, Seoul 06068"
+  },
+  {
+   "id": "s:medicalkorea-wooridul",
+   "kind": "gov",
+   "title": "Wooridul Spine Hospital — Medical Korea institution listing",
+   "publisher": "Korea Health Industry Development Institute (KHIDI), Ministry of Health and Welfare",
+   "url": "https://www.medicalkorea.or.kr/en/mostvisitedmedicalinstitutions/view?medicalProviderNo=102",
+   "accessed": "2026-09-17",
+   "note": "the state promotion body's own listing: 240 beds, 30 doctors, neurosurgery, orthopaedics and rehabilitation medicine, English, Russian and Arabic, western, Korean and halal meals, direct billing with named international insurers, KOIHA accreditation. No foreign patient count and no price"
+  },
+  {
+   "id": "s:healthpoint-wooridul-spine-centre",
+   "kind": "web",
+   "title": "Wooridul Spine Center — Healthpoint, Abu Dhabi",
+   "publisher": "Healthpoint / Mubadala Health",
+   "url": "https://healthpoint.ae/services/wooridul-spine-center/",
+   "accessed": "2026-09-17",
+   "note": "describes the centre as a partnership between Mubadala Health and Wooridul Spine Hospital, wholly owned by Mubadala, staffed by South Korean spine surgeons, with physiotherapists trained at the Seoul hospital; the stated aim is to reduce the need for patients to travel abroad. No opening date on the page"
+  },
+  {
+   "id": "s:ch-04858023-officers",
+   "kind": "dataset",
+   "title": "Officers of company 04858023 (Intuition Communication Limited, later LaingBuisson International Limited)",
+   "publisher": "Companies House (United Kingdom)",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/04858023/officers",
+   "accessed": "2026-09-17",
+   "note": "the registry's officer list. Keith Lindsay Pollard is recorded as a director appointed 6 August 2003 and resigned 28 February 2018, and again as a director appointed 25 April 2019. The company was incorporated 6 August 2003 as Trekwell Ltd, named Intuition Communication Limited from 22 August 2003 to 5 March 2018, LaingBuisson International Limited from 5 March 2018, Healthcare Business Intelligence Limited from 26 June 2018 to 13 May 2019, and dissolved 14 March 2023. Officer dates of birth are published there and are deliberately not carried in this directory"
+  }
+ ]
+}

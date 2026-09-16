@@ -1,0 +1,277 @@
+{
+ "id": "informed-consent",
+ "names": {
+  "name": "Informed consent",
+  "aliases": [
+   "consent",
+   "valid consent",
+   "consent to treatment"
+  ],
+  "said": "Lawyers call it a doctrine. Hospitals call it a form. The two are not the same object, and abroad it is usually the form that arrives."
+ },
+ "etymology": {
+  "root": "consent, c. 1300, \"approval, voluntary acceptance of what is done or proposed\", from Old French consentir and Latin consentire, to agree or accord, literally to feel together, from com-, with, plus sentire, to feel. The qualifier is American and legal: the phrase informed consent is generally traced to Salgo v. Leland Stanford Jr. University Board of Trustees, 154 Cal. App. 2d 560, 317 P.2d 170, decided by the California Court of Appeal on 22 October 1957.",
+  "first_attested": "c. 1300 for consent; 1957 for the phrase in an American decision",
+  "tier": "cited",
+  "source": "s:etymonline-consent",
+  "note": "Feeling together is a high bar. A signature is not evidence that it happened."
+ },
+ "text": {
+  "what": "A patient's agreement to a procedure, given after being told what it involves, what it risks and what the alternatives are. It is a doctrine about a conversation, evidenced by a document, and the document travels much better than the conversation does.",
+  "story": "The principle is older than the phrase. In Schloendorff v. Society of the New York Hospital, 211 N.Y. 125, decided on 14 April 1914, Cardozo put it as a right: every adult of sound mind decides what is done with their own body, and a surgeon operating without consent commits an assault. Research ethics reached the same place from the other direction — the Nuremberg Code of 1947 opens \"The voluntary consent of the human subject is absolutely essential\", and the World Medical Association's Declaration of Helsinki, adopted in June 1964 and amended as recently as 2024, carries it into research practice.\n\nWhat happens to the doctrine across a language barrier has been measured, in a country with interpreters on site. Schenker and colleagues found that charts of English-speaking patients at a US hospital with on-site professional interpreter services were more likely than those of patients with limited English to carry full documentation of informed consent: 53% against 28%.\n\n*Inference —* that is the floor, not the ceiling. It is what a consent process looks like where interpreters are employed, the patient can complain to a regulator, and a lawyer can be found locally. A consent signed on arrival, in a second language, hours before surgery, has none of those three.",
+  "how": "Three things make a consent process readable from outside: whether the conversation happened before the flight or after it, whether it happened in a language the patient reads, and who was in the room when the alternatives were discussed. What a broker's website said months earlier is marketing, and is not part of it.",
+  "today": "As of 17 September 2026 the only systematic evidence on this in the cross-border trade is content analysis of what intermediaries publish, not observation of consent conversations. Nobody audits the conversation."
+ },
+ "kin": [
+  {
+   "to": "arrival-and-consent",
+   "as": "The step where the form is signed, usually the day before surgery.",
+   "rel": "step"
+  },
+  {
+   "to": "language-consent",
+   "as": "The risk this doctrine runs into across a language barrier.",
+   "rel": "risk"
+  },
+  {
+   "to": "second-opinion",
+   "as": "What the alternatives half of the doctrine actually requires.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The file without which a receiving surgeon is consenting a patient blind.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "What a defective consent is worth in a forum the patient cannot reach.",
+   "rel": "risk"
+  },
+  {
+   "to": "facilitator",
+   "as": "The party whose website is not part of the consent, whatever it said.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-consent",
+  "s:salgo-1957",
+  "s:schloendorff-1914",
+  "s:nuremberg-code-bmj",
+  "s:wma-helsinki",
+  "s:schenker-consent-language",
+  "s:penney-broker-consent-2011"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "I"
+ },
+ "blurb": "A patient's agreement to a procedure, given after being told what it involves, what it risks and what the alternatives are.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The step where the form is signed, usually the day before surgery.",
+   "rel": "step"
+  },
+  {
+   "to": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "The risk this doctrine runs into across a language barrier.",
+   "rel": "risk"
+  },
+  {
+   "to": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "What the alternatives half of the doctrine actually requires.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The file without which a receiving surgeon is consenting a patient blind.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "What a defective consent is worth in a forum the patient cannot reach.",
+   "rel": "risk"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The party whose website is not part of the consent, whatever it said.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-consent",
+   "kind": "dictionary",
+   "title": "consent (n.), consent (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/consent",
+   "accessed": "2026-09-17",
+   "note": "c. 1300, from Latin consentire"
+  },
+  {
+   "id": "s:salgo-1957",
+   "kind": "law",
+   "title": "Salgo v. Leland Stanford Jr. University Board of Trustees, 154 Cal. App. 2d 560, 317 P.2d 170 (Cal. Ct. App., 22 October 1957)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/2619445/salgo-v-leland-stanford-jr-university-board-of-trustees/",
+   "accessed": "2026-09-17",
+   "note": "case name, citations, court and filing date verified through the CourtListener search API on 17 September 2026; the opinion text itself was not read for this record"
+  },
+  {
+   "id": "s:schloendorff-1914",
+   "kind": "law",
+   "title": "Schloendorff v. Society of the New York Hospital, 211 N.Y. 125, 105 N.E. 92 (N.Y. Court of Appeals, 14 April 1914)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/3599100/schloendorff-v-society-of-the-new-york-hospital/",
+   "accessed": "2026-09-17",
+   "note": "citations, court and date verified through the CourtListener search API on 17 September 2026"
+  },
+  {
+   "id": "s:nuremberg-code-bmj",
+   "kind": "web",
+   "title": "The Nuremberg Code (1947)",
+   "publisher": "reprinted in the BMJ, No 7070, Volume 313, page 1448, 7 December 1996",
+   "url": "https://media.tghn.org/medialibrary/2011/04/BMJ_No_7070_Volume_313_The_Nuremberg_Code.pdf",
+   "accessed": "2026-09-17",
+   "note": "Principle 1 opens: The voluntary consent of the human subject is absolutely essential"
+  },
+  {
+   "id": "s:wma-helsinki",
+   "kind": "org",
+   "title": "WMA Declaration of Helsinki — Ethical Principles for Medical Research Involving Human Subjects",
+   "publisher": "World Medical Association",
+   "url": "https://www.wma.net/policies-post/wma-declaration-of-helsinki/",
+   "accessed": "2026-09-17",
+   "note": "adopted June 1964 at the 18th WMA General Assembly, Helsinki; most recently amended at the 75th General Assembly, Helsinki, 2024"
+  },
+  {
+   "id": "s:schenker-consent-language",
+   "kind": "paper",
+   "title": "The impact of language barriers on documentation of informed consent at a hospital with on-site interpreter services",
+   "publisher": "Schenker Y, Wang F, Selig SJ, Ng R, Fernandez A. Journal of General Internal Medicine 2007;22(Suppl 2):294–9",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078548/",
+   "accessed": "2026-09-16",
+   "note": "74 matched pairs, lumbar puncture, thoracentesis and paracentesis, one US public teaching hospital, January 2004 to January 2006"
+  },
+  {
+   "id": "s:penney-broker-consent-2011",
+   "kind": "paper",
+   "title": "Risk communication and informed consent in the medical tourism industry: a thematic content analysis of Canadian broker websites",
+   "publisher": "BMC Medical Ethics 2011;12:17 (Penney K, Snyder J, Crooks VA, Johnston R)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21943392/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "assisted-dying",
+   "type": "procedure",
+   "name": "Assisted dying",
+   "as": "The requirement that the person act for themselves at the end is a consent rule before it is a clinical one.",
+   "rel": "term"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "The facial nerve is the risk that consent conversations turn on, and language is part of that conversation.",
+   "rel": "term"
+  },
+  {
+   "from": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The doctrine, and what it assumes about a shared language.",
+   "rel": "term"
+  },
+  {
+   "from": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "What the receiving surgeon is consenting the patient to without the file.",
+   "rel": "term"
+  },
+  {
+   "from": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "What a diagnosis reviewed once cannot fully support.",
+   "rel": "term"
+  },
+  {
+   "from": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "The word, and the doctrine behind the form being signed.",
+   "rel": "term"
+  },
+  {
+   "from": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "What a patient is consenting to when the product class is unsettled.",
+   "rel": "term"
+  }
+ ]
+}

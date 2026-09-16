@@ -1,0 +1,441 @@
+{
+ "id": "medical-tourism",
+ "names": {
+  "name": "Medical tourism",
+  "aliases": [
+   "health tourism",
+   "surgical tourism",
+   "dental tourism",
+   "cosmetic tourism",
+   "medical travel"
+  ],
+  "said": "Ministries and accreditors use it. Trade publishers have been backing away from it since 2009. Researchers write it in scare quotes. Patients, asked, say they object to it."
+ },
+ "etymology": {
+  "root": "The two halves pull against each other. Medical is 1640s, from French médical and Late Latin medicalis, from Latin medicus, from medeor, to cure or heal. Tourism is 1811, from tour plus -ism, and the Online Etymology Dictionary carries the OED's note on it: \"Orig, usually depreciatory\"; the Century Dictionary marked it rare in 1891. Behind tour, c. 1300, a turn or circuit, sits Old French torner, Latin tornare, to turn on a lathe, from tornus, a lathe, from Greek tornos, the tool for drawing circles. The agent noun is 1772. Set beside it, travel is a variant of Middle English travailen, which meant to struggle, toil or labour, and patient is from Latin patientem, bearing, supporting, suffering. One half of the compound descends from suffering and the other from a lathe.",
+  "first_attested": "1811 for tourism, 1772 for the agent noun; the compound is in journal titles by 1997",
+  "tier": "cited",
+  "source": "s:etymonline-tourism",
+  "note": "This site's own validator treats the singular agent noun as a hard error in reader-facing prose, and strips quoted spans before it checks. That is why the phrase appears on this page in quotation marks and, elsewhere on the site, only inside a quotation or a proper name."
+ },
+ "text": {
+  "what": "The most widely used name for travelling to another country to be treated, and the most argued-about. This site writes medical travel and cross-border care instead. The rule is stated here rather than left for a reader to infer from an absence.",
+  "story": "The compound is older than the industry that wears it, and it started in two unrelated registers. In 1997 Mark Sauer used it in a title in Human Reproduction, warning that restricting donor payment would lead to it. In the same year Rod Sheaff used it in Health Policy in the opposite sense, reporting that \"the NHS has official systems to discourage 'medical tourism'\" — foreigners arriving to use a health service, in scare quotes. In 1999 a Russian paper placed it inside health-resort medicine. In 2000 the BMJ ran a letter headed that it can do harm.\n\nGoogle's book corpus puts the crossover in 2005. Until that year health tourism was the commoner phrase in English books; medical tourism overtakes it in 2005, roughly triples in 2007, and rises about a hundred and sixty-fold between 2000 and 2019 — the years the consumer guidebooks and the trade bodies appeared.\n\nThe objections are collected in one place, with page numbers, in the OECD scoping review of 2011 by Neil Lunt and colleagues, which adopts the term and then quotes three refusals of it. Irene Glinos and colleagues, writing in Health and Place in 2010: the term \"insinuates leisurely travelling and does not capture the seriousness of most patient mobility\". Andrea Whittaker in Global Public Health in 2008: it \"is a misnomer, as it carries connotations of pleasure not always associated with this travel\". Beth Kangas in Medical Anthropology in 2010: \"A term that suggests leisure and frivolity. The term promotes a market place model that disregards the suffering that patients experience\". Leigh Turner's 2012 paper in Globalization and Health is titled to the same effect and opens by calling it \"what many journalists and health researchers label\" the thing.\n\nThe patients' own objection is on the record too. Sharon Bassan and Marie Alice Michaelsen, analysing German and Israeli press coverage in 2013, report that couples travelling for fertility treatment \"do not refer to themselves as 'reproductive tourists'. They might even be offended by this term\", and that they \"do not regard themselves as tourists but instead as patients\", because the word is \"associated with fun, leisure or holidays, while they often experience their journey as highly stressful\". The same paper records Roberto Matorras, then president of the Spanish Fertility Society, arguing that the word \"may be offensive both to couples and to professionals involved in the process\".\n\n*Inference —* the naming problem is also the counting problem. A category that holds an expatriate with a chest infection, a diaspora visitor seeing a doctor at home and a person who flew for a knee will produce the very large numbers this field is known for. The Philippine Institute for Development Studies said so about its own country in 2013: \"The exact size of the market (number of medical tourists) and its revenue potential remain unclear, however, due to the absence of an agreed-upon definition of medical tourism.\"",
+  "how": "This site's rule is mechanical and worth stating. The banned-word list in its authoring guide carries the singular noun for a person who travels for pleasure, and the validator raises a hard error on it in any reader-facing text field. Quotation marks are the escape: the checker strips quoted spans before testing, so a phrase can be reported with a speaker attached. That is the mechanism by which the two-word name of this field survives on this page and nowhere else in the site's own prose. A directory that hides its own editorial rule is worse than one that states it.",
+  "today": "As of 17 September 2026 no single name has won. Ministries and accreditors use this one, trade publishers use medical travel, the fertility literature uses cross border reproductive care, and the European Union uses patient mobility. This site reports which body uses which word on that body's own record, and never corrects a speaker's word inside a quotation.",
+  "notes": "This record reports an argument about a word. It takes no view on who is right and tells no reader what to call anything."
+ },
+ "kin": [
+  {
+   "to": "medical-travel",
+   "as": "The name this site uses instead, and the one the trade drifted to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "health-tourism",
+   "as": "The older and wider administrative word, commoner in English books until 2005.",
+   "rel": "contrast"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The counter-word, proposed from inside fertility medicine, and the sharpest objection on the record.",
+   "rel": "contrast"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The part of the traffic a prohibition at home explains, named separately in the legal literature.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The European administrative word for the same movement, with a directive behind it.",
+   "rel": "term"
+  },
+  {
+   "to": "medical-tourism-association",
+   "as": "The trade body that put this word in its own name in 2007.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj",
+   "as": "The trade publisher that chose the other two words.",
+   "rel": "org"
+  },
+  {
+   "to": "philippines",
+   "as": "Where a government research body said the count fails for want of a definition.",
+   "rel": "destination"
+  },
+  {
+   "to": "counting-patients",
+   "as": "What a category this wide does to a national figure.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:etymonline-tourism",
+  "s:etymonline-tourist",
+  "s:etymonline-medical",
+  "s:etymonline-travel",
+  "s:etymonline-patient",
+  "s:sauer-1997",
+  "s:sheaff-1997",
+  "s:bishop-litch-2000",
+  "s:ngram-naming",
+  "s:oecd-lunt-scoping-2011",
+  "s:turner-beyond-2012",
+  "s:bassan-michaelsen-2013",
+  "s:pids-medical-tourism-2013",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:mta-about",
+  "s:imtj-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the Glinos, Whittaker and Kangas quotations are verified as quoted, with page numbers, in the OECD review, not against the paywalled originals; the book-corpus figures are harvested from Google's Ngram JSON endpoint"
+   },
+   "text.how": {
+    "tier": "field",
+    "note": "read off this project's own AUTHORING.txt and tools/validate.py on 17 September 2026; no external source"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "M"
+ },
+ "blurb": "The most widely used name for travelling to another country to be treated, and the most argued-about. This site writes medical travel and cross-border care instead.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The name this site uses instead, and the one the trade drifted to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "health-tourism",
+   "type": "term",
+   "name": "Health tourism",
+   "as": "The older and wider administrative word, commoner in English books until 2005.",
+   "rel": "contrast"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The counter-word, proposed from inside fertility medicine, and the sharpest objection on the record.",
+   "rel": "contrast"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "The part of the traffic a prohibition at home explains, named separately in the legal literature.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The European administrative word for the same movement, with a directive behind it.",
+   "rel": "term"
+  },
+  {
+   "to": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The trade body that put this word in its own name in 2007.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj",
+   "type": "org",
+   "name": "International Medical Travel Journal",
+   "as": "The trade publisher that chose the other two words.",
+   "rel": "org"
+  },
+  {
+   "to": "philippines",
+   "type": "destination",
+   "name": "Philippines",
+   "as": "Where a government research body said the count fails for want of a definition.",
+   "rel": "destination"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "What a category this wide does to a national figure.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-tourism",
+   "kind": "dictionary",
+   "title": "tourism (n.), tour (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tourism",
+   "accessed": "2026-09-17",
+   "note": "1811 / c. 1300"
+  },
+  {
+   "id": "s:etymonline-tourist",
+   "kind": "dictionary",
+   "title": "tourist (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tourist",
+   "accessed": "2026-09-17",
+   "note": "1772"
+  },
+  {
+   "id": "s:etymonline-medical",
+   "kind": "dictionary",
+   "title": "medical (adj.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/medical",
+   "accessed": "2026-09-17",
+   "note": "1640s, from Late Latin medicalis, from Latin medicus"
+  },
+  {
+   "id": "s:etymonline-travel",
+   "kind": "dictionary",
+   "title": "travel (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/travel",
+   "accessed": "2026-09-17",
+   "note": "late 14c., a variant of travailen, to struggle, toil, labour"
+  },
+  {
+   "id": "s:etymonline-patient",
+   "kind": "dictionary",
+   "title": "patient (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/patient",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Latin patientem, bearing, supporting, suffering"
+  },
+  {
+   "id": "s:sauer-1997",
+   "kind": "paper",
+   "title": "Reproductive prohibition: restricting donor payment will lead to medical tourism",
+   "publisher": "Sauer MV. Human Reproduction 1997;12(9):1844-5",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9363693/",
+   "accessed": "2026-09-17",
+   "note": "the earliest journal title carrying the compound that this project verified, through the NCBI eutils API (PMID 9363693)"
+  },
+  {
+   "id": "s:sheaff-1997",
+   "kind": "paper",
+   "title": "Healthcare access and mobility between the UK and other European Union states: an 'implementation surplus'",
+   "publisher": "Sheaff R. Health Policy 1997;42(3):239-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10176303/",
+   "accessed": "2026-09-17",
+   "note": "the same phrase in the older, gatekeeping sense, in scare quotes in the abstract (PMID 10176303)"
+  },
+  {
+   "id": "s:bishop-litch-2000",
+   "kind": "paper",
+   "title": "Medical tourism can do harm",
+   "publisher": "Bishop R, Litch JA. BMJ 2000;320(7240):1017",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10753174/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:ngram-naming",
+   "kind": "dataset",
+   "title": "Relative frequency of medical tourism, health tourism, medical travel and wellness tourism in the Google Books English 2019 corpus",
+   "publisher": "Google Books Ngram Viewer",
+   "url": "https://books.google.com/ngrams/json?content=medical+tourism,health+tourism&year_start=1970&year_end=2019&corpus=en-2019&smoothing=0",
+   "accessed": "2026-09-17",
+   "note": "queried directly against the JSON endpoint, smoothing 0. The crossover year is 2005. Pre-1980 non-zero values in this corpus are OCR noise and are not read as attestations"
+  },
+  {
+   "id": "s:oecd-lunt-scoping-2011",
+   "kind": "report",
+   "title": "Medical Tourism: Treatments, Markets and Health System Implications — a scoping review, DELSA/HEA/WD/HWP(2011)3",
+   "publisher": "Lunt N, Smith R, Exworthy M, Green ST, Horsfall D, Mannion R; OECD Directorate for Employment, Labour and Social Affairs",
+   "url": "https://www.birmingham.ac.uk/documents/college-social-sciences/social-policy/hsmc/publications/2011/medical-tourism-scoping-review.pdf",
+   "accessed": "2026-09-17",
+   "note": "page 8 collects the objections to the term and quotes Glinos et al. (Health and Place 2010;16(6):1145-55), Whittaker (Global Public Health 2008;3(3):271-90, at 272) and Kangas (Medical Anthropology 2010;29(4):344-62, at 350). Those three quotations are verified as quoted here, not against the paywalled originals; the OECD text mis-dates Glinos as 2011 in the body and 2010 in its reference list. The oecd.org copy returns 403; this university mirror was read in full"
+  },
+  {
+   "id": "s:turner-beyond-2012",
+   "kind": "paper",
+   "title": "Beyond 'medical tourism': Canadian companies marketing medical travel",
+   "publisher": "Turner L. Globalization and Health 2012;8:16",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3503750/",
+   "accessed": "2026-09-17",
+   "note": "full text read; DOI 10.1186/1744-8603-8-16, PMID 22703873"
+  },
+  {
+   "id": "s:bassan-michaelsen-2013",
+   "kind": "paper",
+   "title": "Honeymoon, medical treatment or big business? An analysis of the meanings of the term 'reproductive tourism' in German and Israeli public media discourses",
+   "publisher": "Bassan S, Michaelsen MA. Philosophy, Ethics, and Humanities in Medicine 2013;8:9",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3854005/",
+   "accessed": "2026-09-17",
+   "note": "CC BY, full text read; carries the patients' objection, Matorras's ground and Pennings's counter-argument, all at one remove from the paywalled letters"
+  },
+  {
+   "id": "s:pids-medical-tourism-2013",
+   "kind": "paper",
+   "title": "Health-enhancing holidays: challenges in expanding medical tourism in the Philippines",
+   "publisher": "Philippine Institute for Development Studies, Policy Notes No. 2013-11",
+   "url": "https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidspn1311.pdf",
+   "accessed": "2026-09-16",
+   "note": "Oscar F. Picazo, October 2013, ISSN 1656-5266"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:mta-about",
+   "kind": "org",
+   "title": "About MTA",
+   "publisher": "Medical Tourism Association",
+   "url": "https://www.medicaltourismassociation.com/about-us",
+   "accessed": "2026-09-16",
+   "note": "founded 2007, non-profit, West Palm Beach, Florida; describes government, provider and insurer members"
+  },
+  {
+   "id": "s:imtj-wikipedia",
+   "kind": "wikipedia",
+   "title": "International Medical Travel Journal",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/International_Medical_Travel_Journal",
+   "accessed": "2026-09-16",
+   "note": "established 2007, UK trade publication, biweekly newsletter, Keith Pollard as editor in chief, annual Medical Travel Awards; imtj.com refused every fetch on this date"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the Glinos, Whittaker and Kangas quotations are verified as quoted, with page numbers, in the OECD review, not against the paywalled originals; the book-corpus figures are harvested from Google's Ngram JSON endpoint"
+  },
+  "text.how": {
+   "tier": "field",
+   "note": "read off this project's own AUTHORING.txt and tools/validate.py on 17 September 2026; no external source"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The word it put in its own name, and the fight over that word.",
+   "rel": "term"
+  },
+  {
+   "from": "john-connell",
+   "type": "person",
+   "name": "John Connell",
+   "as": "The word in his title, used academically before the trade contested it.",
+   "rel": "term"
+  },
+  {
+   "from": "josef-woodman",
+   "type": "person",
+   "name": "Josef Woodman",
+   "as": "The word in his title, and the fight over it.",
+   "rel": "term"
+  },
+  {
+   "from": "istanbul-declaration-2008",
+   "type": "event",
+   "name": "The Declaration of Istanbul, 2008",
+   "as": "The contested word — here attached, by a profession, to a specific practice it wanted stopped.",
+   "rel": "term"
+  },
+  {
+   "from": "ndm-1-2010",
+   "type": "event",
+   "name": "NDM-1, 2010",
+   "as": "The word the ministry used in its reply, and the fight over it in miniature.",
+   "rel": "term"
+  },
+  {
+   "from": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "The wider contested name, and the page where the argument over it is held.",
+   "rel": "term"
+  },
+  {
+   "from": "health-tourism",
+   "type": "term",
+   "name": "Health tourism",
+   "as": "The narrower and more contested word inside this one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The word this one replaced, and the page where the fight over it is held.",
+   "rel": "contrast"
+  },
+  {
+   "from": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The word this one was coined against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "world-bank-tourism-arrivals",
+   "type": "dataset",
+   "name": "International arrivals",
+   "as": "The word whose market-size claims are built on numbers of this shape.",
+   "rel": "term"
+  },
+  {
+   "from": "the-word-itself",
+   "type": "story",
+   "name": "The word itself",
+   "as": "The word's own page, where the fight over it is the subject and the objections are quoted with their speakers.",
+   "rel": "term"
+  }
+ ]
+}

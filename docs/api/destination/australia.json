@@ -1,0 +1,405 @@
+{
+ "schema": 1,
+ "id": "australia",
+ "type": "destination",
+ "names": {
+  "name": "Australia",
+  "aliases": [
+   "Commonwealth of Australia"
+  ],
+  "said": "A source market with a Bali-adjacent geography and a Thai-and-Turkish booking habit. The trade phrase here is cosmetic tourism, and the professional body that uses it does so to argue against it."
+ },
+ "region": [
+  "oceania"
+ ],
+ "facets": {
+  "iso2": "AU",
+  "direction": "outbound",
+  "currency": "AUD",
+  "languages": [
+   "English"
+  ],
+  "draws": []
+ },
+ "text": {
+  "what": "A country people leave for dental and cosmetic work and almost never arrive at for either. Australians fly to Thailand, Türkiye, Malaysia, South Korea and India for procedures their own system either does not fund or prices out of reach; Medicare does not follow them, and private cover usually does not either. The best-measured thing about the flow is what comes back: patients presenting at Australian public hospitals with complications after surgery abroad.",
+  "story": "The measurement problem here is the usual one. A Victorian government health page carries two figures — around 15,000 Australians travelling overseas for healthcare each year, and about $300 million a year spent on cosmetic surgery abroad — and names no source for either; the page's own review date is December 2017. This record repeats them as what that page says and not as facts.\n\nThe firm number is smaller and much more specific. Res and colleagues, in the ANZ Journal of Surgery in 2026, reviewed patients presenting to Westmead Hospital in New South Wales with complications after cosmetic surgery overseas across two windows, July 2022 to January 2023 and May to December 2024. Twenty-four patients met the criteria. Türkiye was the country of surgery in 54.2 per cent of them, Thailand in 12.5 per cent, Lebanon in 8.3 per cent, with single cases from Jordan, Syria, Korea, India, Iraq and Mongolia. Abdominoplasty was the commonest procedure at 54.2 per cent, liposuction 25 per cent, breast augmentation 20.8 per cent, and 58.3 per cent had multiple procedures in one sitting. Wound dehiscence appeared in 45.8 per cent, infection in 41.7 per cent, seroma in 20.8 per cent. Median time from surgery to presentation was 3.8 weeks; mean stay was 3.3 days. The authors state that costing was outside the study's scope.\n\n*Inference —* twenty-four patients at one Sydney hospital across roughly thirteen months of sampling is a denominator-free number, and it should not be read as a complication rate. What it does show is the shape: the operations that come back are the long abdominal ones done several at a time, and they come back about a month later, which is after the travel insurance and after the surgeon abroad has closed the file.\n\nThe Australian Society of Plastic Surgeons, in a statement dated January 2024, opposes the practice and names its own concern that restricted private theatre access at home may be pushing patients out. That is the argument, from a body with an interest in where its members' patients are operated on, and it is reported here as such.",
+  "how": "An agency or a clinic abroad quotes a package; the patient books flights and a recovery hotel; the consultation is often the day before the operation. On return, follow-up falls to a general practitioner, a public emergency department or a plastic surgeon who did not do the case. Medicare does not reimburse treatment abroad and Australia's reciprocal health agreements cover a short list of countries for immediate need, not elective surgery. Devices implanted overseas may arrive without documentation, which is the practical problem a revision surgeon meets first.",
+  "today": "As of September 2026 the published Australian evidence on this flow is a single-centre complications series and a government consumer page whose two headline numbers carry no source. Inbound care is not a meaningful trade in this country and this record carries no inbound figure.",
+  "notes": "The single-centre series counts presentations at one hospital. It has no denominator and is not a rate."
+ },
+ "geo": {
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No outbound count is carried as a fact. The Victorian government's consumer page states around 15,000 Australians travelling overseas for healthcare a year and about $300 million a year on cosmetic surgery abroad, and names no source for either; its review date is 5 December 2017. The 24-patient figure from Westmead Hospital is a count of presentations with complications at one hospital across two sampling windows in 2022-23 and 2024, with no denominator, and is not a complication rate.",
+  "as_of": "2026",
+  "source": "s:anzjs-cosmetic-tourism-2026",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006713/"
+ },
+ "kin": [
+  {
+   "to": "thailand",
+   "as": "The destination Australians have used longest, and the country of surgery in 12.5% of the Westmead series.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye",
+   "as": "Where most of the complications presenting at Westmead had been operated on.",
+   "rel": "destination"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "The procedure that came back most often in the Australian series.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The other half of the Australian outflow, and the one that rarely reaches a hospital.",
+   "rel": "procedure"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who fixes it, and at whose cost, once the patient has landed.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "A median of 3.8 weeks from surgery to presentation is the gap, measured.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Medicare does not travel, and private cover usually does not either.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "Present in 41.7% of the Australian series.",
+   "rel": "risk"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The question a returned patient's second operation reopens.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "The Impact of Overseas Cosmetic Tourism on the Australian Public Hospital System",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006713/"
+  },
+  {
+   "label": "Medical tourism and insurance — Better Health Channel, Victoria",
+   "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/medical-tourism"
+  }
+ ],
+ "sources": [
+  "s:anzjs-cosmetic-tourism-2026",
+  "s:betterhealth-vic-medical-tourism",
+  "s:asps-cosmetic-tourism-2024",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:anzjs-cosmetic-tourism-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:anzjs-cosmetic-tourism-2026",
+    "note": "the study figures are read off the open-access paper; the reading of what 24 patients can and cannot show is marked inline as inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the ordinary route; the Medicare point follows the Victorian government page"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": false,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A country people leave for dental and cosmetic work and almost never arrive at for either.",
+ "region_terms": [
+  {
+   "key": "oceania",
+   "name": "Oceania",
+   "note": "Australia, New Zealand, the Pacific"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The destination Australians have used longest, and the country of surgery in 12.5% of the Westmead series.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "Where most of the complications presenting at Westmead had been operated on.",
+   "rel": "destination"
+  },
+  {
+   "to": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "The procedure that came back most often in the Australian series.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The other half of the Australian outflow, and the one that rarely reaches a hospital.",
+   "rel": "procedure"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who fixes it, and at whose cost, once the patient has landed.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "A median of 3.8 weeks from surgery to presentation is the gap, measured.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "Medicare does not travel, and private cover usually does not either.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "Present in 41.7% of the Australian series.",
+   "rel": "risk"
+  },
+  {
+   "to": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "The question a returned patient's second operation reopens.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:anzjs-cosmetic-tourism-2026",
+   "kind": "journal",
+   "title": "The Impact of Overseas Cosmetic Tourism on the Australian Public Hospital System",
+   "publisher": "Res A, He B, Karunaratne YG, Cheung M, Hsieh F. ANZ Journal of Surgery 2026;96(3):607–613",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13006713/",
+   "accessed": "2026-09-16",
+   "note": "doi 10.1111/ans.70513; retrospective review of patients presenting to one Sydney hospital with complications after cosmetic surgery abroad"
+  },
+  {
+   "id": "s:betterhealth-vic-medical-tourism",
+   "kind": "gov",
+   "title": "Medical tourism and insurance",
+   "publisher": "Better Health Channel, Department of Health, State Government of Victoria",
+   "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "page review date 5 December 2017; carries the 15,000-travellers and $300 million figures without naming where either comes from"
+  },
+  {
+   "id": "s:asps-cosmetic-tourism-2024",
+   "kind": "org",
+   "title": "ASPS statement re Cosmetic Tourism, January 2024",
+   "publisher": "Australian Society of Plastic Surgeons",
+   "url": "https://plasticsurgery.org.au/wp-content/uploads/2024/01/FINAL-ASPS-cosmetic-tourism-statement-for-Sunrise-Jan-2024.pdf",
+   "accessed": "2026-09-16",
+   "note": "the position of a professional body with a direct interest in where its members' patients are operated on; read as such"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:anzjs-cosmetic-tourism-2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:anzjs-cosmetic-tourism-2026",
+   "note": "the study figures are read off the open-access paper; the reading of what 24 patients can and cannot show is marked inline as inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the ordinary route; the Medicare point follows the Victorian government page"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:anzjs-cosmetic-tourism-2026"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:anzjs-cosmetic-tourism-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "Whose schedule pays the same fee for this as for a hip replacement.",
+   "rel": "destination"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "Where the schedule pays for one coronary territory at a time.",
+   "rel": "destination"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Where the state prices the surgeon's service rather than the admission.",
+   "rel": "destination"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "Where the state pays for the cataract lens and names the refractive exclusion in the same sentence.",
+   "rel": "destination"
+  },
+  {
+   "from": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "Where the shortfall in replacement processors has been measured and published.",
+   "rel": "place"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "Whose schedule attaches a five-part eligibility test to the fee.",
+   "rel": "destination"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "Where one fee covers the operation by any approach.",
+   "rel": "destination"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "Where the schedule prices the surgeon's service at a fixed fee whichever valve it is.",
+   "rel": "destination"
+  },
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "Where one schedule fee covers every route to the same repair.",
+   "rel": "destination"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "Where the state prices the surgeon's service and the hospital bills separately.",
+   "rel": "destination"
+  },
+  {
+   "from": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "Whose schedule writes the disputed indication into the item's own wording.",
+   "rel": "destination"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "Where the schedule names nerve sparing and pays the surgeon alone.",
+   "rel": "destination"
+  },
+  {
+   "from": "shoulder-replacement",
+   "type": "procedure",
+   "name": "Total shoulder replacement",
+   "as": "Whose payer sets the schedule fee on this page, and prices the shoulder above the hip.",
+   "rel": "destination"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "Whose schedule prices fusion by the motion segment, one item number per level.",
+   "rel": "destination"
+  },
+  {
+   "from": "achsi",
+   "type": "org",
+   "name": "ACHS International",
+   "as": "The system these standards were written for, and where a regulator stands behind them.",
+   "rel": "place"
+  },
+  {
+   "from": "john-connell",
+   "type": "person",
+   "name": "John Connell",
+   "as": "Where he writes from, and a country that both sends and receives patients.",
+   "rel": "destination"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "Where the newest series puts the median interval before presentation at 3.8 weeks.",
+   "rel": "destination"
+  }
+ ]
+}

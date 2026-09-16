@@ -1,0 +1,513 @@
+{
+ "schema": 1,
+ "id": "vaginoplasty",
+ "type": "procedure",
+ "names": {
+  "name": "Vaginoplasty",
+  "aliases": [
+   "gender-affirming vaginoplasty",
+   "genital reconstruction",
+   "sex reassignment surgery",
+   "SRS",
+   "GCS",
+   "penile inversion vaginoplasty",
+   "peritoneal vaginoplasty"
+  ],
+  "said": "Surgeons name the technique, because the technique sets the price: penile inversion, scrotal skin graft, sigmoid colon, peritoneal flap. Thai price lists say gender affirmation surgery by, then the technique. A London list says gender confirmation surgery. The older trade term is SRS and it is still what most price pages are indexed under."
+ },
+ "etymology": {
+  "root": "vagina: Latin vagina, a sheath or scabbard, the word a Roman would use for the thing a sword goes into; applied to the anatomy by sixteenth-century anatomists. Plus -plasty, Greek plastos, moulded. Vulvoplasty and its sibling zero-depth use the same suffix on vulva, Latin for womb or covering.",
+  "tier": "tradition",
+  "note": "The same word names two different operations. In cosmetic surgery vaginoplasty means tightening an existing vagina, and most pages returned by a search for the price of a vaginoplasty in Türkiye are selling that. On this page vaginoplasty means constructing one. A price page that does not say which is not comparable to either."
+ },
+ "region": [
+  "global",
+  "southeast-asia",
+  "west-asia",
+  "europe-west",
+  "north-america"
+ ],
+ "facets": {
+  "family": "gender-affirming",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The testes are removed, the penile and scrotal tissue is dismantled, and a vaginal canal is made in the space between the bladder and the rectum, lined with penile skin turned inside out, with a scrotal skin graft, with a segment of sigmoid colon, or with peritoneum drawn down from the abdomen. A clitoris is built from glans tissue on its own nerve, the urethra is shortened and repositioned, and labia are formed from the remaining skin. The canal is held open afterwards by dilation, which is a daily obligation for a long period and then a permanent one.",
+  "story": "Thailand has taken this operation for fifty years and it is the only country in this directory where a hospital publishes a full table of prices for it by technique. Yanhee Hospital in Bangkok lists nine nights and 420,000 baht for the skin-graft version, 580,000 for a sigmoid colon vaginoplasty, and 780,000 for the peritoneal ones. The same table prices the revisions — a failed colovaginoplasty replaced with a skin graft at 765,000 baht, a recto-neovaginal fistula repaired at 965,000 — which is a rarer piece of publication than the primary prices, and the two columns belong together.\n\nOther long-established Thai clinics publish nothing. The Suporn Clinic in Chonburi states that it does not publish prices, and sets out a deposit and cancellation schedule instead. Chettawut Plastic Surgery Center in Bangkok publishes no package figure either; the only number on its surgery FAQ is an extra charge of 32,000 baht where the scrotal skin turns out to be insufficient and a groin graft is needed. Kamol Cosmetic Hospital names five techniques with their operating times and a stay of four to six nights, and no price at all.\n\n*Inference —* that split is the useful thing on this page. Where a clinic's patients arrive through word of mouth in a community, the price is quoted in correspondence; where they arrive through a search engine, it is on the page. Neither pattern says anything about the surgery.\n\nAt the other end, what is published in London and San Francisco is a guide rather than a price. The London Transgender Clinic's list starts gender confirmation surgery at £31,160 for the penile-scrotal flap technique and £34,310 for colovaginoplasty, every line prefixed \"Starts from\", and states plainly that no exact price can be given before a consultation. The Gender Confirmation Center in San Francisco estimates vaginoplasty at 23,000 to 24,500 dollars and says hospital stay, in-hospital supplies and occupational therapy go into the quote while medications and travel do not.\n\nThree things move this operation across borders: what it costs, how long the queue is at home, and whether the health system at home will do it at all. The third is law and administration rather than surgery, and it is on this directory's gender-affirming care access page, not here.",
+  "how": "General anaesthesia, four to six hours by most published technique lists, and hospital stays that run longer than almost anything else in this directory: nine nights on the Thai price table, four to six on another Bangkok hospital's page. Permanent hair removal on the donor skin is done for months beforehand, not after. The canal is packed, then dilated: Chettawut's published instruction is a daily dilation routine for two years to hold the depth, dropping to two or three times a week after that, \"for life\". Discharge from hospital is not the end of the stay abroad — the first post-operative weeks belong to the surgeon who operated, and the stitches, the packing and the first complications all fall inside them.",
+  "today": "As of 17 September 2026 the prices read off provider pages for this record span three countries and three kinds of document: a Thai hospital's fixed table with nights attached, a London clinic's guide prices with \"Starts from\" on every line, and a US practice's estimate with an inclusion sentence. None of the three publishes what a revision costs at home, and only the Thai table publishes what a revision costs where the operation was done."
+ },
+ "metrics": {
+  "stay_days": 9,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "Nine nights is the ward stay attached to every primary gender affirmation surgery row on the Yanhee price table, not a clinical standard; Kamol Cosmetic Hospital's page states four to six nights for its own techniques. No source read for this record publishes a wait before flying. Dilation, not the flight, is what sets the shape of the months after.",
+  "as_of": "2026-09-17",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {
+   "procedure": "vaginoplasty",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 420000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "9 nights in hospital, as stated in the nights column"
+   ],
+   "excludes": [
+    "the page states no inclusion list at all beyond the nights",
+    "hair removal beforehand",
+    "accommodation outside the hospital",
+    "flights and the weeks in Bangkok after discharge"
+   ],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "listed as Gender Affirmation Surgery by Labia (Skin Graft). The table carries no validity date and no inclusion list; the nights column is the only thing attached to the number.",
+   "tier": "cited",
+   "usd": 12615.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "vaginoplasty",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 580000,
+   "amount_high": 820000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "9 nights in hospital"
+   ],
+   "excludes": [
+    "as above — nothing else is named"
+   ],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "the bowel and peritoneal techniques on the same table: colonvaginoplasty 580,000, penile-peritoneal and full-length peritoneal flap 780,000 each, laparoscopic colonvaginoplasty 820,000. Revisions are priced separately and can exceed the primary: replacing a failed colovaginoplasty with a skin graft is listed at 765,000 and repairing a recto-neovaginal fistula at 965,000.",
+   "tier": "cited",
+   "usd": 17420.0,
+   "usd_high": 24629.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "vaginoplasty",
+   "country": "GB",
+   "city": "London",
+   "amount": 31160,
+   "amount_high": 34310,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": [
+    "a formal quotation is stated to include the treatment, aftercare and the hospital stay where required"
+   ],
+   "excludes": [
+    "the initial face-to-face consultation, listed separately at £250",
+    "any price certainty before that consultation"
+   ],
+   "source": "s:ltc-price-list",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/",
+   "note": "the clinic's guide prices: penile scrotal flat technique from £31,160, colovaginoplasty from £34,310. Vulvoplasty, the zero-depth operation, is listed separately from £18,935 and orchidectomy from £6,765. Every line reads Starts from, and the page states that guide prices are subject to change.",
+   "tier": "cited",
+   "usd": 41993.0,
+   "usd_high": 46238.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "vaginoplasty",
+   "country": "US",
+   "city": "San Francisco",
+   "amount": 23000,
+   "amount_high": 24500,
+   "currency": "USD",
+   "as_of": "2024-10-15",
+   "kind": "estimate",
+   "includes": [
+    "hospital stays",
+    "post-operative supplies while in the hospital",
+    "occupational therapy"
+   ],
+   "excludes": [
+    "medications",
+    "travel"
+   ],
+   "source": "s:gcc-bottom-surgery-cost",
+   "url": "https://www.genderconfirmation.com/bottom-surgery-cost/",
+   "note": "the practice's own cash-pay estimate, on a page marked medically reviewed 15 October 2024. Vulvaplasty is estimated separately at 20,500 to 22,000 dollars. The page's inclusion sentence is what the quote will contain, not what the number above covers.",
+   "tier": "cited",
+   "usd": 23000.0,
+   "usd_high": 24500.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "gender-affirming-care-access",
+   "as": "Whether the health system at home will do this, pay for it, or permit it — the third reason the operation travels.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "phalloplasty",
+   "as": "The other genital operation, staged where this one is single, and priced by the stage.",
+   "rel": "contrast"
+  },
+  {
+   "to": "top-surgery",
+   "as": "Usually the first operation and usually the cheapest, on the same price lists.",
+   "rel": "kin"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the only full published table of prices by technique is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "bangkok",
+   "as": "The city holding the hospital that publishes those prices, and two long-established clinics that publish none.",
+   "rel": "hub"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where a private list quotes guide prices roughly three times the Bangkok table, and states it cannot quote at all before a consultation.",
+   "rel": "destination"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who repairs a fistula or a lost depth, and where the price for that is published.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Dilation is a two-year daily instruction, and nobody abroad supervises it.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which a price with a nights column and no inclusion list has to be read.",
+   "rel": "step"
+  },
+  {
+   "to": "the-companion",
+   "as": "Nine nights in hospital and weeks in the city afterwards are an escort's calendar too.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Where a claim goes when the operation was performed in another jurisdiction.",
+   "rel": "risk"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The word for crossing a border to obtain what home law or a home waiting list withholds.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "top-surgery",
+   "tell": "Chest surgery and genital surgery are separate operations, separately priced and often years apart; a clinic advertising gender surgery may do one and not the other."
+  }
+ ],
+ "links": [
+  {
+   "label": "Yanhee Hospital plastic surgery price table",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+  },
+  {
+   "label": "The London Transgender Clinic price list",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/"
+  },
+  {
+   "label": "Kamol Cosmetic Hospital — techniques and stay",
+   "url": "https://kamolhospital.com/services/gender-reassignment-surgery-srs/"
+  }
+ ],
+ "sources": [
+  "s:yanhee-plastic-prices",
+  "s:ltc-price-list",
+  "s:gcc-bottom-surgery-cost",
+  "s:kamol-srs",
+  "s:chettawut-srs-faq",
+  "s:suporn-patient-administration"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:yanhee-plastic-prices",
+    "note": "every price and every clinic's publication policy is read off the named page; the paragraph about why some publish and some do not is marked Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:kamol-srs",
+    "note": "operating times and stay from the hospital page; the dilation schedule is quoted from the Chettawut FAQ"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:yanhee-plastic-prices"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:yanhee-plastic-prices"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Gender symbols side by side.svg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The testes are removed, the penile and scrotal tissue is dismantled, and a vaginal canal is made in the space between the bladder and the rectum, lined with penile skin turned inside out, with a scrotal skin graft, with…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "Whether the health system at home will do this, pay for it, or permit it — the third reason the operation travels.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "The other genital operation, staged where this one is single, and priced by the stage.",
+   "rel": "contrast"
+  },
+  {
+   "to": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "Usually the first operation and usually the cheapest, on the same price lists.",
+   "rel": "kin"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the only full published table of prices by technique is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The city holding the hospital that publishes those prices, and two long-established clinics that publish none.",
+   "rel": "hub"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "Where a private list quotes guide prices roughly three times the Bangkok table, and states it cannot quote at all before a consultation.",
+   "rel": "destination"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who repairs a fistula or a lost depth, and where the price for that is published.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Dilation is a two-year daily instruction, and nobody abroad supervises it.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which a price with a nights column and no inclusion list has to be read.",
+   "rel": "step"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "Nine nights in hospital and weeks in the city afterwards are an escort's calendar too.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Where a claim goes when the operation was performed in another jurisdiction.",
+   "rel": "risk"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "The word for crossing a border to obtain what home law or a home waiting list withholds.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:yanhee-plastic-prices",
+   "kind": "web",
+   "title": "Plastic Surgery Prices",
+   "publisher": "Yanhee Hospital, Bangkok",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "accessed": "2026-09-16",
+   "note": "hospital's own price table: procedure, nights, price in Thai baht. The page carries no validity date and no inclusion list."
+  },
+  {
+   "id": "s:ltc-price-list",
+   "kind": "web",
+   "title": "Price List — surgery, facial feminisation, MTF GCS/SRS, body masculinisation",
+   "publisher": "The London Transgender Clinic, London",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/",
+   "accessed": "2026-09-17",
+   "note": "read with the browser tools. Every surgical line is prefixed 'Starts from'. The page states that an exact price cannot be given before consultation, that a formal quotation covers treatment, aftercare and the hospital stay where required, and that guide prices are subject to change. It carries no date. There is no phalloplasty or metoidioplasty row on it."
+  },
+  {
+   "id": "s:gcc-bottom-surgery-cost",
+   "kind": "web",
+   "title": "A Comprehensive Guide to Bottom Surgery Costs",
+   "publisher": "Gender Confirmation Center, San Francisco; page marked medically reviewed 15 October 2024",
+   "url": "https://www.genderconfirmation.com/bottom-surgery-cost/",
+   "accessed": "2026-09-16",
+   "note": "a surgical practice's own published estimates, with its inclusion and exclusion list and its policy that phalloplasty is not offered to cash-paying patients"
+  },
+  {
+   "id": "s:kamol-srs",
+   "kind": "web",
+   "title": "Gender Reassignment Surgery / SRS — techniques and hospital stay",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/gender-reassignment-surgery-srs/",
+   "accessed": "2026-09-17",
+   "note": "five named techniques with operating times, and a stated stay of 4-6 nights. No price is published on the page."
+  },
+  {
+   "id": "s:chettawut-srs-faq",
+   "kind": "web",
+   "title": "Frequently asked questions of sex reassignment surgery",
+   "publisher": "Chettawut Plastic Surgery Center, Bangkok",
+   "url": "https://www.chet-plasticsurgery.com/frequent-asked-questions-of-sex-reassignment-surgery/",
+   "accessed": "2026-09-17",
+   "note": "publishes no package price; the only figure on the page is an extra charge of 32,000 THB where additional groin skin grafting is needed. States the dilation schedule: daily for two years to maintain depth, then two to three times a week, for life."
+  },
+  {
+   "id": "s:suporn-patient-administration",
+   "kind": "web",
+   "title": "Patient administration",
+   "publisher": "Suporn Clinic, Chonburi, Thailand",
+   "url": "https://supornclinic.com/patient-administration/",
+   "accessed": "2026-09-16",
+   "note": "a long-established destination clinic stating that it does not publish prices, and setting out its deposit, payment and cancellation schedule"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:yanhee-plastic-prices",
+   "note": "every price and every clinic's publication policy is read off the named page; the paragraph about why some publish and some do not is marked Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:kamol-srs",
+   "note": "operating times and stay from the hospital page; the dilation schedule is quoted from the Chettawut FAQ"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:yanhee-plastic-prices"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:yanhee-plastic-prices"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "Bangkok surgeons took this work early, and the city is still where much of it is quoted.",
+   "rel": "procedure"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "Thai surgeons took this work up early, and some of it is quoted on the island.",
+   "rel": "procedure"
+  },
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "The other genital operation: one admission against this one's four.",
+   "rel": "contrast"
+  },
+  {
+   "from": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "The other end of the same price list, at four times the money and nine nights.",
+   "rel": "kin"
+  },
+  {
+   "from": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "One of the operations these instruments reach.",
+   "rel": "procedure"
+  }
+ ]
+}

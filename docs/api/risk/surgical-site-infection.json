@@ -1,0 +1,389 @@
+{
+ "id": "surgical-site-infection",
+ "names": {
+  "name": "Surgical site infection",
+  "aliases": [
+   "SSI",
+   "wound infection"
+  ],
+  "said": "Surgeons say SSI. A discharge summary says wound infection. A package page says nothing at all."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "An infection of the tissue an operation opened — skin, the layers beneath it, or the space around an implant. It is counted by surveillance systems within thirty days of surgery, or within ninety days where a device was left in. The CDC's medical travel chapter puts surgical site infection among the main infection concerns of treatment abroad, and names it alongside hepatitis B, hepatitis C, HIV, bloodstream infections and donor-derived infections.",
+  "story": "Among people who travel for treatment, \"the most common complications are infection-related\", in the CDC's words, and inadequate infection prevention and control is the mechanism it names.\n\nThe background rate is not the same everywhere. A WHO-funded meta-analysis of 220 studies published between 1995 and 2008 put the pooled cumulative incidence of surgical site infection in developing countries at 5.6 per 100 surgical procedures, and called it the leading hospital infection in those settings — against a pooled health-care-associated infection prevalence of 15.5 per 100 patients in the high-quality studies, itself much higher than European and US figures. The authors note that many countries returned no data at all.\n\nA 2023 systematic review of 44 studies found 589 people who presented with complications after cosmetic surgery abroad; infection was the commonest complication, 98% of the organisms were bacterial, and 81% of those were from the genus Mycobacterium.\n\n*Inference —* the exposure here is not only clinical. A surgical site infection is normally counted by the hospital that made the wound, which also carries the cost of treating it. When the patient boards a plane, the numerator lands in one health system and the denominator stays in another. Neither figure is wrong; they are simply never added up, and no country publishes a surgical site infection rate for operations its residents had abroad.",
+  "how": "Presentation is usually redness, discharge, fever or a wound that will not close, and it typically begins in the first weeks. Treatment runs from oral antibiotics to reopening the wound, removing an implant, and weeks or months of intravenous therapy where the organism is resistant. The CDC asks US facilities to take an explicit travel history at admission, and to screen anyone who had an overnight stay in a healthcare facility outside the United States within the previous six months for carbapenem-resistant Enterobacterales.",
+  "today": "As of 16 September 2026 the narrow numbers this site can stand on are the 5.6 per 100 pooled incidence from the 2011 meta-analysis and the case counts in the named outbreak investigations. No published series gives a surgical site infection rate for cross-border surgery as a class, because no one holds both halves of the fraction."
+ },
+ "metrics": {
+  "complication_rate_pct": 5.6,
+  "note": "Pooled cumulative incidence of surgical site infection, 5.6 per 100 surgical procedures, from a WHO-funded systematic review of 220 studies in developing countries published 1995-2008. It is not a rate for cross-border surgery and not a rate for any one hospital; it is the background against which a traveller's operation is performed. The same review put pooled health-care-associated infection prevalence at 15.5 per 100 patients in its high-quality studies.",
+  "as_of": "2011",
+  "source": "s:allegranzi-hai-2011",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/21146207/"
+ },
+ "kin": [
+  {
+   "to": "nontuberculous-mycobacteria",
+   "as": "The organism behind the best-documented cluster of these infections in cosmetic surgery patients returning from abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "as": "What decides whether this infection is a week of antibiotics or six months of them.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Why the infection is usually diagnosed by someone who did not make the wound.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who pays for the theatre time when the wound has to be reopened.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl-mortality",
+   "as": "The other thing that goes wrong after gluteal fat grafting, and the faster one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bloodborne-virus",
+   "as": "The same failure of infection control, with a longer incubation and a quieter arrival.",
+   "rel": "kin"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation where an infection means the implant comes out.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "The procedure with the longest stay among UK patients readmitted after surgery abroad.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dominican-republic",
+   "as": "Where the clearest documented cluster of these infections among travelling patients was traced to.",
+   "rel": "place"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step at which this is usually found.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step this risk turns into.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:allegranzi-hai-2011",
+  "s:alkaelani-aesthetic-review-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the last paragraph is marked as this project's own reasoning about the denominator"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:allegranzi-hai-2011"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "An infection of the tissue an operation opened — skin, the layers beneath it, or the space around an implant.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "The organism behind the best-documented cluster of these infections in cosmetic surgery patients returning from abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "What decides whether this infection is a week of antibiotics or six months of them.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Why the infection is usually diagnosed by someone who did not make the wound.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who pays for the theatre time when the wound has to be reopened.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "The other thing that goes wrong after gluteal fat grafting, and the faster one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bloodborne-virus",
+   "type": "risk",
+   "name": "Bloodborne virus from treatment abroad",
+   "as": "The same failure of infection control, with a longer incubation and a quieter arrival.",
+   "rel": "kin"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The operation where an infection means the implant comes out.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "The procedure with the longest stay among UK patients readmitted after surgery abroad.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "Where the clearest documented cluster of these infections among travelling patients was traced to.",
+   "rel": "place"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step at which this is usually found.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The step this risk turns into.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:allegranzi-hai-2011",
+   "kind": "paper",
+   "title": "Burden of endemic health-care-associated infection in developing countries: systematic review and meta-analysis",
+   "publisher": "The Lancet 2011;377(9761):228-41 (Allegranzi B, Bagheri Nejad S, Combescure C, Graafmans W, Attar H, Donaldson L, Pittet D), funded by WHO",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21146207/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:alkaelani-aesthetic-review-2023",
+   "kind": "paper",
+   "title": "Complications of Medical Tourism in Aesthetic Surgery: A Systematic Review",
+   "publisher": "Annals of Plastic Surgery 2023;91(6):668-673 (Alkaelani MT, Koussayer B, Blount T, et al.)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37962261/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the last paragraph is marked as this project's own reasoning about the denominator"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:allegranzi-hai-2011"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Present in 41.7% of the Australian series.",
+   "rel": "risk"
+  },
+  {
+   "from": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "What a free-standing surgicentre manages differently from a hospital.",
+   "rel": "risk"
+  },
+  {
+   "from": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "What 38 confirmed patients flew home with in 2017.",
+   "rel": "risk"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "The route the resistant organism took — abdominal wounds after sleeve gastrectomy.",
+   "rel": "risk"
+  },
+  {
+   "from": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "The 2015 MERS outbreak centred here is the reminder that a hospital is also a place infections happen.",
+   "rel": "risk"
+  },
+  {
+   "from": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The commonest reason a returning patient presents at home.",
+   "rel": "risk"
+  },
+  {
+   "from": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "The commonest thing that goes wrong here, and the hardest to attribute afterwards.",
+   "rel": "risk"
+  },
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The commonest failure, and the one that presents after the flight.",
+   "rel": "risk"
+  },
+  {
+   "from": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "The wound this turns from a course of antibiotics into a year.",
+   "rel": "kin"
+  },
+  {
+   "from": "bloodborne-virus",
+   "type": "risk",
+   "name": "Bloodborne virus from treatment abroad",
+   "as": "The same lapse in infection control, declaring itself in days rather than years.",
+   "rel": "contrast"
+  },
+  {
+   "from": "candida-auris",
+   "type": "risk",
+   "name": "Candida auris",
+   "as": "One of the sites this organism turns up in, alongside blood and ears.",
+   "rel": "kin"
+  },
+  {
+   "from": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The commonest thing found in the gap.",
+   "rel": "kin"
+  },
+  {
+   "from": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "The commoner infection after the same trips, and a far less lethal one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "The general case this is the hardest version of.",
+   "rel": "whole"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The complication driving 92% of one series.",
+   "rel": "kin"
+  },
+  {
+   "from": "dominican-republic-ntm-outbreak",
+   "type": "event",
+   "name": "The Dominican mycobacterial outbreaks, 2013–14 and 2017",
+   "as": "What 38 confirmed patients flew home with in 2017.",
+   "rel": "risk"
+  },
+  {
+   "from": "ndm-1-2010",
+   "type": "event",
+   "name": "NDM-1, 2010",
+   "as": "The route most of these organisms take into a patient.",
+   "rel": "risk"
+  }
+ ]
+}

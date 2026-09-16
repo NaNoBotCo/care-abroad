@@ -1,0 +1,252 @@
+{
+ "id": "bloodborne-virus",
+ "names": {
+  "name": "Bloodborne virus from treatment abroad",
+  "aliases": [
+   "hepatitis B",
+   "hepatitis C",
+   "HIV",
+   "blood-borne infection"
+  ],
+  "said": "The chapter lists three viruses in one clause and moves on. They have the longest tail of anything on it."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "Hepatitis B, hepatitis C or HIV transmitted by a reused needle, an inadequately reprocessed instrument, a contaminated injectable or an unscreened transfusion. The CDC names all three together: inadequate infection prevention and control practices place people at risk for \"blood-borne infections, including hepatitis B, hepatitis C, and HIV; bloodstream infections; donor-derived infections; and surgical site infections\". It asks that medical travellers be up to date on routine vaccinations, \"especially hepatitis B virus immunization\".",
+  "story": "Of everything that can go wrong on a trip for treatment, this is the item with the longest delay between the exposure and the diagnosis, and the delay is what erases the link. A wound infection declares itself in days and is traced to the operation by the patient. A hepatitis C infection acquired in a clinic may be found years later on a routine liver panel, by a clinician who takes no travel history because the travel was a decade ago.\n\nThe CDC's own instruction to US facilities is the tell: obtain an explicit travel history including any medical care received abroad, and screen anyone with an overnight stay in a foreign healthcare facility in the past six months. Six months captures a resistant organism. It does not capture a virus with a long incubation.\n\n*Inference —* the consequence is that this risk has no numerator anywhere. A country's hepatitis C surveillance counts cases, not the procedures that caused them, and no country attributes any share of its viral hepatitis burden to treatment its residents had abroad.",
+  "how": "Transmission routes are the ordinary ones — injection equipment, endoscopes and dental instruments that were not reprocessed to standard, and transfused blood. Hepatitis B is preventable by vaccination before travel, and the CDC singles it out for that reason; hepatitis C is not. Post-exposure testing is only performed where somebody suspects an exposure, which requires the patient to know one happened.",
+  "today": "As of 16 September 2026 no published figure attributes bloodborne virus infections to cross-border treatment as a class. The named quantity in this area is the blood screening one: 10 countries reporting to WHO for 2023 could not screen all donated blood for one or more of HIV, hepatitis B, hepatitis C and syphilis."
+ },
+ "metrics": {
+  "note": "Nobody has measured this. No surveillance system attributes hepatitis B, hepatitis C or HIV infections to healthcare received in another country, and the CDC's six-month travel-history window is set for resistant organisms rather than for viruses with long incubation periods. The nearest published figure is upstream, in the blood supply: 10 countries reporting to WHO for 2023 could not screen all donated blood for one or more of the four mandatory markers.",
+  "as_of": "2026-06-12",
+  "source": "s:who-blood-safety",
+  "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability"
+ },
+ "kin": [
+  {
+   "to": "blood-supply-safety",
+   "as": "The upstream half of the same risk, and the only part of it with numbers.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The same lapse in infection control, declaring itself in days rather than years.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "Dental care is the commonest reason US residents travel, and instrument reprocessing is the whole of the exposure.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dialysis-holiday",
+   "as": "Repeated vascular access in an unfamiliar unit, week after week.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Where donor-derived infection enters the same list.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "Where the CDC's phrase donor-derived infections points.",
+   "rel": "kin"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step at which nobody takes the travel history that would find this.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:who-blood-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is this project's reading of why no numerator exists, marked inline"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "Hepatitis B, hepatitis C or HIV transmitted by a reused needle, an inadequately reprocessed instrument, a contaminated injectable or an unscreened transfusion.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "The upstream half of the same risk, and the only part of it with numbers.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The same lapse in infection control, declaring itself in days rather than years.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "Dental care is the commonest reason US residents travel, and instrument reprocessing is the whole of the exposure.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "Repeated vascular access in an unfamiliar unit, week after week.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Where donor-derived infection enters the same list.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "Where the CDC's phrase donor-derived infections points.",
+   "rel": "kin"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step at which nobody takes the travel history that would find this.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:who-blood-safety",
+   "kind": "org",
+   "title": "Blood safety and availability — fact sheet dated 12 June 2026, from the WHO Global Database on Blood Safety, 2023 reporting year",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the closing paragraph is this project's reading of why no numerator exists, marked inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "Hepatitis status decides whether a unit has a machine for the patient at all.",
+   "rel": "risk"
+  },
+  {
+   "from": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "What an unscreened donor can transmit with the graft.",
+   "rel": "risk"
+  },
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Acquired hepatitis B ran at 5.4% against 0% in the series this page carries.",
+   "rel": "risk"
+  },
+  {
+   "from": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "What an unscreened unit carries, and the reason the screening figures matter.",
+   "rel": "kin"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The same failure of infection control, with a longer incubation and a quieter arrival.",
+   "rel": "kin"
+  },
+  {
+   "from": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "Donor-derived infection is the named screening failure.",
+   "rel": "kin"
+  }
+ ]
+}

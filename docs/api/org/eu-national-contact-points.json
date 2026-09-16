@@ -1,0 +1,255 @@
+{
+ "schema": 1,
+ "id": "eu-national-contact-points",
+ "type": "org",
+ "names": {
+  "name": "EU National Contact Points for cross-border healthcare",
+  "aliases": [
+   "NCPs",
+   "National Contact Points"
+  ],
+  "said": "Every member state has one. Most patients have never heard of it, and where it sits differs by country."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east"
+ ],
+ "facets": {
+  "kind": "ministry",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The information bodies each EU member state must designate under Directive 2011/24/EU on patients' rights in cross-border healthcare. Each must give patients clear, accurate information about seeking treatment in another member state: what is covered, what needs prior authorisation, how reimbursement works, how prescriptions carry across, and how to complain. Member states report annually, and the Commission publishes the data.",
+  "story": "This is the only place in the world where a state has been obliged to tell its own residents how to be treated abroad, and to count what happened.\n\nThe counting is the part this site cares about. Member states report each year on care given with and without prior authorisation, requests for information, treatment provided, reimbursements made, and the reasons care was or was not reimbursed. The Commission has published overviews covering 2015 to 2017 and 2018 to 2020.\n\nThe returns have a known weakness the Commission states itself: \"Not all Member States are able to maintain a strict separation between the data on reimbursements for healthcare under Directive 2011/24/EU and the Regulation (EC) No 883/2004 or under bilateral cross-border agreements.\" *Inference —* so the European figure is a floor with a fuzzy edge, built from administrative claims, and it counts only patients who went through a reimbursement route. Everyone who paid a Budapest dentist in cash is outside it, which in this field is most people.",
+  "how": "Each member state decides where its contact point sits — a health ministry, a sickness fund, a patients' organisation — and the Commission maintains the list. A patient asks the contact point in their own country about treatment abroad, and the contact point in the treating country about the provider. Reporting flows the other way, annually, to the Commission.",
+  "today": "As of 16 September 2026 the Commission's cross-border healthcare pages carry monitoring reports from 2015, 2018 and 2022 and the Member State data reports behind them.",
+  "notes": "The directive covers planned treatment in another member state. It does not cover emergency care on holiday, which runs under a different instrument, and the two are frequently confused."
+ },
+ "kin": [
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The instrument that created these bodies and the reporting behind them.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "s2-route",
+   "as": "The older prior-authorisation route these figures are hard to separate from.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eurostat",
+   "as": "The other European stream, which counts spending rather than patients and excludes the receiving end.",
+   "rel": "contrast"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where a patient discovers what their own state will and will not refund.",
+   "rel": "step"
+  },
+  {
+   "to": "hungary",
+   "as": "The destination most of this reporting's dental traffic goes to.",
+   "rel": "place"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where the administrative floor and the cash trade are set side by side.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Cross-border healthcare — European Commission",
+   "url": "https://health.ec.europa.eu/cross-border-healthcare/overview_en"
+  }
+ ],
+ "sources": [
+  "s:ec-cross-border-overview",
+  "s:eu-directive-2011-24"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ec-cross-border-overview"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ec-cross-border-overview",
+    "note": "the quoted sentence on data separation comes from the Commission's own reporting as summarised on the cross-border healthcare pages; the closing paragraph is marked as this project's inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The information bodies each EU member state must designate under Directive 2011/24/EU on patients' rights in cross-border healthcare.",
+ "region_terms": [
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  },
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  },
+  {
+   "key": "europe-north",
+   "name": "Northern Europe",
+   "note": "the Nordics and the Baltics"
+  },
+  {
+   "key": "europe-east",
+   "name": "Eastern Europe",
+   "note": "Romania, Bulgaria, Serbia, Ukraine, Moldova, Albania, North Macedonia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The instrument that created these bodies and the reporting behind them.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The older prior-authorisation route these figures are hard to separate from.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eurostat",
+   "type": "org",
+   "name": "Eurostat",
+   "as": "The other European stream, which counts spending rather than patients and excludes the receiving end.",
+   "rel": "contrast"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step where a patient discovers what their own state will and will not refund.",
+   "rel": "step"
+  },
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The destination most of this reporting's dental traffic goes to.",
+   "rel": "place"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Where the administrative floor and the cash trade are set side by side.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ec-cross-border-overview",
+   "kind": "web",
+   "title": "Cross-border healthcare — overview",
+   "publisher": "European Commission, Directorate-General for Health and Food Safety",
+   "url": "https://health.ec.europa.eu/cross-border-healthcare/overview_en",
+   "accessed": "2026-09-16",
+   "note": "National Contact Points, the cross-border prescription rules, and the annual Member State data reports on prior authorisation and reimbursement"
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:ec-cross-border-overview"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ec-cross-border-overview",
+   "note": "the quoted sentence on data separation comes from the Commission's own reporting as summarised on the cross-border healthcare pages; the closing paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:ec-cross-border-overview"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ec-cross-border-overview"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "belgium",
+   "type": "destination",
+   "name": "Belgium",
+   "as": "The office that reported a blank rather than a partial number.",
+   "rel": "org"
+  },
+  {
+   "from": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "The bodies Article 6 obliges each Member State to run.",
+   "rel": "org"
+  },
+  {
+   "from": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "Who a patient asks when a pharmacy refuses.",
+   "rel": "org"
+  },
+  {
+   "from": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The bodies Article 6 obliges every Member State to run.",
+   "rel": "org"
+  },
+  {
+   "from": "eurostat",
+   "type": "org",
+   "name": "Eurostat",
+   "as": "The other European reporting stream on cross-border care, and the one that does count patients.",
+   "rel": "contrast"
+  },
+  {
+   "from": "directive-2011-24-adopted",
+   "type": "event",
+   "name": "Directive 2011/24/EU adopted, 9 March 2011",
+   "as": "The offices Article 6 created, and the thin place where a patient meets the law.",
+   "rel": "org"
+  },
+  {
+   "from": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The network the directive created to answer the questions this word raises.",
+   "rel": "org"
+  }
+ ]
+}

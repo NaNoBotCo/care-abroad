@@ -1,0 +1,265 @@
+{
+ "schema": 1,
+ "id": "panama",
+ "type": "destination",
+ "names": {
+  "name": "Panama",
+  "aliases": [
+   "República de Panamá",
+   "Republic of Panama"
+  ],
+  "said": "One city, a dollarised currency and a hub airport. The trade here is small enough that the surgeon base is countable."
+ },
+ "region": [
+  "central-america"
+ ],
+ "facets": {
+  "iso2": "PA",
+  "direction": "inbound",
+  "currency": "PAB",
+  "languages": [
+   "Spanish",
+   "English"
+  ],
+  "draws": [
+   "abdominoplasty",
+   "liposuction",
+   "dental-implant",
+   "executive-health-screening"
+  ]
+ },
+ "text": {
+  "what": "The smallest of the three Latin American clusters this site carries, and the one with the fewest surgeons. Panama City has private hospitals, a US-dollar economy — the balboa is fixed one to one with the dollar and US notes circulate — and Tocumen airport, which connects the isthmus to most of the Americas. The trade sells cosmetic surgery, dentistry and health screening, mostly to Americans and to Venezuelans and Colombians in the region.",
+  "story": "The scale is the story. In the ISAPS survey of procedures performed in 2024, Panama reported 21,254 aesthetic procedures, 13,579 of them surgical — about a twenty-third of Colombia's count and a hundred and forty-seventh of Brazil's. Panamanian surgeons reported a median 10.0% of patients attending from other locations and an average of 12.4%, naming the United States, Venezuela and Colombia as the three origins.\n\nWhere the work happens is closer to Colombia's profile than to Brazil's: 57.9% of Panamanian cosmetic procedures were performed in a free-standing surgicentre, the highest share of any location in the survey, against 18.9% in a hospital and 16.3% in a surgicentre worldwide.\n\n*Inference —* a small market is not a safer or a riskier one, but it is a thinner one. A country with a few hundred procedures a year in any given operation gives a patient fewer surgeons to compare, fewer second opinions in the same city, and — when something goes wrong at three in the morning — fewer places to be taken.",
+  "how": "*Trade practice —* the Panamanian arrangement looks like the Costa Rican one: a hospital international office or a private clinic quotes the procedure with transfers and a hotel, and the patient flies in for a consultation the day before. Prices are quoted in US dollars because the currency is pegged to it, which removes the exchange-rate argument that runs through most of this subject. Follow-up is by video call once the patient is home.",
+  "today": "As of the 2024 survey year Panama's reported cosmetic volume is 21,254 procedures and its foreign-patient share sits near the worldwide median. No Panamanian government register or arrival series was read for this record, and none is carried."
+ },
+ "geo": {
+  "lat": 8.9824,
+  "lon": -79.5199,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "21,254 aesthetic procedures in 2024, 13,579 surgical, median 10.0% / average 12.4% of patients from other locations. ISAPS survey extrapolations from 2,975 responding board-certified plastic surgeons across 32 locations; they count aesthetic work by plastic surgeons only, and nothing dental, screening or orthopaedic.",
+  "as_of": "2024",
+  "source": "s:isaps-global-survey-2024",
+  "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+ },
+ "kin": [
+  {
+   "to": "panama-city",
+   "as": "The whole of it, on one side of the canal.",
+   "rel": "part"
+  },
+  {
+   "to": "costa-rica",
+   "as": "The neighbour with the same mix, a certifying council and more surgeons.",
+   "rel": "contrast"
+  },
+  {
+   "to": "colombia",
+   "as": "The regional heavyweight, and one of the three origins Panamanian surgeons name.",
+   "rel": "contrast"
+  },
+  {
+   "to": "united-states",
+   "as": "The origin named first, and the currency the prices are quoted in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The product a hub airport and a dollar economy sell well.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "One of the body operations behind the surgical count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "isaps",
+   "as": "The society whose survey supplies every number on this page.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "ISAPS survey of procedures performed in 2024",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+  }
+ ],
+ "sources": [
+  "s:isaps-global-survey-2024",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:isaps-global-survey-2024",
+    "note": "the closing paragraph is this project's reading of what a small market means, marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a Panamanian booking, hedged in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Panama City skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The smallest of the three Latin American clusters this site carries, and the one with the fewest surgeons.",
+ "region_terms": [
+  {
+   "key": "central-america",
+   "name": "Central America",
+   "note": "Costa Rica, Panama, Guatemala, Belize"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "panama-city",
+   "type": "hub",
+   "name": "Panama City",
+   "as": "The whole of it, on one side of the canal.",
+   "rel": "part"
+  },
+  {
+   "to": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The neighbour with the same mix, a certifying council and more surgeons.",
+   "rel": "contrast"
+  },
+  {
+   "to": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The regional heavyweight, and one of the three origins Panamanian surgeons name.",
+   "rel": "contrast"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The origin named first, and the currency the prices are quoted in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The product a hub airport and a dollar economy sell well.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "One of the body operations behind the surgical count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The society whose survey supplies every number on this page.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:isaps-global-survey-2024",
+   "kind": "report",
+   "title": "ISAPS International Survey on Aesthetic/Cosmetic Procedures Performed in 2024",
+   "publisher": "International Society of Aesthetic Plastic Surgery, tabulated by Industry Insights Inc.",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024",
+   "note": "the closing paragraph is this project's reading of what a small market means, marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of a Panamanian booking, hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The neighbour selling the same mix to the same market, with a smaller surgeon base.",
+   "rel": "contrast"
+  },
+  {
+   "from": "panama-city",
+   "type": "hub",
+   "name": "Panama City",
+   "as": "The country this cluster is, for practical purposes, the whole of.",
+   "rel": "destination"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "Where the other published price page sits.",
+   "rel": "destination"
+  }
+ ]
+}

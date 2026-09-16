@@ -1,0 +1,242 @@
+{
+ "schema": 1,
+ "id": "declaration-of-istanbul-group",
+ "type": "org",
+ "names": {
+  "name": "Declaration of Istanbul Custodian Group",
+  "aliases": [
+   "DICG"
+  ],
+  "said": "The Declaration is a professional statement, not a treaty. It binds nobody and has changed law in several countries anyway."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "ngo",
+  "founded": 2010,
+  "status": "open"
+ },
+ "text": {
+  "what": "The body that keeps the Declaration of Istanbul on Organ Trafficking and Transplant Tourism. Formed in 2010 to carry forward the 2008 Istanbul summit, sponsored by The Transplantation Society and the International Society of Nephrology, and endorsed by more than 80 international professional organisations. The Declaration was revised in 2018.",
+  "story": "The 2008 summit named a thing the transplant community had been describing around for years: patients crossing borders to buy organs from people who were paid, coerced or trafficked, and coming home with a graft and an infection while the seller kept a scar and a shortened life.\n\nThe Declaration is a professional instrument. It has no enforcement, imposes no penalty and creates no offence. It gives \"ethical guidance and support for medical professionals, policymakers, professional societies, national health authorities, and inter-governmental organizations\", and it has been used as the reference text when countries did write law.\n\n*Inference —* that is why it sits on this site as an organisation and an event rather than as a rule. It is the clearest case in the field of a trade being reshaped by a professional consensus rather than by a statute, and the clearest case of the field's own practitioners drawing a line inside it: this part of cross-border care is not like the others, and the Declaration says why.",
+  "how": "The Custodian Group maintains the text, collects endorsements, reports on implementation and supports national bodies applying it. Endorsement is by professional organisation, not by state.",
+  "today": "As of 16 September 2026 the 2018 edition is current, and the Group states its goal that everyone in need should benefit from transplant \"without relying on unethical and exploitive practices\"."
+ },
+ "geo": {
+  "lat": 41.0082,
+  "lon": 28.9784,
+  "precision": "city",
+  "source": "s:dicg-about"
+ },
+ "kin": [
+  {
+   "to": "istanbul-declaration-2008",
+   "as": "The summit and text this group was formed to keep.",
+   "rel": "event"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "The operation the Declaration was written about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-prohibition",
+   "as": "The national laws written with this text as their reference.",
+   "rel": "governs"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "What happens to the person who sold the organ, which the Declaration puts first.",
+   "rel": "risk"
+  },
+  {
+   "to": "who",
+   "as": "The intergovernmental body whose transplant guiding principles this text sits beside.",
+   "rel": "org"
+  },
+  {
+   "to": "circumvention",
+   "as": "The wider pattern of travelling to do what is unlawful at home, of which this is the hardest case.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/"
+  }
+ ],
+ "sources": [
+  "s:dicg-about",
+  "s:declaration-of-istanbul"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:dicg-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:dicg-about",
+    "note": "the closing paragraph is marked as this project's inference"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "the point is Istanbul, where the 2008 summit was held; the Group has no headquarters this project could source"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The body that keeps the Declaration of Istanbul on Organ Trafficking and Transplant Tourism.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "istanbul-declaration-2008",
+   "type": "event",
+   "name": "The Declaration of Istanbul, 2008",
+   "as": "The summit and text this group was formed to keep.",
+   "rel": "event"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "The operation the Declaration was written about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The national laws written with this text as their reference.",
+   "rel": "governs"
+  },
+  {
+   "to": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "What happens to the person who sold the organ, which the Declaration puts first.",
+   "rel": "risk"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "The intergovernmental body whose transplant guiding principles this text sits beside.",
+   "rel": "org"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "The wider pattern of travelling to do what is unlawful at home, of which this is the hardest case.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dicg-about",
+   "kind": "org",
+   "title": "Declaration of Istanbul Custodian Group",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/",
+   "accessed": "2026-09-16",
+   "note": "Custodian Group formed 2010, sponsored by The Transplantation Society and the International Society of Nephrology, endorsed by more than 80 professional organisations, 2018 edition of the Declaration"
+  },
+  {
+   "id": "s:declaration-of-istanbul",
+   "kind": "org",
+   "title": "The Declaration of Istanbul on Organ Trafficking and Transplant Tourism (2018 edition)",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:dicg-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:dicg-about",
+   "note": "the closing paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:dicg-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:dicg-about"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "the point is Istanbul, where the 2008 summit was held; the Group has no headquarters this project could source"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bogota",
+   "type": "hub",
+   "name": "Bogotá",
+   "as": "The framework that governs whether a foreign patient may be transplanted at all.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Keeps the standing international text this page quotes, and revised it in 2018.",
+   "rel": "org"
+  },
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Keeps the international text this page quotes, and revised it in Madrid in 2018.",
+   "rel": "org"
+  },
+  {
+   "from": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "Keeps the instrument that separates travel for transplantation from commercialism and trafficking.",
+   "rel": "org"
+  },
+  {
+   "from": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The custodian of the professional norm this table sits under.",
+   "rel": "org"
+  },
+  {
+   "from": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "The professional body whose declaration WHO's transplant principles sit beside.",
+   "rel": "org"
+  },
+  {
+   "from": "istanbul-declaration-2008",
+   "type": "event",
+   "name": "The Declaration of Istanbul, 2008",
+   "as": "The custodians, who keep the text and the endorsement list.",
+   "rel": "org"
+  }
+ ]
+}

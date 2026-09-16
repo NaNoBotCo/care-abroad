@@ -1,0 +1,541 @@
+{
+ "schema": 1,
+ "id": "istanbul",
+ "type": "hub",
+ "names": {
+  "name": "Istanbul",
+  "aliases": [
+   "İstanbul",
+   "Şişli–Nişantaşı clinic belt"
+  ],
+  "said": "Brokers say Istanbul and mean a strip of the European side: Şişli, Nişantaşı, Mecidiyeköy, then north to Levent and Maslak. The old city across the Golden Horn sells almost none of it."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "radius_km": 30,
+  "specialty": [
+   "hair restoration",
+   "cosmetic surgery",
+   "dentistry",
+   "bariatric surgery",
+   "fertility",
+   "ophthalmology"
+  ],
+  "draws": [
+   "hair-transplant-fue",
+   "dhi-hair-transplant",
+   "rhinoplasty",
+   "gastric-sleeve",
+   "dental-implant",
+   "ivf"
+  ],
+  "languages": [
+   "Turkish",
+   "English",
+   "Arabic",
+   "Russian",
+   "German"
+  ]
+ },
+ "text": {
+  "what": "A clinic belt on the European side of Istanbul, thickest in Şişli — ten square kilometres holding 276,528 residents and the quarters of Nişantaşı, Teşvikiye, Pangaltı and Mecidiyeköy — and running north through Levent and Maslak. Şişli carries the Şişli Etfal state hospital, the American Hospital and the Saint James Armenian Hospital alongside clinic floors above the shops of Abdi İpekçi Avenue, which the district calls Turkey's most expensive street by lease price. Hair restoration is what the belt is known for abroad; the same square mile also sells rhinoplasty, dentistry, sleeve gastrectomy and IVF. Every facility and every agency trading with foreign patients must hold a Ministry of Health authorisation certificate.",
+  "story": "Türkiye put the trade on a licence in 2017. The Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik — the ministry's regulation on international health travel and on the health of visitors — appeared in the Resmî Gazete on 13 July 2017, issue 30123, and was replaced by a regulation of the same name on 26 April 2025, issue 32882, whose MADDE 17 repealed it. Its Article 5 makes an international health tourism authorisation certificate compulsory for both the treating facility and the intermediary agency; the Ministry halts the international work of anyone trading without one. Facilities already in the business were given a year to comply.\n\n*Trade practice —* what the licence regulated was already a mature export. The city's hair clinics sell a fixed bundle — airport pickup, a hotel, the procedure, a night, a first wash — and compete on graft count and on price rather than on a surgeon's name.\n\nThe surgical society has spent a decade objecting to the staffing. The International Society of Hair Restoration Surgery issued a release on 18 May 2016 naming Turkey and warning that unqualified technicians perform the surgery illegally, and reporting Turkish technician groups working in Germany, the Netherlands and Belgium under the cover of licensed doctors. Its standing Black Market campaign, launched in November 2019, states that unlicensed personnel worldwide carry out substantial medical parts of hair restoration surgery, and its Operation Restore programme repairs the results.\n\n*Inference —* the two facts sit together without contradicting each other. A national licence certifies a facility and an agency. Who holds the punch inside the room on the day is a separate question, and it is the one the society keeps asking.",
+  "how": "*Trade practice —* the Istanbul form is the package: a flight met at the airport, a hotel in Şişli or Mecidiyeköy, a consultation the morning of surgery, the procedure the same day, one or two nights, a wash and a discharge folder, and a flight home inside a week. Payment is a deposit to hold the date and the balance on arrival. The graft count is the price variable, and the number quoted before travel is an estimate the clinic revises when it sees the head. Aftercare is a messaging app: the follow-up is remote by design, and a revision is a second flight.",
+  "today": "As of 17 September 2026 the instrument is the 2025 regulation, not the 2017 one that most writing on this city still cites; the authorisation certificate is the thing to ask a clinic for by name, and the Ministry's own register is where it is checked. Istanbul's population was 15,754,053 at the end of 2025. This record carries no count of how many people fly in for surgery: the figures in circulation count arrivals who state a health purpose, which is not the same as operations. Hair transplant units answer to a rule of their own as well — the Saç Ekimi Birimleri Yönetmeliği of 6 May 2023, Resmî Gazete 32182 — which reserves the channel-opening stage to certified physicians and forbids more than one patient in a room at a time. The Ministry's four published lists of authorised facilities, stamped 20 August 2026, run to 542 hospitals, 135 medical centres, 2,468 physician offices and 1,581 other facilities; the Ministry prints no total.",
+  "notes": "Hospital and clinic points around this record's coordinates are harvested from OpenStreetMap within 30 km, which covers Şişli, Beşiktaş, Levent, Maslak and reaches the Asian side. A point on that map is a point a mapper typed, not a licence and not a recommendation."
+ },
+ "geo": {
+  "lat": 41.0603,
+  "lon": 28.9878,
+  "precision": "city",
+  "source": "s:wp-sisli"
+ },
+ "address": {
+  "area": "Şişli",
+  "city": "Istanbul",
+  "country": "TR"
+ },
+ "kin": [
+  {
+   "to": "turkiye",
+   "as": "The country whose licence this cluster trades under.",
+   "rel": "whole"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The certificate every clinic here must hold, and the one document a reader can ask for by name.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The operation this belt is known for abroad, sold by graft count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "as": "The implanter-pen variant the clinics here price as a tier above.",
+   "rel": "procedure"
+  },
+  {
+   "to": "memorial-sisli",
+   "as": "A large private hospital inside the belt, in Şişli itself.",
+   "rel": "part"
+  },
+  {
+   "to": "acibadem",
+   "as": "The hospital group whose Istanbul sites take the complex work the clinic floors do not.",
+   "rel": "part"
+  },
+  {
+   "to": "ishrs",
+   "as": "The surgical society that has named this city in its warnings about unlicensed operators since 2016.",
+   "rel": "org"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "as": "The years this belt became the thing Istanbul is known for.",
+   "rel": "event"
+  },
+  {
+   "to": "antalya",
+   "as": "The other Turkish cluster, selling the same procedures against a beach rather than a business district.",
+   "rel": "contrast"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "What a one-week package leaves behind: the wash, the shedding and the twelve-month result all happen at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The form the whole belt sells in, graft count included.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik, Resmî Gazete 13 July 2017",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm"
+  },
+  {
+   "label": "ISHRS — Black Market",
+   "url": "https://ishrs.org/black-market/"
+  }
+ ],
+ "sources": [
+  "s:wp-sisli",
+  "s:wp-istanbul",
+  "s:rg-saglik-turizmi-2017",
+  "s:ishrs-buyer-beware",
+  "s:ishrs-black-market",
+  "s:wp-medical-tourism-turkiye",
+  "s:osm",
+  "s:rg-32882-2025",
+  "s:rg-32182-2023-sac-ekimi",
+  "s:shgm-yetkili-tesisler"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:wp-sisli"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of an Istanbul hair-transplant package; no single page states it"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:rg-saglik-turizmi-2017"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-sisli",
+    "note": "the coordinates of Şişli district, used as the cluster point rather than the city centroid"
+   },
+   "facets.radius_km": {
+    "tier": "inference",
+    "note": "30 km from Şişli covers the Şişli–Levent–Maslak run and crosses the Bosphorus; the metropolitan area is far larger"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Nişantaşı, Şişli, Istanbul.jpg",
+  "File:Abdi İpekçi Avenue Nişantaşı.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "A clinic belt on the European side of Istanbul, thickest in Şişli — ten square kilometres holding 276,528 residents and the quarters of Nişantaşı, Teşvikiye, Pangaltı and Mecidiyeköy — and running north through Levent…",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The country whose licence this cluster trades under.",
+   "rel": "whole"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The certificate every clinic here must hold, and the one document a reader can ask for by name.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The operation this belt is known for abroad, sold by graft count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "The implanter-pen variant the clinics here price as a tier above.",
+   "rel": "procedure"
+  },
+  {
+   "to": "memorial-sisli",
+   "type": "facility",
+   "name": "Memorial Şişli Hospital",
+   "as": "A large private hospital inside the belt, in Şişli itself.",
+   "rel": "part"
+  },
+  {
+   "to": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The hospital group whose Istanbul sites take the complex work the clinic floors do not.",
+   "rel": "part"
+  },
+  {
+   "to": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The surgical society that has named this city in its warnings about unlicensed operators since 2016.",
+   "rel": "org"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "The years this belt became the thing Istanbul is known for.",
+   "rel": "event"
+  },
+  {
+   "to": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "The other Turkish cluster, selling the same procedures against a beach rather than a business district.",
+   "rel": "contrast"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "What a one-week package leaves behind: the wash, the shedding and the twelve-month result all happen at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form the whole belt sells in, graft count included.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-sisli",
+   "kind": "wikipedia",
+   "title": "Şişli",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C5%9Ei%C5%9Fli",
+   "accessed": "2026-09-16",
+   "note": "district area 10 km², population 276,528 (2022), the Nişantaşı, Teşvikiye, Mecidiyeköy and Pangaltı quarters, Şişli Etfal and Saint James Armenian hospitals"
+  },
+  {
+   "id": "s:wp-istanbul",
+   "kind": "wikipedia",
+   "title": "Istanbul",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Istanbul",
+   "accessed": "2026-09-16",
+   "note": "coordinates, population 15,754,053 at 31 December 2025, district names"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:ishrs-buyer-beware",
+   "kind": "org",
+   "title": "Buyer Beware: Medical Tourism for Hair Transplants Can Have Costly Consequences",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/buyer-beware-medical-tourism-for-hair-transplants-can-have-costly-consequences/",
+   "accessed": "2026-09-16",
+   "note": "release dated 18 May 2016; names Turkey, and reports of Turkish technician groups operating in Germany, the Netherlands and Belgium under licensed doctors"
+  },
+  {
+   "id": "s:ishrs-black-market",
+   "kind": "org",
+   "title": "Black Market hair restoration — the Fight the FIGHT campaign",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/black-market/",
+   "accessed": "2026-09-16",
+   "note": "the society's standing warning that unlicensed personnel perform substantial medical parts of hair restoration surgery; campaign launched November 2019; Operation Restore repairs botched work"
+  },
+  {
+   "id": "s:wp-medical-tourism-turkiye",
+   "kind": "wikipedia",
+   "title": "Medical tourism in Turkey",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Turkey",
+   "accessed": "2026-09-16",
+   "note": "records the 13 July 2017 regulation coming into force and a first-half-2018 figure of nearly 178,000 inbound patients split 67% private, 24% public and 9% university — a count of arrivals stating a health purpose, not of operations"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  },
+  {
+   "id": "s:rg-32882-2025",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik, Resmî Gazete 26 Nisan 2025, Sayı 32882",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2025,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm",
+   "accessed": "2026-09-17",
+   "note": "MADDE 17 repeals the 13/7/2017 regulation (RG 30123) that most secondary writing still cites"
+  },
+  {
+   "id": "s:rg-32182-2023-sac-ekimi",
+   "kind": "web",
+   "title": "Saç Ekimi Birimleri Hakkında Yönetmelik, Resmî Gazete 6 Mayıs 2023, Sayı 32182",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2023,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230506-11.htm",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:shgm-yetkili-tesisler",
+   "kind": "org",
+   "title": "Bakanlığımızca Yetkilendirilmiş Sağlık Tesisleri — the four published lists of authorised facilities",
+   "publisher": "T.C. Sağlık Bakanlığı, Sağlık Turizmi Daire Başkanlığı",
+   "url": "https://shgmturizmdb.saglik.gov.tr/TR-67458/bakanligimizca-yetkilendirilmis-saglik-tesisleri-icin-tiklayiniz.html",
+   "accessed": "2026-09-17",
+   "note": "lists stamped 20 August 2026; the Ministry prints no total, so the counts here are the last sequence number in each list"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-sisli"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of an Istanbul hair-transplant package; no single page states it"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:rg-saglik-turizmi-2017"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-sisli",
+   "note": "the coordinates of Şişli district, used as the cluster point rather than the city centroid"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "Where most of the clinics, and nearly all of the hair work, actually are.",
+   "rel": "part"
+  },
+  {
+   "from": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "The other Turkish cluster: the same procedures, sold against a business district instead of a beach.",
+   "rel": "contrast"
+  },
+  {
+   "from": "cairo",
+   "type": "hub",
+   "name": "Cairo",
+   "as": "The cluster Cairo's hair and cosmetic clinics price against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "izmir",
+   "type": "hub",
+   "name": "İzmir",
+   "as": "The cluster that takes the traffic this one competes for on price.",
+   "rel": "contrast"
+  },
+  {
+   "from": "tbilisi",
+   "type": "hub",
+   "name": "Tbilisi",
+   "as": "The neighbouring cluster this city's hair clinics price against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "tunis",
+   "type": "hub",
+   "name": "Tunis",
+   "as": "The other Mediterranean cosmetic cluster, selling to a different language market.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "Where the two techniques are sold from the same price list.",
+   "rel": "place"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The city whose clinics quote this operation in three currencies on one page.",
+   "rel": "place"
+  },
+  {
+   "from": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The city this operation built, and which built it.",
+   "rel": "place"
+  },
+  {
+   "from": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The city the group is named after a district of, and where its flagship stands at Altunizade.",
+   "rel": "place"
+  },
+  {
+   "from": "anadolu-medical-center",
+   "type": "facility",
+   "name": "Anadolu Medical Center",
+   "as": "An hour east of the city and outside it, at Gebze on the D-100 — the trade counts it Istanbul, the map does not.",
+   "rel": "place"
+  },
+  {
+   "from": "liv-hospital",
+   "type": "facility",
+   "name": "Liv Hospital",
+   "as": "Its flagship stands at Ulus in Beşiktaş, above the Bosphorus.",
+   "rel": "place"
+  },
+  {
+   "from": "medicana",
+   "type": "facility",
+   "name": "Medicana Health Group",
+   "as": "Its flagship stands at Beylikdüzü, on the western edge of the city rather than in it.",
+   "rel": "place"
+  },
+  {
+   "from": "memorial-sisli",
+   "type": "facility",
+   "name": "Memorial Şişli Hospital",
+   "as": "Stands in Şişli, on the European side, and is the hospital the group's firsts are dated from.",
+   "rel": "place"
+  },
+  {
+   "from": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "Where most certificate holders are.",
+   "rel": "hub"
+  },
+  {
+   "from": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The city named in its 2016 release, through a surgeon practising there.",
+   "rel": "hub"
+  },
+  {
+   "from": "turkiye-health-services-directorate",
+   "type": "org",
+   "name": "Türkiye General Directorate of Health Services",
+   "as": "Where most of the certificate holders selling to foreign patients are.",
+   "rel": "hub"
+  },
+  {
+   "from": "istanbul-declaration-2008",
+   "type": "event",
+   "name": "The Declaration of Istanbul, 2008",
+   "as": "The city that gave the document its name, and a hub in this directory for entirely different reasons.",
+   "rel": "hub"
+  },
+  {
+   "from": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "Where most of the clinics are, and where the packages start at the airport.",
+   "rel": "hub"
+  },
+  {
+   "from": "fue",
+   "type": "term",
+   "name": "FUE",
+   "as": "The city that made this technique a commodity.",
+   "rel": "hub"
+  },
+  {
+   "from": "graft",
+   "type": "term",
+   "name": "Graft",
+   "as": "Where most of the world's graft prices are quoted.",
+   "rel": "hub"
+  },
+  {
+   "from": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "1,297 rows inside 30 km, in the city with the loudest advertising in this trade.",
+   "rel": "measures"
+  }
+ ]
+}

@@ -1,0 +1,967 @@
+{
+ "schema": 1,
+ "id": "ivf",
+ "type": "procedure",
+ "names": {
+  "name": "In vitro fertilisation",
+  "aliases": [
+   "IVF",
+   "in vitro fertilization",
+   "assisted reproductive technology",
+   "ART"
+  ],
+  "said": "Clinics sell a cycle. Registers count an intended retrieval, a transfer and a live-birth delivery, and those three denominators give three different numbers for the same treatment. Price pages say from."
+ },
+ "etymology": {
+  "root": "in vitro: Latin, in glass — vitrum, glass. The name records the apparatus, not the diagnosis: it says only where the egg met the sperm. Its opposite, in vivo, in the living, covers the rest of human history.",
+  "tier": "tradition",
+  "note": "cycle is the unit of sale and the unit of counting, and it does not mean one attempt at a baby. A cycle starts with drugs, may end without an egg, and may bank embryos for transfers years later. Two price pages using the word can be selling different objects."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "fertility",
+  "setting": "outpatient-course",
+  "anaesthesia": "sedation"
+ },
+ "text": {
+  "what": "Drugs stimulate the ovaries to ripen several eggs at once; the eggs are collected through the vaginal wall under sedation or general anaesthetic in about half an hour; the eggs are mixed with sperm in a laboratory; and two to five days later an embryo is placed in the womb. The HFEA puts a cycle at four to six weeks, or about three weeks where the first hormone-suppression stage is skipped. The stimulation drugs are billed separately by most clinics that publish a price, and they can run to a third of the bill.",
+  "story": "IVF crosses borders for a reason knee surgery does not. A knee is cheaper somewhere else; an egg is legal somewhere else. The ESHRE taskforce that surveyed 46 clinics in six destination countries — Belgium, Czechia, Denmark, Switzerland, Slovenia and Spain — collected 1,230 patient forms in a single month and estimated 11,000 to 14,000 patients and 24,000 to 30,000 cycles a year crossing borders within Europe alone, and the reasons patients gave were led by legal barriers: a treatment banned at home, or a bar on age, sexual orientation or civil status.\n\nThe academy has fought over what to call this. Inhorn and Patrizio argued in 2009 that reproductive \"tourism\" implies leisure travel and proposed reproductive \"exile\" for patients who are forced to travel. Cohen's term for the wider class, in the Cornell Law Review in 2012, is circumvention tourism: travel to do lawfully abroad what is criminal at home.\n\nTürkiye took the argument to its end point. Its 2010 regulation on assisted reproduction treatment practices and centres did not only ban donor eggs, donor sperm and surrogacy inside the country; it reached the citizen who went abroad for them, and the people who referred or arranged. *Inference —* a prohibition that follows the passport changes the destination rather than the demand, and the clinics that serve Turkish patients sit a short flight away in northern Cyprus.\n\n*Trade practice —* the price pages are unusually good in this field precisely because the patients are shopping across jurisdictions. A clinic that expects a patient from three countries away publishes a number. What it does not publish is the drug bill.",
+  "how": "Three legal facts move the price and the destination more than any clinical one. First, whether donor gametes may be used at all: Türkiye's 2010 regulation bans them, which is why Turkish patients appear in Cypriot and other foreign clinics rather than Turkish ones. Second, whether the donor stays anonymous: the UK ended anonymity for donations made after 1 April 2005, and a donor-conceived person may have the donor's name, date of birth and last known address at 18, while several European destinations run anonymous programmes — which is the single commonest reason a patient names for crossing a border for eggs. Third, who may be treated at all: age caps, marital status and sexual orientation appear in national statutes rather than in clinic protocols, and a clinic in the next country may have none of them. The rule records carry the country-by-country map with its instruments and dates.\n\nOn the bill: a published cycle price is normally the theatre, the laboratory and one transfer. Stimulation drugs are normally not in it — the Reprofit price list valid from 1 January 2026 names no medication in any inclusion line, and Newlife IVF in Thessaloniki puts medications in the exclusion list in terms. Preliminary tests, freezing, storage and any second transfer are separately priced almost everywhere. A cycle that ends before egg collection is charged at a reduced rate rather than refunded: Reprofit lists 130 EUR for a treatment cancelled before egg collection and 565 EUR for a cycle that produced no usable eggs.",
+  "today": "As of September 2026 the published per-cycle prices read off clinic pages for this record run from 1,100 EUR for a native-cycle IVF with no stimulation in Brno to 5,290 EUR in Barcelona and 4,999 US dollars as a base price in New York state, with the drug bill outside all of them. The UK regulator publishes no price at all and says clinics set their own, noting that the same treatment can be two or three times more expensive depending on the clinic.",
+  "notes": "This page describes a treatment and reports what registers and price lists say about it. It is not medical advice and it is not legal advice."
+ },
+ "metrics": {
+  "success_rate_pct": 25,
+  "note": "25% is the HFEA's preliminary average IVF birth rate PER EMBRYO TRANSFERRED in 2023 — fresh transfers, patients using their own eggs. It is not per cycle started and not per patient. The same register gives 35% per embryo transferred for patients aged 18-34 and 5% at 43-44, and 33% per embryo transferred for frozen transfers. The US register counts from a different starting line: CDC's national rows for 2022 give 49.7% of intended retrievals ending in a live-birth delivery for patients under 35 and 7.7% for patients over 40, against 49.1% and 25.4% of TRANSFERS. Over 40 the per-transfer figure is more than three times the per-retrieval figure, because every cycle that never reached a transfer has dropped out of the denominator. CDC's per-retrieval rate is cumulative: it counts live births from that retrieval and its associated transfers within 12 months of cycle start. HFEA marks its 2023 birth rates preliminary and not validated.",
+  "as_of": "2023",
+  "source": "s:hfea-2023-trends",
+  "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2023-trends-and-figures/"
+ },
+ "prices": [
+  {
+   "procedure": "ivf",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 3245,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": [
+    "consultation",
+    "treatment plan",
+    "protocol preparation",
+    "stimulation process monitoring",
+    "egg retrieval",
+    "sperm analysis and preparation",
+    "ICSI",
+    "extended cultivation",
+    "embryotransfer (fresh embryo)"
+   ],
+   "excludes": [
+    "2x STDs testing",
+    "MFSS / MACS",
+    "PICSI",
+    "EmbryoGlue",
+    "TimeLaps cultivation",
+    "cryopreservation",
+    "general anesthesia"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"IVF cycle with own eggs (IVF)\" on the clinic's self-payer price list, valid from 1 January 2026. Stimulation medication appears nowhere in the inclusion column of any line on the five-page list. General anaesthesia for the egg collection is a separate 205 EUR.",
+   "tier": "cited",
+   "usd": 3744.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "ivf",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 4985,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": [
+    "consultation",
+    "treatment plan",
+    "protocol preparation",
+    "stimulation process monitoring",
+    "egg retrieval under general anesthesia",
+    "sperm analysis and preparation",
+    "embryo transfer (fresh or frozen embryo) up to six months after fertilization",
+    "2x STDs testing",
+    "ICSI",
+    "extended cultivation",
+    "cryopreservation of all embryos and 1 year of storage"
+   ],
+   "excludes": [
+    "MFSS / MACS",
+    "PICSI",
+    "EmbryoGlue",
+    "TimeLaps cultivation"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"IVF cycle with own eggs - Optimal\". The 1,740 EUR between this and the plain cycle buys the anaesthetic, the screening tests, the freezing and a year of storage — the four items the cheaper line leaves out.",
+   "tier": "cited",
+   "usd": 5752.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "ivf",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 1100,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": [
+    "consultation",
+    "cycle monitoring",
+    "egg retrieval",
+    "sperm analysis and preparation",
+    "embryo transfer (fresh embryo)"
+   ],
+   "excludes": [
+    "2x STDs testing",
+    "ICSI",
+    "extended cultivation",
+    "MFSS / MACS",
+    "PICSI",
+    "EmbryoGlue",
+    "TimeLaps cultivation",
+    "cryopreservation",
+    "general anesthesia"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"IVF native cycle\" — no stimulation, so one egg at most, and ICSI, extended cultivation and freezing all sit outside. The cheapest number on the list is the one buying least.",
+   "tier": "cited",
+   "usd": 1269.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "ivf",
+   "country": "ES",
+   "city": "Barcelona",
+   "amount": 5290,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "EmbryoScope+",
+    "blastocyst culture",
+    "first transfer",
+    "ICSI"
+   ],
+   "excludes": [],
+   "source": "s:fertilab-pricing",
+   "url": "https://fertilab.com/en/pricing/",
+   "note": "line \"In Vitro Fertilisation IVF (ICSI)\", read on 16 September 2026; the page states special prices for reservations until 30 September 2026. The page lists what each treatment includes and says nothing either way about stimulation medication — an empty exclusion column is not the same as an inclusive price.",
+   "tier": "cited",
+   "usd": 6104.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "ivf",
+   "country": "GR",
+   "city": "Thessaloniki",
+   "amount": 3860,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "initial consultation",
+    "follow-ups",
+    "ultrasounds",
+    "sedation",
+    "ICSI",
+    "blastocyst culture",
+    "assisted hatching",
+    "sperm freezing",
+    "first embryo transfer"
+   ],
+   "excludes": [
+    "preliminary investigations",
+    "extra tests",
+    "medications",
+    "embryo storage",
+    "travel and accommodation"
+   ],
+   "source": "s:newlife-ivf-costs",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "note": "IVF/ICSI cycle with own eggs at the clinic in Thessaloniki, read on 16 September 2026; the page carries no date of its own. Medications are named in the exclusion list. The same page sells three retrievals for 8,750 EUR.",
+   "tier": "cited",
+   "usd": 4454.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "ivf",
+   "country": "US",
+   "city": "Syracuse",
+   "amount": 4999,
+   "currency": "USD",
+   "as_of": "2026-07-07",
+   "kind": "list",
+   "includes": [
+    "ICSI as standard",
+    "assisted hatching as standard",
+    "cryopreservation as standard"
+   ],
+   "excludes": [
+    "monitoring",
+    "medications"
+   ],
+   "source": "s:cny-ivf-cost",
+   "url": "https://www.cnyfertility.com/ivf-cost/",
+   "note": "the clinic's own base IVF price on a page dated 7 July 2026. The same page puts its complete cycle at 7,994 to 12,888 USD once monitoring and add-ons are counted, and medications at about 2,700 USD typically, 1,500 to over 7,000 USD across protocols.",
+   "tier": "cited",
+   "usd": 4999.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "ivf",
+   "country": "US",
+   "city": "Syracuse",
+   "amount": 7994,
+   "amount_high": 12888,
+   "currency": "USD",
+   "as_of": "2026-07-07",
+   "kind": "quoted-range",
+   "includes": [
+    "a complete cycle including monitoring and standard add-ons"
+   ],
+   "excludes": [
+    "medications"
+   ],
+   "source": "s:cny-ivf-cost",
+   "url": "https://www.cnyfertility.com/ivf-cost/",
+   "note": "the clinic's own range for what it calls a complete cycle, against unattributed national figures of 19,500 to 29,700 USD given on the same page. The national range has no source named on the page and is not carried as a price row here.",
+   "tier": "cited",
+   "usd": 7994.0,
+   "usd_high": 12888.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "icsi",
+   "as": "The fertilisation method used in most of these cycles, and bundled into the price on nearly every list.",
+   "rel": "part"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The same cycle with someone else's eggs — and the version most often crossing a border.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pgt",
+   "as": "The test added to embryos from this cycle, priced per embryo and rated red by the UK regulator.",
+   "rel": "part"
+  },
+  {
+   "to": "egg-freezing",
+   "as": "The first half of this cycle, stopped after collection and resumed years later.",
+   "rel": "kin"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "What the law-driven half of this traffic is called in the literature.",
+   "rel": "term"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word offered for patients who travel because home will not treat them.",
+   "rel": "term"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The rule that decides whether the donor can stay unnamed, and so where the cycle is bought.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "The neighbouring prohibition that reaches across the same borders.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "hfea",
+   "as": "Publishes the UK birth rates this record quotes, and rates the add-ons sold alongside the cycle.",
+   "rel": "measures"
+  },
+  {
+   "to": "eshre",
+   "as": "Runs the European register behind the continental figures, and the taskforce that counted cross-border patients.",
+   "rel": "measures"
+  },
+  {
+   "to": "cycle",
+   "as": "The unit this treatment is sold and counted in, and the reason two prices are not comparable.",
+   "rel": "term"
+  },
+  {
+   "to": "czechia",
+   "as": "Where the cheapest published cycle on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form a cycle is sold in, and the reason the drug bill sits outside it.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "icsi",
+   "tell": "A price page saying IVF often means ICSI; Reprofit and Fertilab both fold ICSI into the cycle price, so the two words name one bill."
+  },
+  {
+   "id": "egg-freezing",
+   "tell": "Egg freezing is the stimulation and collection without the fertilisation; the thaw cycle is priced again years later."
+  }
+ ],
+ "links": [
+  {
+   "label": "Reprofit price list, valid from 1 January 2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf"
+  },
+  {
+   "label": "HFEA — Fertility treatment 2023: trends and figures",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2023-trends-and-figures/"
+  },
+  {
+   "label": "CDC — 2022 Final ART Summary",
+   "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye"
+  }
+ ],
+ "sources": [
+  "s:hfea-2023-trends",
+  "s:hfea-ivf",
+  "s:hfea-costs-funding",
+  "s:cdc-art-2022-summary",
+  "s:cdc-art-2019-national-summary",
+  "s:eshre-art-factsheet",
+  "s:shenfield-2010",
+  "s:inhorn-patrizio-2009",
+  "s:cohen-circumvention-2012",
+  "s:gurtin-2011-turkey",
+  "s:reprofit-pricelist-2026",
+  "s:fertilab-pricing",
+  "s:newlife-ivf-costs",
+  "s:cny-ivf-cost",
+  "s:hfea-donating-sperm",
+  "s:nhs-ivf"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:shenfield-2010",
+    "note": "the cross-border estimate, the two terminology papers and the Turkish regulation are each cited; the closing paragraph on why price pages exist is marked Trade practice and the paragraph on where Turkish patients go is marked Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026",
+    "note": "the exclusions are read off the named price lists; the legal map is summarised and belongs to the rule records"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:hfea-2023-trends"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Blausen 0060 AssistedReproductiveTechnology.png",
+  "File:ICSI oocyte.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Drugs stimulate the ovaries to ripen several eggs at once; the eggs are collected through the vaginal wall under sedation or general anaesthetic in about half an hour; the eggs are mixed with sperm in a laboratory; and…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "The fertilisation method used in most of these cycles, and bundled into the price on nearly every list.",
+   "rel": "part"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "The same cycle with someone else's eggs — and the version most often crossing a border.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pgt",
+   "type": "procedure",
+   "name": "Preimplantation genetic testing",
+   "as": "The test added to embryos from this cycle, priced per embryo and rated red by the UK regulator.",
+   "rel": "part"
+  },
+  {
+   "to": "egg-freezing",
+   "type": "procedure",
+   "name": "Egg freezing",
+   "as": "The first half of this cycle, stopped after collection and resumed years later.",
+   "rel": "kin"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "What the law-driven half of this traffic is called in the literature.",
+   "rel": "term"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The word offered for patients who travel because home will not treat them.",
+   "rel": "term"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "The rule that decides whether the donor can stay unnamed, and so where the cycle is bought.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "The neighbouring prohibition that reaches across the same borders.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "Publishes the UK birth rates this record quotes, and rates the add-ons sold alongside the cycle.",
+   "rel": "measures"
+  },
+  {
+   "to": "eshre",
+   "type": "org",
+   "name": "European Society of Human Reproduction and Embryology",
+   "as": "Runs the European register behind the continental figures, and the taskforce that counted cross-border patients.",
+   "rel": "measures"
+  },
+  {
+   "to": "cycle",
+   "type": "term",
+   "name": "Cycle",
+   "as": "The unit this treatment is sold and counted in, and the reason two prices are not comparable.",
+   "rel": "term"
+  },
+  {
+   "to": "czechia",
+   "type": "destination",
+   "name": "Czechia",
+   "as": "Where the cheapest published cycle on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form a cycle is sold in, and the reason the drug bill sits outside it.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:hfea-2023-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2023: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2023-trends-and-figures/",
+   "accessed": "2026-09-16",
+   "note": "the UK regulator's annual register report; birth rates marked preliminary and not yet validated"
+  },
+  {
+   "id": "s:hfea-ivf",
+   "kind": "org",
+   "title": "In vitro fertilisation (IVF)",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/treatments/explore-all-treatments/in-vitro-fertilisation-ivf/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:hfea-costs-funding",
+   "kind": "org",
+   "title": "Costs and funding",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/treatments/explore-all-treatments/costs-and-funding/",
+   "accessed": "2026-09-16",
+   "note": "the regulator declines to publish a price and says clinics set their own"
+  },
+  {
+   "id": "s:cdc-art-2022-summary",
+   "kind": "dataset",
+   "title": "2022 Final Assisted Reproductive Technology (ART) Summary",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye",
+   "accessed": "2026-09-16",
+   "note": "clinic-level and national rows; the national rows carry locationabbr NA. Queried through the Socrata endpoint https://data.cdc.gov/resource/9tjt-seye.json"
+  },
+  {
+   "id": "s:cdc-art-2019-national-summary",
+   "kind": "org",
+   "title": "2019 Assisted Reproductive Technology Fertility Clinic and National Summary Report",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://archive.cdc.gov/www_cdc_gov/art/reports/2019/pdf/2019-Report-ART-Fertility-Clinic-National-Summary-h.pdf",
+   "accessed": "2026-09-16",
+   "note": "read for CDC's own definitions of intended retrieval, actual retrieval, transfer and live-birth delivery"
+  },
+  {
+   "id": "s:eshre-art-factsheet",
+   "kind": "org",
+   "title": "ART fact sheet (v10, 2025)",
+   "publisher": "European Society of Human Reproduction and Embryology",
+   "url": "https://www.eshre.eu/-/media/sitecore-files/Press-room/ESHRE_ARTFactSheet_v10_2025.pdf",
+   "accessed": "2026-09-16",
+   "note": "European and world figures for 2020, drawn from the EIM consortium and ICMART"
+  },
+  {
+   "id": "s:shenfield-2010",
+   "kind": "paper",
+   "title": "Cross border reproductive care in six European countries",
+   "publisher": "Human Reproduction 25(6):1361-1368, ESHRE Taskforce on Cross Border Reproductive Care",
+   "url": "https://academic.oup.com/humrep/article/25/6/1361/2915759",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:inhorn-patrizio-2009",
+   "kind": "paper",
+   "title": "Rethinking reproductive \"tourism\" as reproductive \"exile\"",
+   "publisher": "Fertility and Sterility 92(3):904-906 (Inhorn MC, Patrizio P)",
+   "url": "https://www.fertstert.org/article/S0015-0282(09)00046-6/fulltext",
+   "accessed": "2026-09-16",
+   "note": "citation and the authors' framing verified from the publisher's own article listing; the full text returned HTTP 403 and was not read"
+  },
+  {
+   "id": "s:cohen-circumvention-2012",
+   "kind": "paper",
+   "title": "Circumvention Tourism",
+   "publisher": "Cornell Law Review 97(6):1309 (Cohen IG)",
+   "url": "https://scholarship.law.cornell.edu/clr/vol97/iss6/1",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:gurtin-2011-turkey",
+   "kind": "paper",
+   "title": "Banning reproductive travel: Turkey's ART legislation and third-party assisted reproduction",
+   "publisher": "Reproductive BioMedicine Online (Gurtin ZB)",
+   "url": "https://www.rbmojournal.com/article/S1472-6483(11)00470-6/fulltext",
+   "accessed": "2026-09-16",
+   "note": "citation and the 2010 regulation's extraterritorial clause verified from the journal's own article listing; the full text returned HTTP 403 and was not read. Treated as needing verification wherever it is relied on."
+  },
+  {
+   "id": "s:reprofit-pricelist-2026",
+   "kind": "web",
+   "title": "Pricelist — Assisted Reproduction, valid from 01.01.2026 (document 0331.26ENG)",
+   "publisher": "Reprofit International s.r.o., Brno",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "accessed": "2026-09-16",
+   "note": "the clinic's own self-payer price list, five pages, each line naming its inclusions and its exclusions"
+  },
+  {
+   "id": "s:fertilab-pricing",
+   "kind": "web",
+   "title": "Price list — fertility treatments",
+   "publisher": "Fertilab Barcelona",
+   "url": "https://fertilab.com/en/pricing/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:newlife-ivf-costs",
+   "kind": "web",
+   "title": "IVF costs, egg donation costs",
+   "publisher": "Newlife IVF, Thessaloniki",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cny-ivf-cost",
+   "kind": "web",
+   "title": "IVF Cost 2026: breakdown of prices, add-ons",
+   "publisher": "CNY Fertility",
+   "url": "https://www.cnyfertility.com/ivf-cost/",
+   "accessed": "2026-09-16",
+   "note": "page dated 7 July 2026; carries the clinic's own list prices and unattributed national ranges"
+  },
+  {
+   "id": "s:hfea-donating-sperm",
+   "kind": "org",
+   "title": "Donating your sperm",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/donation/donors/donating-your-sperm/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:nhs-ivf",
+   "kind": "org",
+   "title": "IVF",
+   "publisher": "National Health Service (United Kingdom)",
+   "url": "https://www.nhs.uk/conditions/ivf/",
+   "accessed": "2026-09-16",
+   "note": "page last reviewed 15 April 2025"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:shenfield-2010",
+   "note": "the cross-border estimate, the two terminology papers and the Turkish regulation are each cited; the closing paragraph on why price pages exist is marked Trade practice and the paragraph on where Turkish patients go is marked Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026",
+   "note": "the exclusions are read off the named price lists; the legal map is summarised and belongs to the rule records"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:hfea-2023-trends"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "belgium",
+   "type": "destination",
+   "name": "Belgium",
+   "as": "The treatment that brings patients here from countries that restrict it.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cyprus",
+   "type": "destination",
+   "name": "Cyprus",
+   "as": "The treatment its licensed units are built around.",
+   "rel": "procedure"
+  },
+  {
+   "from": "czechia",
+   "type": "destination",
+   "name": "Czechia",
+   "as": "Sold here as a programme in euro, priced from a published list.",
+   "rel": "procedure"
+  },
+  {
+   "from": "greece",
+   "type": "destination",
+   "name": "Greece",
+   "as": "The treatment its export clinics are built on.",
+   "rel": "procedure"
+  },
+  {
+   "from": "iran",
+   "type": "destination",
+   "name": "Iran",
+   "as": "Fertility treatment sought here by patients from across the region.",
+   "rel": "procedure"
+  },
+  {
+   "from": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "One of the treatments the inbound flow is built on.",
+   "rel": "procedure"
+  },
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The treatment Malaysia sells hardest, and the one its neighbours travel for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "north-cyprus",
+   "type": "destination",
+   "name": "Northern Cyprus",
+   "as": "The treatment nearly every clinic here sells.",
+   "rel": "procedure"
+  },
+  {
+   "from": "portugal",
+   "type": "destination",
+   "name": "Portugal",
+   "as": "The treatment the 2018 ruling reshaped here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "Named as a draw for patients from across the continent.",
+   "rel": "procedure"
+  },
+  {
+   "from": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "The treatment its national registry counts, clinic by clinic.",
+   "rel": "procedure"
+  },
+  {
+   "from": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "Fertility work sold to patients from across the Chinese-speaking region.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tunisia",
+   "type": "destination",
+   "name": "Tunisia",
+   "as": "Named by the health ministry among the treatments more than half its foreign patients come for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "barcelona",
+   "type": "hub",
+   "name": "Barcelona",
+   "as": "The cycle every programme quoted here is built around.",
+   "rel": "procedure"
+  },
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "Sold here to a regional market that often cannot buy it at home.",
+   "rel": "procedure"
+  },
+  {
+   "from": "izmir",
+   "type": "hub",
+   "name": "İzmir",
+   "as": "Sold here by clinics that also serve the domestic Aegean market.",
+   "rel": "procedure"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The fertility work that distinguishes this cluster from Penang's.",
+   "rel": "procedure"
+  },
+  {
+   "from": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "A large private fertility trade sits alongside the hospitals here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "nicosia",
+   "type": "hub",
+   "name": "Nicosia",
+   "as": "The treatment both sides of this city sell.",
+   "rel": "procedure"
+  },
+  {
+   "from": "prague",
+   "type": "hub",
+   "name": "Prague",
+   "as": "The cycle the donation sits inside.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tbilisi",
+   "type": "hub",
+   "name": "Tbilisi",
+   "as": "The cycle every programme here is built around.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tel-aviv",
+   "type": "hub",
+   "name": "Tel Aviv",
+   "as": "The treatment most often named as the reason for the journey.",
+   "rel": "procedure"
+  },
+  {
+   "from": "abortion-care",
+   "type": "procedure",
+   "name": "Abortion",
+   "as": "The other reproductive procedure whose travel is set by what each country's law allows rather than by price.",
+   "rel": "contrast"
+  },
+  {
+   "from": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "The cycle this is a version of, run on somebody else's eggs.",
+   "rel": "whole"
+  },
+  {
+   "from": "egg-freezing",
+   "type": "procedure",
+   "name": "Egg freezing",
+   "as": "The cycle this is the first half of, and the treatment the frozen eggs come back to.",
+   "rel": "part"
+  },
+  {
+   "from": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "The cycle this step sits inside, and the word most price pages use for both.",
+   "rel": "whole"
+  },
+  {
+   "from": "pgt",
+   "type": "procedure",
+   "name": "Preimplantation genetic testing",
+   "as": "The cycle this test is added to, and the bill it is charged on top of.",
+   "rel": "part"
+  },
+  {
+   "from": "sperm-donation",
+   "type": "procedure",
+   "name": "Sperm donation",
+   "as": "The cycle donor sperm is used in when insemination is not the treatment.",
+   "rel": "kin"
+  },
+  {
+   "from": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "The treatment that makes the embryo, priced and bought separately from the programme.",
+   "rel": "part"
+  },
+  {
+   "from": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "Its fertility centres report treating over 15,000 families a year.",
+   "rel": "performs"
+  },
+  {
+   "from": "memorial-sisli",
+   "type": "facility",
+   "name": "Memorial Şişli Hospital",
+   "as": "Its fertility, andrology and genetics centre is the unit foreign patients reach it through most.",
+   "rel": "performs"
+  },
+  {
+   "from": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "The treatment the donation feeds.",
+   "rel": "procedure"
+  },
+  {
+   "from": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "The treatment that makes gestational surrogacy possible, and which many of the same acts regulate.",
+   "rel": "procedure"
+  },
+  {
+   "from": "eshre",
+   "type": "org",
+   "name": "European Society of Human Reproduction and Embryology",
+   "as": "The treatment its consortium counts across Europe.",
+   "rel": "procedure"
+  },
+  {
+   "from": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "The treatment it licenses, counts and publishes a birth rate for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "icmart",
+   "type": "org",
+   "name": "International Committee for Monitoring Assisted Reproductive Technologies",
+   "as": "The treatment counted, cycle by cycle, in every national return it receives.",
+   "rel": "procedure"
+  },
+  {
+   "from": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "One of the treatments its reproductive care programme covers.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cycle",
+   "type": "term",
+   "name": "Cycle",
+   "as": "The treatment this word is the unit of.",
+   "rel": "procedure"
+  },
+  {
+   "from": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The treatment most of these journeys are made for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The treatment counted, cycle by cycle.",
+   "rel": "procedure"
+  },
+  {
+   "from": "hfea-results",
+   "type": "dataset",
+   "name": "HFEA fertility treatment results",
+   "as": "The treatment counted, cycle by cycle, since 1991.",
+   "rel": "procedure"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Where the drugs are the missing line, at 1,500 to over 7,000 dollars on one clinic's own page.",
+   "rel": "procedure"
+  }
+ ]
+}

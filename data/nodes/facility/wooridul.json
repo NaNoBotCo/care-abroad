@@ -1,0 +1,222 @@
+{
+ "schema": 1,
+ "id": "wooridul",
+ "type": "facility",
+ "names": {
+  "name": "Wooridul Spine Hospital",
+  "aliases": [
+   "우리들병원",
+   "Cheongdam Wooridul Spine Hospital",
+   "Wooridul Hospital"
+  ],
+  "said": "WOO-ri-deul — uri-deul, ours, the plural of we. One thing only: backs."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "KR",
+  "ownership": "private",
+  "founded": 1982,
+  "specialty": [
+   "spine surgery",
+   "neurosurgery",
+   "orthopaedics",
+   "rehabilitation medicine"
+  ],
+  "draws": [
+   "spinal-fusion",
+   "disc-replacement"
+  ],
+  "status": "open",
+  "languages": [
+   "Korean",
+   "English",
+   "Russian",
+   "Arabic"
+  ]
+ },
+ "text": {
+  "what": "A single-specialty spine hospital in Cheongdam, Gangnam-gu, Seoul, founded in 1982 by the neurosurgeon Sang-Ho Lee and built entirely around the spine: neurosurgery, orthopaedics and rehabilitation medicine, and nothing else. The state's promotion body lists it at 240 beds and 30 doctors. It opened a department for foreign patients in 2006, three years before the state's own count of foreign patients starts, and was designated an international training centre for two spine-surgery societies in 2001.",
+  "story": "The hospital's own milestone list reads as a single specialty widening without ever changing subject. Sangho Lee Neurosurgery Clinic in 1982; Dongrae Wooridul Hospital in 1984; Yeoksam Wooridul in 1992; the Cheongdam headquarters in 1999. The Korean Ministry of Health and Welfare selected it as a specialty hospital in spine diseases in 2005 and again under the formal scheme in 2011.\n\nThe foreign practice came from the teaching, not from a marketing department. In 2001 the hospital was designated an international training centre by ISMISS and IMLAS — the minimally invasive spine surgery societies — and in 2002 an international training centre and Korean branch of the Royal College of Physicians and Surgeons. The Wooridul International Patient Center opened in 2006. Korea's own count of foreign patients begins in 2009, and the Act that governs registration now dates from 2015. *Inference —* the sequence puts Wooridul among the first Korean hospitals to build a foreign-patient practice, and it built it by training the surgeons who would refer, which is a slower route than an accreditation and a harder one to buy.\n\nThen the hospital went the other way. Shanghai in 2009, Jakarta in 2010, Istanbul and Dubai in 2011, Singapore in 2012. The current site lists two of them — Dubai, inside King's College Hospital London Dubai, and Abu Dhabi — alongside the five Korean sites, and says nothing about the rest; this record notes the difference between the two lists and makes no finding about what happened to the others.\n\nWhat the Abu Dhabi centre is worth reading closely. Healthpoint describes the Wooridul Spine Center as a partnership between Mubadala Health and the Seoul hospital, wholly owned by Mubadala, staffed by Korean spine surgeons, with its physiotherapists trained in Seoul, and it names the aim: to reduce the need for patients to travel abroad. *Inference —* that is a branch in the branding sense and an export in the commercial one. The hospital is not exporting a building. It is exporting the surgeon and the training, to a state that would rather buy the operation at home than send the patient and the fee to Korea.\n\nThe hospital's own greeting page calls it a \"world-class spine hospital\". This directory quotes that rather than asserting it, and carries no outcome figure, no complication rate and no volume count for the unit, because none was published on any page read here.",
+  "how": "Foreign patients reach it through the International Patient Center opened in 2006. The state's Medical Korea listing names English, Russian and Arabic, western, Korean and halal catering, and direct billing with named international insurers — which is the part that matters to a Gulf patient whose treatment is paid for by somebody else. *Trade practice —* the Korean shape holds: registration with the ministry, an in-hospital international office, an estimate given on request, and no figure on the public pages.\n\nNothing is priced on any page read for this record.",
+  "today": "As of 17 September 2026 the Korea Health Industry Development Institute's Medical Korea listing carries 240 beds, 30 doctors, KOIHA accreditation and three patient languages for the Hakdong-ro hospital. The hospital's own history page ends its overseas openings in 2012 and its current location list names Dubai and Abu Dhabi. No bed count, no founding figure and no foreign-patient number comes from the hospital itself; the counts here are the state body's."
+ },
+ "geo": {
+  "lat": 37.51906,
+  "lon": 127.04971,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "445 Hakdong-ro, Gangnam-gu",
+  "city": "Seoul",
+  "country": "KR",
+  "postcode": "06068"
+ },
+ "metrics": {
+  "beds": 240,
+  "doctors": 30,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "Beds and doctors are the Korea Health Industry Development Institute's listing for the Hakdong-ro hospital, not a figure the hospital publishes about itself, and they cover that site rather than the five-site Korean group. No patient count of any kind is published on the pages read: not total, not foreign, not by operation. A single-specialty hospital's case volume would be the number worth having here, and it is the number nobody prints.",
+  "as_of": "2026",
+  "source": "s:medicalkorea-wooridul",
+  "url": "https://www.medicalkorea.or.kr/en/mostvisitedmedicalinstitutions/view?medicalProviderNo=102"
+ },
+ "tags": [
+  {
+   "tag": "international-office",
+   "source": "s:wooridul-history",
+   "tier": "cited",
+   "note": "the Wooridul International Patient Center opened in 2006, three years before the state's own count of foreign patients starts",
+   "url": "https://www.wooridul.com/introduce/history"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:medicalkorea-wooridul",
+   "tier": "cited",
+   "note": "English, Russian and Arabic named on the state body's listing, with western, Korean and halal catering"
+  },
+  {
+   "tag": "insurer-direct",
+   "source": "s:medicalkorea-wooridul",
+   "tier": "cited",
+   "note": "direct billing with named international insurers, listed by KHIDI"
+  },
+  {
+   "tag": "teaching",
+   "source": "s:wooridul-history",
+   "tier": "cited",
+   "note": "designated an international training centre by ISMISS and IMLAS in 2001 and by the Royal College of Physicians and Surgeons in 2002; the founder's page names an International Training Center for doctors from abroad"
+  },
+  {
+   "tag": "chain",
+   "source": "s:wooridul-greetings",
+   "tier": "cited",
+   "note": "five Korean sites — Cheongdam, Gimpo Airport, Busan, Daegu, Gwangju — plus centres listed at Dubai and Abu Dhabi"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:medicalkorea-wooridul",
+   "tier": "cited",
+   "note": "no figure on the state listing and none on the hospital's own pages read for this record"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "kohta",
+   "what": "KOIHA accreditation, listed by the Korea Health Industry Development Institute",
+   "year": null,
+   "valid_until": null,
+   "source": "s:medicalkorea-wooridul",
+   "url": "https://www.medicalkorea.or.kr/en/mostvisitedmedicalinstitutions/view?medicalProviderNo=102",
+   "note": "the state listing names the accreditation and gives no year; separate from the compulsory ministry registration every Korean facility treating foreign patients must hold"
+  },
+  {
+   "by": "other",
+   "what": "Specialty hospital in spine diseases, designated by the Korean Ministry of Health and Welfare",
+   "year": 2011,
+   "valid_until": null,
+   "source": "s:wooridul-history",
+   "url": "https://www.wooridul.com/introduce/history",
+   "note": "the hospital's history page records a first selection in 2005 and the designation under the formal scheme in 2011"
+  }
+ ],
+ "kin": [
+  {
+   "to": "seoul",
+   "as": "Sits in Cheongdam, in the Gangnam blocks the city's clinic trade is named for, and does none of the work that trade is known for.",
+   "rel": "place"
+  },
+  {
+   "to": "south-korea",
+   "as": "Among the earliest Korean hospitals to build a foreign-patient practice, by training foreign surgeons before the state built a register.",
+   "rel": "destination"
+  },
+  {
+   "to": "spinal-fusion",
+   "as": "One of the two operations this hospital exists to do, listed on the state's own page for it.",
+   "rel": "performs"
+  },
+  {
+   "to": "disc-replacement",
+   "as": "The motion-preserving alternative to fusion; the Gulf centre staffed from this hospital lists it, and the Seoul pages read for this record do not.",
+   "rel": "performs"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "as": "Operates under the registration every Korean facility treating foreign patients must hold — a regime whose counts start in 2009, three years after this hospital opened its foreign-patient centre.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "severance",
+   "as": "The other early Korean entrant, a 2,437-bed university hospital where this one is a single specialty.",
+   "rel": "contrast"
+  },
+  {
+   "to": "khidi",
+   "as": "The state body whose listing supplies every number on this record.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "An estimate on request and no published figure, which is the Korean pattern rather than this hospital's choice.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Wooridul Spine Hospital",
+   "url": "https://www.wooridul.com/"
+  },
+  {
+   "label": "Wooridul Spine Hospital — history",
+   "url": "https://www.wooridul.com/introduce/history"
+  },
+  {
+   "label": "Medical Korea listing (KHIDI)",
+   "url": "https://www.medicalkorea.or.kr/en/mostvisitedmedicalinstitutions/view?medicalProviderNo=102"
+  }
+ ],
+ "sources": [
+  "s:wooridul-history",
+  "s:wooridul-greetings",
+  "s:wooridul-location",
+  "s:medicalkorea-wooridul",
+  "s:healthpoint-wooridul-spine-centre",
+  "s:khidi-medicalkorea",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wooridul-history",
+    "note": "the milestone dates are the hospital's own history page, read 17 September 2026; the Abu Dhabi description is Healthpoint's own; the two stretches marked *Inference —* are this project's reading"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the Korean route's shape; the languages, catering and direct billing are cited to the state listing"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:medicalkorea-wooridul"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "geocoded from the address on the hospital's own location page"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Wooridul Spine Hospital.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

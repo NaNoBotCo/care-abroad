@@ -1,0 +1,381 @@
+{
+ "schema": 1,
+ "id": "medicana",
+ "type": "facility",
+ "names": {
+  "name": "Medicana Health Group",
+  "aliases": [
+   "Medicana Sağlık Grubu",
+   "Medicana International Istanbul"
+  ],
+  "said": "Med-ee-JAH-na. The group is Medicana; the building this record pins is Medicana International İstanbul at Beylikdüzü, on the western edge of the city where the E-5 runs out towards Thrace."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "ownership": "private",
+  "founded": 1992,
+  "specialty": [
+   "oncology",
+   "organ transplantation",
+   "bone marrow transplantation",
+   "cardiovascular surgery",
+   "fertility",
+   "bariatric surgery"
+  ],
+  "draws": [
+   "kidney-transplant",
+   "liver-transplant",
+   "bone-marrow-transplant",
+   "ivf",
+   "gastric-sleeve"
+  ],
+  "status": "open",
+  "languages": [
+   "Turkish",
+   "English",
+   "Russian",
+   "Arabic",
+   "Kurdish",
+   "Somali"
+  ]
+ },
+ "text": {
+  "what": "A Turkish hospital group of eighteen hospitals — sixteen across seven Turkish cities, one at Winchester in England and one at Sarajevo — trading since 1992. This record is the group, and it pins Medicana International İstanbul at Beylikdüzü, the hospital the group presents first to patients from abroad.",
+  "story": "Medicana began in 1992 and grew into Istanbul, Ankara, Izmir, Konya, Samsun, Sivas and Bursa, then outward to Winchester and Sarajevo. It states more than 5.5 million patients a year from Türkiye and elsewhere.\n\nThat figure needs its qualifier. It is a group total for eighteen hospitals in three countries, it is not separated into foreign and domestic, and it counts encounters rather than people: a Turkish patient with a chronic condition who attends an outpatient clinic monthly is twelve of the 5.5 million. This directory carries it as the group's own count of its own attendances and nothing more.\n\nThe Beylikdüzü hospital reads like a building designed for arrivals: 30,000 square metres, eight operating theatres, twenty-six observation beds, twenty-six or more clinical services, and an international patient centre with full-time interpreters in English, Russian, Arabic, Kurdish and Somali working around the clock. *Inference —* the language list is the itinerary. Kurdish and Somali are not on the signage of a hospital selling to Western Europe.\n\nThe group's about page, unusually, names no accreditation at all. The Beylikdüzü page carries one image, of the Türkiye health tourism authorisation certificate.",
+  "how": "*Trade practice —* a Turkish group with an international patient centre works by routing: the enquiry lands centrally, the records are read, a hospital is assigned, and a figure follows by email. Medicana publishes no bed count for the group, no bed count for the flagship — the sentence on its own page has the number missing from it — and no price for anything.",
+  "today": "As of 17 September 2026 the group states eighteen hospitals in three countries and more than 5.5 million patients a year. Its flagship page states eight operating theatres, twenty-six observation beds and 30,000 square metres, and leaves the inpatient bed figure blank. No JCI or other international accreditation is named on either page read here."
+ },
+ "geo": {
+  "lat": 41.012918,
+  "lon": 28.645091,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Beylikdüzü Caddesi, Büyükşehir Mahallesi, Beylikdüzü",
+  "city": "Istanbul",
+  "country": "TR",
+  "postcode": "34521"
+ },
+ "metrics": {
+  "beds": null,
+  "annual_patients": 5500000,
+  "annual_foreign_patients": null,
+  "note": "A GROUP figure and a count of VISITS, not of people: more than 5.5 million patients a year across eighteen hospitals in Türkiye, England and Bosnia and Herzegovina, domestic and foreign together, as stated on the group's own about page. A patient attending monthly is counted twelve times. No bed count is published for the group or for the flagship — the flagship's own sentence leaves the figure out — and no foreign share is given.",
+  "as_of": "2026",
+  "source": "s:medicana-about",
+  "url": "https://www.medicanainternational.com/en/our-corporate/about-us"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:medicana-about",
+   "tier": "cited",
+   "note": "eighteen hospitals: sixteen across Istanbul, Ankara, Izmir, Konya, Samsun, Sivas and Bursa, plus Winchester and Sarajevo"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:medicana-int-istanbul",
+   "tier": "cited",
+   "note": "an international patient centre office at the Beylikdüzü hospital",
+   "url": "https://www.medicanainternational.com/en/international-istanbul"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:medicana-int-istanbul",
+   "tier": "cited",
+   "note": "full-time English, Russian, Arabic, Kurdish and Somali interpreters stated as working around the clock"
+  },
+  {
+   "tag": "transplant-programme",
+   "source": "s:medicana-about",
+   "tier": "cited",
+   "note": "organ transplantation and bone marrow transplantation named among the group's specialties"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:medicana-about",
+   "tier": "cited",
+   "note": "neither the group page nor the flagship page carries a figure for anything"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "moh-tr",
+   "what": "Türkiye health tourism authorisation certificate, displayed on the flagship's own page",
+   "year": null,
+   "valid_until": null,
+   "source": "s:medicana-int-istanbul",
+   "url": "https://www.medicanainternational.com/en/international-istanbul",
+   "note": "the certificate appears as an image with no number or date legible in the page text; it is the licence a Turkish facility must hold to treat international patients"
+  }
+ ],
+ "kin": [
+  {
+   "to": "istanbul",
+   "as": "Its flagship stands at Beylikdüzü, on the western edge of the city rather than in it.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "One of the four private groups a foreign enquiry to Türkiye is routed through.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The one certificate its flagship page displays.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Named among the group's specialties, without a hospital or a volume against it.",
+   "rel": "performs"
+  },
+  {
+   "to": "acibadem",
+   "as": "The larger group, and the one whose ownership runs back to Malaysia.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "5.5 million a year, across eighteen hospitals in three countries, domestic and foreign together, counting attendances.",
+   "rel": "story"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "With nothing published, the quotation is the only price that exists here.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medicana Health Group",
+   "url": "https://www.medicanainternational.com/en/our-corporate/about-us"
+  },
+  {
+   "label": "Medicana International İstanbul",
+   "url": "https://www.medicanainternational.com/en/international-istanbul"
+  }
+ ],
+ "sources": [
+  "s:medicana-about",
+  "s:medicana-int-istanbul",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the OpenStreetMap point for Medicana International Hastanesi, Beylikdüzü Caddesi"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the routing is trade practice and marked so in the prose; the publication facts are cited"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:medicana-about"
+   }
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A Turkish hospital group of eighteen hospitals — sixteen across seven Turkish cities, one at Winchester in England and one at Sarajevo — trading since 1992.",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "Its flagship stands at Beylikdüzü, on the western edge of the city rather than in it.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "One of the four private groups a foreign enquiry to Türkiye is routed through.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The one certificate its flagship page displays.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Named among the group's specialties, without a hospital or a volume against it.",
+   "rel": "performs"
+  },
+  {
+   "to": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The larger group, and the one whose ownership runs back to Malaysia.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "5.5 million a year, across eighteen hospitals in three countries, domestic and foreign together, counting attendances.",
+   "rel": "story"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "With nothing published, the quotation is the only price that exists here.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:medicana-about",
+   "kind": "web",
+   "title": "About Us — Medicana Health Group",
+   "publisher": "Medicana Sağlık Grubu",
+   "url": "https://www.medicanainternational.com/en/our-corporate/about-us",
+   "accessed": "2026-09-17",
+   "note": "the group's own account: services begun 1992, 18 hospitals of which 16 across seven Turkish cities and two abroad at Winchester and Sarajevo, and more than 5.5 million patients a year. No bed count, no doctor count and no accreditation is named on the page."
+  },
+  {
+   "id": "s:medicana-int-istanbul",
+   "kind": "web",
+   "title": "Medicana International Istanbul Hospital",
+   "publisher": "Medicana Sağlık Grubu",
+   "url": "https://www.medicanainternational.com/en/international-istanbul",
+   "accessed": "2026-09-17",
+   "note": "the flagship's own page: 30,000 square metres, eight operating theatres, 26 observation beds, 26-plus clinical services, an international patient centre with full-time English, Russian, Arabic, Kurdish and Somali interpreters, and an image of the Türkiye health tourism authorisation certificate. The inpatient bed figure is blank in the page's own text."
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the routing is trade practice and marked so in the prose; the publication facts are cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the OpenStreetMap point for Medicana International Hastanesi, Beylikdüzü Caddesi"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:medicana-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:medicana-about",
+   "note": "eighteen hospitals: sixteen across Istanbul, Ankara, Izmir, Konya, Samsun, Sivas and Bursa, plus Winchester and Sarajevo",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:medicana-int-istanbul",
+   "note": "an international patient centre office at the Beylikdüzü hospital",
+   "tier": "cited",
+   "url": "https://www.medicanainternational.com/en/international-istanbul"
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:medicana-int-istanbul",
+   "note": "full-time English, Russian, Arabic, Kurdish and Somali interpreters stated as working around the clock",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "transplant-programme",
+   "label": "Transplant programme",
+   "icon": "🫀",
+   "group": "clinical",
+   "evidence": "a national transplant registry, a ministry licence list, or the facility's own programme page",
+   "source": "s:medicana-about",
+   "note": "organ transplantation and bone marrow transplantation named among the group's specialties",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:medicana-about",
+   "note": "neither the group page nor the flagship page carries a figure for anything",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "moh-tr",
+   "label": "Türkiye Ministry of Health health-tourism authorisation",
+   "what": "Türkiye health tourism authorisation certificate, displayed on the flagship's own page",
+   "url": "https://www.medicanainternational.com/en/international-istanbul",
+   "kind": "regulator",
+   "year": null,
+   "valid_until": null,
+   "source": "s:medicana-int-istanbul"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": []
+}

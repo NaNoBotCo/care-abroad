@@ -1,0 +1,208 @@
+{
+ "schema": 1,
+ "id": "eurostat",
+ "type": "org",
+ "names": {
+  "name": "Eurostat",
+  "aliases": [
+   "European Statistical Office",
+   "DG ESTAT"
+  ],
+  "said": "Eurostat counts what residents consume. It does not count what a country sells to foreigners, and it says so in the metadata."
+ },
+ "region": [
+  "europe-west",
+  "global"
+ ],
+ "facets": {
+  "kind": "registry",
+  "iso2": "LU",
+  "status": "open"
+ },
+ "text": {
+  "what": "The statistical office of the European Union, a Directorate-General of the European Commission based in the Kirchberg district of Luxembourg City. Its health care expenditure collection runs on the System of Health Accounts 2011 framework, with member states, EFTA countries and several candidates reporting annually under Commission Regulation 2015/359 and, from reference year 2021, Regulation 2021/1901.",
+  "story": "One sentence in the Eurostat metadata decides what this site can and cannot carry from European health accounts: \"exports of health care goods and services (to non-resident units) are excluded, whereas imports of health care goods and services for final use are included\".\n\nRead it slowly. A German patient treated in Budapest appears in German health expenditure, as an import. The Hungarian clinic's income from that patient does not appear in Hungarian health expenditure at all. The accounts follow residents, so the receiving end of every cross-border journey is invisible by design.\n\n*Inference —* that is why a destination country's health spending figures can look flat while its surgical export trade grows, and why no European statistic answers the question a reader most wants answered: how many people came here for treatment, and what did they pay. The accounts were not built to answer it. They were built to measure what a population consumes.",
+  "how": "Member states submit health accounts by 30 April two years after the reference year. Eurostat disseminates twice a year — a first release around November and a second the following January — across four summary tables and four cross-classification tables by provider, function and financing scheme.",
+  "today": "As of 16 September 2026 the collection covers EU member states, Norway, Liechtenstein, Iceland and Switzerland, plus Bosnia and Herzegovina, Georgia, Moldova, Montenegro and Serbia; United Kingdom data ends at 2019."
+ },
+ "geo": {
+  "lat": 49.6333,
+  "lon": 6.1697,
+  "precision": "city",
+  "source": "s:eurostat-wikipedia"
+ },
+ "address": {
+  "city": "Luxembourg",
+  "area": "Kirchberg",
+  "country": "LU"
+ },
+ "kin": [
+  {
+   "to": "eu-national-contact-points",
+   "as": "The other European reporting stream on cross-border care, and the one that does count patients.",
+   "rel": "contrast"
+  },
+  {
+   "to": "oecd",
+   "as": "Co-author of the accounting framework whose exclusion rule this record turns on.",
+   "rel": "org"
+  },
+  {
+   "to": "hungary",
+   "as": "A destination whose dental export trade is invisible in its own health accounts.",
+   "rel": "place"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "The exclusion sentence, and what it hides, at length.",
+   "rel": "story"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The instrument that generates the European patient-mobility figures the accounts cannot.",
+   "rel": "governed-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Health care expenditure (SHA 2011) metadata",
+   "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hlth_sha11_esms.htm"
+  }
+ ],
+ "sources": [
+  "s:eurostat-sha11-metadata",
+  "s:eurostat-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eurostat-sha11-metadata",
+    "note": "the quoted sentence is verbatim from the metadata; the closing paragraph is marked as this project's inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The statistical office of the European Union, a Directorate-General of the European Commission based in the Kirchberg district of Luxembourg City.",
+ "region_terms": [
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The other European reporting stream on cross-border care, and the one that does count patients.",
+   "rel": "contrast"
+  },
+  {
+   "to": "oecd",
+   "type": "org",
+   "name": "Organisation for Economic Co-operation and Development",
+   "as": "Co-author of the accounting framework whose exclusion rule this record turns on.",
+   "rel": "org"
+  },
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "A destination whose dental export trade is invisible in its own health accounts.",
+   "rel": "place"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "The exclusion sentence, and what it hides, at length.",
+   "rel": "story"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The instrument that generates the European patient-mobility figures the accounts cannot.",
+   "rel": "governed-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:eurostat-sha11-metadata",
+   "kind": "dataset",
+   "title": "Health care expenditure (SHA 2011) (hlth_sha11) — metadata",
+   "publisher": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hlth_sha11_esms.htm",
+   "accessed": "2026-09-16",
+   "note": "carries the sentence that exports of health care goods and services to non-resident units are excluded while imports for final use are included; legal basis Commission Regulations 2015/359 and 2021/1901"
+  },
+  {
+   "id": "s:eurostat-wikipedia",
+   "kind": "wikipedia",
+   "title": "Eurostat",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eurostat",
+   "accessed": "2026-09-16",
+   "note": "Directorate-General of the European Commission, based in the Kirchberg district of Luxembourg City"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata",
+   "note": "the quoted sentence is verbatim from the metadata; the closing paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:eurostat-sha11-metadata"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The other European stream, which counts spending rather than patients and excludes the receiving end.",
+   "rel": "contrast"
+  },
+  {
+   "from": "oecd",
+   "type": "org",
+   "name": "Organisation for Economic Co-operation and Development",
+   "as": "The partner that runs the same accounting framework for Europe, and excludes exports from it.",
+   "rel": "org"
+  }
+ ]
+}

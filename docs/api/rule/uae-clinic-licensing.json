@@ -1,0 +1,287 @@
+{
+ "id": "uae-clinic-licensing",
+ "names": {
+  "name": "Licensing a clinic in the United Arab Emirates",
+  "aliases": [
+   "DHA licence",
+   "Sheryan",
+   "MOHAP licence",
+   "DHCC licence"
+  ],
+  "said": "Four regulators in one federation, and which one holds your file depends on which side of a road the clinic sits."
+ },
+ "region": [
+  "gulf",
+  "west-asia"
+ ],
+ "facets": {
+  "kind": "licensing",
+  "iso2": "AE",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Health facility and professional licensing in the UAE is split by emirate and by free zone rather than run federally. In Dubai the Dubai Health Authority licenses both, under Law No. (6) of 2018 Concerning the Dubai Health Authority, through the Sheryan system — described by the Authority as the \"Digital gateway for registering and licensing healthcare professionals and facilities in Dubai\" — with a public register. Dubai Healthcare City, a free zone, is regulated by its own authority. Abu Dhabi and the northern emirates run their own arrangements.",
+  "story": "A federation that regulates health by emirate produces a licensing map a foreign patient cannot read from the outside, and the free zone makes it worse. A clinic in Dubai Healthcare City and a clinic a kilometre away on Oud Metha Road are licensed by different bodies under different rules, and both are in Dubai.\n\nLaw No. (6) of 2018 is the Authority's current constituting law and repeals contradicting provisions in other legislation. Licensing of health facilities sits with the Authority; Sheryan is where it happens and where the register is published.\n\nThe free zone publishes its own counts: 168 clinical facilities, 10 hospitals and 4,425 healthcare professionals, across Phase 1 on Oud Metha Road in Bur Dubai and Phase 2 at Al Jaddaf, regulated by the Dubai Healthcare City Authority.\n\n*Inference —* the practical consequence for someone checking a clinic before travelling is that there is no single national register to check. The question is not whether a UAE clinic is licensed but which body licensed it, and the answer determines where a complaint goes. That is the same fragmentation a patient meets in any federal system, and the Emirates is the one where the fault line runs through a single city.\n\nDubai also sends its own nationals abroad for treatment under a separate bylaw of the same Authority, which is on its own record here.",
+  "how": "Sheryan carries a public search for professionals and for facilities, and a separate Dubai Medical Registry directory. A licence is held by the individual clinician as well as by the premises, and both are searchable.\n\nWhat a reader would have to establish: which regulator covers the address; whether the individual clinician's licence covers the procedure being sold; and whether the facility category — outpatient clinic, day surgery centre, hospital — matches the operation. A clinic licensed for outpatient dermatology and selling general-anaesthetic surgery is a licensing question before it is a clinical one.",
+  "today": "As of 17 September 2026 the Dubai Health Authority's Sheryan register is public and searchable. Dubai reported more than 691,000 international health travellers in 2023 through its media office, a count of arrivals rather than of people."
+ },
+ "kin": [
+  {
+   "to": "uae",
+   "as": "The federation whose licensing this is.",
+   "rel": "destination"
+  },
+  {
+   "to": "dha-dubai",
+   "as": "The authority that licenses, registers and publishes.",
+   "rel": "org"
+  },
+  {
+   "to": "dubai",
+   "as": "The city where the fault line between regulators runs.",
+   "rel": "hub"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "as": "A licensed hospital in the emirate.",
+   "rel": "facility"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The same authority, sending patients the other way.",
+   "rel": "kin"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step at which a register can be searched, if you know which one.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Where a complaint goes depends on which body holds the licence.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "A licence is not an accreditation, and neither is a quality score.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sheryan — Dubai Health Licensing System, public search",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/public-search"
+  },
+  {
+   "label": "Law No. (6) of 2018 Concerning the Dubai Health Authority",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2018/Law%20No.%20(6)%20of%202018%20Concerning%20the%20Dubai%20Health%20Authority.pdf"
+  }
+ ],
+ "sources": [
+  "s:dha-law-6-2018",
+  "s:dha-sheryan",
+  "s:dhcc",
+  "s:wp-dubai-healthcare-city",
+  "s:dubai-media-office-health-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:dha-law-6-2018"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:dhcc",
+    "note": "the stretch marked *Inference —* is this project's reading; the free-zone counts are the zone's own"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:dha-sheryan"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "Health facility and professional licensing in the UAE is split by emirate and by free zone rather than run federally. In Dubai the Dubai Health Authority licenses both, under Law No.",
+ "region_terms": [
+  {
+   "key": "gulf",
+   "name": "The Gulf",
+   "note": "the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain — a source market that is building itself into a destination"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "The federation whose licensing this is.",
+   "rel": "destination"
+  },
+  {
+   "to": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "The authority that licenses, registers and publishes.",
+   "rel": "org"
+  },
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The city where the fault line between regulators runs.",
+   "rel": "hub"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "A licensed hospital in the emirate.",
+   "rel": "facility"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The same authority, sending patients the other way.",
+   "rel": "kin"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "The step at which a register can be searched, if you know which one.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Where a complaint goes depends on which body holds the licence.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "A licence is not an accreditation, and neither is a quality score.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dha-law-6-2018",
+   "kind": "law",
+   "title": "Law No. (6) of 2018 Concerning the Dubai Health Authority",
+   "publisher": "Government of Dubai Legal Affairs Department",
+   "year": 2018,
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2018/Law%20No.%20(6)%20of%202018%20Concerning%20the%20Dubai%20Health%20Authority.pdf",
+   "accessed": "2026-09-16",
+   "note": "the current constituting law; licensing of health facilities sits with the Authority, and the law repeals any contradicting provision in other legislation"
+  },
+  {
+   "id": "s:dha-sheryan",
+   "kind": "web",
+   "title": "Sheryan — Dubai Health Licensing System, public search",
+   "publisher": "Dubai Health Authority",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/public-search",
+   "accessed": "2026-09-16",
+   "note": "public search across Facilities, Professionals and the Dubai Medical Registry"
+  },
+  {
+   "id": "s:dhcc",
+   "kind": "web",
+   "title": "Dubai Healthcare City",
+   "publisher": "Dubai Healthcare City Authority",
+   "url": "https://www.dhcc.ae/",
+   "accessed": "2026-09-16",
+   "note": "the free zone's own homepage counts, read 16 September 2026: 168 clinical facilities, 10 hospitals, 4,425 healthcare professionals; Phase 1 on Oud Metha Road in Bur Dubai and Phase 2 at Al Jaddaf; regulator named as Dubai Healthcare City Authority"
+  },
+  {
+   "id": "s:wp-dubai-healthcare-city",
+   "kind": "web",
+   "title": "Dubai Healthcare City",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dubai_Healthcare_City",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:dubai-media-office-health-2023",
+   "kind": "gov",
+   "title": "Dubai welcomes more than 691,000 international health travellers in 2023",
+   "publisher": "Dubai Media Office, Government of Dubai",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k",
+   "accessed": "2026-09-16",
+   "note": "Dubai Health Authority figures released 19 August 2024; gives arrivals, spend, regional split and the leading specialties. The release does not publish the counting rule behind the headline number."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:dha-law-6-2018"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:dhcc",
+   "note": "the stretch marked *Inference —* is this project's reading; the free-zone counts are the zone's own"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:dha-sheryan"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:dha-law-6-2018"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "Why a licence here names an emirate rather than a country.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The two-register arrangement that makes an address here a regulatory fact.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "Operates under the emirate licensing regime whose number sits in its own footer.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The same authority, working the other direction.",
+   "rel": "kin"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "Why a licence here names an emirate rather than a country.",
+   "rel": "rule"
+  }
+ ]
+}

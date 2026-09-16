@@ -1,0 +1,652 @@
+{
+ "id": "eu-directive-2011-24",
+ "names": {
+  "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+  "aliases": [
+   "the Cross-Border Healthcare Directive",
+   "the Directive route",
+   "the patient mobility directive"
+  ],
+  "said": "The trade calls it \"the Directive route\", and contrasts it with \"the S2 route\" in the same breath."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east"
+ ],
+ "facets": {
+  "kind": "reimbursement",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The instrument that lets a person insured in one EU Member State buy treatment in another and claim the money back at home. It pays a refund, not a bill: the patient settles with the foreign provider first, then applies to their own system, which reimburses \"up to the level of costs that would have been assumed by the Member State of affiliation, had this healthcare been provided in its territory without exceeding the actual costs of healthcare received\" (Article 7(4)). Adopted 9 March 2011; in force across the EU, Iceland, Liechtenstein and Norway. Not open to residents of the United Kingdom since the end of the transition period.",
+  "story": "Two routes to the same border, built forty years apart, and the difference between them is the whole of this record.\n\nThe older one is social-security coordination: Regulation (EC) No 883/2004, and before it Regulation 1408/71. Under Article 20 the home institution must authorise treatment abroad where \"the treatment in question is among the benefits provided for by the legislation in the Member State where the person concerned resides\" and the person \"cannot be given such treatment within a time-limit which is medically justifiable\". Authorisation granted, the patient is treated as a local patient of the destination's public system and the two states settle between themselves. The patient pays what a local would pay, which in much of Europe is nothing or a co-payment.\n\nThe newer one came out of litigation, not legislation. A run of Court of Justice judgments through the 1990s and 2000s held that healthcare bought in another Member State is a service, and that a national refusal to reimburse it can be a restriction on the freedom to provide services. The Directive codified that line. It opens the private sector, which the S2 route does not; it drops the requirement that the home system be unable to treat you in time; and it charges the patient the foreign price up front and refunds the home price afterwards. Where the home price is lower — which is why patients go to cheaper countries and also why patients from cheaper countries cannot afford the expensive ones — the difference stays with the patient.\n\n*Inference —* the two routes therefore select different patients. S2 suits someone whose own system has a queue and whose own system will pay the foreign public tariff. The Directive suits someone who can front the cash and wants a private clinic, a shorter wait, or a provider their own system does not contract with. Neither is a route to a treatment the home state does not cover at all: Article 7(1) reimburses only healthcare \"among the benefits to which the insured person is entitled in the Member State of affiliation\".\n\nThe use is small and lopsided. The European Commission's collection for reference year 2022 recorded 547,890 reimbursement requests for care needing no prior authorisation across 23 reporting countries, and France and Germany together account for 84% of them — 300,254 and 160,647. Total reimbursed: EUR 86,462,491. Portugal's 27 requests were all refused; Spain reported 9.",
+  "how": "Article 8 lets a Member State require prior authorisation, but only for defined categories: care that \"involves overnight hospital accommodation of the patient in question for at least one night\", care that \"requires use of highly specialised and cost-intensive medical infrastructure or medical equipment\", care presenting a particular risk, or care from a provider raising specific safety or quality concerns. Article 8(6) then narrows the grounds for refusing: an unacceptable safety risk to the patient, a hazard to the public, serious and specific concerns about the provider, or the same care being available at home \"within a time limit which is medically justifiable\".\n\nArticle 7(7) lets the home state impose the same conditions, eligibility criteria and administrative formalities it would impose for care on its own territory — referral by a general practitioner included — provided they are not discriminatory or an obstacle to free movement. Article 7(4) permits, but does not require, a state to reimburse travel and accommodation on top.\n\nChapter II sets what the destination must supply: an invoice and information on prices under Article 4(2)(b), complaints procedures and redress under 4(2)(c), professional liability cover under 4(2)(d), and a copy of the medical record under 4(2)(f). Article 6 requires each Member State to run a national contact point.\n\nEight of the reporting countries — Czechia, Cyprus, Latvia, Lithuania, the Netherlands, Finland, Sweden and Norway — operate no prior-authorisation system at all. Only Denmark and Romania have a mechanism for limiting inflow.",
+  "today": "As of 17 September 2026 the Directive is in force in the EU and the EEA states. The route closed to United Kingdom residents at the end of the transition period; the NHS states that \"now that the UK has left the EU, the EU Directive route has ended in the UK\", with legacy claims only for treatment started or authorised before 31 December 2020. The most recent Commission collection of Member State returns is for reference year 2022."
+ },
+ "legality": [],
+ "kin": [
+  {
+   "to": "s2-route",
+   "as": "The older coordination route, and the contrast that explains this one: it pays the destination's public tariff in full but demands a queue at home.",
+   "rel": "contrast"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "as": "The one national system that used both routes and now uses only one.",
+   "rel": "kin"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The gate Article 8 builds, and the word for it.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "as": "What a patient still pays under either route.",
+   "rel": "term"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "as": "The bodies Article 6 obliges every Member State to run.",
+   "rel": "org"
+  },
+  {
+   "to": "directive-2011-24-adopted",
+   "as": "The year this was passed, and the litigation behind it.",
+   "rel": "event"
+  },
+  {
+   "to": "patient-data-transfer",
+   "as": "Article 4(2)(f) makes the record follow the patient; the data law says on what terms.",
+   "rel": "kin"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "as": "The implementing directive that makes a prescription written under this one readable at the next border.",
+   "rel": "kin"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Article 4(2)(d) requires the cover; it does not supply the forum.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "What happens outside the bloc, where no instrument does any of this.",
+   "rel": "contrast"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series behind the queue this route was argued over.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Directive 2011/24/EU, Article 7 (reimbursement)",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/7"
+  },
+  {
+   "label": "Directive 2011/24/EU, Article 8 (prior authorisation)",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/8"
+  },
+  {
+   "label": "Commission collection of Member State data, reference year 2022",
+   "url": "https://health.ec.europa.eu/document/download/69e33702-c7cc-4f0e-afc0-f3cf13e127ab_en?filename=crossborder_2022_patient-healthcare_data_en.pdf"
+  }
+ ],
+ "sources": [
+  "s:legislation-eu-directive-2011-24",
+  "s:eu-dir-2011-24-art-8",
+  "s:eu-directive-2011-24",
+  "s:dir-2011-24-chapter-ii",
+  "s:ec-crossborder-2022",
+  "s:eu-reg-883-2004",
+  "s:nhs-eu-directive-route"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:legislation-eu-directive-2011-24"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ec-crossborder-2022",
+    "note": "the two-route history is read off the two instruments; the paragraph marked *Inference —* is this project reasoning from them"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:nhs-eu-directive-route"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "The instrument that lets a person insured in one EU Member State buy treatment in another and claim the money back at home.",
+ "region_terms": [
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  },
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  },
+  {
+   "key": "europe-north",
+   "name": "Northern Europe",
+   "note": "the Nordics and the Baltics"
+  },
+  {
+   "key": "europe-east",
+   "name": "Eastern Europe",
+   "note": "Romania, Bulgaria, Serbia, Ukraine, Moldova, Albania, North Macedonia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The older coordination route, and the contrast that explains this one: it pays the destination's public tariff in full but demands a queue at home.",
+   "rel": "contrast"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "type": "rule",
+   "name": "NHS funding for treatment abroad",
+   "as": "The one national system that used both routes and now uses only one.",
+   "rel": "kin"
+  },
+  {
+   "to": "prior-authorisation",
+   "type": "term",
+   "name": "Prior authorisation",
+   "as": "The gate Article 8 builds, and the word for it.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "type": "term",
+   "name": "Co-payment",
+   "as": "What a patient still pays under either route.",
+   "rel": "term"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The bodies Article 6 obliges every Member State to run.",
+   "rel": "org"
+  },
+  {
+   "to": "directive-2011-24-adopted",
+   "type": "event",
+   "name": "Directive 2011/24/EU adopted, 9 March 2011",
+   "as": "The year this was passed, and the litigation behind it.",
+   "rel": "event"
+  },
+  {
+   "to": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "Article 4(2)(f) makes the record follow the patient; the data law says on what terms.",
+   "rel": "kin"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "The implementing directive that makes a prescription written under this one readable at the next border.",
+   "rel": "kin"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Article 4(2)(d) requires the cover; it does not supply the forum.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "What happens outside the bloc, where no instrument does any of this.",
+   "rel": "contrast"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series behind the queue this route was argued over.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:legislation-eu-directive-2011-24",
+   "kind": "statute",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare, Articles 7, 8 and 11 (text as held on legislation.gov.uk)",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/7",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:eu-dir-2011-24-art-8",
+   "kind": "statute",
+   "title": "Directive 2011/24/EU, Article 8 — healthcare that may be subject to prior authorisation",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/8",
+   "accessed": "2026-09-17",
+   "note": "read for the Art 8(2) categories — at least one overnight, or highly specialised and cost-intensive infrastructure — and the four Art 8(6) grounds for refusal"
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:dir-2011-24-chapter-ii",
+   "kind": "law",
+   "title": "Directive 2011/24/EU, Chapter II — responsibilities of the Member State of treatment and of affiliation, Articles 4 to 6",
+   "publisher": "legislation.gov.uk, retained text of Directive 2011/24/EU",
+   "url": "https://www.legislation.gov.uk/cy/eudr/2011/24/chapter/II/data.htm?view=plain",
+   "accessed": "2026-09-16",
+   "note": "read for Art 4(2)(b) invoices and prices, 4(2)(c) complaints and redress, 4(2)(d) professional liability insurance, 4(2)(f) copy of the medical record, 5(d) access to records, and Art 6 national contact points"
+  },
+  {
+   "id": "s:ec-crossborder-2022",
+   "kind": "report",
+   "title": "Member State data on cross-border patient healthcare following Directive 2011/24/EU — reference year 2022",
+   "publisher": "European Commission, DG Health and Food Safety, Unit B.3; written by PredictBy Research and Consulting and Baltic Media; Publications Office of the European Union",
+   "url": "https://health.ec.europa.eu/document/download/69e33702-c7cc-4f0e-afc0-f3cf13e127ab_en?filename=crossborder_2022_patient-healthcare_data_en.pdf",
+   "license": "CC BY 4.0",
+   "accessed": "2026-09-16",
+   "note": "final version January 2024, ISBN 978-92-68-14858-7. 23 countries reported 547,890 reimbursement requests for care not needing prior authorisation in 2022, of which France 300,254 and Germany 160,647 are 84%; Poland 14,176, Slovakia 13,904, Ireland 1,841, Romania 889, Czechia 440, Croatia 192, Lithuania 131, Greece 56, Cyprus 44, Portugal 27 (all refused), Spain 9. Total reimbursed EUR 86,462,491. For care needing prior authorisation, 4,552 requests and EUR 7,708,041. Belgium and Hungary could not report; Czechia, Cyprus, Latvia, Lithuania, the Netherlands, Finland, Sweden and Norway run no prior-authorisation system; only Denmark and Romania have a mechanism to limit inflow."
+  },
+  {
+   "id": "s:eu-reg-883-2004",
+   "kind": "statute",
+   "title": "Regulation (EC) No 883/2004 on the coordination of social security systems, Article 20 (as adopted)",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2004/883/article/20/adopted",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:nhs-eu-directive-route",
+   "kind": "web",
+   "title": "The EU Directive route",
+   "publisher": "NHS",
+   "url": "https://www.nhs.uk/using-the-nhs/healthcare-abroad/going-abroad-for-treatment/eu-directive-route/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:legislation-eu-directive-2011-24"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2022",
+   "note": "the two-route history is read off the two instruments; the paragraph marked *Inference —* is this project reasoning from them"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:legislation-eu-directive-2011-24"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:nhs-eu-directive-route"
+  },
+  "legality": {
+   "tier": "cited",
+   "source": "s:legislation-eu-directive-2011-24"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "belgium",
+   "type": "destination",
+   "name": "Belgium",
+   "as": "The route it applies and cannot fully count.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "croatia",
+   "type": "destination",
+   "name": "Croatia",
+   "as": "The reimbursement route whose figures are the only official measure of this traffic.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "cyprus",
+   "type": "destination",
+   "name": "Cyprus",
+   "as": "The route it applies with no prior-authorisation regime at all.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "The route its residents use more than anyone's except France's, on figures its own contact point calls impure.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "greece",
+   "type": "destination",
+   "name": "Greece",
+   "as": "The route that carries almost none of this traffic.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The reimbursement route that carries almost none of this country's dental traffic.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "ireland",
+   "type": "destination",
+   "name": "Ireland",
+   "as": "The route that reimburses at this country's own DRG price, and the one the land border fell out of at Brexit.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "lithuania",
+   "type": "destination",
+   "name": "Lithuania",
+   "as": "The reimbursement route this country's residents use, and its visitors do not.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "The route its own residents use heavily, and its inbound patients almost never.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "portugal",
+   "type": "destination",
+   "name": "Portugal",
+   "as": "The route whose Portuguese applications were all refused in the last reported year.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "romania",
+   "type": "destination",
+   "name": "Romania",
+   "as": "The route whose Romanian figures are the only official count of this traffic.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "The route that made it the EU's most authorised country of treatment in 2021.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "switzerland",
+   "type": "destination",
+   "name": "Switzerland",
+   "as": "The route that does not reach here: Switzerland is not a Member State.",
+   "rel": "contrast"
+  },
+  {
+   "from": "barcelona",
+   "type": "hub",
+   "name": "Barcelona",
+   "as": "A reimbursement route that is narrow here, because a home system that funds nothing reimburses nothing.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The route an EU-insured patient can claim part of the bill back through, at the home tariff.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "prague",
+   "type": "hub",
+   "name": "Prague",
+   "as": "The reimbursement route an insured EU patient can use, at the home tariff.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "sopron",
+   "type": "hub",
+   "name": "Sopron",
+   "as": "The route an Austrian patient can claim a share of the bill back through.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "vilnius",
+   "type": "hub",
+   "name": "Vilnius",
+   "as": "The route that converts a wait in one member state into a booking here.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "warsaw",
+   "type": "hub",
+   "name": "Warsaw",
+   "as": "The reimbursement route an insured EU patient can use for care bought here.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The route under which Ireland repays a cataract done in another member state at its own DRG price.",
+   "rel": "rule"
+  },
+  {
+   "from": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "The route by which a European patient's home system may meet the cost of treatment in another member state.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "The route under which an Irish patient is repaid at the Irish price for this operation done abroad.",
+   "rel": "rule"
+  },
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "The route under which an Irish patient is repaid at the Irish price for a hernia done abroad.",
+   "rel": "rule"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The refund route the Lithuanian price page leads with.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The route under which an Irish patient is repaid at the Irish price for this operation done abroad.",
+   "rel": "rule"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "The route under which an Irish patient is repaid at the Irish admitted-patient price.",
+   "rel": "rule"
+  },
+  {
+   "from": "charite-international",
+   "type": "facility",
+   "name": "Charité International Patients",
+   "as": "Governs how an EU patient's home system pays for planned treatment here, which is a different route from the self-funder's.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "What a provider in an EU state of treatment must disclose.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "The one instrument that names complaints, redress and liability insurance across borders.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The one instrument that obliges a provider to invoice and price clearly, and only inside the EU.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "Names the record right on both sides of an EU cross-border episode.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The instrument that entitles an EU patient to at least a copy.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "The one instrument that gives a defined class of cross-border patients a stated route, inside one bloc.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "The parent instrument this one implements.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The one bloc where an entitlement crosses the border instead of an exclusion.",
+   "rel": "contrast"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "The instrument that puts the duty on the treating side.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The newer route, and the contrast: private providers, no queue test, and the patient carries the price difference.",
+   "rel": "contrast"
+  },
+  {
+   "from": "uk-nhs-treatment-abroad",
+   "type": "rule",
+   "name": "NHS funding for treatment abroad",
+   "as": "The route this system lost at the end of the transition period.",
+   "rel": "rule"
+  },
+  {
+   "from": "us-medicare-abroad",
+   "type": "rule",
+   "name": "Medicare outside the United States",
+   "as": "What a reimbursement entitlement looks like where one exists.",
+   "rel": "contrast"
+  },
+  {
+   "from": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The instrument that created these bodies and the reporting behind them.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "eurostat",
+   "type": "org",
+   "name": "Eurostat",
+   "as": "The instrument that generates the European patient-mobility figures the accounts cannot.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "oecd",
+   "type": "org",
+   "name": "Organisation for Economic Co-operation and Development",
+   "as": "The instrument adopted the same year, whose reporting produces the other European numbers.",
+   "rel": "governs"
+  },
+  {
+   "from": "directive-2011-24-adopted",
+   "type": "event",
+   "name": "Directive 2011/24/EU adopted, 9 March 2011",
+   "as": "The rule record: what it says, country by country, and what it does not cover.",
+   "rel": "rule"
+  },
+  {
+   "from": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The route under which a European patient is refunded at a home-state DRG rather than the foreign invoice.",
+   "rel": "rule"
+  },
+  {
+   "from": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The instrument this word carries, with its dates and its articles.",
+   "rel": "rule"
+  },
+  {
+   "from": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The instrument that lets a patient leave the queue and claim the home tariff back.",
+   "rel": "rule"
+  }
+ ]
+}

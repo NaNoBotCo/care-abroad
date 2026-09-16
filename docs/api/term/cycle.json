@@ -1,0 +1,215 @@
+{
+ "id": "cycle",
+ "names": {
+  "name": "Cycle",
+  "aliases": [
+   "IVF cycle",
+   "treatment cycle",
+   "started cycle",
+   "fresh cycle",
+   "stimulated cycle"
+  ],
+  "said": "Clinics sell a cycle. Registers count a cycle. The two words mark different points on the same treatment, and the gap between them is where success rates are made."
+ },
+ "etymology": {
+  "root": "Late 14c., from Old French cicle and Late Latin cyclus, from Greek kyklos, a circle or wheel, and so a circular motion or a round of events; the sense \"single complete period in a cycle\" is dated to 1821. Medicine borrowed the word for the menstrual round, and assisted reproduction borrowed it again for one stimulated round of it.",
+  "first_attested": "late 14c. for the noun; 1821 for a single complete period",
+  "tier": "cited",
+  "source": "s:etymonline-cycle",
+  "note": "A cycle can mean a cycle started, a cycle that reached egg collection, a fresh transfer, or a fresh course plus every frozen transfer that follows. A price and a success rate quoted against different senses cannot be compared."
+ },
+ "text": {
+  "what": "One round of stimulation, egg collection, fertilisation and transfer. It is the unit fertility treatment is sold in and the unit registers count in, and neither party has to say which of the four senses of the word they are using.",
+  "story": "The denominator is the argument. The HFEA's preliminary figure for 2023 gives a 25% birth rate per embryo transferred for fresh transfers using a patient's own eggs — not per cycle started, and not per patient. The US register counts from a different starting line: the CDC's 2022 national rows give 49.7% of intended egg retrievals ending in a live birth for patients under 35 and 7.7% for patients over 40, against 49.1% and 25.4% of transfers. Over 40 the per-transfer figure is more than three times the per-retrieval figure, because every cycle that never reached a transfer has dropped out of the denominator.\n\nThe same word does the same work on a price list. Reprofit's self-payer list valid from 1 January 2026 prices an IVF cycle with own eggs at 3,245 euro, excluding screening tests, freezing and general anaesthetic for the egg collection; its Optimal line at 4,985 euro puts those four items back in. Its native cycle, at 1,100 euro, has no stimulation at all, so it is a cycle in the register's sense and one egg at most in the patient's. Stimulation medication appears in no inclusion line on that five-page list.\n\n*Inference —* a cycle is therefore not a unit of treatment. It is a unit of accounting, and each party chooses the edge of it that suits the number they are publishing.",
+  "how": "Three edges have to be named before two cycle figures can be set side by side: where counting starts — at the drugs, at the collection or at the transfer; what happens to a cycle that is abandoned, which is usually charged at a reduced rate rather than refunded; and whether frozen transfers from the same collection are inside the cycle or sold again.",
+  "today": "As of 17 September 2026 the two largest public registers in this field, the HFEA and the CDC, publish rates against different denominators and say so. Clinic pages rarely say so."
+ },
+ "kin": [
+  {
+   "to": "ivf",
+   "as": "The treatment this word is the unit of.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The form a cycle price takes, and the inclusion list that decides what a cycle is.",
+   "rel": "term"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for why a patient buys this cycle in another country.",
+   "rel": "term"
+  },
+  {
+   "to": "eshre",
+   "as": "The society whose European registry counts these cycles across countries.",
+   "rel": "org"
+  },
+  {
+   "to": "egg-freezing",
+   "as": "Where the cycle ends at collection and the storage bill begins.",
+   "rel": "procedure"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where a per-cycle figure is first quoted, usually without its denominator.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-cycle",
+  "s:hfea-2023-trends",
+  "s:cdc-art-2022-summary",
+  "s:reprofit-pricelist-2026"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "C"
+ },
+ "blurb": "One round of stimulation, egg collection, fertilisation and transfer.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The treatment this word is the unit of.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form a cycle price takes, and the inclusion list that decides what a cycle is.",
+   "rel": "term"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The word for why a patient buys this cycle in another country.",
+   "rel": "term"
+  },
+  {
+   "to": "eshre",
+   "type": "org",
+   "name": "European Society of Human Reproduction and Embryology",
+   "as": "The society whose European registry counts these cycles across countries.",
+   "rel": "org"
+  },
+  {
+   "to": "egg-freezing",
+   "type": "procedure",
+   "name": "Egg freezing",
+   "as": "Where the cycle ends at collection and the storage bill begins.",
+   "rel": "procedure"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The step where a per-cycle figure is first quoted, usually without its denominator.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-cycle",
+   "kind": "dictionary",
+   "title": "cycle (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/cycle",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Greek kyklos"
+  },
+  {
+   "id": "s:hfea-2023-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2023: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2023-trends-and-figures/",
+   "accessed": "2026-09-16",
+   "note": "the UK regulator's annual register report; birth rates marked preliminary and not yet validated"
+  },
+  {
+   "id": "s:cdc-art-2022-summary",
+   "kind": "dataset",
+   "title": "2022 Final Assisted Reproductive Technology (ART) Summary",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye",
+   "accessed": "2026-09-16",
+   "note": "clinic-level and national rows; the national rows carry locationabbr NA. Queried through the Socrata endpoint https://data.cdc.gov/resource/9tjt-seye.json"
+  },
+  {
+   "id": "s:reprofit-pricelist-2026",
+   "kind": "web",
+   "title": "Pricelist — Assisted Reproduction, valid from 01.01.2026 (document 0331.26ENG)",
+   "publisher": "Reprofit International s.r.o., Brno",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "accessed": "2026-09-16",
+   "note": "the clinic's own self-payer price list, five pages, each line naming its inclusions and its exclusions"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The unit this treatment is sold and counted in, and the reason two prices are not comparable.",
+   "rel": "term"
+  },
+  {
+   "from": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The unit these journeys are counted and sold in.",
+   "rel": "term"
+  }
+ ]
+}

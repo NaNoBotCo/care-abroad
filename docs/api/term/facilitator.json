@@ -1,0 +1,364 @@
+{
+ "id": "facilitator",
+ "names": {
+  "name": "Facilitator",
+  "aliases": [
+   "broker",
+   "medical travel agency",
+   "intermediary",
+   "patient coordinator",
+   "medical travel agent"
+  ],
+  "said": "The trade says facilitator. The research literature says broker. Türkiye's regulation says intermediary institution, and means a licensed travel agency."
+ },
+ "etymology": {
+  "root": "facilitate, 1610s, \"make easy, render less difficult\", from French faciliter, from the stem of Latin facilis, easy to do, from facere, to do or make — so a facilitator is one who makes a thing easy. The Online Etymology Dictionary carries no separate entry for the agent noun; it hangs off the verb.",
+  "first_attested": "1610s for the verb; this project could not date the trade sense from a dictionary",
+  "tier": "cited",
+  "source": "s:etymonline-facilitate",
+  "note": "The word names a service and asserts no qualification. Nothing in it says who pays the facilitator, and the answer is usually the hospital."
+ },
+ "text": {
+  "what": "The commercial party between a patient and a hospital abroad. It gathers records, produces a quote, books the surgeon, often books the flight and the hotel, and meets the patient at the airport. In most countries the job needs no licence, and the word carries no qualification with it.",
+  "story": "The most-cited empirical work on these firms counted what they publish. Penney and colleagues examined 17 English-language Canadian broker websites in the summer of 2010: 47% made no mention of risks, two of the seventeen displayed certified accreditation, 35.3% displayed a membership logo instead, and 52.9% promised follow-up care. One site stated it had \"no ongoing involvement in the doctor-patient relationship\". The authors concluded that brokers \"currently lack a common standard of care and accreditation\".\n\nTwo states have written the role into law rather than leaving it to the word. Türkiye's regulation of 13 July 2017 defines an international health tourism intermediary and requires it to be an authorised travel agency, so in Antalya the invoice is frequently written by the agency and not by the hospital. Israel's Medical Tourism Law, 5778-2018, in force from 29 January 2019, put agents on a Ministry of Health register and bound the hospitals that use them.\n\n*Trade practice —* the arrangement the word conceals is the money. The facilitator is typically paid by the hospital on commission, which means the party choosing the surgeon is paid by the surgeon's employer. The facilitator sites this project has read do not state it.",
+  "how": "Where no licence exists, the word is the only credential on offer, and it is self-applied. What distinguishes one firm from another is contractual rather than lexical: which legal entity signs, where it is registered, who pays it, which country's law the contract names, and what it undertakes if a complication occurs.",
+  "today": "As of 17 September 2026 no national licensing regime aimed at medical travel facilitators as such turned up anywhere this project could read. Where a regime exists it licenses the intermediary as a travel agency, as in Türkiye, or registers the agent, as in Israel."
+ },
+ "kin": [
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step where this word is chosen from, and what a reader can check about it.",
+   "rel": "step"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The risk that follows from an unlicensed party holding the money.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "What a facilitator sells: a single number assembled out of other people's services.",
+   "rel": "term"
+  },
+  {
+   "to": "temos",
+   "as": "One of the few accreditors that certifies this trade at all.",
+   "rel": "org"
+  },
+  {
+   "to": "defiant",
+   "as": "A named firm doing this job, described in the same voice as any other.",
+   "rel": "org"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The wider name for the traffic these firms sit inside.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-facilitate",
+  "s:penney-broker-websites",
+  "s:rg-saglik-turizmi-2017",
+  "s:loc-israel-medical-tourism-law"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the commission arrangement is marked as the trade's account, not a sourced fact"
+   },
+   "text.how": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "F"
+ },
+ "blurb": "The commercial party between a patient and a hospital abroad. It gathers records, produces a quote, books the surgeon, often books the flight and the hotel, and meets the patient at the airport.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "The step where this word is chosen from, and what a reader can check about it.",
+   "rel": "step"
+  },
+  {
+   "to": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The risk that follows from an unlicensed party holding the money.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "What a facilitator sells: a single number assembled out of other people's services.",
+   "rel": "term"
+  },
+  {
+   "to": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "One of the few accreditors that certifies this trade at all.",
+   "rel": "org"
+  },
+  {
+   "to": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "A named firm doing this job, described in the same voice as any other.",
+   "rel": "org"
+  },
+  {
+   "to": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The wider name for the traffic these firms sit inside.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-facilitate",
+   "kind": "dictionary",
+   "title": "facilitate (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/facilitate",
+   "accessed": "2026-09-17",
+   "note": "1610s"
+  },
+  {
+   "id": "s:penney-broker-websites",
+   "kind": "paper",
+   "title": "Risk communication and informed consent in the medical tourism industry: a thematic content analysis of Canadian broker websites",
+   "publisher": "Penney K, Snyder J, Crooks VA, Johnston R. BMC Medical Ethics 2011;12:17",
+   "url": "https://bmcmedethics.biomedcentral.com/articles/10.1186/1472-6939-12-17",
+   "accessed": "2026-09-16",
+   "note": "17 English-language Canadian broker sites, summer 2010"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:loc-israel-medical-tourism-law",
+   "kind": "law",
+   "title": "Israel: Knesset Passes Medical Tourism Legislation",
+   "publisher": "Library of Congress, Global Legal Monitor",
+   "url": "https://www.loc.gov/item/global-legal-monitor/2018-09-25/israel-knesset-passes-medical-tourism-legislation/",
+   "accessed": "2026-09-16",
+   "note": "names the instrument as the Medical Tourism Law, 5778-2018, passed 18 July 2018. The page would not open for this project on the access date — a bot check stood in front of it — so the provisions here were taken from the Israeli Ministry of Health's own summary and flagged for verification against the statute."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the commission arrangement is marked as the trade's account, not a sourced fact"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "iran",
+   "type": "destination",
+   "name": "Iran",
+   "as": "The broker who books the visa, the hotel and the surgeon as one price — and who handles the cash.",
+   "rel": "term"
+  },
+  {
+   "from": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "The role this country put on a public register in 2019.",
+   "rel": "term"
+  },
+  {
+   "from": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "The middle layer that starts most of these referrals.",
+   "rel": "term"
+  },
+  {
+   "from": "morocco",
+   "type": "destination",
+   "name": "Morocco",
+   "as": "The middle layer most European bookings here pass through.",
+   "rel": "term"
+  },
+  {
+   "from": "philippines",
+   "type": "destination",
+   "name": "Philippines",
+   "as": "The layer that stayed thin here because the patients were already family.",
+   "rel": "term"
+  },
+  {
+   "from": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "The agent between a British patient and a Kraków chair, paid by the clinic.",
+   "rel": "term"
+  },
+  {
+   "from": "vietnam",
+   "type": "destination",
+   "name": "Vietnam",
+   "as": "The broker layer between a dental clinic here and a patient abroad.",
+   "rel": "term"
+  },
+  {
+   "from": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "In this city the facilitator is a licensed travel agency, and the law says so.",
+   "rel": "term"
+  },
+  {
+   "from": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "The word, and the argument about what the job is.",
+   "rel": "term"
+  },
+  {
+   "from": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The party that often holds the money without performing the treatment.",
+   "rel": "term"
+  },
+  {
+   "from": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "The company whose staff member often does the interpreting, and whose invoice it appears on.",
+   "rel": "term"
+  },
+  {
+   "from": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "The party most of these instruments reach least.",
+   "rel": "term"
+  },
+  {
+   "from": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The role this Act bonds, capitalises and keeps onshore.",
+   "rel": "term"
+  },
+  {
+   "from": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The role this regulation turns into a licensed travel agency.",
+   "rel": "term"
+  },
+  {
+   "from": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "The trade word for what this company is.",
+   "rel": "term"
+  },
+  {
+   "from": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "The trade this scheme is unusual in accrediting at all.",
+   "rel": "term"
+  },
+  {
+   "from": "turkiye-health-services-directorate",
+   "type": "org",
+   "name": "Türkiye General Directorate of Health Services",
+   "as": "The intermediary this regime licenses separately, through USHAŞ rather than through the directorate.",
+   "rel": "term"
+  },
+  {
+   "from": "josef-woodman",
+   "type": "person",
+   "name": "Josef Woodman",
+   "as": "The trade his guidebook taught a generation of readers to use, and to check.",
+   "rel": "term"
+  },
+  {
+   "from": "keith-pollard",
+   "type": "person",
+   "name": "Keith Pollard",
+   "as": "The trade his sites sold to and his awards judged.",
+   "rel": "term"
+  },
+  {
+   "from": "leigh-turner",
+   "type": "person",
+   "name": "Leigh Turner",
+   "as": "The intermediary his 2011 and 2012 papers made the object of study.",
+   "rel": "term"
+  },
+  {
+   "from": "imtj-summit",
+   "type": "event",
+   "name": "The IMTJ Medical Travel Summit and Awards",
+   "as": "The trade this meeting is largely for.",
+   "rel": "term"
+  },
+  {
+   "from": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "The party whose website is not part of the consent, whatever it said.",
+   "rel": "term"
+  },
+  {
+   "from": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The commercial layer that grew up inside this traffic.",
+   "rel": "term"
+  }
+ ]
+}

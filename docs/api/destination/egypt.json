@@ -1,0 +1,253 @@
+{
+ "schema": 1,
+ "id": "egypt",
+ "type": "destination",
+ "names": {
+  "name": "Egypt",
+  "aliases": [
+   "جمهورية مصر العربية",
+   "Arab Republic of Egypt",
+   "Miṣr"
+  ],
+  "said": "Cairo sells dentistry, dermatology, hair and eyes to Arabic-speaking neighbours and to Europeans on a Nile itinerary. The Egyptian trade talks in Arabic first and English second, which is who it is selling to."
+ },
+ "region": [
+  "africa-north"
+ ],
+ "facets": {
+  "iso2": "EG",
+  "direction": "inbound",
+  "currency": "EGP",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "draws": [
+   "dental-implant",
+   "hair-transplant-fue",
+   "lasik",
+   "rhinoplasty"
+  ]
+ },
+ "text": {
+  "what": "The Arab world's largest country selling private care to visitors, mostly cosmetic, dental, hair and eye work, to buyers from the Gulf, Libya, Sudan and Europe. Behind that trade sits a domestic system where households pay for most of their own care: out-of-pocket spending has run at more than 60 per cent of total health expenditure, and the 1,145 private hospitals counted in 2021 exist substantially to take that money from Egyptians, not from foreigners.",
+  "story": "Egypt's private hospital sector grew 23.69 per cent between 2011 and 2021, to 1,145 hospitals. Physician density in 2020 was 1.19 per 1,000 people. Law No. 2 of 2018 established universal health insurance, a reform intended to move the country off an out-of-pocket model that has been above 60 per cent of health spending, and it is being rolled out governorate by governorate rather than at once.\n\n*Inference —* a foreign patient arriving in Cairo is buying into the private tier of a system in which most domestic patients are also paying cash. That is different from Thailand, where the export hospitals sit clearly apart from a public scheme almost everyone uses, and it is different again from Israel, where the export work happens inside public hospitals. The Egyptian private clinic is not a separate export channel; it is the ordinary way a middle-class Egyptian gets an operation, with a foreign price list added.\n\n*Trade practice —* the Egyptian inbound trade is sold on price and language and the currency. Successive devaluations of the pound have repriced everything sold here in dollars or euros, and the sector's growth is discussed in Cairo in those terms. This record carries no arrivals count, because no publisher this project could reach has issued one with a method attached.",
+  "how": "A clinic quotes in Egyptian pounds or in dollars, often through an agency, and bundles hotel nights and transfers where the buyer is foreign. Cairo and Alexandria carry most of the volume; the Red Sea resorts carry the dental and dermatology work sold alongside a holiday. Accreditation is through the national accreditation and regulation authority created under the 2018 insurance law, and a handful of hospitals also hold an international mark.",
+  "today": "As of September 2026 the numbers this record can cite about Egypt are numbers about the Egyptian health system rather than about its foreign patients: 1,145 private hospitals in 2021, 1.19 physicians per 1,000 in 2020, out-of-pocket spending above 60 per cent. The inbound trade is real and nobody has published a countable figure for it.",
+  "notes": "Absence of a published figure is not evidence that the flow is small. It is evidence that nobody has counted it in public."
+ },
+ "geo": {
+  "lat": 30.0444,
+  "lon": 31.2357,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried: this project found no published figure with a stated method. What can be cited describes the domestic system — 1,145 private hospitals as of 2021, up 23.69% since 2011; 121,394 physicians in 2020, or 1.19 per 1,000 people; out-of-pocket payments running at more than 60% of total health expenditure.",
+  "as_of": "2021",
+  "source": "s:wp-healthcare-egypt",
+  "url": "https://en.wikipedia.org/wiki/Healthcare_in_Egypt"
+ },
+ "kin": [
+  {
+   "to": "cairo",
+   "as": "Where most of the clinics and nearly all of the agencies are.",
+   "rel": "part"
+  },
+  {
+   "to": "tunisia",
+   "as": "The North African neighbour whose ministry publishes the figures Egypt's does not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jordan",
+   "as": "The other regional destination Arabic-speaking patients choose between.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "One of the things the inbound trade here is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "Sold here against Istanbul, on price and on language.",
+   "rel": "procedure"
+  },
+  {
+   "to": "world-bank-out-of-pocket",
+   "as": "The series behind the share of Egyptian health spending households pay themselves.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A trade that exists and has never been counted in public is the case this page stands on.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Healthcare in Egypt",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Egypt"
+  }
+ ],
+ "sources": [
+  "s:wp-healthcare-egypt",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-healthcare-egypt"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-healthcare-egypt",
+    "note": "the second and third paragraphs are marked inline; the first is cited"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the ordinary shape of the trade, hedged"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "The Arab world's largest country selling private care to visitors, mostly cosmetic, dental, hair and eye work, to buyers from the Gulf, Libya, Sudan and Europe.",
+ "region_terms": [
+  {
+   "key": "africa-north",
+   "name": "North Africa",
+   "note": "Tunisia, Morocco, Egypt"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cairo",
+   "type": "hub",
+   "name": "Cairo",
+   "as": "Where most of the clinics and nearly all of the agencies are.",
+   "rel": "part"
+  },
+  {
+   "to": "tunisia",
+   "type": "destination",
+   "name": "Tunisia",
+   "as": "The North African neighbour whose ministry publishes the figures Egypt's does not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "The other regional destination Arabic-speaking patients choose between.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "One of the things the inbound trade here is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "Sold here against Istanbul, on price and on language.",
+   "rel": "procedure"
+  },
+  {
+   "to": "world-bank-out-of-pocket",
+   "type": "dataset",
+   "name": "Out-of-pocket share of health spending",
+   "as": "The series behind the share of Egyptian health spending households pay themselves.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A trade that exists and has never been counted in public is the case this page stands on.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-healthcare-egypt",
+   "kind": "web",
+   "title": "Healthcare in Egypt",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Egypt",
+   "accessed": "2026-09-16",
+   "note": "read for the private hospital count, physician density, the out-of-pocket share and Law No. 2 of 2018"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-healthcare-egypt"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-healthcare-egypt",
+   "note": "the second and third paragraphs are marked inline; the first is cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the ordinary shape of the trade, hedged"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-healthcare-egypt"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-healthcare-egypt"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cairo",
+   "type": "hub",
+   "name": "Cairo",
+   "as": "The country this metropolitan cluster carries most of the private capacity of.",
+   "rel": "whole"
+  }
+ ]
+}

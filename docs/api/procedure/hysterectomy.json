@@ -1,0 +1,459 @@
+{
+ "schema": 1,
+ "id": "hysterectomy",
+ "type": "procedure",
+ "names": {
+  "name": "Hysterectomy",
+  "aliases": [
+   "total laparoscopic hysterectomy",
+   "abdominal hysterectomy",
+   "vaginal hysterectomy",
+   "TLH"
+  ],
+  "said": "Surgeons name the route — abdominal, vaginal, laparoscopic, robotic — and the route sets both the price and the nights. Package pages name it too; payer schedules mostly do not."
+ },
+ "etymology": {
+  "root": "hysterectomy: Greek hystera, the womb, plus ektomē, a cutting out. The same root gave hysteria, a diagnosis built on the idea that the organ wandered — a history the word carries and the operation does not.",
+  "tier": "tradition",
+  "note": "Total means the cervix goes too; subtotal leaves it. Salpingo-oophorectomy, the removal of tubes and ovaries, is a separate phrase and sometimes a separate price."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "gynaecological",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The uterus is removed — through the abdomen, through the vagina, or through keyhole incisions with a camera, which is the route the packages read for this record price. Two nights on the Bangkok package, general anaesthetic, weeks before heavy lifting. It is done for fibroids, bleeding, prolapse, endometriosis and cancer, and only the non-cancer version travels.",
+  "story": "This operation travels on the queue rather than on the price, and the queue is published while the price usually is not.\n\nNHS England reported 7.3 million pathways waiting to start treatment at the end of July 2026 — an estimated 6.2 million unique patients — with 65.4% waiting up to eighteen weeks against a 92% standard and a median wait of 12.0 weeks. Ireland's National Treatment Purchase Fund counted 115,450 people waiting for an inpatient or day-case appointment at the end of May 2026, against 669,506 waiting for a first outpatient consultation. Neither figure is specific to this operation; both are what a woman with heavy bleeding and a six-month wait is reading when she looks at a foreign price page.\n\nWhat she finds there is a package. Bumrungrad in Bangkok lists total laparoscopic hysterectomy at 265,000 baht against a struck-through 285,000, under a Gynecological Awareness Month offer stated valid from 12 August to 31 October 2026. Three hours of theatre, a recovery room, two nights in a single room, the biopsy charge, and the surgeon, assistant and anaesthetist.\n\nThe exclusion list names one thing worth reading twice: \"Special Medical supplies & Special Equipment used such as Ligasure Generator, Thunderbeat\". Those are the energy devices a laparoscopic hysterectomy is routinely done with — the instruments that seal and divide vessels. Also outside: pre-operative tests, chest x-ray and ECG, outpatient charges, any extra theatre time, the difference if the room is upgraded, and take-home medication.\n\n*Inference —* an operation priced at two nights with the sealing device excluded is priced the way the knee is priced with the implant excluded, and a reader comparing it with a state tariff is comparing a part with a whole. Ireland's own admitted-patient price for a hysterectomy for non-malignancy at minor complexity is EUR 13,282, which covers the admission entire — energy devices, tests and all.",
+  "how": "General anaesthesia; for the laparoscopic route, three or four small incisions, the abdomen inflated with carbon dioxide, the uterus detached with an energy device and removed through the vagina, the vault closed. One to three nights, and six weeks before lifting anything heavy.\n\nWhere a state pays, the schedule prices the surgeon: Australia's Medicare Benefits Schedule sets item 35653, abdominal hysterectomy with or without removal of the tubes and ovaries, at a schedule fee of $807.60, with a 75% benefit of $605.70. Where a state prices the admission, as Ireland does for repayment purposes, the figure is sixteen times larger and counts different things.",
+  "today": "As of 17 September 2026 the published Thai package price for a total laparoscopic hysterectomy is 265,000 baht for two nights, energy devices excluded; Ireland's admitted-patient price for the same class of operation is EUR 13,282 at minor complexity and EUR 19,412 at major; and the Australian schedule fee for the surgeon's service is $807.60.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "days_before_flying": 10,
+  "recovery_weeks": 6,
+  "wait_days_home": 84,
+  "note": "Two nights is the stay named in the Bumrungrad package read for this record; the Irish tariff's average length of stay for the same diagnosis-related group is 3.5 days. The eighty-four days is the median wait of 12.0 weeks across all pathways waiting to start treatment in England at the end of July 2026, published by NHS England on 10 September 2026 — an all-specialty median for the English market, not a gynaecology figure, and it is the queue this operation's foreign prices are read against. The ten-day figure is the CDC's guidance not to fly for ten days after abdominal surgery. Six weeks is the span usually quoted before heavy lifting.",
+  "as_of": "2026-07-31",
+  "source": "s:nhs-rtt-july-2026",
+  "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "hysterectomy",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 265000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "operating room for 3 hours, nurse assisting surgeon and operating team",
+    "recovery room",
+    "medications, medical supplies and equipment used during surgery under the physician's consideration",
+    "anaesthesia and necessary medication during admission",
+    "biopsy charges",
+    "single room for 2 nights including nursing service and regular menu meals",
+    "doctor fee including surgeon, assistant surgeon and anaesthesiologist"
+   ],
+   "excludes": [
+    "special medical supplies and special equipment used, such as the Ligasure generator or Thunderbeat",
+    "expenses at the outpatient unit or before the operation",
+    "laboratory tests, chest x-ray and ECG before and after surgery",
+    "theatre and anaesthetist time beyond the hours specified",
+    "care for a patient with an underlying disease",
+    "the difference in room charge above the package",
+    "take-home medication and supplies"
+   ],
+   "source": "s:bumrungrad-gyne03",
+   "url": "https://www.bumrungrad.com/en/packages/total-laparoscopic-hysterectomy",
+   "note": "package GYNE03, listed at 265,000 THB against a struck-through 285,000 under a Gynecological Awareness Month 2026 offer, prices stated valid from 12 August to 31 October 2026. The energy devices named in the exclusion list are the instruments this operation is ordinarily performed with.",
+   "tier": "cited",
+   "usd": 7959.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "hysterectomy",
+   "country": "IE",
+   "amount": 13282,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "reimbursement",
+   "includes": [
+    "DRG N04B HYSTERECTOMY FOR N-MAL, MINC: abdominal and laparoscopic abdominal hysterectomies, total, subtotal or radical, and vaginal hysterectomy, total, subtotal or radical",
+    "the whole inlier inpatient episode"
+   ],
+   "excludes": [
+    "hysterectomy for malignancy, which falls in another group",
+    "stays beyond the high boundary, paid per diem on top",
+    "travel and accommodation"
+   ],
+   "source": "s:hse-cbd-niphs-drg-guide",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "note": "what Ireland repays a patient who has this operation abroad under the Cross Border Directive or the Northern Ireland Planned Healthcare Scheme, and equally the Irish public system's own price for the admission. The major-complexity version, N04A, is EUR 19,412 on the same schedule.",
+   "tier": "cited",
+   "usd": 15325.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "hysterectomy",
+   "country": "AU",
+   "amount": 807.6,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "item 35653: hysterectomy, abdominal, with or without removal of fallopian tubes and ovaries"
+   ],
+   "excludes": [
+    "the hospital, the theatre, the ward and the anaesthetist, billed under their own items"
+   ],
+   "source": "s:mbs-35653",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=35653&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $605.70, the fee shown as applying from 1 July 2026. A surgeon's fee, not an admission — one sixteenth of the Irish figure beside it because it counts one sixteenth of the things.",
+   "tier": "cited",
+   "usd": 576.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "prostatectomy",
+   "as": "The operation on the other side of the same waiting list, priced the same three ways.",
+   "rel": "kin"
+  },
+  {
+   "to": "gallbladder-removal",
+   "as": "The other keyhole operation that travels on a queue rather than on a price.",
+   "rel": "kin"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the laparoscopic hysterectomy package this page reads, energy devices excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the operation is sold as two nights with the sealing device outside the price.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The source market whose waiting list is the reason to read a foreign price at all.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where the state prices the surgeon's service and the hospital bills separately.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route under which an Irish patient is repaid at the Irish price for this operation done abroad.",
+   "rel": "rule"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The same shape of exclusion, here a sealing device rather than a joint.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which special equipment turns out to mean the instrument the operation uses.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who checks the wound and the vault at six weeks, and where.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that counts the queue this operation leaves home to escape.",
+   "rel": "measured-by"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "gallbladder-removal",
+   "tell": "Both are keyhole abdominal operations sold as short packages; one removes the uterus and one the gallbladder, and only the second is usually a day case."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad — total laparoscopic hysterectomy package",
+   "url": "https://www.bumrungrad.com/en/packages/total-laparoscopic-hysterectomy"
+  },
+  {
+   "label": "NHS England RTT waiting times, July 2026",
+   "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-gyne03",
+  "s:hse-cbd-niphs-drg-guide",
+  "s:hse-abf-2024-inpatient",
+  "s:mbs-35653",
+  "s:nhs-rtt-july-2026",
+  "s:ntpf-may-2026",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bumrungrad-gyne03",
+    "note": "waiting figures cited to the two national publications and labelled as what they count; package terms read off the hospital's own page on 17 September 2026; the closing comparison is this project's reasoning and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the schedule fee is cited to the item page"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:nhs-rtt-july-2026"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Hysterectomy.png",
+  "File:Laparoscopic surgery.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The uterus is removed — through the abdomen, through the vagina, or through keyhole incisions with a camera, which is the route the packages read for this record price.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "The operation on the other side of the same waiting list, priced the same three ways.",
+   "rel": "kin"
+  },
+  {
+   "to": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "The other keyhole operation that travels on a queue rather than on a price.",
+   "rel": "kin"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the laparoscopic hysterectomy package this page reads, energy devices excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the operation is sold as two nights with the sealing device outside the price.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The source market whose waiting list is the reason to read a foreign price at all.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Where the state prices the surgeon's service and the hospital bills separately.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route under which an Irish patient is repaid at the Irish price for this operation done abroad.",
+   "rel": "rule"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The same shape of exclusion, here a sealing device rather than a joint.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which special equipment turns out to mean the instrument the operation uses.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who checks the wound and the vault at six weeks, and where.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that counts the queue this operation leaves home to escape.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-gyne03",
+   "kind": "web",
+   "title": "Total Laparoscopic Hysterectomy — package GYNE03",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-laparoscopic-hysterectomy",
+   "accessed": "2026-09-17",
+   "note": "265,000 THB against 285,000 under a Gynecological Awareness Month 2026 offer, stated valid from 12 August to 31 October 2026; three hours of theatre, two nights in a single room; exclusions name 'Special Medical supplies & Special Equipment used such as Ligasure Generator, Thunderbeat'"
+  },
+  {
+   "id": "s:hse-cbd-niphs-drg-guide",
+   "kind": "gov",
+   "title": "CBD / NIPHS Most Common Procedures DRG Guide",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "accessed": "2026-09-16",
+   "note": "the tariff behind both the Cross Border Directive scheme and the Northern Ireland Planned Healthcare Scheme. Cataract procedures map to DRG C16Z LENS INTERVENTIONS at a day-case price of EUR 1,171, covering phacoemulsification or other extraction of the crystalline lens and capsulotomy; colonoscopy G48B EUR 1,001; gastroscopy G47C EUR 726. Same figure as the HSE's 2024 activity-based-funding day-case price list."
+  },
+  {
+   "id": "s:hse-abf-2024-inpatient",
+   "kind": "gov",
+   "title": "ABF 2024 Admitted Patient Price List — Inpatient Only",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "accessed": "2026-09-17",
+   "note": "the activity-based-funding inlier inpatient price per diagnosis-related group, linked from the HSE's Northern Ireland Planned Healthcare Scheme claim page and the list behind the CBD and NIPHS repayments. Rows read on 17 September 2026: F06C CRNRY BYPSS-INV INVES MINC EUR 30,040, F06B EUR 34,430, F06A EUR 50,579; F05B CRNRY BYPSS+INV INVES MINC EUR 45,093; F04C CRD VLV INTERVTN+PMP-INV INVES MINC EUR 40,253, F04B EUR 50,628, F04A EUR 80,201; F19B TRNS-VSCLR PERC CRDC INTERVTN MINC EUR 9,887, F19A EUR 42,060; F10B INTERVENTIONAL CRNRY PR + AMI MINC EUR 8,857; M01B MAJOR MALE PELVIC INTERVTNS MINC EUR 19,899, M01A EUR 26,820; M02B TRANSURTH PROSTMY MINC EUR 8,363; N04B HYSTERECTOMY FOR N-MAL MINC EUR 13,282; G10B HERNIA INTERVENTIONS MINC EUR 9,046, G10A MAJC EUR 15,366; H08B LAP CHOLECYSTECTOMY MINC EUR 9,867, H07C OPEN CHOLECYSTECTOMY MINC EUR 16,206. An inlier price assumes a length of stay between the low and high boundaries printed beside it."
+  },
+  {
+   "id": "s:mbs-35653",
+   "kind": "gov",
+   "title": "MBS item 35653 — hysterectomy, abdominal, with or without removal of fallopian tubes and ovaries",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=35653&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $807.60, 75% benefit $605.70, fee shown as applying from 01-Jul-2026"
+  },
+  {
+   "id": "s:nhs-rtt-july-2026",
+   "kind": "gov",
+   "title": "Statistical Press Notice — NHS referral to treatment (RTT) waiting times data, July 2026",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf",
+   "accessed": "2026-09-16",
+   "note": "published Thursday 10 September 2026. 7.3 million RTT pathways waiting to start treatment at the end of July 2026, an estimated 6.2 million unique patients; 111,379 waiting over 52 weeks, 9,095 over 65 weeks, 235 over 104 weeks; 65.4% waiting up to 18 weeks against a 92% standard; median wait 12.0 weeks. Figures include estimates for three trusts and one independent provider that did not submit."
+  },
+  {
+   "id": "s:ntpf-may-2026",
+   "kind": "gov",
+   "title": "NTPF Publishes May 2026 National Public Hospital Waiting List Data",
+   "publisher": "National Treatment Purchase Fund (Ireland)",
+   "url": "https://www.ntpf.ie/news_and_events/ntpf-publishes-may-2026-national-public-hospital-waiting-list-data/",
+   "accessed": "2026-09-16",
+   "note": "at the end of May 2026: 669,506 waiting for a first outpatient consultation, 115,450 for an inpatient or day-case appointment, 40,986 for a GI endoscopy, 34,049 suspended, 111,643 on the planned-procedure list"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bumrungrad-gyne03",
+   "note": "waiting figures cited to the two national publications and labelled as what they count; package terms read off the hospital's own page on 17 September 2026; the closing comparison is this project's reasoning and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the schedule fee is cited to the item page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:nhs-rtt-july-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "The other abdominal operation that travels on a queue rather than a price.",
+   "rel": "kin"
+  },
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "Priced as an earlier stage on the same list, and a stated precondition on a Bangkok hospital's candidacy page.",
+   "rel": "kin"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "The operation on the other side of the same waiting list, priced the same three ways.",
+   "rel": "kin"
+  }
+ ]
+}

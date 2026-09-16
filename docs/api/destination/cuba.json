@@ -1,0 +1,248 @@
+{
+ "schema": 1,
+ "id": "cuba",
+ "type": "destination",
+ "names": {
+  "name": "Cuba",
+  "aliases": [
+   "República de Cuba",
+   "Republic of Cuba"
+  ],
+  "said": "Servicios Médicos Cubanos. One state company sells the care, and one foreign government's rules decide which Americans may buy it."
+ },
+ "region": [
+  "caribbean"
+ ],
+ "facets": {
+  "iso2": "CU",
+  "direction": "inbound",
+  "currency": "CUP",
+  "languages": [
+   "Spanish",
+   "English"
+  ],
+  "draws": [
+   "addiction-rehab",
+   "cataract-surgery",
+   "executive-health-screening"
+  ]
+ },
+ "text": {
+  "what": "The one destination in this directory where the seller is the state. Cuba markets treatment to foreigners through a single government commercial entity, Servicios Médicos Cubanos, which lists medical assistance, teaching and academic services, wellness care, pharmacy and optical services, border medical services and medical services provided abroad. Cuba also sends doctors overseas under government contracts, which makes it an exporter of clinicians as well as a destination for patients. And it is the only destination here whose largest neighbouring source market is restricted by that neighbour's own law.",
+  "story": "The commercial arrangement is unusual and plainly stated: a foreign patient buys from a company, the company is the government's, and the hospitals are the public system's. There is no private hospital sector to compare, no competing price list, and no independent register of outcomes to read.\n\nThe American side is a body of sanctions law rather than a health rule. Under the Cuban Assets Control Regulations, 31 C.F.R. § 515.560, travel-related transactions by persons subject to US jurisdiction are authorised for twelve categories of activity — family visits, official business, journalistic activity, professional research and professional meetings, educational activities, religious activities, public performances and competitions, support for the Cuban people, humanitarian projects, activities of private foundations or research or educational institutes, the exportation or transmission of information or informational materials, and certain authorised export transactions. Travelling to be treated is not among the twelve. The section authorises insurance services for authorised travellers and \"the receipt of emergency medical services and the making of payments related thereto\", and states that \"Nothing in this section authorizes transactions in connection with tourist travel to Cuba.\"\n\n*Inference —* those two facts together define the market. A Canadian, a Spaniard or a Latin American patient deals with an ordinary state seller; an American faces a licensing question before a clinical one, and the emergency provision covers the traveller who falls ill, not the traveller who came to be operated on. Nothing here is legal advice, and the categories move with US administrations: the reading above is of the section as published, on the date in this record.\n\n*Trade practice —* the treatments Cuba has long been known for abroad — eye surgery, neurological rehabilitation, addiction programmes, skin conditions — are courses of weeks rather than single operations, which fits a state seller quoting a stay rather than a procedure. This record carries no patient count: the figures quoted for Cuba in the general literature are old, undated in their retelling, and were not read off a publisher's page for this entry.",
+  "how": "*Trade practice —* the booking runs through the state company or an agency acting for it rather than through a hospital's own international office: a written quotation covering treatment, accommodation and transfers, paid in advance in foreign currency. Foreign patients are treated in designated facilities rather than alongside the domestic queue. For a US-connected traveller the prior question is the licence, and payment routes through American banks are themselves restricted by the same regulations.",
+  "today": "As of 16 September 2026, 31 C.F.R. § 515.560 as published lists twelve categories of authorised travel, none of which is treatment, and states that nothing in it authorises transactions connected with travel to Cuba as a holiday. Servicios Médicos Cubanos continues to publish its service catalogue in English, French, Russian and Spanish."
+ },
+ "geo": {
+  "lat": 23.1136,
+  "lon": -82.3666,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No patient count is carried. Cuba's medical-travel figures in general circulation are undated in their retelling and were not read off a publisher's page for this record; the state seller publishes a service catalogue rather than a count.",
+  "as_of": "2026-09-16",
+  "source": "s:smc-cuba"
+ },
+ "kin": [
+  {
+   "to": "havana",
+   "as": "Where the designated facilities and the state seller sit.",
+   "rel": "part"
+  },
+  {
+   "to": "united-states",
+   "as": "The neighbouring source market whose own regulations decide who may come.",
+   "rel": "contrast"
+  },
+  {
+   "to": "canada",
+   "as": "The source market that reaches Cuba without a licensing question.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dominican-republic",
+   "as": "The Caribbean contrast: private clinics, a US patient base, and an outbreak record.",
+   "rel": "contrast"
+  },
+  {
+   "to": "addiction-rehab",
+   "as": "A course of weeks, which is the shape of what the state seller quotes.",
+   "rel": "procedure"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The word for travelling because a rule at home forbids it — here the rule points the other way, at entry rather than at treatment.",
+   "rel": "term"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "What no foreign insurer will settle here, and why payment is in advance.",
+   "rel": "governed-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Servicios Médicos Cubanos",
+   "url": "http://www.smcsalud.cu/en/"
+  },
+  {
+   "label": "31 CFR § 515.560",
+   "url": "https://www.law.cornell.edu/cfr/text/31/515.560"
+  }
+ ],
+ "sources": [
+  "s:smc-cuba",
+  "s:cfr-31-515-560",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cfr-31-515-560",
+    "note": "the twelve categories and the quoted sentences are read off the published section; the reading of what they mean for a patient is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the booking shape, hedged in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Havana skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The one destination in this directory where the seller is the state.",
+ "region_terms": [
+  {
+   "key": "caribbean",
+   "name": "The Caribbean",
+   "note": "the Dominican Republic, Cuba, Barbados, the Caymans"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "Where the designated facilities and the state seller sit.",
+   "rel": "part"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The neighbouring source market whose own regulations decide who may come.",
+   "rel": "contrast"
+  },
+  {
+   "to": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "The source market that reaches Cuba without a licensing question.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "The Caribbean contrast: private clinics, a US patient base, and an outbreak record.",
+   "rel": "contrast"
+  },
+  {
+   "to": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "A course of weeks, which is the shape of what the state seller quotes.",
+   "rel": "procedure"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "The word for travelling because a rule at home forbids it — here the rule points the other way, at entry rather than at treatment.",
+   "rel": "term"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "What no foreign insurer will settle here, and why payment is in advance.",
+   "rel": "governed-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:smc-cuba",
+   "kind": "web",
+   "title": "Servicios Médicos Cubanos",
+   "publisher": "Comercializadora de Servicios Médicos Cubanos, Havana",
+   "url": "http://www.smcsalud.cu/en/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cfr-31-515-560",
+   "kind": "regulation",
+   "title": "31 CFR § 515.560 — Travel-related transactions to, from, and within Cuba by persons subject to U.S. jurisdiction",
+   "publisher": "Cuban Assets Control Regulations, via Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/31/515.560",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:cfr-31-515-560",
+   "note": "the twelve categories and the quoted sentences are read off the published section; the reading of what they mean for a patient is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the booking shape, hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "The country whose entire health sector is the state, and whose export trade in care runs through one company.",
+   "rel": "destination"
+  }
+ ]
+}

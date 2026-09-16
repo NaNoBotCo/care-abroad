@@ -1,0 +1,5111 @@
+{
+ "built": "2026-09-17",
+ "count": 65,
+ "indicator_meta": {
+  "spend_pc": {
+   "code": "SH.XPD.CHEX.PC.CD",
+   "name": "Current health expenditure per person",
+   "unit": "current US$",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD",
+   "fetched_at": "2026-09-17",
+   "countries": 193,
+   "publisher_title": null
+  },
+  "spend_gdp": {
+   "code": "SH.XPD.CHEX.GD.ZS",
+   "name": "Current health expenditure",
+   "unit": "% of GDP",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS",
+   "fetched_at": "2026-09-17",
+   "countries": 193,
+   "publisher_title": null
+  },
+  "oop": {
+   "code": "SH.XPD.OOPC.CH.ZS",
+   "name": "Out-of-pocket share of health spending",
+   "unit": "% of current health expenditure",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+   "fetched_at": "2026-09-17",
+   "countries": 193,
+   "publisher_title": null
+  },
+  "doctors": {
+   "code": "SH.MED.PHYS.ZS",
+   "name": "Physicians",
+   "unit": "per 1,000 people",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS",
+   "fetched_at": "2026-09-17",
+   "countries": 194,
+   "publisher_title": null
+  },
+  "nurses": {
+   "code": "SH.MED.NUMW.P3",
+   "name": "Nurses and midwives",
+   "unit": "per 1,000 people",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SH.MED.NUMW.P3",
+   "fetched_at": "2026-09-17",
+   "countries": 198,
+   "publisher_title": null
+  },
+  "beds": {
+   "code": "SH.MED.BEDS.ZS",
+   "name": "Hospital beds",
+   "unit": "per 1,000 people",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS",
+   "fetched_at": "2026-09-17",
+   "countries": 177,
+   "publisher_title": null
+  },
+  "life": {
+   "code": "SP.DYN.LE00.IN",
+   "name": "Life expectancy at birth",
+   "unit": "years",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN",
+   "fetched_at": "2026-09-17",
+   "countries": 217,
+   "publisher_title": null
+  },
+  "gdp_pc": {
+   "code": "NY.GDP.PCAP.CD",
+   "name": "GDP per person",
+   "unit": "current US$",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+   "fetched_at": "2026-09-17",
+   "countries": 214,
+   "publisher_title": null
+  },
+  "population": {
+   "code": "SP.POP.TOTL",
+   "name": "Population",
+   "unit": "people",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+   "fetched_at": "2026-09-17",
+   "countries": 217,
+   "publisher_title": null
+  },
+  "arrivals": {
+   "code": "ST.INT.ARVL",
+   "name": "Inbound visitor arrivals",
+   "unit": "people a year",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+   "fetched_at": "2026-09-17",
+   "countries": 199,
+   "publisher_title": "International tourism, number of arrivals"
+  },
+  "receipts": {
+   "code": "ST.INT.RCPT.CD",
+   "name": "Inbound travel receipts",
+   "unit": "current US$",
+   "source": "World Bank Open Data",
+   "license": "CC BY 4.0",
+   "url": "https://data.worldbank.org/indicator/ST.INT.RCPT.CD",
+   "fetched_at": "2026-09-17",
+   "countries": 185,
+   "publisher_title": "International tourism, receipts (current US$)"
+  }
+ },
+ "note": "Joined on ISO 3166-1 alpha-2. A country with no row is a country nothing here touches yet.",
+ "countries": {
+  "AE": {
+   "iso2": "AE",
+   "name": "United Arab Emirates",
+   "records": [
+    {
+     "id": "uae",
+     "type": "destination",
+     "name": "United Arab Emirates"
+    },
+    {
+     "id": "dubai",
+     "type": "hub",
+     "name": "Dubai"
+    },
+    {
+     "id": "american-hospital-dubai",
+     "type": "facility",
+     "name": "American Hospital Dubai"
+    },
+    {
+     "id": "uae-clinic-licensing",
+     "type": "rule",
+     "name": "Licensing a clinic in the United Arab Emirates"
+    },
+    {
+     "id": "dha-dubai",
+     "type": "org",
+     "name": "Dubai Health Authority"
+    }
+   ],
+   "facilities": 545,
+   "curated_facilities": 1,
+   "prices": 2,
+   "accreditors": [
+    "jci",
+    "moh-ae",
+    "other"
+   ],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 2401.52026367,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.97095108,
+     "year": 2023
+    },
+    "oop": {
+     "value": 9.66616821,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.992,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 6.187,
+     "year": 2022
+    },
+    "beds": {
+     "value": 1.87,
+     "year": 2022
+    },
+    "life": {
+     "value": 83.069,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 50273.5126243239,
+     "year": 2024
+    },
+    "population": {
+     "value": 11513149,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 8084000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 24615400390.625,
+     "year": 2020
+    }
+   },
+   "destination": "uae",
+   "hubs": [
+    "dubai"
+   ],
+   "procedures": [
+    "dhi-hair-transplant",
+    "hair-transplant-fue"
+   ]
+  },
+  "AR": {
+   "iso2": "AR",
+   "name": "Argentina",
+   "records": [
+    {
+     "id": "argentina",
+     "type": "destination",
+     "name": "Argentina"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 1456.98596191,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 10.2695179,
+     "year": 2023
+    },
+    "oop": {
+     "value": 24.46961784,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 5.106,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 4.749,
+     "year": 2023
+    },
+    "beds": {
+     "value": 3.36,
+     "year": 2022
+    },
+    "life": {
+     "value": 77.543,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 14898.0885943842,
+     "year": 2025
+    },
+    "population": {
+     "value": 45851378,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 7399000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 1702000000,
+     "year": 2020
+    }
+   },
+   "destination": "argentina",
+   "hubs": [],
+   "procedures": []
+  },
+  "AT": {
+   "iso2": "AT",
+   "name": "Austria",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 6739.30908203,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 11.8325634,
+     "year": 2024
+    },
+    "oop": {
+     "value": 16.46478271,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 5.515,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 11.28,
+     "year": 2022
+    },
+    "beds": {
+     "value": 6.7,
+     "year": 2022
+    },
+    "life": {
+     "value": 81.9951219512195,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 62930.0351324599,
+     "year": 2025
+    },
+    "population": {
+     "value": 9208163,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 15091000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 15362000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "AU": {
+   "iso2": "AU",
+   "name": "Australia",
+   "records": [
+    {
+     "id": "australia",
+     "type": "destination",
+     "name": "Australia"
+    },
+    {
+     "id": "achsi",
+     "type": "org",
+     "name": "ACHS International"
+    },
+    {
+     "id": "john-connell",
+     "type": "person",
+     "name": "John Connell"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 16,
+   "accreditors": [
+    "isqua-eea"
+   ],
+   "legality_rows": 5,
+   "indicators": {
+    "spend_pc": {
+     "value": 6980.38525391,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 10.39852047,
+     "year": 2023
+    },
+    "oop": {
+     "value": 15.84897614,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 4.086,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 13.45,
+     "year": 2022
+    },
+    "beds": {
+     "value": 3.82,
+     "year": 2016
+    },
+    "life": {
+     "value": 83.0512195121951,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 65129.7227990563,
+     "year": 2025
+    },
+    "population": {
+     "value": 27614411,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1828000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 26234000000,
+     "year": 2020
+    }
+   },
+   "destination": "australia",
+   "hubs": [],
+   "procedures": [
+    "acl-reconstruction",
+    "angioplasty-stent",
+    "cabg",
+    "cataract-surgery",
+    "cochlear-implant",
+    "disc-replacement",
+    "gallbladder-removal",
+    "heart-valve-replacement",
+    "hernia-repair",
+    "hip-replacement",
+    "hysterectomy",
+    "knee-arthroscopy",
+    "prostatectomy",
+    "shoulder-replacement",
+    "spinal-fusion"
+   ]
+  },
+  "BE": {
+   "iso2": "BE",
+   "name": "Belgium",
+   "records": [
+    {
+     "id": "belgium",
+     "type": "destination",
+     "name": "Belgium"
+    },
+    {
+     "id": "eshre",
+     "type": "org",
+     "name": "European Society of Human Reproduction and Embryology"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 5931.01464844,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 10.80371571,
+     "year": 2023
+    },
+    "oop": {
+     "value": 21.50983047,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.574,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 12.89,
+     "year": 2021
+    },
+    "beds": {
+     "value": 5.42,
+     "year": 2023
+    },
+    "life": {
+     "value": 82.3,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 60750.2735864647,
+     "year": 2025
+    },
+    "population": {
+     "value": 11941781,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2584000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 7447000000,
+     "year": 2020
+    }
+   },
+   "destination": "belgium",
+   "hubs": [],
+   "procedures": []
+  },
+  "BR": {
+   "iso2": "BR",
+   "name": "Brazil",
+   "records": [
+    {
+     "id": "brazil",
+     "type": "destination",
+     "name": "Brazil"
+    },
+    {
+     "id": "albert-einstein-sao-paulo",
+     "type": "facility",
+     "name": "Hospital Israelita Albert Einstein"
+    }
+   ],
+   "facilities": 1,
+   "curated_facilities": 1,
+   "prices": 0,
+   "accreditors": [
+    "jci",
+    "newsweek-statista"
+   ],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 1009.83563232,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 9.73092747,
+     "year": 2023
+    },
+    "oop": {
+     "value": 26.23070717,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.357,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 5.502,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.52,
+     "year": 2021
+    },
+    "life": {
+     "value": 76.023,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 10713.2856869511,
+     "year": 2025
+    },
+    "population": {
+     "value": 212812405,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 6353000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 3099000000,
+     "year": 2020
+    }
+   },
+   "destination": "brazil",
+   "hubs": [],
+   "procedures": []
+  },
+  "CA": {
+   "iso2": "CA",
+   "name": "Canada",
+   "records": [
+    {
+     "id": "canada",
+     "type": "destination",
+     "name": "Canada"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 1,
+   "accreditors": [],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 6377.96875,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 11.3095665,
+     "year": 2024
+    },
+    "oop": {
+     "value": 15.27733707,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 2.819,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 11.26,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.54,
+     "year": 2022
+    },
+    "life": {
+     "value": 82.1080487804878,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 55697.6639660837,
+     "year": 2025
+    },
+    "population": {
+     "value": 41651653,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 32430000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 19994000000,
+     "year": 2011
+    }
+   },
+   "destination": "canada",
+   "hubs": [],
+   "procedures": [
+    "lasik"
+   ]
+  },
+  "CH": {
+   "iso2": "CH",
+   "name": "Switzerland",
+   "records": [
+    {
+     "id": "switzerland",
+     "type": "destination",
+     "name": "Switzerland"
+    },
+    {
+     "id": "who",
+     "type": "org",
+     "name": "World Health Organization"
+    },
+    {
+     "id": "covid-shutdown-2020",
+     "type": "event",
+     "name": "The 2020 shutdown"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 3,
+   "accreditors": [],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 11783.66992188,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 11.69096088,
+     "year": 2023
+    },
+    "oop": {
+     "value": 22.02737427,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 4.477,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 18.76,
+     "year": 2022
+    },
+    "beds": {
+     "value": 4.38,
+     "year": 2023
+    },
+    "life": {
+     "value": 84.4073170731707,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 114769.012314293,
+     "year": 2025
+    },
+    "population": {
+     "value": 9092436,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 11818000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 9994000000,
+     "year": 2020
+    }
+   },
+   "destination": "switzerland",
+   "hubs": [],
+   "procedures": [
+    "assisted-dying"
+   ]
+  },
+  "CN": {
+   "iso2": "CN",
+   "name": "China",
+   "records": [
+    {
+     "id": "china",
+     "type": "destination",
+     "name": "China"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 763.37762451,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 5.94388866,
+     "year": 2023
+    },
+    "oop": {
+     "value": 32.17354584,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.112,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.666,
+     "year": 2022
+    },
+    "beds": {
+     "value": 5.63,
+     "year": 2023
+    },
+    "life": {
+     "value": 78.017,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 13861.970224368,
+     "year": 2025
+    },
+    "population": {
+     "value": 1406585000,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 30402000,
+     "year": 2020
+    }
+   },
+   "destination": "china",
+   "hubs": [],
+   "procedures": []
+  },
+  "CO": {
+   "iso2": "CO",
+   "name": "Colombia",
+   "records": [
+    {
+     "id": "colombia",
+     "type": "destination",
+     "name": "Colombia"
+    },
+    {
+     "id": "bogota",
+     "type": "hub",
+     "name": "Bogotá"
+    },
+    {
+     "id": "medellin",
+     "type": "hub",
+     "name": "Medellín"
+    },
+    {
+     "id": "clinica-las-americas",
+     "type": "facility",
+     "name": "Clínica Las Américas"
+    },
+    {
+     "id": "fundacion-santa-fe",
+     "type": "facility",
+     "name": "Fundación Santa Fe de Bogotá"
+    }
+   ],
+   "facilities": 1185,
+   "curated_facilities": 2,
+   "prices": 0,
+   "accreditors": [
+    "jci"
+   ],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 644.30908203,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 8.14139366,
+     "year": 2024
+    },
+    "oop": {
+     "value": 14.73741817,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 2.535,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 1.541,
+     "year": 2023
+    },
+    "beds": {
+     "value": 1.7,
+     "year": 2020
+    },
+    "life": {
+     "value": 77.913,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 8561.62091854449,
+     "year": 2025
+    },
+    "population": {
+     "value": 53425635,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1396000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1959000000,
+     "year": 2020
+    }
+   },
+   "destination": "colombia",
+   "hubs": [
+    "bogota",
+    "medellin"
+   ],
+   "procedures": []
+  },
+  "CR": {
+   "iso2": "CR",
+   "name": "Costa Rica",
+   "records": [
+    {
+     "id": "costa-rica",
+     "type": "destination",
+     "name": "Costa Rica"
+    },
+    {
+     "id": "san-jose-cr",
+     "type": "hub",
+     "name": "San José, Costa Rica"
+    },
+    {
+     "id": "clinica-biblica",
+     "type": "facility",
+     "name": "Hospital Clínica Bíblica"
+    },
+    {
+     "id": "hospital-cima-san-jose",
+     "type": "facility",
+     "name": "Hospital CIMA San José"
+    },
+    {
+     "id": "promed",
+     "type": "org",
+     "name": "PROMED"
+    }
+   ],
+   "facilities": 734,
+   "curated_facilities": 2,
+   "prices": 0,
+   "accreditors": [
+    "jci",
+    "newsweek-statista",
+    "promed",
+    "other"
+   ],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 1163.30224609,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 6.8663702,
+     "year": 2023
+    },
+    "oop": {
+     "value": 24.12618256,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.687,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.071,
+     "year": 2022
+    },
+    "beds": {
+     "value": 1.14,
+     "year": 2022
+    },
+    "life": {
+     "value": 80.996,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 19970.0989059622,
+     "year": 2025
+    },
+    "population": {
+     "value": 5152950,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1146500,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1479000000,
+     "year": 2020
+    }
+   },
+   "destination": "costa-rica",
+   "hubs": [
+    "san-jose-cr"
+   ],
+   "procedures": []
+  },
+  "CU": {
+   "iso2": "CU",
+   "name": "Cuba",
+   "records": [
+    {
+     "id": "cuba",
+     "type": "destination",
+     "name": "Cuba"
+    },
+    {
+     "id": "havana",
+     "type": "hub",
+     "name": "Havana"
+    }
+   ],
+   "facilities": 244,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 1199.35327148,
+     "year": 2020
+    },
+    "spend_gdp": {
+     "value": 9.38383102,
+     "year": 2023
+    },
+    "oop": {
+     "value": 16.58238792,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 9.542,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 7.603,
+     "year": 2020
+    },
+    "beds": {
+     "value": 4.33,
+     "year": 2023
+    },
+    "life": {
+     "value": 78.264,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 9605.27914559614,
+     "year": 2020
+    },
+    "population": {
+     "value": 10937203,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1086000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1152000000,
+     "year": 2020
+    }
+   },
+   "destination": "cuba",
+   "hubs": [
+    "havana"
+   ],
+   "procedures": []
+  },
+  "CY": {
+   "iso2": "CY",
+   "name": "Cyprus",
+   "records": [
+    {
+     "id": "cyprus",
+     "type": "destination",
+     "name": "Cyprus"
+    },
+    {
+     "id": "nicosia",
+     "type": "hub",
+     "name": "Nicosia"
+    }
+   ],
+   "facilities": 175,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 2899.36499023,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 8.11912918,
+     "year": 2023
+    },
+    "oop": {
+     "value": 17.9429245,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.556,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.894,
+     "year": 2022
+    },
+    "beds": {
+     "value": 2.15,
+     "year": 2022
+    },
+    "life": {
+     "value": 81.821,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 41783.08984375,
+     "year": 2025
+    },
+    "population": {
+     "value": 1370754,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 4117000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 663000000,
+     "year": 2020
+    }
+   },
+   "destination": "cyprus",
+   "hubs": [
+    "nicosia"
+   ],
+   "procedures": []
+  },
+  "CZ": {
+   "iso2": "CZ",
+   "name": "Czechia",
+   "records": [
+    {
+     "id": "czechia",
+     "type": "destination",
+     "name": "Czechia"
+    },
+    {
+     "id": "prague",
+     "type": "hub",
+     "name": "Prague"
+    }
+   ],
+   "facilities": 266,
+   "curated_facilities": 0,
+   "prices": 22,
+   "accreditors": [],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 2692.76416016,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 8.50710297,
+     "year": 2024
+    },
+    "oop": {
+     "value": 14.06390572,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 4.352,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 9.53,
+     "year": 2022
+    },
+    "beds": {
+     "value": 6.54,
+     "year": 2022
+    },
+    "life": {
+     "value": 79.9780487804878,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 35917.2724081665,
+     "year": 2025
+    },
+    "population": {
+     "value": 10886878,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 37202000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 3890000000,
+     "year": 2020
+    }
+   },
+   "destination": "czechia",
+   "hubs": [
+    "prague"
+   ],
+   "procedures": [
+    "abdominoplasty",
+    "bbl",
+    "breast-augmentation",
+    "egg-donation",
+    "egg-freezing",
+    "facelift",
+    "icsi",
+    "ivf",
+    "liposuction",
+    "pgt",
+    "rhinoplasty",
+    "sperm-donation",
+    "surrogacy"
+   ]
+  },
+  "DE": {
+   "iso2": "DE",
+   "name": "Germany",
+   "records": [
+    {
+     "id": "germany",
+     "type": "destination",
+     "name": "Germany"
+    },
+    {
+     "id": "charite-international",
+     "type": "facility",
+     "name": "Charité International Patients"
+    },
+    {
+     "id": "heidelberg-university-hospital",
+     "type": "facility",
+     "name": "Heidelberg University Hospital"
+    },
+    {
+     "id": "temos",
+     "type": "org",
+     "name": "Temos International Healthcare Accreditation"
+    }
+   ],
+   "facilities": 2,
+   "curated_facilities": 2,
+   "prices": 1,
+   "accreditors": [
+    "newsweek-statista",
+    "isqua-eea"
+   ],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 6849.26367188,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 12.26655293,
+     "year": 2024
+    },
+    "oop": {
+     "value": 10.7067318,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 4.534,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 12.25,
+     "year": 2022
+    },
+    "beds": {
+     "value": 7.55,
+     "year": 2023
+    },
+    "life": {
+     "value": 80.7926829268293,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 60496.4350820414,
+     "year": 2025
+    },
+    "population": {
+     "value": 83491249,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 12449000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 58372000000,
+     "year": 2019
+    }
+   },
+   "destination": "germany",
+   "hubs": [],
+   "procedures": [
+    "panchakarma"
+   ]
+  },
+  "DO": {
+   "iso2": "DO",
+   "name": "Dominican Rep.",
+   "records": [
+    {
+     "id": "dominican-republic",
+     "type": "destination",
+     "name": "Dominican Republic"
+    },
+    {
+     "id": "santo-domingo",
+     "type": "hub",
+     "name": "Santo Domingo"
+    },
+    {
+     "id": "dominican-republic-ntm-outbreak",
+     "type": "event",
+     "name": "The Dominican mycobacterial outbreaks, 2013–14 and 2017"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 488.8727417,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.59880495,
+     "year": 2023
+    },
+    "oop": {
+     "value": 25.05566978,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.426,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 2.06,
+     "year": 2023
+    },
+    "beds": {
+     "value": 0.75,
+     "year": 2023
+    },
+    "life": {
+     "value": 73.868,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 11059.2081531834,
+     "year": 2025
+    },
+    "population": {
+     "value": 11520487,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2748000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 7561000000,
+     "year": 2018
+    }
+   },
+   "destination": "dominican-republic",
+   "hubs": [
+    "santo-domingo"
+   ],
+   "procedures": []
+  },
+  "EG": {
+   "iso2": "EG",
+   "name": "Egypt",
+   "records": [
+    {
+     "id": "egypt",
+     "type": "destination",
+     "name": "Egypt"
+    },
+    {
+     "id": "cairo",
+     "type": "hub",
+     "name": "Cairo"
+    }
+   ],
+   "facilities": 457,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 141.41111755,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.88449335,
+     "year": 2023
+    },
+    "oop": {
+     "value": 57.19506836,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.671,
+     "year": 2020
+    },
+    "nurses": {
+     "value": 1.794,
+     "year": 2018
+    },
+    "beds": {
+     "value": 1.06,
+     "year": 2021
+    },
+    "life": {
+     "value": 71.806,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 3085.80712036204,
+     "year": 2025
+    },
+    "population": {
+     "value": 118365995,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 13026000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 4874000000,
+     "year": 2020
+    }
+   },
+   "destination": "egypt",
+   "hubs": [
+    "cairo"
+   ],
+   "procedures": []
+  },
+  "ES": {
+   "iso2": "ES",
+   "name": "Spain",
+   "records": [
+    {
+     "id": "spain",
+     "type": "destination",
+     "name": "Spain"
+    },
+    {
+     "id": "barcelona",
+     "type": "hub",
+     "name": "Barcelona"
+    }
+   ],
+   "facilities": 621,
+   "curated_facilities": 0,
+   "prices": 6,
+   "accreditors": [],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 3106.62011719,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 9.2206583,
+     "year": 2023
+    },
+    "oop": {
+     "value": 20.85539818,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 4.294,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 6.406,
+     "year": 2022
+    },
+    "beds": {
+     "value": 2.91,
+     "year": 2023
+    },
+    "life": {
+     "value": 83.8878048780488,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 38627.2472148623,
+     "year": 2025
+    },
+    "population": {
+     "value": 49355143,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 36410000,
+     "year": 2020
+    }
+   },
+   "destination": "spain",
+   "hubs": [
+    "barcelona"
+   ],
+   "procedures": [
+    "dialysis-holiday",
+    "egg-donation",
+    "egg-freezing",
+    "icsi",
+    "ivf",
+    "sperm-donation"
+   ]
+  },
+  "FI": {
+   "iso2": "FI",
+   "name": "Finland",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 1,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 5515.40478516,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 10.47389507,
+     "year": 2023
+    },
+    "oop": {
+     "value": 14.09493542,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.609,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 14.01,
+     "year": 2021
+    },
+    "beds": {
+     "value": 2.61,
+     "year": 2022
+    },
+    "life": {
+     "value": 82.3365853658537,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 56148.580949046,
+     "year": 2025
+    },
+    "population": {
+     "value": 5646436,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 896000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1757000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": [
+    "cochlear-implant"
+   ]
+  },
+  "FR": {
+   "iso2": "FR",
+   "name": "France",
+   "records": [
+    {
+     "id": "oecd",
+     "type": "org",
+     "name": "Organisation for Economic Co-operation and Development"
+    },
+    {
+     "id": "directive-2011-24-adopted",
+     "type": "event",
+     "name": "Directive 2011/24/EU adopted, 9 March 2011"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 5,
+   "indicators": {
+    "spend_pc": {
+     "value": 5327.43359375,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 11.53530598,
+     "year": 2024
+    },
+    "oop": {
+     "value": 9.22742558,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 3.281,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 9.422,
+     "year": 2021
+    },
+    "beds": {
+     "value": 5.65,
+     "year": 2022
+    },
+    "life": {
+     "value": 82.9804878048781,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 48985.7307807924,
+     "year": 2025
+    },
+    "population": {
+     "value": 68720337,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 117109000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 35958000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "GB": {
+   "iso2": "GB",
+   "name": "United Kingdom",
+   "records": [
+    {
+     "id": "united-kingdom",
+     "type": "destination",
+     "name": "United Kingdom"
+    },
+    {
+     "id": "uk-nhs-treatment-abroad",
+     "type": "rule",
+     "name": "NHS funding for treatment abroad"
+    },
+    {
+     "id": "hfea",
+     "type": "org",
+     "name": "Human Fertilisation and Embryology Authority"
+    },
+    {
+     "id": "imtj",
+     "type": "org",
+     "name": "International Medical Travel Journal"
+    },
+    {
+     "id": "keith-pollard",
+     "type": "person",
+     "name": "Keith Pollard"
+    },
+    {
+     "id": "imtj-summit",
+     "type": "event",
+     "name": "The IMTJ Medical Travel Summit and Awards"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 22,
+   "accreditors": [],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 5860.23925781,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 11.133358,
+     "year": 2024
+    },
+    "oop": {
+     "value": 14.55540943,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 3.301,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 9.549,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.42,
+     "year": 2022
+    },
+    "life": {
+     "value": 81.3868536585366,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 57601.9621201954,
+     "year": 2025
+    },
+    "population": {
+     "value": 69487000,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 11101000,
+     "year": 2020
+    }
+   },
+   "destination": "united-kingdom",
+   "hubs": [],
+   "procedures": [
+    "abortion-care",
+    "acl-reconstruction",
+    "addiction-rehab",
+    "car-t",
+    "dental-crown",
+    "egg-donation",
+    "egg-freezing",
+    "full-mouth-restoration",
+    "hair-transplant-fue",
+    "hip-replacement",
+    "icl",
+    "knee-arthroscopy",
+    "knee-replacement",
+    "lasik",
+    "root-canal",
+    "shoulder-replacement",
+    "sperm-donation",
+    "spinal-fusion",
+    "top-surgery",
+    "vaginoplasty"
+   ]
+  },
+  "GE": {
+   "iso2": "GE",
+   "name": "Georgia",
+   "records": [
+    {
+     "id": "georgia",
+     "type": "destination",
+     "name": "Georgia"
+    },
+    {
+     "id": "tbilisi",
+     "type": "hub",
+     "name": "Tbilisi"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 554.3248291,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 6.85758877,
+     "year": 2023
+    },
+    "oop": {
+     "value": 58.75926208,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 5.642,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 5.967,
+     "year": 2023
+    },
+    "beds": {
+     "value": 4.04,
+     "year": 2023
+    },
+    "life": {
+     "value": 74.657,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 9691.53472415196,
+     "year": 2025
+    },
+    "population": {
+     "value": 3935766,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1513000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 586000000,
+     "year": 2020
+    }
+   },
+   "destination": "georgia",
+   "hubs": [
+    "tbilisi"
+   ],
+   "procedures": []
+  },
+  "GR": {
+   "iso2": "GR",
+   "name": "Greece",
+   "records": [
+    {
+     "id": "greece",
+     "type": "destination",
+     "name": "Greece"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 6,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 1962.59594727,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 8.39367008,
+     "year": 2023
+    },
+    "oop": {
+     "value": 34.30307007,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 6.576,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 4.114,
+     "year": 2022
+    },
+    "beds": {
+     "value": 4.27,
+     "year": 2022
+    },
+    "life": {
+     "value": 81.8390243902439,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 26948.0070432791,
+     "year": 2025
+    },
+    "population": {
+     "value": 10413962,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 7406000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 6193000000,
+     "year": 2020
+    }
+   },
+   "destination": "greece",
+   "hubs": [],
+   "procedures": [
+    "egg-donation",
+    "egg-freezing",
+    "icsi",
+    "ivf",
+    "sperm-donation"
+   ]
+  },
+  "HR": {
+   "iso2": "HR",
+   "name": "Croatia",
+   "records": [
+    {
+     "id": "croatia",
+     "type": "destination",
+     "name": "Croatia"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 1548.33959961,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 7.14699411,
+     "year": 2023
+    },
+    "oop": {
+     "value": 9.37740326,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.909,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 7.999,
+     "year": 2022
+    },
+    "beds": {
+     "value": 5.6,
+     "year": 2023
+    },
+    "life": {
+     "value": 78.9292682926829,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 27103.9116109268,
+     "year": 2025
+    },
+    "population": {
+     "value": 3876200,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 21608000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 5631853027.34375,
+     "year": 2020
+    }
+   },
+   "destination": "croatia",
+   "hubs": [],
+   "procedures": []
+  },
+  "HU": {
+   "iso2": "HU",
+   "name": "Hungary",
+   "records": [
+    {
+     "id": "hungary",
+     "type": "destination",
+     "name": "Hungary"
+    },
+    {
+     "id": "budapest",
+     "type": "hub",
+     "name": "Budapest"
+    },
+    {
+     "id": "sopron",
+     "type": "hub",
+     "name": "Sopron"
+    }
+   ],
+   "facilities": 549,
+   "curated_facilities": 0,
+   "prices": 6,
+   "accreditors": [],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 1419.87475586,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 6.36868954,
+     "year": 2023
+    },
+    "oop": {
+     "value": 23.05996895,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.456,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 5.665,
+     "year": 2022
+    },
+    "beds": {
+     "value": 6.63,
+     "year": 2022
+    },
+    "life": {
+     "value": 76.7243902439025,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 25907.4743259406,
+     "year": 2025
+    },
+    "population": {
+     "value": 9514251,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 31641000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 4224000000,
+     "year": 2020
+    }
+   },
+   "destination": "hungary",
+   "hubs": [
+    "budapest",
+    "sopron"
+   ],
+   "procedures": [
+    "all-on-four",
+    "dental-crown",
+    "dental-implant",
+    "full-mouth-restoration",
+    "root-canal",
+    "veneers"
+   ]
+  },
+  "ID": {
+   "iso2": "ID",
+   "name": "Indonesia",
+   "records": [
+    {
+     "id": "indonesia",
+     "type": "destination",
+     "name": "Indonesia"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 131.77729797,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 2.70239949,
+     "year": 2023
+    },
+    "oop": {
+     "value": 31.0836544,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.524,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 3.24,
+     "year": 2023
+    },
+    "beds": {
+     "value": 1.37,
+     "year": 2023
+    },
+    "life": {
+     "value": 71.288,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 5059.62596411213,
+     "year": 2025
+    },
+    "population": {
+     "value": 285721236,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 4053000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 3533000000,
+     "year": 2020
+    }
+   },
+   "destination": "indonesia",
+   "hubs": [],
+   "procedures": []
+  },
+  "IE": {
+   "iso2": "IE",
+   "name": "Ireland",
+   "records": [
+    {
+     "id": "ireland",
+     "type": "destination",
+     "name": "Ireland"
+    },
+    {
+     "id": "isqua-ieea",
+     "type": "org",
+     "name": "ISQua External Evaluation Association"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 7,
+   "accreditors": [],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 7394.85009766,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 6.85410833,
+     "year": 2024
+    },
+    "oop": {
+     "value": 10.60706902,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 3.875,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 14.78,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.96,
+     "year": 2023
+    },
+    "life": {
+     "value": 83.009756097561,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 131592.462547877,
+     "year": 2025
+    },
+    "population": {
+     "value": 5484367,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 10951000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 4160000000,
+     "year": 2020
+    }
+   },
+   "destination": "ireland",
+   "hubs": [],
+   "procedures": [
+    "angioplasty-stent",
+    "cataract-surgery",
+    "gallbladder-removal",
+    "heart-valve-replacement",
+    "hernia-repair",
+    "hysterectomy",
+    "prostatectomy"
+   ]
+  },
+  "IL": {
+   "iso2": "IL",
+   "name": "Israel",
+   "records": [
+    {
+     "id": "israel",
+     "type": "destination",
+     "name": "Israel"
+    },
+    {
+     "id": "tel-aviv",
+     "type": "hub",
+     "name": "Tel Aviv"
+    },
+    {
+     "id": "hadassah",
+     "type": "facility",
+     "name": "Hadassah Medical Center"
+    },
+    {
+     "id": "sheba",
+     "type": "facility",
+     "name": "Sheba Medical Center"
+    }
+   ],
+   "facilities": 2,
+   "curated_facilities": 2,
+   "prices": 0,
+   "accreditors": [
+    "newsweek-statista"
+   ],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 3927.69873047,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 7.09822369,
+     "year": 2023
+    },
+    "oop": {
+     "value": 20.48583984,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.797,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 5.899,
+     "year": 2023
+    },
+    "beds": {
+     "value": 3.14,
+     "year": 2023
+    },
+    "life": {
+     "value": 83.1975609756098,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 60336.8477964194,
+     "year": 2025
+    },
+    "population": {
+     "value": 10122800,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 4905000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 2661000000,
+     "year": 2020
+    }
+   },
+   "destination": "israel",
+   "hubs": [
+    "tel-aviv"
+   ],
+   "procedures": []
+  },
+  "IN": {
+   "iso2": "IN",
+   "name": "India",
+   "records": [
+    {
+     "id": "india",
+     "type": "destination",
+     "name": "India"
+    },
+    {
+     "id": "bengaluru",
+     "type": "hub",
+     "name": "Bengaluru"
+    },
+    {
+     "id": "chennai",
+     "type": "hub",
+     "name": "Chennai"
+    },
+    {
+     "id": "delhi-ncr",
+     "type": "hub",
+     "name": "Delhi NCR"
+    },
+    {
+     "id": "mumbai",
+     "type": "hub",
+     "name": "Mumbai"
+    },
+    {
+     "id": "apollo-chennai",
+     "type": "facility",
+     "name": "Apollo Hospitals, Greams Road, Chennai"
+    },
+    {
+     "id": "fortis-gurgaon",
+     "type": "facility",
+     "name": "Fortis Memorial Research Institute, Gurugram"
+    },
+    {
+     "id": "kokilaben",
+     "type": "facility",
+     "name": "Kokilaben Dhirubhai Ambani Hospital"
+    },
+    {
+     "id": "max-saket",
+     "type": "facility",
+     "name": "Max Super Speciality Hospital, Saket"
+    },
+    {
+     "id": "medanta",
+     "type": "facility",
+     "name": "Medanta — The Medicity, Gurugram"
+    },
+    {
+     "id": "narayana-health",
+     "type": "facility",
+     "name": "Narayana Health"
+    },
+    {
+     "id": "india-e-medical-visa",
+     "type": "rule",
+     "name": "India's e-Medical Visa"
+    },
+    {
+     "id": "nabh",
+     "type": "org",
+     "name": "National Accreditation Board for Hospitals and Healthcare Providers"
+    },
+    {
+     "id": "devi-shetty",
+     "type": "person",
+     "name": "Devi Prasad Shetty"
+    },
+    {
+     "id": "prathap-reddy",
+     "type": "person",
+     "name": "Prathap C. Reddy"
+    }
+   ],
+   "facilities": 8205,
+   "curated_facilities": 6,
+   "prices": 7,
+   "accreditors": [
+    "jci",
+    "nabh",
+    "newsweek-statista",
+    "other",
+    "isqua-eea"
+   ],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 84.68669891,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 3.33944035,
+     "year": 2023
+    },
+    "oop": {
+     "value": 43.88510513,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.723,
+     "year": 2020
+    },
+    "nurses": {
+     "value": 1.72,
+     "year": 2020
+    },
+    "beds": {
+     "value": 1.59,
+     "year": 2021
+    },
+    "life": {
+     "value": 72.235,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 2702.47987141553,
+     "year": 2025
+    },
+    "population": {
+     "value": 1463865525,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 17914000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 13413000000,
+     "year": 2020
+    }
+   },
+   "destination": "india",
+   "hubs": [
+    "bengaluru",
+    "chennai",
+    "delhi-ncr",
+    "mumbai"
+   ],
+   "procedures": [
+    "cabg",
+    "car-t",
+    "disc-replacement",
+    "executive-health-screening",
+    "liver-transplant",
+    "panchakarma"
+   ]
+  },
+  "IR": {
+   "iso2": "IR",
+   "name": "Iran",
+   "records": [
+    {
+     "id": "iran",
+     "type": "destination",
+     "name": "Iran"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 267.059021,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 6.02542305,
+     "year": 2023
+    },
+    "oop": {
+     "value": 43.14528656,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.811,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 2.876,
+     "year": 2023
+    },
+    "beds": {
+     "value": 1.85,
+     "year": 2019
+    },
+    "life": {
+     "value": 77.854,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 3924.38017821898,
+     "year": 2025
+    },
+    "population": {
+     "value": 92417681,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1550000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 5252000000,
+     "year": 2018
+    }
+   },
+   "destination": "iran",
+   "hubs": [],
+   "procedures": []
+  },
+  "IT": {
+   "iso2": "IT",
+   "name": "Italy",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 3397.68798828,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 8.44437313,
+     "year": 2024
+    },
+    "oop": {
+     "value": 22.30979538,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 4.191,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 6.755,
+     "year": 2022
+    },
+    "beds": {
+     "value": 3.06,
+     "year": 2022
+    },
+    "life": {
+     "value": 83.9512195121951,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 43308.6403060733,
+     "year": 2025
+    },
+    "population": {
+     "value": 58915656,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 38419000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 20459000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "JO": {
+   "iso2": "JO",
+   "name": "Jordan",
+   "records": [
+    {
+     "id": "jordan",
+     "type": "destination",
+     "name": "Jordan"
+    },
+    {
+     "id": "amman",
+     "type": "hub",
+     "name": "Amman"
+    },
+    {
+     "id": "king-hussein-cancer-center",
+     "type": "facility",
+     "name": "King Hussein Cancer Center"
+    }
+   ],
+   "facilities": 139,
+   "curated_facilities": 1,
+   "prices": 0,
+   "accreditors": [
+    "jci",
+    "other"
+   ],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 342.10394287,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 7.66000605,
+     "year": 2023
+    },
+    "oop": {
+     "value": 34.4679451,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.851,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.333,
+     "year": 2023
+    },
+    "beds": {
+     "value": 1.41,
+     "year": 2023
+    },
+    "life": {
+     "value": 77.981,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 5347.77731384797,
+     "year": 2025
+    },
+    "population": {
+     "value": 11520684,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1240000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1745000000,
+     "year": 2020
+    }
+   },
+   "destination": "jordan",
+   "hubs": [
+    "amman"
+   ],
+   "procedures": []
+  },
+  "JP": {
+   "iso2": "JP",
+   "name": "Japan",
+   "records": [
+    {
+     "id": "japan",
+     "type": "destination",
+     "name": "Japan"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 3638.19287109,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 10.73979473,
+     "year": 2023
+    },
+    "oop": {
+     "value": 12.23568153,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.649,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 12.98,
+     "year": 2022
+    },
+    "beds": {
+     "value": 12.59,
+     "year": 2022
+    },
+    "life": {
+     "value": 84.0363414634146,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 35951.0449549304,
+     "year": 2025
+    },
+    "population": {
+     "value": 123366734,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 4115799.8046875,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 11395000000,
+     "year": 2020
+    }
+   },
+   "destination": "japan",
+   "hubs": [],
+   "procedures": []
+  },
+  "KE": {
+   "iso2": "KE",
+   "name": "Kenya",
+   "records": [
+    {
+     "id": "kenya",
+     "type": "destination",
+     "name": "Kenya"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 84.958992,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.35172892,
+     "year": 2023
+    },
+    "oop": {
+     "value": 24.24565315,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.289,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 2.273,
+     "year": 2023
+    },
+    "beds": {
+     "value": 1.33,
+     "year": 2019
+    },
+    "life": {
+     "value": 63.834,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 2362.86091198611,
+     "year": 2025
+    },
+    "population": {
+     "value": 57532493,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2049000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 1762000000,
+     "year": 2019
+    }
+   },
+   "destination": "kenya",
+   "hubs": [],
+   "procedures": []
+  },
+  "KR": {
+   "iso2": "KR",
+   "name": "South Korea",
+   "records": [
+    {
+     "id": "south-korea",
+     "type": "destination",
+     "name": "South Korea"
+    },
+    {
+     "id": "seoul",
+     "type": "hub",
+     "name": "Seoul"
+    },
+    {
+     "id": "asan-medical-center",
+     "type": "facility",
+     "name": "Asan Medical Center"
+    },
+    {
+     "id": "samsung-medical-center",
+     "type": "facility",
+     "name": "Samsung Medical Center"
+    },
+    {
+     "id": "severance",
+     "type": "facility",
+     "name": "Severance Hospital"
+    },
+    {
+     "id": "wooridul",
+     "type": "facility",
+     "name": "Wooridul Spine Hospital"
+    },
+    {
+     "id": "korea-foreign-patient-registration",
+     "type": "rule",
+     "name": "Korea's foreign patient attraction registration"
+    },
+    {
+     "id": "khidi",
+     "type": "org",
+     "name": "Korea Health Industry Development Institute"
+    }
+   ],
+   "facilities": 4,
+   "curated_facilities": 4,
+   "prices": 0,
+   "accreditors": [
+    "kohta",
+    "newsweek-statista",
+    "jci",
+    "other"
+   ],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 3136.78564453,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 8.67656994,
+     "year": 2024
+    },
+    "oop": {
+     "value": 33.73815536,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 2.61,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 9.086,
+     "year": 2022
+    },
+    "beds": {
+     "value": 12.81,
+     "year": 2022
+    },
+    "life": {
+     "value": 83.6292682926829,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 36226.9663637512,
+     "year": 2025
+    },
+    "population": {
+     "value": 51684564,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2519000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 11776000000,
+     "year": 2020
+    }
+   },
+   "destination": "south-korea",
+   "hubs": [
+    "seoul"
+   ],
+   "procedures": []
+  },
+  "LK": {
+   "iso2": "LK",
+   "name": "Sri Lanka",
+   "records": [
+    {
+     "id": "sri-lanka",
+     "type": "destination",
+     "name": "Sri Lanka"
+    },
+    {
+     "id": "colombo",
+     "type": "hub",
+     "name": "Colombo"
+    }
+   ],
+   "facilities": 164,
+   "curated_facilities": 0,
+   "prices": 1,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 134.23654175,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 3.68313766,
+     "year": 2023
+    },
+    "oop": {
+     "value": 54.81069946,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.136,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 2.258,
+     "year": 2023
+    },
+    "beds": {
+     "value": 3.93,
+     "year": 2023
+    },
+    "life": {
+     "value": 77.672,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 5002.07904353724,
+     "year": 2025
+    },
+    "population": {
+     "value": 21756000,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 540000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1076000000,
+     "year": 2020
+    }
+   },
+   "destination": "sri-lanka",
+   "hubs": [
+    "colombo"
+   ],
+   "procedures": [
+    "panchakarma"
+   ]
+  },
+  "LT": {
+   "iso2": "LT",
+   "name": "Lithuania",
+   "records": [
+    {
+     "id": "lithuania",
+     "type": "destination",
+     "name": "Lithuania"
+    },
+    {
+     "id": "vilnius",
+     "type": "hub",
+     "name": "Vilnius"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 4,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 2232.47631836,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 7.59519005,
+     "year": 2024
+    },
+    "oop": {
+     "value": 31.42526817,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 4.466,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 7.843,
+     "year": 2022
+    },
+    "beds": {
+     "value": 5.71,
+     "year": 2022
+    },
+    "life": {
+     "value": 77.1951219512195,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 32958.6706396386,
+     "year": 2025
+    },
+    "population": {
+     "value": 2888774,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2284000,
+     "year": 2020
+    }
+   },
+   "destination": "lithuania",
+   "hubs": [
+    "vilnius"
+   ],
+   "procedures": [
+    "acl-reconstruction",
+    "hip-replacement",
+    "knee-arthroscopy",
+    "shoulder-replacement"
+   ]
+  },
+  "LU": {
+   "iso2": "LU",
+   "name": "Luxembourg",
+   "records": [
+    {
+     "id": "eurostat",
+     "type": "org",
+     "name": "Eurostat"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 8169.91259766,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 5.89136267,
+     "year": 2024
+    },
+    "oop": {
+     "value": 8.50457287,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 2.984,
+     "year": 2017
+    },
+    "nurses": {
+     "value": 13.72,
+     "year": 2023
+    },
+    "beds": {
+     "value": 3.95,
+     "year": 2023
+    },
+    "life": {
+     "value": 83.1951219512195,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 147252.179121515,
+     "year": 2025
+    },
+    "population": {
+     "value": 686970,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 525000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 4454000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "MA": {
+   "iso2": "MA",
+   "name": "Morocco",
+   "records": [
+    {
+     "id": "morocco",
+     "type": "destination",
+     "name": "Morocco"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 232.24751282,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 6.06396198,
+     "year": 2023
+    },
+    "oop": {
+     "value": 37.25432968,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.74,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 0.869,
+     "year": 2023
+    },
+    "beds": {
+     "value": 0.73,
+     "year": 2023
+    },
+    "life": {
+     "value": 75.493,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 4672.46826171875,
+     "year": 2025
+    },
+    "population": {
+     "value": 38430770,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2802000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 4514000000,
+     "year": 2020
+    }
+   },
+   "destination": "morocco",
+   "hubs": [],
+   "procedures": []
+  },
+  "MX": {
+   "iso2": "MX",
+   "name": "Mexico",
+   "records": [
+    {
+     "id": "mexico",
+     "type": "destination",
+     "name": "Mexico"
+    },
+    {
+     "id": "cancun",
+     "type": "hub",
+     "name": "Cancún"
+    },
+    {
+     "id": "los-algodones",
+     "type": "hub",
+     "name": "Los Algodones"
+    },
+    {
+     "id": "monterrey",
+     "type": "hub",
+     "name": "Monterrey"
+    },
+    {
+     "id": "nuevo-progreso",
+     "type": "hub",
+     "name": "Nuevo Progreso"
+    },
+    {
+     "id": "tijuana",
+     "type": "hub",
+     "name": "Tijuana"
+    },
+    {
+     "id": "hospital-angeles-tijuana",
+     "type": "facility",
+     "name": "Hospital Angeles Tijuana"
+    },
+    {
+     "id": "mexico-fungal-meningitis-2023",
+     "type": "event",
+     "name": "The Matamoros fungal meningitis outbreak, 2023"
+    }
+   ],
+   "facilities": 260,
+   "curated_facilities": 1,
+   "prices": 18,
+   "accreditors": [],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 760.98840332,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 5.50398684,
+     "year": 2023
+    },
+    "oop": {
+     "value": 41.23572922,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.588,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.028,
+     "year": 2022
+    },
+    "beds": {
+     "value": 1.01,
+     "year": 2022
+    },
+    "life": {
+     "value": 75.264,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 13889.2339628708,
+     "year": 2025
+    },
+    "population": {
+     "value": 131946900,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 51128000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 11449000000,
+     "year": 2020
+    }
+   },
+   "destination": "mexico",
+   "hubs": [
+    "cancun",
+    "los-algodones",
+    "monterrey",
+    "nuevo-progreso",
+    "tijuana"
+   ],
+   "procedures": [
+    "all-on-four",
+    "dental-crown",
+    "dental-implant",
+    "full-mouth-restoration",
+    "gastric-balloon",
+    "gastric-bypass",
+    "gastric-sleeve",
+    "root-canal",
+    "stem-cell-unproven",
+    "veneers"
+   ]
+  },
+  "MY": {
+   "iso2": "MY",
+   "name": "Malaysia",
+   "records": [
+    {
+     "id": "malaysia",
+     "type": "destination",
+     "name": "Malaysia"
+    },
+    {
+     "id": "kuala-lumpur",
+     "type": "hub",
+     "name": "Kuala Lumpur"
+    },
+    {
+     "id": "penang",
+     "type": "hub",
+     "name": "Penang"
+    },
+    {
+     "id": "gleneagles-kl",
+     "type": "facility",
+     "name": "Gleneagles Hospital Kuala Lumpur"
+    },
+    {
+     "id": "island-hospital-penang",
+     "type": "facility",
+     "name": "Island Hospital"
+    },
+    {
+     "id": "prince-court",
+     "type": "facility",
+     "name": "Prince Court Medical Centre"
+    },
+    {
+     "id": "malaysia-mhtc-licence",
+     "type": "rule",
+     "name": "Malaysia's healthcare travel registration"
+    },
+    {
+     "id": "mhtc",
+     "type": "org",
+     "name": "Malaysia Healthcare Travel Council"
+    }
+   ],
+   "facilities": 1453,
+   "curated_facilities": 3,
+   "prices": 4,
+   "accreditors": [
+    "jci",
+    "other",
+    "achsi",
+    "mhtc"
+   ],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 450.33853149,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 3.95760036,
+     "year": 2023
+    },
+    "oop": {
+     "value": 37.09352112,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.341,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 4.054,
+     "year": 2023
+    },
+    "beds": {
+     "value": 1.96,
+     "year": 2023
+    },
+    "life": {
+     "value": 76.821,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 13124.5554178269,
+     "year": 2025
+    },
+    "population": {
+     "value": 35977838,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 4333000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 3386000000,
+     "year": 2020
+    }
+   },
+   "destination": "malaysia",
+   "hubs": [
+    "kuala-lumpur",
+    "penang"
+   ],
+   "procedures": [
+    "breast-augmentation",
+    "executive-health-screening"
+   ]
+  },
+  "NG": {
+   "iso2": "NG",
+   "name": "Nigeria",
+   "records": [
+    {
+     "id": "nigeria",
+     "type": "destination",
+     "name": "Nigeria"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 66.82009125,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.19086456,
+     "year": 2023
+    },
+    "oop": {
+     "value": 71.90481567,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.38,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 1.647,
+     "year": 2022
+    },
+    "life": {
+     "value": 54.635,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 1224.25410237743,
+     "year": 2025
+    },
+    "population": {
+     "value": 237527782,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 5265000,
+     "year": 2016
+    },
+    "receipts": {
+     "value": 321000000,
+     "year": 2020
+    }
+   },
+   "destination": "nigeria",
+   "hubs": [],
+   "procedures": []
+  },
+  "NL": {
+   "iso2": "NL",
+   "name": "Netherlands",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 4,
+   "indicators": {
+    "spend_pc": {
+     "value": 6845.14208984,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 10.00551128,
+     "year": 2024
+    },
+    "oop": {
+     "value": 11.78772259,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 3.876,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 11.67,
+     "year": 2022
+    },
+    "beds": {
+     "value": 2.42,
+     "year": 2022
+    },
+    "life": {
+     "value": 81.9658536585366,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 73683.917132794,
+     "year": 2025
+    },
+    "population": {
+     "value": 18087633,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 7265000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 10926200195.3125,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "NO": {
+   "iso2": "NO",
+   "name": "Norway",
+   "records": [
+    {
+     "id": "dnv-healthcare",
+     "type": "org",
+     "name": "DNV Healthcare"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 8296.35546875,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 9.42925453,
+     "year": 2023
+    },
+    "oop": {
+     "value": 13.68724823,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 4.975,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 16.51,
+     "year": 2023
+    },
+    "beds": {
+     "value": 3.3,
+     "year": 2023
+    },
+    "life": {
+     "value": 83.1609756097561,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 94594.1929573987,
+     "year": 2025
+    },
+    "population": {
+     "value": 5610870,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1397000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 2196000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "NP": {
+   "iso2": "NP",
+   "name": "Nepal",
+   "records": [
+    {
+     "id": "nepal",
+     "type": "destination",
+     "name": "Nepal"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 83.96018982,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 6.15843678,
+     "year": 2023
+    },
+    "oop": {
+     "value": 59.38827515,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.011,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 4.092,
+     "year": 2023
+    },
+    "beds": {
+     "value": 0.54,
+     "year": 2023
+    },
+    "life": {
+     "value": 70.636,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 1535.87781246307,
+     "year": 2025
+    },
+    "population": {
+     "value": 29618118,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 230000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 238000000,
+     "year": 2020
+    }
+   },
+   "destination": "nepal",
+   "hubs": [],
+   "procedures": []
+  },
+  "NZ": {
+   "iso2": "NZ",
+   "name": "New Zealand",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 5022.03271484,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 10.06186676,
+     "year": 2024
+    },
+    "oop": {
+     "value": 12.68764019,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 3.611,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 12.3,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.51,
+     "year": 2023
+    },
+    "life": {
+     "value": 82.009756097561,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 49591.0405731713,
+     "year": 2025
+    },
+    "population": {
+     "value": 5324700,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 996000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 10961000000,
+     "year": 2018
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "PA": {
+   "iso2": "PA",
+   "name": "Panama",
+   "records": [
+    {
+     "id": "panama",
+     "type": "destination",
+     "name": "Panama"
+    },
+    {
+     "id": "panama-city",
+     "type": "hub",
+     "name": "Panama City"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 1,
+   "accreditors": [
+    "jci",
+    "other"
+   ],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 1557.81286621,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 8.33022976,
+     "year": 2023
+    },
+    "oop": {
+     "value": 40.45503235,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.625,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.345,
+     "year": 2022
+    },
+    "beds": {
+     "value": 1.95,
+     "year": 2023
+    },
+    "life": {
+     "value": 79.775,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 19789.7308555826,
+     "year": 2025
+    },
+    "population": {
+     "value": 4571189,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 647000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1841000000,
+     "year": 2020
+    }
+   },
+   "destination": "panama",
+   "hubs": [
+    "panama-city"
+   ],
+   "procedures": [
+    "stem-cell-unproven"
+   ]
+  },
+  "PH": {
+   "iso2": "PH",
+   "name": "Philippines",
+   "records": [
+    {
+     "id": "philippines",
+     "type": "destination",
+     "name": "Philippines"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 194.05484009,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 5.10122538,
+     "year": 2023
+    },
+    "oop": {
+     "value": 44.36006165,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.792,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 4.788,
+     "year": 2021
+    },
+    "beds": {
+     "value": 0.97,
+     "year": 2021
+    },
+    "life": {
+     "value": 69.946,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 4170.72347271451,
+     "year": 2025
+    },
+    "population": {
+     "value": 116786962,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1483000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 2769000000,
+     "year": 2020
+    }
+   },
+   "destination": "philippines",
+   "hubs": [],
+   "procedures": []
+  },
+  "PK": {
+   "iso2": "PK",
+   "name": "Pakistan",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 30.48608398,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 2.51988316,
+     "year": 2023
+    },
+    "oop": {
+     "value": 52.93231964,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.16,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 0.52,
+     "year": 2021
+    },
+    "beds": {
+     "value": 0.63,
+     "year": 2020
+    },
+    "life": {
+     "value": 67.799,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 1595.90912252837,
+     "year": 2025
+    },
+    "population": {
+     "value": 255219554,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 966000,
+     "year": 2012
+    },
+    "receipts": {
+     "value": 765000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "PL": {
+   "iso2": "PL",
+   "name": "Poland",
+   "records": [
+    {
+     "id": "poland",
+     "type": "destination",
+     "name": "Poland"
+    },
+    {
+     "id": "warsaw",
+     "type": "hub",
+     "name": "Warsaw"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 11,
+   "accreditors": [],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 2014.12780762,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 8.06380177,
+     "year": 2024
+    },
+    "oop": {
+     "value": 16.20527458,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 4.031,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 6.325,
+     "year": 2022
+    },
+    "beds": {
+     "value": 6.04,
+     "year": 2022
+    },
+    "life": {
+     "value": 78.409756097561,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 28419.5777395638,
+     "year": 2025
+    },
+    "population": {
+     "value": 36435861,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 88515000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 8379000000,
+     "year": 2020
+    }
+   },
+   "destination": "poland",
+   "hubs": [
+    "warsaw"
+   ],
+   "procedures": [
+    "abdominoplasty",
+    "bbl",
+    "breast-augmentation",
+    "dental-crown",
+    "dental-implant",
+    "facelift",
+    "liposuction",
+    "rhinoplasty",
+    "root-canal",
+    "veneers"
+   ]
+  },
+  "PT": {
+   "iso2": "PT",
+   "name": "Portugal",
+   "records": [
+    {
+     "id": "portugal",
+     "type": "destination",
+     "name": "Portugal"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 2971.03930664,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 10.24061108,
+     "year": 2024
+    },
+    "oop": {
+     "value": 28.19350624,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 5.851,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 8.009,
+     "year": 2023
+    },
+    "beds": {
+     "value": 3.48,
+     "year": 2022
+    },
+    "life": {
+     "value": 82.3829268292683,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 32081.8106150292,
+     "year": 2025
+    },
+    "population": {
+     "value": 10804871,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 4208000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 10522000000,
+     "year": 2020
+    }
+   },
+   "destination": "portugal",
+   "hubs": [],
+   "procedures": []
+  },
+  "RO": {
+   "iso2": "RO",
+   "name": "Romania",
+   "records": [
+    {
+     "id": "romania",
+     "type": "destination",
+     "name": "Romania"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 1050.99755859,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 5.70901489,
+     "year": 2023
+    },
+    "oop": {
+     "value": 22.96146011,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.625,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 8.253,
+     "year": 2022
+    },
+    "beds": {
+     "value": 7.23,
+     "year": 2022
+    },
+    "life": {
+     "value": 76.4585365853659,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 22537.9532108047,
+     "year": 2025
+    },
+    "population": {
+     "value": 19020271,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 5023000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1611000000,
+     "year": 2020
+    }
+   },
+   "destination": "romania",
+   "hubs": [],
+   "procedures": []
+  },
+  "RU": {
+   "iso2": "RU",
+   "name": "Russia",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 1003.33166504,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 7.04438496,
+     "year": 2023
+    },
+    "oop": {
+     "value": 28.39422226,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 5.111,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 7.039,
+     "year": 2022
+    },
+    "beds": {
+     "value": 6.81,
+     "year": 2023
+    },
+    "life": {
+     "value": 73.4404878048781,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 17546.609375,
+     "year": 2025
+    },
+    "population": {
+     "value": 143513328,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 6359000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 4961000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "SA": {
+   "iso2": "SA",
+   "name": "Saudi Arabia",
+   "records": [
+    {
+     "id": "saudi-arabia",
+     "type": "destination",
+     "name": "Saudi Arabia"
+    },
+    {
+     "id": "cbahi",
+     "type": "org",
+     "name": "Saudi Central Board for Accreditation of Healthcare Institutions"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [
+    "isqua-eea"
+   ],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 1825.2545166,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 5.68722248,
+     "year": 2023
+    },
+    "oop": {
+     "value": 14.11603928,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.406,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 6.557,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.41,
+     "year": 2023
+    },
+    "life": {
+     "value": 78.982,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 34536.6555456551,
+     "year": 2025
+    },
+    "population": {
+     "value": 36973555,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 20292000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 5960000000,
+     "year": 2020
+    }
+   },
+   "destination": "saudi-arabia",
+   "hubs": [],
+   "procedures": []
+  },
+  "SE": {
+   "iso2": "SE",
+   "name": "Sweden",
+   "records": [],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 2,
+   "indicators": {
+    "spend_pc": {
+     "value": 6484.76464844,
+     "year": 2024
+    },
+    "spend_gdp": {
+     "value": 11.21510124,
+     "year": 2024
+    },
+    "oop": {
+     "value": 13.3813858,
+     "year": 2024
+    },
+    "doctors": {
+     "value": 4.408,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 11.67,
+     "year": 2021
+    },
+    "beds": {
+     "value": 1.9,
+     "year": 2022
+    },
+    "life": {
+     "value": 84.0634146341463,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 63133.2126736715,
+     "year": 2025
+    },
+    "population": {
+     "value": 10596620,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 1957000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 10674000000,
+     "year": 2010
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "SG": {
+   "iso2": "SG",
+   "name": "Singapore",
+   "records": [
+    {
+     "id": "singapore",
+     "type": "destination",
+     "name": "Singapore"
+    },
+    {
+     "id": "singapore-city",
+     "type": "hub",
+     "name": "Singapore"
+    },
+    {
+     "id": "mount-elizabeth",
+     "type": "facility",
+     "name": "Mount Elizabeth Hospital"
+    },
+    {
+     "id": "raffles-hospital",
+     "type": "facility",
+     "name": "Raffles Hospital"
+    }
+   ],
+   "facilities": 2,
+   "curated_facilities": 2,
+   "prices": 3,
+   "accreditors": [
+    "jci"
+   ],
+   "legality_rows": 3,
+   "indicators": {
+    "spend_pc": {
+     "value": 3921.60253906,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.49163246,
+     "year": 2023
+    },
+    "oop": {
+     "value": 25.41850281,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.834,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 6.559,
+     "year": 2022
+    },
+    "beds": {
+     "value": 2.81,
+     "year": 2023
+    },
+    "life": {
+     "value": 83.3463414634146,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 98813.9788172877,
+     "year": 2025
+    },
+    "population": {
+     "value": 6111175,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2742000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 20416000000,
+     "year": 2018
+    }
+   },
+   "destination": "singapore",
+   "hubs": [
+    "singapore-city"
+   ],
+   "procedures": [
+    "executive-health-screening"
+   ]
+  },
+  "TH": {
+   "iso2": "TH",
+   "name": "Thailand",
+   "records": [
+    {
+     "id": "thailand",
+     "type": "destination",
+     "name": "Thailand"
+    },
+    {
+     "id": "bangkok",
+     "type": "hub",
+     "name": "Bangkok"
+    },
+    {
+     "id": "chiang-mai",
+     "type": "hub",
+     "name": "Chiang Mai"
+    },
+    {
+     "id": "phuket",
+     "type": "hub",
+     "name": "Phuket"
+    },
+    {
+     "id": "bangkok-hospital",
+     "type": "facility",
+     "name": "Bangkok Hospital"
+    },
+    {
+     "id": "bumrungrad",
+     "type": "facility",
+     "name": "Bumrungrad International Hospital"
+    },
+    {
+     "id": "samitivej",
+     "type": "facility",
+     "name": "Samitivej Sukhumvit Hospital"
+    },
+    {
+     "id": "thai-medical-visa",
+     "type": "rule",
+     "name": "Thailand's medical treatment visa"
+    },
+    {
+     "id": "defiant",
+     "type": "org",
+     "name": "Defiant"
+    },
+    {
+     "id": "thai-ha-institute",
+     "type": "org",
+     "name": "Healthcare Accreditation Institute"
+    }
+   ],
+   "facilities": 728,
+   "curated_facilities": 3,
+   "prices": 64,
+   "accreditors": [
+    "ha-moh-th",
+    "jci",
+    "newsweek-statista",
+    "isqua-eea"
+   ],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 326.50482178,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.53787661,
+     "year": 2023
+    },
+    "oop": {
+     "value": 9.93404865,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.541,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 3.572,
+     "year": 2023
+    },
+    "beds": {
+     "value": 2.39,
+     "year": 2023
+    },
+    "life": {
+     "value": 76.564,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 8056.56359761558,
+     "year": 2025
+    },
+    "population": {
+     "value": 71619863,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 39916000,
+     "year": 2019
+    },
+    "receipts": {
+     "value": 15360000000,
+     "year": 2020
+    }
+   },
+   "destination": "thailand",
+   "hubs": [
+    "bangkok",
+    "chiang-mai",
+    "phuket"
+   ],
+   "procedures": [
+    "abdominoplasty",
+    "acl-reconstruction",
+    "addiction-rehab",
+    "all-on-four",
+    "angioplasty-stent",
+    "breast-augmentation",
+    "cabg",
+    "cataract-surgery",
+    "dental-crown",
+    "dental-implant",
+    "dialysis-holiday",
+    "disc-replacement",
+    "egg-freezing",
+    "executive-health-screening",
+    "facelift",
+    "full-mouth-restoration",
+    "gallbladder-removal",
+    "hair-transplant-fue",
+    "heart-valve-replacement",
+    "hernia-repair",
+    "hip-replacement",
+    "hysterectomy",
+    "icl",
+    "knee-arthroscopy",
+    "knee-replacement",
+    "lasik",
+    "liposuction",
+    "phalloplasty",
+    "prostatectomy",
+    "rhinoplasty",
+    "root-canal",
+    "shoulder-replacement",
+    "spinal-fusion",
+    "top-surgery",
+    "vaginoplasty",
+    "veneers"
+   ]
+  },
+  "TN": {
+   "iso2": "TN",
+   "name": "Tunisia",
+   "records": [
+    {
+     "id": "tunisia",
+     "type": "destination",
+     "name": "Tunisia"
+    },
+    {
+     "id": "tunis",
+     "type": "hub",
+     "name": "Tunis"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 317.70983887,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 7.98537874,
+     "year": 2023
+    },
+    "oop": {
+     "value": 37.93983841,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.315,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 2.161,
+     "year": 2021
+    },
+    "beds": {
+     "value": 1.82,
+     "year": 2023
+    },
+    "life": {
+     "value": 76.711,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 4656.63818386852,
+     "year": 2025
+    },
+    "population": {
+     "value": 12348573,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 2012000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 1007000000,
+     "year": 2020
+    }
+   },
+   "destination": "tunisia",
+   "hubs": [
+    "tunis"
+   ],
+   "procedures": []
+  },
+  "TR": {
+   "iso2": "TR",
+   "name": "Turkey",
+   "records": [
+    {
+     "id": "turkiye",
+     "type": "destination",
+     "name": "Türkiye"
+    },
+    {
+     "id": "antalya",
+     "type": "hub",
+     "name": "Antalya"
+    },
+    {
+     "id": "istanbul",
+     "type": "hub",
+     "name": "Istanbul"
+    },
+    {
+     "id": "izmir",
+     "type": "hub",
+     "name": "İzmir"
+    },
+    {
+     "id": "acibadem",
+     "type": "facility",
+     "name": "Acıbadem Healthcare Group"
+    },
+    {
+     "id": "anadolu-medical-center",
+     "type": "facility",
+     "name": "Anadolu Medical Center"
+    },
+    {
+     "id": "liv-hospital",
+     "type": "facility",
+     "name": "Liv Hospital"
+    },
+    {
+     "id": "medicana",
+     "type": "facility",
+     "name": "Medicana Health Group"
+    },
+    {
+     "id": "memorial-sisli",
+     "type": "facility",
+     "name": "Memorial Şişli Hospital"
+    },
+    {
+     "id": "turkiye-health-tourism-authorisation",
+     "type": "rule",
+     "name": "Türkiye's international health tourism authorisation certificate"
+    },
+    {
+     "id": "turkiye-health-services-directorate",
+     "type": "org",
+     "name": "Türkiye General Directorate of Health Services"
+    },
+    {
+     "id": "istanbul-declaration-2008",
+     "type": "event",
+     "name": "The Declaration of Istanbul, 2008"
+    },
+    {
+     "id": "turkiye-hair-boom",
+     "type": "event",
+     "name": "Türkiye's hair transplant boom"
+    }
+   ],
+   "facilities": 1600,
+   "curated_facilities": 5,
+   "prices": 11,
+   "accreditors": [
+    "jci",
+    "moh-tr",
+    "other"
+   ],
+   "legality_rows": 5,
+   "indicators": {
+    "spend_pc": {
+     "value": 547.8145752,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.27524424,
+     "year": 2023
+    },
+    "oop": {
+     "value": 19.04723167,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 2.236,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 3.483,
+     "year": 2022
+    },
+    "beds": {
+     "value": 3.05,
+     "year": 2023
+    },
+    "life": {
+     "value": 77.421,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 18599.4420922378,
+     "year": 2025
+    },
+    "population": {
+     "value": 85878556,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 15971000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 13771000000,
+     "year": 2020
+    }
+   },
+   "destination": "turkiye",
+   "hubs": [
+    "antalya",
+    "istanbul",
+    "izmir"
+   ],
+   "procedures": [
+    "dhi-hair-transplant",
+    "dialysis-holiday",
+    "executive-health-screening",
+    "gastric-sleeve",
+    "hair-transplant-fue"
+   ]
+  },
+  "TW": {
+   "iso2": "TW",
+   "name": "Taiwan",
+   "records": [
+    {
+     "id": "taiwan",
+     "type": "destination",
+     "name": "Taiwan"
+    },
+    {
+     "id": "taipei",
+     "type": "hub",
+     "name": "Taipei"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {},
+   "destination": "taiwan",
+   "hubs": [
+    "taipei"
+   ],
+   "procedures": []
+  },
+  "UA": {
+   "iso2": "UA",
+   "name": "Ukraine",
+   "records": [],
+   "facilities": 1,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {
+    "spend_pc": {
+     "value": 369.90487671,
+     "year": 2021
+    },
+    "spend_gdp": {
+     "value": 8.2027483,
+     "year": 2021
+    },
+    "oop": {
+     "value": 45.29367447,
+     "year": 2021
+    },
+    "doctors": {
+     "value": 3.531,
+     "year": 2023
+    },
+    "nurses": {
+     "value": 6.079,
+     "year": 2023
+    },
+    "beds": {
+     "value": 6.14,
+     "year": 2022
+    },
+    "life": {
+     "value": 74.692,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 5865.884765625,
+     "year": 2025
+    },
+    "population": {
+     "value": 38980376,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 3382000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 687000000,
+     "year": 2020
+    }
+   },
+   "destination": null,
+   "hubs": [],
+   "procedures": []
+  },
+  "US": {
+   "iso2": "US",
+   "name": "United States of America",
+   "records": [
+    {
+     "id": "united-states",
+     "type": "destination",
+     "name": "United States"
+    },
+    {
+     "id": "us-medicare-abroad",
+     "type": "rule",
+     "name": "Medicare outside the United States"
+    },
+    {
+     "id": "aaci",
+     "type": "org",
+     "name": "American Accreditation Commission International"
+    },
+    {
+     "id": "gha",
+     "type": "org",
+     "name": "Global Healthcare Accreditation"
+    },
+    {
+     "id": "isaps",
+     "type": "org",
+     "name": "International Society of Aesthetic Plastic Surgery"
+    },
+    {
+     "id": "ishrs",
+     "type": "org",
+     "name": "International Society of Hair Restoration Surgery"
+    },
+    {
+     "id": "jci",
+     "type": "org",
+     "name": "Joint Commission International"
+    },
+    {
+     "id": "medical-tourism-association",
+     "type": "org",
+     "name": "Medical Tourism Association"
+    },
+    {
+     "id": "josef-woodman",
+     "type": "person",
+     "name": "Josef Woodman"
+    },
+    {
+     "id": "leigh-turner",
+     "type": "person",
+     "name": "Leigh Turner"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 27,
+   "accreditors": [
+    "isqua-eea"
+   ],
+   "legality_rows": 6,
+   "indicators": {
+    "spend_pc": {
+     "value": 13473.19335938,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 16.69414902,
+     "year": 2023
+    },
+    "oop": {
+     "value": 10.92723846,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 3.681,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 13.38,
+     "year": 2022
+    },
+    "beds": {
+     "value": 2.68,
+     "year": 2022
+    },
+    "life": {
+     "value": 78.890243902439,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 90026.5163005744,
+     "year": 2025
+    },
+    "population": {
+     "value": 341784857,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 45037000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 84205000000,
+     "year": 2020
+    }
+   },
+   "destination": "united-states",
+   "hubs": [],
+   "procedures": [
+    "abdominoplasty",
+    "abortion-care",
+    "bbl",
+    "bone-marrow-transplant",
+    "breast-augmentation",
+    "cabg",
+    "car-t",
+    "dialysis-holiday",
+    "egg-donation",
+    "facelift",
+    "gastric-balloon",
+    "ivf",
+    "kidney-transplant",
+    "lasik",
+    "liposuction",
+    "liver-transplant",
+    "pgt",
+    "phalloplasty",
+    "rhinoplasty",
+    "surrogacy",
+    "top-surgery",
+    "vaginoplasty"
+   ]
+  },
+  "VN": {
+   "iso2": "VN",
+   "name": "Vietnam",
+   "records": [
+    {
+     "id": "vietnam",
+     "type": "destination",
+     "name": "Vietnam"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 0,
+   "indicators": {
+    "spend_pc": {
+     "value": 197.19210815,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 4.56109476,
+     "year": 2023
+    },
+    "oop": {
+     "value": 39.20284653,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 1.107,
+     "year": 2021
+    },
+    "nurses": {
+     "value": 1.441,
+     "year": 2016
+    },
+    "beds": {
+     "value": 2.52,
+     "year": 2017
+    },
+    "life": {
+     "value": 74.736,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 5065.99091899299,
+     "year": 2025
+    },
+    "population": {
+     "value": 101598527,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 3837000,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 3232000000,
+     "year": 2020
+    }
+   },
+   "destination": "vietnam",
+   "hubs": [],
+   "procedures": []
+  },
+  "XN": {
+   "iso2": "XN",
+   "name": "N. Cyprus",
+   "records": [
+    {
+     "id": "north-cyprus",
+     "type": "destination",
+     "name": "Northern Cyprus"
+    }
+   ],
+   "facilities": 0,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 1,
+   "indicators": {},
+   "destination": "north-cyprus",
+   "hubs": [],
+   "procedures": []
+  },
+  "ZA": {
+   "iso2": "ZA",
+   "name": "South Africa",
+   "records": [
+    {
+     "id": "south-africa",
+     "type": "destination",
+     "name": "South Africa"
+    },
+    {
+     "id": "johannesburg",
+     "type": "hub",
+     "name": "Johannesburg"
+    }
+   ],
+   "facilities": 206,
+   "curated_facilities": 0,
+   "prices": 0,
+   "accreditors": [],
+   "legality_rows": 5,
+   "indicators": {
+    "spend_pc": {
+     "value": 536.58843994,
+     "year": 2023
+    },
+    "spend_gdp": {
+     "value": 8.90966797,
+     "year": 2023
+    },
+    "oop": {
+     "value": 6.69263172,
+     "year": 2023
+    },
+    "doctors": {
+     "value": 0.794,
+     "year": 2022
+    },
+    "nurses": {
+     "value": 6.393,
+     "year": 2022
+    },
+    "beds": {
+     "value": 2.25,
+     "year": 2010
+    },
+    "life": {
+     "value": 66.312,
+     "year": 2024
+    },
+    "gdp_pc": {
+     "value": 6597.71450918774,
+     "year": 2025
+    },
+    "population": {
+     "value": 64747319,
+     "year": 2025
+    },
+    "arrivals": {
+     "value": 3886600.09765625,
+     "year": 2020
+    },
+    "receipts": {
+     "value": 2716000000,
+     "year": 2020
+    }
+   },
+   "destination": "south-africa",
+   "hubs": [
+    "johannesburg"
+   ],
+   "procedures": []
+  }
+ }
+}

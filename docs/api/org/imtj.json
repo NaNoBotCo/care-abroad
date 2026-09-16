@@ -1,0 +1,286 @@
+{
+ "schema": 1,
+ "id": "imtj",
+ "type": "org",
+ "names": {
+  "name": "International Medical Travel Journal",
+  "aliases": [
+   "IMTJ"
+  ],
+  "said": "A trade publication, not a peer-reviewed journal, and the word journal in the title does a lot of work."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "trade-body",
+  "iso2": "GB",
+  "founded": 2007,
+  "status": "unknown"
+ },
+ "text": {
+  "what": "A British trade publication covering cross-border care, established in 2007 and edited by Keith Pollard. It publishes a biweekly newsletter and news coverage, sells market reports, and runs an annual summit and the Medical Travel Awards. It was published by Intuition Communication of Berkhamsted, which LaingBuisson acquired.",
+  "story": "The field has two houses that publish about itself, and this is the sceptical one. Its news coverage has spent years pulling apart the market-size claims the rest of the trade repeats, which makes it unusually useful and does not make it disinterested: it sells reports, sponsorship, conference places and award entries into the same industry it covers.\n\nThe awards are judged by a panel — reported as 21 medical travel experts chaired by the editor — and entrants pay to enter, which is the standard shape of a trade award. *Inference —* a trade award is evidence that a company entered a competition and a panel preferred its entry. It is not an inspection, it has no standard behind it, and it should never be counted alongside an accreditation.\n\nIts market reports are sold rather than published, so their methods sit behind a price. This record cannot say what is in them.\n\nThe ownership chain is documented. Intuition Communication, a Berkhamsted publisher, held the title from 2009; LaingBuisson announced the acquisition of Intuition on 1 March 2018, and Companies House records the renaming of company 04858023 from Intuition Communication Limited on 5 March 2018 and its dissolution on 14 March 2023, by which time the brand had moved to the parent. Who founded the journal in 2007 is not on the record anywhere this project could read.",
+  "how": "Revenue comes from advertising, sponsorship, market report sales, the summit and the awards. Much of the news is free to read; the reports are not. IMTJ's own site refused every fetch from this project on 16 September 2026, so this record rests on the secondary source named in sources and the record is thinner than it should be.",
+  "today": "As of 17 September 2026 the title looks dormant rather than active, and this record says so because the alternative is to repeat a claim the sources do not support. imtj.com answers automated requests with a Cloudflare challenge and its article URLs return 301 or 401 rather than pages; the LaingBuisson News category for IMTJ, captured on 10 September 2026, carries nothing newer than November 2023; awards.imtj.com no longer resolves; and summit.imtj.com redirects to a generic events homepage. Keith Pollard's own site describes him as editor in chief and adds that the journal's future \"is currently under review by LaingBuisson\" — wording already present in a September 2024 capture, so it dates the statement rather than the state. Whether the journal has formally ceased is not something this project could establish."
+ },
+ "geo": {
+  "lat": 51.76,
+  "lon": -0.565,
+  "precision": "city",
+  "source": "s:imtj-wikipedia"
+ },
+ "address": {
+  "city": "Berkhamsted",
+  "country": "GB"
+ },
+ "kin": [
+  {
+   "to": "keith-pollard",
+   "as": "Its editor in chief, and the founder of the company that published it.",
+   "rel": "person"
+  },
+  {
+   "to": "imtj-summit",
+   "as": "The annual conference it runs, and part of how it is paid.",
+   "rel": "event"
+  },
+  {
+   "to": "medical-tourism-association",
+   "as": "The other house that publishes about this trade, from inside a membership body.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where its long argument with the industry's headline numbers is set out.",
+   "rel": "story"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The two words it put in its title, in preference to the other two.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "IMTJ",
+   "url": "https://www.imtj.com/"
+  }
+ ],
+ "sources": [
+  "s:imtj-wikipedia",
+  "s:imtj-about-2010-archive",
+  "s:imtj-about-2021-archive",
+  "s:laingbuisson-intuition-2018",
+  "s:ch-laingbuisson-international",
+  "s:keithpollard-about",
+  "s:laingbuissonnews-imtj-archive"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the publisher, the Berkhamsted base, the LaingBuisson acquisition and the 21-judge panel come from trade press this project read only in search summaries; the closing inference is marked inline"
+   },
+   "geo": {
+    "tier": "tradition",
+    "note": "Berkhamsted was the publisher's base; city precision, not confirmed on a page read directly"
+   }
+  }
+ },
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A British trade publication covering cross-border care, established in 2007 and edited by Keith Pollard.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "keith-pollard",
+   "type": "person",
+   "name": "Keith Pollard",
+   "as": "Its editor in chief, and the founder of the company that published it.",
+   "rel": "person"
+  },
+  {
+   "to": "imtj-summit",
+   "type": "event",
+   "name": "The IMTJ Medical Travel Summit and Awards",
+   "as": "The annual conference it runs, and part of how it is paid.",
+   "rel": "event"
+  },
+  {
+   "to": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The other house that publishes about this trade, from inside a membership body.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Where its long argument with the industry's headline numbers is set out.",
+   "rel": "story"
+  },
+  {
+   "to": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The two words it put in its title, in preference to the other two.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:imtj-wikipedia",
+   "kind": "wikipedia",
+   "title": "International Medical Travel Journal",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/International_Medical_Travel_Journal",
+   "accessed": "2026-09-16",
+   "note": "established 2007, UK trade publication, biweekly newsletter, Keith Pollard as editor in chief, annual Medical Travel Awards; imtj.com refused every fetch on this date"
+  },
+  {
+   "id": "s:imtj-about-2010-archive",
+   "kind": "web",
+   "title": "About us — International Medical Travel Journal (Internet Archive snapshot, 11 January 2010)",
+   "publisher": "IMTJ / Intuition Communication",
+   "url": "https://web.archive.org/web/20100111234956/http://www.imtj.com/about-us/",
+   "accessed": "2026-09-17",
+   "note": "imtj.com answers automated requests with a Cloudflare challenge, so the publication's own pages are read here through the Internet Archive"
+  },
+  {
+   "id": "s:imtj-about-2021-archive",
+   "kind": "web",
+   "title": "About IMTJ, the International Medical Travel Journal (Internet Archive snapshot, 13 April 2021)",
+   "publisher": "IMTJ / LaingBuisson",
+   "url": "https://web.archive.org/web/20210413081607/https://www.imtj.com/about/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:laingbuisson-intuition-2018",
+   "kind": "web",
+   "title": "LaingBuisson announces the acquisition of Intuition Communication, 1 March 2018 (Internet Archive snapshot, 28 September 2023)",
+   "publisher": "LaingBuisson",
+   "year": 2018,
+   "url": "https://web.archive.org/web/20230928012944/https://www.laingbuisson.com/press-releases/laingbuisson-announces-acquisition-intuition-communication/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:ch-laingbuisson-international",
+   "kind": "dataset",
+   "title": "LAINGBUISSON INTERNATIONAL LIMITED, company 04858023 — incorporation, previous names, dissolution",
+   "publisher": "Companies House (United Kingdom)",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/04858023",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:keithpollard-about",
+   "kind": "web",
+   "title": "About Keith / Career history of Keith Pollard",
+   "publisher": "keithpollard.com",
+   "url": "https://keithpollard.com/about/",
+   "accessed": "2026-09-17",
+   "note": "self-reported; the same wording about the journal's future being under review was already on the page in a September 2024 snapshot"
+  },
+  {
+   "id": "s:laingbuissonnews-imtj-archive",
+   "kind": "web",
+   "title": "IMTJ news category (Internet Archive snapshot, 10 September 2026)",
+   "publisher": "LaingBuisson News",
+   "url": "https://web.archive.org/web/20260910213608/https://www.laingbuissonnews.com/category/imtj/",
+   "accessed": "2026-09-17",
+   "note": "the newest item on the page in a September 2026 capture is dated November 2023"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the publisher, the Berkhamsted base, the LaingBuisson acquisition and the 21-judge panel come from trade press this project read only in search summaries; the closing inference is marked inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia"
+  },
+  "geo": {
+   "tier": "tradition",
+   "note": "Berkhamsted was the publisher's base; city precision, not confirmed on a page read directly"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The other side of the trade's own publishing: a commercial journal rather than an association.",
+   "rel": "contrast"
+  },
+  {
+   "from": "keith-pollard",
+   "type": "person",
+   "name": "Keith Pollard",
+   "as": "The journal his company bought in 2009 and he still edits, and the record carrying its ownership chain.",
+   "rel": "org"
+  },
+  {
+   "from": "imtj-summit",
+   "type": "event",
+   "name": "The IMTJ Medical Travel Summit and Awards",
+   "as": "The publication that runs the summit and the awards.",
+   "rel": "org"
+  },
+  {
+   "from": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The trade publisher that chose the other two words.",
+   "rel": "org"
+  },
+  {
+   "from": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The trade publisher that took these two words as its title.",
+   "rel": "org"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Runs a paid-entry trade award that is routinely counted beside an inspection.",
+   "rel": "org"
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "schema": 1,
+ "id": "israel",
+ "type": "destination",
+ "names": {
+  "name": "Israel",
+  "aliases": [
+   "מדינת ישראל",
+   "State of Israel"
+  ],
+  "said": "The trade means the big public teaching hospitals — Sheba at Tel HaShomer, Hadassah in Jerusalem, Ichilov in Tel Aviv — selling a foreign patient a slot in a system built for residents. That is the arrangement the 2018 statute was written about."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "IL",
+  "direction": "inbound",
+  "currency": "ILS",
+  "languages": [
+   "Hebrew",
+   "Arabic",
+   "English",
+   "Russian"
+  ],
+  "draws": [
+   "ivf",
+   "proton-therapy",
+   "bone-marrow-transplant",
+   "car-t"
+  ]
+ },
+ "text": {
+  "what": "A small inbound trade run largely inside public hospitals, regulated since 2019 by a statute that exists to stop foreign patients from displacing Israeli ones. The Ministry of Health puts arrivals at roughly 30,000 a year on Ministry of Tourism data, most of them from Russia, Ukraine, eastern Europe, Cyprus and neighbouring countries. Israel also sits inside a system of movement permits that determines whether Palestinian patients referred out of the occupied territory reach their appointments, and that system is counted separately, by the World Health Organization.",
+  "story": "The commercial argument arrived before the law did: public hospitals with spare theatre capacity, salaried consultants, and foreign patients paying cash rates several times the domestic tariff. The counter-argument was that an Israeli patient waiting for the same theatre was being moved down a list. The Knesset settled it in statute. The Medical Tourism Law, 5778-2018 came into force on 29 January 2019, and the Ministry of Health describes its purpose in those terms — \"to prevent negative impact on the treatment provided to the Israeli patient, to increase revenues to the Israeli economy from medical tourism activity and to ensure professional and ethical treatment of the medical tourist\".\n\nWhat the law does is register the middlemen and bind the hospitals. Agents must appear on a Ministry of Health register and operate to the statute; an institution treating a foreign patient must send a written invitation setting out the treatment offered and its price quote, and may not give that patient preference over a non-travelling one in appointments, admission or hotel services. *Inference —* a rule that has to say a paying foreigner may not be given the earlier slot is a rule written because that was happening.\n\nSeparately, and on a different footing, Palestinians from the West Bank and Gaza Strip referred to hospitals in East Jerusalem, Israel or abroad require an Israeli-issued permit to travel. WHO's report to the Seventy-sixth World Health Assembly, dated 17 May 2023, records that in 2022 a third — 33 per cent, over 6,500 — of the 20,295 patient permit applications from the Gaza Strip were not approved in time for the hospital appointment, and 15 per cent, over 13,000, of the 87,721 patient permit applications from the West Bank were denied. Approval varied by reason for referral: 87 per cent for oncology against 58 per cent for neurology among Gaza patients in December 2022. Companions fared worse: 62 per cent of 26,461 companion applications from Gaza were not approved by the date of the patient's appointment.",
+  "how": "An inbound patient is quoted in writing by the institution, books through a registered agent or directly, and is treated in a department whose main work is domestic. Fertility, oncology and bone-marrow work are the specialties most often named. Payment is private and priced separately from the national health basket. A referral out of the occupied Palestinian territory follows a different route entirely: a Palestinian Ministry of Health referral, a permit application, and an appointment that may or may not survive the permit's timing.",
+  "today": "As of September 2026 the Ministry of Health's own published estimate — roughly 30,000 arrivals a year — is the figure this record carries, and it is an estimate credited to the Ministry of Tourism rather than a register of treated patients. The 2018 law is in force. The permit figures above are the most recent annual set this project read in a WHO governing-body document.",
+  "notes": "Two different things are described on this page and they are not the same subject: a priced private trade, and an access regime measured in permit approvals. This record reports both and argues neither."
+ },
+ "geo": {
+  "lat": 32.0853,
+  "lon": 34.7818,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "inbound_patients_year": 30000,
+  "note": "The Israeli Ministry of Health's page puts arrivals for medical treatment at approximately 30,000 a year, citing Ministry of Tourism data; published November 2021 and updated March 2023. It is an arrivals estimate, not a count of treated patients, and it carries no year of its own. Leading origins are given as Russia, Ukraine, eastern European countries, Cyprus and other neighbouring countries.",
+  "as_of": "2023",
+  "source": "s:israel-moh-medical-tourism",
+  "url": "https://www.gov.il/en/pages/medical-tourism-israel"
+ },
+ "kin": [
+  {
+   "to": "tel-aviv",
+   "as": "Where most of the inbound work is done.",
+   "rel": "part"
+  },
+  {
+   "to": "sheba",
+   "as": "One of the public hospitals the trade runs through.",
+   "rel": "part"
+  },
+  {
+   "to": "hadassah",
+   "as": "The Jerusalem teaching hospital that takes referrals from across the region and beyond it.",
+   "rel": "part"
+  },
+  {
+   "to": "jordan",
+   "as": "The neighbour whose regional trade is several times larger and regulated by a trade body rather than a statute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "Registered agents and written price quotes are what this country's statute requires of the middle layer.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "facilitator",
+   "as": "The role this country put on a public register in 2019.",
+   "rel": "term"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "Counted here in permit refusals: most Gaza companion applications in 2022 were not approved in time.",
+   "rel": "risk"
+  },
+  {
+   "to": "ivf",
+   "as": "One of the treatments the inbound flow is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "who",
+   "as": "The body that counts the permit approvals this page reports.",
+   "rel": "measures"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical Tourism in Israel — Ministry of Health",
+   "url": "https://www.gov.il/en/pages/medical-tourism-israel"
+  },
+  {
+   "label": "WHO A76/15, health conditions in the occupied Palestinian territory",
+   "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_15-en.pdf"
+  }
+ ],
+ "sources": [
+  "s:israel-moh-medical-tourism",
+  "s:loc-israel-medical-tourism-law",
+  "s:who-a76-15-opt",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:who-a76-15-opt",
+    "note": "the law and its purpose are quoted from the Ministry of Health page; the permit figures are quoted from WHO A76/15; the single inference is marked inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the ordinary route, hedged as trade knowledge"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A small inbound trade run largely inside public hospitals, regulated since 2019 by a statute that exists to stop foreign patients from displacing Israeli ones.",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "tel-aviv",
+   "type": "hub",
+   "name": "Tel Aviv",
+   "as": "Where most of the inbound work is done.",
+   "rel": "part"
+  },
+  {
+   "to": "sheba",
+   "type": "facility",
+   "name": "Sheba Medical Center",
+   "as": "One of the public hospitals the trade runs through.",
+   "rel": "part"
+  },
+  {
+   "to": "hadassah",
+   "type": "facility",
+   "name": "Hadassah Medical Center",
+   "as": "The Jerusalem teaching hospital that takes referrals from across the region and beyond it.",
+   "rel": "part"
+  },
+  {
+   "to": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "The neighbour whose regional trade is several times larger and regulated by a trade body rather than a statute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "Registered agents and written price quotes are what this country's statute requires of the middle layer.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The role this country put on a public register in 2019.",
+   "rel": "term"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "Counted here in permit refusals: most Gaza companion applications in 2022 were not approved in time.",
+   "rel": "risk"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "One of the treatments the inbound flow is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "The body that counts the permit approvals this page reports.",
+   "rel": "measures"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:israel-moh-medical-tourism",
+   "kind": "gov",
+   "title": "Medical Tourism in Israel",
+   "publisher": "Israel Ministry of Health",
+   "url": "https://www.gov.il/en/pages/medical-tourism-israel",
+   "accessed": "2026-09-16",
+   "note": "published 15 November 2021, updated 20 March 2023; carries the Ministry of Tourism's arrivals estimate and the ministry's account of the 2018 law"
+  },
+  {
+   "id": "s:loc-israel-medical-tourism-law",
+   "kind": "law",
+   "title": "Israel: Knesset Passes Medical Tourism Legislation",
+   "publisher": "Library of Congress, Global Legal Monitor",
+   "url": "https://www.loc.gov/item/global-legal-monitor/2018-09-25/israel-knesset-passes-medical-tourism-legislation/",
+   "accessed": "2026-09-16",
+   "note": "names the instrument as the Medical Tourism Law, 5778-2018, passed 18 July 2018. The page would not open for this project on the access date — a bot check stood in front of it — so the provisions here were taken from the Israeli Ministry of Health's own summary and flagged for verification against the statute."
+  },
+  {
+   "id": "s:who-a76-15-opt",
+   "kind": "org",
+   "title": "Health conditions in the occupied Palestinian territory, including east Jerusalem, and in the occupied Syrian Golan — Report by the Director-General (A76/15)",
+   "publisher": "World Health Organization, Seventy-sixth World Health Assembly",
+   "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_15-en.pdf",
+   "accessed": "2026-09-16",
+   "note": "dated 17 May 2023; paragraphs 21 and 22 carry the 2022 permit application and approval counts for patients and their companions. Permit data for the Gaza Strip is attributed in the report to the Health Liaison Office of the Palestinian Ministry of Health."
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:who-a76-15-opt",
+   "note": "the law and its purpose are quoted from the Ministry of Health page; the permit figures are quoted from WHO A76/15; the single inference is marked inline"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the ordinary route, hedged as trade knowledge"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "The neighbour whose inbound trade is a tenth the size and regulated by statute.",
+   "rel": "contrast"
+  },
+  {
+   "from": "tel-aviv",
+   "type": "hub",
+   "name": "Tel Aviv",
+   "as": "The country whose registration requirement governs the agents who bring patients here.",
+   "rel": "whole"
+  },
+  {
+   "from": "hadassah",
+   "type": "facility",
+   "name": "Hadassah Medical Center",
+   "as": "Jerusalem's teaching hospital, owned by an American organisation and governed by Israel's 2018 medical tourism law.",
+   "rel": "destination"
+  },
+  {
+   "from": "sheba",
+   "type": "facility",
+   "name": "Sheba Medical Center",
+   "as": "The country's largest hospital, and the one the 2018 medical tourism law was written around.",
+   "rel": "destination"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "Where reaching a hospital is decided by a permit, and the permits are counted by WHO.",
+   "rel": "destination"
+  }
+ ]
+}

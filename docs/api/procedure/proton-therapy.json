@@ -1,0 +1,405 @@
+{
+ "schema": 1,
+ "id": "proton-therapy",
+ "type": "procedure",
+ "names": {
+  "name": "Proton beam therapy",
+  "aliases": [
+   "proton therapy",
+   "PBT",
+   "proton beam radiotherapy",
+   "particle therapy"
+  ],
+  "said": "Oncologists say protons, or PBT. PTCOG, the field's own body, counts particle therapy, which lumps protons together with carbon ions; a country that has one carbon-ion room and no proton room still appears on that map."
+ },
+ "etymology": {
+  "root": "proton: Greek prōton, the neuter of prōtos, first — the first and lightest of the nuclear particles. Therapy: Greek therapeia, attendance on the sick.",
+  "tier": "tradition",
+  "note": "particle therapy is the wider term and includes carbon-ion treatment, which is a different beam in a different and much rarer machine. Counts published under one name rarely mean the other."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "oncology",
+  "setting": "outpatient-course",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "Radiotherapy delivered with protons instead of X-rays. A proton slows as it travels through tissue and releases most of its energy at the point where it stops, so a beam aimed to stop inside a tumour deposits its dose there and little beyond it. Cancer Research UK puts it plainly: protons \"treat cancer by producing a sudden burst of energy when they stop\", destroying the tumour and causing \"little damage to the nearby healthy cells\". The treatment is given daily over weeks, with no hospital admission, and the machine that produces the beam costs more than most hospitals.",
+  "story": "This operation travels because of where the machine is, not what it costs. PTCOG, the Particle Therapy Co-Operative Group, keeps the field's register; its public world map gave 128 particle therapy facilities in clinical operation worldwide when it was read for this record on 16 September 2026, and its list of individual facilities is behind a login. A 2026 review in Frontiers in Oncology, citing PTCOG, reports that \"by the end of 2024, there were over 120 operational proton therapy centers worldwide, primarily distributed across North America, Europe, and East Asia, with the total number of treated patients exceeding 450,000\". Its country table, whose own heading calls the figures approximate, gives 45 or more in the United States, 25 or more in Japan, 15 or more across the smaller European countries, 10 or more in China, eight in Germany, four each in the United Kingdom and France — and one each in Canada, Australia, India and the Middle East.\n\n*Inference —* that distribution is the whole of the subject here. A patient in a country with one centre, or none, is not choosing between a price at home and a price abroad. There is nothing at home to price.\n\nThe clearest case is a state doing the travelling. England's National Health Service began the Proton Overseas Programme in 2008 and sent patients to ProCure in Oklahoma City and to the University of Florida Proton Therapy Institute while it built its own centres. Its patient guide says the medical costs are paid centrally, that \"the NHS will fund economy travel costs for the patient and a carer\", and that \"the NHS will not fund the cost of meals or refreshments\". Between 2008 and September 2020 the programme treated 830 patients for central nervous system, base of skull, spinal and paraspinal tumours, and 495 for tumours elsewhere. In the second group the median age was 11 and 70.3% were under 16. The UK centres at the Christie in Manchester and University College London Hospital have since opened; NHS National Services Scotland still states, on a page published 10 December 2025, that \"travel abroad may still be a requirement for some patients, depending upon individual clinical assessments\".\n\n*Trade practice —* the field calls the point where the beam stops the Bragg peak, after the physicist who described the effect. The Cancer Research UK page describes the physics without using the phrase.",
+  "how": "A course runs \"between 3 to 7 weeks\", every day from Monday to Friday, with each session taking 30 to 60 minutes in the treatment room. Nobody is admitted: patients live near the centre and attend. The NHS guide for adults travelling abroad says \"on average many patients are abroad for nine weeks\", and that \"most patients are able to fly home immediately after completing their treatment\", which is the opposite of the pattern on every surgical page in this directory. *Trade practice —* small children who cannot hold still are given a general anaesthetic for each daily session, which turns a fifteen-minute treatment into a morning. Indications published by Cancer Research UK are, for adults, \"cancers that develop at the base of the skull or near the spine\", and for children, teenagers and young adults, a longer list.",
+  "today": "No price appears on the proton centre pages read for this record on 16 September 2026: the Proton Therapy Center in Prague, which sells internationally, publishes no price list in either language, and states only that treatment is covered by health insurance. Brokers circulate euro figures for the same centre; this directory does not carry a number it has not read on the provider's own page. PTCOG's own table of facilities under construction, updated June 2026, lists them across sixteen countries, the United States and China with the most — which is to say the map that sends people abroad is being redrawn, slowly, and mostly in the countries that already have centres.",
+  "notes": "This page describes a treatment. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": 0,
+  "recovery_weeks": null,
+  "note": "Nobody is admitted for proton therapy: the ward stay is nil and the stay abroad is measured in weeks, nine on the NHS guide's average. The zero for flying is that guide's statement that most patients fly home immediately after finishing; it is a statement about this treatment only, and does not carry over to the surgery pages in this directory.",
+  "as_of": "2026-09-16",
+  "source": "s:nhs-pbt-adult-guide",
+  "url": "https://www.england.nhs.uk/wp-content/uploads/2013/08/pbt_adult.pdf"
+ },
+ "kin": [
+  {
+   "to": "gamma-knife",
+   "as": "The other machine people cross borders to reach, and the one that does its work in a single day.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "as": "The same shape of scarcity in a vial rather than a building: a treatment you travel to because only certain centres may give it.",
+   "rel": "kin"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Ran a state programme that flew its own patients abroad for eleven years before its centres opened.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "Holds more proton centres than any other country, and took the UK programme's patients.",
+   "rel": "destination"
+  },
+  {
+   "to": "japan",
+   "as": "The densest network of particle therapy centres per head, proton and carbon-ion both.",
+   "rel": "destination"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "as": "The route under which the NHS paid for treatment its own hospitals could not yet give.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "as": "The carer the NHS funded a seat for, on a nine-week absence.",
+   "rel": "step"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "The line where a payer decides this beam is worth the difference, or is not.",
+   "rel": "rule"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "What a course of daily treatment abroad costs beyond the treatment.",
+   "rel": "risk"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "gamma-knife",
+   "tell": "Both are called precise radiation. Proton therapy is a course of daily fractions over weeks in a building the size of a football pitch; gamma knife is one session in an afternoon."
+  }
+ ],
+ "links": [
+  {
+   "label": "PTCOG facilities world map",
+   "url": "https://ptcog.online/facilities-world-map/"
+  },
+  {
+   "label": "NHS England — guide for adults receiving proton beam therapy abroad",
+   "url": "https://www.england.nhs.uk/wp-content/uploads/2013/08/pbt_adult.pdf"
+  }
+ ],
+ "sources": [
+  "s:ptcog-world-map",
+  "s:ptcog-under-construction",
+  "s:frontiers-proton-2026",
+  "s:cruk-proton",
+  "s:nhs-pbt-adult-guide",
+  "s:nss-scotland-pbt",
+  "s:pop-cns-outcomes",
+  "s:pop-noncns-outcomes"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:frontiers-proton-2026",
+    "note": "the centre counts are cited; the paragraph about what a one-centre country means for a patient is marked Inference inline, and the Bragg peak sentence is marked Trade practice"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:cruk-proton",
+    "note": "course length and session length cited; the daily paediatric anaesthetic is marked Trade practice"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Proton therapy gantry.jpg",
+  "File:Bragg Peak.svg"
+ ],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Radiotherapy delivered with protons instead of X-rays. A proton slows as it travels through tissue and releases most of its energy at the point where it stops, so a beam aimed to stop inside a tumour deposits its dose…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "The other machine people cross borders to reach, and the one that does its work in a single day.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "The same shape of scarcity in a vial rather than a building: a treatment you travel to because only certain centres may give it.",
+   "rel": "kin"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "Ran a state programme that flew its own patients abroad for eleven years before its centres opened.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "Holds more proton centres than any other country, and took the UK programme's patients.",
+   "rel": "destination"
+  },
+  {
+   "to": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The densest network of particle therapy centres per head, proton and carbon-ion both.",
+   "rel": "destination"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "type": "rule",
+   "name": "NHS funding for treatment abroad",
+   "as": "The route under which the NHS paid for treatment its own hospitals could not yet give.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The carer the NHS funded a seat for, on a nine-week absence.",
+   "rel": "step"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The line where a payer decides this beam is worth the difference, or is not.",
+   "rel": "rule"
+  },
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "What a course of daily treatment abroad costs beyond the treatment.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ptcog-world-map",
+   "kind": "org",
+   "title": "Particle therapy facilities world map",
+   "publisher": "Particle Therapy Co-Operative Group (PTCOG)",
+   "url": "https://ptcog.online/facilities-world-map/",
+   "accessed": "2026-09-16",
+   "note": "carries the headline count of facilities in clinical operation worldwide; the facility list itself is behind a login. The visible page read 128 on the access date while the page's own schema.org metadata, dated 26 May 2025, still carried 133. PTCOG counts particle therapy, which is proton plus carbon-ion."
+  },
+  {
+   "id": "s:ptcog-under-construction",
+   "kind": "org",
+   "title": "Particle therapy facilities under construction (update June 2026)",
+   "publisher": "Particle Therapy Co-Operative Group (PTCOG)",
+   "url": "https://ptcog.online/facilities-under-construction/",
+   "accessed": "2026-09-16",
+   "note": "a public table of facilities under construction, listed by country"
+  },
+  {
+   "id": "s:frontiers-proton-2026",
+   "kind": "paper",
+   "title": "Advances in proton therapy technology and global clinical applications",
+   "publisher": "Frontiers in Oncology, 11 February 2026, doi:10.3389/fonc.2026.1718677",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932165/",
+   "accessed": "2026-09-16",
+   "note": "carries a country-by-country table of operational and planned centres as of the end of 2024, drawn from PTCOG; the table's own header calls the figures approximate"
+  },
+  {
+   "id": "s:cruk-proton",
+   "kind": "org",
+   "title": "Proton beam therapy",
+   "publisher": "Cancer Research UK",
+   "url": "https://www.cancerresearchuk.org/about-cancer/treatment/radiotherapy/external/types/proton-beam-therapy",
+   "accessed": "2026-09-16",
+   "note": "course length, daily schedule and indications; the page's reference list names NHS England, accessed November 2023"
+  },
+  {
+   "id": "s:nhs-pbt-adult-guide",
+   "kind": "gov",
+   "title": "A guide for adult patients receiving Proton Beam Therapy abroad",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/wp-content/uploads/2013/08/pbt_adult.pdf",
+   "accessed": "2026-09-16",
+   "note": "the NHS Proton Overseas Programme's own patient guide, published 2013; its statement that the treatment was not then available in the UK has since been overtaken by the Christie and UCLH centres"
+  },
+  {
+   "id": "s:nss-scotland-pbt",
+   "kind": "gov",
+   "title": "Paediatric Radiotherapy / proton beam",
+   "publisher": "NHS National Services Scotland",
+   "url": "https://www.nss.nhs.scot/specialist-healthcare/specialist-services/proton-beam-therapy/",
+   "accessed": "2026-09-16",
+   "note": "published 10 December 2025; states that travel abroad may still be required for some patients"
+  },
+  {
+   "id": "s:pop-cns-outcomes",
+   "kind": "paper",
+   "title": "Outcomes of Patients Treated in the UK Proton Overseas Programme: Central Nervous System Group",
+   "publisher": "Clinical Oncology 35 (2023), doi:10.1016/j.clon.2023.01.024, PMID 36804292",
+   "url": "https://doi.org/10.1016/j.clon.2023.01.024",
+   "accessed": "2026-09-16",
+   "note": "830 patients treated abroad between 2008 and September 2020 in the CNS, base of skull, spinal and paraspinal group"
+  },
+  {
+   "id": "s:pop-noncns-outcomes",
+   "kind": "paper",
+   "title": "Outcomes of Patients Treated in the UK Proton Overseas Programme: Non-central Nervous System Group",
+   "publisher": "Clinical Oncology 35 (2023), doi:10.1016/j.clon.2023.02.009, PMID 36813694",
+   "url": "https://doi.org/10.1016/j.clon.2023.02.009",
+   "accessed": "2026-09-16",
+   "note": "495 patients, median age 11, 70.3% under 16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:frontiers-proton-2026",
+   "note": "the centre counts are cited; the paragraph about what a one-centre country means for a patient is marked Inference inline, and the Bragg peak sentence is marked Trade practice"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cruk-proton",
+   "note": "course length and session length cited; the daily paediatric anaesthetic is marked Trade practice"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "The expensive radiotherapy the zone was built to make reachable without a visa.",
+   "rel": "procedure"
+  },
+  {
+   "from": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "The treatment foreign patients most often fly here to buy.",
+   "rel": "procedure"
+  },
+  {
+   "from": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The treatment Japan is most often named for by patients arriving from elsewhere in Asia.",
+   "rel": "procedure"
+  },
+  {
+   "from": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "One of the expensive treatments patients fly here for rather than for a lower price.",
+   "rel": "procedure"
+  },
+  {
+   "from": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "One of the treatments patients fly into this country for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "Apollo runs a proton centre in this city; this directory has not yet read its page for the claim.",
+   "rel": "procedure"
+  },
+  {
+   "from": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "The same scarcity told in concrete rather than in licences.",
+   "rel": "kin"
+  },
+  {
+   "from": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "The other machine people cross a border to reach, and the one that takes weeks rather than an afternoon.",
+   "rel": "contrast"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The group runs a proton centre at Tharamani in the same city, which draws a different patient again.",
+   "rel": "procedure"
+  },
+  {
+   "from": "heidelberg-university-hospital",
+   "type": "facility",
+   "name": "Heidelberg University Hospital",
+   "as": "Its heavy ion facility is what its name travels on, and the 600-tonne gantry is the reason.",
+   "rel": "performs"
+  },
+  {
+   "from": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "Among the oncology programmes its foreign referrals come for.",
+   "rel": "performs"
+  },
+  {
+   "from": "uk-nhs-treatment-abroad",
+   "type": "rule",
+   "name": "NHS funding for treatment abroad",
+   "as": "The treatment the NHS bought abroad and commissioned by name before it could deliver it at home.",
+   "rel": "procedure"
+  }
+ ]
+}

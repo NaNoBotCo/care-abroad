@@ -1,0 +1,523 @@
+{
+ "schema": 1,
+ "id": "all-on-four",
+ "type": "procedure",
+ "names": {
+  "name": "All-on-4",
+  "aliases": [
+   "All-on-four",
+   "full-arch fixed bridge on four implants",
+   "fixed hybrid denture",
+   "teeth in a day"
+  ],
+  "said": "Clinics say All-on-4 and mean one jaw. Price lists in three countries print it the same way, which is what a trademark does: it standardises the word without standardising the bill."
+ },
+ "etymology": {
+  "root": "Not a derivation but a trade name, coined in 2003. Maló, Rangert and Nobre published the \"All-on-Four\" immediate-function concept with Brånemark System implants for completely edentulous mandibles in Clinical Implant Dentistry and Related Research, 2003;5 Suppl 1:2-9 — 44 patients, 176 immediately loaded implants, a fixed complete-arch prosthesis in function within two hours. Nobel Biocare lists All-on-4 among its registered trademarks, with \"treatment concept\" given as the generic term.",
+  "first_attested": "2003",
+  "tier": "cited",
+  "source": "s:malo-all-on-four-2003",
+  "note": "Four implants with the back two tilted is a technique. All-on-4 is a brand. A clinic advertising the brand is not necessarily using the manufacturer's implants or the published protocol."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "dental",
+  "setting": "staged",
+  "anaesthesia": "varies"
+ },
+ "text": {
+  "what": "Four implants are placed in one jaw, the back pair angled forward to avoid the sinus or the nerve, and a fixed bridge of ten to fourteen teeth is screwed onto them — often a temporary one within about a day, with the definitive bridge months later. One arch, one price. Two arches is two prices on every list read for this record.",
+  "story": "The name is the first thing to read on the bill. All-on-4 is a registered trademark of Nobel Biocare, used for products and services alike, and it names a technique — four implants, the back two tilted, loaded at once — rather than a material or a standard.\n\nThe three price lists read for this record all quote it per arch and all quote it differently. Sani Dental Group in Los Algodones prints three versions of the same trademark side by side: the system with an acrylic hybrid fixed denture at $8,110, the same thing on Nobel implants at $8,950 and on Straumann implants at $9,710, each marked as one arch, each with a \"US COST\" column beside it — $25,000, $27,000, $30,000 — that is the clinic's own comparison and carries no source. Medicare Dental Clinic in Budapest splits the bill the way it splits every other: All-on-4 zirconium at €2,503 of treatment plus €1,668 of laboratory fee, All-on-4 metal-ceramic at €2,265 plus €1,509, with the six-implant versions above them. Bangkok International Dental Center quotes All-on-4 and ProArch hybrid bridges from 290,000 baht and, on the same page, dental implants plus fixed bridges from 140,000 plus 250,000 — a second route to the same jaw at nearly twice the price.\n\n*Inference —* the gap between the Budapest figure and the Mexican one is not a gap between two countries' surgery. It is a gap between two ways of writing a price list: Budapest names the laboratory fee and leaves the implants to their own lines, Los Algodones bundles implants, abutments and bridge into one number. A reader comparing €4,171 with $8,110 is comparing a subtotal with a total.",
+  "how": "Assessment and a CT scan, extraction of whatever teeth remain, four implants placed under local anaesthetic with or without sedation, and a provisional bridge fitted the same day or the next. Months of healing follow, then the definitive bridge. For a patient who has flown in, that is two trips or a long stay, and none of the price pages read for this record states which it assumes.\n\nWhat moves the number on these pages is the implant brand and the material of the bridge, in that order: acrylic hybrid at the bottom, zirconia at the top, with the same four screws underneath. Bone grafting and sinus lifting, the procedures the tilted-implant technique exists to avoid, are priced separately where they are needed.",
+  "today": "As of 17 September 2026 the published per-arch prices read for this record are 290,000 baht and up in Bangkok, €4,171 including the laboratory fee in Budapest, and $8,110 to $9,710 in Los Algodones. Whole-mouth work is two arches, and none of the three pages says so in the same sentence as the price.",
+  "notes": "This page describes a dental procedure and the prices published for it. It is not dental advice. The trade uses this trademark as a common noun. This directory files it as a procedure rather than a word, because it is priced as one."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "success_rate_pct": null,
+  "note": "No hospital admission on any page read for this record: these are clinic fees. The months between the provisional bridge and the definitive one are the figure a travelling patient most needs and no price page read here states it, so recovery_weeks stays empty. No regulator read for this record publishes survival rates for full-arch prostheses, so success_rate_pct stays empty; the figures quoted in the trade come from the trademark holder's own follow-up studies.",
+  "as_of": "2026-09-17",
+  "source": "s:wp-all-on-4",
+  "url": "https://en.wikipedia.org/wiki/All-on-4"
+ },
+ "prices": [
+  {
+   "procedure": "all-on-four",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 290000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": [
+    "All-on-4 / ProArch hybrid bridge, one arch, as listed"
+   ],
+   "excludes": [
+    "x-rays, medications, sterilisation, nursing fees and clinic service fees, which the page states are charged separately",
+    "the second arch",
+    "bone grafting or sinus lifting where needed"
+   ],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "listed as from 290,000 THB. The same page offers two other routes to a full jaw: implants plus removable dentures from 70,000 plus 85,000, and implants plus fixed bridges from 140,000 plus 250,000. The page states package rates are applicable till 30 September 2026.",
+   "tier": "cited",
+   "usd": 8710.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "all-on-four",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 4171,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "All-on-4 zirconium denture: €2,503 treatment plus €1,668 fabrication"
+   ],
+   "excludes": [
+    "nothing stated on the page beyond the split itself"
+   ],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "the clinic prints treatment and laboratory as two lines and the total is the sum: metal-ceramic is €2,265 plus €1,509 for €3,774, All-on-6 zirconium €2,622 plus €1,748 for €4,370. The page's own note reads that many treatments carry both a treatment price and a separate fabrication fee.",
+   "tier": "cited",
+   "usd": 4812.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "all-on-four",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 8110,
+   "amount_high": 9710,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "the four implants, the abutments and a fixed hybrid denture for one arch"
+   ],
+   "excludes": [
+    "the second arch",
+    "bone graft at $420 per unit and sinus lift at $700, listed separately on the same page"
+   ],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "three rows of one trademark: acrylic hybrid $8,110, Nobel $8,950, Straumann $9,710, the acrylic row marked per arch. The page prints a US comparison column of $25,000, $27,000 and $30,000 with no source, and states that all prices are a base or starting price and that the estimate is not an official price until diagnosis.",
+   "tier": "cited",
+   "usd": 8110.0,
+   "usd_high": 9710.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "dental-implant",
+   "as": "The single screw this technique uses four of, priced one at a time on the same lists.",
+   "rel": "part"
+  },
+  {
+   "to": "full-mouth-restoration",
+   "as": "What two of these arches add up to, and the price nobody prints as one number.",
+   "rel": "whole"
+  },
+  {
+   "to": "dental-crown",
+   "as": "The single-tooth version of the same laboratory work, and the line that shows how each clinic splits a bill.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "as": "Where this arch is quoted from 290,000 baht with the clinic fees outside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "hungary",
+   "as": "Where the laboratory fee for the bridge is printed as its own line.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "as": "Where the trademark is sold in three implant brands with a US comparison column beside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "as": "The border town whose clinics price this arch against a US figure of their own making.",
+   "rel": "place"
+  },
+  {
+   "to": "budapest",
+   "as": "The city that prices the same arch in two lines and half the money.",
+   "rel": "place"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which per-arch turns into per-mouth and the bill doubles.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The same trap as the joint implant: a headline price that is a subtotal.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who remakes the bridge when it fractures, and at whose price.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this technique is sold in, one arch at a time.",
+   "rel": "term"
+  },
+  {
+   "to": "graft",
+   "as": "The other trade unit whose count decides a price, in a different trade.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "dental-implant",
+   "tell": "An implant price is one screw; an All-on-4 price is four screws and a bridge for one jaw."
+  },
+  {
+   "id": "full-mouth-restoration",
+   "tell": "All-on-4 rebuilds one arch on implants; full-mouth work covers both jaws and often mixes crowns, bridges and implants."
+  }
+ ],
+ "links": [
+  {
+   "label": "Sani Dental Group price list",
+   "url": "https://sanidentalgroup.com/price-list"
+  },
+  {
+   "label": "Medicare Dental Clinic, Budapest — treatment prices",
+   "url": "https://www.mdentalclinic.eu/prices"
+  }
+ ],
+ "sources": [
+  "s:wp-all-on-4",
+  "s:bidc-fees",
+  "s:mdental-budapest-prices",
+  "s:sani-dental-prices",
+  "s:malo-all-on-four-2003",
+  "s:nobel-biocare-trademarks"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:sani-dental-prices",
+    "note": "every figure read off the clinic's own price page on the accessed date; the closing stretch is this project's reasoning and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard staging of a full-arch immediate-load case; the brand-and-material point is cited to the three price lists"
+   },
+   "etymology": {
+    "tier": "cited",
+    "source": "s:wp-all-on-4"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-all-on-4"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:All-on-4 dental implants.jpg",
+  "File:Dental implant bridge.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Four implants are placed in one jaw, the back pair angled forward to avoid the sinus or the nerve, and a fixed bridge of ten to fourteen teeth is screwed onto them — often a temporary one within about a day, with the…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The single screw this technique uses four of, priced one at a time on the same lists.",
+   "rel": "part"
+  },
+  {
+   "to": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "What two of these arches add up to, and the price nobody prints as one number.",
+   "rel": "whole"
+  },
+  {
+   "to": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "The single-tooth version of the same laboratory work, and the line that shows how each clinic splits a bill.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where this arch is quoted from 290,000 baht with the clinic fees outside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "Where the laboratory fee for the bridge is printed as its own line.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "Where the trademark is sold in three implant brands with a US comparison column beside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The border town whose clinics price this arch against a US figure of their own making.",
+   "rel": "place"
+  },
+  {
+   "to": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The city that prices the same arch in two lines and half the money.",
+   "rel": "place"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which per-arch turns into per-mouth and the bill doubles.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The same trap as the joint implant: a headline price that is a subtotal.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who remakes the bridge when it fractures, and at whose price.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form this technique is sold in, one arch at a time.",
+   "rel": "term"
+  },
+  {
+   "to": "graft",
+   "type": "term",
+   "name": "Graft",
+   "as": "The other trade unit whose count decides a price, in a different trade.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-all-on-4",
+   "kind": "wikipedia",
+   "title": "All-on-4",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/All-on-4",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "states that the name All-on-4 is a registered trademark of Nobel Biocare, used globally for both dental products and services; four implants, the back two tilted about 30 to 45 degrees, prosthesis placed within about 24 hours. The article carries editorial notices about promotional tone."
+  },
+  {
+   "id": "s:bidc-fees",
+   "kind": "web",
+   "title": "Dental Fees — standardised treatment fees",
+   "publisher": "Bangkok International Dental Center",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "accessed": "2026-09-16",
+   "note": "implant fixture and implant crown priced in separate columns; page states package rates applicable till 30 September 2026"
+  },
+  {
+   "id": "s:mdental-budapest-prices",
+   "kind": "web",
+   "title": "Treatment Prices",
+   "publisher": "Medicare Dental Clinic, Budapest",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "accessed": "2026-09-16",
+   "note": "treatment price and lab fee shown as separate lines; packages name accommodation and transfers"
+  },
+  {
+   "id": "s:sani-dental-prices",
+   "kind": "web",
+   "title": "Dental Price List in Mexico",
+   "publisher": "Sani Dental Group, Los Algodones",
+   "url": "https://sanidentalgroup.com/price-list",
+   "accessed": "2026-09-16",
+   "note": "prices in US dollars with a Mexican peso figure beside each; the page states every price is a base or starting price"
+  },
+  {
+   "id": "s:malo-all-on-four-2003",
+   "kind": "paper",
+   "title": "\"All-on-Four\" immediate-function concept with Brånemark System implants for completely edentulous mandibles: a retrospective clinical study",
+   "publisher": "Maló P, Rangert B, Nobre M. Clinical Implant Dentistry and Related Research 2003;5 Suppl 1:2-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12691645/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 12691645)"
+  },
+  {
+   "id": "s:nobel-biocare-trademarks",
+   "kind": "web",
+   "title": "Trademarks",
+   "publisher": "Nobel Biocare Services AG",
+   "url": "https://www.nobelbiocare.com/en-us/trademarks",
+   "accessed": "2026-09-17",
+   "note": "lists All-on-4 as a registered trademark with \"treatment concept\" given as the suggested generic term; no registration number read"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:sani-dental-prices",
+   "note": "every figure read off the clinic's own price page on the accessed date; the closing stretch is this project's reasoning and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard staging of a full-arch immediate-load case; the brand-and-material point is cited to the three price lists"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-all-on-4"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-all-on-4"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The full-arch course sold across two trips, with the second flight in the total.",
+   "rel": "procedure"
+  },
+  {
+   "from": "croatia",
+   "type": "destination",
+   "name": "Croatia",
+   "as": "The full-arch case that makes a two-visit trip worth the drive.",
+   "rel": "procedure"
+  },
+  {
+   "from": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The full-arch job this corridor sells to patients who have run out of teeth.",
+   "rel": "procedure"
+  },
+  {
+   "from": "romania",
+   "type": "destination",
+   "name": "Romania",
+   "as": "The full-arch case where the price gap covers the flights.",
+   "rel": "procedure"
+  },
+  {
+   "from": "vietnam",
+   "type": "destination",
+   "name": "Vietnam",
+   "as": "The full-arch package sold to visitors on a two-trip schedule.",
+   "rel": "procedure"
+  },
+  {
+   "from": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "A dental course that fits the length of a resort stay.",
+   "rel": "procedure"
+  },
+  {
+   "from": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The full-arch form sold here, and the one whose quote hides the most variables.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cancun",
+   "type": "hub",
+   "name": "Cancún",
+   "as": "Sold here by the arch on the same list the border towns use.",
+   "rel": "performs"
+  },
+  {
+   "from": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "Sold here by the arch, which is the word that decides whether a quote is half a mouth or a whole one.",
+   "rel": "performs"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "What four of these become when a whole jaw is rebuilt on them.",
+   "rel": "whole"
+  },
+  {
+   "from": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "The commonest single answer for one jaw, and the trademark the price lists sort by.",
+   "rel": "part"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Where the excluded item is the other half of the mouth.",
+   "rel": "procedure"
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+ "schema": 1,
+ "id": "cataract-surgery",
+ "type": "procedure",
+ "names": {
+  "name": "Cataract surgery",
+  "aliases": [
+   "phacoemulsification",
+   "phaco",
+   "lens extraction with intraocular lens",
+   "IOL surgery"
+  ],
+  "said": "Surgeons say phaco. Package pages say cataract surgery and then name a lens set, because the lens is the tier and the tier is the price."
+ },
+ "etymology": {
+  "root": "cataract: Greek katarraktēs, a waterfall or portcullis — something falling across the view — by way of Latin cataracta. Phacoemulsification is Greek phakos, a lentil and so a lens, plus Latin emulsus, milked out: the clouded lens broken up by ultrasound and drawn away through a two-millimetre wound.",
+  "tier": "tradition",
+  "note": "The operation removes the eye's own lens; a manufactured one replaces it. Monofocal, toric, multifocal and extended-depth lenses are separate products at separate prices, and the word cataract on a price page rarely says which."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "ophthalmic",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "The clouded natural lens is broken up by ultrasound and removed through a small wound, and an artificial lens is folded into the empty capsule. Fifteen or twenty minutes under drops or a local block, one eye at a time, no admission on any page read for this record. *Trade practice —* it is generally counted the highest-volume operation in the world, which is what makes it the one procedure where state tariffs, hospital packages and clinic lists can all be read against each other.",
+  "story": "The lens is the knee implant of the eye, and every page read for this record handles it differently.\n\nBumrungrad in Bangkok sells phacoemulsification for one eye with a monofocal lens at 85,400 baht, package IPDEYE40+IPDEYE4005, prices stated valid until 31 December 2026. Its inclusion list names the surgeon, the hospital and nursing fees for the surgery only, and \"Medical device, such as, monofocal lens (only the types specified in the package)\". The lens is in — that lens, from that list, in that set. The package is called Set 1.\n\nRutnin Eye Hospital, a specialist eye hospital in the same city, publishes the terms without a price in its page text and states the rule plainly: \"If the ophthalmologist recommends the use of lenses other than those specified in the package, additional charges will apply.\" Its package also excludes doctor fees, consultation fees and pre-operative evaluation.\n\nThe payer versions split it the other way. Ireland's Health Service Executive repays cross-border cataract treatment at the day-case price for DRG C16Z, LENS INTERVENTIONS — €1,171 — a group defined as phacoemulsification or other extraction of the crystalline lens and capsulotomy, with glaucoma procedures excluded from it. Australia's Medicare Benefits Schedule pays item 42702, \"Lens extraction and insertion of intraocular lens\", at a schedule fee of $910.35, the lens named inside the item and the hospital billed outside it.\n\n*Inference —* three ways of writing one operation: a Thai package that includes a named lens and excludes the consultation, an Irish reimbursement that names the technique and not the device, and an Australian fee that names both and pays for neither the theatre nor the bed. The comparison a reader wants — what does a cataract cost — has no single answer on any of them, and the lens is where the difference hides.",
+  "how": "Drops, a small wound at the edge of the cornea, an opening in the front of the lens capsule, ultrasound to break the lens, aspiration, the folded implant injected into the capsule where it unfolds. Drops for several weeks afterwards, and a check the next day. Second eye usually weeks later, which for a patient who flew in means either two trips or a longer stay; none of the pages read here prices the pair.\n\nThe lens tier is the variable that moves the price. A monofocal implant corrects distance and leaves reading glasses; toric lenses correct astigmatism and multifocal or extended-depth lenses aim to reduce glasses altogether, at higher prices. The Australian item descriptor also draws the line that matters for the rest of this batch: it excludes \"surgery performed to correct a refractive error\", which is how a state that pays for a cataract lens declines to pay for laser vision correction.",
+  "today": "As of 17 September 2026 one eye with a monofocal lens is published at 85,400 baht in Bangkok; Ireland repays cross-border cataract treatment at a day-case DRG price of €1,171; and the Australian schedule fee for lens extraction with an intraocular lens is $910.35. Each of those numbers counts a different set of things.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": 4,
+  "wait_days_home": 84,
+  "note": "A day case on every page read for this record. The eighty-four days is the median wait of 12.0 weeks across all pathways waiting to start treatment in England at the end of July 2026, published by NHS England — an all-specialty median for the English market, not a cataract figure, and it is carried here only because it is the queue a British patient reads a foreign price against. Four weeks is the span usually quoted for drops and healing. No published guidance read for this record sets a wait before flying after a cataract, so that field stays empty.",
+  "as_of": "2026-07-31",
+  "source": "s:nhs-rtt-july-2026",
+  "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "cataract-surgery",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 85400,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "surgeon fees for the surgery only",
+    "hospital fees and nursing fees for the surgery only",
+    "medical device, such as monofocal lens — only the types specified in the package"
+   ],
+   "excludes": [
+    "physician's fees and any fees for consultations or pre-surgical screening",
+    "medication, medical supplies and any other examinations or tests performed",
+    "the second eye",
+    "lenses other than the types specified"
+   ],
+   "source": "s:bumrungrad-phaco-monofocal",
+   "url": "https://www.bumrungrad.com/en/packages/monofocal-lens-for-phacoemulsification-single-eye-set-1",
+   "note": "package IPDEYE40+IPDEYE4005, one eye, prices stated valid until 31 December 2026. The lens is inside the package and the consultation that decides whether the patient needs it is outside. The package's name — Set 1 — is the page admitting there are other sets.",
+   "tier": "cited",
+   "usd": 2565.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "cataract-surgery",
+   "country": "IE",
+   "amount": 1171,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "reimbursement",
+   "includes": [
+    "DRG C16Z LENS INTERVENTIONS, day case: phacoemulsification of the crystalline lens, other extraction of the crystalline lens, capsulotomy of the lens"
+   ],
+   "excludes": [
+    "insertion or removal of an aqueous shunt, goniotomy, iridotomy, iridoplasty, iridectomy, trabeculectomy and trabeculoplasty, which fall in the glaucoma group",
+    "travel and accommodation",
+    "anything above the DRG price, which the patient bears"
+   ],
+   "source": "s:hse-cbd-niphs-drg-guide",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "note": "what Ireland repays a patient treated abroad under the Cross Border Directive and the Northern Ireland Planned Healthcare Scheme, not what the operation costs. The guide states the prices are for inpatient or day-case care, whichever is standard in Ireland, and that an inlier price assumes a stay within the length-of-stay boundaries of the 2024 activity-based-funding price list.",
+   "tier": "cited",
+   "usd": 1351.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "cataract-surgery",
+   "country": "AU",
+   "amount": 910.35,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "item 42702: lens extraction and insertion of intraocular lens"
+   ],
+   "excludes": [
+    "surgery performed to correct a refractive error, other than anisometropia exceeding 3 dioptres developing after removal of the cataract in the first eye — excluded in the descriptor itself",
+    "the hospital, the theatre and the anaesthetist"
+   ],
+   "source": "s:mbs-42702",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=42702&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $682.80, the fee shown as applying from 1 July 2026. The item bundles the lens into the service it describes; the refractive exclusion in its own descriptor is the same state declining to fund laser vision correction.",
+   "tier": "cited",
+   "usd": 649.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "lasik",
+   "as": "The refractive operation the same Australian item explicitly refuses to pay for.",
+   "rel": "contrast"
+  },
+  {
+   "to": "icl",
+   "as": "The implanted lens that sits in front of the natural one rather than replacing it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The other operation whose price page turns on which implant is in the package.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the phacoemulsification package this page reads, monofocal lens included and the consultation excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the lens is inside the package and the screening is outside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where the state pays for the cataract lens and names the refractive exclusion in the same sentence.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route under which Ireland repays a cataract done in another member state at its own DRG price.",
+   "rel": "rule"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The trap this operation mostly avoids by naming the lens — and reopens by naming only some lenses.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which Set 1 turns out to mean one kind of lens.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who checks the eye the day after, and who sees it at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "tariff",
+   "as": "What the Irish and Australian figures on this page are, and why they are not bills.",
+   "rel": "term"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that counts how long a public patient waits for this operation.",
+   "rel": "measured-by"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "icl",
+   "tell": "Cataract surgery takes the natural lens out and puts an implant in its place; an ICL leaves the natural lens alone and adds a second one in front of it."
+  },
+  {
+   "id": "lasik",
+   "tell": "Both change how the eye focuses, but one treats a clouded lens and the other reshapes a clear cornea; state schedules pay for the first and decline the second."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad — phacoemulsification with monofocal lens, Set 1",
+   "url": "https://www.bumrungrad.com/en/packages/monofocal-lens-for-phacoemulsification-single-eye-set-1"
+  },
+  {
+   "label": "HSE — CBD / NIPHS most common procedures DRG guide",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-phaco-monofocal",
+  "s:bumrungrad-eye-packages",
+  "s:rutnin-cataract-package",
+  "s:hse-cbd-niphs-drg-guide",
+  "s:mbs-42702",
+  "s:nhs-rtt-july-2026"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:bumrungrad-phaco-monofocal",
+    "note": "the volume claim is marked as trade practice and carries no count"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:rutnin-cataract-package",
+    "note": "each figure and each quoted term read off the named page on 17 September 2026; the closing comparison is this project's reasoning and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the refractive exclusion is cited to the Australian item descriptor"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:nhs-rtt-july-2026"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Cataract surgery phacoemulsification.jpg",
+  "File:Intraocular lens.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The clouded natural lens is broken up by ultrasound and removed through a small wound, and an artificial lens is folded into the empty capsule.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "The refractive operation the same Australian item explicitly refuses to pay for.",
+   "rel": "contrast"
+  },
+  {
+   "to": "icl",
+   "type": "procedure",
+   "name": "Implantable collamer lens",
+   "as": "The implanted lens that sits in front of the natural one rather than replacing it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The other operation whose price page turns on which implant is in the package.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the phacoemulsification package this page reads, monofocal lens included and the consultation excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the lens is inside the package and the screening is outside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Where the state pays for the cataract lens and names the refractive exclusion in the same sentence.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route under which Ireland repays a cataract done in another member state at its own DRG price.",
+   "rel": "rule"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The trap this operation mostly avoids by naming the lens — and reopens by naming only some lenses.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which Set 1 turns out to mean one kind of lens.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who checks the eye the day after, and who sees it at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "What the Irish and Australian figures on this page are, and why they are not bills.",
+   "rel": "term"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that counts how long a public patient waits for this operation.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-phaco-monofocal",
+   "kind": "web",
+   "title": "Phacoemulsification Single Eye with Monofocal Lens for Phacoemulsification Single Eye Set 1 — package IPDEYE40+IPDEYE4005",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/monofocal-lens-for-phacoemulsification-single-eye-set-1",
+   "accessed": "2026-09-17",
+   "note": "85,400 THB, prices stated valid until 31 December 2026. Inclusions name the monofocal lens, 'only the types specified in the package'; exclusions name physician's fees, consultations, pre-surgical screening, medication, supplies and other tests."
+  },
+  {
+   "id": "s:bumrungrad-eye-packages",
+   "kind": "web",
+   "title": "Eye Center — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/eye-center",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: ReLEx SMILE both eyes 102,000 THB; ICL single eye 129,000 THB; Toric ICL single eye 161,000 THB; phacoemulsification single eye with monofocal lens, Set 1, 85,400 THB; eye screening 4,100 THB"
+  },
+  {
+   "id": "s:rutnin-cataract-package",
+   "kind": "web",
+   "title": "CATARACT Surgery Package",
+   "publisher": "Rutnin Eye Hospital, Bangkok",
+   "url": "https://www.rutnin.com/en/promotion/detail.315.1.html",
+   "accessed": "2026-09-17",
+   "note": "the page carries the package terms and no price in text, stated updated 2 October 2023 and valid until 31 December 2026. Term 3 reads: 'If the ophthalmologist recommends the use of lenses other than those specified in the package, additional charges will apply.' Term 4 excludes doctor fees, consultation fees and pre-operative evaluation."
+  },
+  {
+   "id": "s:hse-cbd-niphs-drg-guide",
+   "kind": "gov",
+   "title": "CBD / NIPHS Most Common Procedures DRG Guide",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "accessed": "2026-09-16",
+   "note": "the tariff behind both the Cross Border Directive scheme and the Northern Ireland Planned Healthcare Scheme. Cataract procedures map to DRG C16Z LENS INTERVENTIONS at a day-case price of EUR 1,171, covering phacoemulsification or other extraction of the crystalline lens and capsulotomy; colonoscopy G48B EUR 1,001; gastroscopy G47C EUR 726. Same figure as the HSE's 2024 activity-based-funding day-case price list."
+  },
+  {
+   "id": "s:mbs-42702",
+   "kind": "gov",
+   "title": "MBS item 42702 — lens extraction and insertion of intraocular lens",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=42702&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $910.35, 75% benefit $682.80, fee shown as applying from 01-Jul-2026. The descriptor excludes 'surgery performed to correct a refractive error, other than anisometropia that exceeds 3 dioptres and develops after the removal of cataract in the first eye'."
+  },
+  {
+   "id": "s:nhs-rtt-july-2026",
+   "kind": "gov",
+   "title": "Statistical Press Notice — NHS referral to treatment (RTT) waiting times data, July 2026",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf",
+   "accessed": "2026-09-16",
+   "note": "published Thursday 10 September 2026. 7.3 million RTT pathways waiting to start treatment at the end of July 2026, an estimated 6.2 million unique patients; 111,379 waiting over 52 weeks, 9,095 over 65 weeks, 235 over 104 weeks; 65.4% waiting up to 18 weeks against a 92% standard; median wait 12.0 weeks. Figures include estimates for three trusts and one independent provider that did not submit."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:bumrungrad-phaco-monofocal",
+   "note": "the volume claim is marked as trade practice and carries no count"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:rutnin-cataract-package",
+   "note": "each figure and each quoted term read off the named page on 17 September 2026; the closing comparison is this project's reasoning and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the refractive exclusion is cited to the Australian item descriptor"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:nhs-rtt-july-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "69% inside 112 days in 2024, on its own shorter benchmark.",
+   "rel": "procedure"
+  },
+  {
+   "from": "ireland",
+   "type": "destination",
+   "name": "Ireland",
+   "as": "The operation behind the most-quoted number in the whole scheme: €1,171 repaid as a day case.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cairo",
+   "type": "hub",
+   "name": "Cairo",
+   "as": "High-volume day work a large private sector is built to do.",
+   "rel": "procedure"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "Short-stay volume work, the kind a regional patient can fly in and out for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "The operation Cuba exported by aircraft under Operación Milagro, free, in the opposite direction to the paying trade.",
+   "rel": "performs"
+  },
+  {
+   "from": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "High-volume, short-stay work suited to a patient who can come back.",
+   "rel": "procedure"
+  },
+  {
+   "from": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "High-volume short-stay work quoted at a published self-pay rate.",
+   "rel": "procedure"
+  },
+  {
+   "from": "icl",
+   "type": "procedure",
+   "name": "Implantable collamer lens",
+   "as": "The operation that removes the natural lens; this one leaves it, and is taken out when that day comes.",
+   "rel": "contrast"
+  },
+  {
+   "from": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "The lens operation the Australian schedule funds, in the same descriptor that refuses this one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The shortest queue in the series and the commonest operation in it.",
+   "rel": "procedure"
+  },
+  {
+   "from": "waiting-lists",
+   "type": "story",
+   "name": "The queue is the product",
+   "as": "The highest-volume operation in the world, and a queue in most systems that fund it.",
+   "rel": "procedure"
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "schema": 1,
+ "id": "cairo",
+ "type": "hub",
+ "names": {
+  "name": "Cairo",
+  "aliases": [
+   "القاهرة",
+   "Greater Cairo"
+  ],
+  "said": "Greater Cairo is the unit that matters here: the clinics are spread across a metropolitan area of more than twenty million, not gathered on one street."
+ },
+ "region": [
+  "africa-north"
+ ],
+ "facets": {
+  "iso2": "EG",
+  "radius_km": 30,
+  "specialty": [
+   "dentistry",
+   "hair restoration",
+   "cosmetic surgery",
+   "ophthalmology",
+   "hepatology",
+   "bariatric surgery"
+  ],
+  "draws": [
+   "dental-implant",
+   "hair-transplant-fue",
+   "rhinoplasty",
+   "cataract-surgery",
+   "gastric-sleeve"
+  ],
+  "languages": [
+   "Arabic",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A city of about 9.8 million in 2023 inside a metropolitan area of more than 22 million, with the clinics that take foreign patients spread across the twentieth-century districts — Garden City, Zamalek, Heliopolis and the newer quarters east of them — rather than concentrated in a single quarter. Egypt had 121,394 physicians and 121,617 hospital beds in 2020, and the private sector is estimated to carry about 60% of all healthcare services. Cairo sells dentistry, hair restoration and cosmetic surgery to Gulf and African patients, and its hepatology is regionally exceptional for reasons of epidemiology rather than marketing.",
+  "story": "Egypt legislated universal health insurance from 11 January 2018, a reform that runs alongside the private sector rather than replacing it, and the private sector is where the foreign traffic goes.\n\n*Inference —* the country's liver medicine is the part of this that could not be manufactured by policy. Egypt carried one of the heaviest hepatitis C burdens in the world and treated it at national scale, and the clinical depth that campaign left behind — hepatologists, endoscopy lists, transplant teams — is a capability built on an epidemic rather than on an export plan. This record states the shape of that and carries no figures for it: the screening and treatment numbers were not read off a primary page for this batch.\n\n*Trade practice —* what is actually advertised to arriving patients is smaller and more ordinary. Dentistry, hair restoration and cosmetic surgery at prices set by a currency that has fallen hard against the dollar and the riyal, sold to Gulf patients, to Egyptians living abroad, and increasingly to African patients for whom Cairo is nearer than Europe.\n\n*Inference —* a devalued currency is the whole pricing argument in a city like this, and it is also the least stable one in the directory. A price quoted in Egyptian pounds and a price quoted in dollars for the same operation move apart between the quote and the flight.",
+  "how": "*Trade practice —* the Cairo arrangement is made by phone or messaging app, quoted in dollars for foreign patients and in pounds for residents, and paid in cash on arrival at the smaller clinics. The large private hospitals bill in the ordinary way and take insurance. Aftercare for the cosmetic and dental work is a return visit that most patients do not make.",
+  "today": "As of 16 September 2026 this record carries no price row and no inbound patient count for Cairo, and no figures for the hepatitis C programme referred to above.",
+  "notes": "Thirty kilometres from the city point covers Greater Cairo — Giza, Heliopolis, Nasr City, Maadi and the ring road — and still misses the far eastern new cities."
+ },
+ "geo": {
+  "lat": 30.0444,
+  "lon": 31.2358,
+  "precision": "city",
+  "source": "s:wp-cairo"
+ },
+ "address": {
+  "city": "Cairo",
+  "country": "EG"
+ },
+ "kin": [
+  {
+   "to": "egypt",
+   "as": "The country this metropolitan cluster carries most of the private capacity of.",
+   "rel": "whole"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The commonest advertised booking here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "Sold here into the same Gulf market Istanbul sells into, at a shorter flight.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "High-volume day work a large private sector is built to do.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The capability a national epidemic left behind, and the one this city is regionally unusual for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dubai",
+   "as": "The Gulf destination competing for the same regional patients at several times the price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "istanbul",
+   "as": "The cluster Cairo's hair and cosmetic clinics price against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Why a price quoted in a falling currency is not the price paid.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind what this country spends on health per person, and the scale the private sector sits on top of.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Healthcare in Egypt",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Egypt"
+  }
+ ],
+ "sources": [
+  "s:wp-cairo",
+  "s:wp-healthcare-egypt",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-healthcare-egypt",
+    "note": "every paragraph after the first is marked inline as inference or trade practice; no hepatitis C figures are carried because none were read for this batch"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-cairo"
+   },
+   "facets.radius_km": {
+    "tier": "inference",
+    "note": "30 km covers Greater Cairo and still misses the eastern new cities"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Cairo Zamalek skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A city of about 9.8 million in 2023 inside a metropolitan area of more than 22 million, with the clinics that take foreign patients spread across the twentieth-century districts — Garden City, Zamalek, Heliopolis and…",
+ "region_terms": [
+  {
+   "key": "africa-north",
+   "name": "North Africa",
+   "note": "Tunisia, Morocco, Egypt"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "egypt",
+   "type": "destination",
+   "name": "Egypt",
+   "as": "The country this metropolitan cluster carries most of the private capacity of.",
+   "rel": "whole"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The commonest advertised booking here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "Sold here into the same Gulf market Istanbul sells into, at a shorter flight.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "High-volume day work a large private sector is built to do.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The capability a national epidemic left behind, and the one this city is regionally unusual for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The Gulf destination competing for the same regional patients at several times the price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The cluster Cairo's hair and cosmetic clinics price against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Why a price quoted in a falling currency is not the price paid.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series behind what this country spends on health per person, and the scale the private sector sits on top of.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cairo",
+   "kind": "wikipedia",
+   "title": "Cairo",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cairo",
+   "accessed": "2026-09-16",
+   "note": "coordinates, city population about 9.8 million (2023) and Greater Cairo over 22 million; Garden City, Zamalek, Heliopolis and Downtown Cairo as the early-twentieth-century districts"
+  },
+  {
+   "id": "s:wp-healthcare-egypt",
+   "kind": "web",
+   "title": "Healthcare in Egypt",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Egypt",
+   "accessed": "2026-09-16",
+   "note": "read for the private hospital count, physician density, the out-of-pocket share and Law No. 2 of 2018"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-healthcare-egypt",
+   "note": "every paragraph after the first is marked inline as inference or trade practice; no hepatitis C figures are carried because none were read for this batch"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-cairo"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "egypt",
+   "type": "destination",
+   "name": "Egypt",
+   "as": "Where most of the clinics and nearly all of the agencies are.",
+   "rel": "part"
+  }
+ ]
+}

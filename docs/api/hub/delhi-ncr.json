@@ -1,0 +1,391 @@
+{
+ "schema": 1,
+ "id": "delhi-ncr",
+ "type": "hub",
+ "names": {
+  "name": "Delhi NCR",
+  "aliases": [
+   "National Capital Region",
+   "Delhi",
+   "Gurugram",
+   "Gurgaon",
+   "दिल्ली"
+  ],
+  "said": "Nobody says Delhi NCR to a patient. They say Gurgaon, or Saket, or Sarita Vihar, and those are three different drives from the airport."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "radius_km": 40,
+  "specialty": [
+   "cardiac surgery",
+   "transplant",
+   "oncology",
+   "orthopaedics",
+   "neurosurgery",
+   "fertility"
+  ],
+  "draws": [
+   "cabg",
+   "heart-valve-replacement",
+   "liver-transplant",
+   "kidney-transplant",
+   "bone-marrow-transplant",
+   "knee-replacement",
+   "ivf"
+  ],
+  "languages": [
+   "Hindi",
+   "English",
+   "Arabic",
+   "Bengali",
+   "Pashto",
+   "Dari"
+  ]
+ },
+ "text": {
+  "what": "Not a district but a triangle, roughly forty kilometres on a side. Medanta — The Medicity sits in Sector 38, Gurugram, on the Haryana side; Fortis Memorial Research Institute is eight kilometres north of it on Fortis Hospital Road in Sector 44; Max's flagship stands off Press Enclave Road in Saket, South Delhi; Indraprastha Apollo is further east again, on Mathura Road at Sarita Vihar. Between and around them lie Vasant Kunj, Rajinder Nagar and the guesthouse streets of Lajpat Nagar and Bhogal, which is where most of the patients actually stay.",
+  "story": "Medanta opened in 2009, founded by the cardiac surgeon Naresh Trehan with Sunil Sachdeva: 1,250 beds on 43 acres, built for about ₹1,200 crore. Max opened its first centre in South Delhi's Panchsheel Park in 2000 and commissioned the East Block of the Saket hospital in 2004. *Inference —* the dates are the point. Delhi's private tertiary capacity was largely built inside a single decade, at a moment when the Haryana side of the border was selling farmland cheaply to anyone who would put a tower on it, which is why so much of it stands in Gurugram rather than in Delhi.\n\n*Trade practice —* the flow into this cluster is overwhelmingly regional and overland as much as by air: Afghanistan, Bangladesh, Iraq, Nigeria, Uzbekistan, the Gulf. The guesthouse economy around Lajpat Nagar exists because a cardiac or transplant patient brings a family, stays for weeks, cooks their own food and cannot afford a hotel.\n\n*Inference —* the sprawl is a directory problem before it is a patient problem. A harvest set tight on Saket misses Gurugram entirely, and a hub record that named one of the three would be describing a competitor rather than a cluster. This record takes the whole triangle and says so.",
+  "how": "An estimate, not a package: room category, surgeon, theatre, projected stay, and a bill that moves with the stay. Most large hospitals here run an international patient desk that handles the visa invitation, the airport pickup and the interpreter, and several of them staff Arabic, Dari, Pashto, Russian and French. Payment is a deposit against the estimate, settled at discharge.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits between Gurugram and Saket, with a 40-kilometre radius — the widest in this batch — chosen to reach Gurugram, Faridabad, Noida and central Delhi in one query. Precision is region, not city, and that is a statement about the cluster rather than about the geocoding.",
+  "notes": "A description of where the hospitals are. Not advice about any of them."
+ },
+ "geo": {
+  "lat": 28.49,
+  "lon": 77.15,
+  "precision": "region",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "city": "Delhi and Gurugram",
+  "area": "Delhi and Haryana",
+  "country": "IN"
+ },
+ "kin": [
+  {
+   "to": "medanta",
+   "as": "The Sector 38 hospital in Gurugram, 1,250 beds on 43 acres, opened 2009.",
+   "rel": "part"
+  },
+  {
+   "to": "fortis-gurgaon",
+   "as": "Eight kilometres north of Medanta on Fortis Hospital Road, Sector 44.",
+   "rel": "part"
+  },
+  {
+   "to": "max-saket",
+   "as": "The Delhi-side flagship, off Press Enclave Road in Saket.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "as": "The country whose largest private tertiary cluster this is.",
+   "rel": "whole"
+  },
+  {
+   "to": "cabg",
+   "as": "The operation the Gurugram towers were built around.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The work that keeps families here for weeks and fills the guesthouse streets.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "as": "Referred here from across South and Central Asia, by the trade's account.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The entry route, and the invitation letter the international desks issue against it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "as": "The relative who comes too, and who has to be housed for the length of the stay.",
+   "rel": "step"
+  },
+  {
+   "to": "chennai",
+   "as": "The southern cluster competing for the same cardiac and transplant referrals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 40 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medanta",
+   "url": "https://www.medanta.org/"
+  },
+  {
+   "label": "Max Healthcare",
+   "url": "https://www.maxhealthcare.in/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-medanta",
+  "s:wp-max-healthcare",
+  "s:wp-medical-tourism-india",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "sectors, roads and localities read off OpenStreetMap address tags"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medanta",
+    "note": "the founding dates and the Medanta figures are cited; the inline marks say which stretches are inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "the centroid of the Gurugram–Saket–Sarita Vihar triangle, not a point anybody published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Medanta The Medicity Gurgaon.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "Not a district but a triangle, roughly forty kilometres on a side.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "The Sector 38 hospital in Gurugram, 1,250 beds on 43 acres, opened 2009.",
+   "rel": "part"
+  },
+  {
+   "to": "fortis-gurgaon",
+   "type": "facility",
+   "name": "Fortis Memorial Research Institute, Gurugram",
+   "as": "Eight kilometres north of Medanta on Fortis Hospital Road, Sector 44.",
+   "rel": "part"
+  },
+  {
+   "to": "max-saket",
+   "type": "facility",
+   "name": "Max Super Speciality Hospital, Saket",
+   "as": "The Delhi-side flagship, off Press Enclave Road in Saket.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The country whose largest private tertiary cluster this is.",
+   "rel": "whole"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The operation the Gurugram towers were built around.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The work that keeps families here for weeks and fills the guesthouse streets.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "Referred here from across South and Central Asia, by the trade's account.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The entry route, and the invitation letter the international desks issue against it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The relative who comes too, and who has to be housed for the length of the stay.",
+   "rel": "step"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The southern cluster competing for the same cardiac and transplant referrals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 40 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-medanta",
+   "kind": "wikipedia",
+   "title": "Medanta",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medanta",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-max-healthcare",
+   "kind": "wikipedia",
+   "title": "Max Healthcare",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Max_Healthcare",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-medical-tourism-india",
+   "kind": "wikipedia",
+   "title": "Medical tourism in India",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_India",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16",
+   "note": "carries city-share and market-size figures sourced to newspapers and market-research summaries; this project reads it for the claims and their attributions, not as a count."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:osm-nominatim",
+   "note": "sectors, roads and localities read off OpenStreetMap address tags"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-medanta",
+   "note": "the founding dates and the Medanta figures are cited; the inline marks say which stretches are inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:osm-nominatim",
+   "note": "the centroid of the Gurugram–Saket–Sarita Vihar triangle, not a point anybody published"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The capital-region cluster that takes most of the arrivals from West Asia and Africa.",
+   "rel": "part"
+  },
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "One of the northern Indian clusters a Kathmandu referral lands in.",
+   "rel": "destination"
+  },
+  {
+   "from": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The northern cluster Chennai competes with for the same cardiac and transplant referrals.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The northern cluster, larger and weighted to the heart rather than to cancer.",
+   "rel": "contrast"
+  },
+  {
+   "from": "fortis-gurgaon",
+   "type": "facility",
+   "name": "Fortis Memorial Research Institute, Gurugram",
+   "as": "One of the two hospitals the Gurugram end of the Delhi cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "from": "max-saket",
+   "type": "facility",
+   "name": "Max Super Speciality Hospital, Saket",
+   "as": "The South Delhi end of the cluster, against the two Gurugram campuses on the airport road.",
+   "rel": "place"
+  },
+  {
+   "from": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "One of the two Gurugram campuses the Delhi cluster is named for, eight kilometres from the other.",
+   "rel": "place"
+  }
+ ]
+}

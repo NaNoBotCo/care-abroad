@@ -1,0 +1,115 @@
+{
+ "note": "Open list. A record may name a region not listed here; validate.py warns so it can be added. These are reading groups for a directory, not UN statistical regions, and a country that trades in two directions sits in both.",
+ "entries": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  },
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  },
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  },
+  {
+   "key": "gulf",
+   "name": "The Gulf",
+   "note": "the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain — a source market that is building itself into a destination"
+  },
+  {
+   "key": "central-asia",
+   "name": "Central Asia",
+   "note": "Kazakhstan, Uzbekistan, Kyrgyzstan"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  },
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  },
+  {
+   "key": "europe-north",
+   "name": "Northern Europe",
+   "note": "the Nordics and the Baltics"
+  },
+  {
+   "key": "europe-east",
+   "name": "Eastern Europe",
+   "note": "Romania, Bulgaria, Serbia, Ukraine, Moldova, Albania, North Macedonia"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  },
+  {
+   "key": "mexico",
+   "name": "Mexico",
+   "note": "its own entry because the border towns are a category of their own"
+  },
+  {
+   "key": "central-america",
+   "name": "Central America",
+   "note": "Costa Rica, Panama, Guatemala, Belize"
+  },
+  {
+   "key": "caribbean",
+   "name": "The Caribbean",
+   "note": "the Dominican Republic, Cuba, Barbados, the Caymans"
+  },
+  {
+   "key": "south-america",
+   "name": "South America",
+   "note": "Colombia, Brazil, Argentina, Chile, Peru"
+  },
+  {
+   "key": "africa-north",
+   "name": "North Africa",
+   "note": "Tunisia, Morocco, Egypt"
+  },
+  {
+   "key": "africa-east",
+   "name": "East Africa",
+   "note": "Kenya, Tanzania, Ethiopia, Rwanda"
+  },
+  {
+   "key": "africa-west",
+   "name": "West Africa",
+   "note": "Nigeria, Ghana, Senegal — mostly outbound, and the outflow is itself the story"
+  },
+  {
+   "key": "africa-south",
+   "name": "Southern Africa",
+   "note": "South Africa, Namibia, Botswana"
+  },
+  {
+   "key": "oceania",
+   "name": "Oceania",
+   "note": "Australia, New Zealand, the Pacific"
+  }
+ ]
+}

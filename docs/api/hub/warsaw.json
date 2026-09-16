@@ -1,0 +1,298 @@
+{
+ "schema": 1,
+ "id": "warsaw",
+ "type": "hub",
+ "names": {
+  "name": "Warsaw",
+  "aliases": [
+   "Warszawa"
+  ],
+  "said": "Clinics quote a district — Śródmieście, Mokotów, Wola — the way a London clinic quotes a postcode."
+ },
+ "region": [
+  "europe-central"
+ ],
+ "facets": {
+  "iso2": "PL",
+  "radius_km": 15,
+  "specialty": [
+   "dentistry",
+   "cosmetic surgery",
+   "bariatric surgery",
+   "fertility",
+   "orthopaedics"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "rhinoplasty",
+   "gastric-sleeve",
+   "ivf"
+  ],
+  "languages": [
+   "Polish",
+   "English",
+   "German"
+  ]
+ },
+ "text": {
+  "what": "A capital of 1,866,729 people at the end of 2025, laid out in 18 districts, with the private clinics that take foreign patients concentrated in central Śródmieście and in Mokotów, Wola and Ochota around it. Warsaw sells dentistry and cosmetic and bariatric surgery to British, Irish and German patients on a two-hour flight, and it is also a departure point: the city is in a country whose own residents travel out for care its law does not provide.",
+  "story": "Poland arrived in the trade the way Hungary did, through the price step that opened when the border did, and then through EU membership in 2004, which put Polish clinics inside the same regulatory market as the patients flying to them. Directive 2011/24/EU on patients' rights in cross-border healthcare gives an insured EU patient a reimbursement route at the home tariff, with prior authorisation required for some categories.\n\nThe outward flow is the part most directories leave out. Roughly 7,000 Polish women a year travel to the United Kingdom for abortion care, where it is provided free through the National Health Service — a figure the encyclopaedia that carries it attributes to a named reference rather than to a statistics office, and a flow driven by law rather than by price.\n\n*Inference —* a city can be both ends of the same subject at once, and Warsaw is. Somebody lands at Chopin for a dental arch that costs a third of the Dublin price on the same morning somebody else takes off for a procedure that is lawful at the other end and not at this one. The two journeys share an airport and almost nothing else, and a directory that only counted the arrivals would describe half a city.",
+  "how": "*Trade practice —* the Warsaw clinic sells in English by email, quotes per unit, asks for a deposit and books the consultation and the procedure into the same trip. Dentistry runs on the usual two-visit implant course. Bariatric and cosmetic work is quoted as a package with the nights named, and the exclusions are the usual ones: imaging, laboratory work, a complication, and the night past the package.",
+  "today": "As of 16 September 2026 this record carries no price row for Warsaw and no count of arrivals. The clinic pages read for this batch quoted ranges without a date.",
+  "notes": "Fifteen kilometres from the city point covers all 18 districts."
+ },
+ "geo": {
+  "lat": 52.23,
+  "lon": 21.0111,
+  "precision": "city",
+  "source": "s:wp-warsaw"
+ },
+ "address": {
+  "city": "Warsaw",
+  "country": "PL"
+ },
+ "kin": [
+  {
+   "to": "poland",
+   "as": "The country this cluster is the capital of, and one that trades in both directions.",
+   "rel": "whole"
+  },
+  {
+   "to": "budapest",
+   "as": "The other central European capital the same dental traffic is sent to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The commonest booking, priced per implant.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "Sold here as a package with the nights named.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abortion-care",
+   "as": "The care Polish residents leave the country to obtain, which makes this city a departure point as well as an arrival one.",
+   "rel": "procedure"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The word for the outward half of this city's traffic.",
+   "rel": "term"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The reimbursement route an insured EU patient can use for care bought here.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "abortion-travel-law",
+   "as": "The rule that decides which direction a patient moves in, and it is not price.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "who-travels",
+   "as": "Why an arrivals count describes half a city.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Directive 2011/24/EU",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32011L0024"
+  }
+ ],
+ "sources": [
+  "s:wp-warsaw",
+  "s:wp-medical-travel",
+  "s:eu-directive-2011-24",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-travel",
+    "note": "the 7,000 figure is carried as the encyclopaedia carries it, with its weak provenance stated; the last paragraph is this project reasoning"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-warsaw"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Warsaw Śródmieście skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A capital of 1,866,729 people at the end of 2025, laid out in 18 districts, with the private clinics that take foreign patients concentrated in central Śródmieście and in Mokotów, Wola and Ochota around it.",
+ "region_terms": [
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "The country this cluster is the capital of, and one that trades in both directions.",
+   "rel": "whole"
+  },
+  {
+   "to": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The other central European capital the same dental traffic is sent to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The commonest booking, priced per implant.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "Sold here as a package with the nights named.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abortion-care",
+   "type": "procedure",
+   "name": "Abortion",
+   "as": "The care Polish residents leave the country to obtain, which makes this city a departure point as well as an arrival one.",
+   "rel": "procedure"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "The word for the outward half of this city's traffic.",
+   "rel": "term"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The reimbursement route an insured EU patient can use for care bought here.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "abortion-travel-law",
+   "type": "rule",
+   "name": "Travelling for a termination",
+   "as": "The rule that decides which direction a patient moves in, and it is not price.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "Why an arrivals count describes half a city.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-warsaw",
+   "kind": "wikipedia",
+   "title": "Warsaw",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Warsaw",
+   "accessed": "2026-09-16",
+   "note": "coordinates, population 1,866,729 at 31 December 2025, the 18 districts including Śródmieście, Mokotów, Wola and Ochota"
+  },
+  {
+   "id": "s:wp-medical-travel",
+   "kind": "wikipedia",
+   "title": "Medical tourism",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism",
+   "accessed": "2026-09-16",
+   "note": "used only for the figures it attributes to a named reference: Mosonmagyaróvár's dental clinic count, a Lithuanian hip replacement at £3,340 against a British commercial price roughly three times it, and Tunisia's thalassotherapy ranking. Its country-level traffic figures rest on market-research summaries and are not carried here."
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-medical-travel",
+   "note": "the 7,000 figure is carried as the encyclopaedia carries it, with its weak provenance stated; the last paragraph is this project reasoning"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-warsaw"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "The capital cluster, weighted to cosmetic and aesthetic work.",
+   "rel": "part"
+  },
+  {
+   "from": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The other central European capital British and Irish dental patients are sent to.",
+   "rel": "contrast"
+  }
+ ]
+}

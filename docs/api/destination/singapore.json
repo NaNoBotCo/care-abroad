@@ -1,0 +1,334 @@
+{
+ "schema": 1,
+ "id": "singapore",
+ "type": "destination",
+ "names": {
+  "name": "Singapore",
+  "aliases": [
+   "Republic of Singapore",
+   "新加坡共和国"
+  ],
+  "said": "In the trade Singapore is the expensive answer — the place a patient goes when the diagnosis is hard rather than when the bill at home is high."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "SG",
+  "direction": "both",
+  "currency": "SGD",
+  "languages": [
+   "English",
+   "Mandarin",
+   "Malay",
+   "Tamil",
+   "Indonesian"
+  ],
+  "draws": [
+   "proton-therapy",
+   "car-t",
+   "bone-marrow-transplant",
+   "executive-health-screening"
+  ]
+ },
+ "text": {
+  "what": "A city-state that counted its medical travellers, found the count did not survive inspection, and has not published a comparable one since. Singapore takes complex and expensive work — oncology, transplant, difficult paediatrics — from Indonesia, Malaysia, Vietnam and the region's wealthy, and it competes on diagnosis rather than on price.",
+  "story": "On 22 January 2009 the Ministry of Health answered a parliamentary question from Dr Lam Pin Min with the figures it had: about 410,000 medical travellers in 2006 and about 348,000 in 2007, with spending of 1.7 billion dollars in 2007, an increase of 30 per cent on 2006. The estimates came from the Singapore Tourism Board's exit surveys of international travellers at the airport.\n\nThe ministry then said what most agencies leave out. All the hospitals had reported higher admissions and higher patient-days in 2007, and the survey showed a 15 per cent fall. The board was re-examining its methodology.\n\n*Inference —* an exit survey asks a departing passenger what they came for. It cannot tell a scheduled operation from a fever treated on holiday, it misses anyone who leaves by causeway, and it is a sample grossed up. The ministry's own objection is the most useful sentence published about patient counts anywhere in this subject, and it applies to every national figure in this directory that was produced the same way.\n\n*Trade practice —* the traffic runs the other way too. Singaporeans cross to Johor Bahru for dental work and to Malaysian hospitals for elective surgery, and no agency on either side counts them.",
+  "how": "Private groups quote in Singapore dollars, itemise rather than package, and route foreign patients through international patient centres that arrange the visa letter, the deposit and the interpreter. Complex oncology and cell therapy are the country's distinctive offer, and both are priced well above the regional field.",
+  "today": "As of 16 September 2026 no official Singapore count of medical travellers later than the 2007 exit-survey estimate has been read for this record. The figures circulating for recent years come from market-research summaries, and this directory does not carry them."
+ },
+ "geo": {
+  "lat": 1.3521,
+  "lon": 103.8198,
+  "precision": "country",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 348000,
+  "note": "The Singapore Tourism Board's airport exit-survey estimate for 2007, given to Parliament by the Ministry of Health on 22 January 2009, against about 410,000 for 2006. Carried here with the ministry's own caveat attached: every hospital reported higher admissions and patient-days in 2007 while the survey showed a 15 per cent fall, and the board was re-examining the method. No later official count was read for this record.",
+  "as_of": "2007",
+  "source": "s:moh-sg-medical-travellers-2009",
+  "url": "https://www.moh.gov.sg/newsroom/medical-travellers-update/"
+ },
+ "kin": [
+  {
+   "to": "singapore-city",
+   "as": "The country and the cluster are the same place.",
+   "rel": "part"
+  },
+  {
+   "to": "mount-elizabeth",
+   "as": "The private hospital most often named in the region's referrals.",
+   "rel": "part"
+  },
+  {
+   "to": "raffles-hospital",
+   "as": "The other name a regional referral usually lands on.",
+   "rel": "part"
+  },
+  {
+   "to": "indonesia",
+   "as": "The source market that fills these wards, and the reason Jakarta wants them filled at home.",
+   "rel": "contrast"
+  },
+  {
+   "to": "malaysia",
+   "as": "The cheaper neighbour, and the place Singaporeans themselves cross to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "One of the expensive treatments patients fly here for rather than for a lower price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "as": "Cell therapy sold to the region at the top of the price range.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "as": "The health ministry's own doubt about an exit survey, stated in 2009.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A country that stopped publishing a number rather than publish a bad one.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical Travellers Update — Ministry of Health, 22 January 2009",
+   "url": "https://www.moh.gov.sg/newsroom/medical-travellers-update/"
+  }
+ ],
+ "sources": [
+  "s:moh-sg-medical-travellers-2009",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:moh-sg-medical-travellers-2009"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:moh-sg-medical-travellers-2009",
+    "note": "the 2009 parliamentary answer; the last two stretches are marked inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of an international patient centre in a Singapore private group"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:moh-sg-medical-travellers-2009"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A city-state that counted its medical travellers, found the count did not survive inspection, and has not published a comparable one since.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "The country and the cluster are the same place.",
+   "rel": "part"
+  },
+  {
+   "to": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "The private hospital most often named in the region's referrals.",
+   "rel": "part"
+  },
+  {
+   "to": "raffles-hospital",
+   "type": "facility",
+   "name": "Raffles Hospital",
+   "as": "The other name a regional referral usually lands on.",
+   "rel": "part"
+  },
+  {
+   "to": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "The source market that fills these wards, and the reason Jakarta wants them filled at home.",
+   "rel": "contrast"
+  },
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The cheaper neighbour, and the place Singaporeans themselves cross to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "One of the expensive treatments patients fly here for rather than for a lower price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Cell therapy sold to the region at the top of the price range.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The health ministry's own doubt about an exit survey, stated in 2009.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A country that stopped publishing a number rather than publish a bad one.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:moh-sg-medical-travellers-2009",
+   "kind": "web",
+   "title": "Medical Travellers Update",
+   "publisher": "Ministry of Health, Singapore",
+   "url": "https://www.moh.gov.sg/newsroom/medical-travellers-update/",
+   "accessed": "2026-09-16",
+   "note": "written answer to a parliamentary question from Dr Lam Pin Min, 22 January 2009, giving the Singapore Tourism Board's airport exit-survey estimates and the ministry's own doubt about the method"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:moh-sg-medical-travellers-2009"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:moh-sg-medical-travellers-2009",
+   "note": "the 2009 parliamentary answer; the last two stretches are marked inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of an international patient centre in a Singapore private group"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:moh-sg-medical-travellers-2009"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:moh-sg-medical-travellers-2009"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "Where the harder diagnoses and the larger bills go.",
+   "rel": "destination"
+  },
+  {
+   "from": "vietnam",
+   "type": "destination",
+   "name": "Vietnam",
+   "as": "Where Vietnamese patients go when the diagnosis is serious and the money exists.",
+   "rel": "contrast"
+  },
+  {
+   "from": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "The country whose entire private trade sits in these few square kilometres.",
+   "rel": "whole"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The third published price on this record, and the most specific in what it covers.",
+   "rel": "destination"
+  },
+  {
+   "from": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "The expensive end of Asian private medicine, bought for the regulator as much as for the surgeon.",
+   "rel": "destination"
+  },
+  {
+   "from": "raffles-hospital",
+   "type": "facility",
+   "name": "Raffles Hospital",
+   "as": "The country's clinic company that built a hospital, against the country's hospital companies that acquired clinics.",
+   "rel": "destination"
+  },
+  {
+   "from": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "The state that ties the permission to the licence.",
+   "rel": "destination"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The year an exit survey and the hospitals' own admissions moved in opposite directions.",
+   "rel": "destination"
+  }
+ ]
+}

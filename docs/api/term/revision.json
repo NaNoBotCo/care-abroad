@@ -1,0 +1,213 @@
+{
+ "id": "revision",
+ "names": {
+  "name": "Revision",
+  "aliases": [
+   "revision surgery",
+   "redo",
+   "corrective surgery",
+   "revision arthroplasty"
+  ],
+  "said": "Surgeons say revision. Package pages say it too, and usually mean something narrower than the patient does."
+ },
+ "etymology": {
+  "root": "revision, 1610s, \"act of looking over again, re-examination and correction\", from French révision, from Late Latin revisionem; behind it the verb revise, 1560s, from Latin revisere, to look at again, a frequentative of revidere. The surgical sense keeps the literal one: the operation is looked at again, and cut again.",
+  "first_attested": "1610s for the noun; 1560s for the verb",
+  "tier": "cited",
+  "source": "s:etymonline-revision",
+  "note": "On a price page revision usually means the same surgeon correcting his own result within a stated window. A revision done at home by somebody else is a different event with a different payer."
+ },
+ "text": {
+  "what": "A second operation on the site of a first: an implant replaced, a nose re-cut, a sleeve converted, a graft redone. In cross-border care it is the event that decides who actually paid for the treatment, because the first price almost never covers it and the second surgeon is usually in another country.",
+  "story": "The revision is the only part of this subject with a running set of published costs, because publicly funded systems that pay for it have a reason to count. Five UK plastic surgery units have published their own ledgers. A London teaching hospital costed 24 patients surgically managed between 2006 and 2018 for complications of cosmetic surgery abroad at USD 406,233, a mean of USD 16,296 each. A Birmingham tertiary centre costed 29 patients between 2020 and 2025 at £518,058.47, a mean of £17,864, with 82.8% of the original procedures done in Türkiye and nearly half the presentations being repeat attendances.\n\n*Inference —* a revision is harder than the original for reasons unrelated to the first surgeon's skill: the operative note is missing, the device model is unknown, the organism may be atypical, and the tissue has been cut once already. Where a device is involved, it is bought a second time.",
+  "how": "Three questions separate a revision clause that means something from one that does not: whether it is a contractual term with a duration, whether it requires the patient to fly back, and who pays the fare. The General Medical Council requires a doctor on its register to say at the outset what revision or routine follow-up might cost. That duty binds the register, not the surgeon abroad.",
+  "today": "As of 17 September 2026 no country publishes a national figure for revisions after treatment abroad, and no destination publishes what its own clinics spend on them. The published series are single-hospital counts of the patients who reached one hospital."
+ },
+ "kin": [
+  {
+   "to": "revision-at-home",
+   "as": "The risk this word names, with the published ledgers behind it.",
+   "rel": "risk"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "The face operation revised more often than any other, and the first price never covers it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The space a revision falls into when nobody at home agreed to see the patient.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The form of price whose revision clause is the fine print that matters most.",
+   "rel": "term"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step in the journey this word belongs to.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-revision",
+  "s:thacoor-nhs-cost-2019",
+  "s:mafi-cosmetic-tourism-cost-2026",
+  "s:gmc-cosmetic-interventions"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the three questions are this project's; the GMC duty is cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "R"
+ },
+ "blurb": "A second operation on the site of a first: an implant replaced, a nose re-cut, a sleeve converted, a graft redone.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The risk this word names, with the published ledgers behind it.",
+   "rel": "risk"
+  },
+  {
+   "to": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The face operation revised more often than any other, and the first price never covers it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The space a revision falls into when nobody at home agreed to see the patient.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form of price whose revision clause is the fine print that matters most.",
+   "rel": "term"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The step in the journey this word belongs to.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-revision",
+   "kind": "dictionary",
+   "title": "revision (n.), revise (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/revision",
+   "accessed": "2026-09-17",
+   "note": "1610s / 1560s"
+  },
+  {
+   "id": "s:thacoor-nhs-cost-2019",
+   "kind": "paper",
+   "title": "Surgical Management of Cosmetic Surgery Tourism-Related Complications: Current Trends and Cost Analysis Study of the Financial Impact on the UK National Health Service",
+   "publisher": "Aesthetic Surgery Journal 2019;39(7):786-791 (Thacoor A, van den Bosch P, Akhavani MA), Royal Free Hospital, London",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30590431/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:mafi-cosmetic-tourism-cost-2026",
+   "kind": "paper",
+   "title": "Recurrent Clinical Burden and Cost of Cosmetic Surgery Tourism Complications: A Five-Year Retrospective Study From a UK Tertiary Centre",
+   "publisher": "Cureus 2026;18(5):e109006 (Mafi P, Patel K, Hoque-Uddin S, Warner R), Queen Elizabeth Hospital Birmingham",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42311717/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:gmc-cosmetic-interventions",
+   "kind": "org",
+   "title": "Guidance for doctors who offer cosmetic interventions — in effect 1 June 2016, updated 13 December 2024",
+   "publisher": "General Medical Council (United Kingdom)",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions",
+   "accessed": "2026-09-16",
+   "note": "paragraph numbers cited on this site are from the sections Communication, partnership and teamwork (paras 14-45) and Maintaining trust (paras 46-56)"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "the three questions are this project's; the GMC duty is cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "Implants are removed and replaced; the first price covers none of that.",
+   "rel": "term"
+  },
+  {
+   "from": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The second operation this one needs more often than any other face procedure, and which the first price never covers.",
+   "rel": "term"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The word, and what it covers when a package says it is included.",
+   "rel": "term"
+  },
+  {
+   "from": "fue",
+   "type": "term",
+   "name": "FUE",
+   "as": "What follows an overharvested donor area, and what cannot be undone.",
+   "rel": "term"
+  }
+ ]
+}

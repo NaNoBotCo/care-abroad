@@ -1,0 +1,436 @@
+{
+ "schema": 1,
+ "id": "ireland",
+ "type": "destination",
+ "names": {
+  "name": "Ireland",
+  "aliases": [
+   "Republic of Ireland",
+   "Éire"
+  ],
+  "said": "In the trade Ireland is a source market with a land border. The queue is published monthly, the border is an hour's drive from a third of the population, and the reimbursement form is the product."
+ },
+ "region": [
+  "europe-west"
+ ],
+ "facets": {
+  "iso2": "IE",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": [
+   "English",
+   "Irish"
+  ]
+ },
+ "text": {
+  "what": "A country that mostly sends patients out and takes very few in. The driver is the public hospital waiting list, which the National Treatment Purchase Fund publishes every month, and there are three ways off it that involve leaving: the Cross Border Directive scheme to another EU or EEA state, the Northern Ireland Planned Healthcare Scheme to private providers across the land border, and the Treatment Abroad Scheme, which is Ireland's S2 route for care the public system cannot provide in time. All three end in a form. Two of them start with the patient paying the bill.",
+  "story": "The queue first, because everything else follows it. At the end of August 2026 the NTPF counted 687,839 people waiting for a first hospital outpatient consultation, 114,921 waiting for an inpatient or day case appointment, and 42,726 waiting for a GI endoscopy, with a further 37,951 suspended and 113,675 on the planned procedure list. Those are counts of people waiting, not waiting times; the NTPF publishes no median, so this record carries none.\n\nThe outbound flow is then measured, unusually well, from the money. The European Commission's data for reference year 2024 records Ireland receiving 2,566 requests for reimbursement of care not subject to prior authorisation and granting 2,266 of them, and paying out €11,881,494 — an average of €5,243 per granted request, the second highest in the European Union after Cyprus and nearly four times the EU average of €1,351. Only five countries reimbursed more than €10 million in total: Germany, Sweden, Norway, Ireland and Belgium.\n\nWhere those patients went is the second finding. Of the 2,266 reimbursements, 186 were for treatment in the United Kingdom under post-Brexit transitional arrangements. The remaining 2,080 break down by country of treatment as Spain 1,108, Poland 371, Lithuania 294, Germany 101, Latvia 54, Romania 45, Czechia 33, Hungary 18, Belgium 10 and small numbers elsewhere. More than half of Ireland's Directive traffic goes to one country.\n\nThe border is the part the European table cannot see. The Directive once carried Irish patients to private hospitals in Northern Ireland, an hour or two by road. It no longer does: \"You can no longer use the CBD to access healthcare in the UK. This is because the UK left the EU on 31 December 2020.\" That traffic runs instead through a domestic arrangement, the Northern Ireland Planned Healthcare Scheme, which the HSE calls \"similar to the Cross Border Directive\" and which covers planned care bought from private providers in the North. It repays the lesser of what the patient paid there and the price of the same care in the Irish public system, capped for an outpatient appointment at €194 from 1 May 2023. *Inference —* a scheme created because the Directive stopped applying is not counted in the Directive's returns, and no published figure for its volume was found on this pass — which is not evidence that none exists. The consequence is that Ireland's best-measured outbound flow is the one that crosses a sea, and the one that crosses a field is the one nobody here can count.\n\nThe prices attached to all this are the Irish public system's own. The HSE's guide to the most common procedures under both schemes prices lens interventions — cataract surgery — at €1,171 as a day case, colonoscopy at €1,001 and gastroscopy at €726, taken from its 2024 activity-based-funding price list. Those are not what the operation costs in Belfast, Alicante or Vilnius. They are the ceiling on what a patient gets back.\n\nInbound is the short paragraph. In the same European return for 2024, 27 granted reimbursement requests across all reporting countries named Ireland as the country of treatment, against Spain's 32,495 and Germany's 19,719. *Inference —* that counts only patients who claimed the money back at home under the Directive and so misses anyone who simply paid an Irish private hospital, but the order of magnitude is the point: a country that sends 2,080 people abroad on that route receives 27 back on it. Ireland is in this directory because of the outflow.",
+  "how": "Under the Cross Border Directive scheme the referral must come from \"a GP or a consultant you see as a public patient\"; the patient is treated in one of the 27 EU states or in Iceland, Liechtenstein or Norway, \"must pay the provider\" in full, and then claims back from the HSE at the Irish public price for the relevant diagnosis-related group — a code that fixes a single price for a category of care — or the amount actually paid, whichever is lower. Prior authorisation applies to almost nothing: Ireland has notified the Commission of one procedure only, Enzyme Replacement Therapy, and has received no prior authorisation request since 2020. What it runs instead is voluntary Prior Notification for inpatient episodes, which tells the applicant in advance what DRG code and what figure to expect. The Northern Ireland scheme works the same way across the land border, on the same referral rule and the same pay-first rule, against the same Irish price list.\n\nThe Treatment Abroad Scheme is the opposite shape. It covers planned treatment in the EU, EEA, United Kingdom or Switzerland on the E112 (IE) form, which is the S2 certificate; referral is only by a public hospital consultant currently treating the patient — \"We do not accept referrals from GPs or self-referrals\" — and the treatment must be \"not available in Ireland, or not available in the time normally necessary to get it in Ireland\". Where it is granted the states settle between themselves and no treatment invoice reaches the patient. Travel, accommodation and food are outside it.",
+  "today": "As of 17 September 2026 the most recent NTPF figures are August 2026, published on 11 September, and the most recent European return is reference year 2024. The Northern Ireland scheme has been running since the Directive stopped applying to the United Kingdom.",
+  "notes": "Nothing here is legal advice and nothing here is medical advice. A reimbursement rate is not a price and a waiting list count is not a waiting time."
+ },
+ "geo": {
+  "lat": 53.3498,
+  "lon": -6.2603,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "wait_days_home": null,
+  "note": "Ireland's queue is published as counts of people waiting, not as a waiting time, so no median can be carried here. At the end of August 2026 the NTPF counted 687,839 waiting for a first outpatient consultation, 114,921 for an inpatient or day case appointment and 42,726 for a GI endoscopy. Separately, the European Commission's 2024 return records 2,266 Cross Border Directive reimbursements granted to Irish patients at €11,881,494, and 27 granted requests from all reporting countries naming Ireland as the country of treatment.",
+  "as_of": "2026-08",
+  "source": "s:ntpf-august-2026",
+  "url": "https://www.ntpf.ie/news_and_events/ntpf-publishes-august-2026-national-public-hospital-waiting-list-data/"
+ },
+ "kin": [
+  {
+   "to": "united-kingdom",
+   "as": "The other mostly outbound country in this region, with a monthly queue of its own and a land border in common.",
+   "rel": "contrast"
+  },
+  {
+   "to": "spain",
+   "as": "Where more than half of this country's Directive traffic goes — 1,108 granted reimbursements in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "poland",
+   "as": "Second destination on the same return, at 371, and the dental corridor priced in euro.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lithuania",
+   "as": "Third on the same return, at 294, two and a half hours away.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route that reimburses at this country's own DRG price, and the one the land border fell out of at Brexit.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "s2-route",
+   "as": "Run here as the Treatment Abroad Scheme, on consultant referral, for care the public system cannot provide in time.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "The operation behind the most-quoted number in the whole scheme: €1,171 repaid as a day case.",
+   "rel": "procedure"
+  },
+  {
+   "to": "drg",
+   "as": "The code that fixes what a patient gets back, and the reason a quote abroad has to be read against a category rather than a bill.",
+   "rel": "term"
+  },
+  {
+   "to": "abortion-care",
+   "as": "The journey the euro column on a British price list was written for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that would put this queue beside other countries', if the counts were of the same thing.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "waiting-lists",
+   "as": "The queue as the thing that moves patients, published here monthly as a headcount rather than a wait.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A country whose best-counted flow crosses a sea and whose largest may cross a field.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "NTPF waiting list data",
+   "url": "https://www.ntpf.ie/"
+  },
+  {
+   "label": "HSE — Cross Border Directive Scheme",
+   "url": "https://www2.hse.ie/services/schemes-allowances/cross-border-directive/"
+  },
+  {
+   "label": "HSE — Northern Ireland Planned Healthcare Scheme",
+   "url": "https://www2.hse.ie/services/schemes-allowances/niphs/"
+  },
+  {
+   "label": "HSE — Treatment Abroad Scheme",
+   "url": "https://www2.hse.ie/services/schemes-allowances/treatment-abroad-scheme/"
+  }
+ ],
+ "sources": [
+  "s:ntpf-august-2026",
+  "s:ntpf-may-2026",
+  "s:ec-crossborder-2024",
+  "s:hse-cbd-scheme",
+  "s:hse-cbd-how-to-get",
+  "s:hse-niphs-getting",
+  "s:hse-niphs-claim",
+  "s:hse-cbd-niphs-drg-guide",
+  "s:hse-abf-2024-inpatient",
+  "s:hse-tas",
+  "s:ec-cross-border-overview",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ec-crossborder-2024",
+    "note": "the queue counts are the NTPF's August 2026 release, the reimbursement counts, amounts and countries of treatment are read off the European Commission's 2024 tables, the €194 outpatient cap and the DRG prices off the HSE's own pages; the two paragraphs marked inference are this project's reading"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:hse-tas",
+    "note": "the referral rule, the pay-first rule and the country list are quoted from the HSE's own Cross Border Directive and NIPHS pages; the prior notification arrangement is from the European Commission's note on Ireland; the Treatment Abroad Scheme quotations are the HSE's own"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:ntpf-august-2026"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Border crossing Ireland Northern Ireland.jpg"
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-17",
+ "blurb": "A country that mostly sends patients out and takes very few in.",
+ "region_terms": [
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The other mostly outbound country in this region, with a monthly queue of its own and a land border in common.",
+   "rel": "contrast"
+  },
+  {
+   "to": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "Where more than half of this country's Directive traffic goes — 1,108 granted reimbursements in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "Second destination on the same return, at 371, and the dental corridor priced in euro.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lithuania",
+   "type": "destination",
+   "name": "Lithuania",
+   "as": "Third on the same return, at 294, two and a half hours away.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route that reimburses at this country's own DRG price, and the one the land border fell out of at Brexit.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "Run here as the Treatment Abroad Scheme, on consultant referral, for care the public system cannot provide in time.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The operation behind the most-quoted number in the whole scheme: €1,171 repaid as a day case.",
+   "rel": "procedure"
+  },
+  {
+   "to": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The code that fixes what a patient gets back, and the reason a quote abroad has to be read against a category rather than a bill.",
+   "rel": "term"
+  },
+  {
+   "to": "abortion-care",
+   "type": "procedure",
+   "name": "Abortion",
+   "as": "The journey the euro column on a British price list was written for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that would put this queue beside other countries', if the counts were of the same thing.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "waiting-lists",
+   "type": "story",
+   "name": "The queue is the product",
+   "as": "The queue as the thing that moves patients, published here monthly as a headcount rather than a wait.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A country whose best-counted flow crosses a sea and whose largest may cross a field.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ntpf-august-2026",
+   "kind": "gov",
+   "title": "NTPF Publishes August 2026 National Public Hospital Waiting List Data",
+   "publisher": "National Treatment Purchase Fund (Ireland)",
+   "year": 2026,
+   "url": "https://www.ntpf.ie/news_and_events/ntpf-publishes-august-2026-national-public-hospital-waiting-list-data/",
+   "accessed": "2026-09-17",
+   "note": "published 11 September 2026. At the end of August 2026: 687,839 waiting for a first hospital outpatient consultation, 114,921 for an inpatient or day case appointment, 42,726 for a GI endoscopy, 36,138 pre-admit with a date, 113,675 on the planned procedure list, 37,951 suspended. Counts of patients waiting, not a waiting time; the NTPF publishes no median."
+  },
+  {
+   "id": "s:ntpf-may-2026",
+   "kind": "gov",
+   "title": "NTPF Publishes May 2026 National Public Hospital Waiting List Data",
+   "publisher": "National Treatment Purchase Fund (Ireland)",
+   "url": "https://www.ntpf.ie/news_and_events/ntpf-publishes-may-2026-national-public-hospital-waiting-list-data/",
+   "accessed": "2026-09-16",
+   "note": "at the end of May 2026: 669,506 waiting for a first outpatient consultation, 115,450 for an inpatient or day-case appointment, 40,986 for a GI endoscopy, 34,049 suspended, 111,643 on the planned-procedure list"
+  },
+  {
+   "id": "s:ec-crossborder-2024",
+   "kind": "report",
+   "title": "Member State data on cross-border patient healthcare following Directive 2011/24/EU - reference year 2024",
+   "publisher": "European Commission, Directorate-General for Health and Food Safety",
+   "year": 2025,
+   "url": "https://health.ec.europa.eu/publications/data-cross-border-patient-healthcare-following-directive-201124eu-reference-year-2024_en",
+   "accessed": "2026-09-17",
+   "note": "Ireland: 2,566 requests for reimbursement of healthcare not subject to prior authorisation received in 2024, 2,266 granted (88.3%), 119 refused; EUR 11,881,494 reimbursed, an average of EUR 5,243 per granted request, second highest in the EU after Cyprus. Of the 2,266, 186 were for treatment in the UK under post-Brexit transitional arrangements, leaving 2,080 by EU/EEA country of treatment: Spain 1,108, Poland 371, Lithuania 294, Germany 101, Latvia 54, Romania 45, Czechia 33, Hungary 18, Croatia 8, Slovakia 8, Italy 7, Greece 5, France 5, Cyprus 4, Portugal 4, Netherlands 2, Austria 2, Sweden 1, Belgium 10. Ireland as country of treatment: 27 granted requests from all reporting countries. Prior authorisation in Ireland is required only for Enzyme Replacement Therapy and no request has been received since 2020; what Ireland operates is Prior Notification, voluntary, inpatient only. EU total reimbursed for healthcare not subject to prior authorisation in 2024: EUR 118,151,033.13."
+  },
+  {
+   "id": "s:hse-cbd-scheme",
+   "kind": "gov",
+   "title": "Cross Border Directive Scheme",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://www2.hse.ie/services/schemes-allowances/cross-border-directive/",
+   "accessed": "2026-09-17",
+   "note": "the HSE's own scheme pages: healthcare in another EU or EEA country, with sections on how to get it, prior notification, and how much can be claimed. The HSE is Ireland's National Contact Point under Directive 2011/24/EU."
+  },
+  {
+   "id": "s:hse-cbd-how-to-get",
+   "kind": "gov",
+   "title": "Cross Border Directive - How to get healthcare abroad",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://www2.hse.ie/services/schemes-allowances/cross-border-directive/how-to-get/",
+   "accessed": "2026-09-17",
+   "note": "'You can only use a referral from a GP or a consultant you see as a public patient.' 'Under the CBD scheme, you must pay the provider for your healthcare. After you have the healthcare, you can apply to the HSE for payment towards the cost.' Prior notification is optional and does not replace the claim afterwards. 'You can no longer use the CBD to access healthcare in the UK. This is because the UK left the EU on 31 December 2020.' Covers the 27 EU states plus Iceland, Liechtenstein and Norway."
+  },
+  {
+   "id": "s:hse-niphs-getting",
+   "kind": "gov",
+   "title": "Get healthcare in Northern Ireland with the NIPHS",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://www2.hse.ie/services/schemes-allowances/niphs/getting-healthcare-ni/",
+   "accessed": "2026-09-17",
+   "note": "planned healthcare in private healthcare services in Northern Ireland; 'The NIPHS is similar to the Cross Border Directive (CBD)'; referral only from 'a GP or a consultant you see as a public patient'; 'You must pay the provider for your healthcare. After you have the healthcare, you can apply to the HSE for payment towards the cost.' The page read on 17 September 2026 carries no statement that the scheme is temporary."
+  },
+  {
+   "id": "s:hse-niphs-claim",
+   "kind": "gov",
+   "title": "Northern Ireland Planned Healthcare Scheme — how much you can claim",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://www2.hse.ie/services/schemes-allowances/niphs/how-much-you-can-claim/",
+   "accessed": "2026-09-16",
+   "note": "the HSE repays the lesser of what the patient paid in Northern Ireland and the price of the same care in the Irish public system, using diagnosis-related group codes; the maximum for an outpatient appointment is EUR 194 from 1 May 2023, EUR 178 for claims between 1 March 2021 and 30 April 2023. The patient pays first."
+  },
+  {
+   "id": "s:hse-cbd-niphs-drg-guide",
+   "kind": "gov",
+   "title": "CBD / NIPHS Most Common Procedures DRG Guide",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "accessed": "2026-09-16",
+   "note": "the tariff behind both the Cross Border Directive scheme and the Northern Ireland Planned Healthcare Scheme. Cataract procedures map to DRG C16Z LENS INTERVENTIONS at a day-case price of EUR 1,171, covering phacoemulsification or other extraction of the crystalline lens and capsulotomy; colonoscopy G48B EUR 1,001; gastroscopy G47C EUR 726. Same figure as the HSE's 2024 activity-based-funding day-case price list."
+  },
+  {
+   "id": "s:hse-abf-2024-inpatient",
+   "kind": "gov",
+   "title": "ABF 2024 Admitted Patient Price List — Inpatient Only",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "accessed": "2026-09-17",
+   "note": "the activity-based-funding inlier inpatient price per diagnosis-related group, linked from the HSE's Northern Ireland Planned Healthcare Scheme claim page and the list behind the CBD and NIPHS repayments. Rows read on 17 September 2026: F06C CRNRY BYPSS-INV INVES MINC EUR 30,040, F06B EUR 34,430, F06A EUR 50,579; F05B CRNRY BYPSS+INV INVES MINC EUR 45,093; F04C CRD VLV INTERVTN+PMP-INV INVES MINC EUR 40,253, F04B EUR 50,628, F04A EUR 80,201; F19B TRNS-VSCLR PERC CRDC INTERVTN MINC EUR 9,887, F19A EUR 42,060; F10B INTERVENTIONAL CRNRY PR + AMI MINC EUR 8,857; M01B MAJOR MALE PELVIC INTERVTNS MINC EUR 19,899, M01A EUR 26,820; M02B TRANSURTH PROSTMY MINC EUR 8,363; N04B HYSTERECTOMY FOR N-MAL MINC EUR 13,282; G10B HERNIA INTERVENTIONS MINC EUR 9,046, G10A MAJC EUR 15,366; H08B LAP CHOLECYSTECTOMY MINC EUR 9,867, H07C OPEN CHOLECYSTECTOMY MINC EUR 16,206. An inlier price assumes a length of stay between the low and high boundaries printed beside it."
+  },
+  {
+   "id": "s:hse-tas",
+   "kind": "gov",
+   "title": "Treatment Abroad Scheme",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://www2.hse.ie/services/schemes-allowances/treatment-abroad-scheme/",
+   "accessed": "2026-09-17",
+   "note": "'The Treatment abroad scheme (TAS) covers the cost of planned treatment in another country in the European Union (EU), European Economic Area (EEA), United Kingdom or Switzerland', on the E112 (IE) or S2 form. Referral only by a public hospital consultant currently treating the patient: 'We do not accept referrals from GPs or self-referrals.' Treatment must be 'not available in Ireland, or not available in the time normally necessary to get it in Ireland'. Travel, accommodation and food are not covered."
+  },
+  {
+   "id": "s:ec-cross-border-overview",
+   "kind": "web",
+   "title": "Cross-border healthcare — overview",
+   "publisher": "European Commission, Directorate-General for Health and Food Safety",
+   "url": "https://health.ec.europa.eu/cross-border-healthcare/overview_en",
+   "accessed": "2026-09-16",
+   "note": "National Contact Points, the cross-border prescription rules, and the annual Member State data reports on prior authorisation and reimbursement"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2024",
+   "note": "the queue counts are the NTPF's August 2026 release, the reimbursement counts, amounts and countries of treatment are read off the European Commission's 2024 tables, the €194 outpatient cap and the DRG prices off the HSE's own pages; the two paragraphs marked inference are this project's reading"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:hse-tas",
+   "note": "the referral rule, the pay-first rule and the country list are quoted from the HSE's own Cross Border Directive and NIPHS pages; the prior notification arrangement is from the European Commission's note on Ireland; the Treatment Abroad Scheme quotations are the HSE's own"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:ntpf-august-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lithuania",
+   "type": "destination",
+   "name": "Lithuania",
+   "as": "A source market two and a half hours away, with a queue at home.",
+   "rel": "contrast"
+  },
+  {
+   "from": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "The second source market, priced in euro on the same page.",
+   "rel": "contrast"
+  },
+  {
+   "from": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The other mostly outbound country in this region, with a different queue and a different scheme.",
+   "rel": "contrast"
+  },
+  {
+   "from": "abortion-care",
+   "type": "procedure",
+   "name": "Abortion",
+   "as": "The route the euro column on the British list was written for.",
+   "rel": "destination"
+  }
+ ]
+}

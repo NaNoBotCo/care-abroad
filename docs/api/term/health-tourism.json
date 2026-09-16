@@ -1,0 +1,277 @@
+{
+ "id": "health-tourism",
+ "names": {
+  "name": "Health tourism",
+  "aliases": [
+   "sağlık turizmi",
+   "thermal tourism",
+   "spa tourism",
+   "curative tourism"
+  ],
+  "said": "Türkiye's ministry says uluslararası sağlık turizmi and means a legal category. European usage means the cure resort as much as the operating theatre."
+ },
+ "region": [
+  "global",
+  "west-asia",
+  "europe-central",
+  "europe-south"
+ ],
+ "etymology": {
+  "root": "The older half of this compound comes from the spring, not the hospital. Spa is 1620s in English, from the town of Spa in eastern Belgium, known since the 14th century for its mineral springs, from Walloon espa, a spring or fountain; the sense of a commercial establishment offering health and beauty treatments arrives only by 1960. Beside it sit balneal, 1640s, from Latin balneum and Greek balaneion, a warm bath, and the German Kur, attested since the 16th century and borrowed from Latin cura, care. Health itself is Old English hælþ, wholeness, an abstract noun formed on whole rather than on heal. The category was about water long before it was about surgery, and the statistics still are.",
+  "first_attested": "1620s for spa, 1640s for balneal, 1811 for tourism; the compound is commoner than the medical one in English books until 2005",
+  "tier": "cited",
+  "source": "s:etymonline-spa",
+  "note": "Where a national figure is very large, this is usually the word behind it. A total built on this category is not a count of operations."
+ },
+ "text": {
+  "what": "The wider administrative category: travel for treatment, for a cure, for thermal and spa stays, and for the care of travellers who fall ill while abroad. States use it because it matches the ministries that share the file, and because it is the category their statistics can actually fill.",
+  "story": "Türkiye writes it into law and defines it twice. The regulation published in the Resmî Gazete of 13 July 2017, number 30123, is the Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik — on international health tourism, and on the health of the visitor. Its Article 4 defines international health tourism as every health service, and the support services around it, received by people who come to the country temporarily for health purposes and are either not citizens or citizens resident abroad; and it defines the second head separately, as care for foreigners already in the country for any reason who fall suddenly ill or need emergency treatment. One category is the journey's purpose, the other is its accident.\n\nArticle 2 defines the category by subtraction, and that is the part worth reading. The regulation expressly excludes patients covered by social security arrangements and bilateral treaties, refugees, asylum seekers, stateless people, victims of trafficking, students, foreigners of Turkish descent, and patients brought by the state development agency. What is left after every entitlement-based route has been removed is what the word means there.\n\n*Inference —* the breadth is what makes national totals under this word unusable as counts of surgery. A country treating many visitors for minor illness, many for dental work and a few for cardiac surgery publishes one number, and the number is dominated by the cheapest category inside it.",
+  "how": "Two sub-categories do most of the work in European usage: curative or medical travel, meaning treatment; and thermal or wellness travel, meaning the stay itself. A record on this site names which of the two a figure came from where the source says so, and says where it does not.",
+  "today": "As of 17 September 2026 the destination records on this site carry inbound figures only with the publisher, the definition and the year attached. Where the only available figure is a health tourism total, the record says that is what it is. Whether Türkiye's 2017 regulation has since been replaced was not checked for this record."
+ },
+ "kin": [
+  {
+   "to": "medical-tourism",
+   "as": "The narrower and more contested word inside this one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The other half of this category, and the half that inflates its totals.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye",
+   "as": "The state that made this category its unit of regulation.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The certificate the category requires, on its own instrument.",
+   "rel": "rule"
+  },
+  {
+   "to": "panchakarma",
+   "as": "A course of treatment that sits inside this word and outside the medical one.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where the arithmetic of these categories is taken apart.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:etymonline-spa",
+  "s:etymonline-balneal",
+  "s:etymonline-health",
+  "s:wiktionary-de-kur",
+  "s:rg-saglik-turizmi-2017",
+  "s:ngram-naming",
+  "s:ushas-saglik-turizmi-verileri"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "H"
+ },
+ "blurb": "The wider administrative category: travel for treatment, for a cure, for thermal and spa stays, and for the care of travellers who fall ill while abroad.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  },
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  },
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The narrower and more contested word inside this one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The other half of this category, and the half that inflates its totals.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The state that made this category its unit of regulation.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The certificate the category requires, on its own instrument.",
+   "rel": "rule"
+  },
+  {
+   "to": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "A course of treatment that sits inside this word and outside the medical one.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Where the arithmetic of these categories is taken apart.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-spa",
+   "kind": "dictionary",
+   "title": "spa (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/spa",
+   "accessed": "2026-09-17",
+   "note": "1620s, from the town of Spa in eastern Belgium, from Walloon espa, a spring"
+  },
+  {
+   "id": "s:etymonline-balneal",
+   "kind": "dictionary",
+   "title": "balneal (adj.), balneography — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/balneal",
+   "accessed": "2026-09-17",
+   "note": "1640s, from Latin balneum and Greek balaneion, a warm bath"
+  },
+  {
+   "id": "s:etymonline-health",
+   "kind": "dictionary",
+   "title": "health (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/health",
+   "accessed": "2026-09-17",
+   "note": "Old English haelth, wholeness; an abstract noun on whole, not on heal"
+  },
+  {
+   "id": "s:wiktionary-de-kur",
+   "kind": "dictionary",
+   "title": "Kur",
+   "publisher": "Wiktionary (German edition)",
+   "url": "https://de.wiktionary.org/wiki/Kur",
+   "accessed": "2026-09-17",
+   "note": "attested since the 16th century, borrowed from Latin cura, care; compounds Badekur, Trinkkur, Wasserkur, Luftkur"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:ngram-naming",
+   "kind": "dataset",
+   "title": "Relative frequency of medical tourism, health tourism, medical travel and wellness tourism in the Google Books English 2019 corpus",
+   "publisher": "Google Books Ngram Viewer",
+   "url": "https://books.google.com/ngrams/json?content=medical+tourism,health+tourism&year_start=1970&year_end=2019&corpus=en-2019&smoothing=0",
+   "accessed": "2026-09-17",
+   "note": "queried directly against the JSON endpoint, smoothing 0. The crossover year is 2005. Pre-1980 non-zero values in this corpus are OCR noise and are not read as attestations"
+  },
+  {
+   "id": "s:ushas-saglik-turizmi-verileri",
+   "kind": "gov",
+   "title": "Sağlık Turizmi Verileri (health tourism data by year)",
+   "publisher": "USHAŞ — Uluslararası Sağlık Hizmetleri A.Ş., the Turkish Ministry of Health's international health services company",
+   "url": "https://ushas.gov.tr/saglik-turizmi-verileri/",
+   "accessed": "2026-09-16",
+   "note": "USHAŞ publishes the series it attributes to TÜİK, the Turkish statistical institute: visitors and revenue by year — 2019 756,926 and USD 1.459bn; 2020 435,691; 2021 729,592; 2022 1,381,807; 2023 1,538,643; 2024 1,506,442; 2025 1,398,580 and USD 3,022,452 thousand; first half of 2026 563,327 and USD 1.580bn. The unit is a visitor arriving with a health purpose, not an operation."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "The wider word under which spa and cure stays are counted.",
+   "rel": "term"
+  },
+  {
+   "from": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The older and wider administrative word, commoner in English books until 2005.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The administrative word that counts this category and surgery in one total.",
+   "rel": "whole"
+  },
+  {
+   "from": "the-word-itself",
+   "type": "story",
+   "name": "The word itself",
+   "as": "The widest category, and the one usually sitting behind a very large national figure.",
+   "rel": "term"
+  }
+ ]
+}

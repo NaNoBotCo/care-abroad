@@ -1,0 +1,250 @@
+{
+ "schema": 1,
+ "id": "sri-lanka",
+ "type": "destination",
+ "names": {
+  "name": "Sri Lanka",
+  "aliases": [
+   "ශ්‍රී ලංකාව",
+   "இலங்கை",
+   "Democratic Socialist Republic of Sri Lanka",
+   "Ceylon"
+  ],
+  "said": "Free care at the point of use for citizens, a private sector in Colombo for those who will not queue, and a flight to Chennai for what neither can do."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "LK",
+  "direction": "both",
+  "currency": "LKR",
+  "languages": [
+   "Sinhala",
+   "Tamil",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A country with free public healthcare, strong population health for its income, and a short list of things it cannot do at home. Sri Lankans travel to India for cancer care, transplants and complex cardiac surgery; Colombo's private hospitals take a smaller flow the other way, mostly from the Maldives and from Sri Lankans living abroad. No official count of either direction was read for this record.",
+  "story": "*Trade practice —* the journey most Sri Lankan patients make is the short one to South India: Chennai above all, sometimes Bengaluru. It is a flight of about an hour, the referral often comes from a Colombo consultant who trained in India, and the cost is met out of pocket or by family abroad.\n\n*Inference —* Sri Lanka is a demonstration of a point this directory keeps running into. A health system can deliver long life expectancy and low child mortality at low cost and still leave a gap at the top of the acuity range, and it is that gap, not the average, that produces medical travel. Comparing countries by health spending per person will not find it.\n\nThe Ministry of Health publishes an Annual Health Bulletin as the national statistics series. No foreign-patient figure was read from it for this record, and this page carries none.",
+  "how": "*Trade practice —* Colombo's private hospitals bill in rupees, itemise rather than package, and arrange Indian referrals through named consultants rather than through agencies. Foreign-exchange controls and the cost of the flight shape what a family can actually buy, and the economic crisis of 2022 — with its medicine shortages — moved that line for several years.",
+  "today": "As of 16 September 2026 this record carries no patient count and no price for Sri Lanka. Both are gaps in the record, marked for verification, not statements about the country."
+ },
+ "geo": {
+  "lat": 6.9271,
+  "lon": 79.8612,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "None carried in either direction. The Ministry of Health's Annual Health Bulletin is the national statistics series; no foreign-patient count was read from it for this record. Nothing here should be read as a claim that Sri Lanka publishes no such figure — only that none was read.",
+  "as_of": "2026-09-16",
+  "source": "s:moh-lk-annual-health-bulletin",
+  "url": "https://www.health.gov.lk/annual-health-bulletin/"
+ },
+ "kin": [
+  {
+   "to": "colombo",
+   "as": "Where the private sector and the referrals abroad both sit.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "as": "Where Sri Lankan patients go for what Colombo cannot do, an hour away.",
+   "rel": "destination"
+  },
+  {
+   "to": "chennai",
+   "as": "The nearest cluster, and the usual destination of a Colombo referral.",
+   "rel": "destination"
+  },
+  {
+   "to": "nepal",
+   "as": "The other South Asian country whose patients leave for India, and which has been surveyed on why.",
+   "rel": "contrast"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series that shows this country doing well on the average and says nothing about the gap at the top.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Good public health statistics and no count of who left.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Annual Health Bulletin — Ministry of Health, Sri Lanka",
+   "url": "https://www.health.gov.lk/annual-health-bulletin/"
+  }
+ ],
+ "sources": [
+  "s:moh-lk-annual-health-bulletin",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the trade's account of the Colombo-to-Chennai referral route; the inline marks say which stretch is inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:moh-lk-annual-health-bulletin"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A country with free public healthcare, strong population health for its income, and a short list of things it cannot do at home.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "Where the private sector and the referrals abroad both sit.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Where Sri Lankan patients go for what Colombo cannot do, an hour away.",
+   "rel": "destination"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The nearest cluster, and the usual destination of a Colombo referral.",
+   "rel": "destination"
+  },
+  {
+   "to": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "The other South Asian country whose patients leave for India, and which has been surveyed on why.",
+   "rel": "contrast"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series that shows this country doing well on the average and says nothing about the gap at the top.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Good public health statistics and no count of who left.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:moh-lk-annual-health-bulletin",
+   "kind": "web",
+   "title": "Annual Health Bulletin",
+   "publisher": "Ministry of Health, Sri Lanka",
+   "url": "https://www.health.gov.lk/annual-health-bulletin/",
+   "accessed": "2026-09-16",
+   "note": "the ministry's national health statistics series; no foreign-patient count was read from it for this record"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the trade's account of the Colombo-to-Chennai referral route; the inline marks say which stretch is inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:moh-lk-annual-health-bulletin"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "The other South Asian country whose patients cross to India for the top of the acuity range.",
+   "rel": "contrast"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "The country whose entire private hospital sector is in this city and its suburbs.",
+   "rel": "whole"
+  },
+  {
+   "from": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "Where the bed and the treatment are two prices, and the treatment is compulsory.",
+   "rel": "destination"
+  }
+ ]
+}

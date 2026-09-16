@@ -1,0 +1,308 @@
+{
+ "schema": 1,
+ "id": "istanbul-declaration-2008",
+ "type": "event",
+ "names": {
+  "name": "The Declaration of Istanbul, 2008",
+  "aliases": [
+   "Declaration of Istanbul on Organ Trafficking and Transplant Tourism"
+  ],
+  "said": "Transplant surgeons say Istanbul and mean the document, not the city. It is the one place in this subject where a profession wrote down which journeys it would refuse to be part of."
+ },
+ "region": [
+  "global",
+  "west-asia"
+ ],
+ "facets": {
+  "kind": "turning-point",
+  "when": 2008,
+  "iso2": "TR",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "A consensus statement agreed at an international summit in Istanbul in 2008, convened by The Transplantation Society and the International Society of Nephrology, which defined organ trafficking, transplant commercialism and transplant tourism and called for the first two to be prohibited. It is the reason those three phrases have fixed meanings, and the reason one kind of cross-border medical travel is treated by the profession as categorically different from the rest.",
+  "story": "The summit ran in Istanbul from 30 April 2008. \"None of the 152 participants from 78 countries was polled with respect to his or her opinion, practice, or philosophy before selection. The declaration was agreed by consensus among the summit's participants.\" The Lancet Comment announcing it dates the meeting 30 April to 1 May; the Declaration's own preamble runs it to 2 May.\n\nThe definitions are the working part. \"Transplant commercialism is a policy or practice in which an organ is treated as a commodity, including by being bought or sold or used for material gain.\" And the one that draws the line through this whole directory: \"Travel for transplantation is the movement of organs, donors, recipients, or transplant professionals across jurisdictional borders for transplantation purposes. Travel for transplantation becomes transplant tourism if it involves organ trafficking and/or transplant commercialism or if the resources (organs, professionals, and transplant centres) devoted to providing transplants to patients from outside a country undermine the country's ability to provide transplant services for its own population.\"\n\nRead that carefully. Crossing a border for a transplant is not condemned. What is condemned is buying an organ, and drawing down a poorer country's transplant capacity to serve visitors. The declaration then demanded prohibitions extending to \"all types of advertising (electronic and print), soliciting, or brokering for the purpose of transplant commercialism\".\n\nThe scale claim in the same Comment shows what the field had to work with. \"WHO has estimated that about 10% of organ transplants around the world involve these unacceptable activities\" — attributed in the text to a personal communication from a named WHO officer, not to a published series. Beside it sits a harder figure: \"by 2006, two-thirds of the 2000 kidney transplants in Pakistan were for foreign recipients\".\n\nA revised edition was presented in Madrid on 1 July 2018, after a consultation earlier that year. It drops transplant commercialism as a separate defined term, takes its trafficking definitions from the Council of Europe convention and the United Nations protocol, and rewrites the tourism clause around non-resident patients: \"Travel for transplantation becomes transplant tourism, and thus unethical, if it involves trafficking in persons for the purpose of organ removal or trafficking in human organs, or if the resources (organs, professionals and transplant centres) devoted to providing transplants to non-resident patients undermine the country's ability to provide transplant services for its own population.\"",
+  "today": "The Declaration of Istanbul Custodian Group, formed by the two founding societies in 2010, maintains the text and the endorsement list. Its endorsements page states \"the complete list of 173 endorsing organizations\", while another page on the same site still says more than 135 — a discrepancy this record reports rather than resolves.",
+  "notes": "This is a professional declaration, not law. It binds nobody by itself; its force comes from the societies, journals and ministries that adopted it, and from the national statutes written afterwards."
+ },
+ "geo": {
+  "lat": 41.0082,
+  "lon": 28.9784,
+  "precision": "city",
+  "source": "s:doi-2008-lancet"
+ },
+ "address": {
+  "city": "Istanbul",
+  "country": "TR"
+ },
+ "kin": [
+  {
+   "to": "declaration-of-istanbul-group",
+   "as": "The custodians, who keep the text and the endorsement list.",
+   "rel": "org"
+  },
+  {
+   "to": "transplant-prohibition",
+   "as": "The rules countries wrote afterwards, jurisdiction by jurisdiction.",
+   "rel": "rule"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "The operation the declaration was written about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The other organ trade the declaration covers.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "What happens to the seller, which is the half of this trade that leaves no patient record.",
+   "rel": "risk"
+  },
+  {
+   "to": "who",
+   "as": "Whose guiding principles on transplantation the declaration sits beside, and whose 10% estimate it cited from a personal communication.",
+   "rel": "org"
+  },
+  {
+   "to": "istanbul",
+   "as": "The city that gave the document its name, and a hub in this directory for entirely different reasons.",
+   "rel": "hub"
+  },
+  {
+   "to": "medical-tourism",
+   "as": "The contested word — here attached, by a profession, to a specific practice it wanted stopped.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Declaration of Istanbul (Lancet Comment, 2008)",
+   "url": "https://www.declarationofistanbul.org/images/Policy_Documents/Declaration%20of%20Istanbul_2008.pdf"
+  },
+  {
+   "label": "The Declaration — 2018 edition",
+   "url": "https://www.declarationofistanbul.org/the-declaration"
+  },
+  {
+   "label": "Endorsements",
+   "url": "https://www.declarationofistanbul.org/endorsements"
+  }
+ ],
+ "sources": [
+  "s:doi-2008-lancet",
+  "s:doi-2018-edition",
+  "s:doi-endorsements",
+  "s:declaration-of-istanbul",
+  "s:dicg-about"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:doi-2008-lancet"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:doi-2008-lancet",
+    "note": "every quoted passage was read in the 2008 Lancet Comment, except the 2018 definition, which is from the custodian group's own page"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:doi-endorsements"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "A consensus statement agreed at an international summit in Istanbul in 2008, convened by The Transplantation Society and the International Society of Nephrology, which defined organ trafficking, transplant commercialism…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "declaration-of-istanbul-group",
+   "type": "org",
+   "name": "Declaration of Istanbul Custodian Group",
+   "as": "The custodians, who keep the text and the endorsement list.",
+   "rel": "org"
+  },
+  {
+   "to": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The rules countries wrote afterwards, jurisdiction by jurisdiction.",
+   "rel": "rule"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "The operation the declaration was written about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The other organ trade the declaration covers.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "What happens to the seller, which is the half of this trade that leaves no patient record.",
+   "rel": "risk"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "Whose guiding principles on transplantation the declaration sits beside, and whose 10% estimate it cited from a personal communication.",
+   "rel": "org"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The city that gave the document its name, and a hub in this directory for entirely different reasons.",
+   "rel": "hub"
+  },
+  {
+   "to": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The contested word — here attached, by a profession, to a specific practice it wanted stopped.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:doi-2008-lancet",
+   "kind": "journal",
+   "title": "Organ trafficking and transplant tourism and commercialism: the Declaration of Istanbul",
+   "publisher": "The Lancet 2008;372(9632):5-6 (Comment), doi:10.1016/S0140-6736(08)60967-8",
+   "url": "https://www.declarationofistanbul.org/images/Policy_Documents/Declaration%20of%20Istanbul_2008.pdf",
+   "accessed": "2026-09-17",
+   "note": "read in full from the custodian group's PDF: the summit ran in Istanbul 'from April 30 to May 1, 2008', convened by The Transplantation Society and the International Society of Nephrology; 152 participants from 78 countries; the panel carries the 2008 definitions of organ trafficking, transplant commercialism and travel for transplantation/transplant tourism; also the WHO 10% estimate attributed to a personal communication, and two-thirds of Pakistan's 2,000 kidney transplants going to foreign recipients by 2006"
+  },
+  {
+   "id": "s:doi-2018-edition",
+   "kind": "org",
+   "title": "The Declaration — 2018 edition",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/the-declaration",
+   "accessed": "2026-09-17",
+   "note": "the 2018 edition was presented in Madrid on 1 July 2018 during the TTS congress, after a public consultation; carries the revised transplant tourism definition built on non-resident patients"
+  },
+  {
+   "id": "s:doi-endorsements",
+   "kind": "org",
+   "title": "Endorsements",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/endorsements",
+   "accessed": "2026-09-17",
+   "note": "'Click to view the complete list of 173 endorsing organizations'; other pages on the same site still say more than 135 and more than 80"
+  },
+  {
+   "id": "s:declaration-of-istanbul",
+   "kind": "org",
+   "title": "The Declaration of Istanbul on Organ Trafficking and Transplant Tourism (2018 edition)",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:dicg-about",
+   "kind": "org",
+   "title": "Declaration of Istanbul Custodian Group",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/",
+   "accessed": "2026-09-16",
+   "note": "Custodian Group formed 2010, sponsored by The Transplantation Society and the International Society of Nephrology, endorsed by more than 80 professional organisations, 2018 edition of the Declaration"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:doi-2008-lancet"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:doi-2008-lancet",
+   "note": "every quoted passage was read in the 2008 Lancet Comment, except the 2018 definition, which is from the custodian group's own page"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:doi-endorsements"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:doi-2008-lancet"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:doi-2008-lancet"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "The declaration written partly with this country's transplant practice in view.",
+   "rel": "event"
+  },
+  {
+   "from": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "The Istanbul summit of April 2008, where the definitions on this page were agreed.",
+   "rel": "event"
+  },
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The April 2008 summit where the definitions on this page were agreed.",
+   "rel": "event"
+  },
+  {
+   "from": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "The year the field drew the line it still uses.",
+   "rel": "event"
+  },
+  {
+   "from": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The year the norm was written down.",
+   "rel": "event"
+  },
+  {
+   "from": "declaration-of-istanbul-group",
+   "type": "org",
+   "name": "Declaration of Istanbul Custodian Group",
+   "as": "The summit and text this group was formed to keep.",
+   "rel": "event"
+  }
+ ]
+}

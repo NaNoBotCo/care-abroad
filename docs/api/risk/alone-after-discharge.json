@@ -1,0 +1,300 @@
+{
+ "id": "alone-after-discharge",
+ "names": {
+  "name": "Discharged alone",
+  "aliases": [
+   "no responsible adult",
+   "discharged to a hotel",
+   "nobody at the other end"
+  ],
+  "said": "Day-surgery guidance calls the missing person a responsible adult. The booking calls it a hotel transfer."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "Discharge from a hospital abroad into a hotel room rather than a household. Two instruments this project has read require an adult at the other end of a general anaesthetic, and both were drafted for a patient going home. Nobody counts how many people who travel for treatment are discharged without one.",
+  "story": "The requirement is written down in plain terms. The Royal College of Anaesthetists, in Chapter 6 of its Guidelines for the Provision of Anaesthesia Services, published 31 March 2021, recommends at 5.25 that \"Following procedures performed under general or regional anaesthesia, a responsible adult should escort the patient home and provide support for the first 24 hours after surgery\", qualified by the observation that \"A carer at home may not be essential if there has been good recovery after brief or non-invasive procedures and where any postoperative haemorrhage is likely to be obvious and controllable with simple pressure.\" The recommendation is graded C and strong. Two lines later, at 5.26: \"Transport home should be by private car or taxi; public transport is not normally appropriate.\" At 5.24, a 24-hour telephone number \"should ideally be to an acute surgical area and should not be an answer phone\".\n\nThe United States puts it in a condition of coverage rather than a guideline. 42 CFR 416.52(c)(3) requires an ambulatory surgical center to \"Ensure all patients are discharged in the company of a responsible adult, except those patients exempted by the attending physician\" - a rule in force since 18 November 2008 and amended on 30 September 2019, binding on facilities billing Medicare.\n\n*Inference -* read together, the two describe a household. A car at the door, a person in the building overnight, a telephone answered by someone who can send an ambulance. A patient recovering in a hotel three time zones from home has a taxi rank, a front desk and a clinic's daytime line, and the hotel is not a party to the discharge.\n\nThe gap between the two is unmeasured. No ministry, accreditor or registry publishes how many patients treated abroad travel with a companion, how many are discharged to a hotel, or what happens to those who arrive alone. This site's pathway record for the companion reaches the same wall from the other side: the only hard number attached to that step anywhere is an immigration quota.\n\nWhat is published instead is the shape of the package. The Bangkok knee package this site reads names three nights in the surgical ward and then stops; nights beyond the third are billed at the hospital's rates, and nothing after discharge is inside the price at all.",
+  "how": "The lifting is the part that does not appear in any document. Somebody gets a post-operative body from a wheelchair at the hospital door into a taxi, and out of it at the other end. Somebody watches the dressing overnight, times the analgesia, decides at 3am whether a temperature is the operation or a complication, and finds the hospital number. Where no such person travelled, the roles fall to hotel staff with no clinical duty, to a facilitator's coordinator working office hours, or to nobody.\n\n*Trade practice -* the hotel room, the recovery apartment and the escorted transfer are sold as convenience rather than as care, and the packages this project has read do not describe who provides nursing in them or on what hours. Where a hospital offers a nurse or a serviced recovery suite, that is a separate purchase with its own price.",
+  "today": "As of 17 September 2026 the named guidance and the named regulation stand, and no published count exists of medical travellers discharged without a responsible adult. What can be stated is narrower: two health systems require a person at the other end after an anaesthetic, and the accommodation sold with a treatment package is not required by either of them to supply one."
+ },
+ "metrics": {
+  "note": "No figure is carried because none is published. Nobody counts medical travellers discharged without a responsible adult - not a health ministry, not an accreditor, not a hospital register this project could find. The two measurable things are instruments rather than rates: recommendation 5.25 of the Royal College of Anaesthetists' day surgery chapter of 31 March 2021, which asks for an escort home and support for 24 hours after a general or regional anaesthetic, and 42 CFR 416.52(c)(3), which requires a US ambulatory surgical center to discharge patients in the company of a responsible adult unless the attending physician exempts them. Both were written for domestic day surgery.",
+  "as_of": "2026-09-17",
+  "source": "s:rcoa-gpas-day-surgery-2021",
+  "url": "https://rcoa.ac.uk/gpas/chapter-6"
+ },
+ "kin": [
+  {
+   "to": "the-companion",
+   "as": "The step this risk is the absence of.",
+   "rel": "step"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "The same person, costed: what it takes to have anyone there at all.",
+   "rel": "kin"
+  },
+  {
+   "to": "day-case",
+   "as": "The category built on somebody being at the other end by evening.",
+   "rel": "term"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The document that leaves with the patient, and the only thing a hotel room contains that a clinician could read.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step that begins after a flight, where a household would have begun the same evening.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The next thing asked of a body nobody is watching.",
+   "rel": "step"
+  },
+  {
+   "to": "dvt-pe",
+   "as": "The complication that presents while sitting still in a room, and the one an absent observer does not see.",
+   "rel": "kin"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The wait that puts the patient in the hotel in the first place.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The same absence, further along: nobody responsible, at a greater distance.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "RCoA - Guidelines for the Provision of Anaesthesia Services for Day Surgery 2021",
+   "url": "https://rcoa.ac.uk/gpas/chapter-6"
+  },
+  {
+   "label": "42 CFR 416.52 - patient admission, assessment and discharge",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-416/subpart-D/section-416.52"
+  }
+ ],
+ "sources": [
+  "s:rcoa-gpas-day-surgery-2021",
+  "s:ecfr-42-416-52",
+  "s:bumrungrad-joint04",
+  "s:india-emedical-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:rcoa-gpas-day-surgery-2021"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ecfr-42-416-52",
+    "note": "the guidance and the regulation are quoted; the stretch marked *Inference -* is this project reading the two together"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of recovery accommodation in this trade; this project holds no contract for any of it and no hotel's own description of what it provides"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:rcoa-gpas-day-surgery-2021"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-17",
+ "blurb": "Discharge from a hospital abroad into a hotel room rather than a household.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The step this risk is the absence of.",
+   "rel": "step"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The same person, costed: what it takes to have anyone there at all.",
+   "rel": "kin"
+  },
+  {
+   "to": "day-case",
+   "type": "term",
+   "name": "Day case",
+   "as": "The category built on somebody being at the other end by evening.",
+   "rel": "term"
+  },
+  {
+   "to": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The document that leaves with the patient, and the only thing a hotel room contains that a clinician could read.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step that begins after a flight, where a household would have begun the same evening.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The next thing asked of a body nobody is watching.",
+   "rel": "step"
+  },
+  {
+   "to": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "The complication that presents while sitting still in a room, and the one an absent observer does not see.",
+   "rel": "kin"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The wait that puts the patient in the hotel in the first place.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The same absence, further along: nobody responsible, at a greater distance.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:rcoa-gpas-day-surgery-2021",
+   "kind": "org",
+   "title": "Chapter 6: Guidelines for the Provision of Anaesthesia Services for Day Surgery 2021, published 31 March 2021",
+   "publisher": "The Royal College of Anaesthetists (United Kingdom)",
+   "url": "https://rcoa.ac.uk/gpas/chapter-6",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page is refused to a plain fetch. Recommendation 5.25 (grade C, strong) on a responsible adult escorting the patient home and supporting them for 24 hours; 5.26 on private car or taxi; 5.24 on a 24-hour telephone number that is not an answerphone; 5.7 on preoperative assessment as early as possible in the pathway; 5.29 on the patient's copy of the discharge summary"
+  },
+  {
+   "id": "s:ecfr-42-416-52",
+   "kind": "law",
+   "title": "42 CFR 416.52 — Conditions for coverage: patient admission, assessment and discharge (ambulatory surgical centers)",
+   "publisher": "Electronic Code of Federal Regulations, US Office of the Federal Register",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-416/subpart-D/section-416.52",
+   "accessed": "2026-09-17",
+   "note": "paragraph (c)(3) on discharge in the company of a responsible adult. Source note at the section: 73 FR 68813, 18 November 2008, as amended at 84 FR 51814, 30 September 2019. eCFR states Title 42 current as of 15 September 2026"
+  },
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  },
+  {
+   "id": "s:india-emedical-visa",
+   "kind": "web",
+   "title": "e-Visa — e-Medical Visa and e-Medical Attendant Visa",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16",
+   "note": "one year from arrival, multiple entries, hospital letter on letterhead, two attendant visas per patient"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:rcoa-gpas-day-surgery-2021"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ecfr-42-416-52",
+   "note": "the guidance and the regulation are quoted; the stretch marked *Inference -* is this project reading the two together"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of recovery accommodation in this trade; this project holds no contract for any of it and no hotel's own description of what it provides"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:rcoa-gpas-day-surgery-2021"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:rcoa-gpas-day-surgery-2021"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "What a body-contouring patient faces in a rented flat rather than a ward.",
+   "rel": "risk"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "A recovery house is not a ward, and the difference shows up in who notices a wound going wrong.",
+   "rel": "risk"
+  },
+  {
+   "from": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Two weeks near the centre with a carer, which is the part no price list carries.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "What the same step looks like when nobody comes.",
+   "rel": "risk"
+  },
+  {
+   "from": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "Who notices a swollen calf in a hotel room.",
+   "rel": "kin"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "What happens where no companion travelled.",
+   "rel": "kin"
+  }
+ ]
+}

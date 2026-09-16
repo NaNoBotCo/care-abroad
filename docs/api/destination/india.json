@@ -1,0 +1,595 @@
+{
+ "schema": 1,
+ "id": "india",
+ "type": "destination",
+ "names": {
+  "name": "India",
+  "aliases": [
+   "भारत",
+   "Republic of India",
+   "Bharat"
+  ],
+  "said": "The trade says India and means four clusters — Chennai, the Delhi capital region, Mumbai and Bengaluru — and a handful of listed hospital chains inside them. The state says Medical Value Travel, abbreviated MVT, and runs it as a brand called Heal in India."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "direction": "inbound",
+  "currency": "INR",
+  "languages": [
+   "English",
+   "Hindi",
+   "Bengali",
+   "Arabic",
+   "Tamil"
+  ],
+  "draws": [
+   "cabg",
+   "kidney-transplant",
+   "liver-transplant",
+   "bone-marrow-transplant",
+   "knee-replacement",
+   "ivf",
+   "panchakarma"
+  ]
+ },
+ "text": {
+  "what": "The inbound flow an immigration desk counts. India issues a medical visa and an attendant visa, and the arrival is recorded by purpose, so the figure a reader gets is an arrivals count rather than a hospital's estimate of itself. In 2025 that count was 507,244, against 9.15 million foreign arrivals of every kind. The work is heavy — cardiac surgery, transplants, cancer, orthopaedics — and the patients come overwhelmingly from India's own region.",
+  "story": "Bangladesh alone supplied 325,127 of the 2025 medical arrivals. Iraq followed at 30,989, then Uzbekistan at 13,699, Somalia at 11,506, Turkmenistan at 10,231, Oman at 9,738 and Kenya at 9,357.\n\n*Inference —* that shape matters more than the total. Roughly three in five arrivals came from one neighbouring country, and the rest of the top seven are places where the alternative is not a long queue but no operating theatre. The Western patient trading a waiting list for a package price, who supplies most of the writing about cross-border care, is a rounding error in India's numbers.\n\nThe count itself is an arrival, not a person. A patient who flies home between cycles of chemotherapy and returns is counted twice; an attendant travelling on a separate visa class is counted separately again. India's advantage is that it says which of these it is counting, which most national figures in this subject do not.\n\n*Trade practice —* the hospitals doing the work are private chains that grew from single institutions founded by named cardiologists in the 1980s and 1990s, and the capital behind them is listed on Indian exchanges. Pricing is per item more often than per package, and the quotation a foreign patient receives is usually assembled by a hospital's international office from a tariff the hospital does not publish.",
+  "how": "The e-Medical Visa and the e-Medical Attendant Visa are open to nationals of 172 countries, and e-AYUSH and e-AYUSH Attendant classes were added for treatment under Indian systems of medicine. A Medical Value Travel portal handles planning and payment, and concierge desks at major airports are planned. The National Medical and Wellness Tourism Promotion Board, constituted by the Ministry of Tourism in 2015 and chaired by the Union Minister for Tourism, coordinates the ministries and the states.\n\nAccreditation runs through the National Accreditation Board for Hospitals and Healthcare Providers, which had accredited more than 1,299 hospitals as of 2026 against more than 600 safety parameters, and which is recognised internationally through its affiliation with the International Society for Quality in Healthcare. Several Indian hospitals also hold Joint Commission International accreditation.",
+  "today": "The Press Information Bureau's May 2026 backgrounder states the 2025 arrival figures and then reaches for a market size: \"Industry estimates place the medical tourism market at about USD 8.7 billion in 2025, with projections of USD 16.2 billion by 2030.\" It does not name the industry, the method, or what a dollar in that total is a dollar of. The arrivals count and the market estimate sit two lines apart on the same page and are not the same kind of number.",
+  "notes": "India has 69,364 hospitals — 43,486 private and 25,778 public — and 1.2 million registered doctors, on the same government page. Those describe the system Indians use; the hospitals in this directory are a small and expensive slice of it."
+ },
+ "geo": {
+  "lat": 13.0827,
+  "lon": 80.2707,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 507244,
+  "note": "Foreign nationals arriving in India specifically for medical treatment in 2025, about 5.5 per cent of 9.15 million foreign arrivals. It counts arrivals recorded by visa purpose, not individual people: a patient who leaves and returns is two. Attendants travel on their own visa class and are counted apart.",
+  "as_of": "2025",
+  "source": "s:pib-medical-wellness-tourism-2026",
+  "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202652862301.pdf"
+ },
+ "kin": [
+  {
+   "to": "india-e-medical-visa",
+   "as": "The visa class whose arrivals are the number this page carries.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "chennai",
+   "as": "The cluster this country is most often named for, and where its oldest corporate hospital chain started.",
+   "rel": "part"
+  },
+  {
+   "to": "delhi-ncr",
+   "as": "The capital-region cluster that takes most of the arrivals from West Asia and Africa.",
+   "rel": "part"
+  },
+  {
+   "to": "mumbai",
+   "as": "The financial capital's hospital cluster, and the one closest to the listed-company money.",
+   "rel": "part"
+  },
+  {
+   "to": "bengaluru",
+   "as": "Where the volume-surgery model was built and costed.",
+   "rel": "part"
+  },
+  {
+   "to": "apollo-chennai",
+   "as": "The hospital the country's private sector is usually dated from.",
+   "rel": "part"
+  },
+  {
+   "to": "narayana-health",
+   "as": "The chain that made cardiac surgery a volume calculation.",
+   "rel": "part"
+  },
+  {
+   "to": "nabh",
+   "as": "The national accreditor, holding more than 1,299 hospitals as of 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "cabg",
+   "as": "The operation most often named in this country's inbound cardiac work.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Sought here, and the reason the transplant rules are read closely.",
+   "rel": "procedure"
+  },
+  {
+   "to": "panchakarma",
+   "as": "The AYUSH course that earned its own visa class.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ndm-1-2010",
+   "as": "The 2010 resistance-gene naming row, argued over this country's name and over surgery abroad.",
+   "rel": "event"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why an arrivals count and a market estimate are not the same number.",
+   "rel": "story"
+  },
+  {
+   "to": "thailand",
+   "as": "The other Asian country with a long-running inbound trade, and a different patient at the door.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical and Wellness Tourism in India — PIB backgrounder, 2 May 2026",
+   "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202652862301.pdf"
+  }
+ ],
+ "sources": [
+  "s:pib-medical-wellness-tourism-2026",
+  "s:worldbank-open-data",
+  "s:osm",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:pib-medical-wellness-tourism-2026",
+    "note": "the arrival figures and source countries are the government's; the inline marks say which stretches are inference and which are trade practice"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:pib-medical-wellness-tourism-2026"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Chennai, the city most often called the country's care capital; the flow is spread across four clusters"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:pib-medical-wellness-tourism-2026"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Apollo Hospitals Chennai.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The inbound flow an immigration desk counts. India issues a medical visa and an attendant visa, and the arrival is recorded by purpose, so the figure a reader gets is an arrivals count rather than a hospital's estimate…",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The visa class whose arrivals are the number this page carries.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The cluster this country is most often named for, and where its oldest corporate hospital chain started.",
+   "rel": "part"
+  },
+  {
+   "to": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The capital-region cluster that takes most of the arrivals from West Asia and Africa.",
+   "rel": "part"
+  },
+  {
+   "to": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The financial capital's hospital cluster, and the one closest to the listed-company money.",
+   "rel": "part"
+  },
+  {
+   "to": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "Where the volume-surgery model was built and costed.",
+   "rel": "part"
+  },
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The hospital the country's private sector is usually dated from.",
+   "rel": "part"
+  },
+  {
+   "to": "narayana-health",
+   "type": "facility",
+   "name": "Narayana Health",
+   "as": "The chain that made cardiac surgery a volume calculation.",
+   "rel": "part"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The national accreditor, holding more than 1,299 hospitals as of 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The operation most often named in this country's inbound cardiac work.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Sought here, and the reason the transplant rules are read closely.",
+   "rel": "procedure"
+  },
+  {
+   "to": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "The AYUSH course that earned its own visa class.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ndm-1-2010",
+   "type": "event",
+   "name": "NDM-1, 2010",
+   "as": "The 2010 resistance-gene naming row, argued over this country's name and over surgery abroad.",
+   "rel": "event"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why an arrivals count and a market estimate are not the same number.",
+   "rel": "story"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The other Asian country with a long-running inbound trade, and a different patient at the door.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:pib-medical-wellness-tourism-2026",
+   "kind": "web",
+   "title": "Medical and Wellness Tourism in India",
+   "publisher": "Press Information Bureau, Government of India",
+   "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202652862301.pdf",
+   "accessed": "2026-09-16",
+   "note": "backgrounder dated 2 May 2026; carries the 2025 medical-purpose arrival count, the top source countries, the NABH accreditation count and the visa categories"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026",
+   "note": "the arrival figures and source countries are the government's; the inline marks say which stretches are inference and which are trade practice"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Chennai, the city most often called the country's care capital; the flow is spread across four clusters"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:pib-medical-wellness-tourism-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "Where the outflow goes, and the state that counts it.",
+   "rel": "destination"
+  },
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "Where 88.80 per cent of surveyed Nepali patients went.",
+   "rel": "destination"
+  },
+  {
+   "from": "nigeria",
+   "type": "destination",
+   "name": "Nigeria",
+   "as": "The destination the rhetoric names, and the state whose own published counts do not list Nigeria among its seven largest sources.",
+   "rel": "destination"
+  },
+  {
+   "from": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "Where Sri Lankan patients go for what Colombo cannot do, an hour away.",
+   "rel": "destination"
+  },
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "The country whose highest-volume cardiac programmes sit here.",
+   "rel": "whole"
+  },
+  {
+   "from": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The country whose private tertiary format was proved in this city.",
+   "rel": "whole"
+  },
+  {
+   "from": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The country whose largest private tertiary cluster this is.",
+   "rel": "whole"
+  },
+  {
+   "from": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The country whose oncology referrals converge on this city.",
+   "rel": "whole"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "Where the state caps what a stent may be sold for and hospitals publish the ceiling.",
+   "rel": "destination"
+  },
+  {
+   "from": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "Built large half-matched transplant programmes that take patients from countries with no unit.",
+   "rel": "destination"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Where the volume argument about this operation was made.",
+   "rel": "destination"
+  },
+  {
+   "from": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Approved a domestically made CD19 product in October 2023 at a fraction of the US price.",
+   "rel": "destination"
+  },
+  {
+   "from": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "Runs implant programmes and a state subsidy scheme, and takes patients from neighbouring countries with none.",
+   "rel": "destination"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "Where the hospital's own undated range on this page comes from.",
+   "rel": "destination"
+  },
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Where the only hospital-published liver transplant price read for this record is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "Where the state licenses Ayurvedic hospitals and the resort tariff is written in euro for visitors.",
+   "rel": "destination"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The hospital most often meant when India is called a destination for heart surgery.",
+   "rel": "destination"
+  },
+  {
+   "from": "fortis-gurgaon",
+   "type": "facility",
+   "name": "Fortis Memorial Research Institute, Gurugram",
+   "as": "The northern half of India's inbound trade, against Chennai's southern half.",
+   "rel": "destination"
+  },
+  {
+   "from": "kokilaben",
+   "type": "facility",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "as": "A Mumbai hospital built to hold referrals inside the country as much as to attract them from outside.",
+   "rel": "destination"
+  },
+  {
+   "from": "max-saket",
+   "type": "facility",
+   "name": "Max Super Speciality Hospital, Saket",
+   "as": "A northern Indian tertiary hospital whose foreign trade is not separately reported.",
+   "rel": "destination"
+  },
+  {
+   "from": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "An Indian hospital that publishes what the implant costs as well as what the check-up costs.",
+   "rel": "destination"
+  },
+  {
+   "from": "narayana-health",
+   "type": "facility",
+   "name": "Narayana Health",
+   "as": "The group whose volume argument is what people mean when they say Indian heart surgery is cheap.",
+   "rel": "destination"
+  },
+  {
+   "from": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "Where two of the four isolate collections in the founding study were taken.",
+   "rel": "place"
+  },
+  {
+   "from": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The country that issues it.",
+   "rel": "destination"
+  },
+  {
+   "from": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "The destination that closed by nationality in 2021.",
+   "rel": "destination"
+  },
+  {
+   "from": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The country whose hospitals this scheme gates, for domestic payment as much as for foreign patients.",
+   "rel": "place"
+  },
+  {
+   "from": "devi-shetty",
+   "type": "person",
+   "name": "Devi Prasad Shetty",
+   "as": "The country whose low-cost cardiac surgery he is the public face of.",
+   "rel": "destination"
+  },
+  {
+   "from": "prathap-reddy",
+   "type": "person",
+   "name": "Prathap C. Reddy",
+   "as": "The country whose private hospital sector his group defined the shape of.",
+   "rel": "destination"
+  },
+  {
+   "from": "ndm-1-2010",
+   "type": "event",
+   "name": "NDM-1, 2010",
+   "as": "The country named in the gene and in the argument that followed.",
+   "rel": "destination"
+  },
+  {
+   "from": "world-bank-beds",
+   "type": "dataset",
+   "name": "Hospital beds per 1,000 people",
+   "as": "1.59 per 1,000 in 2021, in the country with the largest private hospital export trade in this directory.",
+   "rel": "measures"
+  },
+  {
+   "from": "world-bank-doctors",
+   "type": "dataset",
+   "name": "Physicians per 1,000 people",
+   "as": "0.72 per 1,000 in 2020, the lowest of the large destinations in this series.",
+   "rel": "measures"
+  },
+  {
+   "from": "world-bank-out-of-pocket",
+   "type": "dataset",
+   "name": "Out-of-pocket share of health spending",
+   "as": "43.89% in 2023, in a country that is both a destination and a large source of outbound patients.",
+   "rel": "measures"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Arrivals counted by visa purpose, so a patient who returns is two.",
+   "rel": "destination"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The receiving state that counts by source country, which is why the regional shape of this trade is visible at all.",
+   "rel": "destination"
+  }
+ ]
+}

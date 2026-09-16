@@ -1,0 +1,526 @@
+{
+ "schema": 1,
+ "id": "acibadem",
+ "type": "facility",
+ "names": {
+  "name": "Acıbadem Healthcare Group",
+  "aliases": [
+   "Acibadem",
+   "Acıbadem Sağlık Grubu",
+   "Acıbadem Altunizade Hospital"
+  ],
+  "said": "Ah-juh-BAH-dem, with the soft g of the Turkish ğ swallowed. Acıbadem is a district on the Asian side of Istanbul, where the first hospital stood; the group kept the neighbourhood's name and carried it to five countries."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "ownership": "private",
+  "founded": 1991,
+  "specialty": [
+   "oncology",
+   "cardiology",
+   "fertility",
+   "orthopaedics",
+   "transplantation",
+   "health screening"
+  ],
+  "draws": [
+   "ivf",
+   "executive-health-screening"
+  ],
+  "status": "open",
+  "languages": [
+   "Turkish",
+   "English",
+   "Arabic",
+   "Russian",
+   "German"
+  ]
+ },
+ "text": {
+  "what": "A hospital group, not a building: 29 hospitals and 15 medical centres by the Wikipedia count, 45 or more hospitals and clinics by the group's own, spread across Türkiye, the Netherlands, Bulgaria, North Macedonia and Serbia. Mehmet Ali Aydınlar founded it in Istanbul in 1991; the Malaysian company IHH Healthcare has held the majority since 2011. This record is the group, and its point on the map is the flagship at Altunizade in Üsküdar.",
+  "story": "Aydınlar opened the first hospital in 1991 in the Acıbadem district and built outward from it. In 2011 IHH Healthcare, the Malaysian group that also owns Parkway in Singapore and Gleneagles in Kuala Lumpur, bought a majority stake; share conversions in 2018 took its holding to roughly 90 per cent. The shares trade in Istanbul.\n\n*Inference —* that ownership line matters more to a reader of this directory than any clinical fact on the group's own pages. A patient choosing between Istanbul, Kuala Lumpur and Singapore on price may be choosing three times between hospitals with one parent.\n\nThe group reports seven JCI-accredited hospitals out of the forty-five it counts, 3,300 or more specialist physicians, patients from more than 90 countries, and 55 international patient offices across seven world regions. Those are the group's own numbers, published without a method, and the office count is a sales network rather than a measure of care.\n\nThe group also runs its own medical university, Acıbadem Mehmet Ali Aydınlar University, founded 2007, and its IVF centres report treating over 15,000 families a year.",
+  "how": "Enquiries reach the group through the international site rather than through any one hospital, and are routed to whichever hospital holds the programme. *Trade practice —* the estimate comes by email after records are read, and the patient learns which of the forty-five buildings is meant at that point rather than before it.\n\nOn price the group publishes nothing. Its Turkish check-up page is titled Check Up Paketleri ve Fiyatları 2026 — check-up packages and prices — and lists every programme by its contents: a Classic for women with three examinations, five radiology tests, twenty-six laboratory tests; an Executive with a whole-body MRI at nine, nine and fifty-three. Against each one, where a figure would sit, is a button reading Fiyat Sor: ask the price.",
+  "today": "As of 17 September 2026 the group states 45 or more hospitals and clinics in five countries, seven of them JCI-accredited, 3,300 or more specialist physicians in 19 specialties, and support in more than 20 languages. Neither the group site nor the Turkish site publishes a bed count, a patient count for any single hospital, or any price."
+ },
+ "geo": {
+  "lat": 41.018996,
+  "lon": 29.046255,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Yurtcan Sokağı, Altunizade Mahallesi, Üsküdar",
+  "city": "Istanbul",
+  "country": "TR",
+  "postcode": "34662"
+ },
+ "metrics": {
+  "beds": null,
+  "doctors": 3300,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "foreign_patient_countries": 90,
+  "note": "GROUP figures, and the group's own. The doctor count is stated as 3,300+ specialist physicians across every hospital and clinic in five countries, not at the Altunizade flagship pinned above. The country count is where patients come from, not how many patients come; the group publishes no patient count of any kind, and no bed count. Nothing here is a count of operations.",
+  "as_of": "2026",
+  "source": "s:acibadem-int-about",
+  "url": "https://acibademinternational.com/about-us/"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:wp-acibadem",
+   "tier": "cited",
+   "note": "29 hospitals and 15 medical centres by the encyclopaedia's count, 45+ by the group's own, in Türkiye, the Netherlands, Bulgaria, North Macedonia and Serbia"
+  },
+  {
+   "tag": "listed-company",
+   "source": "s:wp-acibadem",
+   "tier": "cited",
+   "note": "traded in Istanbul; IHH Healthcare of Malaysia holds roughly 90 per cent after the 2018 share conversions"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:acibadem-int-about",
+   "tier": "cited",
+   "note": "55 international patient offices across seven world regions, and support stated in more than 20 languages"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:acibadem-int-about",
+   "tier": "cited"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:acibadem-checkup-packages",
+   "tier": "cited",
+   "note": "the page titled check-up packages and prices prints the contents of every programme and a Fiyat Sor — ask the price — button where each figure would be",
+   "url": "https://www.acibadem.com.tr/check-up-paketleri/"
+  },
+  {
+   "tag": "teaching",
+   "source": "s:wp-acibadem",
+   "tier": "cited",
+   "note": "Acıbadem Mehmet Ali Aydınlar University, founded 2007"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation held by seven hospitals of the group",
+   "year": null,
+   "valid_until": null,
+   "source": "s:acibadem-int-about",
+   "url": "https://acibademinternational.com/about-us/",
+   "note": "seven of the forty-five hospitals and clinics the group counts, not the group; the group names no year and no hospital"
+  },
+  {
+   "by": "moh-tr",
+   "what": "Türkiye Ministry of Health health tourism authorisation, the certificate a Turkish facility must hold to treat international patients",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-medical-tourism-turkiye",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Turkey",
+   "note": "the regime came into force on 13 July 2017; the record cites the regime rather than a certificate number read for this group"
+  }
+ ],
+ "kin": [
+  {
+   "to": "istanbul",
+   "as": "The city the group is named after a district of, and where its flagship stands at Altunizade.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "The largest private hospital group in the country by hospital count, and the one a foreign enquiry most often lands on first.",
+   "rel": "destination"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "A sister under the same Malaysian parent, IHH Healthcare — a patient comparing Istanbul against Kuala Lumpur may be comparing two hospitals with one owner.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditor whose mark seven of its hospitals hold.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The licence every Turkish facility treating foreign patients must hold since July 2017.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "Sold in graded tiers whose contents are published and whose prices are not.",
+   "rel": "performs"
+  },
+  {
+   "to": "ivf",
+   "as": "Its fertility centres report treating over 15,000 families a year.",
+   "rel": "performs"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "Where the Fiyat Sor button leads, and the step at which a price first exists.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "A page headed packages and prices that carries no price.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Acıbadem Healthcare Group (international)",
+   "url": "https://acibademinternational.com/"
+  },
+  {
+   "label": "Check Up Paketleri ve Fiyatları",
+   "url": "https://www.acibadem.com.tr/check-up-paketleri/"
+  }
+ ],
+ "sources": [
+  "s:wp-acibadem",
+  "s:acibadem-int-about",
+  "s:acibadem-checkup-packages",
+  "s:osm-nominatim",
+  "s:wp-medical-tourism-turkiye"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the OpenStreetMap point for Acıbadem Altunizade Hastanesi, standing for a group with no single building"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "how an enquiry travels through a multi-hospital group; hedged in the prose. The price paragraph is cited."
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:acibadem-int-about"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Acıbadem Hastanesi.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A hospital group, not a building: 29 hospitals and 15 medical centres by the Wikipedia count, 45 or more hospitals and clinics by the group's own, spread across Türkiye, the Netherlands, Bulgaria, North Macedonia and…",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The city the group is named after a district of, and where its flagship stands at Altunizade.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The largest private hospital group in the country by hospital count, and the one a foreign enquiry most often lands on first.",
+   "rel": "destination"
+  },
+  {
+   "to": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "A sister under the same Malaysian parent, IHH Healthcare — a patient comparing Istanbul against Kuala Lumpur may be comparing two hospitals with one owner.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The accreditor whose mark seven of its hospitals hold.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The licence every Turkish facility treating foreign patients must hold since July 2017.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Sold in graded tiers whose contents are published and whose prices are not.",
+   "rel": "performs"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "Its fertility centres report treating over 15,000 families a year.",
+   "rel": "performs"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "Where the Fiyat Sor button leads, and the step at which a price first exists.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "A page headed packages and prices that carries no price.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-acibadem",
+   "kind": "wikipedia",
+   "title": "Acıbadem Healthcare Group",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Acibadem_Healthcare_Group",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "founded 1991 by Mehmet Ali Aydınlar; IHH Healthcare took a majority stake in 2011 and holds about 90 per cent after the 2018 share conversions; 29 hospitals and 15 medical centres; flagship Acıbadem Altunizade, Üsküdar, Istanbul"
+  },
+  {
+   "id": "s:acibadem-int-about",
+   "kind": "web",
+   "title": "About us — Acıbadem Healthcare Group, international site",
+   "publisher": "Acıbadem Sağlık Grubu",
+   "url": "https://acibademinternational.com/about-us/",
+   "accessed": "2026-09-17",
+   "note": "the group's own figures for international patients: 45+ hospitals and clinics, 7 JCI-accredited hospitals, 3,300+ specialist physicians, patients from 90+ countries, 55 international patient offices"
+  },
+  {
+   "id": "s:acibadem-checkup-packages",
+   "kind": "web",
+   "title": "Check Up Paketleri ve Fiyatları 2026",
+   "publisher": "Acıbadem Sağlık Grubu",
+   "url": "https://www.acibadem.com.tr/check-up-paketleri/",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The page is titled check-up packages AND PRICES and lists the contents of each programme — examinations, radiology, laboratory and cardiology test counts — with a Fiyat Sor (ask the price) button in place of every figure. No amount is printed anywhere on it."
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-medical-tourism-turkiye",
+   "kind": "wikipedia",
+   "title": "Medical tourism in Turkey",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Turkey",
+   "accessed": "2026-09-16",
+   "note": "records the 13 July 2017 regulation coming into force and a first-half-2018 figure of nearly 178,000 inbound patients split 67% private, 24% public and 9% university — a count of arrivals stating a health purpose, not of operations"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "how an enquiry travels through a multi-hospital group; hedged in the prose. The price paragraph is cited."
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the OpenStreetMap point for Acıbadem Altunizade Hastanesi, standing for a group with no single building"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:acibadem-int-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-acibadem",
+   "note": "29 hospitals and 15 medical centres by the encyclopaedia's count, 45+ by the group's own, in Türkiye, the Netherlands, Bulgaria, North Macedonia and Serbia",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "listed-company",
+   "label": "Publicly listed",
+   "icon": "📈",
+   "group": "ownership",
+   "evidence": "an exchange listing or an annual report",
+   "source": "s:wp-acibadem",
+   "note": "traded in Istanbul; IHH Healthcare of Malaysia holds roughly 90 per cent after the 2018 share conversions",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:acibadem-int-about",
+   "note": "55 international patient offices across seven world regions, and support stated in more than 20 languages",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:acibadem-int-about",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:acibadem-checkup-packages",
+   "note": "the page titled check-up packages and prices prints the contents of every programme and a Fiyat Sor — ask the price — button where each figure would be",
+   "tier": "cited",
+   "url": "https://www.acibadem.com.tr/check-up-paketleri/"
+  },
+  {
+   "key": "teaching",
+   "label": "Teaching hospital",
+   "icon": "📚",
+   "group": "clinical",
+   "evidence": "a recognised training post list or the hospital's own statement",
+   "source": "s:wp-acibadem",
+   "note": "Acıbadem Mehmet Ali Aydınlar University, founded 2007",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation held by seven hospitals of the group",
+   "url": "https://acibademinternational.com/about-us/",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:acibadem-int-about"
+  },
+  {
+   "key": "moh-tr",
+   "label": "Türkiye Ministry of Health health-tourism authorisation",
+   "what": "Türkiye Ministry of Health health tourism authorisation, the certificate a Turkish facility must hold to treat international patients",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Turkey",
+   "kind": "regulator",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-medical-tourism-turkiye"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The hospital group that carries the complex end of the inbound work.",
+   "rel": "part"
+  },
+  {
+   "from": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The hospital group whose Istanbul sites take the complex work the clinic floors do not.",
+   "rel": "part"
+  },
+  {
+   "from": "anadolu-medical-center",
+   "type": "facility",
+   "name": "Anadolu Medical Center",
+   "as": "The other Turkish name a foreign oncology enquiry lands on, and a group of forty-five buildings against this one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "liv-hospital",
+   "type": "facility",
+   "name": "Liv Hospital",
+   "as": "The larger Turkish group, whose page headed packages and prices carries none.",
+   "rel": "contrast"
+  },
+  {
+   "from": "medicana",
+   "type": "facility",
+   "name": "Medicana Health Group",
+   "as": "The larger group, and the one whose ownership runs back to Malaysia.",
+   "rel": "contrast"
+  },
+  {
+   "from": "memorial-sisli",
+   "type": "facility",
+   "name": "Memorial Şişli Hospital",
+   "as": "The larger Turkish group, and the other name a foreign enquiry lands on.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "The third hospital under the same Malaysian parent, in Istanbul — a price comparison that stays inside one company.",
+   "rel": "contrast"
+  },
+  {
+   "from": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The kind of hospital group that holds the certificate.",
+   "rel": "facility"
+  },
+  {
+   "from": "turkiye-health-services-directorate",
+   "type": "org",
+   "name": "Türkiye General Directorate of Health Services",
+   "as": "One of the hospital groups whose international business this certificate governs.",
+   "rel": "facility"
+  }
+ ]
+}

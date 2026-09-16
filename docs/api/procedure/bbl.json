@@ -1,0 +1,489 @@
+{
+ "schema": 1,
+ "id": "bbl",
+ "type": "procedure",
+ "names": {
+  "name": "Gluteal fat grafting",
+  "aliases": [
+   "BBL",
+   "Brazilian butt lift",
+   "buttock augmentation with fat grafting",
+   "gluteal lipofilling",
+   "fat transfer to the buttocks"
+  ],
+  "said": "Surgeons write gluteal fat grafting or gluteal lipofilling. Clinics and price pages write BBL, and the marketing name travels better than the operation's own."
+ },
+ "etymology": {
+  "root": "lipofilling: Greek lipos, fat, plus filling. The trade name Brazilian butt lift attaches a nationality to a technique and a lift to an operation that lifts nothing - it adds volume; the lifting operation is a separate procedure that removes skin.",
+  "tier": "tradition",
+  "note": "graft here means the patient's own aspirated fat, washed or decanted and re-injected. A graft survives only if it lands where blood can reach it, which is why the plane of injection is the argument in this operation."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "cosmetic",
+  "setting": "day-case",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Fat is taken by liposuction from the abdomen, flanks or back, processed, and injected into the buttocks to add volume and change shape. Some of the graft is reabsorbed over months, which is why surgeons overfill and why a second session is common. The reported danger is specific and mechanical: fat entering a torn gluteal vein travels to the lungs as a pulmonary fat embolism.",
+  "story": "In 2017 the Aesthetic Surgery Education and Research Foundation put a task force on this operation and published what its survey found. Six hundred and ninety-two surgeons responded out of 4,843 members of two international societies contacted, a 14.3 per cent response rate. They reported 32 fatal pulmonary fat emboli across 198,857 career cases, a career rate of 1 in 6,214, and five fatal emboli in 17,519 cases over the previous twelve months, an annual rate of 1 in 3,448. The same paper reported 103 non-fatal pulmonary fat emboli.\n\nThe task force's recommendation was about the plane. Deep intramuscular injection was associated with significantly increased risk; injection into the mid and superficial planes was protective, and the authors urged surgeons to avoid deep muscle injections. The paper's own words about the rate were that it is unacceptably high and that the approach to the procedure must be improved.\n\n*Inference --* those rates are what surgeons reported about themselves, in a survey answered by one in seven of the members contacted, and they count deaths known to the operating surgeon. A patient who flies home and dies there is not necessarily in the numerator; a clinic that does not belong to either society is not in the denominator. The figure is the best published one, and it is a floor rather than a measurement of the whole trade.\n\nThe operation travels heavily all the same, and the price pages are short. Premier Clinic in Prague prices fat transfer to breasts or buttocks with liposuction of one area from 62,800 koruna. RP Clinic in Warsaw prices a BBL from 25,000 zloty and states the figure covers the whole procedure including post-operative care. The American society publishes 7,264 US dollars as an average surgeon's fee, excluding anaesthesia and the operating room. Yanhee in Bangkok, whose plastic surgery table runs to hundreds of lines, prices buttock implants and a buttock lift and does not list fat grafting at all.",
+  "how": "General anaesthesia. The harvest is a liposuction, and the volumes are large enough that fluid balance matters. Injection is made with a blunt cannula into the subcutaneous plane above the muscle, under direct control of the tip; the 2017 task force recommendation is against injecting deep to the gluteal muscle. Sitting is restricted for weeks and specialised cushions are sold for the flight home. Graft take is partial and unpredictable, and clinics quote a second session accordingly.",
+  "today": "Three published prices sit on this record, from Czechia, Poland and the United States, alongside one published mortality figure from 2017 that the profession itself produced. No national register counts this operation across clinics, so the count of how many are performed each year and where is a gap on this site rather than a number.",
+  "notes": "This page describes an operation and reports the published figures on its mortality. It is not advice about having one, or about where."
+ },
+ "metrics": {
+  "mortality_per_1000": 0.29,
+  "note": "0.29 deaths per 1,000 cases is the ASERF task force's annual figure of 1 fatal pulmonary fat embolism per 3,448 cases, from 5 deaths in 17,519 gluteal fat grafting cases reported for the twelve months before the 2017 survey. The population is self-reported by 692 surgeons who answered out of 4,843 members of ISAPS and ASAPS contacted - a 14.3 per cent response rate - so it measures deaths known to responding society members, not deaths in the trade at large. The same survey gives a career rate of 1 in 6,214 across 198,857 cases, which is 0.16 per 1,000, and 103 non-fatal pulmonary fat emboli.",
+  "as_of": "2017",
+  "source": "s:aserf-gluteal-fat-grafting-2017",
+  "url": "https://academic.oup.com/asj/article/37/7/796/3075249"
+ },
+ "prices": [
+  {
+   "procedure": "bbl",
+   "country": "CZ",
+   "city": "Prague",
+   "amount": 62800,
+   "amount_high": 74800,
+   "currency": "CZK",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "fat transfer to breasts or buttocks with liposuction of one area, at the bottom of the range",
+    "liposuction of two areas at the top"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:premier-clinic-prague-prices",
+   "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/",
+   "note": "the clinic prices the harvest with the graft, which is the shape that makes a buttock price and a liposuction price impossible to add together",
+   "tier": "cited",
+   "usd": 2982.0,
+   "usd_high": 3552.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "bbl",
+   "country": "PL",
+   "city": "Warsaw",
+   "amount": 25000,
+   "currency": "PLN",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "the whole procedure including post-operative care: consultations, follow-ups, dressing changes and suture removal, in the clinic's own words"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:rpclinic-posladki-cennik",
+   "url": "https://www.rpclinic.pl/cenniki/cennik-chirurgia-plastyczna/cennik-zabiegi-posladkow/",
+   "note": "listed as 'from', gross, in zloty. The same list prices buttock implants from 27,000 PLN and a hybrid of implants with fat transfer and liposuction from 32,000 PLN.",
+   "tier": "cited",
+   "usd": 6643.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "bbl",
+   "country": "US",
+   "amount": 7264,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "survey",
+   "includes": [
+    "surgeon fee only, buttock augmentation with fat grafting"
+   ],
+   "excludes": [
+    "anesthesia",
+    "operating room facilities",
+    "other related expenses"
+   ],
+   "source": "s:asps-cost-buttock",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/buttock-enhancement/cost",
+   "note": "the same page gives 7,964 USD for buttock implants and 7,062 USD for a buttock lift. No year is named on the page.",
+   "tier": "cited",
+   "usd": 7264.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "bbl-mortality",
+   "as": "The risk this operation carries, with the task-force figure and the argument over what it counts.",
+   "rel": "risk"
+  },
+  {
+   "to": "liposuction",
+   "as": "The first half of this operation, and the reason its price cannot be added to a liposuction price.",
+   "rel": "part"
+  },
+  {
+   "to": "breast-augmentation",
+   "as": "The other place harvested fat is injected, with a different risk profile.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isaps",
+   "as": "One of the two societies whose members answered the mortality survey.",
+   "rel": "org"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "Sitting restrictions and the clot risk of the flight collide in this operation more than any other cosmetic one.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "as": "A different embolism from the fat one, and the one the flight home adds.",
+   "rel": "risk"
+  },
+  {
+   "to": "turkiye",
+   "as": "A destination where the operation is sold in packages alongside hair surgery.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "as": "Where a clinic publishes a price stated to cover post-operative care.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "The source market whose society published the mortality survey.",
+   "rel": "destination"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "What a family can do, and where, when the death happens abroad.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who treats the complication after the flight, and who pays.",
+   "rel": "risk"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "liposuction",
+   "tell": "A BBL is a liposuction plus a graft. A price for one is not a price for the other, and a package that names only the liposuction has priced half the operation."
+  }
+ ],
+ "links": [
+  {
+   "label": "ASERF task force report, Aesthetic Surgery Journal 2017",
+   "url": "https://academic.oup.com/asj/article/37/7/796/3075249"
+  },
+  {
+   "label": "ASPS average surgeon fee, buttock enhancement",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/buttock-enhancement/cost"
+  }
+ ],
+ "sources": [
+  "s:aserf-gluteal-fat-grafting-2017",
+  "s:premier-clinic-prague-prices",
+  "s:rpclinic-posladki-cennik",
+  "s:asps-cost-buttock",
+  "s:yanhee-plastic-prices"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:aserf-gluteal-fat-grafting-2017",
+    "note": "the mortality paragraphs are the published task-force figures; the paragraph on what the denominator misses is marked as inference inline"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:aserf-gluteal-fat-grafting-2017",
+    "note": "the plane-of-injection recommendation is the task force's; the rest is standard operative description"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:aserf-gluteal-fat-grafting-2017"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Gluteal augmentation.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Fat is taken by liposuction from the abdomen, flanks or back, processed, and injected into the buttocks to add volume and change shape.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "The risk this operation carries, with the task-force figure and the argument over what it counts.",
+   "rel": "risk"
+  },
+  {
+   "to": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The first half of this operation, and the reason its price cannot be added to a liposuction price.",
+   "rel": "part"
+  },
+  {
+   "to": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "The other place harvested fat is injected, with a different risk profile.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "One of the two societies whose members answered the mortality survey.",
+   "rel": "org"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "Sitting restrictions and the clot risk of the flight collide in this operation more than any other cosmetic one.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "A different embolism from the fat one, and the one the flight home adds.",
+   "rel": "risk"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "A destination where the operation is sold in packages alongside hair surgery.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "Where a clinic publishes a price stated to cover post-operative care.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The source market whose society published the mortality survey.",
+   "rel": "destination"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "What a family can do, and where, when the death happens abroad.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who treats the complication after the flight, and who pays.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:aserf-gluteal-fat-grafting-2017",
+   "kind": "paper",
+   "title": "Report on Mortality from Gluteal Fat Grafting: Recommendations from the ASERF Task Force",
+   "publisher": "Aesthetic Surgery Journal 37(7), July-August 2017; Mofid, Teitelbaum, Suissa, Ramirez-Montanana, Astarita, Mendieta, Singer",
+   "url": "https://academic.oup.com/asj/article/37/7/796/3075249",
+   "accessed": "2026-09-16",
+   "note": "survey of ISAPS and ASAPS members; 692 responses from 4,843 surveyed, a 14.3% response rate"
+  },
+  {
+   "id": "s:premier-clinic-prague-prices",
+   "kind": "web",
+   "title": "Price List - Plastic Surgery",
+   "publisher": "Premier Clinic, Prague",
+   "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/",
+   "accessed": "2026-09-16",
+   "note": "clinic's own English price list, every line prefixed 'from', in Czech koruna"
+  },
+  {
+   "id": "s:rpclinic-posladki-cennik",
+   "kind": "web",
+   "title": "Cennik - zabiegi posladkow",
+   "publisher": "RP Clinic, Warsaw",
+   "url": "https://www.rpclinic.pl/cenniki/cennik-chirurgia-plastyczna/cennik-zabiegi-posladkow/",
+   "accessed": "2026-09-16",
+   "note": "buttock price list in zloty, gross, stated to cover the whole procedure including post-operative care"
+  },
+  {
+   "id": "s:asps-cost-buttock",
+   "kind": "org",
+   "title": "Buttock Enhancement Cost",
+   "publisher": "American Society of Plastic Surgeons",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/buttock-enhancement/cost",
+   "accessed": "2026-09-16",
+   "note": "society's average surgeon fee; the page says it excludes anaesthesia, operating room facilities and other related expenses, and names no year"
+  },
+  {
+   "id": "s:yanhee-plastic-prices",
+   "kind": "web",
+   "title": "Plastic Surgery Prices",
+   "publisher": "Yanhee Hospital, Bangkok",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "accessed": "2026-09-16",
+   "note": "hospital's own price table: procedure, nights, price in Thai baht. The page carries no validity date and no inclusion list."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:aserf-gluteal-fat-grafting-2017",
+   "note": "the mortality paragraphs are the published task-force figures; the paragraph on what the denominator misses is marked as inference inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:aserf-gluteal-fat-grafting-2017",
+   "note": "the plane-of-injection recommendation is the task force's; the rest is standard operative description"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:aserf-gluteal-fat-grafting-2017"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "brazil",
+   "type": "destination",
+   "name": "Brazil",
+   "as": "The buttock operation whose technique argument is partly Brazilian.",
+   "rel": "procedure"
+  },
+  {
+   "from": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The operation most argued over here, and the one with a published mortality literature.",
+   "rel": "procedure"
+  },
+  {
+   "from": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "The body operation the trade here is currently known for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "The operation this city is best known abroad for, and the one this directory keeps a separate mortality record on.",
+   "rel": "performs"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "Among the operations sold here, and the one with its own mortality record in this directory.",
+   "rel": "performs"
+  },
+  {
+   "from": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "The other fat-grafting operation, and the one with a published mortality figure attached to it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The operation that begins with this one, and then injects what it harvested.",
+   "rel": "part"
+  },
+  {
+   "from": "clinica-las-americas",
+   "type": "facility",
+   "name": "Clínica Las Américas",
+   "as": "Medellín's cosmetic trade runs beside this clinic and not through it, which is the distinction a reader of a city page needs.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "The procedure this is the mortality of.",
+   "rel": "procedure"
+  },
+  {
+   "from": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "Among the cosmetic procedures the case-patients had travelled for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Gluteal augmentation was the commonest procedure and the source of every major complication in two of the series.",
+   "rel": "procedure"
+  },
+  {
+   "from": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The operation its members answered a mortality survey about, which is where this directory's death rate for it comes from.",
+   "rel": "procedure"
+  },
+  {
+   "from": "dominican-republic-ntm-outbreak",
+   "type": "event",
+   "name": "The Dominican mycobacterial outbreaks, 2013–14 and 2017",
+   "as": "The body operation the Dominican trade is now known for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "Gluteal augmentation was the commonest procedure and the source of every major complication in two series.",
+   "rel": "procedure"
+  }
+ ]
+}

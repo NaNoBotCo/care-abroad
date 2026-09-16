@@ -1,0 +1,595 @@
+{
+ "schema": 1,
+ "id": "knee-replacement",
+ "type": "procedure",
+ "names": {
+  "name": "Total knee replacement",
+  "aliases": [
+   "total knee arthroplasty",
+   "TKA",
+   "knee arthroplasty",
+   "knee replacement"
+  ],
+  "said": "Surgeons say TKA. Package pages say total knee replacement. Brokers say knee, and mean either one knee or two without saying which."
+ },
+ "etymology": {
+  "root": "arthroplasty: Greek arthron, a joint, plus plastos, moulded — a joint remoulded. The word predates the implant by a century and once meant cutting a new joint surface out of the patient's own bone.",
+  "tier": "tradition",
+  "note": "bilateral means both knees in one anaesthetic; unilateral means one. A package priced for one is roughly half a package priced for two, and the two words are easy to miss on a price page."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "regional"
+ },
+ "text": {
+  "what": "The worn surfaces of the knee are cut away and replaced with metal and plastic: a femoral component on the thigh bone, a tibial tray on the shin, a polyethylene bearing between them, and often a patellar button behind the kneecap. It is done for arthritis that has stopped responding to anything else. Recovery runs in weeks, not days, and the implant itself is a separate purchase from the operation on most package price lists.",
+  "story": "Knee replacement is one of the two or three operations that built cross-border care, for a reason that has nothing to do with surgery: it is elective, it is standardised, it is expensive at home, and the queue for it is long in every country that funds healthcare publicly. A patient who cannot walk to the shops and has been told to wait fourteen months has a motive that a patient facing an emergency does not.\n\n*Trade practice —* the operation also suits the package model better than almost anything else. The steps are the same everywhere, the implant comes from one of four or five multinational manufacturers, and the length of stay is predictable enough that a hospital can quote a fixed price and mostly hold to it. That is why the price pages exist for knees and hips and not for, say, a pancreatic resection.\n\n*Inference —* the same standardisation is what makes the published prices comparable at all, and it is also what makes them misleading. A package that names three nights and excludes the implant is quoting a different object from one that names five nights and includes it.",
+  "how": "Regional anaesthesia is usual — a spinal or an epidural with sedation — because it lowers the rate of clots and lets the patient begin moving sooner. The surgeon opens the front of the knee, cuts the ends of the femur and tibia to jigs, trials the components, cements or press-fits them, closes, and the physiotherapist has the patient standing the same day or the next. Published packages usually name three to five nights on the ward. The implant is billed separately by most hospitals that publish a package price, and it is frequently the largest single line.",
+  "today": "Where a price is published at all, a unilateral knee runs from roughly ten thousand US dollars in Southeast Asia to several times that in the United States, and every figure on this site's price table names its own date, currency and what it includes. The comparison that matters is not the headline number: it is the headline number plus the implant, plus the nights past the package, plus the flight, plus the follow-up at home that nobody quoted.",
+  "notes": "This page describes an operation. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 3,
+  "days_before_flying": 10,
+  "recovery_weeks": 12,
+  "note": "Three nights is the ward stay named in the Bumrungrad package read for this record, not a clinical standard; stays elsewhere run longer. The ten-day figure is the CDC's guidance not to fly for ten days after chest or abdominal surgery, which orthopaedic teams commonly apply to major lower-limb surgery for the clot risk; the twelve weeks is the usual span quoted for getting back to ordinary walking, and it varies widely.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 356500,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "operating theatre, 3 hours",
+    "nursing and surgical team fees within those 3 hours",
+    "3 nights in the surgical ward",
+    "medical equipment and supplies",
+    "medications related to the procedure",
+    "surgeon",
+    "assistant surgeon if needed",
+    "anaesthesiologist"
+   ],
+   "excludes": [
+    "the implant",
+    "first consultation and follow-up visits",
+    "specialist consultations",
+    "nights beyond 3, and any ICU",
+    "blood transfusion",
+    "laboratory and imaging before or after surgery",
+    "take-home medication",
+    "outpatient charges before admission",
+    "complex or emergency cases",
+    "patients the hospital rates high risk: organ failure, severe systemic disease at ASA classification III and above, a myocardial infarction within four weeks, HIV infection, or a previous knee operation unless the attending physician decides otherwise"
+   ],
+   "source": "s:bumrungrad-joint04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "note": "package JOINT04, price stated valid until 31 December 2026. The exclusion list is longer than the inclusion list, and the implant — often the single largest line on a knee bill — sits on it. The page also carries an eligibility block above the inclusion list: the package is for the patient without complication, and it names who does not qualify. A package price is therefore a price for the straightforward case, which is the thing it is easy to read past.",
+   "tier": "cited",
+   "usd": 10707.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 525600,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "both knees in one admission"
+   ],
+   "excludes": [
+    "the implant"
+   ],
+   "source": "s:bumrungrad-packages",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "note": "bilateral, listed at 525,600 THB against a struck-through 584,000 THB. Two knees for less than twice one knee is the usual shape of a bilateral price.",
+   "tier": "cited",
+   "usd": 15786.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 945000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "both knees",
+    "robotic assistance (MAKO)"
+   ],
+   "excludes": [
+    "the implant"
+   ],
+   "source": "s:bumrungrad-packages",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "note": "robot-assisted bilateral, listed at 945,000 THB against a struck-through 1,050,000 THB. The robot is a price tier, and whether it changes outcomes is argued in the literature rather than settled.",
+   "tier": "cited",
+   "usd": 28383.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "knee-replacement",
+   "country": "GB",
+   "amount": 13799,
+   "currency": "GBP",
+   "as_of": "2026-04",
+   "kind": "list",
+   "includes": [
+    "pre-operative nurse review",
+    "prescriptions, dressings and equipment",
+    "the anaesthetic",
+    "any overnight stay required",
+    "physiotherapy",
+    "pathology and histology needed whilst admitted",
+    "any post-operative appointments required",
+    "a named consultant from start to finish"
+   ],
+   "excludes": [
+    "the initial consultation, listed separately at £145"
+   ],
+   "source": "s:practiceplus-knee",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/",
+   "note": "Self-pay list price, the page stating \"Prices correct as at April 2026\". Seven of the nine things the Bangkok package excludes sit inside this one. The implant is named on neither side — not as an inclusion here and not as a price anywhere this project could read — which is a different silence from the Bangkok exclusion rather than a smaller one.",
+   "tier": "cited",
+   "usd": 18596.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "hip-replacement",
+   "as": "The same trade, the other joint — and the one whose package price is usually higher.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the knee package this page reads, implant excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the knee package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this operation is usually sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The line item this operation's headline price usually leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets how long after this operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "waiting-lists",
+   "as": "The queue at home that sends most knee patients abroad in the first place.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who takes the stitches out, and who sees the knee at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind the map of what each country spends on health per person.",
+   "rel": "measured-by"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hip-replacement",
+   "tell": "Knee and hip packages are priced separately and recover differently; a broker's \"joint replacement\" quote names neither until you ask."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package JOINT04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:bumrungrad-packages",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the trade's account of why this operation travels; the inline marks say which stretches are which"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the three-night figure is cited to the package page"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:bumrungrad-joint04"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Knee replacement implant.jpg",
+  "File:Total Knee Replacement X-ray.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The worn surfaces of the knee are cut away and replaced with metal and plastic: a femoral component on the thigh bone, a tibial tray on the shin, a polyethylene bearing between them, and often a patellar button behind…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The same trade, the other joint — and the one whose package price is usually higher.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the knee package this page reads, implant excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the knee package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form this operation is usually sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The line item this operation's headline price usually leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that sets how long after this operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "waiting-lists",
+   "type": "story",
+   "name": "The queue is the product",
+   "as": "The queue at home that sends most knee patients abroad in the first place.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who takes the stitches out, and who sees the knee at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series behind the map of what each country spends on health per person.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  },
+  {
+   "id": "s:bumrungrad-packages",
+   "kind": "web",
+   "title": "Packages & Programs — joint replacement and spine",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the trade's account of why this operation travels; the inline marks say which stretches are which"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the three-night figure is cited to the package page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "61% of them done inside six months in 2024 — the operation that defines this market.",
+   "rel": "procedure"
+  },
+  {
+   "from": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "One of the operations sold here at a published fixed price.",
+   "rel": "procedure"
+  },
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "Sold here at a published fixed price, implant billed separately.",
+   "rel": "procedure"
+  },
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "Sold on an estimate in the central hospitals rather than as a package.",
+   "rel": "procedure"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "Quoted here itemised rather than as a package.",
+   "rel": "procedure"
+  },
+  {
+   "from": "johannesburg",
+   "type": "hub",
+   "name": "Johannesburg",
+   "as": "The elective end of the same city, sold on an exchange rate.",
+   "rel": "procedure"
+  },
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "The other knee on the price table, thirty years further on.",
+   "rel": "contrast"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The other operation whose price page turns on which implant is in the package.",
+   "rel": "contrast"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "The other implant operation whose package price excludes the implant.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The same trade, the other joint — and the cheaper package at the same Bangkok hospital, by 68,700 baht.",
+   "rel": "contrast"
+  },
+  {
+   "from": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "What the arthritic knee ends up having when the keyhole work does not hold.",
+   "rel": "contrast"
+  },
+  {
+   "from": "shoulder-replacement",
+   "type": "procedure",
+   "name": "Total shoulder replacement",
+   "as": "The operation whose package pages set the shape this one is missing from.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "One of the operations it sells at a published fixed price, implant excluded.",
+   "rel": "performs"
+  },
+  {
+   "from": "hospital-cima-san-jose",
+   "type": "facility",
+   "name": "Hospital CIMA San José",
+   "as": "Among the operations the Escazú cluster sells, with the recovery stay in a hotel rather than a ward.",
+   "rel": "performs"
+  },
+  {
+   "from": "max-saket",
+   "type": "facility",
+   "name": "Max Super Speciality Hospital, Saket",
+   "as": "One of the operations the Delhi corridor sells to foreign patients, quoted rather than listed.",
+   "rel": "performs"
+  },
+  {
+   "from": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "The operation whose package bar this record was read off.",
+   "rel": "procedure"
+  },
+  {
+   "from": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "The package whose exclusion list names blood transfusion as a charge.",
+   "rel": "procedure"
+  },
+  {
+   "from": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "Major lower-limb surgery, where regional anaesthesia is preferred partly to lower this risk.",
+   "rel": "procedure"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "Major lower-limb surgery, where orthopaedic teams commonly apply the same ten-day interval for the clot risk.",
+   "rel": "procedure"
+  },
+  {
+   "from": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Six-week and twelve-week reviews, and the physiotherapy between them, sit outside every package this site has read.",
+   "rel": "procedure"
+  },
+  {
+   "from": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The operation this exclusion was read off, and the one where the device is often the largest line.",
+   "rel": "procedure"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The operation where an infection means the implant comes out.",
+   "rel": "procedure"
+  },
+  {
+   "from": "covid-shutdown-2020",
+   "type": "event",
+   "name": "The 2020 shutdown",
+   "as": "The kind of planned operation the cancellation modelling was about.",
+   "rel": "procedure"
+  },
+  {
+   "from": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "The operation these programmes were built around, at home and abroad alike.",
+   "rel": "procedure"
+  },
+  {
+   "from": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The operation whose three-night package this record reads.",
+   "rel": "procedure"
+  },
+  {
+   "from": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The operation whose package this record reads, implant excluded.",
+   "rel": "procedure"
+  },
+  {
+   "from": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "One of the seven procedures, and the one this site prices most closely.",
+   "rel": "procedure"
+  },
+  {
+   "from": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "The operation worked end to end on this page.",
+   "rel": "procedure"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "The operation whose package names the exclusion in its own title.",
+   "rel": "procedure"
+  },
+  {
+   "from": "waiting-lists",
+   "type": "story",
+   "name": "The queue is the product",
+   "as": "The operation the queue sends abroad more than any other.",
+   "rel": "procedure"
+  }
+ ]
+}

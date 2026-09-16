@@ -104,10 +104,6 @@
     "tier": "tradition",
     "note": "the arrival sequence and the three commercial outcomes are the general shape of the trade; this project holds no hospital's protocol and no patient's contract"
    },
-   "prices": {
-    "tier": "cited",
-    "source": "s:bumrungrad-joint04"
-   },
    "metrics": {
     "tier": "cited",
     "source": "s:statpearls-asa-physical-status"

@@ -1,0 +1,212 @@
+{
+ "id": "graft",
+ "names": {
+  "name": "Graft",
+  "aliases": [
+   "follicular unit",
+   "FU",
+   "hair graft"
+  ],
+  "said": "A hair clinic's graft is a follicular unit of one to four hairs. A surgeon's graft is transplanted tissue. The same word prices two different things."
+ },
+ "etymology": {
+  "root": "Late 15c., an alteration of Middle English graff, from Old French graife, \"grafting knife, carving tool; stylus, pen\", from Latin graphium, stylus, from Greek grapheion, stylus, from graphein, to write. The shoot inserted into another plant was pencil-shaped like a stylus, and took the stylus's name. The surgical sense of the verb follows in 1868 and of the noun in 1871. The corruption sense — graft as bribery, American English from about 1859 — is a separate word and unrelated.",
+  "first_attested": "late 15c. for the horticultural noun; 1868 and 1871 for the surgical senses",
+  "tier": "cited",
+  "source": "s:etymonline-graft",
+  "note": "In hair restoration a graft is one follicular unit, not one hair. A price per graft is a price per cluster."
+ },
+ "text": {
+  "what": "In the older surgical sense, tissue moved from one place to another and expected to take. In the hair trade — where most of this subject's graft prices come from — a graft is one follicular unit: a naturally occurring cluster of one to four hairs with its sebaceous lobules and arrector pili muscle. The unit was described histologically before it was ever sold.",
+  "story": "Headington described the follicular unit in the Archives of Dermatology in April 1984, and the International Society of Hair Restoration Surgery quotes him in its own terminology standard: \"The follicular unit (FU) of the adult human scalp usually consists of two to four terminal follicles and one or rarely two vellus follicles, the associated sebaceous lobules, and the insertions of the arrector pili muscles of the terminal follicles.\" The society's patient page puts the same thing in trade terms: clinics remove \"natural clusters of hairs grouped in 1-4 hairs each\", with punches \"from 0.7 to 1.2 mm in size\".\n\nThat range of one to four is the whole problem with the unit as a price. The society's 2019 terminology document defines two further measures, Calculated Follicles per Graft Expected and Calculated Follicles per Graft Achieved, which exist because a graft count on its own does not say how many follicles were moved.\n\n*Inference —* the arithmetic follows from the definition. A donor area yielding three-hair units can be dissected into single-hair grafts, and the same hair then sells as three times the number. Nothing on a quotation states the follicles-per-graft figure, so two clinics quoting 4,000 grafts may be quoting hair counts that differ by a factor of two or more.",
+  "how": "Two numbers make a graft quote readable and neither is usually published: hairs per graft, and where on the donor area the grafts came from. The society names overharvesting the donor area, or harvesting outside the safe zone, as \"an uncorrectable problem\", and it names \"the problematic rise today of unlicensed technicians (the so-called black market)\" as the risk attached to volume work.",
+  "today": "As of 17 September 2026 every hair price on this site is recorded with the unit the seller used — per graft, per session or per package — because the three cannot be converted into one another."
+ },
+ "kin": [
+  {
+   "to": "fue",
+   "as": "The technique sold by the graft, which is why the unit matters at all.",
+   "rel": "term"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The operation this unit prices.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "as": "The other technique sold in the same unit, whose prices state it no more clearly.",
+   "rel": "procedure"
+  },
+  {
+   "to": "istanbul",
+   "as": "Where most of the world's graft prices are quoted.",
+   "rel": "hub"
+  },
+  {
+   "to": "package-price",
+   "as": "The form that removes the unit altogether by selling a session instead.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-graft",
+  "s:headington-1984",
+  "s:ishrs-fue-terminology-2019",
+  "s:ishrs-fue-what-is-it"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "G"
+ },
+ "blurb": "In the older surgical sense, tissue moved from one place to another and expected to take.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "fue",
+   "type": "term",
+   "name": "FUE",
+   "as": "The technique sold by the graft, which is why the unit matters at all.",
+   "rel": "term"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The operation this unit prices.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "The other technique sold in the same unit, whose prices state it no more clearly.",
+   "rel": "procedure"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "Where most of the world's graft prices are quoted.",
+   "rel": "hub"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form that removes the unit altogether by selling a session instead.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-graft",
+   "kind": "dictionary",
+   "title": "graft (n.1), graft (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/graft",
+   "accessed": "2026-09-17",
+   "note": "late 15c.; surgical sense 1871"
+  },
+  {
+   "id": "s:headington-1984",
+   "kind": "paper",
+   "title": "Transverse microscopic anatomy of the human scalp. A basis for a morphometric approach to disorders of the hair follicle",
+   "publisher": "Headington JT. Archives of Dermatology 1984 Apr;120(4):449-56",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6703750/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 6703750); the definition of the follicular unit is quoted here from the ISHRS terminology document, which reproduces it"
+  },
+  {
+   "id": "s:ishrs-fue-terminology-2019",
+   "kind": "org",
+   "title": "A 2019 Guide to Currently Accepted FUE and Implanter Terminology",
+   "publisher": "International Society of Hair Restoration Surgery; dated 15 July 2019, editor Robert H. True",
+   "url": "https://ishrs.org/wp-content/uploads/2019/08/July-15-2019-FUE-Terminology.pdf",
+   "accessed": "2026-09-17",
+   "note": "carries the Headington definition of the follicular unit, the 2018 renaming of FUE from extraction to excision, and the CFGE and CFGA measures"
+  },
+  {
+   "id": "s:ishrs-fue-what-is-it",
+   "kind": "org",
+   "title": "FUE — what is it?",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/fue-what-is-it/",
+   "accessed": "2026-09-17",
+   "note": "follicular units of 1 to 4 hairs, punches 0.7 to 1.2 mm, overharvesting as an uncorrectable problem, and the society's black-market warning"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The other trade unit whose count decides a price, in a different trade.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "The unit both techniques are sold in, and which neither of these two prices states.",
+   "rel": "term"
+  },
+  {
+   "from": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The unit this operation is priced in, and the one that is routinely inflated.",
+   "rel": "term"
+  },
+  {
+   "from": "fue",
+   "type": "term",
+   "name": "FUE",
+   "as": "The unit this technique is sold in, and the one whose definition decides the count.",
+   "rel": "term"
+  }
+ ]
+}

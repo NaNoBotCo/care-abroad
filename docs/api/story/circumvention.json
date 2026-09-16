@@ -1,0 +1,623 @@
+{
+ "schema": 1,
+ "id": "circumvention",
+ "type": "story",
+ "names": {
+  "name": "Circumvention",
+  "aliases": [
+   "doing lawfully elsewhere what is prohibited at home",
+   "the residence gate"
+  ],
+  "said": "The legal literature calls it \"circumvention tourism\", after the paper that named it. The instrument that governs it is almost never a rule about leaving."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "Travelling to a country where a treatment is lawful because it is prohibited at home. The act is legal where it happens; the traveller's own state mostly does not reach it. What this page reports, from the legality rows on this site's rule records, is the shape the law actually takes: not a prohibition on going, but a residence or nationality condition attached to the lawful act at the other end, and a set of procedural gates that do the same work without naming a border.",
+  "story": "I. Glenn Cohen named the category in the Cornell Law Review in 2012, defining it as travel \"for services that are legal in the patient's destination country but illegal in the patient's home country\". His four worked examples were female genital cutting, abortion, assisted reproduction and assisted suicide. The argument is still running: the Journal of Law, Medicine and Ethics carried an exchange on it in 2022. *Inference —* a category defined by a legal difference behaves unlike the rest of this subject. A price gap narrows when a currency moves; a prohibition does not, so the traffic is steady and points one way until the law at home changes.\n\nRead across the six rule records on this site that carry legality rows, and the commonest instrument is not a prohibition at all. It is a residence condition on the permissive side. Every European Union state that has legislated for surrogacy requires the intended parents, the surrogate, or both to live there: Greece, Cyprus, Portugal and Ireland, with Ireland asking for two years. Spain's euthanasia law requires Spanish nationality, lawful residence, or a municipal register certificate showing more than twelve months. France's law of 18 August 2026 requires nationality or stable and regular residence as one of five cumulative conditions. California's end-of-life statute wants a driver's licence, a voter registration, a property interest or a tax return. India and Thailand closed their surrogacy markets by nationality rather than by conduct — India's 2021 Act defines a couple as a legally married Indian man and woman; Thailand's 2015 Act requires adult Thai citizenship. *Inference —* a nationality gate is the cleanest instrument available to a legislature: it does not ask what was paid or who arranged it, and no quantity of documentation satisfies it.\n\nThe second instrument is structural and is written nowhere. Neither the Dutch nor the Belgian euthanasia Act contains a nationality or residence clause. The gate is the due-care regime: a physician satisfied that the request is voluntary and well-considered and the suffering without prospect of improvement, and a second independent physician who has seen the patient. That is a relationship built over time, and arriving does not create one. Canada reaches the same result through its health system, keying eligibility to entitlement to government-funded health services and forgiving only an applicable minimum residence or waiting period — which does nothing for a visitor with no entitlement at all.\n\nTwo statutes in this file exclude a non-resident on their face, and the better-known one is the less interesting. Singapore's Termination of Pregnancy Act 1974, section 3, confines treatment to citizens, wives of citizens, work-pass holders and their wives, or a person resident in Singapore for at least four months, with an exception where the procedure is needed to save the woman's life. Czechia's is older and quieter: section 10 of zákon č. 66/1986 Sb. bars the procedure for foreign women who are in the country only temporarily. It is unamended and in force, and the standard comparative database of abortion policy records other Czech restrictions and not this one.\n\nEverywhere else the friction is procedural, and procedure is what defeats a traveller. Italy invites a seven-day pause. Belgium requires six days from the first consultation. Germany requires counselling and then three days; Hungary, Portugal and Ireland the same; Singapore and Malaysia two. Thailand requires counselling on alternatives between twelve and twenty weeks. *Inference —* a waiting period is a residence requirement for anybody holding two air tickets, and none of those statutes was drafted with that in mind. Consent rules do the same work by another route: Japan's Maternal Health Act still requires the spouse's consent, and Türkiye and Taiwan require it on named grounds.\n\nExtraterritorial reach — a home state making the conduct abroad an offence — is rare, and this file holds two named instances. Article 12(6) of Italy's Legge 40/2004 was amended in November 2024 to reach Italian nationals who conclude a surrogacy agreement abroad, and it is the only such clause among the Member States the European Parliamentary Research Service surveyed. Türkiye's 2010 regulation on assisted reproduction bans donor gametes and, on the account in this site's source for it, reaches citizens who go abroad to obtain them. Against those two sit the ordinary rules, which reach the assistance rather than the journey: section 2 of the United Kingdom's Suicide Act 1961 makes assisting an offence, and what the offence attaches to is the help, not the departure.\n\nOne door has opened rather than closed. Oregon removed its residency requirement in 2023 after a federal suit settled, and ORS 127.805 as amended carries no residency language — which means the frequently repeated statement that Switzerland is the only jurisdiction admitting non-residents is at minimum incomplete. Switzerland's own position is an omission rather than a permission: Article 115 of the Criminal Code punishes inciting or assisting suicide only where the person acts from a selfish motive, and says nothing about nationality or residence because the article was written about motive and not about this.\n\nThe grid shows a correlation and cannot show a cause, and one pair of rows makes the point. Spain's Ley 14/2006, article 5.5, makes donor anonymity compulsory; Britain ended it for donations made from 1 April 2005 by the 2004 Disclosure of Donor Information Regulations. Spain is also the largest egg-donation destination in Europe: its registry recorded 27,564 cycles in 2022 for patients resident in other countries — France 39.0 per cent, Italy 20.6, the United Kingdom 9.0, Germany 6.4 — and 52.3 per cent of those cycles used donated eggs. The registry did not record why the patient came in 90.8 per cent of them. Waiting lists, price, age caps and access rules for single women and female couples all point the same way, and no register separates them. The arguments on either side are on the record and this page joins neither: a residence gate stops a state becoming a destination for something its neighbours prohibit, and a residence gate also means access turns on where a person happens to be registered and that the people who travel are the people who can afford to. Transplantation is the one corner where an international text draws the line itself, and it draws it somewhere else entirely: the Declaration of Istanbul holds that crossing a border for a transplant is not wrong in itself, and that buying the organ is.",
+  "how": "A legality row on this site is one reading of one named instrument in one jurisdiction on one date. Six statuses: lawful, lawful with conditions, residents only, prohibited, unregulated, and not read by this project — which is hatched on the grid and is a fact about this directory rather than about the country. A status describes the position for an act performed in that jurisdiction. It does not describe whether the home state will recognise the result, which is a separate body of law: since 2014 the European Court of Human Rights has issued a run of judgments on parenthood established abroad, and the European Commission's proposed parenthood regulation of 2022 is still with the Council. Nothing here is legal advice and no row says what anybody should do.",
+  "today": "As of 17 September 2026 this site holds 151 legality rows across its rule and destination records: 41 lawful with conditions, 14 lawful, 14 prohibited, eight residents only, three unregulated — and 71 marked not read by this project. That last figure is the largest category by some distance, and the pattern in which it falls is itself informative: the statutes this project could read are those of states that publish their law in machine-readable form on a stable government portal, which is not the same set as the states this question is most often asked about. Georgia, Ukraine and Mexico are among the places most named in the surrogacy trade and no national instrument for any of them was read on this pass."
+ },
+ "kin": [
+  {
+   "to": "circumvention-travel",
+   "as": "The word, its root, and the paper that named the category in 2012.",
+   "rel": "term"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "Where the residence requirement is clearest: every EU state that legislated for it requires somebody to live there.",
+   "rel": "rule"
+  },
+  {
+   "to": "assisted-dying-law",
+   "as": "Three different ways of writing a residence gate, and the one omission that is not one.",
+   "rel": "rule"
+  },
+  {
+   "to": "abortion-travel-law",
+   "as": "The two statutes that bar a non-resident on their face, and the waiting periods that do it without saying so.",
+   "rel": "rule"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "Spain's compulsory anonymity against Britain's identity release, and the registry that did not ask why.",
+   "rel": "rule"
+  },
+  {
+   "to": "transplant-prohibition",
+   "as": "Where the international text draws the line at payment rather than at the border.",
+   "rel": "rule"
+  },
+  {
+   "to": "gender-affirming-care-access",
+   "as": "Where the gate is a court's permission at the destination, and whether it binds a foreign patient is unread.",
+   "rel": "rule"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "as": "The other direction: a clinic that cannot satisfy one national regime moves to a jurisdiction with none.",
+   "rel": "rule"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The name proposed for the patients this page describes, and the argument over whether it overstates compulsion.",
+   "rel": "term"
+  },
+  {
+   "to": "surrogacy",
+   "as": "The arrangement where the law does not change the price but decides whether the thing exists.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The treatment whose destination is chosen by a rule about the donor rather than by a price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "spain",
+   "as": "The largest egg-donation destination in Europe, running the opposite anonymity rule to most of its neighbours.",
+   "rel": "destination"
+  }
+ ],
+ "links": [
+  {
+   "label": "Cohen, Circumvention Tourism, Cornell Law Review 97:1309",
+   "url": "https://scholarship.law.cornell.edu/clr/vol97/iss6/1"
+  },
+  {
+   "label": "The Declaration of Istanbul, 2018 edition",
+   "url": "https://www.declarationofistanbul.org/"
+  }
+ ],
+ "sources": [
+  "s:cohen-circumvention-2012",
+  "s:cohen-patients-with-passports-2014",
+  "s:jlme-circumvention-2022",
+  "s:ep-surrogacy-2025",
+  "s:in-surrogacy-act-2021",
+  "s:stasi-thailand-art-act-2017",
+  "s:es-ley-14-2006",
+  "s:uk-donor-info-regs-2004",
+  "s:sef-registro-2022",
+  "s:cz-act-66-1986",
+  "s:sg-termination-act",
+  "s:it-legge-194-1978",
+  "s:jp-maternal-health-act",
+  "s:gurtin-2011-turkey",
+  "s:es-lo-3-2021",
+  "s:fr-loi-2026-794",
+  "s:ca-criminal-code-241-2",
+  "s:or-ors-127-805",
+  "s:ch-criminal-code",
+  "s:nl-euthanasia-act-2002",
+  "s:be-euthanasia-law-2002",
+  "s:uk-suicide-act-1961",
+  "s:us-ca-hsc-443-2",
+  "s:declaration-of-istanbul",
+  "s:who-guiding-principles",
+  "s:who-gapd",
+  "s:hcch-parentage-surrogacy",
+  "s:shenfield-2010"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every instrument is named and dated on a legality row elsewhere on this site; the structural readings are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "cited",
+    "note": "the status vocabulary is this project's; the recognition law is cited"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counted over the legality rows on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Travelling to a country where a treatment is lawful because it is prohibited at home. The act is legal where it happens; the traveller's own state mostly does not reach it.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "The word, its root, and the paper that named the category in 2012.",
+   "rel": "term"
+  },
+  {
+   "to": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "Where the residence requirement is clearest: every EU state that legislated for it requires somebody to live there.",
+   "rel": "rule"
+  },
+  {
+   "to": "assisted-dying-law",
+   "type": "rule",
+   "name": "Assisted dying, and who may cross a border for it",
+   "as": "Three different ways of writing a residence gate, and the one omission that is not one.",
+   "rel": "rule"
+  },
+  {
+   "to": "abortion-travel-law",
+   "type": "rule",
+   "name": "Travelling for a termination",
+   "as": "The two statutes that bar a non-resident on their face, and the waiting periods that do it without saying so.",
+   "rel": "rule"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "Spain's compulsory anonymity against Britain's identity release, and the registry that did not ask why.",
+   "rel": "rule"
+  },
+  {
+   "to": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "Where the international text draws the line at payment rather than at the border.",
+   "rel": "rule"
+  },
+  {
+   "to": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "Where the gate is a court's permission at the destination, and whether it binds a foreign patient is unread.",
+   "rel": "rule"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "The other direction: a clinic that cannot satisfy one national regime moves to a jurisdiction with none.",
+   "rel": "rule"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The name proposed for the patients this page describes, and the argument over whether it overstates compulsion.",
+   "rel": "term"
+  },
+  {
+   "to": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "The arrangement where the law does not change the price but decides whether the thing exists.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "The treatment whose destination is chosen by a rule about the donor rather than by a price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "The largest egg-donation destination in Europe, running the opposite anonymity rule to most of its neighbours.",
+   "rel": "destination"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cohen-circumvention-2012",
+   "kind": "paper",
+   "title": "Circumvention Tourism",
+   "publisher": "Cornell Law Review 97(6):1309 (Cohen IG)",
+   "url": "https://scholarship.law.cornell.edu/clr/vol97/iss6/1",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cohen-patients-with-passports-2014",
+   "kind": "book",
+   "title": "Patients with Passports: Medical Tourism, Law, and Ethics",
+   "publisher": "Oxford University Press, 2014 (Cohen IG), ISBN 9780199975099",
+   "url": "https://openlibrary.org/works/OL21085324W",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:jlme-circumvention-2022",
+   "kind": "paper",
+   "title": "The Flaw in Formalist Accounts of Circumvention Tourism, and Revisiting the Ethics of Circumvention Tourism",
+   "publisher": "Shaw J, pp. 551-562; Snyder JC, pp. 563-565. Journal of Law, Medicine and Ethics 2022;50(3)",
+   "url": "https://doi.org/10.1017/jme.2022.93",
+   "accessed": "2026-09-17",
+   "note": "metadata confirmed through Crossref; the articles themselves were not read"
+  },
+  {
+   "id": "s:ep-surrogacy-2025",
+   "kind": "report",
+   "title": "Surrogacy: The legal situation in the EU (Briefing PE 769.508), by David de Groot",
+   "publisher": "European Parliamentary Research Service",
+   "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/769508/EPRS_BRI(2025)769508_EN.pdf",
+   "accessed": "2026-09-16",
+   "note": "published February 2025; names the national instrument for each Member State"
+  },
+  {
+   "id": "s:in-surrogacy-act-2021",
+   "kind": "statute",
+   "title": "The Surrogacy (Regulation) Act, 2021 (Act No. 47 of 2021)",
+   "publisher": "Parliament of India, text hosted by PRS Legislative Research",
+   "url": "https://prsindia.org/files/bills_acts/acts_parliament/2021/The%20Surrogacy%20(Regulation)%20Act,%202021.pdf",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:stasi-thailand-art-act-2017",
+   "kind": "paper",
+   "title": "Protection for Children Born Through Assisted Reproductive Technologies Act, B.E. 2558: The Changing Profile of Surrogacy in Thailand, by Alessandro Stasi",
+   "publisher": "Clinical Medicine Insights: Reproductive Health, via PubMed Central PMC5753847",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753847/",
+   "accessed": "2026-09-17",
+   "note": "enacted by the National Legislative Assembly 19 February 2015. Section 21(1): the intending parents must be adult Thai citizens, or where only one is a Thai citizen must have been married at least three years, and must be a legally married couple whose wife cannot conceive. Penalties at sections 24 and 48 (surrogacy for profit: 10 years and up to 200,000 baht) and sections 27 and 49 (acting as an agent: 5 years and up to 100,000 baht)."
+  },
+  {
+   "id": "s:es-ley-14-2006",
+   "kind": "statute",
+   "title": "Ley 14/2006, de 26 de mayo, sobre técnicas de reproducción humana asistida, artículos 5 y 10",
+   "publisher": "Boletín Oficial del Estado",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-9292",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:uk-donor-info-regs-2004",
+   "kind": "statute",
+   "title": "The Human Fertilisation and Embryology Authority (Disclosure of Donor Information) Regulations 2004 (SI 2004/1511)",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/uksi/2004/1511/made",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:sef-registro-2022",
+   "kind": "dataset",
+   "title": "Registro Nacional de Actividad 2022 — Registro SEF, Técnicas de Reproducción Asistida (FIV/ICSI and IA)",
+   "publisher": "Sociedad Española de Fertilidad for the Spanish Ministry of Health; the official national ART registry",
+   "url": "https://www.registrosef.com/public/docs/sef2022_IAFIV.pdf",
+   "accessed": "2026-09-16",
+   "note": "section 3.20: 27,564 fresh and frozen cycles in 2022 were for patients resident in other countries — France 39.0%, Italy 20.6%, the United Kingdom 9.0%, Germany 6.4%, Morocco 0.6%, Portugal 0.3%, other 18.3%, country not recorded 5.7%. Of those cycles 52.3% used donated eggs. The reason for coming was not recorded in 90.8% of them; where it was, 1.6% named a technique unlawful at home and 1.1% a patient who did not meet the legal conditions at home."
+  },
+  {
+   "id": "s:cz-act-66-1986",
+   "kind": "statute",
+   "title": "Zákon č. 66/1986 Sb., o umělém přerušení těhotenství, § 10",
+   "publisher": "Zákony pro lidi (AION CS), consolidated Czech statute text",
+   "url": "https://www.zakonyprolidi.cz/cs/1986-66",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:sg-termination-act",
+   "kind": "statute",
+   "title": "Termination of Pregnancy Act 1974, section 3 (restriction on treatment)",
+   "publisher": "Singapore Statutes Online, Attorney-General's Chambers",
+   "url": "https://sso.agc.gov.sg/Act/TPA1974",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:it-legge-194-1978",
+   "kind": "statute",
+   "title": "Legge 22 maggio 1978, n. 194, articoli 4 e 5",
+   "publisher": "Normattiva, Government of Italy",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-05-22;194~art5",
+   "accessed": "2026-09-17",
+   "note": "the first 90 days, and the seven-day reflection the doctor must invite under article 5"
+  },
+  {
+   "id": "s:jp-maternal-health-act",
+   "kind": "statute",
+   "title": "母体保護法 (Maternal Health Act, Act No. 156 of 1948), article 14",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Japan",
+   "url": "https://abortion-policies.srhr.org/country/japan",
+   "accessed": "2026-09-17",
+   "note": "spousal consent is required, waived only where the spouse is unknown, cannot express an intention, or is dead. Read in the WHO database's copy of the Act rather than in the Japanese statute database."
+  },
+  {
+   "id": "s:gurtin-2011-turkey",
+   "kind": "paper",
+   "title": "Banning reproductive travel: Turkey's ART legislation and third-party assisted reproduction",
+   "publisher": "Reproductive BioMedicine Online (Gurtin ZB)",
+   "url": "https://www.rbmojournal.com/article/S1472-6483(11)00470-6/fulltext",
+   "accessed": "2026-09-16",
+   "note": "citation and the 2010 regulation's extraterritorial clause verified from the journal's own article listing; the full text returned HTTP 403 and was not read. Treated as needing verification wherever it is relied on."
+  },
+  {
+   "id": "s:es-lo-3-2021",
+   "kind": "statute",
+   "title": "Ley Orgánica 3/2021, de regulación de la eutanasia, artículo 5",
+   "publisher": "Boletín Oficial del Estado",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fr-loi-2026-794",
+   "kind": "statute",
+   "title": "LOI n° 2026-794 du 18 août 2026 relative à l'aide à mourir, article 4, inserting Code de la santé publique article L. 1111-12-2",
+   "publisher": "Légifrance, Government of France",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054706877",
+   "accessed": "2026-09-17",
+   "note": "French nationality or stable and regular residence in France is one of five cumulative conditions. Read on this pass by a research agent rather than by the author of the records that cite it."
+  },
+  {
+   "id": "s:ca-criminal-code-241-2",
+   "kind": "statute",
+   "title": "Criminal Code (R.S.C. 1985, c. C-46), section 241.2 — eligibility for medical assistance in dying",
+   "publisher": "Justice Laws Website, Government of Canada",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-241.2.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:or-ors-127-805",
+   "kind": "statute",
+   "title": "Oregon Death with Dignity Act, ORS 127.805 (s. 2.01), as amended by Or. Laws 2023 ch. 241 § 2",
+   "publisher": "oregon.public.law, reproduction of the Oregon Revised Statutes",
+   "url": "https://oregon.public.law/statutes/ors_127.805",
+   "accessed": "2026-09-17",
+   "note": "the current text carries no residency clause; the requirement was removed by HB 2279 (2023) following the settlement of a federal suit in 2022"
+  },
+  {
+   "id": "s:ch-criminal-code",
+   "kind": "statute",
+   "title": "Swiss Criminal Code (SR 311.0), Article 115 — Inciting and assisting suicide (English translation)",
+   "publisher": "Fedlex, the Swiss federal law portal",
+   "url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20250101/en/html/fedlex-data-admin-ch-eli-cc-54-757_781_799-20250101-en-html.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:nl-euthanasia-act-2002",
+   "kind": "statute",
+   "title": "Wet toetsing levensbeëindiging op verzoek en hulp bij zelfdoding, artikel 2 (zorgvuldigheidseisen)",
+   "publisher": "Overheid.nl, wetten.overheid.nl",
+   "url": "https://wetten.overheid.nl/BWBR0012410/2023-04-01/0/Hoofdstuk2",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:be-euthanasia-law-2002",
+   "kind": "statute",
+   "title": "Loi du 28 mai 2002 relative à l'euthanasie, article 3",
+   "publisher": "Service public fédéral Justice, Belgium (ejustice)",
+   "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2002052837&table_name=loi",
+   "accessed": "2026-09-17",
+   "note": "article 3 sets the conditions — adult or emancipated minor, capable and conscious, a voluntary, considered and repeated request, a hopeless medical situation and constant unbearable suffering. The article carries no nationality or residence condition."
+  },
+  {
+   "id": "s:uk-suicide-act-1961",
+   "kind": "statute",
+   "title": "Suicide Act 1961, section 2 (as amended by the Coroners and Justice Act 2009)",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/ukpga/Eliz2/9-10/60/section/2",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:us-ca-hsc-443-2",
+   "kind": "statute",
+   "title": "California End of Life Option Act, Health and Safety Code § 443.2(a)(3)",
+   "publisher": "California Legislative Information",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=443.2",
+   "accessed": "2026-09-17",
+   "note": "the applicant must be a resident of California, proved by a California driver's licence or state identification, California voter registration, ownership or lease of California property, or a California tax return for the most recent year"
+  },
+  {
+   "id": "s:declaration-of-istanbul",
+   "kind": "org",
+   "title": "The Declaration of Istanbul on Organ Trafficking and Transplant Tourism (2018 edition)",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:who-guiding-principles",
+   "kind": "org",
+   "title": "WHO Guiding Principles on Human Cell, Tissue and Organ Transplantation, as endorsed by the Sixty-third World Health Assembly, May 2010, in Resolution WHA63.22",
+   "publisher": "World Health Organization",
+   "url": "https://iris.who.int/server/api/core/bitstreams/53e1102b-4874-49bf-97bc-c529b1c246f0/content",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:who-gapd",
+   "kind": "dataset",
+   "title": "Global Abortion Policies Database",
+   "publisher": "World Health Organization (HRP)",
+   "url": "https://abortion-policies.srhr.org/",
+   "accessed": "2026-09-16",
+   "note": "country profiles naming each jurisdiction's instrument; cited here where a national instrument was not read directly"
+  },
+  {
+   "id": "s:hcch-parentage-surrogacy",
+   "kind": "org",
+   "title": "Parentage / Surrogacy Project",
+   "publisher": "Hague Conference on Private International Law (HCCH)",
+   "url": "https://www.hcch.net/en/projects/legislative-projects/parentage-surrogacy",
+   "accessed": "2026-09-16",
+   "note": "the intergovernmental project on cross-border parentage; cited here where a national instrument was not read"
+  },
+  {
+   "id": "s:shenfield-2010",
+   "kind": "paper",
+   "title": "Cross border reproductive care in six European countries",
+   "publisher": "Human Reproduction 25(6):1361-1368, ESHRE Taskforce on Cross Border Reproductive Care",
+   "url": "https://academic.oup.com/humrep/article/25/6/1361/2915759",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "every instrument is named and dated on a legality row elsewhere on this site; the structural readings are marked Inference inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "note": "the status vocabulary is this project's; the recognition law is cited"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "counted over the legality rows on disk on 17 September 2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "Travel to reach a treatment the law at home has not approved — here arranged by the state itself.",
+   "rel": "story"
+  },
+  {
+   "from": "cyprus",
+   "type": "destination",
+   "name": "Cyprus",
+   "as": "What a border twenty minutes wide does to a fertility law.",
+   "rel": "story"
+  },
+  {
+   "from": "north-cyprus",
+   "type": "destination",
+   "name": "Northern Cyprus",
+   "as": "A twenty-minute drive as a legal strategy.",
+   "rel": "story"
+  },
+  {
+   "from": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "Travel because of what the state at home forbids — here the forbidding state is the patient's own.",
+   "rel": "story"
+  },
+  {
+   "from": "tbilisi",
+   "type": "hub",
+   "name": "Tbilisi",
+   "as": "Why a permission in one country becomes an industry in its capital.",
+   "rel": "story"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "Travel undertaken because the thing is not available at home; Tijuana is the North American case.",
+   "rel": "story"
+  },
+  {
+   "from": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "Why some patients cannot complain at home without disclosing what they travelled for.",
+   "rel": "story"
+  },
+  {
+   "from": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "Why the stated purpose of a trip is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "from": "abortion-travel-law",
+   "type": "rule",
+   "name": "Travelling for a termination",
+   "as": "The essay on the traffic a prohibition creates, of which this is the oldest and largest case.",
+   "rel": "story"
+  },
+  {
+   "from": "assisted-dying-law",
+   "type": "rule",
+   "name": "Assisted dying, and who may cross a border for it",
+   "as": "The essay on crossing a border to do what is prohibited at home, in the one case where the traveller does not come back.",
+   "rel": "story"
+  },
+  {
+   "from": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "Why a rule about who a donor may be sends patients across a border, argued at length.",
+   "rel": "story"
+  },
+  {
+   "from": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "The essay on travel driven by a rule rather than a price, which is what most of this table is.",
+   "rel": "story"
+  },
+  {
+   "from": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "Why a named purpose of travel is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "from": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "The essay on travelling to do lawfully elsewhere what is prohibited at home; this table is the evidence it argues from.",
+   "rel": "story"
+  },
+  {
+   "from": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The essay on prohibition-driven travel, and the case in which the prohibition is nearly universal and the traffic persists anyway.",
+   "rel": "story"
+  },
+  {
+   "from": "declaration-of-istanbul-group",
+   "type": "org",
+   "name": "Declaration of Istanbul Custodian Group",
+   "as": "The wider pattern of travelling to do what is unlawful at home, of which this is the hardest case.",
+   "rel": "story"
+  },
+  {
+   "from": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The law rule applied across six subjects, one named instrument at a time.",
+   "rel": "story"
+  }
+ ]
+}

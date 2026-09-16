@@ -1,0 +1,15 @@
+/* CARE ABROAD */
+
+Built by NaN — https://wichaa.net
+342 records · 244 published prices · 151 legality readings · 785 sources
+
+/* THANKS */
+OpenStreetMap contributors, for every hospital point.
+The World Bank and the WHO, for the only comparable country series there are.
+Natural Earth, for outlines nobody charges for.
+The regulators who publish clinic-level results, who are still a minority.
+
+/* SITE */
+Stdlib Python, no dependencies, no build step.
+Standards: HTML, JSON-LD, llms.txt, Atom, OpenSearch, ODbL, CC BY.
+Maps in Equal Earth, because a choropleth on Mercator is an argument, not a map.

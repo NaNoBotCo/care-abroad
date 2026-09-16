@@ -1,0 +1,353 @@
+{
+ "schema": 1,
+ "id": "turkiye-health-services-directorate",
+ "type": "org",
+ "names": {
+  "name": "Türkiye General Directorate of Health Services",
+  "aliases": [
+   "Sağlık Hizmetleri Genel Müdürlüğü",
+   "SHGM",
+   "Sağlık Turizmi Daire Başkanlığı",
+   "Health Tourism Department"
+  ],
+  "said": "SHGM. Inside it sits the Sağlık Turizmi Daire Başkanlığı, and inside that sit four PDFs that decide whether a clinic may lawfully treat a foreign patient at all."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "kind": [
+   "ministry",
+   "regulator"
+  ],
+  "iso2": "TR",
+  "status": "open"
+ },
+ "text": {
+  "what": "The General Directorate of Health Services inside Türkiye's Ministry of Health, and its Health Tourism Department, which issues the authorisation certificate a facility must hold before it may treat an international patient. The instrument is the Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik, published in the Resmî Gazete on 26 April 2025, No. 32882, whose MADDE 17 repeals the regulation of 13 July 2017 that most secondary writing still cites. The directorate licenses the facility; USHAŞ, the ministry's own international health services company, licenses the intermediary.",
+  "story": "What this body publishes is a list, and the list is the rarest thing in this directory.\n\nFour of them, in fact, all stamped 20 August 2026: 542 hospitals, 135 medical centres, 2,468 private physician offices and 1,581 other facilities. That is 4,726, a sum made here — the ministry prints no total. It publishes no count of authorised intermediaries anywhere that could be read.\n\nThe certificate carries obligations a patient would recognise. It cannot be transferred (MADDE 5(5)) and a separate one is needed for each branch (5(4)). Complication insurance is compulsory for anything done in an operating-theatre setting, with a deadline of 31 December 2025 (6(1)(c)). Accreditation by TÜSKA is required for hospitals, medical centres, medical laboratories and dialysis centres by 31 December 2026 (6(1)(b)). A holder may not buy intermediary services from an unlicensed party (6(1)(e)). Complications and medical malpractice sit expressly inside the holder's responsibility (6(3)) — a sentence with no counterpart in most of the world. The facility must run an international unit with a documented foreign-language speaker (MADDE 7) and register on the HealthTürkiye portal (8(4)); pricing is set by the ministry (11(1)). USHAŞ evaluates performance annually, with a three-month and then a six-month suspension and cancellation after a failed second control evaluation (MADDE 9), and a certificate lapses after a year of inactivity, with no new one for a year after that (MADDE 16).\n\nHair restoration got its own instrument. The Saç Ekimi Birimleri Hakkında Yönetmelik, Resmî Gazete of 6 May 2023, No. 32182, reserves the channel-opening stage to physicians holding the applicator certificate, lets assistants work only under a certified physician, caps one certified physician at five rooms, and allows one patient per room at a time. Every case is logged with technique, graft count, region, the names of the team, and photographs before and at 72 hours — with one carve-out: the six-month photograph is not required for a patient who came in under the international health tourism rules. The unit register is public. Breach draws a fine of 1 to 3 per cent of the previous month's gross service revenue, and on persistence the activity certificate is cancelled with no re-issue; inspection runs at least annually and unscheduled on complaint.\n\n*Inference —* the register answers one question well and no other. It says whether a named facility holds the certificate on a given date. It rates nobody, publishes no outcome, and counts no operation. Set against most destinations in this directory that is still exceptional, because most publish no list at all: a reader can check a Turkish clinic's standing and cannot check a Mexican one's.\n\nThe national figure for the trade is not this directorate's either. It comes from the Turkish Statistical Institute's survey of departing visitors' stated purpose of visit, republished by USHAŞ with an income series attached: 1,398,580 for 2025, of which 250,401 were Turkish citizens resident abroad. *Inference —* a licensing register and a border survey measure two different things, and neither of them measures an operation.",
+  "how": "A facility applies, is assessed against the conditions in MADDE 6, and is issued a certificate per branch that it cannot transfer. The ministry republishes the authorised lists as PDFs, which are the register: a facility not on them is not authorised, whatever its own site says. USHAŞ runs the annual performance evaluation and holds the suspension power; it also licenses the intermediaries, a function moved to it from the travel-agency system by the 2025 regulation. Hair transplant units are inspected at least once a year and on complaint.",
+  "today": "As of 17 September 2026 the instrument in force is the 2025 regulation; the authorised-facility lists are stamped 20 August 2026; the complication-insurance deadline of 31 December 2025 has passed and the TÜSKA accreditation deadline of 31 December 2026 has not.",
+  "notes": "The repealed 2017 regulation stays in this project's source register, marked repealed, because a great deal of writing published since still cites it."
+ },
+ "geo": {
+  "lat": 39.9334,
+  "lon": 32.8597,
+  "precision": "city",
+  "source": "s:tr-shgm"
+ },
+ "address": {
+  "street": "Üniversiteler Mahallesi, Şehit Mehmet Bayraktar Caddesi No 3",
+  "city": "Ankara",
+  "area": "Çankaya",
+  "country": "TR"
+ },
+ "kin": [
+  {
+   "to": "turkiye",
+   "as": "The country whose international patient trade it licenses, facility by facility.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The certificate it issues, withdraws and publishes the register of.",
+   "rel": "rule"
+  },
+  {
+   "to": "istanbul",
+   "as": "Where most of the certificate holders selling to foreign patients are.",
+   "rel": "hub"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The operation given its own regulation in 2023, down to who may open the channels.",
+   "rel": "procedure"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "as": "The growth these rules were written against.",
+   "rel": "event"
+  },
+  {
+   "to": "ishrs",
+   "as": "The professional society whose allegations since 2016 the 2023 prohibitions read like a list of.",
+   "rel": "org"
+  },
+  {
+   "to": "jci",
+   "as": "A voluntary mark a hospital buys, against a compulsory state certificate it must hold to trade at all.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "as": "The intermediary this regime licenses separately, through USHAŞ rather than through the directorate.",
+   "rel": "term"
+  },
+  {
+   "to": "acibadem",
+   "as": "One of the hospital groups whose international business this certificate governs.",
+   "rel": "facility"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A register of who may treat, beside a border survey of who said they came for treatment.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sağlık Hizmetleri Genel Müdürlüğü",
+   "url": "https://shgm.saglik.gov.tr/"
+  },
+  {
+   "label": "Authorised health facilities (four lists)",
+   "url": "https://shgmturizmdb.saglik.gov.tr/TR-67458/bakanligimizca-yetkilendirilmis-saglik-tesisleri-icin-tiklayiniz.html"
+  },
+  {
+   "label": "Yönetmelik, Resmî Gazete 26 April 2025, No. 32882",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm"
+  }
+ ],
+ "sources": [
+  "s:tr-shgm",
+  "s:rg-32882-2025",
+  "s:shgm-yetkili-tesisler",
+  "s:rg-32182-2023-sac-ekimi",
+  "s:tr-authorised-providers",
+  "s:rg-saglik-turizmi-2017",
+  "s:ushas-saglik-turizmi-verileri",
+  "s:tuik-turizm-2025"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:rg-32882-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:shgm-yetkili-tesisler",
+    "note": "the facility counts are the last sequence number in each of the ministry's four published lists, stamped 20 August 2026, and the total of 4,726 is a sum made here; the article numbers are read in the Resmî Gazete texts of 26 April 2025 and 6 May 2023; the 2025 visitor figure is the TurkStat departing-visitors table republished by USHAŞ; the two paragraphs marked inference are this project's reading"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:tr-shgm",
+    "note": "the directorate's street address is on its own site at Bilkent in Çankaya; only the city is pinned here"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-17",
+ "blurb": "The General Directorate of Health Services inside Türkiye's Ministry of Health, and its Health Tourism Department, which issues the authorisation certificate a facility must hold before it may treat an international…",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The country whose international patient trade it licenses, facility by facility.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The certificate it issues, withdraws and publishes the register of.",
+   "rel": "rule"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "Where most of the certificate holders selling to foreign patients are.",
+   "rel": "hub"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The operation given its own regulation in 2023, down to who may open the channels.",
+   "rel": "procedure"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "The growth these rules were written against.",
+   "rel": "event"
+  },
+  {
+   "to": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The professional society whose allegations since 2016 the 2023 prohibitions read like a list of.",
+   "rel": "org"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "A voluntary mark a hospital buys, against a compulsory state certificate it must hold to trade at all.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The intermediary this regime licenses separately, through USHAŞ rather than through the directorate.",
+   "rel": "term"
+  },
+  {
+   "to": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "One of the hospital groups whose international business this certificate governs.",
+   "rel": "facility"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A register of who may treat, beside a border survey of who said they came for treatment.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:tr-shgm",
+   "kind": "org",
+   "title": "Sağlık Hizmetleri Genel Müdürlüğü",
+   "publisher": "Türkiye Ministry of Health",
+   "url": "https://shgm.saglik.gov.tr/",
+   "accessed": "2026-09-16",
+   "note": "departments including the Health Tourism Department and the Quality and Accreditation Department; address at Üniversiteler Mahallesi, Şehit Mehmet Bayraktar Caddesi No 3, Çankaya, Ankara"
+  },
+  {
+   "id": "s:rg-32882-2025",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik, Resmî Gazete 26 Nisan 2025, Sayı 32882",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2025,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm",
+   "accessed": "2026-09-17",
+   "note": "MADDE 17 repeals the 13/7/2017 regulation (RG 30123) that most secondary writing still cites"
+  },
+  {
+   "id": "s:shgm-yetkili-tesisler",
+   "kind": "org",
+   "title": "Bakanlığımızca Yetkilendirilmiş Sağlık Tesisleri — the four published lists of authorised facilities",
+   "publisher": "T.C. Sağlık Bakanlığı, Sağlık Turizmi Daire Başkanlığı",
+   "url": "https://shgmturizmdb.saglik.gov.tr/TR-67458/bakanligimizca-yetkilendirilmis-saglik-tesisleri-icin-tiklayiniz.html",
+   "accessed": "2026-09-17",
+   "note": "lists stamped 20 August 2026; the Ministry prints no total, so the counts here are the last sequence number in each list"
+  },
+  {
+   "id": "s:rg-32182-2023-sac-ekimi",
+   "kind": "web",
+   "title": "Saç Ekimi Birimleri Hakkında Yönetmelik, Resmî Gazete 6 Mayıs 2023, Sayı 32182",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2023,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230506-11.htm",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:tr-authorised-providers",
+   "kind": "web",
+   "title": "Healthcare Providers Authorized by the Ministry",
+   "publisher": "Türkiye Ministry of Health, Health Services General Directorate, Health Tourism Department",
+   "url": "https://saglikturizmi.saglik.gov.tr/EN,69063/healthcare-providers-authorized-by-the-ministry.html",
+   "accessed": "2026-09-16",
+   "note": "separate downloadable lists for hospitals, medical centres, private practices, other providers and authorised facilitators; page dated 20 August 2026"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:ushas-saglik-turizmi-verileri",
+   "kind": "gov",
+   "title": "Sağlık Turizmi Verileri (health tourism data by year)",
+   "publisher": "USHAŞ — Uluslararası Sağlık Hizmetleri A.Ş., the Turkish Ministry of Health's international health services company",
+   "url": "https://ushas.gov.tr/saglik-turizmi-verileri/",
+   "accessed": "2026-09-16",
+   "note": "USHAŞ publishes the series it attributes to TÜİK, the Turkish statistical institute: visitors and revenue by year — 2019 756,926 and USD 1.459bn; 2020 435,691; 2021 729,592; 2022 1,381,807; 2023 1,538,643; 2024 1,506,442; 2025 1,398,580 and USD 3,022,452 thousand; first half of 2026 563,327 and USD 1.580bn. The unit is a visitor arriving with a health purpose, not an operation."
+  },
+  {
+   "id": "s:tuik-turizm-2025",
+   "kind": "dataset",
+   "title": "Turizm İstatistikleri, IV. Çeyrek: Ekim-Aralık ve Yıllık, 2025 (Sayı 54158) — table: Departing Visitors by Purpose of Visit, 2012–2026",
+   "publisher": "Türkiye İstatistik Kurumu (TurkStat)",
+   "year": 2026,
+   "url": "https://veriportali.tuik.gov.tr/Bulten/Index?p=Turizm-Istatistikleri-IV.-Ceyrek:-Ekim-Aralik-ve-Yillik,-2025-54158",
+   "accessed": "2026-09-17",
+   "note": "the health figure appears only in the attached statistical table, not in the bulletin text; its own footer names the source as the TurkStat Departing Visitors Survey — a border exit survey of stated purpose, not a count of patients treated"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:rg-32882-2025"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:shgm-yetkili-tesisler",
+   "note": "the facility counts are the last sequence number in each of the ministry's four published lists, stamped 20 August 2026, and the total of 4,726 is a sum made here; the article numbers are read in the Resmî Gazete texts of 26 April 2025 and 6 May 2023; the 2025 visitor figure is the TurkStat departing-visitors table republished by USHAŞ; the two paragraphs marked inference are this project's reading"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:rg-32882-2025"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:rg-32882-2025"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:tr-shgm",
+   "note": "the directorate's street address is on its own site at Bilkent in Çankaya; only the city is pinned here"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:rg-32882-2025"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The directorate inside the Ministry that issues and withdraws that certificate.",
+   "rel": "org"
+  },
+  {
+   "from": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The directorate that issues the certificate and publishes the register.",
+   "rel": "org"
+  },
+  {
+   "from": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The state body that wrote the 2023 hair transplant rules the society had been asking for.",
+   "rel": "org"
+  }
+ ]
+}

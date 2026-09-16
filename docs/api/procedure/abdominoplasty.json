@@ -1,0 +1,454 @@
+{
+ "schema": 1,
+ "id": "abdominoplasty",
+ "type": "procedure",
+ "names": {
+  "name": "Abdominoplasty",
+  "aliases": [
+   "tummy tuck",
+   "lipectomy",
+   "mini abdominoplasty",
+   "panniculectomy"
+  ],
+  "said": "Price lists say tummy tuck. Hospital tables say lipectomy. Panniculectomy is the narrower operation - the apron of skin removed and nothing tightened - and is the version a health service occasionally funds after large weight loss."
+ },
+ "etymology": {
+  "root": "abdominoplasty: Latin abdomen, the belly, plus Greek plastos, moulded. Lipectomy is fat plus ektome, a cutting out, and it is the older and more accurate word for what the operation does to fat.",
+  "tier": "tradition",
+  "note": "a full abdominoplasty moves the navel and usually repairs the separated abdominal muscles; a mini does neither. The two words sit one line apart on most price lists and differ by a third of the price."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "cosmetic",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Skin and fat are cut away from the lower abdomen through a long transverse incision above the pubis, the separated abdominal muscles are usually stitched back together, the navel is brought out through a new opening and the remaining skin is drawn down and closed. Drains are common. It is the largest of the routine cosmetic operations, and the one whose recovery most resembles general surgery.",
+  "story": "Abdominoplasty is where cosmetic surgery meets the aftermath of bariatric surgery and of pregnancy, and where the queue at home and the fee abroad meet most directly: health services fund the operation narrowly, if at all, after large weight loss, and privately it is priced as a major procedure everywhere.\n\nThe published prices differ by a factor of ten and by more than that in what they cover. Yanhee in Bangkok prices a tummy tuck for a patient under 70 kilograms at 126,000 baht with three nights on the ward - a weight condition on the face of the price list. Premier Clinic in Prague prices abdominoplasty from 62,000 koruna and a mini from 47,000. Artplastica in Poland prices a full abdominoplasty at 26,000 zloty with the ward day charged separately at 800. The American society publishes 8,174 US dollars as a surgeon's fee alone.\n\n*Trade practice --* this is the operation on which the flight home matters most. It combines a long wound, drains, restricted movement and a patient who has been immobile, and the usual guidance on flying after abdominal surgery is measured in weeks rather than days. A package that ends at discharge leaves the flight, the accommodation and the drain removal to be arranged by somebody.",
+  "how": "General anaesthesia, three or more nights in published packages, drains for several days, compression garment for weeks. Patients walk bent forward at first because the skin has been pulled tight. Return to ordinary activity runs to six weeks and to lifting longer. Muscle repair, where done, adds pain and adds time. Where the operation follows major weight loss, the skin quality and the weight stability decide the result more than the technique.",
+  "today": "Four published prices, read in September 2026, from Thailand, Czechia, Poland and the United States. The Thai one carries a body-weight condition, the Polish one excludes the ward, the Czech one begins with from, and the American one is a fee rather than a bill.",
+  "notes": "This page describes an operation. It offers no advice on having one."
+ },
+ "metrics": {
+  "stay_days": 3,
+  "days_before_flying": 10,
+  "note": "Three nights is the ward stay printed beside the tummy tuck line on the Yanhee table read for this record, not a clinical standard. The ten-day figure is the CDC Yellow Book's guidance against flying for ten days after abdominal surgery; several plastic surgery bodies quote longer for this operation, and the record carries the shortest sourced figure rather than the longest unsourced one.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism"
+ },
+ "prices": [
+  {
+   "procedure": "abdominoplasty",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 126000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "tummy tuck (lipectomy)",
+    "three nights on the ward"
+   ],
+   "excludes": [
+    "patients over 70 kg: the price line states body weight less than 70 kgs"
+   ],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "the weight condition is printed in the procedure name on the hospital's own table, which is unusual: most price lists put that condition in a consultation rather than on the page",
+   "tier": "cited",
+   "usd": 3784.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "abdominoplasty",
+   "country": "CZ",
+   "city": "Prague",
+   "amount": 62000,
+   "currency": "CZK",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "abdominoplasty"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:premier-clinic-prague-prices",
+   "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/",
+   "note": "listed as 'from'; mini abdominoplasty from 47,000 CZK on the same list, and a line for abdominoplasty including muscle repair at 58,300 CZK which sits below the plain one",
+   "tier": "cited",
+   "usd": 2944.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "abdominoplasty",
+   "country": "PL",
+   "city": "Szczecin",
+   "amount": 26000,
+   "currency": "PLN",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "full abdominoplasty"
+   ],
+   "excludes": [
+    "hospitalisation, listed separately at 800 PLN a day"
+   ],
+   "source": "s:artplastica-cennik",
+   "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/",
+   "note": "the clinic states its prices are indicative and may change at consultation; with three nights the ward adds 2,400 PLN to this line",
+   "tier": "cited",
+   "usd": 6909.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "abdominoplasty",
+   "country": "US",
+   "amount": 8174,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "survey",
+   "includes": [
+    "surgeon fee only"
+   ],
+   "excludes": [
+    "anesthesia",
+    "operating room facilities",
+    "other related expenses"
+   ],
+   "source": "s:asps-cost-tummy-tuck",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/cost",
+   "note": "no year named on the page",
+   "tier": "cited",
+   "usd": 8174.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "liposuction",
+   "as": "The operation that takes the fat and leaves the skin; this one takes the skin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "The operation that fills this one's waiting room, and whose patients arrive with skin nobody funded removing.",
+   "rel": "kin"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The wound, the drains and the clot risk that set the earliest flight home.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "as": "The clot this operation and the flight home both raise.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-companion",
+   "as": "Somebody has to be there for the drains and the first week bent forward.",
+   "rel": "step"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the price carries a body-weight condition on its face.",
+   "rel": "destination"
+  },
+  {
+   "to": "czechia",
+   "as": "Where the mini and the full operation are priced a line apart.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "as": "Where the ward day is a separate line from the operation.",
+   "rel": "destination"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which a weight limit or a missing ward night turns up.",
+   "rel": "step"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "liposuction",
+   "tell": "A tummy tuck cuts skin away and moves the navel; liposuction does neither. Bundled 'body contouring' quotes can mean either."
+  }
+ ],
+ "links": [
+  {
+   "label": "Yanhee price table",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+  }
+ ],
+ "sources": [
+  "s:yanhee-plastic-prices",
+  "s:premier-clinic-prague-prices",
+  "s:artplastica-cennik",
+  "s:asps-cost-tummy-tuck",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "prices read off the four named pages; the flight paragraph is marked as trade practice inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:cdc-yellowbook-medical-tourism"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Abdominoplasty.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Skin and fat are cut away from the lower abdomen through a long transverse incision above the pubis, the separated abdominal muscles are usually stitched back together, the navel is brought out through a new opening and…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The operation that takes the fat and leaves the skin; this one takes the skin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The operation that fills this one's waiting room, and whose patients arrive with skin nobody funded removing.",
+   "rel": "kin"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The wound, the drains and the clot risk that set the earliest flight home.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "The clot this operation and the flight home both raise.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "Somebody has to be there for the drains and the first week bent forward.",
+   "rel": "step"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the price carries a body-weight condition on its face.",
+   "rel": "destination"
+  },
+  {
+   "to": "czechia",
+   "type": "destination",
+   "name": "Czechia",
+   "as": "Where the mini and the full operation are priced a line apart.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "Where the ward day is a separate line from the operation.",
+   "rel": "destination"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which a weight limit or a missing ward night turns up.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:yanhee-plastic-prices",
+   "kind": "web",
+   "title": "Plastic Surgery Prices",
+   "publisher": "Yanhee Hospital, Bangkok",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "accessed": "2026-09-16",
+   "note": "hospital's own price table: procedure, nights, price in Thai baht. The page carries no validity date and no inclusion list."
+  },
+  {
+   "id": "s:premier-clinic-prague-prices",
+   "kind": "web",
+   "title": "Price List - Plastic Surgery",
+   "publisher": "Premier Clinic, Prague",
+   "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/",
+   "accessed": "2026-09-16",
+   "note": "clinic's own English price list, every line prefixed 'from', in Czech koruna"
+  },
+  {
+   "id": "s:artplastica-cennik",
+   "kind": "web",
+   "title": "Cennik zabiegow i operacji plastycznych",
+   "publisher": "Beauty Group - Artplastica, Szczecin",
+   "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/",
+   "accessed": "2026-09-16",
+   "note": "clinic's own price list in zloty; the page states the prices are indicative and may change at consultation, and lists hospitalisation at 800 PLN a day separately"
+  },
+  {
+   "id": "s:asps-cost-tummy-tuck",
+   "kind": "org",
+   "title": "Tummy Tuck Cost",
+   "publisher": "American Society of Plastic Surgeons",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/cost",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "prices read off the four named pages; the flight paragraph is marked as trade practice inline"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-medical-tourism"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "The procedure that came back most often in the Australian series.",
+   "rel": "procedure"
+  },
+  {
+   "from": "brazil",
+   "type": "destination",
+   "name": "Brazil",
+   "as": "A Brazilian staple, and one of the pairings sold on a single list.",
+   "rel": "procedure"
+  },
+  {
+   "from": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "The second commonest, at 58%.",
+   "rel": "procedure"
+  },
+  {
+   "from": "panama",
+   "type": "destination",
+   "name": "Panama",
+   "as": "One of the body operations behind the surgical count.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tunis",
+   "type": "hub",
+   "name": "Tunis",
+   "as": "Sold here with the convalescence hotel written into the quote.",
+   "rel": "procedure"
+  },
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The operation that removes the skin this one leaves behind, and the one it is often sold beside.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "A long operation on a patient kept still, and one of the commonest reasons for travel.",
+   "rel": "procedure"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "Abdominal surgery, which is what the ten-day figure names.",
+   "rel": "procedure"
+  },
+  {
+   "from": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "Among the procedures in both Dominican clusters.",
+   "rel": "procedure"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The highest cost per patient in the Royal Free series.",
+   "rel": "procedure"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The procedure with the longest stay among UK patients readmitted after surgery abroad.",
+   "rel": "procedure"
+  }
+ ]
+}

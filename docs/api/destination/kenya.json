@@ -1,0 +1,273 @@
+{
+ "schema": 1,
+ "id": "kenya",
+ "type": "destination",
+ "names": {
+  "name": "Kenya",
+  "aliases": [
+   "Republic of Kenya",
+   "Jamhuri ya Kenya"
+  ],
+  "said": "In the trade Kenya is a departure board, not an arrivals hall. The flights that matter are Nairobi to Mumbai, Nairobi to Chennai and Nairobi to Delhi, and the agencies that sell them advertise in Nairobi newspapers."
+ },
+ "region": [
+  "africa-east"
+ ],
+ "facets": {
+  "iso2": "KE",
+  "direction": "outbound",
+  "currency": "KES",
+  "languages": [
+   "Swahili",
+   "English"
+  ],
+  "draws": []
+ },
+ "text": {
+  "what": "A source market. Kenyans with money or with an employer scheme fly to India for cancer treatment, cardiac surgery, transplants and neurosurgery; Kenyans without either do not go. India's own tourism ministry counted 9,357 arrivals from Kenya for medical purposes in 2025, which makes Kenya the seventh-largest source country on India's published list. Nairobi is also a regional referral centre for its own neighbours, which is the part of the picture a departures-only reading loses.",
+  "story": "The Indian figure is the one worth holding, because India counts it and publishes it by source country. In 2025 India recorded 507,244 foreign nationals arriving for medical treatment, about 5.5 per cent of all foreign arrivals; Bangladesh supplied 325,127 of them, Iraq 30,989, Uzbekistan 13,699, Somalia 11,506, Turkmenistan 10,231, Oman 9,738 and Kenya 9,357. That is a count made by the receiving state, on its own arrivals data, and it is a firmer thing than any estimate made at the sending end.\n\n*Inference —* what a country loses when its citizens fly out is not mainly money, and the money argument is the one usually made. It is the caseload. A cancer service is built by treating cancers; a cardiac unit gets good by operating. Every complex case that boards a plane is a case the Kenyan hospital did not do, the Kenyan registrar did not see, and the Kenyan oncologist did not record. The patients who cannot afford the ticket stay behind and are treated by a service whose experience has been exported with the people who could pay for it.\n\n*Trade practice —* the flow runs on facilitators. Indian hospital groups keep representative offices and liaison desks in Nairobi, airlines have marketed medical itineraries directly, and the referral often starts with an agent rather than a doctor. Where the agent is paid by the hospital, the referral is a sale.",
+  "how": "An Indian e-medical visa, a quotation from the receiving hospital, a companion where the family can fund one, and payment in cash or by a Kenyan insurer with an overseas benefit. National insurance cover for treatment abroad has existed in Kenya as a limited, approval-gated benefit rather than an open entitlement, which is what keeps the flow to those who can pay the remainder.",
+  "today": "As of September 2026 the number this record carries for Kenya is India's, not Kenya's: 9,357 arrivals for medical purposes in 2025. Figures circulating for what Kenyans spend abroad in a year are attributed to the Kenyan health ministry in press reporting this project could not open, and are not carried here.",
+  "notes": "This page describes an outflow. It does not describe Kenyan hospitals, and the absence of an inbound figure here is not a judgement about them."
+ },
+ "geo": {
+  "lat": -1.2921,
+  "lon": 36.8219,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "9,357 arrivals in India from Kenya for medical purposes in 2025, from the Press Information Bureau backgrounder of 2 May 2026 citing Ministry of Tourism figures. It counts arrivals recorded at the Indian border under a medical purpose of visit, so it counts trips rather than people and misses anyone who travelled on another visa class. No Kenyan government figure for the outflow is carried here.",
+  "as_of": "2025",
+  "source": "s:pib-india-mvt-2026",
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1"
+ },
+ "kin": [
+  {
+   "to": "india",
+   "as": "Where the outflow goes, and the state that counts it.",
+   "rel": "destination"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The visa class the outflow travels on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "nigeria",
+   "as": "The other big African source market, and the one whose numbers are argued over.",
+   "rel": "kin"
+  },
+  {
+   "to": "south-africa",
+   "as": "The continental destination Kenyan patients use less than the Indian one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "as": "The middle layer that starts most of these referrals.",
+   "rel": "term"
+  },
+  {
+   "to": "apollo-chennai",
+   "as": "One of the Indian groups that has kept a liaison presence in East Africa.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "who-travels",
+   "as": "The patients who can buy the ticket, and the ones left with what remains.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-doctors",
+   "as": "The series behind the specialist density the outflow is a response to.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical and Wellness Tourism in India — PIB backgrounder, 2 May 2026",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1"
+  }
+ ],
+ "sources": [
+  "s:pib-india-mvt-2026",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:pib-india-mvt-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:pib-india-mvt-2026",
+    "note": "the first paragraph is India's published count; the second and third are marked inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the ordinary route; the insurance point is hedged and not cited to an instrument"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A source market. Kenyans with money or with an employer scheme fly to India for cancer treatment, cardiac surgery, transplants and neurosurgery; Kenyans without either do not go.",
+ "region_terms": [
+  {
+   "key": "africa-east",
+   "name": "East Africa",
+   "note": "Kenya, Tanzania, Ethiopia, Rwanda"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Where the outflow goes, and the state that counts it.",
+   "rel": "destination"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The visa class the outflow travels on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "nigeria",
+   "type": "destination",
+   "name": "Nigeria",
+   "as": "The other big African source market, and the one whose numbers are argued over.",
+   "rel": "kin"
+  },
+  {
+   "to": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "The continental destination Kenyan patients use less than the Indian one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The middle layer that starts most of these referrals.",
+   "rel": "term"
+  },
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "One of the Indian groups that has kept a liaison presence in East Africa.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The patients who can buy the ticket, and the ones left with what remains.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-doctors",
+   "type": "dataset",
+   "name": "Physicians per 1,000 people",
+   "as": "The series behind the specialist density the outflow is a response to.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:pib-india-mvt-2026",
+   "kind": "gov",
+   "title": "Medical and Wellness Tourism in India — PIB Backgrounder",
+   "publisher": "Press Information Bureau, Government of India",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1",
+   "accessed": "2026-09-16",
+   "note": "posted 2 May 2026; gives 2025 arrivals in India for medical purpose in total and for the seven leading source countries"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:pib-india-mvt-2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:pib-india-mvt-2026",
+   "note": "the first paragraph is India's published count; the second and third are marked inline"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the ordinary route; the insurance point is hedged and not cited to an instrument"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:pib-india-mvt-2026"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:pib-india-mvt-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nigeria",
+   "type": "destination",
+   "name": "Nigeria",
+   "as": "The other big African source market, and the one with a receiving state's count behind it.",
+   "rel": "kin"
+  },
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "The other African country with a tertiary sector its neighbours use — and an outflow of its own.",
+   "rel": "contrast"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "India's seventh-largest source, counted at the Indian border rather than the Kenyan one.",
+   "rel": "destination"
+  }
+ ]
+}

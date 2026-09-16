@@ -1,0 +1,463 @@
+{
+ "id": "malpractice-recourse",
+ "names": {
+  "name": "Malpractice recourse across a border",
+  "aliases": [
+   "legal recourse",
+   "cross-border liability",
+   "suing abroad"
+  ],
+  "said": "The brochure says \"fully accredited\". Neither word is a forum."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "legal"
+ },
+ "text": {
+  "what": "The question of which court will hear a claim against a clinician abroad, which country's law it will apply, how long the claimant has to bring it, and whether any judgment can be collected. The CDC puts the position in one sentence: patients \"might not have the same legal recourse as they would if they received their care in the United States\". The American Medical Association's guiding principles ask that patients be informed of their rights and legal recourse before agreeing to travel.",
+  "story": "The subject has a founding legal text. Nathan Cortez's *Patients Without Borders*, at 83 Indiana Law Journal 71 (2008), set out the problem as one of health law rather than tort: a body of consumer protection, licensing, insurance regulation and malpractice liability that was built nationally and does not follow a patient across a frontier. I. Glenn Cohen's *Patients with Passports* (Oxford University Press, 2014) is the book-length treatment.\n\nWhat little empirical work exists looks at the destination rather than the source. Crooks, Cohen and colleagues convened nine lawyers in Barbados in February 2014 and found liability the first of five themes they raised unprompted; the ability of arriving patients to recover damages for an adverse event was one of the two concerns the authors identified as predominant both in the room and in the literature.\n\n*Inference —* the structural position is four separate obstacles, each of which is enough on its own. A suit brought at home must first establish that the home court has jurisdiction over a defendant who never traded there, and may be met with an argument that the proper forum is the country where the treatment happened. A suit brought there is governed by that country's law, including its limitation period and any statutory cap on damages, and is litigated in its language through local counsel. Damages awarded in either place reflect the cost of care where the award is made, not where the claimant will be treated. And a judgment is a piece of paper until a court where the defendant holds assets agrees to enforce it, which is a matter of bilateral arrangements that mostly do not exist between source markets and destinations.\n\nNone of that is specific to a bad clinic. It applies equally to a university hospital.",
+  "how": "Contracts in this trade commonly name a governing law and a forum, and where a facilitator is involved its terms usually distinguish its own obligations — introducing, booking, arranging — from the clinical obligations of the treating facility. This project has read no such contract and holds none; the terms are private documents between a patient and a company.",
+  "today": "As of 16 September 2026 no register, regulator or research group publishes a count of malpractice claims brought by cross-border patients, how many were heard, how many succeeded, or how many judgments were paid. The absence is not a gap in this site's research. Nobody has counted."
+ },
+ "metrics": {
+  "note": "No figure is carried on this record because none exists. There is no published count of cross-border malpractice claims brought, settled, tried or enforced, in any jurisdiction, by any body. The empirical work in the field is qualitative: the 2015 Barbados study interviewed nine lawyers in one focus group.",
+  "as_of": "2026-09-16",
+  "source": "s:crooks-barbados-lawyers-2015",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/26215979/"
+ },
+ "kin": [
+  {
+   "to": "complaint-and-claim",
+   "as": "The step this risk decides the outcome of.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step at which the question first gets asked.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The reason there is often no name to sue.",
+   "rel": "kin"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The same contract, read at the other end of the trip.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The bill that lands while the claim is still theoretical.",
+   "rel": "kin"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The one instrument that gives a defined class of cross-border patients a stated route, inside one bloc.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step at which a third party enters the contract, and the liability question splits in two.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "as": "Accreditation is not a forum, and the accreditor is not a party.",
+   "rel": "contrast"
+  },
+  {
+   "to": "language-consent",
+   "as": "What was consented to, in which language, is the first thing any such claim turns on.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Cortez, Patients Without Borders, 83 Ind. L.J. 71 (2008)",
+   "url": "https://www.repository.law.indiana.edu/ilj/vol83/iss1/3/"
+  },
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:cortez-patients-without-borders-2008",
+  "s:cohen-patients-with-passports-2014",
+  "s:crooks-barbados-lawyers-2015"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cortez-patients-without-borders-2008"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument and it is not legal advice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of the contracts in this trade; this project holds none of them"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "The question of which court will hear a claim against a clinician abroad, which country's law it will apply, how long the claimant has to bring it, and whether any judgment can be collected.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "The step this risk decides the outcome of.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The step at which the question first gets asked.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The reason there is often no name to sue.",
+   "rel": "kin"
+  },
+  {
+   "to": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The same contract, read at the other end of the trip.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The bill that lands while the claim is still theoretical.",
+   "rel": "kin"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The one instrument that gives a defined class of cross-border patients a stated route, inside one bloc.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "The step at which a third party enters the contract, and the liability question splits in two.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Accreditation is not a forum, and the accreditor is not a party.",
+   "rel": "contrast"
+  },
+  {
+   "to": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "What was consented to, in which language, is the first thing any such claim turns on.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:cortez-patients-without-borders-2008",
+   "kind": "paper",
+   "title": "Patients Without Borders: The Emerging Global Market for Patients and the Evolution of Modern Health Care",
+   "publisher": "Indiana Law Journal 2008;83(1):71 (Cortez N, Southern Methodist University)",
+   "url": "https://www.repository.law.indiana.edu/ilj/vol83/iss1/3/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cohen-patients-with-passports-2014",
+   "kind": "book",
+   "title": "Patients with Passports: Medical Tourism, Law, and Ethics",
+   "publisher": "Oxford University Press, 2014 (Cohen IG), ISBN 9780199975099",
+   "url": "https://openlibrary.org/works/OL21085324W",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:crooks-barbados-lawyers-2015",
+   "kind": "paper",
+   "title": "Inbound medical tourism to Barbados: a qualitative examination of local lawyers' prospective legal and regulatory concerns",
+   "publisher": "BMC Health Services Research 2015;15:291 (Crooks VA, Cohen IG, Adams K, Whitmore R, Morgan J)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26215979/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cortez-patients-without-borders-2008"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument and it is not legal advice"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of the contracts in this trade; this project holds none of them"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cortez-patients-without-borders-2008"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cortez-patients-without-borders-2008"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "iran",
+   "type": "destination",
+   "name": "Iran",
+   "as": "What a foreign patient can do afterwards, in a jurisdiction their own courts cannot reach.",
+   "rel": "risk"
+  },
+  {
+   "from": "north-cyprus",
+   "type": "destination",
+   "name": "Northern Cyprus",
+   "as": "What is left when no EU contact point and no home regulator can reach the clinic.",
+   "rel": "risk"
+  },
+  {
+   "from": "nicosia",
+   "type": "hub",
+   "name": "Nicosia",
+   "as": "Which court hears the complaint, and whether its judgment is recognised anywhere else.",
+   "rel": "risk"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "What a patient has after an infection acquired in a clinic that has since been closed.",
+   "rel": "risk"
+  },
+  {
+   "from": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "Part of what is being bought here: a regulator and a court that will hear a complaint.",
+   "rel": "risk"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "What a patient has, and does not have, when the surgeon is in another jurisdiction twenty minutes away.",
+   "rel": "risk"
+  },
+  {
+   "from": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "What a family can do, and where, when the death happens abroad.",
+   "rel": "risk"
+  },
+  {
+   "from": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Who answers for an operation performed where the recipient cannot sue and the donor cannot be found.",
+   "rel": "risk"
+  },
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Who answers for an operation performed where the recipient cannot sue and the donor cannot be traced.",
+   "rel": "risk"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "A claim about a product no regulator approved, brought against a provider in another country.",
+   "rel": "risk"
+  },
+  {
+   "from": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "Whose court hears it when an arrangement across two jurisdictions fails.",
+   "rel": "risk"
+  },
+  {
+   "from": "vaginoplasty",
+   "type": "procedure",
+   "name": "Vaginoplasty",
+   "as": "Where a claim goes when the operation was performed in another jurisdiction.",
+   "rel": "risk"
+  },
+  {
+   "from": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "Decided, often, by wording inside the form signed here.",
+   "rel": "risk"
+  },
+  {
+   "from": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "What the intermediary's contract wording decides in advance.",
+   "rel": "risk"
+  },
+  {
+   "from": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "The risk record this step is the procedure for.",
+   "rel": "risk"
+  },
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "Whether anything can be recovered, and where.",
+   "rel": "risk"
+  },
+  {
+   "from": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The same four obstacles, in front of a smaller sum.",
+   "rel": "kin"
+  },
+  {
+   "from": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Without the surgeon's name, there is no defendant.",
+   "rel": "kin"
+  },
+  {
+   "from": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "What was consented to, in which language, is the first thing a claim turns on.",
+   "rel": "kin"
+  },
+  {
+   "from": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "A claim arising from an unlawful transaction has nowhere to go.",
+   "rel": "kin"
+  },
+  {
+   "from": "unproven-stem-cell",
+   "type": "risk",
+   "name": "Unproven stem cell treatment",
+   "as": "A claim for a treatment that was never approved, against a provider in another country.",
+   "rel": "kin"
+  },
+  {
+   "from": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "Article 4(2)(d) requires the cover; it does not supply the forum.",
+   "rel": "risk"
+  },
+  {
+   "from": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The exposure Article 6 insures against, inside one jurisdiction.",
+   "rel": "risk"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "The record is the evidence, and the claim turns on it.",
+   "rel": "risk"
+  },
+  {
+   "from": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "Where a claim goes when the treatment was lawful where it was given.",
+   "rel": "risk"
+  },
+  {
+   "from": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "Where a complaint goes depends on which body holds the licence.",
+   "rel": "risk"
+  },
+  {
+   "from": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "Publishes its own account of what recourse a foreign patient has under Thai law.",
+   "rel": "risk"
+  },
+  {
+   "from": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "What a defective consent is worth in a forum the patient cannot reach.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "Without the surgeon's name, recorded for none of 25 patients in one series, there is no defendant.",
+   "rel": "risk"
+  }
+ ]
+}

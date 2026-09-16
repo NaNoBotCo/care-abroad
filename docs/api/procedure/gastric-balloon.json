@@ -1,0 +1,398 @@
+{
+ "schema": 1,
+ "id": "gastric-balloon",
+ "type": "procedure",
+ "names": {
+  "name": "Gastric balloon",
+  "aliases": [
+   "intragastric balloon",
+   "Orbera",
+   "Allurion",
+   "swallowable balloon",
+   "weight loss balloon"
+  ],
+  "said": "The trade sells it beside operations and prices it like one. It is a device left in a stomach for a few months and then taken out, and the FDA's own wording for the limit is a maximum placement period."
+ },
+ "etymology": {
+  "root": "balloon: Italian pallone, a large ball, by way of French ballon. Intragastric is Latin intra, within, plus Greek gaster, the stomach — inside the stomach, which is the whole of what it does. Nothing is cut, stapled or removed, and no part of the word implies surgery.",
+  "tier": "tradition",
+  "note": "liquid-filled and gas-filled balloons are different devices with different regulatory histories; swallowable capsule balloons are different again, and one type dissolves rather than being retrieved. A price page saying gastric balloon has not said which."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "bariatric",
+  "setting": "day-case",
+  "anaesthesia": "sedation"
+ },
+ "text": {
+  "what": "A soft balloon is placed in the stomach and filled, so the stomach holds less and fullness comes sooner. It is a temporary device, not an operation: nothing is cut, stapled or removed, and it comes out again. In the NHS description a camera goes down first, then the empty balloon is swallowed with a thin tube attached that fills it with salt water once in place; the whole thing takes around 20 minutes. The FDA states the maximum placement period for the two liquid-filled brands it wrote to providers about as six months.",
+  "story": "The balloon is the cheapest line on a bariatric price column and the one most likely to be misread as the cheap version of the operations above it. On a Tijuana page it sits at 1,880 US dollars, a sleeve at 4,580 and a bypass at 5,980. It is not a cheaper sleeve. It is a rental.\n\nThe price paid is therefore for months, and the comparison that matters is not against an operation but against the same months without a device. *Inference —* a package whose purchase and removal happen in different countries has a problem the operations do not: the removal is a second appointment, months later, and the price that covered the insertion was paid to a clinic on another continent. A US clinic page read for this record prices the balloon with removal folded in, and names early removal for intolerance among the things the price does not cover — the single commonest reason a balloon comes out ahead of schedule.\n\nThe regulator has written to clinicians about this device twice. The FDA's letter of 9 February 2017, updated in August 2017 and April 2020, concerns the liquid-filled Orbera and ReShape systems and names two problems: spontaneous hyperinflation of the balloon, reported as early as nine days after placement, and acute pancreatitis developing within three days of it. The letter asks providers to keep both in mind when a patient presents with severe abdominal pain, distension or difficulty breathing.\n\n*Trade practice —* balloons are sold alongside operations by clinics whose surgical packages need a lower entry price, and to patients whose weight is below the thresholds a surgical programme would accept.",
+  "how": "Placed endoscopically under sedation, or swallowed as a capsule in the newer designs, as a day case with no ward stay. The removal is the part that determines where it can sensibly be bought: a retrieved balloon needs a second endoscopy at the end of its placement period, while a self-dissolving design passes on its own — one US page read for this record puts that type's life at about four months. A device bought abroad and retrieved at home is two providers and one shared responsibility.\n\nThe published prices split the same way. The US page prices Orbera at 6,000 to 8,500 dollars and Allurion at 6,000 to 9,000, stating that the price covers the device, the insertion, anaesthesia, facility costs, removal at six months, the pre-procedure consultation, follow-up visits and nutritionist support — and that it does not cover pre-procedure medical clearance, anti-nausea medication, treatment of complications, early removal if the patient cannot tolerate it, post-removal support, or food and supplements. A Tijuana page prices the same category of device at 1,880 dollars without publishing an inclusion list at all.\n\nNo national regulator read for this record publishes outcome figures for this device. The FDA's published material on it is about adverse events, not effectiveness.",
+  "today": "As of September 2026 the published prices read off pages for this record are from 1,880 US dollars in Tijuana and 6,000 to 9,000 US dollars in the United States, with the FDA's six-month maximum placement period unchanged for the liquid-filled brands it named. A price is for a device that will be removed, and any page that lists it beside permanent operations is listing two different kinds of thing in one column.",
+  "notes": "This page describes a temporary device and reports what its regulator and published price pages say about it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "success_rate_pct": null,
+  "note": "A day case with no ward stay: the NHS puts the placement at around 20 minutes. The governing number for this device is not a success rate but a limit — the FDA states the maximum placement period for the two liquid-filled brands in its 2017 letter to providers as six months, and one US clinic page read for this record puts a self-dissolving design's life at about four months. No regulator read for this record publishes weight loss or complication rates for the device; the FDA's published material concerns adverse events, and this record carries the two named in the letter — spontaneous hyperinflation, reported as early as nine days after placement, and acute pancreatitis within three days of it — rather than a rate for either.",
+  "as_of": "2020-04-27",
+  "source": "s:fda-intragastric-balloon",
+  "url": "https://www.fda.gov/medical-devices/letters-health-care-providers/fda-alerts-health-care-providers-about-potential-risks-liquid-filled-intragastric-balloons"
+ },
+ "prices": [
+  {
+   "procedure": "gastric-balloon",
+   "country": "MX",
+   "city": "Tijuana",
+   "amount": 1880,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "stated as an all-inclusive starting price; the page publishes no itemised inclusion list for this line"
+   ],
+   "excludes": [
+    "airfare",
+    "additional hotel nights",
+    "extra medications",
+    "financing fees",
+    "services not listed in the personalized quote"
+   ],
+   "source": "s:tijuana-bariatric-center-cost",
+   "url": "https://tijuanabariatriccenter.com/about/financing/bariatric-surgery-tijuana-cost/",
+   "note": "the cheapest line in a column of eight bariatric prices, and the only one that is not an operation. The page does not state whether removal at the end of the placement period is inside the price. Read on 16 September 2026.",
+   "tier": "cited",
+   "usd": 1880.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-balloon",
+   "country": "US",
+   "amount": 6000,
+   "amount_high": 8500,
+   "currency": "USD",
+   "as_of": "2026-05-06",
+   "kind": "quoted-range",
+   "includes": [
+    "the balloon device",
+    "insertion procedure",
+    "anaesthesia",
+    "facility costs",
+    "removal after 6 months",
+    "pre-procedure consultation",
+    "follow-up visits",
+    "nutritionist support"
+   ],
+   "excludes": [
+    "pre-procedure medical clearance",
+    "anti-nausea medication",
+    "treatment of complications",
+    "early removal if the patient cannot tolerate the device",
+    "post-removal support",
+    "food and supplement costs"
+   ],
+   "source": "s:bodevolve-balloon-cost",
+   "url": "https://bodevolvebariatric.com/gastric-balloon-cost/",
+   "note": "the Orbera range on a page dated 6 May 2026. Removal at six months is inside the price and early removal for intolerance is outside it, which prices the device's commonest failure against the patient.",
+   "tier": "cited",
+   "usd": 6000.0,
+   "usd_high": 8500.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-balloon",
+   "country": "US",
+   "amount": 6000,
+   "amount_high": 9000,
+   "currency": "USD",
+   "as_of": "2026-05-06",
+   "kind": "quoted-range",
+   "includes": [
+    "the balloon device",
+    "placement",
+    "follow-up visits",
+    "nutritionist support"
+   ],
+   "excludes": [
+    "pre-procedure medical clearance",
+    "anti-nausea medication",
+    "treatment of complications",
+    "post-removal support",
+    "food and supplement costs"
+   ],
+   "source": "s:bodevolve-balloon-cost",
+   "url": "https://bodevolvebariatric.com/gastric-balloon-cost/",
+   "note": "the Allurion range on the same page; this design is stated to dissolve on its own after about four months, so no removal procedure is priced. A shorter placement period at the same price is a different purchase.",
+   "tier": "cited",
+   "usd": 6000.0,
+   "usd_high": 9000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "gastric-sleeve",
+   "as": "The permanent operation on the same price column, at more than twice the price and a different kind of purchase.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gastric-bypass",
+   "as": "The other permanent operation sold beside it, where this device is not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mexico",
+   "as": "Where the cheapest published price for this device was read.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "Where the device's regulator published the placement limit and the adverse events this record quotes.",
+   "rel": "place"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who takes the balloon out, months later, in the country the patient went home to.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Where early removal for intolerance is found outside the price that included removal.",
+   "rel": "step"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "What is owed when a device comes out early and the months it was bought for did not happen.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form that puts a rented device in a column of permanent operations.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "gastric-sleeve",
+   "tell": "The sleeve removes four-fifths of the stomach and cannot be undone; the balloon sits inside it for months and is then taken out or dissolves."
+  }
+ ],
+ "links": [
+  {
+   "label": "FDA letter — liquid-filled intragastric balloons",
+   "url": "https://www.fda.gov/medical-devices/letters-health-care-providers/fda-alerts-health-care-providers-about-potential-risks-liquid-filled-intragastric-balloons"
+  },
+  {
+   "label": "NHS — weight loss surgery, how it's done",
+   "url": "https://www.nhs.uk/conditions/weight-loss-surgery/how-its-done/"
+  }
+ ],
+ "sources": [
+  "s:fda-intragastric-balloon",
+  "s:nhs-weight-loss-surgery-how",
+  "s:nhs-weight-loss-surgery",
+  "s:tijuana-bariatric-center-cost",
+  "s:bodevolve-balloon-cost"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:nhs-weight-loss-surgery-how"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:fda-intragastric-balloon",
+    "note": "the FDA letter and the price column are cited; the paragraph on cross-border removal is marked Inference and the paragraph on who the device is sold to is marked Trade practice"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:bodevolve-balloon-cost"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:fda-intragastric-balloon"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:bodevolve-balloon-cost"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Intragastric balloon.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A soft balloon is placed in the stomach and filled, so the stomach holds less and fullness comes sooner. It is a temporary device, not an operation: nothing is cut, stapled or removed, and it comes out again.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The permanent operation on the same price column, at more than twice the price and a different kind of purchase.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "The other permanent operation sold beside it, where this device is not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "Where the cheapest published price for this device was read.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "Where the device's regulator published the placement limit and the adverse events this record quotes.",
+   "rel": "place"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who takes the balloon out, months later, in the country the patient went home to.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Where early removal for intolerance is found outside the price that included removal.",
+   "rel": "step"
+  },
+  {
+   "to": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "What is owed when a device comes out early and the months it was bought for did not happen.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form that puts a rented device in a column of permanent operations.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:fda-intragastric-balloon",
+   "kind": "org",
+   "title": "The FDA alerts health care providers about potential risks with liquid-filled intragastric balloons",
+   "publisher": "US Food and Drug Administration",
+   "url": "https://www.fda.gov/medical-devices/letters-health-care-providers/fda-alerts-health-care-providers-about-potential-risks-liquid-filled-intragastric-balloons",
+   "accessed": "2026-09-16",
+   "note": "letter dated 9 February 2017, updated 10 August 2017 and 27 April 2020"
+  },
+  {
+   "id": "s:nhs-weight-loss-surgery-how",
+   "kind": "org",
+   "title": "Weight loss surgery — how it's done",
+   "publisher": "National Health Service (United Kingdom)",
+   "url": "https://www.nhs.uk/conditions/weight-loss-surgery/how-its-done/",
+   "accessed": "2026-09-16",
+   "note": "page last reviewed 5 February 2024"
+  },
+  {
+   "id": "s:nhs-weight-loss-surgery",
+   "kind": "org",
+   "title": "Weight loss surgery",
+   "publisher": "National Health Service (United Kingdom)",
+   "url": "https://www.nhs.uk/conditions/weight-loss-surgery/",
+   "accessed": "2026-09-16",
+   "note": "page last reviewed 5 February 2024"
+  },
+  {
+   "id": "s:tijuana-bariatric-center-cost",
+   "kind": "web",
+   "title": "Bariatric surgery Tijuana cost and what affects pricing",
+   "publisher": "Tijuana Bariatric Center",
+   "url": "https://tijuanabariatriccenter.com/about/financing/bariatric-surgery-tijuana-cost/",
+   "accessed": "2026-09-16",
+   "note": "the page carries no date of its own; prices read on the accessed date"
+  },
+  {
+   "id": "s:bodevolve-balloon-cost",
+   "kind": "web",
+   "title": "Gastric balloon cost 2026",
+   "publisher": "BodEvolve Bariatric Surgery Center",
+   "url": "https://bodevolvebariatric.com/gastric-balloon-cost/",
+   "accessed": "2026-09-16",
+   "note": "page dated 6 May 2026"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:nhs-weight-loss-surgery-how"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:fda-intragastric-balloon",
+   "note": "the FDA letter and the price column are cited; the paragraph on cross-border removal is marked Inference and the paragraph on who the device is sold to is marked Trade practice"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:bodevolve-balloon-cost"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:bodevolve-balloon-cost"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:fda-intragastric-balloon"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "The temporary device at a third of the price on the same page, and not an operation at all.",
+   "rel": "contrast"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The temporary device sold from the same pages at a third of the price, and not an operation.",
+   "rel": "contrast"
+  }
+ ]
+}

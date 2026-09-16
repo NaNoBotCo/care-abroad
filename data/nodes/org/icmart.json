@@ -1,0 +1,113 @@
+{
+ "schema": 1,
+ "id": "icmart",
+ "type": "org",
+ "names": {
+  "name": "International Committee for Monitoring Assisted Reproductive Technologies",
+  "aliases": [
+   "ICMART",
+   "International Committee Monitoring Assisted Reproductive Technologies"
+  ],
+  "said": "ICMART adds up the world's IVF. It adds up what each national registry already collects, which is a different thing from counting."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": [
+   "registry",
+   "ngo"
+  ],
+  "founded": 2003,
+  "status": "open"
+ },
+ "text": {
+  "what": "The world registry of assisted reproduction: an independent non-profit that describes itself as having \"taken the leading role in the development, collection and dissemination of worldwide data on assisted reproductive technology\". It began international data collection in 1989, incorporated in California as a 501(c)(3) in 2003, and is a non-State actor in official relations with the World Health Organization. With WHO it wrote the ICMART ART Glossary, the agreed definitions the field argues inside.",
+  "story": "Follow the data upwards and the limits explain themselves. A clinic reports patient-level data to its national or regional registry. ICMART's regional representatives then collect from those registries \"non-identifiable tabulated summary data\". ICMART never sees a clinic, never sees a patient, and receives whatever the registry chose to send, in the shape the registry already held it.\n\nThe scale is real. For cycles conducted in 2017 and 2018, 83 countries provided data — 80 for 2017, 81 for 2018 — from 3,313 reporting clinics in 2017 and 3,254 in 2018. Those returns held 2,913,498 cycles and 671,012 babies for 2017, and 3,303,505 cycles and 728,383 babies for 2018. Adjusting for centres that did not report, ICMART estimates 3,107,188 cycles and 814,588 babies for 2017 and 3,568,635 and 870,814 for 2018. The report names its own limits: \"Data and analysis presented are dependent on the quality and completeness of the data submitted to ICMART, which varies globally\", with thin coverage from the Middle East and incomplete coverage from parts of Asia, and a change in how delivery rates are calculated that blocks comparison with earlier ICMART reports.\n\n*Inference —* three problems stack, and they stack against exactly the reader this directory has. A country appears only if it has a registry and that registry chooses to report, so the destinations with the least regulation are the ones least likely to be in the table. What a registry reports is what it already collects, on its own definitions of a cycle, a transfer and an outcome — which is why the glossary exists, and the glossary narrows the differences rather than abolishing them. And the unit is the country: a patient choosing between two clinics abroad can read a national aggregate several years old, and nothing about either clinic. The world total is the best figure the field has, and it still cannot answer the question that makes someone buy a plane ticket.",
+  "how": "Standard reporting forms go to national and regional registries; ICMART's regional representatives gather the returns; analysis has been done by the National Perinatal Epidemiology and Statistics Unit, with built-in and manual validation checks and missing data imputed using weighted average cancellation rates. Preliminary world reports are presented at ESHRE's annual meeting; final world reports are published in Human Reproduction, several years behind the cycles they describe.",
+  "today": "As of 17 September 2026 the most recent full world report covers cycles conducted in 2017 and 2018 and was published in Human Reproduction in 2025; a preliminary report for 2021 was presented at the ESHRE meeting in Paris in 2025. The lag between a cycle and its appearance in a world figure runs to several years, which is longer than most patients wait to travel.",
+  "notes": "Reporting to ICMART is voluntary. A country absent from a world report has not been shown to perform no cycles; it has been shown not to have reported any."
+ },
+ "kin": [
+  {
+   "to": "eshre",
+   "as": "The European society it publishes alongside, and whose consortium supplies the European rows.",
+   "rel": "org"
+  },
+  {
+   "to": "who",
+   "as": "The body it holds official relations with, and its co-author on the ART glossary.",
+   "rel": "org"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment counted, cycle by cycle, in every national return it receives.",
+   "rel": "procedure"
+  },
+  {
+   "to": "icsi",
+   "as": "Counted inside the same cycles, on definitions the glossary had to fix before anyone could add them up.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The cycles that cross a border, and that no national registry counts from both ends.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hfea",
+   "as": "One of the national registries feeding it, and one of only two in the world that publish clinic by clinic.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The American statutory register whose national totals reach the world report.",
+   "rel": "dataset"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A world total assembled from voluntary returns on unlike definitions.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "The destinations with no registry, which is most of the ones a fertility traveller is choosing between.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "ICMART",
+   "url": "https://www.icmartivf.org/"
+  },
+  {
+   "label": "Reports and publications",
+   "url": "https://www.icmartivf.org/reports-publications/"
+  }
+ ],
+ "sources": [
+  "s:icmart-about",
+  "s:icmart-world-report-2017-2018"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:icmart-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:icmart-world-report-2017-2018",
+    "note": "the data flow and the tabulated-summary wording are from ICMART's own about page; the counts, the estimates and the quoted limitation are from the 2017-2018 world report, read in its abstract and method summary rather than the full text; the closing paragraph is marked inference"
+   },
+   "facets": {
+    "tier": "cited",
+    "source": "s:icmart-about",
+    "note": "founded is the 2003 California incorporation; international data collection began in 1989 and is stated in the prose. No headquarters is pinned: the committee works through regional representatives and this project found no office worth a point on a map"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

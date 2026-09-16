@@ -1,0 +1,315 @@
+{
+ "id": "s2-route",
+ "names": {
+  "name": "The S2 route",
+  "aliases": [
+   "S2 certificate",
+   "planned treatment scheme",
+   "Article 20 authorisation",
+   "the old E112"
+  ],
+  "said": "Named for the form. Before 2010 the same authorisation travelled on an E112."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "entitlement",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Prior authorisation to be treated in another EEA state's public system at that state's expense, issued on a certificate the patient carries. It rests on Article 20 of Regulation (EC) No 883/2004 on the coordination of social security systems. Where it is granted, the patient is treated on the same terms as a resident of the destination — including that country's own co-payments — and the two states settle the cost between themselves. No invoice reaches the patient for the treatment itself.",
+  "story": "Coordination came first. Regulation (EC) No 883/2004 replaced Regulation 1408/71 and carried forward a rule written for migrant workers, not for people shopping for surgery: a person insured in one Member State who needs care in another should not lose the cover they have paid for. Article 20(2) sets two conditions and only two. The treatment must be \"among the benefits provided for by the legislation in the Member State where the person concerned resides\", and the person must not be able to be \"given such treatment within a time-limit which is medically justifiable, taking into account his current state of health and the probable course of his illness\".\n\nThat second condition is the queue, written into law. It is also what makes the route generous: authorisation granted, the destination's public system bills the patient's home system at its own rates, and the patient pays what a local pays. Against the Directive route — pay the foreign price, reclaim the home price — the arithmetic runs the other way for anyone travelling from a cheap system to an expensive one.\n\n*Inference —* the two conditions between them close the route to almost everyone this directory is about. A patient who wants a procedure sooner than their own system offers, but not so much sooner that the delay is medically unjustifiable, does not qualify. A patient who wants a private hospital does not qualify: the NHS states the scheme \"applies to public healthcare providers only\". A patient who wants something their own system does not fund at all does not qualify under either route.\n\nThe United Kingdom kept this route after Brexit and lost the other. That is the single clearest statement of which of the two a state considers worth keeping when it is choosing.",
+  "how": "The application goes in before travel. NHS England's version asks that the applicant be \"ordinarily resident in England and entitled to treatment on the NHS\", be registered with an NHS general practitioner, and have \"seen your NHS GP for a consultation or assessment about the condition\". Approval issues an S2 certificate from the NHS Business Services Authority, described as a payment guarantee form, and the stated service standard is up to 20 working days for a complete application.\n\nWhat the certificate does not cover: travel, accommodation, and \"the clinical trial or experimental part of any treatment\". What it does not undo: a co-payment. \"This could mean you have to pay a percentage of the costs yourself\", which in a system that charges its own residents a share — France, Belgium, much of central Europe — the visiting patient pays too.\n\nTreatment paid for before authorisation cannot be reimbursed afterwards, except for co-payments. The certificate is issued against a named provider and a named course of treatment.",
+  "today": "As of 17 September 2026 the S2 route is open to residents of EU Member States and, for UK residents, to treatment in an EU country or Switzerland, Norway, Iceland or Liechtenstein — with additional nationality conditions for Switzerland. It is the only planned-treatment funding route the NHS still operates in Europe."
+ },
+ "kin": [
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The newer route, and the contrast: private providers, no queue test, and the patient carries the price difference.",
+   "rel": "contrast"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "as": "The national system that runs this route, and the page where its own conditions are set out.",
+   "rel": "kin"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The word for the gate this route is entirely made of.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "as": "What survives the certificate.",
+   "rel": "term"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that measures the queue Article 20(2) turns on.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step this route removes, by paying at the destination's own tariff.",
+   "rel": "step"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Travel, accommodation and the experimental part of a treatment are outside the certificate.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Regulation (EC) No 883/2004, Article 20",
+   "url": "https://www.legislation.gov.uk/eur/2004/883/article/20/adopted"
+  },
+  {
+   "label": "NHS — The Planned Treatment Scheme (S2 funding route)",
+   "url": "https://www.nhs.uk/using-the-nhs/healthcare-abroad/going-abroad-for-treatment/planned-treatment-s2-funding-route/"
+  }
+ ],
+ "sources": [
+  "s:eu-reg-883-2004",
+  "s:nhs-s2-route",
+  "s:legislation-eu-directive-2011-24",
+  "s:ec-crossborder-2022"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eu-reg-883-2004"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:nhs-s2-route",
+    "note": "the English application conditions; other Member States run their own"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eu-reg-883-2004",
+    "note": "the paragraph marked *Inference —* is this project reasoning from the two instruments"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "Prior authorisation to be treated in another EEA state's public system at that state's expense, issued on a certificate the patient carries.",
+ "region_terms": [
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  },
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  },
+  {
+   "key": "europe-north",
+   "name": "Northern Europe",
+   "note": "the Nordics and the Baltics"
+  },
+  {
+   "key": "europe-east",
+   "name": "Eastern Europe",
+   "note": "Romania, Bulgaria, Serbia, Ukraine, Moldova, Albania, North Macedonia"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The newer route, and the contrast: private providers, no queue test, and the patient carries the price difference.",
+   "rel": "contrast"
+  },
+  {
+   "to": "uk-nhs-treatment-abroad",
+   "type": "rule",
+   "name": "NHS funding for treatment abroad",
+   "as": "The national system that runs this route, and the page where its own conditions are set out.",
+   "rel": "kin"
+  },
+  {
+   "to": "prior-authorisation",
+   "type": "term",
+   "name": "Prior authorisation",
+   "as": "The word for the gate this route is entirely made of.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "type": "term",
+   "name": "Co-payment",
+   "as": "What survives the certificate.",
+   "rel": "term"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that measures the queue Article 20(2) turns on.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The step this route removes, by paying at the destination's own tariff.",
+   "rel": "step"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Travel, accommodation and the experimental part of a treatment are outside the certificate.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:eu-reg-883-2004",
+   "kind": "statute",
+   "title": "Regulation (EC) No 883/2004 on the coordination of social security systems, Article 20 (as adopted)",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2004/883/article/20/adopted",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:nhs-s2-route",
+   "kind": "web",
+   "title": "The Planned Treatment Scheme (S2 funding route)",
+   "publisher": "NHS",
+   "url": "https://www.nhs.uk/using-the-nhs/healthcare-abroad/going-abroad-for-treatment/planned-treatment-s2-funding-route/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:legislation-eu-directive-2011-24",
+   "kind": "statute",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare, Articles 7, 8 and 11 (text as held on legislation.gov.uk)",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/7",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:ec-crossborder-2022",
+   "kind": "report",
+   "title": "Member State data on cross-border patient healthcare following Directive 2011/24/EU — reference year 2022",
+   "publisher": "European Commission, DG Health and Food Safety, Unit B.3; written by PredictBy Research and Consulting and Baltic Media; Publications Office of the European Union",
+   "url": "https://health.ec.europa.eu/document/download/69e33702-c7cc-4f0e-afc0-f3cf13e127ab_en?filename=crossborder_2022_patient-healthcare_data_en.pdf",
+   "license": "CC BY 4.0",
+   "accessed": "2026-09-16",
+   "note": "final version January 2024, ISBN 978-92-68-14858-7. 23 countries reported 547,890 reimbursement requests for care not needing prior authorisation in 2022, of which France 300,254 and Germany 160,647 are 84%; Poland 14,176, Slovakia 13,904, Ireland 1,841, Romania 889, Czechia 440, Croatia 192, Lithuania 131, Greece 56, Cyprus 44, Portugal 27 (all refused), Spain 9. Total reimbursed EUR 86,462,491. For care needing prior authorisation, 4,552 requests and EUR 7,708,041. Belgium and Hungary could not report; Czechia, Cyprus, Latvia, Lithuania, the Netherlands, Finland, Sweden and Norway run no prior-authorisation system; only Denmark and Romania have a mechanism to limit inflow."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:eu-reg-883-2004"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:eu-reg-883-2004",
+   "note": "the paragraph marked *Inference —* is this project reasoning from the two instruments"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:nhs-s2-route",
+   "note": "the English application conditions; other Member States run their own"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:eu-reg-883-2004"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "ireland",
+   "type": "destination",
+   "name": "Ireland",
+   "as": "Run here as the Treatment Abroad Scheme, on consultant referral, for care the public system cannot provide in time.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "The EU form under which a health service can send a patient across a border for treatment it cannot give at home.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "charite-international",
+   "type": "facility",
+   "name": "Charité International Patients",
+   "as": "The prior-authorisation route by which a European system sends a patient here and pays the German tariff directly.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The older coordination route, and the contrast that explains this one: it pays the destination's public tariff in full but demands a queue at home.",
+   "rel": "contrast"
+  },
+  {
+   "from": "uk-nhs-treatment-abroad",
+   "type": "rule",
+   "name": "NHS funding for treatment abroad",
+   "as": "The route this system still runs, in full.",
+   "rel": "rule"
+  },
+  {
+   "from": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The older prior-authorisation route these figures are hard to separate from.",
+   "rel": "contrast"
+  },
+  {
+   "from": "directive-2011-24-adopted",
+   "type": "event",
+   "name": "Directive 2011/24/EU adopted, 9 March 2011",
+   "as": "The older route it sits beside, under the social security regulation, which pays the treating country's tariff instead.",
+   "rel": "rule"
+  },
+  {
+   "from": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The other rail: authorisation first, then treatment on the host state's public terms.",
+   "rel": "rule"
+  },
+  {
+   "from": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The entitlement a long queue can turn into a funded trip across a European border.",
+   "rel": "rule"
+  }
+ ]
+}

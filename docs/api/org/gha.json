@@ -1,0 +1,226 @@
+{
+ "schema": 1,
+ "id": "gha",
+ "type": "org",
+ "names": {
+  "name": "Global Healthcare Accreditation",
+  "aliases": [
+   "GHA"
+  ],
+  "said": "GHA certifies the journey. A hospital can hold it and hold no clinical accreditation at all."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "US",
+  "founded": 2016,
+  "status": "open"
+ },
+ "text": {
+  "what": "An accreditation body founded in 2016 for medical travel rather than for clinical care. Its flagship standards address what it calls the medical travel care continuum across three competencies — \"Patient Experience, Sustainable Business Practices, and Patient-Focused Clinical Processes\" — from the first enquiry to recovery at home. Its founder co-founded the Medical Tourism Association, and the two remain strategic partners on training, accreditation and certification.",
+  "story": "GHA occupies the gap the clinical schemes leave. JCI surveys the hospital; nobody surveys the phone call, the quotation, the airport transfer, the interpreter, the discharge pack or the handover to a doctor eight time zones away. Those are where cross-border care actually fails, and GHA sells an inspection of them.\n\nThe standards themselves hold an ISQua EEA award — Standards for Medical Travel 5.0 — so the chain of who checks the checker is complete and named. The commercial relationship with the trade association that promotes the industry is also named, by both bodies, on their own pages. A reader can decide what to make of that; this record's job is to say it is there.\n\n*Inference —* the pathway scope is the reason a GHA mark and a JCI mark are not substitutes and should never be added together. One says a ward was inspected. The other says a customer journey was.",
+  "how": "An organisation applies and pays, is assessed against the Standards for Medical Travel, and is listed on a public directory of accredited and certified organisations, searchable by region. The directory carries dates on both ends — an entry read on 16 September 2026 showed a term running 24 November 2022 to 24 November 2025, which is the three-year shape the clinical schemes use.",
+  "today": "As of 16 September 2026 the public directory lists organisations in Thailand, the United States, South Korea, Colombia, Mexico, Saudi Arabia, Türkiye, Greece, Bulgaria, Croatia, the Philippines, the Dominican Republic and Ukraine among others. GHA publishes no total on the pages read for this record."
+ },
+ "kin": [
+  {
+   "to": "medical-tourism-association",
+   "as": "The trade body it names as its strategic partner, and whose co-founder founded it.",
+   "rel": "org"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "Holds the award over its Standards for Medical Travel 5.0.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "jci",
+   "as": "Surveys the ward where this scheme surveys the journey; the two are not substitutes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "temos",
+   "as": "The other scheme built around the international patient rather than the hospital.",
+   "rel": "contrast"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The end of the pathway this scheme claims to cover, and the part no clinical accreditation reaches.",
+   "rel": "step"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a pathway mark and a clinical mark are pulled apart.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Global Healthcare Accreditation",
+   "url": "https://www.globalhealthcareaccreditation.com/"
+  },
+  {
+   "label": "Accredited and certified organizations",
+   "url": "https://www.globalhealthcareaccreditation.com/accredited-organizations"
+  }
+ ],
+ "sources": [
+  "s:gha-about",
+  "s:gha-accredited-list"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:gha-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:gha-about",
+    "note": "the closing paragraph is marked as this project's inference"
+   },
+   "facets": {
+    "tier": "cited",
+    "source": "s:gha-about",
+    "note": "the 2016 founding is reported in trade press and in GHA's own interviews; it is not on the about page read here"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "An accreditation body founded in 2016 for medical travel rather than for clinical care.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The trade body it names as its strategic partner, and whose co-founder founded it.",
+   "rel": "org"
+  },
+  {
+   "to": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "Holds the award over its Standards for Medical Travel 5.0.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Surveys the ward where this scheme surveys the journey; the two are not substitutes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "The other scheme built around the international patient rather than the hospital.",
+   "rel": "contrast"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The end of the pathway this scheme claims to cover, and the part no clinical accreditation reaches.",
+   "rel": "step"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Where a pathway mark and a clinical mark are pulled apart.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:gha-about",
+   "kind": "web",
+   "title": "What is Global Healthcare Accreditation?",
+   "publisher": "Global Healthcare Accreditation",
+   "url": "https://www.globalhealthcareaccreditation.com/about-gha",
+   "accessed": "2026-09-16",
+   "note": "the three competencies of the medical travel care continuum and the ISQua accreditation of Standards for Medical Travel 5.0"
+  },
+  {
+   "id": "s:gha-accredited-list",
+   "kind": "web",
+   "title": "Accredited and Certified Organizations",
+   "publisher": "Global Healthcare Accreditation",
+   "url": "https://www.globalhealthcareaccreditation.com/accredited-organizations",
+   "accessed": "2026-09-16",
+   "note": "public directory searchable by region; entries carry start dates and, for some, an expiry date such as 24 November 2022 to 24 November 2025"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:gha-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:gha-about",
+   "note": "the closing paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:gha-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:gha-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "Holds its award over the Standards for Medical Travel 5.0.",
+   "rel": "accredits"
+  },
+  {
+   "from": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "A competitor that certifies the travel pathway rather than the clinical unit.",
+   "rel": "contrast"
+  },
+  {
+   "from": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The accreditation body it names as its strategic partner, founded by its co-founder.",
+   "rel": "org"
+  },
+  {
+   "from": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "The nearest competitor by purpose: both certify the journey rather than the ward.",
+   "rel": "contrast"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Surveys the journey rather than the ward, which is why its mark is not a substitute for a clinical one.",
+   "rel": "org"
+  }
+ ]
+}

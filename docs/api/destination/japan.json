@@ -1,0 +1,311 @@
+{
+ "schema": 1,
+ "id": "japan",
+ "type": "destination",
+ "names": {
+  "name": "Japan",
+  "aliases": [
+   "日本",
+   "Nippon",
+   "Nihon"
+  ],
+  "said": "Japan runs a Medical Stay visa and a hospital survey, and neither produces a patient count. In the trade Japan is talked about as a destination and shows up in the data as a source market."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "JP",
+  "direction": "both",
+  "currency": "JPY",
+  "languages": [
+   "Japanese",
+   "English",
+   "Mandarin"
+  ],
+  "draws": [
+   "proton-therapy",
+   "car-t",
+   "executive-health-screening"
+  ]
+ },
+ "text": {
+  "what": "A country with a Medical Stay visa, a national programme to receive foreign patients, and no published count of how many arrive for treatment. Japan's measurable role in cross-border care is the opposite of its reputation: in 2024 Japanese patients were the largest single group of foreign patients recorded in South Korea.",
+  "story": "The Ministry of Health, Labour and Welfare runs an annual survey on the reception of foreign patients at medical institutions, covering every hospital in the country and clinics in selected prefectures. The 2023 round was published on 31 July 2024 and corrected twice after. It asks whether a facility received foreign patients and how it is equipped to do so. It does not separate a resident foreigner from a traveller who came for treatment, and it produces a picture of institutions, not of patients.\n\nThe Ministry of Foreign Affairs publishes visa issuances by category each year, on a calendar year, and states on the page that its totals differ from immigration counts because some nationalities need no visa at all. A medical-stay issuance is an issuance: it is not an admission, not an operation, and not a person who arrived.\n\n*Inference —* between a survey of hospitals and a count of visas there is no series that says how many people flew to Japan to be treated, and this directory carries none.\n\nMeanwhile South Korea's health ministry recorded Japan as the leading country of origin for its 1.17 million foreign patients in 2024, with arrivals from Japan up 135.0 per cent on the year. Whatever else Japan is in this subject, it is a documented source market for the clinic next door.",
+  "how": "*Trade practice —* a foreign patient is usually routed through a hospital's international department or an accredited coordinator, who handles the visa letter, the guarantor requirement and the estimate. Language is the binding constraint: consultation, consent and discharge instructions are in Japanese unless the facility has staffed against it. Advanced radiotherapy — proton and carbon-ion beams — is the offer most often named to patients from elsewhere in Asia.",
+  "today": "The 2025 visa issuance tables were published on 23 June 2026 and the 2026 tables are expected around May 2027. No national inbound patient figure is carried on this page."
+ },
+ "geo": {
+  "lat": 35.6895,
+  "lon": 139.6917,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "No count is carried. The health ministry's annual survey covers medical institutions and records whether they received foreign patients, without separating residents from travellers; the foreign ministry's visa statistics count issuances by category, not arrivals or admissions. Neither series answers how many people travelled to Japan for treatment, so this record leaves the field empty rather than fill it from a market summary.",
+  "as_of": "2026-09-16",
+  "source": "s:mhlw-foreign-patient-survey",
+  "url": "https://www.mhlw.go.jp/stf/newpage_41976.html"
+ },
+ "kin": [
+  {
+   "to": "south-korea",
+   "as": "The neighbour whose official figures record Japan as its largest source of foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "The treatment Japan is most often named for by patients arriving from elsewhere in Asia.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "as": "Cell therapy available here, and priced for it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The short admission — the ningen dock — that most foreign visitors to Japanese medicine actually buy.",
+   "rel": "procedure"
+  },
+  {
+   "to": "language-consent",
+   "as": "The constraint that decides which Japanese hospitals can take a foreign patient at all.",
+   "rel": "risk"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A rich country with two official series and no answer to the simple question.",
+   "rel": "story"
+  },
+  {
+   "to": "taiwan",
+   "as": "The other East Asian health system that counts its residents well and its visitors not at all.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "FY2023 survey on foreign patient reception — MHLW",
+   "url": "https://www.mhlw.go.jp/stf/newpage_41976.html"
+  },
+  {
+   "label": "Visa issuance statistics — MOFA",
+   "url": "https://www.mofa.go.jp/mofaj/toko/tokei/hakkyu/index.html"
+  }
+ ],
+ "sources": [
+  "s:mhlw-foreign-patient-survey",
+  "s:mofa-jp-visa-statistics",
+  "s:mohw-kr-foreign-patients-2024",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mhlw-foreign-patient-survey"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:mhlw-foreign-patient-survey",
+    "note": "the survey and the visa series are described from their own pages; the Korean figure is cited to the Korean health ministry"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of an international department at a Japanese hospital"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:mhlw-foreign-patient-survey"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A country with a Medical Stay visa, a national programme to receive foreign patients, and no published count of how many arrive for treatment.",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The neighbour whose official figures record Japan as its largest source of foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The treatment Japan is most often named for by patients arriving from elsewhere in Asia.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Cell therapy available here, and priced for it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The short admission — the ningen dock — that most foreign visitors to Japanese medicine actually buy.",
+   "rel": "procedure"
+  },
+  {
+   "to": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "The constraint that decides which Japanese hospitals can take a foreign patient at all.",
+   "rel": "risk"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A rich country with two official series and no answer to the simple question.",
+   "rel": "story"
+  },
+  {
+   "to": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "The other East Asian health system that counts its residents well and its visitors not at all.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:mhlw-foreign-patient-survey",
+   "kind": "web",
+   "title": "Results of the FY2023 survey on the reception of foreign patients at medical institutions",
+   "publisher": "Ministry of Health, Labour and Welfare (Japan)",
+   "url": "https://www.mhlw.go.jp/stf/newpage_41976.html",
+   "accessed": "2026-09-16",
+   "note": "published 31 July 2024, corrected 21 August 2024 and 20 May 2025; surveys every hospital nationwide plus clinics in selected prefectures, and records whether foreign patients were received, not how many travelled for treatment"
+  },
+  {
+   "id": "s:mofa-jp-visa-statistics",
+   "kind": "web",
+   "title": "Visa issuance statistics",
+   "publisher": "Ministry of Foreign Affairs of Japan",
+   "url": "https://www.mofa.go.jp/mofaj/toko/tokei/hakkyu/index.html",
+   "accessed": "2026-09-16",
+   "note": "annual counts of visas issued by Japanese missions abroad, by category, on a calendar year; the 2025 tables were published 23 June 2026. The page states that the figures differ from immigration counts because some nationalities are visa-exempt"
+  },
+  {
+   "id": "s:mohw-kr-foreign-patients-2024",
+   "kind": "web",
+   "title": "Korea Attracts 1.17 Million Foreign Patients in 2024",
+   "publisher": "Ministry of Health and Welfare (Republic of Korea)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207",
+   "accessed": "2026-09-16",
+   "note": "press release of 3 April 2025; the annual foreign-patient statistics are compiled for the ministry by the Korea Health Industry Development Institute"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:mhlw-foreign-patient-survey"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:mhlw-foreign-patient-survey",
+   "note": "the survey and the visa series are described from their own pages; the Korean figure is cited to the Korean health ministry"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of an international department at a Japanese hospital"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:mhlw-foreign-patient-survey"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:mhlw-foreign-patient-survey"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "The other short-haul destination Chinese patients travel to for screening and cell therapy.",
+   "rel": "contrast"
+  },
+  {
+   "from": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The largest single source of its foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "from": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "The other East Asian system with excellent domestic statistics and no traveller count.",
+   "rel": "contrast"
+  },
+  {
+   "from": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The densest network of particle therapy centres per head, proton and carbon-ion both.",
+   "rel": "destination"
+  },
+  {
+   "from": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "The one jurisdiction that wrote a statute aimed at the clinic rather than the manufacturer.",
+   "rel": "destination"
+  }
+ ]
+}

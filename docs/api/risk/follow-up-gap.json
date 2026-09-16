@@ -1,0 +1,694 @@
+{
+ "id": "follow-up-gap",
+ "names": {
+  "name": "The follow-up gap",
+  "aliases": [
+   "loss to follow-up",
+   "no aftercare"
+  ],
+  "said": "The clinic calls it discharge. The system at home calls it a first presentation."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "The interval between an operation abroad and the first clinician at home who sees the wound, during which nobody is responsible for the result. The American Medical Association's guiding principles, reproduced in the CDC's chapter, ask that \"local follow-up care should be coordinated\" before travel and that coverage include the cost of follow-up on return. The CDC also notes that \"some overseas facilities and healthcare professionals charge substantial fees for follow-up care in addition to the base cost\".",
+  "story": "The gap is measurable from one side only, and what it looks like from that side is a paperwork failure. A Manchester breast unit reviewing twelve months of cosmetic surgery complications in 2022 and 2023 found 25 patients, 20 of whom had been operated on abroad. The precise date of surgery was recorded for 48% of them. The name of the clinic was recorded for 8%. The name of the surgeon was recorded for 0%. Seventy-two per cent presented within eight weeks of the operation.\n\nThat is not a study of infection or of technique. It is a study of what arrives: a patient, a complication, and no identifiable counterparty.\n\nThe General Medical Council's guidance for doctors offering cosmetic interventions, in force since 1 June 2016, sets out what the record is supposed to contain — a named contact for complications outside working hours, written information detailed enough \"to enable another medical professional to take over the patient's care\", and records organised so patients treated with a particular device can be identified if a safety concern arises. Those obligations bind a doctor on the UK register. The clinic that performed the operation is not on it.\n\n*Inference —* the exposure transfers cleanly. The operating clinic's liability, such as it is, ends at the airport; the home system's begins at the emergency department door, without a contract, a referral or a fee.",
+  "how": "The CDC asks clinicians to remind travellers to request copies of overseas records in English, and the American College of Surgeons goes further, asking that a complete set be obtained before returning home. Neither is enforceable at a distance. Where follow-up is offered by the operating facility it is usually by message or video, which cannot take a swab, remove a suture or drain a collection.",
+  "today": "As of 16 September 2026 there is no published measure of how many people who travel for surgery attend any follow-up at all. The figures that exist are the recording rates in single-centre series of the patients who came back with a problem — a sample selected for having one."
+ },
+ "metrics": {
+  "note": "From 25 patients seen by one NHS breast surgery unit over twelve months in 2022 and 2023, 20 of them operated on abroad: the precise date of surgery was recorded for 48%, the clinic name for 8%, the surgeon's name for 0%, and 72% presented within eight weeks. These are recording rates in the patients who presented with a complication, not rates in everyone who travelled.",
+  "as_of": "2024",
+  "source": "s:ahari-breast-unit-2024",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39476527/"
+ },
+ "kin": [
+  {
+   "to": "the-discharge-summary",
+   "as": "The document that would close this gap, when it exists and when it is in a language the next clinician reads.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step this risk is the absence of.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The step that decides whether anyone at home can tell what was done.",
+   "rel": "step"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "What the gap costs, once somebody has to operate again.",
+   "rel": "kin"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Without the surgeon's name, there is no defendant.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The commonest thing found in the gap.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-follow-up-nobody-books",
+   "as": "The longer piece on this.",
+   "rel": "story"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "A procedure sold as a two-day trip, with the result judged at twelve months.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Six-week and twelve-week reviews, and the physiotherapy between them, sit outside every package this site has read.",
+   "rel": "procedure"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  },
+  {
+   "label": "GMC — Guidance for doctors who offer cosmetic interventions",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:ahari-breast-unit-2024",
+  "s:gmc-cosmetic-interventions"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "metrics": {
+    "tier": "cited",
+    "source": "s:ahari-breast-unit-2024"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "The interval between an operation abroad and the first clinician at home who sees the wound, during which nobody is responsible for the result.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The document that would close this gap, when it exists and when it is in a language the next clinician reads.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step this risk is the absence of.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The step that decides whether anyone at home can tell what was done.",
+   "rel": "step"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "What the gap costs, once somebody has to operate again.",
+   "rel": "kin"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Without the surgeon's name, there is no defendant.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The commonest thing found in the gap.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "The longer piece on this.",
+   "rel": "story"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "A procedure sold as a two-day trip, with the result judged at twelve months.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Six-week and twelve-week reviews, and the physiotherapy between them, sit outside every package this site has read.",
+   "rel": "procedure"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:ahari-breast-unit-2024",
+   "kind": "paper",
+   "title": "The impact of cosmetic tourism across one year on an NHS breast surgery unit",
+   "publisher": "Journal of Plastic, Reconstructive and Aesthetic Surgery 2024;99:462-467 (Ahari D, Zaccariah ZR, Preston M, Highton L), Wythenshawe Hospital",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39476527/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:gmc-cosmetic-interventions",
+   "kind": "org",
+   "title": "Guidance for doctors who offer cosmetic interventions — in effect 1 June 2016, updated 13 December 2024",
+   "publisher": "General Medical Council (United Kingdom)",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions",
+   "accessed": "2026-09-16",
+   "note": "paragraph numbers cited on this site are from the sections Communication, partnership and teamwork (paras 14-45) and Maintaining trust (paras 46-56)"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:ahari-breast-unit-2024"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "A median of 3.8 weeks from surgery to presentation is the gap, measured.",
+   "rel": "risk"
+  },
+  {
+   "from": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "Who sees the wound at six weeks when the operation happened in another country.",
+   "rel": "risk"
+  },
+  {
+   "from": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "Both outbreaks were found by doctors at home, weeks after discharge abroad.",
+   "rel": "risk"
+  },
+  {
+   "from": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "The Indonesian doctor reading a discharge summary from an operation they did not order.",
+   "rel": "risk"
+  },
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "The Kathmandu review after an operation done across the border.",
+   "rel": "risk"
+  },
+  {
+   "from": "tunisia",
+   "type": "destination",
+   "name": "Tunisia",
+   "as": "The structural weakness of a package sold across the Mediterranean.",
+   "rel": "risk"
+  },
+  {
+   "from": "vietnam",
+   "type": "destination",
+   "name": "Vietnam",
+   "as": "Who checks an implant placed on a fortnight's holiday.",
+   "rel": "risk"
+  },
+  {
+   "from": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "What a one-week package leaves behind: the wash, the shedding and the twelve-month result all happen at home.",
+   "rel": "risk"
+  },
+  {
+   "from": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "Short here — the patient can come back across in an afternoon, which is not true of anywhere else in this directory.",
+   "rel": "risk"
+  },
+  {
+   "from": "nuevo-progreso",
+   "type": "hub",
+   "name": "Nuevo Progreso",
+   "as": "Nearly closed here, because the patient is parked twenty minutes away until April.",
+   "rel": "risk"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "Recovery in a hotel means the six-week check is somebody else's, somewhere else.",
+   "rel": "risk"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "An infection that presents at week six, in a country the surgeon does not practise in.",
+   "rel": "risk"
+  },
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "Who supervises nine months of rehabilitation after a two-night admission abroad.",
+   "rel": "risk"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "Who prescribes and monitors the antiplatelet drugs after the flight home.",
+   "rel": "risk"
+  },
+  {
+   "from": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "Graft-versus-host disease declares itself months later, in another country.",
+   "rel": "risk"
+  },
+  {
+   "from": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "Who holds the implant card, and who scans the breast in five years.",
+   "rel": "risk"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Who reads the echocardiogram at three months, and where.",
+   "rel": "risk"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "Who checks the eye the day after, and who sees it at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "from": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "The exact shape of this device's problem: an operation that crosses a border easily and a programming appointment that does not.",
+   "rel": "risk"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "Who sees the implant at the six-month check, and who fixes a failed one.",
+   "rel": "risk"
+  },
+  {
+   "from": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "The reverse case: the home unit keeps the patient and lends them out for a fortnight.",
+   "rel": "contrast"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "What happens to an abnormal result eight time zones from the doctor who will act on it.",
+   "rel": "risk"
+  },
+  {
+   "from": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "Who checks a rebuilt bite at six months, and where.",
+   "rel": "risk"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "Who sees the wounds at two weeks, and who investigates the pain that did not go away.",
+   "rel": "risk"
+  },
+  {
+   "from": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "The scan at six months, back home, that nobody booked.",
+   "rel": "risk"
+  },
+  {
+   "from": "gastric-balloon",
+   "type": "procedure",
+   "name": "Gastric balloon",
+   "as": "Who takes the balloon out, months later, in the country the patient went home to.",
+   "rel": "risk"
+  },
+  {
+   "from": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "Who orders the annual bloods this operation makes compulsory, once the coordinator's calls stop.",
+   "rel": "risk"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "Who checks the bloods at year three, when the package's six months of video calls have run out.",
+   "rel": "risk"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "Who monitors the anticoagulation a mechanical valve requires, weekly, at home.",
+   "rel": "risk"
+  },
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "Who looks at the wound at two weeks once the patient has flown.",
+   "rel": "risk"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "Who checks the wound and the vault at six weeks, and where.",
+   "rel": "risk"
+  },
+  {
+   "from": "icl",
+   "type": "procedure",
+   "name": "Implantable collamer lens",
+   "as": "Who checks the eye pressure in the weeks after, and who takes the lens out in thirty years.",
+   "rel": "risk"
+  },
+  {
+   "from": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "A graft that arrives home without an operative note, and a clinic that must take it on anyway.",
+   "rel": "risk"
+  },
+  {
+   "from": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Who takes the stitches out, and who sees the knee at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "from": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "Who sees the eye the next day, and who does the enhancement a year later.",
+   "rel": "risk"
+  },
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Loss to follow-up is named in the published review as one of the three mechanisms of harm.",
+   "rel": "risk"
+  },
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "Four stages across years, and the record of the first three sitting in another country.",
+   "rel": "risk"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "Who removes the catheter, and who measures the PSA at three months.",
+   "rel": "risk"
+  },
+  {
+   "from": "shoulder-replacement",
+   "type": "procedure",
+   "name": "Total shoulder replacement",
+   "as": "Who runs the sling protocol and the six weeks of physiotherapy after the flight home.",
+   "rel": "risk"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "Who orders the imaging that shows whether the bone knitted.",
+   "rel": "risk"
+  },
+  {
+   "from": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "Who takes the drains out, and who looks at the scars at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "from": "vaginoplasty",
+   "type": "procedure",
+   "name": "Vaginoplasty",
+   "as": "Dilation is a two-year daily instruction, and nobody abroad supervises it.",
+   "rel": "risk"
+  },
+  {
+   "from": "hospital-angeles-tijuana",
+   "type": "facility",
+   "name": "Hospital Angeles Tijuana",
+   "as": "A border crossing between the operating surgeon and every subsequent appointment.",
+   "rel": "risk"
+  },
+  {
+   "from": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The risk record for the hole this step falls into.",
+   "rel": "risk"
+  },
+  {
+   "from": "deciding-whether",
+   "type": "pathway",
+   "name": "Deciding whether to go",
+   "as": "The cost that is rarely in the comparison being made here.",
+   "rel": "risk"
+  },
+  {
+   "from": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "What a record that never arrives becomes at home.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "What a thin summary turns into at the first appointment at home.",
+   "rel": "risk"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The same absence, further along: nobody responsible, at a greater distance.",
+   "rel": "kin"
+  },
+  {
+   "from": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "Why the organism is usually found by a laboratory with no record of the operation.",
+   "rel": "kin"
+  },
+  {
+   "from": "candida-auris",
+   "type": "risk",
+   "name": "Candida auris",
+   "as": "Colonisation is silent, so nothing in the patient's own account will raise it.",
+   "rel": "kin"
+  },
+  {
+   "from": "counterfeit-medicines",
+   "type": "risk",
+   "name": "Substandard and falsified medicines",
+   "as": "Why a treatment failure at home is rarely traced back to what was dispensed abroad.",
+   "rel": "kin"
+  },
+  {
+   "from": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "Why case-finding had to be run as a public appeal to people who had been to a named address.",
+   "rel": "kin"
+  },
+  {
+   "from": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "Where an unclear consent surfaces: a clinician at home reading a form nobody can translate.",
+   "rel": "kin"
+  },
+  {
+   "from": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "The reason there is often no name to sue.",
+   "rel": "kin"
+  },
+  {
+   "from": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "Weeks-long incubation means the first clinician to see it is always at home.",
+   "rel": "kin"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Why the second surgeon operates without an operative note.",
+   "rel": "kin"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "Why the infection is usually diagnosed by someone who did not make the wound.",
+   "rel": "kin"
+  },
+  {
+   "from": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "Immunosuppression makes the gap immediately dangerous rather than eventually.",
+   "rel": "kin"
+  },
+  {
+   "from": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "The interval this instrument was written to shorten.",
+   "rel": "risk"
+  },
+  {
+   "from": "dominican-republic-ntm-outbreak",
+   "type": "event",
+   "name": "The Dominican mycobacterial outbreaks, 2013–14 and 2017",
+   "as": "Both outbreaks were found by doctors at home, weeks after discharge abroad.",
+   "rel": "risk"
+  },
+  {
+   "from": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "Patients were traced by telephone from a list, weeks after they had flown home.",
+   "rel": "risk"
+  },
+  {
+   "from": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "What a 90-day episode covers at home and nobody covers abroad.",
+   "rel": "risk"
+  },
+  {
+   "from": "revision",
+   "type": "term",
+   "name": "Revision",
+   "as": "The space a revision falls into when nobody at home agreed to see the patient.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "The risk record for the interval this piece is about, and the recording rates inside it.",
+   "rel": "risk"
+  }
+ ]
+}

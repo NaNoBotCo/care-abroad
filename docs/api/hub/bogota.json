@@ -1,0 +1,312 @@
+{
+ "schema": 1,
+ "id": "bogota",
+ "type": "hub",
+ "names": {
+  "name": "Bogotá",
+  "aliases": [
+   "Bogota",
+   "Santafé de Bogotá",
+   "Distrito Capital"
+  ],
+  "said": "Bo-go-TAH. At 2,640 metres it is the third-highest capital in the world, which is a clinical fact before it is a geographical one."
+ },
+ "region": [
+  "south-america"
+ ],
+ "facets": {
+  "iso2": "CO",
+  "radius_km": 25,
+  "specialty": [
+   "cardiology",
+   "oncology",
+   "transplant",
+   "neurosurgery",
+   "ophthalmology",
+   "orthopaedics"
+  ],
+  "draws": [
+   "cabg",
+   "angioplasty-stent",
+   "heart-valve-replacement",
+   "kidney-transplant",
+   "bone-marrow-transplant",
+   "gamma-knife",
+   "cataract-surgery"
+  ],
+  "languages": [
+   "Spanish",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "Colombia's capital and largest city, the country's medical as well as political centre, sitting at 2,640 metres on the Bogotá savanna. Its export trade is complex hospital work — cardiac, oncological, transplant and neurosurgical — sold mostly to patients from elsewhere in Colombia, from the Caribbean and from Central America, rather than to North Americans on a package.",
+  "story": "Fundación Santa Fe de Bogotá publishes the clearest accreditation record of any institution in this batch: not a logo but a timeline. Its own page gives six Joint Commission International cycles — first accreditation in 2010, then reaccreditation in 2013, 2016, 2019, 2022 and 2025. That is fifteen unbroken years on a three-year cycle, each renewal named and dated.\n\n*Inference —* the timeline is worth more than the mark. An accreditation badge tells a reader that a hospital passed an inspection at some unstated moment; a published cycle list tells them when, how often, and whether anything lapsed. The Cancún hospital in this same batch prints its expiry dates and they have passed; the Bogotá one prints its renewal dates and they have not. Both are being more forthcoming than a hospital that prints a logo alone.\n\nBogotá's altitude is the other thing that distinguishes it. At 2,640 metres the arterial oxygen a patient arrives with is lower than at sea level, and a cardiac or respiratory case flying in from the coast is being asked to acclimatise before being operated on. No page in this project's sources quantifies that, and this record does not.",
+  "how": "Patients arrive by air at El Dorado and are admitted rather than accommodated: this is inpatient medicine. Colombian private hospitals bill per case and negotiate with foreign insurers where one exists. A non-resident coming for treatment whose stay is expected to run beyond ninety days needs a Colombian health visa, which is applied for through the Cancillería.",
+  "today": "As of 16 September 2026 Fundación Santa Fe de Bogotá states six Joint Commission International cycles, the most recent in 2025."
+ },
+ "geo": {
+  "lat": 4.7111,
+  "lon": -74.0722,
+  "precision": "city",
+  "source": "s:wp-bogota"
+ },
+ "address": {
+  "city": "Bogotá",
+  "area": "Distrito Capital",
+  "country": "CO"
+ },
+ "tags": [
+  {
+   "tag": "outcomes-published",
+   "source": "s:fsfb-jci",
+   "tier": "cited",
+   "note": "the hospital publishes its accreditation cycle by cycle with dates, which is not the same as clinical outcomes but is more than a logo",
+   "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci"
+  }
+ ],
+ "kin": [
+  {
+   "to": "colombia",
+   "as": "The country whose complex hospital work concentrates here rather than in Medellín.",
+   "rel": "destination"
+  },
+  {
+   "to": "fundacion-santa-fe",
+   "as": "The hospital whose six dated accreditation cycles this record reads.",
+   "rel": "place"
+  },
+  {
+   "to": "medellin",
+   "as": "The other Colombian hub — cosmetic and dental where this one is cardiac and oncological.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "as": "Accredited the city's flagship hospital in 2010 and has renewed it five times since.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "cabg",
+   "as": "The kind of work that brings a patient to Bogotá rather than to a coast.",
+   "rel": "performs"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Transplant medicine is part of what the city's hospitals sell across borders, and it is the part with the sharpest rules.",
+   "rel": "performs"
+  },
+  {
+   "to": "declaration-of-istanbul-group",
+   "as": "The framework that governs whether a foreign patient may be transplanted at all.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "A dated six-cycle timeline is the most useful answer this batch found to it.",
+   "rel": "story"
+  },
+  {
+   "to": "the-visa",
+   "as": "Colombia asks for a health visa where the stay runs past ninety days.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Fundación Santa Fe de Bogotá — JCI accreditation timeline",
+   "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci"
+  }
+ ],
+ "sources": [
+  "s:wp-bogota",
+  "s:fsfb-jci",
+  "s:lasamericas-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:fsfb-jci",
+    "note": "the cycle list is the hospital's own page, read 16 September 2026; the second paragraph is marked as this project's reasoning and the third states what it cannot source"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "source": "s:lasamericas-visa",
+    "note": "the ninety-day health visa threshold is cited; the rest is the general shape of an inpatient referral trade"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Bogota skyline.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Colombia's capital and largest city, the country's medical as well as political centre, sitting at 2,640 metres on the Bogotá savanna.",
+ "region_terms": [
+  {
+   "key": "south-america",
+   "name": "South America",
+   "note": "Colombia, Brazil, Argentina, Chile, Peru"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The country whose complex hospital work concentrates here rather than in Medellín.",
+   "rel": "destination"
+  },
+  {
+   "to": "fundacion-santa-fe",
+   "type": "facility",
+   "name": "Fundación Santa Fe de Bogotá",
+   "as": "The hospital whose six dated accreditation cycles this record reads.",
+   "rel": "place"
+  },
+  {
+   "to": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "The other Colombian hub — cosmetic and dental where this one is cardiac and oncological.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Accredited the city's flagship hospital in 2010 and has renewed it five times since.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The kind of work that brings a patient to Bogotá rather than to a coast.",
+   "rel": "performs"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Transplant medicine is part of what the city's hospitals sell across borders, and it is the part with the sharpest rules.",
+   "rel": "performs"
+  },
+  {
+   "to": "declaration-of-istanbul-group",
+   "type": "org",
+   "name": "Declaration of Istanbul Custodian Group",
+   "as": "The framework that governs whether a foreign patient may be transplanted at all.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "A dated six-cycle timeline is the most useful answer this batch found to it.",
+   "rel": "story"
+  },
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "Colombia asks for a health visa where the stay runs past ninety days.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bogota",
+   "kind": "web",
+   "title": "Bogotá",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fsfb-jci",
+   "kind": "web",
+   "title": "Certificación Joint Comission International (JCI)",
+   "publisher": "Fundación Santa Fe de Bogotá",
+   "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci",
+   "accessed": "2026-09-16",
+   "note": "the hospital's own accreditation timeline: first cycle 2010, then 2013, 2016, 2019, 2022 and 2025"
+  },
+  {
+   "id": "s:lasamericas-visa",
+   "kind": "web",
+   "title": "Visa Médica en Colombia",
+   "publisher": "Clínica Las Américas Auna, Medellín",
+   "url": "https://www.lasamericas.com.co/oficina-internacional/paso-a-paso/visa-medica-en-colombia",
+   "accessed": "2026-09-16",
+   "note": "states that a non-resident foreigner coming for treatment, and any companion, needs a Colombian health visa where the stay is expected to exceed 90 days, and points at the Cancillería de Colombia"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:fsfb-jci",
+   "note": "the cycle list is the hospital's own page, read 16 September 2026; the second paragraph is marked as this project's reasoning and the third states what it cannot source"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "source": "s:lasamericas-visa",
+   "note": "the ninety-day health visa threshold is cited; the rest is the general shape of an inpatient referral trade"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "outcomes-published",
+   "label": "Publishes outcomes",
+   "icon": "📊",
+   "group": "clinical",
+   "evidence": "a registry submission, an annual clinical report, or a national outcome dataset naming the unit",
+   "source": "s:fsfb-jci",
+   "note": "the hospital publishes its accreditation cycle by cycle with dates, which is not the same as clinical outcomes but is more than a logo",
+   "tier": "cited",
+   "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci"
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The capital cluster, where the teaching hospitals and complex cases sit.",
+   "rel": "part"
+  },
+  {
+   "from": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "The other Colombian hub — cardiac and oncological where this one is cosmetic.",
+   "rel": "contrast"
+  },
+  {
+   "from": "fundacion-santa-fe",
+   "type": "facility",
+   "name": "Fundación Santa Fe de Bogotá",
+   "as": "The academic hospital the Bogotá cluster is anchored on, in the north of the city on Calle 119.",
+   "rel": "place"
+  }
+ ]
+}

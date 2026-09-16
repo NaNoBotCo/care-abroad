@@ -1,0 +1,500 @@
+{
+ "schema": 1,
+ "id": "gallbladder-removal",
+ "type": "procedure",
+ "names": {
+  "name": "Gallbladder removal",
+  "aliases": [
+   "cholecystectomy",
+   "laparoscopic cholecystectomy",
+   "lap chole",
+   "keyhole gallbladder surgery"
+  ],
+  "said": "Surgeons say lap chole. Payer schedules say cholecystectomy and then split open from laparoscopic, because the two carry different prices and different stays."
+ },
+ "etymology": {
+  "root": "cholecystectomy: Greek cholē, bile, plus kystis, a bladder, plus ektomē, a cutting out — the bile bladder cut out. Laparoscopic is Greek lapara, the flank or soft part of the body, plus skopein, to look.",
+  "tier": "tradition",
+  "note": "Open and laparoscopic are separate diagnosis-related groups, separate price rows and separate recoveries; the Irish schedule prices the open operation at about 1.6 times the keyhole one."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "general-surgery",
+  "setting": "day-case",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The gallbladder is removed through four small incisions with a camera, or through a larger cut where the keyhole route fails. Done for gallstones — hardened deposits of digestive fluid, in the hospital page's own words — and for the pain and inflammation they cause. One night on the Bangkok package read for this record; a day case on the Irish tariff, which pays the same figure either way.",
+  "story": "This is the operation where the two ways of writing a price line up most neatly, and they still disagree by a factor of three.\n\nBumrungrad in Bangkok lists laparoscopic cholecystectomy at 240,930 baht against a struck-through 267,700 under a label that reads Special Campaign Discount Common Procedures, package SUR04, prices stated valid until 31 December 2026. It buys an hour and a half of theatre, one night in a single room, the supplies and equipment used during surgery, the anaesthesia, the surgeon, assistant and anaesthetist, one day of ward rounds and the discharge summary. Robotic-assisted cholecystectomy on the same list is 349,500 baht, which is 45% more for the same organ. Bangkok Hospital publishes a robotic cholecystectomy package of its own.\n\nIreland prices the group rather than the technique: DRG H08B, laparoscopic cholecystectomy at minor complexity, EUR 9,867 — the same figure as an inpatient stay and as a day case, the guide excluding open cholecystectomy from that group and pricing it separately at EUR 16,206 as an inpatient and EUR 10,466 as a day case.\n\nAustralia pays the surgeon $768.90 under item 30443, cholecystectomy by any approach without cholangiogram, with a 75% benefit of $576.70.\n\n*Inference —* a hospital charges for the route because the route costs it money; a health service pays for the outcome because it is buying a treated patient. The robot appears in the first kind of price list and not the second, and a reader comparing the two is watching two different accounting systems, not two different operations.\n\nThe queue is why any of it is read. Ireland's National Treatment Purchase Fund counted 115,450 people waiting for an inpatient or day-case appointment at the end of May 2026; NHS England's median wait across all pathways at the end of July 2026 was 12.0 weeks.",
+  "how": "General anaesthesia, the abdomen inflated with carbon dioxide, four ports, the cystic duct and artery clipped and divided, the gallbladder freed from the liver bed and drawn out through a port. An hour and a half of theatre on the package read for this record. Home the next day, back to desk work within a week or two, no lifting for a month.\n\nWhere the keyhole route has to be abandoned mid-operation, the bill changes category: the Irish schedule prices the open operation as a different group at two-thirds more, and the Thai package excludes \"complex cases requiring emergency surgery or other conditions requiring equipment in excess of package\". A conversion on the table is the commonest way a fixed price stops being fixed.",
+  "today": "As of 17 September 2026 the published Thai package price for a keyhole gallbladder removal is 240,930 baht with one night, and 349,500 baht with the robot. Ireland's own price is EUR 9,867 for the keyhole operation, day case or inpatient alike, and EUR 16,206 for the open one as an inpatient. The Australian schedule fee for the surgeon's service is $768.90.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 1,
+  "days_before_flying": 10,
+  "recovery_weeks": 2,
+  "wait_days_home": 84,
+  "note": "One night is the stay named in the Bumrungrad laparoscopic cholecystectomy package read for this record; Ireland's tariff prices the same group as a day case at the same figure as an inpatient stay, whose average length is 2.7 days. The eighty-four days is the median wait of 12.0 weeks across all pathways waiting to start treatment in England at the end of July 2026, published by NHS England — an all-specialty median for the English market, not a gallbladder figure. The ten-day figure is the CDC's guidance not to fly for ten days after abdominal surgery. Two weeks is the span usually quoted for return to desk work.",
+  "as_of": "2026-07-31",
+  "source": "s:nhs-rtt-july-2026",
+  "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "gallbladder-removal",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 240930,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "operating room for 1.5 hours including theatre, nurse assisting surgeon and operating team",
+    "single room for 1 night including nursing service and regular menu meals",
+    "medical supplies and equipment used during surgery under the physician's consideration, specific model",
+    "anaesthesia and necessary medication during the procedure",
+    "doctor fees: surgeon, assistant surgeon, anaesthesiologist",
+    "admission physician fees, one day of daily round physician fees and the discharge summary fee"
+   ],
+   "excludes": [
+    "expenses at the outpatient unit or before the operation",
+    "inpatient stays beyond one day, intensive care, or nights past the day discharge was approved",
+    "consultations with other specialists",
+    "complex cases requiring emergency surgery or other conditions requiring equipment in excess of package",
+    "blood transfusion, laboratory tests and other diagnostic tests before and after, such as blood testing, x-ray, ECG and biopsy charges",
+    "items of a personal nature",
+    "take-home medication and supplies"
+   ],
+   "source": "s:bumrungrad-sur04",
+   "url": "https://www.bumrungrad.com/en/packages/laparoscopic-cholecystectomy",
+   "note": "package SUR04, listed at 240,930 THB against a struck-through 267,700 under a Special Campaign Discount Common Procedures label, prices stated valid until 31 December 2026. The exclusion for complex or converted cases is the sentence that decides whether the price holds.",
+   "tier": "cited",
+   "usd": 7236.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gallbladder-removal",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 349500,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "robotic-assisted cholecystectomy, as listed on the surgical clinic's package page"
+   ],
+   "excludes": [
+    "not itemised on the list page read for this record"
+   ],
+   "source": "s:bumrungrad-surgical-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/surgical-clinics",
+   "note": "45% more than the same hospital's keyhole package for the same organ, read off the package list on 17 September 2026. Bangkok Hospital publishes a robotic cholecystectomy package of its own at a level of its own.",
+   "tier": "cited",
+   "usd": 10497.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gallbladder-removal",
+   "country": "IE",
+   "amount": 9867,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "reimbursement",
+   "includes": [
+    "DRG H08B LAP CHOLECYSTECTOMY, MINC — the whole episode, priced at EUR 9,867 both as an inpatient inlier stay and as a day case"
+   ],
+   "excludes": [
+    "open cholecystectomy procedures, excluded from the group by name and priced separately at EUR 16,206 as an inpatient and EUR 10,466 as a day case",
+    "stays beyond the high boundary, paid per diem on top",
+    "travel and accommodation"
+   ],
+   "source": "s:hse-cbd-niphs-drg-guide",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "note": "what Ireland repays a patient treated abroad under the Cross Border Directive or the Northern Ireland Planned Healthcare Scheme, and its own price for the admission. The same figure for a day case and for an overnight stay, which is a schedule saying the bed is not what it is paying for.",
+   "tier": "cited",
+   "usd": 11384.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gallbladder-removal",
+   "country": "AU",
+   "amount": 768.9,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "item 30443: cholecystectomy, by any approach, without cholangiogram"
+   ],
+   "excludes": [
+    "the hospital, the theatre, the ward and the anaesthetist",
+    "cholangiogram, which falls under a different item"
+   ],
+   "source": "s:mbs-30443",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=30443&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $576.70, the fee shown as applying from 1 July 2026. By any approach: the robot that adds 108,570 baht in Bangkok adds nothing here.",
+   "tier": "cited",
+   "usd": 548.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "hernia-repair",
+   "as": "The other keyhole operation on the same Bangkok list and the same Irish tariff, priced a little lower.",
+   "rel": "kin"
+  },
+  {
+   "to": "hysterectomy",
+   "as": "The other abdominal operation that travels on a queue rather than a price.",
+   "rel": "kin"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the cholecystectomy packages this page reads, keyhole and robotic.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "bangkok-hospital",
+   "as": "Publishes a robotic cholecystectomy package of its own.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the robot adds 45% to the price of the same organ.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where one fee covers the operation by any approach.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The source market whose queue makes a foreign price legible.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route under which an Irish patient is repaid at the Irish price for this operation done abroad.",
+   "rel": "rule"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which a converted operation stops being covered by the fixed price.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who sees the wounds at two weeks, and who investigates the pain that did not go away.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that counts the queue for exactly this kind of operation.",
+   "rel": "measured-by"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hernia-repair",
+   "tell": "Both are short keyhole operations sold as one-night packages at the same hospitals; one removes an organ and one closes a wall."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad — laparoscopic cholecystectomy package",
+   "url": "https://www.bumrungrad.com/en/packages/laparoscopic-cholecystectomy"
+  },
+  {
+   "label": "MBS item 30443",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=30443&qt=item"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-sur04",
+  "s:bumrungrad-surgical-packages",
+  "s:bangkokhospital-cholecystectomy",
+  "s:hse-cbd-niphs-drg-guide",
+  "s:hse-abf-2024-inpatient",
+  "s:mbs-30443",
+  "s:nhs-rtt-july-2026",
+  "s:ntpf-may-2026",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bumrungrad-sur04",
+    "note": "package terms and both Thai prices read off the hospital's own pages on 17 September 2026; tariff figures read off the Irish guide and the Australian item page; the paragraph contrasting the two accounting systems is this project's reasoning and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the conversion point is cited to the Irish group definitions and the Thai exclusion list"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:nhs-rtt-july-2026"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Laparoscopic cholecystectomy.jpg",
+  "File:Gallbladder removed.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The gallbladder is removed through four small incisions with a camera, or through a larger cut where the keyhole route fails.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "The other keyhole operation on the same Bangkok list and the same Irish tariff, priced a little lower.",
+   "rel": "kin"
+  },
+  {
+   "to": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The other abdominal operation that travels on a queue rather than a price.",
+   "rel": "kin"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the cholecystectomy packages this page reads, keyhole and robotic.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "Publishes a robotic cholecystectomy package of its own.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the robot adds 45% to the price of the same organ.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Where one fee covers the operation by any approach.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The source market whose queue makes a foreign price legible.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route under which an Irish patient is repaid at the Irish price for this operation done abroad.",
+   "rel": "rule"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which a converted operation stops being covered by the fixed price.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who sees the wounds at two weeks, and who investigates the pain that did not go away.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that counts the queue for exactly this kind of operation.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-sur04",
+   "kind": "web",
+   "title": "Laparoscopic Cholecystectomy — package SUR04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/laparoscopic-cholecystectomy",
+   "accessed": "2026-09-17",
+   "note": "240,930 THB against a struck-through 267,700 THB under a 'Special Campaign Discount Common Procedures' label; prices stated valid until 31 December 2026; 1.5 hours of theatre and one night in a single room"
+  },
+  {
+   "id": "s:bumrungrad-surgical-packages",
+   "kind": "web",
+   "title": "Surgical Clinic — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/surgical-clinics",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: laparoscopic cholecystectomy 240,930 THB against 267,700; robotic-assisted cholecystectomy 349,500; open inguinal hernia repair one side 199,600 and both sides 304,700; laparoscopic inguinal hernia repair one side 243,500 and both sides 382,000; robotic inguinal hernia repair one side 350,000 and both 430,000; robotic umbilical hernia repair 420,000"
+  },
+  {
+   "id": "s:bangkokhospital-cholecystectomy",
+   "kind": "web",
+   "title": "Robotic-Assisted Cholecystectomy Level 2 — package page",
+   "publisher": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/robotic-assisted-cholecystectomy-level-2-en",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:hse-cbd-niphs-drg-guide",
+   "kind": "gov",
+   "title": "CBD / NIPHS Most Common Procedures DRG Guide",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "accessed": "2026-09-16",
+   "note": "the tariff behind both the Cross Border Directive scheme and the Northern Ireland Planned Healthcare Scheme. Cataract procedures map to DRG C16Z LENS INTERVENTIONS at a day-case price of EUR 1,171, covering phacoemulsification or other extraction of the crystalline lens and capsulotomy; colonoscopy G48B EUR 1,001; gastroscopy G47C EUR 726. Same figure as the HSE's 2024 activity-based-funding day-case price list."
+  },
+  {
+   "id": "s:hse-abf-2024-inpatient",
+   "kind": "gov",
+   "title": "ABF 2024 Admitted Patient Price List — Inpatient Only",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "accessed": "2026-09-17",
+   "note": "the activity-based-funding inlier inpatient price per diagnosis-related group, linked from the HSE's Northern Ireland Planned Healthcare Scheme claim page and the list behind the CBD and NIPHS repayments. Rows read on 17 September 2026: F06C CRNRY BYPSS-INV INVES MINC EUR 30,040, F06B EUR 34,430, F06A EUR 50,579; F05B CRNRY BYPSS+INV INVES MINC EUR 45,093; F04C CRD VLV INTERVTN+PMP-INV INVES MINC EUR 40,253, F04B EUR 50,628, F04A EUR 80,201; F19B TRNS-VSCLR PERC CRDC INTERVTN MINC EUR 9,887, F19A EUR 42,060; F10B INTERVENTIONAL CRNRY PR + AMI MINC EUR 8,857; M01B MAJOR MALE PELVIC INTERVTNS MINC EUR 19,899, M01A EUR 26,820; M02B TRANSURTH PROSTMY MINC EUR 8,363; N04B HYSTERECTOMY FOR N-MAL MINC EUR 13,282; G10B HERNIA INTERVENTIONS MINC EUR 9,046, G10A MAJC EUR 15,366; H08B LAP CHOLECYSTECTOMY MINC EUR 9,867, H07C OPEN CHOLECYSTECTOMY MINC EUR 16,206. An inlier price assumes a length of stay between the low and high boundaries printed beside it."
+  },
+  {
+   "id": "s:mbs-30443",
+   "kind": "gov",
+   "title": "MBS item 30443 — cholecystectomy, by any approach, without cholangiogram",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=30443&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $768.90, 75% benefit $576.70, fee shown as applying from 01-Jul-2026"
+  },
+  {
+   "id": "s:nhs-rtt-july-2026",
+   "kind": "gov",
+   "title": "Statistical Press Notice — NHS referral to treatment (RTT) waiting times data, July 2026",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf",
+   "accessed": "2026-09-16",
+   "note": "published Thursday 10 September 2026. 7.3 million RTT pathways waiting to start treatment at the end of July 2026, an estimated 6.2 million unique patients; 111,379 waiting over 52 weeks, 9,095 over 65 weeks, 235 over 104 weeks; 65.4% waiting up to 18 weeks against a 92% standard; median wait 12.0 weeks. Figures include estimates for three trusts and one independent provider that did not submit."
+  },
+  {
+   "id": "s:ntpf-may-2026",
+   "kind": "gov",
+   "title": "NTPF Publishes May 2026 National Public Hospital Waiting List Data",
+   "publisher": "National Treatment Purchase Fund (Ireland)",
+   "url": "https://www.ntpf.ie/news_and_events/ntpf-publishes-may-2026-national-public-hospital-waiting-list-data/",
+   "accessed": "2026-09-16",
+   "note": "at the end of May 2026: 669,506 waiting for a first outpatient consultation, 115,450 for an inpatient or day-case appointment, 40,986 for a GI endoscopy, 34,049 suspended, 111,643 on the planned-procedure list"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bumrungrad-sur04",
+   "note": "package terms and both Thai prices read off the hospital's own pages on 17 September 2026; tariff figures read off the Irish guide and the Australian item page; the paragraph contrasting the two accounting systems is this project's reasoning and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the conversion point is cited to the Irish group definitions and the Thai exclusion list"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:nhs-rtt-july-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "The other keyhole operation on the same Bangkok package list and the same Irish tariff.",
+   "rel": "kin"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The other keyhole operation that travels on a queue rather than on a price.",
+   "rel": "kin"
+  },
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "Sold here as a robotic package at a fixed price with one ward night.",
+   "rel": "performs"
+  }
+ ]
+}

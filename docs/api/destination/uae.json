@@ -1,0 +1,410 @@
+{
+ "schema": 1,
+ "id": "uae",
+ "type": "destination",
+ "names": {
+  "name": "United Arab Emirates",
+  "aliases": [
+   "UAE",
+   "الإمارات العربية المتحدة",
+   "Emirates"
+  ],
+  "said": "In the trade the UAE means Dubai, and Dubai means the clinics of Jumeirah and Dubai Healthcare City. Abu Dhabi runs a separate regulator and a separate story; the two emirates licence, count and promote independently of each other."
+ },
+ "region": [
+  "gulf",
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "AE",
+  "direction": "both",
+  "currency": "AED",
+  "languages": [
+   "Arabic",
+   "English",
+   "Hindi",
+   "Urdu",
+   "Tagalog"
+  ],
+  "draws": [
+   "dental-implant",
+   "hair-transplant-fue",
+   "ivf",
+   "rhinoplasty"
+  ]
+ },
+ "text": {
+  "what": "A federation of seven emirates that buys care abroad for its own citizens and sells care to visitors at the same time. Dubai licenses and counts an inbound trade of its own and publishes an annual number for it; a separate state programme, with its own bylaw, pays for Emiratis to be treated in Europe, the United States and Asia, and pays their escorts a daily allowance while they are there. Health regulation is emirate-level, not federal, so a clinic in Dubai, one in Abu Dhabi and one in Sharjah answer to three different licensing bodies.",
+  "story": "Dubai Healthcare City opened in 2002 as a free zone with its own clinical regulator, licensing providers and professionals inside its boundary rather than leaving them to the emirate's general health authority. Its first phase covers 4.1 million square feet of hospitals and medical education; a second, dedicated to wellness, is under development. A free zone with a regulator attached is the structural answer to the problem every new destination has, which is that a foreign patient does not know what a local licence means.\n\nThe inbound number the emirate publishes is large and specific. The Dubai Health Authority reported \"more than 691,000 health tourists\" in 2023, spending AED 1.03 billion directly, against 674,000 and AED 992 million the year before. Dentistry accounted for 29 per cent of what they came for, dermatology 27 per cent and gynaecology 13 per cent. *Inference —* those three shares are the tell. A count led by teeth and skin is counting short outpatient visits by people already in the country, not tertiary admissions flown in for surgery, and the release does not publish the rule that separates a visiting patient from a resident one.\n\nThe outbound side is documented in a way the inbound side is not. Administrative Resolution No. 14 of 2017 sets out who the Dubai Health Authority will send abroad and what it will pay: the treatment, the physicians, the medicines and devices, interpreting, air ambulance where needed, and repatriation of the body if the patient dies. One escort travels with an adult patient; two accompany a child, or a patient who is elderly, paralysed, comatose or disabled. The schedule at the back sets the daily allowance by destination — €150 a day for the patient and €150 for the first escort in European countries, US$150 in the United States, AED 300 in India, Thailand and Arab countries.",
+  "how": "Inbound, a visitor books a private clinic directly or through a licensed facilitator, pays cash or against an international policy, and is treated under an emirate licence: the Dubai Health Authority, the Abu Dhabi Department of Health, the federal ministry for the northern emirates, or Dubai Healthcare City's own regulator inside the free zone. Outbound, the route is administrative rather than commercial: a medical report from a government or accredited private hospital, a committee recommendation, then an approval that carries the escort, the flights and the per-diem with it.",
+  "today": "As of September 2026 the most recent inbound figure Dubai has published is the 2023 one. No comparable published count exists for the number of Emiratis sent abroad under the state programme, so the two flows cannot be set against each other on like evidence. By headcount the inbound number is far the larger; by cost per patient the outbound one is not close, because a state does not fly a citizen to Germany for a filling.",
+  "notes": "The 691,000 figure is the Dubai Health Authority's count for one emirate, not a national total, and this record does not extend it to the federation."
+ },
+ "geo": {
+  "lat": 24.4539,
+  "lon": 54.3773,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "inbound_patients_year": 691000,
+  "note": "Dubai only, 2023, as released by the Dubai Health Authority. It counts visits by non-residents to licensed Dubai providers; the release does not state the rule separating a visiting patient from a resident, and its own breakdown — 29% dentistry, 27% dermatology — points at short outpatient contacts rather than admissions. Direct spend was given as AED 1.03 billion, with a further AED 2.3 billion claimed as indirect revenue. Nothing here is audited by this project, and there is no federal equivalent.",
+  "as_of": "2023",
+  "source": "s:dubai-media-office-health-2023",
+  "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k"
+ },
+ "kin": [
+  {
+   "to": "dubai",
+   "as": "The emirate that does the counting, the licensing and nearly all of the selling.",
+   "rel": "part"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The route by which this state pays for its own citizens to be operated on somewhere else.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "as": "Why a licence here names an emirate rather than a country.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "as": "One of the private hospitals the inbound trade is built around.",
+   "rel": "part"
+  },
+  {
+   "to": "dha-dubai",
+   "as": "The authority that licenses the clinics and publishes the arrivals figure.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "Written into this state's own bylaw, with a per-diem attached to it.",
+   "rel": "risk"
+  },
+  {
+   "to": "thailand",
+   "as": "A named destination on this state's own allowance schedule, at AED 300 a day.",
+   "rel": "contrast"
+  },
+  {
+   "to": "saudi-arabia",
+   "as": "The other Gulf state running both flows at once, and the one with the larger population behind it.",
+   "rel": "kin"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a figure of 691,000 needs its counting rule before it can be read.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Dubai Health Authority 2023 health travel figures",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k"
+  },
+  {
+   "label": "Administrative Resolution No. (14) of 2017, overseas medical treatment",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html"
+  }
+ ],
+ "sources": [
+  "s:dubai-media-office-health-2023",
+  "s:dubai-resolution-14-2017",
+  "s:wp-dubai-healthcare-city",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:dubai-resolution-14-2017"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:dubai-media-office-health-2023",
+    "note": "the reading of what the specialty shares imply is marked inline as inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the inbound route is the trade's ordinary shape; the outbound route follows the 2017 bylaw"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "this project comparing two flows measured on unlike evidence, and saying so"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Dubai Healthcare City.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A federation of seven emirates that buys care abroad for its own citizens and sells care to visitors at the same time.",
+ "region_terms": [
+  {
+   "key": "gulf",
+   "name": "The Gulf",
+   "note": "the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain — a source market that is building itself into a destination"
+  },
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The emirate that does the counting, the licensing and nearly all of the selling.",
+   "rel": "part"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The route by which this state pays for its own citizens to be operated on somewhere else.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "Why a licence here names an emirate rather than a country.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "One of the private hospitals the inbound trade is built around.",
+   "rel": "part"
+  },
+  {
+   "to": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "The authority that licenses the clinics and publishes the arrivals figure.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "Written into this state's own bylaw, with a per-diem attached to it.",
+   "rel": "risk"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "A named destination on this state's own allowance schedule, at AED 300 a day.",
+   "rel": "contrast"
+  },
+  {
+   "to": "saudi-arabia",
+   "type": "destination",
+   "name": "Saudi Arabia",
+   "as": "The other Gulf state running both flows at once, and the one with the larger population behind it.",
+   "rel": "kin"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a figure of 691,000 needs its counting rule before it can be read.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dubai-media-office-health-2023",
+   "kind": "gov",
+   "title": "Dubai welcomes more than 691,000 international health travellers in 2023",
+   "publisher": "Dubai Media Office, Government of Dubai",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k",
+   "accessed": "2026-09-16",
+   "note": "Dubai Health Authority figures released 19 August 2024; gives arrivals, spend, regional split and the leading specialties. The release does not publish the counting rule behind the headline number."
+  },
+  {
+   "id": "s:dubai-resolution-14-2017",
+   "kind": "law",
+   "title": "Administrative Resolution No. (14) of 2017 Approving the Bylaw for Sending Patients for Overseas Medical Treatment",
+   "publisher": "Government of Dubai Legislation portal",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html",
+   "accessed": "2026-09-16",
+   "note": "issued 6 February 2017 by the Director General of the Dubai Health Authority; sets eligibility, what the state pays, escort entitlement and a daily allowance schedule by destination country"
+  },
+  {
+   "id": "s:wp-dubai-healthcare-city",
+   "kind": "web",
+   "title": "Dubai Healthcare City",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dubai_Healthcare_City",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:dubai-media-office-health-2023",
+   "note": "the reading of what the specialty shares imply is marked inline as inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the inbound route is the trade's ordinary shape; the outbound route follows the 2017 bylaw"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "this project comparing two flows measured on unlike evidence, and saying so"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nigeria",
+   "type": "destination",
+   "name": "Nigeria",
+   "as": "A destination whose own arrivals count sweeps in visitors from West Africa without separating them out.",
+   "rel": "destination"
+  },
+  {
+   "from": "saudi-arabia",
+   "type": "destination",
+   "name": "Saudi Arabia",
+   "as": "The neighbour running the same two flows, with a published inbound count this country lacks.",
+   "rel": "kin"
+  },
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The federation this free zone and this city sit in.",
+   "rel": "whole"
+  },
+  {
+   "from": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "Where the brand owner publishes its own ladder of prices.",
+   "rel": "destination"
+  },
+  {
+   "from": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "A second destination pricing the same operation in a different currency and a wider range.",
+   "rel": "destination"
+  },
+  {
+   "from": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "The first hospital in the region to take the JCI, in a country that is a source market and a destination at once.",
+   "rel": "destination"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "Where that allowance schedule was published, in a bylaw of the Dubai Health Authority.",
+   "rel": "destination"
+  },
+  {
+   "from": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The country that both sends its nationals abroad under this bylaw and sells treatment to arrivals.",
+   "rel": "destination"
+  },
+  {
+   "from": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "The federation whose licensing this is.",
+   "rel": "destination"
+  },
+  {
+   "from": "aaci",
+   "type": "org",
+   "name": "American Accreditation Commission International",
+   "as": "One of the markets where its mark turns up on private clinic pages.",
+   "rel": "place"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "The federation this authority licenses one emirate of, and whose only published inbound count is its own.",
+   "rel": "place"
+  },
+  {
+   "from": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "One of the destinations whose national brand it names as its own work.",
+   "rel": "place"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The emirate figure whose own breakdown — 29 per cent dentistry, 27 per cent dermatology — says what it counts.",
+   "rel": "destination"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "Buys care abroad for its own nationals under a bylaw that sets the escort's daily allowance by destination.",
+   "rel": "destination"
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "schema": 1,
+ "id": "ishrs",
+ "type": "org",
+ "names": {
+  "name": "International Society of Hair Restoration Surgery",
+  "aliases": [
+   "ISHRS"
+  ],
+  "said": "ISHRS is the complaint. Its census asks its own members what they see in their own cities, and its campaign has a name: Fight the FIGHT."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "professional-society",
+  "iso2": "US",
+  "founded": 1993,
+  "status": "open"
+ },
+ "text": {
+  "what": "The international professional society for hair restoration surgeons, incorporated in 1993, run from Elgin, Illinois, and reporting 1,200 members across 80 countries. It publishes a Practice Census — a periodic questionnaire to its own members, from which it extrapolates worldwide procedure counts — and runs Fight the FIGHT, short for Fight the Fraudulent, Illicit, and Global Hair Transplants, which is the organised professional complaint about unlicensed hair-transplant work.",
+  "story": "The census is the only number anyone has, and it is a number about the society's members.\n\nFrom the 2025 census release: 59 per cent of members reported black-market clinics operating in their own cities in 2024, against 51 per cent in 2021. Repair cases arising from a previous black-market transplant averaged 10 per cent of a member's caseload in 2024, against 6 per cent in 2021. The census was run by an outside firm, Relevant Research of Evanston, Illinois, from participating physicians only, with a margin of error the society gives as plus or minus 5.4 per cent at 95 per cent confidence. The 2022 census, on the same method, drew 197 responses from 822 valid invitations — a 24 per cent response rate — extrapolated 703,183 procedures worldwide for 2021, and stated in its own text that the true number performed worldwide is unknown.\n\n*Inference —* these are the society's claims, and this record reports them as such. A surgeon who repairs botched transplants sees botched transplants; a member answering about clinics in his own city is describing competitors. What the census measures is what a self-selected quarter of one society's membership reports, not what happened in the trade. It is still worth carrying, because there is no alternative: no state anywhere publishes a count of hair transplants performed, and none publishes a count of the ones that went wrong.\n\nThe complaint is a decade old and it named a country early. The society's release of 18 May 2016 warned that unqualified technicians were performing the surgery illegally, named Turkey through a surgeon practising in Istanbul, and reported Turkish technician groups working in Germany, the Netherlands and Belgium under cover of licensed doctors. Fight the FIGHT launched on 1 November 2019; its standing statement is that \"increasing numbers of unlicensed personnel worldwide are performing substantial medical aspects of hair restoration surgery\", and it names no country and gives no figures. Operation Restore, running since 2004, has delivered over $653,400 in free corrective surgery to people the society describes as victims of botched work, and World Hair Transplant Repair Day fell on 11 November 2025. ISHRS President Conradin von Albertini put the allegation this way: \"These fraudulent, illicit hair transplant clinics operate under the guise of an established medical practice, luring unsuspecting patients with false or misleading advertising, rock-bottom prices, and tempting travel packages.\"\n\nThe better corroboration is not the society's own. Türkiye's regulation on hair transplant units, in the Resmî Gazete of 6 May 2023, No. 32182, reserves the channel-opening stage of the operation to physicians holding the applicator certificate, forbids an assistant to work except under a certified physician, caps a certified physician at five rooms, and permits only one patient in a room at a time. *Inference —* a prohibition is written against a practice. The 2023 rules read as a list of what the society had been alleging since 2016, set out by the state where most of the alleged work is done, which is a stronger form of evidence than either a trade-press claim or a membership survey.",
+  "how": "A membership society with an annual scientific meeting, a journal, position statements, and a census run for it by an outside research firm and published as a report and a press release. Fight the FIGHT is a standing public-awareness campaign rather than an enforcement mechanism: the society licenses nobody, inspects nobody and can strike nobody off. Its sanction is publication, and its repair arm is Operation Restore, which treats patients free.",
+  "today": "As of 17 September 2026 the most recent census release is the 2025 one, reporting on 2024, and the Fight the FIGHT and consumer-alert pages carry dates through 30 January 2026.",
+  "notes": "A society's survey of its own members is a survey of its own members. This record carries the figures with that attached, every time."
+ },
+ "geo": {
+  "lat": 42.0372,
+  "lon": -88.2812,
+  "precision": "city",
+  "source": "s:ishrs-about"
+ },
+ "address": {
+  "street": "675 Tollgate Rd., Suite G",
+  "city": "Elgin",
+  "area": "Illinois",
+  "country": "US",
+  "postcode": "60123"
+ },
+ "kin": [
+  {
+   "to": "hair-transplant-fue",
+   "as": "The operation, and the stage of it the society says a technician must not perform.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "as": "A technique that makes the recipient site and places the graft in one movement, which is exactly the step the society's statements are about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "fue",
+   "as": "The word, whose use in clinic advertising the society has tried to pin down.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye",
+   "as": "The country its 2016 release named, and the one that later wrote the same prohibitions into a regulation.",
+   "rel": "place"
+  },
+  {
+   "to": "istanbul",
+   "as": "The city named in its 2016 release, through a surgeon practising there.",
+   "rel": "hub"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "as": "The growth its warnings ran alongside, and predate by six years.",
+   "rel": "event"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The repair operation its census counts as a share of its members' caseload.",
+   "rel": "risk"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "The rules on how this work may be sold, which the society's complaint is largely about.",
+   "rel": "rule"
+  },
+  {
+   "to": "turkiye-health-services-directorate",
+   "as": "The state body that wrote the 2023 hair transplant rules the society had been asking for.",
+   "rel": "org"
+  },
+  {
+   "to": "isaps",
+   "as": "The other society counting a cosmetic trade by surveying its own members.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A trade with no register, counted by asking the people who compete with it.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "ISHRS",
+   "url": "https://ishrs.org/"
+  },
+  {
+   "label": "Fight the FIGHT",
+   "url": "https://ishrs.org/black-market/"
+  },
+  {
+   "label": "2025 census release",
+   "url": "https://ishrs.org/fifth-hair-transplant-repair-day/"
+  }
+ ],
+ "sources": [
+  "s:ishrs-about",
+  "s:ishrs-2025-census-release",
+  "s:ishrs-census-2022",
+  "s:ishrs-black-market",
+  "s:ishrs-consumer-alert",
+  "s:ishrs-unlicensed-technicians",
+  "s:ishrs-2016-buyer-beware",
+  "s:rg-32182-2023-sac-ekimi"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ishrs-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ishrs-2025-census-release",
+    "note": "the 2024 and 2021 census figures and the von Albertini quotation are from the 2025 release, the response rate and the 703,183 extrapolation from the 2022 census report, the 2016 allegations from the buyer-beware release, the campaign dates and Operation Restore total from the black-market page, and the article-level reading of the 2023 Turkish regulation from the Resmî Gazete text; the two paragraphs marked inference are this project's"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "that the society has no licensing or disciplinary power over non-members is this project's reading of what its own pages describe"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:ishrs-about",
+    "note": "headquarters address from the society's about page; city precision only"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "The international professional society for hair restoration surgeons, incorporated in 1993, run from Elgin, Illinois, and reporting 1,200 members across 80 countries.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The operation, and the stage of it the society says a technician must not perform.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "A technique that makes the recipient site and places the graft in one movement, which is exactly the step the society's statements are about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "fue",
+   "type": "term",
+   "name": "FUE",
+   "as": "The word, whose use in clinic advertising the society has tried to pin down.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The country its 2016 release named, and the one that later wrote the same prohibitions into a regulation.",
+   "rel": "place"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The city named in its 2016 release, through a surgeon practising there.",
+   "rel": "hub"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "The growth its warnings ran alongside, and predate by six years.",
+   "rel": "event"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The repair operation its census counts as a share of its members' caseload.",
+   "rel": "risk"
+  },
+  {
+   "to": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "The rules on how this work may be sold, which the society's complaint is largely about.",
+   "rel": "rule"
+  },
+  {
+   "to": "turkiye-health-services-directorate",
+   "type": "org",
+   "name": "Türkiye General Directorate of Health Services",
+   "as": "The state body that wrote the 2023 hair transplant rules the society had been asking for.",
+   "rel": "org"
+  },
+  {
+   "to": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The other society counting a cosmetic trade by surveying its own members.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A trade with no register, counted by asking the people who compete with it.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ishrs-about",
+   "kind": "org",
+   "title": "About the ISHRS",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/about/",
+   "accessed": "2026-09-17",
+   "note": "'Since its incorporation in 1993'; 'an international, non-profit medical society'; 1,200 members representing 80 countries worldwide; headquarters at 675 Tollgate Rd., Suite G, Elgin, IL 60123 USA. A second page, ishrs.org/about-ishrs/, gives more than 1,100 members in 70 countries — the society publishes two counts."
+  },
+  {
+   "id": "s:ishrs-2025-census-release",
+   "kind": "org",
+   "title": "World Hair Transplant Repair Day press release, citing the ISHRS 2025 Practice Census",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "year": 2025,
+   "url": "https://ishrs.org/fifth-hair-transplant-repair-day/",
+   "accessed": "2026-09-17",
+   "note": "a professional society's survey of its own members, not a register"
+  },
+  {
+   "id": "s:ishrs-census-2022",
+   "kind": "report",
+   "title": "2022 Practice Census Results",
+   "publisher": "International Society of Hair Restoration Surgery, prepared by Relevant Research, Inc.",
+   "year": 2022,
+   "url": "https://ishrs.org/wp-content/uploads/2022/04/Report-2022-ISHRS-Practice-Census_04-19-22-FINAL.pdf",
+   "accessed": "2026-09-16",
+   "note": "822 valid invitations, 197 responses, a 24 per cent response rate, an extrapolated 703,183 procedures worldwide in 2021, the sentence that the true number performed worldwide is unknown, 51.1 per cent reporting black-market clinics in their city, and a mean 6 per cent of cases as repairs of a previous black-market transplant"
+  },
+  {
+   "id": "s:ishrs-black-market",
+   "kind": "org",
+   "title": "Black Market hair restoration — the Fight the FIGHT campaign",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/black-market/",
+   "accessed": "2026-09-16",
+   "note": "the society's standing warning that unlicensed personnel perform substantial medical parts of hair restoration surgery; campaign launched November 2019; Operation Restore repairs botched work"
+  },
+  {
+   "id": "s:ishrs-consumer-alert",
+   "kind": "org",
+   "title": "Consumer alert",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/consumer-alert/",
+   "accessed": "2026-09-17",
+   "note": "page carries dates 18 January 2017 and 30 January 2026; 'increasing numbers of unlicensed personnel worldwide are performing substantial medical aspects of hair restoration surgery'; names no country and gives no figures"
+  },
+  {
+   "id": "s:ishrs-unlicensed-technicians",
+   "kind": "org",
+   "title": "Beware of Unlicensed Technicians Performing Hair Restoration Surgery",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/beware-of-unlicensed-technicians-performing-hair-restoration-surgery/",
+   "accessed": "2026-09-16",
+   "note": "position statement dated 10 January 2024, updated from 18 September 2014"
+  },
+  {
+   "id": "s:ishrs-2016-buyer-beware",
+   "kind": "org",
+   "title": "Buyer Beware: Medical Tourism for Hair Transplants Can Have Costly Consequences",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "year": 2016,
+   "url": "https://ishrs.org/buyer-beware-medical-tourism-for-hair-transplants-can-have-costly-consequences/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:rg-32182-2023-sac-ekimi",
+   "kind": "web",
+   "title": "Saç Ekimi Birimleri Hakkında Yönetmelik, Resmî Gazete 6 Mayıs 2023, Sayı 32182",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2023,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230506-11.htm",
+   "accessed": "2026-09-17"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:ishrs-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ishrs-2025-census-release",
+   "note": "the 2024 and 2021 census figures and the von Albertini quotation are from the 2025 release, the response rate and the 703,183 extrapolation from the 2022 census report, the 2016 allegations from the buyer-beware release, the campaign dates and Operation Restore total from the black-market page, and the article-level reading of the 2023 Turkish regulation from the Resmî Gazete text; the two paragraphs marked inference are this project's"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "that the society has no licensing or disciplinary power over non-members is this project's reading of what its own pages describe"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ishrs-about"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:ishrs-about",
+   "note": "headquarters address from the society's about page; city precision only"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:ishrs-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The surgical society that has named this city in its warnings about unlicensed operators since 2016.",
+   "rel": "org"
+  },
+  {
+   "from": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "The society whose statement on who may create recipient sites bears directly on a technique that makes the site and places the graft in one movement.",
+   "rel": "org"
+  },
+  {
+   "from": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The society whose position statement names who should be cutting.",
+   "rel": "org"
+  },
+  {
+   "from": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The other society that counts a cosmetic trade by surveying its own members, and complains about the rest of it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "turkiye-health-services-directorate",
+   "type": "org",
+   "name": "Türkiye General Directorate of Health Services",
+   "as": "The professional society whose allegations since 2016 the 2023 prohibitions read like a list of.",
+   "rel": "org"
+  },
+  {
+   "from": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "The professional society whose alert about unlicensed operators predates the regulation by six years.",
+   "rel": "org"
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "schema": 1,
+ "id": "icl",
+ "type": "procedure",
+ "names": {
+  "name": "Implantable collamer lens",
+  "aliases": [
+   "ICL",
+   "implantable contact lens",
+   "phakic intraocular lens",
+   "EVO ICL",
+   "toric ICL"
+  ],
+  "said": "Sold as an implantable contact lens, which is the selling phrase; it is a phakic intraocular lens, meaning a second lens added while the eye keeps its own."
+ },
+ "etymology": {
+  "root": "Collamer is a trade name — collagen plus polymer — for the material the lens is made of, and the C in ICL stands for it. Phakic is Greek phakos, a lentil and so a lens: an eye that still has its own. Intraocular is Latin intra, within, plus oculus, eye.",
+  "tier": "cited",
+  "source": "s:bumrungrad-icl-single-eye",
+  "note": "The hospital's own description: a thin, clear, soft lens functioning like a contact lens, inserted behind the iris and in front of the eye's natural lens, made of a collagen and co-polymer material."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "ophthalmic",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "A soft lens is folded through a small corneal wound and placed behind the iris, in front of the eye's own lens, which stays. No tissue is removed and the operation can in principle be reversed. It is the answer for the eyes laser surgery is refused for — thin corneas, prescriptions too strong to carve — and it costs several times as much per eye.",
+  "story": "The pairing is the point. Both operations are sold from the same providers to the same patients, and the price gap is consistent across two countries.\n\nBumrungrad in Bangkok lists ICL for a single eye at 129,000 baht and the toric version, which also corrects astigmatism, at 161,000 — package IPDEYE42, prices stated valid until 31 December 2026. Two doors down its own list, laser vision correction by ReLEx SMILE for both eyes is 102,000 baht. One eye by lens implant costs a quarter as much again as two eyes by laser.\n\nOptegra in the United Kingdom prices EVO ICL at £3,595 per eye against LASIK at £2,095 and LASEK at £1,495 on its own laser page — the implant at one and a half to two and a half times the laser.\n\nThe hospital page is unusually clear about who it is for. Bumrungrad's list of candidates names people with thin corneas and people whose myopia, presbyopia or astigmatism \"cannot be corrected by laser treatment\", along with a requirement for sufficiently deep eye chambers and no history of uveitis, glaucoma or diabetic retinopathy.\n\nThe package terms are as clear about the money: the price covers surgeon, hospital and nursing fees for the surgery only and \"Medical device, such as, ICL (only the types specified in the package)\"; it excludes physician's fees, consultations and pre-surgical screening, medication and any other tests; and it covers out-patient same-day surgery only, with overnight stays charged extra.\n\n*Inference —* the lens is inside this package and the appointment that decides whether the eye can take one is outside it. That is the same shape as the cataract package from the same hospital, and it means the sum a traveller can plan with is the package plus an examination they cannot have until they arrive.",
+  "how": "A suitability examination measuring the depth of the anterior chamber and the health of the cornea, sometimes a preliminary laser iridotomy to let fluid pass, then drops, a three-millimetre wound, the folded lens injected and positioned behind the iris. Minutes per eye, no stitches, no removal of tissue. Pressure in the eye is checked within hours because the new lens can obstruct flow.\n\nThe lens stays for decades and can be exchanged or taken out; where the natural lens later clouds, the ICL is removed at the cataract operation. That is the sentence on which the whole comparison with laser surgery turns, and no price page read for this record prices the removal.",
+  "today": "As of 17 September 2026 the published prices read for this record are 129,000 baht for one eye in Bangkok, 161,000 for the toric version, and £3,595 per eye in the United Kingdom. No third country's published ICL price could be read off a provider's own page for this record.",
+  "notes": "This page describes an elective eye operation and the prices published for it. It is not medical advice and it does not say who is a candidate."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": 1,
+  "wait_days_home": null,
+  "note": "Out-patient same-day surgery on the package read for this record, which states that an overnight stay incurs additional charges. An elective purchase rather than a queue in both markets read here, so wait_days_home stays empty. One week is the span usually quoted for return to ordinary activity; no published guidance read here sets a wait before flying.",
+  "as_of": "2026-09-17",
+  "source": "s:bumrungrad-icl-single-eye",
+  "url": "https://www.bumrungrad.com/en/packages/icl-single-eye"
+ },
+ "prices": [
+  {
+   "procedure": "icl",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 129000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "surgeon fees, hospital fees and nursing fees for the surgery only",
+    "medical device, such as the ICL — only the types specified in the package",
+    "out-patient same-day surgery"
+   ],
+   "excludes": [
+    "physician's fees and any fees for consultations or pre-surgical screening",
+    "medication, medical supplies and any other examinations or tests performed",
+    "overnight stays, which incur additional charges",
+    "the second eye"
+   ],
+   "source": "s:bumrungrad-icl-single-eye",
+   "url": "https://www.bumrungrad.com/en/packages/icl-single-eye",
+   "note": "package IPDEYE42, one eye, prices stated valid until 31 December 2026 and 'subject to change with no notice'. The toric version, for eyes with astigmatism, is 161,000 THB on the same list.",
+   "tier": "cited",
+   "usd": 3875.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "icl",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 161000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "toric ICL, single eye, on the same package terms"
+   ],
+   "excludes": [
+    "as the standard ICL package: consultations, screening, medication, other tests, overnight stay, the second eye"
+   ],
+   "source": "s:bumrungrad-eye-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/eye-center",
+   "note": "the astigmatism-correcting lens is 32,000 baht more than the plain one at the same hospital on the same day — a device tier, read off the eye centre's package list on 17 September 2026.",
+   "tier": "cited",
+   "usd": 4836.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "icl",
+   "country": "GB",
+   "amount": 3595,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "EVO ICL, one eye",
+    "virtual consultation",
+    "full eye health check",
+    "treatment plan",
+    "the treatment",
+    "aftercare"
+   ],
+   "excludes": [
+    "the second eye"
+   ],
+   "source": "s:optegra-icl-costs",
+   "url": "https://www.optegra.com/laser-eye-surgery/icl-evo/costs/",
+   "note": "stated per eye as a fixed price. The same provider's laser page prices LASIK at £2,095 and LASEK at £1,495 per eye, which puts the implant at one and a half to two and a half times the laser. The page carries no date of its own and was read on 17 September 2026.",
+   "tier": "cited",
+   "usd": 4845.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "lasik",
+   "as": "The laser operation this one exists for the eyes that fail — and the price it is measured against on every page that sells both.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "The operation that removes the natural lens; this one leaves it, and is taken out when that day comes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the ICL package this page reads, lens included and screening excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where one eye by implant costs more than two eyes by laser at the same hospital.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where the implant is priced per eye against the same provider's laser ladder.",
+   "rel": "destination"
+  },
+  {
+   "to": "bangkok",
+   "as": "The city whose hospital eye centres sell both halves of this choice from one list.",
+   "rel": "place"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The trap this package avoids by naming the lens, and narrows by naming only some types.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which same-day surgery turns out to price an overnight stay separately.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who checks the eye pressure in the weeks after, and who takes the lens out in thirty years.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Why this is an out-of-pocket purchase in both markets read here.",
+   "rel": "rule"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lasik",
+   "tell": "Laser surgery removes corneal tissue and cannot be undone; an ICL adds a lens that can be exchanged or removed. The second costs several times the first."
+  },
+  {
+   "id": "cataract-surgery",
+   "tell": "A cataract implant replaces the eye's own lens; an ICL sits in front of a lens that is still there and still working."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad — ICL single eye package",
+   "url": "https://www.bumrungrad.com/en/packages/icl-single-eye"
+  },
+  {
+   "label": "Optegra — ICL surgery costs",
+   "url": "https://www.optegra.com/laser-eye-surgery/icl-evo/costs/"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-icl-single-eye",
+  "s:bumrungrad-eye-packages",
+  "s:optegra-icl-costs",
+  "s:optegra-laser-costs"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bumrungrad-icl-single-eye",
+    "note": "prices, candidate list and package terms read off the named pages on 17 September 2026; the closing stretch is this project's reasoning and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the removal-at-cataract point is general practice and is stated without a figure"
+   },
+   "etymology": {
+    "tier": "cited",
+    "source": "s:bumrungrad-icl-single-eye"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:bumrungrad-icl-single-eye"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Phakic intraocular lens.jpg",
+  "File:Implantable collamer lens.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "A soft lens is folded through a small corneal wound and placed behind the iris, in front of the eye's own lens, which stays. No tissue is removed and the operation can in principle be reversed.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "The laser operation this one exists for the eyes that fail — and the price it is measured against on every page that sells both.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The operation that removes the natural lens; this one leaves it, and is taken out when that day comes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the ICL package this page reads, lens included and screening excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where one eye by implant costs more than two eyes by laser at the same hospital.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "Where the implant is priced per eye against the same provider's laser ladder.",
+   "rel": "destination"
+  },
+  {
+   "to": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The city whose hospital eye centres sell both halves of this choice from one list.",
+   "rel": "place"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The trap this package avoids by naming the lens, and narrows by naming only some types.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which same-day surgery turns out to price an overnight stay separately.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who checks the eye pressure in the weeks after, and who takes the lens out in thirty years.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "Why this is an out-of-pocket purchase in both markets read here.",
+   "rel": "rule"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-icl-single-eye",
+   "kind": "web",
+   "title": "ICL Single Eye — package IPDEYE42",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/icl-single-eye",
+   "accessed": "2026-09-17",
+   "note": "129,000 THB per eye, valid until 31 December 2026; out-patient only, overnight stays charged extra; includes the ICL device of the types specified"
+  },
+  {
+   "id": "s:bumrungrad-eye-packages",
+   "kind": "web",
+   "title": "Eye Center — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/eye-center",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: ReLEx SMILE both eyes 102,000 THB; ICL single eye 129,000 THB; Toric ICL single eye 161,000 THB; phacoemulsification single eye with monofocal lens, Set 1, 85,400 THB; eye screening 4,100 THB"
+  },
+  {
+   "id": "s:optegra-icl-costs",
+   "kind": "web",
+   "title": "ICL Surgery Costs",
+   "publisher": "Optegra Eye Health Care, United Kingdom",
+   "url": "https://www.optegra.com/laser-eye-surgery/icl-evo/costs/",
+   "accessed": "2026-09-17",
+   "note": "£3,595 per eye, described as a fixed price covering the virtual consultation, eye health check, treatment plan, the treatment and aftercare. The page carries no date of its own."
+  },
+  {
+   "id": "s:optegra-laser-costs",
+   "kind": "web",
+   "title": "Laser Eye Surgery Costs",
+   "publisher": "Optegra Eye Health Care, United Kingdom",
+   "url": "https://www.optegra.com/laser-eye-surgery/costs/",
+   "accessed": "2026-09-17",
+   "note": "prices stated per eye: LASEK £1,495, LASIK £2,095, ReLEx SMILE £2,695, Presbyond £2,995, each including consultations, treatment, aftercare, medication and any enhancement treatment if clinically required. The page carries no date of its own."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bumrungrad-icl-single-eye",
+   "note": "prices, candidate list and package terms read off the named pages on 17 September 2026; the closing stretch is this project's reasoning and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the removal-at-cataract point is general practice and is stated without a figure"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:bumrungrad-icl-single-eye"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:bumrungrad-icl-single-eye"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The implanted lens that sits in front of the natural one rather than replacing it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "The operation for the eyes this one cannot treat, at roughly twice the price per eye from the same providers.",
+   "rel": "contrast"
+  }
+ ]
+}

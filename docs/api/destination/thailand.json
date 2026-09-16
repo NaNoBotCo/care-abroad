@@ -1,0 +1,659 @@
+{
+ "schema": 1,
+ "id": "thailand",
+ "type": "destination",
+ "names": {
+  "name": "Thailand",
+  "aliases": [
+   "ราชอาณาจักรไทย",
+   "Kingdom of Thailand"
+  ],
+  "said": "In the trade Thailand means Bangkok, and Bangkok means about a dozen private hospitals along Sukhumvit and Phetchaburi. Phuket and Chiang Mai sell a different mix."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "TH",
+  "direction": "both",
+  "currency": "THB",
+  "languages": [
+   "Thai",
+   "English"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement"
+  ]
+ },
+ "text": {
+  "what": "The country that made the package price ordinary. A tier of large private hospitals in Bangkok sells fixed-price operations to foreign patients, publishes what they cost, and has done so for long enough that the format spread from here to Kuala Lumpur, Delhi and Istanbul. Thailand also runs a public health system its own citizens use, and the two barely touch.",
+  "story": "The private hospitals that dominate the trade grew out of the 1990s: Thai hospitals built for a middle class that then lost its money in the 1997 crash, with beds to fill and a devalued baht. *Tradition holds —* the foreign patient arrived as the answer to that empty ward, and the industry that followed was built on the exchange rate as much as on the medicine.\n\nJoint Commission International accreditation arrived in 2002, at Bumrungrad, and the mark did the work of translation: it told a foreign insurer what to make of a hospital it had never heard of. The Thai state came in behind the private sector rather than in front of it, with a medical visa class and a run of promotion campaigns.\n\n*Inference —* the numbers everyone quotes for Thailand — millions of medical travellers a year — mostly come from market research firms reselling each other, and they usually count hospital visits by foreigners, which sweeps in every expatriate with a chest infection and every holidaymaker who cut a foot on a reef. The count this directory trusts is the narrow one a named hospital publishes about its own patients, and even that counts visits rather than people.",
+  "how": "A Bangkok private hospital quotes a package: the operation, a named number of ward nights, the surgeon and anaesthetist, and an exclusion list that usually runs longer than the inclusion list. Implants, imaging, laboratory work and any night beyond the package are billed on top. Payment is a deposit before admission and settlement at discharge. Interpreters are salaried staff at the largest hospitals rather than agency bookings.",
+  "today": "Thailand's own health spending per person and its doctor and bed density sit on the country page's chart, drawn from the World Bank series and each carrying its own year. Those are facts about the health system Thai people use; the hospitals in this directory are a small, expensive slice of it, and a reader should not read one as the other."
+ },
+ "geo": {
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried here. The widely quoted figures for Thailand come from market-research summaries whose method this project could not read; the hospital-level counts on the facility pages are what it stands on instead.",
+  "as_of": "2026-09-16",
+  "source": "s:worldbank-open-data"
+ },
+ "kin": [
+  {
+   "to": "bangkok",
+   "as": "Where nearly all of it happens.",
+   "rel": "part"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "The hospital that made the format, and the country's shorthand abroad.",
+   "rel": "part"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "One of the operations sold here at a published fixed price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this country normalised.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why the headline patient numbers for this country should be read slowly.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind what this country spends on health per person.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "The second cluster, and the one that sells the month-long stay.",
+   "rel": "part"
+  },
+  {
+   "to": "defiant",
+   "as": "One facilitator routing patients into this country, with its prices posted.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "Thailand — CDC Yellow Book destination chapter",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK620903/"
+  }
+ ],
+ "sources": [
+  "s:worldbank-open-data",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:wp-bumrungrad",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "tradition",
+    "note": "the trade's own account of the 1997 origin; the inline marks say which stretches are inference"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:worldbank-open-data"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The country that made the package price ordinary. A tier of large private hospitals in Bangkok sells fixed-price operations to foreign patients, publishes what they cost, and has done so for long enough that the format…",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "Where nearly all of it happens.",
+   "rel": "part"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "The hospital that made the format, and the country's shorthand abroad.",
+   "rel": "part"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "One of the operations sold here at a published fixed price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form this country normalised.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why the headline patient numbers for this country should be read slowly.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series behind what this country spends on health per person.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "chiang-mai",
+   "type": "hub",
+   "name": "Chiang Mai",
+   "as": "The second cluster, and the one that sells the month-long stay.",
+   "rel": "part"
+  },
+  {
+   "to": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "One facilitator routing patients into this country, with its prices posted.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:wp-bumrungrad",
+   "kind": "wikipedia",
+   "title": "Bumrungrad International Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bumrungrad_International_Hospital",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the trade's own account of the 1997 origin; the inline marks say which stretches are inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:worldbank-open-data"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "The destination Australians have used longest, and the country of surgery in 12.5% of the Westmead series.",
+   "rel": "destination"
+  },
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The other Asian country with a long-running inbound trade, and a different patient at the door.",
+   "rel": "contrast"
+  },
+  {
+   "from": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "The third destination the deputy minister named in 2022.",
+   "rel": "destination"
+  },
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The neighbour whose package-price format arrived here in the 2000s.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "The second destination in the survey, at 5.73 per cent, and a different kind of patient.",
+   "rel": "destination"
+  },
+  {
+   "from": "philippines",
+   "type": "destination",
+   "name": "Philippines",
+   "as": "The neighbour that built the trade the Philippine programme was written to catch.",
+   "rel": "contrast"
+  },
+  {
+   "from": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "A named destination on this state's own allowance schedule, at AED 300 a day.",
+   "rel": "contrast"
+  },
+  {
+   "from": "vietnam",
+   "type": "destination",
+   "name": "Vietnam",
+   "as": "The regional destination Vietnamese patients leave for, and the format Vietnamese clinics copy.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The country this cluster does nearly all the work for.",
+   "rel": "whole"
+  },
+  {
+   "from": "chiang-mai",
+   "type": "hub",
+   "name": "Chiang Mai",
+   "as": "The country's second cluster, and its long-stay one.",
+   "rel": "part"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "The country whose second cluster this is.",
+   "rel": "whole"
+  },
+  {
+   "from": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "Where the price carries a body-weight condition on its face.",
+   "rel": "destination"
+  },
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "Where the Bangkok ligament package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "Where a month of residential treatment is published as a bracket with both lists attached.",
+   "rel": "destination"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "Where this arch is quoted from 290,000 baht with the clinic fees outside it.",
+   "rel": "destination"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "Where the wrist route costs 23,000 baht more than the groin.",
+   "rel": "destination"
+  },
+  {
+   "from": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "Where the price is published one implant brand at a time.",
+   "rel": "destination"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Where the operation is sold as a package with the nights counted.",
+   "rel": "destination"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "Where the lens is inside the package and the screening is outside it.",
+   "rel": "destination"
+  },
+  {
+   "from": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "Where the price falls when the sixth tooth is crowned.",
+   "rel": "destination"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "Where the fixture-and-crown split is printed as two columns.",
+   "rel": "destination"
+  },
+  {
+   "from": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "Where the only two hospital-published per-session rates read for this record are posted.",
+   "rel": "destination"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "Where the package price on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Where the check-up is sold with a shopping cart and a price valid to a stated date.",
+   "rel": "destination"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "Where the same word is priced as five different operations with their ward nights printed.",
+   "rel": "destination"
+  },
+  {
+   "from": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "Where the same choice is published as two sums to be added.",
+   "rel": "destination"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "Where the robot adds 45% to the price of the same organ.",
+   "rel": "destination"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "Where valve surgery is sold by level, by nights, and without the valve.",
+   "rel": "destination"
+  },
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "Where the surgical route is a price tier and the second side is not double.",
+   "rel": "destination"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "Where both package prices on this page are sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "Where the operation is sold as two nights with the sealing device outside the price.",
+   "rel": "destination"
+  },
+  {
+   "from": "icl",
+   "type": "procedure",
+   "name": "Implantable collamer lens",
+   "as": "Where one eye by implant costs more than two eyes by laser at the same hospital.",
+   "rel": "destination"
+  },
+  {
+   "from": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "Where the Bangkok arthroscopy package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Where the knee package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "Where both eyes cost less than one eye elsewhere, and the suitability examination is a separate purchase.",
+   "rel": "destination"
+  },
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "Where the price is published per named region of the body.",
+   "rel": "destination"
+  },
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "Where the one staged price list read for this record is published.",
+   "rel": "destination"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "Where the robot is a price tier and the ward round is an exclusion.",
+   "rel": "destination"
+  },
+  {
+   "from": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "Where the price is published by implant brand.",
+   "rel": "destination"
+  },
+  {
+   "from": "root-canal",
+   "type": "procedure",
+   "name": "Root canal treatment",
+   "as": "Where the price is set by which tooth it is.",
+   "rel": "destination"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "Where both fusion packages on this page are sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "Where the table that prices this by technique, scar and body weight is published.",
+   "rel": "destination"
+  },
+  {
+   "from": "vaginoplasty",
+   "type": "procedure",
+   "name": "Vaginoplasty",
+   "as": "Where the only full published table of prices by technique is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "veneers",
+   "type": "procedure",
+   "name": "Dental veneers",
+   "as": "Where the veneer price drops at the sixth tooth.",
+   "rel": "destination"
+  },
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "One of the two Bangkok names a foreign patient is most likely to have been given before arriving.",
+   "rel": "destination"
+  },
+  {
+   "from": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "The single institution most often meant when Thailand is called a destination.",
+   "rel": "destination"
+  },
+  {
+   "from": "samitivej",
+   "type": "facility",
+   "name": "Samitivej Sukhumvit Hospital",
+   "as": "A Bangkok hospital whose foreign trade is largely residents of Bangkok rather than arrivals.",
+   "rel": "destination"
+  },
+  {
+   "from": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "A long-standing destination for this surgery, and a row this project could not source.",
+   "rel": "destination"
+  },
+  {
+   "from": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "The destination that closed by nationality in 2015.",
+   "rel": "destination"
+  },
+  {
+   "from": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The country that issues it.",
+   "rel": "destination"
+  },
+  {
+   "from": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "Routes its patients inside this country.",
+   "rel": "destination"
+  },
+  {
+   "from": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The country whose hospitals hold more of these marks than any other in Southeast Asia.",
+   "rel": "place"
+  },
+  {
+   "from": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "The country whose hospitals this is the national standard for, public and private alike.",
+   "rel": "place"
+  },
+  {
+   "from": "world-bank-doctors",
+   "type": "dataset",
+   "name": "Physicians per 1,000 people",
+   "as": "0.54 physicians per 1,000 in 2021, in a country that sells surgery to foreigners.",
+   "rel": "measures"
+  },
+  {
+   "from": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "One of 193 countries carrying a value in this series.",
+   "rel": "measures"
+  },
+  {
+   "from": "world-bank-tourism-arrivals",
+   "type": "dataset",
+   "name": "International arrivals",
+   "as": "39,916,000 arrivals in 2019, the figure most often repurposed as a medical-travel total.",
+   "rel": "measures"
+  },
+  {
+   "from": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "Where the package price on this page is sold.",
+   "rel": "place"
+  }
+ ]
+}

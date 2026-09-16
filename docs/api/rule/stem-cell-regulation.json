@@ -1,0 +1,305 @@
+{
+ "id": "stem-cell-regulation",
+ "names": {
+  "name": "Regulating cell and tissue therapies",
+  "aliases": [
+   "ATMP regulation",
+   "HCT/P",
+   "regenerative medicine law",
+   "minimal manipulation"
+  ],
+  "said": "The whole argument turns on two phrases: minimal manipulation, and homologous use. Clear them and you are a tissue. Fail them and you are a drug."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "licensing",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The law that decides whether a cell preparation is a lightly regulated tissue or a medicine requiring authorisation, and therefore whether a clinic may sell it. Three regimes sit behind most of what is advertised: the United States under 21 CFR Part 1271, the European Union under Regulation (EC) No 1394/2007 on advanced therapy medicinal products, and Japan under the Act on the Safety of Regenerative Medicine, Act No. 85 of 27 November 2013.",
+  "story": "The American regime hinges on definitions. 21 CFR Part 1271 covers human cells, tissues, and cellular and tissue-based products, and § 1271.3 carries the definitions that decide everything downstream. A preparation that is minimally manipulated and intended for homologous use falls inside a registration-and-screening regime. One that is not is a biological drug, and selling it without a licence is unlawful. The Food and Drug Administration's consumer alert on regenerative medicine products including stem cells and exosomes is the agency's own public statement; its 2019 press statement on a permanent injunction against a stem cell clinic is the enforcement end of the same argument.\n\nEurope defines by product class instead. Regulation 1394/2007 creates the advanced therapy medicinal product and routes it through centralised authorisation, with a hospital exemption for products prepared on a non-routine basis for an individual patient in the same Member State.\n\nJapan built a third model, and it is the one designed for clinics rather than for manufacturers. The Act classifies regenerative medicine by risk into Class I, Class II and Class III, requires a provision plan reviewed by a certified committee before treatment begins, and applies to private practice as well as to clinical research. The scale shows what it caught: by November 2015, private-practice applications stood at 2 Class I, 24 Class II and 1,794 Class III.\n\n*Inference —* those three regimes have one thing in common and it is not their content. Each is national, and a clinic that cannot satisfy one moves to a jurisdiction with neither. The published mapping work in this field counted businesses marketing stem cell-based interventions and found them concentrated where no equivalent instrument applies. That is the whole structure of this corner of the subject: the treatment does not become better by crossing a border, and the regulatory question becomes unanswerable.\n\nThe published harms are specific rather than general. A 2017 New England Journal report describes vision loss in three patients after intravitreal injection of autologous cells for age-related macular degeneration.",
+  "how": "What a reader would have to establish about any offered cell treatment: what exactly is being injected, whether it was expanded in culture, what the preparation is intended to do compared with what the tissue does in the body it came from, whether the product holds any marketing authorisation anywhere, and whether the treatment is registered on a trial registry with a protocol and an endpoint.\n\nA clinic operating lawfully in a country with no advanced-therapy regime is operating lawfully. This site records that as a fact about the jurisdiction, not as a judgement about the clinic.",
+  "today": "As of 17 September 2026 the American, European and Japanese instruments named here are in force. No comparable instrument was read for the jurisdictions where direct-to-consumer cell clinics are most often advertised, and this project does not assert that none exists."
+ },
+ "kin": [
+  {
+   "to": "stem-cell-unproven",
+   "as": "The procedure these instruments are argued over.",
+   "rel": "procedure"
+  },
+  {
+   "to": "unproven-stem-cell",
+   "as": "The risk record, and the published harms.",
+   "rel": "risk"
+  },
+  {
+   "to": "japan",
+   "as": "The one jurisdiction that wrote a statute aimed at the clinic rather than the manufacturer.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "The regime that turns on two defined phrases.",
+   "rel": "destination"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "What may be said about a treatment that holds no authorisation.",
+   "rel": "kin"
+  },
+  {
+   "to": "informed-consent",
+   "as": "What a patient is consenting to when the product class is unsettled.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Where a claim goes when the treatment was lawful where it was given.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "21 CFR Part 1271",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-L/part-1271"
+  },
+  {
+   "label": "Act on the Safety of Regenerative Medicine (Act No. 85 of 2013), English translation",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4980/en"
+  }
+ ],
+ "sources": [
+  "s:ecfr-21-1271",
+  "s:eu-atmp-1394-2007",
+  "s:jp-asrm-2013",
+  "s:jp-asrm-review-2019",
+  "s:fda-regenerative-consumer-alert",
+  "s:fda-stem-cell-injunction-2019",
+  "s:berger-2016-global-distribution",
+  "s:turner-knoepfler-2016",
+  "s:kuriyan-stem-cell-2017"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ecfr-21-1271"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:jp-asrm-review-2019",
+    "note": "the stretch marked *Inference —* is this project reasoning from the three regimes and the published mapping work"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "The law that decides whether a cell preparation is a lightly regulated tissue or a medicine requiring authorisation, and therefore whether a clinic may sell it.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "The procedure these instruments are argued over.",
+   "rel": "procedure"
+  },
+  {
+   "to": "unproven-stem-cell",
+   "type": "risk",
+   "name": "Unproven stem cell treatment",
+   "as": "The risk record, and the published harms.",
+   "rel": "risk"
+  },
+  {
+   "to": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The one jurisdiction that wrote a statute aimed at the clinic rather than the manufacturer.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The regime that turns on two defined phrases.",
+   "rel": "destination"
+  },
+  {
+   "to": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "What may be said about a treatment that holds no authorisation.",
+   "rel": "kin"
+  },
+  {
+   "to": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "What a patient is consenting to when the product class is unsettled.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Where a claim goes when the treatment was lawful where it was given.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ecfr-21-1271",
+   "kind": "statute",
+   "title": "21 CFR Part 1271 — Human cells, tissues, and cellular and tissue-based products, § 1271.3 definitions",
+   "publisher": "Electronic Code of Federal Regulations, U.S. Government",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-L/part-1271",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:eu-atmp-1394-2007",
+   "kind": "statute",
+   "title": "Regulation (EC) No 1394/2007 on advanced therapy medicinal products",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2007/1394/article/2",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:jp-asrm-2013",
+   "kind": "statute",
+   "title": "Act on the Safety of Regenerative Medicine (Act No. 85 of 27 November 2013), English translation",
+   "publisher": "Japanese Law Translation, Ministry of Justice, Japan",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4980/en",
+   "accessed": "2026-09-17",
+   "note": "registered from the Japanese Law Translation catalogue entry; the provisions cited in the records come from the peer-reviewed review registered alongside it"
+  },
+  {
+   "id": "s:jp-asrm-review-2019",
+   "kind": "paper",
+   "title": "Japan's challenges of translational regenerative medicine: Act on the safety of regenerative medicine",
+   "publisher": "Regenerative Therapy, via PubMed Central PMC6581824",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6581824/",
+   "accessed": "2026-09-17",
+   "note": "the Act classifies regenerative medicine as Class I (high risk), Class II (intermediate) and Class III (low), each reviewed by a certified committee, and applies to private practice as well as clinical research. By November 2015 private-practice applications stood at 2 Class I, 24 Class II and 1,794 Class III."
+  },
+  {
+   "id": "s:fda-regenerative-consumer-alert",
+   "kind": "org",
+   "title": "Consumer Alert on Regenerative Medicine Products Including Stem Cells and Exosomes",
+   "publisher": "US Food and Drug Administration",
+   "url": "https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/consumer-alert-regenerative-medicine-products-including-stem-cells-and-exosomes",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fda-stem-cell-injunction-2019",
+   "kind": "org",
+   "title": "Statement on stem cell clinic permanent injunction and FDA's ongoing efforts to protect patients from risks of unapproved products",
+   "publisher": "US Food and Drug Administration",
+   "url": "https://www.fda.gov/news-events/press-announcements/statement-stem-cell-clinic-permanent-injunction-and-fdas-ongoing-efforts-protect-patients-risks",
+   "accessed": "2026-09-16",
+   "note": "25 June 2019; summary judgment of 3 June 2019 in the Southern District of Florida"
+  },
+  {
+   "id": "s:berger-2016-global-distribution",
+   "kind": "paper",
+   "title": "Global Distribution of Businesses Marketing Stem Cell-Based Interventions",
+   "publisher": "Cell Stem Cell 19:158-162, 2016; Berger I, Ahmad A, Bansal A, Kapoor T, Sipp D, Rasko JEJ; doi 10.1016/j.stem.2016.07.015",
+   "url": "https://europepmc.org/article/MED/27494673",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:turner-knoepfler-2016",
+   "kind": "paper",
+   "title": "Selling Stem Cells in the USA: Assessing the Direct-to-Consumer Industry",
+   "publisher": "Cell Stem Cell 2016;19(2):154-157 (Turner L, Knoepfler P)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27374789/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:kuriyan-stem-cell-2017",
+   "kind": "paper",
+   "title": "Vision Loss after Intravitreal Injection of Autologous \"Stem Cells\" for AMD",
+   "publisher": "New England Journal of Medicine 2017;376(11):1047-1053 (Kuriyan AE, Albini TA, Townsend JH, et al.)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28296617/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:ecfr-21-1271"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:jp-asrm-review-2019",
+   "note": "the stretch marked *Inference —* is this project reasoning from the three regimes and the published mapping work"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:ecfr-21-1271"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ecfr-21-1271"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "The rules that decide what a hospital in the zone may actually give a patient.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "Which preparations are lawful to sell where, and on whose approval.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "unproven-stem-cell",
+   "type": "risk",
+   "name": "Unproven stem cell treatment",
+   "as": "The rules that decide where this can lawfully be offered and on what terms.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "What may be said about a treatment holding no authorisation anywhere.",
+   "rel": "kin"
+  },
+  {
+   "from": "leigh-turner",
+   "type": "person",
+   "name": "Leigh Turner",
+   "as": "The rules his counts are measured against, country by country.",
+   "rel": "rule"
+  },
+  {
+   "from": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "The other direction: a clinic that cannot satisfy one national regime moves to a jurisdiction with none.",
+   "rel": "rule"
+  }
+ ]
+}

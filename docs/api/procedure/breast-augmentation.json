@@ -1,0 +1,439 @@
+{
+ "schema": 1,
+ "id": "breast-augmentation",
+ "type": "procedure",
+ "names": {
+  "name": "Breast augmentation",
+  "aliases": [
+   "augmentation mammoplasty",
+   "boob job",
+   "breast enlargement",
+   "fat transfer to the breast"
+  ],
+  "said": "Clinics say augmentation when an implant goes in and fat transfer when the patient's own fat does. Price pages in Bangkok say the brand: Mentor, Motiva, Sebbin, Silimed. The brand is the price."
+ },
+ "etymology": {
+  "root": "mammoplasty: Latin mamma, a breast, plus Greek plastos, moulded. Augmentation from Latin augere, to increase - the same root as augment and as augur, who read increase in the flight of birds.",
+  "tier": "tradition",
+  "note": "cc means cubic centimetres of implant volume, and it is the unit that moves a Bangkok price: the same shell over 400 cc costs 10,000 to 20,000 baht more on the same table."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "cosmetic",
+  "setting": "day-case",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A silicone shell filled with cohesive gel or saline is placed behind the breast tissue or behind the chest muscle, through a cut in the fold under the breast, around the areola or in the armpit. The alternative operation takes fat by liposuction from elsewhere on the body and injects it into the breast, which adds less volume and holds it less predictably. An implant is a device with a serial number, a manufacturer and a register, and it is not permanent.",
+  "story": "Breast augmentation is the operation that taught the trade to price by component. A Bangkok price table for one hospital runs to eighteen lines, and every line is a shell: round Mentor under 400 cc at 125,000 baht, Motiva Ergonomix at 217,000, Ergonomix II Zen at 289,000, each with one night on the ward. The operation barely changes across those lines. The device does, and so does the margin.\n\nEuropean lists are shorter and quieter about the device. Premier Clinic in Prague prices breast augmentation alone from 55,000 koruna; Artplastica in Poland prices augmentation with round implants at 25,500 zloty and lists the ward day separately at 800 zloty. The American Society of Plastic Surgeons publishes 4,875 US dollars for augmentation with implants and 5,719 for augmentation with fat grafting, and says that figure is a surgeon's fee with no anaesthesia and no operating room in it.\n\n*Inference --* the implant is where a cross-border comparison usually breaks. A patient who cannot name the manufacturer, the volume, the shell texture and the lot number of what was put in cannot be followed up properly at home, cannot be matched if one side fails, and cannot be found by a manufacturer's recall. The implant card is the document that carries those numbers, and asking for it is a step in the journey rather than a clinical courtesy.",
+  "how": "General anaesthesia; most published packages name one night. Drains, where used, come out in days. Clinics commonly restrict overhead lifting for several weeks and a supportive garment is worn for longer. Implants are followed for life: rupture, capsular contracture and change of taste all produce revision operations, and every register that measures them counts device removals as well as insertions. Where a price is quoted per breast rather than per operation, the table usually says so in small type.",
+  "today": "Prices on this record run from 25,500 zloty in Poland to 289,000 baht for a named gel implant in Bangkok, with a published American surgeon's fee of 4,875 US dollars that excludes the theatre it is performed in. Each row names its date and what it covers. None of them include the follow-up scan that most manufacturers and several regulators recommend for the years after.",
+  "notes": "This page describes an operation and the devices used in it. It is not advice about either."
+ },
+ "metrics": {
+  "stay_days": 1,
+  "note": "One night is the stay printed beside every implant line on the Yanhee table read for this record, not a clinical standard; day-case augmentation is routine elsewhere. No implant survival or revision rate is carried here: the national breast implant registries that measure those publish by device and by year, which is a dataset record rather than a number for this page.",
+  "as_of": "2026-09-16",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {
+   "procedure": "breast-augmentation",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 125000,
+   "amount_high": 305000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "the implant, named by brand and shell",
+    "one night on the ward"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "the range across eighteen published lines: round Mentor under 400 cc at 125,000 THB at the bottom, Motiva Ergonomix II Zen over 400 cc at 305,000 THB at the top. Unlike most joint packages, the device is inside the price here and the brand is what moves it.",
+   "tier": "cited",
+   "usd": 3754.0,
+   "usd_high": 9161.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "breast-augmentation",
+   "country": "CZ",
+   "city": "Prague",
+   "amount": 55000,
+   "currency": "CZK",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "breast augmentation alone"
+   ],
+   "excludes": [
+    "not stated on the page"
+   ],
+   "source": "s:premier-clinic-prague-prices",
+   "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/",
+   "note": "listed as 'from'. The same list prices augmentation by the clinic's Preserve method from 93,000 CZK and breast lift with augmentation from 88,000 CZK.",
+   "tier": "cited",
+   "usd": 2612.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "breast-augmentation",
+   "country": "PL",
+   "city": "Szczecin",
+   "amount": 25500,
+   "currency": "PLN",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "augmentation with round implants"
+   ],
+   "excludes": [
+    "hospitalisation, listed separately at 800 PLN a day"
+   ],
+   "source": "s:artplastica-cennik",
+   "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/",
+   "note": "the clinic states its listed prices are indicative and may change at consultation",
+   "tier": "cited",
+   "usd": 6776.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "breast-augmentation",
+   "country": "US",
+   "amount": 4875,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "survey",
+   "includes": [
+    "surgeon fee only, augmentation with implants"
+   ],
+   "excludes": [
+    "anesthesia",
+    "operating room facilities",
+    "other related expenses",
+    "the implants themselves are not itemised on the page"
+   ],
+   "source": "s:asps-cost-breast-augmentation",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/cost",
+   "note": "the same page gives 5,719 USD for augmentation with fat grafting. No year is named on the page for either figure.",
+   "tier": "cited",
+   "usd": 4875.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "bbl",
+   "as": "The other fat-grafting operation, and the one with a published mortality figure attached to it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "liposuction",
+   "as": "Where the fat comes from when the augmentation is done without an implant.",
+   "rel": "part"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the price is published one implant brand at a time.",
+   "rel": "destination"
+  },
+  {
+   "to": "czechia",
+   "as": "A European price list for the same operation, in koruna.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "as": "Where the ward day is priced separately from the operation.",
+   "rel": "destination"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The line item that decides whether a published price is half a bill; here the device is usually inside it, which is the exception.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision",
+   "as": "Implants are removed and replaced; the first price covers none of that.",
+   "rel": "term"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who holds the implant card, and who scans the breast in five years.",
+   "rel": "risk"
+  },
+  {
+   "to": "isaps",
+   "as": "The society whose global survey counts this operation across countries.",
+   "rel": "org"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where the brand, the volume and the ward night are separated from the headline.",
+   "rel": "step"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "bbl",
+   "tell": "Both may be sold as fat transfer. Fat to the breast and fat to the buttock are different operations with different risks, and only one of them has a task-force mortality figure."
+  }
+ ],
+ "links": [
+  {
+   "label": "Yanhee implant price table",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+  }
+ ],
+ "sources": [
+  "s:yanhee-plastic-prices",
+  "s:premier-clinic-prague-prices",
+  "s:artplastica-cennik",
+  "s:asps-cost-breast-augmentation"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "price paragraphs read off the four named pages; the implant-card paragraph is marked as inference inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Breast implant.jpg",
+  "File:Breast augmentation diagram.png"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A silicone shell filled with cohesive gel or saline is placed behind the breast tissue or behind the chest muscle, through a cut in the fold under the breast, around the areola or in the armpit.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "The other fat-grafting operation, and the one with a published mortality figure attached to it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "Where the fat comes from when the augmentation is done without an implant.",
+   "rel": "part"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the price is published one implant brand at a time.",
+   "rel": "destination"
+  },
+  {
+   "to": "czechia",
+   "type": "destination",
+   "name": "Czechia",
+   "as": "A European price list for the same operation, in koruna.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "Where the ward day is priced separately from the operation.",
+   "rel": "destination"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The line item that decides whether a published price is half a bill; here the device is usually inside it, which is the exception.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision",
+   "type": "term",
+   "name": "Revision",
+   "as": "Implants are removed and replaced; the first price covers none of that.",
+   "rel": "term"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who holds the implant card, and who scans the breast in five years.",
+   "rel": "risk"
+  },
+  {
+   "to": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The society whose global survey counts this operation across countries.",
+   "rel": "org"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step where the brand, the volume and the ward night are separated from the headline.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:yanhee-plastic-prices",
+   "kind": "web",
+   "title": "Plastic Surgery Prices",
+   "publisher": "Yanhee Hospital, Bangkok",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "accessed": "2026-09-16",
+   "note": "hospital's own price table: procedure, nights, price in Thai baht. The page carries no validity date and no inclusion list."
+  },
+  {
+   "id": "s:premier-clinic-prague-prices",
+   "kind": "web",
+   "title": "Price List - Plastic Surgery",
+   "publisher": "Premier Clinic, Prague",
+   "url": "https://www.premier-clinic.cz/en/price-list-plastic-surgery/",
+   "accessed": "2026-09-16",
+   "note": "clinic's own English price list, every line prefixed 'from', in Czech koruna"
+  },
+  {
+   "id": "s:artplastica-cennik",
+   "kind": "web",
+   "title": "Cennik zabiegow i operacji plastycznych",
+   "publisher": "Beauty Group - Artplastica, Szczecin",
+   "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/",
+   "accessed": "2026-09-16",
+   "note": "clinic's own price list in zloty; the page states the prices are indicative and may change at consultation, and lists hospitalisation at 800 PLN a day separately"
+  },
+  {
+   "id": "s:asps-cost-breast-augmentation",
+   "kind": "org",
+   "title": "Breast Augmentation Cost",
+   "publisher": "American Society of Plastic Surgeons",
+   "url": "https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/cost",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "price paragraphs read off the four named pages; the implant-card paragraph is marked as inference inline"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "argentina",
+   "type": "destination",
+   "name": "Argentina",
+   "as": "A staple of the surgical half of the country's count.",
+   "rel": "procedure"
+  },
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "One of the operations the European end of this trade is built on.",
+   "rel": "procedure"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "Sold here on the same recovery-in-a-resort footing.",
+   "rel": "procedure"
+  },
+  {
+   "from": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "The other place harvested fat is injected, with a different risk profile.",
+   "rel": "contrast"
+  },
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "Where the harvested fat goes when no implant is used.",
+   "rel": "contrast"
+  },
+  {
+   "from": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "The mirror operation, priced by implant on the same tables.",
+   "rel": "contrast"
+  },
+  {
+   "from": "prince-court",
+   "type": "facility",
+   "name": "Prince Court Medical Centre",
+   "as": "Sold here at a fixed price with two named implant brands and a top-up between them.",
+   "rel": "performs"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The commonest procedure in the Manchester breast unit series.",
+   "rel": "procedure"
+  },
+  {
+   "from": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "Third on that ranking, and one of the operations its survey counts by country.",
+   "rel": "procedure"
+  }
+ ]
+}

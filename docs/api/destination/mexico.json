@@ -1,0 +1,504 @@
+{
+ "schema": 1,
+ "id": "mexico",
+ "type": "destination",
+ "names": {
+  "name": "Mexico",
+  "aliases": [
+   "Estados Unidos Mexicanos",
+   "United Mexican States"
+  ],
+  "said": "In the trade Mexico means the border first — Los Algodones for teeth, Tijuana for weight-loss surgery — and Monterrey, Guadalajara and Cancún after that. A patient who drives to a border town and walks back the same evening never books a flight, and never appears in an arrivals statistic."
+ },
+ "region": [
+  "mexico",
+  "north-america"
+ ],
+ "facets": {
+  "iso2": "MX",
+  "direction": "inbound",
+  "currency": "MXN",
+  "languages": [
+   "Spanish",
+   "English"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "gastric-sleeve",
+   "gastric-bypass"
+  ]
+ },
+ "text": {
+  "what": "The country most US residents cross into for care, and the only destination on this site reachable on foot. The CDC's own chapter names it first in the list of places US patients most commonly travel to for care, ahead of Canada, the Caribbean and several countries in South America. The trade divides into three: dental streets in the border towns, weight-loss surgery in Tijuana and Monterrey, and cosmetic and orthopaedic work in the interior cities. The same chapter names Mexico in three of its documented outbreaks.",
+  "story": "Border dentistry is the oldest of it. Los Algodones, in Baja California across the line from Yuma, reported 5,474 people at the 2010 Mexican census; the health researcher Krystyna Adams, who spent four months there in 2015–16, counted \"more than 500 practising dentists\" in \"an intense clustering of dental clinics within a four block radius\". The town is called Molar City in the English-language press. Adams's own conclusion was not about price: her fieldwork was published under the heading that the industry exploits the workers who staff it.\n\nWeight-loss surgery is the newer trade, and the one with a measured tail. Surgeons at the University of California San Diego, thirty miles from the border, reviewed 91 patients who had bariatric surgery in Mexico and then presented to them with complications between 2014 and 2024: a sleeve gastrectomy in 69.2% of them, a leak at the staple line or the join in 33.0%, admission in 56.0%, intensive care in 19.8%, and three deaths, 3.3%. Mean total hospital charges came to $193,445.08 per patient, and to $424,975.89 where the complication was a leak. The paper counts the patients who reached one American hospital, not the patients who travelled — a denominator nobody has.\n\nIn 2023 two clinics in Matamoros, Tamaulipas — River Side Surgical Center and Clinica K-3 — were closed on 13 May after US patients who had received epidural anaesthesia there developed fungal meningitis. The Mexican Ministry of Health gave the CDC a list of US residents treated at the two clinics between 1 January and 13 May 2023. By 31 August 2023 the CDC's tally was 10 confirmed cases, 14 probable, 9 suspected, 151 persons under investigation, and 12 deaths. The organism found in the spinal fluid was of the Fusarium solani species complex.\n\n*Inference —* those three stories describe the same country and nothing about them resolves. A dental crown fitted by a licensed dentist in Los Algodones and an epidural given in Matamoros sit in the same jurisdiction, and the tell that separated them was not available to the patient in advance.",
+  "how": "*Trade practice —* the border trade runs on the day trip: park on the US side, walk the pedestrian crossing, see the dentist, walk back. Prices are quoted per item on clinic boards and handbills rather than as packages. The bariatric trade runs on the airport pickup instead — a facilitator meets the patient at San Diego, drives to a Tijuana hospital, and returns them to the border after two or three nights, with follow-up by telephone. Payment is usually cash or card at the clinic, and neither trade bills a US insurer. The interior hospitals in Monterrey, Guadalajara and Mexico City work the way large private hospitals work anywhere: an international office, a quote, a deposit.",
+  "today": "The ISAPS survey of plastic surgeons put 1,294,946 aesthetic procedures in Mexico in 2024, 734,082 of them surgical — an extrapolation from the surgeons who answered, not a count of operations. The same survey asked those surgeons what share of their patients came from elsewhere: the median answer in Mexico was 12.0% and the average 23.4%, with the United States, Canada and Colombia the three origins named most often. No figure on this page counts dental patients, who are most of the traffic and almost none of the data."
+ },
+ "geo": {
+  "lat": 19.4326,
+  "lon": -99.1332,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried here. Mexico's largest medical-travel flow is dental work at land border crossings, which no register counts as health travel; the ISAPS figures in text.today count aesthetic procedures by board-certified plastic surgeons, extrapolated from 2,975 survey responses across 32 locations, and count nothing else.",
+  "as_of": "2024",
+  "source": "s:isaps-global-survey-2024",
+  "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+ },
+ "kin": [
+  {
+   "to": "los-algodones",
+   "as": "The dental street that made the border trade, four blocks of it.",
+   "rel": "part"
+  },
+  {
+   "to": "tijuana",
+   "as": "Where the weight-loss surgery is done, half an hour from a US hospital.",
+   "rel": "part"
+  },
+  {
+   "to": "monterrey",
+   "as": "The interior counterweight: large private hospitals rather than a border street.",
+   "rel": "part"
+  },
+  {
+   "to": "cancun",
+   "as": "The resort end of the trade, sold alongside a holiday.",
+   "rel": "part"
+  },
+  {
+   "to": "united-states",
+   "as": "The source market next door, and the reason the trade is a drive rather than a flight.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The item the border clinics sell most, priced per tooth.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "The operation behind the Tijuana trade, and behind the complication series at San Diego.",
+   "rel": "procedure"
+  },
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "as": "The Matamoros outbreak, in its own record.",
+   "rel": "event"
+  },
+  {
+   "to": "fungal-meningitis",
+   "as": "What the two Matamoros clinics sent home with their patients.",
+   "rel": "risk"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "as": "The CDC names CRE infections after invasive procedures in this country.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who fixes it, and what that bill looks like: $193,445.08 a patient in the San Diego series.",
+   "rel": "risk"
+  },
+  {
+   "to": "hospital-angeles-tijuana",
+   "as": "One of the named hospitals on the Tijuana side.",
+   "rel": "part"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC — fungal meningitis outbreak, Matamoros",
+   "url": "https://archive.cdc.gov/www_cdc_gov/hai/outbreaks/meningitis-epidural-anesthesia.html"
+  },
+  {
+   "label": "Managing complications of bariatric travel at UC San Diego",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222374/"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-medical-tourism",
+  "s:cdc-meningitis-matamoros",
+  "s:spurzem-bariatric-tourism-2025",
+  "s:adams-dental-tourism-2017",
+  "s:wp-los-algodones",
+  "s:isaps-global-survey-2024",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "each stretch names its source; the closing paragraph is marked as this project's inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the operating shape of the border day trip and the Tijuana pickup, hedged in the prose"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:isaps-global-survey-2024"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Los Algodones, Baja California.jpg",
+  "File:Tijuana skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The country most US residents cross into for care, and the only destination on this site reachable on foot.",
+ "region_terms": [
+  {
+   "key": "mexico",
+   "name": "Mexico",
+   "note": "its own entry because the border towns are a category of their own"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The dental street that made the border trade, four blocks of it.",
+   "rel": "part"
+  },
+  {
+   "to": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "Where the weight-loss surgery is done, half an hour from a US hospital.",
+   "rel": "part"
+  },
+  {
+   "to": "monterrey",
+   "type": "hub",
+   "name": "Monterrey",
+   "as": "The interior counterweight: large private hospitals rather than a border street.",
+   "rel": "part"
+  },
+  {
+   "to": "cancun",
+   "type": "hub",
+   "name": "Cancún",
+   "as": "The resort end of the trade, sold alongside a holiday.",
+   "rel": "part"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The source market next door, and the reason the trade is a drive rather than a flight.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The item the border clinics sell most, priced per tooth.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The operation behind the Tijuana trade, and behind the complication series at San Diego.",
+   "rel": "procedure"
+  },
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "The Matamoros outbreak, in its own record.",
+   "rel": "event"
+  },
+  {
+   "to": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "What the two Matamoros clinics sent home with their patients.",
+   "rel": "risk"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "The CDC names CRE infections after invasive procedures in this country.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who fixes it, and what that bill looks like: $193,445.08 a patient in the San Diego series.",
+   "rel": "risk"
+  },
+  {
+   "to": "hospital-angeles-tijuana",
+   "type": "facility",
+   "name": "Hospital Angeles Tijuana",
+   "as": "One of the named hospitals on the Tijuana side.",
+   "rel": "part"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:cdc-meningitis-matamoros",
+   "kind": "web",
+   "title": "Fungal Meningitis Outbreak Associated with Procedures Performed under Epidural Anesthesia in Matamoros, Mexico",
+   "publisher": "US Centers for Disease Control and Prevention (archived page, last updated 27 October 2023)",
+   "url": "https://archive.cdc.gov/www_cdc_gov/hai/outbreaks/meningitis-epidural-anesthesia.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:spurzem-bariatric-tourism-2025",
+   "kind": "journal",
+   "title": "Getting more than what you pay for? Managing complications of bariatric tourism at an academic center near the US-Mexico border",
+   "publisher": "Spurzem GJ et al., Surgical Endoscopy, 2025, doi:10.1007/s00464-025-11850-x",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222374/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:adams-dental-tourism-2017",
+   "kind": "web",
+   "title": "Dental tourism industry exploits workers in Mexico",
+   "publisher": "Krystyna Adams, The Conversation, 12 October 2017",
+   "url": "https://theconversation.com/dental-tourism-industry-exploits-workers-in-mexico-85071",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-los-algodones",
+   "kind": "encyclopedia",
+   "title": "Los Algodones",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Los_Algodones",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:isaps-global-survey-2024",
+   "kind": "report",
+   "title": "ISAPS International Survey on Aesthetic/Cosmetic Procedures Performed in 2024",
+   "publisher": "International Society of Aesthetic Plastic Surgery, tabulated by Industry Insights Inc.",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "each stretch names its source; the closing paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the operating shape of the border day trip and the Tijuana pickup, hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "Where Canadians are one of the three origins surgeons name, and where the dentistry is.",
+   "rel": "destination"
+  },
+  {
+   "from": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The destination reached by road, and the one the CDC names first.",
+   "rel": "destination"
+  },
+  {
+   "from": "cancun",
+   "type": "hub",
+   "name": "Cancún",
+   "as": "The country whose resort economy this cluster grew inside.",
+   "rel": "destination"
+  },
+  {
+   "from": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The country this cluster sits in, though almost nothing about it is aimed at Mexicans.",
+   "rel": "destination"
+  },
+  {
+   "from": "monterrey",
+   "type": "hub",
+   "name": "Monterrey",
+   "as": "The country whose hospital-grade export trade concentrates here rather than on the border.",
+   "rel": "destination"
+  },
+  {
+   "from": "nuevo-progreso",
+   "type": "hub",
+   "name": "Nuevo Progreso",
+   "as": "The country the bridge lands in.",
+   "rel": "destination"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "The country whose surgical export trade is most concentrated here.",
+   "rel": "destination"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "Where the trademark is sold in three implant brands with a US comparison column beside it.",
+   "rel": "destination"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "Where the border clinics price the implant against a US comparison of their own.",
+   "rel": "destination"
+  },
+  {
+   "from": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "Where the whole ladder from a $320 denture to $13,310 of All-on-6 is printed on one page.",
+   "rel": "destination"
+  },
+  {
+   "from": "gastric-balloon",
+   "type": "procedure",
+   "name": "Gastric balloon",
+   "as": "Where the cheapest published price for this device was read.",
+   "rel": "destination"
+  },
+  {
+   "from": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "Where both published prices on this page are sold, a short drive from the border.",
+   "rel": "destination"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The other high-volume destination, reached by road from San Diego rather than by air.",
+   "rel": "destination"
+  },
+  {
+   "from": "root-canal",
+   "type": "procedure",
+   "name": "Root canal treatment",
+   "as": "Where one price covers any tooth in the mouth.",
+   "rel": "destination"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "Where one of the two published price pages sits, and where the border survey counted 76 locations in one city.",
+   "rel": "destination"
+  },
+  {
+   "from": "veneers",
+   "type": "procedure",
+   "name": "Dental veneers",
+   "as": "Where the veneer is quoted against a US comparison the clinic supplies.",
+   "rel": "destination"
+  },
+  {
+   "from": "hospital-angeles-tijuana",
+   "type": "facility",
+   "name": "Hospital Angeles Tijuana",
+   "as": "The border-town end of Mexican private medicine, where the patient walks across rather than flies in.",
+   "rel": "destination"
+  },
+  {
+   "from": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "Where both clinics were, and one of the two countries named in the CDC's outbreak list.",
+   "rel": "place"
+  },
+  {
+   "from": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "The country page where this outbreak sits alongside the border dental trade and the Tijuana bariatric trade.",
+   "rel": "destination"
+  },
+  {
+   "from": "world-bank-tourism-arrivals",
+   "type": "dataset",
+   "name": "International arrivals",
+   "as": "51,128,000 arrivals in 2020, in the country whose dental trade mostly walks across a line.",
+   "rel": "measures"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "Where the largest per-patient charge in this file originated, in bariatric work counted from San Diego.",
+   "rel": "destination"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The one flow that resembles the brochure, and the one whose tail is counted from the other side of the border.",
+   "rel": "destination"
+  }
+ ]
+}

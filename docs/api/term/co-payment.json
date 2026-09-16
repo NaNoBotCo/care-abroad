@@ -1,0 +1,214 @@
+{
+ "id": "co-payment",
+ "names": {
+  "name": "Co-payment",
+  "aliases": [
+   "copay",
+   "copayment",
+   "patient contribution",
+   "user charge"
+  ],
+  "said": "American plans say copay. European systems say patient contribution or user charge. All three name the same thing: the part the patient pays on a bill somebody else is also paying."
+ },
+ "etymology": {
+  "root": "co-, the Latin prefix com-, with or together, on payment — behind which sits pay, c. 1200, from Old French paier, from Latin pacare, to please, pacify or satisfy, from pax, peace. To pay was first to appease a creditor; the sense of giving what is due for goods or services follows in the early 13th century. A co-payment is two parties appeasing one bill.",
+  "first_attested": "c. 1200 for pay; this project could not date the insurance compound from a dictionary",
+  "tier": "cited",
+  "source": "s:etymonline-pay",
+  "note": "A co-payment is a fixed amount. Coinsurance is a percentage. A deductible is an amount paid before cover begins at all. Trade writing uses the three interchangeably and they behave very differently on a large bill."
+ },
+ "text": {
+  "what": "A fixed sum the patient pays for a covered service while the payer pays the rest. The US federal glossary puts it plainly: \"A fixed amount ($20, for example) you pay for a covered health care service after you've paid your deductible.\" The word only means anything where somebody else is paying the remainder.",
+  "story": "Set against its two neighbours the word becomes readable. Coinsurance is \"The percentage of costs of a covered health care service you pay (20%, for example) after you've paid your deductible\" — on a $100 allowed amount at 20%, the patient pays $20. A deductible is paid first and in full. A fixed co-payment is predictable and a percentage is not, and on an operation rather than an office visit the difference is the whole argument.\n\n*Inference —* the word is a poor fit for cross-border care and is used there anyway. A co-payment presupposes a payer with a schedule. A patient paying a foreign hospital has no payer and no schedule, so the correct word for what they hand over is not a co-payment but the whole price.",
+  "how": "Three things decide what a co-payment costs over a year: whether it is a flat sum or a percentage, whether it counts towards an annual cap, and whether the service is in the payer's network at all. The third question answers itself for a hospital in another country.",
+  "today": "As of 17 September 2026 no record on this site carries a co-payment figure as a price. Where a state's user charge is the whole of what a patient pays — the English dental bands, for instance — the amount is recorded as a tariff and named as one."
+ },
+ "kin": [
+  {
+   "to": "out-of-pocket",
+   "as": "The wider category this sits inside, and the only part of it a payer has agreed to in advance.",
+   "rel": "term"
+  },
+  {
+   "to": "tariff",
+   "as": "The schedule a co-payment is calculated against.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The gate that has to be passed before a co-payment is the only thing owed.",
+   "rel": "term"
+  },
+  {
+   "to": "dental-implant",
+   "as": "A treatment where the patient contribution at home is what makes the fare abroad arithmetic.",
+   "rel": "procedure"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where the difference between a fixed sum and a percentage is discovered.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-pay",
+  "s:healthcare-gov-copayment",
+  "s:healthcare-gov-coinsurance",
+  "s:nhs-dental-charges"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "C"
+ },
+ "blurb": "A fixed sum the patient pays for a covered service while the payer pays the rest.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "The wider category this sits inside, and the only part of it a payer has agreed to in advance.",
+   "rel": "term"
+  },
+  {
+   "to": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "The schedule a co-payment is calculated against.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "type": "term",
+   "name": "Prior authorisation",
+   "as": "The gate that has to be passed before a co-payment is the only thing owed.",
+   "rel": "term"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "A treatment where the patient contribution at home is what makes the fare abroad arithmetic.",
+   "rel": "procedure"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step where the difference between a fixed sum and a percentage is discovered.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-pay",
+   "kind": "dictionary",
+   "title": "pay (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/pay",
+   "accessed": "2026-09-17",
+   "note": "c. 1200, from Latin pacare"
+  },
+  {
+   "id": "s:healthcare-gov-copayment",
+   "kind": "gov",
+   "title": "Copayment — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/co-payment/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-coinsurance",
+   "kind": "gov",
+   "title": "Coinsurance — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/co-insurance/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:nhs-dental-charges",
+   "kind": "gov",
+   "title": "Understanding NHS dental charges — bands 1, 2 and 3",
+   "publisher": "NHS (England)",
+   "url": "https://www.nhs.uk/nhs-services/dentists/dental-costs/understanding-nhs-dental-charges/",
+   "accessed": "2026-09-16",
+   "note": "band amounts read on the accessed date; the page does not state the date the amounts took effect"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "What a patient still pays under either route.",
+   "rel": "term"
+  },
+  {
+   "from": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "What survives the certificate.",
+   "rel": "term"
+  },
+  {
+   "from": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "The share a payer fixes in advance, and the only part of out-of-pocket spending anybody plans for.",
+   "rel": "term"
+  },
+  {
+   "from": "prior-authorisation",
+   "type": "term",
+   "name": "Prior authorisation",
+   "as": "What remains owed once the gate has been passed.",
+   "rel": "term"
+  }
+ ]
+}

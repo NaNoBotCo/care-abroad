@@ -1,0 +1,468 @@
+{
+ "schema": 1,
+ "id": "pgt",
+ "type": "procedure",
+ "names": {
+  "name": "Preimplantation genetic testing",
+  "aliases": [
+   "PGT",
+   "PGT-A",
+   "PGT-M",
+   "PGT-SR",
+   "PGS",
+   "PGD",
+   "embryo screening"
+  ],
+  "said": "Laboratories still write PGS and PGD, the older names; regulators write PGT-A for chromosome counting, PGT-M for a named inherited condition and PGT-SR for a structural rearrangement. A clinic that says genetic testing without a suffix has not said which."
+ },
+ "etymology": {
+  "root": "aneuploidy: Greek an-, not, plus eu-, well, plus ploos, fold — not well folded, a cell whose chromosome count is off the expected set. Preimplantation marks the window: after fertilisation, before the embryo is put back, the only days in a human life when the whole genome can be read and the result acted on by choosing a different embryo.",
+  "tier": "tradition",
+  "note": "PGT-A screens embryos with no known inherited condition; PGT-M tests for a specific condition already in the family. The first is contested; the second is not, and they are sold from the same price list under one heading."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "fertility",
+  "setting": "staged",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "A few cells are taken from the outer layer of a five-day-old embryo, the embryo is frozen, and the cells are sequenced. PGT-A counts chromosomes and reports each embryo as euploid, aneuploid or mosaic; PGT-M looks for one inherited condition already known in the family; PGT-SR looks for a structural rearrangement a parent carries. The transfer happens weeks later, after the results. Nothing is done to the patient: the biopsy is done to the embryo, and the anaesthesia belonged to the egg collection days earlier.",
+  "story": "PGT-A is the clearest case on this site of a test being sold hard while its own regulator rates it down. The HFEA gives PGT-A at blastocyst stage a red rating, defined as: on balance, the findings from moderate or high quality evidence show that this add-on may reduce treatment effectiveness. The same page states there is no evidence from randomised controlled trials that PGT-A at this stage is effective at improving the chance of having a baby for most patients having IVF, and treats the miscarriage-reduction finding in older patients and those with repeated loss as a secondary outcome. The rating was last reviewed on 16 October 2023.\n\nMeanwhile the CDC's national rows put 58.2% of all US transfers in 2022 as involving at least one embryo that had been through preimplantation genetic testing — 53.6% among patients under 35, 65.6% among those aged 38 to 40.\n\n*Inference —* a red-rated add-on on a majority of transfers in the largest single market is not a clinical consensus; it is a commercial one. *Trade practice —* the pricing explains part of it. PGT is charged per embryo, so the patient with the most embryos pays the most, and the decision is taken at the moment of greatest hope and least comparison shopping — after a retrieval has already succeeded.\n\nThe travel argument attached to this test is different from the rest of the batch. It is not mainly about price. Where the law restricts what embryos may be tested for — sex without a medical reason, late-onset conditions, tissue matching for a sibling — the test moves to a jurisdiction that permits it, and that is circumvention rather than saving.",
+  "how": "Priced per embryo everywhere, on top of a cycle. Reprofit's list valid from 1 January 2026 charges 600 EUR for the biopsy and examination of one embryo for PGT-A or PGT-SR; PGT-M is 1,995 EUR to prepare the karyomapping panel and then 775 EUR per embryo, with Sanger sequencing a further 740 EUR where the panel cannot be used. Testing embryos already frozen costs 1,040 EUR for the first including biopsy and a year of storage, and 735 EUR for each one after. A consultation to interpret the results is 40 EUR. The same clinic also sells the whole thing bundled, as a cycle with PGT-A on all embryos at 7,775 EUR. A US clinic quotes its PGT from 3,899 dollars depending on how many embryos are tested.\n\nTwo rules move this test across a border. What may be tested for: the permitted indications are set nationally, and sex selection for social reasons, testing for adult-onset conditions and tissue typing sit on different sides of the line in different countries. And what may be done with the results: whether mosaic embryos may be transferred, and whether embryos found unaffected must be used before a fresh cycle is funded, are regulatory questions rather than laboratory ones. The rule records carry the instruments and the dates.",
+  "today": "As of September 2026 the published prices read off pages for this record run from 600 EUR per embryo in Brno to 3,899 US dollars as a starting figure in New York state, with the cycle that produced the embryos outside all of them. The UK regulator's red rating on PGT-A stands as last reviewed on 16 October 2023, and the most recent US national figure has the test on the majority of transfers.",
+  "notes": "This page describes a test and reports what its regulator and the US register say about it. It is not medical advice, and it does not say whether any particular embryo should be tested."
+ },
+ "metrics": {
+  "success_rate_pct": null,
+  "note": "No success rate is carried because the regulator that reviews this add-on declines to assert one. The HFEA rates PGT-A red — on balance, moderate or high quality evidence shows the add-on may reduce treatment effectiveness — and states there is no randomised-trial evidence that it improves the chance of a birth for most IVF patients; last reviewed 16 October 2023. What can be counted is uptake, not benefit: the CDC's 2022 US national rows put 58.2% of transfers as including at least one embryo tested, by age band 53.6% under 35, 63.8% at 35 to 37, 65.6% at 38 to 40 and 52.9% over 40. That is a share of transfers, not a rate of anything succeeding.",
+  "as_of": "2023-10-16",
+  "source": "s:hfea-pgt-a",
+  "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/pre-implantation-genetic-testing-for-aneuploidy-pgt-a/"
+ },
+ "prices": [
+  {
+   "procedure": "pgt",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 600,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "list",
+   "includes": [
+    "biopsy and examination of 1 embryo, PGT-A or PGT-SR"
+   ],
+   "excludes": [
+    "the IVF cycle",
+    "freezing and storage",
+    "consultation of the results, listed at 40 EUR"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "per embryo. Six embryos is 3,600 EUR, which is more than the clinic's whole standard IVF cycle at 3,245 EUR. Valid from 1 January 2026.",
+   "tier": "cited",
+   "usd": 692.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "pgt",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 1995,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "list",
+   "includes": [
+    "preparation for karyomapping, PGT-M"
+   ],
+   "excludes": [
+    "the biopsy and examination of each embryo, listed at 775 EUR each",
+    "Sanger sequencing where karyomapping cannot be used, listed at 740 EUR"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "testing for a named inherited condition is a fixed set-up charge plus a per-embryo charge, so the family with a known condition pays a different shape of bill from the patient buying chromosome screening.",
+   "tier": "cited",
+   "usd": 2302.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "pgt",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 7775,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": [
+    "consultation, treatment plan, protocol preparation, stimulation monitoring",
+    "egg retrieval under general anesthesia",
+    "sperm preparation and MFSS / MACS",
+    "2x STDs testing",
+    "ICSI",
+    "extended cultivation",
+    "PGT-A of all embryos",
+    "consultation of PGT-A results with a geneticist",
+    "cryopreservation of all embryos and 1 year of storage",
+    "embryo transfer (frozen embryo) up to six months after fertilization"
+   ],
+   "excludes": [
+    "PICSI",
+    "EmbryoGlue",
+    "TimeLaps cultivation"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"IVF cycle with own eggs - Genetic Insight\": a cycle with unlimited PGT-A folded in, at 4,530 EUR above the clinic's plain cycle. A bundle removes the per-embryo arithmetic and with it the comparison.",
+   "tier": "cited",
+   "usd": 8971.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "pgt",
+   "country": "US",
+   "city": "Syracuse",
+   "amount": 3899,
+   "currency": "USD",
+   "as_of": "2026-07-07",
+   "kind": "list",
+   "includes": [
+    "preimplantation genetic testing, listed as starting at this price"
+   ],
+   "excludes": [
+    "the IVF cycle",
+    "medications"
+   ],
+   "source": "s:cny-ivf-cost",
+   "url": "https://www.cnyfertility.com/ivf-cost/",
+   "note": "the clinic states the typical total starts here and depends on the number of embryos tested; page dated 7 July 2026.",
+   "tier": "cited",
+   "usd": 3899.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "ivf",
+   "as": "The cycle this test is added to, and the bill it is charged on top of.",
+   "rel": "part"
+  },
+  {
+   "to": "icsi",
+   "as": "The earlier laboratory charge on the same embryos, three days before this one.",
+   "rel": "kin"
+  },
+  {
+   "to": "egg-donation",
+   "as": "Frequently tested as well, and the packages that guarantee blastocysts price the two together.",
+   "rel": "kin"
+  },
+  {
+   "to": "surrogacy",
+   "as": "Commonly run before a carrier transfer, and excluded from the programme price along with the IVF.",
+   "rel": "kin"
+  },
+  {
+   "to": "hfea",
+   "as": "Rates this add-on red and publishes the reasoning this record quotes.",
+   "rel": "measures"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The US series behind the 58.2% of 2022 transfers carrying a tested embryo.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "Why this test moves country when the permitted indications differ, rather than when the price does.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "A per-embryo charge that can exceed the cycle it is added to.",
+   "rel": "story"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Where a bundled PGT and a per-embryo PGT turn out to be different purchases.",
+   "rel": "step"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "icsi",
+   "tell": "ICSI is done to the egg on collection day; PGT is done to the embryo on day five. Both are per-cycle laboratory charges and neither is the cycle."
+  }
+ ],
+ "links": [
+  {
+   "label": "HFEA — PGT-A add-on rating",
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/pre-implantation-genetic-testing-for-aneuploidy-pgt-a/"
+  },
+  {
+   "label": "Reprofit price list, valid from 1 January 2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf"
+  }
+ ],
+ "sources": [
+  "s:hfea-pgt-a",
+  "s:cdc-art-2022-summary",
+  "s:reprofit-pricelist-2026",
+  "s:cny-ivf-cost",
+  "s:cohen-circumvention-2012"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:hfea-pgt-a",
+    "note": "the rating and the uptake share are cited; the reading of the gap between them is marked Inference and the pricing argument is marked Trade practice"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:hfea-pgt-a"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Blastocyst biopsy.jpg",
+  "File:Human blastocyst.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A few cells are taken from the outer layer of a five-day-old embryo, the embryo is frozen, and the cells are sequenced.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The cycle this test is added to, and the bill it is charged on top of.",
+   "rel": "part"
+  },
+  {
+   "to": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "The earlier laboratory charge on the same embryos, three days before this one.",
+   "rel": "kin"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "Frequently tested as well, and the packages that guarantee blastocysts price the two together.",
+   "rel": "kin"
+  },
+  {
+   "to": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "Commonly run before a carrier transfer, and excluded from the programme price along with the IVF.",
+   "rel": "kin"
+  },
+  {
+   "to": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "Rates this add-on red and publishes the reasoning this record quotes.",
+   "rel": "measures"
+  },
+  {
+   "to": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The US series behind the 58.2% of 2022 transfers carrying a tested embryo.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "Why this test moves country when the permitted indications differ, rather than when the price does.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "A per-embryo charge that can exceed the cycle it is added to.",
+   "rel": "story"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Where a bundled PGT and a per-embryo PGT turn out to be different purchases.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:hfea-pgt-a",
+   "kind": "org",
+   "title": "Pre-implantation genetic testing for aneuploidy (PGT-A) — treatment add-ons rating",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/treatments/treatment-add-ons/pre-implantation-genetic-testing-for-aneuploidy-pgt-a/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-art-2022-summary",
+   "kind": "dataset",
+   "title": "2022 Final Assisted Reproductive Technology (ART) Summary",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye",
+   "accessed": "2026-09-16",
+   "note": "clinic-level and national rows; the national rows carry locationabbr NA. Queried through the Socrata endpoint https://data.cdc.gov/resource/9tjt-seye.json"
+  },
+  {
+   "id": "s:reprofit-pricelist-2026",
+   "kind": "web",
+   "title": "Pricelist — Assisted Reproduction, valid from 01.01.2026 (document 0331.26ENG)",
+   "publisher": "Reprofit International s.r.o., Brno",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "accessed": "2026-09-16",
+   "note": "the clinic's own self-payer price list, five pages, each line naming its inclusions and its exclusions"
+  },
+  {
+   "id": "s:cny-ivf-cost",
+   "kind": "web",
+   "title": "IVF Cost 2026: breakdown of prices, add-ons",
+   "publisher": "CNY Fertility",
+   "url": "https://www.cnyfertility.com/ivf-cost/",
+   "accessed": "2026-09-16",
+   "note": "page dated 7 July 2026; carries the clinic's own list prices and unattributed national ranges"
+  },
+  {
+   "id": "s:cohen-circumvention-2012",
+   "kind": "paper",
+   "title": "Circumvention Tourism",
+   "publisher": "Cornell Law Review 97(6):1309 (Cohen IG)",
+   "url": "https://scholarship.law.cornell.edu/clr/vol97/iss6/1",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:hfea-pgt-a",
+   "note": "the rating and the uptake share are cited; the reading of the gap between them is marked Inference and the pricing argument is marked Trade practice"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:hfea-pgt-a"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "prague",
+   "type": "hub",
+   "name": "Prague",
+   "as": "The priced extra on most programmes quoted here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tel-aviv",
+   "type": "hub",
+   "name": "Tel Aviv",
+   "as": "Sold alongside the cycle, and a reason some patients choose this system over their own.",
+   "rel": "procedure"
+  },
+  {
+   "from": "egg-freezing",
+   "type": "procedure",
+   "name": "Egg freezing",
+   "as": "The next optional charge on embryos made from these eggs.",
+   "rel": "kin"
+  },
+  {
+   "from": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "The next laboratory charge on the same embryos, priced per embryo.",
+   "rel": "kin"
+  },
+  {
+   "from": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The test added to embryos from this cycle, priced per embryo and rated red by the UK regulator.",
+   "rel": "part"
+  },
+  {
+   "from": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "Commonly added to embryos before a carrier transfer, and charged per embryo.",
+   "rel": "kin"
+  },
+  {
+   "from": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "The add-on it rates red for improving the chance of a birth and green for reducing miscarriage.",
+   "rel": "procedure"
+  },
+  {
+   "from": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "A test that moves country when the permitted indications differ rather than when the price does.",
+   "rel": "procedure"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Priced per embryo, so six embryos cost more than the cycle that made them.",
+   "rel": "procedure"
+  }
+ ]
+}

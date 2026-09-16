@@ -1,0 +1,327 @@
+{
+ "id": "india-e-medical-visa",
+ "names": {
+  "name": "India's e-Medical Visa",
+  "aliases": [
+   "e-Medical Visa",
+   "e-Medical Attendant Visa",
+   "eMED",
+   "eMEDX"
+  ],
+  "said": "Two attendants per patient. A state's own arithmetic of how many people one patient needs."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "kind": "visa",
+  "iso2": "IN",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "A dedicated electronic visa class for treatment in India, applied for online before travel. The Bureau of Immigration states it runs \"One year (365 days) from the date of arrival into India\" with multiple entries, and requires a \"Copy of Letter from the Hospital concerned in India on its letterhead which including the date / tentative date which admission have been suggested\". A companion class, the e-Medical Attendant Visa, runs alongside it, and the rule is numerical: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\".",
+  "story": "India is the state that wrote the treatment trip into its immigration system most explicitly, and the class reads as a statement of what such a trip is taken to involve. A year of validity, because oncology and transplant courses run long and return for review. Multiple entries, because the patient goes home between cycles. A hospital letter on letterhead, because the state wants the facility named and on the record. And two attendants, because somebody decided a patient travelling for surgery arrives with family.\n\n*Inference —* the named class does two things at once. It ties the stay to a particular hospital, so a change of provider on arrival is a paperwork problem as well as a clinical one. And it puts the purpose of the journey on the record, which matters in both directions: it makes the trip countable, and it makes it visible.\n\nThe visibility is the part that cuts. A patient travelling for a treatment that is lawful in India and not lawful at home has, by applying, told two governments what they are doing. That is not a defect of the Indian class; it is what any named class does, and it is why the states that issue none are attractive to some travellers for reasons that have nothing to do with price.",
+  "how": "The application is online, with the hospital letter uploaded. The class is nationality-restricted: the e-Visa scheme is open to nationals of a published list of countries and not to others, and the list moves.\n\nWhat the class does not do: guarantee admission at the named hospital, move with the patient if the treatment date slips beyond the validity window, or cover a third companion. A patient arriving with a spouse and two adult children has one attendant visa too few.\n\nAlongside it India runs an ordinary Medical Visa and Medical Attendant Visa issued at missions rather than online, for nationals outside the e-Visa list and for stays the electronic class does not fit.",
+  "today": "As of 17 September 2026 the duration, the entry rule, the hospital-letter requirement and the two-attendant cap are read off the Bureau of Immigration's own e-Visa page."
+ },
+ "kin": [
+  {
+   "to": "the-visa",
+   "as": "The step this rule sits inside, and the one the pathway record quotes.",
+   "rel": "pathway"
+  },
+  {
+   "to": "india",
+   "as": "The country that issues it.",
+   "rel": "destination"
+  },
+  {
+   "to": "thai-medical-visa",
+   "as": "The contrast: an endorsement on a visitor visa, capped at 90 days, with no attendant class.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-companion",
+   "as": "The person this class counts, and caps at two.",
+   "rel": "step"
+  },
+  {
+   "to": "chennai",
+   "as": "One of the clusters its holders arrive in.",
+   "rel": "hub"
+  },
+  {
+   "to": "apollo-chennai",
+   "as": "The kind of hospital whose letterhead the application turns on.",
+   "rel": "facility"
+  },
+  {
+   "to": "medical-visa",
+   "as": "The word this class is the clearest example of.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "Why a named purpose of travel is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A named class makes a patient countable; most states issue none.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bureau of Immigration, Government of India — e-Visa",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html"
+  }
+ ],
+ "sources": [
+  "s:india-emedical-visa",
+  "s:india-evisa-portal"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:india-emedical-visa",
+    "note": "quoted from the Bureau of Immigration page; the stretch marked *Inference —* is this project's reading"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:india-evisa-portal"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "A dedicated electronic visa class for treatment in India, applied for online before travel.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The step this rule sits inside, and the one the pathway record quotes.",
+   "rel": "pathway"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The country that issues it.",
+   "rel": "destination"
+  },
+  {
+   "to": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The contrast: an endorsement on a visitor visa, capped at 90 days, with no attendant class.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The person this class counts, and caps at two.",
+   "rel": "step"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "One of the clusters its holders arrive in.",
+   "rel": "hub"
+  },
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The kind of hospital whose letterhead the application turns on.",
+   "rel": "facility"
+  },
+  {
+   "to": "medical-visa",
+   "type": "term",
+   "name": "Medical visa",
+   "as": "The word this class is the clearest example of.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "Why a named purpose of travel is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A named class makes a patient countable; most states issue none.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:india-emedical-visa",
+   "kind": "web",
+   "title": "e-Visa — e-Medical Visa and e-Medical Attendant Visa",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16",
+   "note": "one year from arrival, multiple entries, hospital letter on letterhead, two attendant visas per patient"
+  },
+  {
+   "id": "s:india-evisa-portal",
+   "kind": "web",
+   "title": "e-Visa categories, duration and entries",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India (indianvisaonline.gov.in)",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa",
+   "note": "quoted from the Bureau of Immigration page; the stretch marked *Inference —* is this project's reading"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:india-evisa-portal"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The visa class whose arrivals are the number this page carries.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "The visa class the outflow travels on.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "The entry route foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The entry route most of this cluster's foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The entry route, and the invitation letter the international desks issue against it.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The entry route foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The visa class most of its foreign consultations arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "fortis-gurgaon",
+   "type": "facility",
+   "name": "Fortis Memorial Research Institute, Gurugram",
+   "as": "The visa class that brings most of this corridor's foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "max-saket",
+   "type": "facility",
+   "name": "Max Super Speciality Hospital, Saket",
+   "as": "The visa class most of this corridor's foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The rule this step reads in full.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The instrument that caps the escort at two, and the only hard count anywhere.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "schengen-medical-visa",
+   "type": "rule",
+   "name": "The Schengen visa, for treatment",
+   "as": "The contrast: a named class, a year long, with an attendant visa attached.",
+   "rel": "contrast"
+  },
+  {
+   "from": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The contrast: a dedicated class, with its own attendant visa and a year's validity.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The other Indian instrument a foreign patient meets before arrival.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "medical-visa",
+   "type": "term",
+   "name": "Medical visa",
+   "as": "The instrument behind the class this record reads, with its own dates.",
+   "rel": "rule"
+  }
+ ]
+}

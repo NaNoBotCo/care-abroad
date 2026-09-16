@@ -1,0 +1,257 @@
+{
+ "id": "prior-authorisation",
+ "names": {
+  "name": "Prior authorisation",
+  "aliases": [
+   "prior authorization",
+   "preauthorization",
+   "pre-approval",
+   "precertification",
+   "prior approval"
+  ],
+  "said": "US plans say prior authorization or precertification. UK commissioners say prior approval or individual funding request. The act is the same: a payer deciding before the treatment, not after."
+ },
+ "etymology": {
+  "root": "prior, 1714, \"earlier, preceding in order of time\", from Latin prior, former or previous, the comparative of Old Latin pri, before; with authorize, late 14c. auctorisen, \"give formal approval or sanction to\", from Old French autoriser and Medieval Latin auctorizare, from Latin auctor, from auctus, past participle of augere, to increase. The phrase therefore means approval given beforehand — and nothing in the words promises money.",
+  "first_attested": "1714 for prior; late 14c. for authorize",
+  "tier": "cited",
+  "source": "s:etymonline-authorize",
+  "note": "The US federal glossary states the limit in terms: \"Preauthorization isn't a promise your health insurance or plan will cover the cost.\""
+ },
+ "text": {
+  "what": "A payer's advance decision that a treatment is medically necessary. The US federal glossary defines it as \"A decision by your health insurer or plan that a health care service, treatment plan, prescription drug or durable medical equipment is medically necessary\", sometimes called prior authorization, prior approval or precertification.",
+  "story": "The gate is where a payer's clinical policy becomes a patient's travel plan. Where a treatment is contested — a knee arthroscopy for degenerative change, a disc replacement with five written eligibility conditions — prior authorisation is the instrument that refuses it, and a refusal is one of the recurring reasons a patient starts pricing the same operation abroad.\n\nThe caveat the glossary attaches matters as much as the definition: \"Preauthorization isn't a promise your health insurance or plan will cover the cost.\" Authorisation is a finding about necessity, not an undertaking about money.\n\n*Inference —* the gate also does not travel. An authorisation issued against a domestic network says nothing about a hospital in another country, and US Medicare does not pay for care outside the United States except in narrow circumstances set out in 42 CFR Part 424, Subpart H. A patient who was refused at home and a patient who was approved at home are in the same position at a foreign cashier's desk.",
+  "how": "Three questions decide whether an authorisation is worth anything abroad: whether the plan covers any care outside its own country, whether the foreign provider can be paid directly or only reimbursed, and whether the decision names the procedure or the provider. Reimbursement routes that do cross borders — the European directive route, the S2 route — run their own prior approval on their own terms, and those are held on rule records here.",
+  "today": "As of 17 September 2026 this site carries prior authorisation as a reason a procedure is sought abroad, not as a route to paying for it. No record here reports a US plan authorising treatment in another country."
+ },
+ "kin": [
+  {
+   "to": "out-of-pocket",
+   "as": "What a bill becomes when this gate is closed, or when it never applied.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "as": "What remains owed once the gate has been passed.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-arthroscopy",
+   "as": "The operation where a payer wrote a contested indication into the schedule itself.",
+   "rel": "procedure"
+  },
+  {
+   "to": "disc-replacement",
+   "as": "Five written eligibility conditions, which is what this gate looks like in a fee schedule.",
+   "rel": "procedure"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The European scheme with its own prior approval, which does cross a border.",
+   "rel": "term"
+  },
+  {
+   "to": "deciding-whether",
+   "as": "The step a refusal usually starts.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-authorize",
+  "s:healthcare-gov-preauthorization",
+  "s:ecfr-42-424-h",
+  "s:medicare-travel-outside-us"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "P"
+ },
+ "blurb": "A payer's advance decision that a treatment is medically necessary.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "What a bill becomes when this gate is closed, or when it never applied.",
+   "rel": "term"
+  },
+  {
+   "to": "co-payment",
+   "type": "term",
+   "name": "Co-payment",
+   "as": "What remains owed once the gate has been passed.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "The operation where a payer wrote a contested indication into the schedule itself.",
+   "rel": "procedure"
+  },
+  {
+   "to": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "Five written eligibility conditions, which is what this gate looks like in a fee schedule.",
+   "rel": "procedure"
+  },
+  {
+   "to": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The European scheme with its own prior approval, which does cross a border.",
+   "rel": "term"
+  },
+  {
+   "to": "deciding-whether",
+   "type": "pathway",
+   "name": "Deciding whether to go",
+   "as": "The step a refusal usually starts.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-authorize",
+   "kind": "dictionary",
+   "title": "authorize (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/authorize",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Latin auctor"
+  },
+  {
+   "id": "s:healthcare-gov-preauthorization",
+   "kind": "gov",
+   "title": "Preauthorization — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/preauthorization/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:ecfr-42-424-h",
+   "kind": "statute",
+   "title": "42 CFR Part 424, Subpart H — Payment for services furnished in a foreign country (§§ 424.120–424.124)",
+   "publisher": "Electronic Code of Federal Regulations, U.S. Government",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-424/subpart-H",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:medicare-travel-outside-us",
+   "kind": "web",
+   "title": "Travel outside the U.S.",
+   "publisher": "Medicare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s.",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "What five written eligibility conditions amount to when a payer applies them.",
+   "rel": "term"
+  },
+  {
+   "from": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "The gate a payer uses where the indication is contested.",
+   "rel": "term"
+  },
+  {
+   "from": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The gate Article 8 builds, and the word for it.",
+   "rel": "term"
+  },
+  {
+   "from": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The word for the gate this route is entirely made of.",
+   "rel": "term"
+  },
+  {
+   "from": "directive-2011-24-adopted",
+   "type": "event",
+   "name": "Directive 2011/24/EU adopted, 9 March 2011",
+   "as": "The permission Article 8 lets a state require, and the conditions it may require it under.",
+   "rel": "term"
+  },
+  {
+   "from": "co-payment",
+   "type": "term",
+   "name": "Co-payment",
+   "as": "The gate that has to be passed before a co-payment is the only thing owed.",
+   "rel": "term"
+  },
+  {
+   "from": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "The gate that decides whether a bill is covered at all, and so whether it lands here.",
+   "rel": "term"
+  },
+  {
+   "from": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The gate Article 8 allows a member state to keep, and the four grounds for it.",
+   "rel": "term"
+  }
+ ]
+}

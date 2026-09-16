@@ -1,0 +1,186 @@
+{
+ "id": "repatriation",
+ "names": {
+  "name": "Repatriation",
+  "aliases": [
+   "medical evacuation",
+   "medevac",
+   "air ambulance",
+   "repatriation of remains"
+  ],
+  "said": "Insurers say medical evacuation for the living and repatriation of remains for the dead. The trade uses repatriation for both."
+ },
+ "etymology": {
+  "root": "repatriate, 1610s, \"restore to one's own country\", from Late Latin repatriatus, past participle of repatriare, to return to one's country, from re-, back, plus patria, native land. The word is about a state taking a person back, and it was doing that work three centuries before an aeroplane could.",
+  "first_attested": "1610s for the verb",
+  "tier": "cited",
+  "source": "s:etymonline-repatriate",
+  "note": "Repatriation is not a medical decision. In almost every policy the insurer decides, not the patient and not the treating doctor."
+ },
+ "text": {
+  "what": "Moving a patient who cannot fly commercially from where they were treated to a hospital at home that can finish the job — or moving a body. It is the largest single bill in this subject, and the one least likely to be covered by the policy the traveller actually bought.",
+  "story": "The CDC's travel insurance chapter states the range: \"The total cost of a medevac varies by location, ranging from USD 25,000 for transport within North America to over USD 250,000 for more distant and remote locations\", rising further where the patient is critically ill or needs complex infection control.\n\nWho decides is stated as plainly: \"The decision to medically evacuate is at the discretion of the insurance company; it is not made at the request of the traveler\".\n\nDomestic cover mostly does not reach. US Medicare does not pay for care outside the country except in limited circumstances, and does not pay for evacuation; Medigap plans C, D, F, G, M and N cover some emergency care begun in the first 60 days abroad, at 80% after a USD 250 deductible, with a USD 50,000 lifetime maximum. One distant evacuation can exceed that lifetime cap five times over.",
+  "how": "An evacuation is an aircraft, a medical crew, ground transport at both ends and a receiving bed that has agreed to take the patient. The features that decide whether cover works are whether the insurer guarantees payment direct to the hospital, whether a 24-hour physician-backed centre answers, and whether the policy returns the patient home or only to the nearest adequate facility.",
+  "today": "As of 17 September 2026 the published range this site carries is USD 25,000 to over USD 250,000, from the CDC's 2026 edition. Nothing counts how often an evacuation follows an elective operation abroad, or what share of those bills an insurer paid."
+ },
+ "kin": [
+  {
+   "to": "repatriation-cost",
+   "as": "The risk record behind this word, with the CDC range and who decides.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The step this word replaces when the patient cannot board.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clinical reason a commercial seat is refused in the first place.",
+   "rel": "risk"
+  },
+  {
+   "to": "out-of-pocket",
+   "as": "What the bill becomes where the policy does not answer.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Where the cover for this is either found or not found.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-repatriate",
+  "s:cdc-yellowbook-travel-insurance",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:medicare-travel-outside-us"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "R"
+ },
+ "blurb": "Moving a patient who cannot fly commercially from where they were treated to a hospital at home that can finish the job — or moving a body.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The risk record behind this word, with the CDC range and who decides.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The step this word replaces when the patient cannot board.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clinical reason a commercial seat is refused in the first place.",
+   "rel": "risk"
+  },
+  {
+   "to": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "What the bill becomes where the policy does not answer.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Where the cover for this is either found or not found.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-repatriate",
+   "kind": "dictionary",
+   "title": "repatriate (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/repatriate",
+   "accessed": "2026-09-17",
+   "note": "1610s, from Late Latin repatriare"
+  },
+  {
+   "id": "s:cdc-yellowbook-travel-insurance",
+   "kind": "org",
+   "title": "Travel Insurance, Travel Health Insurance, and Medical Evacuation Insurance — CDC Yellow Book 2026, chapter by Rhett J. Stoney",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html",
+   "accessed": "2026-09-16",
+   "note": "carries the USD 25,000 to over USD 250,000 medevac range, the Medicare and Medigap limits, and the finding that insurers fully paid two-thirds of travel health claims"
+  },
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:medicare-travel-outside-us",
+   "kind": "web",
+   "title": "Travel outside the U.S.",
+   "publisher": "Medicare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s.",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "assisted-dying",
+   "type": "procedure",
+   "name": "Assisted dying",
+   "as": "Two of the five published Swiss lines are for what happens to the body and the paperwork afterwards.",
+   "rel": "term"
+  }
+ ]
+}

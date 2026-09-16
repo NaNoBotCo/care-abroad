@@ -1,0 +1,541 @@
+{
+ "schema": 1,
+ "id": "bangkok-hospital",
+ "type": "facility",
+ "names": {
+  "name": "Bangkok Hospital",
+  "aliases": [
+   "Bangkok Hospital Headquarters",
+   "BHQ",
+   "โรงพยาบาลกรุงเทพ"
+  ],
+  "said": "Rong-phayaban Krung Thep — literally the Bangkok hospital. Drivers know it as Soi Soonvijai, the lane off New Phetchaburi Road that the whole campus sits on."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "TH",
+  "ownership": "private",
+  "founded": 1972,
+  "specialty": [
+   "cardiology",
+   "oncology",
+   "neurology",
+   "orthopaedics",
+   "health screening",
+   "emergency and air transfer"
+  ],
+  "draws": [
+   "knee-arthroscopy",
+   "gallbladder-removal",
+   "executive-health-screening"
+  ],
+  "status": "open",
+  "languages": [
+   "Thai",
+   "English",
+   "Arabic",
+   "Japanese",
+   "Burmese",
+   "Khmer",
+   "Chinese",
+   "German"
+  ]
+ },
+ "text": {
+  "what": "The flagship of Bangkok Dusit Medical Services, on a campus of specialist buildings down Soi Soonvijai off New Phetchaburi Road. It opened in 1972 with a team of physicians, pharmacists and thirty nurses, and now runs a heart hospital, a cancer hospital and a bone-and-joint hospital on the same site. It prices a long list of operations publicly, each with a stated window during which the price can be bought.",
+  "story": "Bangkok Hospital opened in 1972, among the first private hospitals in Thailand, and grew into the head of a group that runs 53 institutions across the region, fourteen of them holding Joint Commission International accreditation.\n\nThe campus model is the thing to notice. Rather than one building with departments, the site carries separate named hospitals — heart, cancer, bone and joint — each with its own entrance and its own price list. *Inference —* that structure is what lets the group quote a fixed figure for a named operation: a unit that does one class of work all day can predict its own theatre time and its own ward nights closely enough to sell them as a bundle.\n\nThe prices come with dates on them. A package page states a window — usable between two dates — and a struck-through higher figure beside the one being asked. Read on 16 September 2026, the arthroscopic knee packages and the robotic abdominal packages both sat inside a campaign running to 31 October 2026, on terms that required a bill over 100,000 baht and at least one night on the ward.",
+  "how": "An inquiry reaches an international desk that answers in several languages; a package is quoted for a named operation; the ward nights are counted into the price and anything past them is not. The joint and spine packages are quoted with the implant excluded, which is stated in the package title itself rather than buried in a footnote. The hospital also runs an air-ambulance service, which is unusual enough to be part of how it is chosen.",
+  "today": "As of 16 September 2026 the hospital's public package pages list an arthroscopic knee with meniscus repair, one side, implant excluded, at 272,000 baht against a struck-through 286,000, with one night on the ward, usable 31 July to 31 October 2026; and a robotic-assisted cholecystectomy at 330,000 baht against 348,000, also one night. Its awards page states Advanced HA accreditation from the Healthcare Accreditation Institute in 2026 and a Joint Commission International seal without naming its year."
+ },
+ "geo": {
+  "lat": 13.749195,
+  "lon": 100.5832663,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2 Soi Soonvijai 7, New Phetchaburi Road, Bang Kapi, Huai Khwang",
+  "city": "Bangkok",
+  "country": "TH",
+  "postcode": "10310"
+ },
+ "metrics": {
+  "beds": 488,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "foreign_patient_countries": null,
+  "note": "488 inpatient beds is the figure carried on the hospital's Wikipedia entry and read on 16 September 2026; the hospital's own pages read for this record state no bed count, no patient total and no international-patient total. Where a Thai hospital does publish a patient figure it is almost always a count of VISITS rather than of people, and nothing here is audited by this project.",
+  "as_of": "2026-09-16",
+  "source": "s:wp-bangkok-hospital",
+  "url": "https://en.wikipedia.org/wiki/Bangkok_Hospital"
+ },
+ "tags": [
+  {
+   "tag": "price-published",
+   "source": "s:bangkokhospital-knee-arthroscopy",
+   "tier": "cited",
+   "note": "package pages carrying a baht figure and a usable-between date",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/arthroscopic-knee-with-meniscus-repair-1-side-exclude-implant-en"
+  },
+  {
+   "tag": "package",
+   "source": "s:bangkokhospital-cholecystectomy",
+   "tier": "cited",
+   "note": "surgical packages naming the operation, the side and the nights"
+  },
+  {
+   "tag": "chain",
+   "source": "s:wp-bangkok-hospital",
+   "tier": "cited",
+   "note": "Bangkok Dusit Medical Services, 53 institutions in the region"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "ha-moh-th",
+   "what": "Advanced HA Accreditation from the Healthcare Accreditation Institute of Thailand",
+   "year": 2026,
+   "valid_until": null,
+   "source": "s:bangkokhospital-awards",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "note": "the Thai national standard, run by a public organisation; the hospital's own awards page names it for 2026"
+  },
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation",
+   "year": null,
+   "valid_until": null,
+   "source": "s:bangkokhospital-awards",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "note": "the hospital names the seal but not the year it was first granted; JCI runs in three-year cycles"
+  },
+  {
+   "by": "newsweek-statista",
+   "what": "Listed in the 2025 Newsweek and Statista hospital ranking",
+   "year": 2025,
+   "valid_until": null,
+   "source": "s:bangkokhospital-awards",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "note": "a survey-and-indicator listing, counted here and never read as a quality score"
+  }
+ ],
+ "prices": [
+  {
+   "procedure": "knee-arthroscopy",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 272000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "arthroscopic knee surgery with meniscus repair, one side",
+    "one night in hospital"
+   ],
+   "excludes": [
+    "the implant, which the package title states"
+   ],
+   "source": "s:bangkokhospital-knee-arthroscopy",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/arthroscopic-knee-with-meniscus-repair-1-side-exclude-implant-en",
+   "note": "listed against a struck-through 286,000 baht, usable 31 July 2026 to 31 October 2026. One side means one knee. The campaign terms require a bill of at least 100,000 baht and one night on the ward.",
+   "tier": "cited",
+   "usd": 8170.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gallbladder-removal",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 330000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "robotic-assisted cholecystectomy, level 2",
+    "one night in hospital"
+   ],
+   "excludes": [],
+   "source": "s:bangkokhospital-cholecystectomy",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/robotic-assisted-cholecystectomy-level-2-en",
+   "note": "listed against a struck-through 348,000 baht, usable 31 July 2026 to 31 October 2026. Level 2 is the hospital's own complexity grade; the page read for this record printed no exclusion list, which is itself worth knowing before comparing it with a package that prints one.",
+   "tier": "cited",
+   "usd": 9912.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "bangkok",
+   "as": "The hospital at the eastern end of the Bangkok cluster, off New Phetchaburi rather than Sukhumvit.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "as": "One of the two Bangkok names a foreign patient is most likely to have been given before arriving.",
+   "rel": "destination"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "The other large Bangkok private hospital that prices operations publicly; it quotes joints, this one quotes arthroscopy and robotic abdominal work.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-arthroscopy",
+   "as": "Sold here at a fixed price with one ward night counted in and the implant left out.",
+   "rel": "performs"
+  },
+  {
+   "to": "gallbladder-removal",
+   "as": "Sold here as a robotic package at a fixed price with one ward night.",
+   "rel": "performs"
+  },
+  {
+   "to": "thai-ha-institute",
+   "as": "The Thai national accreditor whose advanced standard the hospital states for 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "jci",
+   "as": "The international accreditor whose seal sits in its footer, undated.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, with a usable-between window rather than an open-ended list price.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "Its arthroscopy package says so in the title; the largest line on a joint bill is not in the number.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/"
+  },
+  {
+   "label": "Packages",
+   "url": "https://www.bangkokhospital.com/en/package"
+  }
+ ],
+ "sources": [
+  "s:wp-bangkok-hospital",
+  "s:bangkokhospital-ourstory",
+  "s:bangkokhospital-awards",
+  "s:bangkokhospital-knee-arthroscopy",
+  "s:bangkokhospital-cholecystectomy",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of an international patient department at a large Thai private hospital"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node named Bangkok Hospital on Soi Soonvijai 7"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-bangkok-hospital"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Bangkok Hospital.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The flagship of Bangkok Dusit Medical Services, on a campus of specialist buildings down Soi Soonvijai off New Phetchaburi Road.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The hospital at the eastern end of the Bangkok cluster, off New Phetchaburi rather than Sukhumvit.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "One of the two Bangkok names a foreign patient is most likely to have been given before arriving.",
+   "rel": "destination"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "The other large Bangkok private hospital that prices operations publicly; it quotes joints, this one quotes arthroscopy and robotic abdominal work.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "Sold here at a fixed price with one ward night counted in and the implant left out.",
+   "rel": "performs"
+  },
+  {
+   "to": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "Sold here as a robotic package at a fixed price with one ward night.",
+   "rel": "performs"
+  },
+  {
+   "to": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "The Thai national accreditor whose advanced standard the hospital states for 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The international accreditor whose seal sits in its footer, undated.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, with a usable-between window rather than an open-ended list price.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "Its arthroscopy package says so in the title; the largest line on a joint bill is not in the number.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bangkok-hospital",
+   "kind": "wikipedia",
+   "title": "Bangkok Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bangkok_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:bangkokhospital-ourstory",
+   "kind": "web",
+   "title": "Our Story — Bangkok Hospital",
+   "publisher": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/our-story",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:bangkokhospital-awards",
+   "kind": "web",
+   "title": "Awards & Accreditations",
+   "publisher": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:bangkokhospital-knee-arthroscopy",
+   "kind": "web",
+   "title": "Arthroscopic Knee with Meniscus Repair (1 side, exclude implant) — package page",
+   "publisher": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/arthroscopic-knee-with-meniscus-repair-1-side-exclude-implant-en",
+   "accessed": "2026-09-16",
+   "note": "price read off the hospital's own package page; stated usable 31 Jul 2026 – 31 Oct 2026"
+  },
+  {
+   "id": "s:bangkokhospital-cholecystectomy",
+   "kind": "web",
+   "title": "Robotic-Assisted Cholecystectomy Level 2 — package page",
+   "publisher": "Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/robotic-assisted-cholecystectomy-level-2-en",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of an international patient department at a large Thai private hospital"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node named Bangkok Hospital on Soi Soonvijai 7"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-bangkok-hospital"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:bangkokhospital-knee-arthroscopy",
+   "note": "package pages carrying a baht figure and a usable-between date",
+   "tier": "cited",
+   "url": "https://www.bangkokhospital.com/en/bangkok/package/arthroscopic-knee-with-meniscus-repair-1-side-exclude-implant-en"
+  },
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:bangkokhospital-cholecystectomy",
+   "note": "surgical packages naming the operation, the side and the nights",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-bangkok-hospital",
+   "note": "Bangkok Dusit Medical Services, 53 institutions in the region",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "ha-moh-th",
+   "label": "Healthcare Accreditation Institute (Thailand)",
+   "what": "Advanced HA Accreditation from the Healthcare Accreditation Institute of Thailand",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "kind": "national",
+   "year": 2026,
+   "valid_until": null,
+   "source": "s:bangkokhospital-awards"
+  },
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:bangkokhospital-awards"
+  },
+  {
+   "key": "newsweek-statista",
+   "label": "Newsweek / Statista World's Best Hospitals",
+   "what": "Listed in the 2025 Newsweek and Statista hospital ranking",
+   "url": "https://www.bangkokhospital.com/en/bangkok/about-us/awards-accreditations",
+   "kind": "listing",
+   "year": 2025,
+   "valid_until": null,
+   "source": "s:bangkokhospital-awards"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The Soi Soonvijai campus off New Phetchaburi, the other pole of the cluster.",
+   "rel": "part"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "Publishes the angiography and intervention packages this page reads, special device excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Publishes the bypass packages this page reads, special device excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "Publishes a robotic cholecystectomy package of its own.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "Publishes the valve packages this page reads, prosthesis excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "Prices a direct anterior approach hip on its own page, implant excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "samitivej",
+   "type": "facility",
+   "name": "Samitivej Sukhumvit Hospital",
+   "as": "Same parent company, Bangkok Dusit Medical Services, different campus and different price list.",
+   "rel": "kin"
+  }
+ ]
+}

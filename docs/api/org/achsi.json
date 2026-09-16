@@ -1,0 +1,244 @@
+{
+ "schema": 1,
+ "id": "achsi",
+ "type": "org",
+ "names": {
+  "name": "ACHS International",
+  "aliases": [
+   "ACHSI",
+   "Australian Council on Healthcare Standards International"
+  ],
+  "said": "The Australian scheme, sold abroad. EQuIP is the standards set, and the acronym travels with it."
+ },
+ "region": [
+  "global",
+  "oceania"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "AU",
+  "founded": 2005,
+  "status": "open"
+ },
+ "text": {
+  "what": "The international subsidiary of the Australian Council on Healthcare Standards, a not-for-profit that has developed healthcare standards since 1974 and is an authorised accrediting agency of the Australian Commission on Safety and Quality in Health Care. ACHS International is wholly owned by that parent and sells accreditation, standards, benchmarking and advisory services outside Australia, using the EQuIP standards.",
+  "story": "ACHS is a domestic regulator's partner at home and a vendor abroad, and the two roles sit in one corporate group. At home the standards are part of a national safety and quality system a hospital cannot opt out of. Abroad the same standards are a product a hospital buys.\n\n*Inference —* that is the pattern for every national scheme on this list that went international — the Australian, the Indian, the Thai, the American. The standards were written for a system with a regulator behind them and are then sold into systems where nothing stands behind them but the contract. The mark is the same; what it is embedded in is not.\n\nThe EQuIP standards hold an ISQua EEA award, which is the external check on the standards themselves.",
+  "how": "An organisation contracts with ACHS International, is assessed against EQuIP or a sector variant — hospitals, ambulatory care, telehealth, oral health, dialysis — and joins its member network. The pages read for this record state neither the cycle length nor whether the accredited list is public.",
+  "today": "As of 16 September 2026 ACHS International states it operates in more than 25 countries with more than 1,600 member organisations worldwide."
+ },
+ "geo": {
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "precision": "city",
+  "source": "s:achs-who-we-are"
+ },
+ "address": {
+  "city": "Sydney",
+  "area": "New South Wales",
+  "country": "AU"
+ },
+ "recognitions": [
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation of the ACHS EQuIP standards",
+   "year": null,
+   "valid_until": null,
+   "source": "s:achsi-home",
+   "url": "https://www.achsi.org/",
+   "note": "the award year is not stated on the pages read for this record"
+  }
+ ],
+ "kin": [
+  {
+   "to": "australia",
+   "as": "The system these standards were written for, and where a regulator stands behind them.",
+   "rel": "place"
+  },
+  {
+   "to": "nabh",
+   "as": "The Indian equivalent: a domestic scheme that also sells abroad.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thai-ha-institute",
+   "as": "The Thai equivalent, run by a public organisation rather than a subsidiary.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "Holds the award over the EQuIP standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a national standard sold abroad is separated from the system it came from.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "ACHS International",
+   "url": "https://www.achsi.org/"
+  },
+  {
+   "label": "The Australian Council on Healthcare Standards",
+   "url": "https://www.achs.org.au/"
+  }
+ ],
+ "sources": [
+  "s:achsi-home",
+  "s:achs-who-we-are"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:achsi-home"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:achs-who-we-are",
+    "note": "second paragraph marked as this project's inference"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "ACHS is a Sydney body; the pages read for this record carry no street address, so the point is city precision only"
+   },
+   "facets": {
+    "tier": "tradition",
+    "note": "2005 is the year ACHS International was set up as a subsidiary, widely reported but not on the pages read here"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The international subsidiary of the Australian Council on Healthcare Standards, a not-for-profit that has developed healthcare standards since 1974 and is an authorised accrediting agency of the Australian Commission on…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "oceania",
+   "name": "Oceania",
+   "note": "Australia, New Zealand, the Pacific"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "The system these standards were written for, and where a regulator stands behind them.",
+   "rel": "place"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The Indian equivalent: a domestic scheme that also sells abroad.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "The Thai equivalent, run by a public organisation rather than a subsidiary.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "Holds the award over the EQuIP standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Where a national standard sold abroad is separated from the system it came from.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:achsi-home",
+   "kind": "web",
+   "title": "ACHS International",
+   "publisher": "Australian Council on Healthcare Standards International",
+   "url": "https://www.achsi.org/",
+   "accessed": "2026-09-16",
+   "note": "wholly owned subsidiary of ACHS, EQuIP standards, more than 25 countries and more than 1,600 member organisations"
+  },
+  {
+   "id": "s:achs-who-we-are",
+   "kind": "web",
+   "title": "Who we are",
+   "publisher": "The Australian Council on Healthcare Standards",
+   "url": "https://www.achs.org.au/about-us/who-we-are",
+   "accessed": "2026-09-16",
+   "note": "standards development since 1974, not-for-profit status, and authorisation as an accrediting agency by the Australian Commission on Safety and Quality in Health Care"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:achsi-home"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:achs-who-we-are",
+   "note": "second paragraph marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:achsi-home"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:achsi-home"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "ACHS is a Sydney body; the pages read for this record carry no street address, so the point is city precision only"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:achsi-home"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [
+  {
+   "key": "isqua-eea",
+   "label": "ISQua External Evaluation Association",
+   "what": "ISQua EEA accreditation of the ACHS EQuIP standards",
+   "url": "https://www.achsi.org/",
+   "kind": "meta",
+   "year": null,
+   "valid_until": null,
+   "source": "s:achsi-home"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "dnv-healthcare",
+   "type": "org",
+   "name": "DNV Healthcare",
+   "as": "Another national scheme selling itself abroad, on a different standards base.",
+   "rel": "contrast"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "A regulator's partner at home and a vendor abroad, selling the same standards into systems with nothing behind them.",
+   "rel": "org"
+  }
+ ]
+}

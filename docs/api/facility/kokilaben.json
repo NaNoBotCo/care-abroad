@@ -1,0 +1,388 @@
+{
+ "schema": 1,
+ "id": "kokilaben",
+ "type": "facility",
+ "names": {
+  "name": "Kokilaben Dhirubhai Ambani Hospital",
+  "aliases": [
+   "KDAH",
+   "Kokilaben Hospital",
+   "कोकिलाबेन धीरूभाई अंबानी हॉस्पिटल"
+  ],
+  "said": "Kokilaben, for Kokilaben Ambani. Mumbai says Kokilaben and means Four Bungalows in Andheri West."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "ownership": "private",
+  "founded": 2009,
+  "specialty": [
+   "cardiac sciences",
+   "oncology",
+   "orthopaedics",
+   "neurosciences",
+   "robotic surgery",
+   "transplants"
+  ],
+  "draws": [
+   "knee-replacement",
+   "kidney-transplant",
+   "gamma-knife",
+   "cabg"
+  ],
+  "status": "open",
+  "languages": [
+   "English",
+   "Hindi",
+   "Marathi"
+  ]
+ },
+ "text": {
+  "what": "A 750-bed hospital at Four Bungalows in Andheri West, Mumbai, opened in 2009 and built by the Reliance Anil Dhirubhai Ambani Group. It runs over thirty departments and states more than 410 doctors, and it holds four accreditations at once: Joint Commission International, NABH, NABL for its laboratories and the College of American Pathologists.",
+  "story": "The hospital was conceived by the cardiac surgeon Nitu Mandke and completed after his death in 2003 under Anil Ambani, opening in 2009. It has since been described as carrying a run of firsts for India and for Asia, among them a three-room intra-operative MRI suite and an EDGE radiosurgery system.\n\n*Inference —* the equipment list is the hospital's pitch, and it aims at a particular patient. A three-room intra-operative MRI is not bought to compete on the price of a knee; it is bought to keep neurosurgical referrals in Mumbai that would otherwise leave the country. That is the other direction of this subject — a hospital built to stop outbound travel rather than to attract inbound.\n\nThe four-accreditation stack is worth reading as what it is. Joint Commission International inspects the hospital, NABH inspects it against the Indian national standard, NABL accredits the laboratories and the College of American Pathologists accredits pathology specifically. Four bodies, four fees, four scopes — and none of them a ranking.",
+  "how": "*Trade practice —* Mumbai's corporate hospitals work the Gulf and East African referral routes through an international desk and a quoted estimate, with the visa letter issued against a confirmed appointment. This hospital publishes an international patient section describing what to expect and no price list.",
+  "today": "As of 16 September 2026 the hospital states more than 410 doctors across all departments and names Joint Commission International, NABH, NABL and College of American Pathologists accreditation on its own front page. It publishes no price for any procedure. The bed count carried here, 750, comes from reporting rather than from the hospital's own pages."
+ },
+ "geo": {
+  "lat": 19.13105,
+  "lon": 72.8250528,
+  "precision": "street",
+  "source": "s:wp-kokilaben"
+ },
+ "address": {
+  "street": "Four Bungalows, Andheri West",
+  "city": "Mumbai",
+  "area": "Maharashtra",
+  "country": "IN"
+ },
+ "metrics": {
+  "beds": 750,
+  "doctors": 410,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "750 beds is from reporting; the doctor figure is the hospital's own front-page statement of more than 410 doctors across all departments, which counts affiliated consultants as well as salaried staff and is a headcount of PEOPLE, not of appointments. No patient count of any kind is published on the pages read here.",
+  "as_of": "2026-09-16",
+  "source": "s:kokilaben-home",
+  "url": "https://www.kokilabenhospital.com/"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:kokilaben-home",
+   "tier": "cited",
+   "note": "further hospitals at Navi Mumbai, Indore, Akola, Gondia and Solapur"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:kokilaben-home",
+   "tier": "cited",
+   "note": "a separate international patients section describing what to expect",
+   "url": "https://www.kokilabenhospital.com/patients/internationalpatients/what_to_expect.html"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:kokilaben-home",
+   "tier": "cited",
+   "note": "no price or implant list on the hospital's own pages, checked 16 September 2026"
+  },
+  {
+   "tag": "transplant-programme",
+   "source": "s:wp-kokilaben",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation, named on the hospital's own front page",
+   "year": null,
+   "valid_until": null,
+   "source": "s:kokilaben-home",
+   "url": "https://www.kokilabenhospital.com/",
+   "note": "the year first granted is not stated on the page read here"
+  },
+  {
+   "by": "nabh",
+   "what": "NABH accreditation, the Indian national hospital standard",
+   "year": null,
+   "valid_until": null,
+   "source": "s:kokilaben-home",
+   "url": "https://www.kokilabenhospital.com/"
+  },
+  {
+   "by": "other",
+   "what": "NABL laboratory accreditation and College of American Pathologists accreditation for pathology",
+   "year": null,
+   "valid_until": null,
+   "source": "s:kokilaben-home",
+   "url": "https://www.kokilabenhospital.com/",
+   "note": "two laboratory schemes rather than hospital-wide ones; NABL is the Indian testing and calibration board, CAP is American and inspects pathology specifically"
+  }
+ ],
+ "kin": [
+  {
+   "to": "mumbai",
+   "as": "The hospital the Andheri end of the Mumbai cluster is named for.",
+   "rel": "place"
+  },
+  {
+   "to": "india",
+   "as": "A Mumbai hospital built to hold referrals inside the country as much as to attract them from outside.",
+   "rel": "destination"
+  },
+  {
+   "to": "gamma-knife",
+   "as": "Its radiosurgery programme is the kind of work its equipment list is built around.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "as": "One of four bodies whose marks it carries on its own front page.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "nabh",
+   "as": "The Indian national board, inspecting against a domestic standard rather than an international one.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Four accreditations at once, four fees, four scopes, and no ranking among them.",
+   "rel": "story"
+  },
+  {
+   "to": "apollo-chennai",
+   "as": "The southern competitor for the same Gulf and East African referrals.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Kokilaben Dhirubhai Ambani Hospital",
+   "url": "https://www.kokilabenhospital.com/"
+  },
+  {
+   "label": "International patients — what to expect",
+   "url": "https://www.kokilabenhospital.com/patients/internationalpatients/what_to_expect.html"
+  }
+ ],
+ "sources": [
+  "s:wp-kokilaben",
+  "s:kokilaben-home"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "how Mumbai corporate hospitals work the Gulf and East African referral routes; hedged in the prose"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:kokilaben-home"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Kokilaben Dhirubhai Ambani Hospital.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A 750-bed hospital at Four Bungalows in Andheri West, Mumbai, opened in 2009 and built by the Reliance Anil Dhirubhai Ambani Group.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The hospital the Andheri end of the Mumbai cluster is named for.",
+   "rel": "place"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "A Mumbai hospital built to hold referrals inside the country as much as to attract them from outside.",
+   "rel": "destination"
+  },
+  {
+   "to": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "Its radiosurgery programme is the kind of work its equipment list is built around.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "One of four bodies whose marks it carries on its own front page.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The Indian national board, inspecting against a domestic standard rather than an international one.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Four accreditations at once, four fees, four scopes, and no ranking among them.",
+   "rel": "story"
+  },
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The southern competitor for the same Gulf and East African referrals.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-kokilaben",
+   "kind": "wikipedia",
+   "title": "Kokilaben Dhirubhai Ambani Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kokilaben_Dhirubhai_Ambani_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:kokilaben-home",
+   "kind": "web",
+   "title": "Kokilaben Dhirubhai Ambani Hospital — hospital site",
+   "publisher": "Kokilaben Dhirubhai Ambani Hospital",
+   "url": "https://www.kokilabenhospital.com/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "how Mumbai corporate hospitals work the Gulf and East African referral routes; hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:kokilaben-home"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:kokilaben-home",
+   "note": "further hospitals at Navi Mumbai, Indore, Akola, Gondia and Solapur",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:kokilaben-home",
+   "note": "a separate international patients section describing what to expect",
+   "tier": "cited",
+   "url": "https://www.kokilabenhospital.com/patients/internationalpatients/what_to_expect.html"
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:kokilaben-home",
+   "note": "no price or implant list on the hospital's own pages, checked 16 September 2026",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "transplant-programme",
+   "label": "Transplant programme",
+   "icon": "🫀",
+   "group": "clinical",
+   "evidence": "a national transplant registry, a ministry licence list, or the facility's own programme page",
+   "source": "s:wp-kokilaben",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation, named on the hospital's own front page",
+   "url": "https://www.kokilabenhospital.com/",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:kokilaben-home"
+  },
+  {
+   "key": "nabh",
+   "label": "NABH (India)",
+   "what": "NABH accreditation, the Indian national hospital standard",
+   "url": "https://www.kokilabenhospital.com/",
+   "kind": "national",
+   "year": null,
+   "valid_until": null,
+   "source": "s:kokilaben-home"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "NABL laboratory accreditation and College of American Pathologists accreditation for pathology",
+   "url": "https://www.kokilabenhospital.com/",
+   "kind": "other",
+   "year": null,
+   "valid_until": null,
+   "source": "s:kokilaben-home"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The 750-bed private hospital at Four Bungalows, Versova, opened 2009.",
+   "rel": "part"
+  }
+ ]
+}

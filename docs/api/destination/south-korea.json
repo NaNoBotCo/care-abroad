@@ -1,0 +1,416 @@
+{
+ "schema": 1,
+ "id": "south-korea",
+ "type": "destination",
+ "names": {
+  "name": "South Korea",
+  "aliases": [
+   "Republic of Korea",
+   "대한민국",
+   "Korea"
+  ],
+  "said": "The trade says Korea and pictures a hospital. The official numbers say clinic: four in five foreign patients in 2024 were treated in one, mostly in Gangnam, mostly for skin."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "KR",
+  "direction": "inbound",
+  "currency": "KRW",
+  "languages": [
+   "Korean",
+   "English",
+   "Mandarin",
+   "Japanese",
+   "Russian"
+  ],
+  "draws": [
+   "rhinoplasty",
+   "hair-transplant-fue",
+   "executive-health-screening",
+   "spinal-fusion",
+   "disc-replacement"
+  ]
+ },
+ "text": {
+  "what": "The fastest-moving inbound flow in Asia, and one of the few a state counts on a published series. Korea recorded 1.17 million foreign patients in 2024, nearly double the 610,000 of 2023, and 5.05 million cumulatively since it began attracting them in 2009. The work is mostly dermatology and plastic surgery; clinics took 82.0 per cent of it and the Seoul metropolitan area 85.4 per cent.",
+  "story": "The Ministry of Health and Welfare published the 2024 figures on 3 April 2025. The top countries of origin were Japan, China, the United States, Thailand and Taiwan, in that order. The growth rates behind the total are the interesting part: Taiwan up 550.6 per cent, Japan up 135.0 per cent, China up 132.4 per cent.\n\n*Inference —* those are short-haul numbers. A destination whose fastest-growing markets are two-hour flights, whose patients go to clinics rather than hospitals, and whose leading specialties are dermatology and plastic surgery is selling a weekend, not an admission. That is a different product from a knee replacement with three ward nights, and reading the 1.17 million as a million operations would be wrong.\n\nSeparate card-spending data for 2024 put 919,000 foreign nationals spending 1.4 trillion won at Korean medical providers, an average of about 1.53 million won each — roughly a thousand US dollars a head at the rates of the day. That average is a dermatology average.\n\n*Trade practice —* the count exists because facilities that treat foreign patients register with the ministry and report, so the series is administrative rather than survey-based. That is why it moves so sharply: a registration series grows when registration grows.",
+  "how": "Foreign patients arrive on ordinary short-stay entry for clinic work and on a medical visa for admissions. Clinics in Gangnam and Myeongdong price per procedure and quote in won, hospitals package screening, and interpreters in Mandarin, Japanese, Russian and English are ordinary at the larger facilities. Advertising is regulated, and what a Korean clinic may say to a foreign patient is not what a facilitator abroad may say about it.",
+  "today": "The 2024 total is the highest since the programme began in 2009. Korea's own hospital beds, doctors and health spending per person sit on the country page's chart from the World Bank series with their own years, and describe the system Koreans use rather than the clinics in this directory."
+ },
+ "geo": {
+  "lat": 37.5665,
+  "lon": 126.978,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 1170000,
+  "note": "Foreign patients in 2024, up 93.2 per cent on about 610,000 in 2023, with 5.05 million cumulative since 2009. Clinics accounted for 82.0 per cent and the Seoul metropolitan area 85.4 per cent; dermatology, plastic surgery, internal medicine and health screening led. The series is assembled from facilities that register to treat foreign patients, so it counts reported patients at registered places, not border crossings made for treatment.",
+  "as_of": "2024",
+  "source": "s:mohw-kr-foreign-patients-2024",
+  "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207"
+ },
+ "kin": [
+  {
+   "to": "khidi",
+   "as": "The institute that compiles the foreign-patient series for the health ministry.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "as": "The registration that turns a clinic into a line in the national count.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "seoul",
+   "as": "Where 85.4 per cent of it happened in 2024.",
+   "rel": "part"
+  },
+  {
+   "to": "samsung-medical-center",
+   "as": "One of the large hospitals at the other end of the market from the Gangnam clinics.",
+   "rel": "part"
+  },
+  {
+   "to": "asan-medical-center",
+   "as": "The country's largest hospital, and a transplant centre foreign patients are referred to.",
+   "rel": "part"
+  },
+  {
+   "to": "severance",
+   "as": "The oldest of the university hospitals taking international referrals.",
+   "rel": "part"
+  },
+  {
+   "to": "wooridul",
+   "as": "The spine specialist that made Korea a named address for back surgery.",
+   "rel": "part"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "The operation the country's reputation abroad is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "japan",
+   "as": "The largest single source of its foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "taiwan",
+   "as": "Its fastest-growing source market in 2024, up 550.6 per cent.",
+   "rel": "contrast"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "What a clinic here may say, against what a broker abroad says for it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a registration series and a patient count are not the same thing.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Korea Attracts 1.17 Million Foreign Patients in 2024 — Ministry of Health and Welfare",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207"
+  }
+ ],
+ "sources": [
+  "s:mohw-kr-foreign-patients-2024",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mohw-kr-foreign-patients-2024"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:mohw-kr-foreign-patients-2024",
+    "note": "figures from the ministry's release of 3 April 2025; the inline marks say which stretches are inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of clinic and hospital practice in Seoul; not read off an instrument"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:mohw-kr-foreign-patients-2024"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Gangnam-daero.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The fastest-moving inbound flow in Asia, and one of the few a state counts on a published series.",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "khidi",
+   "type": "org",
+   "name": "Korea Health Industry Development Institute",
+   "as": "The institute that compiles the foreign-patient series for the health ministry.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The registration that turns a clinic into a line in the national count.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "Where 85.4 per cent of it happened in 2024.",
+   "rel": "part"
+  },
+  {
+   "to": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "One of the large hospitals at the other end of the market from the Gangnam clinics.",
+   "rel": "part"
+  },
+  {
+   "to": "asan-medical-center",
+   "type": "facility",
+   "name": "Asan Medical Center",
+   "as": "The country's largest hospital, and a transplant centre foreign patients are referred to.",
+   "rel": "part"
+  },
+  {
+   "to": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "The oldest of the university hospitals taking international referrals.",
+   "rel": "part"
+  },
+  {
+   "to": "wooridul",
+   "type": "facility",
+   "name": "Wooridul Spine Hospital",
+   "as": "The spine specialist that made Korea a named address for back surgery.",
+   "rel": "part"
+  },
+  {
+   "to": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The operation the country's reputation abroad is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The largest single source of its foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "Its fastest-growing source market in 2024, up 550.6 per cent.",
+   "rel": "contrast"
+  },
+  {
+   "to": "advertising-rules",
+   "type": "rule",
+   "name": "What a clinic may say",
+   "as": "What a clinic here may say, against what a broker abroad says for it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a registration series and a patient count are not the same thing.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:mohw-kr-foreign-patients-2024",
+   "kind": "web",
+   "title": "Korea Attracts 1.17 Million Foreign Patients in 2024",
+   "publisher": "Ministry of Health and Welfare (Republic of Korea)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207",
+   "accessed": "2026-09-16",
+   "note": "press release of 3 April 2025; the annual foreign-patient statistics are compiled for the ministry by the Korea Health Industry Development Institute"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:mohw-kr-foreign-patients-2024"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:mohw-kr-foreign-patients-2024",
+   "note": "figures from the ministry's release of 3 April 2025; the inline marks say which stretches are inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of clinic and hospital practice in Seoul; not read off an instrument"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:mohw-kr-foreign-patients-2024"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:mohw-kr-foreign-patients-2024"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "The destination that recorded China as its second-largest source of foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "from": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The neighbour whose official figures record Japan as its largest source of foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "from": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "The destination Taiwanese patients travelled to fastest in 2024, up 550.6 per cent.",
+   "rel": "contrast"
+  },
+  {
+   "from": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "The country whose foreign-patient count this city dominates.",
+   "rel": "whole"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "A destination that built a face-surgery trade on technique rather than on discount.",
+   "rel": "destination"
+  },
+  {
+   "from": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "A destination whose surgeons are sought for a house style rather than a discount.",
+   "rel": "destination"
+  },
+  {
+   "from": "asan-medical-center",
+   "type": "facility",
+   "name": "Asan Medical Center",
+   "as": "The country's largest hospital, and one of the few anywhere that publishes its own foreign caseload.",
+   "rel": "destination"
+  },
+  {
+   "from": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "A corporate foundation's hospital in a system where every foreign patient is registered with the ministry.",
+   "rel": "destination"
+  },
+  {
+   "from": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "The first Korean hospital to take JCI accreditation, in 2007, which dates the country's selling abroad.",
+   "rel": "destination"
+  },
+  {
+   "from": "wooridul",
+   "type": "facility",
+   "name": "Wooridul Spine Hospital",
+   "as": "Among the earliest Korean hospitals to build a foreign-patient practice, by training foreign surgeons before the state built a register.",
+   "rel": "destination"
+  },
+  {
+   "from": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The country whose statute this is.",
+   "rel": "destination"
+  },
+  {
+   "from": "khidi",
+   "type": "org",
+   "name": "Korea Health Industry Development Institute",
+   "as": "The country whose inbound patient count it compiles and publishes.",
+   "rel": "place"
+  },
+  {
+   "from": "world-bank-beds",
+   "type": "dataset",
+   "name": "Hospital beds per 1,000 people",
+   "as": "12.81 beds per 1,000 in 2022, the highest national figure among this site's destinations.",
+   "rel": "measures"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The compulsory register, and the one national figure here with a stated counting rule.",
+   "rel": "destination"
+  }
+ ]
+}

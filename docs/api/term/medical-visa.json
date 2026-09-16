@@ -1,0 +1,207 @@
+{
+ "id": "medical-visa",
+ "names": {
+  "name": "Medical visa",
+  "aliases": [
+   "treatment visa",
+   "e-Medical Visa",
+   "medical attendant visa",
+   "health visa"
+  ],
+  "said": "States that issue one name it plainly. States that do not leave the patient to enter as a visitor, and the trip then leaves no trace in any count."
+ },
+ "etymology": {
+  "root": "visa, 1831, an official endorsement on a passport that the document has been examined and found correct, from French visa, from Modern Latin charta visa, \"verified paper\", literally paper that has been seen, from the feminine past participle of Latin videre, to see. It displaced the earlier visé, 1810. The word means somebody looked at the document, which is all a visa has ever promised.",
+  "first_attested": "1831 in English",
+  "tier": "cited",
+  "source": "s:etymonline-visa",
+  "note": "A medical class ties the stay to a named hospital's letter. That makes the purpose of the journey a matter of record, which cuts both ways."
+ },
+ "text": {
+  "what": "An entry permission issued for treatment. Some states run a dedicated class that names the hospital and admits a companion; others treat a patient arriving for surgery as an ordinary visitor. Which applies decides how long the patient may stay, whether anyone may come with them, and whether the journey appears in any official figure.",
+  "story": "India's scheme states what a government thinks a treatment trip needs. The e-Medical Visa runs \"One year (365 days) from the date of arrival into India\" with multiple entries, and requires a \"Copy of Letter from the Hospital concerned in India on its letterhead which including the date / tentative date which admission have been suggested\". Beside it sits the e-Medical Attendant Visa, and the rule is arithmetic: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\".\n\nEurope takes the other route. A patient travelling into the Schengen area for treatment applies under the general short-stay conditions of the Visa Code, Regulation (EC) No 810/2009: Article 14 sets the supporting documents — purpose of journey, accommodation, means of subsistence, and information allowing an assessment of the intention to leave — and Article 15 sets the travel medical insurance minimum. The treatment is a purpose of journey, not a class of its own.\n\n*Inference —* where no medical class exists the trip is invisible to migration statistics, which is one reason the counts of who travels for care are as poor as they are.",
+  "how": "A medical class typically wants the hospital's letter, evidence of funds and a return ticket, and typically runs from a date fixed weeks ahead. Treatment dates move; visa validity does not move with them. A change of provider after arrival is then a paperwork problem as well as a clinical one.",
+  "today": "As of 17 September 2026 the visa classes that name treatment are held on individual rule records on this site, each naming its own instrument and date. The Indian classes described here are read off the Government of India's own e-Visa page."
+ },
+ "kin": [
+  {
+   "to": "the-visa",
+   "as": "The step in the journey where this class is applied for.",
+   "rel": "step"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The instrument behind the class this record reads, with its own dates.",
+   "rel": "rule"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "as": "The other shape: general short-stay conditions applied to a treatment journey.",
+   "rel": "rule"
+  },
+  {
+   "to": "the-companion",
+   "as": "The person a medical class does or does not admit — India grants two.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "Why a visa that records the purpose of a journey matters where the treatment is lawful there and not at home.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The scheme where no visa is needed at all, because the border is already open.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:etymonline-visa",
+  "s:india-emedical-visa",
+  "s:eu-visa-code-810-2009"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "M"
+ },
+ "blurb": "An entry permission issued for treatment. Some states run a dedicated class that names the hospital and admits a companion; others treat a patient arriving for surgery as an ordinary visitor.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The step in the journey where this class is applied for.",
+   "rel": "step"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The instrument behind the class this record reads, with its own dates.",
+   "rel": "rule"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "type": "rule",
+   "name": "The Schengen visa, for treatment",
+   "as": "The other shape: general short-stay conditions applied to a treatment journey.",
+   "rel": "rule"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The person a medical class does or does not admit — India grants two.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "Why a visa that records the purpose of a journey matters where the treatment is lawful there and not at home.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The scheme where no visa is needed at all, because the border is already open.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-visa",
+   "kind": "dictionary",
+   "title": "visa (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/visa",
+   "accessed": "2026-09-17",
+   "note": "1831, from French visa, Modern Latin charta visa"
+  },
+  {
+   "id": "s:india-emedical-visa",
+   "kind": "web",
+   "title": "e-Visa — e-Medical Visa and e-Medical Attendant Visa",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16",
+   "note": "one year from arrival, multiple entries, hospital letter on letterhead, two attendant visas per patient"
+  },
+  {
+   "id": "s:eu-visa-code-810-2009",
+   "kind": "statute",
+   "title": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Articles 14 and 15",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/article/15",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The document the hospital that published this price offers to write a letter for.",
+   "rel": "rule"
+  },
+  {
+   "from": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The word this class is the clearest example of.",
+   "rel": "term"
+  },
+  {
+   "from": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The word, and what it does and does not name here.",
+   "rel": "term"
+  }
+ ]
+}

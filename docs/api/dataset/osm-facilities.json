@@ -1,0 +1,305 @@
+{
+ "schema": 1,
+ "id": "osm-facilities",
+ "type": "dataset",
+ "names": {
+  "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+  "aliases": [
+   "OSM facilities harvest",
+   "Overpass hub query"
+  ],
+  "said": "Mappers call them POIs. Each row is a point somebody typed a name onto, and the tags are whatever that person thought worth typing."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "OpenStreetMap"
+ },
+ "text": {
+  "what": "Every named hospital, clinic and dental surgery OpenStreetMap carried within a set radius of each hub on this site, fetched through the Overpass API. The copy on disk holds 14,356 rows across 14 hubs, fetched on 16 and 17 September 2026: 5,532 tagged amenity=clinic, 5,323 amenity=hospital, 2,651 amenity=dentist, and 788 carrying a healthcare tag with no amenity tag at all.",
+  "story": "The count follows the mappers, not the medicine. Bengaluru returns 2,548 rows inside 25 km and Bangkok 521 inside the same 25 km; Delhi NCR returns 2,275 inside 40 km, Mumbai 1,849, Chennai 1,529, Istanbul 1,297 inside 30 km, Kuala Lumpur 1,287, Bogotá 894, Barcelona 621, Budapest 549, Dubai 545, İzmir 206, Amman 139 and Antalya 96 inside 25 km. India supplies 8,201 of the 14,356 rows. Nobody should read that as India having sixteen times the clinics of Thailand; India has a larger and more active mapping community, and Thai medical addresses are often mapped in Thai script under names a Latin-script query does not reach.\n\nThe tags thin out fast. Of 14,356 rows, 1,621 carry a website, 1,581 a telephone number, 3,775 a street address, 1,375 an operator — and 42 carry a bed count. A bed count on three rows in a thousand is not a capacity dataset.\n\n*Inference —* the country code on each row shows how the sausage is made. It is taken from the mapper's own addr:country tag where there is one, and from the hub's country otherwise. One clinic in Dubai Marina carries addr:country=UA, so the harvest files it under Ukraine. One row in 14,356, visible only because somebody counted; the same class of error is invisible everywhere it happens to agree with the hub.",
+  "how": "tools/harvest_osm.py runs one Overpass query per hub at the radius the hub record names: nwr[\"amenity\"=\"hospital\"], amenity=clinic, amenity=dentist and healthcare in hospital, clinic, centre, dentist, fertility_clinic, rehabilitation or laboratory, each requiring a name, around the hub's own point. Ways and relations are reduced to their centre. Rows are deduplicated by OSM id across hubs, and twenty-eight tag keys are kept — name, operator, healthcare speciality, beds, website, phone, address parts, wheelchair, wikidata and a few more.",
+  "notes": "ODbL 1.0, which is share-alike: the attribution travels with the rows onto the page and into anything built from them. © OpenStreetMap contributors."
+ },
+ "dataset": {
+  "publisher": "OpenStreetMap contributors, through the Overpass API",
+  "url": "https://www.openstreetmap.org/",
+  "api": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0",
+  "unit": "named points, one row per OSM object",
+  "years": "a snapshot, fetched 16 and 17 September 2026",
+  "countries": 9,
+  "updated_by_publisher": "continuously — OpenStreetMap changes by the minute, and this file does not",
+  "counts": "Points, ways and relations inside the radius that carry a name and one of the queried amenity or healthcare tags on the fetch date.",
+  "does_not_count": "Anything nobody mapped. A hospital missing from this file is missing from OpenStreetMap, which is a fact about mappers and not about the city: absence here is absence of mapping. The rows carry no accreditation, no ownership, no price, no quality measure, no patient volume and no indication that a place treats foreigners — and a clinic that closed last year sits in the file until somebody edits it out. A name is not a licence: a row proves only that a point on a map once had that name typed on it."
+ },
+ "kin": [
+  {
+   "to": "bangkok",
+   "as": "521 rows inside 25 km of the hub's point, against Bengaluru's 2,548 inside the same radius.",
+   "rel": "measures"
+  },
+  {
+   "to": "bengaluru",
+   "as": "The largest harvest on this site at 2,548 rows, and a lesson in reading map coverage as medical density.",
+   "rel": "measures"
+  },
+  {
+   "to": "istanbul",
+   "as": "1,297 rows inside 30 km, in the city with the loudest advertising in this trade.",
+   "rel": "measures"
+  },
+  {
+   "to": "jci-accredited-list",
+   "as": "The opposite selection: a register of who applied and paid, against a map of who got mapped.",
+   "rel": "dataset"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Absence of mapping, read as absence of a hospital, is the commonest mistake this file invites.",
+   "rel": "story"
+  },
+  {
+   "to": "how-this-was-built",
+   "as": "The Overpass query, the radii and the tag list are all in the method.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "label": "ODbL 1.0",
+   "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+  }
+ ],
+ "sources": [
+  "s:osm",
+  "s:odbl-1-0"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "every count was taken off data/harvest/osm-facilities.json on 2026-09-17; the closing paragraph is marked inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Every named hospital, clinic and dental surgery OpenStreetMap carried within a set radius of each hub on this site, fetched through the Overpass API.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "521 rows inside 25 km of the hub's point, against Bengaluru's 2,548 inside the same radius.",
+   "rel": "measures"
+  },
+  {
+   "to": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "The largest harvest on this site at 2,548 rows, and a lesson in reading map coverage as medical density.",
+   "rel": "measures"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "1,297 rows inside 30 km, in the city with the loudest advertising in this trade.",
+   "rel": "measures"
+  },
+  {
+   "to": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "The opposite selection: a register of who applied and paid, against a map of who got mapped.",
+   "rel": "dataset"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Absence of mapping, read as absence of a hospital, is the commonest mistake this file invites.",
+   "rel": "story"
+  },
+  {
+   "to": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The Overpass query, the radii and the tag list are all in the method.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  },
+  {
+   "id": "s:odbl-1-0",
+   "kind": "web",
+   "title": "Open Database License (ODbL) v1.0",
+   "publisher": "Open Data Commons",
+   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-17",
+   "note": "the share-alike licence OpenStreetMap data carries: attribution, and any adapted database shared under the same terms"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "text.story": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "every count was taken off data/harvest/osm-facilities.json on 2026-09-17; the closing paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "harvested",
+   "source": "s:osm"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 40 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "mumbai",
+   "type": "hub",
+   "name": "Mumbai",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "The opposite selection problem: a map of who got mapped, against a register of who applied.",
+   "rel": "dataset"
+  },
+  {
+   "from": "natural-earth-countries",
+   "type": "dataset",
+   "name": "Natural Earth country outlines",
+   "as": "The other map layer: this one draws countries, that one draws the clinics inside nine of them.",
+   "rel": "dataset"
+  },
+  {
+   "from": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The harvest that supplies the hub maps, under ODbL with attribution.",
+   "rel": "dataset"
+  },
+  {
+   "from": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Where absence is absence of mapping, and a row proves only that somebody typed a name.",
+   "rel": "dataset"
+  }
+ ]
+}

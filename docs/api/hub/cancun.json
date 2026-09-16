@@ -1,0 +1,307 @@
+{
+ "schema": 1,
+ "id": "cancun",
+ "type": "hub",
+ "names": {
+  "name": "Cancún",
+  "aliases": [
+   "Cancun",
+   "Benito Juárez"
+  ],
+  "said": "Can-KOON. The Hotel Zone is its own address; the hospitals are in the city behind it."
+ },
+ "region": [
+  "mexico",
+  "caribbean"
+ ],
+ "facets": {
+  "iso2": "MX",
+  "radius_km": 20,
+  "specialty": [
+   "dentistry",
+   "cosmetic surgery",
+   "bariatric surgery",
+   "oncology",
+   "orthopaedics"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "veneers",
+   "full-mouth-restoration",
+   "breast-augmentation",
+   "liposuction",
+   "abdominoplasty",
+   "gastric-sleeve"
+  ],
+  "languages": [
+   "Spanish",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "The largest city in Quintana Roo, on the Caribbean coast of the Yucatán Peninsula, built in the 1970s as a resort and now carrying a second trade: dentistry and cosmetic surgery sold to people who were flying here anyway. It is the only hub in this directory whose international air connections were built for a holiday market and then inherited by a clinical one.",
+  "story": "Cancún's medical sector sits on infrastructure it did not have to pay for. The flights, the hotels, the English-speaking service economy and the transfers all existed for the resort. What was added was hospitals and surgeries willing to schedule around a week's stay.\n\nHospital Galenia, the city's main private hospital for international patients, publishes an unusually full account of its own credentials: Joint Commission International accreditation; Accreditation Canada's Qmentum International at Platinum level, which it states includes accreditation for international health-travel services; certification by Mexico's Consejo de Salubridad General, a body reporting directly to the presidency; and the Distintivo Turismo de Salud awarded by the federal tourism ministry, SECTUR, to institutions meeting a service standard for foreign patients.\n\nThe same page is a lesson in reading one. Beside three of those credentials the hospital prints its own validity dates: \"Vigencia hasta Noviembre del 2021\" for the Joint Commission line, \"Vigencia hasta Marzo 2022\" for the Canadian one, \"Vigencia hasta 20 de octubre del 2020\" for the national certification. Read on 16 September 2026, all three had passed. This directory records what the page says and the date it was read, and nothing about what is or is not current.\n\n*Trade practice —* the dental operators here run the same price lists as their border-town branches. Sani Dental Group lists clinics in Los Algodones, Cancún and Playa del Carmen and publishes one price page across all three, with no line saying which town a figure belongs to.",
+  "how": "The pattern is a week: fly in, consult on the first working day, treat, recover in a hotel rather than a ward, fly home. That works for dentistry, for day-case cosmetic surgery and for short bariatric stays; it does not work for anything that needs a surgeon's eye at six weeks. Hospitals bill in pesos and dollars and quote on request. The dental groups publish, the hospitals do not.",
+  "today": "As of 16 September 2026 Hospital Galenia's accreditations page lists four separate schemes and three lapsed validity dates, and the largest dental group in the city prices its work on a page shared with two other towns."
+ },
+ "geo": {
+  "lat": 21.1606,
+  "lon": -86.8475,
+  "precision": "city",
+  "source": "s:wp-cancun"
+ },
+ "address": {
+  "city": "Cancún",
+  "area": "Quintana Roo",
+  "country": "MX"
+ },
+ "tags": [
+  {
+   "tag": "international-office",
+   "source": "s:galenia-accreditations",
+   "tier": "cited",
+   "note": "Hospital Galenia states accreditation for international health-travel services under the Canadian scheme",
+   "url": "https://hospitalgalenia.com/acreditaciones-y-certificaciones/"
+  },
+  {
+   "tag": "price-published",
+   "source": "s:sani-price-list",
+   "tier": "cited",
+   "note": "the dental group operating here publishes an open price list, though the page names no town",
+   "url": "https://sanidentalgroup.com/price-list"
+  }
+ ],
+ "kin": [
+  {
+   "to": "mexico",
+   "as": "The country whose resort economy this cluster grew inside.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "as": "Shares an operator and a price page with this city, which is why a Cancún figure may not be a Cancún figure.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The commonest reason a foreign patient sees a Cancún surgery rather than a Cancún beach.",
+   "rel": "performs"
+  },
+  {
+   "to": "all-on-four",
+   "as": "Sold here by the arch on the same list the border towns use.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "as": "One of four schemes the city's main private hospital names on its own accreditations page.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "A page listing four accreditations and three expired validity dates is the question in one screen.",
+   "rel": "story"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The constraint that decides which operations can be sold on a one-week resort schedule.",
+   "rel": "risk"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The neighbouring trade, and the one the hotels were built for.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Hospital Galenia — acreditaciones y certificaciones",
+   "url": "https://hospitalgalenia.com/acreditaciones-y-certificaciones/"
+  }
+ ],
+ "sources": [
+  "s:wp-cancun",
+  "s:galenia-accreditations",
+  "s:sani-price-list"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:galenia-accreditations",
+    "note": "read off the hospital's own page on 16 September 2026, including the validity dates it prints"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of a one-week treatment trip into a resort city"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Cancun Hotel Zone.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The largest city in Quintana Roo, on the Caribbean coast of the Yucatán Peninsula, built in the 1970s as a resort and now carrying a second trade: dentistry and cosmetic surgery sold to people who were flying here…",
+ "region_terms": [
+  {
+   "key": "mexico",
+   "name": "Mexico",
+   "note": "its own entry because the border towns are a category of their own"
+  },
+  {
+   "key": "caribbean",
+   "name": "The Caribbean",
+   "note": "the Dominican Republic, Cuba, Barbados, the Caymans"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The country whose resort economy this cluster grew inside.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "Shares an operator and a price page with this city, which is why a Cancún figure may not be a Cancún figure.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The commonest reason a foreign patient sees a Cancún surgery rather than a Cancún beach.",
+   "rel": "performs"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "Sold here by the arch on the same list the border towns use.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "One of four schemes the city's main private hospital names on its own accreditations page.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "A page listing four accreditations and three expired validity dates is the question in one screen.",
+   "rel": "story"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The constraint that decides which operations can be sold on a one-week resort schedule.",
+   "rel": "risk"
+  },
+  {
+   "to": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The neighbouring trade, and the one the hotels were built for.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-cancun",
+   "kind": "web",
+   "title": "Cancún",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:galenia-accreditations",
+   "kind": "web",
+   "title": "Acreditaciones y certificaciones",
+   "publisher": "Hospital Galenia, Cancún",
+   "url": "https://hospitalgalenia.com/acreditaciones-y-certificaciones/",
+   "accessed": "2026-09-16",
+   "note": "lists Joint Commission International, Accreditation Canada Qmentum International at Platinum level including international health-travel services, Consejo de Salubridad General certification and the SECTUR Distintivo Turismo de Salud; the validity dates printed beside three of them had passed when the page was read"
+  },
+  {
+   "id": "s:sani-price-list",
+   "kind": "web",
+   "title": "Dental Price List in Mexico",
+   "publisher": "Sani Dental Group",
+   "url": "https://sanidentalgroup.com/price-list",
+   "accessed": "2026-09-16",
+   "note": "prices in US dollars and Mexican pesos, read off the page on 16 September 2026; the page states that all prices are a base or starting-at price and carries no location qualifier, though the group lists clinics in Los Algodones, Cancún and Playa del Carmen"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:galenia-accreditations",
+   "note": "read off the hospital's own page on 16 September 2026, including the validity dates it prints"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of a one-week treatment trip into a resort city"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:galenia-accreditations",
+   "note": "Hospital Galenia states accreditation for international health-travel services under the Canadian scheme",
+   "tier": "cited",
+   "url": "https://hospitalgalenia.com/acreditaciones-y-certificaciones/"
+  },
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:sani-price-list",
+   "note": "the dental group operating here publishes an open price list, though the page names no town",
+   "tier": "cited",
+   "url": "https://sanidentalgroup.com/price-list"
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The resort end of the trade, sold alongside a holiday.",
+   "rel": "part"
+  }
+ ]
+}

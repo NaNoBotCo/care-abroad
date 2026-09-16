@@ -1,0 +1,411 @@
+{
+ "schema": 1,
+ "id": "acl-reconstruction",
+ "type": "procedure",
+ "names": {
+  "name": "Anterior cruciate ligament reconstruction",
+  "aliases": [
+   "ACL reconstruction",
+   "ACLR",
+   "knee ligament reconstruction"
+  ],
+  "said": "Everyone says ACL. Surgeons add the graft — hamstring, patellar tendon, quadriceps — because that is the decision the operation turns on. Package pages say knee ligament surgery and bundle the meniscus in with it."
+ },
+ "etymology": {
+  "root": "cruciate: Latin cruciatus, from crux, a cross — the two ligaments cross inside the knee. Anterior is Latin for the one in front. Graft comes through French greffe from Greek graphion, a stylus, for the shape of the shoot a gardener slips under bark.",
+  "tier": "tradition",
+  "note": "Reconstruction, not repair: the torn ligament is replaced with tendon, from the patient's own knee, from the other leg, or from a donor. Which graft a price covers is rarely on the price page."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "The torn cruciate ligament is replaced with a tendon graft threaded through tunnels drilled in the femur and the tibia and fixed at both ends. It is done arthroscopically, often with a meniscal repair in the same anaesthetic, and it is the operation of young sport rather than old arthritis. The rehabilitation, not the surgery, is the long part.",
+  "story": "The ACL is the youngest patient on this site's price table, and it changes what travelling costs. A knee replacement patient is leaving a queue; an ACL patient is leaving a season, and the calculation is weeks rather than pain.\n\nThe published prices come in the usual four shapes. Bumrungrad in Bangkok packages arthroscopic knee ligament surgery — its page names ACL and PCL and says meniscus work is included — at 279,000 baht with two nights, marked down 10% from 310,000 under a campaign. Practice Plus Group in England lists ACL reconstruction at £7,399, with theatre, anaesthetic, any overnight stay, physiotherapy and post-operative appointments inside the figure. Nordorthopaedics in Kaunas advertises it \"from 2.500 € / 2.085 £\" and states no inclusions at all. Australia's schedule sets item 49542 at $1,577.30 as at 1 July 2026, and the item's own wording folds in graft harvest, donor site repair, meniscal repair, collateral ligament repair and any other associated intra-articular surgery — five things for one fee.\n\n*Inference —* the English price is the only one of the four that names physiotherapy. On an operation where the graft is sound at six weeks and the knee is not trusted for nine months, the physiotherapy line is the one worth reading first, and three of the four price pages are silent about it.",
+  "how": "General anaesthesia, day case or one to two nights. The surgeon harvests the graft, drills the tunnels through the tibia and femur, pulls the graft through, and fixes it with screws, buttons or staples. Weight-bearing starts within days; the rehabilitation programme runs months and is supervised. Bumrungrad's ligament package books two nights; the same hospital prices a heavier multi-ligament package — PCL with posterolateral corner — at 299,400 baht.",
+  "today": "As of 16 September 2026 the ACL prices on this site run from an advertised Lithuanian floor of 2,500 euro to £7,399 in England, with Bangkok at 279,000 baht for two nights and the Australian schedule fee at $1,577.30 for the surgeon's service alone.",
+  "notes": "This page describes an operation and the prices published for it, and gives no clinical guidance."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "days_before_flying": 10,
+  "recovery_weeks": null,
+  "note": "Two nights is the stay named on Bumrungrad's ligament package listing. No page read for this record publishes a return-to-sport or recovery span, so recovery_weeks stays empty even though rehabilitation is the long half of this operation. The ten days before flying is the CDC's guidance for chest or abdominal surgery, applied by analogy for the clot risk of lower-limb surgery.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-joint-packages",
+  "url": "https://www.bumrungrad.com/en/packages/packages-center/joint-replacement-surgery"
+ },
+ "prices": [
+  {
+   "procedure": "acl-reconstruction",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 279000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "arthroscopic knee ligament based surgery (ie. ACL, PCL)",
+    "meniscus work",
+    "2 nights of hospital stay"
+   ],
+   "excludes": [],
+   "source": "s:bumrungrad-joint-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/joint-replacement-surgery",
+   "note": "listed at 279,000 THB against 310,000 THB under a campaign the page labels \"Special Campaign Receive a 10% Discount\". The package list page names the nights and the inclusion of meniscus work; the per-package exclusion list sits on the package's own detail page, which was not read for this record. A heavier multi-ligament package on the same page is 299,400 THB.",
+   "tier": "cited",
+   "usd": 8380.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "acl-reconstruction",
+   "country": "GB",
+   "city": "England",
+   "amount": 7399,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "pre-operative nurse review",
+    "prescriptions, dressings and equipment",
+    "anaesthetic",
+    "any overnight stay required",
+    "physiotherapy",
+    "pathology and histology needed whilst admitted",
+    "any post-operative appointments required",
+    "a named knee consultant from start to finish"
+   ],
+   "excludes": [
+    "the initial consultation, listed separately at £145, which the page says includes x-ray, bloods and swabs"
+   ],
+   "source": "s:practiceplus-knee",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/",
+   "note": "the group's published self-pay price, and the only one of the four read for this record that names physiotherapy inside the figure.",
+   "tier": "cited",
+   "usd": 9971.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "acl-reconstruction",
+   "country": "LT",
+   "city": "Kaunas",
+   "amount": 2500,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [],
+   "excludes": [],
+   "source": "s:nordorthopaedics-prices",
+   "url": "https://www.nordorthopaedics.com/hip-knee-wrist-hand-ankle-foot-shoulder-surgery-prices/",
+   "note": "advertised as \"from 2.500 € / 2.085 £\" with no inclusion list on the page.",
+   "tier": "cited",
+   "usd": 2884.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "acl-reconstruction",
+   "country": "AU",
+   "amount": 1577.3,
+   "currency": "AUD",
+   "as_of": "2026-07-01",
+   "kind": "tariff",
+   "includes": [
+    "the medical service described in item 49542: reconstruction of anterior or posterior cruciate ligament of knee, by open or arthroscopic means, including graft harvest, donor site repair, meniscal repair, collateral ligament repair, extra-articular tenodesis and any other associated intra-articular surgery if performed"
+   ],
+   "excludes": [
+    "hospital accommodation and theatre",
+    "fixation devices",
+    "the anaesthetist's own items",
+    "physiotherapy",
+    "any amount charged above the schedule fee"
+   ],
+   "source": "s:mbs-49542",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49542&qt=item",
+   "note": "Medicare Benefits Schedule item 49542, fee last updated 1 July 2026; 75% benefit $1,183.00. The same fee as a total hip replacement under item 49318, which is what a fee schedule looks like when it prices work rather than joints.",
+   "tier": "cited",
+   "usd": 1124.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "knee-arthroscopy",
+   "as": "The smaller operation done through the same portals, and often in the same anaesthetic.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The other knee on the price table, thirty years further on.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Packages this operation with meniscus work and two nights.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the Bangkok ligament package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where the £7,399 self-pay price on this page is sold, physiotherapy inside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "lithuania",
+   "as": "Where the advertised floor price on this page comes from.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Whose schedule pays the same fee for this as for a hip replacement.",
+   "rel": "destination"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who supervises nine months of rehabilitation after a two-night admission abroad.",
+   "rel": "risk"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step this operation lives or dies by, and which most price pages leave out.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "as": "The form the Bangkok price takes, meniscus work folded in.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "knee-arthroscopy",
+   "tell": "Both are keyhole knee operations; one replaces a ligament with a graft, the other trims or repairs cartilage, and the price gap between them is threefold."
+  }
+ ],
+ "links": [
+  {
+   "label": "MBS item 49542",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49542&qt=item"
+  },
+  {
+   "label": "Practice Plus Group knee prices",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint-packages",
+  "s:practiceplus-knee",
+  "s:nordorthopaedics-prices",
+  "s:mbs-49542",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "four prices read off four named pages; the closing stretch is this project's reading of what they leave out"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; nights and the multi-ligament price are cited to the package page"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:bumrungrad-joint-packages"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:ACL reconstruction arthroscopic view.jpg",
+  "File:Anterior cruciate ligament.png"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The torn cruciate ligament is replaced with a tendon graft threaded through tunnels drilled in the femur and the tibia and fixed at both ends.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "The smaller operation done through the same portals, and often in the same anaesthetic.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The other knee on the price table, thirty years further on.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Packages this operation with meniscus work and two nights.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the Bangkok ligament package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "Where the £7,399 self-pay price on this page is sold, physiotherapy inside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "lithuania",
+   "type": "destination",
+   "name": "Lithuania",
+   "as": "Where the advertised floor price on this page comes from.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Whose schedule pays the same fee for this as for a hip replacement.",
+   "rel": "destination"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who supervises nine months of rehabilitation after a two-night admission abroad.",
+   "rel": "risk"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step this operation lives or dies by, and which most price pages leave out.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form the Bangkok price takes, meniscus work folded in.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-joint-packages",
+   "kind": "web",
+   "title": "Sports Medicine & Joint Center — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/joint-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "arthroscopy, ligament, knee and hip package prices in one table; read in a browser because the page is rendered by script"
+  },
+  {
+   "id": "s:practiceplus-knee",
+   "kind": "web",
+   "title": "Private knee surgery and treatment — self-pay price list",
+   "publisher": "Practice Plus Group",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:nordorthopaedics-prices",
+   "kind": "web",
+   "title": "Orthopaedic Surgery Prices",
+   "publisher": "Nordorthopaedics Clinic, Kaunas",
+   "url": "https://www.nordorthopaedics.com/hip-knee-wrist-hand-ankle-foot-shoulder-surgery-prices/",
+   "accessed": "2026-09-16",
+   "note": "every figure is written as a 'from' price in euro and sterling; the page carries no inclusion list"
+  },
+  {
+   "id": "s:mbs-49542",
+   "kind": "gov",
+   "title": "MBS item 49542 — reconstruction of anterior or posterior cruciate ligament of knee",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49542&qt=item",
+   "accessed": "2026-09-16",
+   "note": "schedule fee $1,577.30, fee last updated 01-Jul-2026"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "four prices read off four named pages; the closing stretch is this project's reading of what they leave out"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; nights and the multi-ligament price are cited to the package page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint-packages"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "The bigger operation through the same portals, and three times the price.",
+   "rel": "contrast"
+  }
+ ]
+}

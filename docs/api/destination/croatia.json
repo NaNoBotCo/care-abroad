@@ -1,0 +1,236 @@
+{
+ "schema": 1,
+ "id": "croatia",
+ "type": "destination",
+ "names": {
+  "name": "Croatia",
+  "aliases": [
+   "Hrvatska",
+   "Republika Hrvatska"
+  ],
+  "said": "In the trade Croatia means Istria and Rijeka for teeth — an hour or two from Trieste, Ljubljana or Graz — and Zagreb for everything else."
+ },
+ "region": [
+  "europe-central"
+ ],
+ "facets": {
+  "iso2": "HR",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": [
+   "Croatian",
+   "Italian",
+   "German",
+   "English"
+  ],
+  "draws": [
+   "dental-implant",
+   "dental-crown",
+   "all-on-four",
+   "veneers"
+  ]
+ },
+ "text": {
+  "what": "A border dental trade with a coastline attached. Croatian practices in Istria and around Rijeka are within a short drive of northern Italy, Slovenia and Austria, and they price and advertise for those markets; the treatment is itemised dental work paid privately, and the holiday is the reason the second week of the trip is bookable at all.",
+  "story": "Croatia joined the EU in 2013 and the euro in 2023, and the Commission's cross-border data catches the changeover: for reference year 2022 Croatia reported all its financial figures in kuna, converted at 7.5345 to the euro. In that year it received 192 requests for reimbursement of care not subject to prior authorisation and granted 123 — 64%, one of the lower grant rates reported — and it told the Commission that its average handling time for a reimbursement request, 19 working days, sits inside a 60-day legal limit.\n\n*Trade practice —* the dental corridor itself predates all of that. Italian patients crossed for cheaper crowns and implants before either country shared a currency, and the practices that grew on that traffic now publish price lists in euro with Italian and German pages. Croatian cross-border dentistry has not been measured in the way Hungary's was surveyed twice; this record carries no patient count because none was found.\n\n*Inference —* an inbound trade that runs on day trips and short drives is the hardest kind to count. Nobody registers as a visiting patient at a border a car crosses without stopping.",
+  "how": "Itemised dental pricing, implant work split across two visits, and clinic-side help with accommodation rather than a bundled package. Guarantees are written by the practice and usually require the patient to come back to it, which is a shorter drive from Trieste than from Manchester.",
+  "today": "The measurable facts about Croatian cross-border care in 2026 remain the reimbursement ones: 192 requests in 2022, 123 granted. The dental trade sits outside them, privately paid and uncounted."
+ },
+ "geo": {
+  "lat": 45.815,
+  "lon": 15.9819,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "192 requests for reimbursement of care not subject to prior authorisation in 2022, 123 granted; 3 requests for care subject to prior authorisation, 1 authorised. These count Croatian patients treated abroad. No official count of patients travelling into Croatia was found on this pass.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "kin": [
+  {
+   "to": "dental-implant",
+   "as": "The item the Istrian practices are built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "as": "The full-arch case that makes a two-visit trip worth the drive.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hungary",
+   "as": "The older, larger dental corridor selling to overlapping markets.",
+   "rel": "contrast"
+  },
+  {
+   "to": "romania",
+   "as": "The other newer EU dental destination, with a different set of neighbours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The reimbursement route whose figures are the only official measure of this traffic.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a trade crossing a land border by car leaves almost no countable trace.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:ec-crossborder-2022",
+  "s:eu-directive-2011-24",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2022"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ec-crossborder-2022",
+    "note": "the first paragraph is cited; the second is marked trade practice and the third inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Rovinj old town Croatia.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A border dental trade with a coastline attached. Croatian practices in Istria and around Rijeka are within a short drive of northern Italy, Slovenia and Austria, and they price and advertise for those markets; the…",
+ "region_terms": [
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The item the Istrian practices are built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The full-arch case that makes a two-visit trip worth the drive.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The older, larger dental corridor selling to overlapping markets.",
+   "rel": "contrast"
+  },
+  {
+   "to": "romania",
+   "type": "destination",
+   "name": "Romania",
+   "as": "The other newer EU dental destination, with a different set of neighbours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The reimbursement route whose figures are the only official measure of this traffic.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a trade crossing a land border by car leaves almost no countable trace.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ec-crossborder-2022",
+   "kind": "report",
+   "title": "Member State data on cross-border patient healthcare following Directive 2011/24/EU — reference year 2022",
+   "publisher": "European Commission, DG Health and Food Safety, Unit B.3; written by PredictBy Research and Consulting and Baltic Media; Publications Office of the European Union",
+   "url": "https://health.ec.europa.eu/document/download/69e33702-c7cc-4f0e-afc0-f3cf13e127ab_en?filename=crossborder_2022_patient-healthcare_data_en.pdf",
+   "license": "CC BY 4.0",
+   "accessed": "2026-09-16",
+   "note": "final version January 2024, ISBN 978-92-68-14858-7. 23 countries reported 547,890 reimbursement requests for care not needing prior authorisation in 2022, of which France 300,254 and Germany 160,647 are 84%; Poland 14,176, Slovakia 13,904, Ireland 1,841, Romania 889, Czechia 440, Croatia 192, Lithuania 131, Greece 56, Cyprus 44, Portugal 27 (all refused), Spain 9. Total reimbursed EUR 86,462,491. For care needing prior authorisation, 4,552 requests and EUR 7,708,041. Belgium and Hungary could not report; Czechia, Cyprus, Latvia, Lithuania, the Netherlands, Finland, Sweden and Norway run no prior-authorisation system; only Denmark and Romania have a mechanism to limit inflow."
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2022",
+   "note": "the first paragraph is cited; the second is marked trade practice and the third inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2022"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2022"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "romania",
+   "type": "destination",
+   "name": "Romania",
+   "as": "The other newer EU dental destination, working a different border.",
+   "rel": "contrast"
+  }
+ ]
+}

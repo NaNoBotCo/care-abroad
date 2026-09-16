@@ -1,0 +1,267 @@
+{
+ "id": "when-it-goes-wrong",
+ "names": {
+  "name": "When it goes wrong",
+  "aliases": [
+   "the complication",
+   "the emergency abroad",
+   "the failed result"
+  ],
+  "said": "Abroad it is an emergency. At home, weeks later, it is a presentation with no history."
+ },
+ "facets": {
+  "stage": "when-it-goes-wrong"
+ },
+ "x_order": 16,
+ "text": {
+  "what": "A complication arrives, either in the destination while the patient is still there or at home after the flight. Who treats it, who pays for it and who holds the record differ in the two cases, and both differ from the domestic pathway where one institution owns the whole episode.",
+  "story": "The events that get published are the outbreaks, because an outbreak is what makes a scatter of individual complications countable. The CDC names fungal meningitis in patients who received epidural anaesthesia in Mexico, carbapenem-resistant Enterobacterales infections after invasive procedures in Mexico, and surgical site infections caused by nontuberculous mycobacteria in the Dominican Republic. Each was found because the cases clustered.\n\n*Inference —* the corollary is the shape of the evidence in this field. A complication that does not cluster is absorbed at home as an ordinary presentation, attributed to nothing in particular, and counted by nobody. The outbreak reports are the visible fraction, and the denominator is unknown.\n\nWhat the patient meets financially is the second exclusion list. The NHS states that travel insurance \"does not normally cover if things go wrong in surgery\". The CDC directs travellers to check what a domestic plan covers abroad and to consider supplemental cover \"including medical evacuation insurance\". The UK government's travel insurance guidance is built around emergencies and unplanned costs — repatriation, emergency transport, \"getting home after medical treatment if you cannot use your original ticket\" — and notes that EHIC and GHIC \"are not alternatives to travel insurance as they do not cover any private medical healthcare costs, repatriation or additional costs\".\n\nAbroad, the immediate questions are practical: whether the treating hospital will readmit and at what charge, whether the package's complication terms cover a return to theatre, whether the patient is well enough to be moved, and who pays for an air ambulance if not.",
+  "how": "What a reader would have to ask, and ask before travelling because the answers cannot be obtained during a crisis: what the provider's written complication terms cover and for how long, whether the insurer's cover survives a planned procedure, what the destination's consular service for the patient's nationality will and will not do, which hospital in the destination takes emergencies if the clinic cannot, and who holds the operation note if the patient is unconscious.",
+  "today": "As of 16 September 2026 the published record of failures in this trade consists of outbreak investigations, single-hospital cost analyses of returning patients, and case reports. No system counts complications of treatment abroad against the number of people who travelled."
+ },
+ "kin": [
+  {
+   "to": "complaint-and-claim",
+   "as": "What this step becomes once the clinical emergency is over.",
+   "rel": "step"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "The bill when a scheduled seat is no longer an option.",
+   "rel": "risk"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Whether anything can be recovered, and where.",
+   "rel": "risk"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The commonest failure, and the one that presents after the flight.",
+   "rel": "risk"
+  },
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "as": "An outbreak that made a scatter of cases countable.",
+   "rel": "event"
+  },
+  {
+   "to": "dominican-republic-ntm-outbreak",
+   "as": "The same, in another destination and another organism.",
+   "rel": "event"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step this one interrupts.",
+   "rel": "step"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Why the denominator under all of this is missing.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-medical-tourism",
+  "s:nhs-cosmetic-surgery-abroad",
+  "s:gov-uk-foreign-travel-insurance"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "A complication arrives, either in the destination while the patient is still there or at home after the flight.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "What this step becomes once the clinical emergency is over.",
+   "rel": "step"
+  },
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The bill when a scheduled seat is no longer an option.",
+   "rel": "risk"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Whether anything can be recovered, and where.",
+   "rel": "risk"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The commonest failure, and the one that presents after the flight.",
+   "rel": "risk"
+  },
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "An outbreak that made a scatter of cases countable.",
+   "rel": "event"
+  },
+  {
+   "to": "dominican-republic-ntm-outbreak",
+   "type": "event",
+   "name": "The Dominican mycobacterial outbreaks, 2013–14 and 2017",
+   "as": "The same, in another destination and another organism.",
+   "rel": "event"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step this one interrupts.",
+   "rel": "step"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Why the denominator under all of this is missing.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:nhs-cosmetic-surgery-abroad",
+   "kind": "org",
+   "title": "Cosmetic surgery abroad",
+   "publisher": "NHS (England)",
+   "url": "https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/advice/cosmetic-surgery-abroad/",
+   "accessed": "2026-09-16",
+   "note": "read for aftercare responsibility, flying intervals and the statement on travel insurance"
+  },
+  {
+   "id": "s:gov-uk-foreign-travel-insurance",
+   "kind": "org",
+   "title": "Foreign travel insurance",
+   "publisher": "UK Foreign, Commonwealth and Development Office, gov.uk",
+   "url": "https://www.gov.uk/guidance/foreign-travel-insurance",
+   "accessed": "2026-09-16",
+   "note": "read for repatriation, emergency transport, declaration of existing conditions and the limits of EHIC/GHIC"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "Where this step goes when the wound fails.",
+   "rel": "step"
+  },
+  {
+   "from": "complaint-and-claim",
+   "type": "pathway",
+   "name": "Complaint and claim",
+   "as": "The clinical event that precedes this step.",
+   "rel": "step"
+  },
+  {
+   "from": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "The step at which a headache two weeks after a flight becomes an emergency.",
+   "rel": "step"
+  },
+  {
+   "from": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "The step at which the question first gets asked.",
+   "rel": "step"
+  },
+  {
+   "from": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The step at which the aircraft is chartered.",
+   "rel": "step"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The step this is the bill for.",
+   "rel": "step"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The step this risk turns into.",
+   "rel": "step"
+  },
+  {
+   "from": "revision",
+   "type": "term",
+   "name": "Revision",
+   "as": "The step in the journey this word belongs to.",
+   "rel": "step"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "Where the patient goes at week three, and who is on take.",
+   "rel": "step"
+  }
+ ]
+}

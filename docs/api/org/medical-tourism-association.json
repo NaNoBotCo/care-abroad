@@ -1,0 +1,253 @@
+{
+ "schema": 1,
+ "id": "medical-tourism-association",
+ "type": "org",
+ "names": {
+  "name": "Medical Tourism Association",
+  "aliases": [
+   "MTA"
+  ],
+  "said": "A membership organisation. Governments, hospitals and insurers pay to belong, and it publishes an index of destinations."
+ },
+ "region": [
+  "global",
+  "north-america"
+ ],
+ "facets": {
+  "kind": "trade-body",
+  "iso2": "US",
+  "founded": 2007,
+  "status": "open"
+ },
+ "text": {
+  "what": "A non-profit membership organisation founded in 2007 and run from West Palm Beach, Florida, serving the industry that sells cross-border care: healthcare providers, referral organisations, insurers and governments. It runs conferences, training and certification, works with destinations on their national marketing, and is associated with the Medical Tourism Index.",
+  "story": "A trade association exists to advance its members' interests, and this one says so: its stated goal is making it easier for stakeholders to connect and do business, and it names the destination brands it has helped launch — South Korea, Dubai, Washington DC, the State of Florida, Abu Dhabi. Those are clients. Reading its published material without that fact in view is reading a brochure as a survey.\n\nThe Medical Tourism Index is the output most often cited as though it were an independent ranking. Its method is published in outline: three editions to date, the most recent covering 46 destinations, built from 41 criteria across three dimensions and from a national survey of 3,030 Americans. It is credited to Renée-Marie Stephano, who co-founded this association, with Marc Fetscherin of Rollins College, and published through the International Healthcare Research Center.\n\nSo the index measures what a sample of Americans believed about 46 destinations. It does not measure outcomes, prices, complication rates or how many people went. *Inference —* an index of perception, published by people commercially engaged in the field it ranks, is a legitimate object as long as it is labelled as what it is. This directory reports the method and does not repeat the ranking as a finding, and does not carry the association's market-size figures at all.",
+  "how": "Members pay dues. The association sells conference places, sponsorship, training and certification, and consults to governments on destination branding. Global Healthcare Accreditation is its named strategic partner for training, accreditation and certification.",
+  "today": "As of 16 September 2026 the most recent Medical Tourism Index edition is 2020-21, covering 46 destinations. The 2014-15 edition covered 25 and the 2016-17 edition 41.",
+  "notes": "This record names the method where the method is published and says where it is not. It takes no view on whether the rankings are right."
+ },
+ "geo": {
+  "lat": 26.7153,
+  "lon": -80.0534,
+  "precision": "city",
+  "source": "s:mta-about"
+ },
+ "address": {
+  "city": "West Palm Beach",
+  "area": "Florida",
+  "country": "US"
+ },
+ "kin": [
+  {
+   "to": "gha",
+   "as": "The accreditation body it names as its strategic partner, founded by its co-founder.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj",
+   "as": "The other side of the trade's own publishing: a commercial journal rather than an association.",
+   "rel": "contrast"
+  },
+  {
+   "to": "medical-tourism",
+   "as": "The word it put in its own name, and the fight over that word.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where the industry's market-size figures are traced back to their sources.",
+   "rel": "story"
+  },
+  {
+   "to": "keith-pollard",
+   "as": "The trade's other long-standing publisher, and a frequent critic of its numbers.",
+   "rel": "person"
+  },
+  {
+   "to": "uae",
+   "as": "One of the destinations whose national brand it names as its own work.",
+   "rel": "place"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical Tourism Association",
+   "url": "https://www.medicaltourismassociation.com/"
+  },
+  {
+   "label": "Medical Tourism Index",
+   "url": "https://www.medicaltourism.com/mti/home"
+  }
+ ],
+ "sources": [
+  "s:mta-about",
+  "s:mti-home"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:mti-home",
+    "note": "the closing paragraph is marked as this project's inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A non-profit membership organisation founded in 2007 and run from West Palm Beach, Florida, serving the industry that sells cross-border care: healthcare providers, referral organisations, insurers and governments.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "The accreditation body it names as its strategic partner, founded by its co-founder.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj",
+   "type": "org",
+   "name": "International Medical Travel Journal",
+   "as": "The other side of the trade's own publishing: a commercial journal rather than an association.",
+   "rel": "contrast"
+  },
+  {
+   "to": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The word it put in its own name, and the fight over that word.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Where the industry's market-size figures are traced back to their sources.",
+   "rel": "story"
+  },
+  {
+   "to": "keith-pollard",
+   "type": "person",
+   "name": "Keith Pollard",
+   "as": "The trade's other long-standing publisher, and a frequent critic of its numbers.",
+   "rel": "person"
+  },
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "One of the destinations whose national brand it names as its own work.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:mta-about",
+   "kind": "org",
+   "title": "About MTA",
+   "publisher": "Medical Tourism Association",
+   "url": "https://www.medicaltourismassociation.com/about-us",
+   "accessed": "2026-09-16",
+   "note": "founded 2007, non-profit, West Palm Beach, Florida; describes government, provider and insurer members"
+  },
+  {
+   "id": "s:mti-home",
+   "kind": "web",
+   "title": "The Medical Tourism Index 2020-21",
+   "publisher": "International Healthcare Research Center",
+   "url": "https://www.medicaltourism.com/mti/home",
+   "accessed": "2026-09-16",
+   "note": "authorship, the three editions and their destination counts, the three dimensions and 41 criteria, and the survey of 3,030 Americans"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:mti-home",
+   "note": "the closing paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:mta-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "A trade body whose logo appears where a licence does not exist.",
+   "rel": "org"
+  },
+  {
+   "from": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "The trade body it names as its strategic partner, and whose co-founder founded it.",
+   "rel": "org"
+  },
+  {
+   "from": "imtj",
+   "type": "org",
+   "name": "International Medical Travel Journal",
+   "as": "The other house that publishes about this trade, from inside a membership body.",
+   "rel": "contrast"
+  },
+  {
+   "from": "promed",
+   "type": "org",
+   "name": "PROMED",
+   "as": "The same form of body one scale up: members pay, the body promotes.",
+   "rel": "contrast"
+  },
+  {
+   "from": "imtj-summit",
+   "type": "event",
+   "name": "The IMTJ Medical Travel Summit and Awards",
+   "as": "The other house that convenes this industry, with its own conference and its own index.",
+   "rel": "contrast"
+  },
+  {
+   "from": "medical-tourism",
+   "type": "term",
+   "name": "Medical tourism",
+   "as": "The trade body that put this word in its own name in 2007.",
+   "rel": "org"
+  }
+ ]
+}

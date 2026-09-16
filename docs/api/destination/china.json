@@ -1,0 +1,283 @@
+{
+ "schema": 1,
+ "id": "china",
+ "type": "destination",
+ "names": {
+  "name": "China",
+  "aliases": [
+   "中华人民共和国",
+   "People's Republic of China",
+   "PRC"
+  ],
+  "said": "China's cross-border story runs inside the country as much as across the border: a special zone on Hainan where drugs the mainland has not approved may be used, and patients who fly domestically to reach it."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "CN",
+  "direction": "both",
+  "currency": "CNY",
+  "languages": [
+   "Mandarin",
+   "English"
+  ],
+  "draws": [
+   "proton-therapy",
+   "car-t"
+  ]
+ },
+ "text": {
+  "what": "Two flows at once. Chinese patients are among the largest groups of foreign patients recorded in South Korea and Japan; inside China, a designated zone at Boao Lecheng on Hainan is allowed to use medicines and devices approved abroad but not yet registered on the mainland, which turns a regulatory gap into a destination.",
+  "story": "The State Council's own account, published on 5 July 2025, reports that the Boao Lecheng International Medical Tourism Pilot Zone received \"over 410,000 medical visitors, up 36.76 percent year on year\" in 2024, drew 188,300 in the first part of 2025 \"from countries including Canada, Spain, Russia, Uzbekistan and Cuba\", holds \"over 30 top-tier domestic and international medical institutions\", and has used \"485 advanced medicines and medical devices approved overseas but not yet available in the domestic market\" to treat \"over 130,000 patients\".\n\n*Inference —* the release does not break the 410,000 down by country of residence, and the zone's founding purpose is to give Chinese patients access to therapies not yet registered in China. Most of those visitors are therefore very likely Chinese, travelling domestically. The figure is real and the framing is not: this is a count of people reaching a regulatory exception, not a count of foreigners flying to China for treatment.\n\nThe outbound side is documented by the receiving state. South Korea's health ministry recorded China as the second-largest source of its 1.17 million foreign patients in 2024, with arrivals from China up 132.4 per cent.\n\n*Trade practice —* what Chinese patients buy abroad clusters in dermatology, cosmetic surgery, screening and fertility, with oncology and cell therapy for those who can pay for them. What the state is building at Lecheng is the same list, onshore.",
+  "how": "*Trade practice —* the Lecheng route runs through a hospital in the zone, which applies for permission to import the specific product for the specific patient. Prices are set by the institution and paid privately; the national insurance schemes do not cover the imported items. A foreign patient reaching a mainland hospital outside the zone deals with the hospital's own international department, and the language requirement is absolute.",
+  "today": "The zone's 2024 figure is the most recent published in the source read for this record. No national count of foreign patients treated in China was read."
+ },
+ "geo": {
+  "lat": 31.2304,
+  "lon": 121.4737,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": 410000,
+  "note": "\"Over 410,000 medical visitors, up 36.76 percent year on year\" at the Boao Lecheng pilot zone on Hainan in 2024 — one designated zone, not the country, and not broken down by country of residence. The zone exists so that patients can reach drugs and devices registered abroad but not on the mainland, so the visitor is most likely a domestic traveller. This is not a count of foreigners treated in China; no such national count was read for this record.",
+  "as_of": "2024",
+  "source": "s:govcn-lecheng-2025",
+  "url": "https://english.www.gov.cn/news/202507/05/content_WS6868ce92c6d0868f4e8f3dc5.html"
+ },
+ "kin": [
+  {
+   "to": "south-korea",
+   "as": "The destination that recorded China as its second-largest source of foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "japan",
+   "as": "The other short-haul destination Chinese patients travel to for screening and cell therapy.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "as": "Cell therapy pulled onshore through the Hainan exception.",
+   "rel": "procedure"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "The expensive radiotherapy the zone was built to make reachable without a visa.",
+   "rel": "procedure"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "as": "The rules that decide what a hospital in the zone may actually give a patient.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "circumvention",
+   "as": "Travel to reach a treatment the law at home has not approved — here arranged by the state itself.",
+   "rel": "story"
+  },
+  {
+   "to": "transplant-prohibition",
+   "as": "The prohibition that shaped this country's reputation in cross-border care before any zone existed.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "istanbul-declaration-2008",
+   "as": "The declaration written partly with this country's transplant practice in view.",
+   "rel": "event"
+  },
+  {
+   "to": "counting-patients",
+   "as": "How a zone's visitor count becomes a national destination claim.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Hainan emerges as China's medical travel zone — gov.cn, 5 July 2025",
+   "url": "https://english.www.gov.cn/news/202507/05/content_WS6868ce92c6d0868f4e8f3dc5.html"
+  }
+ ],
+ "sources": [
+  "s:govcn-lecheng-2025",
+  "s:mohw-kr-foreign-patients-2024",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:govcn-lecheng-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:govcn-lecheng-2025",
+    "note": "quotations from the State Council release; the Korean figures are cited to the Korean ministry; the reading is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Shanghai as the country point; the cross-border zone this record describes is at Boao Lecheng on Hainan"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:govcn-lecheng-2025"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "Two flows at once. Chinese patients are among the largest groups of foreign patients recorded in South Korea and Japan; inside China, a designated zone at Boao Lecheng on Hainan is allowed to use medicines and devices…",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The destination that recorded China as its second-largest source of foreign patients in 2024.",
+   "rel": "contrast"
+  },
+  {
+   "to": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The other short-haul destination Chinese patients travel to for screening and cell therapy.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Cell therapy pulled onshore through the Hainan exception.",
+   "rel": "procedure"
+  },
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The expensive radiotherapy the zone was built to make reachable without a visa.",
+   "rel": "procedure"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "The rules that decide what a hospital in the zone may actually give a patient.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "Travel to reach a treatment the law at home has not approved — here arranged by the state itself.",
+   "rel": "story"
+  },
+  {
+   "to": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The prohibition that shaped this country's reputation in cross-border care before any zone existed.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "istanbul-declaration-2008",
+   "type": "event",
+   "name": "The Declaration of Istanbul, 2008",
+   "as": "The declaration written partly with this country's transplant practice in view.",
+   "rel": "event"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "How a zone's visitor count becomes a national destination claim.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:govcn-lecheng-2025",
+   "kind": "web",
+   "title": "Hainan emerges as China's premier international medical tourism destination",
+   "publisher": "Xinhua, on the State Council of the People's Republic of China website",
+   "url": "https://english.www.gov.cn/news/202507/05/content_WS6868ce92c6d0868f4e8f3dc5.html",
+   "accessed": "2026-09-16",
+   "note": "dated 5 July 2025; figures for the Boao Lecheng International Medical Tourism Pilot Zone"
+  },
+  {
+   "id": "s:mohw-kr-foreign-patients-2024",
+   "kind": "web",
+   "title": "Korea Attracts 1.17 Million Foreign Patients in 2024",
+   "publisher": "Ministry of Health and Welfare (Republic of Korea)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207",
+   "accessed": "2026-09-16",
+   "note": "press release of 3 April 2025; the annual foreign-patient statistics are compiled for the ministry by the Korea Health Industry Development Institute"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:govcn-lecheng-2025"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:govcn-lecheng-2025",
+   "note": "quotations from the State Council release; the Korean figures are cited to the Korean ministry; the reading is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:govcn-lecheng-2025"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Shanghai as the country point; the cross-border zone this record describes is at Boao Lecheng on Hainan"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:govcn-lecheng-2025"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

@@ -1,0 +1,242 @@
+{
+ "schema": 1,
+ "id": "leigh-turner",
+ "type": "person",
+ "names": {
+  "name": "Leigh Turner",
+  "aliases": [
+   "Leigh G. Turner"
+  ],
+  "said": "The bioethicist who counts the clinics. His method in the stem cell work is to enumerate what is being sold, which is why the numbers survive argument."
+ },
+ "region": [
+  "north-america",
+  "global"
+ ],
+ "facets": {
+  "role": [
+   "ethicist",
+   "researcher"
+  ],
+  "iso2": "US"
+ },
+ "text": {
+  "what": "Professor in the Department of Health, Society, & Behavior at the University of California, Irvine, and Director of the UC Irvine Center for Health Ethics. His faculty page states that his \"primary research program addresses ethical, legal, social, and public health issues related to stem cells and regenerative medicine\". He has published on cross-border care since 2010 and is the principal source of counts for the American market in unapproved cell products.",
+  "story": "The work that matters most here is arithmetic. With Paul Knoepfler in Cell Stem Cell in 2016 he enumerated the businesses selling stem cell interventions directly to American consumers. Five years later he published the recount: \"In March 2021, 1,480 U.S. businesses operating 2,754 clinics were found selling purported stem cell treatments for various indications\" — \"more than four times as many businesses than were identified 5 years ago\", selling products \"that are not FDA-approved and lack convincing evidence of safety and efficacy\".\n\n*Inference —* that finding cuts across this subject's usual framing. Unproven cell treatment is written about as something patients fly abroad for; the count says the largest market for it is inside the country most of those patients live in.\n\nHis earlier cross-border papers took the industry's intermediaries as the object rather than the hospitals: accreditation and regulatory oversight of medical travel companies in the International Journal for Quality in Health Care in 2011, and the Canadian companies marketing medical travel in Globalization and Health in 2012, which examined what those companies actually told prospective patients.\n\nBefore Irvine he was at the University of Minnesota's Center for Bioethics and School of Public Health, at McGill's Biomedical Ethics Unit as a William Dawson Scholar, at the University of Toronto Joint Centre for Bioethics, and a research associate at the Hastings Center.",
+  "notes": "No birth year is published in the sources read for this record. \"Medical tourism: assessing the evidence on treatment abroad\" is by Lunt and Carrera and is sometimes misattributed to him; it is not his."
+ },
+ "kin": [
+  {
+   "to": "stem-cell-unproven",
+   "as": "The trade he counted, and the record carrying his 2021 figures.",
+   "rel": "procedure"
+  },
+  {
+   "to": "unproven-stem-cell",
+   "as": "The risk record, where his enumeration sets the scale.",
+   "rel": "risk"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "as": "The rules his counts are measured against, country by country.",
+   "rel": "rule"
+  },
+  {
+   "to": "facilitator",
+   "as": "The intermediary his 2011 and 2012 papers made the object of study.",
+   "rel": "term"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "His 2011 paper on oversight of medical travel companies sits at the centre of it.",
+   "rel": "story"
+  },
+  {
+   "to": "united-states",
+   "as": "The country his counts are of, and the one usually described as a source of patients rather than a market.",
+   "rel": "destination"
+  },
+  {
+   "to": "josef-woodman",
+   "as": "The consumer-guide reading of the same industry, from inside it.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "UC Irvine faculty profile",
+   "url": "https://publichealth.uci.edu/faculty/turner-leigh/"
+  },
+  {
+   "label": "The American stem cell sell in 2021 (Cell Stem Cell)",
+   "url": "https://doi.org/10.1016/j.stem.2021.10.008"
+  },
+  {
+   "label": "Selling stem cells in the USA (Cell Stem Cell, 2016)",
+   "url": "https://doi.org/10.1016/j.stem.2016.06.007"
+  }
+ ],
+ "sources": [
+  "s:uci-leigh-turner",
+  "s:turner-2021-stem-cell-sell",
+  "s:turner-knoepfler-2016",
+  "s:turner-2011-intqhc",
+  "s:turner-2012-globalization-health"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:uci-leigh-turner"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:turner-2021-stem-cell-sell",
+    "note": "the 2021 counts are quoted from the paper's abstract; the citations for the 2011 and 2012 papers were confirmed through Crossref on 2026-09-17"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Professor in the Department of Health, Society, & Behavior at the University of California, Irvine, and Director of the UC Irvine Center for Health Ethics.",
+ "region_terms": [
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  },
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "The trade he counted, and the record carrying his 2021 figures.",
+   "rel": "procedure"
+  },
+  {
+   "to": "unproven-stem-cell",
+   "type": "risk",
+   "name": "Unproven stem cell treatment",
+   "as": "The risk record, where his enumeration sets the scale.",
+   "rel": "risk"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "The rules his counts are measured against, country by country.",
+   "rel": "rule"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The intermediary his 2011 and 2012 papers made the object of study.",
+   "rel": "term"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "His 2011 paper on oversight of medical travel companies sits at the centre of it.",
+   "rel": "story"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The country his counts are of, and the one usually described as a source of patients rather than a market.",
+   "rel": "destination"
+  },
+  {
+   "to": "josef-woodman",
+   "type": "person",
+   "name": "Josef Woodman",
+   "as": "The consumer-guide reading of the same industry, from inside it.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:uci-leigh-turner",
+   "kind": "web",
+   "title": "Leigh Turner — faculty profile",
+   "publisher": "University of California, Irvine, Joe C. Wen School of Population and Public Health",
+   "url": "https://publichealth.uci.edu/faculty/turner-leigh/",
+   "accessed": "2026-09-16",
+   "note": "Professor, Department of Health, Society & Behavior; Director, UC Irvine Center for Health Ethics; research on stem cell and regenerative medicine marketing and on health-related travel"
+  },
+  {
+   "id": "s:turner-2021-stem-cell-sell",
+   "kind": "paper",
+   "title": "The American stem cell sell in 2021: U.S. businesses selling unlicensed and unproven stem cell interventions",
+   "publisher": "Cell Stem Cell 2021;28(11):1891-1895 (Turner L), doi:10.1016/j.stem.2021.10.008",
+   "url": "https://doi.org/10.1016/j.stem.2021.10.008",
+   "accessed": "2026-09-17",
+   "note": "abstract read through Europe PMC: 'In March 2021, 1,480 U.S. businesses operating 2,754 clinics were found selling purported stem cell treatments for various indications'; citation confirmed through Crossref"
+  },
+  {
+   "id": "s:turner-knoepfler-2016",
+   "kind": "paper",
+   "title": "Selling Stem Cells in the USA: Assessing the Direct-to-Consumer Industry",
+   "publisher": "Cell Stem Cell 2016;19(2):154-157 (Turner L, Knoepfler P)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27374789/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:turner-2011-intqhc",
+   "kind": "paper",
+   "title": "Quality in health care and globalization of health services: accreditation and regulatory oversight of medical tourism companies",
+   "publisher": "International Journal for Quality in Health Care 2011;23(1):1-7 (Turner L), doi:10.1093/intqhc/mzq078",
+   "url": "https://doi.org/10.1093/intqhc/mzq078",
+   "accessed": "2026-09-17",
+   "note": "citation confirmed through the Crossref API; the publisher's page refuses automated requests"
+  },
+  {
+   "id": "s:turner-2012-globalization-health",
+   "kind": "paper",
+   "title": "Beyond 'medical tourism': Canadian companies marketing medical travel",
+   "publisher": "Globalization and Health 2012;8:16 (Turner L), doi:10.1186/1744-8603-8-16",
+   "url": "https://doi.org/10.1186/1744-8603-8-16",
+   "accessed": "2026-09-17",
+   "note": "citation confirmed through the Crossref API; open access"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:uci-leigh-turner"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:turner-2021-stem-cell-sell",
+   "note": "the 2021 counts are quoted from the paper's abstract; the citations for the 2011 and 2012 papers were confirmed through Crossref on 2026-09-17"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "john-connell",
+   "type": "person",
+   "name": "John Connell",
+   "as": "The bioethicist working the same subject from the direction of what is being sold.",
+   "rel": "contrast"
+  },
+  {
+   "from": "josef-woodman",
+   "type": "person",
+   "name": "Josef Woodman",
+   "as": "The academic reading of the same industry, from outside it.",
+   "rel": "contrast"
+  }
+ ]
+}

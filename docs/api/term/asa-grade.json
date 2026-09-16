@@ -1,0 +1,182 @@
+{
+ "id": "asa-grade",
+ "names": {
+  "name": "ASA grade",
+  "aliases": [
+   "ASA physical status",
+   "ASA class",
+   "ASA PS classification"
+  ],
+  "said": "Anaesthetists say ASA 1 through 6, with an E for emergency. Nobody says it to a patient, and it decides whether the patient is operated on that morning."
+ },
+ "etymology": {
+  "root": "An initialism of the American Society of Anesthesiologists, on a Greek stem: anaesthesia is 1721, \"loss of feeling\", from medical Latin and Greek anaisthesia, want of feeling, from an-, without, plus aisthesis, feeling; the sense of a procedure preventing pain in surgery is attested from 1846. The scale itself has a date rather than a root — introduced in 1941 to give perioperative clinicians a standard way to record a patient's other illnesses, and last amended on 13 December 2020 from a table approved on 15 October 2014.",
+  "first_attested": "1941 for the classification; 1721 for anaesthesia",
+  "tier": "cited",
+  "source": "s:statpearls-asa-physical-status",
+  "note": "The grade describes the patient, not the operation. It is assigned by an anaesthetist who has met the patient, usually on the day."
+ },
+ "text": {
+  "what": "A six-point scale describing how well a patient is before an operation, from ASA I, healthy, to ASA VI, declared brain-dead with organs being removed for donation, with an E appended where the surgery is an emergency. It is the shorthand every anaesthetic record in the world carries.",
+  "story": "The scale ranges from a healthy patient through mild systemic disease, severe systemic disease, severe systemic disease that is a constant threat to life, and a moribund patient not expected to survive without the operation, to the brain-dead donor. It was introduced in 1941 and has been revised repeatedly since; the current table was approved on 15 October 2014 and last amended on 13 December 2020.\n\n*Inference —* the grade is where a remote quotation and a real patient meet. A package price, a stated length of stay and a fitness-to-fly date all assume a low grade. The grade is assigned face to face, after the history, usually on the morning of surgery, by a doctor who has not seen the quotation. A patient graded higher than the package assumed is the commonest way a fixed price stops being fixed.",
+  "how": "Three things follow from the grade: whether the operation proceeds as planned, whether it needs a higher level of monitoring or a bed in intensive care, and how long the patient stays. Intensive care sits outside almost every published package.",
+  "today": "As of 17 September 2026 no record on this site carries an ASA grade as a fact about a procedure, because the grade belongs to a patient and not to an operation. It appears here as the variable every package price assumes away."
+ },
+ "kin": [
+  {
+   "to": "anaesthetic-risk-unscreened",
+   "as": "The risk this scale exists to measure, and what happens when nobody applies it before the flight.",
+   "rel": "risk"
+  },
+  {
+   "to": "arrival-and-consent",
+   "as": "The step where the grade is actually assigned.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "as": "The price that assumes a low grade without saying so.",
+   "rel": "term"
+  },
+  {
+   "to": "day-case",
+   "as": "The category a grade can move a patient out of.",
+   "rel": "term"
+  },
+  {
+   "to": "length-of-stay",
+   "as": "The number the grade changes first.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:statpearls-asa-physical-status",
+  "s:etymonline-anesthesia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "A"
+ },
+ "blurb": "A six-point scale describing how well a patient is before an operation, from ASA I, healthy, to ASA VI, declared brain-dead with organs being removed for donation, with an E appended where the surgery is an emergency.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "The risk this scale exists to measure, and what happens when nobody applies it before the flight.",
+   "rel": "risk"
+  },
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The step where the grade is actually assigned.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The price that assumes a low grade without saying so.",
+   "rel": "term"
+  },
+  {
+   "to": "day-case",
+   "type": "term",
+   "name": "Day case",
+   "as": "The category a grade can move a patient out of.",
+   "rel": "term"
+  },
+  {
+   "to": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The number the grade changes first.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:statpearls-asa-physical-status",
+   "kind": "reference",
+   "title": "American Society of Anesthesiologists Physical Status Classification System — StatPearls, last updated 11 February 2025",
+   "publisher": "Hendrix JM, Garmon EH. StatPearls Publishing, NCBI Bookshelf NBK441940",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/",
+   "accessed": "2026-09-17",
+   "note": "used because the ASA's own statement page now redirects to a journal host that refuses automated access. Carries the 1941 introduction, the House of Delegates approval of 15 October 2014 and the amendment of 13 December 2020, the six ordinal classes plus the E designation, and the meta-analytic sensitivity, specificity and area under the curve for predicting postoperative mortality"
+  },
+  {
+   "id": "s:etymonline-anesthesia",
+   "kind": "dictionary",
+   "title": "anesthesia (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/anesthesia",
+   "accessed": "2026-09-17",
+   "note": "1721, from Greek anaisthesia; the surgical sense from 1846"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "The word for the score this whole exposure turns on.",
+   "rel": "term"
+  },
+  {
+   "from": "day-case",
+   "type": "term",
+   "name": "Day case",
+   "as": "The assessment that decides whether a case stays a day case.",
+   "rel": "term"
+  }
+ ]
+}

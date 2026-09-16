@@ -1,0 +1,234 @@
+{
+ "schema": 1,
+ "id": "imtj-summit",
+ "type": "event",
+ "names": {
+  "name": "The IMTJ Medical Travel Summit and Awards",
+  "aliases": [
+   "IMTJ Summit",
+   "Medical Travel Awards"
+  ],
+  "said": "The trade's own annual meeting, run by the trade paper that covers it, with an awards dinner attached."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "conference",
+  "founded": 2015,
+  "iso2": "GB",
+  "status": "suspended",
+  "when": 2019
+ },
+ "text": {
+  "what": "The trade's own annual gathering, run by the publisher of the International Medical Travel Journal alongside an awards ceremony. Five editions ran between 2015 and 2019 — Athens, Croatia, Madrid, London, then Berlin on 1 to 3 December 2019. The sixth was postponed in 2020 and this project could find no evidence that it ever ran.",
+  "story": "The summit and the awards were one weekend. The awards began first, in Dubai on 5 March 2014, created by Intuition Communication and judged by a panel chaired by the journal's editor in chief. The summit followed, and by 2019 it was running co-located with the awards, a marketplace and Temos's own meeting.\n\nThen it stopped. The 2020 edition was postponed with a notice promising a virtual conference early in 2021 and a face-to-face one in Madrid that autumn; what ran instead was a five-hour online forum and awards on 23 September 2020. The awards site's last published state, captured in September 2024, still carried the 2022 cancellation: the publisher had taken the decision not to run the awards that year and would \"make decisions around the next Awards and Summit accordingly\".\n\n*Inference —* the negative evidence is about as strong as negative evidence gets. The summit subdomain has no successful capture after 16 March 2021 and now redirects to a generic events homepage; the awards subdomain has stopped resolving; and a four-thousand-URL listing of the events site holds no IMTJ event page after 2020. A single third-party listing for a September 2022 Madrid summit exists and could not be verified from any source belonging to the organiser, so it is not carried as a fact here.",
+  "today": "As of 17 September 2026 no next edition is announced anywhere this project could read, and the two domains that used to announce one are gone or redirected. The field's own annual meeting stopping is a fact about the field worth carrying, which is why this record exists at all.",
+  "notes": "The year on this record is 2007, the year the publication was established. It is not the year of the first summit, which is not sourced here."
+ },
+ "kin": [
+  {
+   "to": "imtj",
+   "as": "The publication that runs the summit and the awards.",
+   "rel": "org"
+  },
+  {
+   "to": "keith-pollard",
+   "as": "Its editor, and the chair of the awards panel.",
+   "rel": "person"
+  },
+  {
+   "to": "medical-tourism-association",
+   "as": "The other house that convenes this industry, with its own conference and its own index.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a trade award and an inspection are told apart.",
+   "rel": "story"
+  },
+  {
+   "to": "facilitator",
+   "as": "The trade this meeting is largely for.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Where many of the field's circulating numbers are first said out loud.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "IMTJ",
+   "url": "https://www.imtj.com/"
+  }
+ ],
+ "sources": [
+  "s:imtj-wikipedia",
+  "s:imtj-summit-2019-archive",
+  "s:imtj-summit-2021-archive",
+  "s:imtj-awards-2024-archive",
+  "s:globalhtc-imtj-awards"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:imtj-summit-2019-archive"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:imtj-wikipedia",
+    "note": "the second paragraph's reading of what a trade award evidences is marked as this project's inference"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the security challenge on imtj.com was observed from this machine on 2026-09-17"
+   }
+  }
+ },
+ "needs_verification": false,
+ "confidence": "medium",
+ "updated": "2026-09-17",
+ "blurb": "The trade's own annual gathering, run by the publisher of the International Medical Travel Journal alongside an awards ceremony.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "imtj",
+   "type": "org",
+   "name": "International Medical Travel Journal",
+   "as": "The publication that runs the summit and the awards.",
+   "rel": "org"
+  },
+  {
+   "to": "keith-pollard",
+   "type": "person",
+   "name": "Keith Pollard",
+   "as": "Its editor, and the chair of the awards panel.",
+   "rel": "person"
+  },
+  {
+   "to": "medical-tourism-association",
+   "type": "org",
+   "name": "Medical Tourism Association",
+   "as": "The other house that convenes this industry, with its own conference and its own index.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Where a trade award and an inspection are told apart.",
+   "rel": "story"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The trade this meeting is largely for.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Where many of the field's circulating numbers are first said out loud.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:imtj-wikipedia",
+   "kind": "wikipedia",
+   "title": "International Medical Travel Journal",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/International_Medical_Travel_Journal",
+   "accessed": "2026-09-16",
+   "note": "established 2007, UK trade publication, biweekly newsletter, Keith Pollard as editor in chief, annual Medical Travel Awards; imtj.com refused every fetch on this date"
+  },
+  {
+   "id": "s:imtj-summit-2019-archive",
+   "kind": "web",
+   "title": "IMTJ Medical Travel Summit 2019, Berlin (Internet Archive snapshot, 23 August 2019)",
+   "publisher": "IMTJ",
+   "year": 2019,
+   "url": "https://web.archive.org/web/20190823071607/https://summit.imtj.com/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:imtj-summit-2021-archive",
+   "kind": "web",
+   "title": "IMTJ Medical Travel Summit — postponement notice (Internet Archive snapshot, 16 March 2021)",
+   "publisher": "IMTJ / LaingBuisson",
+   "year": 2021,
+   "url": "https://web.archive.org/web/20210316102011/https://summit.imtj.com/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:imtj-awards-2024-archive",
+   "kind": "web",
+   "title": "The IMTJ Medical Travel Awards (Internet Archive snapshot, 17 September 2024) — carries the 2022 cancellation notice",
+   "publisher": "LaingBuisson",
+   "url": "https://web.archive.org/web/20240917050124/https://awards.imtj.com/",
+   "accessed": "2026-09-17",
+   "note": "awards.imtj.com no longer resolves; this snapshot is the last published state"
+  },
+  {
+   "id": "s:globalhtc-imtj-awards",
+   "kind": "org",
+   "title": "IMTJ Medical Travel Awards — the 2014 inaugural announcement",
+   "publisher": "Global Healthcare Travel Council",
+   "year": 2014,
+   "url": "https://globalhtc.org/imtj-medical-travel-awards/",
+   "accessed": "2026-09-17"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:imtj-summit-2019-archive"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:imtj-wikipedia",
+   "note": "the second paragraph's reading of what a trade award evidences is marked as this project's inference"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the security challenge on imtj.com was observed from this machine on 2026-09-17"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "imtj",
+   "type": "org",
+   "name": "International Medical Travel Journal",
+   "as": "The annual conference it runs, and part of how it is paid.",
+   "rel": "event"
+  },
+  {
+   "from": "keith-pollard",
+   "type": "person",
+   "name": "Keith Pollard",
+   "as": "The meeting and the awards his publication ran, with him in the chair of the panel.",
+   "rel": "event"
+  }
+ ]
+}

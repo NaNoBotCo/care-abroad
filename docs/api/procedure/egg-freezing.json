@@ -1,0 +1,443 @@
+{
+ "schema": 1,
+ "id": "egg-freezing",
+ "type": "procedure",
+ "names": {
+  "name": "Egg freezing",
+  "aliases": [
+   "oocyte cryopreservation",
+   "oocyte vitrification",
+   "social freezing",
+   "fertility preservation"
+  ],
+  "said": "Clinics write social freezing when there is no medical reason and fertility preservation when there is; the laboratory step is identical and the insurance answer is not. Price lists say from, and the storage bill arrives yearly afterwards."
+ },
+ "etymology": {
+  "root": "vitrification: Latin vitrum, glass, plus facere, to make — to turn to glass. Cooling fast enough that the water inside the egg sets as glass instead of ice, because ice crystals cut the cell apart. The same vitrum sits inside in vitro, so the field's two central words are both about glass.",
+  "tier": "tradition",
+  "note": "an egg frozen is not a baby banked. The bill has two halves separated by years: the collection and freeze, then the thaw, fertilisation and transfer, priced again at the prices of that later year."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "fertility",
+  "setting": "day-case",
+  "anaesthesia": "sedation"
+ },
+ "text": {
+  "what": "The first half of an IVF cycle, stopped after the eggs are collected. Drugs stimulate the ovaries, the eggs are collected under sedation or general anaesthetic, a cryoprotectant is applied, and the eggs are vitrified and held in liquid nitrogen. Nothing is fertilised. Years later the eggs are thawed, injected with sperm and cultured, and that second treatment is bought again at the prices of the later year. The storage is invoiced annually in between.",
+  "story": "Egg freezing is the fertility treatment whose price is most often quoted as a single number and least often paid as one. The UK regulator publishes the shape plainly: an average of 3,350 pounds to have eggs collected and frozen, medication a further 500 to 1,500 pounds, and storage on top at between 125 and 350 pounds a year. A ten-year store at the upper end doubles the headline.\n\nIt is also the treatment whose law changed most recently in a way that moved patients. Until 1 July 2022 most people in the UK could store eggs, sperm or embryos for ten years, with exceptions for premature infertility or fertility-damaging treatment; since that date the limit is up to 55 years from the date of first storage. Before it, a storage clock running out was a reason to move gametes across a border.\n\n*Trade practice —* the marketing is age-shaped and the arithmetic is age-shaped, and they point opposite ways: the eggs worth freezing are the ones a patient is least likely to think she needs. The CDC's national rows put 9.2% of all US ART cycles in 2022 down to fertility preservation, and 11.5% among patients aged 35 to 37 — the band where the decision is usually taken late.\n\n*Inference —* the denominator that would answer the question is not a success rate at all but a use rate, which no register in this batch publishes: how many people who froze eggs came back, thawed them, and had a child.",
+  "how": "Bought in two instalments and usually in two countries' worth of price lists. The collection-and-freeze end is cheap relative to a full cycle — 2,190 EUR in Brno including a year of storage, from 2,480 EUR in Thessaloniki, 2,570 EUR in Barcelona with three years of storage folded in. The thaw end is the second bill: Reprofit prices IVF with the patient's own frozen eggs at 1,925 EUR, with screening, sperm-selection add-ons and refreezing outside it, and thawing of eggs alone at 340 EUR.\n\nTwo legal facts move this treatment across borders rather than the price. First, how long storage may lawfully run, and what happens at the end of it: the UK's shift from ten years to 55 years on 1 July 2022 removed the commonest reason British patients moved gametes abroad. Second, what the eggs may later be used for and by whom — the rules on donor use, posthumous use and export are national and sit with the rule records, not here. A store is a contract with a jurisdiction as much as with a clinic.",
+  "today": "As of September 2026 the published collection-and-freeze prices read off pages for this record run from 2,190 EUR in Brno to 3,350 pounds as the UK regulator's own stated average, with stimulation drugs outside every one of them and storage invoiced yearly. The UK regulator's page for this treatment publishes no success rate and points readers to individual clinics for figures at their own age.",
+  "notes": "This page describes a treatment and the published prices and storage limits attached to it. It is not medical advice and it is not legal advice."
+ },
+ "metrics": {
+  "success_rate_pct": 45.2,
+  "note": "45.2% is the CDC's 2022 US national figure for the percentage of TRANSFERS of fresh embryos created from FROZEN EGGS that resulted in a live-birth delivery. It is per transfer — not per egg frozen, not per patient who froze eggs, and not per cycle started — and it counts only patients who came back, thawed and reached a transfer, which is the smallest and most favourable population in the series. The comparable CDC figure for fresh embryos from fresh eggs is 52.0%, and for frozen embryos 45.1%. No register read for this record publishes a live birth per egg frozen, or the share of patients who ever return to use a store; the HFEA's own egg-freezing page publishes no success rate and refers readers to clinics.",
+  "as_of": "2022",
+  "source": "s:cdc-art-2022-summary",
+  "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye"
+ },
+ "prices": [
+  {
+   "procedure": "egg-freezing",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 2190,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": [
+    "consultation",
+    "treatment protocol",
+    "stimulation",
+    "egg retrieval in general anesthesia",
+    "cryopreservation of the eggs and 1 year of storage"
+   ],
+   "excludes": [
+    "STDs testing"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"Social freezing (eggs collection and freezing)\", valid from 1 January 2026. Storage past the first year is priced separately on the same list: 205 EUR for one year, 580 EUR for five. The later thaw-and-transfer treatment is another 1,925 EUR.",
+   "tier": "cited",
+   "usd": 2527.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "egg-freezing",
+   "country": "ES",
+   "city": "Barcelona",
+   "amount": 2570,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "egg retrieval",
+    "vitrification",
+    "3 years of storage",
+    "option to upgrade to 5 years"
+   ],
+   "excludes": [],
+   "source": "s:fertilab-pricing",
+   "url": "https://fertilab.com/en/pricing/",
+   "note": "the page also sells two collections as a pack at 4,195 EUR, which is the clinic pricing the fact that one collection often yields too few eggs. Special prices stated to hold for reservations until 30 September 2026; read on 16 September 2026.",
+   "tier": "cited",
+   "usd": 2965.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "egg-freezing",
+   "country": "GR",
+   "city": "Thessaloniki",
+   "amount": 2480,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "egg freezing, listed as from this price"
+   ],
+   "excludes": [
+    "preliminary investigations",
+    "medications",
+    "storage"
+   ],
+   "source": "s:newlife-ivf-costs",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "note": "a from price; the page's standing exclusion list covers medications and storage for every line on it. Read on 16 September 2026.",
+   "tier": "cited",
+   "usd": 2861.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "egg-freezing",
+   "country": "GB",
+   "amount": 3350,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "estimate",
+   "includes": [
+    "collection and freezing of eggs, as an average across UK clinics"
+   ],
+   "excludes": [
+    "medication, stated at 500 to 1,500 pounds",
+    "storage, stated at 125 to 350 pounds a year"
+   ],
+   "source": "s:hfea-egg-freezing",
+   "url": "https://www.hfea.gov.uk/treatments/fertility-preservation/egg-freezing/",
+   "note": "the regulator's own stated average cost, read on 16 September 2026. The page names the figure as an average without naming the method behind it or the year it was drawn from, so it is carried as an estimate and not as a list price.",
+   "tier": "cited",
+   "usd": 4515.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "ivf",
+   "as": "The cycle this is the first half of, and the treatment the frozen eggs come back to.",
+   "rel": "part"
+  },
+  {
+   "to": "egg-donation",
+   "as": "Where frozen donor eggs in a bank come from, and the same laboratory step for someone else's benefit.",
+   "rel": "kin"
+  },
+  {
+   "to": "icsi",
+   "as": "How a thawed egg is fertilised, because its outer coat hardens in freezing.",
+   "rel": "kin"
+  },
+  {
+   "to": "pgt",
+   "as": "The next optional charge on embryos made from these eggs.",
+   "rel": "kin"
+  },
+  {
+   "to": "hfea",
+   "as": "Sets the UK storage limit and publishes the average UK price this record quotes.",
+   "rel": "governs"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The US series behind the per-transfer figure for embryos from frozen eggs.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "deposit-and-refund",
+   "as": "The yearly storage invoice, and what happens to a store when it stops being paid.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "A headline price with a drug bill outside it and a storage bill after it.",
+   "rel": "story"
+  },
+  {
+   "to": "out-of-pocket",
+   "as": "How this treatment is paid for almost everywhere, since few payers cover it without a medical indication.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "egg-donation",
+   "tell": "Freezing banks a patient's own eggs for herself; donation moves another woman's to a recipient. Same vitrification, different consent and different law."
+  },
+  {
+   "id": "ivf",
+   "tell": "A freeze cycle stops at collection and is charged again on the thaw; an IVF cycle runs through to a transfer in one bill."
+  }
+ ],
+ "links": [
+  {
+   "label": "HFEA — egg freezing",
+   "url": "https://www.hfea.gov.uk/treatments/fertility-preservation/egg-freezing/"
+  },
+  {
+   "label": "Reprofit price list, valid from 1 January 2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf"
+  }
+ ],
+ "sources": [
+  "s:hfea-egg-freezing",
+  "s:cdc-art-2022-summary",
+  "s:reprofit-pricelist-2026",
+  "s:fertilab-pricing",
+  "s:newlife-ivf-costs",
+  "s:eshre-art-factsheet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:hfea-egg-freezing",
+    "note": "the prices, the storage limit and the preservation share are cited; the paragraph on age-shaped marketing is marked Trade practice and the point about the missing use rate is marked Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:cdc-art-2022-summary"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:hfea-egg-freezing"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Cryopreservation straws.jpg",
+  "File:Liquid nitrogen storage dewar.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The first half of an IVF cycle, stopped after the eggs are collected.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The cycle this is the first half of, and the treatment the frozen eggs come back to.",
+   "rel": "part"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "Where frozen donor eggs in a bank come from, and the same laboratory step for someone else's benefit.",
+   "rel": "kin"
+  },
+  {
+   "to": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "How a thawed egg is fertilised, because its outer coat hardens in freezing.",
+   "rel": "kin"
+  },
+  {
+   "to": "pgt",
+   "type": "procedure",
+   "name": "Preimplantation genetic testing",
+   "as": "The next optional charge on embryos made from these eggs.",
+   "rel": "kin"
+  },
+  {
+   "to": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "Sets the UK storage limit and publishes the average UK price this record quotes.",
+   "rel": "governs"
+  },
+  {
+   "to": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The US series behind the per-transfer figure for embryos from frozen eggs.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The yearly storage invoice, and what happens to a store when it stops being paid.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "A headline price with a drug bill outside it and a storage bill after it.",
+   "rel": "story"
+  },
+  {
+   "to": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "How this treatment is paid for almost everywhere, since few payers cover it without a medical indication.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:hfea-egg-freezing",
+   "kind": "org",
+   "title": "Egg freezing",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/treatments/fertility-preservation/egg-freezing/",
+   "accessed": "2026-09-16",
+   "note": "carries the 55-year storage limit and the regulator's own average UK cost"
+  },
+  {
+   "id": "s:cdc-art-2022-summary",
+   "kind": "dataset",
+   "title": "2022 Final Assisted Reproductive Technology (ART) Summary",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye",
+   "accessed": "2026-09-16",
+   "note": "clinic-level and national rows; the national rows carry locationabbr NA. Queried through the Socrata endpoint https://data.cdc.gov/resource/9tjt-seye.json"
+  },
+  {
+   "id": "s:reprofit-pricelist-2026",
+   "kind": "web",
+   "title": "Pricelist — Assisted Reproduction, valid from 01.01.2026 (document 0331.26ENG)",
+   "publisher": "Reprofit International s.r.o., Brno",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "accessed": "2026-09-16",
+   "note": "the clinic's own self-payer price list, five pages, each line naming its inclusions and its exclusions"
+  },
+  {
+   "id": "s:fertilab-pricing",
+   "kind": "web",
+   "title": "Price list — fertility treatments",
+   "publisher": "Fertilab Barcelona",
+   "url": "https://fertilab.com/en/pricing/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:newlife-ivf-costs",
+   "kind": "web",
+   "title": "IVF costs, egg donation costs",
+   "publisher": "Newlife IVF, Thessaloniki",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:eshre-art-factsheet",
+   "kind": "org",
+   "title": "ART fact sheet (v10, 2025)",
+   "publisher": "European Society of Human Reproduction and Embryology",
+   "url": "https://www.eshre.eu/-/media/sitecore-files/Press-room/ESHRE_ARTFactSheet_v10_2025.pdf",
+   "accessed": "2026-09-16",
+   "note": "European and world figures for 2020, drawn from the EIM consortium and ICMART"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:hfea-egg-freezing",
+   "note": "the prices, the storage limit and the preservation share are cited; the paragraph on age-shaped marketing is marked Trade practice and the point about the missing use rate is marked Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:hfea-egg-freezing"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-art-2022-summary"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "barcelona",
+   "type": "hub",
+   "name": "Barcelona",
+   "as": "The other reason a patient books a retrieval here rather than at home.",
+   "rel": "procedure"
+  },
+  {
+   "from": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "Where the frozen eggs in a donor bank come from, and the same laboratory step.",
+   "rel": "kin"
+  },
+  {
+   "from": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The first half of this cycle, stopped after collection and resumed years later.",
+   "rel": "kin"
+  },
+  {
+   "from": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "Sets the storage limit, and publishes the average price a British cycle is quoted at.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cycle",
+   "type": "term",
+   "name": "Cycle",
+   "as": "Where the cycle ends at collection and the storage bill begins.",
+   "rel": "procedure"
+  }
+ ]
+}

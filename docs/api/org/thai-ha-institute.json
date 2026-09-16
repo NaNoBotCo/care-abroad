@@ -1,0 +1,233 @@
+{
+ "schema": 1,
+ "id": "thai-ha-institute",
+ "type": "org",
+ "names": {
+  "name": "Healthcare Accreditation Institute",
+  "aliases": [
+   "HAI",
+   "HA Thailand",
+   "สถาบันรับรองคุณภาพสถานพยาบาล",
+   "สรพ."
+  ],
+  "said": "Thai hospitals say HA. It is the domestic mark, and it sits beside JCI on the same wall in Bangkok."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "TH",
+  "founded": 2009,
+  "status": "open"
+ },
+ "text": {
+  "what": "Thailand's national hospital accreditation body, a public organisation established by the Royal Decree on the Establishment of the Healthcare Accreditation Institute, B.E. 2552 (2009), with a second edition of the decree in B.E. 2562 (2019). It sets the HA standards, assesses hospitals against them, and publishes the certificate status of accredited facilities. Its motto is \"Accreditation is an Educational Process\".",
+  "story": "The Thai scheme is a public organisation — a Thai legal form that is neither a ministry department nor a private company — and that matters when the mark is read next to the imported one.\n\nA large Bangkok private hospital typically holds both HA and JCI. The first is a domestic standard, administered by a body the state created by decree, covering hospitals across the country including the public ones. The second is an American product bought by hospitals selling to foreigners. *Inference —* a badge wall showing both is showing two different relationships, and counting them as two accreditations obscures that one is nearly universal among Thai hospitals of any size and the other is a purchase aimed outward.\n\nThe standards themselves hold an ISQua EEA award, so the Thai scheme sits in the same external chain as the international ones.",
+  "how": "A hospital enters the HA process, which the institute frames as developmental rather than purely inspectional, is assessed, and is certified. Certificate status is published on the institute's own site. The pages read for this record do not state the cycle length or the fee.",
+  "today": "As of 16 September 2026 the institute publishes hospital certificate status through its own site and remains the national accreditation body for Thai hospitals."
+ },
+ "geo": {
+  "lat": 13.859,
+  "lon": 100.525,
+  "precision": "city",
+  "source": "s:ha-thailand-home"
+ },
+ "address": {
+  "city": "Nonthaburi",
+  "country": "TH"
+ },
+ "recognitions": [
+  {
+   "by": "isqua-eea",
+   "what": "ISQua EEA accreditation, listed by ISQua EEA among its accredited organisations",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ha-thailand-home",
+   "url": "https://ieea.ch/organisation/the-healthcare-accreditation-institute-public-organization-thailand/",
+   "note": "the award term is not stated on the pages read for this record"
+  }
+ ],
+ "kin": [
+  {
+   "to": "thailand",
+   "as": "The country whose hospitals this is the national standard for, public and private alike.",
+   "rel": "place"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "One of the private hospitals holding this mark alongside the imported one.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci",
+   "as": "The purchased international mark a Thai hospital holds for a different audience.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nabh",
+   "as": "India's equivalent domestic board.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a domestic standard and an exported one are separated.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Healthcare Accreditation Institute",
+   "url": "https://www.ha.or.th/EN/Home"
+  }
+ ],
+ "sources": [
+  "s:ha-thailand-home"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ha-thailand-home"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ha-thailand-home",
+    "note": "the comparison in the second paragraph is marked as this project's inference"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "the institute sits in the health ministry campus area in Nonthaburi; city precision only"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Thailand's national hospital accreditation body, a public organisation established by the Royal Decree on the Establishment of the Healthcare Accreditation Institute, B.E.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The country whose hospitals this is the national standard for, public and private alike.",
+   "rel": "place"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "One of the private hospitals holding this mark alongside the imported one.",
+   "rel": "accredits"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The purchased international mark a Thai hospital holds for a different audience.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "India's equivalent domestic board.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isqua-ieea",
+   "type": "org",
+   "name": "ISQua External Evaluation Association",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Where a domestic standard and an exported one are separated.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ha-thailand-home",
+   "kind": "org",
+   "title": "The Healthcare Accreditation Institute (Public Organization)",
+   "publisher": "Healthcare Accreditation Institute, Thailand",
+   "url": "https://www.ha.or.th/EN/Home",
+   "accessed": "2026-09-16",
+   "note": "public-organisation status under the Royal Decree establishing the HAI, B.E. 2552 (2009), and the public Certificate Status pages"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:ha-thailand-home"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ha-thailand-home",
+   "note": "the comparison in the second paragraph is marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:ha-thailand-home"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ha-thailand-home"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "the institute sits in the health ministry campus area in Nonthaburi; city precision only"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:ha-thailand-home"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [
+  {
+   "key": "isqua-eea",
+   "label": "ISQua External Evaluation Association",
+   "what": "ISQua EEA accreditation, listed by ISQua EEA among its accredited organisations",
+   "url": "https://ieea.ch/organisation/the-healthcare-accreditation-institute-public-organization-thailand/",
+   "kind": "meta",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ha-thailand-home"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "The Thai national accreditor whose advanced standard the hospital states for 2026.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "achsi",
+   "type": "org",
+   "name": "ACHS International",
+   "as": "The Thai equivalent, run by a public organisation rather than a subsidiary.",
+   "rel": "contrast"
+  }
+ ]
+}

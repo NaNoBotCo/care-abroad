@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "id": "antalya",
+ "type": "hub",
+ "names": {
+  "name": "Antalya",
+  "aliases": [
+   "Antalya clinic-and-hotel belt"
+  ],
+  "said": "In the trade Antalya means the package: the clinic and the hotel quoted on one invoice, often by a travel agency rather than a hospital."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "radius_km": 25,
+  "specialty": [
+   "hair restoration",
+   "dentistry",
+   "cosmetic surgery",
+   "bariatric surgery",
+   "ophthalmology",
+   "thermal and spa"
+  ],
+  "draws": [
+   "hair-transplant-fue",
+   "all-on-four",
+   "dental-implant",
+   "rhinoplasty",
+   "gastric-sleeve",
+   "lasik"
+  ],
+  "languages": [
+   "Turkish",
+   "Russian",
+   "German",
+   "English",
+   "Arabic"
+  ]
+ },
+ "text": {
+  "what": "A Turkish Mediterranean city of 2,722,103 people in its metropolitan area, whose private clinics sit in the central Muratpaşa district and along the hotel strip at Lara, a short transfer from an airport that in 2020 carried more international passengers than Istanbul's two airports did. Antalya took more than 16.5 million foreign visitors in 2023. The health trade sells into that arrival machine: a resort room doubles as convalescence, and the invoice is frequently written by a licensed travel agency rather than by the hospital.",
+  "story": "The agency on the invoice is not an accident of commerce; it is written into the law. The Turkish regulation of 13 July 2017 defines an international health tourism intermediary as a group A travel agency holding an operating certificate under Law 1618 of 14 September 1972, and requires both that agency and the treating facility to hold a Ministry authorisation certificate before either may trade with foreign patients. A country that ran a package-holiday industry first regulated surgery through it.\n\nThe state had been promoting the city for years before that. A 2012 catalogue published by the Antalya Promotion and Tourism Development company with BAKA, the West Mediterranean Development Agency, records that the Ministry of Health set up a Health Tourism Coordinating Unit in 2010, brought in promotion incentives in 2011, and ran an international patient assistance telephone line in English, German, Russian and Arabic. Its photographic credits name Dünya Göz Hospital, Aspendos Hospital and Akdeniz University Hospital.\n\nThat catalogue is a sales document, and it reads like one — it instructs a reader with a long queue at home and an expensive health system to buy a ticket. This directory carries it as evidence of what a development agency was selling in 2012, not as a description of care.\n\n*Inference —* Antalya's pitch differs from Istanbul's in one structural way. Istanbul sells a procedure to somebody who came for the procedure. Antalya sells a procedure attached to a stay that already had a reason, which lengthens the convalescence on the ground and shortens nothing about the follow-up at home.",
+  "how": "*Trade practice —* the Antalya package is quoted per person and covers the transfer, the hotel nights, the operation and a companion's bed. The clinic day sits inside a longer stay, so a dental course of two or three visits fits a fortnight and a hair transplant leaves a week of sun to avoid. Deposits hold the date. What falls outside the quote is what falls outside everywhere: imaging, laboratory work, a complication, a night past the package, and the flight change if the surgeon says wait.",
+  "today": "As of 16 September 2026 the 2017 regulation is the operative instrument, and the two documents that matter for a facility here are its health facility licence and its international health tourism authorisation certificate. No inbound patient count for the city is carried on this record.",
+  "notes": "OpenStreetMap is queried 25 km around the city point, which reaches Konyaaltı in the west, Kepez in the north and the Lara hotel strip in the east."
+ },
+ "geo": {
+  "lat": 36.8869,
+  "lon": 30.7033,
+  "precision": "city",
+  "source": "s:wp-antalya"
+ },
+ "address": {
+  "city": "Antalya",
+  "country": "TR"
+ },
+ "kin": [
+  {
+   "to": "turkiye",
+   "as": "The country whose authorisation regime this cluster trades under.",
+   "rel": "whole"
+  },
+  {
+   "to": "istanbul",
+   "as": "The other Turkish cluster: the same procedures, sold against a business district instead of a beach.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The certificate both the clinic and its agency must hold here.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "facilitator",
+   "as": "In this city the facilitator is a licensed travel agency, and the law says so.",
+   "rel": "term"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "Sold here as a week that includes the hotel.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "as": "A dental course that fits the length of a resort stay.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "Sold here with the convalescence written into the hotel nights.",
+   "rel": "procedure"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that decides whether the return flight on the package is the return flight taken.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "The form this city invented for holidays and now sells surgery in.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step that matters most where a hotel, a transfer and an operation share one invoice.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical Tourism in Antalya — BAKA, 2012",
+   "url": "https://baka.gov.tr/assets/upload/dosyalar/medical-tourism-in-antalya.pdf"
+  }
+ ],
+ "sources": [
+  "s:wp-antalya",
+  "s:baka-antalya-2012",
+  "s:rg-saglik-turizmi-2017",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a clinic-and-hotel package; no single page states it"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-antalya"
+   },
+   "facets.radius_km": {
+    "tier": "inference",
+    "note": "25 km from the city point reaches Konyaaltı, Kepez and Lara"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Antalya Lara Beach hotels.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Turkish Mediterranean city of 2,722,103 people in its metropolitan area, whose private clinics sit in the central Muratpaşa district and along the hotel strip at Lara, a short transfer from an airport that in 2020…",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The country whose authorisation regime this cluster trades under.",
+   "rel": "whole"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The other Turkish cluster: the same procedures, sold against a business district instead of a beach.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The certificate both the clinic and its agency must hold here.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "In this city the facilitator is a licensed travel agency, and the law says so.",
+   "rel": "term"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "Sold here as a week that includes the hotel.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "A dental course that fits the length of a resort stay.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "Sold here with the convalescence written into the hotel nights.",
+   "rel": "procedure"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that decides whether the return flight on the package is the return flight taken.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form this city invented for holidays and now sells surgery in.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step that matters most where a hotel, a transfer and an operation share one invoice.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-antalya",
+   "kind": "wikipedia",
+   "title": "Antalya",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Antalya",
+   "accessed": "2026-09-16",
+   "note": "coordinates, metropolitan population 2,722,103 (2024), Muratpaşa, Konyaaltı and Kepez districts, Lara beach, 16.5 million foreign visitors in 2023"
+  },
+  {
+   "id": "s:baka-antalya-2012",
+   "kind": "web",
+   "title": "Medical Tourism in Antalya",
+   "publisher": "Antalya Promotion and Tourism Development Inc. and BAKA West Mediterranean Development Agency",
+   "url": "https://baka.gov.tr/assets/upload/dosyalar/medical-tourism-in-antalya.pdf",
+   "accessed": "2026-09-16",
+   "note": "23-page promotional catalogue, BAKA Yayın No. 2012/75, ISBN 978-605-87282-9-5, 2012. Read page by page. A state development agency's sales document, and carried here as one: it states the Ministry of Health set up a Health Tourism Coordinating Unit in 2010, brought promotion incentives in 2011, and runs an International Patient Assistance line in English, German, Russian and Arabic. Photographic credits name Dünya Göz Hospital, Aspendos Hospital and Akdeniz University Hospital."
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of a clinic-and-hotel package; no single page states it"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-antalya"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The second cluster, selling the same operations beside a resort strip.",
+   "rel": "part"
+  },
+  {
+   "from": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The other Turkish cluster, selling the same procedures against a beach rather than a business district.",
+   "rel": "contrast"
+  },
+  {
+   "from": "izmir",
+   "type": "hub",
+   "name": "İzmir",
+   "as": "The other Turkish coast, selling the same procedures with the hotel written in.",
+   "rel": "contrast"
+  }
+ ]
+}

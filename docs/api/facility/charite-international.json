@@ -1,0 +1,441 @@
+{
+ "schema": 1,
+ "id": "charite-international",
+ "type": "facility",
+ "names": {
+  "name": "Charité International Patients",
+  "aliases": [
+   "Charité Healthcare Services GmbH",
+   "CHS",
+   "Charité — Universitätsmedizin Berlin"
+  ],
+  "said": "sha-ree-TAY, French for charity, from the 1710 plague house the name survives from. The international arm is Charité Healthcare Services GmbH, a company wholly owned by the hospital, and it is an administration rather than a ward."
+ },
+ "region": [
+  "europe-west"
+ ],
+ "facets": {
+  "iso2": "DE",
+  "ownership": "university",
+  "founded": 1710,
+  "specialty": [
+   "oncology",
+   "cardiac surgery",
+   "neurosurgery",
+   "transplantation",
+   "rare disease"
+  ],
+  "draws": [
+   "car-t",
+   "proton-therapy",
+   "kidney-transplant",
+   "liver-transplant",
+   "bone-marrow-transplant"
+  ],
+  "status": "open",
+  "languages": [
+   "German",
+   "English",
+   "Arabic",
+   "Russian",
+   "Polish",
+   "Ukrainian"
+  ]
+ },
+ "text": {
+  "what": "The international-patient arm of Charité — Universitätsmedizin Berlin, the joint medical faculty of the Free University and the Humboldt University and, at about 3,000 beds across four campuses, the largest university hospital in Europe. The arm itself is Charité Healthcare Services GmbH, a wholly owned subsidiary that handles the administration for patients living outside Germany. This record pins Campus Charité Mitte.",
+  "story": "Charité was founded in 1710 as a plague house outside the Berlin city wall and became a teaching hospital. It employs 18,217 people including 5,242 academic staff and 307 professors, teaches 9,485 students, and runs on a budget of 2.3 billion euro across Campus Charité Mitte, Campus Benjamin Franklin in Lichterfelde, Campus Virchow-Klinikum in Wedding and Campus Berlin-Buch.\n\nThe international arm is a separate company and that separation is the point. A German public university hospital cannot run a sales department; it can own a GmbH that arranges travel, translation and billing for patients its clinics have agreed to treat. Native speakers of English, Arabic and Russian staff it, and the office publishes its telephone hours — Monday to Friday, ten until two — rather than a brochure.\n\n*Inference —* the German model inverts the Asian one. Bumrungrad publishes a knee replacement at a fixed price and admits the patient who buys it; Charité publishes no price at all, and the clinical decision on whether to accept a case is taken before any figure exists. One is a menu and the other is a referral.\n\nNo price, tariff or deposit schedule appears on the international pages read for this record.",
+  "how": "*Trade practice —* the German route runs on records first: reports and imaging go to the relevant clinic, a specialist decides whether treatment is possible and what it would be, and only then does an administrative office put a figure on it. Payment from a self-funding patient abroad is settled in advance and reconciled after discharge against the actual bill, which is the general German practice for a patient outside the statutory insurance system.\n\nWhat a patient from abroad buys at Charité is capacity that the German statutory system also uses, and every arrangement runs alongside a domestic queue rather than instead of one.",
+  "today": "As of 17 September 2026 Charité states about 3,000 beds over four campuses, 18,217 employees, 5,242 academic staff, 307 professors and a 2.3 billion euro budget, and appears in Newsweek's 2026 list in the top 250. Charité Healthcare Services publishes what its office does and its telephone hours, and publishes no price."
+ },
+ "geo": {
+  "lat": 52.525852,
+  "lon": 13.377758,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Charitéplatz 1, Mitte",
+  "city": "Berlin",
+  "country": "DE",
+  "postcode": "10117"
+ },
+ "metrics": {
+  "beds": 3000,
+  "staff": 18217,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "Beds and staff are the WHOLE hospital's across four Berlin campuses — about 3,000 beds, 18,217 employees of whom 5,242 are academic staff and 307 professors — not the international arm's, which has no beds of its own. No patient count of any kind, and no count of international patients, is published by either. The 2.3 billion euro figure in the text is an annual budget, not revenue from foreign patients.",
+  "as_of": "2026",
+  "source": "s:wp-charite",
+  "url": "https://en.wikipedia.org/wiki/Charit%C3%A9"
+ },
+ "tags": [
+  {
+   "tag": "university-hospital",
+   "source": "s:wp-charite",
+   "tier": "cited",
+   "note": "joint medical faculty of the Free University of Berlin and the Humboldt University of Berlin"
+  },
+  {
+   "tag": "public-hospital",
+   "source": "s:wp-charite",
+   "tier": "cited",
+   "note": "a public university hospital; the international arm is a wholly owned company beside it, not a private hospital"
+  },
+  {
+   "tag": "teaching",
+   "source": "s:wp-charite",
+   "tier": "cited",
+   "note": "9,485 students, 307 professors"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:chs-charite-int",
+   "tier": "cited",
+   "note": "Charité Healthcare Services GmbH, a wholly owned subsidiary handling administration for patients living outside Germany",
+   "url": "https://chs.charite.de/en/charite_international_patients"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:chs-charite-int",
+   "tier": "cited",
+   "note": "native speakers of English, Arabic and Russian on the office staff"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:chs-charite-int",
+   "tier": "cited",
+   "note": "the international pages carry no price, no tariff and no deposit schedule"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "newsweek-statista",
+   "what": "Placed in the top 250 of the 2026 Newsweek world hospital list",
+   "year": 2026,
+   "valid_until": null,
+   "source": "s:wp-charite",
+   "url": "https://en.wikipedia.org/wiki/Charit%C3%A9",
+   "note": "a ranking by survey and published indicators; counted, not weighted"
+  }
+ ],
+ "kin": [
+  {
+   "to": "germany",
+   "as": "The country's largest university hospital, and the shape its inbound work takes: a public hospital with a company beside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "heidelberg-university-hospital",
+   "as": "The other German university hospital here, which publishes its payment terms where this one publishes its telephone hours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "A menu against a referral: a published fixed price and an open door, against a clinical decision taken before any figure exists.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "as": "Among the therapies a patient crosses a border for because it is unavailable at home rather than cheaper.",
+   "rel": "performs"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "Governs how an EU patient's home system pays for planned treatment here, which is a different route from the self-funder's.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "s2-route",
+   "as": "The prior-authorisation route by which a European system sends a patient here and pays the German tariff directly.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The German route starts with reports and imaging, and nothing else happens until a specialist has read them.",
+   "rel": "step"
+  },
+  {
+   "to": "second-opinion",
+   "as": "Much of what reaches a European university hospital from abroad arrives as a request for a second reading.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "A hospital that publishes nothing is a different problem from one that publishes a figure with from in front of it.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Charité International Patients",
+   "url": "https://chs.charite.de/en/charite_international_patients"
+  },
+  {
+   "label": "Charité — Universitätsmedizin Berlin",
+   "url": "https://www.charite.de/en/"
+  }
+ ],
+ "sources": [
+  "s:wp-charite",
+  "s:chs-charite-int",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the OpenStreetMap point for Campus Charité Mitte, one of four campuses"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the German records-first route and the advance-settlement practice; marked in the prose and read across from the Heidelberg terms rather than from a Charité page"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-charite"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Charité Campus Charité Mitte.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "The international-patient arm of Charité — Universitätsmedizin Berlin, the joint medical faculty of the Free University and the Humboldt University and, at about 3,000 beds across four campuses, the largest university…",
+ "region_terms": [
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "The country's largest university hospital, and the shape its inbound work takes: a public hospital with a company beside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "heidelberg-university-hospital",
+   "type": "facility",
+   "name": "Heidelberg University Hospital",
+   "as": "The other German university hospital here, which publishes its payment terms where this one publishes its telephone hours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "A menu against a referral: a published fixed price and an open door, against a clinical decision taken before any figure exists.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Among the therapies a patient crosses a border for because it is unavailable at home rather than cheaper.",
+   "rel": "performs"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "Governs how an EU patient's home system pays for planned treatment here, which is a different route from the self-funder's.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The prior-authorisation route by which a European system sends a patient here and pays the German tariff directly.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The German route starts with reports and imaging, and nothing else happens until a specialist has read them.",
+   "rel": "step"
+  },
+  {
+   "to": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "Much of what reaches a European university hospital from abroad arrives as a request for a second reading.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "A hospital that publishes nothing is a different problem from one that publishes a figure with from in front of it.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-charite",
+   "kind": "wikipedia",
+   "title": "Charité — Universitätsmedizin Berlin",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Charit%C3%A9",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "founded 1710; joint medical faculty of the Free University of Berlin and the Humboldt University; about 3,000 beds over four campuses — Charité Mitte, Benjamin Franklin in Lichterfelde, Virchow-Klinikum in Wedding and Berlin-Buch; 18,217 employees including 5,242 academic staff and 307 professors; annual budget 2.3 billion euro; Newsweek's 2026 list places it in the top 250"
+  },
+  {
+   "id": "s:chs-charite-int",
+   "kind": "web",
+   "title": "Charité International Patients — Charité Healthcare Services",
+   "publisher": "Charité Healthcare Services GmbH, Berlin",
+   "url": "https://chs.charite.de/en/charite_international_patients",
+   "accessed": "2026-09-17",
+   "note": "the wholly owned subsidiary that handles administration for patients living outside Germany. The page states what the office does and gives its telephone hours, Monday to Friday 10:00 to 14:00. It publishes no price, no tariff and no deposit schedule."
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the German records-first route and the advance-settlement practice; marked in the prose and read across from the Heidelberg terms rather than from a Charité page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the OpenStreetMap point for Campus Charité Mitte, one of four campuses"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-charite"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "university-hospital",
+   "label": "University hospital",
+   "icon": "🎓",
+   "group": "ownership",
+   "evidence": "the affiliated university's own page or the hospital's charter",
+   "source": "s:wp-charite",
+   "note": "joint medical faculty of the Free University of Berlin and the Humboldt University of Berlin",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "public-hospital",
+   "label": "Public hospital",
+   "icon": "🏛",
+   "group": "ownership",
+   "evidence": "a ministry register, a national health service list, or the hospital's own statement",
+   "source": "s:wp-charite",
+   "note": "a public university hospital; the international arm is a wholly owned company beside it, not a private hospital",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "teaching",
+   "label": "Teaching hospital",
+   "icon": "📚",
+   "group": "clinical",
+   "evidence": "a recognised training post list or the hospital's own statement",
+   "source": "s:wp-charite",
+   "note": "9,485 students, 307 professors",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:chs-charite-int",
+   "note": "Charité Healthcare Services GmbH, a wholly owned subsidiary handling administration for patients living outside Germany",
+   "tier": "cited",
+   "url": "https://chs.charite.de/en/charite_international_patients"
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:chs-charite-int",
+   "note": "native speakers of English, Arabic and Russian on the office staff",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:chs-charite-int",
+   "note": "the international pages carry no price, no tariff and no deposit schedule",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "newsweek-statista",
+   "label": "Newsweek / Statista World's Best Hospitals",
+   "what": "Placed in the top 250 of the 2026 Newsweek world hospital list",
+   "url": "https://en.wikipedia.org/wiki/Charit%C3%A9",
+   "kind": "listing",
+   "year": 2026,
+   "valid_until": null,
+   "source": "s:wp-charite"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "The Berlin university hospital's international office, one of the main inbound doors.",
+   "rel": "part"
+  },
+  {
+   "from": "heidelberg-university-hospital",
+   "type": "facility",
+   "name": "Heidelberg University Hospital",
+   "as": "Berlin's arrangement: a company beside the hospital, publishing its telephone hours where this one publishes its refund rule.",
+   "rel": "contrast"
+  }
+ ]
+}

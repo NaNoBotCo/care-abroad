@@ -1,0 +1,384 @@
+{
+ "schema": 1,
+ "id": "penang",
+ "type": "hub",
+ "names": {
+  "name": "Penang",
+  "aliases": [
+   "George Town",
+   "Pulau Pinang",
+   "槟城"
+  ],
+  "said": "In the trade Penang means George Town, and George Town means four hospitals within a kilometre and a half of each other on the north-east corner of the island."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "MY",
+  "radius_km": 15,
+  "specialty": [
+   "health screening",
+   "cardiology",
+   "oncology",
+   "orthopaedics",
+   "ophthalmology",
+   "gastroenterology"
+  ],
+  "draws": [
+   "executive-health-screening",
+   "cabg",
+   "angioplasty-stent",
+   "knee-replacement",
+   "cataract-surgery"
+  ],
+  "languages": [
+   "Malay",
+   "English",
+   "Hokkien",
+   "Mandarin",
+   "Tamil",
+   "Indonesian"
+  ]
+ },
+ "text": {
+  "what": "The tightest cluster in this batch. Island Hospital stands at 308 Jalan Macalister in central George Town, a 600-bed hospital opened in 1996 and building toward a thousand; Gleneagles Penang is 600 metres north-west at 1 Jalan Pangkor in Pulau Tikus; Penang Adventist is on Jalan Burma between them, and Loh Guan Lye is a few streets east. A patient staying on Macalister Road can walk to two of them and take a five-minute taxi to the others.",
+  "story": "Penang's hospitals were built for the island's own Chinese and Malay population and for the Straits trade, and the Indonesian patient arrived on top of that. A 2024 analysis reprinted by the Malaysian Investment Development Authority put Indonesia at 64.9 per cent of Malaysia's medical travellers and split national revenue between Kuala Lumpur at 41 per cent and Penang at 40.5 per cent; it attributes the figures to TA Securities rather than to a register. Earlier, the Malaysia Healthcare Travel Council's own numbers had Penang at 57 per cent of national revenue in 2009 and 66 per cent in 2010.\n\nThose counts cover all registered patients holding a foreign passport, which is the council's own definition and includes everyone from a Medan family who flew for a scan to a Dutch resident who broke an ankle.\n\n*Trade practice —* the flow is a ferry and a short flight rather than a long-haul journey. Medan is under an hour away by air, Aceh and Sumatra's north coast are the catchment, and Hokkien is spoken across the counter. What is sold is the screening, the scope, the cardiac work-up and the second opinion — high volume, low complexity, repeated — rather than the single spectacular operation.\n\n*Inference —* that is why Penang takes almost as much national revenue as the capital from a city a fraction of the size, and why a tight harvest radius is the right one: the cluster genuinely is a few streets, and the volume comes from proximity rather than from reach.",
+  "how": "A Penang hospital quotes an estimate against a room category, and the screening packages are priced and published as bundles. The trade runs on repeat visits rather than on one arrival, and much of the booking is done through Indonesian agents and hospital representative offices in Medan and Jakarta rather than through the hospital's own website.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits between Island Hospital and Gleneagles in central George Town, with a 15-kilometre radius that reaches Bayan Lepas and the bridge. No Penang price has been read off a page into this directory yet.",
+  "notes": "A description of four hospitals and the water between them and their patients. Not advice about any of them."
+ },
+ "geo": {
+  "lat": 5.4245,
+  "lon": 100.317,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Jalan Macalister",
+  "city": "George Town",
+  "area": "Pulau Pinang",
+  "country": "MY",
+  "postcode": "10450"
+ },
+ "metrics": {
+  "note": "No Penang-only patient count is carried here. The council's national figures count foreign passports rather than travellers, and the state-level revenue shares — 57 per cent in 2009, 66 per cent in 2010, 40.5 per cent in the 2024 analysis — are shares of revenue, not of people.",
+  "as_of": "2024",
+  "source": "s:mida-malaysia-medical-tourism-2024",
+  "url": "https://www.mida.gov.my/mida-news/indonesia-remains-largest-contributor-to-malaysias-medical-tourism-market/"
+ },
+ "kin": [
+  {
+   "to": "island-hospital-penang",
+   "as": "At 308 Jalan Macalister, 600 beds, the anchor of the George Town cluster.",
+   "rel": "part"
+  },
+  {
+   "to": "malaysia",
+   "as": "The country whose second cluster takes almost as much revenue as its capital.",
+   "rel": "whole"
+  },
+  {
+   "to": "indonesia",
+   "as": "The catchment: Medan is under an hour away, and about two-thirds of Malaysia's foreign patients are Indonesian on one 2024 analysis.",
+   "rel": "kin"
+  },
+  {
+   "to": "mhtc",
+   "as": "The state council that lists these hospitals and publishes the counts.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The bundled screening that is most of what crosses the strait for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "as": "The cardiac work-up that often follows the screening.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "High-volume, short-stay work suited to a patient who can come back.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kuala-lumpur",
+   "as": "The capital cluster selling complexity where this one sells proximity and repetition.",
+   "rel": "contrast"
+  },
+  {
+   "to": "second-opinion",
+   "as": "Much of what arrives here is a second reading of a scan done at home.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a foreign passport in a hospital register is not a medical traveller.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Island Hospital",
+   "url": "https://islandhospital.com/"
+  },
+  {
+   "label": "Malaysia Healthcare Travel Council",
+   "url": "https://www.mhtc.org.my/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-island-hospital",
+  "s:wp-medical-tourism-malaysia",
+  "s:mida-malaysia-medical-tourism-2024",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "streets and house numbers read off OpenStreetMap address tags and the Island Hospital article"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-tourism-malaysia",
+    "note": "the revenue shares and the council's definition are cited to their publishers; the inline marks say which stretches are trade practice and inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "a point between Island Hospital and Gleneagles Penang, not a point anybody published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:George Town Penang Jalan Macalister.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The tightest cluster in this batch. Island Hospital stands at 308 Jalan Macalister in central George Town, a 600-bed hospital opened in 1996 and building toward a thousand; Gleneagles Penang is 600 metres north-west at…",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "At 308 Jalan Macalister, 600 beds, the anchor of the George Town cluster.",
+   "rel": "part"
+  },
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The country whose second cluster takes almost as much revenue as its capital.",
+   "rel": "whole"
+  },
+  {
+   "to": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "The catchment: Medan is under an hour away, and about two-thirds of Malaysia's foreign patients are Indonesian on one 2024 analysis.",
+   "rel": "kin"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The state council that lists these hospitals and publishes the counts.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The bundled screening that is most of what crosses the strait for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The cardiac work-up that often follows the screening.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "High-volume, short-stay work suited to a patient who can come back.",
+   "rel": "procedure"
+  },
+  {
+   "to": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The capital cluster selling complexity where this one sells proximity and repetition.",
+   "rel": "contrast"
+  },
+  {
+   "to": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "Much of what arrives here is a second reading of a scan done at home.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a foreign passport in a hospital register is not a medical traveller.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-island-hospital",
+   "kind": "wikipedia",
+   "title": "Island Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Island_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-medical-tourism-malaysia",
+   "kind": "web",
+   "title": "Medical tourism in Malaysia",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_Malaysia",
+   "accessed": "2026-09-16",
+   "note": "used for the year-by-year MHTC series 2011-2016 and the Indonesian share of arrivals"
+  },
+  {
+   "id": "s:mida-malaysia-medical-tourism-2024",
+   "kind": "news",
+   "title": "Indonesia remains largest contributor to Malaysia's medical tourism market",
+   "publisher": "Malaysian Investment Development Authority, reprinting The Sun",
+   "url": "https://www.mida.gov.my/mida-news/indonesia-remains-largest-contributor-to-malaysias-medical-tourism-market/",
+   "accessed": "2026-09-16",
+   "date": "2024-09-19",
+   "note": "the percentages in it are attributed to a TA Securities note, not to a government register."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:osm-nominatim",
+   "note": "streets and house numbers read off OpenStreetMap address tags and the Island Hospital article"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-medical-tourism-malaysia",
+   "note": "the revenue shares and the council's definition are cited to their publishers; the inline marks say which stretches are trade practice and inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:osm-nominatim",
+   "note": "a point between Island Hospital and Gleneagles Penang, not a point anybody published"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "Forty minutes from Medan, and the cluster that lives on this outflow.",
+   "rel": "destination"
+  },
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The Indonesian half, forty minutes from Medan.",
+   "rel": "part"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The island cluster taking almost the same share of national revenue from a far smaller city.",
+   "rel": "contrast"
+  },
+  {
+   "from": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "The hospital the Penang cluster is usually named for, on Jalan Macalister in George Town.",
+   "rel": "place"
+  },
+  {
+   "from": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The second cluster, and the one that draws from Indonesia.",
+   "rel": "hub"
+  }
+ ]
+}

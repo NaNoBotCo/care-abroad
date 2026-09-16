@@ -1,0 +1,266 @@
+{
+ "id": "blood-supply-safety",
+ "names": {
+  "name": "Blood supply safety",
+  "aliases": [
+   "transfusion-transmissible infection",
+   "TTI",
+   "blood screening"
+  ],
+  "said": "The package page says blood transfusion is excluded, and means the charge, not the risk."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "Whether the blood a patient may be given during an operation was screened, and screened under a quality system. WHO recommends that screening for HIV, hepatitis B, hepatitis C and syphilis be mandatory for all donations. Of the countries reporting to WHO for 2023, 10 were not able to screen all donated blood for one or more of those four.",
+  "story": "The WHO Global Database on Blood Safety collected data from 153 countries for 2023, with responses from 168 covering 97% of the world's population. Of 120.4 million donations collected globally, 36% came from high-income countries holding 15% of the world's people. Donation rates ran from 28.9 per 1,000 people in high-income countries to 4.5 per 1,000 in low-income ones.\n\nTwo figures in that release bear directly on an operation abroad. First, external quality assessment: 63% of blood screening laboratories worldwide took part in such schemes, and by income group the figures were 92%, 66%, 48% and 68% for high-, upper-middle-, lower-middle- and low-income countries. A laboratory that screens without external assessment is screening; whether it is screening correctly is unverified. Second, WHO states plainly that the prevalence of transfusion-transmissible infections in donations is considerably lower in high-income countries than in low- and middle-income ones.\n\nThe donor base matters for the same reason. In 59 countries more than half the supply still comes from family, replacement and paid donors, and WHO's position is that regular voluntary unpaid donors are the safest group because the prevalence of bloodborne infection is lowest among them.\n\n*Inference —* the exposure is concentrated in a small set of procedures and almost absent from the rest. A dental implant and a hair transplant do not reach the blood bank. Cardiac surgery, liver transplantation and a revision joint do.",
+  "how": "A hospital's own transfusion service is not the same thing as its country's national blood system, and a large private hospital may run to a standard well above the national figure. Neither position is published at hospital level anywhere this project has looked. What is published is the country figure, and the exclusion line on the package: the Bumrungrad knee package read for this site excludes blood transfusion from its fixed price, which prices the bag without describing where it came from.",
+  "today": "As of 16 September 2026 the only figures available are national and come from one annual WHO collection. No accreditor publishes a facility-level transfusion-safety measure, and no destination publishes one for the hospitals that treat foreign patients."
+ },
+ "metrics": {
+  "note": "From WHO's 2023 reporting year, published 12 June 2026: 120.4 million donations globally; 10 reporting countries unable to screen all donated blood for one or more of HIV, hepatitis B, hepatitis C and syphilis; 63% of screening laboratories in external quality assessment schemes, being 92%, 66%, 48% and 68% by income group from high to low; 59 countries drawing more than half their supply from family, replacement and paid donors. Country-level figures, not hospital-level ones.",
+  "as_of": "2026-06-12",
+  "source": "s:who-blood-safety",
+  "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability"
+ },
+ "kin": [
+  {
+   "to": "bloodborne-virus",
+   "as": "What an unscreened unit carries, and the reason the screening figures matter.",
+   "rel": "kin"
+  },
+  {
+   "to": "cabg",
+   "as": "The operation on this site most likely to need blood.",
+   "rel": "procedure"
+  },
+  {
+   "to": "heart-valve-replacement",
+   "as": "Open-chest surgery, with the same transfusion exposure.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The largest transfusion requirement of any elective operation here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The package whose exclusion list names blood transfusion as a charge.",
+   "rel": "procedure"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The same exclusion list, read for what else is missing from it.",
+   "rel": "kin"
+  },
+  {
+   "to": "who",
+   "as": "Runs the Global Database on Blood Safety, which is the only source for any of this.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "Where donor screening and blood screening are the same failure.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "WHO — Blood safety and availability",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability"
+  }
+ ],
+ "sources": [
+  "s:who-blood-safety",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:bumrungrad-joint04"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:who-blood-safety"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the point about hospital-level versus national figures is this project's, from the absence of any facility-level publication"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "Whether the blood a patient may be given during an operation was screened, and screened under a quality system.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bloodborne-virus",
+   "type": "risk",
+   "name": "Bloodborne virus from treatment abroad",
+   "as": "What an unscreened unit carries, and the reason the screening figures matter.",
+   "rel": "kin"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The operation on this site most likely to need blood.",
+   "rel": "procedure"
+  },
+  {
+   "to": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "Open-chest surgery, with the same transfusion exposure.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The largest transfusion requirement of any elective operation here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The package whose exclusion list names blood transfusion as a charge.",
+   "rel": "procedure"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The same exclusion list, read for what else is missing from it.",
+   "rel": "kin"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "Runs the Global Database on Blood Safety, which is the only source for any of this.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "Where donor screening and blood screening are the same failure.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:who-blood-safety",
+   "kind": "org",
+   "title": "Blood safety and availability — fact sheet dated 12 June 2026, from the WHO Global Database on Blood Safety, 2023 reporting year",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:who-blood-safety"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:who-blood-safety"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "the point about hospital-level versus national figures is this project's, from the absence of any facility-level publication"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:who-blood-safety"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:who-blood-safety"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "The transfusions that carry a patient through the weeks without marrow.",
+   "rel": "risk"
+  },
+  {
+   "from": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "Where the transfusion excluded from the package comes from.",
+   "rel": "risk"
+  },
+  {
+   "from": "bloodborne-virus",
+   "type": "risk",
+   "name": "Bloodborne virus from treatment abroad",
+   "as": "The upstream half of the same risk, and the only part of it with numbers.",
+   "rel": "kin"
+  },
+  {
+   "from": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "Also on that exclusion list, and a risk rather than a charge.",
+   "rel": "kin"
+  },
+  {
+   "from": "transplant-prohibition",
+   "type": "rule",
+   "name": "Buying an organ, and being transplanted abroad",
+   "as": "The neighbouring supply question, with the same payment argument attached.",
+   "rel": "risk"
+  }
+ ]
+}

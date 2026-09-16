@@ -1,0 +1,216 @@
+{
+ "id": "case-rate",
+ "names": {
+  "name": "Case rate",
+  "aliases": [
+   "flat rate per case",
+   "per-case payment",
+   "global fee"
+  ],
+  "said": "Contracting departments say case rate. It is the plainest of the four money words on this site and the least defined by anybody outside a contract."
+ },
+ "region": [
+  "global",
+  "north-america"
+ ],
+ "etymology": {
+  "root": "case is early 13c., \"what befalls one; state of affairs\", from Old French cas and Latin casus, literally \"a falling\"; medicine took it for an instance of a disease in the late 14c. rate is early 15c., \"estimated value or worth, proportional estimation according to some standard\", from Old French rate and Medieval Latin rata pars, a fixed amount, from Latin rata, fixed or settled, the feminine past participle of reri, to reckon. A case rate is therefore a settled reckoning on an instance of illness, which is exactly what it is.",
+  "first_attested": "early 13c. for case; early 15c. for rate; this project could not date the contracting phrase",
+  "tier": "cited",
+  "source": "s:etymonline-case",
+  "note": "A DRG is a case rate that has been classified. A plain case rate is one price for one named procedure, with no grouping for severity, and the risk of a sicker patient sits with whoever accepted it."
+ },
+ "text": {
+  "what": "One flat amount for one case, agreed in advance. A trade description puts it at its bluntest: under a case rate \"providers receive a flat reimbursement rate for every patient visit, no matter what service they provide\". Acuity has no bearing on the payment, which is the point and also the problem.",
+  "story": "The form sits between two better-documented ones. A DRG is a case rate that has been sorted into hundreds of clinically defined groups with weights drawn from average costs, so a complicated case is paid more than a simple one. A bundled payment is a case rate stretched across several providers and a stated number of days. A plain contracted case rate has neither: one price, one procedure, one provider.\n\n*Inference —* that is why the case rate is the form a foreign hospital's price page most resembles. A published package for a named operation, with no severity adjustment and no episode window, is a case rate offered to the public instead of negotiated with a payer — and the risk it carries is the same risk, moved onto whoever accepted the price.",
+  "how": "Two questions decide whether a case rate holds: what happens to a case that turns out to be more complicated than the rate assumed, and who decided it was more complicated. On a payer contract the answer is in a severity or outlier clause. On a hospital's package page abroad the answer is usually the eligibility list — the conditions under which the published price stops applying.",
+  "today": "As of 17 September 2026 this site records prices in the form the seller published them. Where a figure is a payer's negotiated rate rather than a price a patient can pay, it is recorded as a tariff and named as one."
+ },
+ "kin": [
+  {
+   "to": "drg",
+   "as": "The classified version, with several hundred groups and weights behind it.",
+   "rel": "descendant"
+  },
+  {
+   "to": "bundled-payment",
+   "as": "The stretched version, across providers and a window of days.",
+   "rel": "contrast"
+  },
+  {
+   "to": "package-price",
+   "as": "What a case rate looks like when it is offered to the public instead of negotiated.",
+   "rel": "term"
+  },
+  {
+   "to": "tariff",
+   "as": "The schedule a case rate sits in.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where a flat figure is handed over without its severity clause.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:etymonline-case",
+  "s:etymonline-rate",
+  "s:jucm-case-rate-2017"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the definition is quoted; the comparison between the three forms is this project's"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "term",
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "C"
+ },
+ "blurb": "One flat amount for one case, agreed in advance. A trade description puts it at its bluntest: under a case rate \"providers receive a flat reimbursement rate for every patient visit, no matter what service they provide\".",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The classified version, with several hundred groups and weights behind it.",
+   "rel": "descendant"
+  },
+  {
+   "to": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "The stretched version, across providers and a window of days.",
+   "rel": "contrast"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "What a case rate looks like when it is offered to the public instead of negotiated.",
+   "rel": "term"
+  },
+  {
+   "to": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "The schedule a case rate sits in.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The step where a flat figure is handed over without its severity clause.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-case",
+   "kind": "dictionary",
+   "title": "case (n.1) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/case",
+   "accessed": "2026-09-17",
+   "note": "early 13c., from Latin casus; medical sense late 14c."
+  },
+  {
+   "id": "s:etymonline-rate",
+   "kind": "dictionary",
+   "title": "rate (n.1) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/rate",
+   "accessed": "2026-09-17",
+   "note": "early 15c., from Medieval Latin rata pars, from Latin reri, to reckon"
+  },
+  {
+   "id": "s:jucm-case-rate-2017",
+   "kind": "web",
+   "title": "Understanding Case-Rate Reimbursement",
+   "publisher": "Journal of Urgent Care Medicine, 1 December 2017",
+   "url": "https://www.jucm.com/understanding-case-rate-reimbursement/",
+   "accessed": "2026-09-17",
+   "note": "a trade journal definition; no standards body publishes one"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the definition is quoted; the comparison between the three forms is this project's"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "The narrower form: one provider, one encounter, one negotiated price.",
+   "rel": "term"
+  },
+  {
+   "from": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The same idea unclassified: one negotiated price for one procedure, with no severity grouping.",
+   "rel": "contrast"
+  },
+  {
+   "from": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The trade term for the flat fee a package is built out of.",
+   "rel": "term"
+  },
+  {
+   "from": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "The same idea sold privately: one agreed amount for one episode.",
+   "rel": "term"
+  }
+ ]
+}

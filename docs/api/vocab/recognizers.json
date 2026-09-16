@@ -1,0 +1,152 @@
+{
+ "note": "Who accredits, certifies or lists a hospital. A recognition is counted once per recognizer per facility. The count is a fact about who has inspected and who has paid to be inspected; it is not this project's ranking, and nothing here says an accredited hospital is a better hospital. Most of these schemes are voluntary and the applicant pays the fee.",
+ "entries": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "accreditation of hospitals, clinics and programmes outside the United States; three-year cycle",
+   "url": "https://www.jointcommissioninternational.org/",
+   "kind": "international"
+  },
+  {
+   "key": "isqua-eea",
+   "label": "ISQua External Evaluation Association",
+   "what": "accredits the accreditors — a standard for the bodies that run the schemes",
+   "url": "https://ieea.ch/",
+   "kind": "meta"
+  },
+  {
+   "key": "temos",
+   "label": "Temos International Healthcare Accreditation",
+   "what": "accreditation aimed squarely at facilities treating international patients",
+   "url": "https://www.temos-worldwide.com/",
+   "kind": "international"
+  },
+  {
+   "key": "gha",
+   "label": "Global Healthcare Accreditation",
+   "what": "certification of the medical-travel care pathway rather than the clinical unit",
+   "url": "https://www.globalhealthcareaccreditation.com/",
+   "kind": "international"
+  },
+  {
+   "key": "aaci",
+   "label": "Accreditation Association for Ambulatory Health Care International / AACI",
+   "what": "international clinic and centre accreditation",
+   "url": "https://aaci-online.com/",
+   "kind": "international"
+  },
+  {
+   "key": "dnv",
+   "label": "DNV Healthcare",
+   "what": "hospital accreditation built on ISO 9001",
+   "url": "https://www.dnv.com/",
+   "kind": "international"
+  },
+  {
+   "key": "achsi",
+   "label": "Australian Council on Healthcare Standards International",
+   "what": "the Australian scheme, run abroad",
+   "url": "https://www.achs.org.au/",
+   "kind": "international"
+  },
+  {
+   "key": "qha-trent",
+   "label": "QHA Trent Accreditation",
+   "what": "a UK-based international hospital scheme",
+   "url": "https://www.qha-trent.co.uk/",
+   "kind": "international"
+  },
+  {
+   "key": "nabh",
+   "label": "NABH (India)",
+   "what": "the National Accreditation Board for Hospitals and Healthcare Providers, and its own international arm",
+   "url": "https://nabh.co/",
+   "kind": "national"
+  },
+  {
+   "key": "cbahi",
+   "label": "CBAHI (Saudi Arabia)",
+   "what": "the Saudi Central Board for Accreditation of Healthcare Institutions; mandatory at home",
+   "url": "https://portal.cbahi.gov.sa/",
+   "kind": "national"
+  },
+  {
+   "key": "ha-moh-th",
+   "label": "Healthcare Accreditation Institute (Thailand)",
+   "what": "the Thai HA standard, run by a public organisation",
+   "url": "https://www.ha.or.th/",
+   "kind": "national"
+  },
+  {
+   "key": "kohta",
+   "label": "KOIHA / KAHF (South Korea)",
+   "what": "Korean accreditation of institutions serving foreign patients, alongside the MOHW registration that is compulsory there",
+   "url": "https://www.koiha.or.kr/",
+   "kind": "national"
+  },
+  {
+   "key": "mhtc",
+   "label": "Malaysia Healthcare Travel Council",
+   "what": "a government agency that lists and promotes member hospitals",
+   "url": "https://www.mhtc.org.my/",
+   "kind": "national"
+  },
+  {
+   "key": "promed",
+   "label": "PROMED (Costa Rica)",
+   "what": "the national council that certifies providers for international patients",
+   "url": "https://www.promedcostarica.org/",
+   "kind": "national"
+  },
+  {
+   "key": "moh-tr",
+   "label": "Türkiye Ministry of Health health-tourism authorisation",
+   "what": "the certificate a Turkish facility must hold to treat international patients lawfully",
+   "url": "https://shgm.saglik.gov.tr/",
+   "kind": "regulator"
+  },
+  {
+   "key": "moh-ae",
+   "label": "UAE health regulators (DHA, DoH, MOHAP)",
+   "what": "the emirate-level licences a clinic operates under",
+   "url": "https://www.dha.gov.ae/",
+   "kind": "regulator"
+  },
+  {
+   "key": "cqc",
+   "label": "Care Quality Commission (England)",
+   "what": "the English regulator; its ratings are public and per-location",
+   "url": "https://www.cqc.org.uk/",
+   "kind": "regulator"
+  },
+  {
+   "key": "hfea",
+   "label": "Human Fertilisation and Embryology Authority (UK)",
+   "what": "licenses every UK fertility clinic and publishes each one's results",
+   "url": "https://www.hfea.gov.uk/",
+   "kind": "regulator"
+  },
+  {
+   "key": "sart-cdc",
+   "label": "SART / CDC ART reporting (United States)",
+   "what": "clinic-by-clinic fertility outcomes, reported under federal law",
+   "url": "https://www.cdc.gov/art/",
+   "kind": "registry"
+  },
+  {
+   "key": "newsweek-statista",
+   "label": "Newsweek / Statista World's Best Hospitals",
+   "what": "an annual ranking by survey and published indicators",
+   "url": "https://www.newsweek.com/rankings/worlds-best-hospitals",
+   "kind": "listing"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "a named body that fits none of the above; the record says who in its note",
+   "url": "",
+   "kind": "other"
+  }
+ ]
+}

@@ -1,0 +1,466 @@
+{
+ "schema": 1,
+ "id": "memorial-sisli",
+ "type": "facility",
+ "names": {
+  "name": "Memorial Şişli Hospital",
+  "aliases": [
+   "Memorial Şişli Hastanesi",
+   "Memorial Healthcare Group",
+   "Memorial Hospitals Group"
+  ],
+  "said": "SHISH-li, the Istanbul district it stands in, on Piyalepaşa Bulvarı. The group is Memorial; the Şişli hospital is the one that opened first and the one the group's firsts are dated from."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "ownership": "private",
+  "founded": 2000,
+  "specialty": [
+   "organ transplantation",
+   "fertility",
+   "oncology",
+   "bone marrow transplantation",
+   "cardiac surgery",
+   "bariatric surgery"
+  ],
+  "draws": [
+   "ivf",
+   "icsi",
+   "pgt",
+   "kidney-transplant",
+   "liver-transplant",
+   "bone-marrow-transplant",
+   "gastric-sleeve"
+  ],
+  "status": "open",
+  "languages": [
+   "Turkish",
+   "English",
+   "Arabic",
+   "Russian",
+   "Romanian",
+   "Albanian"
+  ]
+ },
+ "text": {
+  "what": "The first hospital of the Memorial Healthcare Group, opened in 2000 on Piyalepaşa Bulvarı in Şişli, Istanbul, and the first hospital in Türkiye to take Joint Commission International accreditation — the 21st in the world, by the group's own count. This record is the Şişli hospital and pins it; where a figure belongs to the whole group of twelve hospitals, the record says so.",
+  "story": "Memorial Şişli opened in 2000. Its IVF, andrology and genetics centre followed, then the heart health centre, then the JCI certificate that the group's founder Turgut Aydın still leads with: \"We accomplished great things with pride of obtaining JCI Accreditation Certificate, which is the international quality certificate in the Health Care, as first in Turkey and 21st in the world.\"\n\nIn March 2004 the hospital took the first Ministry of Health licence granted to a private Turkish hospital for liver and kidney transplantation and the laboratory services that go with them. Its transplant centre, its tissue typing and immunology laboratory — the first private Turkish laboratory accredited by the European Federation for Immunogenetics — and its IVF laboratory, accredited by TÜRKAK to ISO 15189, are the units the group dates its firsts from.\n\nThe group grew outward: Ataşehir, Antalya, Diyarbakır, Kayseri, Ankara, Bahçelievler, and information offices in Baku, Tirana, Sarajevo, Tashkent, Abuja, Constanța and Northern Cyprus. *Inference —* the office list is a map of where the patients come from, and it points east and south rather than west.\n\nThe group reports patients from 167 countries. That is a count of countries, not of patients, and the group publishes neither a patient count nor a price.",
+  "how": "An enquiry reaches the group rather than the hospital, through one of the overseas information offices or the website, and is placed at whichever of the twelve hospitals holds the programme. *Trade practice —* transplant and fertility work, which is what Memorial is known for abroad, is quoted after records are read and not from a list.\n\nThe Şişli hospital's own page links health packages — cancer control programmes, heart control programmes — behind a contact form. No figure is printed on it.",
+  "today": "As of 17 September 2026 the group states 12 hospitals, 92 medical units, more than 7,300 employees and more than 1,510 beds across the group, and patients from 167 countries. The Şişli hospital is reported elsewhere at 252 beds on a 53,000 square metre site; that figure is not on the hospital's own page read here and is carried as unverified."
+ },
+ "geo": {
+  "lat": 41.06165,
+  "lon": 28.972695,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Piyalepaşa Bulvarı, Okmeydanı, Şişli",
+  "city": "Istanbul",
+  "country": "TR",
+  "postcode": "34385"
+ },
+ "metrics": {
+  "beds": 1510,
+  "staff": 7300,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "foreign_patient_countries": 167,
+  "note": "GROUP figures, not this hospital's: more than 1,510 beds and more than 7,300 employees across twelve hospitals and 92 medical units. The Şişli hospital's own bed count is not stated on its page. The country figure is where patients come from, not how many come; a patient who returns is not counted twice because nobody is counting patients at all here.",
+  "as_of": "2026",
+  "source": "s:memorial-about",
+  "url": "https://www.memorial.com.tr/en/about-us"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:memorial-about",
+   "tier": "cited",
+   "note": "twelve hospitals and 92 medical units in Istanbul, Antalya, Ankara, Kayseri and Diyarbakır, with information offices in Baku, Tirana, Sarajevo, Tashkent, Abuja, Constanța and Northern Cyprus"
+  },
+  {
+   "tag": "transplant-programme",
+   "source": "s:memorial-about",
+   "tier": "cited",
+   "note": "the first private Turkish hospital licensed by the Ministry of Health for liver and kidney transplantation, March 2004"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:memorial-about",
+   "tier": "cited",
+   "note": "seven named overseas information offices and patients stated from 167 countries"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:memorial-sisli",
+   "tier": "cited",
+   "note": "the hospital page lists cancer control and heart control packages behind a contact form, with no figure",
+   "url": "https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital"
+  },
+  {
+   "tag": "outcomes-published",
+   "source": "s:memorial-about",
+   "tier": "cited",
+   "note": "the group's own firsts page states outcomes for individual operations rather than a unit-level series; read as a claim, not a registry"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation — the first Turkish hospital to hold it, and the 21st in the world by the group's count",
+   "year": null,
+   "valid_until": null,
+   "source": "s:memorial-about",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "note": "the group's timeline places the award between the 2000 opening and the 2004 transplant licence but prints no year against it"
+  },
+  {
+   "by": "moh-tr",
+   "what": "Ministry of Health licence for liver and kidney transplantation and the related laboratory services, the first granted to a private hospital in Türkiye",
+   "year": 2004,
+   "valid_until": null,
+   "source": "s:memorial-about",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "note": "March 2004; a transplant licence rather than a health tourism authorisation, recorded under the same regulator"
+  },
+  {
+   "by": "other",
+   "what": "European Federation for Immunogenetics accreditation of the tissue typing and immunology laboratory, and TÜRKAK ISO 15189 accreditation of the IVF laboratory",
+   "year": null,
+   "valid_until": null,
+   "source": "s:memorial-about",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "note": "laboratory accreditations, stated by the group as firsts in Türkiye"
+  }
+ ],
+ "kin": [
+  {
+   "to": "istanbul",
+   "as": "Stands in Şişli, on the European side, and is the hospital the group's firsts are dated from.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "The first Turkish hospital to hold JCI accreditation, which is the date Turkish private medicine abroad is usually counted from.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditor whose mark it took first in the country and 21st in the world.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "ivf",
+   "as": "Its fertility, andrology and genetics centre is the unit foreign patients reach it through most.",
+   "rel": "performs"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Licensed for it in March 2004, the first private Turkish hospital to be.",
+   "rel": "performs"
+  },
+  {
+   "to": "surrogacy",
+   "as": "Turkish law bars third-party reproduction, so a fertility centre here sells its own citizens a narrower menu than its foreign patients may expect.",
+   "rel": "contrast"
+  },
+  {
+   "to": "acibadem",
+   "as": "The larger Turkish group, and the other name a foreign enquiry lands on.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "Operates under the regime every Turkish facility treating foreign patients has needed since July 2017.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "167 countries is the group's headline figure, and it counts countries because nobody publishes patients.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Memorial Şişli Hospital",
+   "url": "https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital"
+  },
+  {
+   "label": "Memorial Hospitals Group — About Us",
+   "url": "https://www.memorial.com.tr/en/about-us"
+  }
+ ],
+ "sources": [
+  "s:memorial-about",
+  "s:memorial-sisli",
+  "s:osm-nominatim",
+  "s:gurtin-2011-turkey"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "how an enquiry travels through a Turkish group with overseas offices; the last paragraph is cited"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:memorial-about"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Memorial Şişli Hastanesi.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "The first hospital of the Memorial Healthcare Group, opened in 2000 on Piyalepaşa Bulvarı in Şişli, Istanbul, and the first hospital in Türkiye to take Joint Commission International accreditation — the 21st in the…",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "Stands in Şişli, on the European side, and is the hospital the group's firsts are dated from.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The first Turkish hospital to hold JCI accreditation, which is the date Turkish private medicine abroad is usually counted from.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The accreditor whose mark it took first in the country and 21st in the world.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "Its fertility, andrology and genetics centre is the unit foreign patients reach it through most.",
+   "rel": "performs"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Licensed for it in March 2004, the first private Turkish hospital to be.",
+   "rel": "performs"
+  },
+  {
+   "to": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "Turkish law bars third-party reproduction, so a fertility centre here sells its own citizens a narrower menu than its foreign patients may expect.",
+   "rel": "contrast"
+  },
+  {
+   "to": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The larger Turkish group, and the other name a foreign enquiry lands on.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "Operates under the regime every Turkish facility treating foreign patients has needed since July 2017.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "167 countries is the group's headline figure, and it counts countries because nobody publishes patients.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:memorial-about",
+   "kind": "web",
+   "title": "About Us — Memorial Hospitals Group",
+   "publisher": "Memorial Sağlık Grubu",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The group's own counters: 92 medical units, 12 hospitals, 7,300+ employees, 1,510+ bed capacity, patients from 167 countries. Founder Turgut Aydın's message states the group took the JCI accreditation certificate first in Turkey and 21st in the world. The timeline page dates Memorial Şişli's opening, its heart centre, its transplant licence of March 2004 and the group's overseas offices."
+  },
+  {
+   "id": "s:memorial-sisli",
+   "kind": "web",
+   "title": "Şişli Hospital — Memorial",
+   "publisher": "Memorial Sağlık Grubu",
+   "url": "https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026 for the address Piyalepaşa Bulvarı 34385, Şişli, Istanbul. The hospital page links health packages — cancer control and heart control programmes — under a contact form; no price appears on it."
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:gurtin-2011-turkey",
+   "kind": "paper",
+   "title": "Banning reproductive travel: Turkey's ART legislation and third-party assisted reproduction",
+   "publisher": "Reproductive BioMedicine Online (Gurtin ZB)",
+   "url": "https://www.rbmojournal.com/article/S1472-6483(11)00470-6/fulltext",
+   "accessed": "2026-09-16",
+   "note": "citation and the 2010 regulation's extraterritorial clause verified from the journal's own article listing; the full text returned HTTP 403 and was not read. Treated as needing verification wherever it is relied on."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "how an enquiry travels through a Turkish group with overseas offices; the last paragraph is cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:memorial-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:memorial-about",
+   "note": "twelve hospitals and 92 medical units in Istanbul, Antalya, Ankara, Kayseri and Diyarbakır, with information offices in Baku, Tirana, Sarajevo, Tashkent, Abuja, Constanța and Northern Cyprus",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "transplant-programme",
+   "label": "Transplant programme",
+   "icon": "🫀",
+   "group": "clinical",
+   "evidence": "a national transplant registry, a ministry licence list, or the facility's own programme page",
+   "source": "s:memorial-about",
+   "note": "the first private Turkish hospital licensed by the Ministry of Health for liver and kidney transplantation, March 2004",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:memorial-about",
+   "note": "seven named overseas information offices and patients stated from 167 countries",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:memorial-sisli",
+   "note": "the hospital page lists cancer control and heart control packages behind a contact form, with no figure",
+   "tier": "cited",
+   "url": "https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital"
+  },
+  {
+   "key": "outcomes-published",
+   "label": "Publishes outcomes",
+   "icon": "📊",
+   "group": "clinical",
+   "evidence": "a registry submission, an annual clinical report, or a national outcome dataset naming the unit",
+   "source": "s:memorial-about",
+   "note": "the group's own firsts page states outcomes for individual operations rather than a unit-level series; read as a claim, not a registry",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation — the first Turkish hospital to hold it, and the 21st in the world by the group's count",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:memorial-about"
+  },
+  {
+   "key": "moh-tr",
+   "label": "Türkiye Ministry of Health health-tourism authorisation",
+   "what": "Ministry of Health licence for liver and kidney transplantation and the related laboratory services, the first granted to a private hospital in Türkiye",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "kind": "regulator",
+   "year": 2004,
+   "valid_until": null,
+   "source": "s:memorial-about"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "European Federation for Immunogenetics accreditation of the tissue typing and immunology laboratory, and TÜRKAK ISO 15189 accreditation of the IVF laboratory",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "kind": "other",
+   "year": null,
+   "valid_until": null,
+   "source": "s:memorial-about"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "A large private hospital inside the belt, in Şişli itself.",
+   "rel": "part"
+  }
+ ]
+}

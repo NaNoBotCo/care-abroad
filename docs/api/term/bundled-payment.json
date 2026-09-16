@@ -1,0 +1,246 @@
+{
+ "id": "bundled-payment",
+ "names": {
+  "name": "Bundled payment",
+  "aliases": [
+   "episode payment",
+   "episode-based payment",
+   "global payment"
+  ],
+  "said": "Payers say bundle and mean an episode across several providers. Hospitals selling abroad say package and mean one seller's own list. The words are cousins and the objects are not the same."
+ },
+ "region": [
+  "global",
+  "north-america"
+ ],
+ "etymology": {
+  "root": "bundle is early 14c., a bound collection of things, from Middle Dutch bondel, a diminutive of bond, from binden, to bind, on the Germanic root meaning to bind; with payment, from pay, c. 1200, from Old French paier and Latin pacare, to appease or satisfy. The word says what the payment does: it ties services that were billed separately into one thing that cannot be unpicked.",
+  "first_attested": "early 14c. for bundle; 2013 for the American programmes that made it a payment form",
+  "tier": "cited",
+  "source": "s:etymonline-bundle",
+  "note": "A bundle is defined by a window as much as by a list. Change the number of days after discharge and you have changed what the payment covers."
+ },
+ "text": {
+  "what": "One payment covering everything a patient needs for a defined episode — the admission, the surgeon, the rehabilitation, the readmission if it happens — across every provider involved, for a fixed number of days after discharge. Providers who spend less than the target keep the difference; those who spend more absorb it.",
+  "story": "The American programmes are where the shape can be read, because each one published its own window. Under Bundled Payments for Care Improvement, whose first awardees began in April 2013 and whose later models began that October, Model 1 defined the episode as \"the inpatient stay in the acute care hospital\" and Model 2 as the inpatient stay \"plus the post-acute care and all related services up to 90 days post-hospital discharge\". BPCI Advanced, from 1 October 2018, defined it as \"the Anchor Stay plus 90 days beginning the day of discharge or the Anchor Procedure plus 90 days beginning on the day of completion of the outpatient procedure\". Comprehensive Care for Joint Replacement ran from 1 April 2016 to 31 December 2024 on a 90-day episode. The Transforming Episode Accountability Model, mandatory for selected hospitals, runs from 1 January 2026 to 31 December 2030 across five surgical categories — and its episode is shorter: \"Each episode will end 30 days after the individual leaves the hospital.\"\n\n*Inference —* the window is the whole design. A 90-day bundle makes the readmission the payer's problem and the hospital's risk; a 30-day bundle moves the same complication outside the payment. Nothing about the clinical course changed between the two models.",
+  "how": "A bundle is an arrangement between a payer and providers, not a price offered to a patient. Its exclusions are published separately from its definition, in technical lists of clinical episode exclusions rather than on the face of the model. Nothing in it crosses a border: a patient treated abroad is outside every episode any of these programmes defines.",
+  "today": "As of 17 September 2026 no record on this site carries a bundled payment as a price. The term appears here because it is the payer-side relative of the package a foreign hospital sells, and the comparison between them is the clearest way to see what a package leaves out."
+ },
+ "kin": [
+  {
+   "to": "package-price",
+   "as": "The seller's version of the same idea, with no payer and no published window.",
+   "rel": "contrast"
+  },
+  {
+   "to": "drg",
+   "as": "The unit bundles were built on top of, and the admission they extend past.",
+   "rel": "origin"
+  },
+  {
+   "to": "case-rate",
+   "as": "The narrower form: one provider, one encounter, one negotiated price.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation these programmes were built around, at home and abroad alike.",
+   "rel": "procedure"
+  },
+  {
+   "to": "united-states",
+   "as": "Where the episode payment was designed, and the market whose patients travel out of it.",
+   "rel": "destination"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "What a 90-day episode covers at home and nobody covers abroad.",
+   "rel": "risk"
+  }
+ ],
+ "sources": [
+  "s:etymonline-bundle",
+  "s:etymonline-pay",
+  "s:cms-bpci",
+  "s:cms-bpci-advanced",
+  "s:cms-cjr",
+  "s:cms-team-model"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "B"
+ },
+ "blurb": "One payment covering everything a patient needs for a defined episode — the admission, the surgeon, the rehabilitation, the readmission if it happens — across every provider involved, for a fixed number of days after…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The seller's version of the same idea, with no payer and no published window.",
+   "rel": "contrast"
+  },
+  {
+   "to": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The unit bundles were built on top of, and the admission they extend past.",
+   "rel": "origin"
+  },
+  {
+   "to": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The narrower form: one provider, one encounter, one negotiated price.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The operation these programmes were built around, at home and abroad alike.",
+   "rel": "procedure"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "Where the episode payment was designed, and the market whose patients travel out of it.",
+   "rel": "destination"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "What a 90-day episode covers at home and nobody covers abroad.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-bundle",
+   "kind": "dictionary",
+   "title": "bundle (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/bundle",
+   "accessed": "2026-09-17",
+   "note": "early 14c., from Middle Dutch bondel"
+  },
+  {
+   "id": "s:etymonline-pay",
+   "kind": "dictionary",
+   "title": "pay (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/pay",
+   "accessed": "2026-09-17",
+   "note": "c. 1200, from Latin pacare"
+  },
+  {
+   "id": "s:cms-bpci",
+   "kind": "gov",
+   "title": "Bundled Payments for Care Improvement (BPCI) Initiative",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/bundled-payments",
+   "accessed": "2026-09-17",
+   "note": "Model 1 awardees from April 2013, Models 2, 3 and 4 from October 2013; carries each model's episode definition"
+  },
+  {
+   "id": "s:cms-bpci-advanced",
+   "kind": "gov",
+   "title": "BPCI Advanced",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/bpci-advanced",
+   "accessed": "2026-09-17",
+   "note": "first cohort from 1 October 2018; episode is the anchor stay or procedure plus 90 days"
+  },
+  {
+   "id": "s:cms-cjr",
+   "kind": "gov",
+   "title": "Comprehensive Care for Joint Replacement Model",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/cjr",
+   "accessed": "2026-09-17",
+   "note": "performance period 1 April 2016 to 31 December 2024; 90-day episode"
+  },
+  {
+   "id": "s:cms-team-model",
+   "kind": "gov",
+   "title": "Transforming Episode Accountability Model (TEAM)",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/team-model",
+   "accessed": "2026-09-17",
+   "note": "mandatory for selected hospitals, 1 January 2026 to 31 December 2030, five surgical categories, 30-day episode"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The stretched version, across providers and a window of days.",
+   "rel": "contrast"
+  },
+  {
+   "from": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "What comes after the DRG, when the payer buys the whole episode instead of the admission.",
+   "rel": "descendant"
+  },
+  {
+   "from": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The payer's version of the same idea: one price for an episode, set by an insurer instead of by a seller.",
+   "rel": "contrast"
+  }
+ ]
+}

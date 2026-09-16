@@ -1,0 +1,292 @@
+{
+ "schema": 1,
+ "id": "tbilisi",
+ "type": "hub",
+ "names": {
+  "name": "Tbilisi",
+  "aliases": [
+   "თბილისი",
+   "Tiflis"
+  ],
+  "said": "Agencies say Georgia and mean Tbilisi; the clinics are in Vake, Saburtalo and Vera, and the programmes are quoted in dollars or euros."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "GE",
+  "radius_km": 15,
+  "specialty": [
+   "fertility",
+   "reproductive medicine",
+   "hair restoration",
+   "dentistry",
+   "cosmetic surgery"
+  ],
+  "draws": [
+   "ivf",
+   "surrogacy",
+   "egg-donation",
+   "icsi",
+   "hair-transplant-fue"
+  ],
+  "languages": [
+   "Georgian",
+   "Russian",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A capital of 1,369,400 people whose private clinics concentrate in Vake and Saburtalo, with Vera and Mtatsminda between them and the older hospital estate scattered across the city. Georgia runs universal coverage introduced in 2013 over a hospital system that is largely private, and the State Regulation Agency for Medical Activities licenses both facilities and professionals. The work foreign patients arrive for is reproductive medicine — in vitro fertilisation, donor cycles and gestational surrogacy — with hair restoration and dentistry beside it.",
+  "story": "Georgia's position in the fertility trade comes from its law rather than its laboratories. It permits gestational surrogacy, altruistic and commercial, for domestic and for international intended parents, restricted to couples married or in a domestic relationship of at least a year. That permission is rare enough in Europe and its neighbourhood to be the whole reason for most of the traffic.\n\nWhen Ukraine's surrogacy trade stopped in 2022, some of its clients moved here.\n\n*Inference —* a market that exists because of a permission is a market that can end with an amendment, and it is the kind of rule that moves. This record therefore names no article and no section: the reference read for it gives none, and a law that cannot be cited cannot be dated. Whether the permission still extends to foreign intended parents on the day a reader arrives is a question for the surrogacy law record, and this record does not answer it.\n\n*Trade practice —* the Tbilisi programme is agency-led. A coordinator matches the surrogate or the donor, the clinic runs the cycle, and the intended parents fly in twice: once around the transfer, once for the birth and the paperwork. The paperwork is the part that decides the outcome, and it is handled in the country of citizenship rather than here.",
+  "how": "*Trade practice —* programmes are quoted as a total with the surrogate's compensation, the medical cycle, the agency's fee and the legal work broken out, and paid in stages against milestones. The costs that fall outside are the ones nobody can schedule: a failed transfer and the next attempt, a twin pregnancy, a neonatal admission, and a delay in the exit documents that keeps a family in the city for weeks.",
+  "today": "As of 16 September 2026 this record carries no price row for Tbilisi and no count of arriving patients. No country record for Georgia exists in this directory yet, so this hub's kin reach the procedures and rules rather than a destination page.",
+  "notes": "Fifteen kilometres from the city point covers Vake, Saburtalo, Mtatsminda, Vera and the Old Town, and reaches the hospital campuses on the northern edge."
+ },
+ "geo": {
+  "lat": 41.7225,
+  "lon": 44.7925,
+  "precision": "city",
+  "source": "s:wp-tbilisi"
+ },
+ "address": {
+  "city": "Tbilisi",
+  "country": "GE"
+ },
+ "kin": [
+  {
+   "to": "surrogacy",
+   "as": "The treatment that brings most of this city's foreign traffic, and the one its law is the reason for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "surrogacy-law",
+   "as": "The rule this whole cluster rests on, and the one this record declines to date.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "ivf",
+   "as": "The cycle every programme here is built around.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "as": "Sold alongside, into the same European shortage.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The other export, priced against Istanbul at a shorter flight from the north.",
+   "rel": "procedure"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for the journey most of this city's patients are making.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "Why a permission in one country becomes an industry in its capital.",
+   "rel": "story"
+  },
+  {
+   "to": "istanbul",
+   "as": "The neighbouring cluster this city's hair clinics price against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "prague",
+   "as": "The other post-socialist fertility centre, selling donation rather than surrogacy.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Health in Georgia",
+   "url": "https://en.wikipedia.org/wiki/Health_in_Georgia_(country)"
+  }
+ ],
+ "sources": [
+  "s:wp-tbilisi",
+  "s:wp-health-georgia",
+  "s:wp-surrogacy-laws",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-surrogacy-laws",
+    "note": "no instrument is named because the source names none; paragraphs three and four are marked inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-tbilisi"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Tbilisi Vake district.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A capital of 1,369,400 people whose private clinics concentrate in Vake and Saburtalo, with Vera and Mtatsminda between them and the older hospital estate scattered across the city.",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "The treatment that brings most of this city's foreign traffic, and the one its law is the reason for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "The rule this whole cluster rests on, and the one this record declines to date.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The cycle every programme here is built around.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "Sold alongside, into the same European shortage.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "The other export, priced against Istanbul at a shorter flight from the north.",
+   "rel": "procedure"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The word for the journey most of this city's patients are making.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "Why a permission in one country becomes an industry in its capital.",
+   "rel": "story"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The neighbouring cluster this city's hair clinics price against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "prague",
+   "type": "hub",
+   "name": "Prague",
+   "as": "The other post-socialist fertility centre, selling donation rather than surrogacy.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-tbilisi",
+   "kind": "wikipedia",
+   "title": "Tbilisi",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tbilisi",
+   "accessed": "2026-09-16",
+   "note": "coordinates, population 1,369,400 (2026); Vake, Saburtalo and Mtatsminda districts, with Vera inside Mtatsminda"
+  },
+  {
+   "id": "s:wp-health-georgia",
+   "kind": "wikipedia",
+   "title": "Health in Georgia (country)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Health_in_Georgia_(country)",
+   "accessed": "2026-09-16",
+   "note": "universal coverage from 2013 over a largely privatised hospital estate; the State Regulation Agency for Medical Activities licenses facilities and professionals; 12,830 hospital beds by 2015"
+  },
+  {
+   "id": "s:wp-surrogacy-laws",
+   "kind": "wikipedia",
+   "title": "Surrogacy laws by country",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Surrogacy_laws_by_country",
+   "accessed": "2026-09-16",
+   "note": "states that Georgia permits altruistic and commercial surrogacy for domestic and international intended parents, restricted to couples married or in a domestic relationship of at least a year, and that Georgia absorbed clients from Ukraine after 2022; states surrogacy is unregulated in Czechia. No article or section number is given on the page for the Georgian instrument."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-surrogacy-laws",
+   "note": "no instrument is named because the source names none; paragraphs three and four are marked inline"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-tbilisi"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "georgia",
+   "type": "destination",
+   "name": "Georgia",
+   "as": "Where nearly all of it happens.",
+   "rel": "part"
+  }
+ ]
+}

@@ -1,0 +1,435 @@
+{
+ "schema": 1,
+ "id": "spinal-fusion",
+ "type": "procedure",
+ "names": {
+  "name": "Spinal fusion",
+  "aliases": [
+   "arthrodesis of the spine",
+   "ACDF",
+   "anterior cervical discectomy and fusion",
+   "TLIF",
+   "transforaminal lumbar interbody fusion",
+   "interbody fusion"
+  ],
+  "said": "Surgeons name the approach and the level and never say fusion on its own: ACDF for the neck from the front, TLIF or PLIF for the lower back. Price pages sell it by the level, and one level is the unit."
+ },
+ "etymology": {
+  "root": "arthrodesis: Greek arthron, a joint, plus desis, a binding — a joint bound shut. Fusion is Latin fundere, to pour or melt together, borrowed from metal. Interbody means between the vertebral bodies, where the cage and the graft go.",
+  "tier": "tradition",
+  "note": "A level, or motion segment, is one pair of vertebrae and the disc between them. Every published price read for this record is a one-level price, and a second level is a second price."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "orthopaedic",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Two vertebrae are joined into one bone. The disc between them is removed, a cage or a block of graft is packed into the gap, and screws and rods or a plate hold the segment still while it knits. It is done for instability, for deformity and for nerve compression that recurs. The unit of both surgery and price is the level; the metalwork and the graft are billed separately on most package pages.",
+  "story": "Fusion is the spine operation that most resembles a joint replacement in the price list: standardised enough to package, expensive enough to travel for, and quoted per level with the hardware carved out.\n\nBumrungrad's Spine Institute prices it twice on one page. A transforaminal lumbar interbody fusion at one level is 576,300 baht with two nights in a standard single room, and an anterior cervical discectomy and fusion at one level is 420,000 baht with one night. Both prices stand until 31 December 2026. The lumbar package's exclusion list opens with the line that decides the bill: implant and artificial bone graft.\n\nIn England, Practice Plus Group lists an anterior cervical discectomy and fusion at £14,400 on its self-pay page, the same named operation as the Bangkok cervical package, and states nothing about what the figure covers. Australia's Medicare Benefits Schedule sets item 51041, spinal fusion of the anterior column at one motion segment, at $1,295.85 as at 1 July 2026, with items 51042 to 51045 stepping up for two, three, four and five or more segments.\n\n*Inference —* the Australian ladder is the clearest published statement in this batch that spine surgery is sold by the segment. A quote that names a price without naming the number of levels has left out the multiplier.\n\n*Trade practice —* fusion also carries an argument the price pages do not: a fused segment throws load onto its neighbours, and the case for motion-preserving disc replacement instead is made on exactly that ground. Both sit on the same Bangkok page, and at the same level in the neck the disc replacement is 48,600 baht dearer than the fusion.",
+  "how": "General anaesthesia. For a neck fusion the surgeon works from the front through a crease incision, removes the disc, seats a cage or graft, and plates the two vertebrae; the patient is often up the same day and out the next. For a lumbar interbody fusion the approach is from behind through the foramen, the disc is cleared, the cage is placed and pedicle screws and rods are locked across the segment; Bumrungrad's package books three hours and thirty minutes of theatre and two nights. Bone knits over months, not weeks, and the imaging that confirms it happens at home.",
+  "today": "As of 16 September 2026 the fusion prices on this site are 420,000 baht for a one-level cervical fusion and 576,300 for a one-level lumbar fusion in Bangkok, both excluding the implant; £14,400 for the cervical operation in England; and an Australian schedule fee of $1,295.85 for one segment, which buys the surgeon's service and nothing else.",
+  "notes": "This page describes an operation and the prices published for it. Nothing here is medical advice."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "days_before_flying": 10,
+  "recovery_weeks": null,
+  "note": "Two nights is the ward stay named in Bumrungrad's TLIF01 package; the same hospital's one-level cervical fusion package names one night. Neither page states a recovery span, and no page read for this record does, so recovery_weeks stays empty. The ten days before flying is the CDC's guidance for chest or abdominal surgery, applied here by analogy for the clot risk and not stated by any spine page read.",
+  "as_of": "2026-09-16",
+  "source": "s:bumrungrad-tlif01",
+  "url": "https://www.bumrungrad.com/en/packages/transforaminal-lumbar-interbody-fusion"
+ },
+ "prices": [
+  {
+   "procedure": "spinal-fusion",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 576300,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "operating room charges for 3 hours and 30 minutes including OR room, recovery room, scrub nurse and circulating nurse",
+    "accommodation for 2 days in a standard single room",
+    "medical equipment and medical supplies specified in the package",
+    "anaesthesia and medications related to the procedure",
+    "surgeon",
+    "assistant surgeon if necessary",
+    "anaesthesiologist"
+   ],
+   "excludes": [
+    "implant and artificial bone graft",
+    "consultation fee for an initial visit and follow-up visits",
+    "inpatient stay more than 2 days, ICU, or stay past the approved discharge day",
+    "internist's and other specialists' consultations",
+    "outpatient fees before admission",
+    "complex cases requiring emergency surgery",
+    "laboratory and diagnostic tests before and after operation, blood transfusion and biopsy",
+    "take-home medications and medical supplies",
+    "pre-operative exercise programme by a physical therapist"
+   ],
+   "source": "s:bumrungrad-tlif01",
+   "url": "https://www.bumrungrad.com/en/packages/transforaminal-lumbar-interbody-fusion",
+   "note": "package TLIF01, one level, price stated valid until 31 December 2026. The first exclusion is the cage and the graft, which on a fusion is the largest carved-out line.",
+   "tier": "cited",
+   "usd": 17309.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "spinal-fusion",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 420000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "one-level anterior cervical discectomy with fusion",
+    "1-night hospital stay in a standard single room"
+   ],
+   "excludes": [],
+   "source": "s:bumrungrad-spine-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/spine-specialists-center",
+   "note": "listed on the Spine Institute package page as Anterior Cervical Discectomy with Fusion 1 Level (ACDF), 420,000 THB with one night. The neck fusion is 156,300 baht cheaper than the lumbar one at the same hospital and keeps the patient a night less.",
+   "tier": "cited",
+   "usd": 12615.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "spinal-fusion",
+   "country": "GB",
+   "city": "England",
+   "amount": 14400,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [],
+   "excludes": [],
+   "source": "s:practiceplus-spinal",
+   "url": "https://practiceplusgroup.com/treatments/spinal-surgery/",
+   "note": "listed as anterior cervical discectomy fusion on the group's self-pay spinal page, beside slipped disc surgery at £8,399 and spinal decompression at £8,849. The page states no inclusion list for the spinal prices, unlike the same group's hip and knee pages.",
+   "tier": "cited",
+   "usd": 19406.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "spinal-fusion",
+   "country": "AU",
+   "amount": 1295.85,
+   "currency": "AUD",
+   "as_of": "2026-07-01",
+   "kind": "tariff",
+   "includes": [
+    "the medical service described in item 51041: spinal fusion, anterior column (anterior, direct lateral or posterior interbody), one motion segment"
+   ],
+   "excludes": [
+    "hospital accommodation and theatre",
+    "the cage, screws, rods and graft",
+    "the anaesthetist's own items",
+    "any amount charged above the schedule fee"
+   ],
+   "source": "s:mbs-51041",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=51041&qt=item",
+   "note": "Medicare Benefits Schedule item 51041, fee last updated 1 July 2026; 75% benefit $971.90. Items 51042 to 51045 price two, three, four and five or more motion segments, which is the schedule saying in item numbers that fusion is sold by the level.",
+   "tier": "cited",
+   "usd": 924.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "disc-replacement",
+   "as": "The motion-preserving alternative argued against this one, and 48,600 baht dearer at the same neck level on the same Bangkok page.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes both the cervical and the lumbar fusion packages this page reads.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where both fusion packages on this page are sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where the £14,400 cervical fusion on this page is sold, with no inclusion list beside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Whose schedule prices fusion by the motion segment, one item number per level.",
+   "rel": "destination"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The cage, the screws and the graft — the first line on the Bangkok exclusion list.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step that decides what a one-level fusion price actually covers.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "as": "The form this operation is sold in, priced per level.",
+   "rel": "term"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets the wait before the flight home.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who orders the imaging that shows whether the bone knitted.",
+   "rel": "risk"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "disc-replacement",
+   "tell": "Both remove the disc; fusion locks the segment and disc replacement keeps it moving, and the Australian schedule pays the same fee for either."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package TLIF01",
+   "url": "https://www.bumrungrad.com/en/packages/transforaminal-lumbar-interbody-fusion"
+  },
+  {
+   "label": "MBS item 51041",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=51041&qt=item"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-tlif01",
+  "s:bumrungrad-spine-packages",
+  "s:practiceplus-spinal",
+  "s:mbs-51041",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "prices and levels read off the named pages; the marked stretches are this project's reasoning and the trade's argument"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the theatre time and nights are cited to the package page"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:bumrungrad-tlif01"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Spinal fusion X-ray.jpg",
+  "File:Lumbar interbody fusion cage.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Two vertebrae are joined into one bone. The disc between them is removed, a cage or a block of graft is packed into the gap, and screws and rods or a plate hold the segment still while it knits.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "The motion-preserving alternative argued against this one, and 48,600 baht dearer at the same neck level on the same Bangkok page.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes both the cervical and the lumbar fusion packages this page reads.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where both fusion packages on this page are sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "Where the £14,400 cervical fusion on this page is sold, with no inclusion list beside it.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Whose schedule prices fusion by the motion segment, one item number per level.",
+   "rel": "destination"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The cage, the screws and the graft — the first line on the Bangkok exclusion list.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step that decides what a one-level fusion price actually covers.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form this operation is sold in, priced per level.",
+   "rel": "term"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that sets the wait before the flight home.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who orders the imaging that shows whether the bone knitted.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-tlif01",
+   "kind": "web",
+   "title": "Transforaminal Lumbar Interbody Fusion (TLIF) Surgery — package TLIF01",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/transforaminal-lumbar-interbody-fusion",
+   "accessed": "2026-09-16",
+   "note": "576,300 THB, two nights, implant and artificial bone graft excluded; valid until 31 December 2026"
+  },
+  {
+   "id": "s:bumrungrad-spine-packages",
+   "kind": "web",
+   "title": "Spine Surgery — Spine Institute package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/spine-specialists-center",
+   "accessed": "2026-09-16",
+   "note": "endoscopic discectomy, ACDF, cervical disc replacement and TLIF prices"
+  },
+  {
+   "id": "s:practiceplus-spinal",
+   "kind": "web",
+   "title": "Private back surgery — self-pay price list",
+   "publisher": "Practice Plus Group",
+   "url": "https://practiceplusgroup.com/treatments/spinal-surgery/",
+   "accessed": "2026-09-16",
+   "note": "anterior cervical discectomy and fusion listed at £14,400"
+  },
+  {
+   "id": "s:mbs-51041",
+   "kind": "gov",
+   "title": "MBS item 51041 — spinal fusion, anterior column, one motion segment",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=51041&qt=item",
+   "accessed": "2026-09-16",
+   "note": "schedule fee $1,295.85, fee last updated 01-Jul-2026"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "prices and levels read off the named pages; the marked stretches are this project's reasoning and the trade's argument"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the theatre time and nights are cited to the package page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:bumrungrad-tlif01"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "Korean spine surgery draws its own referrals, separate from the cosmetic trade.",
+   "rel": "procedure"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "The operation this one competes with, 48,600 baht cheaper at the same Bangkok hospital and paid the same fee in Australia.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wooridul",
+   "type": "facility",
+   "name": "Wooridul Spine Hospital",
+   "as": "One of the two operations this hospital exists to do, listed on the state's own page for it.",
+   "rel": "performs"
+  }
+ ]
+}

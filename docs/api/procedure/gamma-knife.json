@@ -1,0 +1,275 @@
+{
+ "schema": 1,
+ "id": "gamma-knife",
+ "type": "procedure",
+ "names": {
+  "name": "Gamma knife radiosurgery",
+  "aliases": [
+   "Leksell Gamma Knife",
+   "stereotactic radiosurgery",
+   "SRS",
+   "gamma knife surgery"
+  ],
+  "said": "Neurosurgeons say SRS and mean any machine that does it, including a linear accelerator. Gamma Knife is one manufacturer's trademark, and the two words are used interchangeably on hospital pages that own the branded machine."
+ },
+ "etymology": {
+  "root": "gamma: the third letter of the Greek alphabet, applied to the third kind of radiation described after alpha and beta. Knife is a metaphor and nothing is cut; the term radiosurgery was coined by the Swedish neurosurgeon Lars Leksell, whose name the machine carries.",
+  "tier": "tradition",
+  "note": "the word surgery in radiosurgery survives from an argument about who owns the patient — the neurosurgeon or the radiation oncologist — rather than from anything that happens in the room."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "neurological",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "A high dose of radiation delivered to a target inside the skull from many directions at once, so that the beams meet at the lesion and each individual path through healthy brain carries little dose. The head is held still, by a frame pinned to the skull under local anaesthetic or by a moulded mask on newer machines, and the whole treatment is given in one session. It is used for small brain tumours, for metastases, for arteriovenous malformations and for trigeminal neuralgia. There is no incision and no general anaesthetic.",
+  "story": "Gamma knife travels for the reason proton therapy travels: the machine is where it is. Elekta, which makes it, said on its own fiftieth-anniversary page in January 2018 that \"today, 330 clinical Gamma Knife units across 54 countries treat a combined 80,000 new patients each year\", and that over fifty years \"1.1 million people around the world have received the therapy\". That figure was eight years old when it was read for this record on 16 September 2026, and no newer installed-base count appears on the manufacturer's current product pages. Fifty-four countries out of roughly two hundred is the fact that moves patients.\n\n*Trade practice —* the beams come from cobalt-60 sources arranged around a helmet; the sources decay and are reloaded on a cycle, which is one of the reasons a unit is a standing commitment rather than a purchase.\n\nWhat is published about volume is published about literature rather than about treatment. A 2025 systematic review in Cancer Medicine screened 5,424 articles, included 538, and counted \"120,756 patients treated with SRS for brain cancer and tumors since 2000\" in them. That counts patients who appear in papers. It does not count patients.\n\n*Inference —* the comparison a reader is usually making here is not between countries but between operations: a craniotomy with a ward stay and a recovery against an afternoon in a machine. The published argument over which is right for which lesion is a clinical one, and this directory reports that it is argued rather than settling it.",
+  "how": "A single session in one day. The London Gamma Knife Centre, a private unit whose own description this record reads, puts it as: \"Unlike conventional radiation therapy, which requires treatment over multiple days or weeks, Leksell Gamma Knife delivers a high dose of radiation to one or more brain tumours during a single treatment session, in one day\", and, where the target is too large, \"it is also possible to stage the treatment in three fractions at 2 weekly intervals.\" It is \"a single day outpatient visit\" and \"does not require a general anaesthetic\"; with a frame, the patient feels \"some discomfort from the local anaesthetic, and pressure from the pins when tightened\", and the treatment itself is painless. Most patients \"return to their normal activities the following day\". Newer machines offer \"the option of using a standard radiotherapy mask\" instead of the frame.",
+  "today": "No published price for a gamma knife session was found on any provider page read for this record on 16 September 2026, including the UK centre quoted above, whose self-pay link redirects to a hospital page carrying no figure. That is a statement about the pages read, not about the world: units in India, Türkiye, Thailand and Japan may publish, and no figure from them has been read here. What the scarcity does produce is a referral pattern rather than a price list — the patient is sent to the machine.",
+  "notes": "This page describes a treatment. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "A day case: the centre read for this record describes a single-day outpatient visit with a return to normal activities the following day. No provider page read on 16 September 2026 gave a wait before flying, so that figure stays a gap rather than a guess.",
+  "as_of": "2026-09-16",
+  "source": "s:london-gamma-knife",
+  "url": "https://www.thegammaknifecentre.co.uk/"
+ },
+ "kin": [
+  {
+   "to": "proton-therapy",
+   "as": "The other machine people cross a border to reach, and the one that takes weeks rather than an afternoon.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "as": "Scarcity of a different kind: there, the restriction is who may give the treatment, not who owns the hardware.",
+   "rel": "kin"
+  },
+  {
+   "to": "second-opinion",
+   "as": "The step where a patient learns that the machine exists at all, and in which country.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The imaging a distant unit needs before it will accept a referral.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The scan at six months, back home, that nobody booked.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Where a payer decides a branded machine is a different thing from the linear accelerator down the road.",
+   "rel": "rule"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The plain name this directory uses for what a patient does to reach a machine in another country.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "proton-therapy",
+   "tell": "Both get called precise radiation. Gamma knife treats inside the skull in one session; proton therapy treats tumours anywhere in the body over weeks of daily fractions."
+  }
+ ],
+ "links": [
+  {
+   "label": "Elekta — fifty years of Gamma Knife",
+   "url": "https://www.elekta.com/focus/celebrating-50-years-of-iconic-brain-care/"
+  },
+  {
+   "label": "The London Gamma Knife Centre",
+   "url": "https://www.thegammaknifecentre.co.uk/"
+  }
+ ],
+ "sources": [
+  "s:elekta-50-years",
+  "s:london-gamma-knife",
+  "s:srs-two-decades"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:elekta-50-years",
+    "note": "installed base and patient counts cited to the manufacturer and dated 2018; the cobalt-60 sentence is marked Trade practice and the closing paragraph Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:london-gamma-knife",
+    "note": "quoted from a private provider's own page, which is what it is"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Leksell Gamma Knife Perfexion.jpg",
+  "File:Stereotactic frame.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A high dose of radiation delivered to a target inside the skull from many directions at once, so that the beams meet at the lesion and each individual path through healthy brain carries little dose.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The other machine people cross a border to reach, and the one that takes weeks rather than an afternoon.",
+   "rel": "contrast"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Scarcity of a different kind: there, the restriction is who may give the treatment, not who owns the hardware.",
+   "rel": "kin"
+  },
+  {
+   "to": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "The step where a patient learns that the machine exists at all, and in which country.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The imaging a distant unit needs before it will accept a referral.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The scan at six months, back home, that nobody booked.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "Where a payer decides a branded machine is a different thing from the linear accelerator down the road.",
+   "rel": "rule"
+  },
+  {
+   "to": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The plain name this directory uses for what a patient does to reach a machine in another country.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:elekta-50-years",
+   "kind": "web",
+   "title": "Celebrating 50 years of iconic brain care",
+   "publisher": "Elekta, 31 January 2018",
+   "url": "https://www.elekta.com/focus/celebrating-50-years-of-iconic-brain-care/",
+   "accessed": "2026-09-16",
+   "note": "the manufacturer's own installed-base figure, eight years old on the access date and not superseded by anything current on its product pages"
+  },
+  {
+   "id": "s:london-gamma-knife",
+   "kind": "web",
+   "title": "The London Gamma Knife Centre at St Bartholomew's Hospital",
+   "publisher": "HCA Healthcare UK",
+   "url": "https://www.thegammaknifecentre.co.uk/",
+   "accessed": "2026-09-16",
+   "note": "a private provider's own description of the single-session treatment, the frame and the mask; not an independent body"
+  },
+  {
+   "id": "s:srs-two-decades",
+   "kind": "paper",
+   "title": "Transforming Brain Tumor Care: The Global Impact of Radiosurgery in Multidisciplinary Treatment Over Two Decades",
+   "publisher": "Cancer Medicine, 2025, doi:10.1002/cam4.70673",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11909010/",
+   "accessed": "2026-09-16",
+   "note": "systematic review counting 120,756 patients reported in 538 peer-reviewed publications since 2000; it counts published patients, not treated patients"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:elekta-50-years",
+   "note": "installed base and patient counts cited to the manufacturer and dated 2018; the cobalt-60 sentence is marked Trade practice and the closing paragraph Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:london-gamma-knife",
+   "note": "quoted from a private provider's own page, which is what it is"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Another treatment a patient reaches by travelling to the equipment.",
+   "rel": "kin"
+  },
+  {
+   "from": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The other machine people cross borders to reach, and the one that does its work in a single day.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hadassah",
+   "type": "facility",
+   "name": "Hadassah Medical Center",
+   "as": "Among the neurosurgical work its foreign referrals come for.",
+   "rel": "performs"
+  },
+  {
+   "from": "kokilaben",
+   "type": "facility",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "as": "Its radiosurgery programme is the kind of work its equipment list is built around.",
+   "rel": "performs"
+  }
+ ]
+}

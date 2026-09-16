@@ -1,0 +1,438 @@
+{
+ "schema": 1,
+ "id": "seoul",
+ "type": "hub",
+ "names": {
+  "name": "Seoul",
+  "aliases": [
+   "서울",
+   "Gangnam",
+   "강남"
+  ],
+  "said": "Seo-ul. Two different cities to a patient: Gangnam, which means the clinics, and the big four university hospitals, which are somewhere else entirely and take a different kind of referral."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "KR",
+  "radius_km": 20,
+  "specialty": [
+   "cosmetic surgery",
+   "dermatology",
+   "health screening",
+   "spine surgery",
+   "oncology",
+   "transplant"
+  ],
+  "draws": [
+   "rhinoplasty",
+   "facelift",
+   "hair-transplant-fue",
+   "executive-health-screening",
+   "spinal-fusion",
+   "liver-transplant"
+  ],
+  "languages": [
+   "Korean",
+   "English",
+   "Mandarin",
+   "Japanese",
+   "Russian"
+  ]
+ },
+ "text": {
+  "what": "The cosmetic trade occupies a few blocks of Gangnam-gu south of the Han river: Apgujeong-ro and the Garosu-gil end of Sinsa-dong, running east through Cheongdam, with the Gangnam-gu Office's own medical-travel desk on the ground floor of the Gangnam Tour Information Center at 161 Apgujeong-ro. The hospitals that do the hard work are elsewhere. Samsung Medical Center is at 81 Irwon-ro in Irwon-dong, in the south-eastern corner of the same district; Asan Medical Center is across the district line at 88 Olympic-ro 43-gil, Pungnap-dong, Songpa-gu, by the river; Severance is north of it all at 50-1 Yonsei-ro in Sinchon, Seodaemun-gu. Subway line 3 links the first two; nothing links them to the third but the 2 line and a change.",
+  "story": "Korea's count of foreign patients, kept by the Korea Health Industry Development Institute, rose from 60,201 from 139 countries in 2009 to a cumulative 2,760,553 from 198 countries by 2019, with 497,464 in 2019 alone; foreign cosmetic patients numbered 464,452 in 2018, up 16.7 per cent on 397,882 the year before. Those are registrations reported by institutions, and a patient who attends three clinics is counted by each.\n\n*Inference —* the two Seouls in this record are an artefact of what Korea sells. A dermatology or rhinoplasty patient books a clinic on a shopping street, pays cash, stays a week and is counted; a liver transplant or a cancer case arrives at Asan or Samsung through a referral and a foreign-patient office. They share a city, a visa and a statistical series, and they share nothing else. A directory that treats the series as one number has merged them.\n\n*Trade practice —* Gangnam's density is the thing people actually travel for: a street where a dozen clinics compete on price within a few hundred metres, with consultation, photographs and a quote on the same afternoon. The Gangnam-gu Office's own list of partner institutions runs to eighty-odd and is a partner list, not a register of the district.",
+  "how": "A Gangnam clinic quotes per procedure, often after photographs sent ahead, and takes payment in cash or by card before or on the day. The university hospitals run international healthcare centres that take a referral and a set of records, quote an estimate, and bill against it. Korea's foreign-patient system requires institutions treating foreign patients to register with the state and report, which is where the counts above come from.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits between the Apgujeong clinic blocks and the Samsung and Asan campuses, with a 20-kilometre radius that reaches Severance at Sinchon and Seoul National University Hospital in Jongno. No Seoul price has been read off a page into this directory yet.",
+  "notes": "This page describes a district and a set of hospitals. It says nothing about whether anyone should have an operation in either."
+ },
+ "geo": {
+  "lat": 37.526,
+  "lon": 127.025,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "city": "Seoul",
+  "area": "Gangnam-gu, Songpa-gu and Seodaemun-gu",
+  "country": "KR"
+ },
+ "metrics": {
+  "annual_foreign_patients": 497464,
+  "foreign_patient_countries": 198,
+  "note": "The Korea Health Industry Development Institute's 2019 count for the whole country, not for Seoul and not for Gangnam. It counts foreign patients registered by reporting institutions in the year; somebody who attends three clinics is counted three times. No district breakdown was found.",
+  "as_of": "2019",
+  "source": "s:wp-medical-tourism-south-korea",
+  "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_South_Korea"
+ },
+ "kin": [
+  {
+   "to": "samsung-medical-center",
+   "as": "At 81 Irwon-ro in Irwon-dong, the Gangnam-gu end of the university hospital pair.",
+   "rel": "part"
+  },
+  {
+   "to": "asan-medical-center",
+   "as": "At 88 Olympic-ro 43-gil in Songpa-gu, by the Han river.",
+   "rel": "part"
+  },
+  {
+   "to": "severance",
+   "as": "North of the river at 50-1 Yonsei-ro, Sinchon, and on the other side of the city from the clinics.",
+   "rel": "part"
+  },
+  {
+   "to": "wooridul",
+   "as": "The spine hospital that made Korean spinal surgery a destination in its own right.",
+   "rel": "part"
+  },
+  {
+   "to": "south-korea",
+   "as": "The country whose foreign-patient count this city dominates.",
+   "rel": "whole"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "The operation the Apgujeong blocks are built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The one-day screening the university hospitals sell to the region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "spinal-fusion",
+   "as": "Korean spine surgery draws its own referrals, separate from the cosmetic trade.",
+   "rel": "procedure"
+  },
+  {
+   "to": "khidi",
+   "as": "The state institute that keeps the foreign-patient count this record quotes.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "as": "The registration and reporting regime that produces those numbers.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a clinic registration count is not a headcount of travellers.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Gangnam Medi Tour — Gangnam-gu Office",
+   "url": "https://medicaltour.gangnam.go.kr/"
+  },
+  {
+   "label": "Asan Medical Center",
+   "url": "https://eng.amc.seoul.kr/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-asan-medical-center",
+  "s:wp-samsung-medical-center",
+  "s:wp-gangnam-district",
+  "s:wp-medical-tourism-south-korea",
+  "s:gangnam-medi-tour",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "roads, dong and gu read off OpenStreetMap address tags; the Gangnam-gu desk address is from its own site"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-tourism-south-korea",
+    "note": "the KHIDI counts are cited; the inline marks say which stretches are inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "a point between the Apgujeong clinic blocks and the two southern university campuses, not a point anybody published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Gangnam-gu Apgujeong-ro.jpg",
+  "File:Asan Medical Center.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The cosmetic trade occupies a few blocks of Gangnam-gu south of the Han river: Apgujeong-ro and the Garosu-gil end of Sinsa-dong, running east through Cheongdam, with the Gangnam-gu Office's own medical-travel desk on…",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "At 81 Irwon-ro in Irwon-dong, the Gangnam-gu end of the university hospital pair.",
+   "rel": "part"
+  },
+  {
+   "to": "asan-medical-center",
+   "type": "facility",
+   "name": "Asan Medical Center",
+   "as": "At 88 Olympic-ro 43-gil in Songpa-gu, by the Han river.",
+   "rel": "part"
+  },
+  {
+   "to": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "North of the river at 50-1 Yonsei-ro, Sinchon, and on the other side of the city from the clinics.",
+   "rel": "part"
+  },
+  {
+   "to": "wooridul",
+   "type": "facility",
+   "name": "Wooridul Spine Hospital",
+   "as": "The spine hospital that made Korean spinal surgery a destination in its own right.",
+   "rel": "part"
+  },
+  {
+   "to": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The country whose foreign-patient count this city dominates.",
+   "rel": "whole"
+  },
+  {
+   "to": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The operation the Apgujeong blocks are built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The one-day screening the university hospitals sell to the region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "Korean spine surgery draws its own referrals, separate from the cosmetic trade.",
+   "rel": "procedure"
+  },
+  {
+   "to": "khidi",
+   "type": "org",
+   "name": "Korea Health Industry Development Institute",
+   "as": "The state institute that keeps the foreign-patient count this record quotes.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The registration and reporting regime that produces those numbers.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a clinic registration count is not a headcount of travellers.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-asan-medical-center",
+   "kind": "wikipedia",
+   "title": "Asan Medical Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asan_Medical_Center",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-samsung-medical-center",
+   "kind": "wikipedia",
+   "title": "Samsung Medical Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Samsung_Medical_Center",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-gangnam-district",
+   "kind": "wikipedia",
+   "title": "Gangnam District",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gangnam_District",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-medical-tourism-south-korea",
+   "kind": "wikipedia",
+   "title": "Medical tourism in South Korea",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_South_Korea",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16",
+   "note": "quotes the Korea Health Industry Development Institute's annual counts of registered foreign patients; the article does not break them down by district."
+  },
+  {
+   "id": "s:gangnam-medi-tour",
+   "kind": "org",
+   "title": "Gangnam Medi Tour",
+   "publisher": "Gangnam-gu Office, Seoul",
+   "url": "https://medicaltour.gangnam.go.kr/",
+   "accessed": "2026-09-16",
+   "note": "the district government's own medical-travel desk, at the ground floor of the Gangnam Tour Information Center, 161 Apgujeong-ro. Lists its partner clinics, which is a partner list and not a register of every clinic in the district."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:osm-nominatim",
+   "note": "roads, dong and gu read off OpenStreetMap address tags; the Gangnam-gu desk address is from its own site"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-medical-tourism-south-korea",
+   "note": "the KHIDI counts are cited; the inline marks say which stretches are inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:osm-nominatim",
+   "note": "a point between the Apgujeong clinic blocks and the two southern university campuses, not a point anybody published"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "Where 85.4 per cent of it happened in 2024.",
+   "rel": "part"
+  },
+  {
+   "from": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "The neighbouring East Asian cluster that turned its hospitals outward, where Taipei mostly did not.",
+   "rel": "contrast"
+  },
+  {
+   "from": "asan-medical-center",
+   "type": "facility",
+   "name": "Asan Medical Center",
+   "as": "The largest of the three Seoul hospitals here, across the river in Songpa by the Olympic park.",
+   "rel": "place"
+  },
+  {
+   "from": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "The Gangnam hospital of the three the Seoul cluster is built on.",
+   "rel": "place"
+  },
+  {
+   "from": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "The oldest of the three Seoul hospitals here, at Sinchon in the north-west of the city.",
+   "rel": "place"
+  },
+  {
+   "from": "wooridul",
+   "type": "facility",
+   "name": "Wooridul Spine Hospital",
+   "as": "Sits in Cheongdam, in the Gangnam blocks the city's clinic trade is named for, and does none of the work that trade is known for.",
+   "rel": "place"
+  },
+  {
+   "from": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "Where most registered institutions are.",
+   "rel": "hub"
+  },
+  {
+   "from": "khidi",
+   "type": "org",
+   "name": "Korea Health Industry Development Institute",
+   "as": "The city that takes 85 per cent of the patients in its own count.",
+   "rel": "place"
+  }
+ ]
+}

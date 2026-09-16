@@ -1,0 +1,277 @@
+{
+ "schema": 1,
+ "id": "directive-2011-24-adopted",
+ "type": "event",
+ "names": {
+  "name": "Directive 2011/24/EU adopted, 9 March 2011",
+  "aliases": [
+   "cross-border healthcare directive",
+   "patients' rights directive"
+  ],
+  "said": "Brussels calls it the patients' rights directive. What it actually did was put a price ceiling on a right that the Court of Justice had already granted case by case."
+ },
+ "region": [
+  "global",
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east"
+ ],
+ "facets": {
+  "kind": "ruling",
+  "when": 2011,
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The European Parliament and the Council adopted Directive 2011/24/EU on the application of patients' rights in cross-border healthcare on 9 March 2011, signed at Strasbourg by J. Buzek for the Parliament and E. Győri for the Council. It was published in the Official Journal on 4 April 2011 at L 88/45, entered into force twenty days later, and Member States had to transpose it \"by 25 October 2013\". It is the only instrument in this directory that gives a patient a general right to be treated in another country and have the bill sent home.",
+  "story": "The rule is in Article 7(1): \"the Member State of affiliation shall ensure the costs incurred by an insured person who receives cross-border healthcare are reimbursed, if the healthcare in question is among the benefits to which the insured person is entitled in the Member State of affiliation.\" Then Article 7(4) fixes the ceiling — costs are reimbursed \"up to the level of costs that would have been assumed by the Member State of affiliation, had this healthcare been provided in its territory without exceeding the actual costs of healthcare received.\"\n\nRead together, those two sentences describe the whole bargain. A patient may go; the home system pays what it would have paid at home; the patient carries the difference, and pays first. A right to travel is not a right to a free operation.\n\nGovernments kept one lever. Article 8 allows a prior authorisation system, restricted \"to what is necessary and proportionate\", and limits it to care that \"involves overnight hospital accommodation of the patient in question for at least one night\", \"requires use of highly specialised and cost-intensive medical infrastructure or medical equipment\", or presents a particular patient-safety risk. Article 8(5) then closes the obvious loophole: authorisation may not be refused when the treatment cannot be provided at home \"within a time limit which is medically justifiable\". The queue is written into the law.\n\nArticle 6 requires every Member State to run a national contact point, which is how a patient is supposed to find out any of this.\n\n*Inference —* the directive is also the only place in this subject where a state agreed, in advance and in writing, to pay for a citizen's treatment abroad. Everything else in this directory is paid out of pocket.",
+  "today": "The Commission's report for reference year 2022 shows what the instrument produces in practice: 23 countries reported 547,890 reimbursement requests for care that needed no prior authorisation, of which France's 300,254 and Germany's 160,647 are 84%, against 14,176 from Poland, 1,841 from Ireland, 440 from Czechia and nine from Spain. Total reimbursed was EUR 86,462,491. For care that did need prior authorisation there were 4,552 requests and EUR 7,708,041.",
+  "notes": "One instrument, one date, one jurisdiction — the directive binds the EU Member States and, through the EEA agreement and national implementations, extends unevenly beyond them. Nothing here is legal advice, and the per-country reading sits on the rule record rather than in this event."
+ },
+ "geo": {
+  "lat": 48.5839,
+  "lon": 7.7455,
+  "precision": "city",
+  "source": "s:eurlex-2011-24-oj"
+ },
+ "address": {
+  "city": "Strasbourg",
+  "country": "FR"
+ },
+ "kin": [
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The rule record: what it says, country by country, and what it does not cover.",
+   "rel": "rule"
+  },
+  {
+   "to": "s2-route",
+   "as": "The older route it sits beside, under the social security regulation, which pays the treating country's tariff instead.",
+   "rel": "rule"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "as": "The offices Article 6 created, and the thin place where a patient meets the law.",
+   "rel": "org"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The queue Article 8(5) turns into an entitlement, measured where anybody measures it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The word Brussels uses for this, and why it is not the word the trade uses.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "as": "The permission Article 8 lets a state require, and the conditions it may require it under.",
+   "rel": "term"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "A reimbursement at the home tariff changes the arithmetic that every other page here does out of pocket.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Directive 2011/24/EU on EUR-Lex",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0024"
+  },
+  {
+   "label": "Official Journal text, L 88/45",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011L0024"
+  },
+  {
+   "label": "Procedure file 2008/0142/COD",
+   "url": "https://eur-lex.europa.eu/procedure/EN/2008_142"
+  }
+ ],
+ "sources": [
+  "s:eurlex-2011-24-oj",
+  "s:eu-directive-2011-24",
+  "s:dir-2011-24-chapter-ii",
+  "s:ec-crossborder-2022"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eurlex-2011-24-oj"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eurlex-2011-24-oj",
+    "note": "every quoted passage was read in the Official Journal text; the closing paragraph is marked inference"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:ec-crossborder-2022"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The European Parliament and the Council adopted Directive 2011/24/EU on the application of patients' rights in cross-border healthcare on 9 March 2011, signed at Strasbourg by J. Buzek for the Parliament and E.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  },
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  },
+  {
+   "key": "europe-north",
+   "name": "Northern Europe",
+   "note": "the Nordics and the Baltics"
+  },
+  {
+   "key": "europe-east",
+   "name": "Eastern Europe",
+   "note": "Romania, Bulgaria, Serbia, Ukraine, Moldova, Albania, North Macedonia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The rule record: what it says, country by country, and what it does not cover.",
+   "rel": "rule"
+  },
+  {
+   "to": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The older route it sits beside, under the social security regulation, which pays the treating country's tariff instead.",
+   "rel": "rule"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The offices Article 6 created, and the thin place where a patient meets the law.",
+   "rel": "org"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The queue Article 8(5) turns into an entitlement, measured where anybody measures it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The word Brussels uses for this, and why it is not the word the trade uses.",
+   "rel": "term"
+  },
+  {
+   "to": "prior-authorisation",
+   "type": "term",
+   "name": "Prior authorisation",
+   "as": "The permission Article 8 lets a state require, and the conditions it may require it under.",
+   "rel": "term"
+  },
+  {
+   "to": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "A reimbursement at the home tariff changes the arithmetic that every other page here does out of pocket.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:eurlex-2011-24-oj",
+   "kind": "law",
+   "title": "Directive 2011/24/EU of the European Parliament and of the Council of 9 March 2011 on the application of patients' rights in cross-border healthcare — Official Journal text",
+   "publisher": "Official Journal of the European Union, L 88/45, 4.4.2011",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-17",
+   "note": "read in the OJ PDF: Article 7(1) and 7(4) on reimbursement up to the home level, Article 8(1)(2)(5) on prior authorisation and the medically justifiable time limit, Article 6 on national contact points, Article 21 transposition by 25 October 2013, Article 22 entry into force on the 20th day after publication, signed at Strasbourg 9 March 2011 by J. BUZEK and GYORI E."
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:dir-2011-24-chapter-ii",
+   "kind": "law",
+   "title": "Directive 2011/24/EU, Chapter II — responsibilities of the Member State of treatment and of affiliation, Articles 4 to 6",
+   "publisher": "legislation.gov.uk, retained text of Directive 2011/24/EU",
+   "url": "https://www.legislation.gov.uk/cy/eudr/2011/24/chapter/II/data.htm?view=plain",
+   "accessed": "2026-09-16",
+   "note": "read for Art 4(2)(b) invoices and prices, 4(2)(c) complaints and redress, 4(2)(d) professional liability insurance, 4(2)(f) copy of the medical record, 5(d) access to records, and Art 6 national contact points"
+  },
+  {
+   "id": "s:ec-crossborder-2022",
+   "kind": "report",
+   "title": "Member State data on cross-border patient healthcare following Directive 2011/24/EU — reference year 2022",
+   "publisher": "European Commission, DG Health and Food Safety, Unit B.3; written by PredictBy Research and Consulting and Baltic Media; Publications Office of the European Union",
+   "url": "https://health.ec.europa.eu/document/download/69e33702-c7cc-4f0e-afc0-f3cf13e127ab_en?filename=crossborder_2022_patient-healthcare_data_en.pdf",
+   "license": "CC BY 4.0",
+   "accessed": "2026-09-16",
+   "note": "final version January 2024, ISBN 978-92-68-14858-7. 23 countries reported 547,890 reimbursement requests for care not needing prior authorisation in 2022, of which France 300,254 and Germany 160,647 are 84%; Poland 14,176, Slovakia 13,904, Ireland 1,841, Romania 889, Czechia 440, Croatia 192, Lithuania 131, Greece 56, Cyprus 44, Portugal 27 (all refused), Spain 9. Total reimbursed EUR 86,462,491. For care needing prior authorisation, 4,552 requests and EUR 7,708,041. Belgium and Hungary could not report; Czechia, Cyprus, Latvia, Lithuania, the Netherlands, Finland, Sweden and Norway run no prior-authorisation system; only Denmark and Romania have a mechanism to limit inflow."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:eurlex-2011-24-oj"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:eurlex-2011-24-oj",
+   "note": "every quoted passage was read in the Official Journal text; the closing paragraph is marked inference"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ec-crossborder-2022"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:eurlex-2011-24-oj"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:eurlex-2011-24-oj"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The year this was passed, and the litigation behind it.",
+   "rel": "event"
+  }
+ ]
+}

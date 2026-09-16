@@ -1,0 +1,413 @@
+{
+ "schema": 1,
+ "id": "gleneagles-kl",
+ "type": "facility",
+ "names": {
+  "name": "Gleneagles Hospital Kuala Lumpur",
+  "aliases": [
+   "Gleneagles KL",
+   "Gleneagles Kuala Lumpur",
+   "Hospital Gleneagles Kuala Lumpur"
+  ],
+  "said": "Gleneagles, after the Scottish name Parkway took to Singapore and then across the region; Kuala Lumpur says Gleneagles Ampang, for the road."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "MY",
+  "ownership": "private",
+  "founded": 1996,
+  "specialty": [
+   "cardiology",
+   "oncology",
+   "orthopaedics",
+   "general surgery",
+   "paediatrics",
+   "gastroenterology"
+  ],
+  "draws": [
+   "angioplasty-stent",
+   "knee-replacement",
+   "cataract-surgery"
+  ],
+  "status": "open",
+  "languages": [
+   "Malay",
+   "English",
+   "Mandarin",
+   "Tamil",
+   "Arabic",
+   "Indonesian"
+  ]
+ },
+ "text": {
+  "what": "A 376-bed private hospital on Jalan Ampang in Kuala Lumpur, which began operating on 1 August 1996. It is a subsidiary of Pantai Medical Centre, owned by IHH Healthcare, and one of four Gleneagles hospitals in Malaysia. It holds accreditation from the Malaysian Society for Quality in Health and from Joint Commission International.",
+  "story": "Gleneagles Kuala Lumpur is part of the largest single ownership block in this directory. IHH Healthcare owns Gleneagles, Pantai and Prince Court in Malaysia, Mount Elizabeth and Parkway in Singapore, Acibadem in Türkiye and a controlling stake in Fortis in India — so a patient comparing a Kuala Lumpur quote with a Singapore one, or with a Delhi one, may be comparing two subsidiaries of the same company.\n\nThe hospital won an award for customer service at the 2015 International Medical Travel Journal awards, the year Malaysia was named that scheme's destination of the year.\n\n*Inference —* Malaysia's inbound trade is shaped by its neighbours' prices more than by its own. Kuala Lumpur is an hour from Singapore by air and a bus ride from Johor, and it prices below both Singapore and, for some work, Thailand. A hospital on Jalan Ampang is competing with Mount Elizabeth on the same operation at a different number.",
+  "how": "Malaysia runs its inbound trade through the Malaysia Healthcare Travel Council, a government agency that lists and promotes member hospitals. *Trade practice —* the quote a foreign patient receives from a Malaysian private hospital is an estimate band naming the surgeon's fee, the ward class and the length of stay separately, because those are the lines that move.",
+  "today": "As of 16 September 2026 the hospital's group page states 376 beds and gives its address as blocks A, B and the medical office block at 282, 286 and 288 Jalan Ampang. No price for any procedure appears on the Gleneagles Malaysia pages read for this record."
+ },
+ "geo": {
+  "lat": 3.161265,
+  "lon": 101.739183,
+  "precision": "street",
+  "source": "s:wp-gleneagles-kl"
+ },
+ "address": {
+  "street": "282, 286 & 288 Block A, B and Medical Office Block, Jalan Ampang",
+  "city": "Kuala Lumpur",
+  "country": "MY",
+  "postcode": "50450"
+ },
+ "metrics": {
+  "beds": 376,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "376 beds is the group's own figure for the Kuala Lumpur hospital, read 16 September 2026. No patient count and no foreign-patient count is published on the pages read here; where Malaysian figures are published nationally by the Malaysia Healthcare Travel Council they count arrivals and hospital VISITS, not individual people.",
+  "as_of": "2026-09-16",
+  "source": "s:gleneagles-my",
+  "url": "https://gleneagles.com.my/hospitals/gleneagles-hospital-kuala-lumpur"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:wp-gleneagles-kl",
+   "tier": "cited",
+   "note": "a subsidiary of Pantai Medical Centre, owned by IHH Healthcare; four Gleneagles hospitals in Malaysia"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:gleneagles-my",
+   "tier": "cited",
+   "note": "no price or package figure on the Gleneagles Malaysia hospital pages, checked 16 September 2026"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-gleneagles-kl",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "note": "reported rather than dated; the year first granted is not recorded here"
+  },
+  {
+   "by": "other",
+   "what": "Accreditation by the Malaysian Society for Quality in Health (MSQH), the Malaysian national hospital standard",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-gleneagles-kl",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "note": "MSQH has no key of its own in this project's recognizer list and is recorded here as a named other body"
+  },
+  {
+   "by": "other",
+   "what": "Award for Excellence in Customer Service at the 2015 International Medical Travel Journal awards",
+   "year": 2015,
+   "valid_until": null,
+   "source": "s:wp-gleneagles-kl",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "note": "a trade-press award, counted and not weighted"
+  }
+ ],
+ "kin": [
+  {
+   "to": "kuala-lumpur",
+   "as": "One of the two hospitals the Kuala Lumpur cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia",
+   "as": "A hospital whose pricing exists in the gap between Singapore's and Thailand's.",
+   "rel": "destination"
+  },
+  {
+   "to": "mount-elizabeth",
+   "as": "Same ultimate owner, an hour's flight away, at a different number for the same operation.",
+   "rel": "contrast"
+  },
+  {
+   "to": "prince-court",
+   "as": "Its Kuala Lumpur competitor, also IHH-owned, which does publish package prices.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mhtc",
+   "as": "The government agency that lists and promotes Malaysia's inbound hospitals.",
+   "rel": "org"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "as": "The national arrangement under which Malaysian hospitals take foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "jci",
+   "as": "The international accreditor whose mark it holds alongside the Malaysian national one.",
+   "rel": "accredited-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Gleneagles Hospitals Malaysia",
+   "url": "https://gleneagles.com.my/"
+  },
+  {
+   "label": "Gleneagles Hospital Kuala Lumpur",
+   "url": "https://gleneagles.com.my/hospitals/gleneagles-hospital-kuala-lumpur"
+  }
+ ],
+ "sources": [
+  "s:wp-gleneagles-kl",
+  "s:gleneagles-my"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a Malaysian private hospital estimate; hedged in the prose"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-gleneagles-kl",
+    "note": "coordinates as published on the hospital's Wikipedia entry"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:gleneagles-my"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Gleneagles Hospital Kuala Lumpur.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A 376-bed private hospital on Jalan Ampang in Kuala Lumpur, which began operating on 1 August 1996. It is a subsidiary of Pantai Medical Centre, owned by IHH Healthcare, and one of four Gleneagles hospitals in Malaysia.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "One of the two hospitals the Kuala Lumpur cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "A hospital whose pricing exists in the gap between Singapore's and Thailand's.",
+   "rel": "destination"
+  },
+  {
+   "to": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "Same ultimate owner, an hour's flight away, at a different number for the same operation.",
+   "rel": "contrast"
+  },
+  {
+   "to": "prince-court",
+   "type": "facility",
+   "name": "Prince Court Medical Centre",
+   "as": "Its Kuala Lumpur competitor, also IHH-owned, which does publish package prices.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The government agency that lists and promotes Malaysia's inbound hospitals.",
+   "rel": "org"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The national arrangement under which Malaysian hospitals take foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The international accreditor whose mark it holds alongside the Malaysian national one.",
+   "rel": "accredited-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-gleneagles-kl",
+   "kind": "wikipedia",
+   "title": "Gleneagles Hospital Kuala Lumpur",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:gleneagles-my",
+   "kind": "web",
+   "title": "Gleneagles Hospitals Malaysia — hospital list and bed counts",
+   "publisher": "Gleneagles Hospitals Malaysia (IHH Healthcare)",
+   "url": "https://gleneagles.com.my/hospitals/gleneagles-hospital-kuala-lumpur",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of a Malaysian private hospital estimate; hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-gleneagles-kl",
+   "note": "coordinates as published on the hospital's Wikipedia entry"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:gleneagles-my"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-gleneagles-kl",
+   "note": "a subsidiary of Pantai Medical Centre, owned by IHH Healthcare; four Gleneagles hospitals in Malaysia",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:gleneagles-my",
+   "note": "no price or package figure on the Gleneagles Malaysia hospital pages, checked 16 September 2026",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-gleneagles-kl"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "Accreditation by the Malaysian Society for Quality in Health (MSQH), the Malaysian national hospital standard",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "kind": "other",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-gleneagles-kl"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "Award for Excellence in Customer Service at the 2015 International Medical Travel Journal awards",
+   "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
+   "kind": "other",
+   "year": 2015,
+   "valid_until": null,
+   "source": "s:wp-gleneagles-kl"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "One of the private hospitals the council's figures are assembled from.",
+   "rel": "part"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "On Jalan Ampang at Ampang Hilir, 376 beds, open since 1996.",
+   "rel": "part"
+  },
+  {
+   "from": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "A sister under the same Malaysian parent, IHH Healthcare — a patient comparing Istanbul against Kuala Lumpur may be comparing two hospitals with one owner.",
+   "rel": "contrast"
+  },
+  {
+   "from": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "The Kuala Lumpur competitor under the same owner since 2024, which publishes no price.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "A sister under the same parent, IHH Healthcare, two hundred miles up the peninsula and priced differently.",
+   "rel": "contrast"
+  },
+  {
+   "from": "prince-court",
+   "type": "facility",
+   "name": "Prince Court Medical Centre",
+   "as": "Its neighbour and competitor under the same ultimate owner, which publishes no price.",
+   "rel": "contrast"
+  },
+  {
+   "from": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "One of the member hospitals.",
+   "rel": "facility"
+  },
+  {
+   "from": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "One of the private hospitals on its member roster.",
+   "rel": "org"
+  }
+ ]
+}

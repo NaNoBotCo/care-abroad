@@ -1,0 +1,500 @@
+{
+ "schema": 1,
+ "id": "american-hospital-dubai",
+ "type": "facility",
+ "names": {
+  "name": "American Hospital Dubai",
+  "aliases": [
+   "AHD",
+   "المستشفى الأمريكي دبي"
+  ],
+  "said": "The name is a standard, not an ownership: the hospital is Emirati, owned by the Mohamed & Obaid Al Mulla Group, and American means its physicians are American board certified or equivalent."
+ },
+ "region": [
+  "gulf"
+ ],
+ "facets": {
+  "iso2": "AE",
+  "ownership": "private",
+  "founded": 1996,
+  "specialty": [
+   "oncology",
+   "cardiology",
+   "obstetrics",
+   "orthopaedics",
+   "robotic surgery"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement",
+   "executive-health-screening",
+   "gastric-sleeve"
+  ],
+  "status": "open",
+  "languages": [
+   "Arabic",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A 254-bed private acute general medical and surgical hospital in Dubai, established in 1996 by the Mohamed & Obaid Al Mulla Group, working in more than 40 specialties with seven satellite clinics across the emirate. It was the first hospital in the Middle East awarded Joint Commission International accreditation, and the inaugural member of the Mayo Clinic Care Network.",
+  "story": "The hospital states its firsts plainly: first in the Middle East with the JCI, first laboratory in the region's private sector accredited by the College of American Pathologists, the inaugural member of the Mayo Clinic Care Network, the first cancer programme in Dubai offering one-stop care, the first private UAE hospital with an American Heart Association international training centre, the only facility outside the United States with ultrasound practice accreditation from the American Institute of Ultrasound in Medicine in abdomen and breast, the first facility in Dubai to run a fourth-generation da Vinci Xi robot.\n\n*Inference —* every one of those firsts names an American body. That is what an Emirati hospital built in 1996 was for: a recognisable standard for a population of expatriates and regional patients who would otherwise fly to London or Houston. The Gulf is the largest source market in this whole subject, and Dubai's project has been to keep some of its own outflow at home while attracting the region's.\n\nDubai reported more than 691,000 international health travellers in 2023. That is an emirate-wide count of arrivals stating a health purpose, not a count of operations and not this hospital's.",
+  "how": "This is the hospital in the batch that publishes its exclusion lists rather than its prices, and the exclusions are priced where the package is not. The normal delivery package covers delivery, the delivery suite, two blood counts, blood typing, newborn screening, two days' post-delivery room and nursery, obstetrician rounding for two days, paediatrician fees, the six-week postpartum visit, the baby's one-week clinic visit and an audiogram. Outside it: epidural anaesthesia at Dhs 3,770, a twin surcharge of Dhs 2,050, routine medication above Dhs 450 and consumables above Dhs 1,500, baby vaccines at about Dhs 300, circumcision, neonatal intensive care, any resuscitation, and a relative staying overnight at Dhs 193 a day with meals extra.\n\nThe package page also states two terms a reader of this directory should read together: the self-pay patient pays the whole package price in advance at sign-up, and a switch from a normal delivery to a caesarean is charged at the caesarean price. The bundle is fixed; the bill is not.",
+  "today": "As of 17 September 2026 the hospital states 254 beds, more than 40 specialties, seven satellite clinics, JCI accreditation as the first in the Middle East, CAP laboratory accreditation, AIUM ultrasound practice accreditation and Mayo Clinic Care Network membership. It publishes maternity package inclusion and exclusion lists with the exclusions priced, and no package price."
+ },
+ "geo": {
+  "lat": 25.235574,
+  "lon": 55.313076,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Street 12B, Oud Metha",
+  "city": "Dubai",
+  "area": "Dubai",
+  "country": "AE"
+ },
+ "metrics": {
+  "beds": 254,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "254 beds, the hospital's own figure, acute general medical and surgical. No doctor count, patient count or foreign share is published by the hospital. Dubai's emirate-wide figure of more than 691,000 international health travellers in 2023 belongs to the emirate and counts ARRIVALS stating a health purpose — every expatriate resident's visiting relative with a chest infection included — and is not carried in this record's numbers.",
+  "as_of": "2026",
+  "source": "s:ahd-about",
+  "url": "https://www.ahdubai.com/about-us"
+ },
+ "tags": [
+  {
+   "tag": "package",
+   "source": "s:ahd-normal-delivery",
+   "tier": "cited",
+   "note": "maternity packages with written inclusion and exclusion lists; the exclusions carry figures and the package does not",
+   "url": "https://www.ahdubai.com/health-packages/maternity-packages/normal-delivery-package"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:ahd-normal-delivery",
+   "tier": "cited",
+   "note": "the package page prices the epidural, the twin surcharge, the medication and consumable caps, the vaccines and the companion bed, and prints no package price"
+  },
+  {
+   "tag": "chain",
+   "source": "s:ahd-about",
+   "tier": "cited",
+   "note": "seven satellite clinics in Dubai Media City, Al Barsha, Al Khawaneej, Jumeirah, Mira, Dubai Hills and Nad Al Sheba, plus a Dubai Science Park hospital"
+  },
+  {
+   "tag": "insurer-direct",
+   "source": "s:ahd-normal-delivery",
+   "tier": "cited",
+   "note": "the package page states pre-authorisation from the insurance company, third-party administrator or corporate payer is required"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:ahd-about",
+   "tier": "cited",
+   "note": "the site carries a standing international patients offer"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:ahd-about",
+   "tier": "cited",
+   "note": "the hospital publishes in Arabic and English"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation — the first hospital in the Middle East to be awarded it",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ahd-about",
+   "url": "https://www.ahdubai.com/about-us",
+   "note": "the hospital's own statement; no year appears on the page"
+  },
+  {
+   "by": "moh-ae",
+   "what": "Licensed under the UAE health regulators; the site footer carries the licence number MOH#Z8IXYQHM-041025",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ahd-about",
+   "url": "https://www.ahdubai.com/about-us",
+   "note": "a licence, not an accreditation: the emirate-level permission a facility operates under"
+  },
+  {
+   "by": "other",
+   "what": "College of American Pathologists laboratory accreditation, stated as the first in the region's private sector; American Institute of Ultrasound in Medicine practice accreditation in abdomen and breast; inaugural membership of the Mayo Clinic Care Network; an American Heart Association international training centre",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ahd-about",
+   "url": "https://www.ahdubai.com/about-us",
+   "note": "four American bodies outside this project's recognizer vocabulary, named as the hospital names them and none of them dated"
+  }
+ ],
+ "kin": [
+  {
+   "to": "dubai",
+   "as": "The hospital the emirate's private sector dates its American standards from, in Oud Metha rather than in Dubai Healthcare City.",
+   "rel": "place"
+  },
+  {
+   "to": "uae",
+   "as": "The first hospital in the region to take the JCI, in a country that is a source market and a destination at once.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "as": "Its accreditor, and the first award the body made in the Middle East.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Its maternity package prices every exclusion and none of the inclusions, which is the whole lesson of that page in one document.",
+   "rel": "step"
+  },
+  {
+   "to": "the-deposit",
+   "as": "The self-pay patient pays the entire package price in advance at sign-up, in the hospital's own words.",
+   "rel": "step"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "as": "Operates under the emirate licensing regime whose number sits in its own footer.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, and shows what a bundle looks like when the bundle is fixed and the bill is not.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Dubai counted 691,000 international health travellers in 2023, and this hospital counts none of its own in public.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "American Hospital Dubai",
+   "url": "https://www.ahdubai.com/"
+  },
+  {
+   "label": "Normal Delivery Package",
+   "url": "https://www.ahdubai.com/health-packages/maternity-packages/normal-delivery-package"
+  }
+ ],
+ "sources": [
+  "s:ahd-about",
+  "s:ahd-normal-delivery",
+  "s:dubai-media-office-health-2023",
+  "s:dha-sheryan",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ahd-about",
+    "note": "the middle paragraph is marked as this project's inference in the prose"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:ahd-about"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the street as OpenStreetMap carries it, not an address the hospital published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:American Hospital Dubai.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "A 254-bed private acute general medical and surgical hospital in Dubai, established in 1996 by the Mohamed & Obaid Al Mulla Group, working in more than 40 specialties with seven satellite clinics across the emirate.",
+ "region_terms": [
+  {
+   "key": "gulf",
+   "name": "The Gulf",
+   "note": "the UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain — a source market that is building itself into a destination"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The hospital the emirate's private sector dates its American standards from, in Oud Metha rather than in Dubai Healthcare City.",
+   "rel": "place"
+  },
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "The first hospital in the region to take the JCI, in a country that is a source market and a destination at once.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Its accreditor, and the first award the body made in the Middle East.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Its maternity package prices every exclusion and none of the inclusions, which is the whole lesson of that page in one document.",
+   "rel": "step"
+  },
+  {
+   "to": "the-deposit",
+   "type": "pathway",
+   "name": "The deposit",
+   "as": "The self-pay patient pays the entire package price in advance at sign-up, in the hospital's own words.",
+   "rel": "step"
+  },
+  {
+   "to": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "Operates under the emirate licensing regime whose number sits in its own footer.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, and shows what a bundle looks like when the bundle is fixed and the bill is not.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Dubai counted 691,000 international health travellers in 2023, and this hospital counts none of its own in public.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ahd-about",
+   "kind": "web",
+   "title": "Who We Are — American Hospital Dubai",
+   "publisher": "American Hospital Dubai",
+   "url": "https://www.ahdubai.com/about-us",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. Established 1996, part of the Mohamed & Obaid Al Mulla Group; 254 beds, acute general medical and surgical, more than 40 specialties, all physicians American board certified or equivalent; states it is the first hospital in the Middle East awarded the JCI and that its laboratory was the first in the region's private sector accredited by the College of American Pathologists; inaugural member of the Mayo Clinic Care Network; seven satellite clinics. The page footer carries the licence number MOH#Z8IXYQHM-041025."
+  },
+  {
+   "id": "s:ahd-normal-delivery",
+   "kind": "web",
+   "title": "Normal Delivery Package",
+   "publisher": "American Hospital Dubai",
+   "url": "https://www.ahdubai.com/health-packages/maternity-packages/normal-delivery-package",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The package page prints a full inclusion and exclusion list with no headline figure, and prices the exclusions instead: epidural anaesthesia Dhs 3,770, twin surcharge Dhs 2,050, routine medications capped at Dhs 450 and consumables at Dhs 1,500, baby vaccines about Dhs 300, a relative staying overnight Dhs 193 a day. It states the self-pay patient pays the entire package price in advance at sign-up, that a switch from normal delivery to caesarean is charged at the caesarean price, and that NICU, resuscitation and circumcision fall outside."
+  },
+  {
+   "id": "s:dubai-media-office-health-2023",
+   "kind": "gov",
+   "title": "Dubai welcomes more than 691,000 international health travellers in 2023",
+   "publisher": "Dubai Media Office, Government of Dubai",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k",
+   "accessed": "2026-09-16",
+   "note": "Dubai Health Authority figures released 19 August 2024; gives arrivals, spend, regional split and the leading specialties. The release does not publish the counting rule behind the headline number."
+  },
+  {
+   "id": "s:dha-sheryan",
+   "kind": "web",
+   "title": "Sheryan — Dubai Health Licensing System, public search",
+   "publisher": "Dubai Health Authority",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/public-search",
+   "accessed": "2026-09-16",
+   "note": "public search across Facilities, Professionals and the Dubai Medical Registry"
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ahd-about",
+   "note": "the middle paragraph is marked as this project's inference in the prose"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim",
+   "note": "the street as OpenStreetMap carries it, not an address the hospital published"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:ahd-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:ahd-normal-delivery",
+   "note": "maternity packages with written inclusion and exclusion lists; the exclusions carry figures and the package does not",
+   "tier": "cited",
+   "url": "https://www.ahdubai.com/health-packages/maternity-packages/normal-delivery-package"
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:ahd-normal-delivery",
+   "note": "the package page prices the epidural, the twin surcharge, the medication and consumable caps, the vaccines and the companion bed, and prints no package price",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:ahd-about",
+   "note": "seven satellite clinics in Dubai Media City, Al Barsha, Al Khawaneej, Jumeirah, Mira, Dubai Hills and Nad Al Sheba, plus a Dubai Science Park hospital",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "insurer-direct",
+   "label": "Bills foreign insurers",
+   "icon": "📄",
+   "group": "money",
+   "evidence": "the facility names the insurers or schemes it bills directly",
+   "source": "s:ahd-normal-delivery",
+   "note": "the package page states pre-authorisation from the insurance company, third-party administrator or corporate payer is required",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:ahd-about",
+   "note": "the site carries a standing international patients offer",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:ahd-about",
+   "note": "the hospital publishes in Arabic and English",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation — the first hospital in the Middle East to be awarded it",
+   "url": "https://www.ahdubai.com/about-us",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ahd-about"
+  },
+  {
+   "key": "moh-ae",
+   "label": "UAE health regulators (DHA, DoH, MOHAP)",
+   "what": "Licensed under the UAE health regulators; the site footer carries the licence number MOH#Z8IXYQHM-041025",
+   "url": "https://www.ahdubai.com/about-us",
+   "kind": "regulator",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ahd-about"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "College of American Pathologists laboratory accreditation, stated as the first in the region's private sector; American Institute of Ultrasound in Medicine practice accreditation in abdomen and breast; inaugural membership of the Mayo Clinic Care Network; an American Heart Association international training centre",
+   "url": "https://www.ahdubai.com/about-us",
+   "kind": "other",
+   "year": null,
+   "valid_until": null,
+   "source": "s:ahd-about"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "One of the private hospitals the inbound trade is built around.",
+   "rel": "part"
+  },
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "One of the city's large private hospitals, and a destination behind a share of the arrivals described here.",
+   "rel": "part"
+  },
+  {
+   "from": "uae-clinic-licensing",
+   "type": "rule",
+   "name": "Licensing a clinic in the United Arab Emirates",
+   "as": "A licensed hospital in the emirate.",
+   "rel": "facility"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "One of the private hospitals trading under this licence.",
+   "rel": "facility"
+  }
+ ]
+}

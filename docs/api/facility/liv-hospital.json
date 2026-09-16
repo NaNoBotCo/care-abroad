@@ -1,0 +1,507 @@
+{
+ "schema": 1,
+ "id": "liv-hospital",
+ "type": "facility",
+ "names": {
+  "name": "Liv Hospital",
+  "aliases": [
+   "Liv Hospital Ulus",
+   "Liv Hastanesi"
+  ],
+  "said": "Liv, said as the English word live. The brand was built for patients arriving from abroad; the flagship is the Ulus campus above the Bosphorus in Beşiktaş, and the group's other buildings carry the same name with a district after it."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "ownership": "private",
+  "founded": 2013,
+  "specialty": [
+   "oncology",
+   "orthopaedics",
+   "cardiac surgery",
+   "transplantation",
+   "health screening",
+   "fertility"
+  ],
+  "draws": [
+   "executive-health-screening",
+   "knee-replacement",
+   "kidney-transplant",
+   "gastric-sleeve",
+   "ivf"
+  ],
+  "status": "open",
+  "languages": [
+   "Turkish",
+   "English",
+   "Arabic",
+   "Russian"
+  ]
+ },
+ "text": {
+  "what": "A Turkish private hospital brand with more than twenty locations, whose flagship is the Ulus campus in Beşiktaş, Istanbul. It is one of the few hospitals in this directory that prints prices: fifteen screening packages in US dollars sit on its own international site, each with its test counts and a starting figure. This record is the brand and pins Ulus.",
+  "story": "Liv was assembled as an export brand. Its public site is in English before it is in Turkish, its call centre answers around the clock, and its statistics block leads with doctors, patients and locations rather than with beds: 723 or more doctors, more than a million patients, more than twenty locations.\n\n*Inference —* the absence of a bed count from a hospital group's own front page is itself a choice. Beds are the number a ministry counts; doctors and locations are the numbers a buyer counts.\n\nOn accreditation the site names Joint Commission International without a year, ISO certification, the Türkiye international health tourism authorisation, an authorisation from the Ministry of Culture and Tourism, and a four-star rating from a hospital rating scheme. Four of those five are a licence or a purchase rather than an inspection of care, and this project counts them without weighting them.\n\nWhat separates Liv from every other Turkish group in this batch is the screening page. Acıbadem heads a page \"check-up packages and prices\" and prints no price. Liv prints fifteen.",
+  "how": "Screening is sold the way an airline sells fares: a grid of named packages, each with a count of examinations, radiology, cardiology and laboratory tests, and a starting price per person in dollars. LIV STANDARD MEN begins at 600 dollars for three examinations, three imaging tests, one cardiology test and eleven laboratory tests. LIV GOLD CANCER SCREENING FOR MEN begins at 3,200 for seven examinations, four endoscopic and pathology studies, five imaging tests, three cardiology examinations and forty-five laboratory tests. The page states the price includes the medical reports.\n\nEvery figure is a starting price — the word on the page is from — which is a quotation floor and not a bill. Surgery is not priced anywhere on the site.",
+  "today": "As of 17 September 2026 the international site states 723 or more doctors, more than a million patients, more than twenty locations, and fifteen screening packages priced from 590 to 3,200 US dollars. No bed count, no foreign patient count and no surgical price is published."
+ },
+ "geo": {
+  "lat": 41.060889,
+  "lon": 29.028479,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Canan Sokağı, Ulus Mahallesi, Beşiktaş",
+  "city": "Istanbul",
+  "country": "TR",
+  "postcode": "34340"
+ },
+ "metrics": {
+  "beds": null,
+  "doctors": 723,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "GROUP figures from the group's own front page: 723+ doctors and 1M+ patients across more than twenty locations. The patient figure carries no period — it is not stated as annual, and it is not stated as people rather than visits — so it is left out of annual_patients rather than guessed at. No bed count is published anywhere on the site.",
+  "as_of": "2026",
+  "source": "s:liv-int-home",
+  "url": "https://int.livhospital.com/"
+ },
+ "tags": [
+  {
+   "tag": "price-published",
+   "source": "s:liv-checkup",
+   "tier": "cited",
+   "note": "fifteen screening packages priced in US dollars on the hospital's own international site, each with its test counts",
+   "url": "https://int.livhospital.com/full-body-checkup/"
+  },
+  {
+   "tag": "package",
+   "source": "s:liv-checkup",
+   "tier": "cited",
+   "note": "the screening packages are bundles; every figure is a starting price"
+  },
+  {
+   "tag": "chain",
+   "source": "s:liv-int-home",
+   "tier": "cited",
+   "note": "more than twenty locations, named as Ulus, Vadistanbul, Ankara, Gaziantep, Bona Dea and Istinye University Bahçeşehir Liv"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:liv-int-home",
+   "tier": "cited",
+   "note": "an English-first international site and a call centre stated as open around the clock"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:liv-int-home",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation, named on the group's international site",
+   "year": null,
+   "valid_until": null,
+   "source": "s:liv-int-home",
+   "url": "https://int.livhospital.com/",
+   "note": "no year is given and no campus is named against it; a group site naming JCI does not say which building holds it"
+  },
+  {
+   "by": "moh-tr",
+   "what": "Türkiye international health tourism authorisation, and a separate Ministry of Culture and Tourism authorisation",
+   "year": null,
+   "valid_until": null,
+   "source": "s:liv-int-home",
+   "url": "https://int.livhospital.com/",
+   "note": "the health tourism certificate is compulsory for a Turkish facility treating foreign patients; the tourism ministry authorisation is a separate document"
+  },
+  {
+   "by": "other",
+   "what": "A four-star Global Hospital Rating, and ISO quality certification",
+   "year": null,
+   "valid_until": null,
+   "source": "s:liv-int-home",
+   "url": "https://int.livhospital.com/",
+   "note": "a rating scheme and a management standard, neither an inspection of clinical care; counted, not weighted"
+  }
+ ],
+ "prices": [
+  {
+   "procedure": "executive-health-screening",
+   "country": "TR",
+   "city": "Istanbul",
+   "facility": "liv-hospital",
+   "amount": 600,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "3 examinations",
+    "3 radiological imaging studies",
+    "1 cardiology test",
+    "blood fat profile",
+    "hepatitis and infectious disease screening",
+    "2 haematology tests",
+    "1 hormone test",
+    "medical reports"
+   ],
+   "excludes": [
+    "anything the page does not list — the package is defined by its test counts, and no exclusion list is printed"
+   ],
+   "source": "s:liv-checkup",
+   "url": "https://int.livhospital.com/full-body-checkup/",
+   "note": "LIV STANDARD MEN, the entry tier, stated as starting at 600 US dollars per person and read off the hospital's own page on 17 September 2026. LIV STANDARD WOMEN starts at 590. The word on the page is from, so this is a floor and not a bill.",
+   "tier": "cited",
+   "usd": 600.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "executive-health-screening",
+   "country": "TR",
+   "city": "Istanbul",
+   "facility": "liv-hospital",
+   "amount": 590,
+   "amount_high": 3200,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": [
+    "the fifteen packages the page lists, from LIV STANDARD WOMEN to LIV GOLD CANCER SCREENING",
+    "medical reports"
+   ],
+   "excludes": [
+    "surgery of any kind, which the site does not price",
+    "anything outside the named test counts"
+   ],
+   "source": "s:liv-checkup",
+   "url": "https://int.livhospital.com/full-body-checkup/",
+   "note": "The whole published range on one page on 17 September 2026: LIV STANDARD WOMEN from 590 US dollars at the bottom, LIV GOLD CANCER SCREENING for either sex from 3,200 at the top, with LIV ONLINE at 980 to 1,300, LIV SHAPE heart programmes at 1,470 and 2,240 and LIV SILVER cancer screening at 2,300 in between. Every one is a starting price.",
+   "tier": "cited",
+   "usd": 590.0,
+   "usd_high": 3200.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "istanbul",
+   "as": "Its flagship stands at Ulus in Beşiktaş, above the Bosphorus.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "The Turkish group that prints its screening prices where the others print a contact form.",
+   "rel": "destination"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "Sold here in fifteen graded packages with published starting prices, which is rare enough in this directory to be the reason the record exists.",
+   "rel": "performs"
+  },
+  {
+   "to": "acibadem",
+   "as": "The larger Turkish group, whose page headed packages and prices carries none.",
+   "rel": "contrast"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, and states what each package contains by test count rather than by name.",
+   "rel": "term"
+  },
+  {
+   "to": "jci",
+   "as": "Named on its site as its accreditor, without a year or a campus.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "Holds the certificate, and a separate tourism ministry authorisation alongside it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "A published starting price is where a quotation begins, not where it ends.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Fifteen prices, every one of them prefixed with the word from.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Liv Hospital (international)",
+   "url": "https://int.livhospital.com/"
+  },
+  {
+   "label": "Check-Up Packages",
+   "url": "https://int.livhospital.com/full-body-checkup/"
+  }
+ ],
+ "sources": [
+  "s:liv-int-home",
+  "s:liv-checkup",
+  "s:osm-nominatim",
+  "s:acibadem-checkup-packages"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:liv-int-home",
+    "note": "the middle paragraph is marked as this project's inference in the prose"
+   }
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A Turkish private hospital brand with more than twenty locations, whose flagship is the Ulus campus in Beşiktaş, Istanbul.",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "Its flagship stands at Ulus in Beşiktaş, above the Bosphorus.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The Turkish group that prints its screening prices where the others print a contact form.",
+   "rel": "destination"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Sold here in fifteen graded packages with published starting prices, which is rare enough in this directory to be the reason the record exists.",
+   "rel": "performs"
+  },
+  {
+   "to": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The larger Turkish group, whose page headed packages and prices carries none.",
+   "rel": "contrast"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, and states what each package contains by test count rather than by name.",
+   "rel": "term"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Named on its site as its accreditor, without a year or a campus.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "Holds the certificate, and a separate tourism ministry authorisation alongside it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "A published starting price is where a quotation begins, not where it ends.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Fifteen prices, every one of them prefixed with the word from.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:liv-int-home",
+   "kind": "web",
+   "title": "Liv Hospital — international site",
+   "publisher": "Liv Hospital, Istanbul",
+   "url": "https://int.livhospital.com/",
+   "accessed": "2026-09-17",
+   "note": "the group's own counters read on 17 September 2026: 723+ doctors, 1M+ patients, 20+ locations. Names Liv Hospital Ulus, Vadistanbul, Ankara, Gaziantep, Bona Dea and Istinye University Bahçeşehir Liv. Lists JCI accreditation with no year, ISO certification, the Türkiye international health tourism authorisation, a Ministry of Culture and Tourism authorisation and a four-star Global Hospital Rating."
+  },
+  {
+   "id": "s:liv-checkup",
+   "kind": "web",
+   "title": "Check-Up Packages — Complete Health Screening Services",
+   "publisher": "Liv Hospital (MLP Care), Istanbul",
+   "url": "https://int.livhospital.com/full-body-checkup/",
+   "accessed": "2026-09-17",
+   "note": "fifteen screening packages priced in US dollars on the hospital's own international site and read there on 17 September 2026, each stated as a starting price per person and each listing its test counts by category. LIV STANDARD MEN from 600 USD and LIV STANDARD WOMEN from 590 USD are the entry tier; LIV GOLD CANCER SCREENING from 3,200 USD is the top. The page states the prices include medical reports."
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:acibadem-checkup-packages",
+   "kind": "web",
+   "title": "Check Up Paketleri ve Fiyatları 2026",
+   "publisher": "Acıbadem Sağlık Grubu",
+   "url": "https://www.acibadem.com.tr/check-up-paketleri/",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The page is titled check-up packages AND PRICES and lists the contents of each programme — examinations, radiology, laboratory and cardiology test counts — with a Fiyat Sor (ask the price) button in place of every figure. No amount is printed anywhere on it."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:liv-int-home",
+   "note": "the middle paragraph is marked as this project's inference in the prose"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:liv-checkup",
+   "note": "fifteen screening packages priced in US dollars on the hospital's own international site, each with its test counts",
+   "tier": "cited",
+   "url": "https://int.livhospital.com/full-body-checkup/"
+  },
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:liv-checkup",
+   "note": "the screening packages are bundles; every figure is a starting price",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:liv-int-home",
+   "note": "more than twenty locations, named as Ulus, Vadistanbul, Ankara, Gaziantep, Bona Dea and Istinye University Bahçeşehir Liv",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:liv-int-home",
+   "note": "an English-first international site and a call centre stated as open around the clock",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:liv-int-home",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation, named on the group's international site",
+   "url": "https://int.livhospital.com/",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:liv-int-home"
+  },
+  {
+   "key": "moh-tr",
+   "label": "Türkiye Ministry of Health health-tourism authorisation",
+   "what": "Türkiye international health tourism authorisation, and a separate Ministry of Culture and Tourism authorisation",
+   "url": "https://int.livhospital.com/",
+   "kind": "regulator",
+   "year": null,
+   "valid_until": null,
+   "source": "s:liv-int-home"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "A four-star Global Hospital Rating, and ISO quality certification",
+   "url": "https://int.livhospital.com/",
+   "kind": "other",
+   "year": null,
+   "valid_until": null,
+   "source": "s:liv-int-home"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": []
+}

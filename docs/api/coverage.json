@@ -1,0 +1,240 @@
+{
+ "built": "2026-09-17",
+ "scope": "People who leave their own country to be treated, and the machinery around them: the procedures, the hospitals, the prices, the rules, the accreditors and the risks. Inbound and outbound both — the countries people leave are half the subject.",
+ "records": {
+  "destination": 53,
+  "hub": 41,
+  "procedure": 58,
+  "facility": 35,
+  "pathway": 17,
+  "risk": 23,
+  "rule": 23,
+  "org": 28,
+  "person": 6,
+  "event": 8,
+  "term": 26,
+  "dataset": 13,
+  "story": 11
+ },
+ "countries_touched": 56,
+ "countries": [
+  "AE",
+  "AR",
+  "AU",
+  "BE",
+  "BR",
+  "CA",
+  "CH",
+  "CN",
+  "CO",
+  "CR",
+  "CU",
+  "CY",
+  "CZ",
+  "DE",
+  "DO",
+  "EG",
+  "ES",
+  "FR",
+  "GB",
+  "GE",
+  "GR",
+  "HR",
+  "HU",
+  "ID",
+  "IE",
+  "IL",
+  "IN",
+  "IR",
+  "JO",
+  "JP",
+  "KE",
+  "KR",
+  "LK",
+  "LT",
+  "LU",
+  "MA",
+  "MX",
+  "MY",
+  "NG",
+  "NO",
+  "NP",
+  "PA",
+  "PH",
+  "PL",
+  "PT",
+  "RO",
+  "SA",
+  "SG",
+  "TH",
+  "TN",
+  "TR",
+  "TW",
+  "US",
+  "VN",
+  "XN",
+  "ZA"
+ ],
+ "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json.",
+ "prices": {
+  "rows": 244,
+  "with_usd": 244,
+  "rate_date": "Wed, 16 Sep 2026",
+  "kinds": {
+   "estimate": 16,
+   "list": 68,
+   "package": 77,
+   "quoted-range": 48,
+   "reimbursement": 5,
+   "survey": 7,
+   "tariff": 23
+  },
+  "oldest": "2013",
+  "newest": "2026-09-17",
+  "reading_an_absence": "A procedure with no price here is one nobody has published a figure for where this project could read it. It is not a free procedure and not a rare one."
+ },
+ "legality": {
+  "rows": 151,
+  "subjects": 9,
+  "countries": 55,
+  "reading_an_absence": "A blank cell is 'nobody here has read that law', which is a fact about this project. Statutes change between a reading and a reader."
+ },
+ "facilities": {
+  "written_up": 35,
+  "harvested_from_osm": 17520,
+  "osm_fetched_at": "2026-09-17",
+  "hubs_queried": 29,
+  "reading_an_absence": "A hospital missing here is missing from OpenStreetMap on the fetch date, outside the radius queried, or not yet written up.",
+  "osm_query": "[out:json][timeout:240]; ( nwr[\"amenity\"=\"hospital\"][\"name\"](around:{r},{lat},{lon}); nwr[\"amenity\"=\"clinic\"][\"name\"](around:{r},{lat},{lon}); nwr[\"amenity\"=\"dentist\"][\"name\"](around:{r},{lat},{lon}); nwr[\"healthcare\"~\"^(hospital|clinic|centre|dentist|fertility_clinic|rehabilitation|laboratory)$\"][\"name\"](around:{r},{lat},{lon}); ); out center tags;"
+ },
+ "indicators": {
+  "spend_pc": {
+   "code": "SH.XPD.CHEX.PC.CD",
+   "unit": "current US$",
+   "countries": 193,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2024
+  },
+  "spend_gdp": {
+   "code": "SH.XPD.CHEX.GD.ZS",
+   "unit": "% of GDP",
+   "countries": 193,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2024
+  },
+  "oop": {
+   "code": "SH.XPD.OOPC.CH.ZS",
+   "unit": "% of current health expenditure",
+   "countries": 193,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2024
+  },
+  "doctors": {
+   "code": "SH.MED.PHYS.ZS",
+   "unit": "per 1,000 people",
+   "countries": 194,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2023
+  },
+  "nurses": {
+   "code": "SH.MED.NUMW.P3",
+   "unit": "per 1,000 people",
+   "countries": 198,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2023
+  },
+  "beds": {
+   "code": "SH.MED.BEDS.ZS",
+   "unit": "per 1,000 people",
+   "countries": 177,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2023
+  },
+  "life": {
+   "code": "SP.DYN.LE00.IN",
+   "unit": "years",
+   "countries": 217,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2024
+  },
+  "gdp_pc": {
+   "code": "NY.GDP.PCAP.CD",
+   "unit": "current US$",
+   "countries": 214,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2025
+  },
+  "population": {
+   "code": "SP.POP.TOTL",
+   "unit": "people",
+   "countries": 217,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2025
+  },
+  "arrivals": {
+   "code": "ST.INT.ARVL",
+   "unit": "people a year",
+   "countries": 199,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2020
+  },
+  "receipts": {
+   "code": "ST.INT.RCPT.CD",
+   "unit": "current US$",
+   "countries": 185,
+   "fetched_at": "2026-09-17",
+   "newest_year": 2020
+  }
+ },
+ "images": {
+  "count": 0,
+  "licences_accepted": [
+   "CC0",
+   "Public domain",
+   "CC BY",
+   "CC BY-SA",
+   "FAL"
+  ]
+ },
+ "tags": {
+  "international-office": 29,
+  "interpreter": 14,
+  "price-published": 10,
+  "no-price-published": 26,
+  "package": 9,
+  "insurer-direct": 4,
+  "public-hospital": 5,
+  "university-hospital": 8,
+  "chain": 22,
+  "listed-company": 8,
+  "transplant-programme": 10,
+  "paediatric": 2,
+  "teaching": 11,
+  "outcomes-published": 6,
+  "lgbtq-friendly": 0,
+  "women-only": 0,
+  "faith-based": 4,
+  "visa-support": 2,
+  "airport-transfer": 0,
+  "recovery-hotel": 2,
+  "complication-cover": 1,
+  "closed": 0
+ },
+ "recognitions": 70,
+ "sources": 785,
+ "not_yet": [
+  "field observations — no record carries the field tier",
+  "most of the world's hospitals; the written-up ones are a sample, not a census",
+  "outcome data per unit outside the few registries that publish it",
+  "complication and revision rates for work done abroad, which almost nobody counts",
+  "prices in most countries, because most hospitals publish none",
+  "photographs for most records"
+ ],
+ "tiers": {
+  "cited": "Cited — a named source, linked",
+  "harvested": "Harvested — fetched from an open dataset, with its licence",
+  "tradition": "Tradition — general knowledge of the tradition, hedged",
+  "inference": "Inference — this project's own reasoning from the above",
+  "field": "Field — someone stood there"
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "schema": 1,
+ "id": "isaps",
+ "type": "org",
+ "names": {
+  "name": "International Society of Aesthetic Plastic Surgery",
+  "aliases": [
+   "ISAPS"
+  ],
+  "said": "Every cosmetic-surgery count on this site that is not a hospital's own comes from the ISAPS survey. It is a survey of surgeons, extrapolated, and the report says so on page four."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "professional-society",
+  "iso2": "US",
+  "founded": 1970,
+  "status": "open"
+ },
+ "text": {
+  "what": "The international professional society for board-certified aesthetic plastic surgeons, founded in 1970 with its charter signed at the United Nations in New York, registered at 19 Morgan Drive, Lebanon, New Hampshire, and reporting more than 6,000 members in 117 countries. It runs the annual Global Survey on aesthetic and cosmetic procedures, which is the only worldwide count of cosmetic work that exists, and therefore the source of nearly every national cosmetic figure in this directory.",
+  "story": "The method is printed in the report, and reading it is the whole of the exercise.\n\nISAPS invited approximately 17,000 plastic surgeons from its own database to answer for 2024, and asked national societies to push their members towards it. \"Data from 2,975 plastic surgeons were submitted or provided for the 2024 statistics\" — up sharply from 1,600 respondents for 2023 — and 32 locations were reported individually, against 23 the year before. The society then projects: \"Final figures have been projected to reflect international statistics and are based exclusively on the estimated number of plastic surgeons actively practicing in each location and the respondent sample.\" The denominator in that sentence is itself partly modelled. The counts cover 98 per cent of an estimated 58,500 plastic surgeons worldwide, and where a national society gave no updated figure \"a simple regression model was used to estimate the number of plastic surgeons in that country based on its population size and Gross Domestic Product\". Outliers were adjusted to stop them distorting the averages the projections rest on, and the whole thing was compiled and tabulated by Industry Insights, Inc., an outside research firm in Columbus, Ohio.\n\n*Inference —* what that can support is a shape: which operations are common where, which way a national market is moving, roughly how large one country's aesthetic trade is against another's. What it cannot support is a count of operations. It cannot support a clean year-on-year comparison in a year when the response base nearly doubled — ISAPS says so itself, that the broader base \"has influenced some worldwide procedure totals\" and that new procedures on the form \"may affect comparability with totals of prior years\". And it cannot say anything at all about work done by someone who is not a board-certified plastic surgeon, which in the cosmetic trade sold across borders is a large share of it. No dentistry, no fertility, no orthopaedics, and no hair restoration performed by a technician.\n\nThe survey asks the travel question directly, and the answer is a pair of numbers rather than one. Surgeons report the share of their patients attending from other locations: worldwide the median was 5.0 per cent and the average 14.3 per cent for 2024. Colombia's surgeons reported a median of 20.0 per cent and an average of 30.0 per cent; Brazil's 5.0 and 8.2; the United States returned N/A, in the year it reported more aesthetic procedures than anywhere else. *Inference —* a median of 5 and an average of 14.3 in the same row is the signature of a trade where a handful of practices carry nearly all of the foreign patients and most practices see none.",
+  "how": "An annual questionnaire, issued in English, Spanish, Chinese and Japanese, asking how many of each listed surgical and non-surgical procedure the surgeon performed in the year, plus demographic questions and the share of patients travelling in. Responses are edited, outliers adjusted, and results published only for locations with enough responses to be considered statistically valid. The report is a free PDF with worldwide rankings and per-location tables; ISAPS asks to be credited wherever the figures are quoted.",
+  "today": "As of 17 September 2026 the published year is 2024 and the survey covering 2025 is closed and being analysed. For 2024 the society ranks eyelid surgery first worldwide at 2,115,360 procedures, liposuction second at 2,087,189, breast augmentation third at 1,658,615 and rhinoplasty fifth at 1,083,631. Botulinum toxin leads the non-surgical list at 7,887,955.",
+  "notes": "Every ISAPS figure on this site is a projection from a survey of board-certified plastic surgeons, and the phrase is carried with the number wherever it appears."
+ },
+ "geo": {
+  "lat": 43.6423,
+  "lon": -72.2518,
+  "precision": "city",
+  "source": "s:isaps-about"
+ },
+ "address": {
+  "street": "19 Morgan Drive",
+  "city": "Lebanon",
+  "area": "New Hampshire",
+  "country": "US"
+ },
+ "kin": [
+  {
+   "to": "liposuction",
+   "as": "Second on its worldwide surgical ranking for 2024, at 2,087,189 procedures.",
+   "rel": "procedure"
+  },
+  {
+   "to": "breast-augmentation",
+   "as": "Third on that ranking, and one of the operations its survey counts by country.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl",
+   "as": "The operation its members answered a mortality survey about, which is where this directory's death rate for it comes from.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl-mortality",
+   "as": "A risk measured the same way the counts are: by asking the society's own members.",
+   "rel": "risk"
+  },
+  {
+   "to": "colombia",
+   "as": "Where its respondents reported the highest share of patients attending from other locations, a median of 20 per cent.",
+   "rel": "place"
+  },
+  {
+   "to": "brazil",
+   "as": "The largest domestic aesthetic market in its 2024 count, and a small foreign share inside it.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "as": "One of the 32 locations reported individually for 2024.",
+   "rel": "place"
+  },
+  {
+   "to": "ishrs",
+   "as": "The other society that counts a cosmetic trade by surveying its own members, and complains about the rest of it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "What a projection from 2,975 questionnaires can and cannot be asked to carry.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Everything cosmetic done by someone who is not a board-certified plastic surgeon.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "ISAPS",
+   "url": "https://www.isaps.org/"
+  },
+  {
+   "label": "Global Survey 2024 (PDF)",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+  }
+ ],
+ "sources": [
+  "s:isaps-about",
+  "s:isaps-global-survey-2024"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:isaps-about"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:isaps-global-survey-2024",
+    "note": "every quoted sentence and every figure is read off the report's own method and ranking pages; the two paragraphs marked inference are this project's reading of what the method supports"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:isaps-about",
+    "note": "the registered office address is on the society's about page; city precision only"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-17",
+ "blurb": "The international professional society for board-certified aesthetic plastic surgeons, founded in 1970 with its charter signed at the United Nations in New York, registered at 19 Morgan Drive, Lebanon, New Hampshire…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "Second on its worldwide surgical ranking for 2024, at 2,087,189 procedures.",
+   "rel": "procedure"
+  },
+  {
+   "to": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "Third on that ranking, and one of the operations its survey counts by country.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "The operation its members answered a mortality survey about, which is where this directory's death rate for it comes from.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "A risk measured the same way the counts are: by asking the society's own members.",
+   "rel": "risk"
+  },
+  {
+   "to": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "Where its respondents reported the highest share of patients attending from other locations, a median of 20 per cent.",
+   "rel": "place"
+  },
+  {
+   "to": "brazil",
+   "type": "destination",
+   "name": "Brazil",
+   "as": "The largest domestic aesthetic market in its 2024 count, and a small foreign share inside it.",
+   "rel": "place"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "One of the 32 locations reported individually for 2024.",
+   "rel": "place"
+  },
+  {
+   "to": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The other society that counts a cosmetic trade by surveying its own members, and complains about the rest of it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "What a projection from 2,975 questionnaires can and cannot be asked to carry.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Everything cosmetic done by someone who is not a board-certified plastic surgeon.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:isaps-about",
+   "kind": "org",
+   "title": "About ISAPS",
+   "publisher": "International Society of Aesthetic Plastic Surgery",
+   "url": "https://www.isaps.org/discover/about-isaps/",
+   "accessed": "2026-09-16",
+   "note": "founded 1970 with the charter signed at the United Nations in New York; registered office at 19 Morgan Drive, Lebanon, New Hampshire; more than 6,000 members in 117 countries"
+  },
+  {
+   "id": "s:isaps-global-survey-2024",
+   "kind": "report",
+   "title": "ISAPS International Survey on Aesthetic/Cosmetic Procedures Performed in 2024",
+   "publisher": "International Society of Aesthetic Plastic Surgery, tabulated by Industry Insights Inc.",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:isaps-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024",
+   "note": "every quoted sentence and every figure is read off the report's own method and ranking pages; the two paragraphs marked inference are this project's reading of what the method supports"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:isaps-about",
+   "note": "the registered office address is on the society's about page; city precision only"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "argentina",
+   "type": "destination",
+   "name": "Argentina",
+   "as": "The society whose survey supplies the counts on this page.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "brazil",
+   "type": "destination",
+   "name": "Brazil",
+   "as": "The society whose survey supplies the counts on this page.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The society whose survey supplies every number on this page.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "panama",
+   "type": "destination",
+   "name": "Panama",
+   "as": "The society whose survey supplies every number on this page.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "One of the two societies whose members answered the mortality survey.",
+   "rel": "org"
+  },
+  {
+   "from": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "The society whose global survey counts this operation across countries.",
+   "rel": "org"
+  },
+  {
+   "from": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "One of the societies whose members made up the surveyed population.",
+   "rel": "org"
+  },
+  {
+   "from": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The other society counting a cosmetic trade by surveying its own members.",
+   "rel": "contrast"
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "id": "language-consent",
+ "names": {
+  "name": "Consent taken across a language barrier",
+  "aliases": [
+   "interpreted consent",
+   "language barrier consent",
+   "the form in the wrong language"
+  ],
+  "said": "The form is in the hospital's working language. The conversation is in whatever language the person interpreting happens to share."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "legal"
+ },
+ "text": {
+  "what": "A consent signed after a conversation conducted through a third person. Consent is two things at once: a clinical exchange about what the operation does, what it can do instead and what it cannot be undone from, and a signed instrument fixing what was disclosed and by whom. Both run through the interpreter. What that person was trained in, who pays them, and whether they sign anything are set by the hospital, the facilitator or nobody, and no cross-border rule fixes any of it.",
+  "story": "The published evidence is real, and all of it was gathered inside single national health systems.\n\nSchenker and colleagues matched 74 pairs of patients at a United States public teaching hospital that had on-site professional interpreters, for lumbar puncture, thoracentesis and paracentesis, between January 2004 and January 2006. Full documentation of informed consent was present for 53% of the English-speaking patients and for 28% of the patients with limited English proficiency, an adjusted odds ratio of 3.10 (95% CI 1.49-6.47, p=0.003). Only 41% of the limited-English charts held a consent form in the patient's own language or signed by an interpreter. The authors concluded that \"Despite the availability of on-site professional interpreter services, hospitalized patients who do not speak English are less likely to have documentation of informed consent for common invasive procedures.\"\n\nWho interprets moves the error rate. Flores and colleagues audiotaped 57 emergency department encounters with Spanish-speaking patients of limited English proficiency over 30 months in the two largest paediatric emergency departments in Massachusetts: 20 with professional interpreters, 27 with ad hoc interpreters, 10 with none. They counted 1,884 interpreter errors, 18% of them carrying potential clinical consequences. Split by arrangement, that was 12% for professional interpreters, 22% for ad hoc interpreters and 20% where nobody interpreted. Among the professionals, hours of training rather than years of experience tracked the count: a median of 12 errors for those with 100 hours of training or more, against 33 for those with fewer.\n\nBoth studies were run in institutions that employed interpreters and kept charts an auditor could pull. That is the point of quoting them here. The cross-border case is the one with no measurement: a patient who lands in a country whose working language they do not read, meets the operating surgeon and signs the form in the same week. No regulator, accreditor or research group publishes documentation rates, interpreter error rates, or a count of consent forms issued in the patient's own language, for patients treated abroad.\n\nOne state writes the interpreter into its licensing rules, and where it files them is the tell. Turkiye's Uluslararasi Saglik Turizmi ve Turistin Sagligi Hakkinda Yonetmelik, published in the Resmi Gazete on 13 July 2017, No. 30123, requires an authorised facility to run a unit coordinating \"kabul, kayit, teshis, tedavi, faturalandirma, taburculuk, tercumanlik\" - admission, registration, diagnosis, treatment, billing, discharge and interpreting - as one function (Article 6(1)). The unit employs at least two foreign-language speakers including its head, one of the languages being English (Article 6(3)), qualified at level B2 of the European language framework, at 65 out of 100 on the national language examination, or by a degree in translation and interpreting (Article 6(4)). Article 11(1)(b)(1) then requires the licensed intermediary to supply, free on request, an itemised breakdown of its charges for accommodation, transport and transfer, interpreting and consultancy. In the same instrument, interpreting is a coordinated function of the billing office and a billed line on a travel agency's invoice.",
+  "how": "Four arrangements sit behind the one word, and they are not the same thing.\n\nA salaried hospital interpreter is an employee of the facility, trained to its standard, rostered by it and answerable to it. An agency interpreter is a contractor booked by the hour, whose competence is the agency's representation and whose duty runs through a commercial contract the patient never sees. A facilitator's staff member is employed by the company that sold the package and paid on its arrangements, which puts the risk conversation inside the seller: Penney and colleagues, reviewing 17 Canadian broker websites in 2011, found discussion of surgical risk absent from 47% of them and limited on the rest. A relative is none of the above - no employer, no training standard, no record of what was said, and the ad hoc category Flores measured at 22% of errors carrying potential clinical consequences.\n\n*Inference -* liability follows the employment, and the patient does not pick the employer. Where the interpreter is the hospital's employee, a dispute about what was said is a dispute with the hospital, under the law of the country of treatment. Where the interpreter is an agency's or a facilitator's, the hospital's answer is that it engaged a competent third party, and the claimant is left looking for a contract between two companies, which is private. Where the interpreter is a relative, no third party was engaged at all, and the question becomes whether the clinician was entitled to rely on the translation. Turkiye's regulation puts the services a patient needs from admission to discharge on the facility whether or not it contracts them out (Article 5(4)); whether that reaches the content of an interpreted conversation is not a question this project has found decided anywhere.\n\nAccreditation settles none of it. An accreditor certifies that a hospital operates a process. It is not a party to a consent and not a forum for an argument about one.",
+  "today": "As of 17 September 2026 every published measurement of interpreted consent this project has found was taken inside a single national health system, the most-cited of them from a study that ended in 2006. For patients treated abroad, nobody publishes how often a consent form exists in the patient's own language, how often an interpreter signs it, or who employed the interpreter."
+ },
+ "metrics": {
+  "note": "From 74 matched pairs at one United States public teaching hospital with on-site professional interpreters, January 2004 to January 2006: full documentation of informed consent in 28% of patients with limited English proficiency against 53% of English-speaking patients, adjusted odds ratio 3.10 (95% CI 1.49-6.47); 41% of the limited-English charts held a form in the patient's own language or signed by an interpreter. Measured in one health system, in one city, for three bedside procedures. No equivalent figure exists for any patient treated across a border.",
+  "as_of": "2007",
+  "source": "s:schenker-consent-language",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078548/"
+ },
+ "kin": [
+  {
+   "to": "arrival-and-consent",
+   "as": "The step this risk sits inside: the examination and the signature, usually on the same day.",
+   "rel": "step"
+  },
+  {
+   "to": "informed-consent",
+   "as": "The word, and the doctrine behind the form being signed.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "What was consented to, in which language, is the first thing a claim turns on.",
+   "rel": "kin"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step at which the seller becomes the interpreter.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "as": "The company whose staff member often does the interpreting, and whose invoice it appears on.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The one regime this project has read that names interpreting and sets a language qualification for it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The other translation nobody in the transaction owns.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Where an unclear consent surfaces: a clinician at home reading a form nobody can translate.",
+   "rel": "kin"
+  },
+  {
+   "to": "jci",
+   "as": "Certifies that a hospital runs a process; it is not a party to a consent.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Schenker et al., J Gen Intern Med 2007;22(Suppl 2):294-9",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078548/"
+  },
+  {
+   "label": "Resmi Gazete, 13 July 2017, No. 30123 - the Turkish regulation",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm"
+  }
+ ],
+ "sources": [
+  "s:schenker-consent-language",
+  "s:flores-interpreter-errors-2012",
+  "s:penney-broker-consent-2011",
+  "s:rg-saglik-turizmi-2017"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:schenker-consent-language"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:rg-saglik-turizmi-2017",
+    "note": "the Turkish articles were read in Turkish off the Resmi Gazete page as published on 13 July 2017; amendments since that publication have not been checked"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "the four arrangements and where liability lands are this project reasoning from the cited studies and the one named regulation, marked inline. It is a description of a structure, not a reading of any court and not legal advice"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:schenker-consent-language"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-17",
+ "blurb": "A consent signed after a conversation conducted through a third person.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The step this risk sits inside: the examination and the signature, usually on the same day.",
+   "rel": "step"
+  },
+  {
+   "to": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "The word, and the doctrine behind the form being signed.",
+   "rel": "term"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "What was consented to, in which language, is the first thing a claim turns on.",
+   "rel": "kin"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "The step at which the seller becomes the interpreter.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The company whose staff member often does the interpreting, and whose invoice it appears on.",
+   "rel": "term"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The one regime this project has read that names interpreting and sets a language qualification for it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The other translation nobody in the transaction owns.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Where an unclear consent surfaces: a clinician at home reading a form nobody can translate.",
+   "rel": "kin"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Certifies that a hospital runs a process; it is not a party to a consent.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:schenker-consent-language",
+   "kind": "paper",
+   "title": "The impact of language barriers on documentation of informed consent at a hospital with on-site interpreter services",
+   "publisher": "Schenker Y, Wang F, Selig SJ, Ng R, Fernandez A. Journal of General Internal Medicine 2007;22(Suppl 2):294–9",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078548/",
+   "accessed": "2026-09-16",
+   "note": "74 matched pairs, lumbar puncture, thoracentesis and paracentesis, one US public teaching hospital, January 2004 to January 2006"
+  },
+  {
+   "id": "s:flores-interpreter-errors-2012",
+   "kind": "paper",
+   "title": "Errors of medical interpretation and their potential clinical consequences: a comparison of professional versus ad hoc versus no interpreters",
+   "publisher": "Flores G, Abreu M, Barone CP, Bachur R, Lin H. Annals of Emergency Medicine 2012;60(5):545-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22424655/",
+   "accessed": "2026-09-17",
+   "note": "57 audiotaped encounters over 30 months in the two largest paediatric emergency departments in Massachusetts, Spanish-speaking patients of limited English proficiency; 1,884 interpreter errors counted"
+  },
+  {
+   "id": "s:penney-broker-consent-2011",
+   "kind": "paper",
+   "title": "Risk communication and informed consent in the medical tourism industry: a thematic content analysis of Canadian broker websites",
+   "publisher": "BMC Medical Ethics 2011;12:17 (Penney K, Snyder J, Crooks VA, Johnston R)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21943392/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:schenker-consent-language"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:rg-saglik-turizmi-2017",
+   "note": "the Turkish articles were read in Turkish off the Resmi Gazete page as published on 13 July 2017; amendments since that publication have not been checked"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "the four arrangements and where liability lands are this project reasoning from the cited studies and the one named regulation, marked inline. It is a description of a structure, not a reading of any court and not legal advice"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:schenker-consent-language"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:schenker-consent-language"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The constraint that decides which Japanese hospitals can take a foreign patient at all.",
+   "rel": "risk"
+  },
+  {
+   "from": "monterrey",
+   "type": "hub",
+   "name": "Monterrey",
+   "as": "Answered here by policy — consent documents in English, interpreters on request — which is not the norm.",
+   "rel": "risk"
+  },
+  {
+   "from": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The risk this step runs on, with the published measurement of it.",
+   "rel": "risk"
+  },
+  {
+   "from": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "The same problem one step earlier: an opinion given in a language the patient does not read.",
+   "rel": "risk"
+  },
+  {
+   "from": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "What was consented to, in which language, is the first thing any such claim turns on.",
+   "rel": "kin"
+  },
+  {
+   "from": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "What a consent form gates when the statute does not.",
+   "rel": "risk"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "The consent form, in whichever language it was actually signed.",
+   "rel": "risk"
+  },
+  {
+   "from": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "Its stated answer to the language barrier is an interpreter at every appointment.",
+   "rel": "risk"
+  },
+  {
+   "from": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "The risk this doctrine runs into across a language barrier.",
+   "rel": "risk"
+  }
+ ]
+}

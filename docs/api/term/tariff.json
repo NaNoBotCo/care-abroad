@@ -1,0 +1,275 @@
+{
+ "id": "tariff",
+ "names": {
+  "name": "Tariff",
+  "aliases": [
+   "schedule fee",
+   "fee schedule",
+   "national tariff",
+   "reimbursement rate"
+  ],
+  "said": "Payers say tariff or schedule fee. Patients hear a price. The two are rarely the same number."
+ },
+ "etymology": {
+  "root": "Arabic taʿrīf, a notification or making known, and so an inventory of fees to be paid, verbal noun of ʿarafa, he made known, he taught. It travelled into Medieval Latin tarifa, \"list of prices, book of rates\", and Italian tariffa, and reached English in the 1590s meaning an arithmetical table and an official list of customs duties. The word has meant a published list of what things cost for four centuries before any health service used it.",
+  "first_attested": "1590s in English",
+  "tier": "cited",
+  "source": "s:etymonline-tariff",
+  "note": "A tariff is a schedule, not a bill. What a schedule pays and what a hospital charges are separate numbers that need not meet."
+ },
+ "text": {
+  "what": "A schedule of amounts set by a state or an insurer for named items of care. It fixes what the payer will pay, or refund, for each item. It does not fix what a provider may charge, and in most systems the gap between the two falls on the patient.",
+  "story": "Australia's Medicare Benefits Schedule shows the form at its plainest. Item 49318, total arthroplasty of hip, carries a schedule fee of A$1,577.30 as last updated on 1 July 2026, and the 75% benefit — what Medicare pays towards a private in-hospital service — is A$1,183.00. That fee prices the surgeon's work. It does not buy the hospital bed, the prosthesis, the anaesthetist or the assistant, and it is not what an Australian patient pays.\n\nA tariff can also be the instrument a state uses to send patients abroad. Ireland's Health Service Executive publishes a DRG guide for its cross-border schemes, so that a patient treated in another country is refunded against a case rate set at home rather than against the foreign invoice.\n\n*Inference —* that is why a tariff is the most misread number in this subject. It is neither a price nor a cost. It is one payer's statement of what it will part with, and a foreign hospital has never agreed to it.",
+  "how": "Three different things wear the word. A payment tariff is what a public system pays a provider per case. A reimbursement tariff is what a payer refunds a patient who paid somebody else. A published tariff at a hospital or a resort is a list price, which is the word's original sense and the one a reader is most likely to meet on a clinic's own page.\n\nThe word also moves. England ran a National Tariff, formerly branded Payment by Results; NHS England states that \"The NHS Payment Scheme replaced the national tariff from 1 April 2023\", under the Health and Care Act 2022, and that the scheme \"is a set of rules, prices and guidance that determine how providers of NHS-funded healthcare are paid for the services they provide\". Its own exclusions are published with it: it \"does not cover primary care (GPs, dentists and pharmacies) or public health services like vaccinations\", and \"some high cost drugs and devices are excluded from the calculation of unit prices and national prices\".",
+  "today": "As of 17 September 2026 every figure on this site carrying the price kind tariff names the schedule it came from and the date that schedule was set. A tariff row is never used here as evidence of what a procedure costs."
+ },
+ "kin": [
+  {
+   "to": "drg",
+   "as": "The case-based unit most modern hospital tariffs are built on.",
+   "rel": "term"
+  },
+  {
+   "to": "case-rate",
+   "as": "The same idea sold privately: one agreed amount for one episode.",
+   "rel": "term"
+  },
+  {
+   "to": "out-of-pocket",
+   "as": "What the gap between a tariff and a bill becomes.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "as": "The European scheme that refunds a patient at the home state's tariff, not the foreign one.",
+   "rel": "term"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The operation whose schedule fee this record reads.",
+   "rel": "procedure"
+  }
+ ],
+ "sources": [
+  "s:etymonline-tariff",
+  "s:mbs-49318",
+  "s:hse-cbd-niphs-drg-guide",
+  "s:nhs-payment-scheme",
+  "s:nhs-national-tariff"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "T"
+ },
+ "blurb": "A schedule of amounts set by a state or an insurer for named items of care. It fixes what the payer will pay, or refund, for each item.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The case-based unit most modern hospital tariffs are built on.",
+   "rel": "term"
+  },
+  {
+   "to": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The same idea sold privately: one agreed amount for one episode.",
+   "rel": "term"
+  },
+  {
+   "to": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "What the gap between a tariff and a bill becomes.",
+   "rel": "term"
+  },
+  {
+   "to": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The European scheme that refunds a patient at the home state's tariff, not the foreign one.",
+   "rel": "term"
+  },
+  {
+   "to": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The operation whose schedule fee this record reads.",
+   "rel": "procedure"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-tariff",
+   "kind": "dictionary",
+   "title": "tariff (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tariff",
+   "accessed": "2026-09-17",
+   "note": "1590s, from Italian tariffa and Arabic ta'rif"
+  },
+  {
+   "id": "s:mbs-49318",
+   "kind": "gov",
+   "title": "MBS item 49318 — total arthroplasty of hip",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=49318&qt=item",
+   "accessed": "2026-09-16",
+   "note": "schedule fee $1,577.30, fee last updated 01-Jul-2026"
+  },
+  {
+   "id": "s:hse-cbd-niphs-drg-guide",
+   "kind": "gov",
+   "title": "CBD / NIPHS Most Common Procedures DRG Guide",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "accessed": "2026-09-16",
+   "note": "the tariff behind both the Cross Border Directive scheme and the Northern Ireland Planned Healthcare Scheme. Cataract procedures map to DRG C16Z LENS INTERVENTIONS at a day-case price of EUR 1,171, covering phacoemulsification or other extraction of the crystalline lens and capsulotomy; colonoscopy G48B EUR 1,001; gastroscopy G47C EUR 726. Same figure as the HSE's 2024 activity-based-funding day-case price list."
+  },
+  {
+   "id": "s:nhs-payment-scheme",
+   "kind": "gov",
+   "title": "NHS Payment Scheme",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/pay-syst/nhs-payment-scheme/",
+   "accessed": "2026-09-17",
+   "note": "the 2026/27 scheme took effect 1 April 2026; the page carries the primary-care and high-cost-drug exclusions"
+  },
+  {
+   "id": "s:nhs-national-tariff",
+   "kind": "gov",
+   "title": "National tariff",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/pay-syst/national-tariff/",
+   "accessed": "2026-09-17",
+   "note": "states that the NHS Payment Scheme replaced the national tariff from 1 April 2023"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "What the Australian figure on this page is, and why it is not a bill.",
+   "rel": "term"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "What a schedule fee is, and why it cannot be read against a package price.",
+   "rel": "term"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "What the Irish and Australian figures on this page are, and why they are not bills.",
+   "rel": "term"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "What the Australian figure is, and why it is not a bill.",
+   "rel": "term"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "What the Australian schedule fee is, and why it is not a price a patient pays.",
+   "rel": "term"
+  },
+  {
+   "from": "shoulder-replacement",
+   "type": "procedure",
+   "name": "Total shoulder replacement",
+   "as": "What a schedule fee is, and what it does not buy.",
+   "rel": "term"
+  },
+  {
+   "from": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The schedule a case rate sits in.",
+   "rel": "term"
+  },
+  {
+   "from": "co-payment",
+   "type": "term",
+   "name": "Co-payment",
+   "as": "The schedule a co-payment is calculated against.",
+   "rel": "term"
+  },
+  {
+   "from": "drg",
+   "type": "term",
+   "name": "DRG",
+   "as": "The schedule a DRG is the unit of.",
+   "rel": "term"
+  },
+  {
+   "from": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "What a payer will refund, and the gap that becomes this.",
+   "rel": "term"
+  },
+  {
+   "from": "patient-mobility",
+   "type": "term",
+   "name": "Patient mobility",
+   "as": "The home-state schedule a reimbursement is capped at.",
+   "rel": "term"
+  }
+ ]
+}

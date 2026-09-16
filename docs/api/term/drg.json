@@ -1,0 +1,319 @@
+{
+ "id": "drg",
+ "names": {
+  "name": "DRG",
+  "aliases": [
+   "diagnosis-related group",
+   "diagnosis related group",
+   "case mix group",
+   "G-DRG",
+   "Fallpauschale"
+  ],
+  "said": "American hospitals say DRG. German ones say Fallpauschale, a flat rate per case. Irish patients travelling abroad are refunded against one and are rarely told the word."
+ },
+ "region": [
+  "global",
+  "north-america",
+  "europe-west"
+ ],
+ "etymology": {
+  "root": "Not a word with a root but a label with a date. Diagnosis is 1680s in English, medical Latin from Greek diagnosis, \"a discerning, distinguishing\", from diagignoskein, to know thoroughly or know apart. Related and group are ordinary English doing classification work. The scheme itself was published by Fetter, Shin, Freeman, Averill and Thompson as \"Case mix definition by diagnosis-related groups\" in Medical Care in February 1980, and the United States wrote it into statute three years later.",
+  "first_attested": "1980 for the published classification; 20 April 1983 for the statute",
+  "tier": "cited",
+  "source": "s:fetter-drg-1980",
+  "note": "A DRG turned a hospital bill from a list of items into one price per case. Everything the case did not need became profit, and everything it needed beyond the price became loss."
+ },
+ "text": {
+  "what": "A bucket. Every inpatient stay is sorted at discharge into one group by diagnosis, procedures and complications, each group carries a weight, and the weight times a base rate is what the hospital is paid — the same amount whether the stay ran short or long. It is the unit most national hospital tariffs in the world are now built from.",
+  "story": "The American statute is the moment the idea became money. The Social Security Amendments of 1983, Public Law 98-21, approved on 20 April 1983 at 97 Stat. 65, carries Title VI, \"Prospective Payments for Medicare\", and section 601 pays for inpatient hospital services on prospective rates. It did not switch over in a day: for discharges \"on or after October 1, 1983, and before October 1, 1984, the 'target percentage' is 75 percent and the 'DRG percentage' is 25 percent\", moving to half and half, then a quarter and three quarters, across three years.\n\nCMS states the mechanism in one line: \"Each DRG has a payment weight assigned to it, based on the average resources used to treat Medicare patients in that DRG\", with an extra payment for outlier cases \"designed to protect the hospital from large financial losses due to unusually expensive cases\".\n\nWhat the rate does not buy is written into the regulations. Physician services paid on a fee schedule are excluded from inpatient hospital services under 42 CFR 409.10(b)(3), so the doctor bills separately. Organ acquisition costs, nurse-anaesthetist costs and approved education costs are paid on a reasonable cost basis outside the rate under 42 CFR 412.2(e). Transfers are paid differently again under 42 CFR 412.4.\n\nGermany adopted the same machinery on a different schedule: section 17b of the Krankenhausfinanzierungsgesetz requires a flat-rate, performance-based payment system for general hospital services, applied voluntarily from 2003 and compulsorily for somatic hospitals from 2004.",
+  "how": "For a patient crossing a border the DRG is most often met as a refund. Ireland's Health Service Executive publishes a DRG guide for its cross-border schemes: I04B, knee replacement, is priced at 16,505 euro, \"Includes: Unilateral Knee Replacement with bone graft to Tibia / Fibula, Unilateral Patella Resurfacing. Excludes: Bilateral Knee Replacement, Revision of Knee Replacement\". The footnote states that the price is for an inlier stay — one falling between the published low and high boundaries — and that a stay above the high boundary earns a per-diem addition. The scheme itself \"does not cover other costs such as travel, accommodation or translation costs\", and the patient pays the foreign hospital first.",
+  "today": "As of 17 September 2026 a DRG on this site is always named as a payer's unit, never as a price a patient is charged. Where a state refunds a traveller against one, the record names the code, the amount and the date."
+ },
+ "kin": [
+  {
+   "to": "tariff",
+   "as": "The schedule a DRG is the unit of.",
+   "rel": "term"
+  },
+  {
+   "to": "case-rate",
+   "as": "The same idea unclassified: one negotiated price for one procedure, with no severity grouping.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bundled-payment",
+   "as": "What comes after the DRG, when the payer buys the whole episode instead of the admission.",
+   "rel": "descendant"
+  },
+  {
+   "to": "length-of-stay",
+   "as": "The number a case rate made expensive, and the reason stays shortened everywhere it arrived.",
+   "rel": "term"
+  },
+  {
+   "to": "germany",
+   "as": "Where a foreign self-payer is billed against this schedule with a surcharge.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route under which a European patient is refunded at a home-state DRG rather than the foreign invoice.",
+   "rel": "rule"
+  }
+ ],
+ "sources": [
+  "s:etymonline-diagnosis",
+  "s:fetter-drg-1980",
+  "s:pl-98-21-statute",
+  "s:cms-acute-inpatient-pps",
+  "s:cfr-409-10",
+  "s:cfr-412-2",
+  "s:cfr-412-4",
+  "s:khg-17b",
+  "s:bmg-fallpauschalen",
+  "s:hse-cbd-niphs-drg-guide",
+  "s:hse-niphs-claim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "D"
+ },
+ "blurb": "A bucket. Every inpatient stay is sorted at discharge into one group by diagnosis, procedures and complications, each group carries a weight, and the weight times a base rate is what the hospital is paid — the same…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "The schedule a DRG is the unit of.",
+   "rel": "term"
+  },
+  {
+   "to": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The same idea unclassified: one negotiated price for one procedure, with no severity grouping.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "What comes after the DRG, when the payer buys the whole episode instead of the admission.",
+   "rel": "descendant"
+  },
+  {
+   "to": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The number a case rate made expensive, and the reason stays shortened everywhere it arrived.",
+   "rel": "term"
+  },
+  {
+   "to": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "Where a foreign self-payer is billed against this schedule with a surcharge.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route under which a European patient is refunded at a home-state DRG rather than the foreign invoice.",
+   "rel": "rule"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-diagnosis",
+   "kind": "dictionary",
+   "title": "diagnosis (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/diagnosis",
+   "accessed": "2026-09-17",
+   "note": "1680s, from Greek diagnosis"
+  },
+  {
+   "id": "s:fetter-drg-1980",
+   "kind": "paper",
+   "title": "Case mix definition by diagnosis-related groups",
+   "publisher": "Fetter RB, Shin Y, Freeman JL, Averill RF, Thompson JD. Medical Care 1980 Feb;18(2 Suppl):iii, 1-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7188781/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 7188781); the Yale origin story of the late 1960s is widely repeated and was not confirmed against a primary source for this record"
+  },
+  {
+   "id": "s:pl-98-21-statute",
+   "kind": "statute",
+   "title": "Social Security Amendments of 1983, Public Law 98-21, 97 Stat. 65, approved 20 April 1983 — Title VI, Prospective Payments for Medicare, section 601",
+   "publisher": "United States Statutes at Large, via govinfo",
+   "url": "https://www.govinfo.gov/content/pkg/STATUTE-97/pdf/STATUTE-97-Pg65.pdf",
+   "accessed": "2026-09-17",
+   "note": "carries the three-year phase-in: 75 per cent target and 25 per cent DRG for discharges on or after 1 October 1983"
+  },
+  {
+   "id": "s:cms-acute-inpatient-pps",
+   "kind": "gov",
+   "title": "Acute Inpatient PPS",
+   "publisher": "US Centers for Medicare & Medicaid Services",
+   "url": "https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:cfr-409-10",
+   "kind": "statute",
+   "title": "42 CFR § 409.10 — Included services (inpatient hospital services)",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/409.10",
+   "accessed": "2026-09-17",
+   "note": "paragraph (b)(3) excludes physician services paid on a fee schedule basis"
+  },
+  {
+   "id": "s:cfr-412-2",
+   "kind": "statute",
+   "title": "42 CFR § 412.2 — Basis of payment",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/412.2",
+   "accessed": "2026-09-17",
+   "note": "paragraph (e) names the costs excluded from the prospective payment amounts and paid on a reasonable cost basis"
+  },
+  {
+   "id": "s:cfr-412-4",
+   "kind": "statute",
+   "title": "42 CFR § 412.4 — Discharges and transfers",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/412.4",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:khg-17b",
+   "kind": "statute",
+   "title": "Krankenhausfinanzierungsgesetz § 17b — Einführung eines pauschalierenden Entgeltsystems für DRG-Krankenhäuser",
+   "publisher": "Bundesministerium der Justiz, gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/khg/__17b.html",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:bmg-fallpauschalen",
+   "kind": "gov",
+   "title": "Fallpauschalen",
+   "publisher": "Bundesministerium für Gesundheit",
+   "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/f/fallpauschalen",
+   "accessed": "2026-09-17",
+   "note": "DRG billing voluntary for hospitals in 2003 and compulsory for somatic hospitals from 2004; convergence 2005-2009; a state-uniform base rate from 1 January 2010"
+  },
+  {
+   "id": "s:hse-cbd-niphs-drg-guide",
+   "kind": "gov",
+   "title": "CBD / NIPHS Most Common Procedures DRG Guide",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/CBD-NIPHS-Most-Common-Procedures-DRG-Guide.pdf",
+   "accessed": "2026-09-16",
+   "note": "the tariff behind both the Cross Border Directive scheme and the Northern Ireland Planned Healthcare Scheme. Cataract procedures map to DRG C16Z LENS INTERVENTIONS at a day-case price of EUR 1,171, covering phacoemulsification or other extraction of the crystalline lens and capsulotomy; colonoscopy G48B EUR 1,001; gastroscopy G47C EUR 726. Same figure as the HSE's 2024 activity-based-funding day-case price list."
+  },
+  {
+   "id": "s:hse-niphs-claim",
+   "kind": "gov",
+   "title": "Northern Ireland Planned Healthcare Scheme — how much you can claim",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://www2.hse.ie/services/schemes-allowances/niphs/how-much-you-can-claim/",
+   "accessed": "2026-09-16",
+   "note": "the HSE repays the lesser of what the patient paid in Northern Ireland and the price of the same care in the Irish public system, using diagnosis-related group codes; the maximum for an outpatient appointment is EUR 194 from 1 May 2023, EUR 178 for claims between 1 March 2021 and 30 April 2023. The patient pays first."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "The case-rate schedule a German hospital bills a foreign patient against.",
+   "rel": "term"
+  },
+  {
+   "from": "ireland",
+   "type": "destination",
+   "name": "Ireland",
+   "as": "The code that fixes what a patient gets back, and the reason a quote abroad has to be read against a category rather than a bill.",
+   "rel": "term"
+  },
+  {
+   "from": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "The unit bundles were built on top of, and the admission they extend past.",
+   "rel": "origin"
+  },
+  {
+   "from": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The classified version, with several hundred groups and weights behind it.",
+   "rel": "descendant"
+  },
+  {
+   "from": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The payment unit that made short stays profitable and long ones a loss.",
+   "rel": "term"
+  },
+  {
+   "from": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "The case-based unit most modern hospital tariffs are built on.",
+   "rel": "term"
+  }
+ ]
+}

@@ -1,0 +1,391 @@
+{
+ "schema": 1,
+ "id": "how-this-was-built",
+ "type": "story",
+ "names": {
+  "name": "How this was built",
+  "aliases": [
+   "the method",
+   "rebuilding this directory"
+  ],
+  "said": "One JSON file per thing, every field carrying where it came from, and a validator that refuses a price with no date."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "method"
+ },
+ "text": {
+  "what": "The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files could build the same thing and check this one. Nothing on this site is medical advice or legal advice, and the rules below are most of the reason it is not.",
+  "story": "The unit is a record, not a page. One JSON file sits at data/nodes/<type>/<id>.json, the id is the filename, and thirteen types carry the whole subject: a country as a place people are treated in or leave, a city cluster, a procedure, a named hospital or clinic, one step of the journey, a risk, a rule, an organisation, a person, an event, a word, a dataset, and a longer piece of writing like this one. A schema at schema/node.schema.json states what a record must look like, and tools/validate.py runs it before anything is built: identifier against filename, type against folder, every kin target resolving, every source identifier existing, every country code ISO 3166-1 alpha-2, every price carrying a currency and a date and a source, every legality row carrying an instrument date and a source, every image licence on a free-to-use allowlist, and every provenance path pointing at a field the record actually has.\n\nProvenance is the point of the project, so it sits on the record and on individual fields. Five tiers: cited, where a named source backs it; harvested, where a tool fetched it from an open dataset; tradition, which is how the trade works and is hedged in the prose; inference, which is this project reasoning from the above and says so; and field, meaning somebody stood there — nothing on this site carries it yet. A record declares a default and overrides per dotted field path, and the prose marks each stretch inline, so that plain prose is cited and the reasoning is labelled where it happens rather than in a footnote. Records also carry a confidence of high, medium or low and a needs_verification flag: of 330 records on disk, 175 are high, 129 medium and 26 low, and 160 are flagged for verification.\n\nKin is the spine and it is directional. Each entry says, in one sentence, what another node is to this one, written from here — not see also. The other record answers in its own words from its own page, so a pair of records produces two different sentences about the same relationship. There are 2,742 such edges across the 330 records, and a rich record carries five to twelve of them.\n\nA price is a number somebody published, read off their own page. Not a quote a patient was given, not an average this project computed, not a range with no source: the schema has no field for an average, and the validator rejects a price with no date or no source outright. Each row carries the currency it was billed in, the date it was published or read, one of seven kinds — a provider's package, a single list price, a state tariff, an insurer's reimbursement, a published survey figure, a published estimate with its method named, or an advertised range — and the seller's own inclusion list and exclusion list in the seller's own words. Dollar figures are the row's own currency put through one table of mid-market rates whose date is printed on the page, because a 2019 lira price converted at a 2026 rate is not what that patient paid, and both dates sit on the row so the gap is visible. The price chart uses a logarithmic axis, because the published prices for one operation run over two orders of magnitude.\n\nA legality row is one reading of one named instrument, in one jurisdiction, on one date. Six statuses: lawful, lawful with conditions, residents only, prohibited, unregulated, and not read by this project — which is hatched on the grid and is a statement about this directory rather than about the country. Law moves between the reading and the reader, so every cell carries the date it was read, and a stale row is a wrong row rather than an old one. Nothing on the site says what a reader should do about any of it.\n\nFour harvests supply the charts, and each keeps its licence. Eleven World Bank series, one request each, CC BY 4.0, most recent non-null year per country with the year stored beside the value and the Bank's own regional and income aggregates dropped because their codes are not country codes. Every named hospital, clinic and dental surgery within a set radius of each hub, fetched through the OpenStreetMap Overpass API under ODbL 1.0 with attribution to OpenStreetMap contributors. Country outlines from Natural Earth, public domain in the publisher's own words: \"No permission is needed to use Natural Earth.\" And one dated exchange-rate table from an open endpoint whose terms require attribution and forbid redistribution. The WHO repository is used under terms allowing non-commercial reuse with attribution. Every fetch date is stored in the file it produced.\n\nEvery map is drawn in Equal Earth, the equal-area pseudocylindrical projection published by Bojan Šavrič, Tom Patterson and Bernhard Jenny in 2018, implemented directly in tools/worldmap.py. *Inference —* the reason is specific to this subject. Most of these maps colour countries by a rate, and on Mercator the high northern latitudes swell to several times their true area — which is exactly where the patients come from rather than where they go, so the commonest projection would inflate the wrong end of every map on the site. On Equal Earth a square kilometre takes the same ink anywhere. What it trades away is shape: high latitudes are stretched east-west and squashed north-south, which is the price every equal-area projection pays, and Antarctica is cropped because nobody in this directory flies there. Distances elsewhere are great-circle kilometres on a 6,371-kilometre sphere, and the flying times printed beside them are that distance at 850 km/h plus 45 minutes — arithmetic rather than a timetable, and the page says so where it prints one.\n\nThe editorial rules are enforced by the same validator, as hard errors, and both lists are escapable the same way: put the words in quotation marks and name who said them. The first list is the fleet's, and the sixth entry on it is the field's own name for itself — which is why this site writes medical travel and cross-border care throughout, and why the familiar two-word compound appears only inside a quotation, inside a proper name, or on the word's own page, where the argument over it is the subject. That list also bars an adjective meaning truthful, on the ground that prose claiming the quality rarely has it. The second list is what this subject attracts: the brochure adjectives, the savings claim with no date attached, and the second-person instruction. A directory that tells a reader what to do about their own hip has become a clinic, and this is not one. *Inference —* two further rules follow from the same place. A number nobody published stays null and prints on the page as a gap rather than a zero. And a university hospital and a back-street hair clinic are described in the same voice, under the same evidence rules, with the arguments around both reported and neither joined.",
+  "how": "The pipeline runs in order from the repository root. python3 tools/validate.py — every record must pass, and BUILD_DRAFT=1 downgrades unwritten kin targets to warnings while records are still being drafted, which is not a state to publish from. python3 tools/build.py assembles records and harvests into build/api, the search tables, the price table, the legality grid and the country join. python3 tools/cards.py draws the share cards it is missing. python3 tools/site.py writes build/site — pages, maps, charts, search, JSON-LD, a sitemap, llms.txt, robots, and CSV and JSONL exports. python3 tools/serve.py serves it locally. The harvests refresh independently: harvest_worldbank.py, fetch_rates.py, fetch_geo.py and harvest_osm.py, each stamping its own fetch date into the file it writes. build/ is generated and safe to delete.",
+  "today": "As of 17 September 2026 this site holds 330 records — 58 procedures, 52 countries, 40 city clusters, 34 hospitals and clinics, 26 words, 23 rules, 23 risks, 22 organisations, 17 journey steps, 13 datasets, nine longer pieces, eight events and five people — drawing on 762 registered sources, carrying 214 published price rows across 21 countries and twelve currencies, 151 legality rows, 166 evidenced tags and 2,742 kin edges. Fourteen records carry a default provenance tier other than cited. No record carries the field tier, because nobody has stood anywhere yet."
+ },
+ "kin": [
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "The thirteen series this method draws on, and the sentence each of them cannot answer.",
+   "rel": "story"
+  },
+  {
+   "to": "natural-earth-countries",
+   "as": "The geometry every Equal Earth map is drawn from, and the codes that drop out of it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "exchange-rate-table",
+   "as": "The one dated rate table every dollar figure on the site passes through.",
+   "rel": "dataset"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that supplies the hub maps, under ODbL with attribution.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind the first world map, and the exemplar record this schema was written against.",
+   "rel": "dataset"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The price rule applied end to end to one operation.",
+   "rel": "story"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Why every price row carries the seller's own exclusion list.",
+   "rel": "story"
+  },
+  {
+   "to": "circumvention",
+   "as": "The law rule applied across six subjects, one named instrument at a time.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a headline volume figure is never carried here without its unit and its collector.",
+   "rel": "story"
+  },
+  {
+   "to": "the-word-itself",
+   "as": "The naming rule this method enforces, and where the argument over it is set out.",
+   "rel": "story"
+  },
+  {
+   "to": "package-price",
+   "as": "The form most prices here take, and the reason two of them cannot be subtracted.",
+   "rel": "term"
+  },
+  {
+   "to": "jci-accredited-list",
+   "as": "Counted and never weighted, which is a rule rather than a judgement about any hospital.",
+   "rel": "dataset"
+  }
+ ],
+ "links": [
+  {
+   "label": "Equal Earth projection",
+   "url": "https://doi.org/10.1080/13658816.2018.1504949"
+  },
+  {
+   "label": "Natural Earth terms of use",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  }
+ ],
+ "sources": [
+  "s:savric-equal-earth-2018",
+  "s:wp-equal-earth",
+  "s:natural-earth",
+  "s:natural-earth-terms",
+  "s:osm",
+  "s:odbl-1-0",
+  "s:worldbank-open-data",
+  "s:er-api",
+  "s:er-api-free-terms",
+  "s:who-gho",
+  "s:who-terms-of-use",
+  "s:cdc-yellowbook-2026-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "this record describes the repository it sits in; the projection, the licences and the terms of use are cited to their publishers"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "an account of this project's own method, with the projection paper and every licence cited"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counted over the records on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The record shape, the provenance tiers, the price rule, the law rule, the harvests and their licences, the map projection and the editorial rules — set out so that somebody with none of these files could build the same…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "The thirteen series this method draws on, and the sentence each of them cannot answer.",
+   "rel": "story"
+  },
+  {
+   "to": "natural-earth-countries",
+   "type": "dataset",
+   "name": "Natural Earth country outlines",
+   "as": "The geometry every Equal Earth map is drawn from, and the codes that drop out of it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "exchange-rate-table",
+   "type": "dataset",
+   "name": "The dated exchange rate table",
+   "as": "The one dated rate table every dollar figure on the site passes through.",
+   "rel": "dataset"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that supplies the hub maps, under ODbL with attribution.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series behind the first world map, and the exemplar record this schema was written against.",
+   "rel": "dataset"
+  },
+  {
+   "to": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "The price rule applied end to end to one operation.",
+   "rel": "story"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Why every price row carries the seller's own exclusion list.",
+   "rel": "story"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "The law rule applied across six subjects, one named instrument at a time.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a headline volume figure is never carried here without its unit and its collector.",
+   "rel": "story"
+  },
+  {
+   "to": "the-word-itself",
+   "type": "story",
+   "name": "The word itself",
+   "as": "The naming rule this method enforces, and where the argument over it is set out.",
+   "rel": "story"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The form most prices here take, and the reason two of them cannot be subtracted.",
+   "rel": "term"
+  },
+  {
+   "to": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "Counted and never weighted, which is a rule rather than a judgement about any hospital.",
+   "rel": "dataset"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:savric-equal-earth-2018",
+   "kind": "paper",
+   "title": "The Equal Earth map projection",
+   "publisher": "Savric B, Patterson T, Jenny B. International Journal of Geographical Information Science 2019;33(3):454-465, published online 7 August 2018, doi:10.1080/13658816.2018.1504949",
+   "url": "https://doi.org/10.1080/13658816.2018.1504949",
+   "accessed": "2026-09-17",
+   "note": "the publisher's page returned HTTP 403; the citation and the description of the projection as an equal-area pseudocylindrical world projection were read on the encyclopedia article registered as s:wp-equal-earth. The projection's coefficients are implemented in tools/worldmap.py."
+  },
+  {
+   "id": "s:wp-equal-earth",
+   "kind": "web",
+   "title": "Equal Earth projection",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Equal_Earth_projection",
+   "accessed": "2026-09-17",
+   "note": "used only for the citation and date of the projection paper, which could not be fetched from the publisher"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth-terms",
+   "kind": "web",
+   "title": "Terms of Use",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "license": "Public domain",
+   "accessed": "2026-09-17",
+   "note": "'All versions of Natural Earth raster + vector map data found on this website are in the public domain.' and 'No permission is needed to use Natural Earth.' The same page disclaims responsibility for accuracy and content."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  },
+  {
+   "id": "s:odbl-1-0",
+   "kind": "web",
+   "title": "Open Database License (ODbL) v1.0",
+   "publisher": "Open Data Commons",
+   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-17",
+   "note": "the share-alike licence OpenStreetMap data carries: attribution, and any adapted database shared under the same terms"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:er-api",
+   "kind": "dataset",
+   "title": "Open Exchange Rates API (open.er-api.com)",
+   "publisher": "ExchangeRate-API",
+   "url": "https://open.er-api.com/v6/latest/USD",
+   "accessed": "2026-09-16",
+   "note": "one dated rate table; every converted price on the site names the date"
+  },
+  {
+   "id": "s:er-api-free-terms",
+   "kind": "web",
+   "title": "Free exchange rate API documentation — open endpoint",
+   "publisher": "ExchangeRate-API",
+   "url": "https://www.exchangerate-api.com/docs/free",
+   "accessed": "2026-09-17",
+   "note": "open endpoint updates once per day and carries time_last_update_utc and time_next_update_utc; attribution to ExchangeRate-API is required on pages using the rates; redistribution of the data is not permitted"
+  },
+  {
+   "id": "s:who-gho",
+   "kind": "dataset",
+   "title": "Global Health Observatory",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:who-terms-of-use",
+   "kind": "web",
+   "title": "Terms of use",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/about/policies/terms-of-use",
+   "accessed": "2026-09-17",
+   "note": "reproduction for research or private study is permitted 'but not for sale or for use in conjunction with commercial purposes'; WHO publications carry CC BY-NC-SA 3.0 IGO"
+  },
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "inference",
+   "note": "this record describes the repository it sits in; the projection, the licences and the terms of use are cited to their publishers"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "an account of this project's own method, with the projection paper and every licence cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "counted over the records on disk on 17 September 2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "exchange-rate-table",
+   "type": "dataset",
+   "name": "The dated exchange rate table",
+   "as": "Why a rate is fetched once and stamped rather than looked up live.",
+   "rel": "story"
+  },
+  {
+   "from": "natural-earth-countries",
+   "type": "dataset",
+   "name": "Natural Earth country outlines",
+   "as": "The simplification, the rounding and the five patched codes are all in the method.",
+   "rel": "story"
+  },
+  {
+   "from": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The Overpass query, the radii and the tag list are all in the method.",
+   "rel": "story"
+  },
+  {
+   "from": "the-word-itself",
+   "type": "story",
+   "name": "The word itself",
+   "as": "Where this rule is enforced, alongside the rest of the editorial rules.",
+   "rel": "story"
+  }
+ ]
+}

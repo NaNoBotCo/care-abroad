@@ -1,0 +1,333 @@
+{
+ "schema": 1,
+ "id": "fortis-gurgaon",
+ "type": "facility",
+ "names": {
+  "name": "Fortis Memorial Research Institute, Gurugram",
+  "aliases": [
+   "FMRI",
+   "Fortis Gurgaon",
+   "Fortis Memorial Research Institute"
+  ],
+  "said": "FMRI in the trade. The city is Gurugram on paper and Gurgaon in every address ever written; both appear on the hospital's own pages."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "ownership": "private",
+  "founded": null,
+  "specialty": [
+   "neurosciences",
+   "oncology",
+   "cardiac sciences",
+   "orthopaedics",
+   "bone marrow transplant",
+   "renal sciences"
+  ],
+  "draws": [
+   "bone-marrow-transplant",
+   "kidney-transplant",
+   "cabg",
+   "knee-replacement"
+  ],
+  "status": "open",
+  "languages": [
+   "English",
+   "Hindi"
+  ]
+ },
+ "text": {
+  "what": "The headquarters hospital of Fortis Healthcare, in Sector 44 of Gurugram on the southern edge of Delhi. It is the group's referral centre for neurosciences, oncology and transplant work, and it sits in the Delhi National Capital Region cluster that competes with Chennai for India's inbound patient trade.",
+  "story": "Fortis Healthcare is the second of India's large corporate hospital companies, and IHH Healthcare — the Malaysian group that also owns Gleneagles, Mount Elizabeth, Prince Court and Acibadem — held a 31.1 per cent controlling stake in it as of the reporting read for this record. That single fact links this hospital to four others in this directory across three countries.\n\nThe hospital appeared in the 2022 Newsweek and Statista listing for India and has been described as a smart hospital in its own reporting.\n\n*Inference —* the Gurugram location is not incidental. Sector 44 is twenty minutes from the international airport at Delhi and on the same road as the corporate offices whose staff insurance pays for a good part of the private bed base. A hospital sited for an airport is sited for people who arrive by plane, whichever passport they hold.",
+  "how": "*Trade practice —* the Delhi NCR hospitals work the inbound trade through facilitators and through embassies: a large share of the foreign patients in this corridor come from Bangladesh, Afghanistan, Iraq and East Africa, arrive on a medical visa arranged around an emailed estimate, and are met at the airport. This record carries no figure for that trade, because none was found published by the hospital or by a regulator.",
+  "today": "As of 16 September 2026 the hospital's own website refused this project's requests, so nothing here is read off it. The bed count, the opening year, the accreditations and any published price are therefore absent rather than estimated, and this record is marked for verification. What is carried is the address and the point, from OpenStreetMap, and the group's ownership and listing from reporting."
+ },
+ "geo": {
+  "lat": 28.4571214,
+  "lon": 77.072768,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "Fortis Hospital Road, Sector 44",
+  "city": "Gurugram",
+  "area": "Haryana",
+  "country": "IN",
+  "postcode": "122002"
+ },
+ "metrics": {
+  "beds": null,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "No number on this record. The hospital's own site returned a refusal to every request made on 16 September 2026 and no regulator's register read here names its bed count. Absence here means not found by this project, not that the hospital publishes nothing.",
+  "as_of": "2026-09-16",
+  "source": "s:wp-fortis-healthcare",
+  "url": "https://en.wikipedia.org/wiki/Fortis_Healthcare"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:wp-fortis-healthcare",
+   "tier": "cited",
+   "note": "Fortis Healthcare, whose headquarters this hospital is"
+  },
+  {
+   "tag": "listed-company",
+   "source": "s:wp-fortis-healthcare",
+   "tier": "cited",
+   "note": "IHH Healthcare held a 31.1 per cent controlling stake at the time of the reporting read here"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "newsweek-statista",
+   "what": "Listed in the 2022 Newsweek and Statista ranking for India",
+   "year": 2022,
+   "valid_until": null,
+   "source": "s:wp-fortis-healthcare",
+   "url": "https://en.wikipedia.org/wiki/Fortis_Healthcare",
+   "note": "a survey-and-indicator listing, counted here and never read as a quality score. No clinical accreditation is recorded on this record because none was sourced."
+  }
+ ],
+ "kin": [
+  {
+   "to": "delhi-ncr",
+   "as": "One of the two hospitals the Gurugram end of the Delhi cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "india",
+   "as": "The northern half of India's inbound trade, against Chennai's southern half.",
+   "rel": "destination"
+  },
+  {
+   "to": "medanta",
+   "as": "Its neighbour and direct competitor, eight kilometres away in Sector 38, which does publish prices.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "as": "One of the referral programmes the group runs here.",
+   "rel": "performs"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The visa class that brings most of this corridor's foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "nabh",
+   "as": "The Indian national board; this record holds no dated grant for this hospital.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "Much of the Delhi NCR inbound trade reaches hospitals like this one through brokers rather than directly.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Fortis Healthcare",
+   "url": "https://www.fortishealthcare.com/"
+  }
+ ],
+ "sources": [
+  "s:wp-fortis-healthcare",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of the Delhi NCR inbound trade; hedged in the prose and carrying no figure"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node Fortis Memorial Research Institute, Sector 44"
+   },
+   "facets.founded": {
+    "tier": "inference",
+    "note": "left null: no source read for this record dates the hospital's opening"
+   }
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "The headquarters hospital of Fortis Healthcare, in Sector 44 of Gurugram on the southern edge of Delhi.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "One of the two hospitals the Gurugram end of the Delhi cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The northern half of India's inbound trade, against Chennai's southern half.",
+   "rel": "destination"
+  },
+  {
+   "to": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "Its neighbour and direct competitor, eight kilometres away in Sector 38, which does publish prices.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "One of the referral programmes the group runs here.",
+   "rel": "performs"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The visa class that brings most of this corridor's foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The Indian national board; this record holds no dated grant for this hospital.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "Much of the Delhi NCR inbound trade reaches hospitals like this one through brokers rather than directly.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-fortis-healthcare",
+   "kind": "web",
+   "title": "Fortis Healthcare",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fortis_Healthcare",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of the Delhi NCR inbound trade; hedged in the prose and carrying no figure"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node Fortis Memorial Research Institute, Sector 44"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-fortis-healthcare",
+   "note": "Fortis Healthcare, whose headquarters this hospital is",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "listed-company",
+   "label": "Publicly listed",
+   "icon": "📈",
+   "group": "ownership",
+   "evidence": "an exchange listing or an annual report",
+   "source": "s:wp-fortis-healthcare",
+   "note": "IHH Healthcare held a 31.1 per cent controlling stake at the time of the reporting read here",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "newsweek-statista",
+   "label": "Newsweek / Statista World's Best Hospitals",
+   "what": "Listed in the 2022 Newsweek and Statista ranking for India",
+   "url": "https://en.wikipedia.org/wiki/Fortis_Healthcare",
+   "kind": "listing",
+   "year": 2022,
+   "valid_until": null,
+   "source": "s:wp-fortis-healthcare"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "Eight kilometres north of Medanta on Fortis Hospital Road, Sector 44.",
+   "rel": "part"
+  },
+  {
+   "from": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "Its neighbour and competitor in the same city, which publishes neither.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "Another, in the Delhi cluster.",
+   "rel": "accredits"
+  }
+ ]
+}

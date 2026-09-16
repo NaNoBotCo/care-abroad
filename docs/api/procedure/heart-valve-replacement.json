@@ -1,0 +1,465 @@
+{
+ "schema": 1,
+ "id": "heart-valve-replacement",
+ "type": "procedure",
+ "names": {
+  "name": "Heart valve replacement",
+  "aliases": [
+   "valve replacement",
+   "aortic valve replacement",
+   "mitral valve replacement",
+   "AVR",
+   "MVR"
+  ],
+  "said": "Surgeons name the valve and the material — mechanical or tissue. Package pages say valve replacement or repair, price the two as one line, and leave the valve itself to the fine print."
+ },
+ "etymology": {
+  "root": "valve: Latin valva, a leaf of a folding door, which is what a heart valve is. Prosthesis is Greek prosthesis, an addition. Bioprosthesis names a valve built from animal tissue, usually pig or bovine pericardium; mechanical names one built from pyrolytic carbon, which lasts longer and commits the patient to lifelong anticoagulation.",
+  "tier": "tradition",
+  "note": "Replacement and repair are different operations sold on one line of most package pages. A repaired valve is the patient's own; a replaced one is a purchased device with its own price and its own lifespan."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "cardiac",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A diseased valve — most often the aortic or the mitral — is cut out and a mechanical or tissue prosthesis is sewn in its place, on cardiopulmonary bypass through an opened chest, or through a smaller incision with an endoscope. Eight nights on the Bangkok packages read for this record, seven for the endoscopic version. The choice of prosthesis decides what happens for the rest of the patient's life: a mechanical valve means warfarin and monthly blood tests, a tissue valve means a second operation in ten to twenty years.",
+  "story": "Bangkok Heart Hospital prices valve work the way it prices bypass: by level, with the nights inside. Valve replacement or repair at Level 1 is 966,000 baht for eight nights; Level 2 is 1,196,000 for the same eight; totally 3D endoscopic valve replacement or repair is 1,400,000 against a struck-through 1,610,500, for seven. Prices stated valid until 31 October 2026.\n\nThe same exclusion list governs all three, and it contains the same five words as the stent package: \"special device used during procedure\". A prosthetic valve is a manufactured device. So the published price of a valve replacement covers the theatre, the team, the intensive care unit and the stated nights, and the valve is quoted separately.\n\n*Inference —* that is the same shape as the knee package that excludes the implant and the stent package that excludes the stent, and it recurs across three unrelated specialties on hospital pages written for foreign patients. The pattern is not deception; it is what happens when a hospital fixes a price for its own work and passes a manufacturer's price straight through. It does mean the headline figure for an implant operation is never the bill.\n\nThe state comparison prices the surgeon alone. The Australian schedule sets item 38484 — aortic or pulmonary valve replacement with bioprosthesis or mechanical prosthesis — at $2,429.60, and item 38499, the mitral or tricuspid equivalent, at the same figure. The valve, the pump, the ward and the anaesthetist are elsewhere.",
+  "how": "Sternotomy or a small right-sided incision, cardiopulmonary bypass, the heart stopped, the diseased valve excised, the prosthesis sutured into the annulus, the heart restarted, the chest closed. A day or two in intensive care and the rest of the stay on the ward. Anticoagulation is started before discharge and, for a mechanical valve, never stopped.\n\nFor a patient who travelled, the anticoagulation is the part no package covers: monitoring a warfarin dose needs a laboratory and a clinician within reach, weekly at first, and every package read for this record ends at the airport.",
+  "today": "As of 17 September 2026 the published Thai package prices for valve replacement or repair are 966,000 and 1,196,000 baht for eight nights and 1,400,000 baht for seven by endoscope, with the prosthesis excluded as a special device. Ireland's own admitted-patient price for a valve intervention with pump runs EUR 40,253 to EUR 80,201 by complexity. The Australian schedule fee for the surgeon's service is $2,429.60.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 8,
+  "days_before_flying": 10,
+  "recovery_weeks": 12,
+  "mortality_per_1000": null,
+  "note": "Eight nights is the stay named in the Bangkok Heart Hospital valve packages read for this record, seven for the endoscopic version; those are the packages' figures, not a clinical standard. The ten-day figure is the CDC's guidance not to fly for ten days after chest surgery. Twelve weeks is the span usually quoted for return to ordinary activity. No registry read for this record publishes valve outcomes for the hospitals named here, so mortality stays empty.",
+  "as_of": "2026-09-17",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "heart-valve-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 966000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "valve replacement or repair, Level 1",
+    "operating room and recovery room",
+    "specified medical supplies and medications used during the procedure",
+    "surgeon team and anaesthesiologist fees",
+    "intermediate critical care unit and critical care unit",
+    "standard inpatient room for the stated 8 nights",
+    "hospital fee, meals and related equipment during the stay"
+   ],
+   "excludes": [
+    "special device used during the procedure — which is what a prosthetic valve is",
+    "pre-assessment and medical clearance",
+    "other specialists' consultations",
+    "expense arising from underlying conditions",
+    "extra nights in critical care or on the ward",
+    "home medications, including the anticoagulant a mechanical valve commits the patient to"
+   ],
+   "source": "s:bangkokhospital-heart-packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "note": "Level 2 of the same package is 1,196,000 THB for the same 8 nights; the levels are not defined on the page. Prices stated valid until 31 October 2026. Replacement and repair are priced on one line, though only one of them buys a device.",
+   "tier": "cited",
+   "usd": 29014.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "heart-valve-replacement",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 1400000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "totally 3D endoscopic valve replacement or repair",
+    "7 nights in hospital",
+    "theatre, surgical team and anaesthesiologist as specified"
+   ],
+   "excludes": [
+    "special device used during the procedure",
+    "pre-assessment",
+    "other specialists",
+    "extra nights",
+    "home medications"
+   ],
+   "source": "s:bangkokhospital-heart-packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "note": "listed at 1,400,000 THB against a struck-through 1,610,500 THB, marked New, 7 nights. The endoscopic route costs more than the open one and keeps the patient a night less.",
+   "tier": "cited",
+   "usd": 42049.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "heart-valve-replacement",
+   "country": "AU",
+   "amount": 2429.6,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "item 38484: aortic or pulmonary valve replacement with bioprosthesis or mechanical prosthesis, including retrograde cardioplegia if performed"
+   ],
+   "excludes": [
+    "the prosthesis",
+    "the hospital, the theatre, the pump, the anaesthetist and the intensive care"
+   ],
+   "source": "s:mbs-38484",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38484&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $1,822.20, read on 17 September 2026. Item 38499, mitral or tricuspid replacement, carries the same fee — the schedule prices the operation by the work, not by which valve.",
+   "tier": "cited",
+   "usd": 1732.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "heart-valve-replacement",
+   "country": "IE",
+   "amount": 40253,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "DRG F04C CRD VLV INTERVTN+PMP-INV INVES, MINC — cardiac valve intervention with pump, without invasive cardiac investigation, at minor complexity, as an inlier inpatient episode"
+   ],
+   "excludes": [
+    "stays beyond the high boundary, paid per diem on top",
+    "travel and accommodation"
+   ],
+   "source": "s:hse-abf-2024-inpatient",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "note": "the same group runs EUR 50,628 at intermediate complexity and EUR 80,201 at major; where the admission also includes invasive cardiac investigation the group is F03, at EUR 52,054 and EUR 70,953. One operation, six prices, sorted by how sick the patient is — the opposite of the Thai page's two undefined levels.",
+   "tier": "cited",
+   "usd": 46443.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "cabg",
+   "as": "The other open-heart operation, priced above this one on the same Bangkok list.",
+   "rel": "kin"
+  },
+  {
+   "to": "angioplasty-stent",
+   "as": "The catheter procedure whose package carries the same five-word device exclusion.",
+   "rel": "kin"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The other implant operation whose package price excludes the implant.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bangkok-hospital",
+   "as": "Publishes the valve packages this page reads, prosthesis excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where valve surgery is sold by level, by nights, and without the valve.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where the schedule prices the surgeon's service at a fixed fee whichever valve it is.",
+   "rel": "destination"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The line item this operation's headline price leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who monitors the anticoagulation a mechanical valve requires, weekly, at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who replaces a tissue valve in fifteen years, and where.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The rule that keeps a chest-surgery patient on the ground.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which special device turns out to mean the valve.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this operation is sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "cabg",
+   "tell": "Bypass reroutes blood around blocked arteries; valve surgery replaces a door inside the heart. The two are sold on the same package page and are not alternatives to each other."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bangkok Heart Hospital — cardiovascular surgery packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery"
+  },
+  {
+   "label": "MBS item 38484",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38484&qt=item"
+  }
+ ],
+ "sources": [
+  "s:bangkokhospital-heart-packages",
+  "s:mbs-38484",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:hse-abf-2024-inpatient"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bangkokhospital-heart-packages",
+    "note": "package figures and exclusion wording read off the hospital's own page on 17 September 2026; the paragraph drawing the three specialties together is marked as this project's reasoning"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the anticoagulation point follows from the prosthesis type and is hedged in the prose"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:cdc-yellowbook-medical-tourism"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Prosthetic heart valve.jpg",
+  "File:Bileaflet mechanical heart valve.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A diseased valve — most often the aortic or the mitral — is cut out and a mechanical or tissue prosthesis is sewn in its place, on cardiopulmonary bypass through an opened chest, or through a smaller incision with an…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The other open-heart operation, priced above this one on the same Bangkok list.",
+   "rel": "kin"
+  },
+  {
+   "to": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "The catheter procedure whose package carries the same five-word device exclusion.",
+   "rel": "kin"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The other implant operation whose package price excludes the implant.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "Publishes the valve packages this page reads, prosthesis excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where valve surgery is sold by level, by nights, and without the valve.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Where the schedule prices the surgeon's service at a fixed fee whichever valve it is.",
+   "rel": "destination"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The line item this operation's headline price leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who monitors the anticoagulation a mechanical valve requires, weekly, at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who replaces a tissue valve in fifteen years, and where.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The rule that keeps a chest-surgery patient on the ground.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which special device turns out to mean the valve.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form this operation is sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bangkokhospital-heart-packages",
+   "kind": "web",
+   "title": "Coronary artery angiography / percutaneous coronary intervention and Cardiovascular Surgery — package list",
+   "publisher": "Bangkok Heart Hospital, Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026, prices stated valid until 31 October 2026: CABG Level 1 1,173,000 THB and Level 2 1,437,500 THB, 8 nights each; MICS CABG 1,500,000 THB, 7 nights; valve replacement or repair Level 1 966,000 THB and Level 2 1,196,000 THB, 8 nights; totally 3D endoscopic valve replacement or repair 1,400,000 THB, 7 nights; CAG and PCI transfemoral 299,000 THB and transradial 322,000 THB, 2 nights; CAG alone 62,100 to 69,000 THB. Exclusions name pre-assessment, other specialists' consultations, 'special device used during procedure', extra ICU or ward nights and home medications."
+  },
+  {
+   "id": "s:mbs-38484",
+   "kind": "gov",
+   "title": "MBS item 38484 — aortic or pulmonary valve replacement with bioprosthesis or mechanical prosthesis",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38484&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $2,429.60, 75% benefit $1,822.20; the mitral or tricuspid equivalent, item 38499, carries the same fee"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:hse-abf-2024-inpatient",
+   "kind": "gov",
+   "title": "ABF 2024 Admitted Patient Price List — Inpatient Only",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "accessed": "2026-09-17",
+   "note": "the activity-based-funding inlier inpatient price per diagnosis-related group, linked from the HSE's Northern Ireland Planned Healthcare Scheme claim page and the list behind the CBD and NIPHS repayments. Rows read on 17 September 2026: F06C CRNRY BYPSS-INV INVES MINC EUR 30,040, F06B EUR 34,430, F06A EUR 50,579; F05B CRNRY BYPSS+INV INVES MINC EUR 45,093; F04C CRD VLV INTERVTN+PMP-INV INVES MINC EUR 40,253, F04B EUR 50,628, F04A EUR 80,201; F19B TRNS-VSCLR PERC CRDC INTERVTN MINC EUR 9,887, F19A EUR 42,060; F10B INTERVENTIONAL CRNRY PR + AMI MINC EUR 8,857; M01B MAJOR MALE PELVIC INTERVTNS MINC EUR 19,899, M01A EUR 26,820; M02B TRANSURTH PROSTMY MINC EUR 8,363; N04B HYSTERECTOMY FOR N-MAL MINC EUR 13,282; G10B HERNIA INTERVENTIONS MINC EUR 9,046, G10A MAJC EUR 15,366; H08B LAP CHOLECYSTECTOMY MINC EUR 9,867, H07C OPEN CHOLECYSTECTOMY MINC EUR 16,206. An inlier price assumes a length of stay between the low and high boundaries printed beside it."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bangkokhospital-heart-packages",
+   "note": "package figures and exclusion wording read off the hospital's own page on 17 September 2026; the paragraph drawing the three specialties together is marked as this project's reasoning"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the anticoagulation point follows from the prosthesis type and is hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-medical-tourism"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "The other half of the cardiac list this city is known for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "angioplasty-stent",
+   "type": "procedure",
+   "name": "Coronary angioplasty and stent",
+   "as": "The other cardiac package on the same Thai list, sold by level and by nights.",
+   "rel": "kin"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The other open-heart operation, priced below this one on the same Bangkok list.",
+   "rel": "kin"
+  },
+  {
+   "from": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "Open-chest surgery, with the same transfusion exposure.",
+   "rel": "procedure"
+  }
+ ]
+}

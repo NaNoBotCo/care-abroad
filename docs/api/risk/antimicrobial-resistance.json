@@ -1,0 +1,289 @@
+{
+ "id": "antimicrobial-resistance",
+ "names": {
+  "name": "Antimicrobial resistance acquired abroad",
+  "aliases": [
+   "AMR",
+   "CRE",
+   "carbapenem-resistant Enterobacterales",
+   "multidrug-resistant organisms"
+  ],
+  "said": "Infection control says MDRO. The microbiology report names the enzyme."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "An organism that survives the drugs meant to kill it, carried home in or on a patient who was treated in a hospital where such organisms are common. The CDC names carbapenem-resistant Enterobacterales and Candida auris as the two that \"appear to be more common in some countries where U.S. residents travel for medical tourism\", and asks US hospitals to screen anyone who spent a night in a healthcare facility abroad within the previous six months.",
+  "story": "The link between hospital travel and resistance was established by a single paper. In 2010 Kumarasamy and colleagues reported a carbapenem resistance gene, blaNDM-1, in 44 isolates from Chennai, 26 from Haryana, 37 referred to the UK's national reference laboratory, and 73 from other sites in India and Pakistan. The gene sat mostly in Escherichia coli and Klebsiella pneumoniae, which were resistant to everything the authors tested except tigecycline and colistin, and it sat on plasmids that transferred readily between organisms. Case review found that most of the UK patients carrying it had travelled to India or Pakistan within the past year, or had links to those countries.\n\nThe paper was contested hard — the Lancet Infectious Diseases carried fourteen published comments in the three months after it appeared — and the naming of the enzyme after a city was part of what was contested. What was not in dispute was the mechanism: a plasmid moves between species, a patient moves between countries, and the two movements compound.\n\n*Inference —* the loss here is carried almost entirely by the receiving system. A colonised patient is not ill and presents no claim; the cost appears later as a side room, contact precautions, a screening programme, and an antibiotic course that may run to months. Nobody bills it to the operation that produced it.",
+  "how": "Screening is a swab, and in the United States admission screening for carbapenem-resistant Enterobacterales is available free through the Antibiotic Resistance Laboratory Network. The CDC asks facilities to take an explicit travel history, including any medical care received abroad, and to report suspected or confirmed cases of unusual resistance to public health authorities so that clusters are recognised — returning patients present near home, which scatters an outbreak across jurisdictions before anyone sees its shape.",
+  "today": "As of 16 September 2026 no destination country publishes a resistance rate for its international patients, and no source market publishes a count of resistant organisms imported by them. What exists is the screening rule, the outbreak investigations, and the reference laboratory referrals that started the subject."
+ },
+ "metrics": {
+  "note": "The 2010 Lancet Infectious Diseases study counted isolates, not patients or procedures: 44 NDM-1 isolates in Chennai, 26 in Haryana, 37 in the UK and 73 elsewhere in India and Pakistan, in Enterobacteriaceae resistant to all tested antibiotics except tigecycline and colistin. No rate per operation, per admission or per traveller has been published, here or since.",
+  "as_of": "2010",
+  "source": "s:kumarasamy-ndm1-2010",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/20705517/"
+ },
+ "kin": [
+  {
+   "to": "ndm-1-2010",
+   "as": "The paper that put hospital travel and resistance in the same sentence, and the argument that followed it.",
+   "rel": "event"
+  },
+  {
+   "to": "candida-auris",
+   "as": "The fungal half of the pair the CDC names, and the one that colonises skin for months.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The wound this turns from a course of antibiotics into a year.",
+   "rel": "kin"
+  },
+  {
+   "to": "nontuberculous-mycobacteria",
+   "as": "Already resistant by nature, and the reason those wounds took three months of therapy.",
+   "rel": "kin"
+  },
+  {
+   "to": "india",
+   "as": "Where two of the four isolate collections in the founding study were taken.",
+   "rel": "place"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Why the organism is usually found by a laboratory with no record of the operation.",
+   "rel": "kin"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step at which the screening swab is taken.",
+   "rel": "step"
+  },
+  {
+   "to": "who",
+   "as": "Publishes the global surveillance this sits inside.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  },
+  {
+   "label": "Kumarasamy et al., Lancet Infect Dis 2010",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20705517/"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:kumarasamy-ndm1-2010"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "metrics": {
+    "tier": "cited",
+    "source": "s:kumarasamy-ndm1-2010"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "An organism that survives the drugs meant to kill it, carried home in or on a patient who was treated in a hospital where such organisms are common.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "ndm-1-2010",
+   "type": "event",
+   "name": "NDM-1, 2010",
+   "as": "The paper that put hospital travel and resistance in the same sentence, and the argument that followed it.",
+   "rel": "event"
+  },
+  {
+   "to": "candida-auris",
+   "type": "risk",
+   "name": "Candida auris",
+   "as": "The fungal half of the pair the CDC names, and the one that colonises skin for months.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The wound this turns from a course of antibiotics into a year.",
+   "rel": "kin"
+  },
+  {
+   "to": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "Already resistant by nature, and the reason those wounds took three months of therapy.",
+   "rel": "kin"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Where two of the four isolate collections in the founding study were taken.",
+   "rel": "place"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Why the organism is usually found by a laboratory with no record of the operation.",
+   "rel": "kin"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step at which the screening swab is taken.",
+   "rel": "step"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "Publishes the global surveillance this sits inside.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:kumarasamy-ndm1-2010",
+   "kind": "paper",
+   "title": "Emergence of a new antibiotic resistance mechanism in India, Pakistan, and the UK: a molecular, biological, and epidemiological study",
+   "publisher": "The Lancet Infectious Diseases 2010;10(9):597-602 (Kumarasamy KK, Toleman MA, Walsh TR, et al.)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20705517/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:kumarasamy-ndm1-2010"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The CDC names CRE infections after invasive procedures in this country.",
+   "rel": "risk"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "What the CDC actually found: an organism resistant to the first-line drugs, carried home in 19 states.",
+   "rel": "risk"
+  },
+  {
+   "from": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "What an infection means in a patient with no immune system, and what a patient can carry home.",
+   "rel": "risk"
+  },
+  {
+   "from": "hospital-angeles-tijuana",
+   "type": "facility",
+   "name": "Hospital Angeles Tijuana",
+   "as": "American bariatric patients operated on in this city carried extensively drug-resistant Pseudomonas home, which the CDC investigated and published.",
+   "rel": "risk"
+  },
+  {
+   "from": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "What the ward may hand over along with the operation.",
+   "rel": "risk"
+  },
+  {
+   "from": "candida-auris",
+   "type": "risk",
+   "name": "Candida auris",
+   "as": "The bacterial half of the pair the CDC names, with the same six-month travel window behind it.",
+   "rel": "kin"
+  },
+  {
+   "from": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "Resistant by nature rather than by acquisition, which is why the courses run months.",
+   "rel": "kin"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "What decides whether this infection is a week of antibiotics or six months of them.",
+   "rel": "kin"
+  },
+  {
+   "from": "ndm-1-2010",
+   "type": "event",
+   "name": "NDM-1, 2010",
+   "as": "The risk this paper put at the centre of the subject.",
+   "rel": "risk"
+  }
+ ]
+}

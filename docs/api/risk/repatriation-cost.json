@@ -1,0 +1,320 @@
+{
+ "id": "repatriation-cost",
+ "names": {
+  "name": "Repatriation and medical evacuation cost",
+  "aliases": [
+   "medevac",
+   "air ambulance",
+   "medical evacuation"
+  ],
+  "said": "The industry says medevac. An invoice says air ambulance, and it is five or six figures."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "The cost of moving a patient who cannot fly commercially from where they were treated to a hospital that can finish the job. The CDC's travel insurance chapter states the range: \"The total cost of a medevac varies by location, ranging from USD 25,000 for transport within North America to over USD 250,000 for more distant and remote locations\", and adds that costs increase when the patient is critically ill or needs complex infection control measures.",
+  "story": "Three features of that figure decide who carries it, and none of them is the number.\n\nThe first is that the decision is not the patient's. \"The decision to medically evacuate is at the discretion of the insurance company; it is not made at the request of the traveler\", the CDC states, and the usual threshold is hospitalisation with more days expected, or a treatment not available to comparable standard where the patient is.\n\nThe second is that domestic cover mostly does not reach. For US Medicare beneficiaries the position is stated flatly: except in limited circumstances the programme does not cover medical costs incurred outside the United States, nor medical evacuation. Medigap plans C, D, F, G, M and N cover some emergency care begun in the first 60 days abroad, at 80% of billed charges after a USD 250 deductible, with a USD 50,000 lifetime maximum. A single distant evacuation can exceed that lifetime cap five times over.\n\nThe third is that a policy bought is not a claim paid. The CDC cites a study of international travellers with travel health insurance claims in which insurers fully paid only two-thirds of them, the main reasons for refusal being pre-existing illness and poor documentation of expenses incurred.\n\n*Trade practice —* travel policies sold to leisure travellers commonly exclude treatment the traveller went abroad to obtain, and complications arising from it, on the ground that the trip was not a holiday during which something went wrong. This project has read no policy wording and states this as the trade's account rather than a fact; the wordings are private documents, and no regulator publishes a survey of them.\n\n*Inference —* the exposure therefore tends to land on the family, because the patient is unconscious or immobile and somebody has to guarantee the flight before it takes off.",
+  "how": "An evacuation is an aircraft, a medical crew, ground transport at both ends and a receiving bed that has agreed to take the patient. Dedicated medical evacuation cover is bought separately or bundled; the CDC describes the standalone product as \"relatively inexpensive\" against the cost of the event. Features that decide whether it works are whether the insurer will guarantee payment direct to the hospital, whether there is a 24-hour physician-backed centre, and whether the policy repatriates to the home country or only to the nearest adequate facility.",
+  "today": "As of 16 September 2026 the published range this site carries is USD 25,000 to over USD 250,000, from the CDC's 2026 edition. No figure exists for how often an evacuation follows an elective operation abroad, or for what share of those bills an insurer paid."
+ },
+ "metrics": {
+  "note": "USD 25,000 for transport within North America to over USD 250,000 for more distant and remote locations, as published by the CDC in the 2026 Yellow Book; higher for a critically ill patient or one needing complex infection control. The same chapter reports that in a study of international travellers with travel health insurance claims, insurers fully paid two-thirds of claims. Neither figure is specific to patients who travelled in order to be operated on; no such figure has been published.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-travel-insurance",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html"
+ },
+ "kin": [
+  {
+   "to": "insurance-exclusions",
+   "as": "The rule that decides whether any of this is covered.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "us-medicare-abroad",
+   "as": "The entitlement that does not extend to this, stated in the same chapter.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The step at which the aircraft is chartered.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The ordinary version of the same journey, at the price of a seat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The guidance that, followed, keeps a patient off this aircraft.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl-mortality",
+   "as": "The complication most likely to make a patient unfit to board a scheduled flight.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "What the bill becomes once the patient has landed.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "Who signs the guarantee when the patient cannot.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Travel Insurance and Medical Evacuation Insurance",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-travel-insurance",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the fourth and fifth paragraphs are marked inline as trade practice and inference; this project has read no policy wording"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "The cost of moving a patient who cannot fly commercially from where they were treated to a hospital that can finish the job.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The rule that decides whether any of this is covered.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "us-medicare-abroad",
+   "type": "rule",
+   "name": "Medicare outside the United States",
+   "as": "The entitlement that does not extend to this, stated in the same chapter.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The step at which the aircraft is chartered.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The ordinary version of the same journey, at the price of a seat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The guidance that, followed, keeps a patient off this aircraft.",
+   "rel": "kin"
+  },
+  {
+   "to": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "The complication most likely to make a patient unfit to board a scheduled flight.",
+   "rel": "kin"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "What the bill becomes once the patient has landed.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "Who signs the guarantee when the patient cannot.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-travel-insurance",
+   "kind": "org",
+   "title": "Travel Insurance, Travel Health Insurance, and Medical Evacuation Insurance — CDC Yellow Book 2026, chapter by Rhett J. Stoney",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/travel-insurance.html",
+   "accessed": "2026-09-16",
+   "note": "carries the USD 25,000 to over USD 250,000 medevac range, the Medicare and Medigap limits, and the finding that insurers fully paid two-thirds of travel health claims"
+  },
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the fourth and fifth paragraphs are marked inline as trade practice and inference; this project has read no policy wording"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-travel-insurance"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "johannesburg",
+   "type": "hub",
+   "name": "Johannesburg",
+   "as": "Who pays for the flight home when a referral goes wrong, and on whose insurance.",
+   "rel": "risk"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "What it costs to bring home a patient whose bypass went wrong abroad.",
+   "rel": "risk"
+  },
+  {
+   "from": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "What a course of daily treatment abroad costs beyond the treatment.",
+   "rel": "risk"
+  },
+  {
+   "from": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The bill an excluded policy leaves with the family.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "What this step becomes when a scheduled seat is no longer possible.",
+   "rel": "risk"
+  },
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The bill when a scheduled seat is no longer an option.",
+   "rel": "risk"
+  },
+  {
+   "from": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "What moving a patient in this condition costs, when they can be moved at all.",
+   "rel": "kin"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "What it costs when the patient cannot board at all.",
+   "rel": "kin"
+  },
+  {
+   "from": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "What it costs to move a patient in this condition.",
+   "rel": "kin"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The other cost a state names in the same bylaw, and a private buyer meets alone.",
+   "rel": "kin"
+  },
+  {
+   "from": "assisted-dying-law",
+   "type": "rule",
+   "name": "Assisted dying, and who may cross a border for it",
+   "as": "The bill that follows, and that no row here carries.",
+   "rel": "risk"
+  },
+  {
+   "from": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The single largest number that falls in the gap.",
+   "rel": "risk"
+  },
+  {
+   "from": "us-medicare-abroad",
+   "type": "rule",
+   "name": "Medicare outside the United States",
+   "as": "The bill the exceptions do not reach.",
+   "rel": "risk"
+  },
+  {
+   "from": "repatriation",
+   "type": "term",
+   "name": "Repatriation",
+   "as": "The risk record behind this word, with the CDC range and who decides.",
+   "rel": "risk"
+  }
+ ]
+}

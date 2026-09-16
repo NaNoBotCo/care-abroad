@@ -1,0 +1,475 @@
+{
+ "schema": 1,
+ "id": "who-travels",
+ "type": "story",
+ "names": {
+  "name": "Who travels",
+  "aliases": [
+   "the flows that are actually documented",
+   "against the brochure picture"
+  ],
+  "said": "The brochure shows a Westerner on a lounger. The documented flows are mostly regional, mostly short-haul, and mostly not a choice about price."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "The largest flows anyone counts are not Europeans and North Americans buying cheaper surgery. They are patients moving inside their own regions, pushed by a war, by a health system that stopped working, or pulled by a state that pays for its own nationals to be treated abroad and pays their escorts a daily allowance while they are there. This page sets those flows out from the destination records, with the instrument that counted each one.",
+  "story": "The frame came from a title. John Connell's 2006 article in Tourism Management was called \"Medical tourism: Sea, sun, sand and … surgery\", and twenty years of brochure imagery has followed its punctuation: an elective operation bolted onto a holiday, bought by somebody from a rich country who did the arithmetic. That patient exists. The numbers say she is not the centre of the subject.\n\nThe single largest documented flow on this site is regional and overland. India's Press Information Bureau records 507,244 foreign nationals arriving for medical treatment in 2025. Bangladesh supplied 325,127 of them — 64 per cent of the total — followed by Iraq at 30,989, Uzbekistan at 13,699, Somalia at 11,506, Turkmenistan at 10,231, Oman at 9,738 and Kenya at 9,357. Six of the seven named source countries border India, share a flight of a few hours with it, or have a health system that cannot do the work. None of them is a European market.\n\nJordan's trade is a record of other countries' emergencies. The Private Hospitals Association, which has existed since 1984 and does the counting the state does not, put 2025 at almost a billion US dollars from 230,000 foreign patients, naming Iraq, Saudi Arabia, Palestine, Syria, Yemen and Libya as its largest markets. The sector took Iraqi patients through sanctions and after 2003, Libyan patients after 2011 — many of them war-wounded, paid for by a Libyan state that then stopped paying — and Yemeni and Sudanese patients as those two systems collapsed in turn. It has lost them the same way: when Jordan tightened visas for Sudanese, Libyan, Yemeni and Iraqi nationals, the association reported a 40 per cent fall across the first nine months of 2016. *Inference —* the sector's largest single variable is therefore not its prices. It is who can obtain a visa, which is decided by a ministry with no interest in the hospital's revenue.\n\nIn the Gulf the buyer is the state, and one of these programmes is written down in full. Dubai's Administrative Resolution No. 14 of 2017, issued by the Director General of the Dubai Health Authority on 6 February 2017, sets out who will be sent abroad and what the Authority will pay for: the treatment, the physicians, the medicines and devices, interpreting, air ambulance where needed, and repatriation of the body if the patient dies. One escort travels with an adult patient; two accompany a child, or a patient who is elderly, paralysed, comatose or disabled. The schedule at the back sets a daily allowance by destination — 150 euros a day for the patient and 150 for the first escort in European countries, 150 US dollars in the United States, 300 dirhams in India, Thailand and Arab countries. *Inference —* a per-diem schedule that distinguishes Europe from India is a procurement document. The patient in it did not compare prices, did not choose the hospital and is not carrying the risk, and no part of the decision resembles the one the brochure describes.\n\nOn the other side of the same trade are the countries whose patients leave. Kenya's number in this directory is India's, not Kenya's: 9,357 arrivals for medical purposes in 2025, which makes it India's seventh-largest source. *Inference —* what a country loses when its complex cases board a plane is not mainly the money, which is the argument usually made. It is the caseload. A cancer service is built by treating cancers and a cardiac unit gets good by operating; every case that flies out is one the local hospital did not do and the local registrar did not see, and the patients who cannot afford the ticket stay behind to be treated by a service whose experience left with the people who could pay for it.\n\nNigeria is where that argument is loudest and the evidence thinnest. The figure in widest circulation — about two billion US dollars a year lost to treatment abroad — is attributed to Professor Muhammad Ali Pate, Coordinating Minister of Health and Social Welfare, in April 2025. Earlier ministers gave 1.2 to 1.6 billion, and another gave two billion before that. *Inference —* a quantity that moves by a factor of two between cabinet members, with no statistical series named behind it, is a rhetorical instrument in a domestic argument about investment. It may still be roughly right. Nigeria also does not appear among the seven source countries India names, which means either the flow is smaller than the rhetoric implies, or it travels on visa classes India does not count as medical, or it goes to the United Kingdom, Dubai, Egypt or Türkiye instead — three different policy problems that one dollar figure conceals. What is not in dispute is the distribution: the people who fly are the people with foreign exchange, and the Central Bank's allocation of it is as much a part of the mechanism as the health ministry.\n\nOne set of flows is decided by neither price nor visa but by permit. Palestinians from the West Bank and Gaza Strip referred to hospitals in East Jerusalem, Israel or abroad require an Israeli-issued permit to travel, and the World Health Organization counts the applications. Its report to the Seventy-sixth World Health Assembly, dated 17 May 2023, records that in 2022 a third of the 20,295 patient permit applications from the Gaza Strip — over 6,500 — were not approved in time for the hospital appointment, and 15 per cent of the 87,721 applications from the West Bank were denied. Approval varied by what the patient had: 87 per cent for oncology against 58 per cent for neurology among Gaza patients in December 2022. Companions fared worse — 62 per cent of 26,461 companion applications from Gaza were not approved by the date of the appointment. *Inference —* this is the same subject measured by an instrument nobody else uses. Everywhere else in this directory the constraint on reaching a hospital abroad is money; here it is an approval, and it is counted.\n\nThe one flow that does look like the brochure is the American crossing into Mexico, and even there the picture bends. Los Algodones, a town of 5,474 at the 2010 census, holds what the researcher Krystyna Adams counted as \"more than 500 practising dentists\" in \"an intense clustering of dental clinics within a four block radius\", and the trade runs on a walk across a pedestrian border rather than on a flight. Adams's own published conclusion from four months there was not about price: it was that the industry exploits the workers who staff it. Meanwhile the tail of the same border is counted from the American side, by surgeons at San Diego who reviewed 91 patients presenting with complications of bariatric surgery obtained in Mexico between 2014 and 2024. *Inference —* the brochure flow and the counted flow are the same people at different points of the same journey, and only the second point produces a number.",
+  "how": "Each flow in this record is counted by a different instrument, and the instrument decides what the figure can be used for. India counts arrivals by visa purpose, so it counts trips. Jordan's figure is the hospitals' own count of what they billed, published by a body arguing for the sector. Dubai's outbound programme is described by its bylaw and has no published headcount at all, so the inbound and outbound sides of that country cannot be set against one another on like evidence. The permit figures come from a WHO governing-body document and count applications, approvals and refusals rather than patients. Nothing in this record is a rate, because none of these has a denominator.",
+  "today": "As of 17 September 2026 the largest documented single origin-destination pair on this site remains Bangladesh to India in 2025, at 325,127 recorded medical-purpose arrivals. No country on this site publishes a count of its own residents who travelled out for treatment; every outbound figure carried here was produced by the receiving state or by a minister of the sending one."
+ },
+ "kin": [
+  {
+   "to": "jordan",
+   "as": "The trade built on other countries' wars, where the binding constraint is a visa rather than a price.",
+   "rel": "destination"
+  },
+  {
+   "to": "uae",
+   "as": "Buys care abroad for its own nationals under a bylaw that sets the escort's daily allowance by destination.",
+   "rel": "destination"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The rule record for the state-as-buyer route, with the resolution named and dated.",
+   "rel": "rule"
+  },
+  {
+   "to": "india",
+   "as": "The receiving state that counts by source country, which is why the regional shape of this trade is visible at all.",
+   "rel": "destination"
+  },
+  {
+   "to": "kenya",
+   "as": "India's seventh-largest source, counted at the Indian border rather than the Kenyan one.",
+   "rel": "destination"
+  },
+  {
+   "to": "nigeria",
+   "as": "The outflow whose published quantities disagree with each other by a factor of two.",
+   "rel": "destination"
+  },
+  {
+   "to": "israel",
+   "as": "Where reaching a hospital is decided by a permit, and the permits are counted by WHO.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "as": "The one flow that resembles the brochure, and the one whose tail is counted from the other side of the border.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "as": "A town of 5,474 with more than 500 dentists in four blocks, reached on foot.",
+   "rel": "hub"
+  },
+  {
+   "to": "amman",
+   "as": "Where the regional flow lands, and why it went there rather than to Delhi: the staff and the patient share a language.",
+   "rel": "hub"
+  },
+  {
+   "to": "the-visa",
+   "as": "The step that decides most of this, and the one no price page prices.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "as": "What each of these figures actually counts, set out one instrument at a time.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "WHO report to the Seventy-sixth World Health Assembly, A76/15",
+   "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_15-en.pdf"
+  },
+  {
+   "label": "Press Information Bureau — medical and wellness travel in India",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1"
+  }
+ ],
+ "sources": [
+  "s:connell-2006",
+  "s:openlibrary-connell-medical-tourism",
+  "s:pib-india-mvt-2026",
+  "s:pib-medical-wellness-tourism-2026",
+  "s:agbi-jordan-2026",
+  "s:jordantimes-2016-drop",
+  "s:dubai-resolution-14-2017",
+  "s:dubai-media-office-health-2023",
+  "s:allafrica-nigeria-pate-2025",
+  "s:who-a76-15-opt",
+  "s:israel-moh-medical-tourism",
+  "s:adams-dental-tourism-2017",
+  "s:wp-los-algodones",
+  "s:spurzem-bariatric-tourism-2025",
+  "s:crush-chikanda-2015"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every figure is the publisher's own; the readings of what each flow is made of are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's account of what each instrument can support"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The largest flows anyone counts are not Europeans and North Americans buying cheaper surgery.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "The trade built on other countries' wars, where the binding constraint is a visa rather than a price.",
+   "rel": "destination"
+  },
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "Buys care abroad for its own nationals under a bylaw that sets the escort's daily allowance by destination.",
+   "rel": "destination"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The rule record for the state-as-buyer route, with the resolution named and dated.",
+   "rel": "rule"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The receiving state that counts by source country, which is why the regional shape of this trade is visible at all.",
+   "rel": "destination"
+  },
+  {
+   "to": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "India's seventh-largest source, counted at the Indian border rather than the Kenyan one.",
+   "rel": "destination"
+  },
+  {
+   "to": "nigeria",
+   "type": "destination",
+   "name": "Nigeria",
+   "as": "The outflow whose published quantities disagree with each other by a factor of two.",
+   "rel": "destination"
+  },
+  {
+   "to": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "Where reaching a hospital is decided by a permit, and the permits are counted by WHO.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The one flow that resembles the brochure, and the one whose tail is counted from the other side of the border.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "A town of 5,474 with more than 500 dentists in four blocks, reached on foot.",
+   "rel": "hub"
+  },
+  {
+   "to": "amman",
+   "type": "hub",
+   "name": "Amman",
+   "as": "Where the regional flow lands, and why it went there rather than to Delhi: the staff and the patient share a language.",
+   "rel": "hub"
+  },
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The step that decides most of this, and the one no price page prices.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "What each of these figures actually counts, set out one instrument at a time.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:connell-2006",
+   "kind": "journal",
+   "title": "Medical tourism: Sea, sun, sand and … surgery",
+   "publisher": "Tourism Management, 2006;27(6):1093–1100",
+   "url": "https://doi.org/10.1016/j.tourman.2005.11.005",
+   "accessed": "2026-09-16",
+   "note": "Connell J. Citation confirmed through the Crossref API"
+  },
+  {
+   "id": "s:openlibrary-connell-medical-tourism",
+   "kind": "catalogue",
+   "title": "Medical tourism — John Connell, CABI, 2010 (ISBN 9781845936600)",
+   "publisher": "Open Library",
+   "url": "https://openlibrary.org/works/OL15571593W",
+   "accessed": "2026-09-16",
+   "note": "a second CABI title under the same name is catalogued at 2013, ISBN 9781780643694"
+  },
+  {
+   "id": "s:pib-india-mvt-2026",
+   "kind": "gov",
+   "title": "Medical and Wellness Tourism in India — PIB Backgrounder",
+   "publisher": "Press Information Bureau, Government of India",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1",
+   "accessed": "2026-09-16",
+   "note": "posted 2 May 2026; gives 2025 arrivals in India for medical purpose in total and for the seven leading source countries"
+  },
+  {
+   "id": "s:pib-medical-wellness-tourism-2026",
+   "kind": "web",
+   "title": "Medical and Wellness Tourism in India",
+   "publisher": "Press Information Bureau, Government of India",
+   "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202652862301.pdf",
+   "accessed": "2026-09-16",
+   "note": "backgrounder dated 2 May 2026; carries the 2025 medical-purpose arrival count, the top source countries, the NABH accreditation count and the visa categories"
+  },
+  {
+   "id": "s:agbi-jordan-2026",
+   "kind": "news",
+   "title": "Middle East drives Jordan's medical tourism earnings to $1bn",
+   "publisher": "AGBI (Arabian Gulf Business Insight)",
+   "url": "https://www.agbi.com/tourism/2026/06/middle-east-drives-jordans-medical-tourism-earnings-to-1bn/",
+   "accessed": "2026-09-16",
+   "note": "published 17 June 2026, reporting Fawzi Hammouri, president of the Private Hospitals Association, as carried by the Jordan Times"
+  },
+  {
+   "id": "s:jordantimes-2016-drop",
+   "kind": "news",
+   "title": "'Medical tourism sector witnessed 40% drop in first nine months of 2016'",
+   "publisher": "The Jordan Times",
+   "url": "http://www.jordantimes.com/news/local/medical-tourism-sector-witnessed-40-drop-first-nine-months-2016",
+   "accessed": "2026-09-16",
+   "note": "the Private Hospitals Association attributing the drop to visa restrictions on Sudanese, Libyan, Yemeni and Iraqi nationals. The page would not open for this project on the access date; the figure is carried from the publisher's own listing and is flagged for verification."
+  },
+  {
+   "id": "s:dubai-resolution-14-2017",
+   "kind": "law",
+   "title": "Administrative Resolution No. (14) of 2017 Approving the Bylaw for Sending Patients for Overseas Medical Treatment",
+   "publisher": "Government of Dubai Legislation portal",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html",
+   "accessed": "2026-09-16",
+   "note": "issued 6 February 2017 by the Director General of the Dubai Health Authority; sets eligibility, what the state pays, escort entitlement and a daily allowance schedule by destination country"
+  },
+  {
+   "id": "s:dubai-media-office-health-2023",
+   "kind": "gov",
+   "title": "Dubai welcomes more than 691,000 international health travellers in 2023",
+   "publisher": "Dubai Media Office, Government of Dubai",
+   "url": "https://mediaoffice.ae/en/news/2024/august/19-08/dubai-welcomes-more-than-691k",
+   "accessed": "2026-09-16",
+   "note": "Dubai Health Authority figures released 19 August 2024; gives arrivals, spend, regional split and the leading specialties. The release does not publish the counting rule behind the headline number."
+  },
+  {
+   "id": "s:allafrica-nigeria-pate-2025",
+   "kind": "news",
+   "title": "Nigeria Loses $2bn Annually to Medical Tourism — Govt",
+   "publisher": "allAfrica",
+   "url": "https://allafrica.com/stories/202504160076.html",
+   "accessed": "2026-09-16",
+   "note": "April 2025, attributing the figure to Professor Muhammad Ali Pate, Coordinating Minister of Health and Social Welfare. The page would not open for this project on the access date; the attribution is carried from the publisher's own listing and is flagged for verification."
+  },
+  {
+   "id": "s:who-a76-15-opt",
+   "kind": "org",
+   "title": "Health conditions in the occupied Palestinian territory, including east Jerusalem, and in the occupied Syrian Golan — Report by the Director-General (A76/15)",
+   "publisher": "World Health Organization, Seventy-sixth World Health Assembly",
+   "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_15-en.pdf",
+   "accessed": "2026-09-16",
+   "note": "dated 17 May 2023; paragraphs 21 and 22 carry the 2022 permit application and approval counts for patients and their companions. Permit data for the Gaza Strip is attributed in the report to the Health Liaison Office of the Palestinian Ministry of Health."
+  },
+  {
+   "id": "s:israel-moh-medical-tourism",
+   "kind": "gov",
+   "title": "Medical Tourism in Israel",
+   "publisher": "Israel Ministry of Health",
+   "url": "https://www.gov.il/en/pages/medical-tourism-israel",
+   "accessed": "2026-09-16",
+   "note": "published 15 November 2021, updated 20 March 2023; carries the Ministry of Tourism's arrivals estimate and the ministry's account of the 2018 law"
+  },
+  {
+   "id": "s:adams-dental-tourism-2017",
+   "kind": "web",
+   "title": "Dental tourism industry exploits workers in Mexico",
+   "publisher": "Krystyna Adams, The Conversation, 12 October 2017",
+   "url": "https://theconversation.com/dental-tourism-industry-exploits-workers-in-mexico-85071",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-los-algodones",
+   "kind": "encyclopedia",
+   "title": "Los Algodones",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Los_Algodones",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:spurzem-bariatric-tourism-2025",
+   "kind": "journal",
+   "title": "Getting more than what you pay for? Managing complications of bariatric tourism at an academic center near the US-Mexico border",
+   "publisher": "Spurzem GJ et al., Surgical Endoscopy, 2025, doi:10.1007/s00464-025-11850-x",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222374/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:crush-chikanda-2015",
+   "kind": "journal",
+   "title": "South–South medical tourism and the quest for health in Southern Africa",
+   "publisher": "Crush J, Chikanda A. Social Science & Medicine 2015;124:313–320",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24973022/",
+   "accessed": "2026-09-16",
+   "note": "argues that movement to South Africa from the region is larger, in numbers and in money, than the flow from the global North. The abstract page would not open on the access date; the citation and finding are carried here from the publisher's listing and are flagged for verification."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "every figure is the publisher's own; the readings of what each flow is made of are marked Inference inline"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "this project's account of what each instrument can support"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "indonesia",
+   "type": "destination",
+   "name": "Indonesia",
+   "as": "A source market whose government counts the money leaving, not the people.",
+   "rel": "story"
+  },
+  {
+   "from": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "The case that undoes the bargain-hunting picture of who a cross-border patient is.",
+   "rel": "story"
+  },
+  {
+   "from": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "The patients who can buy the ticket, and the ones left with what remains.",
+   "rel": "story"
+  },
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "A survey that puts how a patient was treated ahead of what they were charged.",
+   "rel": "story"
+  },
+  {
+   "from": "romania",
+   "type": "destination",
+   "name": "Romania",
+   "as": "The diaspora trip that is half of this country's inbound trade.",
+   "rel": "story"
+  },
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "The regional patient this country's larger flow is made of, against the one the brochures show.",
+   "rel": "story"
+  },
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "Why a city can be a source market and a destination in the same week.",
+   "rel": "story"
+  },
+  {
+   "from": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "Most of Havana's foreign patients come from Latin America, not from the country ninety miles north.",
+   "rel": "story"
+  },
+  {
+   "from": "johannesburg",
+   "type": "hub",
+   "name": "Johannesburg",
+   "as": "Why a referral patient and an elective patient should never share one arrivals figure.",
+   "rel": "story"
+  },
+  {
+   "from": "warsaw",
+   "type": "hub",
+   "name": "Warsaw",
+   "as": "Why an arrivals count describes half a city.",
+   "rel": "story"
+  },
+  {
+   "from": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "A caseload that is Syrian, Palestinian, Iraqi and Yemeni before it is anything else, and a literature of displacement rather than of price.",
+   "rel": "story"
+  },
+  {
+   "from": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The half of the subject where the state, not the patient, is the buyer.",
+   "rel": "story"
+  },
+  {
+   "from": "john-connell",
+   "type": "person",
+   "name": "John Connell",
+   "as": "The question his 2006 paper set, and the one this site keeps returning to.",
+   "rel": "story"
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "schema": 1,
+ "id": "jordan",
+ "type": "destination",
+ "names": {
+  "name": "Jordan",
+  "aliases": [
+   "المملكة الأردنية الهاشمية",
+   "Hashemite Kingdom of Jordan"
+  ],
+  "said": "In the region Jordan means Amman, and Amman means a ring of private hospitals in Shmeisani and Abdali that have taken Arabic-speaking patients from countries whose own hospitals stopped working."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "JO",
+  "direction": "inbound",
+  "currency": "JOD",
+  "languages": [
+   "Arabic",
+   "English"
+  ],
+  "draws": [
+   "cabg",
+   "ivf",
+   "kidney-transplant",
+   "gastric-sleeve"
+  ]
+ },
+ "text": {
+  "what": "The Arab world's long-standing destination for patients from its own region. Jordan's private hospitals have taken patients from Iraq, Libya, Yemen, Sudan, Syria and Palestine for decades, and the trade association that speaks for those hospitals publishes an annual figure for them. The flow is driven by war, sanctions and health systems that stopped functioning, not by price shopping, and describing it as a bargain hunt misdescribes almost every patient in it.",
+  "story": "The Private Hospitals Association has existed since 1984 and does the counting the state does not. Its president, Fawzi Hammouri, put 2025 at almost US$1 billion of earnings from 230,000 foreign patients, up four per cent on the year, and said a quarter of them were treated in hospitals and the rest in clinics and specialised medical centres. He named Iraq, Saudi Arabia, Palestine, Syria, Yemen and Libya as the largest markets, and put investment in the private hospital sector at $4 billion, supporting 40,000 direct healthcare jobs.\n\nThe sector's own history is a record of other countries' emergencies. It took Iraqi patients through sanctions and after 2003; Libyan patients after 2011, many of them war-wounded and paid for by a Libyan state that then stopped paying; Yemeni and Sudanese patients as those two systems collapsed in turn. It has also lost patients the same way. When Jordan tightened visas for Sudanese, Libyan, Yemeni and Iraqi nationals, the association reported a 40 per cent drop across the first nine months of 2016. The sector's largest single variable is not its prices. It is who can get a visa.\n\n*Inference —* a figure of 230,000 counted by the hospitals that bill them is a count of admissions and episodes rather than of people, and three quarters of it is outpatient work in clinics on the association's own account. The revenue figure is the association's, published by the association, in a year it was arguing for the sector.",
+  "how": "A patient from Baghdad or Benghazi arrives on a visa that must be obtained first, often with a hospital's letter behind it, and is treated on cash terms or against a sponsor — a foreign ministry, an embassy, an employer, or a family that has sold something. Interpretation is not a service here; the staff and the patient share a language, which is most of why the flow came to Amman rather than to Delhi. The King Hussein Cancer Center sits apart from the private ring as a specialist non-profit taking regional referrals.",
+  "today": "As of September 2026 the most recent published figure is the association's own for 2025: 230,000 patients and almost $1 billion. Jordan was accredited by the World Tourism Organisation in 2023 as a destination for medical and wellness travel, which is a promotion mark rather than a clinical one.",
+  "notes": "Patients arriving from a war do not choose a destination the way a reader in London chooses one. This page describes the trade; it does not describe the choice as a free one."
+ },
+ "geo": {
+  "lat": 31.9454,
+  "lon": 35.9284,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "inbound_patients_year": 230000,
+  "note": "2025, as given by Fawzi Hammouri, president of the Private Hospitals Association, reported June 2026. It is the association's own count of the patients its members billed, covering hospital and clinic episodes together — the association itself says only a quarter were treated in hospitals. It counts episodes, not people, and it is published by a body arguing for the sector it counts. Earnings were given as almost US$1 billion, up 4% year on year.",
+  "as_of": "2025",
+  "source": "s:agbi-jordan-2026",
+  "url": "https://www.agbi.com/tourism/2026/06/middle-east-drives-jordans-medical-tourism-earnings-to-1bn/"
+ },
+ "kin": [
+  {
+   "to": "amman",
+   "as": "Where the private hospital ring is, and where nearly all of it happens.",
+   "rel": "part"
+  },
+  {
+   "to": "king-hussein-cancer-center",
+   "as": "The specialist centre regional oncology referrals go to.",
+   "rel": "part"
+  },
+  {
+   "to": "israel",
+   "as": "The neighbour whose inbound trade is a tenth the size and regulated by statute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "saudi-arabia",
+   "as": "Named by the hospitals here among their largest source markets.",
+   "rel": "contrast"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "as": "The contrast: here the binding constraint on the trade is a visa, and the association has measured what happens when one tightens.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "who-travels",
+   "as": "The case that undoes the bargain-hunting picture of who a cross-border patient is.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a trade body's count of its own members' patients is read slowly here.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind what this country spends on health per person.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Jordan's medical travel earnings, reported June 2026",
+   "url": "https://www.agbi.com/tourism/2026/06/middle-east-drives-jordans-medical-tourism-earnings-to-1bn/"
+  }
+ ],
+ "sources": [
+  "s:agbi-jordan-2026",
+  "s:jordantimes-2016-drop",
+  "s:wp-pha-jordan",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:agbi-jordan-2026",
+    "note": "the 2016 visa-driven drop is the association's own reported figure; the closing reading of what 230,000 counts is marked inline as inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the ordinary shape of the route, hedged as trade knowledge"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The Arab world's long-standing destination for patients from its own region.",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "amman",
+   "type": "hub",
+   "name": "Amman",
+   "as": "Where the private hospital ring is, and where nearly all of it happens.",
+   "rel": "part"
+  },
+  {
+   "to": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "The specialist centre regional oncology referrals go to.",
+   "rel": "part"
+  },
+  {
+   "to": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "The neighbour whose inbound trade is a tenth the size and regulated by statute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "saudi-arabia",
+   "type": "destination",
+   "name": "Saudi Arabia",
+   "as": "Named by the hospitals here among their largest source markets.",
+   "rel": "contrast"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "type": "rule",
+   "name": "The Schengen visa, for treatment",
+   "as": "The contrast: here the binding constraint on the trade is a visa, and the association has measured what happens when one tightens.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The case that undoes the bargain-hunting picture of who a cross-border patient is.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a trade body's count of its own members' patients is read slowly here.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series behind what this country spends on health per person.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:agbi-jordan-2026",
+   "kind": "news",
+   "title": "Middle East drives Jordan's medical tourism earnings to $1bn",
+   "publisher": "AGBI (Arabian Gulf Business Insight)",
+   "url": "https://www.agbi.com/tourism/2026/06/middle-east-drives-jordans-medical-tourism-earnings-to-1bn/",
+   "accessed": "2026-09-16",
+   "note": "published 17 June 2026, reporting Fawzi Hammouri, president of the Private Hospitals Association, as carried by the Jordan Times"
+  },
+  {
+   "id": "s:jordantimes-2016-drop",
+   "kind": "news",
+   "title": "'Medical tourism sector witnessed 40% drop in first nine months of 2016'",
+   "publisher": "The Jordan Times",
+   "url": "http://www.jordantimes.com/news/local/medical-tourism-sector-witnessed-40-drop-first-nine-months-2016",
+   "accessed": "2026-09-16",
+   "note": "the Private Hospitals Association attributing the drop to visa restrictions on Sudanese, Libyan, Yemeni and Iraqi nationals. The page would not open for this project on the access date; the figure is carried from the publisher's own listing and is flagged for verification."
+  },
+  {
+   "id": "s:wp-pha-jordan",
+   "kind": "web",
+   "title": "Private Hospitals Association (Jordan)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Private_Hospitals_Association_(Jordan)",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:agbi-jordan-2026",
+   "note": "the 2016 visa-driven drop is the association's own reported figure; the closing reading of what 230,000 counts is marked inline as inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the ordinary shape of the route, hedged as trade knowledge"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "egypt",
+   "type": "destination",
+   "name": "Egypt",
+   "as": "The other regional destination Arabic-speaking patients choose between.",
+   "rel": "contrast"
+  },
+  {
+   "from": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "The neighbour whose regional trade is several times larger and regulated by a trade body rather than a statute.",
+   "rel": "contrast"
+  },
+  {
+   "from": "saudi-arabia",
+   "type": "destination",
+   "name": "Saudi Arabia",
+   "as": "One of the places Saudi patients and their escorts have gone for decades.",
+   "rel": "contrast"
+  },
+  {
+   "from": "amman",
+   "type": "hub",
+   "name": "Amman",
+   "as": "The country this cluster is effectively the whole of.",
+   "rel": "whole"
+  },
+  {
+   "from": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "The reason the country is a destination and not only a source market.",
+   "rel": "destination"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Counted by the hospitals that billed them, three quarters of it outpatient work.",
+   "rel": "destination"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The trade built on other countries' wars, where the binding constraint is a visa rather than a price.",
+   "rel": "destination"
+  }
+ ]
+}

@@ -1,0 +1,692 @@
+{
+ "schema": 1,
+ "id": "dental-implant",
+ "type": "procedure",
+ "names": {
+  "name": "Dental implant",
+  "aliases": [
+   "implant fixture",
+   "endosseous implant",
+   "single tooth implant"
+  ],
+  "said": "Clinics say implant and mean one of three things: the screw in the bone, the screw plus the part that sticks through the gum, or the whole tooth. The price list usually means the first."
+ },
+ "etymology": {
+  "root": "implant: Latin in- plus plantare, to plant. Fixture is the trade's own word for the screw, from Latin figere, to fix. Osseointegration — the bone growing onto titanium, which is what the waiting months are for — is Latin os, bone, plus integrare, to make whole.",
+  "tier": "tradition",
+  "note": "Three parts, three prices: fixture, abutment, crown. A page that quotes one number for an implant is quoting one of the three unless it says otherwise."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "dental",
+  "setting": "staged",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "A titanium or ceramic screw is placed in the jaw where a tooth was. Bone grows onto it over months; then an abutment is screwed into it and a crown is cemented or screwed onto that. The surgery is a clinic appointment under local anaesthetic. The waiting is the part that decides how many flights a foreign patient takes.",
+  "story": "The implant is the dental version of the knee implant trap, and the price pages say so plainly enough that nobody has to be caught.\n\nBangkok International Dental Center prices the fixture and the crown in two separate columns. On 16 September 2026 a SIC Swiss Invent fixture is 35,000 baht, a Straumann Roxolid SLA 54,000, a Nobel Biocare titanium 55,000 and a Straumann BLX 70,000 — and in every row the implant crown is a further 25,000 baht. The brand of the screw moves the price by a factor of two at one clinic, on one day.\n\nIn Budapest, Medicare Dental Clinic splits it three ways and prints the lab fee as its own line: a NeoDent or Alpha Bio implant at €381 plus €255 lab, a Straumann or Nobel at €594 plus €398 lab, an abutment at €258 for the first pair and €393 for the second, and a zirconia crown at €226 plus €152 lab. Four lines to finish one tooth.\n\nIn Los Algodones, Sani Dental Group lists a titanium implant at $890, with MXN 17,800 beside it, and a standard implant crown including the abutment at $720. Beside each the clinic prints a \"US COST\" column — $1,290 for the implant, $1,650 for the crown — which is the seller's own comparison and carries no source.\n\nIndexmedica in Kraków is the one page read for this batch that resolves the ambiguity in its own wording: an implant screw at £575, and separately an implant \"complete\" at £1,450, described as \"including implant screw, healing ring, individual abutment and full-ceramic zirconoxide crown\".\n\n*Inference —* the £575 and the £1,450 are the same clinic quoting the same tooth twice. Every comparison a reader makes between two countries is only worth the part-count behind each number.",
+  "how": "One visit to place the fixture, a wait of months while bone integrates, a second visit for the abutment and crown. Clinics selling to foreign patients compress this by fitting a temporary and finishing on a second trip, or by loading the implant immediately where the bone allows. Bone grafting and sinus lifting, needed where the ridge is thin, are priced separately — Budapest lists sinus lifting at €409 per quadrant and bone augmentation at €302 plus the cost of the graft material.",
+  "today": "As of 16 September 2026 a single implant fixture is published at 35,000 to 70,000 baht in Bangkok, €381 plus a €255 lab fee in Budapest, $890 in Los Algodones and £575 in Kraków — with the abutment and the crown extra in each case, and only the Kraków page quoting a finished tooth as its own line at £1,450.",
+  "notes": "This page describes a procedure and the prices published for it. It is not dental advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "No hospital stay: every price read for this record is a clinic fee, not an admission. None of the four price pages states how long osseointegration takes or how many trips it needs, which is the figure a travelling patient most needs, so recovery_weeks stays empty.",
+  "as_of": "2026-09-16",
+  "source": "s:bidc-fees",
+  "url": "https://bangkokdentalcenter.com/fees/"
+ },
+ "prices": [
+  {
+   "procedure": "dental-implant",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 35000,
+   "amount_high": 70000,
+   "currency": "THB",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "the implant fixture only"
+   ],
+   "excludes": [
+    "the implant crown, listed at 25,000 THB in every row",
+    "sterilisation and nursing fee of 150 to 250 baht per visit",
+    "x-rays, medications and clinic service fees",
+    "digital surgical guide, 7,000 THB for one to two teeth"
+   ],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "the clinic's own fee table runs SIC Swiss Invent at 35,000, Straumann Roxolid SLA at 54,000, Nobel Biocare titanium at 55,000, Straumann Roxolid SLActive at 60,000, Straumann BLX at 70,000 and a Zi all-ceramic at 70,000, each against a struck-through higher figure. The page states package rates are applicable till 30 September 2026. Consultation is free, but the page adds that this is \"not inclusive of x-rays, medications, sterilization, nursing fees and clinic service fees that are charged separately\".",
+   "tier": "cited",
+   "usd": 1051.0,
+   "usd_high": 2102.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 381,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "the implant fixture: NeoDent or Alpha Bio"
+   ],
+   "excludes": [
+    "the lab fee of €255 printed as a separate line",
+    "the abutment, €258 for these brands and €393 for Straumann or Nobel",
+    "the crown, €226 plus €152 lab for zirconia",
+    "sinus lifting at €409 per quadrant and bone augmentation at €302 plus the graft"
+   ],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "the premium brands are listed at €594 plus €398 lab. The clinic's own note above the table reads: \"Please note that many treatments include both the treatment price and a separate fabrication/lab fee.\" Finishing one tooth takes four of its price lines.",
+   "tier": "cited",
+   "usd": 440.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 890,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "titanium dental implant, implant only"
+   ],
+   "excludes": [
+    "the standard implant crown including abutment, listed at $720"
+   ],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "listed as $890 with MXN $17,800 beside it, and a Straumann BLX implant-only line at $1,350. The page states \"All prices on this website are Base Price or Starting At price\" and prints a US comparison column — $1,290 against this implant — which is the clinic's own figure with no source attached.",
+   "tier": "cited",
+   "usd": 890.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "PL",
+   "city": "Kraków",
+   "amount": 575,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "implant (screw)"
+   ],
+   "excludes": [
+    "the healing ring, the individual abutment and the crown, which the same page bundles into a separate line"
+   ],
+   "source": "s:indexmedica-prices",
+   "url": "https://www.indexmedica.com/prices/",
+   "note": "the same price list carries an implant \"complete\" at £1,450, described as \"including implant screw, healing ring, individual abutment and full-ceramic zirconoxide crown\", and gives €1,552 for the same item. One clinic, one tooth, two published numbers two and a half times apart, and the wording is what separates them.",
+   "tier": "cited",
+   "usd": 775.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "dental-crown",
+   "as": "The part that goes on top, billed separately on every price list read for this page.",
+   "rel": "part"
+  },
+  {
+   "to": "all-on-four",
+   "as": "What four of these become when a whole jaw is rebuilt on them.",
+   "rel": "whole"
+  },
+  {
+   "to": "full-mouth-restoration",
+   "as": "The larger job single implants are counted into.",
+   "rel": "whole"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the fixture-and-crown split is printed as two columns.",
+   "rel": "destination"
+  },
+  {
+   "to": "hungary",
+   "as": "Where the lab fee is printed as its own line beside every implant.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "as": "Where the border clinics price the implant against a US comparison of their own.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "as": "Where one page quotes both the screw alone and the finished tooth.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "as": "The border town whose dental surgeries this page's Mexican price comes from.",
+   "rel": "place"
+  },
+  {
+   "to": "budapest",
+   "as": "The city whose clinics price implants in parts and sell the parts as packages.",
+   "rel": "place"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The same trap as the joint implant, written smaller and more often.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step that decides whether a quoted implant is a screw or a tooth.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who sees the implant at the six-month check, and who fixes a failed one.",
+   "rel": "risk"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "dental-crown",
+   "tell": "The crown is the visible tooth and the implant is the root it sits on; a quoted implant price usually excludes the crown, and a crown price assumes something to fix it to."
+  }
+ ],
+ "links": [
+  {
+   "label": "BIDC dental fees",
+   "url": "https://bangkokdentalcenter.com/fees/"
+  },
+  {
+   "label": "Indexmedica price list",
+   "url": "https://www.indexmedica.com/prices/"
+  }
+ ],
+ "sources": [
+  "s:bidc-fees",
+  "s:mdental-budapest-prices",
+  "s:sani-dental-prices",
+  "s:indexmedica-prices"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every figure read off the clinic's own fee page on the accessed date; the closing stretch is this project's reasoning"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard staging; the graft and sinus lift prices are cited to the Budapest list"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:bidc-fees"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Dental implant.jpg",
+  "File:Implant dentaire.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A titanium or ceramic screw is placed in the jaw where a tooth was. Bone grows onto it over months; then an abutment is screwed into it and a crown is cemented or screwed onto that.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "The part that goes on top, billed separately on every price list read for this page.",
+   "rel": "part"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "What four of these become when a whole jaw is rebuilt on them.",
+   "rel": "whole"
+  },
+  {
+   "to": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "The larger job single implants are counted into.",
+   "rel": "whole"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the fixture-and-crown split is printed as two columns.",
+   "rel": "destination"
+  },
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "Where the lab fee is printed as its own line beside every implant.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "Where the border clinics price the implant against a US comparison of their own.",
+   "rel": "destination"
+  },
+  {
+   "to": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "Where one page quotes both the screw alone and the finished tooth.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The border town whose dental surgeries this page's Mexican price comes from.",
+   "rel": "place"
+  },
+  {
+   "to": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The city whose clinics price implants in parts and sell the parts as packages.",
+   "rel": "place"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The same trap as the joint implant, written smaller and more often.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step that decides whether a quoted implant is a screw or a tooth.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who sees the implant at the six-month check, and who fixes a failed one.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bidc-fees",
+   "kind": "web",
+   "title": "Dental Fees — standardised treatment fees",
+   "publisher": "Bangkok International Dental Center",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "accessed": "2026-09-16",
+   "note": "implant fixture and implant crown priced in separate columns; page states package rates applicable till 30 September 2026"
+  },
+  {
+   "id": "s:mdental-budapest-prices",
+   "kind": "web",
+   "title": "Treatment Prices",
+   "publisher": "Medicare Dental Clinic, Budapest",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "accessed": "2026-09-16",
+   "note": "treatment price and lab fee shown as separate lines; packages name accommodation and transfers"
+  },
+  {
+   "id": "s:sani-dental-prices",
+   "kind": "web",
+   "title": "Dental Price List in Mexico",
+   "publisher": "Sani Dental Group, Los Algodones",
+   "url": "https://sanidentalgroup.com/price-list",
+   "accessed": "2026-09-16",
+   "note": "prices in US dollars with a Mexican peso figure beside each; the page states every price is a base or starting price"
+  },
+  {
+   "id": "s:indexmedica-prices",
+   "kind": "web",
+   "title": "Prices — dental treatment in Kraków",
+   "publisher": "Index Medica, Kraków",
+   "url": "https://www.indexmedica.com/prices/",
+   "accessed": "2026-09-16",
+   "note": "two tables, one in sterling against a column the clinic labels average UK price, one in euro against average Irish price. Read 16 September 2026: complete implant including screw, healing ring, individual abutment and full-ceramic zirconia crown GBP 1,450 or EUR 1,552; implant screw alone GBP 575; full-ceramic zirconia crown GBP 429 or EUR 469; root canal on a front tooth GBP 120. Examination, x-rays and local anaesthetic are listed free. A deposit of 80% of each stage is due on signing the treatment plan; American Express and Diners Club are not accepted."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "every figure read off the clinic's own fee page on the accessed date; the closing stretch is this project's reasoning"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard staging; the graft and sinus lift prices are cited to the Budapest list"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:bidc-fees"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "argentina",
+   "type": "destination",
+   "name": "Argentina",
+   "as": "The work that brings patients across the land borders, and that no survey here counts.",
+   "rel": "procedure"
+  },
+  {
+   "from": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "The other half of the Australian outflow, and the one that rarely reaches a hospital.",
+   "rel": "procedure"
+  },
+  {
+   "from": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The item that brings most patients here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "croatia",
+   "type": "destination",
+   "name": "Croatia",
+   "as": "The item the Istrian practices are built on.",
+   "rel": "procedure"
+  },
+  {
+   "from": "egypt",
+   "type": "destination",
+   "name": "Egypt",
+   "as": "One of the things the inbound trade here is built on.",
+   "rel": "procedure"
+  },
+  {
+   "from": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The item at the centre of every treatment plan sold here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "lithuania",
+   "type": "destination",
+   "name": "Lithuania",
+   "as": "The commonest reason a foreign patient books a flight here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The item the border clinics sell most, priced per tooth.",
+   "rel": "procedure"
+  },
+  {
+   "from": "morocco",
+   "type": "destination",
+   "name": "Morocco",
+   "as": "The other half of the European end of this trade.",
+   "rel": "procedure"
+  },
+  {
+   "from": "philippines",
+   "type": "destination",
+   "name": "Philippines",
+   "as": "One of the few procedures sold here to visitors at a published price.",
+   "rel": "procedure"
+  },
+  {
+   "from": "poland",
+   "type": "destination",
+   "name": "Poland",
+   "as": "The line item its price lists are built around.",
+   "rel": "procedure"
+  },
+  {
+   "from": "romania",
+   "type": "destination",
+   "name": "Romania",
+   "as": "The item its clinics sell to the diaspora and to their neighbours.",
+   "rel": "procedure"
+  },
+  {
+   "from": "vietnam",
+   "type": "destination",
+   "name": "Vietnam",
+   "as": "The operation the Ho Chi Minh City trade is built on.",
+   "rel": "procedure"
+  },
+  {
+   "from": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The operation the capital's clinics are booked for, priced per implant.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cairo",
+   "type": "hub",
+   "name": "Cairo",
+   "as": "The commonest advertised booking here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "cancun",
+   "type": "hub",
+   "name": "Cancún",
+   "as": "The commonest reason a foreign patient sees a Cancún surgery rather than a Cancún beach.",
+   "rel": "performs"
+  },
+  {
+   "from": "chiang-mai",
+   "type": "hub",
+   "name": "Chiang Mai",
+   "as": "A course of dental work is the commonest reason a visitor stays a month here.",
+   "rel": "procedure"
+  },
+  {
+   "from": "izmir",
+   "type": "hub",
+   "name": "İzmir",
+   "as": "The commonest reason somebody flies to this city rather than the capital.",
+   "rel": "procedure"
+  },
+  {
+   "from": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The operation the town is built on, priced here as a fixture with the crown billed separately.",
+   "rel": "performs"
+  },
+  {
+   "from": "nuevo-progreso",
+   "type": "hub",
+   "name": "Nuevo Progreso",
+   "as": "The largest single item on the street, sold across two visits.",
+   "rel": "performs"
+  },
+  {
+   "from": "panama-city",
+   "type": "hub",
+   "name": "Panama City",
+   "as": "The everyday work of the cluster, bought as often by a resident as by a visitor.",
+   "rel": "performs"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "The shopfront trade strung along the roads into Phuket Town.",
+   "rel": "procedure"
+  },
+  {
+   "from": "san-jose-cr",
+   "type": "hub",
+   "name": "San José, Costa Rica",
+   "as": "The single commonest reason a North American books a flight to this valley.",
+   "rel": "performs"
+  },
+  {
+   "from": "sopron",
+   "type": "hub",
+   "name": "Sopron",
+   "as": "The work that brings a second visit, and the reason a day trip becomes two.",
+   "rel": "procedure"
+  },
+  {
+   "from": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "The shopfront trade along Zhongxiao East Road rather than on the hospital campuses.",
+   "rel": "procedure"
+  },
+  {
+   "from": "vilnius",
+   "type": "hub",
+   "name": "Vilnius",
+   "as": "The short-stay work that fills the rest of the schedule.",
+   "rel": "procedure"
+  },
+  {
+   "from": "warsaw",
+   "type": "hub",
+   "name": "Warsaw",
+   "as": "The commonest booking, priced per implant.",
+   "rel": "procedure"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The single screw this technique uses four of, priced one at a time on the same lists.",
+   "rel": "part"
+  },
+  {
+   "from": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "The root this crown is often screwed to, and the line it is billed apart from.",
+   "rel": "part"
+  },
+  {
+   "from": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "The screws this work is counted in, priced one at a time on the same lists.",
+   "rel": "part"
+  },
+  {
+   "from": "root-canal",
+   "type": "procedure",
+   "name": "Root canal treatment",
+   "as": "The alternative when the tooth cannot be saved, at ten to twenty times the cost.",
+   "rel": "contrast"
+  },
+  {
+   "from": "veneers",
+   "type": "procedure",
+   "name": "Dental veneers",
+   "as": "The other half of a dental travel bill, and the one that needs months rather than days.",
+   "rel": "kin"
+  },
+  {
+   "from": "clinica-biblica",
+   "type": "facility",
+   "name": "Hospital Clínica Bíblica",
+   "as": "The other short chain, and the one that brings back the same patient in stages.",
+   "rel": "performs"
+  },
+  {
+   "from": "bloodborne-virus",
+   "type": "risk",
+   "name": "Bloodborne virus from treatment abroad",
+   "as": "Dental care is the commonest reason US residents travel, and instrument reprocessing is the whole of the exposure.",
+   "rel": "procedure"
+  },
+  {
+   "from": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "Priced per fixture, with the abutment and crown on their own lines.",
+   "rel": "procedure"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "Dentistry is 29 per cent of what the emirate's own count says its visitors came for.",
+   "rel": "procedure"
+  },
+  {
+   "from": "promed",
+   "type": "org",
+   "name": "PROMED",
+   "as": "The work that brings most of Costa Rica's international patients in.",
+   "rel": "procedure"
+  },
+  {
+   "from": "co-payment",
+   "type": "term",
+   "name": "Co-payment",
+   "as": "A treatment where the patient contribution at home is what makes the fare abroad arithmetic.",
+   "rel": "procedure"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Four price lines to finish one tooth, on a page that says so.",
+   "rel": "procedure"
+  }
+ ]
+}

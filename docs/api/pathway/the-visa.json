@@ -1,0 +1,275 @@
+{
+ "id": "the-visa",
+ "names": {
+  "name": "The visa",
+  "aliases": [
+   "medical visa",
+   "treatment visa",
+   "medical attendant visa"
+  ],
+  "said": "Several states run a named medical category; others admit the same patient as a visitor and never count them."
+ },
+ "facets": {
+  "stage": "before-you-fly"
+ },
+ "x_order": 8,
+ "text": {
+  "what": "Entry permission for treatment. Some states issue a dedicated class that names the hospital and admits a companion; others treat a patient arriving for surgery as an ordinary visitor. Which applies decides how long the patient may stay, whether a companion may come, and whether the trip appears in any official count.",
+  "story": "India's e-Visa scheme is one of the explicit ones, and it is worth reading because it states what a state thinks a treatment trip needs. The e-Medical Visa runs \"One year (365 days) from the date of arrival into India\" with multiple entries, and requires a \"Copy of Letter from the Hospital concerned in India on its letterhead which including the date / tentative date which admission have been suggested\". Alongside it sits the e-Medical Attendant Visa, and the rule is numerical: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\". Two — a state's own arithmetic of how many people one patient needs.\n\n*Inference —* the named category cuts both ways. It ties the stay to a hospital letter, so a change of provider on arrival is a paperwork problem as well as a clinical one; and it makes the purpose of travel a matter of record, which matters where a treatment is lawful at the destination and not at home.\n\nWhere no medical class exists, the patient enters as a visitor. Nothing about that is unlawful in itself, but the trip then leaves no trace in migration statistics, which is one reason the counts of who travels for care are as poor as they are.",
+  "how": "A medical class typically wants the hospital's letter, evidence of funds and a return ticket, and it typically runs from a date fixed weeks in advance. Treatment dates move; visa validity does not move with them.\n\nWhat a reader would have to ask: whether the destination issues a medical class at all and whether their nationality is eligible for it, whether the hospital issues the letter before or after the deposit, how many companions the class admits, whether the stay can be extended if recovery runs long, and whether entering as a visitor while intending treatment breaches the terms of that visitor permission.",
+  "today": "As of 16 September 2026 the visa classes that name treatment are held on individual rule records on this site, each naming its own instrument and date. The e-Medical and e-Medical Attendant classes described here are read off the Government of India's own e-Visa page."
+ },
+ "kin": [
+  {
+   "to": "india-e-medical-visa",
+   "as": "The rule this step reads in full.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "thai-medical-visa",
+   "as": "The same instrument in another jurisdiction.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "as": "The European version, and the one with no dedicated treatment class.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "as": "Who the attendant visa is for, and how many of them a state will admit.",
+   "rel": "step"
+  },
+  {
+   "to": "booking-the-flight",
+   "as": "The next step, and the one whose dates the visa constrains.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention",
+   "as": "Why the stated purpose of a trip is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a patient admitted as a visitor is a patient nobody counted.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:india-emedical-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of a medical visa application; the India specifics are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "Entry permission for treatment. Some states issue a dedicated class that names the hospital and admits a companion; others treat a patient arriving for surgery as an ordinary visitor.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The rule this step reads in full.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The same instrument in another jurisdiction.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "type": "rule",
+   "name": "The Schengen visa, for treatment",
+   "as": "The European version, and the one with no dedicated treatment class.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "Who the attendant visa is for, and how many of them a state will admit.",
+   "rel": "step"
+  },
+  {
+   "to": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The next step, and the one whose dates the visa constrains.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "Why the stated purpose of a trip is sometimes the sensitive part.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a patient admitted as a visitor is a patient nobody counted.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:india-emedical-visa",
+   "kind": "web",
+   "title": "e-Visa — e-Medical Visa and e-Medical Attendant Visa",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16",
+   "note": "one year from arrival, multiple entries, hospital letter on letterhead, two attendant visas per patient"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of a medical visa application; the India specifics are cited"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "amman",
+   "type": "hub",
+   "name": "Amman",
+   "as": "The invitation letter the hospital issues is the step that makes the journey possible.",
+   "rel": "step"
+  },
+  {
+   "from": "bogota",
+   "type": "hub",
+   "name": "Bogotá",
+   "as": "Colombia asks for a health visa where the stay runs past ninety days.",
+   "rel": "step"
+  },
+  {
+   "from": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "Colombia's health visa, needed past ninety days, with the hospital itself explaining it.",
+   "rel": "step"
+  },
+  {
+   "from": "clinica-las-americas",
+   "type": "facility",
+   "name": "Clínica Las Américas",
+   "as": "Publishes a step-by-step page on Colombia's medical visa, which is the step its office exists for.",
+   "rel": "step"
+  },
+  {
+   "from": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The permission whose dates the tickets have to sit inside.",
+   "rel": "step"
+  },
+  {
+   "from": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "Where the companion becomes a legal category, and a quota.",
+   "rel": "step"
+  },
+  {
+   "from": "the-deposit",
+   "type": "pathway",
+   "name": "The deposit",
+   "as": "The next step, and one that can fail after the money has gone.",
+   "rel": "step"
+  },
+  {
+   "from": "abortion-travel-law",
+   "type": "rule",
+   "name": "Travelling for a termination",
+   "as": "Why a named purpose of travel matters here.",
+   "rel": "pathway"
+  },
+  {
+   "from": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The step this rule sits inside, and the one the pathway record quotes.",
+   "rel": "pathway"
+  },
+  {
+   "from": "schengen-medical-visa",
+   "type": "rule",
+   "name": "The Schengen visa, for treatment",
+   "as": "The step this rule sits inside.",
+   "rel": "pathway"
+  },
+  {
+   "from": "surrogacy-law",
+   "type": "rule",
+   "name": "Surrogacy law across borders",
+   "as": "Why the stated purpose of a journey matters here more than anywhere else.",
+   "rel": "pathway"
+  },
+  {
+   "from": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The step this rule sits inside.",
+   "rel": "pathway"
+  },
+  {
+   "from": "medical-visa",
+   "type": "term",
+   "name": "Medical visa",
+   "as": "The step in the journey where this class is applied for.",
+   "rel": "step"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The step that decides most of this, and the one no price page prices.",
+   "rel": "step"
+  }
+ ]
+}

@@ -1,0 +1,459 @@
+{
+ "schema": 1,
+ "id": "angioplasty-stent",
+ "type": "procedure",
+ "names": {
+  "name": "Coronary angioplasty and stent",
+  "aliases": [
+   "PCI",
+   "percutaneous coronary intervention",
+   "balloon angioplasty",
+   "stenting"
+  ],
+  "said": "Cardiologists say PCI. Package pages say angioplasty and put the angiogram in front of it, because the diagnostic catheter and the treatment are usually sold as one admission."
+ },
+ "etymology": {
+  "root": "angioplasty: Greek angeion, a vessel, plus plastos, moulded — a vessel remoulded. Stent is said to come from the surname of the nineteenth-century dentist Charles Stent, whose moulding compound gave its name to a support; percutaneous is Latin per cutem, through the skin.",
+  "tier": "tradition",
+  "note": "Transradial means the catheter goes in at the wrist, transfemoral at the groin. Thai package pages price the two differently, the wrist slightly higher."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "cardiac",
+  "setting": "inpatient",
+  "anaesthesia": "sedation"
+ },
+ "text": {
+  "what": "A catheter is threaded from the wrist or the groin to the heart, dye shows where a coronary artery is narrowed, a balloon opens it and a metal mesh tube is left behind to hold it open. Two nights in hospital on the Bangkok packages read for this record. The stent itself is a manufactured device and is priced as one.",
+  "story": "The device is the story, as it is with the knee implant.\n\nBangkok Heart Hospital publishes the diagnostic catheter and the treatment as a ladder: coronary angiography alone at 62,100 baht as a day case through the wrist, 66,700 through the groin with a night, 69,000 through the wrist with a night; angiography with percutaneous coronary intervention at 299,000 baht transfemoral or 322,000 transradial, two nights either way. Prices stated valid until 31 October 2026.\n\nThen the exclusion list, which names the thing the patient came for: the package price does not include \"special device used during procedure\". A stent is a special device. So is a second one, and a third, and most of the pressure-wire and imaging equipment a modern intervention uses. The published price buys the room, the team and the nights; the metal is a separate line that the page does not number.\n\n*Trade practice —* the number of stents is not known until the catheter is in, which is the reason hospitals give for pricing them outside the package, and it is also why a quoted price for this operation is a floor rather than a figure.\n\nWhere the device price is regulated, it is regulated separately from the procedure. Medanta in Gurugram publishes an index of its coronary stent prices alongside the relevant notification of India's price regulator, one document per revision going back years — a hospital publishing what the metal costs because the state requires the ceiling to be visible. No figure from those files is carried here: they are linked documents rather than a page this record could read.",
+  "how": "Local anaesthetic at the puncture site, sedation, a catheter to the coronary ostium, contrast, balloon, stent, a plug or pressure at the puncture site, a night or two of monitoring, then dual antiplatelet medication for months — which is a prescription the travelling patient fills at home and no package read here includes.\n\nThe state versions price the doctor, not the device. The Australian Medicare Benefits Schedule sets item 38307 — percutaneous coronary intervention on one coronary vascular territory, including the angiography and \"transluminal insertion of one or more stents\" — at $2,121.75, with a 75% benefit of $1,591.35, and the descriptor excludes aftercare. One territory: a patient with three diseased arteries generates more than one item.",
+  "today": "As of 17 September 2026 the published Thai package price for angiography with intervention is 299,000 baht through the groin and 322,000 through the wrist, two nights, with the stent outside the package as a special device. The Australian schedule fee for the cardiologist's service on one artery is $2,121.75. Ireland's own admitted-patient price for a percutaneous cardiac intervention at minor complexity is EUR 9,887, and EUR 42,060 at major complexity.",
+  "notes": "This page describes a procedure and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "days_before_flying": 10,
+  "recovery_weeks": 1,
+  "note": "Two nights is the stay named in the Bangkok Heart Hospital angiography-with-intervention packages read for this record; the diagnostic catheter alone is sold as a day case or one night on the same page. The ten-day figure is the CDC's guidance not to fly for ten days after chest surgery, applied here to a chest procedure; a groin or wrist puncture is not a sternotomy and cardiologists' advice varies, which is why this row is hedged. One week is the span usually quoted for return to ordinary activity after an uncomplicated intervention.",
+  "as_of": "2026-09-17",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "angioplasty-stent",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 299000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "coronary angiography and percutaneous coronary intervention, transfemoral",
+    "operating room and recovery room",
+    "specified medical supplies and medications used during the procedure",
+    "the medical team and anaesthesiologist for the specified procedure",
+    "2 nights, including the critical care unit and standard inpatient room as specified",
+    "hospital fee, meals and related equipment during the stay"
+   ],
+   "excludes": [
+    "special device used during the procedure — which is what a stent is",
+    "pre-assessment and medical clearance before the procedure",
+    "other specialists' consultations",
+    "further laboratory tests or investigations",
+    "additional nights in critical care or on the ward",
+    "home medications, including the antiplatelet drugs this procedure commits a patient to"
+   ],
+   "source": "s:bangkokhospital-heart-packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "note": "the transradial version of the same package is 322,000 THB, also 2 nights. Diagnostic angiography alone runs 62,100 THB as a day case to 69,000 with a night. Prices stated valid until 31 October 2026. The exclusion of the special device is the line that decides what this costs.",
+   "tier": "cited",
+   "usd": 8980.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "angioplasty-stent",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 322000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "coronary angiography and percutaneous coronary intervention, transradial",
+    "2 nights",
+    "theatre, team and anaesthesiologist as specified"
+   ],
+   "excludes": [
+    "special device used during the procedure",
+    "pre-assessment",
+    "other specialists",
+    "extra nights",
+    "home medications"
+   ],
+   "source": "s:bangkokhospital-heart-packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "note": "23,000 baht more than the same operation through the groin. The wrist route is generally the safer one for bleeding, and on this page it is the dearer one.",
+   "tier": "cited",
+   "usd": 9671.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "angioplasty-stent",
+   "country": "AU",
+   "amount": 2121.75,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "item 38307: percutaneous coronary intervention on one coronary vascular territory, including selective coronary angiography and all associated imaging, catheter and contrast, and either or both angioplasty and transluminal insertion of one or more stents"
+   ],
+   "excludes": [
+    "aftercare, excluded in the descriptor itself",
+    "the hospital, the ward and the device",
+    "further territories, which fall under their own items"
+   ],
+   "source": "s:mbs-38307",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38307&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $1,591.35, read on 17 September 2026. Unlike the Thai package, the item includes the stents in the service it describes and excludes the aftercare; unlike the Thai package, it is a fee for a doctor rather than a bill for an admission.",
+   "tier": "cited",
+   "usd": 1512.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "angioplasty-stent",
+   "country": "IE",
+   "amount": 9887,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "DRG F19B TRNS-VSCLR PERC CRDC INTERVTN, MINC — transvascular percutaneous cardiac intervention at minor complexity, as an inlier inpatient episode"
+   ],
+   "excludes": [
+    "stays outside the length-of-stay boundaries, which are paid at a per-diem rate above the high boundary",
+    "travel and accommodation"
+   ],
+   "source": "s:hse-abf-2024-inpatient",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "note": "the Irish public system's own price for the admission, and the ceiling on what it repays a patient treated abroad. The major-complexity version of the same group, F19A, is EUR 42,060 — a fourfold spread inside one procedure, which is what a complexity-weighted tariff looks like beside a fixed package price.",
+   "tier": "cited",
+   "usd": 11408.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "cabg",
+   "as": "The open operation this one competes with, at four times the price on the same hospital's page.",
+   "rel": "contrast"
+  },
+  {
+   "to": "heart-valve-replacement",
+   "as": "The other cardiac package on the same Thai list, sold by level and by nights.",
+   "rel": "kin"
+  },
+  {
+   "to": "bangkok-hospital",
+   "as": "Publishes the angiography and intervention packages this page reads, special device excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "medanta",
+   "as": "Publishes an index of its coronary stent prices beside the price regulator's notifications.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The trap by its own name: the stent is the special device the package leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the wrist route costs 23,000 baht more than the groin.",
+   "rel": "destination"
+  },
+  {
+   "to": "india",
+   "as": "Where the state caps what a stent may be sold for and hospitals publish the ceiling.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where the schedule pays for one coronary territory at a time.",
+   "rel": "destination"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which a stent turns out not to be in the stent package.",
+   "rel": "step"
+  },
+  {
+   "to": "counterfeit-medicines",
+   "as": "The neighbouring worry about what is in the box, here about devices rather than drugs.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who prescribes and monitors the antiplatelet drugs after the flight home.",
+   "rel": "risk"
+  },
+  {
+   "to": "tariff",
+   "as": "What the Australian figure on this page is, and why it is not a bill.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "cabg",
+   "tell": "Angioplasty opens an artery from inside through a puncture; bypass sews a new route around it through an opened chest. Hospital pages sell both under heart treatment."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bangkok Heart Hospital — angiography and intervention packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery"
+  },
+  {
+   "label": "MBS item 38307",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38307&qt=item"
+  }
+ ],
+ "sources": [
+  "s:bangkokhospital-heart-packages",
+  "s:mbs-38307",
+  "s:medanta-policy-forms",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:hse-abf-2024-inpatient"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bangkokhospital-heart-packages",
+    "note": "package figures and the exclusion wording read off the hospital's own page on 17 September 2026; the stretch on why devices sit outside the package is marked as trade practice; the Medanta paragraph names the index page without carrying a figure from the linked files"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard procedural description; the Australian item descriptor is cited"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:cdc-yellowbook-medical-tourism"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Coronary angioplasty balloon inflated.png",
+  "File:Stent4 fcm.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A catheter is threaded from the wrist or the groin to the heart, dye shows where a coronary artery is narrowed, a balloon opens it and a metal mesh tube is left behind to hold it open.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The open operation this one competes with, at four times the price on the same hospital's page.",
+   "rel": "contrast"
+  },
+  {
+   "to": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "The other cardiac package on the same Thai list, sold by level and by nights.",
+   "rel": "kin"
+  },
+  {
+   "to": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "Publishes the angiography and intervention packages this page reads, special device excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "Publishes an index of its coronary stent prices beside the price regulator's notifications.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The trap by its own name: the stent is the special device the package leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the wrist route costs 23,000 baht more than the groin.",
+   "rel": "destination"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Where the state caps what a stent may be sold for and hospitals publish the ceiling.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Where the schedule pays for one coronary territory at a time.",
+   "rel": "destination"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which a stent turns out not to be in the stent package.",
+   "rel": "step"
+  },
+  {
+   "to": "counterfeit-medicines",
+   "type": "risk",
+   "name": "Substandard and falsified medicines",
+   "as": "The neighbouring worry about what is in the box, here about devices rather than drugs.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who prescribes and monitors the antiplatelet drugs after the flight home.",
+   "rel": "risk"
+  },
+  {
+   "to": "tariff",
+   "type": "term",
+   "name": "Tariff",
+   "as": "What the Australian figure on this page is, and why it is not a bill.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bangkokhospital-heart-packages",
+   "kind": "web",
+   "title": "Coronary artery angiography / percutaneous coronary intervention and Cardiovascular Surgery — package list",
+   "publisher": "Bangkok Heart Hospital, Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026, prices stated valid until 31 October 2026: CABG Level 1 1,173,000 THB and Level 2 1,437,500 THB, 8 nights each; MICS CABG 1,500,000 THB, 7 nights; valve replacement or repair Level 1 966,000 THB and Level 2 1,196,000 THB, 8 nights; totally 3D endoscopic valve replacement or repair 1,400,000 THB, 7 nights; CAG and PCI transfemoral 299,000 THB and transradial 322,000 THB, 2 nights; CAG alone 62,100 to 69,000 THB. Exclusions name pre-assessment, other specialists' consultations, 'special device used during procedure', extra ICU or ward nights and home medications."
+  },
+  {
+   "id": "s:mbs-38307",
+   "kind": "gov",
+   "title": "MBS item 38307 — percutaneous coronary intervention, one coronary vascular territory",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38307&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $2,121.75, 75% benefit $1,591.35; descriptor covers angioplasty and 'transluminal insertion of one or more stents' on one territory and excludes aftercare"
+  },
+  {
+   "id": "s:medanta-policy-forms",
+   "kind": "web",
+   "title": "Policies & Forms — MRP of coronary stents and orthopaedic knee systems",
+   "publisher": "Medanta",
+   "url": "https://www.medanta.org/policy-and-forms",
+   "accessed": "2026-09-16",
+   "note": "the index names the price documents; the figures themselves sit in linked files"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:hse-abf-2024-inpatient",
+   "kind": "gov",
+   "title": "ABF 2024 Admitted Patient Price List — Inpatient Only",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "accessed": "2026-09-17",
+   "note": "the activity-based-funding inlier inpatient price per diagnosis-related group, linked from the HSE's Northern Ireland Planned Healthcare Scheme claim page and the list behind the CBD and NIPHS repayments. Rows read on 17 September 2026: F06C CRNRY BYPSS-INV INVES MINC EUR 30,040, F06B EUR 34,430, F06A EUR 50,579; F05B CRNRY BYPSS+INV INVES MINC EUR 45,093; F04C CRD VLV INTERVTN+PMP-INV INVES MINC EUR 40,253, F04B EUR 50,628, F04A EUR 80,201; F19B TRNS-VSCLR PERC CRDC INTERVTN MINC EUR 9,887, F19A EUR 42,060; F10B INTERVENTIONAL CRNRY PR + AMI MINC EUR 8,857; M01B MAJOR MALE PELVIC INTERVTNS MINC EUR 19,899, M01A EUR 26,820; M02B TRANSURTH PROSTMY MINC EUR 8,363; N04B HYSTERECTOMY FOR N-MAL MINC EUR 13,282; G10B HERNIA INTERVENTIONS MINC EUR 9,046, G10A MAJC EUR 15,366; H08B LAP CHOLECYSTECTOMY MINC EUR 9,867, H07C OPEN CHOLECYSTECTOMY MINC EUR 16,206. An inlier price assumes a length of stay between the low and high boundaries printed beside it."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bangkokhospital-heart-packages",
+   "note": "package figures and the exclusion wording read off the hospital's own page on 17 September 2026; the stretch on why devices sit outside the package is marked as trade practice; the Medanta paragraph names the index page without carrying a figure from the linked files"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard procedural description; the Australian item descriptor is cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-medical-tourism"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The catheter alternative, a tenth of the price on the same hospital's page and a different argument about who needs which.",
+   "rel": "contrast"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "The catheter procedure whose package carries the same five-word device exclusion.",
+   "rel": "kin"
+  }
+ ]
+}

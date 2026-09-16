@@ -1,0 +1,218 @@
+{
+ "id": "second-opinion",
+ "names": {
+  "name": "The second opinion",
+  "aliases": [
+   "second consultation",
+   "remote opinion"
+  ],
+  "said": "Hospitals abroad sell it as a remote or online opinion; at home it is a referral."
+ },
+ "facets": {
+  "stage": "deciding"
+ },
+ "x_order": 2,
+ "text": {
+  "what": "A second clinician reviews the diagnosis and the proposed operation. It can be sought at home before travelling, or bought from the destination hospital, and the two are different things: one is independent of the provider who would operate, the other is the provider who would operate.",
+  "story": "The case for a second reading is documented inside single health systems rather than across borders. Mayo Clinic reported 286 patients referred into one general internal medicine division between 2009 and 2010: in 21% of cases the diagnosis was completely changed, in 66% it was refined or redefined, and in 12% it was confirmed as given. That study says nothing about travel; it says what happens when one diagnosis is looked at twice.\n\n*Inference —* the transaction changes when the second opinion is sold by the hospital that would perform the operation. The reviewer is then paid by the party whose theatre list the answer fills. Nothing this project could find measures how often a destination hospital's remote opinion disagrees with the referral it was sent.\n\nA remote opinion also runs on whatever the patient managed to send. Imaging that never left the home hospital, a pathology block that was never requested, a drug list written from memory — each is a hole the reviewer cannot see and usually does not flag.",
+  "how": "A remote opinion is normally bought as a fixed fee, paid before review, with records uploaded by the patient. What comes back is commonly a letter naming a proposed procedure and a price. Where the same hospital then operates, the fee is sometimes credited against the package. *Trade practice —* that credit is described on provider pages rather than in any published standard.\n\nThe documentary questions here are: who the reviewing clinician is and where they are registered, what records the review was based on, and whether the opinion is written as a clinical letter or as a quotation.",
+  "today": "As of 16 September 2026 no register this project could read collects the qualifications of clinicians giving remote opinions to patients in other countries, and no published series compares those opinions against the diagnoses they were sent."
+ },
+ "kin": [
+  {
+   "to": "deciding-whether",
+   "as": "The step this one tests.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The material without which a second opinion is an opinion on a summary.",
+   "rel": "step"
+  },
+  {
+   "to": "informed-consent",
+   "as": "What a diagnosis reviewed once cannot fully support.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "What a hospital's remote opinion usually arrives as.",
+   "rel": "step"
+  },
+  {
+   "to": "language-consent",
+   "as": "The same problem one step earlier: an opinion given in a language the patient does not read.",
+   "rel": "risk"
+  }
+ ],
+ "sources": [
+  "s:van-such-second-opinions"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the Mayo figures are cited; the paragraph about who pays the reviewer is marked inference inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a paid remote-opinion service, as providers describe it"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "A second clinician reviews the diagnosis and the proposed operation.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "deciding-whether",
+   "type": "pathway",
+   "name": "Deciding whether to go",
+   "as": "The step this one tests.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The material without which a second opinion is an opinion on a summary.",
+   "rel": "step"
+  },
+  {
+   "to": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "What a diagnosis reviewed once cannot fully support.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "What a hospital's remote opinion usually arrives as.",
+   "rel": "step"
+  },
+  {
+   "to": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "The same problem one step earlier: an opinion given in a language the patient does not read.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:van-such-second-opinions",
+   "kind": "paper",
+   "title": "Extent of diagnostic agreement among medical referrals (J Eval Clin Pract 2017, doi:10.1111/jep.12747), as reported in the Mayo Clinic research release",
+   "publisher": "Van Such M, Lohr R, Beckman T, Naessens JM; release reported by ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2017/04/170404084442.htm",
+   "accessed": "2026-09-16",
+   "note": "figures read off the release, not off the paper: 286 patients referred to one general internal medicine division, 2009–2010"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the Mayo figures are cited; the paragraph about who pays the reviewer is marked inference inline"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of a paid remote-opinion service, as providers describe it"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "Much of what arrives here is a second reading of a scan done at home.",
+   "rel": "step"
+  },
+  {
+   "from": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "The step where a patient learns that the machine exists at all, and in which country.",
+   "rel": "step"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "The step at which an unapproved indication is most often identified as one.",
+   "rel": "step"
+  },
+  {
+   "from": "charite-international",
+   "type": "facility",
+   "name": "Charité International Patients",
+   "as": "Much of what reaches a European university hospital from abroad arrives as a request for a second reading.",
+   "rel": "step"
+  },
+  {
+   "from": "hadassah",
+   "type": "facility",
+   "name": "Hadassah Medical Center",
+   "as": "A hospital reached through a diaspora organisation's networks is often reached for a second reading first.",
+   "rel": "step"
+  },
+  {
+   "from": "deciding-whether",
+   "type": "pathway",
+   "name": "Deciding whether to go",
+   "as": "The next step for a diagnosis that has only been made once.",
+   "rel": "step"
+  },
+  {
+   "from": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The step these records are usually collected for.",
+   "rel": "step"
+  },
+  {
+   "from": "unproven-stem-cell",
+   "type": "risk",
+   "name": "Unproven stem cell treatment",
+   "as": "The step this risk is most often avoided at.",
+   "rel": "step"
+  },
+  {
+   "from": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "What the alternatives half of the doctrine actually requires.",
+   "rel": "step"
+  }
+ ]
+}

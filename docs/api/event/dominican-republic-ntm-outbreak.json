@@ -1,0 +1,288 @@
+{
+ "schema": 1,
+ "id": "dominican-republic-ntm-outbreak",
+ "type": "event",
+ "names": {
+  "name": "The Dominican mycobacterial outbreaks, 2013–14 and 2017",
+  "aliases": [
+   "NTM surgical site infections, Dominican Republic",
+   "M. abscessus cosmetic surgery cluster"
+  ],
+  "said": "Infectious disease physicians in New York called it before anyone else did, because the patients kept arriving at their clinics with the same wound and the same boarding pass."
+ },
+ "region": [
+  "caribbean",
+  "north-america"
+ ],
+ "facets": {
+  "kind": "outbreak",
+  "when": 2017,
+  "iso2": "DO",
+  "status": "one-off"
+ },
+ "text": {
+  "what": "Two multi-state clusters of rapidly growing nontuberculous mycobacteria — environmental bacteria that infect surgical wounds and take months of antibiotics to clear — in United States residents who had cosmetic surgery in the Dominican Republic. The CDC published the first in MMWR in March 2014 and the second in March 2018. They are the longest published outbreak record attached to any destination in this directory.",
+  "story": "The first cluster: \"As of February 21, 2014, a total of 19 cases were identified from five states (New York, 11; Massachusetts, three; Connecticut, two; Maryland, two; and Pennsylvania, one).\" Sixteen were confirmed and three probable. Twelve of the 19 had been operated on at one clinic and seven at seven other Dominican clinics. The commonest operations were liposuction at 74%, abdominoplasty at 58% and breast implantation at 32%. Fourteen were admitted to hospital in the United States and needed repeated corrective surgery and long courses of antibiotics. Of the 16 confirmed, 13 were Mycobacterium abscessus and two M. fortuitum.\n\nThe second, three years later, was larger. By 8 November 2017 the CDC had been notified of 52 patients from nine states; 38, or 73%, met the confirmed case definition — \"A diagnosed SSI and laboratory evidence confirming the presence of NTM in a U.S. resident who underwent a cosmetic surgery procedure in the Dominican Republic since January 1, 2017.\" All the confirmed patients were women, operated on between 4 January and 14 July 2017. They named 14 surgeons at seven surgical centres, and 26 of the 32 with information available — 81% — had been operated on at one centre, CIPLA, which closed temporarily on 8 July 2017. Fourteen of 15 with information needed further surgery after returning home. One patient died.\n\n*Inference —* the shape of both is a practice rather than a person. Rapidly growing mycobacteria live in water and in solutions; a cluster that concentrates in one building and then appears in six others is describing something done in theatres across a city. Neither report reached a denominator — nobody published how many patients travelled for cosmetic surgery to the country in either period — so no rate can be computed from 19 cases or from 38, and this record computes none.",
+  "today": "Both CDC reports stand unrevised, at eight and twelve years old. No later Dominican inspection register was read for this record, and no denominator has been published since."
+ },
+ "geo": {
+  "lat": 18.4861,
+  "lon": -69.9312,
+  "precision": "city",
+  "source": "s:mmwr-ntm-dominican-2018"
+ },
+ "address": {
+  "city": "Santo Domingo",
+  "country": "DO"
+ },
+ "kin": [
+  {
+   "to": "dominican-republic",
+   "as": "The country page, where these two clusters sit beside the trade that produced them.",
+   "rel": "destination"
+  },
+  {
+   "to": "nontuberculous-mycobacteria",
+   "as": "The organism, and why water and solutions are where it comes from.",
+   "rel": "risk"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "What 38 confirmed patients flew home with in 2017.",
+   "rel": "risk"
+  },
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "as": "The later outbreak traced to clinics abroad, fungal rather than bacterial, and found the same way.",
+   "rel": "event"
+  },
+  {
+   "to": "liposuction",
+   "as": "The commonest operation in the 2013–14 cluster, at 74% of cases.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl",
+   "as": "The body operation the Dominican trade is now known for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Fourteen of 19 admitted in the United States in the first cluster; 14 of 15 needing further surgery in the second.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Both outbreaks were found by doctors at home, weeks after discharge abroad.",
+   "rel": "risk"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Two outbreak counts with no denominator between them.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "MMWR 2018 — NTM infections after plastic surgery, Dominican Republic 2017",
+   "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6712a5.htm"
+  },
+  {
+   "label": "MMWR 2014 — rapidly growing NTM wound infections, March 2013–February 2014",
+   "url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm6309a5.htm"
+  }
+ ],
+ "sources": [
+  "s:mmwr-ntm-dominican-2018",
+  "s:mmwr-ntm-dominican-2014",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:mmwr-ntm-dominican-2018"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:mmwr-ntm-dominican-2014",
+    "note": "the first paragraph is read off the 2014 MMWR and the second off the 2018 MMWR; the closing paragraph is marked inference"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "Santo Domingo, where the named centres sit; neither report gives an address"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Two multi-state clusters of rapidly growing nontuberculous mycobacteria — environmental bacteria that infect surgical wounds and take months of antibiotics to clear — in United States residents who had cosmetic surgery…",
+ "region_terms": [
+  {
+   "key": "caribbean",
+   "name": "The Caribbean",
+   "note": "the Dominican Republic, Cuba, Barbados, the Caymans"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "The country page, where these two clusters sit beside the trade that produced them.",
+   "rel": "destination"
+  },
+  {
+   "to": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "The organism, and why water and solutions are where it comes from.",
+   "rel": "risk"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "What 38 confirmed patients flew home with in 2017.",
+   "rel": "risk"
+  },
+  {
+   "to": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "The later outbreak traced to clinics abroad, fungal rather than bacterial, and found the same way.",
+   "rel": "event"
+  },
+  {
+   "to": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The commonest operation in the 2013–14 cluster, at 74% of cases.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "The body operation the Dominican trade is now known for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Fourteen of 19 admitted in the United States in the first cluster; 14 of 15 needing further surgery in the second.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Both outbreaks were found by doctors at home, weeks after discharge abroad.",
+   "rel": "risk"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Two outbreak counts with no denominator between them.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:mmwr-ntm-dominican-2018",
+   "kind": "journal",
+   "title": "Notes from the Field: Nontuberculous Mycobacteria Infections in U.S. Medical Tourists Associated with Plastic Surgery — Dominican Republic, 2017",
+   "publisher": "MMWR Morbidity and Mortality Weekly Report 2018;67(12):369-370, 30 March 2018",
+   "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6712a5.htm",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:mmwr-ntm-dominican-2014",
+   "kind": "journal",
+   "title": "Notes from the Field: Rapidly Growing Nontuberculous Mycobacterium Wound Infections Among Medical Tourists Undergoing Cosmetic Surgeries in the Dominican Republic — Multiple States, March 2013–February 2014",
+   "publisher": "MMWR Morbidity and Mortality Weekly Report 2014;63(9), 7 March 2014",
+   "url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm6309a5.htm",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:mmwr-ntm-dominican-2018"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:mmwr-ntm-dominican-2014",
+   "note": "the first paragraph is read off the 2014 MMWR and the second off the 2018 MMWR; the closing paragraph is marked inference"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:mmwr-ntm-dominican-2018"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "Santo Domingo, where the named centres sit; neither report gives an address"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:mmwr-ntm-dominican-2018"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "The two clusters, in their own record.",
+   "rel": "event"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "The 2017 cluster: 52 patients, nine states, one clinic temporarily closed, three genetic clusters and no single culprit.",
+   "rel": "event"
+  },
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The same, in another destination and another organism.",
+   "rel": "event"
+  },
+  {
+   "from": "nontuberculous-mycobacteria",
+   "type": "risk",
+   "name": "Nontuberculous mycobacteria",
+   "as": "The investigations themselves, with their clinics and dates.",
+   "rel": "event"
+  },
+  {
+   "from": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "The other multi-state outbreak traced to clinics abroad, five years earlier and bacterial rather than fungal.",
+   "rel": "event"
+  }
+ ]
+}

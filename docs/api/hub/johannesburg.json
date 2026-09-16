@@ -1,0 +1,288 @@
+{
+ "schema": 1,
+ "id": "johannesburg",
+ "type": "hub",
+ "names": {
+  "name": "Johannesburg",
+  "aliases": [
+   "Jozi",
+   "Joburg",
+   "eGoli"
+  ],
+  "said": "A referral says Sandton or Parktown and means two different things: the private group's ground, or the academic hospital and the medical school beside it."
+ },
+ "region": [
+  "africa-south"
+ ],
+ "facets": {
+  "iso2": "ZA",
+  "radius_km": 25,
+  "specialty": [
+   "cardiac surgery",
+   "orthopaedics",
+   "cosmetic surgery",
+   "oncology",
+   "transplantation"
+  ],
+  "draws": [
+   "cabg",
+   "knee-replacement",
+   "rhinoplasty",
+   "abdominoplasty",
+   "breast-augmentation"
+  ],
+  "languages": [
+   "English",
+   "isiZulu",
+   "Sesotho",
+   "Afrikaans"
+  ]
+ },
+ "text": {
+  "what": "A city of 4,803,262 at the 2022 census, whose private hospital sector is concentrated in the northern suburbs — Sandton, which the city calls Africa's richest square mile, Rosebank beside it, and Parktown and Houghton to the south of them, where the academic hospital estate sits. Netcare, the largest private hospital group in the country with 49 hospitals, is headquartered in Sandton. Johannesburg takes referrals from across southern and central Africa for cardiac surgery, oncology and transplantation, and sells elective orthopaedic and cosmetic work priced in a currency that has been weak for a long time.",
+  "story": "The structure here is a two-tier system in one city, and the trade lives entirely in the upper tier. Netcare was founded in 1996 and now runs 49 hospitals, 55 Medicross clinics, 5 Prime Cure centres and 15 Akeso psychiatric facilities in South Africa; that estate, and the groups beside it, is what a referral from Lusaka or Harare arrives into.\n\n*Inference —* the referral traffic and the elective traffic are different trades wearing one name. A cardiac patient flown down from central Africa is buying capability that does not exist at home. A patient flying in from Europe for a joint or a cosmetic procedure is buying an exchange rate. The first is medicine crossing a border because of scarcity; the second is medicine crossing a border because of price, and lumping them into one arrivals figure is how this subject gets counted badly.\n\n*Trade practice —* the elective pitch has long been sold with a holiday attached, which is a marketing decision rather than a clinical one, and this directory records that it is made without endorsing the pairing.\n\nThe public estate is the other half of the city and is not this record's subject. A reader should not read the private sector's capacity as the country's.",
+  "how": "*Trade practice —* the Johannesburg arrangement is a quoted estimate from the hospital group's international desk, a deposit, and a surgeon engaged separately — in South African private practice the surgeon, the anaesthetist and the hospital bill separately, so a hospital quote is not the bill. Medical evacuation from other African countries arrives through air ambulance operators and insurers rather than through a web enquiry.",
+  "today": "As of 16 September 2026 this record carries no price row and no inbound patient count for Johannesburg.",
+  "notes": "Twenty-five kilometres from the city point covers the central business district, Parktown, Rosebank, Sandton and Randburg, and reaches the southern suburbs."
+ },
+ "geo": {
+  "lat": -26.2044,
+  "lon": 28.0456,
+  "precision": "city",
+  "source": "s:wp-johannesburg"
+ },
+ "address": {
+  "city": "Johannesburg",
+  "area": "Gauteng",
+  "country": "ZA"
+ },
+ "kin": [
+  {
+   "to": "south-africa",
+   "as": "The country whose private hospital capacity concentrates in this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "cabg",
+   "as": "The work a referral from central Africa most often arrives for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The elective end of the same city, sold on an exchange rate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "The cosmetic line that has long been sold here with a holiday attached.",
+   "rel": "procedure"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "Who pays for the flight home when a referral goes wrong, and on whose insurance.",
+   "rel": "risk"
+  },
+  {
+   "to": "who-travels",
+   "as": "Why a referral patient and an elective patient should never share one arrivals figure.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind the gap between this country's private sector and its public one.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "dubai",
+   "as": "The other destination competing for African referrals, at a longer flight and a higher price.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Netcare",
+   "url": "https://en.wikipedia.org/wiki/Netcare"
+  }
+ ],
+ "sources": [
+  "s:wp-johannesburg",
+  "s:wp-netcare",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-netcare",
+    "note": "paragraphs two and three are marked inline as inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "separate billing by hospital, surgeon and anaesthetist in South African private practice; not read off a page for this record"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-johannesburg"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Sandton City skyline.jpg",
+  "File:Charlotte Maxeke Johannesburg Academic Hospital.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A city of 4,803,262 at the 2022 census, whose private hospital sector is concentrated in the northern suburbs — Sandton, which the city calls Africa's richest square mile, Rosebank beside it, and Parktown and Houghton…",
+ "region_terms": [
+  {
+   "key": "africa-south",
+   "name": "Southern Africa",
+   "note": "South Africa, Namibia, Botswana"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "The country whose private hospital capacity concentrates in this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The work a referral from central Africa most often arrives for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The elective end of the same city, sold on an exchange rate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The cosmetic line that has long been sold here with a holiday attached.",
+   "rel": "procedure"
+  },
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "Who pays for the flight home when a referral goes wrong, and on whose insurance.",
+   "rel": "risk"
+  },
+  {
+   "to": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "Why a referral patient and an elective patient should never share one arrivals figure.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "The series behind the gap between this country's private sector and its public one.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The other destination competing for African referrals, at a longer flight and a higher price.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-johannesburg",
+   "kind": "wikipedia",
+   "title": "Johannesburg",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Johannesburg",
+   "accessed": "2026-09-16",
+   "note": "coordinates, population 4,803,262 at the 2022 census; Sandton, Rosebank, Parktown and Houghton among the northern suburbs"
+  },
+  {
+   "id": "s:wp-netcare",
+   "kind": "wikipedia",
+   "title": "Netcare",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Netcare",
+   "accessed": "2026-09-16",
+   "note": "founded 1996, headquartered in Sandton, Johannesburg; 49 hospitals, 55 Medicross clinics, 5 Prime Cure centres and 15 Akeso psychiatric facilities in South Africa"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-netcare",
+   "note": "paragraphs two and three are marked inline as inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "separate billing by hospital, surgeon and anaesthetist in South African private practice; not read off a page for this record"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-johannesburg"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "The hospital city the regional flow arrives at.",
+   "rel": "part"
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+ "schema": 1,
+ "id": "gastric-sleeve",
+ "type": "procedure",
+ "names": {
+  "name": "Sleeve gastrectomy",
+  "aliases": [
+   "gastric sleeve",
+   "vertical sleeve gastrectomy",
+   "VSG",
+   "sleeve"
+  ],
+  "said": "Surgeons say sleeve gastrectomy. Package pages say gastric sleeve, and put the word all-inclusive in front of it. Nobody's page says irreversible, which is what removing four-fifths of a stomach is."
+ },
+ "etymology": {
+  "root": "gastrectomy: Greek gaster, the stomach, plus ektomē, a cutting out. Sleeve is the shape of what remains — a narrow tube along the lesser curve, the rest cut away and taken out of the body. The word bariatric comes from Greek baros, weight, plus -iatrikē, medical treatment.",
+  "tier": "tradition",
+  "note": "gastrectomy in general surgery usually means removing stomach for cancer. Here it is removal for size, and the distinction matters because the operative risk and the aftercare are different."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "bariatric",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Around 80% of the stomach is removed to leave a much smaller, sleeve-shaped tube, under general anaesthetic and normally through keyhole incisions. The NHS puts the operation at one to three hours. The removed stomach does not grow back and the operation is not reversible. It is the highest-volume operation travelling to Türkiye and Mexico, and the one whose package price is easiest to find and hardest to compare.",
+  "story": "The sleeve suits the package model the way knee replacement does: standard steps, predictable theatre time, a ward stay of a few nights, and a patient who is well enough to fly in for it. The published prices are correspondingly plentiful and correspondingly bare.\n\nRead the exclusion lists and one item recurs. ALO Bariatrics in Tijuana lists among the things its all-inclusive package does not cover: round-trip flights, the travel companion's hotel and meals, pre-operative blood work done in the home country, optional travel-complication insurance, body-contouring surgery — and lifetime daily multivitamins. That last line is the operation's actual long-run cost written into the exclusions of the price that advertises itself as covering everything.\n\n*Trade practice —* what the packages sell is the week. What the operation needs is the decade: annual bloods, B12, iron, calcium and vitamin D for life, a dietitian within reach, and someone to look at a patient who cannot keep fluids down in month four. Follow-up in the Türkiye packages read for this record runs to six months of video consultations in one case and a lifetime messaging line in another, which is a different promise from a clinic appointment.\n\n*Inference —* revision is the exclusion nobody prices. A sleeve that leaks, strictures, or is converted to a bypass years later is a second operation, and none of the package pages read for this record states what it costs or who pays for it. The Türkiye clinic that publishes a 0.6% revision rate does not publish a revision price beside it.",
+  "how": "Bought as a week-long bundle with the hotel inside it, which is the shape that distinguishes bariatric travel from orthopaedic travel. The Istanbul packages read for this record name three to four nights in hospital and three to six in a hotel, airport transfers for the patient and a companion, post-operative medication, and a follow-up period; the Tijuana packages name one to two nights in hospital and one to two in a hotel, with ground transport from San Diego.\n\nWhat consistently sits outside: flights, the companion's meals, extra nights if discharge slips, medication taken home, lifelong vitamins, and any treatment of a complication once the patient has left the country. Body-contouring surgery — the skin left behind by a large weight loss — is excluded by name and is a second journey.\n\nNo regulator read for this record publishes national outcomes for this operation the way the fertility regulators publish cycle outcomes, so the success figures on these pages are the clinics' own. That asymmetry is itself the finding: the fertility half of this batch is measured by registers, and the weight half is measured by its sellers.",
+  "today": "As of September 2026 the published package prices read off clinic pages for this record run at 2,500 to 2,600 EUR in Istanbul, 2,300 to 2,800 pounds at another Istanbul clinic, and 4,295 to 4,580 US dollars in Tijuana — in every case with flights outside, and in the Tijuana case with lifetime vitamins named among the exclusions.",
+  "notes": "This page describes an operation and reads the published package prices attached to it. It is not medical advice and it does not say whether anyone should have the operation."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "days_before_flying": 10,
+  "success_rate_pct": null,
+  "note": "Two nights is the hospital stay named in the Mexico Bariatrics Center package read for this record; it is not a clinical standard, and the packages read here name between one and four nights for the same operation. The ten-day figure is the CDC's guidance not to fly for ten days after abdominal surgery, and a sleeve gastrectomy is abdominal surgery. No national regulator read for this record publishes weight loss, complication or mortality figures for this operation, so those fields stay null and print as gaps; the percentages on clinic pages are the clinics' own and are not carried here.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "gastric-sleeve",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 2600,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "package",
+   "includes": [
+    "pre-operative tests",
+    "the surgery",
+    "3 nights hospitalization",
+    "4 nights 5-star hotel",
+    "airport, hotel and hospital transfers",
+    "all medications",
+    "post-operative leak tests",
+    "lifetime nutritionist support",
+    "emergency hotline access"
+   ],
+   "excludes": [
+    "flights",
+    "treatment of complications after departure",
+    "revision surgery"
+   ],
+   "source": "s:carely-gastric-sleeve",
+   "url": "https://carelyclinic.com/gastric-sleeve-turkey/",
+   "note": "the clinic states the price in three currencies at once — 2,600 EUR, 2,860 USD, 2,210 pounds — which is a page written for three source markets. Last updated January 2026, price stated valid until April 2026. The exclusions listed here are read from what the inclusion list does not contain rather than from a published exclusion list; the page publishes a 0.6% revision rate without publishing a revision price.",
+   "tier": "cited",
+   "usd": 3000.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-sleeve",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 2300,
+   "amount_high": 2800,
+   "currency": "GBP",
+   "as_of": "2025-10-29",
+   "kind": "quoted-range",
+   "includes": [
+    "pre-operative consultation, blood tests, imaging and endoscopy",
+    "surgeon and anaesthesiologist fees",
+    "operating theatre, recovery room and ward stay",
+    "one to two nights of inpatient care",
+    "post-operative medications and vitamin supplements for the initial weeks",
+    "airport transfers for the patient and one accompanying guest",
+    "three to four nights hotel accommodation",
+    "follow-up consultations by video for six months"
+   ],
+   "excludes": [
+    "flights",
+    "vitamin supplements beyond the initial weeks",
+    "follow-up past six months"
+   ],
+   "source": "s:hayatmed-gastric-sleeve",
+   "url": "https://www.hayatmed.com/gastric-sleeve-for-weight-loss/",
+   "note": "page states reviewed on 29 October 2025. Six months of video consultations is the follow-up promised; the supplementation this operation requires runs for life.",
+   "tier": "cited",
+   "usd": 3100.0,
+   "usd_high": 3773.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-sleeve",
+   "country": "TR",
+   "city": "Istanbul",
+   "amount": 2500,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "4 nights in hospital",
+    "personal drivers for each trip",
+    "interpreter in the clinic",
+    "travel insurance"
+   ],
+   "excludes": [
+    "flights"
+   ],
+   "source": "s:euroistanbul-gastric-sleeve",
+   "url": "https://www.euroistanbul.com/gastric-sleeve-all-inclusive-package/",
+   "note": "listed at 2,500 EUR against a struck-through 2,950 EUR; read on 16 September 2026, the page carrying no date of its own. The inclusion list names the interpreter and the driver and does not name the surgeon's fee, the theatre or the medication either way.",
+   "tier": "cited",
+   "usd": 2884.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-sleeve",
+   "country": "MX",
+   "city": "Tijuana",
+   "amount": 4500,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "pre-op consultations and medical evaluation",
+    "all required pre-op blood work in Mexico",
+    "vertical sleeve gastrectomy by a board-certified surgeon",
+    "anaesthesia and anaesthesiologist fees",
+    "1 to 2 nights hospital stay in a private room",
+    "2 nights post-op hotel recovery",
+    "airport, hotel and hospital transfers",
+    "post-op medications",
+    "bilingual coordinator",
+    "nutrition support and follow-up calls"
+   ],
+   "excludes": [
+    "round-trip flights",
+    "travel companion's hotel and meals",
+    "pre-op blood work done in the home country",
+    "lifetime daily multivitamins",
+    "optional travel-complication insurance",
+    "body-contouring surgery",
+    "travel insurance for trip cancellation"
+   ],
+   "source": "s:alo-bariatrics-cost",
+   "url": "https://www.alobariatrics.com/gastric-sleeve-cost/",
+   "note": "listed as from 4,500 USD, read on 16 September 2026. The exclusion list names lifetime daily multivitamins, which is the operation's permanent cost written out in the small print of a price that calls itself all-inclusive.",
+   "tier": "cited",
+   "usd": 4500.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-sleeve",
+   "country": "MX",
+   "city": "Tijuana",
+   "amount": 4295,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "preoperative blood work, EKG and physical evaluation",
+    "ground transportation",
+    "one night pre-op hotel",
+    "two nights hospital",
+    "one night post-op hotel",
+    "surgeon fee",
+    "anaesthesiologist fee",
+    "antibiotics and pain medicine",
+    "aftercare nurse coordinator"
+   ],
+   "excludes": [],
+   "source": "s:mexico-bariatrics-center-sleeve",
+   "url": "https://mexicobariatricscenter.com/portfolio-items/gastric-sleeve-in-mexico/",
+   "note": "stated as an all-inclusive package starting at 4,295 USD for a limited time; the page publishes an inclusion list and no exclusion list at all, which is a harder page to read than one that names what it leaves out. Read on 16 September 2026.",
+   "tier": "cited",
+   "usd": 4295.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "gastric-sleeve",
+   "country": "MX",
+   "city": "Tijuana",
+   "amount": 4580,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "hospital and surgical team",
+    "San Diego to Tijuana transportation",
+    "hotel recovery stay",
+    "anaesthesiologist fees",
+    "one companion free"
+   ],
+   "excludes": [
+    "airfare",
+    "additional hotel nights",
+    "extra medications",
+    "financing fees",
+    "services not listed in the personalized quote"
+   ],
+   "source": "s:tijuana-bariatric-center-cost",
+   "url": "https://tijuanabariatriccenter.com/about/financing/bariatric-surgery-tijuana-cost/",
+   "note": "a starting price on a page that lists eight bariatric operations side by side, from a balloon at 1,880 USD to a duodenal switch at 7,500 USD. Read on 16 September 2026; the page carries no date of its own.",
+   "tier": "cited",
+   "usd": 4580.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "gastric-bypass",
+   "as": "The other permanent operation, more expensive on the same price lists, and where a failed sleeve is often converted to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gastric-balloon",
+   "as": "The temporary device sold from the same pages at a third of the price, and not an operation.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye",
+   "as": "Where the cheapest published packages for this operation are sold, hotel and transfers included.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "as": "The other high-volume destination, reached by road from San Diego rather than by air.",
+   "rel": "destination"
+  },
+  {
+   "to": "istanbul",
+   "as": "The city whose clinics quote this operation in three currencies on one page.",
+   "rel": "place"
+  },
+  {
+   "to": "tijuana",
+   "as": "The border city whose packages include the ground transfer from the United States.",
+   "rel": "place"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who checks the bloods at year three, when the package's six months of video calls have run out.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Who operates when a sleeve leaks, strictures or has to become a bypass.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets how long after this abdominal operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step where lifetime multivitamins are found on the exclusion list of an all-inclusive price.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this operation is sold in, hotel and transfers inside, aftercare outside.",
+   "rel": "term"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "The companion whose flights and meals the package prices separately or not at all.",
+   "rel": "risk"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "gastric-bypass",
+   "tell": "A sleeve removes stomach and leaves the gut intact; a bypass reroutes the small intestine. Packages price them 1,000 to 1,500 US dollars apart and describe both as weight loss surgery."
+  },
+  {
+   "id": "gastric-balloon",
+   "tell": "The balloon is a device placed and removed through the mouth and left in for months; the sleeve removes four-fifths of the stomach permanently."
+  }
+ ],
+ "links": [
+  {
+   "label": "NHS — weight loss surgery, how it's done",
+   "url": "https://www.nhs.uk/conditions/weight-loss-surgery/how-its-done/"
+  },
+  {
+   "label": "ALO Bariatrics — gastric sleeve cost",
+   "url": "https://www.alobariatrics.com/gastric-sleeve-cost/"
+  }
+ ],
+ "sources": [
+  "s:nhs-weight-loss-surgery",
+  "s:nhs-weight-loss-surgery-how",
+  "s:carely-gastric-sleeve",
+  "s:hayatmed-gastric-sleeve",
+  "s:euroistanbul-gastric-sleeve",
+  "s:alo-bariatrics-cost",
+  "s:mexico-bariatrics-center-sleeve",
+  "s:tijuana-bariatric-center-cost",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:nhs-weight-loss-surgery-how"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:alo-bariatrics-cost",
+    "note": "the exclusion list is quoted from the named page; the paragraph on what the decade needs is marked Trade practice and the paragraph on unpriced revision is marked Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:hayatmed-gastric-sleeve"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:cdc-yellowbook-medical-tourism"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:alo-bariatrics-cost"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Sleeve gastrectomy.png",
+  "File:Gastric sleeve surgery diagram.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Around 80% of the stomach is removed to leave a much smaller, sleeve-shaped tube, under general anaesthetic and normally through keyhole incisions. The NHS puts the operation at one to three hours.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "The other permanent operation, more expensive on the same price lists, and where a failed sleeve is often converted to.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gastric-balloon",
+   "type": "procedure",
+   "name": "Gastric balloon",
+   "as": "The temporary device sold from the same pages at a third of the price, and not an operation.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "Where the cheapest published packages for this operation are sold, hotel and transfers included.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The other high-volume destination, reached by road from San Diego rather than by air.",
+   "rel": "destination"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The city whose clinics quote this operation in three currencies on one page.",
+   "rel": "place"
+  },
+  {
+   "to": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "The border city whose packages include the ground transfer from the United States.",
+   "rel": "place"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who checks the bloods at year three, when the package's six months of video calls have run out.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Who operates when a sleeve leaks, strictures or has to become a bypass.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that sets how long after this abdominal operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step where lifetime multivitamins are found on the exclusion list of an all-inclusive price.",
+   "rel": "step"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form this operation is sold in, hotel and transfers inside, aftercare outside.",
+   "rel": "term"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The companion whose flights and meals the package prices separately or not at all.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:nhs-weight-loss-surgery",
+   "kind": "org",
+   "title": "Weight loss surgery",
+   "publisher": "National Health Service (United Kingdom)",
+   "url": "https://www.nhs.uk/conditions/weight-loss-surgery/",
+   "accessed": "2026-09-16",
+   "note": "page last reviewed 5 February 2024"
+  },
+  {
+   "id": "s:nhs-weight-loss-surgery-how",
+   "kind": "org",
+   "title": "Weight loss surgery — how it's done",
+   "publisher": "National Health Service (United Kingdom)",
+   "url": "https://www.nhs.uk/conditions/weight-loss-surgery/how-its-done/",
+   "accessed": "2026-09-16",
+   "note": "page last reviewed 5 February 2024"
+  },
+  {
+   "id": "s:carely-gastric-sleeve",
+   "kind": "web",
+   "title": "Gastric sleeve Turkey — all-inclusive package",
+   "publisher": "Carely Clinic, Istanbul",
+   "url": "https://carelyclinic.com/gastric-sleeve-turkey/",
+   "accessed": "2026-09-16",
+   "note": "page last updated January 2026, price stated valid until April 2026"
+  },
+  {
+   "id": "s:hayatmed-gastric-sleeve",
+   "kind": "web",
+   "title": "Gastric sleeve for weight loss — costs and packages",
+   "publisher": "HayatMed Clinic, Istanbul",
+   "url": "https://www.hayatmed.com/gastric-sleeve-for-weight-loss/",
+   "accessed": "2026-09-16",
+   "note": "page states reviewed on 29 October 2025"
+  },
+  {
+   "id": "s:euroistanbul-gastric-sleeve",
+   "kind": "web",
+   "title": "Gastric sleeve all-inclusive package",
+   "publisher": "Euro Istanbul, Istanbul",
+   "url": "https://www.euroistanbul.com/gastric-sleeve-all-inclusive-package/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:alo-bariatrics-cost",
+   "kind": "web",
+   "title": "Gastric sleeve cost",
+   "publisher": "ALO Bariatrics, Tijuana",
+   "url": "https://www.alobariatrics.com/gastric-sleeve-cost/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:mexico-bariatrics-center-sleeve",
+   "kind": "web",
+   "title": "Gastric sleeve in Mexico",
+   "publisher": "Mexico Bariatrics Center",
+   "url": "https://mexicobariatricscenter.com/portfolio-items/gastric-sleeve-in-mexico/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:tijuana-bariatric-center-cost",
+   "kind": "web",
+   "title": "Bariatric surgery Tijuana cost and what affects pricing",
+   "publisher": "Tijuana Bariatric Center",
+   "url": "https://tijuanabariatriccenter.com/about/financing/bariatric-surgery-tijuana-cost/",
+   "accessed": "2026-09-16",
+   "note": "the page carries no date of its own; prices read on the accessed date"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:nhs-weight-loss-surgery-how"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:alo-bariatrics-cost",
+   "note": "the exclusion list is quoted from the named page; the paragraph on what the decade needs is marked Trade practice and the paragraph on unpriced revision is marked Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:hayatmed-gastric-sleeve"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:alo-bariatrics-cost"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-medical-tourism"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The operation behind the Tijuana trade, and behind the complication series at San Diego.",
+   "rel": "procedure"
+  },
+  {
+   "from": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "Sold here as a fixed all-inclusive package with the hotel in the price.",
+   "rel": "procedure"
+  },
+  {
+   "from": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "Sold here with the convalescence written into the hotel nights.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "The operation this city sells most, and the one named in the 2018–2019 outbreak.",
+   "rel": "performs"
+  },
+  {
+   "from": "tunis",
+   "type": "hub",
+   "name": "Tunis",
+   "as": "The bariatric line beside the cosmetic one.",
+   "rel": "procedure"
+  },
+  {
+   "from": "warsaw",
+   "type": "hub",
+   "name": "Warsaw",
+   "as": "Sold here as a package with the nights named.",
+   "rel": "procedure"
+  },
+  {
+   "from": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "The operation that fills this one's waiting room, and whose patients arrive with skin nobody funded removing.",
+   "rel": "kin"
+  },
+  {
+   "from": "gastric-balloon",
+   "type": "procedure",
+   "name": "Gastric balloon",
+   "as": "The permanent operation on the same price column, at more than twice the price and a different kind of purchase.",
+   "rel": "contrast"
+  },
+  {
+   "from": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "The cheaper operation on the same price lists, and the one a bypass is often a revision of.",
+   "rel": "contrast"
+  },
+  {
+   "from": "clinica-biblica",
+   "type": "facility",
+   "name": "Hospital Clínica Bíblica",
+   "as": "Among the operations the Costa Rican route is bought for, and one of the shortest chains from enquiry to flight.",
+   "rel": "performs"
+  },
+  {
+   "from": "hospital-angeles-tijuana",
+   "type": "facility",
+   "name": "Hospital Angeles Tijuana",
+   "as": "The operation the Tijuana market is built on, and the one the CDC's outbreak investigation followed.",
+   "rel": "performs"
+  },
+  {
+   "from": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "Bariatric surgery, where the underlying weight is itself a risk factor for clots.",
+   "rel": "procedure"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "Abdominal surgery sold in packages shorter than the interval the guidance names.",
+   "rel": "procedure"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Where lifetime daily multivitamins sit in the exclusions of an operation that requires them.",
+   "rel": "procedure"
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "schema": 1,
+ "id": "natural-earth-countries",
+ "type": "dataset",
+ "names": {
+  "name": "Natural Earth country outlines",
+  "aliases": [
+   "ne_110m_admin_0_countries",
+   "Admin 0 – Countries"
+  ],
+  "said": "Cartographers say Admin 0 and mean the national outline. Every map on this site is drawn from one file of them."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "Natural Earth"
+ },
+ "text": {
+  "what": "The country shapes every map on this site is drawn with. Natural Earth's Admin 0 countries at 1:110 million, fetched once and simplified: 220 country rows, 357 rings, 6,571 coordinate pairs at two decimal places. A closer file sits beside it for the detail maps — the same 220 countries from the 1:50 million source, 1,303 rings and 29,823 points at three decimal places. Public domain, in the publisher's own words: \"No permission is needed to use Natural Earth.\"",
+  "story": "The coarseness is deliberate. These maps are about nine hundred pixels wide, and a coastline drawn finer than a pixel costs bandwidth and shows nothing; the rings are reduced by Douglas–Peucker at 0.2° for the world map and 0.05° for the close-ups.\n\nThe file's join key is what matters for the rest of the site. Every chart, table and country page keys on ISO 3166-1 alpha-2, and Natural Earth leaves that field as -99 for a handful of places, so tools/fetch_geo.py patches five by name: France and Norway, whose codes sit on dependency rows, and Kosovo, Somaliland and northern Cyprus, which have no ISO alpha-2 at all. The patched codes — XK, XS, XN — are placeholders this project chose, and they will not match a World Bank series, because no such series carries a row for them.\n\n*Inference —* that is not a technicality for this subject, and one of the placeholders is worse than a blank. XN in the World Bank's tables is not a place at all but the aggregate Lower middle income, which carried 0.71 physicians per 1,000 in 2022 — so a map that joined blindly on the code would paint northern Cyprus, a fertility destination this directory writes about, with an income group's average. Taiwan has an ISO code and an outline here and carries no value in any of the five World Bank series on this disk. Monaco, Macau and the Vatican have no polygon at all.",
+  "how": "tools/fetch_geo.py downloads the GeoJSON from the Natural Earth vector repository, keeps every country with an ISO alpha-2 code, simplifies each ring and rounds coordinates. The 1:110m file omits several small states, small island states and city states; those are filled in from the 1:50m file so the country list is one list.",
+  "notes": "Names in the file are the file's own: Turkey rather than Türkiye, United States of America, Dem. Rep. Congo. This site carries its own names in the records and uses the outlines only for geometry. Natural Earth's terms add that its authors \"are not responsible for any problems relating to accuracy, content, design, and how it is used\", and boundaries drawn at this scale are a cartographic convenience, not a statement about a border."
+ },
+ "dataset": {
+  "publisher": "Natural Earth",
+  "url": "https://www.naturalearthdata.com/downloads/",
+  "api": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+  "license": "Public domain",
+  "unit": "polygon rings, [lon, lat]",
+  "years": "a versioned release, fetched 16 September 2026",
+  "countries": 220,
+  "updated_by_publisher": "on release, every few years",
+  "counts": "National outlines: one row per country with an ISO 3166-1 alpha-2 code, simplified for a screen-width map.",
+  "does_not_count": "Anything about the people inside the outline. It is geometry, and it joins to the rest of this site only through a country code — so a place with no ISO alpha-2 code, or one too small to carry a polygon at this scale, silently drops out of every map and every chart. Northern Cyprus, Kosovo and Somaliland are here under codes this project invented for them; Monaco, Macau and the Vatican are not here at all. Disputed borders are drawn one way at one scale and are not a ruling on anything."
+ },
+ "kin": [
+  {
+   "to": "world-bank-health-spending",
+   "as": "What the outlines are coloured by, joined on the country code.",
+   "rel": "dataset"
+  },
+  {
+   "to": "north-cyprus",
+   "as": "Carried here under a placeholder code, and therefore absent from every series keyed on ISO.",
+   "rel": "measures"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The other map layer: this one draws countries, that one draws the clinics inside nine of them.",
+   "rel": "dataset"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A country that has no code has no row, and a missing row looks like an empty country.",
+   "rel": "story"
+  },
+  {
+   "to": "how-this-was-built",
+   "as": "The simplification, the rounding and the five patched codes are all in the method.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Natural Earth downloads",
+   "url": "https://www.naturalearthdata.com/downloads/"
+  },
+  {
+   "label": "Natural Earth terms of use",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  }
+ ],
+ "sources": [
+  "s:natural-earth",
+  "s:natural-earth-terms"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "harvested",
+    "source": "s:natural-earth",
+    "note": "ring and point counts taken off data/geo/countries.json on 2026-09-17; the closing paragraph is marked inference"
+   },
+   "text.notes": {
+    "tier": "cited",
+    "source": "s:natural-earth-terms"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The country shapes every map on this site is drawn with. Natural Earth's Admin 0 countries at 1:110 million, fetched once and simplified: 220 country rows, 357 rings, 6,571 coordinate pairs at two decimal places.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "What the outlines are coloured by, joined on the country code.",
+   "rel": "dataset"
+  },
+  {
+   "to": "north-cyprus",
+   "type": "destination",
+   "name": "Northern Cyprus",
+   "as": "Carried here under a placeholder code, and therefore absent from every series keyed on ISO.",
+   "rel": "measures"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The other map layer: this one draws countries, that one draws the clinics inside nine of them.",
+   "rel": "dataset"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A country that has no code has no row, and a missing row looks like an empty country.",
+   "rel": "story"
+  },
+  {
+   "to": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The simplification, the rounding and the five patched codes are all in the method.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth-terms",
+   "kind": "web",
+   "title": "Terms of Use",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "license": "Public domain",
+   "accessed": "2026-09-17",
+   "note": "'All versions of Natural Earth raster + vector map data found on this website are in the public domain.' and 'No permission is needed to use Natural Earth.' The same page disclaims responsibility for accuracy and content."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "text.story": {
+   "tier": "harvested",
+   "source": "s:natural-earth",
+   "note": "ring and point counts taken off data/geo/countries.json on 2026-09-17; the closing paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The geometry every Equal Earth map is drawn from, and the codes that drop out of it.",
+   "rel": "dataset"
+  },
+  {
+   "from": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "The geometry every map joins through, and the codes that drop out of it silently.",
+   "rel": "dataset"
+  }
+ ]
+}

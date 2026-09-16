@@ -1,0 +1,507 @@
+{
+ "schema": 1,
+ "id": "defiant",
+ "type": "org",
+ "names": {
+  "name": "Defiant",
+  "aliases": [
+   "defiant.to"
+  ],
+  "said": "The trade word for what it does is facilitator. It calls itself a concierge, which is the same job with a better chair."
+ },
+ "region": [
+  "southeast-asia",
+  "north-america"
+ ],
+ "facets": {
+  "iso2": "TH",
+  "kind": "facilitator",
+  "status": "open"
+ },
+ "text": {
+  "what": "A medical-travel facilitator based in Chiang Mai, working with patients from the United States. It posts indicative prices for every procedure it routes, charges a flat fee rather than a commission on the treatment, and puts an interpreter in the consultation. As of 17 September 2026 its price index carries 73 procedures across 12 specialties, from orthopaedics and dental through cardiovascular, fertility, gender-affirming surgery and oncology to infusion therapies sold outside any approved indication.",
+  "story": "The facilitator is the least regulated link in this whole chain. No country on the cast list licenses them, the content analyses that exist — Penney and colleagues read seventeen Canadian broker sites in 2010 — found that most published no risk information and few named an accreditation, and a broker's incentive usually sits on the side of the sale.\n\nThe three things worth reading on any of them are therefore structural rather than reputational: how they are paid, whether the price is posted before the consultation, and who they answer to when it goes wrong. This one is paid a stated flat fee rather than a share of the hospital bill, posts a price index, and publishes a piece on what recourse a foreign patient actually has under Thai law — which is an unusual thing for a broker to write down, because the answer is not flattering to the trade.\n\n*Inference —* the flat fee is the part that changes the arithmetic. A facilitator paid a percentage of the treatment earns more when the patient buys the larger operation at the dearer hospital; one paid a fixed fee does not, whatever else is true of it.",
+  "how": "Intake by form, then a quoted package. The company's own site states that a person answers within a day, that the patient pays the local rate rather than a foreigner tariff, that a professional interpreter attends every appointment, and that \"every price on the table before you commit\". Its wider expatriate practice covers visas, banking and relocation alongside the treatment, which is the shape a facilitator takes when its clients are residents rather than visitors.",
+  "today": "Working from Chiang Mai across US time zones as of September 2026. Its price index names the hospitals each procedure routes to — Bumrungrad, Bangkok Hospital, MedPark, Vejthani, Kamol, Preecha, Rutnin and others — which is more than most facilitators publish. Its numbers are advertised ranges rather than hospital package prices, and they sit on this site's price charts in that colour.",
+  "notes": "Disclosure: this directory and Defiant are run by the same person. The record is written to the same rules as every other organization here — the claims are attributed to the company's own pages, and none of them has been audited by this project."
+ },
+ "geo": {
+  "lat": 18.7883,
+  "lon": 98.9853,
+  "precision": "city",
+  "source": "s:defiant-site"
+ },
+ "address": {
+  "city": "Chiang Mai",
+  "country": "TH"
+ },
+ "links": [
+  {
+   "label": "Defiant",
+   "url": "https://defiant.to/"
+  },
+  {
+   "label": "Its price index",
+   "url": "https://defiant.to/procedures/"
+  },
+  {
+   "label": "What recourse a patient has",
+   "url": "https://defiant.to/recourse/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "choosing-a-facilitator",
+   "as": "One named example of the link in the chain that step is about.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "as": "The trade word for what this company is.",
+   "rel": "term"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "Works out of this cluster.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "as": "Routes its patients inside this country.",
+   "rel": "destination"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Publishes its own account of what recourse a foreign patient has under Thai law.",
+   "rel": "risk"
+  },
+  {
+   "to": "language-consent",
+   "as": "Its stated answer to the language barrier is an interpreter at every appointment.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, with the price posted before the consultation.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where a facilitator like this one enters the story.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:defiant-site",
+  "s:defiant-prices",
+  "s:defiant-protection"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:defiant-site"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the structural reading of how facilitators are paid; the survey of broker sites it rests on is cited on the pathway record"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:defiant-site",
+    "note": "the company's own statements about its own service, unaudited by this project"
+   }
+  }
+ },
+ "confidence": "medium",
+ "updated": "2026-09-17",
+ "prices": [
+  {
+   "procedure": "knee-replacement",
+   "country": "TH",
+   "amount": 10000,
+   "amount_high": 16000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 10000.0,
+   "usd_high": 16000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "hip-replacement",
+   "country": "TH",
+   "amount": 11000,
+   "amount_high": 17000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 11000.0,
+   "usd_high": 17000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "shoulder-replacement",
+   "country": "TH",
+   "amount": 10000,
+   "amount_high": 15000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 10000.0,
+   "usd_high": 15000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "spinal-fusion",
+   "country": "TH",
+   "amount": 15000,
+   "amount_high": 40000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 15000.0,
+   "usd_high": 40000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "knee-arthroscopy",
+   "country": "TH",
+   "amount": 3000,
+   "amount_high": 7000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 3000.0,
+   "usd_high": 7000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "dental-implant",
+   "country": "TH",
+   "amount": 1000,
+   "amount_high": 1800,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 1000.0,
+   "usd_high": 1800.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "rhinoplasty",
+   "country": "TH",
+   "amount": 2000,
+   "amount_high": 5000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 2000.0,
+   "usd_high": 5000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "facelift",
+   "country": "TH",
+   "amount": 4000,
+   "amount_high": 9000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 4000.0,
+   "usd_high": 9000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "liposuction",
+   "country": "TH",
+   "amount": 1500,
+   "amount_high": 4000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 1500.0,
+   "usd_high": 4000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "abdominoplasty",
+   "country": "TH",
+   "amount": 3500,
+   "amount_high": 6500,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 3500.0,
+   "usd_high": 6500.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "breast-augmentation",
+   "country": "TH",
+   "amount": 3000,
+   "amount_high": 5500,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 3000.0,
+   "usd_high": 5500.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "hair-transplant-fue",
+   "country": "TH",
+   "amount": 2500,
+   "amount_high": 6000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 2500.0,
+   "usd_high": 6000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "egg-freezing",
+   "country": "TH",
+   "amount": 3500,
+   "amount_high": 6000,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 3500.0,
+   "usd_high": 6000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "executive-health-screening",
+   "country": "TH",
+   "amount": 400,
+   "amount_high": 1200,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "source": "s:defiant-prices",
+   "url": "https://defiant.to/procedures/",
+   "note": "A facilitator's advertised range for work routed to Thai hospitals, not a hospital's own package price. The page states every number is indicative and every quote is confirmed in writing before booking. It also prints a US comparison beside each row; that comparison names no source and is not carried here.",
+   "tier": "cited",
+   "usd": 400.0,
+   "usd_high": 1200.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "blurb": "A medical-travel facilitator based in Chiang Mai, working with patients from the United States.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "One named example of the link in the chain that step is about.",
+   "rel": "step"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The trade word for what this company is.",
+   "rel": "term"
+  },
+  {
+   "to": "chiang-mai",
+   "type": "hub",
+   "name": "Chiang Mai",
+   "as": "Works out of this cluster.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Routes its patients inside this country.",
+   "rel": "destination"
+  },
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "Publishes its own account of what recourse a foreign patient has under Thai law.",
+   "rel": "risk"
+  },
+  {
+   "to": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "Its stated answer to the language barrier is an interpreter at every appointment.",
+   "rel": "risk"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, with the price posted before the consultation.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The step where a facilitator like this one enters the story.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:defiant-site",
+   "kind": "web",
+   "title": "Defiant — medical travel concierge, Chiang Mai",
+   "publisher": "Defiant (defiant.to)",
+   "url": "https://defiant.to/",
+   "accessed": "2026-09-16",
+   "note": "the company's own site; the pricing model, the interpreter commitment and the procedure list are read off it"
+  },
+  {
+   "id": "s:defiant-prices",
+   "kind": "web",
+   "title": "Defiant — posted prices index",
+   "publisher": "Defiant (defiant.to)",
+   "url": "https://defiant.to/procedures/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:defiant-protection",
+   "kind": "web",
+   "title": "Defiant — how you're protected",
+   "publisher": "Defiant (defiant.to)",
+   "url": "https://defiant.to/recourse/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:defiant-site"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the structural reading of how facilitators are paid; the survey of broker sites it rests on is cited on the pathway record"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:defiant-site",
+   "note": "the company's own statements about its own service, unaudited by this project"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:defiant-site"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:defiant-site"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:defiant-site"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:defiant-site"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "One facilitator routing patients into this country, with its prices posted.",
+   "rel": "org"
+  },
+  {
+   "from": "chiang-mai",
+   "type": "hub",
+   "name": "Chiang Mai",
+   "as": "A facilitator working out of this city.",
+   "rel": "org"
+  },
+  {
+   "from": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "A named facilitator, listed here because its fee basis and its posted prices are the two things this step says are worth reading; this directory and it share an owner.",
+   "rel": "org"
+  },
+  {
+   "from": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "A named firm doing this job, described in the same voice as any other.",
+   "rel": "org"
+  }
+ ]
+}

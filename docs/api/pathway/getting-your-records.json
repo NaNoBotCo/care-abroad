@@ -1,0 +1,293 @@
+{
+ "id": "getting-your-records",
+ "names": {
+  "name": "Getting your records out",
+  "aliases": [
+   "medical records request",
+   "records portability",
+   "subject access request"
+  ],
+  "said": "Data-protection lawyers say subject access. Hospitals say records release. Both mean the same envelope."
+ },
+ "facets": {
+  "stage": "deciding"
+ },
+ "x_order": 3,
+ "text": {
+  "what": "The patient asks the home health system for a copy of their own file — imaging, operation notes, pathology, drug list — so that a clinician in another country can read it. Two different bodies of law govern the request, and neither of them was written with a foreign surgeon in mind.",
+  "story": "In the European Union the right is squarely written. GDPR Article 15(3) states that \"The controller shall provide a copy of the personal data undergoing processing\", with a reasonable administrative fee permitted only for further copies. Article 20 adds portability — a structured, commonly used, machine-readable format, and direct transmission from one controller to another \"where technically feasible\" — but only where the processing rests on consent or on a contract and is carried out by automated means, which is not the footing most public hospital records sit on.\n\nDirective 2011/24/EU adds a health-specific right in both directions: the Member State of treatment must ensure patients are \"entitled to a written or electronic medical record\" of the treatment and \"access to at least a copy of this record\" (Article 4(2)(f)), and the Member State of affiliation must ensure patients have \"remote access to or have at least a copy of their medical records\" (Article 5(d)).\n\nIn the United States the instrument is 45 CFR § 164.524. A covered entity must act within 30 days, may take one 30-day extension on written notice, must provide the record \"in the form and format requested by the individual, if it readily producible in such form and format\", and may charge only \"a reasonable, cost-based fee\".\n\n*Inference —* none of those instruments reaches the second half of the journey. A patient travelling from a country with no equivalent statute has whatever the hospital's own policy gives, and a patient asking a hospital abroad for the record of what it did to them is asking under that country's law, not their own.",
+  "how": "What actually fails is mechanical. Imaging arrives as a disc in a viewer nobody abroad can open, or as a report without the images. Pathology sits as a block in a laboratory that releases it only to another laboratory. A thirty-day clock, lawful at home, lands after the flight. The file comes in a language the receiving surgeon does not read, and no one in the transaction owns the translation.\n\nThe CDC Yellow Book pushes the same request in the other direction, telling travellers to \"request copies of their overseas medical records in English\" and to hand them to whoever provides follow-up, and citing the American College of Surgeons on obtaining \"a complete set of medical records before returning home\".",
+  "today": "As of 16 September 2026 the legal right to a copy is strong in the EU and the United States and undocumented in much of the rest of the world as far as this project could read. What no instrument anywhere supplies is a format both ends can open and a translation somebody is responsible for."
+ },
+ "kin": [
+  {
+   "to": "second-opinion",
+   "as": "The step these records are usually collected for.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The same request made in the other direction, at the far end.",
+   "rel": "step"
+  },
+  {
+   "to": "patient-data-transfer",
+   "as": "The rule that governs moving a file across a border.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "Names the record right on both sides of an EU cross-border episode.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "What a record that never arrives becomes at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "informed-consent",
+   "as": "What the receiving surgeon is consenting the patient to without the file.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:gdpr-art-15",
+  "s:gdpr-art-20",
+  "s:hipaa-access-164-524",
+  "s:dir-2011-24-chapter-ii",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the failure modes are trade knowledge; the CDC paragraph is cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "The patient asks the home health system for a copy of their own file — imaging, operation notes, pathology, drug list — so that a clinician in another country can read it.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "The step these records are usually collected for.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The same request made in the other direction, at the far end.",
+   "rel": "step"
+  },
+  {
+   "to": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "The rule that governs moving a file across a border.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "Names the record right on both sides of an EU cross-border episode.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "What a record that never arrives becomes at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "What the receiving surgeon is consenting the patient to without the file.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:gdpr-art-15",
+   "kind": "law",
+   "title": "Article 15 — Right of access by the data subject, Regulation (EU) 2016/679 (GDPR)",
+   "publisher": "gdpr-info.eu, consolidated text of Regulation (EU) 2016/679",
+   "url": "https://gdpr-info.eu/art-15-gdpr/",
+   "accessed": "2026-09-16",
+   "note": "read for the right to obtain a copy of personal data undergoing processing, and the fee permitted for further copies"
+  },
+  {
+   "id": "s:gdpr-art-20",
+   "kind": "law",
+   "title": "Article 20 — Right to data portability, Regulation (EU) 2016/679 (GDPR)",
+   "publisher": "gdpr-info.eu, consolidated text of Regulation (EU) 2016/679",
+   "url": "https://gdpr-info.eu/art-20-gdpr/",
+   "accessed": "2026-09-16",
+   "note": "applicable when processing rests on consent or on a contract and is carried out by automated means; direct controller-to-controller transmission only where technically feasible"
+  },
+  {
+   "id": "s:hipaa-access-164-524",
+   "kind": "law",
+   "title": "45 CFR § 164.524 — Access of individuals to protected health information",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/45/164.524",
+   "accessed": "2026-09-16",
+   "note": "30 days to act, one 30-day extension on written notice, form and format as requested where readily producible, reasonable cost-based fee"
+  },
+  {
+   "id": "s:dir-2011-24-chapter-ii",
+   "kind": "law",
+   "title": "Directive 2011/24/EU, Chapter II — responsibilities of the Member State of treatment and of affiliation, Articles 4 to 6",
+   "publisher": "legislation.gov.uk, retained text of Directive 2011/24/EU",
+   "url": "https://www.legislation.gov.uk/cy/eudr/2011/24/chapter/II/data.htm?view=plain",
+   "accessed": "2026-09-16",
+   "note": "read for Art 4(2)(b) invoices and prices, 4(2)(c) complaints and redress, 4(2)(d) professional liability insurance, 4(2)(f) copy of the medical record, 5(d) access to records, and Art 6 national contact points"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the failure modes are trade knowledge; the CDC paragraph is cited"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "assisted-dying",
+   "type": "procedure",
+   "name": "Assisted dying",
+   "as": "The medical file assembled at home is what the Swiss doctor decides on.",
+   "rel": "step"
+  },
+  {
+   "from": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "The prescription and the serology are what the receiving unit books on.",
+   "rel": "step"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The report travels as a PDF; the images usually need asking for before departure.",
+   "rel": "step"
+  },
+  {
+   "from": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "The imaging a distant unit needs before it will accept a referral.",
+   "rel": "step"
+  },
+  {
+   "from": "anadolu-medical-center",
+   "type": "facility",
+   "name": "Anadolu Medical Center",
+   "as": "An oncology referral here starts with slides and imaging rather than with a form.",
+   "rel": "step"
+  },
+  {
+   "from": "charite-international",
+   "type": "facility",
+   "name": "Charité International Patients",
+   "as": "The German route starts with reports and imaging, and nothing else happens until a specialist has read them.",
+   "rel": "step"
+  },
+  {
+   "from": "second-opinion",
+   "type": "pathway",
+   "name": "The second opinion",
+   "as": "The material without which a second opinion is an opinion on a summary.",
+   "rel": "step"
+  },
+  {
+   "from": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The same request, made in the other direction before departure.",
+   "rel": "step"
+  },
+  {
+   "from": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "The step that decides what the assessing team has to grade from.",
+   "rel": "step"
+  },
+  {
+   "from": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The step that decides whether anyone at home can tell what was done.",
+   "rel": "step"
+  },
+  {
+   "from": "language-consent",
+   "type": "risk",
+   "name": "Consent taken across a language barrier",
+   "as": "The other translation nobody in the transaction owns.",
+   "rel": "step"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "The step this rule governs, at the front of the journey.",
+   "rel": "step"
+  },
+  {
+   "from": "informed-consent",
+   "type": "term",
+   "name": "Informed consent",
+   "as": "The file without which a receiving surgeon is consenting a patient blind.",
+   "rel": "step"
+  }
+ ]
+}

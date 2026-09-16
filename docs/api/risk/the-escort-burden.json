@@ -1,0 +1,331 @@
+{
+ "id": "the-escort-burden",
+ "names": {
+  "name": "The escort burden",
+  "aliases": [
+   "the companion's costs",
+   "medical attendant",
+   "refakatci",
+   "accompanying person"
+  ],
+  "said": "India caps them at two. Dubai pays them by the day. Nobody bills for the work they do."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "financial"
+ },
+ "text": {
+  "what": "What the person travelling beside the patient carries: a second fare and a second bed, unpaid leave, and the nursing after discharge that no package quotes. Three states have written the escort into an instrument - one capping how many may come, one paying them a daily allowance, one putting their charges on an invoice. None of the three measures the labour.",
+  "story": "The hard number is a visa quota. India's Bureau of Immigration grants the e-Medical Attendant Visa alongside the patient's own, and caps it: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\". That is an immigration rule, not a clinical finding, and it is still the clearest published statement of how many people a state expects a treatment trip to involve.\n\nThe Gulf prices them. Dubai's Administrative Resolution No. (14) of 2017, the bylaw for sending patients for overseas medical treatment, entitles a patient aged 18 or over to one escort and a patient under 18 to two, named as both parents; two again for a patient of 65 or over, or paralysed, comatose or disabled. The allowance schedule sets the daily rate by destination: EUR 150 for the patient and EUR 150 for the first escort in European countries outside the United Kingdom with EUR 50 for the second, GBP 120 and GBP 50 in the United Kingdom, USD 150 and USD 50 in the United States, USD 130 and USD 50 in Singapore and South Korea, AED 300 and AED 100 in India, Thailand and Arab countries. Article 6 of the same bylaw pays for interpreting, medical devices, air ambulance where needed, and repatriation of the body if the patient dies.\n\nTurkiye bills them. The 2017 regulation on international health travel defines the licensed intermediary as a group A travel agency authorised to supply accommodation, transport and transfer \"to the patient and the accompanying companion and other relatives\" (Article 4(1)(g)), and Article 11(1)(b)(1) requires that intermediary to hand over, free on request, an itemised breakdown of what it charged for accommodation, transport and transfer, interpreting and consultancy. The companion is a line item.\n\n*Inference -* a per-diem schedule is a floor, not a measure. It prices a bed and a meal for a person a state has decided to send. It says nothing about the wage that person is not earning, the leave they are spending, or the hours of care they provide after discharge - and those three, not the airfare, are the bulk of what the escort carries. Nobody has measured any of them in this population.",
+  "how": "What the job is, in the words of the one guidance that describes it: the Royal College of Anaesthetists asks that after a general or regional anaesthetic \"a responsible adult should escort the patient home and provide support for the first 24 hours after surgery\", by private car or taxi rather than public transport. Abroad, that single sentence expands. The companion is the second listener at a consent conversation run through an interpreter, the memory of what was said when the discharge summary is thin, the person who rebooks the flight when the patient cannot fly on the booked date, and the one who lifts.\n\nThe cost sits in places a price comparison does not reach: a second ticket bought on the same dates, a hotel room for the length of the stay rather than the length of the admission, days of unpaid leave, and, where the patient is a child or is over 65, a second escort at a second set of rates.\n\n*Trade practice -* packages that name a companion usually name a bed, not a service - a second bed in the room, or a hotel night for the nights the package covers. Whether a relative may stay overnight on the ward, and at what charge, is set hospital by hospital.",
+  "today": "As of 17 September 2026 the published figures attached to the companion are a cap and a set of per diems: two attendants per patient under India's e-Visa rules, and Dubai's daily allowance schedule by destination country. Both are what a state pays or permits. No survey, registry or study this project has found measures what a companion spends, how many patients travel with one, or what care they provide after discharge."
+ },
+ "metrics": {
+  "note": "Two published numbers, both set by a state rather than measured in a population. India's Bureau of Immigration grants at most two e-Medical Attendant Visas against one e-Medical Visa. Dubai's Administrative Resolution No. (14) of 2017 pays one escort for an adult patient and two for a patient under 18, over 65, paralysed, comatose or disabled, at EUR 150 a day for the first escort in European countries outside the United Kingdom, GBP 120 in the United Kingdom, USD 150 in the United States, USD 130 in Singapore and South Korea and AED 300 in India, Thailand and Arab countries, with EUR 50, GBP 50, USD 50 and AED 100 respectively for a second escort. Neither figure counts companions, measures their spending, or values the care they give.",
+  "as_of": "2017",
+  "source": "s:dubai-resolution-14-2017",
+  "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html"
+ },
+ "kin": [
+  {
+   "to": "the-companion",
+   "as": "The step this risk is the price of.",
+   "rel": "step"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The instrument that caps the escort at two, and the only hard count anywhere.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "as": "The scheme that pays the escort a daily allowance, and sets it by destination.",
+   "rel": "rule"
+  },
+  {
+   "to": "uae",
+   "as": "Where that allowance schedule was published, in a bylaw of the Dubai Health Authority.",
+   "rel": "destination"
+  },
+  {
+   "to": "alone-after-discharge",
+   "as": "What happens where no companion travelled.",
+   "rel": "kin"
+  },
+  {
+   "to": "day-case",
+   "as": "The category that assumes somebody is there by evening; abroad, that somebody flew in.",
+   "rel": "term"
+  },
+  {
+   "to": "package-price",
+   "as": "The number the second fare and the second bed sit outside.",
+   "rel": "term"
+  },
+  {
+   "to": "booking-the-flight",
+   "as": "The step at which the second ticket is bought, on dates the surgery may move.",
+   "rel": "step"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "The other cost a state names in the same bylaw, and a private buyer meets alone.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Administrative Resolution No. (14) of 2017 (Dubai)",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html"
+  },
+  {
+   "label": "Bureau of Immigration, Government of India - e-Visa",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html"
+  }
+ ],
+ "sources": [
+  "s:dubai-resolution-14-2017",
+  "s:india-emedical-visa",
+  "s:rg-saglik-turizmi-2017",
+  "s:rcoa-gpas-day-surgery-2021"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:dubai-resolution-14-2017",
+    "note": "the Dubai rates and escort entitlements are read off the bylaw; the Indian cap off the Bureau of Immigration page; the Turkish articles in Turkish off the Resmi Gazete text as published on 13 July 2017. The closing paragraph is marked *Inference -*"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:rcoa-gpas-day-surgery-2021",
+    "note": "the description of the job quotes the day surgery guidance; the closing paragraph is marked as trade practice"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:dubai-resolution-14-2017"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-17",
+ "blurb": "What the person travelling beside the patient carries: a second fare and a second bed, unpaid leave, and the nursing after discharge that no package quotes.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The step this risk is the price of.",
+   "rel": "step"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The instrument that caps the escort at two, and the only hard count anywhere.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The scheme that pays the escort a daily allowance, and sets it by destination.",
+   "rel": "rule"
+  },
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "Where that allowance schedule was published, in a bylaw of the Dubai Health Authority.",
+   "rel": "destination"
+  },
+  {
+   "to": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "What happens where no companion travelled.",
+   "rel": "kin"
+  },
+  {
+   "to": "day-case",
+   "type": "term",
+   "name": "Day case",
+   "as": "The category that assumes somebody is there by evening; abroad, that somebody flew in.",
+   "rel": "term"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The number the second fare and the second bed sit outside.",
+   "rel": "term"
+  },
+  {
+   "to": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The step at which the second ticket is bought, on dates the surgery may move.",
+   "rel": "step"
+  },
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The other cost a state names in the same bylaw, and a private buyer meets alone.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dubai-resolution-14-2017",
+   "kind": "law",
+   "title": "Administrative Resolution No. (14) of 2017 Approving the Bylaw for Sending Patients for Overseas Medical Treatment",
+   "publisher": "Government of Dubai Legislation portal",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Administrative%20Resolution%20No.%20(14)%20of%202017%20Approving%20the%20Bylaw%20for%20Sending%20Patients.html",
+   "accessed": "2026-09-16",
+   "note": "issued 6 February 2017 by the Director General of the Dubai Health Authority; sets eligibility, what the state pays, escort entitlement and a daily allowance schedule by destination country"
+  },
+  {
+   "id": "s:india-emedical-visa",
+   "kind": "web",
+   "title": "e-Visa — e-Medical Visa and e-Medical Attendant Visa",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16",
+   "note": "one year from arrival, multiple entries, hospital letter on letterhead, two attendant visas per patient"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:rcoa-gpas-day-surgery-2021",
+   "kind": "org",
+   "title": "Chapter 6: Guidelines for the Provision of Anaesthesia Services for Day Surgery 2021, published 31 March 2021",
+   "publisher": "The Royal College of Anaesthetists (United Kingdom)",
+   "url": "https://rcoa.ac.uk/gpas/chapter-6",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page is refused to a plain fetch. Recommendation 5.25 (grade C, strong) on a responsible adult escorting the patient home and supporting them for 24 hours; 5.26 on private car or taxi; 5.24 on a 24-hour telephone number that is not an answerphone; 5.7 on preoperative assessment as early as possible in the pathway; 5.29 on the patient's copy of the discharge summary"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017",
+   "note": "the Dubai rates and escort entitlements are read off the bylaw; the Indian cap off the Bureau of Immigration page; the Turkish articles in Turkish off the Resmi Gazete text as published on 13 July 2017. The closing paragraph is marked *Inference -*"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:rcoa-gpas-day-surgery-2021",
+   "note": "the description of the job quotes the day surgery guidance; the closing paragraph is marked as trade practice"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:dubai-resolution-14-2017"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "Counted here in permit refusals: most Gaza companion applications in 2022 were not approved in time.",
+   "rel": "risk"
+  },
+  {
+   "from": "saudi-arabia",
+   "type": "destination",
+   "name": "Saudi Arabia",
+   "as": "Paid for here by the sponsor, which is what makes this a source market rather than a trickle.",
+   "rel": "risk"
+  },
+  {
+   "from": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "Written into this state's own bylaw, with a per-diem attached to it.",
+   "rel": "risk"
+  },
+  {
+   "from": "amman",
+   "type": "hub",
+   "name": "Amman",
+   "as": "Here the companion is part of the arrangement, and often several people rather than one.",
+   "rel": "risk"
+  },
+  {
+   "from": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "A hundred days near the centre with a full-time carer, which no package price covers.",
+   "rel": "risk"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The companion whose flights and meals the package prices separately or not at all.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The risk record for what this person carries.",
+   "rel": "risk"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The same person, costed: what it takes to have anyone there at all.",
+   "rel": "kin"
+  },
+  {
+   "from": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "Who signs the guarantee when the patient cannot.",
+   "rel": "kin"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "Written into this authority's own bylaw, with a daily allowance attached.",
+   "rel": "risk"
+  }
+ ]
+}

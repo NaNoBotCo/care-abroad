@@ -1,0 +1,587 @@
+{
+ "schema": 1,
+ "id": "bumrungrad",
+ "type": "facility",
+ "names": {
+  "name": "Bumrungrad International Hospital",
+  "aliases": [
+   "Bumrungrad",
+   "โรงพยาบาลบำรุงราษฎร์"
+  ],
+  "said": "Bam-roong-raat. The name means care of the people; in Bangkok it is simply Bumrungrad, and the taxi knows Sukhumvit Soi 3."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "TH",
+  "ownership": "private",
+  "founded": 1980,
+  "specialty": [
+   "orthopaedics",
+   "cardiology",
+   "oncology",
+   "fertility",
+   "spine",
+   "health screening"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement"
+  ],
+  "status": "open",
+  "languages": [
+   "Thai",
+   "English",
+   "Arabic",
+   "Japanese",
+   "Mandarin"
+  ]
+ },
+ "text": {
+  "what": "A private hospital on Sukhumvit Soi 3 in Bangkok, opened in 1980 with 200 beds and listed on the Stock Exchange of Thailand since 1989. It treats more international patients than any other single hospital in the region and publishes fixed package prices for the operations it sells most, which is why it appears throughout this directory's price table.",
+  "story": "Bumrungrad opened on 17 September 1980 as a 200-bed hospital on an initial investment of 90 million baht, and listed on the Thai exchange on 15 December 1989 under the ticker BH. Its major shareholders include Bangkok Bank, Bangkok Insurance and the Sophonpanich family.\n\nIt took Joint Commission International accreditation in 2002, among the first hospitals in Asia to do so, and has been reaccredited five consecutive times. *Inference —* the accreditation mattered less as a clinical fact than as a translation device: it gave an American insurer, and an American patient, a name they already recognised for a hospital eight thousand miles away.\n\nBy 2018 the hospital was reporting more than 1.1 million patients a year, over 520,000 of them international, from more than 190 countries. Those are the hospital's own counts of patient visits, not of individual people, and this directory carries them as such.",
+  "how": "The international patient side works the way most large Asian private hospitals work: an inquiry desk that answers in several languages, a quoted package for standard operations, a deposit, an interpreter for the consultation, and a discharge summary the patient carries home. Prices for its commonest orthopaedic and spinal work sit on public package pages with a stated validity date. The implant is billed separately from the operation on the joint packages.",
+  "today": "As of 16 September 2026 the hospital lists a unilateral total knee replacement at 356,500 baht excluding the implant, and prices its bilateral, robotic and hip packages on the same public pages. The site's footer names the JCI accreditation. Package prices are stated valid until 31 December 2026."
+ },
+ "geo": {
+  "lat": 13.74639,
+  "lon": 100.5525,
+  "precision": "street",
+  "source": "s:wp-bumrungrad"
+ },
+ "address": {
+  "street": "33 Sukhumvit Soi 3, Wattana",
+  "city": "Bangkok",
+  "country": "TH",
+  "postcode": "10110"
+ },
+ "metrics": {
+  "beds": 643,
+  "annual_patients": 1100000,
+  "annual_foreign_patients": 520000,
+  "foreign_patient_countries": 190,
+  "note": "Beds are the 2019 figure — 580 inpatient plus 63 ICU. The patient counts are the hospital's 2018 reporting and count visits rather than people; a patient who comes back three times is three. Nothing here is audited by this project.",
+  "as_of": "2019",
+  "source": "s:wp-bumrungrad",
+  "url": "https://en.wikipedia.org/wiki/Bumrungrad_International_Hospital"
+ },
+ "tags": [
+  {
+   "tag": "price-published",
+   "source": "s:bumrungrad-joint04",
+   "tier": "cited",
+   "note": "public package pages with prices and a stated validity date",
+   "url": "https://www.bumrungrad.com/en/packages"
+  },
+  {
+   "tag": "package",
+   "source": "s:bumrungrad-joint04",
+   "tier": "cited",
+   "note": "fixed-price packages naming inclusions and exclusions"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:wp-bumrungrad",
+   "tier": "cited"
+  },
+  {
+   "tag": "listed-company",
+   "source": "s:wp-bumrungrad",
+   "tier": "cited",
+   "note": "Stock Exchange of Thailand, ticker BH, listed 15 December 1989"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:wp-bumrungrad",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation, first granted 2002 and renewed five consecutive times",
+   "year": 2002,
+   "valid_until": null,
+   "source": "s:wp-bumrungrad",
+   "url": "https://www.jointcommissioninternational.org/",
+   "note": "JCI accreditation runs in three-year cycles; the hospital's own footer states it as current"
+  }
+ ],
+ "kin": [
+  {
+   "to": "knee-replacement",
+   "as": "One of the operations it sells at a published fixed price, implant excluded.",
+   "rel": "performs"
+  },
+  {
+   "to": "bangkok",
+   "as": "The hospital the Bangkok cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "as": "The single institution most often meant when Thailand is called a destination.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditor whose mark it took in 2002, early for Asia.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, with the inclusions and exclusions written out.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "Its joint packages are priced without the implant, which the page states.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/"
+  },
+  {
+   "label": "Packages and programs",
+   "url": "https://www.bumrungrad.com/en/packages"
+  }
+ ],
+ "sources": [
+  "s:wp-bumrungrad",
+  "s:bumrungrad-joint04",
+  "s:bumrungrad-packages"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of an international patient department at a large Asian private hospital"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-bumrungrad"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Bumrungrad International Hospital.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A private hospital on Sukhumvit Soi 3 in Bangkok, opened in 1980 with 200 beds and listed on the Stock Exchange of Thailand since 1989.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "One of the operations it sells at a published fixed price, implant excluded.",
+   "rel": "performs"
+  },
+  {
+   "to": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The hospital the Bangkok cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The single institution most often meant when Thailand is called a destination.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The accreditor whose mark it took in 2002, early for Asia.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, with the inclusions and exclusions written out.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "Its joint packages are priced without the implant, which the page states.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bumrungrad",
+   "kind": "wikipedia",
+   "title": "Bumrungrad International Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bumrungrad_International_Hospital",
+   "accessed": "2026-09-16",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  },
+  {
+   "id": "s:bumrungrad-packages",
+   "kind": "web",
+   "title": "Packages & Programs — joint replacement and spine",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of an international patient department at a large Asian private hospital"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-bumrungrad"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:bumrungrad-joint04",
+   "note": "public package pages with prices and a stated validity date",
+   "tier": "cited",
+   "url": "https://www.bumrungrad.com/en/packages"
+  },
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:bumrungrad-joint04",
+   "note": "fixed-price packages naming inclusions and exclusions",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:wp-bumrungrad",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "listed-company",
+   "label": "Publicly listed",
+   "icon": "📈",
+   "group": "ownership",
+   "evidence": "an exchange listing or an annual report",
+   "source": "s:wp-bumrungrad",
+   "note": "Stock Exchange of Thailand, ticker BH, listed 15 December 1989",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:wp-bumrungrad",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation, first granted 2002 and renewed five consecutive times",
+   "url": "https://www.jointcommissioninternational.org/",
+   "kind": "international",
+   "year": 2002,
+   "valid_until": null,
+   "source": "s:wp-bumrungrad"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The hospital that made the format, and the country's shorthand abroad.",
+   "rel": "part"
+  },
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The hospital on Sukhumvit Soi 3 that the cluster is usually named for.",
+   "rel": "part"
+  },
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "Packages this operation with meniscus work and two nights.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "Publishes the phacoemulsification package this page reads, monofocal lens included and the consultation excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "disc-replacement",
+   "type": "procedure",
+   "name": "Artificial disc replacement",
+   "as": "Publishes the one-level cervical disc replacement package this page reads, prosthesis excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Publishes the executive package this record reads, with its validity date and its exclusions.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "Publishes the cholecystectomy packages this page reads, keyhole and robotic.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "Publishes the eight hernia prices this page reads, mesh unnamed inside the supplies line.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "Publishes the four-night hip package this page reads, implant excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "Publishes the laparoscopic hysterectomy package this page reads, energy devices excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "icl",
+   "type": "procedure",
+   "name": "Implantable collamer lens",
+   "as": "Publishes the ICL package this page reads, lens included and screening excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "knee-arthroscopy",
+   "type": "procedure",
+   "name": "Knee arthroscopy",
+   "as": "Packages repair and resection of the meniscus at one price with one night.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Publishes the knee package this page reads, implant excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "Sells the lenticule version of this operation for both eyes, screening excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "Publishes both prostate packages this page reads, the ward round excluded from the larger one.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "shoulder-replacement",
+   "type": "procedure",
+   "name": "Total shoulder replacement",
+   "as": "Publishes arthroscopic shoulder packages and no shoulder replacement price.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "Publishes both the cervical and the lumbar fusion packages this page reads.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "albert-einstein-sao-paulo",
+   "type": "facility",
+   "name": "Hospital Israelita Albert Einstein",
+   "as": "Took the same mark three years later in Bangkok, and built a much larger foreign trade on it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "The other large Bangkok private hospital that prices operations publicly; it quotes joints, this one quotes arthroscopy and robotic abdominal work.",
+   "rel": "contrast"
+  },
+  {
+   "from": "charite-international",
+   "type": "facility",
+   "name": "Charité International Patients",
+   "as": "A menu against a referral: a published fixed price and an open door, against a clinical decision taken before any figure exists.",
+   "rel": "contrast"
+  },
+  {
+   "from": "heidelberg-university-hospital",
+   "type": "facility",
+   "name": "Heidelberg University Hospital",
+   "as": "A package caps the patient's exposure at the advertised figure; a pre-payment against an estimate does not.",
+   "rel": "contrast"
+  },
+  {
+   "from": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "The comparison a joint patient actually faces: a Thai package without the implant against an Indian bill with the implant priced.",
+   "rel": "contrast"
+  },
+  {
+   "from": "samitivej",
+   "type": "facility",
+   "name": "Samitivej Sukhumvit Hospital",
+   "as": "The nearer comparison on price transparency: both publish, one leads with operations and this one with annual check-ups.",
+   "rel": "contrast"
+  },
+  {
+   "from": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "Publishes the package whose ward nights and exclusions this step reads.",
+   "rel": "place"
+  },
+  {
+   "from": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Publishes an exclusion list this step quotes.",
+   "rel": "place"
+  },
+  {
+   "from": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "Publishes the eligibility list that names ASA III and above.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "Publishes the package this record is built on, exclusion stated in the title.",
+   "rel": "performed-at"
+  },
+  {
+   "from": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Took this mark in 2002, early for Asia, and has renewed it five times.",
+   "rel": "accredits"
+  },
+  {
+   "from": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "One of the private hospitals holding this mark alongside the imported one.",
+   "rel": "accredits"
+  },
+  {
+   "from": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "A hospital whose foreign-patient services are named in these terms rather than the other.",
+   "rel": "facility"
+  },
+  {
+   "from": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "On the list since 2002, the first hospital in Asia to be.",
+   "rel": "facility"
+  },
+  {
+   "from": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "Publishes the Bangkok package that forms one half of the comparison.",
+   "rel": "facility"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Took the mark in 2002, early for Asia, and states it in its own footer.",
+   "rel": "facility"
+  }
+ ]
+}

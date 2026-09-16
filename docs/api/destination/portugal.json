@@ -1,0 +1,273 @@
+{
+ "schema": 1,
+ "id": "portugal",
+ "type": "destination",
+ "names": {
+  "name": "Portugal",
+  "aliases": [
+   "Portuguesa",
+   "República Portuguesa"
+  ],
+  "said": "In the fertility trade Portugal is the country that lost its donors in a single ruling, and the clinics say so plainly when they explain the waiting list."
+ },
+ "region": [
+  "europe-south"
+ ],
+ "facets": {
+  "iso2": "PT",
+  "direction": "both",
+  "currency": "EUR",
+  "languages": [
+   "Portuguese",
+   "English",
+   "Spanish",
+   "French"
+  ],
+  "draws": [
+   "ivf",
+   "egg-donation",
+   "dental-implant",
+   "hip-replacement"
+  ]
+ },
+ "text": {
+  "what": "A country whose fertility market was rewritten by its own Constitutional Court. Portugal runs private clinics that treat Portuguese and foreign patients, but the rule on donor identity changed in 2018 and the donor supply changed with it. Portugal is also the one EU country that refused every cross-border reimbursement request it received in 2022.",
+  "story": "In Ruling 225/2018 the Constitutional Court examined Law 32/2006 on medically assisted procreation, as amended in 2016, against the Constitution. The challenge ran at two provisions: Article 8 on gestational surrogacy and Article 15 on donor anonymity, which the applicants argued defeated a child's right to know its origins under Article 26. The court's page sets out that framing; what followed in practice is the part the clinics describe — donation in Portugal after that ruling is not anonymous, and a donor pool recruited on anonymity does not transfer to a register.\n\n*Inference —* the result was a redirection rather than a reduction. A treatment that needs a donor still needs one, and the nearest jurisdiction where donation stays anonymous is across the land border. Spain's registry records Portuguese residents in its 2022 foreign-patient table, though at 93 cycles, 0.3%, they are a small line — and small partly because Portuguese patients in Spain who give a Spanish address are not in that column at all.\n\nOn the state side Portugal is an outlier in the Commission's data for a different reason: it received 27 requests for reimbursement of care not subject to prior authorisation in 2022 and refused all 27, the only country in the EU to refuse everything it received. It authorised all seven of its prior-authorisation requests, and it was one of the main countries of treatment for patients affiliated in Luxembourg, with 137 authorised cases.",
+  "how": "Private clinics quote fertility programmes in euro with medication outside; the state system treats residents. For a patient needing donated gametes the practical question is not price but supply, and the answer since 2018 has been a register rather than an anonymous pool. Cross-border reimbursement runs through the national contact point, which refused every application it received in the year last reported.",
+  "today": "The dated facts are a 2018 ruling and 2022 reimbursement figures. What is not published anywhere this project could read is how many treatment cycles Portuguese clinics have run for foreign patients since the ruling, or how many Portuguese patients crossed into Spain because of it."
+ },
+ "geo": {
+  "lat": 38.7223,
+  "lon": -9.1393,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "27 requests for reimbursement of care not subject to prior authorisation in 2022, all 27 refused — the only EU country to refuse every request. Seven prior-authorisation requests, all authorised; 137 patients affiliated in Luxembourg were authorised for treatment in Portugal.",
+  "as_of": "2022",
+  "source": "s:ec-crossborder-2022"
+ },
+ "legality": [
+  {
+   "country": "PT",
+   "status": "lawful-with-conditions",
+   "conditions": "Medically assisted procreation is governed by Law 32/2006 as amended; in Ruling 225/2018 the Constitutional Court considered the surrogacy and donor-anonymity provisions of that law against the constitutional right to know one's origins.",
+   "instrument": "Law 32/2006 on medically assisted procreation, as amended by Laws 17/2016 and 25/2016; Constitutional Court Ruling 225/2018",
+   "as_of": "2018",
+   "source": "s:tc-portugal-225-2018",
+   "url": "https://www.tribunalconstitucional.pt/tc/en/acordaos/20180225.html",
+   "note": "read from the court's own English summary page. The row is dated 2018 and later amendments to the law are not read here; a stale row is a wrong row, and the donor-anonymity rule record carries its own reading."
+  }
+ ],
+ "kin": [
+  {
+   "to": "spain",
+   "as": "The neighbour a Portuguese patient crosses to when a donor is needed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment the 2018 ruling reshaped here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The programme whose donor pool the ruling emptied.",
+   "rel": "procedure"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The rule this country changed by constitutional decision rather than by statute.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route whose Portuguese applications were all refused in the last reported year.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "What a ruling about a child's rights did to its parents' travel plans.",
+   "rel": "term"
+  }
+ ],
+ "links": [
+  {
+   "label": "Tribunal Constitucional — Ruling 225/2018",
+   "url": "https://www.tribunalconstitucional.pt/tc/en/acordaos/20180225.html"
+  }
+ ],
+ "sources": [
+  "s:tc-portugal-225-2018",
+  "s:ec-crossborder-2022",
+  "s:sef-registro-2022",
+  "s:eu-directive-2011-24",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:tc-portugal-225-2018",
+    "note": "the ruling's framing is from the court's page and the figures from the Commission and the Spanish registry; the middle paragraph is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "clinic practice; the refusal figure is cited"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Lisbon Hospital de Santa Maria.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A country whose fertility market was rewritten by its own Constitutional Court.",
+ "region_terms": [
+  {
+   "key": "europe-south",
+   "name": "Southern Europe",
+   "note": "Spain, Portugal, Italy, Greece, Cyprus, Malta"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "The neighbour a Portuguese patient crosses to when a donor is needed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The treatment the 2018 ruling reshaped here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "The programme whose donor pool the ruling emptied.",
+   "rel": "procedure"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "The rule this country changed by constitutional decision rather than by statute.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route whose Portuguese applications were all refused in the last reported year.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "What a ruling about a child's rights did to its parents' travel plans.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:tc-portugal-225-2018",
+   "kind": "law",
+   "title": "Ruling 225/2018 (Acórdão n.º 225/2018) — medically assisted procreation, donor anonymity and surrogacy",
+   "publisher": "Tribunal Constitucional, Portugal",
+   "url": "https://www.tribunalconstitucional.pt/tc/en/acordaos/20180225.html",
+   "accessed": "2026-09-16",
+   "note": "the court's own English summary page. The challenge ran against Law 32/2006 as amended by Laws 17/2016 and 25/2016: Article 8 on gestational surrogacy and Article 15 on donor anonymity, argued against the child's right to know its origins under Article 26 of the Constitution."
+  },
+  {
+   "id": "s:ec-crossborder-2022",
+   "kind": "report",
+   "title": "Member State data on cross-border patient healthcare following Directive 2011/24/EU — reference year 2022",
+   "publisher": "European Commission, DG Health and Food Safety, Unit B.3; written by PredictBy Research and Consulting and Baltic Media; Publications Office of the European Union",
+   "url": "https://health.ec.europa.eu/document/download/69e33702-c7cc-4f0e-afc0-f3cf13e127ab_en?filename=crossborder_2022_patient-healthcare_data_en.pdf",
+   "license": "CC BY 4.0",
+   "accessed": "2026-09-16",
+   "note": "final version January 2024, ISBN 978-92-68-14858-7. 23 countries reported 547,890 reimbursement requests for care not needing prior authorisation in 2022, of which France 300,254 and Germany 160,647 are 84%; Poland 14,176, Slovakia 13,904, Ireland 1,841, Romania 889, Czechia 440, Croatia 192, Lithuania 131, Greece 56, Cyprus 44, Portugal 27 (all refused), Spain 9. Total reimbursed EUR 86,462,491. For care needing prior authorisation, 4,552 requests and EUR 7,708,041. Belgium and Hungary could not report; Czechia, Cyprus, Latvia, Lithuania, the Netherlands, Finland, Sweden and Norway run no prior-authorisation system; only Denmark and Romania have a mechanism to limit inflow."
+  },
+  {
+   "id": "s:sef-registro-2022",
+   "kind": "dataset",
+   "title": "Registro Nacional de Actividad 2022 — Registro SEF, Técnicas de Reproducción Asistida (FIV/ICSI and IA)",
+   "publisher": "Sociedad Española de Fertilidad for the Spanish Ministry of Health; the official national ART registry",
+   "url": "https://www.registrosef.com/public/docs/sef2022_IAFIV.pdf",
+   "accessed": "2026-09-16",
+   "note": "section 3.20: 27,564 fresh and frozen cycles in 2022 were for patients resident in other countries — France 39.0%, Italy 20.6%, the United Kingdom 9.0%, Germany 6.4%, Morocco 0.6%, Portugal 0.3%, other 18.3%, country not recorded 5.7%. Of those cycles 52.3% used donated eggs. The reason for coming was not recorded in 90.8% of them; where it was, 1.6% named a technique unlawful at home and 1.1% a patient who did not meet the legal conditions at home."
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:tc-portugal-225-2018",
+   "note": "the ruling's framing is from the court's page and the figures from the Commission and the Spanish registry; the middle paragraph is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "clinic practice; the refusal figure is cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "legality": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "The neighbour whose donor supply collapsed when anonymity ended, sending patients this way.",
+   "rel": "contrast"
+  }
+ ]
+}

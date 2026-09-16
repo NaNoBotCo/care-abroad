@@ -1,0 +1,519 @@
+{
+ "schema": 1,
+ "id": "island-hospital-penang",
+ "type": "facility",
+ "names": {
+  "name": "Island Hospital",
+  "aliases": [
+   "Island Hospital Penang",
+   "Hospital Pulau"
+  ],
+  "said": "Island Hospital, on Jalan Macalister in George Town. Indonesian patients, who are most of its foreign trade, say Penang and mean this street."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "MY",
+  "ownership": "private",
+  "founded": 1996,
+  "specialty": [
+   "oncology",
+   "cardiology",
+   "gastroenterology",
+   "health screening",
+   "orthopaedics",
+   "dentistry"
+  ],
+  "draws": [
+   "executive-health-screening",
+   "cataract-surgery",
+   "angioplasty-stent"
+  ],
+  "status": "open",
+  "languages": [
+   "Malay",
+   "English",
+   "Mandarin",
+   "Hokkien",
+   "Indonesian",
+   "Tamil"
+  ]
+ },
+ "text": {
+  "what": "A 600-bed private hospital on Jalan Macalister in George Town, Penang, founded in 1996 and bought by IHH Healthcare in 2024. It treats about 400,000 patients and performs about 15,000 operations a year, and it sells health screening off a public online store with the ringgit price and the redemption date on every product page.",
+  "story": "Penang's inbound trade is a ferry and a short flight from Medan and Aceh, and it is one of the few cross-border corridors in this subject that is genuinely regional rather than intercontinental. Island Hospital was built in 1996 in ten months and grew into that corridor.\n\nIt holds hospital-wide accreditation from the Malaysian Society for Quality in Health and from the Australian Council on Healthcare Standards International, and in 2025 the Malaysia Healthcare Travel Council named it, in the council's own words, \"Malaysia's first Flagship Medical Tourism Hospital\". The hospital states more than 90 full-time specialists, 1,300 healthcare workers, and that 88 per cent of its doctors trained abroad.\n\n*Inference —* the online store is the most revealing thing about it. A hospital that sells a screening package the way a shop sells a shirt — add to basket, pay, redeem by a stated date — has decided that a share of its demand is discretionary and price-comparing. That is a different business from a referral hospital, and it is the business that regional cross-border care actually is.",
+  "how": "Screening packages are bought online at a fixed price with the inclusion list printed and the redemption deadline stated. The Executive Health Screening Package, read on 16 September 2026, priced a physical examination, a specialist consultation, a full blood picture, lipid profile, liver and kidney function, diabetes and thyroid screening, hepatitis B and C and syphilis testing, an ECG, a chest X-ray, an upper abdomen ultrasound and eye tests, with refreshments and a hospital bag. Its exclusion is a single sentence, and it is the important one: anything the screening finds is charged separately.",
+  "today": "As of 16 September 2026 the store lists the Executive Health Screening Package at 760 ringgit, a Comprehensive Plus package at 2,499 ringgit for men and 2,799 for women, a heart screening package at 1,288 ringgit, a paediatric screening at 380 ringgit, teeth whitening at 1,500 ringgit and a pre-university student screening at 138 ringgit. Packages bought now are redeemable to 31 December 2026."
+ },
+ "geo": {
+  "lat": 5.4241354,
+  "lon": 100.3148674,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "308 Jalan Macalister",
+  "city": "George Town",
+  "area": "Penang",
+  "country": "MY",
+  "postcode": "10450"
+ },
+ "metrics": {
+  "beds": 600,
+  "doctors": 90,
+  "annual_patients": 400000,
+  "annual_foreign_patients": null,
+  "note": "About 400,000 patients a year and about 15,000 operations a year are the hospital's own figures. The patient number counts VISITS, not people: a screening patient who returns for a follow-up is two. The doctor figure is more than 90 full-time specialists, a headcount of people, alongside 1,300 healthcare workers in total. No foreign-patient count is published on the pages read here, despite Penang's trade being largely Indonesian.",
+  "as_of": "2026-09-16",
+  "source": "s:islandhospital-about",
+  "url": "https://www.islandhospital.com/about-us/"
+ },
+ "tags": [
+  {
+   "tag": "price-published",
+   "source": "s:islandhospital-exec-screening",
+   "tier": "cited",
+   "note": "an online store with a ringgit price, an inclusion list and a redemption date on each product page",
+   "url": "https://packages.islandhospital.com/"
+  },
+  {
+   "tag": "package",
+   "source": "s:islandhospital-packages",
+   "tier": "cited"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:islandhospital-about",
+   "tier": "cited",
+   "note": "an International Patient Services department offering second opinions before travel"
+  },
+  {
+   "tag": "chain",
+   "source": "s:wp-island-hospital",
+   "tier": "cited",
+   "note": "bought by IHH Healthcare in 2024"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "achsi",
+   "what": "Full hospital-wide accreditation by the Australian Council on Healthcare Standards International",
+   "year": null,
+   "valid_until": null,
+   "source": "s:islandhospital-about",
+   "url": "https://www.islandhospital.com/about-us/",
+   "note": "the Australian scheme run abroad; the year first granted is not stated on the page read here"
+  },
+  {
+   "by": "mhtc",
+   "what": "Named by the Malaysia Healthcare Travel Council as, in the council's words, \"Malaysia's first Flagship Medical Tourism Hospital\"",
+   "year": 2025,
+   "valid_until": null,
+   "source": "s:islandhospital-about",
+   "url": "https://www.islandhospital.com/about-us/",
+   "note": "a government agency's designation, not a clinical inspection"
+  },
+  {
+   "by": "other",
+   "what": "Full hospital-wide accreditation by the Malaysian Society for Quality in Health (MSQH)",
+   "year": null,
+   "valid_until": null,
+   "source": "s:islandhospital-about",
+   "url": "https://www.islandhospital.com/about-us/",
+   "note": "the Malaysian national standard; MSQH has no key of its own in this project's recognizer list"
+  }
+ ],
+ "prices": [
+  {
+   "procedure": "executive-health-screening",
+   "country": "MY",
+   "city": "George Town",
+   "facility": "island-hospital-penang",
+   "amount": 760,
+   "currency": "MYR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "physical examination",
+    "consultation by health screening physician or specialist",
+    "complete medical report",
+    "full blood picture, lipid profile, liver and kidney function",
+    "diabetes and thyroid screening",
+    "hepatitis B and C and syphilis testing",
+    "ECG",
+    "chest X-ray and upper abdomen ultrasound",
+    "eye tests",
+    "light refreshments",
+    "an Island Hospital woven bag"
+   ],
+   "excludes": [
+    "any follow-up investigation, treatment or medication arising from the screening, charged separately by cash or card",
+    "stress testing, gynaecological assessment, cancer markers, mammogram and bone densitometry, all sold as add-ons"
+   ],
+   "source": "s:islandhospital-exec-screening",
+   "url": "https://packages.islandhospital.com/product/executive-health-screening-package/",
+   "note": "The page states packages purchased are redeemable up to 31 December 2026 and that the screening is not recommended for under-18s. The exclusion sentence is the whole story of screening pricing: the screen is cheap and what it finds is not.",
+   "tier": "cited",
+   "usd": 186.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "executive-health-screening",
+   "country": "MY",
+   "city": "George Town",
+   "facility": "island-hospital-penang",
+   "amount": 2499,
+   "amount_high": 2799,
+   "currency": "MYR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "the hospital's Comprehensive Plus screening, male version at the lower figure and female at the higher"
+   ],
+   "excludes": [
+    "anything the screening then finds"
+   ],
+   "source": "s:islandhospital-packages",
+   "url": "https://packages.islandhospital.com/",
+   "note": "the same hospital's top screening tier, more than three times the Executive package. The male and female versions differ by 300 ringgit, which is the gynaecological and breast imaging the female version adds.",
+   "tier": "cited",
+   "usd": 612.0,
+   "usd_high": 685.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "penang",
+   "as": "The hospital the Penang cluster is usually named for, on Jalan Macalister in George Town.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia",
+   "as": "The clearest case in Malaysia of regional rather than intercontinental cross-border care.",
+   "rel": "destination"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "Sold here off an online store, priced, itemised and dated.",
+   "rel": "performs"
+  },
+  {
+   "to": "mhtc",
+   "as": "The government agency that named it a flagship hospital in 2025.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "as": "The national arrangement under which it takes foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "The Kuala Lumpur competitor under the same owner since 2024, which publishes no price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, down to a redemption deadline printed on each product page.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Its screening package excludes everything the screening finds, in one sentence.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Island Hospital",
+   "url": "https://www.islandhospital.com/"
+  },
+  {
+   "label": "Island Hospital packages store",
+   "url": "https://packages.islandhospital.com/"
+  }
+ ],
+ "sources": [
+  "s:wp-island-hospital",
+  "s:islandhospital-about",
+  "s:islandhospital-packages",
+  "s:islandhospital-exec-screening",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node Island Hospital, 308 Jalan Macalister"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:islandhospital-about"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Island Hospital Penang.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A 600-bed private hospital on Jalan Macalister in George Town, Penang, founded in 1996 and bought by IHH Healthcare in 2024.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "The hospital the Penang cluster is usually named for, on Jalan Macalister in George Town.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The clearest case in Malaysia of regional rather than intercontinental cross-border care.",
+   "rel": "destination"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Sold here off an online store, priced, itemised and dated.",
+   "rel": "performs"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The government agency that named it a flagship hospital in 2025.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The national arrangement under which it takes foreign patients.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "The Kuala Lumpur competitor under the same owner since 2024, which publishes no price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, down to a redemption deadline printed on each product page.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Its screening package excludes everything the screening finds, in one sentence.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-island-hospital",
+   "kind": "wikipedia",
+   "title": "Island Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Island_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:islandhospital-about",
+   "kind": "web",
+   "title": "About Us — Island Hospital",
+   "publisher": "Island Hospital",
+   "url": "https://www.islandhospital.com/about-us/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:islandhospital-packages",
+   "kind": "web",
+   "title": "Packages store — Island Hospital",
+   "publisher": "Island Hospital",
+   "url": "https://packages.islandhospital.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:islandhospital-exec-screening",
+   "kind": "web",
+   "title": "Executive Health Screening Package",
+   "publisher": "Island Hospital",
+   "url": "https://packages.islandhospital.com/product/executive-health-screening-package/",
+   "accessed": "2026-09-16",
+   "note": "price, inclusion list and redemption date read off the product page"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node Island Hospital, 308 Jalan Macalister"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:islandhospital-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:islandhospital-exec-screening",
+   "note": "an online store with a ringgit price, an inclusion list and a redemption date on each product page",
+   "tier": "cited",
+   "url": "https://packages.islandhospital.com/"
+  },
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:islandhospital-packages",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:islandhospital-about",
+   "note": "an International Patient Services department offering second opinions before travel",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-island-hospital",
+   "note": "bought by IHH Healthcare in 2024",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "achsi",
+   "label": "Australian Council on Healthcare Standards International",
+   "what": "Full hospital-wide accreditation by the Australian Council on Healthcare Standards International",
+   "url": "https://www.islandhospital.com/about-us/",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:islandhospital-about"
+  },
+  {
+   "key": "mhtc",
+   "label": "Malaysia Healthcare Travel Council",
+   "what": "Named by the Malaysia Healthcare Travel Council as, in the council's words, \"Malaysia's first Flagship Medical Tourism Hospital\"",
+   "url": "https://www.islandhospital.com/about-us/",
+   "kind": "national",
+   "year": 2025,
+   "valid_until": null,
+   "source": "s:islandhospital-about"
+  },
+  {
+   "key": "other",
+   "label": "Somebody else",
+   "what": "Full hospital-wide accreditation by the Malaysian Society for Quality in Health (MSQH)",
+   "url": "https://www.islandhospital.com/about-us/",
+   "kind": "other",
+   "year": null,
+   "valid_until": null,
+   "source": "s:islandhospital-about"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The Penang hospital that made the Sumatra route ordinary.",
+   "rel": "part"
+  },
+  {
+   "from": "penang",
+   "type": "hub",
+   "name": "Penang",
+   "as": "At 308 Jalan Macalister, 600 beds, the anchor of the George Town cluster.",
+   "rel": "part"
+  },
+  {
+   "from": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "Another, in the northern cluster.",
+   "rel": "facility"
+  },
+  {
+   "from": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The Penang hospital the agency's Indonesian corridor is built around.",
+   "rel": "org"
+  }
+ ]
+}

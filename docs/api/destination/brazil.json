@@ -1,0 +1,278 @@
+{
+ "schema": 1,
+ "id": "brazil",
+ "type": "destination",
+ "names": {
+  "name": "Brazil",
+  "aliases": [
+   "República Federativa do Brasil",
+   "Federative Republic of Brazil"
+  ],
+  "said": "Cirurgia plástica. Brazil's cosmetic surgery is famous abroad and domestic at home: the survey that ranks it first in the world for surgical procedures also records that only about one patient in twenty comes from another country."
+ },
+ "region": [
+  "south-america"
+ ],
+ "facets": {
+  "iso2": "BR",
+  "direction": "inbound",
+  "currency": "BRL",
+  "languages": [
+   "Portuguese"
+  ],
+  "draws": [
+   "liposuction",
+   "breast-augmentation",
+   "abdominoplasty",
+   "bbl",
+   "facelift"
+  ]
+ },
+ "text": {
+  "what": "The country that performs more cosmetic surgery than any other and exports very little of it. In the ISAPS survey of 2024, Brazilian plastic surgeons accounted for 2,354,513 surgical procedures — 13.5% of the world's, more than the United States — inside a total of 3,123,758. The foreign share of that work is small. Brazil is on this site as the largest domestic cosmetic market in the world, and as a destination that is smaller than its reputation.",
+  "story": "The professional base is deep and old. The Sociedade Brasileira de Cirurgia Plástica was founded in São Paulo in 1948 and states \"aproximadamente 6.700 cirurgiões plásticos, entre titulares, associados e aspirantes a membros\". ISAPS separately estimates 6,497 plastic surgeons in Brazil, second in the world after the United States and ahead of China.\n\nThe travel figures are the quiet part. Brazilian surgeons reported a median 5.0% of patients attending from other locations and an average of 8.2% — at, and just above, the worldwide median of 5.0%. The three origins named most often were the United States, Portugal and Italy, which is the shape of a diaspora rather than a package trade.\n\nWhere the work is done is its own fact: 76.0% of Brazilian cosmetic procedures were performed in a hospital, against 52.6% worldwide, and 7.0% in a free-standing surgicentre against 16.3% worldwide. *Inference —* that is the opposite profile to Colombia's, and it is the single most useful comparison on either page: the same operations, the same region, different premises.",
+  "how": "*Trade practice —* Brazil sells to Brazilians. A foreign patient books the same clinic a São Paulo or Rio patient books, in Portuguese, usually through a surgeon's own consulting room rather than a facilitator, and pays in reais. Multi-procedure operating lists are common and the hospital admission is the norm rather than the exception. Nothing on this page describes a state promotion scheme, because this record found none to describe.",
+  "today": "As of the 2024 survey year Brazil ranks second in the world for total aesthetic procedures and first for surgical ones, with 769,245 non-surgical procedures against 2,354,513 surgical — the inverse of the United States, where non-surgical work is two-thirds of the total. Both figures are extrapolations from a survey of board-certified plastic surgeons, and neither counts a dentist, a fertility clinic or an orthopaedic ward."
+ },
+ "geo": {
+  "lat": -15.7939,
+  "lon": -47.8828,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "3,123,758 aesthetic procedures in 2024, 2,354,513 of them surgical; an estimated 6,497 plastic surgeons; a reported median 5.0% / average 8.2% of patients attending from other locations. All ISAPS survey extrapolations from 2,975 responding surgeons across 32 locations, counting aesthetic work by board-certified plastic surgeons and nothing else.",
+  "as_of": "2024",
+  "source": "s:isaps-global-survey-2024",
+  "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+ },
+ "kin": [
+  {
+   "to": "albert-einstein-sao-paulo",
+   "as": "The São Paulo hospital that takes the complex international work.",
+   "rel": "part"
+  },
+  {
+   "to": "liposuction",
+   "as": "One of the operations behind the country's surgical count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "A Brazilian staple, and one of the pairings sold on a single list.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl",
+   "as": "The buttock operation whose technique argument is partly Brazilian.",
+   "rel": "procedure"
+  },
+  {
+   "to": "colombia",
+   "as": "The regional contrast: a fifth of the volume, four times the foreign share, and the operations done in surgicentres rather than hospitals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "argentina",
+   "as": "The neighbour Brazilian patients travel to, and that names Brazil as its own first origin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isaps",
+   "as": "The society whose survey supplies the counts on this page.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a procedure count and a patient count are different animals.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Sociedade Brasileira de Cirurgia Plástica",
+   "url": "https://www.cirurgiaplastica.org.br/"
+  },
+  {
+   "label": "ISAPS survey of procedures performed in 2024",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+  }
+ ],
+ "sources": [
+  "s:isaps-global-survey-2024",
+  "s:sbcp",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "society membership from its own page; survey figures from ISAPS; the closing comparison is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the domestic shape of the Brazilian trade, hedged in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:São Paulo skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The country that performs more cosmetic surgery than any other and exports very little of it.",
+ "region_terms": [
+  {
+   "key": "south-america",
+   "name": "South America",
+   "note": "Colombia, Brazil, Argentina, Chile, Peru"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "albert-einstein-sao-paulo",
+   "type": "facility",
+   "name": "Hospital Israelita Albert Einstein",
+   "as": "The São Paulo hospital that takes the complex international work.",
+   "rel": "part"
+  },
+  {
+   "to": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "One of the operations behind the country's surgical count.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "A Brazilian staple, and one of the pairings sold on a single list.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "The buttock operation whose technique argument is partly Brazilian.",
+   "rel": "procedure"
+  },
+  {
+   "to": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The regional contrast: a fifth of the volume, four times the foreign share, and the operations done in surgicentres rather than hospitals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "argentina",
+   "type": "destination",
+   "name": "Argentina",
+   "as": "The neighbour Brazilian patients travel to, and that names Brazil as its own first origin.",
+   "rel": "contrast"
+  },
+  {
+   "to": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The society whose survey supplies the counts on this page.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a procedure count and a patient count are different animals.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:isaps-global-survey-2024",
+   "kind": "report",
+   "title": "ISAPS International Survey on Aesthetic/Cosmetic Procedures Performed in 2024",
+   "publisher": "International Society of Aesthetic Plastic Surgery, tabulated by Industry Insights Inc.",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:sbcp",
+   "kind": "web",
+   "title": "Sociedade Brasileira de Cirurgia Plástica",
+   "publisher": "Sociedade Brasileira de Cirurgia Plástica, São Paulo",
+   "url": "https://www.cirurgiaplastica.org.br/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "society membership from its own page; survey figures from ISAPS; the closing comparison is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the domestic shape of the Brazilian trade, hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:isaps-global-survey-2024"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "argentina",
+   "type": "destination",
+   "name": "Argentina",
+   "as": "The first origin Argentine surgeons name, and the regional giant next door.",
+   "rel": "contrast"
+  },
+  {
+   "from": "albert-einstein-sao-paulo",
+   "type": "facility",
+   "name": "Hospital Israelita Albert Einstein",
+   "as": "The Brazilian hospital foreign referrals reach first, in a country whose larger flow is Brazilians leaving.",
+   "rel": "destination"
+  },
+  {
+   "from": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "The largest domestic aesthetic market in its 2024 count, and a small foreign share inside it.",
+   "rel": "place"
+  }
+ ]
+}

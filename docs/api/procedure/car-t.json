@@ -1,0 +1,488 @@
+{
+ "schema": 1,
+ "id": "car-t",
+ "type": "procedure",
+ "names": {
+  "name": "CAR T-cell therapy",
+  "aliases": [
+   "chimeric antigen receptor T-cell therapy",
+   "CAR-T",
+   "tisagenlecleucel",
+   "axicabtagene ciloleucel"
+  ],
+  "said": "Haematologists say CAR-T and then name the product, because the products are not interchangeable: Kymriah, Yescarta, Tecartus, Breyanzi, Abecma, Carvykti, and in India NexCAR19. A price or an approval attaches to one of them, never to the class."
+ },
+ "etymology": {
+  "root": "chimeric, from Greek khimaira, the composite beast of lion, goat and serpent: the receptor is spliced together from an antibody's target-recognising end and a T-cell's signalling tail, so the cell recognises a tumour marker the way an antibody would. Antigen: a body that generates a response. T cell: for the thymus, where it matures.",
+  "tier": "tradition",
+  "note": "autologous means the cells are the patient's own, shipped out and shipped back. That is why this is a manufacturing schedule as much as a treatment."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "oncology",
+  "setting": "inpatient",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "A patient's own T cells are collected from the blood, genetically modified in a factory to carry a receptor for a marker on their cancer, grown up, frozen, shipped back and infused after a short course of chemotherapy that clears room for them. The Kymriah label describes cells \"obtained via a standard leukapheresis procedure\", enriched, \"transduced with the lentiviral vector containing the anti-CD19 CAR transgene\", expanded, washed and cryopreserved. It is given once. The dangerous part is what the cells do in the fortnight after they go in.",
+  "story": "CAR-T travels because of who is allowed to give it and where those places are, and the rules moved recently enough that most secondary accounts are out of date.\n\nIn the United States the products were dispensed only by hospitals specially certified under a Risk Evaluation and Mitigation Strategy, holding tocilizumab on site. On 26 June 2025 the Food and Drug Administration eliminated that scheme for all six autologous CAR-T products, removing \"the requirement that hospitals and their associated clinics that dispense the above products are specially certified and have on-site, immediate access to tocilizumab\". The Kymriah label's own change table records \"KYMRIAH REMS (5.3) Removed 6/2025\". A 2025 paper in Cancers records what the old rule required: \"Patients were also required to remain within a two-hour radius of the treatment center for four weeks following infusion and to avoid driving for eight weeks. These logistical demands often necessitated temporary relocation, particularly for patients living in rural areas.\"\n\nEurope did not follow. A survey of the thirty EEA countries and the United Kingdom, published in HemaSphere with a status date of August 2024, found that \"in August 2024, 26% of the 31 countries had no CAR‐T products commercially available\", that \"the median number of qualified CAR‐T centers per 10 million population per country was 5.0\", and that in 55% of the countries \"centers were required to be transplant/JACIE‐accredited\". Its centre table runs from 45 in Germany, 37 in Italy, 35 in France, 32 in Spain and 23 in the United Kingdom down to one apiece in Croatia, Hungary, Luxembourg, Norway, Slovakia and Slovenia — and none at all in Bulgaria, Cyprus, Estonia, Iceland, Latvia, Liechtenstein, Lithuania and Malta. Time from marketing authorisation to access ranged from a median of nought months in France and Germany to 53 in Slovakia.\n\nSo patients cross borders, and some health systems send them. The same paper: \"some of these countries, including Latvia, Luxembourg, Iceland, and Malta, can send patients abroad to receive CAR‐T treatment.\" Its authors attach the caution this directory would attach anyway — that cross-border care \"requires well‐structured cross‐border collaboration and that patients are able to travel abroad for a certain period, which may be logistically, physically, and/or emotionally burdensome.\"\n\nDistance bites inside a country too. In one US institutional cohort of adults with large B-cell lymphoma, \"52% of patients traveled more than 30 miles, 40% more than 60 miles, and 29% over 120 miles to reach treatment.\"",
+  "how": "Apheresis first: the Kymriah medication guide says it \"takes 3 to 6 hours and may need to be repeated\". Manufacturing is quoted at \"about 3-4 weeks from the time your cells are received at the manufacturing site and shipped back\" — but the label's own trial reports a median 113 days, range 47 to 196, from apheresis to infusion in diffuse large B-cell lymphoma. Manufacture can fail: \"this has been reported in up to 9% of manufacturing attempts\". Lymphodepletion follows, on the Yescarta label \"cyclophosphamide 500 mg/m2 intravenously and fludarabine 30 mg/m2 intravenously on the fifth, fourth, and third day before infusion\". Then one infusion, and the watch: cytokine release syndrome \"occurred in 90% (379/422) of patients with non-Hodgkin lymphoma\", grade 3 or worse in 9%, median onset 2 days; neurologic toxicity in 78%, grade 3 or worse in 25%, median onset 4 days and median duration 17. The label instructs clinicians to \"monitor patients at least daily for 7 days following infusion\", to \"instruct patients to remain within proximity of a healthcare facility for at least 2 weeks following infusion\", and to advise against driving for the same two weeks. No distance appears anywhere in the current labels: proximity is left undefined.",
+  "today": "Prices are published per product and per country, and they are not the cost of the episode. Novartis set the first list price at 475,000 US dollars in August 2017. Acquisition costs since have risen rather than fallen: a 2023 paper in Blood Advances records axicabtagene ciloleucel going \"from $399 000 in 2022 to $424 000 in 2023 and liso-cel from $410 300 to $447 227 over the same period\". The National Institute for Health and Care Excellence publishes the UK list price at £280,451 per single infusion bag and states that the discount the NHS actually pays \"is commercial in confidence\". Against those drug prices, US Medicare paid an average of 498,723 dollars for an inpatient CAR-T claim in 2021–2022, and 587,908 dollars across the whole episode of care. India approved its own product, NexCAR19, in October 2023; a 2024 paper reports it \"is expected to cost 50,000 USD\", which is an expectation in a journal and not a list price.",
+  "notes": "This page describes a treatment and the rules that govern where it may be given. It is not medical advice and it is not legal advice."
+ },
+ "metrics": {
+  "stay_days": 13,
+  "days_before_flying": 14,
+  "recovery_weeks": null,
+  "note": "Thirteen days is the median inpatient stay in a US Medicare claims study of diffuse large B-cell lymphoma, 2021–2022; the mean was 16.81 and the range 3 to 132, and 21% of treatments were given as outpatients. The fourteen days is not a flight clearance: it is the label's instruction to stay within proximity of a healthcare facility for at least two weeks after infusion, with no distance given. Before June 2025 the US rule was a two-hour radius for four weeks.",
+  "as_of": "2026-09-16",
+  "source": "s:yescarta-pi",
+  "url": "https://www.gilead.com/-/media/files/pdfs/medicines/oncology/yescarta/yescarta-pi.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "car-t",
+   "country": "US",
+   "amount": 475000,
+   "currency": "USD",
+   "as_of": "2017",
+   "kind": "list",
+   "source": "s:statnews-kymriah-price",
+   "url": "https://www.statnews.com/2017/08/31/475000-price-tag-new-cancer-drug-crazy-meh/",
+   "note": "Kymriah at US approval in August 2017, for paediatric and young adult acute lymphoblastic leukaemia. This is the price of the cell product alone: apheresis, lymphodepleting chemotherapy, the admission and the management of cytokine release syndrome are all billed separately.",
+   "tier": "cited",
+   "usd": 475000.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "car-t",
+   "country": "US",
+   "amount": 424000,
+   "currency": "USD",
+   "as_of": "2023",
+   "kind": "list",
+   "source": "s:bloodadv-cart-costs",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10837180/",
+   "note": "axicabtagene ciloleucel acquisition cost, reported as rising from $399,000 in 2022. The same paper puts lisocabtagene maraleucel at $447,227 in 2023, up from $410,300.",
+   "tier": "cited",
+   "usd": 424000.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "car-t",
+   "country": "GB",
+   "amount": 280451,
+   "currency": "GBP",
+   "as_of": "2023-02-28",
+   "kind": "list",
+   "source": "s:nice-ta872",
+   "url": "https://www.nice.org.uk/guidance/ta872",
+   "note": "axicabtagene ciloleucel, \"per single infusion bag (approximately 68 ml, company submission)\". NICE states that a commercial arrangement makes it available to the NHS at a discount and that \"the size of the discount is commercial in confidence\" — so the published number is the one nobody pays.",
+   "tier": "cited",
+   "usd": 377950.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "car-t",
+   "country": "US",
+   "amount": 498723,
+   "amount_high": 587908,
+   "currency": "USD",
+   "as_of": "2022",
+   "kind": "reimbursement",
+   "source": "s:advther-cart-medicare",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263250/",
+   "note": "US Medicare fee-for-service, claims 2021–2022, diffuse large B-cell lymphoma. The lower figure is the average paid on an inpatient CAR-T claim, range $276,138 to $1,066,524; the higher is the total for the whole episode, counting the claim plus three-month and six-month per-patient-per-month spending. Outpatient CAR-T averaged $414,393 on the claim and $529,188 over the episode.",
+   "tier": "cited",
+   "usd": 498723.0,
+   "usd_high": 587908.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "car-t",
+   "country": "IN",
+   "amount": 50000,
+   "currency": "USD",
+   "as_of": "2024",
+   "kind": "estimate",
+   "source": "s:bct-nexcar19",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11620990/",
+   "note": "NexCAR19, approved in India in October 2023. The journal's words are that it \"is expected to cost 50,000 USD, which is almost one-tenth the cost of approved CAR-T cell products in the United States\". An expectation reported in a paper, not a price read off a price list; the rupee figures in circulation could not be read on a page for this record.",
+   "tier": "cited",
+   "usd": 50000.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "bone-marrow-transplant",
+   "as": "The older cell therapy whose accredited units became the centres allowed to give this one.",
+   "rel": "origin"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "The same scarcity told in concrete rather than in licences.",
+   "rel": "kin"
+  },
+  {
+   "to": "gamma-knife",
+   "as": "Another treatment a patient reaches by travelling to the equipment.",
+   "rel": "kin"
+  },
+  {
+   "to": "s2-route",
+   "as": "The EU form under which a health service can send a patient across a border for treatment it cannot give at home.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "germany",
+   "as": "Holds more qualified centres than any other European country, and reached access the month the product was authorised.",
+   "rel": "destination"
+  },
+  {
+   "to": "india",
+   "as": "Approved a domestically made CD19 product in October 2023 at a fraction of the US price.",
+   "rel": "destination"
+  },
+  {
+   "to": "alone-after-discharge",
+   "as": "Two weeks near the centre with a carer, which is the part no price list carries.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-companion",
+   "as": "The label assumes someone is watching the patient daily; somebody has to be that person, in another country.",
+   "rel": "step"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Where a published list price and what a payer actually pays stop being the same number.",
+   "rel": "rule"
+  }
+ ],
+ "links": [
+  {
+   "label": "FDA — elimination of REMS for autologous CAR T-cell immunotherapies",
+   "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor"
+  },
+  {
+   "label": "The European CAR-T map (HemaSphere)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961523/"
+  }
+ ],
+ "sources": [
+  "s:fda-kymriah-label",
+  "s:yescarta-pi",
+  "s:fda-cart-rems-removal",
+  "s:hemasphere-cart-map",
+  "s:cancers-cart-rems",
+  "s:advther-cart-medicare",
+  "s:nice-ta872",
+  "s:bloodadv-cart-costs",
+  "s:statnews-kymriah-price",
+  "s:bct-nexcar19"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:hemasphere-cart-map"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:yescarta-pi"
+   },
+   "prices": {
+    "tier": "cited"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:CAR T-cell therapy.svg",
+  "File:Leukapheresis.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A patient's own T cells are collected from the blood, genetically modified in a factory to carry a receptor for a marker on their cancer, grown up, frozen, shipped back and infused after a short course of chemotherapy…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "The older cell therapy whose accredited units became the centres allowed to give this one.",
+   "rel": "origin"
+  },
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The same scarcity told in concrete rather than in licences.",
+   "rel": "kin"
+  },
+  {
+   "to": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "Another treatment a patient reaches by travelling to the equipment.",
+   "rel": "kin"
+  },
+  {
+   "to": "s2-route",
+   "type": "rule",
+   "name": "The S2 route",
+   "as": "The EU form under which a health service can send a patient across a border for treatment it cannot give at home.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "Holds more qualified centres than any other European country, and reached access the month the product was authorised.",
+   "rel": "destination"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Approved a domestically made CD19 product in October 2023 at a fraction of the US price.",
+   "rel": "destination"
+  },
+  {
+   "to": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "Two weeks near the centre with a carer, which is the part no price list carries.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The label assumes someone is watching the patient daily; somebody has to be that person, in another country.",
+   "rel": "step"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "Where a published list price and what a payer actually pays stop being the same number.",
+   "rel": "rule"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:fda-kymriah-label",
+   "kind": "regulation",
+   "title": "KYMRIAH (tisagenlecleucel) suspension for intravenous infusion — US prescribing information",
+   "publisher": "US Food and Drug Administration / Novartis, label revised June 2025",
+   "url": "https://www.fda.gov/media/107296/download",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:yescarta-pi",
+   "kind": "regulation",
+   "title": "YESCARTA (axicabtagene ciloleucel) suspension for intravenous infusion — US prescribing information",
+   "publisher": "Kite Pharma / Gilead, label revised August 2026",
+   "url": "https://www.gilead.com/-/media/files/pdfs/medicines/oncology/yescarta/yescarta-pi.pdf",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fda-cart-rems-removal",
+   "kind": "regulation",
+   "title": "FDA Eliminates Risk Evaluation and Mitigation Strategies (REMS) for Autologous Chimeric Antigen Receptor (CAR) T-cell Immunotherapies",
+   "publisher": "US Food and Drug Administration, 26 June 2025",
+   "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:hemasphere-cart-map",
+   "kind": "paper",
+   "title": "The European CAR-T map — Current status and future directions to improve access to CAR T-cell therapy for hematologic malignancies",
+   "publisher": "HemaSphere, PMCID PMC12961523",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961523/",
+   "accessed": "2026-09-16",
+   "note": "survey of the 30 EEA countries plus the United Kingdom, status as of August 2024; counts centres qualified by at least one marketing authorisation holder"
+  },
+  {
+   "id": "s:cancers-cart-rems",
+   "kind": "paper",
+   "title": "Eliminating REMS for CAR T-Cell Therapies: An Opportunity to Improve Access",
+   "publisher": "Cancers (Basel) 2025;17(19):3216, doi:10.3390/cancers17193216, PMID 41097742",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12523345/",
+   "accessed": "2026-09-16",
+   "note": "records the proximity and driving restrictions that applied before June 2025 and the distances US patients travel"
+  },
+  {
+   "id": "s:advther-cart-medicare",
+   "kind": "paper",
+   "title": "Medicare Utilization and Cost Trends for CAR T Cell Therapies Across Settings of Care in the Treatment of Diffuse Large B-Cell Lymphoma",
+   "publisher": "Advances in Therapy 41(8):3232–3246, 25 June 2024, doi:10.1007/s12325-024-02917-7",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263250/",
+   "accessed": "2026-09-16",
+   "note": "US Medicare fee-for-service claims 2021–2022; counts what Medicare paid, not what was charged"
+  },
+  {
+   "id": "s:nice-ta872",
+   "kind": "gov",
+   "title": "Axicabtagene ciloleucel for treating diffuse large B-cell lymphoma and primary mediastinal large B-cell lymphoma after 2 or more systemic therapies (TA872)",
+   "publisher": "National Institute for Health and Care Excellence, 28 February 2023",
+   "url": "https://www.nice.org.uk/guidance/ta872",
+   "accessed": "2026-09-16",
+   "note": "publishes the list price and states that the size of the commercial discount is confidential"
+  },
+  {
+   "id": "s:bloodadv-cart-costs",
+   "kind": "paper",
+   "title": "Financial toxicity and CAR T-cell therapy acquisition costs",
+   "publisher": "Blood Advances 8(2):484–496, 17 December 2023, doi:10.1182/bloodadvances.2023011793",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10837180/",
+   "accessed": "2026-09-16",
+   "note": "gives dated US acquisition costs for axicabtagene ciloleucel and lisocabtagene maraleucel for 2022 and 2023"
+  },
+  {
+   "id": "s:statnews-kymriah-price",
+   "kind": "news",
+   "title": "The $475,000 price tag for a new cancer drug: crazy or meh?",
+   "publisher": "Anna Kaltenboeck and Peter B. Bach, STAT News, 31 August 2017",
+   "url": "https://www.statnews.com/2017/08/31/475000-price-tag-new-cancer-drug-crazy-meh/",
+   "accessed": "2026-09-16",
+   "note": "the first CAR-T list price, reported the day after approval"
+  },
+  {
+   "id": "s:bct-nexcar19",
+   "kind": "paper",
+   "title": "A Discount on the Cost of Cancer: India's Homegrown CAR-T Cell Therapy",
+   "publisher": "Blood Cell Therapy 7(4):121–123, 1 November 2024, doi:10.31547/bct-2024-008",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11620990/",
+   "accessed": "2026-09-16",
+   "note": "gives NexCAR19's expected cost rather than a published list price, and says so"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:hemasphere-cart-map"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:yescarta-pi"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "china",
+   "type": "destination",
+   "name": "China",
+   "as": "Cell therapy pulled onshore through the Hainan exception.",
+   "rel": "procedure"
+  },
+  {
+   "from": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "Cell therapy available here, and priced for it.",
+   "rel": "procedure"
+  },
+  {
+   "from": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "Cell therapy sold to the region at the top of the price range.",
+   "rel": "procedure"
+  },
+  {
+   "from": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "Cell therapy is the inbound end of this market.",
+   "rel": "procedure"
+  },
+  {
+   "from": "tel-aviv",
+   "type": "hub",
+   "name": "Tel Aviv",
+   "as": "The kind of work a large public teaching hospital takes and a clinic strip cannot.",
+   "rel": "procedure"
+  },
+  {
+   "from": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "Grew out of these units and is still given in them; the accreditation that qualifies a centre for one qualifies it for the other.",
+   "rel": "descendant"
+  },
+  {
+   "from": "gamma-knife",
+   "type": "procedure",
+   "name": "Gamma knife radiosurgery",
+   "as": "Scarcity of a different kind: there, the restriction is who may give the treatment, not who owns the hardware.",
+   "rel": "kin"
+  },
+  {
+   "from": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The same shape of scarcity in a vial rather than a building: a treatment you travel to because only certain centres may give it.",
+   "rel": "kin"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "The approved cell therapy, with a licensed indication, a named manufacturer and a price in the same order of magnitude times ten.",
+   "rel": "contrast"
+  },
+  {
+   "from": "charite-international",
+   "type": "facility",
+   "name": "Charité International Patients",
+   "as": "Among the therapies a patient crosses a border for because it is unavailable at home rather than cheaper.",
+   "rel": "performs"
+  },
+  {
+   "from": "sheba",
+   "type": "facility",
+   "name": "Sheba Medical Center",
+   "as": "Among the cell therapies its international department leads with — a treatment travelled for because it is unavailable at home, not because it is cheap.",
+   "rel": "performs"
+  }
+ ]
+}

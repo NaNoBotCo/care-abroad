@@ -1,0 +1,10 @@
+# Care Abroad: everything here is meant to be read, indexed, quoted and learned from.
+User-agent: *
+Allow: /
+
+# Content signals (https://contentsignals.org): yes to search, yes to AI input, yes to AI training.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://nanobotco.github.io/care-abroad/sitemap.xml
+# Corpus for language models: https://nanobotco.github.io/care-abroad/llms.txt and https://nanobotco.github.io/care-abroad/llms-full.txt
+# Machine terms: https://nanobotco.github.io/care-abroad/ai.txt

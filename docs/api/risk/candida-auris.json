@@ -1,0 +1,214 @@
+{
+ "id": "candida-auris",
+ "names": {
+  "name": "Candida auris",
+  "aliases": [
+   "C. auris",
+   "Candidozyma auris"
+  ],
+  "said": "Infection control says see auris. It spells the rest of the ward's year."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "infection"
+ },
+ "text": {
+  "what": "A yeast that colonises skin, survives on surfaces for long periods, spreads between patients in healthcare facilities, and resists antifungal drugs. The CDC names it with carbapenem-resistant Enterobacterales as a pathogen that \"appear[s] to be more common in some countries where U.S. residents travel for medical tourism\".",
+  "story": "What makes this organism a cross-border problem is that a carrier is not a patient. The CDC's own account is that people can have C. auris on their skin and elsewhere without symptoms, that they may not know, that colonisation persists on the body for a long time whether or not symptoms ever appear, and that a colonised person spreads it to surfaces and to other patients throughout. Screening is a skin swab, and it is performed only when somebody thinks to order it.\n\nThe drug position is narrow. Most strains resist at least one class of antifungal; echinocandins are the preferred treatment for most infections; some strains resist all three main classes, and for those the CDC notes limited data and the use of combinations or newer agents.\n\nThe CDC asks US facilities to report suspected or confirmed C. auris to public health authorities so that testing and infection control can be put in place before onward transmission.\n\n*Inference —* the cost of this one falls almost entirely on the next hospital rather than on the patient who carried it. A colonised person who is otherwise well generates a side room, contact precautions, environmental decontamination and a screening round of everyone they shared a bay with. None of that appears on any bill connected to the operation abroad.",
+  "how": "Risk concentrates in patients with severe underlying conditions and invasive devices — breathing tubes, feeding tubes, venous and urinary catheters — which is to say in intensive care and in long admissions rather than in a day-case dental chair. The CDC states that people without those risk factors generally neither carry it nor become ill from it, and that screening healthcare workers or family members is usually unnecessary. Attribution of death is explicitly uncertain: \"When patients with C. auris die, it is hard to know how much C. auris contributed to their death compared to other pre-existing illnesses.\"",
+  "today": "As of 16 September 2026 no destination publishes a colonisation rate for its hospitals, and no source market publishes a count of cases traceable to care received abroad. The CDC's travel-linked instruction is the six-month screening rule for carbapenem-resistant Enterobacterales; C. auris is reported when found, not screened for by travel history."
+ },
+ "metrics": {
+  "note": "No rate is carried because none has been published for travel-associated acquisition. The CDC states that most strains resist at least one class of antifungal and that some resist all three main classes, and declines to attribute mortality: when a patient with C. auris dies it is hard to separate the organism's contribution from the underlying illness.",
+  "as_of": "2026-02-26",
+  "source": "s:cdc-candida-auris",
+  "url": "https://www.cdc.gov/candida-auris/about/index.html"
+ },
+ "kin": [
+  {
+   "to": "antimicrobial-resistance",
+   "as": "The bacterial half of the pair the CDC names, with the same six-month travel window behind it.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "One of the sites this organism turns up in, alongside blood and ears.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Colonisation is silent, so nothing in the patient's own account will raise it.",
+   "rel": "kin"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "Immunosuppression is what turns colonisation into an infection.",
+   "rel": "kin"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step at which a screening swab would be taken, if anyone ordered one.",
+   "rel": "step"
+  },
+  {
+   "to": "who",
+   "as": "Lists this organism among its fungal priority pathogens.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC — About C. auris",
+   "url": "https://www.cdc.gov/candida-auris/about/index.html"
+  },
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-candida-auris",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-candida-auris"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph is marked inline as this project's reading of where the cost falls"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "A yeast that colonises skin, survives on surfaces for long periods, spreads between patients in healthcare facilities, and resists antifungal drugs.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "The bacterial half of the pair the CDC names, with the same six-month travel window behind it.",
+   "rel": "kin"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "One of the sites this organism turns up in, alongside blood and ears.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Colonisation is silent, so nothing in the patient's own account will raise it.",
+   "rel": "kin"
+  },
+  {
+   "to": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "Immunosuppression is what turns colonisation into an infection.",
+   "rel": "kin"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The step at which a screening swab would be taken, if anyone ordered one.",
+   "rel": "step"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "Lists this organism among its fungal priority pathogens.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-candida-auris",
+   "kind": "org",
+   "title": "About C. auris, page dated 26 February 2026",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/candida-auris/about/index.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-candida-auris"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the closing paragraph is marked inline as this project's reading of where the cost falls"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cdc-candida-auris"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-candida-auris"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-candida-auris"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "The fungal half of the pair the CDC names, and the one that colonises skin for months.",
+   "rel": "kin"
+  },
+  {
+   "from": "transplant-harm",
+   "type": "risk",
+   "name": "Transplant harm",
+   "as": "What immunosuppression turns from colonisation into disease.",
+   "rel": "kin"
+  }
+ ]
+}

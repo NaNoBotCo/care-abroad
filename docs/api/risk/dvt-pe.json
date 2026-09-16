@@ -1,0 +1,296 @@
+{
+ "id": "dvt-pe",
+ "names": {
+  "name": "Deep vein thrombosis and pulmonary embolism",
+  "aliases": [
+   "DVT",
+   "PE",
+   "venous thromboembolism",
+   "VTE"
+  ],
+  "said": "Wards say VTE. Newspapers say economy class syndrome, which names the seat and not the surgery."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "A clot forms in a deep vein, usually in the leg, and part of it travels to the lung. Surgery raises the risk and long-haul flight raises it, and a patient who has both in the same fortnight carries both. The CDC states that air travel and surgery independently increase the risk, and that travel after surgery increases it further because it requires sitting still for long periods in a hypercoagulable state.",
+  "story": "The travel half of the risk has been measured, and it is smaller than the coverage of it suggests. A 2022 systematic review found 18 studies addressing the question and concluded that the association between venous thromboembolism and length of travel is real but mild to moderate, with odds ratios between 1.1 and 4. It identified a dose-response relationship — a 26% higher risk for every two hours of air travel after the first four — and rated the quality of evidence for both travel length and for thromboprophylaxis as low. Graduated compression stockings were the one measure shown to work.\n\nThe surgical half is larger and is procedure-specific; it is carried on the records for the operations themselves.\n\n*Inference —* the combination is what has no published figure. Nobody has measured the rate of venous thromboembolism in patients who had major surgery and then flew home inside two weeks, because no registry follows a patient across that border. The 2026 Birmingham series of UK patients readmitted after cosmetic surgery abroad records venous thromboembolism among the complications seen, without a denominator to put it over.",
+  "how": "Prophylaxis after major surgery is compression, early mobilisation and, for higher-risk operations, an anticoagulant for a defined period after discharge. That last one is where a cross-border episode strains: the drug is prescribed in one country, dispensed for a fixed number of days, and the patient goes home to a system that has no record of when the course started. Presentation is a swollen painful calf, or sudden breathlessness and chest pain, and it is usually to an emergency department with no note of the operation.",
+  "today": "As of 16 September 2026 the measured figure this site carries is the 26% increase in risk per two hours of flying beyond four, from the 2022 review, with its own authors' rating of low evidence quality. The combined surgical-plus-flight figure is not measured."
+ },
+ "metrics": {
+  "note": "No rate is stated here because none has been published for the combination this record is about. The 2022 systematic review of 18 studies found odds ratios between 1.1 and 4 for travel-associated venous thromboembolism and a 26% higher risk per additional two hours of air travel beyond four hours, in general travellers rather than in post-surgical ones, and rated the evidence low quality.",
+  "as_of": "2022",
+  "source": "s:johnson-travel-vte-2022",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35370084/"
+ },
+ "kin": [
+  {
+   "to": "flying-after-surgery",
+   "as": "The interval guidance written partly for this.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The step where the seated hours are spent.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Major lower-limb surgery, where regional anaesthesia is preferred partly to lower this risk.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The other joint, with the same prophylaxis question and the same flight home.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "A long operation on a patient kept still, and one of the commonest reasons for travel.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "Bariatric surgery, where the underlying weight is itself a risk factor for clots.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl-mortality",
+   "as": "A different embolism — fat, not clot — and a far faster one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where the anticoagulant course runs out, in a system with no record of when it started.",
+   "rel": "step"
+  },
+  {
+   "to": "alone-after-discharge",
+   "as": "Who notices a swollen calf in a hotel room.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:johnson-travel-vte-2022",
+  "s:mafi-cosmetic-tourism-cost-2026"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard perioperative account; the cross-border strain on a fixed anticoagulant course is this project's reading"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:johnson-travel-vte-2022"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "A clot forms in a deep vein, usually in the leg, and part of it travels to the lung. Surgery raises the risk and long-haul flight raises it, and a patient who has both in the same fortnight carries both.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The interval guidance written partly for this.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The step where the seated hours are spent.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Major lower-limb surgery, where regional anaesthesia is preferred partly to lower this risk.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The other joint, with the same prophylaxis question and the same flight home.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "A long operation on a patient kept still, and one of the commonest reasons for travel.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "Bariatric surgery, where the underlying weight is itself a risk factor for clots.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "A different embolism — fat, not clot — and a far faster one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "Where the anticoagulant course runs out, in a system with no record of when it started.",
+   "rel": "step"
+  },
+  {
+   "to": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "Who notices a swollen calf in a hotel room.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:johnson-travel-vte-2022",
+   "kind": "paper",
+   "title": "Travel-Associated Venous Thromboembolism",
+   "publisher": "Wilderness and Environmental Medicine 2022;33(2):169-178 (McKerrow Johnson I, Shatzel J, Olson S, Kohl T, Hamilton A, DeLoughery TG)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35370084/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:mafi-cosmetic-tourism-cost-2026",
+   "kind": "paper",
+   "title": "Recurrent Clinical Burden and Cost of Cosmetic Surgery Tourism Complications: A Five-Year Retrospective Study From a UK Tertiary Centre",
+   "publisher": "Cureus 2026;18(5):e109006 (Mafi P, Patel K, Hoque-Uddin S, Warner R), Queen Elizabeth Hospital Birmingham",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42311717/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard perioperative account; the cross-border strain on a fixed anticoagulant course is this project's reading"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:johnson-travel-vte-2022"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "The clot this operation and the flight home both raise.",
+   "rel": "risk"
+  },
+  {
+   "from": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "A different embolism from the fat one, and the one the flight home adds.",
+   "rel": "risk"
+  },
+  {
+   "from": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The specific hazard the flying intervals exist to reduce.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The clot that the intervals exist to avoid, and the commonest fatal event on this leg.",
+   "rel": "risk"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The complication that presents while sitting still in a room, and the one an absent observer does not see.",
+   "rel": "kin"
+  },
+  {
+   "from": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "A different embolism — clot rather than fat — over days rather than minutes.",
+   "rel": "contrast"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that the seated hours add to the surgical one.",
+   "rel": "kin"
+  }
+ ]
+}

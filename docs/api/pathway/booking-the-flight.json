@@ -1,0 +1,219 @@
+{
+ "id": "booking-the-flight",
+ "names": {
+  "name": "Booking the flight",
+  "aliases": [
+   "the outbound and the return",
+   "ticketing"
+  ],
+  "said": "The outbound date is a clinic's date. The return date is a guess made before the operation exists."
+ },
+ "facets": {
+  "stage": "before-you-fly"
+ },
+ "x_order": 9,
+ "text": {
+  "what": "Two dates are bought at once, weeks before any operation happens. The outbound follows the clinic's calendar. The return is fixed against an expected recovery that nobody has yet examined, and it is the date that collides with clinical reality later.",
+  "story": "Published guidance on how long to wait before flying is written by aviation medicine, not by the clinics that sell packages, and it is specific by procedure. The UK Civil Aviation Authority states that \"travel should be avoided for 10 days following abdominal surgery\", that \"it is advisable to avoid flying for approximately 24 hours after laparoscopic intervention, due to the residual CO2 gas\", and that after neurosurgery it is \"advisable to avoid air travel for approximately 7 days following this type of procedure\". For intra-ocular procedures it gives \"1 week should elapse before flying\", extending to \"approximately 2 weeks if sulphur hexafluoride is used and 6 weeks with the use of perfluoropropane\" where gas is injected. For plaster casts it notes that \"the majority of airlines restrict flying for 24 hours on flights of less than 2 hours or 48 hours for longer flights\".\n\nThe CDC Yellow Book carries a blunter version: travellers \"should not fly for 10 days after chest or abdominal surgery\", and it puts 7 to 10 days on laser and cosmetic procedures to the face, eyelids or nose. The NHS gives 5 to 7 days after breast surgery and liposuction and 7 to 10 days after facial procedures or an abdominoplasty, and names the reason: \"Air travel and major surgery increase your risk of a blood clot, which can be life threatening.\"\n\n*Inference —* those intervals are longer than the ward stays most packages name, which is how a return ticket bought at booking ends up landing inside the window the guidance describes.",
+  "how": "*Trade practice —* a cheap fare is the one with the change fee, and the fare rules that make a ticket cheap are the rules that make a slipped discharge expensive. Airlines may also require medical clearance for a passenger travelling soon after surgery, and the clearance decision belongs to the airline's medical department rather than to the treating surgeon.\n\nWhat a reader would have to ask: what a date change costs on the fare bought, whether the airline requires a fitness-to-fly form and who signs it, whether the seat can be changed if a cast or a drain makes the booked one impossible, and who pays for the extra hotel nights if the return moves.",
+  "today": "As of 16 September 2026 the aviation guidance and the package length of stay are published by different parties with no obligation to agree, and no provider this project read prices the gap between them."
+ },
+ "metrics": {
+  "days_before_flying": 10,
+  "note": "Ten days is the CDC Yellow Book interval after chest or abdominal surgery and the UK Civil Aviation Authority interval after abdominal surgery. It is not a universal figure: the CAA gives about 24 hours after laparoscopic surgery, about 7 days after neurosurgery, 1 to 6 weeks after intra-ocular procedures depending on the gas used, and airlines set their own restrictions on top.",
+  "as_of": "2026-09-16",
+  "source": "s:caa-surgical-conditions",
+  "url": "https://www.caa.co.uk/passengers-and-public/passenger-guidance/health-guidance/guidance-for-health-professionals/surgical-conditions/"
+ },
+ "kin": [
+  {
+   "to": "the-flight-home",
+   "as": "The leg this step buys blind.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clinical risk the booked return date runs into.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "as": "The specific hazard the flying intervals exist to reduce.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "as": "The permission whose dates the tickets have to sit inside.",
+   "rel": "step"
+  },
+  {
+   "to": "the-companion",
+   "as": "The second ticket, bought at the same time and rarely in the quoted price.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:caa-surgical-conditions",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:nhs-cosmetic-surgery-abroad"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "fare rules and airline clearance practice; marked inline"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:caa-surgical-conditions"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "Two dates are bought at once, weeks before any operation happens. The outbound follows the clinic's calendar.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The leg this step buys blind.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clinical risk the booked return date runs into.",
+   "rel": "risk"
+  },
+  {
+   "to": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "The specific hazard the flying intervals exist to reduce.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The permission whose dates the tickets have to sit inside.",
+   "rel": "step"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "The second ticket, bought at the same time and rarely in the quoted price.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:caa-surgical-conditions",
+   "kind": "org",
+   "title": "Surgical conditions — health guidance for health professionals",
+   "publisher": "UK Civil Aviation Authority",
+   "url": "https://www.caa.co.uk/passengers-and-public/passenger-guidance/health-guidance/guidance-for-health-professionals/surgical-conditions/",
+   "accessed": "2026-09-16",
+   "note": "intervals before flying after abdominal, laparoscopic, orthopaedic, ocular and neurosurgical procedures"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:nhs-cosmetic-surgery-abroad",
+   "kind": "org",
+   "title": "Cosmetic surgery abroad",
+   "publisher": "NHS (England)",
+   "url": "https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/advice/cosmetic-surgery-abroad/",
+   "accessed": "2026-09-16",
+   "note": "read for aftercare responsibility, flying intervals and the statement on travel insurance"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "fare rules and airline clearance practice; marked inline"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:caa-surgical-conditions"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dialysis-holiday",
+   "type": "procedure",
+   "name": "Dialysis away from home",
+   "as": "Sessions are booked before the flight here, not after it.",
+   "rel": "step"
+  },
+  {
+   "from": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "Where this date was chosen, weeks before the body existed to fly it.",
+   "rel": "step"
+  },
+  {
+   "from": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The next step, and the one whose dates the visa constrains.",
+   "rel": "step"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The step at which the return date is fixed, usually before anyone has seen the wound.",
+   "rel": "step"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The step at which the second ticket is bought, on dates the surgery may move.",
+   "rel": "step"
+  }
+ ]
+}

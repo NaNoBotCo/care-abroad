@@ -1,0 +1,479 @@
+{
+ "schema": 1,
+ "id": "full-mouth-restoration",
+ "type": "procedure",
+ "names": {
+  "name": "Full mouth restoration",
+  "aliases": [
+   "full mouth rehabilitation",
+   "full mouth reconstruction",
+   "smile makeover",
+   "full arch reconstruction"
+  ],
+  "said": "The trade's phrase for a plan, not a procedure. What it contains is whatever the mouth needs, which is why the number at the bottom of the quote is the only part two clinics ever agree on the meaning of."
+ },
+ "etymology": {
+  "root": "restoration: Latin restaurare, to rebuild or renew, used in dentistry since the nineteenth century for anything put back into a tooth — a filling is a restoration. Full mouth is the trade's escalation of the same word to the whole dentition. Rehabilitation, the other term on these lists, is Latin habilitare, to make fit again.",
+  "tier": "tradition",
+  "note": "No regulator defines the phrase. It is a quotation heading, and the contents vary by clinic: implants, crowns, veneers, bridges, extractions, grafts, or all of them."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "dental",
+  "setting": "staged",
+  "anaesthesia": "varies"
+ },
+ "text": {
+  "what": "Rebuilding both jaws: extractions where teeth cannot be kept, implants or bridges where they cannot be replaced otherwise, crowns on what remains, and often a raising of the bite. It runs over months and two or more trips, and it is the largest single bill in dental travel. No price page read for this record publishes one number for it.",
+  "story": "What the price lists publish instead is the parts, and the parts are priced per arch.\n\nSani Dental Group in Los Algodones runs a full ladder for one jaw: an implant-supported overdenture on two implants at $3,270, on three at $4,520, an All-on-4 acrylic hybrid at $8,110 marked per arch, All-on-6 on MIS implants at $11,450, three-on-six at $11,190, All-on-6 on Nobel at $13,310. Underneath it, the conventional answer: a full acrylic denture, upper or lower, at $320. Bone graft $420 a unit, sinus lift $700.\n\nBangkok International Dental Center publishes the same choice as two sums: dental implants plus removable dentures from 70,000 plus 85,000 baht, dental implants plus fixed bridges from 140,000 plus 250,000, and All-on-4 or ProArch hybrid bridges from 290,000.\n\nMedicare Dental Clinic in Budapest prices its full-arch work in the two-line form it uses for everything — All-on-6 zirconium at €2,622 of treatment plus €1,748 of laboratory, €4,370 the arch.\n\n*Inference —* every one of those figures is half a mouth. A reader adding two arches, the grafts the pages price separately, and the second flight is doing arithmetic no seller has done on the page.\n\nThe state comparison is stranger still. In England the patient's share of a course of treatment containing crowns, dentures and bridges is a single band 3 charge of £332.10, however many teeth it covers. Two public systems, two different objects: one prices the mouth, the other prices the visit.",
+  "how": "Assessment, imaging, a treatment plan, then staged work: extractions and implants first, healing for months, then the fixed work. Clinics selling to foreign patients compress it into two trips with temporaries in between, and the price pages read for this record do not say how long the gap is.\n\nWhat consistently sits outside the headline: the second arch, bone grafting and sinus lifting, the laboratory fee where the clinic prints it separately, and the clinic charges Bangkok lists — x-rays, medications, sterilisation, nursing and service fees — that its own page states are charged separately from every treatment on it.",
+  "today": "As of 17 September 2026 the published per-arch prices for rebuilding one jaw run from $320 for a conventional denture and $3,270 for a two-implant overdenture to $13,310 for All-on-6 in Los Algodones; from 155,000 baht for implants with a removable denture to 390,000 for implants with a fixed bridge in Bangkok; and €4,370 for All-on-6 in Budapest. A mouth is two of those.",
+  "notes": "This page describes a class of dental work and the prices published for its parts. It is not dental advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "No admission: these are clinic fees. The months of healing between stages, and therefore the number of trips, are the figures that decide what this work actually costs a travelling patient, and none of the three price pages read for this record states either.",
+  "as_of": "2026-09-17",
+  "source": "s:sani-dental-prices",
+  "url": "https://sanidentalgroup.com/price-list"
+ },
+ "prices": [
+  {
+   "procedure": "full-mouth-restoration",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 3270,
+   "amount_high": 13310,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "one arch, by method: implant-supported overdenture on two implants $3,270 or three implants $4,520; All-on-4 acrylic hybrid $8,110; three-on-six $11,190; All-on-6 MIS $11,450; All-on-6 Nobel $13,310"
+   ],
+   "excludes": [
+    "the second arch",
+    "bone graft at $420 per unit",
+    "sinus lift at $700",
+    "extractions"
+   ],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "the acrylic hybrid row is marked upper or lower arch, which is the page saying per arch out loud. A conventional full denture, upper or lower, is $320 on the same list — the cheapest full-arch answer by a factor of ten. The page states all prices are a base or starting price and that the estimate is not an official price until diagnosis.",
+   "tier": "cited",
+   "usd": 3270.0,
+   "usd_high": 13310.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "full-mouth-restoration",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 155000,
+   "amount_high": 390000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": [
+    "one jaw, as two lines: implants from 70,000 plus removable dentures from 85,000; or implants from 140,000 plus fixed bridges from 250,000"
+   ],
+   "excludes": [
+    "the second arch",
+    "x-rays, medications, sterilisation, nursing fees and clinic service fees, charged separately",
+    "grafting"
+   ],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "the low and high are this record's addition of the clinic's own two-part quotes, both stated as from prices; the same page lists All-on-4 and ProArch hybrid bridges from 290,000 baht as a third route. Package rates stated applicable till 30 September 2026.",
+   "tier": "cited",
+   "usd": 4655.0,
+   "usd_high": 11714.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "full-mouth-restoration",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 4370,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "All-on-6 zirconium denture for one arch: €2,622 treatment plus €1,748 fabrication"
+   ],
+   "excludes": [
+    "the second arch",
+    "sinus lifting at €409 per quadrant and bone augmentation at €302 plus graft material, listed separately"
+   ],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "the metal-ceramic version is €2,384 plus €1,589 for €3,973. The clinic's note states that many treatments carry both a treatment price and a separate fabrication fee, which is what makes its arch prices look half the size of the Mexican ones until the second line is added.",
+   "tier": "cited",
+   "usd": 5042.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "full-mouth-restoration",
+   "country": "GB",
+   "amount": 332.1,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "band 3: crowns, dentures and bridges, and everything in bands 1 and 2, for one course of treatment"
+   ],
+   "excludes": [
+    "implants, which the health service provides only in limited circumstances",
+    "private treatment",
+    "cosmetic work"
+   ],
+   "source": "s:nhs-dental-charges",
+   "url": "https://www.nhs.uk/nhs-services/dentists/dental-costs/understanding-nhs-dental-charges/",
+   "note": "the patient's share in England for a whole course of treatment, whatever it contains — the one figure on this page that does not scale with the number of teeth. The page states it was last reviewed on 13 March 2025 and gives no date for when the amounts took effect.",
+   "tier": "cited",
+   "usd": 448.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "all-on-four",
+   "as": "The commonest single answer for one jaw, and the trademark the price lists sort by.",
+   "rel": "part"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The screws this work is counted in, priced one at a time on the same lists.",
+   "rel": "part"
+  },
+  {
+   "to": "dental-crown",
+   "as": "The unit the surviving teeth are covered in.",
+   "rel": "part"
+  },
+  {
+   "to": "veneers",
+   "as": "The cosmetic half of the same quotation, when the back teeth are sound.",
+   "rel": "kin"
+  },
+  {
+   "to": "mexico",
+   "as": "Where the whole ladder from a $320 denture to $13,310 of All-on-6 is printed on one page.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the same choice is published as two sums to be added.",
+   "rel": "destination"
+  },
+  {
+   "to": "hungary",
+   "as": "Where the arch price is a treatment line plus a laboratory line.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The source market where one band 3 charge covers a course however many teeth it holds.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "as": "The border town this work is bought in by the arch.",
+   "rel": "place"
+  },
+  {
+   "to": "budapest",
+   "as": "The European city that built its dental trade on jobs this size.",
+   "rel": "place"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which per-arch becomes per-mouth.",
+   "rel": "step"
+  },
+  {
+   "to": "the-deposit",
+   "as": "Where a job this size meets a clinic's staged deposit terms.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who checks a rebuilt bite at six months, and where.",
+   "rel": "risk"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "all-on-four",
+   "tell": "All-on-4 is one arch on four implants; full mouth work is both arches and usually a mixture of methods."
+  }
+ ],
+ "links": [
+  {
+   "label": "Sani Dental Group price list",
+   "url": "https://sanidentalgroup.com/price-list"
+  },
+  {
+   "label": "BIDC dental fees",
+   "url": "https://bangkokdentalcenter.com/fees/"
+  }
+ ],
+ "sources": [
+  "s:sani-dental-prices",
+  "s:bidc-fees",
+  "s:mdental-budapest-prices",
+  "s:nhs-dental-charges"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:sani-dental-prices",
+    "note": "every figure read off the named clinic's own page on the accessed date; the arithmetic stretch is marked as this project's"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard staging of full-arch work; the exclusions are cited to the three price pages"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:sani-dental-prices"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Full mouth rehabilitation.jpg",
+  "File:Dental prosthesis.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "Rebuilding both jaws: extractions where teeth cannot be kept, implants or bridges where they cannot be replaced otherwise, crowns on what remains, and often a raising of the bite.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The commonest single answer for one jaw, and the trademark the price lists sort by.",
+   "rel": "part"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The screws this work is counted in, priced one at a time on the same lists.",
+   "rel": "part"
+  },
+  {
+   "to": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "The unit the surviving teeth are covered in.",
+   "rel": "part"
+  },
+  {
+   "to": "veneers",
+   "type": "procedure",
+   "name": "Dental veneers",
+   "as": "The cosmetic half of the same quotation, when the back teeth are sound.",
+   "rel": "kin"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "Where the whole ladder from a $320 denture to $13,310 of All-on-6 is printed on one page.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the same choice is published as two sums to be added.",
+   "rel": "destination"
+  },
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "Where the arch price is a treatment line plus a laboratory line.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The source market where one band 3 charge covers a course however many teeth it holds.",
+   "rel": "destination"
+  },
+  {
+   "to": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "The border town this work is bought in by the arch.",
+   "rel": "place"
+  },
+  {
+   "to": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The European city that built its dental trade on jobs this size.",
+   "rel": "place"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which per-arch becomes per-mouth.",
+   "rel": "step"
+  },
+  {
+   "to": "the-deposit",
+   "type": "pathway",
+   "name": "The deposit",
+   "as": "Where a job this size meets a clinic's staged deposit terms.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who checks a rebuilt bite at six months, and where.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:sani-dental-prices",
+   "kind": "web",
+   "title": "Dental Price List in Mexico",
+   "publisher": "Sani Dental Group, Los Algodones",
+   "url": "https://sanidentalgroup.com/price-list",
+   "accessed": "2026-09-16",
+   "note": "prices in US dollars with a Mexican peso figure beside each; the page states every price is a base or starting price"
+  },
+  {
+   "id": "s:bidc-fees",
+   "kind": "web",
+   "title": "Dental Fees — standardised treatment fees",
+   "publisher": "Bangkok International Dental Center",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "accessed": "2026-09-16",
+   "note": "implant fixture and implant crown priced in separate columns; page states package rates applicable till 30 September 2026"
+  },
+  {
+   "id": "s:mdental-budapest-prices",
+   "kind": "web",
+   "title": "Treatment Prices",
+   "publisher": "Medicare Dental Clinic, Budapest",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "accessed": "2026-09-16",
+   "note": "treatment price and lab fee shown as separate lines; packages name accommodation and transfers"
+  },
+  {
+   "id": "s:nhs-dental-charges",
+   "kind": "gov",
+   "title": "Understanding NHS dental charges — bands 1, 2 and 3",
+   "publisher": "NHS (England)",
+   "url": "https://www.nhs.uk/nhs-services/dentists/dental-costs/understanding-nhs-dental-charges/",
+   "accessed": "2026-09-16",
+   "note": "band amounts read on the accessed date; the page does not state the date the amounts took effect"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:sani-dental-prices",
+   "note": "every figure read off the named clinic's own page on the accessed date; the arithmetic stretch is marked as this project's"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard staging of full-arch work; the exclusions are cited to the three price pages"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:sani-dental-prices"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "budapest",
+   "type": "hub",
+   "name": "Budapest",
+   "as": "The long course this city's two-visit model is built around.",
+   "rel": "procedure"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "What two of these arches add up to, and the price nobody prints as one number.",
+   "rel": "whole"
+  },
+  {
+   "from": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "The job that counts these in tens.",
+   "rel": "whole"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The larger job single implants are counted into.",
+   "rel": "whole"
+  },
+  {
+   "from": "root-canal",
+   "type": "procedure",
+   "name": "Root canal treatment",
+   "as": "The larger job that counts root canals among its lines.",
+   "rel": "whole"
+  },
+  {
+   "from": "veneers",
+   "type": "procedure",
+   "name": "Dental veneers",
+   "as": "What a set of these becomes when the back teeth are included.",
+   "rel": "whole"
+  }
+ ]
+}

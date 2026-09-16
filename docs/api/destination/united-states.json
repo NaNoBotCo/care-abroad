@@ -1,0 +1,549 @@
+{
+ "schema": 1,
+ "id": "united-states",
+ "type": "destination",
+ "names": {
+  "name": "United States",
+  "aliases": [
+   "USA",
+   "US",
+   "United States of America"
+  ],
+  "said": "The trade calls it the source market and means the price at home. It is also where a Gulf ministry sends its hardest cancer cases, and where a Canadian pays cash to jump a provincial queue."
+ },
+ "region": [
+  "north-america"
+ ],
+ "facets": {
+  "iso2": "US",
+  "direction": "both",
+  "currency": "USD",
+  "languages": [
+   "English",
+   "Spanish"
+  ],
+  "draws": [
+   "proton-therapy",
+   "car-t",
+   "bone-marrow-transplant",
+   "kidney-transplant"
+  ]
+ },
+ "text": {
+  "what": "The largest source market in the world and a major destination in the same breath. Americans leave for dentistry, weight-loss surgery, cosmetic surgery and fertility treatment, mostly southward and mostly by road or a short flight. Patients arrive from Canada, the Gulf, Latin America and beyond for the complex end — oncology, transplant, cell therapy — that few systems can staff. The federal entitlement most travellers assume they carry with them does not leave the country.",
+  "story": "Start with what is not covered. Medicare's own page states it plainly: \"Medicare usually doesn't cover health care while you're traveling outside the U.S. but there are some exceptions\". The exceptions are narrow and geographic, not clinical — a foreign hospital nearer than the nearest US one that can treat the condition; a medical emergency while crossing Canada by the most direct route between Alaska and another state; shipboard care when the ship is in a US port or within six hours of one. None of them covers an operation somebody flew abroad to have. A planned knee replacement in Mexico or a dental course in Costa Rica is paid by the patient, in full, and that single rule shapes who travels from here: people without cover, people whose cover excludes the thing they need, and people facing a deductible larger than a fare.\n\nOn the other side of the ledger the CDC's chapter says \"Surveillance data indicate that millions of U.S. residents travel internationally for medical care each year\" and names the destinations US patients most commonly travel to: Mexico, Canada, the Caribbean, and several countries in South America. *Inference —* the direction of that sentence is solid and the magnitude is not. Millions is a wide word, the surveillance it rests on counts border crossings and survey answers rather than operations, and this directory carries the destination list and leaves the number where it found it.\n\nInbound is thinner still in public data. Large American cancer centres run international offices — MD Anderson in Houston states that \"Hundreds of patients come to Houston from other countries every year\" and staffs certified interpreters in Arabic, French, Mandarin, Spanish, Vietnamese and American Sign Language — but hundreds is the number the hospital chose to publish, and no federal series counts foreign patients admitted to US hospitals.\n\nThe United States is also the only location in the ISAPS 2024 survey that returned N/A for the share of patients attending from other locations, in a survey where it reported more aesthetic procedures than anywhere else: 6,165,173, of which 4,165,645 were non-surgical.",
+  "how": "The domestic price is the mechanism. American hospitals bill from chargemasters, negotiate different rates with every insurer, and are required by federal rule to publish machine-readable price files that are hard to read and harder to compare; a patient without insurance is quoted from the top of that structure. *Trade practice —* the outbound trade runs on that gap: employers and unions have at times contracted directly with foreign or domestic centres of excellence for joint replacement and cardiac work, and border clinics quote a single cash number against an American bill nobody can predict. Inbound, a foreign ministry or an embassy is often the payer, and the hospital's international office quotes an estimate and takes a deposit before the visa letter is written.",
+  "today": "As of 16 September 2026 the Medicare position is unchanged and is carried here as a rule record. Nothing on this page says whether travelling is worth it: the comparison that would settle it — the US price a given patient would actually pay, against the foreign price plus the flight, the escort, the extra nights and the revision at home — is not a number either side publishes."
+ },
+ "geo": {
+  "lat": 38.8977,
+  "lon": -77.0365,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No inbound or outbound patient count is carried. The CDC's 'millions of U.S. residents' is quoted in the prose as the CDC's sentence, not adopted as a figure; the ISAPS count of 6,165,173 aesthetic procedures in 2024 counts procedures by board-certified plastic surgeons, and that survey records no foreign-patient share for this country.",
+  "as_of": "2024",
+  "source": "s:isaps-global-survey-2024",
+  "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf"
+ },
+ "kin": [
+  {
+   "to": "us-medicare-abroad",
+   "as": "The rule that decides what a US patient carries abroad, which is almost nothing.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "The other half of why people leave from here: the cover that does not cover it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "mexico",
+   "as": "The destination reached by road, and the one the CDC names first.",
+   "rel": "destination"
+  },
+  {
+   "to": "canada",
+   "as": "The other big source market, and a neighbour whose patients arrive here paying cash.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dominican-republic",
+   "as": "Where every patient counted in two CDC outbreak reports had travelled from here.",
+   "rel": "destination"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "One of the treatments patients fly into this country for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "as": "Cell therapy is the inbound end of this market.",
+   "rel": "procedure"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The word this site uses, and the argument over what to call the thing.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why 'millions a year' is a sentence and not a measurement.",
+   "rel": "story"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The one US series that reports clinic-by-clinic outcomes, and what it does and does not cover.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "This is the 'home' in that phrase for most of the traffic on this site.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medicare — travel outside the U.S.",
+   "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s."
+  },
+  {
+   "label": "CDC Yellow Book — care abroad",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:medicare-travel-outside-us",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:isaps-global-survey-2024",
+  "s:mdanderson-international",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:medicare-travel-outside-us",
+    "note": "Medicare's own page, the CDC chapter and the ISAPS survey; the reading of 'millions' is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the pricing mechanism and the employer-contract practice, hedged in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:MD Anderson Cancer Center.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The largest source market in the world and a major destination in the same breath.",
+ "region_terms": [
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "us-medicare-abroad",
+   "type": "rule",
+   "name": "Medicare outside the United States",
+   "as": "The rule that decides what a US patient carries abroad, which is almost nothing.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The other half of why people leave from here: the cover that does not cover it.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The destination reached by road, and the one the CDC names first.",
+   "rel": "destination"
+  },
+  {
+   "to": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "The other big source market, and a neighbour whose patients arrive here paying cash.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "Where every patient counted in two CDC outbreak reports had travelled from here.",
+   "rel": "destination"
+  },
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "One of the treatments patients fly into this country for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "Cell therapy is the inbound end of this market.",
+   "rel": "procedure"
+  },
+  {
+   "to": "medical-travel",
+   "type": "term",
+   "name": "Medical travel",
+   "as": "The word this site uses, and the argument over what to call the thing.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why 'millions a year' is a sentence and not a measurement.",
+   "rel": "story"
+  },
+  {
+   "to": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The one US series that reports clinic-by-clinic outcomes, and what it does and does not cover.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "This is the 'home' in that phrase for most of the traffic on this site.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:medicare-travel-outside-us",
+   "kind": "web",
+   "title": "Travel outside the U.S.",
+   "publisher": "Medicare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:isaps-global-survey-2024",
+   "kind": "report",
+   "title": "ISAPS International Survey on Aesthetic/Cosmetic Procedures Performed in 2024",
+   "publisher": "International Society of Aesthetic Plastic Surgery, tabulated by Industry Insights Inc.",
+   "url": "https://www.isaps.org/media/razfvmsk/isaps-global-survey-2024.pdf",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:mdanderson-international",
+   "kind": "web",
+   "title": "International Center — becoming our patient",
+   "publisher": "University of Texas MD Anderson Cancer Center, Houston",
+   "url": "https://www.mdanderson.org/patients-family/becoming-our-patient/international-center.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:medicare-travel-outside-us",
+   "note": "Medicare's own page, the CDC chapter and the ISAPS survey; the reading of 'millions' is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the pricing mechanism and the employer-contract practice, hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "The other big source market, and the first place a Canadian in a hurry pays cash.",
+   "rel": "contrast"
+  },
+  {
+   "from": "colombia",
+   "type": "destination",
+   "name": "Colombia",
+   "as": "The origin Colombian surgeons name most often for their foreign patients.",
+   "rel": "contrast"
+  },
+  {
+   "from": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The source market, two to three hours away by air.",
+   "rel": "contrast"
+  },
+  {
+   "from": "cuba",
+   "type": "destination",
+   "name": "Cuba",
+   "as": "The neighbouring source market whose own regulations decide who may come.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dominican-republic",
+   "type": "destination",
+   "name": "Dominican Republic",
+   "as": "Where every counted patient in both clusters lived.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "The source market next door, and the reason the trade is a drive rather than a flight.",
+   "rel": "contrast"
+  },
+  {
+   "from": "panama",
+   "type": "destination",
+   "name": "Panama",
+   "as": "The origin named first, and the currency the prices are quoted in.",
+   "rel": "contrast"
+  },
+  {
+   "from": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "The nearest large market, and the one whose own law is the binding constraint on reaching this city.",
+   "rel": "kin"
+  },
+  {
+   "from": "los-algodones",
+   "type": "hub",
+   "name": "Los Algodones",
+   "as": "Where the patients live, and where the dental bill they are avoiding was written.",
+   "rel": "kin"
+  },
+  {
+   "from": "monterrey",
+   "type": "hub",
+   "name": "Monterrey",
+   "as": "The market three hours north by road, and the one the English-language consent forms are for.",
+   "rel": "kin"
+  },
+  {
+   "from": "nuevo-progreso",
+   "type": "hub",
+   "name": "Nuevo Progreso",
+   "as": "Where the walkers come from, most of them wintering in the Rio Grande Valley.",
+   "rel": "kin"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "Where the patients live and where every one of these infections was diagnosed.",
+   "rel": "kin"
+  },
+  {
+   "from": "tijuana",
+   "type": "hub",
+   "name": "Tijuana",
+   "as": "The source market, fifteen miles away, and the health system that treats the complications.",
+   "rel": "kin"
+  },
+  {
+   "from": "abortion-care",
+   "type": "procedure",
+   "name": "Abortion",
+   "as": "Where the same journey runs between states and a provider's price floor is an abortion fund.",
+   "rel": "destination"
+  },
+  {
+   "from": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "The source market whose society published the mortality survey.",
+   "rel": "destination"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The other end of the 2013 comparison, and the market it was aimed at.",
+   "rel": "destination"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "The source market whose published figure is a surgeon's fee alone.",
+   "rel": "destination"
+  },
+  {
+   "from": "gastric-balloon",
+   "type": "procedure",
+   "name": "Gastric balloon",
+   "as": "Where the device's regulator published the placement limit and the adverse events this record quotes.",
+   "rel": "place"
+  },
+  {
+   "from": "lasik",
+   "type": "procedure",
+   "name": "LASIK",
+   "as": "Where the price is quoted per eye before discounts and the survey range is four times wide.",
+   "rel": "destination"
+  },
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The market whose published figure is a surgeon's fee rather than a price.",
+   "rel": "destination"
+  },
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "Where a practice publishes an estimate for this operation and declines to sell it for cash.",
+   "rel": "destination"
+  },
+  {
+   "from": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "Holds more proton centres than any other country, and took the UK programme's patients.",
+   "rel": "destination"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "The regulator that has enjoined a clinic, and the country the marketing surveys found most of the businesses in.",
+   "rel": "destination"
+  },
+  {
+   "from": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "Where the one published all-in programme price on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "from": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "Where a practice publishes the surgeon's fee and the total separately, which is what makes the other lists readable.",
+   "rel": "destination"
+  },
+  {
+   "from": "abortion-travel-law",
+   "type": "rule",
+   "name": "Travelling for a termination",
+   "as": "The source market the question moved to in 2022.",
+   "rel": "destination"
+  },
+  {
+   "from": "assisted-dying-law",
+   "type": "rule",
+   "name": "Assisted dying, and who may cross a border for it",
+   "as": "The federation where one state opened the door and another keeps it shut.",
+   "rel": "destination"
+  },
+  {
+   "from": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "The source market whose federal position was decided in 2025 for minors and left open for adults.",
+   "rel": "destination"
+  },
+  {
+   "from": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "The regime that turns on two defined phrases.",
+   "rel": "destination"
+  },
+  {
+   "from": "us-medicare-abroad",
+   "type": "rule",
+   "name": "Medicare outside the United States",
+   "as": "The country whose public programme this is, and the largest source market in the world.",
+   "rel": "destination"
+  },
+  {
+   "from": "dnv-healthcare",
+   "type": "org",
+   "name": "DNV Healthcare",
+   "as": "Where its NIAHO programme carries federal deeming weight.",
+   "rel": "place"
+  },
+  {
+   "from": "leigh-turner",
+   "type": "person",
+   "name": "Leigh Turner",
+   "as": "The country his counts are of, and the one usually described as a source of patients rather than a market.",
+   "rel": "destination"
+  },
+  {
+   "from": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "Where the episode payment was designed, and the market whose patients travel out of it.",
+   "rel": "destination"
+  },
+  {
+   "from": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The country the register covers, and the largest source market for fertility travel in this directory.",
+   "rel": "destination"
+  }
+ ]
+}

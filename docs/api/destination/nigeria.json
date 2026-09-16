@@ -1,0 +1,279 @@
+{
+ "schema": 1,
+ "id": "nigeria",
+ "type": "destination",
+ "names": {
+  "name": "Nigeria",
+  "aliases": [
+   "Federal Republic of Nigeria",
+   "Naijíríyà"
+  ],
+  "said": "A source market that discusses itself in dollars lost. Lagos and Abuja agencies book India, the United Kingdom, Dubai, Egypt and Turkey, and the phrase used in the Nigerian press for the outflow is a sum of money rather than a number of patients."
+ },
+ "region": [
+  "africa-west"
+ ],
+ "facets": {
+  "iso2": "NG",
+  "direction": "outbound",
+  "currency": "NGN",
+  "languages": [
+   "English",
+   "Hausa",
+   "Yoruba",
+   "Igbo"
+  ],
+  "draws": []
+ },
+ "text": {
+  "what": "Africa's largest source market by reputation and the one where the size of the outflow is least settled. Nigerian ministers have put the annual cost at figures ranging from roughly one billion to two billion US dollars; the country's own central bank publishes health-related travel outflows in its balance of payments, and the numbers reported from that series differ between accounts by orders of magnitude. This record carries no annual dollar figure, and the reason it does not is the subject of the page.",
+  "story": "The claim in widest circulation is that Nigeria loses about two billion dollars a year to treatment abroad. It is attributed to Professor Muhammad Ali Pate, Coordinating Minister of Health and Social Welfare, reported in April 2025, who tied it to a lack of confidence in local care. Earlier ministers gave other numbers: an information minister put it between 1.2 and 1.6 billion in 2022, a health minister at two billion before that. *Inference —* a figure that moves by a factor of two between cabinet members, with no series named behind it, is a rhetorical quantity being used in an argument about domestic investment. It may still be roughly right. It is not a measurement, and this directory does not print it as one.\n\nThe counting problem has a second half. India, the destination Nigerian patients are most often said to use, publishes arrivals for medical purposes by source country: in 2025 it named Bangladesh, Iraq, Uzbekistan, Somalia, Turkmenistan, Oman and Kenya as its leading seven. Nigeria is not among the seven that release names. *Inference —* either the Nigerian flow to India is smaller than the rhetoric implies, or it travels on visa classes India does not count under a medical purpose, or it goes elsewhere — to the United Kingdom, to Dubai, to Egypt, to Türkiye. Each of those is a different policy problem and the single dollar figure conceals which one it is.\n\nWhat is not in dispute is the distribution. The people who fly out are the people with foreign exchange: officials, executives, the diaspora's relatives, the insured. The people who do not fly are treated in the same hospitals the fliers declined, by staff who watch the complex cases leave.",
+  "how": "A referral, or more often a self-referral through an agency, a visa, and payment in foreign currency at a time when foreign currency has been rationed. Nigerian insurers sell overseas benefits on the upper tiers only. The Central Bank's foreign-exchange allocations are themselves part of the mechanism, which is why the Nigerian argument about treatment abroad is conducted by the central bank as much as by the health ministry.",
+  "today": "As of September 2026 this record carries no annual outflow figure for Nigeria. The ministerial figures are named above with their dates; the central bank series exists and this project could not open a page stating it directly, so it is described rather than quoted.",
+  "notes": "Nothing here says the outflow is small. It says the published quantities disagree with each other and none of them names a method."
+ },
+ "geo": {
+  "lat": 6.5244,
+  "lon": 3.3792,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No annual outflow figure is carried. The figure most widely quoted — about US$2 billion a year — is attributed to Professor Muhammad Ali Pate, Coordinating Minister of Health and Social Welfare, in April 2025, and this project read the attribution in the publisher's listing rather than on the page itself. Other ministers have given 1.2 to 1.6 billion. None of these names a statistical series. Nigeria does not appear among the seven leading source countries India named for medical-purpose arrivals in 2025.",
+  "as_of": "2025",
+  "source": "s:allafrica-nigeria-pate-2025",
+  "url": "https://allafrica.com/stories/202504160076.html"
+ },
+ "kin": [
+  {
+   "to": "india",
+   "as": "The destination the rhetoric names, and the state whose own published counts do not list Nigeria among its seven largest sources.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The other long-standing destination for Nigerians who can pay, and one that counts them as private patients rather than as travellers.",
+   "rel": "destination"
+  },
+  {
+   "to": "uae",
+   "as": "A destination whose own arrivals count sweeps in visitors from West Africa without separating them out.",
+   "rel": "destination"
+  },
+  {
+   "to": "kenya",
+   "as": "The other big African source market, and the one with a receiving state's count behind it.",
+   "rel": "kin"
+  },
+  {
+   "to": "counting-patients",
+   "as": "The billion-dollar figure with no series behind it is this page's whole argument.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "An outflow everybody agrees exists and nobody has measured the same way twice.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-out-of-pocket",
+   "as": "The series behind what Nigerian households pay for care at home.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Medical and Wellness Tourism in India — PIB backgrounder, 2 May 2026",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1"
+  }
+ ],
+ "sources": [
+  "s:allafrica-nigeria-pate-2025",
+  "s:pib-india-mvt-2026",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "inference",
+    "note": "this project reporting that the published quantities disagree, rather than choosing between them"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:pib-india-mvt-2026",
+    "note": "the Indian arrivals list is cited; the ministerial attributions are flagged for verification; the two readings are marked inline as inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "Africa's largest source market by reputation and the one where the size of the outflow is least settled.",
+ "region_terms": [
+  {
+   "key": "africa-west",
+   "name": "West Africa",
+   "note": "Nigeria, Ghana, Senegal — mostly outbound, and the outflow is itself the story"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The destination the rhetoric names, and the state whose own published counts do not list Nigeria among its seven largest sources.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The other long-standing destination for Nigerians who can pay, and one that counts them as private patients rather than as travellers.",
+   "rel": "destination"
+  },
+  {
+   "to": "uae",
+   "type": "destination",
+   "name": "United Arab Emirates",
+   "as": "A destination whose own arrivals count sweeps in visitors from West Africa without separating them out.",
+   "rel": "destination"
+  },
+  {
+   "to": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "The other big African source market, and the one with a receiving state's count behind it.",
+   "rel": "kin"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The billion-dollar figure with no series behind it is this page's whole argument.",
+   "rel": "story"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "An outflow everybody agrees exists and nobody has measured the same way twice.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-out-of-pocket",
+   "type": "dataset",
+   "name": "Out-of-pocket share of health spending",
+   "as": "The series behind what Nigerian households pay for care at home.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:allafrica-nigeria-pate-2025",
+   "kind": "news",
+   "title": "Nigeria Loses $2bn Annually to Medical Tourism — Govt",
+   "publisher": "allAfrica",
+   "url": "https://allafrica.com/stories/202504160076.html",
+   "accessed": "2026-09-16",
+   "note": "April 2025, attributing the figure to Professor Muhammad Ali Pate, Coordinating Minister of Health and Social Welfare. The page would not open for this project on the access date; the attribution is carried from the publisher's own listing and is flagged for verification."
+  },
+  {
+   "id": "s:pib-india-mvt-2026",
+   "kind": "gov",
+   "title": "Medical and Wellness Tourism in India — PIB Backgrounder",
+   "publisher": "Press Information Bureau, Government of India",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257447&reg=3&lang=1",
+   "accessed": "2026-09-16",
+   "note": "posted 2 May 2026; gives 2025 arrivals in India for medical purpose in total and for the seven leading source countries"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "inference",
+   "note": "this project reporting that the published quantities disagree, rather than choosing between them"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:pib-india-mvt-2026",
+   "note": "the Indian arrivals list is cited; the ministerial attributions are flagged for verification; the two readings are marked inline as inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "kenya",
+   "type": "destination",
+   "name": "Kenya",
+   "as": "The other big African source market, and the one whose numbers are argued over.",
+   "rel": "kin"
+  },
+  {
+   "from": "south-africa",
+   "type": "destination",
+   "name": "South Africa",
+   "as": "A source market whose patients go to India and to London rather than south.",
+   "rel": "contrast"
+  },
+  {
+   "from": "world-bank-out-of-pocket",
+   "type": "dataset",
+   "name": "Out-of-pocket share of health spending",
+   "as": "71.90% in 2023, in the country this directory treats as an outbound market first.",
+   "rel": "measures"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "The outflow whose published quantities disagree with each other by a factor of two.",
+   "rel": "destination"
+  }
+ ]
+}

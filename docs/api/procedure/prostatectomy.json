@@ -1,0 +1,481 @@
+{
+ "schema": 1,
+ "id": "prostatectomy",
+ "type": "procedure",
+ "names": {
+  "name": "Prostatectomy",
+  "aliases": [
+   "radical prostatectomy",
+   "robotic-assisted radical prostatectomy",
+   "RARP",
+   "TURP"
+  ],
+  "said": "Two operations wear one word. Radical prostatectomy takes the whole gland out for cancer; transurethral resection shaves the middle of it away for an enlarged prostate. Price pages list both, four or five times apart."
+ },
+ "etymology": {
+  "root": "prostate: Greek prostatēs, one who stands before — the gland stands before the bladder. Ektomē is a cutting out; transurethral is Latin trans, across, plus urethra, from Greek ourein, to urinate. Radical here is Latin radix, a root: the whole gland and its roots, not a description of the surgeon.",
+  "tier": "tradition",
+  "note": "Robotic-assisted means a console-driven instrument set, not an autonomous machine. On the package page read for this record it is a price tier of its own."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "urological",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "For cancer, the whole prostate and the seminal vesicles are removed and the bladder rejoined to the urethra — increasingly through a robotic console, with four nights on the Bangkok package read for this record. For benign enlargement, the obstructing tissue is shaved away from inside through the urethra, with three nights on the same hospital's list. Continence and erectile function are the outcomes that decide whether the operation was a good one, and no price page read here mentions either.",
+  "story": "The gap between the two operations is the first thing the price list shows. Bumrungrad publishes robotic-assisted radical prostatectomy at 1,014,000 baht, package ROBOTIC05, and transurethral resection of the prostate at 216,000 baht under either general anaesthesia or a spinal block. Nearly five to one, for two operations on one organ.\n\nThe radical package buys five hours of theatre, four nights in a single room, biopsy of three specimens, and the surgeon, assistant, anaesthetist and pathologist. It excludes outpatient charges and anything before the operation, consultations with other specialists, blood transfusion, laboratory and imaging before and after, stays beyond four days or in intensive care, take-home medication — and, unusually, the daily ward round: \"Charges for admission physician fees, daily round physician fees and discharge summary fee\" sit on the exclusion list. The cheaper cholecystectomy package at the same hospital includes one day of ward rounds; the million-baht one does not.\n\nThe payer versions are a different shape again. Ireland's admitted-patient price for DRG M01B, major male pelvic interventions at minor complexity — the group a radical prostatectomy falls in — is EUR 19,899, and EUR 26,820 at major complexity; a transurethral prostatectomy, M02B, is EUR 8,363. Australia's schedule pays the surgeon $1,907.25 for item 37210, radical prostatectomy with nerve sparing where clinically indicated, and leaves the hospital to bill the rest.\n\n*Inference —* a foreign patient reading the Thai figure against the Irish one is reading a five-hour theatre slot with four nights against a whole Irish admission at a fifth of the price. Neither number says anything about how many of these operations the surgeon did last year, which is the figure the literature associates with continence and which nobody publishes on a price page.",
+  "how": "Radical: general anaesthesia, six small ports, the gland freed from the bladder neck and the urethra, nerves spared where the cancer allows, the specimen removed through an enlarged port, the bladder sewn to the urethra, a catheter left in for a week or two. That catheter is the detail that decides travel — it comes out after the flight home, or it does not come out at all until a second appointment abroad.\n\nTURP: spinal or general anaesthesia, a resectoscope through the urethra, the obstructing tissue shaved and washed out, a catheter and irrigation for a day or two, three nights on the package read here.\n\nBoth are elective in the sense that they wait. NHS England reported a median wait of 12.0 weeks across all pathways at the end of July 2026 and 111,379 people waiting more than 52 weeks; Ireland counted 115,450 waiting for an inpatient or day-case appointment at the end of May 2026. Those are the queues this operation's foreign prices are read against.",
+  "today": "As of 17 September 2026 the published Thai package price for robotic radical prostatectomy is 1,014,000 baht with four nights, against 216,000 baht for a transurethral resection with three. Ireland's admitted-patient price for the major pelvic group is EUR 19,899 at minor complexity, and the Australian schedule fee for the surgeon's service is $1,907.25.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 4,
+  "days_before_flying": 10,
+  "recovery_weeks": 6,
+  "wait_days_home": 84,
+  "note": "Four nights is the stay named in the Bumrungrad robotic radical prostatectomy package read for this record; the transurethral operation on the same hospital's list names three, and the Irish tariff's average length of stay for the major pelvic group is 2.8 days. The eighty-four days is the median wait of 12.0 weeks across all pathways waiting to start treatment in England at the end of July 2026, published by NHS England — an all-specialty median for the English market, not a urology figure. The ten-day figure is the CDC's guidance not to fly for ten days after abdominal surgery. Six weeks is the span usually quoted before heavy lifting; continence and potency take longer and are not published by any source read here.",
+  "as_of": "2026-07-31",
+  "source": "s:nhs-rtt-july-2026",
+  "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "prostatectomy",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 1014000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "operating room for 5 hours including theatre, nurse assisting surgeon and operating team",
+    "single room for 4 nights including nursing service and regular menu meals",
+    "medical supplies and equipment used during surgery under the physician's consideration, specific model",
+    "anaesthesia and necessary medication during the procedure",
+    "biopsy charges for 3 specimens",
+    "doctor fees: surgeon, assistant surgeon, anaesthesiologist and pathologist"
+   ],
+   "excludes": [
+    "expenses at the outpatient unit or before the operation",
+    "stays beyond four days, intensive care, or nights past the day discharge was approved",
+    "consultations with other specialists",
+    "complex cases requiring emergency surgery or equipment beyond the package",
+    "admission physician fees, daily round physician fees and the discharge summary fee",
+    "blood transfusion, laboratory tests and imaging before and after the operation",
+    "take-home medication and supplies"
+   ],
+   "source": "s:bumrungrad-robotic05",
+   "url": "https://www.bumrungrad.com/en/packages/robotic-assisted-radical-prostatectomy-ga-tiva",
+   "note": "package ROBOTIC05, prices stated valid until 31 December 2026 and the service available for 365 days from purchase. The ward round is on the exclusion list of the hospital's million-baht package and on the inclusion list of its quarter-million-baht one.",
+   "tier": "cited",
+   "usd": 30456.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "prostatectomy",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bumrungrad",
+   "amount": 216000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "transurethral resection of the prostate for benign enlargement, under general anaesthesia or spinal block",
+    "three nights in hospital, as stated on the package list"
+   ],
+   "excludes": [
+    "not itemised on the list page read for this record"
+   ],
+   "source": "s:bumrungrad-urology-packages",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/urology-center",
+   "note": "the same price under either anaesthetic. It is the other operation the word prostatectomy covers, and at a fifth of the robotic radical price it is the figure a reader is most likely to mistake for it. The same list carries Urolift at 330,000 THB and water vapour therapy at 261,300 THB for the same benign condition.",
+   "tier": "cited",
+   "usd": 6488.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "prostatectomy",
+   "country": "IE",
+   "amount": 19899,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "DRG M01B MAJOR MALE PELVIC INTERVTNS, MINC — the inlier inpatient episode, at minor complexity"
+   ],
+   "excludes": [
+    "stays beyond the high boundary, paid per diem on top",
+    "travel and accommodation"
+   ],
+   "source": "s:hse-abf-2024-inpatient",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "note": "the Irish public system's own price for the admission, and the ceiling on what it repays a patient treated abroad. Major complexity, M01A, is EUR 26,820; a transurethral prostatectomy, M02B, is EUR 8,363 — the same five-to-one ratio between the two operations as on the Thai package list, arrived at by a different method.",
+   "tier": "cited",
+   "usd": 22959.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "prostatectomy",
+   "country": "AU",
+   "amount": 1907.25,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": [
+    "item 37210: radical prostatectomy involving total excision of the prostate, sparing of nerves around the prostate where clinically indicated, with or without bladder neck reconstruction"
+   ],
+   "excludes": [
+    "the hospital, the theatre, the ward, the anaesthetist and the robot",
+    "services to which certain other items apply, named in the descriptor"
+   ],
+   "source": "s:mbs-37210",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=37210&qt=item",
+   "note": "the Medicare Benefits Schedule fee, 75% benefit $1,430.45, the fee shown as applying from 1 July 2026. The descriptor is the only document on this page that mentions nerve sparing, which is the part of the operation patients ask about.",
+   "tier": "cited",
+   "usd": 1359.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "hysterectomy",
+   "as": "The operation on the other side of the same waiting list, priced the same three ways.",
+   "rel": "kin"
+  },
+  {
+   "to": "hernia-repair",
+   "as": "The other pelvic operation a foreign hospital sells by the night.",
+   "rel": "kin"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes both prostate packages this page reads, the ward round excluded from the larger one.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the robot is a price tier and the ward round is an exclusion.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where the schedule names nerve sparing and pays the surgeon alone.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The source market whose queue makes a foreign price legible.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route under which an Irish patient is repaid at the Irish admitted-patient price.",
+   "rel": "rule"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step at which the daily ward round turns out to be billed separately.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who removes the catheter, and who measures the PSA at three months.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The document this package charges for separately and a home urologist cannot work without.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets how long after pelvic surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that counts the queue this operation waits in at home.",
+   "rel": "measured-by"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hernia-repair",
+   "tell": "Both are keyhole operations in the same region sold by the night; one removes a gland for cancer and the other closes a defect in the abdominal wall."
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad — robotic-assisted radical prostatectomy package",
+   "url": "https://www.bumrungrad.com/en/packages/robotic-assisted-radical-prostatectomy-ga-tiva"
+  },
+  {
+   "label": "MBS item 37210",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=37210&qt=item"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-robotic05",
+  "s:bumrungrad-urology-packages",
+  "s:hse-abf-2024-inpatient",
+  "s:mbs-37210",
+  "s:nhs-rtt-july-2026",
+  "s:ntpf-may-2026",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bumrungrad-robotic05",
+    "note": "package terms and both Thai prices read off the hospital's own pages on 17 September 2026; tariff figures read off the Irish price list and the Australian item page; the closing stretch is this project's reasoning and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the waiting figures are cited and labelled as all-specialty"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:nhs-rtt-july-2026"
+   },
+   "prices": {
+    "tier": "cited"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Prostatectomy.jpg",
+  "File:Da Vinci Surgical System.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "For cancer, the whole prostate and the seminal vesicles are removed and the bladder rejoined to the urethra — increasingly through a robotic console, with four nights on the Bangkok package read for this record.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The operation on the other side of the same waiting list, priced the same three ways.",
+   "rel": "kin"
+  },
+  {
+   "to": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "The other pelvic operation a foreign hospital sells by the night.",
+   "rel": "kin"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes both prostate packages this page reads, the ward round excluded from the larger one.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the robot is a price tier and the ward round is an exclusion.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "type": "destination",
+   "name": "Australia",
+   "as": "Where the schedule names nerve sparing and pays the surgeon alone.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The source market whose queue makes a foreign price legible.",
+   "rel": "destination"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route under which an Irish patient is repaid at the Irish admitted-patient price.",
+   "rel": "rule"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step at which the daily ward round turns out to be billed separately.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who removes the catheter, and who measures the PSA at three months.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The document this package charges for separately and a home urologist cannot work without.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The clot risk that sets how long after pelvic surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that counts the queue this operation waits in at home.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-robotic05",
+   "kind": "web",
+   "title": "Robotic-assisted radical prostatectomy (GA-TIVA) — package ROBOTIC05",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/robotic-assisted-radical-prostatectomy-ga-tiva",
+   "accessed": "2026-09-17",
+   "note": "1,014,000 THB, valid until 31 December 2026; five hours of theatre, four nights in a single room, biopsy of three specimens; exclusions name daily round physician fees, stays beyond four days, ICU, laboratory and imaging before and after"
+  },
+  {
+   "id": "s:bumrungrad-urology-packages",
+   "kind": "web",
+   "title": "Urology Center — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/urology-center",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: robotic-assisted radical prostatectomy 1,014,000 THB; transurethral resection of the prostate (TURP) 216,000 THB under either general anaesthesia or spinal block, three nights; Urolift 330,000; ReZum water vapour therapy 261,300; basic prostate check 7,500"
+  },
+  {
+   "id": "s:hse-abf-2024-inpatient",
+   "kind": "gov",
+   "title": "ABF 2024 Admitted Patient Price List — Inpatient Only",
+   "publisher": "Health Service Executive (Ireland)",
+   "url": "https://assets.hse.ie/media/documents/ABF_2024_Admitted_Patient_Price_List_-_Inpatient_Only.pdf",
+   "accessed": "2026-09-17",
+   "note": "the activity-based-funding inlier inpatient price per diagnosis-related group, linked from the HSE's Northern Ireland Planned Healthcare Scheme claim page and the list behind the CBD and NIPHS repayments. Rows read on 17 September 2026: F06C CRNRY BYPSS-INV INVES MINC EUR 30,040, F06B EUR 34,430, F06A EUR 50,579; F05B CRNRY BYPSS+INV INVES MINC EUR 45,093; F04C CRD VLV INTERVTN+PMP-INV INVES MINC EUR 40,253, F04B EUR 50,628, F04A EUR 80,201; F19B TRNS-VSCLR PERC CRDC INTERVTN MINC EUR 9,887, F19A EUR 42,060; F10B INTERVENTIONAL CRNRY PR + AMI MINC EUR 8,857; M01B MAJOR MALE PELVIC INTERVTNS MINC EUR 19,899, M01A EUR 26,820; M02B TRANSURTH PROSTMY MINC EUR 8,363; N04B HYSTERECTOMY FOR N-MAL MINC EUR 13,282; G10B HERNIA INTERVENTIONS MINC EUR 9,046, G10A MAJC EUR 15,366; H08B LAP CHOLECYSTECTOMY MINC EUR 9,867, H07C OPEN CHOLECYSTECTOMY MINC EUR 16,206. An inlier price assumes a length of stay between the low and high boundaries printed beside it."
+  },
+  {
+   "id": "s:mbs-37210",
+   "kind": "gov",
+   "title": "MBS item 37210 — radical prostatectomy",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=37210&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $1,907.25, 75% benefit $1,430.45, fee shown as applying from 01-Jul-2026; descriptor names total excision of the prostate with nerve sparing where clinically indicated"
+  },
+  {
+   "id": "s:nhs-rtt-july-2026",
+   "kind": "gov",
+   "title": "Statistical Press Notice — NHS referral to treatment (RTT) waiting times data, July 2026",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Jul26-RTT-statistical-press-notice-PDF-578K-97ylx5.pdf",
+   "accessed": "2026-09-16",
+   "note": "published Thursday 10 September 2026. 7.3 million RTT pathways waiting to start treatment at the end of July 2026, an estimated 6.2 million unique patients; 111,379 waiting over 52 weeks, 9,095 over 65 weeks, 235 over 104 weeks; 65.4% waiting up to 18 weeks against a 92% standard; median wait 12.0 weeks. Figures include estimates for three trusts and one independent provider that did not submit."
+  },
+  {
+   "id": "s:ntpf-may-2026",
+   "kind": "gov",
+   "title": "NTPF Publishes May 2026 National Public Hospital Waiting List Data",
+   "publisher": "National Treatment Purchase Fund (Ireland)",
+   "url": "https://www.ntpf.ie/news_and_events/ntpf-publishes-may-2026-national-public-hospital-waiting-list-data/",
+   "accessed": "2026-09-16",
+   "note": "at the end of May 2026: 669,506 waiting for a first outpatient consultation, 115,450 for an inpatient or day-case appointment, 40,986 for a GI endoscopy, 34,049 suspended, 111,643 on the planned-procedure list"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bumrungrad-robotic05",
+   "note": "package terms and both Thai prices read off the hospital's own pages on 17 September 2026; tariff figures read off the Irish price list and the Australian item page; the closing stretch is this project's reasoning and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard operative description; the waiting figures are cited and labelled as all-specialty"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:nhs-rtt-july-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "The other pelvic operation sold by the night and the route.",
+   "rel": "kin"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The operation on the other side of the same waiting list, priced the same three ways.",
+   "rel": "kin"
+  },
+  {
+   "from": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "Among the robotic work its unit volumes are reported for, the first programme in the world past twenty thousand operations.",
+   "rel": "performs"
+  }
+ ]
+}

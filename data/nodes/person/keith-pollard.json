@@ -1,0 +1,112 @@
+{
+ "schema": 1,
+ "id": "keith-pollard",
+ "type": "person",
+ "names": {
+  "name": "Keith Pollard",
+  "aliases": [
+   "Keith Lindsay Pollard"
+  ],
+  "said": "The publisher who ended up as the field's principal sceptic about its own numbers, while selling reports, sponsorship and award entries into it."
+ },
+ "region": [
+  "europe-west",
+  "global"
+ ],
+ "facets": {
+  "role": [
+   "journalist"
+  ],
+  "iso2": "GB"
+ },
+ "text": {
+  "what": "British healthcare publisher, consultant and editor. He founded and ran Intuition Communication, a web publishing business whose sites sold information about private treatment to UK and overseas patients, and which bought the International Medical Travel Journal in 2009. He is the journal's editor in chief and chairs the judging panel of its Medical Travel Awards. Everything this record states about his career comes from his own site or from the UK companies registry, and it says which.",
+  "story": "The registry gives the frame. Company 04858023 was incorporated on 6 August 2003 as Trekwell Ltd, took the name Intuition Communication Limited on 22 August 2003, and Keith Lindsay Pollard is recorded as a director from incorporation until his resignation on 28 February 2018. LaingBuisson announced the acquisition of Intuition on 1 March 2018; the company was renamed LaingBuisson International Limited on 5 March 2018, renamed again to Healthcare Business Intelligence Limited that June, back the following year, and dissolved on 14 March 2023. He is recorded as a director of it again from 25 April 2019.\n\nHis own account fills in what a registry cannot. He describes himself as CEO of Intuition, a business established in 2003 running Private Healthcare UK, HarleyStreet.com, Treatment Abroad and Cancer Advice, which launched an Arabic-language portal for Middle Eastern patients in 2010 and acquired IMTJ in 2009 — not 2007, which is the year the journal itself was established, and the two dates are easily run together. He names a past role as Executive Chairman of LaingBuisson International, without dating it, and current roles as a senior healthcare consultant to LaingBuisson, an independent consultant through his own company, and subject matter expert on medical travel for the Trojena development at NEOM in Saudi Arabia.\n\nThe awards are where the roles meet. The awards site's last published state describes them as \"judged by an independent panel of medical travel experts, chaired by IMTJ Editor-in-Chief, Keith Pollard\". *Inference —* a panel chaired by the editor of the paper that runs the competition and takes the entry fees is independent of the entrants, which is not the same as independent. This directory counts a trade award as evidence that a company entered and a panel preferred its entry, and never alongside an accreditation.\n\nOn the same page he adds the sentence this record turns on. His site says he is editor in chief of IMTJ \"although the journal's future is currently under review by LaingBuisson\" — wording already present in a September 2024 capture. It therefore dates the statement rather than the state: what can be said is that the review was being described in those terms two years ago, not that it is still under way, and not that the journal has stopped.",
+  "notes": "His birth year is not asserted here. Where date-of-birth detail is published about a company officer, this project leaves it there. No month-level dating is carried for the CEO or Executive Chairman titles either, because neither his site nor the registry gives one for the title — the registry's dates are for the directorship, which is what the record names."
+ },
+ "kin": [
+  {
+   "to": "imtj",
+   "as": "The journal his company bought in 2009 and he still edits, and the record carrying its ownership chain.",
+   "rel": "org"
+  },
+  {
+   "to": "imtj-summit",
+   "as": "The meeting and the awards his publication ran, with him in the chair of the panel.",
+   "rel": "event"
+  },
+  {
+   "to": "counting-patients",
+   "as": "His paper's long argument with the industry's headline figures is the best-known part of his editing.",
+   "rel": "story"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where a trade award chaired by an editor and an inspection paid for by a hospital are told apart.",
+   "rel": "story"
+  },
+  {
+   "to": "josef-woodman",
+   "as": "The other figure who built a business explaining this trade to patients, from the consumer-guide side rather than the trade-press one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "medical-travel",
+   "as": "The two words his journal put in its title, and the ones he uses.",
+   "rel": "term"
+  },
+  {
+   "to": "facilitator",
+   "as": "The trade his sites sold to and his awards judged.",
+   "rel": "term"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where the publishing business was registered, and where its sites sold private treatment at home as well as abroad.",
+   "rel": "destination"
+  }
+ ],
+ "links": [
+  {
+   "label": "About Keith — keithpollard.com",
+   "url": "https://keithpollard.com/about/"
+  },
+  {
+   "label": "Companies House: company 04858023",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/04858023"
+  },
+  {
+   "label": "Officers of company 04858023",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/04858023/officers"
+  }
+ ],
+ "sources": [
+  "s:keithpollard-about",
+  "s:ch-laingbuisson-international",
+  "s:ch-04858023-officers",
+  "s:laingbuisson-intuition-2018",
+  "s:imtj-awards-2024-archive",
+  "s:imtj-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:keithpollard-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ch-04858023-officers",
+    "note": "the company names, dates and directorships are the registry's, read 17 September 2026; the career descriptions and the sentence about the journal's future are his own site's, self-reported; the awards panel wording is quoted from the September 2024 capture of the awards site; the stretch marked *Inference —* is this project's reading"
+   },
+   "text.what": {
+    "tier": "cited",
+    "source": "s:keithpollard-about",
+    "note": "self-reported, and the record says so on the page"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

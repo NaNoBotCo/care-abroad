@@ -1,0 +1,262 @@
+{
+ "schema": 1,
+ "id": "morocco",
+ "type": "destination",
+ "names": {
+  "name": "Morocco",
+  "aliases": [
+   "المملكة المغربية",
+   "Royaume du Maroc",
+   "Kingdom of Morocco",
+   "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"
+  ],
+  "said": "Sold in French, like Tunisia, and later than Tunisia. The clinics are in Casablanca, Rabat, Marrakech, Agadir and Tangier, and Marrakech sells the hotel as hard as the operation."
+ },
+ "region": [
+  "africa-north"
+ ],
+ "facets": {
+  "iso2": "MA",
+  "direction": "inbound",
+  "currency": "MAD",
+  "languages": [
+   "Arabic",
+   "French",
+   "Amazigh"
+  ],
+  "draws": [
+   "rhinoplasty",
+   "liposuction",
+   "hair-transplant-fue",
+   "dental-implant"
+  ]
+ },
+ "text": {
+  "what": "A francophone cosmetic and dental destination that sells to France, to the Moroccan diaspora in Europe and to Gulf visitors, from specialised private clinics in five cities. It is the smaller of North Africa's two trades and the one where the gap between the promotion and the published evidence is widest: the country's own business press has described the sector as underperforming its advantages rather than leading the region.",
+  "story": "The ingredients are the ones every destination lists — geography, climate, political stability, French, a tourism industry that already works. What Morocco does not have is a health system its own auditors are satisfied with. Its Cour des comptes, in the annual report for 2019-2020 published in March 2022, set out shortages of medical, paramedical, administrative and technical staff, and a shortage of the infrastructure and equipment needed to receive and treat patients. Morocco ranked 31st of 46 destinations on the Medical Tourism Index for 2020-21, a ranking that put the shortfall down to workforce and to facilities and services that had not visibly improved.\n\n*Trade practice —* the figure quoted in the sector for annual arrivals is around half a million, attributed to professionals in the industry rather than to a ministry or a statistics office. No publisher this project could reach stands behind it, so it is not carried in the metrics block.\n\nThe workforce point cuts both ways, and that is the shape of the Moroccan story: the country exports doctors to France at the same time as it tries to import patients from France. Dr Tayeb Hamdi, a physician and health-systems researcher quoted in October 2022, put certification, visa procedures, pricing and airport-to-clinic handling at the centre of what would have to change.",
+  "how": "A clinic or an agency quotes a package in euros or dirhams covering the operation, the clinic stay, a hotel and transfers; the consultation is in French and often the first one is by video. Payment is up front. Cosmetic surgery, hair restoration and dentistry dominate the European end. Gulf visitors buy a different mix, closer to check-ups and dermatology, alongside a holiday.",
+  "today": "As of September 2026 this record carries no arrivals figure for Morocco, because the one in circulation has no publisher behind it. What can be cited is the rank, the auditor's findings on the public system, and the clinic cities.",
+  "notes": "The absence of a number here is a fact about what has been published, not a claim that the trade is small."
+ },
+ "geo": {
+  "lat": 34.0209,
+  "lon": -6.8416,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No arrivals figure is carried. The number quoted in the Moroccan sector — roughly half a million a year — is attributed to industry professionals and this project could not trace it to a ministry, a statistics office or any published method. Morocco's Medical Tourism Index rank for 2020-21 was 31st of 46 destinations.",
+  "as_of": "2022",
+  "source": "s:laquotidienne-maroc-2022",
+  "url": "https://laquotidienne.ma/article/economie/tourisme-medical-un-serieux-manque-a-gagner-pour-le-maroc"
+ },
+ "kin": [
+  {
+   "to": "tunisia",
+   "as": "The neighbour that built the same trade first and counts more of it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye",
+   "as": "Where the European hair and cosmetic trade mostly went instead.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "One of the procedures sold here to European buyers.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The other half of the European end of this trade.",
+   "rel": "procedure"
+  },
+  {
+   "to": "facilitator",
+   "as": "The middle layer most European bookings here pass through.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Why a package quoted in euros is not the whole bill.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-doctors",
+   "as": "The series behind the workforce shortage its own auditors describe.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Tourisme médical: un sérieux manque à gagner pour le Maroc",
+   "url": "https://laquotidienne.ma/article/economie/tourisme-medical-un-serieux-manque-a-gagner-pour-le-maroc"
+  }
+ ],
+ "sources": [
+  "s:laquotidienne-maroc-2022",
+  "s:wp-health-morocco",
+  "s:natural-earth",
+  "s:worldbank-open-data"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:laquotidienne-maroc-2022"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:laquotidienne-maroc-2022",
+    "note": "the half-million figure is marked inline as trade practice because no publisher stands behind it"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A francophone cosmetic and dental destination that sells to France, to the Moroccan diaspora in Europe and to Gulf visitors, from specialised private clinics in five cities.",
+ "region_terms": [
+  {
+   "key": "africa-north",
+   "name": "North Africa",
+   "note": "Tunisia, Morocco, Egypt"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "tunisia",
+   "type": "destination",
+   "name": "Tunisia",
+   "as": "The neighbour that built the same trade first and counts more of it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "Where the European hair and cosmetic trade mostly went instead.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "One of the procedures sold here to European buyers.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The other half of the European end of this trade.",
+   "rel": "procedure"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The middle layer most European bookings here pass through.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Why a package quoted in euros is not the whole bill.",
+   "rel": "story"
+  },
+  {
+   "to": "world-bank-doctors",
+   "type": "dataset",
+   "name": "Physicians per 1,000 people",
+   "as": "The series behind the workforce shortage its own auditors describe.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:laquotidienne-maroc-2022",
+   "kind": "news",
+   "title": "Tourisme médical: un sérieux manque à gagner pour le Maroc",
+   "publisher": "La Quotidienne (Morocco)",
+   "url": "https://laquotidienne.ma/article/economie/tourisme-medical-un-serieux-manque-a-gagner-pour-le-maroc",
+   "accessed": "2026-09-16",
+   "note": "published 15 October 2022; carries Morocco's Medical Tourism Index rank for 2020-21, the Cour des comptes finding on the health system, and quotes Dr Tayeb Hamdi"
+  },
+  {
+   "id": "s:wp-health-morocco",
+   "kind": "web",
+   "title": "Health in Morocco",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Morocco",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:laquotidienne-maroc-2022"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:laquotidienne-maroc-2022",
+   "note": "the half-million figure is marked inline as trade practice because no publisher stands behind it"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:laquotidienne-maroc-2022"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:laquotidienne-maroc-2022"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "tunisia",
+   "type": "destination",
+   "name": "Tunisia",
+   "as": "The other francophone North African destination, smaller and later.",
+   "rel": "contrast"
+  }
+ ]
+}

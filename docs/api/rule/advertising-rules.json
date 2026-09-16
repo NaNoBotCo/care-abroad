@@ -1,0 +1,348 @@
+{
+ "id": "advertising-rules",
+ "names": {
+  "name": "What a clinic may say",
+  "aliases": [
+   "healthcare advertising controls",
+   "promotion and information rules",
+   "KKLIU"
+  ],
+  "said": "Several states draw the same line and call it the same thing: information is allowed, advertising is not."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "advertising",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The instruments that govern how a hospital, clinic or broker may promote treatment, and what it may claim. Four regimes are read here: Türkiye's promotion and information regulation, Malaysia's advertisement board approval, Singapore's advertising controls under the Healthcare Services Act 2020, and the United Kingdom's self-regulatory advertising code.",
+  "story": "Türkiye's is the one written with cross-border trade in view, and it was rewritten recently. The Regulation on Promotion and Information Activities in Health Services was published in the Resmî Gazete on 12 November 2025, No. 33075, repealing the regulation of 29 July 2023, No. 32263. Article 5 states the rule: implicit or explicit advertising in the provision of health services is prohibited. Article 8 then carves out the foreign market — promotion directed abroad may run on separate platforms, may not select a domestic audience, and must carry the HealthTürkiye logo.\n\n*Inference —* that is a state permitting to foreigners what it forbids to its own citizens, and doing so explicitly rather than by omission. A reader in London and a reader in Ankara looking at the same Turkish clinic are looking at two different regulatory objects.\n\nMalaysia licenses the advertisement itself. Under section 4B of the Medicines (Advertisement and Sale) Act 1956, with the Medicine Advertisements Board Regulations 1976, an advertisement needs Board approval before publication, and the Ministry's own answer is that all dissemination of information about products and healthcare services to attract public attention, including on the internet, is an advertisement.\n\nSingapore ties the permission to the licence. Advertising controls under the Healthcare Services Act 2020 came into force on 26 June 2023 for non-licensed providers and non-registered professionals, and only a licensee or its authorised person may advertise a licensable healthcare service, under section 31. Entities outside the licensing regime — the Ministry names chiropractic centres, beauty salons, fitness centres and massage parlours — may not claim to treat or cure.\n\nBritain regulates the claim rather than the trader. The CAP Code's section 12 requires that objective claims be backed by evidence, \"if relevant consisting of trials conducted on people\" (rule 12.1), that marketers \"must not discourage essential treatment for conditions for which medical supervision should be sought\" (12.2), and that \"Prescription-only medicines or prescription-only medical treatments may not be advertised to the public\" (12.12).\n\n*Inference —* every one of these instruments binds an advertiser inside its own jurisdiction, and the advertisement a patient reads was usually placed from another one. That is the gap the whole promotional trade in this field sits in, and none of the four regimes read here closes it.",
+  "how": "What a reader can check, and what they cannot: a Turkish provider's authorisation is on a published ministry register, and a Malaysian advertisement carries a serial number on its face. A claim made on a platform hosted elsewhere and served from elsewhere is outside all of them.\n\nWhat these instruments do not govern: the price quoted, the exclusion list attached to it, or what a facilitator says on a telephone call.",
+  "today": "As of 17 September 2026 the Turkish regulation of 12 November 2025 is the current instrument there. The Resmî Gazete page's certificate could not be verified on this date and the text was read on a Turkish portal's reproduction; the article numbers and the repeal are as that reproduction carries them."
+ },
+ "kin": [
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The licence a Turkish advertiser must hold before Article 8 lets it speak abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "as": "The third Malaysian regime, alongside the statutory licence and the council membership.",
+   "rel": "kin"
+  },
+  {
+   "to": "turkiye",
+   "as": "The state that permits abroad what it forbids at home.",
+   "rel": "destination"
+  },
+  {
+   "to": "singapore",
+   "as": "The state that ties the permission to the licence.",
+   "rel": "destination"
+  },
+  {
+   "to": "malaysia",
+   "as": "The state that licenses the advertisement itself.",
+   "rel": "destination"
+  },
+  {
+   "to": "facilitator",
+   "as": "The party most of these instruments reach least.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where the claim meets a number.",
+   "rel": "step"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "as": "What may be said about a treatment holding no authorisation anywhere.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "The claim these codes do not reach.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Resmî Gazete, 12 November 2025, No. 33075",
+   "url": "https://resmigazete.gov.tr/eskiler/2025/11/20251112-2.htm"
+  },
+  {
+   "label": "CAP Code section 12",
+   "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html"
+  }
+ ],
+ "sources": [
+  "s:tr-tanitim-yonetmelik-2025",
+  "s:my-mab-kkliu",
+  "s:my-mab-guidelines",
+  "s:sg-hcsa-advertisement-regs-2021",
+  "s:sg-moh-advertising-controls",
+  "s:asa-cap-code-12",
+  "s:rg-saglik-turizmi-2017"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:tr-tanitim-yonetmelik-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:asa-cap-code-12",
+    "note": "the stretches marked *Inference —* are this project's reading across the four regimes"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:tr-tanitim-yonetmelik-2025",
+    "note": "the official gazette page could not be verified on this date; the reproduction read is named in the source entry"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17",
+ "blurb": "The instruments that govern how a hospital, clinic or broker may promote treatment, and what it may claim.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The licence a Turkish advertiser must hold before Article 8 lets it speak abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The third Malaysian regime, alongside the statutory licence and the council membership.",
+   "rel": "kin"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The state that permits abroad what it forbids at home.",
+   "rel": "destination"
+  },
+  {
+   "to": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "The state that ties the permission to the licence.",
+   "rel": "destination"
+  },
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The state that licenses the advertisement itself.",
+   "rel": "destination"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The party most of these instruments reach least.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The step where the claim meets a number.",
+   "rel": "step"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "What may be said about a treatment holding no authorisation anywhere.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "The claim these codes do not reach.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:tr-tanitim-yonetmelik-2025",
+   "kind": "statute",
+   "title": "Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Faaliyetleri Hakkında Yönetmelik (Resmî Gazete, 12 November 2025, No. 33075)",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://resmigazete.gov.tr/eskiler/2025/11/20251112-2.htm",
+   "accessed": "2026-09-17",
+   "note": "the Resmî Gazete page's certificate could not be verified on this date; the text was read on a Turkish accountancy portal's reproduction at alomaliye.com. Madde 5: implicit or explicit advertising in the provision of health services is prohibited. Madde 8: promotion directed abroad may run on separate platforms, may not select a domestic audience, and must carry the HealthTürkiye logo. Repeals the regulation of 29 July 2023, No. 32263."
+  },
+  {
+   "id": "s:my-mab-kkliu",
+   "kind": "gov",
+   "title": "Is it necessary for medical advertisements on the internet to get approval from MAB?",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/faq/it-necessary-medical-advertisements-internet-get-approval-mab.html",
+   "accessed": "2026-09-17",
+   "note": "the Ministry's own answer: all dissemination of information about products and healthcare services to attract public attention, including on the internet, is an advertisement, and section 4B of the Medicines (Advertisement and Sale) Act 1956 requires Medicine Advertisements Board approval before publication"
+  },
+  {
+   "id": "s:my-mab-guidelines",
+   "kind": "gov",
+   "title": "Medicine Advertisements Board (MAB) guidelines and policy",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/documents/medicine-advertisements-board-mab-guidelines-and-policy.html",
+   "accessed": "2026-09-17",
+   "note": "the index page states the guidelines complement the Medicines (Advertisement and Sale) Act 1956 (Revised 1983) and the Medicine Advertisements Board Regulations 1976; the KKLIU serial number and its validity sit in the linked PDFs, which were not read"
+  },
+  {
+   "id": "s:sg-hcsa-advertisement-regs-2021",
+   "kind": "statute",
+   "title": "Healthcare Services (Advertisement) Regulations 2021 (S 1033/2021), made under the Healthcare Services Act 2020",
+   "publisher": "Singapore Statutes Online, Attorney-General's Chambers",
+   "url": "https://sso.agc.gov.sg/SL/HSA2020-S1033-2021?DocDate=20211230",
+   "accessed": "2026-09-17",
+   "note": "registered from the Singapore Statutes Online listing; the regulations' own text returned 403 on this date, and the advertising controls described in the records that cite it come from the Ministry of Health's own newsroom pages"
+  },
+  {
+   "id": "s:sg-moh-advertising-controls",
+   "kind": "gov",
+   "title": "Non-licensed healthcare entities not permitted to make advertising claims",
+   "publisher": "Ministry of Health, Singapore",
+   "url": "https://www.moh.gov.sg/newsroom/non-licensed-healthcare-entities-not-permitted-to-make-advertising-claims",
+   "accessed": "2026-09-17",
+   "note": "advertising controls under the Healthcare Services Act 2020 came into force on 26 June 2023 for non-licensed providers and non-registered professionals; only licensees or their authorised persons may advertise a licensable healthcare service, under section 31"
+  },
+  {
+   "id": "s:asa-cap-code-12",
+   "kind": "org",
+   "title": "CAP Code section 12 — medicines, medical devices, health-related products and beauty products",
+   "publisher": "Committees of Advertising Practice / Advertising Standards Authority, United Kingdom",
+   "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html",
+   "accessed": "2026-09-17",
+   "note": "rule 12.1 objective claims must be backed by evidence, if relevant trials on people; 12.2 marketers must not discourage essential treatment for conditions for which medical supervision should be sought; 12.12 prescription-only medicines or treatments may not be advertised to the public"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:tr-tanitim-yonetmelik-2025"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:asa-cap-code-12",
+   "note": "the stretches marked *Inference —* are this project's reading across the four regimes"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:tr-tanitim-yonetmelik-2025"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:tr-tanitim-yonetmelik-2025",
+   "note": "the official gazette page could not be verified on this date; the reproduction read is named in the source entry"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "israel",
+   "type": "destination",
+   "name": "Israel",
+   "as": "Registered agents and written price quotes are what this country's statute requires of the middle layer.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "What a clinic here may say, against what a broker abroad says for it.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "dhi-hair-transplant",
+   "type": "procedure",
+   "name": "Direct hair implantation (DHI)",
+   "as": "Where claims of higher graft survival may be made, and where they may not.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "hair-transplant-fue",
+   "type": "procedure",
+   "name": "Follicular unit extraction",
+   "as": "Where before-and-after photography and graft-count claims are regulated, and where they are not.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "What a clinic may claim about a product no regulator has approved.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "unproven-stem-cell",
+   "type": "risk",
+   "name": "Unproven stem cell treatment",
+   "as": "What may be claimed, and by whom, in each jurisdiction.",
+   "rel": "governed-by"
+  },
+  {
+   "from": "malaysia-mhtc-licence",
+   "type": "rule",
+   "name": "Malaysia's healthcare travel registration",
+   "as": "The third regime, and the KKLIU number on every advertisement.",
+   "rel": "kin"
+  },
+  {
+   "from": "stem-cell-regulation",
+   "type": "rule",
+   "name": "Regulating cell and tissue therapies",
+   "as": "What may be said about a treatment that holds no authorisation.",
+   "rel": "kin"
+  },
+  {
+   "from": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The separate regulation that governs what a certificate holder may say abroad.",
+   "rel": "kin"
+  },
+  {
+   "from": "ishrs",
+   "type": "org",
+   "name": "International Society of Hair Restoration Surgery",
+   "as": "The rules on how this work may be sold, which the society's complaint is largely about.",
+   "rel": "rule"
+  }
+ ]
+}

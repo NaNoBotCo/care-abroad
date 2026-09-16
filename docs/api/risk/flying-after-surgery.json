@@ -1,0 +1,433 @@
+{
+ "id": "flying-after-surgery",
+ "names": {
+  "name": "Flying after surgery",
+  "aliases": [
+   "fitness to fly",
+   "the ten-day rule"
+  ],
+  "said": "The clinic calls it the fit-to-fly letter. The airline calls it medical clearance."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "travel"
+ },
+ "text": {
+  "what": "A cabin at cruising altitude is pressurised to roughly the outside air pressure at 6,000 to 8,000 feet. Gas trapped in a body cavity expands at that pressure, and a passenger sits still for hours in a state that clots more readily than usual. The CDC states that medical travellers should not fly for 10 days after chest or abdominal surgery, and cites the American Society of Plastic Surgeons recommendation that patients who have had laser treatments or cosmetic procedures to the face, eyelids or nose wait 7 to 10 days before flying.",
+  "story": "The ten-day figure is the one number in this subject that almost every package quietly contradicts. A fixed-price bundle that names three ward nights and a hotel week is selling a trip shorter than the interval the CDC names for chest or abdominal surgery, and the difference is made up by the patient booking the return flight before the surgeon has seen the wound at a week.\n\n*Trade practice —* the fit-to-fly letter is the instrument that resolves this in practice: a signed note from the operating team saying the patient may board. It is issued by the party whose ward night ends when the patient leaves, which is the structural problem with it, and no register of such letters exists anywhere.\n\nThe Aerospace Medical Association's medical guidelines for air travel are the standing reference the CDC points to for travel with particular conditions.",
+  "how": "Airlines apply their own medical clearance rules and may require a form completed by a physician; the thresholds differ by carrier and are not published as a single standard. The clinical concerns split into three: gas expansion in a chest, abdomen, eye or middle ear; reduced cabin oxygen against a patient who has just lost blood; and immobility against a fresh surgical wound. The last of those is the clot risk, and it is carried on its own record.",
+  "today": "As of 16 September 2026 the published guidance this site carries is the CDC's 10 days after chest or abdominal surgery and the American Society of Plastic Surgeons' 7 to 10 days after facial, eyelid and nasal procedures. Neither is a rule an airline enforces, and neither is priced into a package."
+ },
+ "metrics": {
+  "days_before_flying": 10,
+  "note": "Ten days is the CDC's guidance not to fly after chest or abdominal surgery. The American Society of Plastic Surgeons figure the same chapter cites is 7 to 10 days after laser treatments or cosmetic procedures to the face, eyelids or nose. Both are guidance to clinicians, not airline rules, and neither is a measured rate of anything.",
+  "as_of": "2026-09-16",
+  "source": "s:cdc-yellowbook-2026-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "kin": [
+  {
+   "to": "dvt-pe",
+   "as": "The clot risk that the seated hours add to the surgical one.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The step this guidance is about.",
+   "rel": "step"
+  },
+  {
+   "to": "booking-the-flight",
+   "as": "The step at which the return date is fixed, usually before anyone has seen the wound.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Major lower-limb surgery, where orthopaedic teams commonly apply the same ten-day interval for the clot risk.",
+   "rel": "procedure"
+  },
+  {
+   "to": "rhinoplasty",
+   "as": "A nasal procedure, and the one the plastic surgeons' 7-to-10-day figure was written for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "as": "Abdominal surgery, which is what the ten-day figure names.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "as": "Abdominal surgery sold in packages shorter than the interval the guidance names.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form whose stated length of stay sits against this interval.",
+   "rel": "term"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "What it costs when the patient cannot board at all.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "CDC Yellow Book 2026 — Medical Tourism",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+  }
+ ],
+ "sources": [
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:asps-flying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the fit-to-fly letter paragraph is the trade's practice, marked inline; the ten-day and seven-to-ten-day figures are cited"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard aviation-medicine account; the cabin pressure figure is cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-16",
+ "blurb": "A cabin at cruising altitude is pressurised to roughly the outside air pressure at 6,000 to 8,000 feet.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "The clot risk that the seated hours add to the surgical one.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The step this guidance is about.",
+   "rel": "step"
+  },
+  {
+   "to": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The step at which the return date is fixed, usually before anyone has seen the wound.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Major lower-limb surgery, where orthopaedic teams commonly apply the same ten-day interval for the clot risk.",
+   "rel": "procedure"
+  },
+  {
+   "to": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "A nasal procedure, and the one the plastic surgeons' 7-to-10-day figure was written for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "Abdominal surgery, which is what the ten-day figure names.",
+   "rel": "procedure"
+  },
+  {
+   "to": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "Abdominal surgery sold in packages shorter than the interval the guidance names.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form whose stated length of stay sits against this interval.",
+   "rel": "term"
+  },
+  {
+   "to": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "What it costs when the patient cannot board at all.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cdc-yellowbook-2026-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html",
+   "accessed": "2026-09-16",
+   "note": "the 2026 edition of the chapter registered as s:cdc-yellowbook-medical-tourism, read in full at the URL above; the named outbreaks, the pathogen list and the ten-day flying rule are quoted from this page"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:asps-flying",
+   "kind": "org",
+   "title": "American Society of Plastic Surgeons guidance on flying after a procedure, as cited in the CDC Yellow Book",
+   "publisher": "American Society of Plastic Surgeons",
+   "url": "https://www.plasticsurgery.org/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the fit-to-fly letter paragraph is the trade's practice, marked inline; the ten-day and seven-to-ten-day figures are cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "standard aviation-medicine account; the cabin pressure figure is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:cdc-yellowbook-2026-medical-tourism"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "lithuania",
+   "type": "destination",
+   "name": "Lithuania",
+   "as": "What sets the number of nights between a cosmetic operation and the flight home.",
+   "rel": "risk"
+  },
+  {
+   "from": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "The clot risk that decides whether the return flight on the package is the return flight taken.",
+   "rel": "risk"
+  },
+  {
+   "from": "cancun",
+   "type": "hub",
+   "name": "Cancún",
+   "as": "The constraint that decides which operations can be sold on a one-week resort schedule.",
+   "rel": "risk"
+  },
+  {
+   "from": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "The constraint that sets the length of a body-contouring stay, not the operating time.",
+   "rel": "risk"
+  },
+  {
+   "from": "phuket",
+   "type": "hub",
+   "name": "Phuket",
+   "as": "The wait before boarding, which matters more on an island whose patients arrive by air.",
+   "rel": "risk"
+  },
+  {
+   "from": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "The wound, the drains and the clot risk that set the earliest flight home.",
+   "rel": "risk"
+  },
+  {
+   "from": "bbl",
+   "type": "procedure",
+   "name": "Gluteal fat grafting",
+   "as": "Sitting restrictions and the clot risk of the flight collide in this operation more than any other cosmetic one.",
+   "rel": "risk"
+  },
+  {
+   "from": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The rule that keeps a chest-surgery patient on the ground for ten days.",
+   "rel": "risk"
+  },
+  {
+   "from": "gallbladder-removal",
+   "type": "procedure",
+   "name": "Gallbladder removal",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "The clot risk that sets how long after this abdominal operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The clot risk that sets how long after this abdominal operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "The rule that keeps a chest-surgery patient on the ground.",
+   "rel": "risk"
+  },
+  {
+   "from": "hernia-repair",
+   "type": "procedure",
+   "name": "Hernia repair",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The clot risk that sets how long after this operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "hysterectomy",
+   "type": "procedure",
+   "name": "Hysterectomy",
+   "as": "The clot risk that sets how long after abdominal surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The clot risk that sets how long after this operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "The clot risk that sets how long after pelvic surgery a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "from": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The splint comes off before the flight, and the clot risk of the flight itself is argued separately.",
+   "rel": "risk"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "The clot risk that sets the wait before the flight home.",
+   "rel": "risk"
+  },
+  {
+   "from": "top-surgery",
+   "type": "procedure",
+   "name": "Top surgery",
+   "as": "What sets the earliest sensible flight after a general anaesthetic and a chest wound.",
+   "rel": "risk"
+  },
+  {
+   "from": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The clinical risk the booked return date runs into.",
+   "rel": "risk"
+  },
+  {
+   "from": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The risk record for this leg, with the guidance in full.",
+   "rel": "risk"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The wait that puts the patient in the hotel in the first place.",
+   "rel": "kin"
+  },
+  {
+   "from": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "The interval guidance written partly for this.",
+   "rel": "kin"
+  },
+  {
+   "from": "repatriation-cost",
+   "type": "risk",
+   "name": "Repatriation and medical evacuation cost",
+   "as": "The guidance that, followed, keeps a patient off this aircraft.",
+   "rel": "kin"
+  },
+  {
+   "from": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "The clause about fitness to fly, and the clinical reason behind it.",
+   "rel": "risk"
+  },
+  {
+   "from": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The second, longer stay: days in the country before a seat is allowed.",
+   "rel": "risk"
+  },
+  {
+   "from": "repatriation",
+   "type": "term",
+   "name": "Repatriation",
+   "as": "The clinical reason a commercial seat is refused in the first place.",
+   "rel": "risk"
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "schema": 1,
+ "id": "prathap-reddy",
+ "type": "person",
+ "names": {
+  "name": "Prathap C. Reddy",
+  "aliases": [
+   "Dr Prathap Chandra Reddy",
+   "Prathap Chandra Reddy"
+  ],
+  "said": "Apollo's own pages call him Founder, Chairman, and in Indian health writing he is the man who made a private hospital a legitimate thing for a middle-class family to enter."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "role": [
+   "founder",
+   "physician"
+  ],
+  "iso2": "IN"
+ },
+ "text": {
+  "what": "The cardiologist who founded Apollo Hospitals, the first corporate hospital chain in India, and who is named on the group's own leadership page as Founder and Chairman. Apollo opened in Chennai in 1983 with 150 beds. The chain that grew from it is the single largest supplier of hospital care to foreign patients in South Asia, and the reason this directory has an India section at all.",
+  "story": "The training came first and the business followed from it. Apollo's own account has him taking his medical degree at Stanley Medical College in Chennai, training as a cardiologist in the United Kingdom and the United States, and holding a fellowship at Massachusetts General Hospital in Boston before returning to India.\n\nWhat he built was not a hospital but a category. Before 1983 Indian private medicine was the nursing home and the consulting room; a corporate hospital raising capital, buying imported equipment and charging fees was new, and contested. The export trade in surgery came later and followed the same structure — an international patient office, a quoted package, a visa letter.\n\nHonours date the recognition: the Government of India conferred the Padma Bhushan in 1991 and the Padma Vibhushan, its second highest civilian award, in March 2010.\n\n*Inference —* a founder's record is the place where a hospital group's own claims about itself should be read most carefully. Apollo's leadership page states that the group has grown to \"over 10,000 beds across 76+ hospitals, 7,000+ pharmacies, 2,500+ clinics and diagnostic centers\" and that it has been \"honoured by the trust of over 200 million individuals who came from 150 countries\". Those are the group's own figures, undated on the page, and no register was read against them for this record.",
+  "notes": "English Wikipedia gives his date of birth as 5 February 1933, citing an Apollo press release that no longer resolves. No first-party page read for this record states a birth year, and none is asserted here."
+ },
+ "kin": [
+  {
+   "to": "apollo-chennai",
+   "as": "The hospital he opened in 1983, and the one Apollo still treats as its origin.",
+   "rel": "facility"
+  },
+  {
+   "to": "india",
+   "as": "The country whose private hospital sector his group defined the shape of.",
+   "rel": "destination"
+  },
+  {
+   "to": "chennai",
+   "as": "Where it started, and still a hub in this directory.",
+   "rel": "hub"
+  },
+  {
+   "to": "devi-shetty",
+   "as": "The other founder-surgeon in Indian corporate medicine, working the volume end of the same market.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nabh",
+   "as": "The Indian accreditation system his group's hospitals are counted in.",
+   "rel": "org"
+  },
+  {
+   "to": "cabg",
+   "as": "The cardiac work the group was built around and still sells abroad.",
+   "rel": "procedure"
+  }
+ ],
+ "links": [
+  {
+   "label": "Apollo Hospitals — leadership",
+   "url": "https://www.apollohospitals.com/about-us/leadership"
+  },
+  {
+   "label": "Apollo Clinic — our chairman's profile",
+   "url": "https://www.apolloclinic.com/for-patients/services/vaccinations/adult/our-chairmans-profile"
+  }
+ ],
+ "sources": [
+  "s:apollo-leadership",
+  "s:apolloclinic-chairman",
+  "s:wp-apollo-hospitals"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:apollo-leadership"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:apolloclinic-chairman",
+    "note": "the training, the 1983 opening and the two Padma years are from Apollo's own chairman profile; the closing paragraph is marked inference and quotes the group's own undated figures"
+   },
+   "text.notes": {
+    "tier": "inference",
+    "note": "the Wikipedia birth date and the dead citation behind it were checked on 2026-09-17"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-17",
+ "blurb": "The cardiologist who founded Apollo Hospitals, the first corporate hospital chain in India, and who is named on the group's own leadership page as Founder and Chairman. Apollo opened in Chennai in 1983 with 150 beds.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The hospital he opened in 1983, and the one Apollo still treats as its origin.",
+   "rel": "facility"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The country whose private hospital sector his group defined the shape of.",
+   "rel": "destination"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "Where it started, and still a hub in this directory.",
+   "rel": "hub"
+  },
+  {
+   "to": "devi-shetty",
+   "type": "person",
+   "name": "Devi Prasad Shetty",
+   "as": "The other founder-surgeon in Indian corporate medicine, working the volume end of the same market.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "The Indian accreditation system his group's hospitals are counted in.",
+   "rel": "org"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The cardiac work the group was built around and still sells abroad.",
+   "rel": "procedure"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:apollo-leadership",
+   "kind": "web",
+   "title": "Our Leadership",
+   "publisher": "Apollo Hospitals Enterprise Limited",
+   "url": "https://www.apollohospitals.com/about-us/leadership",
+   "accessed": "2026-09-16",
+   "note": "names Dr Prathap C. Reddy as Founder, Chairman and states that he established Apollo Hospitals in 1983; the same page carries the group's own counts of hospitals, beds, doctors and accreditations"
+  },
+  {
+   "id": "s:apolloclinic-chairman",
+   "kind": "web",
+   "title": "Our Chairman's Profile — Dr Prathap C Reddy",
+   "publisher": "Apollo Clinic (Apollo Hospitals Group)",
+   "url": "https://www.apolloclinic.com/for-patients/services/vaccinations/adult/our-chairmans-profile",
+   "accessed": "2026-09-17",
+   "note": "medical degree at Stanley Medical College, Chennai; cardiology training in the UK and USA; fellowship at Massachusetts General Hospital, Boston; Apollo set up in Chennai in 1983 as a 150-bed hospital; Padma Bhushan 1991; Padma Vibhushan March 2010"
+  },
+  {
+   "id": "s:wp-apollo-hospitals",
+   "kind": "wikipedia",
+   "title": "Apollo Hospitals",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Apollo_Hospitals",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:apollo-leadership"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:apolloclinic-chairman",
+   "note": "the training, the 1983 opening and the two Padma years are from Apollo's own chairman profile; the closing paragraph is marked inference and quotes the group's own undated figures"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The cardiologist who opened the first hospital here and set the pattern.",
+   "rel": "person"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "Its founder, who opened it in 1983 as the first corporate hospital in the country.",
+   "rel": "person"
+  },
+  {
+   "from": "devi-shetty",
+   "type": "person",
+   "name": "Devi Prasad Shetty",
+   "as": "The earlier founder, who made the corporate hospital a category before this argument could be made inside one.",
+   "rel": "contrast"
+  }
+ ]
+}

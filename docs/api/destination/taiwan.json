@@ -1,0 +1,267 @@
+{
+ "schema": 1,
+ "id": "taiwan",
+ "type": "destination",
+ "names": {
+  "name": "Taiwan",
+  "aliases": [
+   "中華民國",
+   "Republic of China",
+   "Chinese Taipei"
+  ],
+  "said": "Taipei hospitals talk about international medical services, not about travel. The patient they mean is usually referred by a doctor, not recruited by an agency."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "TW",
+  "direction": "both",
+  "currency": "TWD",
+  "languages": [
+   "Mandarin",
+   "Taiwanese Hokkien",
+   "English",
+   "Japanese"
+  ],
+  "draws": [
+   "ivf",
+   "liver-transplant",
+   "executive-health-screening"
+  ]
+ },
+ "text": {
+  "what": "A single-payer system with an international side bolted on. National Health Insurance covers residents, hospitals run international medical centres for everyone else, and the state has promoted the sector since the late 2000s. No national count of international patients was read for this record, so this page carries none.",
+  "story": "Taiwan's measurable appearance in this subject during 2024 was as somebody else's source market. South Korea's health ministry recorded Taiwan as the fifth-largest country of origin among its 1.17 million foreign patients, and the fastest-growing of the five, up 550.6 per cent on the year.\n\n*Inference —* a rise of that size in twelve months, to a destination two and a half hours away selling dermatology and cosmetic work, is a travel story rather than a medical one: cheap flights, a weak yen and won, and a procedure that needs no admission. It says more about the direction of traffic in East Asia than any brochure about Taiwan as a destination does.\n\n*Trade practice —* what Taiwan itself sells to foreign patients is the harder end — living-donor liver transplantation, fertility treatment, and the screening admission that Chinese-speaking patients from across the region book in bulk. Pricing is per item, in New Taiwan dollars, and the international centre assembles the estimate.\n\nThe Ministry of Health and Welfare publishes an annual Taiwan Health and Welfare Report in English. No figure for international patients was read from it on this pass, which is a gap in this record rather than a finding about Taiwan.",
+  "how": "*Trade practice —* a non-resident pays the hospital's own schedule rather than the insurance tariff, which makes Taiwanese prices legible in a way single-payer systems usually are not. Hospital international centres handle the referral, the estimate and the interpreter; agencies are less central here than in Southeast Asia.",
+  "today": "As of 16 September 2026 this record carries no patient count and no price. Both are marked for verification."
+ },
+ "geo": {
+  "lat": 25.033,
+  "lon": 121.5654,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "None carried. The health ministry publishes an annual Taiwan Health and Welfare Report, but no national count of international patients was read from it for this record, and this project does not repeat the market-research totals that circulate instead. Absent from this page is not absent from Taiwan's statistics; it means nobody stood in front of the series on this pass.",
+  "as_of": "2026-09-16",
+  "source": "s:mohw-tw-health-welfare-report",
+  "url": "https://www.mohw.gov.tw/cp-137-81831-2.html"
+ },
+ "kin": [
+  {
+   "to": "taipei",
+   "as": "Where the international medical centres are.",
+   "rel": "part"
+  },
+  {
+   "to": "south-korea",
+   "as": "The destination Taiwanese patients travelled to fastest in 2024, up 550.6 per cent.",
+   "rel": "contrast"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The living-donor programme Taiwan is named for in the region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "Fertility work sold to patients from across the Chinese-speaking region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "japan",
+   "as": "The other East Asian system with excellent domestic statistics and no traveller count.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A gap this record leaves open rather than fills.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Taiwan Health and Welfare Report — Ministry of Health and Welfare",
+   "url": "https://www.mohw.gov.tw/cp-137-81831-2.html"
+  }
+ ],
+ "sources": [
+  "s:mohw-tw-health-welfare-report",
+  "s:mohw-kr-foreign-patients-2024",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:mohw-kr-foreign-patients-2024",
+    "note": "the Korean figures are cited; the rest is marked inference or trade practice inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:mohw-tw-health-welfare-report"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A single-payer system with an international side bolted on. National Health Insurance covers residents, hospitals run international medical centres for everyone else, and the state has promoted the sector since the late…",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "Where the international medical centres are.",
+   "rel": "part"
+  },
+  {
+   "to": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The destination Taiwanese patients travelled to fastest in 2024, up 550.6 per cent.",
+   "rel": "contrast"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The living-donor programme Taiwan is named for in the region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "Fertility work sold to patients from across the Chinese-speaking region.",
+   "rel": "procedure"
+  },
+  {
+   "to": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The other East Asian system with excellent domestic statistics and no traveller count.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A gap this record leaves open rather than fills.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:mohw-tw-health-welfare-report",
+   "kind": "web",
+   "title": "Taiwan Health and Welfare Report 2025",
+   "publisher": "Ministry of Health and Welfare (Taiwan)",
+   "url": "https://www.mohw.gov.tw/cp-137-81831-2.html",
+   "accessed": "2026-09-16",
+   "note": "the ministry's annual English-language report; no national count of international patients was read from it for this record"
+  },
+  {
+   "id": "s:mohw-kr-foreign-patients-2024",
+   "kind": "web",
+   "title": "Korea Attracts 1.17 Million Foreign Patients in 2024",
+   "publisher": "Ministry of Health and Welfare (Republic of Korea)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207",
+   "accessed": "2026-09-16",
+   "note": "press release of 3 April 2025; the annual foreign-patient statistics are compiled for the ministry by the Korea Health Industry Development Institute"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:mohw-kr-foreign-patients-2024",
+   "note": "the Korean figures are cited; the rest is marked inference or trade practice inline"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:mohw-tw-health-welfare-report"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "The other East Asian health system that counts its residents well and its visitors not at all.",
+   "rel": "contrast"
+  },
+  {
+   "from": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "Its fastest-growing source market in 2024, up 550.6 per cent.",
+   "rel": "contrast"
+  },
+  {
+   "from": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "The country whose medical centres cluster in this city.",
+   "rel": "whole"
+  }
+ ]
+}

@@ -1,0 +1,481 @@
+{
+ "schema": 1,
+ "id": "asan-medical-center",
+ "type": "facility",
+ "names": {
+  "name": "Asan Medical Center",
+  "aliases": [
+   "AMC",
+   "서울아산병원",
+   "Seoul Asan Hospital",
+   "Seoul Jungang Hospital"
+  ],
+  "said": "Asan is the birthplace of Chung Ju-yung, who founded Hyundai and then the Asan Foundation. The hospital opened as Seoul Jungang Hospital in 1989 and took the present name on 27 April 2002."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "KR",
+  "ownership": "nonprofit",
+  "founded": 1989,
+  "specialty": [
+   "transplantation",
+   "oncology",
+   "cardiology",
+   "gastroenterology",
+   "neurosciences"
+  ],
+  "draws": [
+   "liver-transplant",
+   "kidney-transplant",
+   "bone-marrow-transplant",
+   "cabg",
+   "proton-therapy"
+  ],
+  "status": "open",
+  "languages": [
+   "Korean",
+   "English",
+   "Russian",
+   "Arabic",
+   "Mongolian"
+  ]
+ },
+ "text": {
+  "what": "South Korea's largest hospital: 2,446 beds on 280,000 square metres at 88 Olympic-ro 43-gil in Songpa-gu, Seoul, established in June 1989 by Chung Ju-yung through the charitable Asan Foundation. It averages 11,377 outpatients a day, records 654,536 inpatients and 47,460 complex operations a year, and Newsweek has placed it 22nd in the world and first in Korea for seven consecutive years.",
+  "story": "The hospital is a foundation's, not Hyundai's, though the founder is the same man. It opened in 1989 as Seoul Jungang Hospital and renamed itself Asan Medical Center in 2002.\n\nIts numbers are the largest in this batch and they need separating. 11,377 is a DAILY average of outpatients. 654,536 is an annual count of inpatients — admissions, which means a patient admitted three times in a year is three. 47,460 is an annual count of operations described as highly sophisticated, which is the hospital's own category and not a standard one. None of the three is a count of people.\n\n*Inference —* an outpatient department seeing eleven thousand people a day is the single most striking fact about East Asian tertiary medicine and the hardest for a visitor from a European system to picture. It is also why a foreign patient's experience of one of these hospitals is organised around an international centre that pulls them out of that flow.\n\nThe hospital reports an annual average of 19,482 international patients — which, unusually in this directory, is a named hospital's own count of its foreign caseload rather than a national arrivals total. It was first in Korea for organ transplantation on the national registry's 2012 figures, and its Asan Global Standard, introduced in 2011, was built on JCI's assessment principles.",
+  "how": "*Trade practice —* the Korean route requires the hospital to be registered with the Ministry of Health and Welfare to treat foreign patients, and the work runs through an international healthcare centre that books, translates and bills. Transplantation and oncology carry the serious inbound traffic; Korea's cosmetic trade runs through a separate clinic sector entirely.\n\nNo price is published by the hospital.",
+  "today": "As of 17 September 2026 the hospital states 2,446 beds, 11,377 average daily outpatients, 654,536 inpatients a year and 47,460 complex operations a year, with an annual average of 19,482 international patients. Newsweek placed it 22nd in the world and first in Korea for seven consecutive years to 2025. No price is published."
+ },
+ "geo": {
+  "lat": 37.526304,
+  "lon": 127.109601,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "88 Olympic-ro 43-gil, Songpa-gu",
+  "city": "Seoul",
+  "country": "KR",
+  "postcode": "05505"
+ },
+ "metrics": {
+  "beds": 2446,
+  "annual_patients": 654536,
+  "annual_foreign_patients": 19482,
+  "note": "annual_patients here is INPATIENTS and counts ADMISSIONS, not people: 654,536 a year, so a patient admitted three times is three. Outpatients are counted separately and DAILY — an average of 11,377 a day — and are not annualised here because the hospital does not annualise them. Operations, 47,460 a year, are in the hospital's own category of highly sophisticated procedures. The foreign figure, 19,482, is an annual average and is the hospital's own count of its foreign caseload rather than a national arrivals total; whether it counts people or episodes is not stated. Beds are 2,446 on the hospital's page and 2,432 licensed on the encyclopaedia entry.",
+  "as_of": "2026",
+  "source": "s:amc-introduction",
+  "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do"
+ },
+ "tags": [
+  {
+   "tag": "transplant-programme",
+   "source": "s:wp-asan",
+   "tier": "cited",
+   "note": "first in Korea for organ transplantation on the national registry's 2012 figures; an Organ Transplantation Center"
+  },
+  {
+   "tag": "teaching",
+   "source": "s:wp-asan",
+   "tier": "cited",
+   "note": "runs training for clinicians from abroad; the source names a 2018 agreement with Huế Central Hospital in Vietnam for training medical professionals"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:amc-introduction",
+   "tier": "cited",
+   "note": "an annual average of 19,482 international patients on the hospital's own counter",
+   "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:amc-introduction",
+   "tier": "cited",
+   "note": "no price list was found on the hospital's own English site"
+  },
+  {
+   "tag": "outcomes-published",
+   "source": "s:amc-introduction",
+   "tier": "cited",
+   "note": "the hospital cites HIRA's 2012 first-class operative mortality grading for major cancers and KONOS transplant volumes — national registry data about the unit, which is the strongest form of outcome publication in this batch"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "kohta",
+   "what": "Registered with the Korean Ministry of Health and Welfare to treat foreign patients",
+   "year": null,
+   "valid_until": null,
+   "source": "s:khidi-medicalkorea",
+   "url": "http://www.medicalkorea.or.kr/en/aboutkhidi",
+   "note": "the compulsory Korean registration; a facility may not lawfully treat foreign patients without it"
+  },
+  {
+   "by": "newsweek-statista",
+   "what": "22nd in the world and first in Korea for seven consecutive years, 2019 to 2025",
+   "year": 2025,
+   "valid_until": null,
+   "source": "s:amc-introduction",
+   "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do",
+   "note": "the hospital's own statement of its placing; counted, not weighted"
+  },
+  {
+   "by": "jci",
+   "what": "The Asan Global Standard, an internal evaluation guideline the hospital introduced in 2011 built on JCI's assessment principles",
+   "year": 2011,
+   "valid_until": null,
+   "source": "s:wp-asan",
+   "url": "https://en.wikipedia.org/wiki/Asan_Medical_Center",
+   "note": "NOT an accreditation. The hospital built its own standard on the body's principles; no JCI award year was found in the sources read, and this row records the distinction rather than a mark"
+  }
+ ],
+ "kin": [
+  {
+   "to": "seoul",
+   "as": "The largest of the three Seoul hospitals here, across the river in Songpa by the Olympic park.",
+   "rel": "place"
+  },
+  {
+   "to": "south-korea",
+   "as": "The country's largest hospital, and one of the few anywhere that publishes its own foreign caseload.",
+   "rel": "destination"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The programme its foreign referrals come for, and the one the national registry ranks it first on.",
+   "rel": "performs"
+  },
+  {
+   "to": "samsung-medical-center",
+   "as": "The Gangnam hospital, five years younger and a third smaller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "severance",
+   "as": "The oldest of the three, and the first in Korea to take JCI accreditation.",
+   "rel": "contrast"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "as": "Operates under the registration every Korean facility treating foreign patients must hold.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "11,377 a day, 654,536 a year and 19,482 from abroad are three counters measuring three different things.",
+   "rel": "story"
+  },
+  {
+   "to": "in-hospital",
+   "as": "An outpatient department seeing eleven thousand people a day is the setting a foreign patient's international centre exists to bypass.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Asan Medical Center",
+   "url": "https://eng.amc.seoul.kr/"
+  }
+ ],
+ "sources": [
+  "s:amc-introduction",
+  "s:wp-asan",
+  "s:khidi-medicalkorea",
+  "s:mohw-kr-foreign-patients-2024",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "how the Korean international centre route runs; marked in the prose"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:amc-introduction"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Asan Medical Center.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "South Korea's largest hospital: 2,446 beds on 280,000 square metres at 88 Olympic-ro 43-gil in Songpa-gu, Seoul, established in June 1989 by Chung Ju-yung through the charitable Asan Foundation.",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "The largest of the three Seoul hospitals here, across the river in Songpa by the Olympic park.",
+   "rel": "place"
+  },
+  {
+   "to": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The country's largest hospital, and one of the few anywhere that publishes its own foreign caseload.",
+   "rel": "destination"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "The programme its foreign referrals come for, and the one the national registry ranks it first on.",
+   "rel": "performs"
+  },
+  {
+   "to": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "The Gangnam hospital, five years younger and a third smaller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "The oldest of the three, and the first in Korea to take JCI accreditation.",
+   "rel": "contrast"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "Operates under the registration every Korean facility treating foreign patients must hold.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "11,377 a day, 654,536 a year and 19,482 from abroad are three counters measuring three different things.",
+   "rel": "story"
+  },
+  {
+   "to": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "An outpatient department seeing eleven thousand people a day is the setting a foreign patient's international centre exists to bypass.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:amc-introduction",
+   "kind": "web",
+   "title": "Introduction — About Us",
+   "publisher": "Asan Medical Center, Seoul",
+   "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own counters: 2,446 beds, 11,377 average daily outpatients, 654,536 inpatients a year, 47,460 highly sophisticated surgeries a year; established June 1989; 88 Olympic-ro 43-gil, Songpa-gu, Seoul 05505. It also carries the Newsweek placing — 22nd in the world and first in Korea for seven consecutive years — and KMAC's most-respected-hospital run."
+  },
+  {
+   "id": "s:wp-asan",
+   "kind": "web",
+   "title": "Asan Medical Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asan_Medical_Center",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:khidi-medicalkorea",
+   "kind": "org",
+   "title": "About KHIDI — Medical Korea",
+   "publisher": "Korea Health Industry Development Institute",
+   "url": "http://www.medicalkorea.or.kr/en/aboutkhidi",
+   "accessed": "2026-09-16",
+   "note": "government-affiliated institution under the Ministry of Health and Welfare; the registration system, registered hospitals and registered facilitators"
+  },
+  {
+   "id": "s:mohw-kr-foreign-patients-2024",
+   "kind": "web",
+   "title": "Korea Attracts 1.17 Million Foreign Patients in 2024",
+   "publisher": "Ministry of Health and Welfare (Republic of Korea)",
+   "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&act=view&list_no=1485207",
+   "accessed": "2026-09-16",
+   "note": "press release of 3 April 2025; the annual foreign-patient statistics are compiled for the ministry by the Korea Health Industry Development Institute"
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "how the Korean international centre route runs; marked in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:amc-introduction"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "transplant-programme",
+   "label": "Transplant programme",
+   "icon": "🫀",
+   "group": "clinical",
+   "evidence": "a national transplant registry, a ministry licence list, or the facility's own programme page",
+   "source": "s:wp-asan",
+   "note": "first in Korea for organ transplantation on the national registry's 2012 figures; an Organ Transplantation Center",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "teaching",
+   "label": "Teaching hospital",
+   "icon": "📚",
+   "group": "clinical",
+   "evidence": "a recognised training post list or the hospital's own statement",
+   "source": "s:wp-asan",
+   "note": "runs training for clinicians from abroad; the source names a 2018 agreement with Huế Central Hospital in Vietnam for training medical professionals",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:amc-introduction",
+   "note": "an annual average of 19,482 international patients on the hospital's own counter",
+   "tier": "cited",
+   "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do"
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:amc-introduction",
+   "note": "no price list was found on the hospital's own English site",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "outcomes-published",
+   "label": "Publishes outcomes",
+   "icon": "📊",
+   "group": "clinical",
+   "evidence": "a registry submission, an annual clinical report, or a national outcome dataset naming the unit",
+   "source": "s:amc-introduction",
+   "note": "the hospital cites HIRA's 2012 first-class operative mortality grading for major cancers and KONOS transplant volumes — national registry data about the unit, which is the strongest form of outcome publication in this batch",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "kohta",
+   "label": "KOIHA / KAHF (South Korea)",
+   "what": "Registered with the Korean Ministry of Health and Welfare to treat foreign patients",
+   "url": "http://www.medicalkorea.or.kr/en/aboutkhidi",
+   "kind": "national",
+   "year": null,
+   "valid_until": null,
+   "source": "s:khidi-medicalkorea"
+  },
+  {
+   "key": "newsweek-statista",
+   "label": "Newsweek / Statista World's Best Hospitals",
+   "what": "22nd in the world and first in Korea for seven consecutive years, 2019 to 2025",
+   "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do",
+   "kind": "listing",
+   "year": 2025,
+   "valid_until": null,
+   "source": "s:amc-introduction"
+  },
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "The Asan Global Standard, an internal evaluation guideline the hospital introduced in 2011 built on JCI's assessment principles",
+   "url": "https://en.wikipedia.org/wiki/Asan_Medical_Center",
+   "kind": "international",
+   "year": 2011,
+   "valid_until": null,
+   "source": "s:wp-asan"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The country's largest hospital, and a transplant centre foreign patients are referred to.",
+   "rel": "part"
+  },
+  {
+   "from": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "At 88 Olympic-ro 43-gil in Songpa-gu, by the Han river.",
+   "rel": "part"
+  },
+  {
+   "from": "samsung-medical-center",
+   "type": "facility",
+   "name": "Samsung Medical Center",
+   "as": "The larger Seoul hospital, five years older and across the river in Songpa.",
+   "rel": "contrast"
+  },
+  {
+   "from": "severance",
+   "type": "facility",
+   "name": "Severance Hospital",
+   "as": "The largest Korean hospital, opened a century after this one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "One of the registered institutions.",
+   "rel": "facility"
+  }
+ ]
+}

@@ -1,0 +1,661 @@
+{
+ "schema": 1,
+ "id": "what-the-data-cannot-see",
+ "type": "story",
+ "names": {
+  "name": "What the data cannot see",
+  "aliases": [
+   "the does-not-count sentences",
+   "the inventory of the hole"
+  ],
+  "said": "Every dataset record on this site carries a sentence saying what its series leaves out. Read the thirteen in a row and they describe the same hole."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "resources"
+ },
+ "text": {
+  "what": "Thirteen published series supply every chart, map and table on this site. Each has a record, and each record carries one sentence stating what the series does not count. This page collects those thirteen sentences. Not one of the series counts a person who crossed a border to be treated, and the pattern in how they miss it is more useful than the omission itself.",
+  "story": "Begin with the money. The World Bank's current health expenditure per person covers government schemes, compulsory and voluntary insurance and household out-of-pocket payments, divided by population — and excludes capital spending, so a new hospital building does not appear, and excludes anything a foreign patient pays for treatment in that country. In the record's own words, a country can run a large export trade in surgery and show nothing for it there. The out-of-pocket share does the same from the other side: it is a ratio rather than an amount, it does not separate a co-payment inside an insured system from a whole bill paid in cash, and it counts nothing a visiting patient pays, which belongs to the export half of the account. The World Health Organization's Global Health Observatory answered with 3,099 indicator records when its record was written, and no indicator in it counts a foreign patient, a treatment bought abroad, or a payment made in another country's health system.\n\nThe arrivals series is the one readers assume must hold the answer, and it is the furthest from it. The World Bank republishes UN Tourism's international arrivals for 223 country codes. Each trip by the same person counts again, so the total is crossings rather than travellers. Nothing in the series records why anybody came: there is no treatment field and no purpose field, so a patient cannot be separated from a visiting relative. And it counts nobody who crossed by land where a country reports air arrivals only — which removes most of the Mexican border dental trade, one of the largest flows in this directory.\n\nThe two clinical registers that would settle the fertility half of the subject are defined to exclude it. The Human Fertilisation and Embryology Authority has held every IVF and donor insemination cycle performed in a UK licensed clinic since 1 August 1991, 107 clinics in 2023/24. A UK resident who has IVF in Spain, Czechia or northern Cyprus leaves no trace in it, because the clinic is not licensed by the Authority: the one flow this directory exists to describe is the one the register is defined to exclude. The American series has the same shape and states more of its own limits. The CDC counted 435,426 ART cycles on 251,542 unique patients at 457 reporting clinics in 2022; it counts nothing done outside a United States clinic, no intrauterine insemination and no ovulation induction because neither is ART by its definition, nothing from the clinics listed as nonreporters — about 2 per cent of cycles on its own estimate — and its clinic rates describe cycles more than a year old, which the agency says plainly should not be read as any individual's chance of success.\n\nThe capacity series describe a health system rather than a market. Physicians per 1,000 people cannot separate the capital from the province, the private hospital from the district clinic, or the surgeon who operates on visitors from the physician who never sees one; it counts no nurse, records no specialty, and holds no measure of what any of them do. Hospital beds per 1,000 cannot say whether a bed is staffed, equipped or empty, counts no operating theatre, no intensive-care capability, no dialysis station and no day-case chair, and draws no line between the public system a resident queues for and the private wing a foreign patient is admitted to. Forty-seven of the 220 country outlines this site draws carry no bed value at all — Nigeria, the Democratic Republic of the Congo, Côte d'Ivoire, Namibia and South Sudan among them — and absence there is absence of a return rather than absence of beds.\n\nThe series closest to the motive is the one that removes the most. OECD waiting times cover seven elective procedures in the countries that publish them: 6,609 observations from 24 countries, 2000 to 2024. The clock starts after the specialist assessment, so the months between a family doctor's referral and a consultant's opinion sit outside the series by definition. It counts no privately funded patient, which removes the domestic private route competing directly with travelling abroad. It counts no country that does not publish — Austria, Belgium, Czechia, France, Germany, Japan, Korea, Latvia, Luxembourg, Mexico, the Slovak Republic, Switzerland, Türkiye and the United States are all marked data not available, and several of those are among the largest sources of patients travelling for planned surgery. And it counts nobody who left the list: died, gave up, went private, or flew somewhere else. *Inference —* the last exclusion is the whole subject of this directory, removed from the only series that measures the reason for it.\n\nTwo of the thirteen are registers of attention rather than of activity. The Joint Commission International directory counts organisations that applied, paid for the survey, met the standards on the survey date and are inside a three-year cycle: no infection rate, no mortality, no revision rate, no price, no patient volume, no complaint, nobody in it involuntarily, and no public history of the lapsed. The OpenStreetMap harvest holds every named hospital, clinic and dental surgery OpenStreetMap carried within a set radius of each hub on the date it was fetched, and what it does not hold is anything nobody mapped — absence there is absence of mapping, not of hospitals. It carries no accreditation, no ownership, no price, no quality measure, no patient volume and no indication that a place treats foreigners; a clinic that closed last year sits in the file until somebody edits it out; and a row proves only that a point on a map once had that name typed on it.\n\nThe last two are the infrastructure, and they fail quietly. Natural Earth supplies 220 country outlines that join to everything else here through one country code, so a place with no ISO alpha-2 code, or one too small to carry a polygon at this scale, drops silently out of every map and every chart: Northern Cyprus, Kosovo and Somaliland sit here under codes this project invented for them, and Monaco, Macau and the Vatican are not present at all. The exchange-rate table holds 166 currencies against the dollar on one stated date and carries no card spread, no foreign-transaction fee, no cash-advance charge and no airport-counter margin; it holds no history, so a price published in 2019 and converted here is converted at a 2026 rate; and several of its rates are administered pegs rather than traded prices — the dirham at 3.6725, the riyal at 3.75 — with nothing in the file marking which is which.\n\n*Inference —* the omission is structural rather than careless. Every one of these thirteen was built by an institution measuring its own population, its own licensees or its own members, and a patient who crossed a border is by construction somebody else's. What is left to count this trade with is made by the parties holding an interest in the answer: a hospital counting its own patients, a trade council counting member returns, a ministry counting registrations, a hospital association counting what it billed. This site therefore carries those figures with their unit and their collector attached, prints a null as a gap rather than a zero, and publishes a coverage layer on its own map so the distance between what the world reports and what this directory has written up stays visible.",
+  "how": "The sentence lives in one field. Every dataset record carries dataset.counts, in the publisher's own definition, and dataset.does_not_count beside it; the validator warns when either is empty, because that sentence is the point of the record. Licences travel with the data: CC BY 4.0 on the World Bank series, ODbL 1.0 on the OpenStreetMap harvest, public domain on Natural Earth, WHO terms of use on the Global Health Observatory, and an attribution-required open endpoint for the rates. Where a publisher refused an automated request, the record says so and states the gap rather than filling it.",
+  "today": "As of 17 September 2026 this site holds thirteen dataset records: five World Bank series, the WHO repository, the OECD waiting-times extract, the UK and US fertility registers, the JCI directory, the OpenStreetMap harvest, the Natural Earth outlines and one dated exchange-rate table. None of them counts a cross-border patient. The site's own coverage figures are published at /coverage/ and /numbers/, and the gap between the two is drawn on the map."
+ },
+ "kin": [
+  {
+   "to": "world-bank-health-spending",
+   "as": "Excludes anything a foreign patient pays, which is the flow this site is about.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-tourism-arrivals",
+   "as": "Counts crossings with no purpose field, and misses the land border entirely where a country reports air arrivals only.",
+   "rel": "dataset"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series closest to the motive, and the one that removes everybody who left the list.",
+   "rel": "dataset"
+  },
+  {
+   "to": "hfea-results",
+   "as": "Holds every licensed UK cycle and nothing done abroad, which is the flow by definition.",
+   "rel": "dataset"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The same boundary in the United States, with its own limits stated by the agency.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-beds",
+   "as": "Cannot say whether a bed is staffed, or which side of the system it sits on.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-doctors",
+   "as": "Cannot say where the doctors are, or which of them ever sees a visiting patient.",
+   "rel": "dataset"
+  },
+  {
+   "to": "who-global-health-observatory",
+   "as": "Three thousand indicators, none of which counts a foreign patient.",
+   "rel": "dataset"
+  },
+  {
+   "to": "jci-accredited-list",
+   "as": "A register of purchased inspections, with no outcome, no price and no history of the lapsed.",
+   "rel": "dataset"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "Where absence is absence of mapping, and a row proves only that somebody typed a name.",
+   "rel": "dataset"
+  },
+  {
+   "to": "natural-earth-countries",
+   "as": "The geometry every map joins through, and the codes that drop out of it silently.",
+   "rel": "dataset"
+  },
+  {
+   "to": "counting-patients",
+   "as": "The same problem one layer up, in the figures destinations publish about themselves.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "OpenStreetMap Overpass, the harvest source",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "label": "Natural Earth terms of use",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  }
+ ],
+ "sources": [
+  "s:worldbank-open-data",
+  "s:wb-physicians",
+  "s:wb-hospital-beds",
+  "s:wb-oop-share",
+  "s:wb-tourist-arrivals",
+  "s:un-tourism-statistics",
+  "s:oecd-waiting-definitions-2025",
+  "s:oecd-waiting-sdmx",
+  "s:who-gho",
+  "s:who-gho-odata",
+  "s:who-terms-of-use",
+  "s:hfea-2024-trends",
+  "s:hfea-2024-methodology",
+  "s:cdc-art",
+  "s:cdc-art-2022-summary",
+  "s:cdc-art-interpret",
+  "s:jci-accreditation",
+  "s:osm",
+  "s:odbl-1-0",
+  "s:natural-earth",
+  "s:natural-earth-terms",
+  "s:er-api",
+  "s:er-api-free-terms"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:worldbank-open-data"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "each does-not-count sentence is drawn from the dataset record it belongs to and from that publisher's own definitions page; the closing reading is marked Inference inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project describing its own field and its own licence handling"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Thirteen published series supply every chart, map and table on this site. Each has a record, and each record carries one sentence stating what the series does not count. This page collects those thirteen sentences.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "world-bank-health-spending",
+   "type": "dataset",
+   "name": "Current health expenditure per person",
+   "as": "Excludes anything a foreign patient pays, which is the flow this site is about.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-tourism-arrivals",
+   "type": "dataset",
+   "name": "International arrivals",
+   "as": "Counts crossings with no purpose field, and misses the land border entirely where a country reports air arrivals only.",
+   "rel": "dataset"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series closest to the motive, and the one that removes everybody who left the list.",
+   "rel": "dataset"
+  },
+  {
+   "to": "hfea-results",
+   "type": "dataset",
+   "name": "HFEA fertility treatment results",
+   "as": "Holds every licensed UK cycle and nothing done abroad, which is the flow by definition.",
+   "rel": "dataset"
+  },
+  {
+   "to": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The same boundary in the United States, with its own limits stated by the agency.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-beds",
+   "type": "dataset",
+   "name": "Hospital beds per 1,000 people",
+   "as": "Cannot say whether a bed is staffed, or which side of the system it sits on.",
+   "rel": "dataset"
+  },
+  {
+   "to": "world-bank-doctors",
+   "type": "dataset",
+   "name": "Physicians per 1,000 people",
+   "as": "Cannot say where the doctors are, or which of them ever sees a visiting patient.",
+   "rel": "dataset"
+  },
+  {
+   "to": "who-global-health-observatory",
+   "type": "dataset",
+   "name": "WHO Global Health Observatory",
+   "as": "Three thousand indicators, none of which counts a foreign patient.",
+   "rel": "dataset"
+  },
+  {
+   "to": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "A register of purchased inspections, with no outcome, no price and no history of the lapsed.",
+   "rel": "dataset"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "Where absence is absence of mapping, and a row proves only that somebody typed a name.",
+   "rel": "dataset"
+  },
+  {
+   "to": "natural-earth-countries",
+   "type": "dataset",
+   "name": "Natural Earth country outlines",
+   "as": "The geometry every map joins through, and the codes that drop out of it silently.",
+   "rel": "dataset"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The same problem one layer up, in the figures destinations publish about themselves.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:wb-physicians",
+   "kind": "dataset",
+   "title": "Physicians (per 1,000 people) — indicator SH.MED.PHYS.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition and source organisation read off the indicator metadata endpoint https://api.worldbank.org/v2/indicator/SH.MED.PHYS.ZS?format=json — 'Physicians include generalist and specialist medical practitioners'; sourced from WHO Global Health Workforce Statistics, the OECD and country data"
+  },
+  {
+   "id": "s:wb-hospital-beds",
+   "kind": "dataset",
+   "title": "Hospital beds (per 1,000 people) — indicator SH.MED.BEDS.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition read off https://api.worldbank.org/v2/indicator/SH.MED.BEDS.ZS?format=json — inpatient beds in public, private, general and specialised hospitals and rehabilitation centres, acute and chronic care in most cases; WHO data supplemented by country data"
+  },
+  {
+   "id": "s:wb-oop-share",
+   "kind": "dataset",
+   "title": "Out-of-pocket expenditure (% of current health expenditure) — indicator SH.XPD.OOPC.CH.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition read off https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json; source organisation given as the WHO Global Health Expenditure Database, updated December 12th, 2025"
+  },
+  {
+   "id": "s:wb-tourist-arrivals",
+   "kind": "dataset",
+   "title": "International tourism, number of arrivals — indicator ST.INT.ARVL",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "the long definition and its caveats read off https://api.worldbank.org/v2/indicator/ST.INT.ARVL?format=json, including the sentences on differing national collection methods and on arrivals not being people; source organisation UN Tourism, Yearbook and Compendium of Tourism Statistics"
+  },
+  {
+   "id": "s:un-tourism-statistics",
+   "kind": "dataset",
+   "title": "Tourism Statistics Database",
+   "publisher": "UN Tourism (World Tourism Organization)",
+   "url": "https://www.unwto.org/tourism-statistics/tourism-statistics-database",
+   "accessed": "2026-09-17",
+   "note": "the Yearbook and Compendium of Tourism Statistics, which the World Bank republishes as ST.INT.ARVL"
+  },
+  {
+   "id": "s:oecd-waiting-definitions-2025",
+   "kind": "report",
+   "title": "OECD Health Statistics 2025 — Definitions, Sources and Methods: waiting times for selected elective surgeries",
+   "publisher": "OECD, Health Division",
+   "url": "https://stats.oecd.org/wbos/fileview2.aspx?IDFile=cae608c4-fa81-4f56-8d7f-a0d4d609de80",
+   "accessed": "2026-09-17",
+   "note": "PDF dated 10 September 2025; carries the two waiting-time definitions, the inclusion of publicly-funded patients, the exclusion of the GP-referral-to-assessment stretch, the seven procedures with ICD-9-CM codes, the per-country 'Deviation from the definition' notes and the 'Data not available' entries for Austria, Belgium, Czechia, France, Germany, Japan, Korea, Latvia, Luxembourg, Mexico, the Slovak Republic, Switzerland, Türkiye and the United States"
+  },
+  {
+   "id": "s:oecd-waiting-sdmx",
+   "kind": "dataset",
+   "title": "Waiting times dataflow DSD_HEALTH_PROC@DF_WAITING, OECD SDMX API",
+   "publisher": "OECD",
+   "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,1.1/all?format=csvfile",
+   "accessed": "2026-09-17",
+   "note": "the extract read for this project holds 6,609 observations, 24 countries, 2000-2024, 19 countries reporting for 2024; WTSP 3,925 observations and WTPA 2,684; the 2024 knee-replacement medians quoted in the record were read from it"
+  },
+  {
+   "id": "s:who-gho",
+   "kind": "dataset",
+   "title": "Global Health Observatory",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:who-gho-odata",
+   "kind": "dataset",
+   "title": "GHO OData API",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/info/gho-odata-api",
+   "accessed": "2026-09-17",
+   "note": "the API at https://ghoapi.azureedge.net/api returned 3,099 indicator records and 202 dimensions on this date; the page carries no licence statement of its own"
+  },
+  {
+   "id": "s:who-terms-of-use",
+   "kind": "web",
+   "title": "Terms of use",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/about/policies/terms-of-use",
+   "accessed": "2026-09-17",
+   "note": "reproduction for research or private study is permitted 'but not for sale or for use in conjunction with commercial purposes'; WHO publications carry CC BY-NC-SA 3.0 IGO"
+  },
+  {
+   "id": "s:hfea-2024-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2024: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/",
+   "accessed": "2026-09-17",
+   "note": "published 16 June 2026 from a register snapshot of 6 May 2026; 64,000 patients and over 100,000 treatment and freezing cycles in 2024; average IVF birth rate per embryo transferred 30%, 38% at ages 18-34 and 8% at 43-44; 2024 birth outcomes marked preliminary"
+  },
+  {
+   "id": "s:hfea-2024-methodology",
+   "kind": "org",
+   "title": "Fertility treatment 2024: quality and methodology report",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/quality-and-methodology-report/",
+   "accessed": "2026-09-17",
+   "note": "people are in the Register 'regardless of a person's residence'; 'We do not hold detailed information on partner intrauterine insemination (IUI), or treatments that takes place outside of licensed clinics'; regions are assigned 'based on the location of the clinic rather than patient's residency'; the Register runs since 1991 and is described as the longest running database of fertility treatment in the world"
+  },
+  {
+   "id": "s:cdc-art",
+   "kind": "dataset",
+   "title": "Assisted Reproductive Technology Surveillance and clinic-level success rates",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-art-2022-summary",
+   "kind": "dataset",
+   "title": "2022 Final Assisted Reproductive Technology (ART) Summary",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://data.cdc.gov/Assisted-Reproductive-Technology-ART-/2022-Final-Assisted-Reproductive-Technology-ART-Su/9tjt-seye",
+   "accessed": "2026-09-16",
+   "note": "clinic-level and national rows; the national rows carry locationabbr NA. Queried through the Socrata endpoint https://data.cdc.gov/resource/9tjt-seye.json"
+  },
+  {
+   "id": "s:cdc-art-interpret",
+   "kind": "org",
+   "title": "How to interpret ART success rates",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/success-rates/interpret.html",
+   "accessed": "2026-09-17",
+   "note": "'Comparison of success rates across clinics may not be meaningful' and 'Clinic success rates do not reflect any one patient's chance of success', with the reasons given"
+  },
+  {
+   "id": "s:jci-accreditation",
+   "kind": "org",
+   "title": "Joint Commission International — accreditation standards and accredited organizations",
+   "publisher": "Joint Commission International",
+   "url": "https://www.jointcommissioninternational.org/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  },
+  {
+   "id": "s:odbl-1-0",
+   "kind": "web",
+   "title": "Open Database License (ODbL) v1.0",
+   "publisher": "Open Data Commons",
+   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-17",
+   "note": "the share-alike licence OpenStreetMap data carries: attribution, and any adapted database shared under the same terms"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth-terms",
+   "kind": "web",
+   "title": "Terms of Use",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "license": "Public domain",
+   "accessed": "2026-09-17",
+   "note": "'All versions of Natural Earth raster + vector map data found on this website are in the public domain.' and 'No permission is needed to use Natural Earth.' The same page disclaims responsibility for accuracy and content."
+  },
+  {
+   "id": "s:er-api",
+   "kind": "dataset",
+   "title": "Open Exchange Rates API (open.er-api.com)",
+   "publisher": "ExchangeRate-API",
+   "url": "https://open.er-api.com/v6/latest/USD",
+   "accessed": "2026-09-16",
+   "note": "one dated rate table; every converted price on the site names the date"
+  },
+  {
+   "id": "s:er-api-free-terms",
+   "kind": "web",
+   "title": "Free exchange rate API documentation — open endpoint",
+   "publisher": "ExchangeRate-API",
+   "url": "https://www.exchangerate-api.com/docs/free",
+   "accessed": "2026-09-17",
+   "note": "open endpoint updates once per day and carries time_last_update_utc and time_next_update_utc; attribution to ExchangeRate-API is required on pages using the rates; redistribution of the data is not permitted"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:worldbank-open-data"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "each does-not-count sentence is drawn from the dataset record it belongs to and from that publisher's own definitions page; the closing reading is marked Inference inline"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "this project describing its own field and its own licence handling"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "egypt",
+   "type": "destination",
+   "name": "Egypt",
+   "as": "A trade that exists and has never been counted in public is the case this page stands on.",
+   "rel": "story"
+  },
+  {
+   "from": "japan",
+   "type": "destination",
+   "name": "Japan",
+   "as": "A rich country with two official series and no answer to the simple question.",
+   "rel": "story"
+  },
+  {
+   "from": "nigeria",
+   "type": "destination",
+   "name": "Nigeria",
+   "as": "An outflow everybody agrees exists and nobody has measured the same way twice.",
+   "rel": "story"
+  },
+  {
+   "from": "philippines",
+   "type": "destination",
+   "name": "Philippines",
+   "as": "Forty-eight agencies, no register, no total.",
+   "rel": "story"
+  },
+  {
+   "from": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "A country that stopped publishing a number rather than publish a bad one.",
+   "rel": "story"
+  },
+  {
+   "from": "spain",
+   "type": "destination",
+   "name": "Spain",
+   "as": "A registry that counts every cycle and cannot say why nine in ten patients came.",
+   "rel": "story"
+  },
+  {
+   "from": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "Good public health statistics and no count of who left.",
+   "rel": "story"
+  },
+  {
+   "from": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "A gap this record leaves open rather than fills.",
+   "rel": "story"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "A capital with a whole private sector in five kilometres and no count anybody publishes.",
+   "rel": "story"
+  },
+  {
+   "from": "taipei",
+   "type": "hub",
+   "name": "Taipei",
+   "as": "A hub with no count this project could verify, which is itself the finding.",
+   "rel": "story"
+  },
+  {
+   "from": "hospital-angeles-tijuana",
+   "type": "facility",
+   "name": "Hospital Angeles Tijuana",
+   "as": "The most-written-about border medical market in the world, and its largest hospital publishes no number about itself.",
+   "rel": "story"
+  },
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "Why the denominator under all of this is missing.",
+   "rel": "story"
+  },
+  {
+   "from": "eshre",
+   "type": "org",
+   "name": "European Society of Human Reproduction and Embryology",
+   "as": "Where national aggregates and clinic-level results are set against each other.",
+   "rel": "story"
+  },
+  {
+   "from": "eurostat",
+   "type": "org",
+   "name": "Eurostat",
+   "as": "The exclusion sentence, and what it hides, at length.",
+   "rel": "story"
+  },
+  {
+   "from": "icmart",
+   "type": "org",
+   "name": "International Committee for Monitoring Assisted Reproductive Technologies",
+   "as": "The destinations with no registry, which is most of the ones a fertility traveller is choosing between.",
+   "rel": "story"
+  },
+  {
+   "from": "isaps",
+   "type": "org",
+   "name": "International Society of Aesthetic Plastic Surgery",
+   "as": "Everything cosmetic done by someone who is not a board-certified plastic surgeon.",
+   "rel": "story"
+  },
+  {
+   "from": "khidi",
+   "type": "org",
+   "name": "Korea Health Industry Development Institute",
+   "as": "Even this count cannot separate a traveller from a resident foreigner.",
+   "rel": "story"
+  },
+  {
+   "from": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "Where the gap between world health data and cross-border care is the subject.",
+   "rel": "story"
+  },
+  {
+   "from": "natural-earth-countries",
+   "type": "dataset",
+   "name": "Natural Earth country outlines",
+   "as": "A country that has no code has no row, and a missing row looks like an empty country.",
+   "rel": "story"
+  },
+  {
+   "from": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "Absence of mapping, read as absence of a hospital, is the commonest mistake this file invites.",
+   "rel": "story"
+  },
+  {
+   "from": "who-global-health-observatory",
+   "type": "dataset",
+   "name": "WHO Global Health Observatory",
+   "as": "The gap is structural, not an oversight: nobody collects it.",
+   "rel": "story"
+  },
+  {
+   "from": "world-bank-beds",
+   "type": "dataset",
+   "name": "Hospital beds per 1,000 people",
+   "as": "Twenty-seven countries with no value, and a South African figure dated 2010.",
+   "rel": "story"
+  },
+  {
+   "from": "world-bank-doctors",
+   "type": "dataset",
+   "name": "Physicians per 1,000 people",
+   "as": "A national average over a population is the clearest case of it.",
+   "rel": "story"
+  },
+  {
+   "from": "world-bank-tourism-arrivals",
+   "type": "dataset",
+   "name": "International arrivals",
+   "as": "A table with no field for why anyone came.",
+   "rel": "story"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The same problem across every series this site draws a chart from.",
+   "rel": "story"
+  },
+  {
+   "from": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The thirteen series this method draws on, and the sentence each of them cannot answer.",
+   "rel": "story"
+  }
+ ]
+}

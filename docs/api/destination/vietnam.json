@@ -1,0 +1,248 @@
+{
+ "schema": 1,
+ "id": "vietnam",
+ "type": "destination",
+ "names": {
+  "name": "Vietnam",
+  "aliases": [
+   "Việt Nam",
+   "Socialist Republic of Vietnam"
+  ],
+  "said": "Ho Chi Minh City sells teeth. Hanoi sells nothing much to foreigners. The patients who arrive are mostly Cambodian, Lao, or Vietnamese with a second passport."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "VN",
+  "direction": "both",
+  "currency": "VND",
+  "languages": [
+   "Vietnamese",
+   "English"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "veneers",
+   "rhinoplasty"
+  ]
+ },
+ "text": {
+  "what": "A country that sends more money out for treatment than it takes in, and that is building a dental and cosmetic trade in Ho Chi Minh City on the difference. The figures published about it are estimates without a named author, and this record carries none of them as fact.",
+  "story": "State media reported in August 2026 that \"around 300,000 international visitors use medical services in Vietnam annually\", spending \"1-2 billion USD\" on treatment, accommodation, transport and food, while \"Vietnamese people spend an estimated 2-3 billion USD each year on medical treatment abroad\". The target attached to the same piece was \"around 750,000 international medical tourists by 2030\".\n\nEvery one of those numbers is attributed to reports and estimates that are not named. This directory quotes them, credits the agency that printed them, and does not carry them in its own metrics.\n\n*Inference —* the outbound figure being two to three times the inbound one is the part worth reading. Vietnam's wealthy travel to Singapore, Bangkok and Seoul for cancer and cardiac work, and the state's interest in this sector is import substitution before it is export promotion.\n\nThe patients coming the other way, by the same reporting, are overseas Vietnamese and visitors from Cambodia, Laos, the Republic of Korea, Japan, Australia and Europe. *Trade practice —* the Cambodian and Lao arrivals are a border phenomenon rather than a package trade: a referral to the nearest hospital with a scanner, paid for in cash.",
+  "how": "*Trade practice —* Ho Chi Minh City's dental clinics quote packages in US dollars on public pages and work to a holiday calendar, fitting implants and full-arch restorations into a two-visit schedule. Hospital care for foreigners is arranged through international departments at a handful of city hospitals. The country has no medical visa class of the kind India and Thailand run.",
+  "today": "As of 16 September 2026 no Vietnamese government series counting foreign patients has been read for this record."
+ },
+ "geo": {
+  "lat": 10.8231,
+  "lon": 106.6297,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "None carried. The figures in circulation — about 300,000 international users of medical services a year, 1-2 billion US dollars of inbound spending, 2-3 billion going out — were printed by the state news agency in August 2026 and attributed there to unnamed reports and estimates. No ministry series behind them was read for this record.",
+  "as_of": "2026-09-16",
+  "source": "s:vietnamplus-medical-travel-2026",
+  "url": "https://en.vietnamplus.vn/vietnam-moves-to-tap-growing-potential-of-medical-tourism-post350961.vnp"
+ },
+ "kin": [
+  {
+   "to": "dental-implant",
+   "as": "The operation the Ho Chi Minh City trade is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "as": "The full-arch package sold to visitors on a two-trip schedule.",
+   "rel": "procedure"
+  },
+  {
+   "to": "singapore",
+   "as": "Where Vietnamese patients go when the diagnosis is serious and the money exists.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "as": "The regional destination Vietnamese patients leave for, and the format Vietnamese clinics copy.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "as": "The broker layer between a dental clinic here and a patient abroad.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why an unattributed 300,000 does not become a fact by being reprinted.",
+   "rel": "story"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who checks an implant placed on a fortnight's holiday.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "Vietnam moves to tap growing potential of medical tourism — VietnamPlus",
+   "url": "https://en.vietnamplus.vn/vietnam-moves-to-tap-growing-potential-of-medical-tourism-post350961.vnp"
+  }
+ ],
+ "sources": [
+  "s:vietnamplus-medical-travel-2026",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:vietnamplus-medical-travel-2026"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:vietnamplus-medical-travel-2026",
+    "note": "quoted from state media, which attributes the figures to unnamed reports; the reading of them is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:vietnamplus-medical-travel-2026"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "A country that sends more money out for treatment than it takes in, and that is building a dental and cosmetic trade in Ho Chi Minh City on the difference.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The operation the Ho Chi Minh City trade is built on.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The full-arch package sold to visitors on a two-trip schedule.",
+   "rel": "procedure"
+  },
+  {
+   "to": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "Where Vietnamese patients go when the diagnosis is serious and the money exists.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The regional destination Vietnamese patients leave for, and the format Vietnamese clinics copy.",
+   "rel": "contrast"
+  },
+  {
+   "to": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "The broker layer between a dental clinic here and a patient abroad.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why an unattributed 300,000 does not become a fact by being reprinted.",
+   "rel": "story"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who checks an implant placed on a fortnight's holiday.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:vietnamplus-medical-travel-2026",
+   "kind": "web",
+   "title": "Vietnam moves to tap growing potential of medical tourism",
+   "publisher": "VietnamPlus, Vietnam News Agency",
+   "url": "https://en.vietnamplus.vn/vietnam-moves-to-tap-growing-potential-of-medical-tourism-post350961.vnp",
+   "accessed": "2026-09-16",
+   "note": "dated 28 August 2026; every figure in it is attributed to unnamed reports and estimates"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:vietnamplus-medical-travel-2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:vietnamplus-medical-travel-2026",
+   "note": "quoted from state media, which attributes the figures to unnamed reports; the reading of them is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:vietnamplus-medical-travel-2026"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:vietnamplus-medical-travel-2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": []
+}

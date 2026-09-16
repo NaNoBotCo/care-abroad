@@ -1,0 +1,344 @@
+{
+ "schema": 1,
+ "id": "budapest",
+ "type": "hub",
+ "names": {
+  "name": "Budapest",
+  "aliases": [
+   "Buda and Pest"
+  ],
+  "said": "Dental clinics advertise a district number — V, VI, XIII — because a Hungarian address is read that way, and because the inner Pest districts are the short walk from a hotel."
+ },
+ "region": [
+  "europe-central"
+ ],
+ "facets": {
+  "iso2": "HU",
+  "radius_km": 15,
+  "specialty": [
+   "dentistry",
+   "oral surgery",
+   "fertility",
+   "cosmetic surgery",
+   "thermal and spa"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "dental-crown",
+   "veneers",
+   "full-mouth-restoration",
+   "ivf"
+  ],
+  "languages": [
+   "Hungarian",
+   "German",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A capital of 1,685,209 people split by the Danube into hilly Buda and flat Pest, administered in 23 districts written in Roman numerals. The dental surgeries that foreign patients use cluster in inner Pest — District V, Belváros-Lipótváros, District VI, Terézváros, along Andrássy Avenue, and District XIII — inside a walk or two tram stops of the hotels. Budapest is also a spa city: it carries more than 100 medicinal geothermal springs and Ottoman-built baths at Rudas and Király still in use five centuries on.",
+  "story": "Hungarian cross-border dentistry began on the Austrian frontier rather than here. Under Goulash Communism, German and Austrian visitors started seeing Hungarian dentists; the border towns took the day-trip traffic, and prices settled at a third to a half of Vienna's. Budapest is the version of that trade with an international airport attached, which changes who can reach it and how long they stay.\n\n*Trade practice —* the capital's clinics therefore sell a different unit from the border towns. A Sopron surgery sells a morning. A Budapest clinic sells a course: two visits some months apart, with a temporary bridge in between, because implants need to integrate before anything is loaded onto them.\n\nFor a patient insured in another EU or EEA state there is a reimbursement route as well as a price. Directive 2011/24/EU on patients' rights in cross-border healthcare gives an entitlement to be reimbursed at the home tariff for care that would have been covered at home, which for dentistry is usually a fraction of the bill and for some treatments requires prior authorisation.\n\n*Inference —* the directive matters less to this city's trade than the price does. A patient paying a third of the Vienna price out of pocket is not waiting on a reimbursement form, and the clinics quote as though nobody is.",
+  "how": "*Trade practice —* the Budapest course starts with a panoramic radiograph and a written plan, sometimes made from images sent ahead. Extractions, bone graft where needed and implant placement happen on the first visit; the crowns or the bridge go on three to six months later. Clinics quote per implant and per crown rather than per mouth, and the difference between a quote and a final bill is usually the graft, the extractions and the number of units. Hotel nights are sold alongside by the larger clinics.",
+  "today": "As of 16 September 2026 this record carries no price row for Budapest: the figures on the clinic sites read for this batch were quoted from, in ranges, without a date on the page. A price this directory can carry is one with a currency, a date and an inclusion list, and those pages did not have all three.",
+  "notes": "Fifteen kilometres from the city point covers all 23 districts and both banks."
+ },
+ "geo": {
+  "lat": 47.4925,
+  "lon": 19.0514,
+  "precision": "city",
+  "source": "s:wp-budapest"
+ },
+ "address": {
+  "city": "Budapest",
+  "country": "HU"
+ },
+ "kin": [
+  {
+   "to": "hungary",
+   "as": "The country whose dental trade this city is the airport end of.",
+   "rel": "whole"
+  },
+  {
+   "to": "sopron",
+   "as": "The border version of the same trade: a morning from Vienna instead of a flight.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The operation the capital's clinics are booked for, priced per implant.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "as": "The full-arch form sold here, and the one whose quote hides the most variables.",
+   "rel": "procedure"
+  },
+  {
+   "to": "full-mouth-restoration",
+   "as": "The long course this city's two-visit model is built around.",
+   "rel": "procedure"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The route an EU-insured patient can claim part of the bill back through, at the home tariff.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The older trade the thermal baths belong to, sold beside the dentistry and counted separately.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "Why a per-implant quote and a final bill are different objects.",
+   "rel": "story"
+  },
+  {
+   "to": "warsaw",
+   "as": "The other central European capital British and Irish dental patients are sent to.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Directive 2011/24/EU",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32011L0024"
+  }
+ ],
+ "sources": [
+  "s:wp-budapest",
+  "s:wp-medical-travel",
+  "s:eu-directive-2011-24",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-medical-travel",
+    "note": "the Goulash Communism origin and the Vienna price ratio are cited there to a named reference; the last paragraph is this project reasoning"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the standard two-visit implant course; no single page read for this record states it"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-budapest"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Andrássy Avenue Budapest.jpg",
+  "File:Rudas Baths Budapest.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A capital of 1,685,209 people split by the Danube into hilly Buda and flat Pest, administered in 23 districts written in Roman numerals.",
+ "region_terms": [
+  {
+   "key": "europe-central",
+   "name": "Central Europe",
+   "note": "Poland, Czechia, Hungary, Slovakia, Slovenia, Croatia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The country whose dental trade this city is the airport end of.",
+   "rel": "whole"
+  },
+  {
+   "to": "sopron",
+   "type": "hub",
+   "name": "Sopron",
+   "as": "The border version of the same trade: a morning from Vienna instead of a flight.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The operation the capital's clinics are booked for, priced per implant.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The full-arch form sold here, and the one whose quote hides the most variables.",
+   "rel": "procedure"
+  },
+  {
+   "to": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "The long course this city's two-visit model is built around.",
+   "rel": "procedure"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The route an EU-insured patient can claim part of the bill back through, at the home tariff.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The older trade the thermal baths belong to, sold beside the dentistry and counted separately.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "Why a per-implant quote and a final bill are different objects.",
+   "rel": "story"
+  },
+  {
+   "to": "warsaw",
+   "type": "hub",
+   "name": "Warsaw",
+   "as": "The other central European capital British and Irish dental patients are sent to.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-budapest",
+   "kind": "wikipedia",
+   "title": "Budapest",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Budapest",
+   "accessed": "2026-09-16",
+   "note": "coordinates, population 1,685,209 (2025), 23 districts in Roman numerals, Buda and Pest split by the Danube, more than 100 medicinal geothermal springs"
+  },
+  {
+   "id": "s:wp-medical-travel",
+   "kind": "wikipedia",
+   "title": "Medical tourism",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism",
+   "accessed": "2026-09-16",
+   "note": "used only for the figures it attributes to a named reference: Mosonmagyaróvár's dental clinic count, a Lithuanian hip replacement at £3,340 against a British commercial price roughly three times it, and Tunisia's thalassotherapy ranking. Its country-level traffic figures rest on market-research summaries and are not carried here."
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-medical-travel",
+   "note": "the Goulash Communism origin and the Vienna price ratio are cited there to a named reference; the last paragraph is this project reasoning"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the standard two-visit implant course; no single page read for this record states it"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-budapest"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "Where the longer-distance patients land and the bigger practices are.",
+   "rel": "part"
+  },
+  {
+   "from": "sopron",
+   "type": "hub",
+   "name": "Sopron",
+   "as": "The capital version of the same trade, reached by air rather than by car.",
+   "rel": "contrast"
+  },
+  {
+   "from": "warsaw",
+   "type": "hub",
+   "name": "Warsaw",
+   "as": "The other central European capital the same dental traffic is sent to.",
+   "rel": "contrast"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The city that prices the same arch in two lines and half the money.",
+   "rel": "place"
+  },
+  {
+   "from": "dental-crown",
+   "type": "procedure",
+   "name": "Dental crown",
+   "as": "The city that made dental travel a European industry.",
+   "rel": "place"
+  },
+  {
+   "from": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The city whose clinics price implants in parts and sell the parts as packages.",
+   "rel": "place"
+  },
+  {
+   "from": "full-mouth-restoration",
+   "type": "procedure",
+   "name": "Full mouth restoration",
+   "as": "The European city that built its dental trade on jobs this size.",
+   "rel": "place"
+  },
+  {
+   "from": "veneers",
+   "type": "procedure",
+   "name": "Dental veneers",
+   "as": "The city whose clinics built the European dental trade on work like this.",
+   "rel": "place"
+  }
+ ]
+}

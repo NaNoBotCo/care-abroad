@@ -1,0 +1,268 @@
+{
+ "schema": 1,
+ "id": "khidi",
+ "type": "org",
+ "names": {
+  "name": "Korea Health Industry Development Institute",
+  "aliases": [
+   "KHIDI",
+   "한국보건산업진흥원"
+  ],
+  "said": "KHIDI. It is the institute that both promotes the trade and counts it, which is worth knowing before reading the count."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "kind": [
+   "ministry",
+   "registry"
+  ],
+  "iso2": "KR",
+  "status": "open"
+ },
+ "text": {
+  "what": "A government-affiliated institute under South Korea's Ministry of Health and Welfare. It develops the health industry, runs the Medical Korea programme, maintains the registration database of institutions permitted to attract foreign patients, and compiles the annual national statistics on foreign patients treated in Korea.",
+  "story": "Korea did the thing almost no other destination did: it made attracting foreign patients a registered activity, and then counted the result at the level of the individual patient.\n\nA hospital or clinic that wants to solicit foreign patients registers. A facilitator that wants to broker them registers. Registration produces a list of who is in the trade, and it produces returns, and the returns produce a national figure that counts people rather than visits.\n\nThat is the difference this record exists to record. The 2024 report published by the Ministry of Health and Welfare with KHIDI counts 1,170,467 foreign patients from 202 countries, and it is stated as unique patients excluding repeat visits, with 999,642 of them treated in Seoul. *Inference —* a number built from a compulsory registration and a stated counting rule is a different class of evidence from a market-research total, and it is the reason a Korean figure can be carried on this site while most national totals cannot.",
+  "how": "Institutions register with the ministry through the system KHIDI manages; registered hospitals and registered facilitators are listed. Registered institutions report their foreign patient activity, KHIDI analyses it annually, and the ministry publishes the result. The counting rule — patients, not visits — is stated in the reporting.",
+  "today": "As of 16 September 2026 the most recent published year is 2024: 1,170,467 foreign patients from 202 countries, 85 per cent of them treated in Seoul, with national medical spending by those patients reported at 1.4 trillion won.",
+  "notes": "This record carries the Korean figure because its counting rule is published. It does not follow that the same number is comparable with any other country's; almost no other country counts this way."
+ },
+ "geo": {
+  "lat": 36.48,
+  "lon": 127.289,
+  "precision": "city",
+  "source": "s:khidi-medicalkorea"
+ },
+ "address": {
+  "city": "Cheongju",
+  "area": "North Chungcheong",
+  "country": "KR"
+ },
+ "metrics": {
+  "inbound_patients_year": 1170467,
+  "note": "The 2024 national figure published by the Ministry of Health and Welfare with KHIDI. It counts unique foreign patients treated in Korea, excluding repeat visits, from 202 countries; 999,642 of them were treated in Seoul. It is a count of patients, not of people who travelled to Korea specifically for treatment — a resident foreigner treated in Korea is inside it.",
+  "as_of": "2024",
+  "source": "s:seoul-foreign-patients-2024",
+  "url": "https://english.seoul.go.kr/seoul-draws-1m-international-medical-tourists-in-2024-with-%E2%82%A91-2t-in-medical-spending/"
+ },
+ "kin": [
+  {
+   "to": "south-korea",
+   "as": "The country whose inbound patient count it compiles and publishes.",
+   "rel": "place"
+  },
+  {
+   "to": "seoul",
+   "as": "The city that takes 85 per cent of the patients in its own count.",
+   "rel": "place"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "as": "The registration rule that makes the count possible.",
+   "rel": "governs"
+  },
+  {
+   "to": "counting-patients",
+   "as": "The one national count on this site whose counting rule is published.",
+   "rel": "story"
+  },
+  {
+   "to": "mhtc",
+   "as": "Malaysia's equivalent agency, publishing a visit count rather than a patient count.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "Even this count cannot separate a traveller from a resident foreigner.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "About KHIDI — Medical Korea",
+   "url": "http://www.medicalkorea.or.kr/en/aboutkhidi"
+  }
+ ],
+ "sources": [
+  "s:khidi-medicalkorea",
+  "s:seoul-foreign-patients-2024"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:khidi-medicalkorea"
+  },
+  "fields": {
+   "metrics": {
+    "tier": "cited",
+    "source": "s:seoul-foreign-patients-2024"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "KHIDI's head office is at Osong in Cheongju; city precision only"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A government-affiliated institute under South Korea's Ministry of Health and Welfare.",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The country whose inbound patient count it compiles and publishes.",
+   "rel": "place"
+  },
+  {
+   "to": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "The city that takes 85 per cent of the patients in its own count.",
+   "rel": "place"
+  },
+  {
+   "to": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The registration rule that makes the count possible.",
+   "rel": "governs"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The one national count on this site whose counting rule is published.",
+   "rel": "story"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "Malaysia's equivalent agency, publishing a visit count rather than a patient count.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Even this count cannot separate a traveller from a resident foreigner.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:khidi-medicalkorea",
+   "kind": "org",
+   "title": "About KHIDI — Medical Korea",
+   "publisher": "Korea Health Industry Development Institute",
+   "url": "http://www.medicalkorea.or.kr/en/aboutkhidi",
+   "accessed": "2026-09-16",
+   "note": "government-affiliated institution under the Ministry of Health and Welfare; the registration system, registered hospitals and registered facilitators"
+  },
+  {
+   "id": "s:seoul-foreign-patients-2024",
+   "kind": "web",
+   "title": "Seoul Draws 1M International Medical Tourists in 2024 with ₩1.2T in Medical Spending",
+   "publisher": "Seoul Metropolitan Government",
+   "year": 2026,
+   "url": "https://english.seoul.go.kr/seoul-draws-1m-international-medical-tourists-in-2024-with-%E2%82%A91-2t-in-medical-spending/",
+   "accessed": "2026-09-16",
+   "note": "reports the MOHW and KHIDI 2024 count: 1,170,467 patients from 202 countries, 999,642 of them treated in Seoul"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:khidi-medicalkorea"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:khidi-medicalkorea"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:khidi-medicalkorea"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:khidi-medicalkorea"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "KHIDI's head office is at Osong in Cheongju; city precision only"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:khidi-medicalkorea"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:seoul-foreign-patients-2024"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "south-korea",
+   "type": "destination",
+   "name": "South Korea",
+   "as": "The institute that compiles the foreign-patient series for the health ministry.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "The state institute that keeps the foreign-patient count this record quotes.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "wooridul",
+   "type": "facility",
+   "name": "Wooridul Spine Hospital",
+   "as": "The state body whose listing supplies every number on this record.",
+   "rel": "measured-by"
+  },
+  {
+   "from": "korea-foreign-patient-registration",
+   "type": "rule",
+   "name": "Korea's foreign patient attraction registration",
+   "as": "The institute that runs the register and publishes the count.",
+   "rel": "org"
+  },
+  {
+   "from": "dha-dubai",
+   "type": "org",
+   "name": "Dubai Health Authority",
+   "as": "The other agency that promotes and counts at once — and publishes its counting rule.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "Korea's equivalent state body, which publishes a patient count instead of a visit count.",
+   "rel": "contrast"
+  },
+  {
+   "from": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "The institute that compiles the Korean returns and states the count excludes repeat visits.",
+   "rel": "org"
+  }
+ ]
+}

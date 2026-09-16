@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "id": "costa-rica",
+ "type": "destination",
+ "names": {
+  "name": "Costa Rica",
+  "aliases": [
+   "República de Costa Rica",
+   "Republic of Costa Rica"
+  ],
+  "said": "The trade says Costa Rica and means San José: two private hospitals, a ring of dental and cosmetic clinics in Escazú and Santa Ana, and a recovery week somewhere with a view."
+ },
+ "region": [
+  "central-america"
+ ],
+ "facets": {
+  "iso2": "CR",
+  "direction": "inbound",
+  "currency": "CRC",
+  "languages": [
+   "Spanish",
+   "English"
+  ],
+  "draws": [
+   "dental-implant",
+   "all-on-four",
+   "full-mouth-restoration",
+   "abdominoplasty"
+  ]
+ },
+ "text": {
+  "what": "The Central American destination that organised itself earliest. Dentistry and cosmetic surgery are the volume trades, sold to North Americans on a two-to-three-hour flight from Houston or Miami, and the country's private hospitals in San José take the complex work. Costa Rica also runs a universal public system, the Caja, which the visiting patient does not enter and is not counted by.",
+  "story": "The organising body is PROMED, the Consejo para la Promoción Internacional de la Medicina de Costa Rica — a national council that certifies and lists providers for international patients, and the only Latin American body of its kind on this site's recognizer list. *Inference —* a council that certifies its own members is a trade association with an inspection attached, and the certificate says a provider paid for and passed that inspection, not that the outcome of an operation there is better. On 16 September 2026 the promedcostarica.org address answered with a redirect to the Cámara Costarricense de la Salud, a health-sector chamber in San José; whether the council has been folded into the chamber or has only moved its web address is not something this record could establish, and the PROMED entry is flagged for verification because of it.\n\nThe hospital side is older than the trade. Hospital Clínica Bíblica in San José describes itself as \"Costa Rica's longest-running private hospital\", at \"96 years\", and carries accreditation by Joint Commission International — a US-derived hospital standard, run on a three-year cycle, which the applicant pays for.\n\n*Trade practice —* dentistry is the reason most patients come, and dentistry is the part with the least public data anywhere. A country can have a certifying council, a JCI-accredited hospital and no register at all of who fitted an implant in a shopfront in Escazú.",
+  "how": "*Trade practice —* the usual Costa Rican arrangement is the co-ordinator: a clinic or a facilitator quotes the treatment, the airport transfer and the recovery hotel as one line, and books the consultation for the morning after landing. Long dental courses are staged across two trips with a temporary fitted in between, which is why the flight cost appears twice in the real total and once in the quoted one. Payment is a deposit to hold the surgical date and the balance on arrival; North American dental insurance rarely pays any of it.",
+  "today": "As of September 2026 this record carries no national count of foreign patients: the Costa Rican figure most often quoted in the trade press comes from market summaries whose method this project could not read, and it is left out rather than repeated. What is carried is narrower — the accreditation Clínica Bíblica states, and PROMED's own role as the certifying council."
+ },
+ "geo": {
+  "lat": 9.9281,
+  "lon": -84.0907,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried. Costa Rica's volume trade is dentistry, which no national register counts; the country does not publish a medical-travel arrival series this project could read.",
+  "as_of": "2026-09-16",
+  "source": "s:camara-costarricense-salud"
+ },
+ "kin": [
+  {
+   "to": "san-jose-cr",
+   "as": "The city that is nearly all of it.",
+   "rel": "part"
+  },
+  {
+   "to": "promed",
+   "as": "The national council that certifies providers here, and the reason this country organised before its neighbours.",
+   "rel": "org"
+  },
+  {
+   "to": "clinica-biblica",
+   "as": "The San José private hospital that carries the JCI mark and the longest history.",
+   "rel": "part"
+  },
+  {
+   "to": "hospital-cima-san-jose",
+   "as": "The other San José hospital the trade routes complex work to.",
+   "rel": "part"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The item that brings most patients here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "as": "The full-arch course sold across two trips, with the second flight in the total.",
+   "rel": "procedure"
+  },
+  {
+   "to": "united-states",
+   "as": "The source market, two to three hours away by air.",
+   "rel": "contrast"
+  },
+  {
+   "to": "panama",
+   "as": "The neighbour selling the same mix to the same market, with a smaller surgeon base.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditor whose mark the San José hospitals hold.",
+   "rel": "accredited-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Hospital Clínica Bíblica",
+   "url": "https://www.clinicabiblica.com/en/"
+  },
+  {
+   "label": "Cámara Costarricense de la Salud",
+   "url": "https://salud.co.cr/"
+  }
+ ],
+ "sources": [
+  "s:clinica-biblica",
+  "s:camara-costarricense-salud",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the redirect was read on 16 September 2026; the reading of what it means is marked as inference and flagged for verification"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a co-ordinated Costa Rican trip, hedged in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:San José Costa Rica skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The Central American destination that organised itself earliest.",
+ "region_terms": [
+  {
+   "key": "central-america",
+   "name": "Central America",
+   "note": "Costa Rica, Panama, Guatemala, Belize"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "san-jose-cr",
+   "type": "hub",
+   "name": "San José, Costa Rica",
+   "as": "The city that is nearly all of it.",
+   "rel": "part"
+  },
+  {
+   "to": "promed",
+   "type": "org",
+   "name": "PROMED",
+   "as": "The national council that certifies providers here, and the reason this country organised before its neighbours.",
+   "rel": "org"
+  },
+  {
+   "to": "clinica-biblica",
+   "type": "facility",
+   "name": "Hospital Clínica Bíblica",
+   "as": "The San José private hospital that carries the JCI mark and the longest history.",
+   "rel": "part"
+  },
+  {
+   "to": "hospital-cima-san-jose",
+   "type": "facility",
+   "name": "Hospital CIMA San José",
+   "as": "The other San José hospital the trade routes complex work to.",
+   "rel": "part"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The item that brings most patients here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The full-arch course sold across two trips, with the second flight in the total.",
+   "rel": "procedure"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The source market, two to three hours away by air.",
+   "rel": "contrast"
+  },
+  {
+   "to": "panama",
+   "type": "destination",
+   "name": "Panama",
+   "as": "The neighbour selling the same mix to the same market, with a smaller surgeon base.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The accreditor whose mark the San José hospitals hold.",
+   "rel": "accredited-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:clinica-biblica",
+   "kind": "web",
+   "title": "Hospital Clínica Bíblica",
+   "publisher": "Hospital Clínica Bíblica, San José, Costa Rica",
+   "url": "https://www.clinicabiblica.com/en/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:camara-costarricense-salud",
+   "kind": "web",
+   "title": "Cámara Costarricense de la Salud",
+   "publisher": "Cámara Costarricense de la Salud, San José",
+   "url": "https://salud.co.cr/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the redirect was read on 16 September 2026; the reading of what it means is marked as inference and flagged for verification"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of a co-ordinated Costa Rican trip, hedged in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "canada",
+   "type": "destination",
+   "name": "Canada",
+   "as": "The winter destination that sells dentistry and surgery to the same travellers.",
+   "rel": "destination"
+  },
+  {
+   "from": "panama",
+   "type": "destination",
+   "name": "Panama",
+   "as": "The neighbour with the same mix, a certifying council and more surgeons.",
+   "rel": "contrast"
+  },
+  {
+   "from": "san-jose-cr",
+   "type": "hub",
+   "name": "San José, Costa Rica",
+   "as": "The country this cluster is, for practical purposes, the whole of.",
+   "rel": "destination"
+  },
+  {
+   "from": "clinica-biblica",
+   "type": "facility",
+   "name": "Hospital Clínica Bíblica",
+   "as": "The country's largest private hospital, and the institution most often meant when Costa Rica is named as a destination.",
+   "rel": "destination"
+  },
+  {
+   "from": "hospital-cima-san-jose",
+   "type": "facility",
+   "name": "Hospital CIMA San José",
+   "as": "An American-built hospital on Costa Rican soil, which is what the country's route to North American patients largely is.",
+   "rel": "destination"
+  },
+  {
+   "from": "promed",
+   "type": "org",
+   "name": "PROMED",
+   "as": "The destination this council exists to promote.",
+   "rel": "place"
+  }
+ ]
+}

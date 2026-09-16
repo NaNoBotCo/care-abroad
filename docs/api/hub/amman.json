@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "id": "amman",
+ "type": "hub",
+ "names": {
+  "name": "Amman",
+  "aliases": [
+   "عمّان"
+  ],
+  "said": "West Amman is where the private hospitals are. A referral from Baghdad or Tripoli names a hospital, not a district, and the taxi works out the rest."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "JO",
+  "radius_km": 15,
+  "specialty": [
+   "oncology",
+   "cardiac surgery",
+   "fertility",
+   "bariatric surgery",
+   "transplantation",
+   "orthopaedics"
+  ],
+  "draws": [
+   "bone-marrow-transplant",
+   "cabg",
+   "ivf",
+   "gastric-sleeve",
+   "kidney-transplant"
+  ],
+  "languages": [
+   "Arabic",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "A capital of some five million people as of 2024, whose private hospitals sit in the modern western half of the city — the economic side, against the historic east — with the King Hussein Cancer Center on Queen Rania Street carrying 352 beds. Amman treats patients referred from Iraq, Palestine, Sudan, Syria, Libya and the Gulf, mostly for cancer, cardiac surgery, fertility and transplantation, and its private sector is organised enough to have had a trade association since 1984.",
+  "story": "Jordan's inbound trade is older than the phrase for it. The Private Hospitals Association was founded in 1984, began with eight members and now has 48, and started appearing at international medical travel conferences after United States development support from October 2007.\n\nThe counts everybody quotes are from that period and have not been replaced. More than 250,000 patients from other countries were treated in Jordan in 2007 — about 45,000 Iraqis, 25,000 Palestinians, 25,000 Sudanese, 1,800 Americans, 1,200 Britons and 400 Canadians — and a similar figure with revenues above a billion dollars is given for 2008. The World Bank ranked Jordan the leading medical travel destination in the Middle East and North Africa.\n\n*Inference —* those figures are approaching two decades old and their method is not stated on the page that carries them. What they plainly describe is a referral trade rather than an elective one: the largest single groups came from countries whose own hospital systems were under war or embargo, which is a different subject from a cheaper knee.\n\nThe King Hussein Cancer Center holds Joint Commission International accreditation and accreditations from the College of American Pathologists, the American Nurses Credentialing Center's Magnet programme and the accrediting body for human research protection — none of them dated on the page read for this record, and an accreditation without its year cannot be read as current.",
+  "how": "*Trade practice —* the Amman route is a referral rather than a web enquiry. A physician or a ministry in the sending country names the hospital, the hospital issues an invitation letter for the visa, and a family travels with the patient — often several, since the escort is part of the arrangement rather than an extra. Payment is state-funded for some sending countries, and cash or charitable for others.",
+  "today": "As of 16 September 2026 no current inbound patient count for Jordan could be read for this record; the figures carried above are 2007 and 2008 and are labelled as such.",
+  "notes": "Fifteen kilometres from the city point covers both halves of the city and the university hospitals to the north-west."
+ },
+ "geo": {
+  "lat": 31.9497,
+  "lon": 35.9328,
+  "precision": "city",
+  "source": "s:wp-amman"
+ },
+ "address": {
+  "city": "Amman",
+  "country": "JO"
+ },
+ "kin": [
+  {
+   "to": "jordan",
+   "as": "The country this cluster is effectively the whole of.",
+   "rel": "whole"
+  },
+  {
+   "to": "king-hussein-cancer-center",
+   "as": "The hospital the city is named for abroad, on Queen Rania Street.",
+   "rel": "part"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "as": "The kind of work a regional referral centre is built to take.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "as": "Among the operations the 2007 and 2008 referral counts were made of.",
+   "rel": "procedure"
+  },
+  {
+   "to": "the-escort-burden",
+   "as": "Here the companion is part of the arrangement, and often several people rather than one.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "as": "The invitation letter the hospital issues is the step that makes the journey possible.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditor whose mark this city's flagship hospital carries, undated on the page read.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why two-decade-old arrival figures keep getting repeated as current.",
+   "rel": "story"
+  },
+  {
+   "to": "dubai",
+   "as": "The Gulf destination that grew after this one and competes for the same referrals.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "King Hussein Cancer Center",
+   "url": "https://en.wikipedia.org/wiki/King_Hussein_Cancer_Center"
+  }
+ ],
+ "sources": [
+  "s:wp-amman",
+  "s:wp-khcc",
+  "s:wp-pha-jordan",
+  "s:wp-health-in-jordan",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-health-in-jordan",
+    "note": "the third paragraph is this project reasoning about what the counts describe"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a referral route into a regional centre"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-amman"
+   },
+   "facets.radius_km": {
+    "tier": "inference"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Amman skyline West Amman.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A capital of some five million people as of 2024, whose private hospitals sit in the modern western half of the city — the economic side, against the historic east — with the King Hussein Cancer Center on Queen Rania…",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "The country this cluster is effectively the whole of.",
+   "rel": "whole"
+  },
+  {
+   "to": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "The hospital the city is named for abroad, on Queen Rania Street.",
+   "rel": "part"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "The kind of work a regional referral centre is built to take.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Among the operations the 2007 and 2008 referral counts were made of.",
+   "rel": "procedure"
+  },
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "Here the companion is part of the arrangement, and often several people rather than one.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "The invitation letter the hospital issues is the step that makes the journey possible.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The accreditor whose mark this city's flagship hospital carries, undated on the page read.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why two-decade-old arrival figures keep getting repeated as current.",
+   "rel": "story"
+  },
+  {
+   "to": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The Gulf destination that grew after this one and competes for the same referrals.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-amman",
+   "kind": "wikipedia",
+   "title": "Amman",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Amman",
+   "accessed": "2026-09-16",
+   "note": "coordinates, population five million as of 2024; West Amman named as the modern economic centre against the historic east"
+  },
+  {
+   "id": "s:wp-khcc",
+   "kind": "wikipedia",
+   "title": "King Hussein Cancer Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/King_Hussein_Cancer_Center",
+   "accessed": "2026-09-16",
+   "note": "Queen Rania Street, Amman; 352 beds; JCI accreditation, College of American Pathologists, ANCC Magnet and AAHRPP, none of them dated on the page; coordinates 32.0045, 35.8750"
+  },
+  {
+   "id": "s:wp-pha-jordan",
+   "kind": "web",
+   "title": "Private Hospitals Association (Jordan)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Private_Hospitals_Association_(Jordan)",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-health-in-jordan",
+   "kind": "wikipedia",
+   "title": "Health in Jordan",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Health_in_Jordan",
+   "accessed": "2026-09-16",
+   "note": "carries the 2007 and 2008 inbound patient counts of roughly 250,000 and the World Bank's regional ranking; the counts are nearly two decades old and their method is not stated on the page"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-health-in-jordan",
+   "note": "the third paragraph is this project reasoning about what the counts describe"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the shape of a referral route into a regional centre"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-amman"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "jordan",
+   "type": "destination",
+   "name": "Jordan",
+   "as": "Where the private hospital ring is, and where nearly all of it happens.",
+   "rel": "part"
+  },
+  {
+   "from": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "The institution the Amman cluster is built around, on Queen Rania Street.",
+   "rel": "place"
+  },
+  {
+   "from": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "Where the regional flow lands, and why it went there rather than to Delhi: the staff and the patient share a language.",
+   "rel": "hub"
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "schema": 1,
+ "id": "mumbai",
+ "type": "hub",
+ "names": {
+  "name": "Mumbai",
+  "aliases": [
+   "मुंबई",
+   "Bombay"
+  ],
+  "said": "Mum-bye. The city's medicine is split by the suburban railway: Parel for cancer, the western suburbs for the private towers, and a patient tells you which line they are on before they tell you which hospital."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "radius_km": 25,
+  "specialty": [
+   "oncology",
+   "bone marrow transplant",
+   "cardiac surgery",
+   "orthopaedics",
+   "fertility",
+   "neurosurgery"
+  ],
+  "draws": [
+   "bone-marrow-transplant",
+   "cabg",
+   "angioplasty-stent",
+   "knee-replacement",
+   "ivf"
+  ],
+  "languages": [
+   "Marathi",
+   "Hindi",
+   "English",
+   "Gujarati"
+  ]
+ },
+ "text": {
+  "what": "Mumbai's medicine runs north to south along the island city. Tata Memorial Hospital stands in Parel, where it has been since 1941, and is the reason people travel to this city at all; Hinduja is at Mahim and Lilavati at Bandra, a few kilometres north on the western line; Kokilaben Dhirubhai Ambani Hospital sits further north again on Jai Prakash Road at Four Bungalows, Versova, in the Andheri West suburbs. The cluster is linear rather than radial, which is what a city built on a peninsula does to its hospitals.",
+  "story": "Tata Memorial was established on 28 February 1941, commissioned by the Sir Dorabji Tata Trust after Dorabji's wife Meherbai died of leukaemia. Its network registers about 120,000 new cancer patients a year, the main centre records over a million patient footfalls and about 60,000 admissions annually, and roughly 60 per cent of patients are treated free or at a heavily subsidised rate. Those are counts of visits and of registrations, not of individual people, and the free-treatment share is the fact that makes the hospital unlike anything else in this directory.\n\nKokilaben opened in 2009 with 750 beds at Four Bungalows. *Inference —* the two institutions are the two halves of the city's answer. A subsidised cancer hospital that takes referrals from the whole of India, and a private tower built for people who will pay, standing eleven kilometres apart and almost never quoted in the same sentence.\n\n*Trade practice —* the cross-border flow into Mumbai is smaller than into Delhi and weighted toward oncology and haematology rather than cardiac surgery, and much of it arrives from the Gulf and East Africa. This project has read no register that confirms the mix, and carries it as the trade's account.",
+  "how": "A private Mumbai hospital quotes an estimate against a room category and a projected stay. Tata Memorial is not a quote at all: it is a registration, a queue and a means test, and a foreign patient enters it as a paying patient on a different tariff from the subsidised one. The distinction is the single most useful thing to know about this city's medicine and the easiest thing to miss on an agent's brochure.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits in the middle of the island city, with a 25-kilometre radius that reaches Colaba to the south and Borivali to the north. No Mumbai price has been read off a page into this directory yet.",
+  "notes": "A description of where the hospitals are and what they charge each other's patients. It is not advice about cancer."
+ },
+ "geo": {
+  "lat": 19.06,
+  "lon": 72.84,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "city": "Mumbai",
+  "area": "Maharashtra",
+  "country": "IN"
+ },
+ "metrics": {
+  "annual_patients": 120000,
+  "note": "Tata Memorial's network registration of new cancer patients in a year, not a count for the city and not a count of foreign patients. The main centre separately reports over a million patient footfalls and about 60,000 admissions annually.",
+  "as_of": "2026-09-16",
+  "source": "s:wp-tata-memorial",
+  "url": "https://en.wikipedia.org/wiki/Tata_Memorial_Hospital"
+ },
+ "kin": [
+  {
+   "to": "kokilaben",
+   "as": "The 750-bed private hospital at Four Bungalows, Versova, opened 2009.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "as": "The country whose oncology referrals converge on this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "as": "The work that brings patients to Parel from outside India.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "as": "Sold in the private towers of the western suburbs on the usual estimate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "A large private fertility trade sits alongside the hospitals here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The entry route foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "delhi-ncr",
+   "as": "The northern cluster, larger and weighted to the heart rather than to cancer.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a million footfalls is not a million patients.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Tata Memorial Centre",
+   "url": "https://tmc.gov.in/"
+  },
+  {
+   "label": "Kokilaben Dhirubhai Ambani Hospital",
+   "url": "https://www.kokilabenhospital.com/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-tata-memorial",
+  "s:wp-kokilaben",
+  "s:wp-medical-tourism-india",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "streets and suburbs read off OpenStreetMap address tags and the hospitals' Wikipedia entries"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-tata-memorial",
+    "note": "the Tata Memorial figures and dates are cited; the inline marks say which stretches are inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "a point in the middle of the island city, chosen to cover the line of hospitals rather than to mark one of them"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Tata Memorial Hospital.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "Mumbai's medicine runs north to south along the island city. Tata Memorial Hospital stands in Parel, where it has been since 1941, and is the reason people travel to this city at all; Hinduja is at Mahim and Lilavati at…",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "kokilaben",
+   "type": "facility",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "as": "The 750-bed private hospital at Four Bungalows, Versova, opened 2009.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The country whose oncology referrals converge on this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "bone-marrow-transplant",
+   "type": "procedure",
+   "name": "Bone marrow transplant",
+   "as": "The work that brings patients to Parel from outside India.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "Sold in the private towers of the western suburbs on the usual estimate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "A large private fertility trade sits alongside the hospitals here.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The entry route foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The northern cluster, larger and weighted to the heart rather than to cancer.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why a million footfalls is not a million patients.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 25 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-tata-memorial",
+   "kind": "wikipedia",
+   "title": "Tata Memorial Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tata_Memorial_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-kokilaben",
+   "kind": "wikipedia",
+   "title": "Kokilaben Dhirubhai Ambani Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kokilaben_Dhirubhai_Ambani_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-medical-tourism-india",
+   "kind": "wikipedia",
+   "title": "Medical tourism in India",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_India",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16",
+   "note": "carries city-share and market-size figures sourced to newspapers and market-research summaries; this project reads it for the claims and their attributions, not as a count."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:osm-nominatim",
+   "note": "streets and suburbs read off OpenStreetMap address tags and the hospitals' Wikipedia entries"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-tata-memorial",
+   "note": "the Tata Memorial figures and dates are cited; the inline marks say which stretches are inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:osm-nominatim",
+   "note": "a point in the middle of the island city, chosen to cover the line of hospitals rather than to mark one of them"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The financial capital's hospital cluster, and the one closest to the listed-company money.",
+   "rel": "part"
+  },
+  {
+   "from": "kokilaben",
+   "type": "facility",
+   "name": "Kokilaben Dhirubhai Ambani Hospital",
+   "as": "The hospital the Andheri end of the Mumbai cluster is named for.",
+   "rel": "place"
+  }
+ ]
+}

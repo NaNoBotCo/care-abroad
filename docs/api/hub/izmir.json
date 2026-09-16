@@ -1,0 +1,280 @@
+{
+ "schema": 1,
+ "id": "izmir",
+ "type": "hub",
+ "names": {
+  "name": "İzmir",
+  "aliases": [
+   "Izmir",
+   "Smyrna"
+  ],
+  "said": "Turkey's third city, and the third name on a Turkish clinic group's site after Istanbul and Antalya."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "iso2": "TR",
+  "radius_km": 20,
+  "specialty": [
+   "dentistry",
+   "hair restoration",
+   "fertility",
+   "ophthalmology",
+   "thermal and spa"
+  ],
+  "draws": [
+   "dental-implant",
+   "hair-transplant-fue",
+   "ivf",
+   "lasik"
+  ],
+  "languages": [
+   "Turkish",
+   "English",
+   "German"
+  ]
+ },
+ "text": {
+  "what": "An Aegean city of 2,938,292 people, whose clinics cluster in the old centre at Konak and in Bornova, where Ege University sits, with a thermal strand 8 km west at Balçova. The sulphurous hot springs there were known in antiquity as the Baths of Agamemnon and now run through a hotel; their waters are held good for rheumatism, sciatica, gallstones and eczema. İzmir sells the same procedures as the larger Turkish clusters — dentistry, hair restoration, IVF, laser eye work — to a smaller and more regional traffic.",
+  "story": "The thermal claim here is old enough to have a myth attached. An epigram in the Greek Anthology praises the baths, and the tradition holds that Agamemnon's soldiers bathed in them after a battle and recovered so completely that they no longer needed the physician Podalirius; Aelius Aristides reported that Asclepius first prophesied there.\n\n*Tradition holds —* this is a claim about water that predates every method for testing one. This directory records that the claim is made, and by whom, and for how long. It does not carry the indications as findings.\n\nThe modern trade runs on the same licence as the rest of the country. Since 13 July 2017 a facility treating foreign patients has needed a Ministry of Health authorisation certificate, and so has the agency that sent them.\n\n*Inference —* İzmir's position in the trade is the position of a third city everywhere: it competes on price against its own capital, not against another country, and the procedures that travel to it are the standardised ones a patient would not cross a continent for.",
+  "how": "*Trade practice —* the İzmir offer is the Turkish offer at a lower density: fewer clinics, fewer languages on the desk, shorter waits for a date. A dental course is booked across two visits or one long stay; the thermal establishments sell weeks rather than nights and count congress traffic alongside patients.",
+  "today": "As of 16 September 2026 the 2017 authorisation regime applies here as everywhere in Türkiye. Balçova had 80,721 residents in 2022 and is fully urbanised; its economy runs on three shopping centres and the baths.",
+  "notes": "A 20 km query from the city point covers Konak, Bornova, Karşıyaka, Balçova and Narlıdere."
+ },
+ "geo": {
+  "lat": 38.4244,
+  "lon": 27.1322,
+  "precision": "city",
+  "source": "s:wp-izmir"
+ },
+ "address": {
+  "city": "İzmir",
+  "country": "TR"
+ },
+ "kin": [
+  {
+   "to": "turkiye",
+   "as": "The country whose authorisation regime this cluster trades under.",
+   "rel": "whole"
+  },
+  {
+   "to": "istanbul",
+   "as": "The cluster that takes the traffic this one competes for on price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "antalya",
+   "as": "The other Turkish coast, selling the same procedures with the hotel written in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The certificate a facility here needs before it may treat a foreign patient.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The commonest reason somebody flies to this city rather than the capital.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "as": "Sold here by clinics that also serve the domestic Aegean market.",
+   "rel": "procedure"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The Balçova springs belong to this older category, and the state counts them in the same programme.",
+   "rel": "term"
+  },
+  {
+   "to": "stem-cell-unproven",
+   "as": "The same evidentiary problem as the thermal indications: a therapeutic claim older or louder than its testing.",
+   "rel": "contrast"
+  }
+ ],
+ "links": [
+  {
+   "label": "Balçova and the Agamemnon Baths",
+   "url": "https://en.wikipedia.org/wiki/Bal%C3%A7ova"
+  }
+ ],
+ "sources": [
+  "s:wp-izmir",
+  "s:wp-balcova",
+  "s:rg-saglik-turizmi-2017",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-balcova",
+    "note": "the antique claims are cited to the classical references Wikipedia names; the last paragraph is this project reasoning"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:wp-izmir"
+   },
+   "facets.radius_km": {
+    "tier": "inference",
+    "note": "20 km covers Konak, Bornova, Karşıyaka, Balçova and Narlıdere"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Termal Hotel Agamemnon Baths Entry Balcova Izmir.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "An Aegean city of 2,938,292 people, whose clinics cluster in the old centre at Konak and in Bornova, where Ege University sits, with a thermal strand 8 km west at Balçova.",
+ "region_terms": [
+  {
+   "key": "west-asia",
+   "name": "West Asia",
+   "note": "Türkiye, Jordan, Israel, Lebanon, Iran, the Gulf"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "The country whose authorisation regime this cluster trades under.",
+   "rel": "whole"
+  },
+  {
+   "to": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The cluster that takes the traffic this one competes for on price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "The other Turkish coast, selling the same procedures with the hotel written in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "type": "rule",
+   "name": "Türkiye's international health tourism authorisation certificate",
+   "as": "The certificate a facility here needs before it may treat a foreign patient.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The commonest reason somebody flies to this city rather than the capital.",
+   "rel": "procedure"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "Sold here by clinics that also serve the domestic Aegean market.",
+   "rel": "procedure"
+  },
+  {
+   "to": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The Balçova springs belong to this older category, and the state counts them in the same programme.",
+   "rel": "term"
+  },
+  {
+   "to": "stem-cell-unproven",
+   "type": "procedure",
+   "name": "Unapproved stem cell treatment",
+   "as": "The same evidentiary problem as the thermal indications: a therapeutic claim older or louder than its testing.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-izmir",
+   "kind": "wikipedia",
+   "title": "İzmir",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0zmir",
+   "accessed": "2026-09-16",
+   "note": "coordinates, city population 2,938,292 (2024), the urban districts including Konak, Bornova, Balçova, Karşıyaka and Narlıdere"
+  },
+  {
+   "id": "s:wp-balcova",
+   "kind": "wikipedia",
+   "title": "Balçova",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bal%C3%A7ova",
+   "accessed": "2026-09-16",
+   "note": "district 8 km west of Konak, population 80,721 (2022); the sulphurous hot springs known in antiquity as the Baths of Agamemnon, now built around a hotel, the waters held good for rheumatism, sciatica, gallstones and eczema"
+  },
+  {
+   "id": "s:rg-saglik-turizmi-2017",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm",
+   "accessed": "2026-09-16",
+   "note": "Resmî Gazete 13 July 2017, No. 30123. Read in Turkish off the Resmî Gazete page. Article 5(1) makes an international health tourism authorisation certificate (yetki belgesi) compulsory for both the health facility and the intermediary; the Ministry halts the activity of anyone without one. Transitional Article 1 gave those already trading one year to comply. Article 16: in force on publication. REPEALED: MADDE 17 of the regulation of 26 April 2025 (Resmî Gazete 32882) revokes this one. Cite it for what the regime was, not for what it is."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-balcova",
+   "note": "the antique claims are cited to the classical references Wikipedia names; the last paragraph is this project reasoning"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:wp-izmir"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "A third cluster, smaller and cheaper on the same price tables.",
+   "rel": "part"
+  }
+ ]
+}

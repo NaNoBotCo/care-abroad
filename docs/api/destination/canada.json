@@ -1,0 +1,306 @@
+{
+ "schema": 1,
+ "id": "canada",
+ "type": "destination",
+ "names": {
+  "name": "Canada",
+  "aliases": [
+   "Dominion of Canada"
+  ],
+  "said": "The queue is the story. A Canadian who leaves is not escaping a bill; the operation at home is free and the date is not."
+ },
+ "region": [
+  "north-america"
+ ],
+ "facets": {
+  "iso2": "CA",
+  "direction": "outbound",
+  "currency": "CAD",
+  "languages": [
+   "English",
+   "French"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement",
+   "cataract-surgery",
+   "dental-implant"
+  ]
+ },
+ "text": {
+  "what": "One of the two largest source markets in the world, and the one whose patients leave for a date rather than a discount. Provincial insurance covers medically necessary hospital and physician care at home; it does not cover the wait, and it barely follows a patient across the border. Canadians appear as inbound patients in Mexico, Costa Rica, the Caribbean and the United States, and Canadian surgeons appear in this site's data mostly as the comparison.",
+  "story": "The wait has a published measure. The Canadian Institute for Health Information reports the share of patients treated inside a national benchmark of 182 days — 26 weeks from the date a patient was ready to be treated — and for 2024 it recorded 68% of hip replacements and 61% of knee replacements done inside it, alongside 69% of cataract surgeries within their 112-day benchmark, 94% of radiation therapy within 28 days and 83% of hip fracture repairs within 48 hours. That report was published on 12 June 2025. CIHI's joint replacement indicator, updated in June 2026 on the April-to-September window, put hip and knee replacements combined at 65% inside the six-month target.\n\nRead the complement instead and the market appears: in 2024 close to four knee patients in ten were still waiting more than six months after being ready for surgery, in a country where the surgery itself carries no bill.\n\nWhat the state pays when they go is set by statute. The Canada Health Act, R.S.C. 1985, c. C-6, makes portability a criterion of a provincial plan: for insured services provided outside Canada, section 11(1)(b) requires payment \"on the basis of the amount that would have been paid by the province for similar services rendered in the province\". *Inference —* that clause is the whole economics of leaving. A province reimburses at its own domestic rate, which for an operation bought privately in Florida or Tijuana is a fraction of the invoice, and the patient carries the difference. Portability pays for an emergency abroad; it does not fund an elective trip.\n\n*Trade practice —* Canadian outflow also runs inside the country's own borders in a way this site cannot chart: to private surgical clinics in provinces that permit them, and to Quebec's parallel arrangements. The traffic that leaves the country is the visible end of a larger domestic argument about who may sell an operation to a Canadian.",
+  "how": "A Canadian patient referred for an elective joint replacement enters a provincial queue measured from the decision to treat. Where the wait is long, the routes out are three: pay privately in the United States, usually in cash and usually within a day's drive; buy a package abroad, most often in Mexico, Costa Rica or the Caribbean; or wait. None of the three is reimbursed as a matter of course, and prior authorisation for out-of-country care is a provincial process with its own criteria. Dentistry sits outside the public plans altogether, which is why Canadians are one of the three origins Mexican surgeons name most often.",
+  "today": "As of the June 2026 CIHI update, 65% of hip and knee replacements in the April-to-September window were done inside the 182-day target. This record carries no count of Canadians treated abroad: the estimates in circulation come from think-tank surveys of physicians rather than from a register, and they are left to their own publishers rather than repeated here."
+ },
+ "geo": {
+  "lat": 45.4215,
+  "lon": -75.6972,
+  "precision": "country",
+  "source": "s:natural-earth"
+ },
+ "metrics": {
+  "note": "Hip replacements 68% and knee replacements 61% within the 182-day benchmark in 2024, published 12 June 2025; hip and knee combined 65% within the target on the April-to-September window, data updated June 2026. These are shares of patients treated inside a benchmark, not waiting times: a person still waiting is not in the denominator of the operation they have not had.",
+  "as_of": "2024",
+  "source": "s:cihi-wait-times-2025",
+  "url": "https://www.cihi.ca/en/wait-times-for-priority-procedures-in-canada-2025"
+ },
+ "kin": [
+  {
+   "to": "united-states",
+   "as": "The other big source market, and the first place a Canadian in a hurry pays cash.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mexico",
+   "as": "Where Canadians are one of the three origins surgeons name, and where the dentistry is.",
+   "rel": "destination"
+  },
+  {
+   "to": "costa-rica",
+   "as": "The winter destination that sells dentistry and surgery to the same travellers.",
+   "rel": "destination"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "61% of them done inside six months in 2024 — the operation that defines this market.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "68% inside six months in 2024, and the better half of the same queue.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "69% inside 112 days in 2024, on its own shorter benchmark.",
+   "rel": "procedure"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "The series that puts this country's queue beside everyone else's.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who sees the wound at six weeks when the operation happened in another country.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "What a provincial plan will not pay for, which is most of an elective trip.",
+   "rel": "governed-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "CIHI — wait times for priority procedures in Canada, 2025",
+   "url": "https://www.cihi.ca/en/wait-times-for-priority-procedures-in-canada-2025"
+  },
+  {
+   "label": "Canada Health Act, section 11",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/C-6/page-1.html"
+  }
+ ],
+ "sources": [
+  "s:cihi-wait-times-2025",
+  "s:cihi-joint-replacement-waits",
+  "s:canada-health-act",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:natural-earth"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:cihi-wait-times-2025",
+    "note": "CIHI for the benchmark shares, the Canada Health Act for portability; the reading of the clause is marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the three routes out, hedged; the benchmark figures are cited"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:natural-earth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Parliament Hill Ottawa.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "One of the two largest source markets in the world, and the one whose patients leave for a date rather than a discount.",
+ "region_terms": [
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The other big source market, and the first place a Canadian in a hurry pays cash.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mexico",
+   "type": "destination",
+   "name": "Mexico",
+   "as": "Where Canadians are one of the three origins surgeons name, and where the dentistry is.",
+   "rel": "destination"
+  },
+  {
+   "to": "costa-rica",
+   "type": "destination",
+   "name": "Costa Rica",
+   "as": "The winter destination that sells dentistry and surgery to the same travellers.",
+   "rel": "destination"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "61% of them done inside six months in 2024 — the operation that defines this market.",
+   "rel": "procedure"
+  },
+  {
+   "to": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "68% inside six months in 2024, and the better half of the same queue.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "69% inside 112 days in 2024, on its own shorter benchmark.",
+   "rel": "procedure"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "The series that puts this country's queue beside everyone else's.",
+   "rel": "measured-by"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who sees the wound at six weeks when the operation happened in another country.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "What a provincial plan will not pay for, which is most of an elective trip.",
+   "rel": "governed-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:cihi-wait-times-2025",
+   "kind": "report",
+   "title": "Wait times for priority procedures in Canada, 2025",
+   "publisher": "Canadian Institute for Health Information, published 12 June 2025",
+   "url": "https://www.cihi.ca/en/wait-times-for-priority-procedures-in-canada-2025",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cihi-joint-replacement-waits",
+   "kind": "web",
+   "title": "Joint Replacement Wait Times",
+   "publisher": "Canadian Institute for Health Information, data updated June 2026",
+   "url": "https://www.cihi.ca/en/indicators/joint-replacement-wait-times",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:canada-health-act",
+   "kind": "statute",
+   "title": "Canada Health Act, R.S.C. 1985, c. C-6, section 11 (portability)",
+   "publisher": "Justice Laws Website, Government of Canada, consolidation current to 21 July 2026",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/C-6/page-1.html",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:natural-earth",
+   "kind": "dataset",
+   "title": "Natural Earth — Admin 0 Countries, 1:110m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "Public domain",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:cihi-wait-times-2025",
+   "note": "CIHI for the benchmark shares, the Canada Health Act for portability; the reading of the clause is marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the three routes out, hedged; the benchmark figures are cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:natural-earth"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cuba",
+   "type": "destination",
+   "name": "Cuba",
+   "as": "The source market that reaches Cuba without a licensing question.",
+   "rel": "contrast"
+  },
+  {
+   "from": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The other big source market, and a neighbour whose patients arrive here paying cash.",
+   "rel": "contrast"
+  },
+  {
+   "from": "waiting-lists",
+   "type": "story",
+   "name": "The queue is the product",
+   "as": "Measures the same thing as a share inside a benchmark, which reads better until you take the complement.",
+   "rel": "destination"
+  }
+ ]
+}

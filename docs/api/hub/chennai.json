@@ -1,0 +1,371 @@
+{
+ "schema": 1,
+ "id": "chennai",
+ "type": "hub",
+ "names": {
+  "name": "Chennai",
+  "aliases": [
+   "சென்னை",
+   "Madras"
+  ],
+  "said": "Chen-nei. The address that means the trade is Greams Road — properly Greams Lane, off Greams Road, in Thousand Lights — and a Chennai auto driver takes Apollo as the destination rather than the street."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "IN",
+  "radius_km": 20,
+  "specialty": [
+   "cardiac surgery",
+   "oncology",
+   "transplant",
+   "orthopaedics",
+   "neurosurgery"
+  ],
+  "draws": [
+   "cabg",
+   "angioplasty-stent",
+   "liver-transplant",
+   "kidney-transplant",
+   "bone-marrow-transplant",
+   "knee-replacement"
+  ],
+  "languages": [
+   "Tamil",
+   "English",
+   "Hindi"
+  ]
+ },
+ "text": {
+  "what": "The Chennai cluster runs west from Greams Road in Thousand Lights, where Apollo's first hospital opened in 1983, out along Anna Salai and then to the hospitals on the city's western edge — Sri Ramachandra at Porur, MIOT at Manapakkam — with Apollo's own specialty blocks on Anna Salai and Cenotaph Road in between. The core is walkable: Apollo's main complex, its specialty blocks and the diagnostic laboratories and private nursing homes that grew up around them sit inside a couple of square kilometres of Teynampet.",
+  "story": "Prathap C. Reddy opened Apollo Hospitals in Chennai on 18 September 1983, and the group now runs a network of 71 owned and managed hospitals; several of them were among the first in India to take international healthcare accreditation. *Inference —* the founding matters here for a reason beyond scale. Apollo was built as a private corporate hospital in a country whose medicine was overwhelmingly public or charitable, and the format it proved — a paid tertiary hospital selling cardiac surgery at a fraction of an American bill — is the format every Indian hub in this directory now runs on.\n\nChennai is called \"the healthcare capital of India\" in the press, and figures circulate for its share of foreign patient arrivals: about 150 a day, about 15 per cent of India's arrivals in one 2019 newspaper estimate, 45 per cent in another. *Inference —* those two disagree by a factor of three, both trace to newspapers rather than to a register, and this project carries the claim with its attribution instead of the number.\n\n*Trade practice —* what concentrates here is the heart and the transplant. Chennai's cardiac surgeons trained a generation of Indian cardiac programmes, and the cross-border flow into the city is dominated by patients arriving for an operation their own system cannot schedule or cannot do.",
+  "how": "An Indian tertiary hospital quotes an estimate rather than a package: a room category, a surgeon's fee, a theatre charge and a projected length of stay, with the understanding that the bill moves if the stay does. Foreign patients arrive on an e-medical visa, though since 30 August 2019 foreigners may receive treatment in India other than an organ transplant without one. Transplant is the exception everywhere in this city, and it carries a documentary regime of its own.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits on Greams Road, with a 20-kilometre radius that reaches Porur and Manapakkam to the west and Taramani to the south. No Chennai price has been read off a page into this directory yet.",
+  "notes": "Nothing here says what a reader should do about a transplant, a heart or a visa."
+ },
+ "geo": {
+  "lat": 13.0595,
+  "lon": 80.2543,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Greams Road, Thousand Lights",
+  "city": "Chennai",
+  "area": "Tamil Nadu",
+  "country": "IN",
+  "postcode": "600006"
+ },
+ "kin": [
+  {
+   "to": "apollo-chennai",
+   "as": "The Greams Lane hospital the cluster grew out of, opened 1983.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "as": "The country whose private tertiary format was proved in this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "prathap-reddy",
+   "as": "The cardiologist who opened the first hospital here and set the pattern.",
+   "rel": "person"
+  },
+  {
+   "to": "cabg",
+   "as": "The operation the cluster is built around, and the one its surgeons taught to the rest of India.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "Chennai programmes take referrals for this from across South Asia and the Gulf, by the trade's account.",
+   "rel": "procedure"
+  },
+  {
+   "to": "proton-therapy",
+   "as": "Apollo runs a proton centre in this city; this directory has not yet read its page for the claim.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The entry route most of this cluster's foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "delhi-ncr",
+   "as": "The northern cluster Chennai competes with for the same cardiac and transplant referrals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why the daily arrival figures quoted for this city disagree with each other.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Apollo Hospitals",
+   "url": "https://www.apollohospitals.com/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-apollo-hospitals",
+  "s:wp-medical-tourism-india",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition",
+    "note": "the geography of the cluster; Greams Road itself is located from OpenStreetMap"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-apollo-hospitals",
+    "note": "the founding is cited; the inline marks say which stretches are inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the 2019 visa rule is cited to the Medical tourism in India article"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Apollo Hospitals Chennai.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "The Chennai cluster runs west from Greams Road in Thousand Lights, where Apollo's first hospital opened in 1983, out along Anna Salai and then to the hospitals on the city's western edge — Sri Ramachandra at Porur, MIOT…",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The Greams Lane hospital the cluster grew out of, opened 1983.",
+   "rel": "part"
+  },
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The country whose private tertiary format was proved in this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "prathap-reddy",
+   "type": "person",
+   "name": "Prathap C. Reddy",
+   "as": "The cardiologist who opened the first hospital here and set the pattern.",
+   "rel": "person"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The operation the cluster is built around, and the one its surgeons taught to the rest of India.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Chennai programmes take referrals for this from across South Asia and the Gulf, by the trade's account.",
+   "rel": "procedure"
+  },
+  {
+   "to": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "Apollo runs a proton centre in this city; this directory has not yet read its page for the claim.",
+   "rel": "procedure"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The entry route most of this cluster's foreign patients arrive on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The northern cluster Chennai competes with for the same cardiac and transplant referrals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "Why the daily arrival figures quoted for this city disagree with each other.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-apollo-hospitals",
+   "kind": "wikipedia",
+   "title": "Apollo Hospitals",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Apollo_Hospitals",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-medical-tourism-india",
+   "kind": "wikipedia",
+   "title": "Medical tourism in India",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_India",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16",
+   "note": "carries city-share and market-size figures sourced to newspapers and market-research summaries; this project reads it for the claims and their attributions, not as a count."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition",
+   "note": "the geography of the cluster; Greams Road itself is located from OpenStreetMap"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-apollo-hospitals",
+   "note": "the founding is cited; the inline marks say which stretches are inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the 2019 visa rule is cited to the Medical tourism in India article"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The cluster this country is most often named for, and where its oldest corporate hospital chain started.",
+   "rel": "part"
+  },
+  {
+   "from": "nepal",
+   "type": "destination",
+   "name": "Nepal",
+   "as": "The southern destination for transplant and cancer work.",
+   "rel": "destination"
+  },
+  {
+   "from": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "The nearest cluster, and the usual destination of a Colombo referral.",
+   "rel": "destination"
+  },
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "The neighbouring cardiac cluster, older and closer to its airport.",
+   "rel": "contrast"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "The Indian cluster across the strait that takes the complex referrals Colombo does not.",
+   "rel": "contrast"
+  },
+  {
+   "from": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The southern cluster competing for the same cardiac and transplant referrals.",
+   "rel": "contrast"
+  },
+  {
+   "from": "apollo-chennai",
+   "type": "facility",
+   "name": "Apollo Hospitals, Greams Road, Chennai",
+   "as": "The hospital the Chennai cluster grew around, and the reason the cluster is on Greams Road.",
+   "rel": "place"
+  },
+  {
+   "from": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "One of the clusters its holders arrive in.",
+   "rel": "hub"
+  },
+  {
+   "from": "prathap-reddy",
+   "type": "person",
+   "name": "Prathap C. Reddy",
+   "as": "Where it started, and still a hub in this directory.",
+   "rel": "hub"
+  }
+ ]
+}

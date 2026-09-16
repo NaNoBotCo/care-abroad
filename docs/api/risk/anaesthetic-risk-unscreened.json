@@ -1,0 +1,293 @@
+{
+ "id": "anaesthetic-risk-unscreened",
+ "names": {
+  "name": "Fitness for anaesthesia, assessed on arrival",
+  "aliases": [
+   "unscreened for anaesthesia",
+   "pre-operative assessment on arrival",
+   "ASA grading at the far end of a flight"
+  ],
+  "said": "The grade is assigned by an anaesthetist who met the patient this week, from a history given in a second language."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "clinical"
+ },
+ "text": {
+  "what": "Pre-operative assessment compressed into the days between landing and the operation, carried out by a team holding whatever records the patient brought. The standard grading is the American Society of Anesthesiologists physical status classification - the ASA grade - a single ordinal score for how much systemic disease a patient carries, assigned before an anaesthetic and recorded on the chart.",
+  "story": "The ASA classification was introduced in 1941 and runs from ASA I, a healthy patient, to ASA VI, a declared brain-dead patient whose organs are being procured, with the letter E appended for an emergency. The current definitions were approved by the ASA House of Delegates on 15 October 2014 and last amended on 13 December 2020. ASA II is mild systemic disease and ASA III is severe systemic disease; there is no class for moderate, which is one reason two anaesthetists grade the same patient differently. Meta-analyses put its sensitivity for predicting postoperative mortality at about 0.74 (95% CI 0.73 to 0.74) and its specificity at about 0.67, with an area under the curve around 0.736 (95% CI 0.725 to 0.747). The classification \"cannot be used alone to determine anesthesia or surgical risks because other factors (such as procedure invasiveness and patient frailty) also contribute to perioperative risk for poor outcomes\", and age does not appear in it at all.\n\nThe grade is also a commercial boundary, and this site has one worked case of it. Bumrungrad International Hospital's knee package JOINT04, read on 17 September 2026, states that \"The eligible patient who can apply this package is patient without complication and attending physician considered appropriate to this package\", and lists five conditions under which a patient \"will be considered as 'high risk' and will not qualify for the package\": organ failure; \"A patient with severe systemic disease. Examples include (but not limited to) poorly controlled DM or HTN or COPD, implanted pacemaker etc. (ASA classification III and above)\"; an acute myocardial infarction within four weeks; HIV infection; and previous knee surgery unless the attending physician decides otherwise.\n\nThat list is the package model's own statement of what it prices. A fixed price holds because the case is predictable, and the hospital has said in its own words which patients it does not treat as predictable. *Inference -* the eligibility bar and the exclusion list do the same work from opposite ends: one removes the patient from the price, the other removes items from it.\n\nWhere the bar bites is on arrival. The Royal College of Anaesthetists asks that \"Effective preoperative assessment and patient preparation, performed as early as possible in the planned patient pathway, is essential to the safety and success of day surgery\" - as early as possible, because a problem found early is a problem that can be optimised or the list rearranged around. A patient graded for the first time three days before an operation they have flown to and paid a deposit on is being assessed at the latest possible point, by a team that has not seen a decade of home records, from a history taken through an interpreter.\n\nNobody has measured the consequence. No hospital, ministry, accreditor or research group publishes how many arriving patients are regraded on assessment, how many packages are repriced or refused at that point, or what happens to the deposit when they are.",
+  "how": "The sequence on arrival is consultation, blood tests and imaging, an anaesthetic review and a revised price. The ASA grade is assigned at the anaesthetic review by a clinician meeting the patient for the first time, from a history the patient recounts rather than a record a system holds. Medication lists, previous anaesthetic charts, echocardiograms and the reason a drug was stopped are the things that change a grade, and they are exactly what tends not to travel.\n\nA grade above the package's bar has three commercial outcomes rather than one: the operation proceeds off-package at itemised rates, the operation proceeds after optimisation on a later date with the extra nights billed, or the hospital declines. Which of the three applies, and what happens to money already paid, is set by the contract rather than by the grade.\n\n*Trade practice -* remote pre-screening by questionnaire and uploaded reports is common before a treatment trip. It is not the same act as a pre-operative assessment clinic, it does not include an examination, and the hospital's own page reserves the decision to the attending physician on the day.",
+  "notes": "The Bumrungrad knee package's own eligibility bar — ASA III and above does not qualify — is carried on that package's price row, on the knee replacement record, rather than duplicated here."
+ },
+ "metrics": {
+  "note": "The published numbers here describe the grading instrument, not the travelling patient. Meta-analyses of the ASA physical status classification give a sensitivity of about 0.74 (95% CI 0.73 to 0.74), a specificity of about 0.67 (95% CI 0.67 to 0.67) and an area under the summary receiver operating curve of about 0.736 (95% CI 0.725 to 0.747) for predicting postoperative mortality - measured across surgical populations at home, in systems where the assessing team holds the patient's record. Nobody publishes how many patients assessed on arrival abroad are graded ASA III or above, how many are refused a package at that point, or how the grade assigned on arrival compares with one assigned at home.",
+  "as_of": "2025",
+  "source": "s:statpearls-asa-physical-status",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/"
+ },
+ "kin": [
+  {
+   "to": "asa-grade",
+   "as": "The word for the score this whole exposure turns on.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation whose package bar this record was read off.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the eligibility list that names ASA III and above.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "arrival-and-consent",
+   "as": "The step the anaesthetic review sits in, on the same day as the signature.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The step that decides what the assessing team has to grade from.",
+   "rel": "step"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The eligibility bar is on the same page as the exclusion list, and is read the same way.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The other half of what a fixed price leaves out: one removes items, this removes patients.",
+   "rel": "kin"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form that needs a predictable case, and says so in its eligibility list.",
+   "rel": "term"
+  },
+  {
+   "to": "the-deposit",
+   "as": "Paid before the grading, and the thing at stake when the grade comes back high.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package JOINT04 - eligibility and exclusions",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  },
+  {
+   "label": "ASA physical status classification - StatPearls",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/"
+  }
+ ],
+ "sources": [
+  "s:statpearls-asa-physical-status",
+  "s:bumrungrad-joint04",
+  "s:rcoa-gpas-day-surgery-2021"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:statpearls-asa-physical-status"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:bumrungrad-joint04",
+    "note": "the eligibility list is quoted from the hospital's own package page, read in a browser on 17 September 2026; the ASA history and figures are from the StatPearls chapter, used because the ASA's own statement page redirects to a host that refuses automated access. The stretch marked *Inference -* is this project's reading"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the arrival sequence and the three commercial outcomes are the general shape of the trade; this project holds no hospital's protocol and no patient's contract"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:statpearls-asa-physical-status"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "risk",
+ "updated": "2026-09-17",
+ "blurb": "Pre-operative assessment compressed into the days between landing and the operation, carried out by a team holding whatever records the patient brought.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "asa-grade",
+   "type": "term",
+   "name": "ASA grade",
+   "as": "The word for the score this whole exposure turns on.",
+   "rel": "term"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The operation whose package bar this record was read off.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the eligibility list that names ASA III and above.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The step the anaesthetic review sits in, on the same day as the signature.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The step that decides what the assessing team has to grade from.",
+   "rel": "step"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The eligibility bar is on the same page as the exclusion list, and is read the same way.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The other half of what a fixed price leaves out: one removes items, this removes patients.",
+   "rel": "kin"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "The pricing form that needs a predictable case, and says so in its eligibility list.",
+   "rel": "term"
+  },
+  {
+   "to": "the-deposit",
+   "type": "pathway",
+   "name": "The deposit",
+   "as": "Paid before the grading, and the thing at stake when the grade comes back high.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:statpearls-asa-physical-status",
+   "kind": "reference",
+   "title": "American Society of Anesthesiologists Physical Status Classification System — StatPearls, last updated 11 February 2025",
+   "publisher": "Hendrix JM, Garmon EH. StatPearls Publishing, NCBI Bookshelf NBK441940",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/",
+   "accessed": "2026-09-17",
+   "note": "used because the ASA's own statement page now redirects to a journal host that refuses automated access. Carries the 1941 introduction, the House of Delegates approval of 15 October 2014 and the amendment of 13 December 2020, the six ordinal classes plus the E designation, and the meta-analytic sensitivity, specificity and area under the curve for predicting postoperative mortality"
+  },
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  },
+  {
+   "id": "s:rcoa-gpas-day-surgery-2021",
+   "kind": "org",
+   "title": "Chapter 6: Guidelines for the Provision of Anaesthesia Services for Day Surgery 2021, published 31 March 2021",
+   "publisher": "The Royal College of Anaesthetists (United Kingdom)",
+   "url": "https://rcoa.ac.uk/gpas/chapter-6",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page is refused to a plain fetch. Recommendation 5.25 (grade C, strong) on a responsible adult escorting the patient home and supporting them for 24 hours; 5.26 on private car or taxi; 5.24 on a 24-hour telephone number that is not an answerphone; 5.7 on preoperative assessment as early as possible in the pathway; 5.29 on the patient's copy of the discharge summary"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:statpearls-asa-physical-status"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04",
+   "note": "the eligibility list is quoted from the hospital's own package page, read in a browser on 17 September 2026; the ASA history and figures are from the StatPearls chapter, used because the ASA's own statement page redirects to a host that refuses automated access. The stretch marked *Inference -* is this project's reading"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the arrival sequence and the three commercial outcomes are the general shape of the trade; this project holds no hospital's protocol and no patient's contract"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:statpearls-asa-physical-status"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "Large-volume aspiration is an anaesthetic problem as much as a surgical one.",
+   "rel": "risk"
+  },
+  {
+   "from": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The assessment this compressed day is supposed to contain.",
+   "rel": "risk"
+  },
+  {
+   "from": "bbl-mortality",
+   "type": "risk",
+   "name": "Death from gluteal fat grafting",
+   "as": "A long operation under general anaesthesia on a patient assessed the same morning.",
+   "rel": "kin"
+  },
+  {
+   "from": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The preoperative test on the day of admission is the commonest reason a booked operation is called off on arrival.",
+   "rel": "kin"
+  },
+  {
+   "from": "fungal-meningitis",
+   "type": "risk",
+   "name": "Fungal meningitis after epidural anaesthesia",
+   "as": "The anaesthetic, not the operation, was the route of infection here.",
+   "rel": "kin"
+  },
+  {
+   "from": "mexico-fungal-meningitis-2023",
+   "type": "event",
+   "name": "The Matamoros fungal meningitis outbreak, 2023",
+   "as": "The exposure here was the anaesthesia, not the operation.",
+   "rel": "risk"
+  },
+  {
+   "from": "asa-grade",
+   "type": "term",
+   "name": "ASA grade",
+   "as": "The risk this scale exists to measure, and what happens when nobody applies it before the flight.",
+   "rel": "risk"
+  }
+ ]
+}

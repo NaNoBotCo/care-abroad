@@ -1,0 +1,392 @@
+{
+ "schema": 1,
+ "id": "panchakarma",
+ "type": "procedure",
+ "names": {
+  "name": "Panchakarma",
+  "aliases": [
+   "pancakarma",
+   "Ayurvedic purification therapy",
+   "body purification programme",
+   "Ayurveda cure"
+  ],
+  "said": "Kerala resorts sell it inside a named package - rejuvenation, body purification, slimming - and price it per night with the room. German clinics sell a Kur and price the treatments separately from the room."
+ },
+ "etymology": {
+  "root": "panchakarma: Sanskrit panca, five, plus karman, action - the five actions. The classical five are vamana (therapeutic emesis), virecana (purgation), basti (medicated enema), nasya (nasal administration) and raktamoksa (bloodletting); most of what is sold to visitors under the name is the oil work and steam that classically precede them.",
+  "tier": "tradition",
+  "note": "snehana is oleation, the oiling that precedes purification; svedana is sudation, the sweating; shirodhara is the pouring of warm oil on the forehead; pizhichil is the oil bath. These words appear on the tariff rather than in translation, and they name the treatments a day is built from."
+ },
+ "region": [
+  "south-asia",
+  "europe-west"
+ ],
+ "facets": {
+  "family": "rehabilitation",
+  "setting": "outpatient-course",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "A residential course of Ayurvedic treatment, prescribed by a physician after consultation and run daily for two to four weeks: oil applications and massage, herbal steam, forehead oil pouring, medicated enemas and internal preparations, with a prescribed vegetarian diet, yoga and rest. It is bought by the night or by the package, and the treatment plan is set by the resident doctor rather than by the price paid.",
+  "story": "Panchakarma is the oldest long-stay product in this trade and the one that sits most awkwardly inside it: a therapeutic system with its own diagnostics, its own state regulation in India, and a resort economy built on top of it.\n\nThe tariffs show the structure. Somatheeram in Kerala prices a fourteen-night Body Purification Package per person by room category and by season: from 2,422 euro single in a standard cottage in June to September, to 3,668 euro for the same room in the December to March peak, with the top suite at 8,736. The booklet states its validity as 1 October 2025 to 30 September 2026, that all applicable taxes are included, that the package covers doctor's consultations, treatments, medication, Ayurvedic full board, yoga, meditation and accommodation, with airport transfers for stays of seven days or more, and that the package includes treatments to the value of 140 euro a day per person. It also states that the resort is a healing retreat serving only treatment patients: a room-only booking is confirmed with a package or not at all.\n\nBarberyn in Sri Lanka splits the same product in two. Rooms run 200 to 450 euro a night single for the season dated 15 April to 30 November 2026, full board with transfers and excursions; Ayurveda treatment is mandatory for every guest and is charged separately at 100 euro a day, or 700 a week.\n\nAyurveda Parkschloesschen in Germany prices a thirteen-night classic Panchakarma cure at 4,090 euro for the treatment package, plus room and full board from 4,160 - roughly five times the Kerala figure for a night shorter, which is the whole of the cost argument in one line.\n\n*Inference --* the reason a reader cannot compare these three to a hospital price is that the object is different. There is no operation, no implant, no discharge summary. What is bought is a physician's plan, a therapist's hands and a fortnight of days, and the only figure that transfers across borders is the day rate.",
+  "how": "A consultation on arrival sets the plan; the resort's own booklet states that the content of a package may differ with the patient's condition and that the final decision belongs to the consulting doctor. Days run to a timetable of oil treatments, steam, diet and rest, with yoga and lectures. Classical purification is heavier than the resort version and is not offered to everyone. The recommended minimum stay printed on the Kerala booklet for its purification package is fourteen to twenty-one days, and the daily treatment runs ninety to a hundred and twenty minutes.",
+  "today": "Three published tariffs sit on this record - India, Sri Lanka and Germany - each read off the provider's own price list in September 2026, and each with a stated validity period. Two of the three price the treatment separately from the bed.",
+  "notes": "This page describes a treatment system as it is sold to visitors, and the prices it is sold at. It makes no claim about what the treatment does, and gives no medical advice."
+ },
+ "metrics": {
+  "stay_days": 14,
+  "note": "Fourteen nights is the package length both South Asian tariffs on this record are built around, and the Kerala booklet states a recommended minimum duration of 14 to 21 days for its purification package with 90 to 120 minutes of daily treatment. The German cure read for this record runs thirteen nights. No outcome figure is carried: none of the three providers publishes one.",
+  "as_of": "2026-09-16",
+  "source": "s:somatheeram-tariff-2025-26",
+  "url": "https://somatheeram-c3c5.kxcdn.com/pricelists/somatheeram-tariff-en-eur-2025-2026.pdf"
+ },
+ "prices": [
+  {
+   "procedure": "panchakarma",
+   "country": "IN",
+   "city": "Kovalam",
+   "amount": 2422,
+   "amount_high": 3668,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "fourteen nights, single occupancy, standard cottage",
+    "doctor's consultations",
+    "treatments in the plan, to a stated value of 140 EUR a day per person",
+    "medication",
+    "Ayurvedic full board",
+    "yoga and meditation",
+    "airport transfers for stays of seven days or more",
+    "a Backwaters excursion for stays of fourteen days or more",
+    "all applicable taxes"
+   ],
+   "excludes": [
+    "flights",
+    "room-only stays, which the resort states it confirms only in connection with a package"
+   ],
+   "source": "s:somatheeram-tariff-2025-26",
+   "url": "https://somatheeram-c3c5.kxcdn.com/pricelists/somatheeram-tariff-en-eur-2025-2026.pdf",
+   "note": "Body Purification Package, the tariff's panchakarma line. 2,422 EUR is low season (June to September), 3,668 EUR peak (December to March), both single in the cheapest room category; the top suite runs 5,614 to 8,736 EUR for the same fourteen nights. Tariff validity 01.10.2025 to 30.09.2026.",
+   "tier": "cited",
+   "usd": 2794.0,
+   "usd_high": 4232.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "panchakarma",
+   "country": "LK",
+   "amount": 100,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "one day of prescribed Ayurveda treatment, mandatory for every guest"
+   ],
+   "excludes": [
+    "the room, charged separately at 200 to 450 EUR a night single by category, full board with transfers and excursions",
+    "air conditioning, a supplement of 15 EUR a day where available"
+   ],
+   "source": "s:barberyn-summer-rates",
+   "url": "https://www.barberynresorts.com/faq/waves_summer-rates/",
+   "note": "treatment at 100 EUR a day or 700 a week, quoted for the season 15 April to 30 November 2026. This resort splits bed from treatment, which makes its day rate the most directly comparable figure on the record.",
+   "tier": "cited",
+   "usd": 115.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "panchakarma",
+   "country": "DE",
+   "amount": 4090,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "thirteen nights of the classic Panchakarma cure treatment package",
+    "medical consultations: initial pulse reading, therapy plan, follow-ups and final consultation",
+    "eight synchronised treatments and nine further treatments including oil pouring, herbal steam and medicated enemas",
+    "daily yoga, meditation and lectures",
+    "use of the spa facilities"
+   ],
+   "excludes": [
+    "room and full board, quoted separately from 4,160 EUR"
+   ],
+   "source": "s:parkschloesschen-panchakarma",
+   "url": "https://www.ayurveda-parkschloesschen.de/uebersicht/panchakarma_kur_klassisch/",
+   "note": "treatment and bed priced apart, as in Sri Lanka; together the thirteen nights run from 8,250 EUR",
+   "tier": "cited",
+   "usd": 4719.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "india",
+   "as": "Where the state licenses Ayurvedic hospitals and the resort tariff is written in euro for visitors.",
+   "rel": "destination"
+  },
+  {
+   "to": "sri-lanka",
+   "as": "Where the bed and the treatment are two prices, and the treatment is compulsory.",
+   "rel": "destination"
+  },
+  {
+   "to": "germany",
+   "as": "Where the same fortnight costs about five times the Kerala price.",
+   "rel": "destination"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The category this is sold in, and the category it does not entirely fit.",
+   "rel": "term"
+  },
+  {
+   "to": "health-tourism",
+   "as": "The wider word under which spa and cure stays are counted.",
+   "rel": "term"
+  },
+  {
+   "to": "addiction-rehab",
+   "as": "The other long-stay residential course, priced the same way and bought by a different traveller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The short diagnostic product sold alongside it in the same brochures.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counterfeit-medicines",
+   "as": "Herbal preparations dispensed abroad and carried home raise a separate question about what is in them.",
+   "rel": "risk"
+  },
+  {
+   "to": "length-of-stay",
+   "as": "Here the stay is the product, not a consequence of the procedure.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "addiction-rehab",
+   "tell": "Both sell weeks of residential care in warm countries. Panchakarma is an Ayurvedic treatment course; a rehabilitation programme treats dependence with therapy and nursing."
+  }
+ ],
+ "links": [
+  {
+   "label": "Somatheeram tariff booklet 2025/26",
+   "url": "https://somatheeram-c3c5.kxcdn.com/pricelists/somatheeram-tariff-en-eur-2025-2026.pdf"
+  },
+  {
+   "label": "Barberyn rates",
+   "url": "https://www.barberynresorts.com/faq/waves_summer-rates/"
+  }
+ ],
+ "sources": [
+  "s:somatheeram-tariff-2025-26",
+  "s:barberyn-summer-rates",
+  "s:parkschloesschen-panchakarma"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:somatheeram-tariff-2025-26",
+    "note": "tariff terms quoted from the three price lists; the closing paragraph is marked as inference inline"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:somatheeram-tariff-2025-26",
+    "note": "the consultation and duration statements are the resort's own; the description of classical purification is marked tradition in the etymology"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Shirodhara.jpg",
+  "File:Ayurveda massage.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A residential course of Ayurvedic treatment, prescribed by a physician after consultation and run daily for two to four weeks: oil applications and massage, herbal steam, forehead oil pouring, medicated enemas and…",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Where the state licenses Ayurvedic hospitals and the resort tariff is written in euro for visitors.",
+   "rel": "destination"
+  },
+  {
+   "to": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "Where the bed and the treatment are two prices, and the treatment is compulsory.",
+   "rel": "destination"
+  },
+  {
+   "to": "germany",
+   "type": "destination",
+   "name": "Germany",
+   "as": "Where the same fortnight costs about five times the Kerala price.",
+   "rel": "destination"
+  },
+  {
+   "to": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The category this is sold in, and the category it does not entirely fit.",
+   "rel": "term"
+  },
+  {
+   "to": "health-tourism",
+   "type": "term",
+   "name": "Health tourism",
+   "as": "The wider word under which spa and cure stays are counted.",
+   "rel": "term"
+  },
+  {
+   "to": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "The other long-stay residential course, priced the same way and bought by a different traveller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The short diagnostic product sold alongside it in the same brochures.",
+   "rel": "contrast"
+  },
+  {
+   "to": "counterfeit-medicines",
+   "type": "risk",
+   "name": "Substandard and falsified medicines",
+   "as": "Herbal preparations dispensed abroad and carried home raise a separate question about what is in them.",
+   "rel": "risk"
+  },
+  {
+   "to": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "Here the stay is the product, not a consequence of the procedure.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:somatheeram-tariff-2025-26",
+   "kind": "web",
+   "title": "Tariff Booklet 2025/26",
+   "publisher": "Somatheeram Ayurvedic Hospital and Yoga Centre, Kerala",
+   "url": "https://somatheeram-c3c5.kxcdn.com/pricelists/somatheeram-tariff-en-eur-2025-2026.pdf",
+   "accessed": "2026-09-16",
+   "note": "euro tariff, validity 01.10.2025 to 30.09.2026, all applicable taxes stated as included"
+  },
+  {
+   "id": "s:barberyn-summer-rates",
+   "kind": "web",
+   "title": "Summer Rates",
+   "publisher": "Barberyn Ayurveda Resorts, Sri Lanka",
+   "url": "https://www.barberynresorts.com/faq/waves_summer-rates/",
+   "accessed": "2026-09-16",
+   "note": "rates stated for 15 April 2026 to 30 November 2026"
+  },
+  {
+   "id": "s:parkschloesschen-panchakarma",
+   "kind": "web",
+   "title": "Panchakarma Kur Klassisch",
+   "publisher": "Ayurveda Parkschloesschen, Bad Wildstein, Germany",
+   "url": "https://www.ayurveda-parkschloesschen.de/uebersicht/panchakarma_kur_klassisch/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:somatheeram-tariff-2025-26",
+   "note": "tariff terms quoted from the three price lists; the closing paragraph is marked as inference inline"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:somatheeram-tariff-2025-26",
+   "note": "the consultation and duration statements are the resort's own; the description of classical purification is marked tradition in the etymology"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "The AYUSH course that earned its own visa class.",
+   "rel": "procedure"
+  },
+  {
+   "from": "colombo",
+   "type": "hub",
+   "name": "Colombo",
+   "as": "The Ayurvedic course sold elsewhere on the island, not in these hospitals.",
+   "rel": "contrast"
+  },
+  {
+   "from": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "The other long-stay course sold by the night, in the same countries, to a different buyer.",
+   "rel": "contrast"
+  },
+  {
+   "from": "health-tourism",
+   "type": "term",
+   "name": "Health tourism",
+   "as": "A course of treatment that sits inside this word and outside the medical one.",
+   "rel": "procedure"
+  },
+  {
+   "from": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "A course this site treats as a procedure and the sector counts as a retreat.",
+   "rel": "procedure"
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "schema": 1,
+ "id": "hfea-results",
+ "type": "dataset",
+ "names": {
+  "name": "HFEA fertility treatment results",
+  "aliases": [
+   "Choose a Fertility Clinic",
+   "HFEA Register",
+   "Fertility treatment: trends and figures"
+  ],
+  "said": "British clinics call it the Register. It is the longest-running record of fertility treatment anywhere, and it stops at the Channel."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "publisher": "HFEA"
+ },
+ "text": {
+  "what": "What every licensed fertility clinic in the United Kingdom did, and what came of it. The Human Fertilisation and Embryology Authority has collected data on all IVF and donor insemination treatments in the UK since 1 August 1991 under the Human Fertilisation and Embryology Act 1990, and publishes it two ways: an annual report, and a clinic-by-clinic comparison tool. The latest report, Fertility treatment 2024, was published on 16 June 2026 from a register snapshot taken on 6 May 2026.",
+  "story": "The scale first. In 2024, 64,000 patients underwent over 100,000 treatment and freezing cycles at HFEA-licensed clinics; the register handles roughly a hundred thousand cycles a year and, in the Authority's own words, \"is believed to be the longest running database of fertility treatment in the world\". The average IVF birth rate per embryo transferred was 30% in 2024 — 38% for patients aged 18 to 34 and 8% for those aged 43 to 44. Birth outcomes for 2024 are marked preliminary, because outcomes arrive after the cycles do.\n\nThe regulator publishes the clinic table and then argues against reading it the way people read it: \"Use success rates as a rough guide and not a prediction\", because \"differences of just one or two percentage points are often down to chance rather than being a reflection of a clinic's abilities: a clinic that's performing particularly well one year may have lower success rates the following year and vice versa\". A published comparison and a warning not to compare, in the same place, by the same body.\n\nThe boundary is what makes this series matter to a directory about travel. Everyone treated in a licensed UK clinic is in the Register \"regardless of a person's residence\", and regions are assigned \"based on the location of the clinic rather than patient's residency\". So a woman who flies into London is counted, and the same woman flying out to Alicante, Prague or Kyrenia is not, because those clinics are \"not regulated by the HFEA\".\n\n*Inference —* that asymmetry runs one way for every patient leaving a regulated market. On the British side of a decision there is a named clinic, a dated birth rate, a licence and a complaints route; on the other side, for most destinations in this directory, no register of the same grain was found when this record was written. The comparison a traveller wants to make cannot be made from one side of it."
+ },
+ "dataset": {
+  "publisher": "Human Fertilisation and Embryology Authority (United Kingdom)",
+  "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/",
+  "api": "https://www.hfea.gov.uk/media/cvcpx4xy/fertility-treatment-2024-trends-and-figures-underlying-dataset.xlsx",
+  "license": "no licence statement retrieved from the pages read on 17 September 2026; the report is designated an official statistic",
+  "unit": "treatment cycles, and births per embryo transferred or per egg collection",
+  "years": "1991 to 2024; 1991 is a partial year, from August",
+  "countries": 1,
+  "updated_by_publisher": "annually",
+  "counts": "Every IVF and donor insemination cycle performed in a UK licensed clinic, with the patient's age band and the outcome, whoever the patient is and wherever they live. 107 clinics held a licence in 2023/24.",
+  "does_not_count": "Treatment abroad. A UK resident who has IVF in Spain, Czechia or northern Cyprus leaves no trace in this register, because the clinic is not licensed by the HFEA — the one flow this directory exists to describe is the one the register is defined to exclude. It also holds no detailed information on partner intrauterine insemination, nothing on treatment outside licensed clinics, and nothing about surrogacy arrangements beyond the treatment cycle itself. Birth rates for the most recent year are preliminary, and the Authority changed how it calculates them, so figures are not comparable back through earlier reports."
+ },
+ "kin": [
+  {
+   "to": "hfea",
+   "as": "The regulator that keeps the register, licenses the clinics and publishes the table.",
+   "rel": "org"
+  },
+  {
+   "to": "ivf",
+   "as": "The treatment counted, cycle by cycle, since 1991.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cdc-art-results",
+   "as": "The American counterpart: mandatory reporting, clinic-level rates, and the same warning against comparing clinics.",
+   "rel": "dataset"
+  },
+  {
+   "to": "reproductive-exile",
+   "as": "The word for the patients who leave, and who leave no record behind them.",
+   "rel": "term"
+  },
+  {
+   "to": "north-cyprus",
+   "as": "A destination British patients travel to, and one this register cannot see.",
+   "rel": "destination"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A register that counts arrivals into one country and nothing leaving it.",
+   "rel": "story"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The jurisdiction the register covers, clinic by clinic.",
+   "rel": "destination"
+  }
+ ],
+ "links": [
+  {
+   "label": "Fertility treatment 2024: trends and figures",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/"
+  },
+  {
+   "label": "Choose a fertility clinic",
+   "url": "https://www.hfea.gov.uk/choose-a-fertility-clinic/"
+  },
+  {
+   "label": "Finding the right clinic for you",
+   "url": "https://www.hfea.gov.uk/choose-a-fertility-clinic/finding-the-best-fertility-clinic-for-you/"
+  }
+ ],
+ "sources": [
+  "s:hfea-2024-trends",
+  "s:hfea-2024-methodology",
+  "s:hfea-choose-clinic",
+  "s:hfea-key-facts",
+  "s:hfea"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:hfea-2024-trends"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:hfea-2024-methodology",
+    "note": "the figures are from the 2024 report, the quoted boundary sentences from its quality and methodology report, the comparison warning from the clinic-choosing page; the closing paragraph is marked inference"
+   },
+   "dataset.counts": {
+    "tier": "cited",
+    "source": "s:hfea-key-facts",
+    "note": "the 107-clinic figure is HFEA's key facts page for 2023/24"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "What every licensed fertility clinic in the United Kingdom did, and what came of it.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "The regulator that keeps the register, licenses the clinics and publishes the table.",
+   "rel": "org"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The treatment counted, cycle by cycle, since 1991.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The American counterpart: mandatory reporting, clinic-level rates, and the same warning against comparing clinics.",
+   "rel": "dataset"
+  },
+  {
+   "to": "reproductive-exile",
+   "type": "term",
+   "name": "Reproductive exile",
+   "as": "The word for the patients who leave, and who leave no record behind them.",
+   "rel": "term"
+  },
+  {
+   "to": "north-cyprus",
+   "type": "destination",
+   "name": "Northern Cyprus",
+   "as": "A destination British patients travel to, and one this register cannot see.",
+   "rel": "destination"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A register that counts arrivals into one country and nothing leaving it.",
+   "rel": "story"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The jurisdiction the register covers, clinic by clinic.",
+   "rel": "destination"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:hfea-2024-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2024: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/",
+   "accessed": "2026-09-17",
+   "note": "published 16 June 2026 from a register snapshot of 6 May 2026; 64,000 patients and over 100,000 treatment and freezing cycles in 2024; average IVF birth rate per embryo transferred 30%, 38% at ages 18-34 and 8% at 43-44; 2024 birth outcomes marked preliminary"
+  },
+  {
+   "id": "s:hfea-2024-methodology",
+   "kind": "org",
+   "title": "Fertility treatment 2024: quality and methodology report",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/quality-and-methodology-report/",
+   "accessed": "2026-09-17",
+   "note": "people are in the Register 'regardless of a person's residence'; 'We do not hold detailed information on partner intrauterine insemination (IUI), or treatments that takes place outside of licensed clinics'; regions are assigned 'based on the location of the clinic rather than patient's residency'; the Register runs since 1991 and is described as the longest running database of fertility treatment in the world"
+  },
+  {
+   "id": "s:hfea-choose-clinic",
+   "kind": "org",
+   "title": "Finding the right clinic for you",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/choose-a-fertility-clinic/finding-the-best-fertility-clinic-for-you/",
+   "accessed": "2026-09-17",
+   "note": "'Use success rates as a rough guide and not a prediction', and the passage on differences of one or two percentage points being down to chance"
+  },
+  {
+   "id": "s:hfea-key-facts",
+   "kind": "org",
+   "title": "Key facts and statistics",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/media-centre/key-facts-and-statistics/",
+   "accessed": "2026-09-16",
+   "note": "set up by the Human Fertilisation and Embryology Act 1990; 107 licensed clinics in 2023/24; records of every treatment in a licensed clinic since 1991; 2022 figures for patients, cycles, pregnancy rate per fresh embryo transfer and the NHS-funded share"
+  },
+  {
+   "id": "s:hfea",
+   "kind": "org",
+   "title": "Human Fertilisation and Embryology Authority — clinic licensing and published results",
+   "publisher": "HFEA (United Kingdom)",
+   "url": "https://www.hfea.gov.uk/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:hfea-2024-trends"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:hfea-2024-methodology",
+   "note": "the figures are from the 2024 report, the quoted boundary sentences from its quality and methodology report, the comparison warning from the clinic-choosing page; the closing paragraph is marked inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "The register this authority keeps and the clinic table it publishes out of it.",
+   "rel": "dataset"
+  },
+  {
+   "from": "cdc-art-results",
+   "type": "dataset",
+   "name": "CDC assisted reproductive technology results",
+   "as": "The British counterpart: a register with a statute behind it, publishing rates and warning against comparing them.",
+   "rel": "dataset"
+  },
+  {
+   "from": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "Holds every licensed UK cycle and nothing done abroad, which is the flow by definition.",
+   "rel": "dataset"
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "id": "the-companion",
+ "names": {
+  "name": "The companion",
+  "aliases": [
+   "escort",
+   "medical attendant",
+   "carer",
+   "the person who comes along"
+  ],
+  "said": "India's visa system calls them a medical attendant. Hospitals say relative. Nobody bills for them and nobody counts them."
+ },
+ "facets": {
+  "stage": "before-you-fly"
+ },
+ "x_order": 10,
+ "text": {
+  "what": "Somebody travels with the patient: a spouse, an adult child, a friend. They are not a patient, not staff and not a party to the contract, and they end up doing the work nobody costed — sitting through the consent conversation, moving a post-operative body through an airport, watching a wound at 3am in a hotel room.",
+  "story": "One state has put a number on it. India's e-Visa scheme grants the e-Medical Attendant Visa alongside the patient's visa and caps it: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\". That is an immigration rule rather than a clinical finding, but it is the clearest published statement this project found of how many people a treatment trip is expected to involve.\n\n*Inference —* the companion is the part of the cost that never appears in a comparison. A second airfare, a hotel room for the length of the stay, unpaid leave, and in a hair or dental trip the entire nursing function after discharge. The package price sits on one side of the ledger; none of this is on the other.\n\nThe companion is also the person who absorbs the failures of every earlier step. Where the consent conversation runs through an interpreter, they are the second listener. Where the discharge summary is thin, they are the one who remembers what was said. Where the patient cannot fly on the booked date, they are the one who rebooks.\n\nNothing this project could find measures any of it: not how many patients travel with someone, not what the companion spends, not what happens to patients who travel alone.",
+  "how": "What a reader would have to ask: whether the destination admits a companion in its own right or only as an ordinary visitor, whether the hospital permits a relative to stay overnight on the ward and at what charge, whether the package includes a second bed or a hotel room, what happens to the companion's own visa if the patient's stay extends, and who provides care in the recovery hotel — staff, or the person who came along.",
+  "today": "As of 16 September 2026 the only hard number this project can attach to this step is a visa quota: two attendants per patient, in one country's immigration rules. The clinical and financial load on that person is undocumented."
+ },
+ "kin": [
+  {
+   "to": "the-escort-burden",
+   "as": "The risk record for what this person carries.",
+   "rel": "risk"
+  },
+  {
+   "to": "alone-after-discharge",
+   "as": "What the same step looks like when nobody comes.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "as": "Where the companion becomes a legal category, and a quota.",
+   "rel": "step"
+  },
+  {
+   "to": "arrival-and-consent",
+   "as": "The conversation the companion is the second listener in.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where the nursing the companion started gets handed to nobody in particular.",
+   "rel": "step"
+  }
+ ],
+ "sources": [
+  "s:india-emedical-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "the visa quota is cited; everything about the burden is marked inference because nothing published measures it"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:india-emedical-visa",
+    "note": "first paragraph cited, the rest marked inline"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "Somebody travels with the patient: a spouse, an adult child, a friend.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The risk record for what this person carries.",
+   "rel": "risk"
+  },
+  {
+   "to": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "What the same step looks like when nobody comes.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "Where the companion becomes a legal category, and a quota.",
+   "rel": "step"
+  },
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The conversation the companion is the second listener in.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "Where the nursing the companion started gets handed to nobody in particular.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:india-emedical-visa",
+   "kind": "web",
+   "title": "e-Visa — e-Medical Visa and e-Medical Attendant Visa",
+   "publisher": "Bureau of Immigration, Ministry of Home Affairs, Government of India",
+   "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+   "accessed": "2026-09-16",
+   "note": "one year from arrival, multiple entries, hospital letter on letterhead, two attendant visas per patient"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "inference",
+   "note": "the visa quota is cited; everything about the burden is marked inference because nothing published measures it"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:india-emedical-visa",
+   "note": "first paragraph cited, the rest marked inline"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "the visa quota is cited; everything about the burden is marked inference because nothing published measures it"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the visa quota is cited; everything about the burden is marked inference because nothing published measures it"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bengaluru",
+   "type": "hub",
+   "name": "Bengaluru",
+   "as": "Twenty kilometres from the city means the relative needs housing, not a chair.",
+   "rel": "step"
+  },
+  {
+   "from": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "The relative who comes too, and who has to be housed for the length of the stay.",
+   "rel": "step"
+  },
+  {
+   "from": "medellin",
+   "type": "hub",
+   "name": "Medellín",
+   "as": "Named in the visa rule here: a companion falls under the same requirement as the patient.",
+   "rel": "step"
+  },
+  {
+   "from": "abdominoplasty",
+   "type": "procedure",
+   "name": "Abdominoplasty",
+   "as": "Somebody has to be there for the drains and the first week bent forward.",
+   "rel": "step"
+  },
+  {
+   "from": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "Family involvement across time zones is part of the treatment and none of the price.",
+   "rel": "step"
+  },
+  {
+   "from": "assisted-dying",
+   "type": "procedure",
+   "name": "Assisted dying",
+   "as": "Nobody makes this journey alone, and the escort is a published line on the bill.",
+   "rel": "step"
+  },
+  {
+   "from": "car-t",
+   "type": "procedure",
+   "name": "CAR T-cell therapy",
+   "as": "The label assumes someone is watching the patient daily; somebody has to be that person, in another country.",
+   "rel": "step"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "Two weeks of visible bruising, and somebody has to be in the room.",
+   "rel": "step"
+  },
+  {
+   "from": "proton-therapy",
+   "type": "procedure",
+   "name": "Proton beam therapy",
+   "as": "The carer the NHS funded a seat for, on a nine-week absence.",
+   "rel": "step"
+  },
+  {
+   "from": "vaginoplasty",
+   "type": "procedure",
+   "name": "Vaginoplasty",
+   "as": "Nine nights in hospital and weeks in the city afterwards are an escort's calendar too.",
+   "rel": "step"
+  },
+  {
+   "from": "hospital-cima-san-jose",
+   "type": "facility",
+   "name": "Hospital CIMA San José",
+   "as": "A hundred-bed hospital discharges early, and the recovery hotel is where the escort's week actually goes.",
+   "rel": "step"
+  },
+  {
+   "from": "king-hussein-cancer-center",
+   "type": "facility",
+   "name": "King Hussein Cancer Center",
+   "as": "A course of cancer treatment measured in months moves a family, not an escort.",
+   "rel": "step"
+  },
+  {
+   "from": "booking-the-flight",
+   "type": "pathway",
+   "name": "Booking the flight",
+   "as": "The second ticket, bought at the same time and rarely in the quoted price.",
+   "rel": "step"
+  },
+  {
+   "from": "the-visa",
+   "type": "pathway",
+   "name": "The visa",
+   "as": "Who the attendant visa is for, and how many of them a state will admit.",
+   "rel": "step"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The step this risk is the absence of.",
+   "rel": "step"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The step this risk is the price of.",
+   "rel": "step"
+  },
+  {
+   "from": "assisted-dying-law",
+   "type": "rule",
+   "name": "Assisted dying, and who may cross a border for it",
+   "as": "The person who travels too, and whose position at home is a separate question.",
+   "rel": "pathway"
+  },
+  {
+   "from": "gcc-sponsored-treatment-abroad",
+   "type": "rule",
+   "name": "Gulf state-sponsored treatment abroad",
+   "as": "The escort the bylaw counts, and pays.",
+   "rel": "step"
+  },
+  {
+   "from": "india-e-medical-visa",
+   "type": "rule",
+   "name": "India's e-Medical Visa",
+   "as": "The person this class counts, and caps at two.",
+   "rel": "step"
+  },
+  {
+   "from": "schengen-medical-visa",
+   "type": "rule",
+   "name": "The Schengen visa, for treatment",
+   "as": "Who has to apply separately, and prove someone else's purpose.",
+   "rel": "step"
+  },
+  {
+   "from": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "The person these pages do not mention.",
+   "rel": "step"
+  },
+  {
+   "from": "day-case",
+   "type": "term",
+   "name": "Day case",
+   "as": "The person a day case requires and a foreign trip may not have.",
+   "rel": "step"
+  },
+  {
+   "from": "medical-visa",
+   "type": "term",
+   "name": "Medical visa",
+   "as": "The person a medical class does or does not admit — India grants two.",
+   "rel": "step"
+  }
+ ]
+}

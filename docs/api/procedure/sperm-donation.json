@@ -1,0 +1,411 @@
+{
+ "schema": 1,
+ "id": "sperm-donation",
+ "type": "procedure",
+ "names": {
+  "name": "Sperm donation",
+  "aliases": [
+   "donor sperm",
+   "donor insemination",
+   "DI",
+   "AID"
+  ],
+  "said": "Clinics sell a straw or a vial. Registers count donor insemination, DI, separately from IVF. The donor's own paperwork says compensation per clinic visit, and in the UK that is a capped sum set by the regulator."
+ },
+ "etymology": {
+  "root": "insemination: Latin in- plus semen, seed — the seeding. Donation keeps Latin donare, to give, in every jurisdiction, including those that print a fixed payment per visit beside the word.",
+  "tier": "tradition",
+  "note": "donor insemination places sperm in the uterus and is a different treatment, and a different price, from donor sperm used to fertilise eggs in an IVF or ICSI cycle. A register that counts DI births is not counting the second group."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "family": "fertility",
+  "setting": "outpatient-course",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "Screened, frozen sperm from a man who is not the patient's partner, thawed and either placed in the uterus around ovulation — donor insemination, a few minutes in a clinic room with no anaesthetic — or used to fertilise eggs in an IVF or ICSI cycle. The sperm is bought as a unit: a straw, a vial, a sample. Almost everything that varies across borders concerns the donor rather than the technique: whether he may be paid, how much, how many families he may create, and whether the child may one day know his name.",
+  "story": "Sperm is the gamete that travels on its own. It freezes and ships, so the patient does not always have to move; when the patient does move, the reason is usually a rule about who may be treated rather than the price of the vial.\n\nThe UK numbers show how small this treatment is beside the arguments about it. The HFEA's 2023 report counts around 820 babies born following donor insemination, and around one in five of all UK IVF and DI births — 4,300 births — following treatment with donor eggs, sperm or embryos.\n\nThe UK also shows what a regulated market looks like priced out. A sperm donor may claim up to 45 pounds per clinic visit, raised from 35 pounds on 1 October 2024; his sperm may create children in up to ten UK families; anonymity ended for donations made after 1 April 2005, and a person conceived from one can have the donor's name, date of birth and last known address at 18, with non-identifying information from 16.\n\n*Trade practice —* a capped payment and an identity release produce a shortage, and a shortage produces importing. *Inference —* the traffic in this treatment is therefore two-directional in a way the others are not: patients cross borders, and so do straws, and the second movement is invisible in every patient-counting exercise.",
+  "how": "Priced as a unit of sperm plus a treatment, and the two are on different lines. Reprofit lists donated sperm from its own cryobank at 490 EUR and an intrauterine insemination including capacitation of the sperm at 310 EUR; Newlife IVF in Thessaloniki lists donor sperm from 415 EUR and an insemination at 565 EUR. Fertilab in Barcelona prices the same insemination at 940 EUR with a partner's sperm and 1,450 EUR with a donor's — the 510 EUR between them is the vial.\n\nThe legal facts that move this treatment are attached to the donor. Whether donor sperm may be used at all: Türkiye's 2010 regulation on assisted reproduction practices and centres bans donor gametes, and the same instrument reaches citizens who go abroad for them. Whether the donor is anonymous: an identity-release jurisdiction and an anonymous one are selling different products under one word, and patients choose between them deliberately. Who may be treated: rules on marital status and on single and same-sex patients sit in national statute in many jurisdictions, and they decide whether a clinic at home will take the patient at all. The rule records carry the map.",
+  "today": "As of September 2026 the published prices read off pages for this record put a vial of donor sperm at 415 to 490 EUR in Greece and Czechia, and the treatment it is used in at 310 to 1,450 EUR depending on the country and on whether the insemination price already contains the sperm. The UK cap on what the donor himself receives stands at 45 pounds a visit.",
+  "notes": "This page describes a treatment and the published prices and caps attached to it. It is not medical advice and it is not legal advice."
+ },
+ "metrics": {
+  "success_rate_pct": null,
+  "note": "No live-birth rate is carried here because the registers read for this record report donor insemination by births rather than by rate. The HFEA's 2023 report counts around 820 babies born following DI treatment in the UK, and around 4,300 UK births — about one in five of all IVF and DI births — following treatment using donor eggs, sperm or embryos. A birth count is not a success rate: neither figure has a denominator of cycles started, transfers or patients attached to it in the report read.",
+  "as_of": "2023",
+  "source": "s:hfea-2023-trends",
+  "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2023-trends-and-figures/"
+ },
+ "prices": [
+  {
+   "procedure": "sperm-donation",
+   "country": "CZ",
+   "city": "Brno",
+   "amount": 490,
+   "currency": "EUR",
+   "as_of": "2026-01-01",
+   "kind": "list",
+   "includes": [
+    "donated sperm from the clinic's own cryobank"
+   ],
+   "excludes": [
+    "the insemination or IVF cycle it is used in",
+    "storage, listed separately at 185 EUR for 2 samples up to 5 years"
+   ],
+   "source": "s:reprofit-pricelist-2026",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "note": "line \"Donated sperm\", valid from 1 January 2026. The intrauterine insemination that uses it is a separate 310 EUR on the same list.",
+   "tier": "cited",
+   "usd": 565.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "sperm-donation",
+   "country": "GR",
+   "city": "Thessaloniki",
+   "amount": 415,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "list",
+   "includes": [
+    "donor sperm, listed as from this price"
+   ],
+   "excludes": [
+    "the insemination, listed separately at 565 EUR",
+    "preliminary investigations",
+    "medications"
+   ],
+   "source": "s:newlife-ivf-costs",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "note": "read on 16 September 2026; the page carries no date of its own.",
+   "tier": "cited",
+   "usd": 479.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "sperm-donation",
+   "country": "ES",
+   "city": "Barcelona",
+   "amount": 1450,
+   "currency": "EUR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "intrauterine insemination with donor sperm"
+   ],
+   "excludes": [],
+   "source": "s:fertilab-pricing",
+   "url": "https://fertilab.com/en/pricing/",
+   "note": "the same clinic prices insemination with a partner's sperm at 940 EUR, so the donor vial is worth 510 EUR inside this line. The page says nothing either way about stimulation medication. Read on 16 September 2026.",
+   "tier": "cited",
+   "usd": 1673.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "sperm-donation",
+   "country": "GB",
+   "amount": 45,
+   "currency": "GBP",
+   "as_of": "2024-10-01",
+   "kind": "tariff",
+   "includes": [
+    "the maximum a UK sperm donor may claim per clinic visit"
+   ],
+   "excludes": [
+    "higher expenses such as travel and childcare, which may be claimed on top"
+   ],
+   "source": "s:hfea-donating-sperm",
+   "url": "https://www.hfea.gov.uk/donation/donors/donating-your-sperm/",
+   "note": "a regulator's cap on what the donor receives, not a price to a patient. Raised from 35 pounds on 1 October 2024. UK donors are over 18 and under 46; a donor's sperm may create children in up to ten UK families; donations made after 1 April 2005 are identity-release at 18.",
+   "tier": "cited",
+   "usd": 61.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "icsi",
+   "as": "What donor sperm is usually used for in a laboratory rather than an insemination.",
+   "rel": "kin"
+  },
+  {
+   "to": "egg-donation",
+   "as": "The same bargain on the other side of the dish, with a larger price and a longer queue.",
+   "rel": "contrast"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "as": "The rule that decides whether the donor can stay unnamed, and so which country the vial is bought in.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "ivf",
+   "as": "The cycle donor sperm is used in when insemination is not the treatment.",
+   "rel": "kin"
+  },
+  {
+   "to": "hfea",
+   "as": "Sets the UK visit payment, the ten-family limit and the identity-release rule this record quotes.",
+   "rel": "governs"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "What the traffic is called where the reason to move is a prohibition on who may be treated.",
+   "rel": "term"
+  },
+  {
+   "to": "surrogacy",
+   "as": "The other third-party arrangement, and the one whose law diverges hardest across borders.",
+   "rel": "kin"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The jurisdiction whose capped payment and identity release this record reads off the regulator's own pages.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "egg-donation",
+   "tell": "Sperm ships frozen and the patient can stay home; eggs mostly do not, and the cycle has to be bought where the donor is."
+  },
+  {
+   "id": "icsi",
+   "tell": "Donor sperm names whose sperm it is; ICSI names how it gets into the egg. A bill can carry both lines or neither."
+  }
+ ],
+ "links": [
+  {
+   "label": "HFEA — donating your sperm",
+   "url": "https://www.hfea.gov.uk/donation/donors/donating-your-sperm/"
+  },
+  {
+   "label": "Newlife IVF costs, Thessaloniki",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs"
+  }
+ ],
+ "sources": [
+  "s:hfea-donating-sperm",
+  "s:hfea-2023-trends",
+  "s:reprofit-pricelist-2026",
+  "s:newlife-ivf-costs",
+  "s:fertilab-pricing",
+  "s:gurtin-2011-turkey"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:hfea-donating-sperm",
+    "note": "the counts and the caps are cited; the shortage argument is marked Trade practice and the two-directional traffic point is marked Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026",
+    "note": "the Turkish regulation is taken from a journal listing whose full text could not be retrieved; it is also carried on the rule record"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:hfea-2023-trends"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:reprofit-pricelist-2026"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Sperm sample cryovial.jpg",
+  "File:Human sperm stained for semen quality testing.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Screened, frozen sperm from a man who is not the patient's partner, thawed and either placed in the uterus around ovulation — donor insemination, a few minutes in a clinic room with no anaesthetic — or used to fertilise…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "What donor sperm is usually used for in a laboratory rather than an insemination.",
+   "rel": "kin"
+  },
+  {
+   "to": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "The same bargain on the other side of the dish, with a larger price and a longer queue.",
+   "rel": "contrast"
+  },
+  {
+   "to": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "The rule that decides whether the donor can stay unnamed, and so which country the vial is bought in.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The cycle donor sperm is used in when insemination is not the treatment.",
+   "rel": "kin"
+  },
+  {
+   "to": "hfea",
+   "type": "org",
+   "name": "Human Fertilisation and Embryology Authority",
+   "as": "Sets the UK visit payment, the ten-family limit and the identity-release rule this record quotes.",
+   "rel": "governs"
+  },
+  {
+   "to": "circumvention-travel",
+   "type": "term",
+   "name": "Circumvention travel",
+   "as": "What the traffic is called where the reason to move is a prohibition on who may be treated.",
+   "rel": "term"
+  },
+  {
+   "to": "surrogacy",
+   "type": "procedure",
+   "name": "Surrogacy",
+   "as": "The other third-party arrangement, and the one whose law diverges hardest across borders.",
+   "rel": "kin"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The jurisdiction whose capped payment and identity release this record reads off the regulator's own pages.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:hfea-donating-sperm",
+   "kind": "org",
+   "title": "Donating your sperm",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/donation/donors/donating-your-sperm/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:hfea-2023-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2023: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2023-trends-and-figures/",
+   "accessed": "2026-09-16",
+   "note": "the UK regulator's annual register report; birth rates marked preliminary and not yet validated"
+  },
+  {
+   "id": "s:reprofit-pricelist-2026",
+   "kind": "web",
+   "title": "Pricelist — Assisted Reproduction, valid from 01.01.2026 (document 0331.26ENG)",
+   "publisher": "Reprofit International s.r.o., Brno",
+   "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
+   "accessed": "2026-09-16",
+   "note": "the clinic's own self-payer price list, five pages, each line naming its inclusions and its exclusions"
+  },
+  {
+   "id": "s:newlife-ivf-costs",
+   "kind": "web",
+   "title": "IVF costs, egg donation costs",
+   "publisher": "Newlife IVF, Thessaloniki",
+   "url": "https://www.newlife-ivf.co.uk/ivf-costs",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fertilab-pricing",
+   "kind": "web",
+   "title": "Price list — fertility treatments",
+   "publisher": "Fertilab Barcelona",
+   "url": "https://fertilab.com/en/pricing/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:gurtin-2011-turkey",
+   "kind": "paper",
+   "title": "Banning reproductive travel: Turkey's ART legislation and third-party assisted reproduction",
+   "publisher": "Reproductive BioMedicine Online (Gurtin ZB)",
+   "url": "https://www.rbmojournal.com/article/S1472-6483(11)00470-6/fulltext",
+   "accessed": "2026-09-16",
+   "note": "citation and the 2010 regulation's extraterritorial clause verified from the journal's own article listing; the full text returned HTTP 403 and was not read. Treated as needing verification wherever it is relied on."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:hfea-donating-sperm",
+   "note": "the counts and the caps are cited; the shortage argument is marked Trade practice and the two-directional traffic point is marked Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026",
+   "note": "the Turkish regulation is taken from a journal listing whose full text could not be retrieved; it is also carried on the rule record"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:reprofit-pricelist-2026"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:hfea-2023-trends"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "egg-donation",
+   "type": "procedure",
+   "name": "Egg donation",
+   "as": "The same bargain on the other side of the dish, with a different cap and a different queue.",
+   "rel": "contrast"
+  },
+  {
+   "from": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "Where the sperm comes from when it does not come from a partner, and the law that decides whether it may.",
+   "rel": "kin"
+  },
+  {
+   "from": "donor-anonymity-law",
+   "type": "rule",
+   "name": "Donor anonymity",
+   "as": "The other half of it.",
+   "rel": "procedure"
+  }
+ ]
+}

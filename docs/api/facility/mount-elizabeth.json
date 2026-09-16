@@ -1,0 +1,418 @@
+{
+ "schema": 1,
+ "id": "mount-elizabeth",
+ "type": "facility",
+ "names": {
+  "name": "Mount Elizabeth Hospital",
+  "aliases": [
+   "Mount E",
+   "Mount Elizabeth Orchard",
+   "Mount Elizabeth Novena"
+  ],
+  "said": "Mount E, in Singapore. The address is the name: 3 Mount Elizabeth, the short road off Orchard Road, and the newer sister hospital at 38 Irrawaddy Road is Mount Elizabeth Novena."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "SG",
+  "ownership": "private",
+  "founded": 1979,
+  "specialty": [
+   "cardiology",
+   "oncology",
+   "neuroscience",
+   "orthopaedics"
+  ],
+  "draws": [
+   "cabg",
+   "angioplasty-stent",
+   "knee-replacement",
+   "hip-replacement",
+   "gamma-knife"
+  ],
+  "status": "open",
+  "languages": [
+   "English",
+   "Mandarin",
+   "Malay",
+   "Bahasa Indonesia"
+  ]
+ },
+ "text": {
+  "what": "A 345-bed private hospital off Orchard Road in Singapore, opened on 8 December 1979 and owned since 1995 by Parkway Holdings, now part of the Malaysian group IHH Healthcare. Its Medical Centre houses clinics in 31 specialties. The 313-bed Mount Elizabeth Novena opened at 38 Irrawaddy Road on 2 July 2012, and about 30 per cent of its patients come from abroad.",
+  "story": "Mount Elizabeth was the first private hospital in Singapore to perform open-heart surgery and the first to set up a nuclear medicine centre, and its identity has stayed cardiac, oncological and neurological since. The royal family of Brunei built a Royal Suite in it for their own use, later opened to other patients — a detail that says more about the hospital's regional market than any brochure would.\n\nThe ownership line runs to Kuala Lumpur and then to the same parent as Acıbadem in Istanbul and Gleneagles in Kuala Lumpur. *Inference —* a patient shopping across Istanbul, Kuala Lumpur and Singapore on price may be shopping three times inside one company, and none of the three sites says so.\n\nThe Novena figure is the one worth holding: about 30 per cent of patients at the newer hospital come from outside Singapore. That is a share of a named hospital's own caseload, which is a far narrower and more useful number than any national arrivals count.\n\nNeither hospital publishes a price. Singapore is unusual in that the Ministry of Health publishes hospital bill data and fee benchmarks by procedure and by hospital, so a figure for an operation at a named Singapore private hospital exists — it is published by the regulator rather than by the hospital.",
+  "how": "*Trade practice —* the Singapore route is the expensive end of Asian private medicine and is bought for the system rather than the saving: a regulator that publishes bill data, an English-language legal system, and a concentration of specialists who consult in the medical centre and admit to the hospital next door. The patient's surgeon is usually a private practitioner with rooms in the tower, not an employee of the hospital, which is a fee structure a visitor from a salaried system does not expect.\n\nNo package price is published by the hospital.",
+  "today": "As of 17 September 2026 the Orchard hospital carries 345 beds and the Novena hospital 313, both under IHH Healthcare through Parkway. Mount Elizabeth Medical Centre lists clinics in 31 specialties. About 30 per cent of Novena's patients are stated to come from abroad. No price is published by either hospital."
+ },
+ "geo": {
+  "lat": 1.305196,
+  "lon": 103.835536,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "3 Mount Elizabeth",
+  "city": "Singapore",
+  "country": "SG",
+  "postcode": "228510"
+ },
+ "metrics": {
+  "beds": 345,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "345 beds at the Orchard hospital this record pins; the sister hospital at Novena carries a further 313 and is a separate building. The only foreign figure published is a SHARE and it belongs to Novena, not here: about 30 per cent of its patients come from abroad. No count of patients — visits or people — is published for either.",
+  "as_of": "2026",
+  "source": "s:wp-mount-elizabeth",
+  "url": "https://en.wikipedia.org/wiki/Mount_Elizabeth_Hospital"
+ },
+ "tags": [
+  {
+   "tag": "chain",
+   "source": "s:wp-mount-elizabeth",
+   "tier": "cited",
+   "note": "owned by Parkway Holdings since 1995, operated under Parkway Pantai, part of IHH Healthcare"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:wp-mount-elizabeth",
+   "tier": "cited",
+   "note": "patients stated from Singapore, Southeast Asia and further; about 30 per cent of the Novena hospital's patients come from abroad"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:wp-mount-elizabeth",
+   "tier": "cited",
+   "note": "no price list was found on the hospital's own pages; Singapore's Ministry of Health publishes bill data and fee benchmarks instead"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:wp-mount-elizabeth",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-mount-elizabeth",
+   "url": "https://en.wikipedia.org/wiki/Mount_Elizabeth_Hospital",
+   "note": "the source names the accreditation and no year; none is asserted here"
+  }
+ ],
+ "kin": [
+  {
+   "to": "singapore-city",
+   "as": "The Orchard Road hospital the Singapore cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "singapore",
+   "as": "The expensive end of Asian private medicine, bought for the regulator as much as for the surgeon.",
+   "rel": "destination"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "A sister under the same parent, IHH Healthcare, two hundred miles up the peninsula and priced differently.",
+   "rel": "contrast"
+  },
+  {
+   "to": "acibadem",
+   "as": "The third hospital under the same Malaysian parent, in Istanbul — a price comparison that stays inside one company.",
+   "rel": "contrast"
+  },
+  {
+   "to": "raffles-hospital",
+   "as": "The other Singapore hospital here, which publishes its screening prices where this one publishes none.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cabg",
+   "as": "The first private hospital in Singapore to do open-heart surgery, and still known for the cardiac work.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "as": "Named as its accreditor, undated in the source read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The surgeon has rooms in the medical centre and bills separately from the hospital, which is two quotations and not one.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "as": "About 30 per cent of one named hospital's patients from abroad is worth more than any national arrivals total.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Mount Elizabeth Hospitals",
+   "url": "https://www.mountelizabeth.com.sg/"
+  }
+ ],
+ "sources": [
+  "s:wp-mount-elizabeth",
+  "s:wp-healthcare-singapore",
+  "s:moh-sg-medical-travellers-2009",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the Singapore fee structure and what the route is bought for; marked in the prose"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-mount-elizabeth"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Mount Elizabeth Hospital.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17",
+ "blurb": "A 345-bed private hospital off Orchard Road in Singapore, opened on 8 December 1979 and owned since 1995 by Parkway Holdings, now part of the Malaysian group IHH Healthcare.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "The Orchard Road hospital the Singapore cluster is usually named for.",
+   "rel": "place"
+  },
+  {
+   "to": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "The expensive end of Asian private medicine, bought for the regulator as much as for the surgeon.",
+   "rel": "destination"
+  },
+  {
+   "to": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "A sister under the same parent, IHH Healthcare, two hundred miles up the peninsula and priced differently.",
+   "rel": "contrast"
+  },
+  {
+   "to": "acibadem",
+   "type": "facility",
+   "name": "Acıbadem Healthcare Group",
+   "as": "The third hospital under the same Malaysian parent, in Istanbul — a price comparison that stays inside one company.",
+   "rel": "contrast"
+  },
+  {
+   "to": "raffles-hospital",
+   "type": "facility",
+   "name": "Raffles Hospital",
+   "as": "The other Singapore hospital here, which publishes its screening prices where this one publishes none.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The first private hospital in Singapore to do open-heart surgery, and still known for the cardiac work.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Named as its accreditor, undated in the source read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The surgeon has rooms in the medical centre and bills separately from the hospital, which is two quotations and not one.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "About 30 per cent of one named hospital's patients from abroad is worth more than any national arrivals total.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mount-elizabeth",
+   "kind": "wikipedia",
+   "title": "Mount Elizabeth Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mount_Elizabeth_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-healthcare-singapore",
+   "kind": "wikipedia",
+   "title": "Healthcare in Singapore",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Singapore",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:moh-sg-medical-travellers-2009",
+   "kind": "web",
+   "title": "Medical Travellers Update",
+   "publisher": "Ministry of Health, Singapore",
+   "url": "https://www.moh.gov.sg/newsroom/medical-travellers-update/",
+   "accessed": "2026-09-16",
+   "note": "written answer to a parliamentary question from Dr Lam Pin Min, 22 January 2009, giving the Singapore Tourism Board's airport exit-survey estimates and the ministry's own doubt about the method"
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the Singapore fee structure and what the route is bought for; marked in the prose"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-mount-elizabeth"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-mount-elizabeth",
+   "note": "owned by Parkway Holdings since 1995, operated under Parkway Pantai, part of IHH Healthcare",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:wp-mount-elizabeth",
+   "note": "patients stated from Singapore, Southeast Asia and further; about 30 per cent of the Novena hospital's patients come from abroad",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "no-price-published",
+   "label": "No published price",
+   "icon": "—",
+   "group": "money",
+   "evidence": "the facility's own site carries no price for the procedures it advertises, checked on a dated visit",
+   "source": "s:wp-mount-elizabeth",
+   "note": "no price list was found on the hospital's own pages; Singapore's Ministry of Health publishes bill data and fee benchmarks instead",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:wp-mount-elizabeth",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation",
+   "url": "https://en.wikipedia.org/wiki/Mount_Elizabeth_Hospital",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:wp-mount-elizabeth"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "The private hospital most often named in the region's referrals.",
+   "rel": "part"
+  },
+  {
+   "from": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "At 3 Mount Elizabeth in Cairnhill, 345 beds, the anchor of the Orchard belt.",
+   "rel": "part"
+  },
+  {
+   "from": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "Same ultimate owner, an hour's flight away, at a different number for the same operation.",
+   "rel": "contrast"
+  },
+  {
+   "from": "raffles-hospital",
+   "type": "facility",
+   "name": "Raffles Hospital",
+   "as": "The other Singapore hospital in this directory: Orchard Road, IHH-owned, and priced nowhere in public.",
+   "rel": "contrast"
+  }
+ ]
+}

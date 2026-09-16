@@ -1,0 +1,323 @@
+{
+ "schema": 1,
+ "id": "havana",
+ "type": "hub",
+ "names": {
+  "name": "Havana",
+  "aliases": [
+   "La Habana",
+   "Ciudad de La Habana"
+  ],
+  "said": "La Habana. The state company that sells care to foreigners is Servicios Médicos Cubanos, SMC."
+ },
+ "region": [
+  "caribbean"
+ ],
+ "facets": {
+  "iso2": "CU",
+  "radius_km": 20,
+  "specialty": [
+   "ophthalmology",
+   "neurology",
+   "rehabilitation",
+   "oncology",
+   "dermatology",
+   "addiction treatment"
+  ],
+  "draws": [
+   "cataract-surgery",
+   "addiction-rehab",
+   "executive-health-screening"
+  ],
+  "languages": [
+   "Spanish",
+   "English",
+   "Russian",
+   "Portuguese"
+  ]
+ },
+ "text": {
+  "what": "Cuba's capital, about two million people, and the only hub in this directory where every hospital and clinic is state-owned. Foreign patients are sold care through a government trading company rather than by the hospitals themselves, and the currency they bring is the point of the arrangement. It is also the only hub here whose largest source market is legally barred from most travel to it.",
+  "story": "There are no private hospitals or clinics in Cuba; all health services are government-run, and there were 150 hospitals in the country as of 2019. Foreign patients are handled through a state marketing company, Comercializadora de Servicios Médicos Cubanos, which sells access to the national system as a package of treatment, transfers, accommodation and support for a companion.\n\nThe treatments that travel are the unusual ones: eye surgery, multiple sclerosis and Parkinson's disease, retinitis pigmentosa, orthopaedics, addiction treatment. In 2005 more than 19,600 foreign patients came for care, most from Latin America, with the retinitis pigmentosa programme drawing patients from Europe and North America. Annual revenue from this trade has been put at around forty million United States dollars, a figure repeated without a stated year and one this directory carries as a circulating number rather than a measurement.\n\nCuba also runs the inverse trade. Under Operación Milagro, from 2004, it paid for Venezuelans with reversible blindness to fly to Cuba for free sight-restoring surgery; more than 200,000 Venezuelans were operated on, the programme was then exported, and by 2019 more than four million people in 34 countries had been treated through it. Free surgery flown in one direction and hard-currency surgery flown in the other, out of the same hospital system.\n\nThat is exactly where the argument sits, and this record reports it rather than settling it. The Cuban neurosurgeon and dissident Hilda Molina has argued that after the Special Period the state turned the medical system into a foreign-currency business and created a gap between what a Cuban and a foreigner receive. Others hold that the revenue funds the domestic system that treats Cubans for nothing.\n\n*Inference —* the gap is structurally hard to measure from outside, because the same ministry owns the hospitals, sells the packages and publishes the statistics.",
+  "how": "Care is bought from the state company, not from a hospital, and paid in hard currency. For United States residents the constraint is not clinical but legal: 31 CFR § 515.560, the travel section of the Cuban Assets Control Regulations, authorises twelve categories of travel — family visits, official business, journalism, professional research and meetings, education, religious activity, public performances and competitions, support for the Cuban people, humanitarian projects, private foundations and research institutes, informational materials, and certain export transactions. Going for treatment is not among them, and paragraph (f) states: \"Nothing in this section authorizes transactions in connection with tourist travel to Cuba.\" A note to the section does authorise the receipt of emergency medical services and payment for them.",
+  "today": "As of 16 September 2026 the Cuban health system remains wholly state-owned and sells to foreigners through a single state company; the United States regulation governing whether its own residents may lawfully pay for that care is 31 CFR § 515.560.",
+  "notes": "Nothing here is legal advice. A sanctions reading turns on facts this page does not have, and the regulation moves."
+ },
+ "geo": {
+  "lat": 23.1367,
+  "lon": -82.3589,
+  "precision": "city",
+  "source": "s:wp-havana"
+ },
+ "address": {
+  "city": "Havana",
+  "area": "La Habana",
+  "country": "CU"
+ },
+ "tags": [
+  {
+   "tag": "public-hospital",
+   "source": "s:wp-hospitals-cuba",
+   "tier": "cited",
+   "note": "every hospital and clinic in Cuba is government-run; 150 hospitals as of 2019"
+  }
+ ],
+ "kin": [
+  {
+   "to": "cuba",
+   "as": "The country whose entire health sector is the state, and whose export trade in care runs through one company.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "The nearest large market, and the one whose own law is the binding constraint on reaching this city.",
+   "rel": "kin"
+  },
+  {
+   "to": "santo-domingo",
+   "as": "The other Caribbean hub — private, cosmetic and reachable, where this one is public, neurological and not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "The operation Cuba exported by aircraft under Operación Milagro, free, in the opposite direction to the paying trade.",
+   "rel": "performs"
+  },
+  {
+   "to": "addiction-rehab",
+   "as": "One of the courses of treatment the state company sells to foreign patients.",
+   "rel": "performs"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "A sanctioned destination is an exclusion before it is a clinical one.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "circumvention",
+   "as": "Travel because of what the state at home forbids — here the forbidding state is the patient's own.",
+   "rel": "story"
+  },
+  {
+   "to": "who-travels",
+   "as": "Most of Havana's foreign patients come from Latin America, not from the country ninety miles north.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A number published by the ministry that owns the hospitals and sells the packages is a particular kind of number.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "31 CFR § 515.560",
+   "url": "https://www.law.cornell.edu/cfr/text/31/515.560"
+  }
+ ],
+ "sources": [
+  "s:wp-havana",
+  "s:wp-hospitals-cuba",
+  "s:wp-healthcare-cuba",
+  "s:wp-tourism-cuba",
+  "s:cacr-515-560"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-tourism-cuba",
+    "note": "patient numbers, revenue and the Molina criticism are the encyclopedia articles and are dated where the articles date them; the closing paragraph is this project's reasoning"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:cacr-515-560",
+    "note": "the twelve categories and the sentence in paragraph (f) are quoted from the regulation as published by the Cornell Legal Information Institute"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Havana Vedado skyline.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Cuba's capital, about two million people, and the only hub in this directory where every hospital and clinic is state-owned.",
+ "region_terms": [
+  {
+   "key": "caribbean",
+   "name": "The Caribbean",
+   "note": "the Dominican Republic, Cuba, Barbados, the Caymans"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "cuba",
+   "type": "destination",
+   "name": "Cuba",
+   "as": "The country whose entire health sector is the state, and whose export trade in care runs through one company.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "The nearest large market, and the one whose own law is the binding constraint on reaching this city.",
+   "rel": "kin"
+  },
+  {
+   "to": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "The other Caribbean hub — private, cosmetic and reachable, where this one is public, neurological and not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "The operation Cuba exported by aircraft under Operación Milagro, free, in the opposite direction to the paying trade.",
+   "rel": "performs"
+  },
+  {
+   "to": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "One of the courses of treatment the state company sells to foreign patients.",
+   "rel": "performs"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "A sanctioned destination is an exclusion before it is a clinical one.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "Travel because of what the state at home forbids — here the forbidding state is the patient's own.",
+   "rel": "story"
+  },
+  {
+   "to": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "Most of Havana's foreign patients come from Latin America, not from the country ninety miles north.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A number published by the ministry that owns the hospitals and sells the packages is a particular kind of number.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-havana",
+   "kind": "web",
+   "title": "Havana",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Havana",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hospitals-cuba",
+   "kind": "web",
+   "title": "List of hospitals in Cuba",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_hospitals_in_Cuba",
+   "accessed": "2026-09-16",
+   "note": "states there are no private hospitals or clinics in Cuba and gives 150 hospitals as of 2019"
+  },
+  {
+   "id": "s:wp-healthcare-cuba",
+   "kind": "web",
+   "title": "Healthcare in Cuba",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Cuba",
+   "accessed": "2026-09-16",
+   "note": "the health tourism section, the Operación Milagro eye-surgery programme, and the dispute over what hard-currency patients change inside Cuban hospitals"
+  },
+  {
+   "id": "s:wp-tourism-cuba",
+   "kind": "web",
+   "title": "Tourism in Cuba",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tourism_in_Cuba",
+   "accessed": "2026-09-16",
+   "note": "health tourism section; the 2005 figure of more than 19,600 foreign patients, and Hilda Molina's criticism"
+  },
+  {
+   "id": "s:cacr-515-560",
+   "kind": "law",
+   "title": "31 CFR § 515.560 — Travel-related transactions to, from, and within Cuba by persons subject to U.S. jurisdiction",
+   "publisher": "Cuban Assets Control Regulations, US Department of the Treasury, via Cornell Legal Information Institute",
+   "url": "https://www.law.cornell.edu/cfr/text/31/515.560",
+   "accessed": "2026-09-16",
+   "note": "twelve categories of authorised travel; paragraph (f) states that nothing in the section authorises transactions in connection with tourist travel to Cuba; a note to the section authorises the receipt of emergency medical services"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-tourism-cuba",
+   "note": "patient numbers, revenue and the Molina criticism are the encyclopedia articles and are dated where the articles date them; the closing paragraph is this project's reasoning"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:cacr-515-560",
+   "note": "the twelve categories and the sentence in paragraph (f) are quoted from the regulation as published by the Cornell Legal Information Institute"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "cited"
+  },
+  "address": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "public-hospital",
+   "label": "Public hospital",
+   "icon": "🏛",
+   "group": "ownership",
+   "evidence": "a ministry register, a national health service list, or the hospital's own statement",
+   "source": "s:wp-hospitals-cuba",
+   "note": "every hospital and clinic in Cuba is government-run; 150 hospitals as of 2019",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cuba",
+   "type": "destination",
+   "name": "Cuba",
+   "as": "Where the designated facilities and the state seller sit.",
+   "rel": "part"
+  },
+  {
+   "from": "santo-domingo",
+   "type": "hub",
+   "name": "Santo Domingo",
+   "as": "The other Caribbean hub — public, neurological and legally hard to reach, where this one is private and a two-hour flight.",
+   "rel": "contrast"
+  }
+ ]
+}

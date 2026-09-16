@@ -1,0 +1,275 @@
+{
+ "schema": 1,
+ "id": "nepal",
+ "type": "destination",
+ "names": {
+  "name": "Nepal",
+  "aliases": [
+   "नेपाल",
+   "Federal Democratic Republic of Nepal"
+  ],
+  "said": "In Kathmandu the question is not whether to go to India but which Indian city, and the answer usually comes from whoever in the family went last."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "NP",
+  "direction": "outbound",
+  "currency": "NPR",
+  "languages": [
+   "Nepali",
+   "English",
+   "Hindi"
+  ]
+ },
+ "text": {
+  "what": "A source market with one dominant destination and a published reason for going that is not the one the field assumes. A survey of 382 Nepali patients who had been treated abroad found 88.80 per cent went to India, and ranked the way they were treated at home above cost as the thing that moved them.",
+  "story": "Biswakarma and Basnet surveyed 382 Nepali respondents who had undergone treatment overseas and published the result in the International Hospitality Review in 2025. India took 88.80 per cent of them; Thailand 5.73 per cent; Singapore 4.95 per cent; the United States and United Kingdom together 0.52 per cent.\n\nWhat they went for was serious. Cancer treatment accounted for 39.32 per cent of cases, organ transplants 13.54 per cent and cardiovascular surgery 10.68 per cent. This is not a trade in elective cosmetic work.\n\nThe motivations are the finding. \"Healthcare provider attitude and poor service\" ranked highest at 22.4 per cent, ahead of the availability of advanced medical technology at 20.6 per cent, and the authors report that service quality had a large effect while price alone did not carry the decision.\n\n*Inference —* that inverts the standard account of this subject, which starts from the price gap and reasons forward. In the poorest country in this batch, the travelling patient's stated complaint is how they were spoken to. A survey of 382 people is not a census, and the sample is of people who already travelled — but it is a published figure with a method attached, which is more than most national totals in this directory have.\n\n*Trade practice —* the route runs overland as often as by air. An open border, shared language across the Terai, and Indian hospitals with Nepali-speaking coordinators make Delhi, Lucknow, Chennai and Vellore ordinary destinations rather than foreign ones.",
+  "how": "*Trade practice —* Nepali patients pay out of pocket, frequently on borrowed money or on remittances from a family member working abroad. No entry visa is needed for India. Referral travels by word of mouth and by the consultant who saw the patient in Kathmandu; the follow-up, when there is one, happens at home with a discharge summary and no operating surgeon.",
+  "today": "No Nepali government series counting patients who leave for treatment was read for this record, and none is carried. The 2025 survey is what this page stands on."
+ },
+ "geo": {
+  "lat": 27.7172,
+  "lon": 85.324,
+  "precision": "city",
+  "source": "s:osm"
+ },
+ "metrics": {
+  "inbound_patients_year": null,
+  "note": "None carried. The figures on this page come from one published survey of 382 Nepali patients treated abroad (Biswakarma and Basnet, 2025), not from a register: 88.80 per cent went to India, 5.73 per cent to Thailand, 4.95 per cent to Singapore. A survey of people who already travelled cannot say how many travelled.",
+  "as_of": "2025",
+  "source": "s:biswakarma-nepal-outbound-2025",
+  "url": "https://www.emerald.com/insight/content/doi/10.1108/ihr-12-2023-0062/full/html"
+ },
+ "kin": [
+  {
+   "to": "india",
+   "as": "Where 88.80 per cent of surveyed Nepali patients went.",
+   "rel": "destination"
+  },
+  {
+   "to": "delhi-ncr",
+   "as": "One of the northern Indian clusters a Kathmandu referral lands in.",
+   "rel": "destination"
+  },
+  {
+   "to": "chennai",
+   "as": "The southern destination for transplant and cancer work.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "as": "The second destination in the survey, at 5.73 per cent, and a different kind of patient.",
+   "rel": "destination"
+  },
+  {
+   "to": "sri-lanka",
+   "as": "The other South Asian country whose patients cross to India for the top of the acuity range.",
+   "rel": "contrast"
+  },
+  {
+   "to": "kidney-transplant",
+   "as": "Among the operations Nepali patients most often leave for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The Kathmandu review after an operation done across the border.",
+   "rel": "risk"
+  },
+  {
+   "to": "who-travels",
+   "as": "A survey that puts how a patient was treated ahead of what they were charged.",
+   "rel": "story"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The question this survey's respondents did not answer the way the field expects.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Motivational factors affecting outbound medical tourism: the case of Nepal",
+   "url": "https://www.emerald.com/insight/content/doi/10.1108/ihr-12-2023-0062/full/html"
+  }
+ ],
+ "sources": [
+  "s:biswakarma-nepal-outbound-2025",
+  "s:worldbank-open-data",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:biswakarma-nepal-outbound-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:biswakarma-nepal-outbound-2025",
+    "note": "all percentages from the published survey; the last two stretches are marked inference and trade practice"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:biswakarma-nepal-outbound-2025"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-16",
+ "blurb": "A source market with one dominant destination and a published reason for going that is not the one the field assumes.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "india",
+   "type": "destination",
+   "name": "India",
+   "as": "Where 88.80 per cent of surveyed Nepali patients went.",
+   "rel": "destination"
+  },
+  {
+   "to": "delhi-ncr",
+   "type": "hub",
+   "name": "Delhi NCR",
+   "as": "One of the northern Indian clusters a Kathmandu referral lands in.",
+   "rel": "destination"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The southern destination for transplant and cancer work.",
+   "rel": "destination"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The second destination in the survey, at 5.73 per cent, and a different kind of patient.",
+   "rel": "destination"
+  },
+  {
+   "to": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "The other South Asian country whose patients cross to India for the top of the acuity range.",
+   "rel": "contrast"
+  },
+  {
+   "to": "kidney-transplant",
+   "type": "procedure",
+   "name": "Kidney transplant",
+   "as": "Among the operations Nepali patients most often leave for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The Kathmandu review after an operation done across the border.",
+   "rel": "risk"
+  },
+  {
+   "to": "who-travels",
+   "type": "story",
+   "name": "Who travels",
+   "as": "A survey that puts how a patient was treated ahead of what they were charged.",
+   "rel": "story"
+  },
+  {
+   "to": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "The question this survey's respondents did not answer the way the field expects.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:biswakarma-nepal-outbound-2025",
+   "kind": "paper",
+   "title": "Motivational factors affecting outbound medical tourism: the case of Nepal, a developing nation",
+   "publisher": "International Hospitality Review (Emerald)",
+   "url": "https://www.emerald.com/insight/content/doi/10.1108/ihr-12-2023-0062/full/html",
+   "accessed": "2026-09-16",
+   "note": "Biswakarma, G. and Basnet, B., 2025; doi 10.1108/IHR-12-2023-0062; survey of 382 Nepali respondents who had been treated abroad"
+  },
+  {
+   "id": "s:worldbank-open-data",
+   "kind": "dataset",
+   "title": "World Bank Open Data — health and tourism indicators",
+   "publisher": "The World Bank",
+   "url": "https://data.worldbank.org/",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-16",
+   "note": "fetched by tools/harvest_worldbank.py; every indicator's own code and fetch date sit in data/harvest/worldbank.json"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:biswakarma-nepal-outbound-2025"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:biswakarma-nepal-outbound-2025",
+   "note": "all percentages from the published survey; the last two stretches are marked inference and trade practice"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:biswakarma-nepal-outbound-2025"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:biswakarma-nepal-outbound-2025"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "The other South Asian country whose patients leave for India, and which has been surveyed on why.",
+   "rel": "contrast"
+  }
+ ]
+}

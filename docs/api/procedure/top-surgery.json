@@ -1,0 +1,450 @@
+{
+ "schema": 1,
+ "id": "top-surgery",
+ "type": "procedure",
+ "names": {
+  "name": "Top surgery",
+  "aliases": [
+   "chest masculinisation",
+   "chest reconstruction",
+   "subcutaneous mastectomy",
+   "double incision with free nipple graft",
+   "keyhole top surgery",
+   "periareolar top surgery"
+  ],
+  "said": "The phrase is the community's, not the profession's: top and bottom, meaning chest and genitals. Surgeons write subcutaneous mastectomy or chest wall masculinisation in the notes, and then write top surgery on the price list, because that is what the page is searched for."
+ },
+ "etymology": {
+  "root": "mastectomy: Greek mastos, breast, plus ektomē, a cutting out. Periareolar and areola: Latin areola, a small open space, the diminutive of area. The trade names are geometric rather than Greek — double incision, keyhole, inverted T — and each names the scar it leaves rather than the tissue it removes.",
+  "tier": "tradition",
+  "note": "Free nipple graft means the nipple is removed entirely and replaced as a graft, so it loses sensation and may lose colour; keyhole and periareolar techniques keep it attached. Two price lines that differ by a few hundred are often describing that difference."
+ },
+ "region": [
+  "global",
+  "southeast-asia",
+  "europe-west",
+  "north-america"
+ ],
+ "facets": {
+  "family": "gender-affirming",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "Breast tissue is removed and the chest is reshaped to a male contour. Where the breasts are small and the skin elastic, the work is done through the areola and the nipple stays attached; where they are larger, the skin envelope is cut away in a horizontal ellipse and the nipples are taken off, resized and replaced as grafts. Liposuction is often added at the sides. Drains come out in days, stitches in about a week, and the scars are permanent and visible.",
+  "story": "This is the cheapest and commonest operation in the gender-affirming set, and it is the one that travels most easily: one general anaesthetic, a night or two on a ward, and a flight home inside a fortnight.\n\nThree countries publish a price for it and the three documents are not the same kind of thing. Yanhee Hospital in Bangkok lists a mastectomy at 111,000 baht with two nights, an inverted-T or inframammary version at 131,000, a nipple graft at 24,000 on top, and a surcharge of 25,500 where the patient weighs more than 70 kilogrammes — a table, priced by technique and by body, with no inclusion list at all. The London Transgender Clinic gives guide prices from £8,915 for the periareolar technique, £9,365 for double excision with free nipple graft and £12,415 with liposuction, every line reading \"Starts from\". The Gender Confirmation Center in San Francisco separates the surgeon's fee, at 8,500 to 11,500 dollars, from the whole, which it estimates at 14,000 to 17,000 dollars for a cash-paying patient, and adds a pathology charge it puts at 600 dollars.\n\n*Inference —* that third page is the useful one for reading the other two, because it shows where the missing money sits. A surgeon's fee is not a price. Facility and anaesthesia are quoted case by case, the laboratory that examines the removed tissue bills separately, and a list that quotes one of those three is quoting a third of a bill.\n\nThe same Bangkok table prices a different operation a few sections away. Under male breast reduction — gynaecomastia surgery, done on men with enlarged breast tissue — a mastectomy is 71,000 baht with one night, against 111,000 with two. The operation on the table is not identical, but the distance between those two rows is worth noticing on a page about what things cost.\n\nWhat sends people abroad for it is cost, waiting, and whether the system at home offers the operation to them at all. The last of those is administrative and legal and sits on this directory's gender-affirming care access page.",
+  "how": "General anaesthesia, two to three hours, and a stay published as two nights on the Thai table and two to five nights on another Bangkok hospital's page depending on technique. That hospital also publishes the tail: sutures out at seven days, back to work after two weeks, full healing at four to six months. Compression binders are worn for weeks. The parts that need a clinician after the flight home are drain management where drains are still in, the nipple grafts, and haematoma, which declares itself early and needs a theatre.",
+  "today": "As of 17 September 2026 the published prices read for this record run from 111,000 baht in Bangkok to 14,000-17,000 dollars in San Francisco, and the three pages disagree about what a price is: a table with nights attached, a guide price that starts from, and an estimate with the surgeon's fee itemised out of it. Nothing read for this record publishes what the revision rate is, and one of the three publishes what a revision costs.",
+  "notes": "This page describes an operation. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 2,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "Two nights is the ward stay attached to the mastectomy rows on the Yanhee price table; Kamol Cosmetic Hospital publishes two to five nights depending on technique, sutures removed at seven days, return to work after two weeks and full healing at four to six months. No source read here states a wait before flying.",
+  "as_of": "2026-09-17",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {
+   "procedure": "top-surgery",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 111000,
+   "amount_high": 131000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "2 nights in hospital, as stated in the nights column"
+   ],
+   "excludes": [
+    "nipple graft, listed separately at 24,000",
+    "nipple reduction at 36,000",
+    "an added 25,500 where body weight is over 70 kg",
+    "everything else: the page carries no inclusion list"
+   ],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "listed as STAGE 1: Mastectomy at 111,000, with the inverted T scar and inframammary approach versions both at 131,000. The table carries no validity date. A separate section of the same table prices a mastectomy for gynaecomastia at 71,000 with one night.",
+   "tier": "cited",
+   "usd": 3334.0,
+   "usd_high": 3935.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "top-surgery",
+   "country": "GB",
+   "city": "London",
+   "amount": 8915,
+   "amount_high": 12415,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "quoted-range",
+   "includes": [
+    "a formal quotation is stated to include the treatment, aftercare and the hospital stay where required"
+   ],
+   "excludes": [
+    "the initial face-to-face consultation at £250",
+    "any exact price before that consultation"
+   ],
+   "source": "s:ltc-price-list",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/",
+   "note": "periareolar incision from £8,915, double excision with free nipple graft from £9,365, with liposuction from £12,415. Every line reads Starts from and the page states guide prices are subject to change.",
+   "tier": "cited",
+   "usd": 12014.0,
+   "usd_high": 16731.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "top-surgery",
+   "country": "US",
+   "city": "San Francisco",
+   "amount": 14000,
+   "amount_high": 17000,
+   "currency": "USD",
+   "as_of": "2024-03-13",
+   "kind": "estimate",
+   "includes": [
+    "the practice's estimate of a total for a cash-paying patient",
+    "a compression binder and wound care, stated to be provided free"
+   ],
+   "excludes": [
+    "pathology testing, stated at 600 dollars and required for everything but revisions",
+    "facility and anaesthesiology fees, quoted case by case",
+    "scar management: silicone products at 15 to 150 dollars, steroid injections at 150 a treatment after the first three",
+    "accommodation and post-operative care services, stated at 250 to 2,500 dollars a day"
+   ],
+   "source": "s:gcc-top-surgery-price",
+   "url": "https://www.genderconfirmation.com/top-surgery-price/",
+   "note": "on a page marked medically reviewed 13 March 2024. The surgeon's fee alone is given as 8,500 to 11,500 dollars for chest reconstruction and 1,500 to 3,000 for a revision; the gap between that fee and the 14,000-17,000 total is the rest of the bill, itemised.",
+   "tier": "cited",
+   "usd": 14000.0,
+   "usd_high": 17000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "gender-affirming-care-access",
+   "as": "Whether this is offered, funded or permitted at home — the reason the flight exists.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "vaginoplasty",
+   "as": "The other end of the same price list, at four times the money and nine nights.",
+   "rel": "kin"
+  },
+  {
+   "to": "phalloplasty",
+   "as": "Stage one before it on the Thai list, and a precondition on a Bangkok hospital's candidacy page.",
+   "rel": "kin"
+  },
+  {
+   "to": "breast-augmentation",
+   "as": "The mirror operation, priced by implant on the same tables.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the table that prices this by technique, scar and body weight is published.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where a private list publishes guide prices and a queue sends people to look at them.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "Where a practice publishes the surgeon's fee and the total separately, which is what makes the other lists readable.",
+   "rel": "destination"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "A surgeon's fee, a facility fee and a pathology charge are three different numbers and two of them are usually missing.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "What sets the earliest sensible flight after a general anaesthetic and a chest wound.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Haematoma and graft loss declare themselves in the first fortnight, often after the flight.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who takes the drains out, and who looks at the scars at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Whether a policy covers this at home is what decides whether the cash price matters at all.",
+   "rel": "rule"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "breast-augmentation",
+   "tell": "Both are chest surgery and both sit on the same clinic price lists; one removes tissue and leaves a scar across the chest, the other adds an implant that is itself a separate purchase."
+  }
+ ],
+ "links": [
+  {
+   "label": "Yanhee Hospital plastic surgery price table",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+  },
+  {
+   "label": "The London Transgender Clinic price list",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/"
+  },
+  {
+   "label": "Gender Confirmation Center — top surgery price",
+   "url": "https://www.genderconfirmation.com/top-surgery-price/"
+  }
+ ],
+ "sources": [
+  "s:yanhee-plastic-prices",
+  "s:ltc-price-list",
+  "s:gcc-top-surgery-price",
+  "s:kamol-top-surgery"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:yanhee-plastic-prices",
+    "note": "the three price documents are read off their own pages; the paragraph reading them against each other is marked Inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:kamol-top-surgery"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:yanhee-plastic-prices"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:yanhee-plastic-prices"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Transgender Pride flag.svg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "Breast tissue is removed and the chest is reshaped to a male contour.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  },
+  {
+   "key": "north-america",
+   "name": "North America",
+   "note": "the United States and Canada — the two biggest source markets in the world"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "Whether this is offered, funded or permitted at home — the reason the flight exists.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "vaginoplasty",
+   "type": "procedure",
+   "name": "Vaginoplasty",
+   "as": "The other end of the same price list, at four times the money and nine nights.",
+   "rel": "kin"
+  },
+  {
+   "to": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "Stage one before it on the Thai list, and a precondition on a Bangkok hospital's candidacy page.",
+   "rel": "kin"
+  },
+  {
+   "to": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "The mirror operation, priced by implant on the same tables.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where the table that prices this by technique, scar and body weight is published.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "Where a private list publishes guide prices and a queue sends people to look at them.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "type": "destination",
+   "name": "United States",
+   "as": "Where a practice publishes the surgeon's fee and the total separately, which is what makes the other lists readable.",
+   "rel": "destination"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "A surgeon's fee, a facility fee and a pathology charge are three different numbers and two of them are usually missing.",
+   "rel": "step"
+  },
+  {
+   "to": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "What sets the earliest sensible flight after a general anaesthetic and a chest wound.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Haematoma and graft loss declare themselves in the first fortnight, often after the flight.",
+   "rel": "risk"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "Who takes the drains out, and who looks at the scars at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "Whether a policy covers this at home is what decides whether the cash price matters at all.",
+   "rel": "rule"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:yanhee-plastic-prices",
+   "kind": "web",
+   "title": "Plastic Surgery Prices",
+   "publisher": "Yanhee Hospital, Bangkok",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "accessed": "2026-09-16",
+   "note": "hospital's own price table: procedure, nights, price in Thai baht. The page carries no validity date and no inclusion list."
+  },
+  {
+   "id": "s:ltc-price-list",
+   "kind": "web",
+   "title": "Price List — surgery, facial feminisation, MTF GCS/SRS, body masculinisation",
+   "publisher": "The London Transgender Clinic, London",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/",
+   "accessed": "2026-09-17",
+   "note": "read with the browser tools. Every surgical line is prefixed 'Starts from'. The page states that an exact price cannot be given before consultation, that a formal quotation covers treatment, aftercare and the hospital stay where required, and that guide prices are subject to change. It carries no date. There is no phalloplasty or metoidioplasty row on it."
+  },
+  {
+   "id": "s:gcc-top-surgery-price",
+   "kind": "web",
+   "title": "How Much is Top Surgery: A Detailed Guide",
+   "publisher": "Gender Confirmation Center, San Francisco; page marked medically reviewed 13 March 2024",
+   "url": "https://www.genderconfirmation.com/top-surgery-price/",
+   "accessed": "2026-09-16",
+   "note": "cash-pay estimates, separating the surgeon's fee from facility and anaesthesia fees"
+  },
+  {
+   "id": "s:kamol-top-surgery",
+   "kind": "web",
+   "title": "Top Surgery / Mastectomy — techniques, stay and recovery",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/top-surgery-mastectomy/",
+   "accessed": "2026-09-17",
+   "note": "states a stay of 2-5 nights depending on technique, suture removal at 7 days, return to work after 2 weeks and full healing at 4-6 months. No price is published on the page."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:yanhee-plastic-prices",
+   "note": "the three price documents are read off their own pages; the paragraph reading them against each other is marked Inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:kamol-top-surgery"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited",
+   "source": "s:yanhee-plastic-prices"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:yanhee-plastic-prices"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "phalloplasty",
+   "type": "procedure",
+   "name": "Phalloplasty",
+   "as": "Stage one on the same Thai list, at a quarter of the price and two nights.",
+   "rel": "kin"
+  },
+  {
+   "from": "vaginoplasty",
+   "type": "procedure",
+   "name": "Vaginoplasty",
+   "as": "Usually the first operation and usually the cheapest, on the same price lists.",
+   "rel": "kin"
+  },
+  {
+   "from": "gender-affirming-care-access",
+   "type": "rule",
+   "name": "Access to gender-affirming care",
+   "as": "The third, and the one most often bought abroad.",
+   "rel": "procedure"
+  }
+ ]
+}

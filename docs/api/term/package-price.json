@@ -1,0 +1,563 @@
+{
+ "id": "package-price",
+ "names": {
+  "name": "Package price",
+  "aliases": [
+   "package",
+   "all-inclusive package",
+   "fixed-price package",
+   "surgery package"
+  ],
+  "said": "Hospitals say package. Brokers say all-inclusive. Neither phrase is defined by anybody except the party selling it."
+ },
+ "etymology": {
+  "root": "package is pack plus the noun suffix -age, 1530s, and first meant the act of packing; the sense of a bundle or a quantity pressed together follows in 1722. The commercial compound arrives much later — the Online Etymology Dictionary dates package deal, \"transaction agreed to as a whole\", to 1952 — so the word this trade prices in comes from post-war selling, not from medicine.",
+  "first_attested": "1722 for the bundle sense; 1952 for package deal",
+  "tier": "cited",
+  "source": "s:etymonline-package",
+  "note": "A package is a list, not a total. Items left off the list are billed at the ordinary rate."
+ },
+ "text": {
+  "what": "One figure covering a named list of items for one episode of treatment: theatre time, a surgeon, an anaesthetist, a stated number of nights. It is the form almost every price on this site takes. Its meaning sits entirely in the two lists the seller publishes beside it — what the figure covers and what it does not.",
+  "story": "Read one and the shape is plain. Bumrungrad's total knee replacement package, JOINT04, read on 16 September 2026, buys three hours of theatre, the nursing and surgical team within those three hours, three nights on the surgical ward, equipment and supplies, medications related to the procedure, the surgeon, an assistant surgeon if needed, and the anaesthesiologist. Its exclusion list is longer: the implant, the first consultation and the follow-up visits, specialist consultations, nights beyond three and any intensive care, blood transfusion, laboratory and imaging before or after surgery, take-home medication, outpatient charges before admission, and complex or emergency cases. The package name itself carries the word — exclude implant.\n\nA package can also be the instrument that hides a unit. Estenove in Istanbul prices hair restoration at 3,395, 4,595 and 6,595 euro for what it calls the maximum number of grafts, and states that it does not price per graft. One seller's package removes the unit of comparison; another seller's package removes the largest line on the bill.\n\n*Inference —* a package price is therefore comparable only against a package with the same list. A joint package that excludes the implant and one that includes it are two different objects wearing the same word, and the gap between them is not a discount.",
+  "how": "Four things decide what a package figure means: whether the stated nights are a floor or a ceiling and what night N+1 costs; whether the price has an expiry date on the page; whether a complication is inside the package, outside it, or covered by a separate undertaking with its own duration; and whether the implant, prosthesis or device is a line of its own.",
+  "today": "As of 17 September 2026 every price on this site that carries the kind package is read off a seller's own page with its date, its inclusion list and its exclusion list beside it. No regulator anywhere requires a common inclusion list, which is why two packages for the same operation cannot be subtracted from one another."
+ },
+ "kin": [
+  {
+   "to": "bundled-payment",
+   "as": "The payer's version of the same idea: one price for an episode, set by an insurer instead of by a seller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "case-rate",
+   "as": "The trade term for the flat fee a package is built out of.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step in the journey where this form of price is actually read.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The commonest missing line, and the reason two package prices are not comparable.",
+   "rel": "risk"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "Where a package number is first put in front of a patient.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The operation whose package this record reads, implant excluded.",
+   "rel": "procedure"
+  }
+ ],
+ "sources": [
+  "s:etymonline-package",
+  "s:bumrungrad-joint04",
+  "s:estenove-cost"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the four questions are this project's, drawn from the exclusion lists it has read"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "P"
+ },
+ "blurb": "One figure covering a named list of items for one episode of treatment: theatre time, a surgeon, an anaesthetist, a stated number of nights. It is the form almost every price on this site takes.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "The payer's version of the same idea: one price for an episode, set by an insurer instead of by a seller.",
+   "rel": "contrast"
+  },
+  {
+   "to": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "The trade term for the flat fee a package is built out of.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The step in the journey where this form of price is actually read.",
+   "rel": "step"
+  },
+  {
+   "to": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The commonest missing line, and the reason two package prices are not comparable.",
+   "rel": "risk"
+  },
+  {
+   "to": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "Where a package number is first put in front of a patient.",
+   "rel": "step"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The operation whose package this record reads, implant excluded.",
+   "rel": "procedure"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:etymonline-package",
+   "kind": "dictionary",
+   "title": "package (n.), package deal — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/package",
+   "accessed": "2026-09-17",
+   "note": "1530s; bundle sense 1722; package deal 1952"
+  },
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  },
+  {
+   "id": "s:estenove-cost",
+   "kind": "web",
+   "title": "Hair Transplant Cost and Prices in Turkey",
+   "publisher": "Estenove, Istanbul",
+   "url": "https://www.estenove.com/hair-transplant-cost-istanbul-turkey/",
+   "accessed": "2026-09-16",
+   "note": "clinic's own package prices in euro, quoted per session rather than per graft"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "the four questions are this project's, drawn from the exclusion lists it has read"
+  },
+  "text.today": {
+   "tier": "inference"
+  },
+  "etymology": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "argentina",
+   "type": "destination",
+   "name": "Argentina",
+   "as": "The pricing form this country mostly does not use, quoting per procedure instead.",
+   "rel": "term"
+  },
+  {
+   "from": "hungary",
+   "type": "destination",
+   "name": "Hungary",
+   "as": "The form this country does not use: the bill here is itemised, not bundled.",
+   "rel": "term"
+  },
+  {
+   "from": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "The pricing form this country normalised.",
+   "rel": "term"
+  },
+  {
+   "from": "tunisia",
+   "type": "destination",
+   "name": "Tunisia",
+   "as": "The form the trade sells in, quoted in euros.",
+   "rel": "term"
+  },
+  {
+   "from": "antalya",
+   "type": "hub",
+   "name": "Antalya",
+   "as": "The form this city invented for holidays and now sells surgery in.",
+   "rel": "term"
+  },
+  {
+   "from": "bangkok",
+   "type": "hub",
+   "name": "Bangkok",
+   "as": "The unit of account a dozen hospitals within a few kilometres quote each other in.",
+   "rel": "term"
+  },
+  {
+   "from": "istanbul",
+   "type": "hub",
+   "name": "Istanbul",
+   "as": "The form the whole belt sells in, graft count included.",
+   "rel": "term"
+  },
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "The form the Bangkok price takes, meniscus work folded in.",
+   "rel": "term"
+  },
+  {
+   "from": "all-on-four",
+   "type": "procedure",
+   "name": "All-on-4",
+   "as": "The pricing form this technique is sold in, one arch at a time.",
+   "rel": "term"
+  },
+  {
+   "from": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The pricing form this product is native to.",
+   "rel": "term"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "The form that bundles hotel nights with theatre time, and which this operation depends on most.",
+   "rel": "term"
+  },
+  {
+   "from": "gastric-balloon",
+   "type": "procedure",
+   "name": "Gastric balloon",
+   "as": "The pricing form that puts a rented device in a column of permanent operations.",
+   "rel": "term"
+  },
+  {
+   "from": "gastric-bypass",
+   "type": "procedure",
+   "name": "Gastric bypass",
+   "as": "The pricing form this operation is sold in, and what the week-long bundle leaves out.",
+   "rel": "term"
+  },
+  {
+   "from": "gastric-sleeve",
+   "type": "procedure",
+   "name": "Sleeve gastrectomy",
+   "as": "The pricing form this operation is sold in, hotel and transfers inside, aftercare outside.",
+   "rel": "term"
+  },
+  {
+   "from": "heart-valve-replacement",
+   "type": "procedure",
+   "name": "Heart valve replacement",
+   "as": "The pricing form this operation is sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  },
+  {
+   "from": "hip-replacement",
+   "type": "procedure",
+   "name": "Total hip replacement",
+   "as": "The pricing form this operation is sold in, and the reason its exclusions decide the bill.",
+   "rel": "term"
+  },
+  {
+   "from": "icsi",
+   "type": "procedure",
+   "name": "Intracytoplasmic sperm injection",
+   "as": "The form that hides this step inside a cycle price, or itemises it.",
+   "rel": "term"
+  },
+  {
+   "from": "ivf",
+   "type": "procedure",
+   "name": "In vitro fertilisation",
+   "as": "The pricing form a cycle is sold in, and the reason the drug bill sits outside it.",
+   "rel": "term"
+  },
+  {
+   "from": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The pricing form this operation is usually sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  },
+  {
+   "from": "liposuction",
+   "type": "procedure",
+   "name": "Liposuction",
+   "as": "The form in which areas, garments and ward nights are bundled or not.",
+   "rel": "term"
+  },
+  {
+   "from": "rhinoplasty",
+   "type": "procedure",
+   "name": "Rhinoplasty",
+   "as": "The pricing form that hides whether the implant, the ward night and the anaesthetist are in the number.",
+   "rel": "term"
+  },
+  {
+   "from": "spinal-fusion",
+   "type": "procedure",
+   "name": "Spinal fusion",
+   "as": "The form this operation is sold in, priced per level.",
+   "rel": "term"
+  },
+  {
+   "from": "american-hospital-dubai",
+   "type": "facility",
+   "name": "American Hospital Dubai",
+   "as": "Sells in this form, and shows what a bundle looks like when the bundle is fixed and the bill is not.",
+   "rel": "term"
+  },
+  {
+   "from": "bangkok-hospital",
+   "type": "facility",
+   "name": "Bangkok Hospital",
+   "as": "Sells in this form, with a usable-between window rather than an open-ended list price.",
+   "rel": "term"
+  },
+  {
+   "from": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Sells in this form, with the inclusions and exclusions written out.",
+   "rel": "term"
+  },
+  {
+   "from": "island-hospital-penang",
+   "type": "facility",
+   "name": "Island Hospital",
+   "as": "Sells in this form, down to a redemption deadline printed on each product page.",
+   "rel": "term"
+  },
+  {
+   "from": "liv-hospital",
+   "type": "facility",
+   "name": "Liv Hospital",
+   "as": "Sells in this form, and states what each package contains by test count rather than by name.",
+   "rel": "term"
+  },
+  {
+   "from": "medanta",
+   "type": "facility",
+   "name": "Medanta — The Medicity, Gurugram",
+   "as": "Sells check-ups in this form; operations are still quoted case by case.",
+   "rel": "term"
+  },
+  {
+   "from": "prince-court",
+   "type": "facility",
+   "name": "Prince Court Medical Centre",
+   "as": "Sells in this form: a price, four inclusions, three exclusions and no expiry date.",
+   "rel": "term"
+  },
+  {
+   "from": "raffles-hospital",
+   "type": "facility",
+   "name": "Raffles Hospital",
+   "as": "Sells in this form, with the exclusions written as eligibility rules rather than as extras.",
+   "rel": "term"
+  },
+  {
+   "from": "getting-a-quote",
+   "type": "pathway",
+   "name": "Getting a quote",
+   "as": "The pricing form this step almost always takes.",
+   "rel": "term"
+  },
+  {
+   "from": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "The form of price whose exclusions this step reads.",
+   "rel": "term"
+  },
+  {
+   "from": "anaesthetic-risk-unscreened",
+   "type": "risk",
+   "name": "Fitness for anaesthesia, assessed on arrival",
+   "as": "The pricing form that needs a predictable case, and says so in its eligibility list.",
+   "rel": "term"
+  },
+  {
+   "from": "deposit-and-refund",
+   "type": "risk",
+   "name": "The deposit, and whether it comes back",
+   "as": "The form the money is quoted in.",
+   "rel": "term"
+  },
+  {
+   "from": "flying-after-surgery",
+   "type": "risk",
+   "name": "Flying after surgery",
+   "as": "The pricing form whose stated length of stay sits against this interval.",
+   "rel": "term"
+  },
+  {
+   "from": "implant-excluded",
+   "type": "risk",
+   "name": "The implant is excluded",
+   "as": "The pricing form this risk lives inside.",
+   "rel": "term"
+  },
+  {
+   "from": "the-escort-burden",
+   "type": "risk",
+   "name": "The escort burden",
+   "as": "The number the second fare and the second bed sit outside.",
+   "rel": "term"
+  },
+  {
+   "from": "defiant",
+   "type": "org",
+   "name": "Defiant",
+   "as": "Sells in this form, with the price posted before the consultation.",
+   "rel": "term"
+  },
+  {
+   "from": "josef-woodman",
+   "type": "person",
+   "name": "Josef Woodman",
+   "as": "The unit his book listed hospitals in.",
+   "rel": "term"
+  },
+  {
+   "from": "asa-grade",
+   "type": "term",
+   "name": "ASA grade",
+   "as": "The price that assumes a low grade without saying so.",
+   "rel": "term"
+  },
+  {
+   "from": "bundled-payment",
+   "type": "term",
+   "name": "Bundled payment",
+   "as": "The seller's version of the same idea, with no payer and no published window.",
+   "rel": "contrast"
+  },
+  {
+   "from": "case-rate",
+   "type": "term",
+   "name": "Case rate",
+   "as": "What a case rate looks like when it is offered to the public instead of negotiated.",
+   "rel": "term"
+  },
+  {
+   "from": "cycle",
+   "type": "term",
+   "name": "Cycle",
+   "as": "The form a cycle price takes, and the inclusion list that decides what a cycle is.",
+   "rel": "term"
+  },
+  {
+   "from": "day-case",
+   "type": "term",
+   "name": "Day case",
+   "as": "The price that assumes the intended pathway held.",
+   "rel": "term"
+  },
+  {
+   "from": "facilitator",
+   "type": "term",
+   "name": "Facilitator",
+   "as": "What a facilitator sells: a single number assembled out of other people's services.",
+   "rel": "term"
+  },
+  {
+   "from": "graft",
+   "type": "term",
+   "name": "Graft",
+   "as": "The form that removes the unit altogether by selling a session instead.",
+   "rel": "term"
+  },
+  {
+   "from": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "Where the nights are fixed, and where the night after them is priced.",
+   "rel": "term"
+  },
+  {
+   "from": "out-of-pocket",
+   "type": "term",
+   "name": "Out-of-pocket",
+   "as": "The form of price this money usually buys.",
+   "rel": "term"
+  },
+  {
+   "from": "revision",
+   "type": "term",
+   "name": "Revision",
+   "as": "The form of price whose revision clause is the fine print that matters most.",
+   "rel": "term"
+  },
+  {
+   "from": "exchange-rate-table",
+   "type": "dataset",
+   "name": "The dated exchange rate table",
+   "as": "What a package price is quoted in, before this table touches it.",
+   "rel": "term"
+  },
+  {
+   "from": "how-this-was-built",
+   "type": "story",
+   "name": "How this was built",
+   "as": "The form most prices here take, and the reason two of them cannot be subtracted.",
+   "rel": "term"
+  },
+  {
+   "from": "is-it-cheaper",
+   "type": "story",
+   "name": "Is it cheaper",
+   "as": "The form of price this comparison is made of, and why two of them cannot be subtracted.",
+   "rel": "term"
+  },
+  {
+   "from": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "The word, its root, and why two packages cannot be subtracted from one another.",
+   "rel": "term"
+  }
+ ]
+}

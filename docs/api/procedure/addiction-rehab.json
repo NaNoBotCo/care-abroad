@@ -1,0 +1,371 @@
+{
+ "schema": 1,
+ "id": "addiction-rehab",
+ "type": "procedure",
+ "names": {
+  "name": "Residential addiction treatment",
+  "aliases": [
+   "rehab",
+   "inpatient rehabilitation",
+   "detox and rehab",
+   "residential treatment programme"
+  ],
+  "said": "The trade says rehab and prices it by the programme: 28 days, 30 days, twelve weeks. Detox is the medical part and is sometimes sold on its own; the rest is therapy, accommodation and time."
+ },
+ "etymology": {
+  "root": "rehabilitation: Latin re- plus habilitare, to make fit again, from habilis, able. The word entered medicine through war injury and industrial compensation before it attached to drinking and drugs, which is part of why the treatment is priced like a hotel with clinicians attached rather than like an operation.",
+  "tier": "tradition",
+  "note": "detox and rehab are different products. Detox is a supervised withdrawal measured in days; a rehabilitation programme is measured in weeks, and a price for one is not a price for the other."
+ },
+ "region": [
+  "global",
+  "southeast-asia",
+  "europe-west"
+ ],
+ "facets": {
+  "family": "rehabilitation",
+  "setting": "inpatient",
+  "anaesthesia": "none"
+ },
+ "text": {
+  "what": "A stay of several weeks in a residential centre: medically supervised withdrawal where it is needed, then individual and group therapy, structured days, and an aftercare plan. The unit of sale is the programme or the week, not the procedure. Accommodation, food and staff time are most of the cost, which is why the price maps onto the local cost of living more directly than any surgical price does.",
+  "story": "Residential addiction treatment crossed borders for the same reason cosmetic surgery did, and earlier: the product is staff-intensive, it is rarely funded, and the price gap between a Thai centre and a British one is a multiple rather than a margin.\n\nThe Dawn in Chiang Mai publishes a bracket rather than a price - 10,000 to 20,000 US dollars for a month's stay - and publishes both lists that matter. Included: private en suite accommodation, three meals, medically supervised detox where needed, two individual therapy sessions and fifteen hours of group therapy a week, 24-hour nursing, daily wellness activities, weekly outings, airport transfers and lifetime weekly aftercare groups. Excluded: international flights, visa extension fees, medications, TMS therapy, off-site medical services, unrelated transport and travel or health insurance.\n\nThe Priory in the United Kingdom publishes named programmes with prices: Transform 28, a 28-day inpatient hospital programme with therapy, twelve months of aftercare and optional detox, from 21,813 pounds; Reset, a seven to ten day detox-only programme with medical supervision, accommodation and meals, from 6,540; Flourish, residential recovery without detox, from 4,410 for fourteen days; individual outpatient therapy at 155 pounds a session.\n\n*Trade practice --* two things make this trade different from surgical travel. The first is that the treatment has no discharge date that ends it: relapse is part of the condition being treated, and every centre's aftercare promise is a promise made at a distance once the patient flies home. The second is the visa. A month or three months in a country on a visitor entry is a question for that country's immigration rules, and the centre that quotes the programme is rarely the body that answers it - The Dawn's own exclusion list puts visa extension fees on the patient.",
+  "how": "Admission after a telephone or video assessment; detox first where the substance requires it, under nursing observation; then a daily timetable of individual and group therapy running several weeks. Families are involved by video across time zones. Discharge comes with an aftercare plan that usually means online groups, because the therapist is in another country. Medication prescribed abroad may not be dispensable at home, which is a cross-border prescription question rather than a clinical one.",
+  "today": "Two published prices sit on this record, from Thailand and the United Kingdom, read in September 2026. A third country could not be sourced to a provider's own published tariff: the South African and Spanish centres checked for this record publish ranges through third-party guides rather than prices of their own.",
+  "notes": "This page describes a service and how it is priced. It is not clinical advice, and it does not say where anyone should be treated."
+ },
+ "metrics": {
+  "stay_days": 28,
+  "note": "28 days is the programme length both published tariffs on this record are built around - The Dawn quotes by the month, the Priory's Transform 28 by the four weeks. It is a commercial unit rather than a clinical one; the evidence on how long residential treatment should run is not settled by either page.",
+  "as_of": "2026-09-16",
+  "source": "s:priory-rehab-cost",
+  "url": "https://www.priorygroup.com/addiction-treatment/how-much-does-rehab-cost"
+ },
+ "prices": [
+  {
+   "procedure": "addiction-rehab",
+   "country": "TH",
+   "city": "Chiang Mai",
+   "amount": 10000,
+   "amount_high": 20000,
+   "currency": "USD",
+   "as_of": "2026-09-16",
+   "kind": "quoted-range",
+   "includes": [
+    "private en suite accommodation with daily housekeeping and laundry",
+    "three meals a day",
+    "medically supervised detox when needed",
+    "two individual therapy sessions a week",
+    "fifteen hours of group therapy a week",
+    "24/7 on-site medical care with nursing staff",
+    "daily wellness activities",
+    "weekly outings with entrance fees and meals",
+    "airport transfers",
+    "lifetime weekly aftercare groups at no additional cost"
+   ],
+   "excludes": [
+    "international flights",
+    "visa extension fees",
+    "medications",
+    "TMS therapy",
+    "off-site medical services and purchases",
+    "transport unrelated to the stay",
+    "travel and health insurance"
+   ],
+   "source": "s:dawn-rehab-rates",
+   "url": "https://thedawnrehab.com/service-rate/",
+   "note": "quoted as a bracket for a month's stay; the centre states programme pricing is customised to the individual and the length of stay",
+   "tier": "cited",
+   "usd": 10000.0,
+   "usd_high": 20000.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "addiction-rehab",
+   "country": "GB",
+   "amount": 21813,
+   "currency": "GBP",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "28 day inpatient hospital programme",
+    "therapy",
+    "twelve months aftercare",
+    "optional detox",
+    "accommodation and meals"
+   ],
+   "excludes": [
+    "not itemised on the page"
+   ],
+   "source": "s:priory-rehab-cost",
+   "url": "https://www.priorygroup.com/addiction-treatment/how-much-does-rehab-cost",
+   "note": "the Transform 28 programme, listed as 'from'. The same page prices a seven to ten day detox-only programme (Reset) from 6,540 GBP, a fourteen-day residential programme without detox (Flourish) from 4,410 GBP, and individual outpatient therapy at 155 GBP a session.",
+   "tier": "cited",
+   "usd": 29396.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "thailand",
+   "as": "Where a month of residential treatment is published as a bracket with both lists attached.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The source market whose own tariff is the comparison being made.",
+   "rel": "destination"
+  },
+  {
+   "to": "panchakarma",
+   "as": "The other long-stay course sold by the night, in the same countries, to a different buyer.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wellness-travel",
+   "as": "The trade this one is marketed beside, and is repeatedly confused with.",
+   "rel": "term"
+  },
+  {
+   "to": "thai-medical-visa",
+   "as": "Whether a month or a quarter of treatment fits the entry the patient arrived on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "as": "What happens to the medication started abroad when the patient lands at home.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where the promise of lifetime aftercare groups has to be kept, by video.",
+   "rel": "step"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Whether any of this is funded at home, which decides who travels.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "as": "Family involvement across time zones is part of the treatment and none of the price.",
+   "rel": "step"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "panchakarma",
+   "tell": "Both are long residential stays sold by the week in the same part of the world. One treats dependence with therapy and nursing; the other is an Ayurvedic course of oil treatments and diet."
+  }
+ ],
+ "links": [
+  {
+   "label": "The Dawn published service rates",
+   "url": "https://thedawnrehab.com/service-rate/"
+  },
+  {
+   "label": "Priory programme tariffs",
+   "url": "https://www.priorygroup.com/addiction-treatment/how-much-does-rehab-cost"
+  }
+ ],
+ "sources": [
+  "s:dawn-rehab-rates",
+  "s:priory-rehab-cost"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "inclusion and exclusion lists are the centres' own; the closing paragraph is marked as trade practice inline"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "etymology": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A stay of several weeks in a residential centre: medically supervised withdrawal where it is needed, then individual and group therapy, structured days, and an aftercare plan.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "thailand",
+   "type": "destination",
+   "name": "Thailand",
+   "as": "Where a month of residential treatment is published as a bracket with both lists attached.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "type": "destination",
+   "name": "United Kingdom",
+   "as": "The source market whose own tariff is the comparison being made.",
+   "rel": "destination"
+  },
+  {
+   "to": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "The other long-stay course sold by the night, in the same countries, to a different buyer.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wellness-travel",
+   "type": "term",
+   "name": "Wellness travel",
+   "as": "The trade this one is marketed beside, and is repeatedly confused with.",
+   "rel": "term"
+  },
+  {
+   "to": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "Whether a month or a quarter of treatment fits the entry the patient arrived on.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "What happens to the medication started abroad when the patient lands at home.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "Where the promise of lifetime aftercare groups has to be kept, by video.",
+   "rel": "step"
+  },
+  {
+   "to": "insurance-exclusions",
+   "type": "rule",
+   "name": "Insurance exclusions for treatment abroad",
+   "as": "Whether any of this is funded at home, which decides who travels.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "Family involvement across time zones is part of the treatment and none of the price.",
+   "rel": "step"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dawn-rehab-rates",
+   "kind": "web",
+   "title": "The Cost of Rehab in Thailand - service rates",
+   "publisher": "The Dawn Rehab, Chiang Mai",
+   "url": "https://thedawnrehab.com/service-rate/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:priory-rehab-cost",
+   "kind": "web",
+   "title": "How Much Does Rehab Cost in the UK",
+   "publisher": "Priory Group",
+   "url": "https://www.priorygroup.com/addiction-treatment/how-much-does-rehab-cost",
+   "accessed": "2026-09-16",
+   "note": "named programme tariffs, each prefixed 'from'"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "inclusion and exclusion lists are the centres' own; the closing paragraph is marked as trade practice inline"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "etymology": {
+   "tier": "tradition"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cuba",
+   "type": "destination",
+   "name": "Cuba",
+   "as": "A course of weeks, which is the shape of what the state seller quotes.",
+   "rel": "procedure"
+  },
+  {
+   "from": "switzerland",
+   "type": "destination",
+   "name": "Switzerland",
+   "as": "The residential programme priced by the week and never published.",
+   "rel": "procedure"
+  },
+  {
+   "from": "havana",
+   "type": "hub",
+   "name": "Havana",
+   "as": "One of the courses of treatment the state company sells to foreign patients.",
+   "rel": "performs"
+  },
+  {
+   "from": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "The other long-stay residential course, priced the same way and bought by a different traveller.",
+   "rel": "contrast"
+  },
+  {
+   "from": "counterfeit-medicines",
+   "type": "risk",
+   "name": "Substandard and falsified medicines",
+   "as": "Where the substance itself is the treatment, and its identity is the whole of the question.",
+   "rel": "procedure"
+  },
+  {
+   "from": "thai-medical-visa",
+   "type": "rule",
+   "name": "Thailand's medical treatment visa",
+   "as": "One of the long courses that outruns the 90-day ceiling.",
+   "rel": "procedure"
+  }
+ ]
+}

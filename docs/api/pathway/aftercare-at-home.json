@@ -1,0 +1,360 @@
+{
+ "id": "aftercare-at-home",
+ "names": {
+  "name": "Aftercare at home",
+  "aliases": [
+   "follow-up",
+   "the six-week check",
+   "post-operative care at home"
+  ],
+  "said": "The package called it follow-up and meant the week in the hotel. At home it means whoever takes the stitches out."
+ },
+ "facets": {
+  "stage": "aftercare"
+ },
+ "x_order": 15,
+ "text": {
+  "what": "Wound checks, stitch removal, physiotherapy, drug management and the first sight of a complication happen in the patient's own country, performed by clinicians who were not party to the consent, did not select the implant, hold no record of the operation beyond what the patient carries, and were not paid for any of it.",
+  "story": "The asymmetry is stated plainly by the NHS for its own readers: \"If you have complications after an operation in the UK, it's the surgeon's responsibility to provide follow-up treatment\", while \"Overseas clinics may not provide follow-up treatment, or they may not provide it to the same standard as in the UK.\"\n\nWhere the load lands has been counted, in the one specialty where the cases are visible. A cost analysis at Gold Coast University Hospital in Queensland totalled 12 patients presenting in the 2012–13 financial year with complications of cosmetic surgery performed in Thailand: AUD$151,172.52 to that hospital in one year, averaging AUD$12,597.71 a patient and ranging from AUD$1,190.28 to AUD$33,060.02. In the United Kingdom a 2025 review carries the BAAPS national audit figures — UK residents needing NHS hospital treatment after surgery abroad up \"by 94% in 3 years\", \"75% citing Turkey as the origin of their surgery\", and an average NHS cost of \"£15,000 per person, depending on the treatment required\" — alongside an NHS Scotland series of 81 patients over five years costing \"£755,559.68, an average of over £9,327.90 per patient\".\n\nThose counts are narrow and worth saying so: they count patients who reached a public hospital with a complication of cosmetic surgery, in three health systems, over fixed periods. They are not a complication rate, they have no denominator, and they say nothing about dental, orthopaedic or fertility work.\n\n*Inference —* the structural fact underneath is that the fee and the aftercare are paid to different systems. The revenue went to the provider abroad; the cost of what follows sits with a public system or a home insurer that never priced it, and with a general practitioner holding a summary they did not write.",
+  "how": "*Trade practice —* packages that name follow-up usually mean visits inside the destination stay. Where a complication policy exists it runs for a defined window and pays for treatment by the original provider, which implies flying back.\n\nWhat a reader would have to ask before the trip, since the answer cannot be got afterwards: who removes the sutures and where, whether the home system will accept the case, whether the operating surgeon will answer a question from a home clinician, what the implant is, and what the provider undertakes to do if the wound fails at week three.",
+  "today": "As of 16 September 2026 the published counts of what returning patients cost their home systems all come from plastic surgery and from a handful of countries. No national system this project could find routinely records, in its own data, that an episode of care was caused by treatment obtained abroad."
+ },
+ "kin": [
+  {
+   "to": "follow-up-gap",
+   "as": "The risk record for the hole this step falls into.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "What happens when the operation has to be done again, by someone else.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The only document the home clinician has to work from.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "as": "The step before, and the one that sets how much healing happened in transit.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "Where this step goes when the wound fails.",
+   "rel": "step"
+  },
+  {
+   "to": "the-follow-up-nobody-books",
+   "as": "The longer piece on this gap.",
+   "rel": "story"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The commonest reason a returning patient presents at home.",
+   "rel": "risk"
+  }
+ ],
+ "sources": [
+  "s:nhs-cosmetic-surgery-abroad",
+  "s:eplasty-cosmetic-tourism-cost",
+  "s:wounds-uk-cosmetic-tourism"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "Wound checks, stitch removal, physiotherapy, drug management and the first sight of a complication happen in the patient's own country, performed by clinicians who were not party to the consent, did not select the…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The risk record for the hole this step falls into.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "What happens when the operation has to be done again, by someone else.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The only document the home clinician has to work from.",
+   "rel": "step"
+  },
+  {
+   "to": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The step before, and the one that sets how much healing happened in transit.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "Where this step goes when the wound fails.",
+   "rel": "step"
+  },
+  {
+   "to": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "The longer piece on this gap.",
+   "rel": "story"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The commonest reason a returning patient presents at home.",
+   "rel": "risk"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:nhs-cosmetic-surgery-abroad",
+   "kind": "org",
+   "title": "Cosmetic surgery abroad",
+   "publisher": "NHS (England)",
+   "url": "https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/advice/cosmetic-surgery-abroad/",
+   "accessed": "2026-09-16",
+   "note": "read for aftercare responsibility, flying intervals and the statement on travel insurance"
+  },
+  {
+   "id": "s:eplasty-cosmetic-tourism-cost",
+   "kind": "paper",
+   "title": "The real cost of cosmetic tourism: cost analysis study of cosmetic tourism complications presenting to a public hospital",
+   "publisher": "Livingston R, Berlund P, Eccles-Smith J, Sawhney R. Eplasty 2015;15:e34",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4522144/",
+   "accessed": "2026-09-16",
+   "note": "Gold Coast University Hospital, Queensland, financial year 2012–13, 12 patients"
+  },
+  {
+   "id": "s:wounds-uk-cosmetic-tourism",
+   "kind": "paper",
+   "title": "Cosmetic tourism: the cost of going 'under the knife' abroad for cosmetic surgery",
+   "publisher": "Hatch J. Wounds UK 2025;21(4):44–49",
+   "url": "https://wounds-uk.com/journal-articles/cosmetic-tourism-the-cost-of-going-under-the-knife-abroad-for-cosmetic-surgery/",
+   "accessed": "2026-09-16",
+   "note": "carries the BAAPS national audit figures and the NHS Scotland series"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chiang-mai",
+   "type": "hub",
+   "name": "Chiang Mai",
+   "as": "The long stay exists partly to move the recovery here rather than home.",
+   "rel": "step"
+  },
+  {
+   "from": "vilnius",
+   "type": "hub",
+   "name": "Vilnius",
+   "as": "Where the physiotherapy after a joint replacement actually happens.",
+   "rel": "step"
+  },
+  {
+   "from": "acl-reconstruction",
+   "type": "procedure",
+   "name": "Anterior cruciate ligament reconstruction",
+   "as": "The step this operation lives or dies by, and which most price pages leave out.",
+   "rel": "step"
+  },
+  {
+   "from": "addiction-rehab",
+   "type": "procedure",
+   "name": "Residential addiction treatment",
+   "as": "Where the promise of lifetime aftercare groups has to be kept, by video.",
+   "rel": "step"
+  },
+  {
+   "from": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "Where the map, the spare parts and the audiologist have to be, for the rest of the patient's life.",
+   "rel": "step"
+  },
+  {
+   "from": "facelift",
+   "type": "procedure",
+   "name": "Facelift",
+   "as": "Sutures out in stages, and the last of them often after the flight.",
+   "rel": "step"
+  },
+  {
+   "from": "hospital-cima-san-jose",
+   "type": "facility",
+   "name": "Hospital CIMA San José",
+   "as": "Four hours from Miami, close enough that the follow-up is a flight and not a relocation.",
+   "rel": "step"
+  },
+  {
+   "from": "the-companion",
+   "type": "pathway",
+   "name": "The companion",
+   "as": "Where the nursing the companion started gets handed to nobody in particular.",
+   "rel": "step"
+  },
+  {
+   "from": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "Where this document becomes the whole of the clinical history.",
+   "rel": "step"
+  },
+  {
+   "from": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "What lands on the other side.",
+   "rel": "step"
+  },
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The step this one interrupts.",
+   "rel": "step"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The step that begins after a flight, where a household would have begun the same evening.",
+   "rel": "step"
+  },
+  {
+   "from": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "The step at which the screening swab is taken.",
+   "rel": "step"
+  },
+  {
+   "from": "bloodborne-virus",
+   "type": "risk",
+   "name": "Bloodborne virus from treatment abroad",
+   "as": "The step at which nobody takes the travel history that would find this.",
+   "rel": "step"
+  },
+  {
+   "from": "candida-auris",
+   "type": "risk",
+   "name": "Candida auris",
+   "as": "The step at which a screening swab would be taken, if anyone ordered one.",
+   "rel": "step"
+  },
+  {
+   "from": "counterfeit-medicines",
+   "type": "risk",
+   "name": "Substandard and falsified medicines",
+   "as": "The step at which the course runs out and is refilled somewhere.",
+   "rel": "step"
+  },
+  {
+   "from": "dvt-pe",
+   "type": "risk",
+   "name": "Deep vein thrombosis and pulmonary embolism",
+   "as": "Where the anticoagulant course runs out, in a system with no record of when it started.",
+   "rel": "step"
+  },
+  {
+   "from": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The step this risk is the absence of.",
+   "rel": "step"
+  },
+  {
+   "from": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "The step it interrupts.",
+   "rel": "step"
+  },
+  {
+   "from": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The step at which this is usually found.",
+   "rel": "step"
+  },
+  {
+   "from": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "The step where the prescription is presented.",
+   "rel": "step"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "Where the absence of a record is discovered.",
+   "rel": "step"
+  },
+  {
+   "from": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "The end of the pathway this scheme claims to cover, and the part no clinical accreditation reaches.",
+   "rel": "step"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "The step in the journey that this is the failure of.",
+   "rel": "step"
+  }
+ ]
+}

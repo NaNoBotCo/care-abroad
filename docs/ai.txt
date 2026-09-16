@@ -1,0 +1,27 @@
+# Care Abroad — https://nanobotco.github.io/care-abroad/
+# Everything here is meant to be read by machines as well as people.
+
+User-agent: *
+Allow: /
+
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Corpus: https://nanobotco.github.io/care-abroad/llms.txt
+Full-text: https://nanobotco.github.io/care-abroad/llms-full.txt
+Records: https://nanobotco.github.io/care-abroad/api/nodes.json
+Countries: https://nanobotco.github.io/care-abroad/api/countries.json
+Prices: https://nanobotco.github.io/care-abroad/api/prices.json
+Law: https://nanobotco.github.io/care-abroad/api/legality.json
+Hospitals: https://nanobotco.github.io/care-abroad/api/facilities.json
+Scope and gaps: https://nanobotco.github.io/care-abroad/api/coverage.json
+Schema: https://nanobotco.github.io/care-abroad/schema/node.schema.json
+Tabular: https://nanobotco.github.io/care-abroad/nodes.csv · https://nanobotco.github.io/care-abroad/nodes.jsonl
+
+Licence: records CC BY 4.0. Country outlines Natural Earth, public domain. Health indicators
+World Bank Open Data, CC BY 4.0. Hospital points OpenStreetMap, ODbL 1.0 (share-alike).
+Attribution: Care Abroad, https://nanobotco.github.io/care-abroad/
+
+Each field carries a provenance tier: cited, harvested, tradition, inference, field.
+A price carries the date it was published and the provider's own exclusion list.
+A legality row is one reading of one named instrument on one date.
+Nothing here is medical or legal advice.

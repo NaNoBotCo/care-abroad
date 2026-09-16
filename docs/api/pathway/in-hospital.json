@@ -1,0 +1,207 @@
+{
+ "id": "in-hospital",
+ "names": {
+  "name": "In hospital",
+  "aliases": [
+   "the admission",
+   "the inpatient stay"
+  ],
+  "said": "The package names the nights. The bill counts them."
+ },
+ "facets": {
+  "stage": "in-hospital"
+ },
+ "x_order": 12,
+ "text": {
+  "what": "Admission, operation, ward, discharge. For the length of the stay the patient is inside an institution whose rules, staffing and law are the destination's, with no home clinician involved, and with a bill accruing against a package that fixed a number of nights in advance.",
+  "story": "The commercial mechanics of the stay are visible in the package documents. The Bangkok knee package this site reads covers three nights in the surgical ward and states that nights beyond three, any intensive care, blood transfusion, laboratory and imaging before or after surgery, and take-home medication fall outside the price. *Inference —* that is the structure of the financial risk in this step: the predictable part was prepaid, and every clinical deviation converts directly into an unquoted charge, payable before discharge.\n\nThe clinical exposure is harder to see from outside. The ward is where surgical site infection is acquired or is not, where a resistant organism is present or is not, and where the blood, if it is needed, comes from a supply whose screening regime is the destination's. Those are the subjects of this site's risk records rather than of any provider's page.\n\nNothing this project could find publishes what an international patient is charged against what a local patient is charged in the same institution for the same operation, or compares the ward a package buys with the one a local patient occupies. *Trade practice —* the international wing of a large private hospital is commonly a distinct service with its own rooms and its own price list, which is how it is described by the hospitals that run one.",
+  "how": "What a reader would have to ask: who is on the ward overnight and at what ratio, which named surgeon performed the operation and whether the operation note says so, what each extra night costs, what triggers a transfer to intensive care and what that costs, whether the hospital will release the operation note and the implant details before discharge, and who settles the balance and in which currency.",
+  "today": "As of 16 September 2026 the length of a stay is the most-published number in this trade, because it is the number a package has to fix. What happens during it is among the least published: no outcome registry this project could find collects results for foreign patients by hospital."
+ },
+ "kin": [
+  {
+   "to": "arrival-and-consent",
+   "as": "The signature that opened this step.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The only document most of this step leaves behind.",
+   "rel": "step"
+  },
+  {
+   "to": "surgical-site-infection",
+   "as": "The commonest thing that goes wrong here, and the hardest to attribute afterwards.",
+   "rel": "risk"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "as": "What the ward may hand over along with the operation.",
+   "rel": "risk"
+  },
+  {
+   "to": "blood-supply-safety",
+   "as": "Where the transfusion excluded from the package comes from.",
+   "rel": "risk"
+  },
+  {
+   "to": "length-of-stay",
+   "as": "The number the package fixed and the bill counts.",
+   "rel": "term"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the package whose ward nights and exclusions this step reads.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "package terms cited; the paragraphs about clinical exposure and about pricing comparisons are marked inline"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "Admission, operation, ward, discharge. For the length of the stay the patient is inside an institution whose rules, staffing and law are the destination's, with no home clinician involved, and with a bill accruing…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "The signature that opened this step.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The only document most of this step leaves behind.",
+   "rel": "step"
+  },
+  {
+   "to": "surgical-site-infection",
+   "type": "risk",
+   "name": "Surgical site infection",
+   "as": "The commonest thing that goes wrong here, and the hardest to attribute afterwards.",
+   "rel": "risk"
+  },
+  {
+   "to": "antimicrobial-resistance",
+   "type": "risk",
+   "name": "Antimicrobial resistance acquired abroad",
+   "as": "What the ward may hand over along with the operation.",
+   "rel": "risk"
+  },
+  {
+   "to": "blood-supply-safety",
+   "type": "risk",
+   "name": "Blood supply safety",
+   "as": "Where the transfusion excluded from the package comes from.",
+   "rel": "risk"
+  },
+  {
+   "to": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The number the package fixed and the bill counts.",
+   "rel": "term"
+  },
+  {
+   "to": "bumrungrad",
+   "type": "facility",
+   "name": "Bumrungrad International Hospital",
+   "as": "Publishes the package whose ward nights and exclusions this step reads.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:bumrungrad-joint04",
+   "kind": "web",
+   "title": "Total Knee Replacement Surgery (Exclude implant) — package JOINT04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
+   "accessed": "2026-09-16",
+   "note": "read off the hospital's own package page; price stated valid until 31 December 2026"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:bumrungrad-joint04"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "package terms cited; the paragraphs about clinical exposure and about pricing comparisons are marked inline"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "asan-medical-center",
+   "type": "facility",
+   "name": "Asan Medical Center",
+   "as": "An outpatient department seeing eleven thousand people a day is the setting a foreign patient's international centre exists to bypass.",
+   "rel": "step"
+  },
+  {
+   "from": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "What the signature starts.",
+   "rel": "step"
+  },
+  {
+   "from": "the-discharge-summary",
+   "type": "pathway",
+   "name": "The discharge summary",
+   "as": "The stay this document is the record of.",
+   "rel": "step"
+  },
+  {
+   "from": "length-of-stay",
+   "type": "term",
+   "name": "Length of stay",
+   "as": "The step this number is the length of.",
+   "rel": "step"
+  }
+ ]
+}

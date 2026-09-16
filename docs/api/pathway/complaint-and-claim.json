@@ -1,0 +1,196 @@
+{
+ "id": "complaint-and-claim",
+ "names": {
+  "name": "Complaint and claim",
+  "aliases": [
+   "redress",
+   "malpractice claim",
+   "regulatory complaint"
+  ],
+  "said": "Two different things with one name: a complaint to a regulator, which can sanction a doctor, and a claim in court, which can pay money."
+ },
+ "facets": {
+  "stage": "when-it-goes-wrong"
+ },
+ "x_order": 17,
+ "text": {
+  "what": "The attempt to hold somebody answerable after harm. It divides into a regulatory complaint against a licensed clinician, heard by the body that licensed them, and a civil claim for compensation, heard by a court. For a patient treated abroad both routes sit in the destination's jurisdiction, in the destination's language, under the destination's limitation period.",
+  "story": "Inside the European Union the position is written down, and it is the exception rather than the pattern. Directive 2011/24/EU requires the Member State of treatment to ensure \"transparent complaints procedures and mechanisms in place for patients, in order for them to seek remedies ... if they suffer harm arising from the healthcare\" (Article 4(2)(c)), and to ensure that \"systems of professional liability insurance, or a guarantee or similar arrangement that is equivalent or essentially comparable\" are in place (Article 4(2)(d)). Article 6 obliges every Member State to run a national contact point that tells patients about providers, rights, complaints procedures and dispute resolution. The Member State of affiliation must in turn provide information on \"procedures for accessing ... appeal and redress if patients consider that their rights have not been respected\" (Article 5(b)). The governing law is the destination's: cross-border healthcare is provided in accordance with the legislation of the Member State of treatment.\n\n*Inference —* outside that bloc no comparable instrument turned up in this project's reading. The claim, if there is one, is brought where the treatment happened, and the practical obstacles are ordinary rather than exotic: a limitation period that runs from the operation, court fees and local counsel, a contract that may name a forum, evidence in another language, and a defendant whose insurer — if the hospital carries insurance at all — has no obligation to a foreign claimant beyond what that country's law imposes.\n\nThe regulatory route has a matching gap. A home regulator registers home licensees; a complaint about a surgeon in another country is a complaint to that country's register, if it maintains one that accepts complaints from non-residents. An intermediary who arranged the trip is usually not registered by anybody at all, which is the subject of the facilitator step.",
+  "how": "What a reader would have to ask, and the answers are documentary rather than clinical: which body registers the operating surgeon and whether it publishes its register, whether that body accepts a complaint from a non-resident and in which language, what the limitation period is for a claim in that jurisdiction and when it starts, whether the signed contract or consent form names a governing law or a forum, whether the hospital carries professional liability insurance and whether the policy responds to a foreign claimant, and whether any judgment obtained at home could be enforced against assets in the destination.",
+  "today": "As of 16 September 2026 the EU national contact points are the only cross-border complaint infrastructure this project could find that is built into an instrument. Elsewhere the route is the destination's own, and no body this project could find publishes how many claims foreign patients bring, or what becomes of them."
+ },
+ "kin": [
+  {
+   "to": "malpractice-recourse",
+   "as": "The risk record this step is the procedure for.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The one instrument that names complaints, redress and liability insurance across borders.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "as": "The bodies Article 6 obliges each Member State to run.",
+   "rel": "org"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "The clinical event that precedes this step.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The party whose contract wording often decides where this step can be brought.",
+   "rel": "step"
+  },
+  {
+   "to": "arrival-and-consent",
+   "as": "Where the forum and the governing law were probably fixed, in a form signed on arrival.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention",
+   "as": "Why some patients cannot complain at home without disclosing what they travelled for.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:dir-2011-24-chapter-ii",
+  "s:eu-directive-2011-24"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "The attempt to hold somebody answerable after harm. It divides into a regulatory complaint against a licensed clinician, heard by the body that licensed them, and a civil claim for compensation, heard by a court.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "The risk record this step is the procedure for.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The one instrument that names complaints, redress and liability insurance across borders.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "type": "org",
+   "name": "EU National Contact Points for cross-border healthcare",
+   "as": "The bodies Article 6 obliges each Member State to run.",
+   "rel": "org"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "The clinical event that precedes this step.",
+   "rel": "step"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "type": "pathway",
+   "name": "Choosing a facilitator",
+   "as": "The party whose contract wording often decides where this step can be brought.",
+   "rel": "step"
+  },
+  {
+   "to": "arrival-and-consent",
+   "type": "pathway",
+   "name": "Arrival and consent",
+   "as": "Where the forum and the governing law were probably fixed, in a form signed on arrival.",
+   "rel": "step"
+  },
+  {
+   "to": "circumvention",
+   "type": "story",
+   "name": "Circumvention",
+   "as": "Why some patients cannot complain at home without disclosing what they travelled for.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:dir-2011-24-chapter-ii",
+   "kind": "law",
+   "title": "Directive 2011/24/EU, Chapter II — responsibilities of the Member State of treatment and of affiliation, Articles 4 to 6",
+   "publisher": "legislation.gov.uk, retained text of Directive 2011/24/EU",
+   "url": "https://www.legislation.gov.uk/cy/eudr/2011/24/chapter/II/data.htm?view=plain",
+   "accessed": "2026-09-16",
+   "note": "read for Art 4(2)(b) invoices and prices, 4(2)(c) complaints and redress, 4(2)(d) professional liability insurance, 4(2)(f) copy of the medical record, 5(d) access to records, and Art 6 national contact points"
+  },
+  {
+   "id": "s:eu-directive-2011-24",
+   "kind": "web",
+   "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare",
+   "publisher": "Official Journal of the European Union",
+   "year": 2011,
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "inference"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "when-it-goes-wrong",
+   "type": "pathway",
+   "name": "When it goes wrong",
+   "as": "What this step becomes once the clinical emergency is over.",
+   "rel": "step"
+  },
+  {
+   "from": "malpractice-recourse",
+   "type": "risk",
+   "name": "Malpractice recourse across a border",
+   "as": "The step this risk decides the outcome of.",
+   "rel": "step"
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "id": "the-discharge-summary",
+ "names": {
+  "name": "The discharge summary",
+  "aliases": [
+   "discharge letter",
+   "epicrisis",
+   "operation report"
+  ],
+  "said": "Hospitals in continental Europe say epicrisis. In English it is the discharge letter, and it is the only clinical document most patients carry home."
+ },
+ "facets": {
+  "stage": "going-home"
+ },
+ "x_order": 13,
+ "text": {
+  "what": "A document handed over at discharge that states what was done. It is the only clinical record of the episode that travels with the patient, and the doctor who reads it next was not party to the consent, did not choose the implant, and cannot telephone the theatre.",
+  "story": "Even inside one national system the handover is imperfect. A 2025 review of discharge communication to primary care reports that general practitioners criticise summaries for missing relevant content, and cites work finding that GPs and hospital doctors disagreed about whether the summary had done its job in 44% of cases. That is with a shared language, a shared record system and a shared regulator.\n\nThe cross-border version removes all three. The CDC Yellow Book's instruction is to \"request copies of their overseas medical records in English\" and to give them to whoever provides follow-up, and it cites the American College of Surgeons on obtaining \"a complete set of medical records before returning home\". Inside the EU the entitlement is statutory: the Member State of treatment must ensure patients are \"entitled to a written or electronic medical record\" of the treatment and \"access to at least a copy of this record\" (Directive 2011/24/EU, Article 4(2)(f)).\n\n*Inference —* what makes a summary usable later is specific and frequently absent: the make, model and serial number of any implant, which decides whether a revision at home can be planned; the operation note rather than a discharge narrative; the anaesthetic record; drugs given and drugs sent home, in generic names rather than local brands; any culture taken and its result; results still pending when the patient boarded; and a named contact who will answer a question in six weeks. A summary with the brand names of one country's formulary is a summary that has to be decoded before it can be acted on.",
+  "how": "The document is issued by the treating hospital in its own language and its own format. Translation is nobody's contractual duty unless the package says so. *Trade practice —* larger international departments issue an English summary as a matter of course, and smaller clinics issue whatever their system prints.\n\nWhat a reader would have to ask: whether the summary will be in a language the home clinician reads, whether the operation note and the implant identifiers are included, whether pending results will be sent and to whom, and who at the hospital answers a clinical question after the patient has left the country.",
+  "today": "As of 16 September 2026 no cross-border standard this project could find specifies what a discharge summary given to a foreign patient must contain. The EU entitlement is to a copy of the record, not to a record that meets a content standard."
+ },
+ "kin": [
+  {
+   "to": "in-hospital",
+   "as": "The stay this document is the record of.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where this document becomes the whole of the clinical history.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The same request, made in the other direction before departure.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "What a thin summary turns into at the first appointment at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "Why the implant's make and serial number matter years later.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The instrument that entitles an EU patient to at least a copy.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "as": "What the take-home drug list has to survive at a pharmacy in another country.",
+   "rel": "governed-by"
+  }
+ ],
+ "sources": [
+  "s:boddy-discharge-communication",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:dir-2011-24-chapter-ii"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "pathway",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-16",
+ "blurb": "A document handed over at discharge that states what was done.",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "The stay this document is the record of.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "Where this document becomes the whole of the clinical history.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The same request, made in the other direction before departure.",
+   "rel": "step"
+  },
+  {
+   "to": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "What a thin summary turns into at the first appointment at home.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "type": "risk",
+   "name": "Revision at home",
+   "as": "Why the implant's make and serial number matter years later.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "type": "rule",
+   "name": "Directive 2011/24/EU on patients' rights in cross-border healthcare",
+   "as": "The instrument that entitles an EU patient to at least a copy.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "What the take-home drug list has to survive at a pharmacy in another country.",
+   "rel": "governed-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:boddy-discharge-communication",
+   "kind": "paper",
+   "title": "One template does not fit all: where next to improve hospital discharge communication to primary care?",
+   "publisher": "Boddy N, Reeve J, Spencer RA, Avery AJ. Primary Health Care Research and Development 2025;26:e78",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12555088/",
+   "accessed": "2026-09-16",
+   "note": "cites Weetman et al. 2021 on disagreement between GPs and hospital doctors in 44% of cases"
+  },
+  {
+   "id": "s:cdc-yellowbook-medical-tourism",
+   "kind": "org",
+   "title": "Medical Tourism — CDC Yellow Book: Health Information for International Travel",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/health-care-abroad/medical-tourism",
+   "accessed": "2026-09-16",
+   "note": "the standing public-health account of what travelling for treatment involves and what goes wrong"
+  },
+  {
+   "id": "s:dir-2011-24-chapter-ii",
+   "kind": "law",
+   "title": "Directive 2011/24/EU, Chapter II — responsibilities of the Member State of treatment and of affiliation, Articles 4 to 6",
+   "publisher": "legislation.gov.uk, retained text of Directive 2011/24/EU",
+   "url": "https://www.legislation.gov.uk/cy/eudr/2011/24/chapter/II/data.htm?view=plain",
+   "accessed": "2026-09-16",
+   "note": "read for Art 4(2)(b) invoices and prices, 4(2)(c) complaints and redress, 4(2)(d) professional liability insurance, 4(2)(f) copy of the medical record, 5(d) access to records, and Art 6 national contact points"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "cochlear-implant",
+   "type": "procedure",
+   "name": "Cochlear implant",
+   "as": "The paper a patient carries home, which for this device has to include the implant model and the map.",
+   "rel": "step"
+  },
+  {
+   "from": "prostatectomy",
+   "type": "procedure",
+   "name": "Prostatectomy",
+   "as": "The document this package charges for separately and a home urologist cannot work without.",
+   "rel": "step"
+  },
+  {
+   "from": "aftercare-at-home",
+   "type": "pathway",
+   "name": "Aftercare at home",
+   "as": "The only document the home clinician has to work from.",
+   "rel": "step"
+  },
+  {
+   "from": "getting-your-records",
+   "type": "pathway",
+   "name": "Getting your records out",
+   "as": "The same request made in the other direction, at the far end.",
+   "rel": "step"
+  },
+  {
+   "from": "in-hospital",
+   "type": "pathway",
+   "name": "In hospital",
+   "as": "The only document most of this step leaves behind.",
+   "rel": "step"
+  },
+  {
+   "from": "the-flight-home",
+   "type": "pathway",
+   "name": "The flight home",
+   "as": "The document that should carry the surgeon's fitness-to-fly interval, and often does not.",
+   "rel": "step"
+  },
+  {
+   "from": "alone-after-discharge",
+   "type": "risk",
+   "name": "Discharged alone",
+   "as": "The document that leaves with the patient, and the only thing a hotel room contains that a clinician could read.",
+   "rel": "step"
+  },
+  {
+   "from": "follow-up-gap",
+   "type": "risk",
+   "name": "The follow-up gap",
+   "as": "The document that would close this gap, when it exists and when it is in a language the next clinician reads.",
+   "rel": "step"
+  },
+  {
+   "from": "cross-border-prescriptions",
+   "type": "rule",
+   "name": "A prescription that crosses a border",
+   "as": "The document the common-name rule is really about.",
+   "rel": "step"
+  },
+  {
+   "from": "patient-data-transfer",
+   "type": "rule",
+   "name": "Moving a medical record across a border",
+   "as": "The document that matters most, and the one most often a letter instead.",
+   "rel": "step"
+  },
+  {
+   "from": "the-follow-up-nobody-books",
+   "type": "story",
+   "name": "The follow-up nobody books",
+   "as": "The document that would close the gap, when it exists and is in a language the next clinician reads.",
+   "rel": "step"
+  }
+ ]
+}

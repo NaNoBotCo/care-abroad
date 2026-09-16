@@ -1,0 +1,518 @@
+{
+ "schema": 1,
+ "id": "raffles-hospital",
+ "type": "facility",
+ "names": {
+  "name": "Raffles Hospital",
+  "aliases": [
+   "Raffles Medical Group",
+   "RafflesHospital"
+  ],
+  "said": "RAF-uls, for Stamford Raffles, whose name is on half the institutions in Singapore. The hospital is the group's one hospital; the group is 106 clinics, and the clinics came first."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "SG",
+  "ownership": "private",
+  "founded": 2001,
+  "specialty": [
+   "obstetrics",
+   "cardiology",
+   "oncology",
+   "orthopaedics",
+   "health screening"
+  ],
+  "draws": [
+   "executive-health-screening",
+   "knee-replacement",
+   "hip-replacement",
+   "ivf"
+  ],
+  "status": "open",
+  "languages": [
+   "English",
+   "Mandarin",
+   "Malay",
+   "Tamil",
+   "Bahasa Indonesia"
+  ]
+ },
+ "text": {
+  "what": "A 380-bed private hospital at the corner of North Bridge Road and Ophir Road in Singapore, opened on 31 March 2001 on the site of the converted Blanco Court. It is the hospital of Raffles Medical Group, a company listed on the Singapore Exchange that began as two clinics in 1976 and now runs 106 multi-disciplinary clinics in Singapore and hospitals and medical centres in China, Japan, Vietnam, Cambodia and Hong Kong.",
+  "story": "Loo Choon Yong and Alfred Loh founded the practice in 1976. The order of growth matters: clinics first, then a hospital, then clinics abroad. Raffles Medical is a primary-care company that built a hospital, and it shows in what it sells and how it prices it.\n\nThe group reported S$723.8 million of revenue in 2021 with S$83.7 million of net income, employs more than 2,900 people, and runs the airport clinics at Changi and at Hong Kong's Chek Lap Kok. In China it has tertiary hospitals in Beijing, Shanghai and Chongqing; in Vietnam it took a majority stake in American International Hospital in 2023.\n\n*Inference —* a hospital owned by a clinic company prices like a clinic company. Raffles is one of the few institutions in this directory that sells screening across a counter at a fixed, published, online-payable price, and it is the only one whose published price list runs from a statutory medical examination for a migrant domestic worker at S$52.30 to a women's screening package at S$563.16. The same retail machinery handles both.",
+  "how": "Health screening is sold through the group's own online store as well as through the hospital. The published entry package, Raffles Classic, is S$138. Raffles Treasure Ladies is S$361.31 and adds a gynaecologist consultation, a Pap smear and a transvaginal pelvic ultrasound; Raffles Treasure Ladies Plus is S$563.16 and adds screening mammography and breast ultrasound. The Plus package states its own exclusions plainly: not for women under forty, and not for women with a pre-existing gynaecological or breast condition. The base Ladies package excludes women under twenty-five on the same principle.\n\nThose exclusions are the interesting half. A screening package is priced on the assumption that the buyer is well, and the terms say so.\n\nSurgery is not priced on the group's public pages. Singapore's Ministry of Health publishes hospital bill data and fee benchmarks separately, which is where a figure for an operation at a named Singapore hospital comes from.",
+  "today": "As of 17 September 2026 the hospital carries 380 beds and 24 specialist centres, and the group runs 106 clinics in Singapore with operations in China, Japan, Vietnam, Cambodia and Hong Kong. Screening prices are published and payable online; no surgical price is published."
+ },
+ "geo": {
+  "lat": 1.301136,
+  "lon": 103.857148,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "585 North Bridge Road",
+  "city": "Singapore",
+  "country": "SG",
+  "postcode": "188770"
+ },
+ "metrics": {
+  "beds": 380,
+  "staff": 2900,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "revenue_usd": null,
+  "note": "380 beds at the hospital and 24 specialist centres. Staff is the GROUP's — more than 2,900 across 106 Singapore clinics, the hospital, and operations in five other territories — not the hospital's. Group revenue was S$723.8 million in 2021 with S$83.7 million net income; that is Singapore dollars and is left out of the US dollar field rather than converted by hand. No patient count and no foreign share is published.",
+  "as_of": "2021",
+  "source": "s:wp-raffles-medical",
+  "url": "https://en.wikipedia.org/wiki/Raffles_Medical_Group"
+ },
+ "tags": [
+  {
+   "tag": "price-published",
+   "source": "s:raffles-screening-store",
+   "tier": "cited",
+   "note": "screening packages priced in Singapore dollars and payable online through the group's own store",
+   "url": "https://www.raffleshealth.com/services/health-screening.html"
+  },
+  {
+   "tag": "package",
+   "source": "s:raffles-screening-ladies",
+   "tier": "cited",
+   "note": "named screening packages with stated inclusions and stated exclusions by age and by pre-existing condition"
+  },
+  {
+   "tag": "listed-company",
+   "source": "s:wp-raffles-medical",
+   "tier": "cited",
+   "note": "Singapore Exchange, ticker BSL"
+  },
+  {
+   "tag": "chain",
+   "source": "s:wp-raffles-medical",
+   "tier": "cited",
+   "note": "106 clinics in Singapore, tertiary hospitals in Beijing, Shanghai and Chongqing, medical centres in Hong Kong, Shanghai and Osaka, clinics in Vietnam and Cambodia"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:raffles-hospital",
+   "tier": "cited",
+   "note": "the hospital serves patients from the region; the group also runs the Changi and Chek Lap Kok airport clinics"
+  },
+  {
+   "tag": "interpreter",
+   "source": "s:raffles-hospital",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation",
+   "year": null,
+   "valid_until": null,
+   "source": "s:raffles-hospital",
+   "url": "https://www.rafflesmedicalgroup.com/hospital/",
+   "note": "no year was found on the group's own pages read for this record and none is asserted"
+  }
+ ],
+ "prices": [
+  {
+   "procedure": "executive-health-screening",
+   "country": "SG",
+   "city": "Singapore",
+   "facility": "raffles-hospital",
+   "amount": 138,
+   "currency": "SGD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": [
+    "the Raffles Classic screening package as the store lists it"
+   ],
+   "excludes": [
+    "the store does not state whether GST is included in the listed figure"
+   ],
+   "source": "s:raffles-screening-store",
+   "url": "https://www.raffleshealth.com/services/health-screening.html",
+   "note": "Raffles Classic, the entry general screening package, listed at S$138 on the group's own retail store and read there on 17 September 2026. The same price list runs from a S$48 vocational licence medical and a S$52.30 six-monthly examination for a migrant domestic worker up through the screening packages, which is what it looks like when a hospital group sells medicine across a counter.",
+   "tier": "cited",
+   "usd": 108.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  },
+  {
+   "procedure": "executive-health-screening",
+   "country": "SG",
+   "city": "Singapore",
+   "facility": "raffles-hospital",
+   "amount": 361.31,
+   "amount_high": 563.16,
+   "currency": "SGD",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": [
+    "Raffles Treasure Ladies at S$361.31: gynaecologist consultation, Pap smear, transvaginal pelvic ultrasound",
+    "Raffles Treasure Ladies Plus at S$563.16: the above plus screening mammogram and breast ultrasound"
+   ],
+   "excludes": [
+    "women under 25 for the base package",
+    "women under 40 for the Plus package",
+    "women with a pre-existing gynaecological condition, for both",
+    "women with a pre-existing breast condition, for the Plus package",
+    "GST status not stated on the page"
+   ],
+   "source": "s:raffles-screening-ladies",
+   "url": "https://www.rafflesmedicalgroup.com/health-screening/health-screening-packages/",
+   "note": "Two published women's screening packages read off the group's own page on 17 September 2026. The exclusions are the point: a screening price assumes a well buyer, and both packages say in terms that a woman with an existing condition is outside them. The Plus package also asks that mammography and breast ultrasound wait at least six weeks after a second COVID-19 vaccine dose.",
+   "tier": "cited",
+   "usd": 284.0,
+   "usd_high": 442.0,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "singapore-city",
+   "as": "The private hospital at the Bugis end of the city, on the Blanco Court site.",
+   "rel": "place"
+  },
+  {
+   "to": "singapore",
+   "as": "The country's clinic company that built a hospital, against the country's hospital companies that acquired clinics.",
+   "rel": "destination"
+  },
+  {
+   "to": "mount-elizabeth",
+   "as": "The other Singapore hospital in this directory: Orchard Road, IHH-owned, and priced nowhere in public.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "Sold across a counter at a published price, which almost nothing else in this directory is.",
+   "rel": "performs"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form, with the exclusions written as eligibility rules rather than as extras.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Not for women under forty, not for women with a pre-existing condition — a screening price is a price for the well.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "as": "Named as its accreditor, undated on the pages read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "A published screening price is real, and it is also the cheapest thing the hospital does.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Raffles Hospital",
+   "url": "https://www.rafflesmedicalgroup.com/hospital/"
+  },
+  {
+   "label": "Health Screening — packages and prices",
+   "url": "https://www.raffleshealth.com/services/health-screening.html"
+  }
+ ],
+ "sources": [
+  "s:wp-raffles-medical",
+  "s:wp-raffles-hospital",
+  "s:raffles-hospital",
+  "s:raffles-screening-store",
+  "s:raffles-screening-ladies",
+  "s:wp-healthcare-singapore",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-raffles-medical"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Raffles Hospital Singapore.jpg"
+ ],
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "A 380-bed private hospital at the corner of North Bridge Road and Ophir Road in Singapore, opened on 31 March 2001 on the site of the converted Blanco Court.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "The private hospital at the Bugis end of the city, on the Blanco Court site.",
+   "rel": "place"
+  },
+  {
+   "to": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "The country's clinic company that built a hospital, against the country's hospital companies that acquired clinics.",
+   "rel": "destination"
+  },
+  {
+   "to": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "The other Singapore hospital in this directory: Orchard Road, IHH-owned, and priced nowhere in public.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "Sold across a counter at a published price, which almost nothing else in this directory is.",
+   "rel": "performs"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form, with the exclusions written as eligibility rules rather than as extras.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Not for women under forty, not for women with a pre-existing condition — a screening price is a price for the well.",
+   "rel": "step"
+  },
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "Named as its accreditor, undated on the pages read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "type": "story",
+   "name": "The price that isn't",
+   "as": "A published screening price is real, and it is also the cheapest thing the hospital does.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-raffles-medical",
+   "kind": "web",
+   "title": "Raffles Medical Group",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Raffles_Medical_Group",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-raffles-hospital",
+   "kind": "wikipedia",
+   "title": "Raffles Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Raffles_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:raffles-hospital",
+   "kind": "web",
+   "title": "Raffles Hospital — hospital page",
+   "publisher": "Raffles Medical Group",
+   "url": "https://www.rafflesmedicalgroup.com/hospital/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:raffles-screening-store",
+   "kind": "web",
+   "title": "Health Screening — packages and prices",
+   "publisher": "Raffles Health (Raffles Medical Group)",
+   "url": "https://www.raffleshealth.com/services/health-screening.html",
+   "accessed": "2026-09-16",
+   "note": "the group's retail screening store, priced online in Singapore dollars"
+  },
+  {
+   "id": "s:raffles-screening-ladies",
+   "kind": "web",
+   "title": "Health Screening Packages",
+   "publisher": "Raffles Medical Group, Singapore",
+   "url": "https://www.rafflesmedicalgroup.com/health-screening/health-screening-packages/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-healthcare-singapore",
+   "kind": "wikipedia",
+   "title": "Healthcare in Singapore",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Singapore",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm-nominatim"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:wp-raffles-medical"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:raffles-screening-store",
+   "note": "screening packages priced in Singapore dollars and payable online through the group's own store",
+   "tier": "cited",
+   "url": "https://www.raffleshealth.com/services/health-screening.html"
+  },
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:raffles-screening-ladies",
+   "note": "named screening packages with stated inclusions and stated exclusions by age and by pre-existing condition",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "listed-company",
+   "label": "Publicly listed",
+   "icon": "📈",
+   "group": "ownership",
+   "evidence": "an exchange listing or an annual report",
+   "source": "s:wp-raffles-medical",
+   "note": "Singapore Exchange, ticker BSL",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:wp-raffles-medical",
+   "note": "106 clinics in Singapore, tertiary hospitals in Beijing, Shanghai and Chongqing, medical centres in Hong Kong, Shanghai and Osaka, clinics in Vietnam and Cambodia",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:raffles-hospital",
+   "note": "the hospital serves patients from the region; the group also runs the Changi and Chek Lap Kok airport clinics",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "interpreter",
+   "label": "Interpreters on staff",
+   "icon": "🗣",
+   "group": "service",
+   "evidence": "the facility's own page naming the languages, or a published inspection or accreditation report",
+   "source": "s:raffles-hospital",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "jci",
+   "label": "Joint Commission International",
+   "what": "Joint Commission International accreditation",
+   "url": "https://www.rafflesmedicalgroup.com/hospital/",
+   "kind": "international",
+   "year": null,
+   "valid_until": null,
+   "source": "s:raffles-hospital"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "singapore",
+   "type": "destination",
+   "name": "Singapore",
+   "as": "The other name a regional referral usually lands on.",
+   "rel": "part"
+  },
+  {
+   "from": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "At 585 North Bridge Road, 380 beds, the group's own hospital away from both clusters.",
+   "rel": "part"
+  },
+  {
+   "from": "mount-elizabeth",
+   "type": "facility",
+   "name": "Mount Elizabeth Hospital",
+   "as": "The other Singapore hospital here, which publishes its screening prices where this one publishes none.",
+   "rel": "contrast"
+  }
+ ]
+}

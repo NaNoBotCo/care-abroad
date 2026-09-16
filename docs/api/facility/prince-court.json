@@ -1,0 +1,394 @@
+{
+ "schema": 1,
+ "id": "prince-court",
+ "type": "facility",
+ "names": {
+  "name": "Prince Court Medical Centre",
+  "aliases": [
+   "Prince Court",
+   "PCMC"
+  ],
+  "said": "Prince Court, for Jalan Kia Peng where it stands, a few streets from the Kuala Lumpur city centre towers."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "iso2": "MY",
+  "ownership": "private",
+  "founded": null,
+  "specialty": [
+   "plastic surgery",
+   "orthopaedics",
+   "cardiology",
+   "fertility",
+   "health screening",
+   "dentistry"
+  ],
+  "draws": [
+   "breast-augmentation",
+   "ivf",
+   "executive-health-screening",
+   "knee-replacement"
+  ],
+  "status": "open",
+  "languages": [
+   "Malay",
+   "English",
+   "Arabic",
+   "Indonesian",
+   "Mandarin"
+  ]
+ },
+ "text": {
+  "what": "A private hospital in central Kuala Lumpur with 277 single-bed rooms and no shared wards, now part of IHH Healthcare. It states that it treats patients from over 140 countries, and it is one of the few hospitals in this directory that puts a fixed price on cosmetic surgery on its own public pages, with the implant brand named.",
+  "story": "The all-single-room bed base is the hospital's whole proposition and it shapes who arrives. A hospital with no four-bed bays has no cheap tier; every patient is in a room, and the price of that room is in every bill.\n\nIt is now an IHH Healthcare hospital, which places it under the same ownership as Gleneagles Kuala Lumpur eight kilometres away, as Mount Elizabeth in Singapore and as Fortis in India.\n\nThe promotions page is where a directory earns its keep. Read on 16 September 2026, the breast augmentation package was 26,888 ringgit including two Mentor implants, a pre-surgery consultation, the day-care procedure with refreshments and a post-surgery ward round — with a 2,000-ringgit top-up if the patient wants Motiva implants instead, and with take-home medication, complications and other morbidities all excluded. *Inference —* an implant brand named in a price is doing two jobs: it tells a patient what they are buying, and it tells them what a different answer costs.",
+  "how": "Packages are advertised on a promotions page with a price, an inclusion list and a short exclusion line. The cosmetic packages state that they are for self-paying patients only and cannot be combined with other promotions. The complication line is the one to read twice: a package that excludes complications is priced for the operation going as planned.",
+  "today": "As of 16 September 2026 the hospital lists breast augmentation at 26,888 ringgit, an HPV vaccine course of three doses at 1,598 ringgit, Invisalign from 18,000 ringgit, a multi-cancer early detection test at 1,499 ringgit as an add-on, and a home sleep test at 250 ringgit. It states 277 single beds and patients from over 140 countries. Its opening year and its accreditations are not recorded here: the pages carrying them did not resolve for this project."
+ },
+ "geo": {
+  "lat": 3.1491465,
+  "lon": 101.7213053,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "city": "Kuala Lumpur",
+  "country": "MY"
+ },
+ "metrics": {
+  "beds": 277,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "foreign_patient_countries": 140,
+  "note": "277 is the hospital's own count of single beds, which for this hospital is the whole bed base. The 140-country figure is the hospital's own statement of countries its patients come from and carries no year and no patient total; it counts COUNTRIES, not people, and a single patient makes a country count. No annual patient figure is published on the pages read here.",
+  "as_of": "2026-09-16",
+  "source": "s:princecourt-home",
+  "url": "https://princecourt.com/"
+ },
+ "tags": [
+  {
+   "tag": "price-published",
+   "source": "s:princecourt-breast-aug",
+   "tier": "cited",
+   "note": "package prices in ringgit on the hospital's own promotions pages, with implant brands named",
+   "url": "https://princecourt.com/our-services/highlights-and-promotions/breast-augmentation-package"
+  },
+  {
+   "tag": "package",
+   "source": "s:princecourt-breast-aug",
+   "tier": "cited",
+   "note": "inclusion list, brand top-up and exclusion line printed together"
+  },
+  {
+   "tag": "chain",
+   "source": "s:princecourt-home",
+   "tier": "cited",
+   "note": "part of IHH Healthcare"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:princecourt-home",
+   "tier": "cited",
+   "note": "the hospital states it takes patients from over 140 countries"
+  }
+ ],
+ "recognitions": [],
+ "prices": [
+  {
+   "procedure": "breast-augmentation",
+   "country": "MY",
+   "city": "Kuala Lumpur",
+   "facility": "prince-court",
+   "amount": 26888,
+   "currency": "MYR",
+   "as_of": "2026-09-16",
+   "kind": "package",
+   "includes": [
+    "2 units Mentor breast implants",
+    "pre-surgery consultation",
+    "daycare procedure inclusive of refreshments",
+    "post-surgery ward round and consultation"
+   ],
+   "excludes": [
+    "take-home medications",
+    "complications",
+    "other morbidities"
+   ],
+   "source": "s:princecourt-breast-aug",
+   "url": "https://princecourt.com/our-services/highlights-and-promotions/breast-augmentation-package",
+   "note": "A 2,000-ringgit top-up buys Motiva implants instead of Mentor; other brands may cost more again. The package is for self-paying patients only and cannot be combined with other promotions. No expiry date is printed on the page. The exclusion of complications means the number describes the operation going as planned.",
+   "tier": "cited",
+   "usd": 6583.0,
+   "usd_high": null,
+   "rate_date": "Wed, 16 Sep 2026"
+  }
+ ],
+ "kin": [
+  {
+   "to": "kuala-lumpur",
+   "as": "The city-centre hospital of the Kuala Lumpur cluster, all single rooms.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia",
+   "as": "A Malaysian hospital that publishes cosmetic surgery prices with the implant brand named.",
+   "rel": "destination"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "Its neighbour and competitor under the same ultimate owner, which publishes no price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "breast-augmentation",
+   "as": "Sold here at a fixed price with two named implant brands and a top-up between them.",
+   "rel": "performs"
+  },
+  {
+   "to": "package-price",
+   "as": "Sells in this form: a price, four inclusions, three exclusions and no expiry date.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "Its cosmetic package excludes complications, which is the line that decides what happens if the operation does not go as planned.",
+   "rel": "step"
+  },
+  {
+   "to": "mhtc",
+   "as": "The Malaysian government agency that lists and promotes hospitals taking foreign patients.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "Prince Court Medical Centre",
+   "url": "https://princecourt.com/"
+  },
+  {
+   "label": "Highlights and promotions",
+   "url": "https://princecourt.com/our-services/highlights-and-promotions/breast-augmentation-package"
+  }
+ ],
+ "sources": [
+  "s:princecourt-home",
+  "s:princecourt-breast-aug",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node Prince Court Medical Centre; the street line is omitted because the addresses read for this record disagreed and none was taken off the hospital's own page"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:princecourt-home"
+   },
+   "facets.founded": {
+    "tier": "inference",
+    "note": "left null: no source read for this record dates the hospital's opening"
+   }
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A private hospital in central Kuala Lumpur with 277 single-bed rooms and no shared wards, now part of IHH Healthcare.",
+ "region_terms": [
+  {
+   "key": "southeast-asia",
+   "name": "Southeast Asia",
+   "note": "Thailand, Malaysia, Singapore, Vietnam, the Philippines, Indonesia"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "The city-centre hospital of the Kuala Lumpur cluster, all single rooms.",
+   "rel": "place"
+  },
+  {
+   "to": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "A Malaysian hospital that publishes cosmetic surgery prices with the implant brand named.",
+   "rel": "destination"
+  },
+  {
+   "to": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "Its neighbour and competitor under the same ultimate owner, which publishes no price.",
+   "rel": "contrast"
+  },
+  {
+   "to": "breast-augmentation",
+   "type": "procedure",
+   "name": "Breast augmentation",
+   "as": "Sold here at a fixed price with two named implant brands and a top-up between them.",
+   "rel": "performs"
+  },
+  {
+   "to": "package-price",
+   "type": "term",
+   "name": "Package price",
+   "as": "Sells in this form: a price, four inclusions, three exclusions and no expiry date.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "type": "pathway",
+   "name": "Reading the exclusions",
+   "as": "Its cosmetic package excludes complications, which is the line that decides what happens if the operation does not go as planned.",
+   "rel": "step"
+  },
+  {
+   "to": "mhtc",
+   "type": "org",
+   "name": "Malaysia Healthcare Travel Council",
+   "as": "The Malaysian government agency that lists and promotes hospitals taking foreign patients.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:princecourt-home",
+   "kind": "web",
+   "title": "Prince Court Medical Centre — hospital site",
+   "publisher": "Prince Court Medical Centre",
+   "url": "https://princecourt.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:princecourt-breast-aug",
+   "kind": "web",
+   "title": "Breast Augmentation Package",
+   "publisher": "Prince Court Medical Centre",
+   "url": "https://princecourt.com/our-services/highlights-and-promotions/breast-augmentation-package",
+   "accessed": "2026-09-16",
+   "note": "price, implant brand and the exclusion line read off the package page"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited"
+  },
+  "text.story": {
+   "tier": "cited"
+  },
+  "text.how": {
+   "tier": "cited"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node Prince Court Medical Centre; the street line is omitted because the addresses read for this record disagreed and none was taken off the hospital's own page"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "prices": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited",
+   "source": "s:princecourt-home"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "price-published",
+   "label": "Publishes prices",
+   "icon": "💰",
+   "group": "money",
+   "evidence": "a public price list or package page on the facility's own site, read on a dated visit",
+   "source": "s:princecourt-breast-aug",
+   "note": "package prices in ringgit on the hospital's own promotions pages, with implant brands named",
+   "tier": "cited",
+   "url": "https://princecourt.com/our-services/highlights-and-promotions/breast-augmentation-package"
+  },
+  {
+   "key": "package",
+   "label": "Sells packages",
+   "icon": "🧳",
+   "group": "money",
+   "evidence": "a bundled price on the facility's own page covering more than the operation",
+   "source": "s:princecourt-breast-aug",
+   "note": "inclusion list, brand top-up and exclusion line printed together",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "chain",
+   "label": "Part of a hospital group",
+   "icon": "🔗",
+   "group": "ownership",
+   "evidence": "the group's own list of hospitals, or a filing naming the parent",
+   "source": "s:princecourt-home",
+   "note": "part of IHH Healthcare",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "international-office",
+   "label": "International patient office",
+   "icon": "✈",
+   "group": "service",
+   "evidence": "the hospital's own international-patient page, or a directory entry naming the department",
+   "source": "s:princecourt-home",
+   "note": "the hospital states it takes patients from over 140 countries",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "malaysia",
+   "type": "destination",
+   "name": "Malaysia",
+   "as": "The Kuala Lumpur hospital most often named in the country's marketing.",
+   "rel": "part"
+  },
+  {
+   "from": "kuala-lumpur",
+   "type": "hub",
+   "name": "Kuala Lumpur",
+   "as": "Off Jalan Bukit Bintang beside the Tun Razak Exchange.",
+   "rel": "part"
+  },
+  {
+   "from": "gleneagles-kl",
+   "type": "facility",
+   "name": "Gleneagles Hospital Kuala Lumpur",
+   "as": "Its Kuala Lumpur competitor, also IHH-owned, which does publish package prices.",
+   "rel": "contrast"
+  }
+ ]
+}

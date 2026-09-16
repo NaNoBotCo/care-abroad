@@ -60,22 +60,28 @@ PUFF = re.compile(
     r"|don'?t worry|rest assured|peace of mind)\b", re.I)
 
 
+_ABSENT = object()
+
+
 def _get(rec: dict, dotted: str):
+    """The value at a dotted path, or _ABSENT when the path names a key the record does
+    not have. A key that exists and holds null returns null: annotating a null field to
+    say WHY it is null is the point of the provenance block, not a mistake."""
     node = rec
     for part in dotted.split("."):
-        m = re.match(r"^([A-Za-z_]+)(?:\[(\d+)\])?$", part)
+        m = re.match(r"^([A-Za-z_][A-Za-z0-9_]*)(?:\[(\d+)\])?$", part)
         if not m:
-            return None
+            return _ABSENT
         key, idx = m.group(1), m.group(2)
         if isinstance(node, dict) and key in node:
             node = node[key]
         else:
-            return None
+            return _ABSENT
         if idx is not None:
             if isinstance(node, list) and int(idx) < len(node):
                 node = node[int(idx)]
             else:
-                return None
+                return _ABSENT
     return node
 
 
@@ -259,7 +265,7 @@ def validate_all(strict=False, quiet=False) -> int:
             if not (IMAGES / im["file"]).exists():
                 warns.append(f"{tag}: images[{i}] file missing: {im['file']}")
         for path in prov.get("fields", {}):
-            if _get(r, path) is None:
+            if _get(r, path) is _ABSENT:
                 warns.append(f"{tag}: provenance.fields.{path} names a field the record does not have")
         for fname, txt in text_fields(r):
             clean = txt or ""

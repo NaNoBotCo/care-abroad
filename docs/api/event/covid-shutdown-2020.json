@@ -1,0 +1,251 @@
+{
+ "schema": 1,
+ "id": "covid-shutdown-2020",
+ "type": "event",
+ "names": {
+  "name": "The 2020 shutdown",
+  "aliases": [
+   "COVID-19 pandemic, 2020",
+   "the year the borders closed"
+  ],
+  "said": "In this trade 2020 is the year every arrival number goes to the floor, and the year most published series in this directory stop."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "turning-point",
+  "when": 2020,
+  "status": "one-off"
+ },
+ "text": {
+  "what": "The year cross-border care stopped. On 11 March 2020 the Director-General of the World Health Organization told a media briefing in Geneva: \"We have therefore made the assessment that COVID-19 can be characterized as a pandemic.\" Borders closed, airlines grounded, and hospitals cancelled the planned operations that are this directory's entire subject.",
+  "story": "Travel first. UN Tourism's assessment of the year, published on 28 January 2021, recorded \"1 billion fewer international arrivals in 2020 than in the previous year\", international arrivals dropping by 74%, an estimated loss of USD 1.3 trillion in export revenues, and between 100 and 120 million direct tourism jobs at risk. By region: Asia and the Pacific down 84%, the Middle East and Africa 75% each, Europe 70%, the Americas 69%.\n\nThen the operating lists. The CovidSurg Collaborative's modelling, published in BJS in 2020, projected that \"28 404 603 operations would be cancelled or postponed during the peak 12 weeks\" of disruption — 2,367,050 a week, a global cancellation rate of 72.3%, taking in 81.7% of operations for benign conditions, 37.7% of cancer operations and 25.4% of elective caesarean sections. It is a projection from a survey of surgeons fed through a model, not a tally of cancelled operations, and it should never be quoted as a count.\n\nA destination gives the shape on the ground. Türkiye's official health-tourism series — published by USHAŞ from Turkish Statistical Institute figures, which come from a survey of departing visitors' stated purpose rather than from any hospital's records — counts 756,926 in 2019 and 435,691 in 2020, a fall of about 42%, then 729,592 in 2021 and 1,381,807 in 2022, nearly double the last year before the closure.\n\n*Inference —* the year did two lasting things to this subject's evidence. It put a hole in every series that a chart now has to draw across, and for many countries in the World Bank's arrivals table 2020 remains the most recent year with a value, so a map of the latest available data is a map of the shutdown. And it taught the trade that a patient who cannot fly is a patient who waits: the queues the pandemic built are part of why the demand came back larger than it left."
+ },
+ "geo": {
+  "lat": 46.2333,
+  "lon": 6.05,
+  "precision": "city",
+  "source": "s:who-pandemic-remarks-2020"
+ },
+ "address": {
+  "city": "Geneva",
+  "country": "CH"
+ },
+ "kin": [
+  {
+   "to": "world-bank-tourism-arrivals",
+   "as": "The series where 2020 is still the most recent year for 132 of 223 codes.",
+   "rel": "dataset"
+  },
+  {
+   "to": "turkiye",
+   "as": "435,691 visitors gave health as their purpose in 2020, against 756,926 in 2019 — and 1,381,807 by 2022.",
+   "rel": "destination"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "as": "Where the backlog the cancellations built shows up, in the countries that measure it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "as": "The recovery that followed, in one procedure and one country.",
+   "rel": "event"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "The kind of planned operation the cancellation modelling was about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A hole in every series at once, and what charts do to cover it.",
+   "rel": "story"
+  },
+  {
+   "to": "who",
+   "as": "Whose director-general used the word on 11 March 2020.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "WHO Director-General's opening remarks, 11 March 2020",
+   "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
+  },
+  {
+   "label": "UN Tourism — 2020, the worst year in tourism history",
+   "url": "https://www.untourism.int/news/2020-worst-year-in-tourism-history-with-1-billion-fewer-international-arrivals"
+  },
+  {
+   "label": "CovidSurg Collaborative, BJS 2020",
+   "url": "https://doi.org/10.1002/bjs.11746"
+  }
+ ],
+ "sources": [
+  "s:who-pandemic-remarks-2020",
+  "s:unwto-2020-arrivals",
+  "s:covidsurg-bjs-2020",
+  "s:ushas-saglik-turizmi-verileri",
+  "s:tuik-turizm-2025"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:who-pandemic-remarks-2020"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:unwto-2020-arrivals",
+    "note": "each figure was read on the page named in sources; the closing paragraph is marked inference"
+   },
+   "geo": {
+    "tier": "inference",
+    "note": "Geneva, where the briefing was given; the event itself belongs to no one place"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17",
+ "blurb": "The year cross-border care stopped. On 11 March 2020 the Director-General of the World Health Organization told a media briefing in Geneva: \"We have therefore made the assessment that COVID-19 can be characterized as a…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "world-bank-tourism-arrivals",
+   "type": "dataset",
+   "name": "International arrivals",
+   "as": "The series where 2020 is still the most recent year for 132 of 223 codes.",
+   "rel": "dataset"
+  },
+  {
+   "to": "turkiye",
+   "type": "destination",
+   "name": "Türkiye",
+   "as": "435,691 visitors gave health as their purpose in 2020, against 756,926 in 2019 — and 1,381,807 by 2022.",
+   "rel": "destination"
+  },
+  {
+   "to": "oecd-waiting-times",
+   "type": "dataset",
+   "name": "OECD waiting times for elective surgery",
+   "as": "Where the backlog the cancellations built shows up, in the countries that measure it.",
+   "rel": "dataset"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "The recovery that followed, in one procedure and one country.",
+   "rel": "event"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "The kind of planned operation the cancellation modelling was about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "counting-patients",
+   "type": "story",
+   "name": "Counting patients",
+   "as": "A hole in every series at once, and what charts do to cover it.",
+   "rel": "story"
+  },
+  {
+   "to": "who",
+   "type": "org",
+   "name": "World Health Organization",
+   "as": "Whose director-general used the word on 11 March 2020.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:who-pandemic-remarks-2020",
+   "kind": "web",
+   "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 — 11 March 2020",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+   "accessed": "2026-09-17",
+   "note": "'We have therefore made the assessment that COVID-19 can be characterized as a pandemic.'"
+  },
+  {
+   "id": "s:unwto-2020-arrivals",
+   "kind": "org",
+   "title": "2020: worst year in tourism history with 1 billion fewer international arrivals",
+   "publisher": "UN Tourism (World Tourism Organization), 28 January 2021",
+   "url": "https://www.untourism.int/news/2020-worst-year-in-tourism-history-with-1-billion-fewer-international-arrivals",
+   "accessed": "2026-09-17",
+   "note": "arrivals down 74% in 2020, 1 billion fewer than 2019, an estimated USD 1.3 trillion in lost export revenues, 100-120 million direct tourism jobs at risk; Asia-Pacific -84%, Middle East and Africa -75%, Europe -70%, Americas -69%"
+  },
+  {
+   "id": "s:covidsurg-bjs-2020",
+   "kind": "paper",
+   "title": "Elective surgery cancellations due to the COVID-19 pandemic: global predictive modelling to inform surgical recovery plans",
+   "publisher": "British Journal of Surgery 2020;107(11):1440-1449 (COVIDSurg Collaborative), doi:10.1002/bjs.11746",
+   "url": "https://academic.oup.com/bjs/article/107/11/1440/6139510",
+   "accessed": "2026-09-17",
+   "note": "a projection, not a count: 28,404,603 operations cancelled or postponed over 12 peak weeks, 2,367,050 a week, a 72.3% cancellation rate, 81.7% of benign-condition operations, 37.7% of cancer operations, 25.4% of elective caesarean sections; built from a global expert response study fed through a model"
+  },
+  {
+   "id": "s:ushas-saglik-turizmi-verileri",
+   "kind": "gov",
+   "title": "Sağlık Turizmi Verileri (health tourism data by year)",
+   "publisher": "USHAŞ — Uluslararası Sağlık Hizmetleri A.Ş., the Turkish Ministry of Health's international health services company",
+   "url": "https://ushas.gov.tr/saglik-turizmi-verileri/",
+   "accessed": "2026-09-16",
+   "note": "USHAŞ publishes the series it attributes to TÜİK, the Turkish statistical institute: visitors and revenue by year — 2019 756,926 and USD 1.459bn; 2020 435,691; 2021 729,592; 2022 1,381,807; 2023 1,538,643; 2024 1,506,442; 2025 1,398,580 and USD 3,022,452 thousand; first half of 2026 563,327 and USD 1.580bn. The unit is a visitor arriving with a health purpose, not an operation."
+  },
+  {
+   "id": "s:tuik-turizm-2025",
+   "kind": "dataset",
+   "title": "Turizm İstatistikleri, IV. Çeyrek: Ekim-Aralık ve Yıllık, 2025 (Sayı 54158) — table: Departing Visitors by Purpose of Visit, 2012–2026",
+   "publisher": "Türkiye İstatistik Kurumu (TurkStat)",
+   "year": 2026,
+   "url": "https://veriportali.tuik.gov.tr/Bulten/Index?p=Turizm-Istatistikleri-IV.-Ceyrek:-Ekim-Aralik-ve-Yillik,-2025-54158",
+   "accessed": "2026-09-17",
+   "note": "the health figure appears only in the attached statistical table, not in the bulletin text; its own footer names the source as the TurkStat Departing Visitors Survey — a border exit survey of stated purpose, not a count of patients treated"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:who-pandemic-remarks-2020"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:unwto-2020-arrivals",
+   "note": "each figure was read on the page named in sources; the closing paragraph is marked inference"
+  },
+  "geo": {
+   "tier": "inference",
+   "note": "Geneva, where the briefing was given; the event itself belongs to no one place"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:who-pandemic-remarks-2020"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "turkiye-hair-boom",
+   "type": "event",
+   "name": "Türkiye's hair transplant boom",
+   "as": "The collapse this recovery followed, and doubled.",
+   "rel": "event"
+  }
+ ]
+}

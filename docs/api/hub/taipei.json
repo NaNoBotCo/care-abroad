@@ -1,0 +1,327 @@
+{
+ "schema": 1,
+ "id": "taipei",
+ "type": "hub",
+ "names": {
+  "name": "Taipei",
+  "aliases": [
+   "臺北",
+   "Taipei City"
+  ],
+  "said": "Tai-bei. The medical centres are named for who built them rather than for where they are — Veterans, National Taiwan, Taipei Medical University — and a patient learns the district afterwards."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "iso2": "TW",
+  "radius_km": 20,
+  "specialty": [
+   "health screening",
+   "transplant",
+   "oncology",
+   "cardiology",
+   "dentistry",
+   "ophthalmology"
+  ],
+  "draws": [
+   "executive-health-screening",
+   "liver-transplant",
+   "cataract-surgery",
+   "dental-implant",
+   "icl"
+  ],
+  "languages": [
+   "Mandarin",
+   "Taiwanese Hokkien",
+   "English",
+   "Japanese"
+  ]
+ },
+ "text": {
+  "what": "Taipei's large hospitals are strung down the middle of the city from north to south. Taipei Veterans General Hospital, founded 1958 and running 3,000 beds, stands at 201 Shipai Road Section 2 in Beitou, at the northern end; National Taiwan University Hospital, founded on 18 June 1895 and now the island's largest public hospital with 2,400 beds, sits at 1 Changde Street in Zhongzheng, beside the old city; Taipei Medical University Hospital is at 252 Wuxing Street in Xinyi, east of the centre. The private cosmetic and dental shopfronts are not on those campuses at all: they are along Zhongxiao East Road and Dunhua South Road, in the shopping blocks between them.",
+  "story": "Both of the big hospitals here predate the trade by a long way — one founded under Japanese rule in 1895, one built for veterans in 1958 — and neither was built to sell anything. *Inference —* that is the character of the Taipei cluster and the reason it is thin in this directory. Taiwan's medicine grew inside a national health insurance system serving its own population, and the foreign patient is an addition to a full hospital rather than the reason the hospital exists.\n\n*Trade practice —* what the island is known for abroad is the screening package, the dental work, and a transplant and hepatology tradition built on decades of endemic hepatitis B. Prices are quoted well below Japanese, Korean and Singaporean equivalents for comparable work.\n\n*Inference —* this project has not yet read a Taiwanese price off a page, has found no Taiwanese ministry count of foreign patients it could verify, and carries none of the figures that circulate for the island. This record is geography and hedge until one of those is read.",
+  "how": "A Taipei medical centre runs an international medical service centre that takes an inquiry, quotes against the hospital's own published self-pay schedule, and arranges the interpreter. Taiwan's national health insurance does not cover a visiting foreigner, so the quote is the self-pay rate rather than the insured one, and those two numbers differ.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits in central Taipei, with a 20-kilometre radius reaching Beitou to the north, Xinyi to the east and the New Taipei hospitals across the river. No Taipei price and no Taiwanese patient count has been read off a page into this directory.",
+  "notes": "Geography and a list of hospitals. Nothing here advises anyone about treatment in Taiwan."
+ },
+ "geo": {
+  "lat": 25.062,
+  "lon": 121.534,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "city": "Taipei",
+  "area": "Zhongzheng, Beitou and Xinyi",
+  "country": "TW"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried for Taipei. The general literature this project read names no Taiwanese figure it could attribute to a register, and the one cost comparison found — a liver transplant put at about US$91,000 against US$300,000 in the United States — is an undated secondary estimate and is not carried as a price.",
+  "as_of": "2026-09-16",
+  "source": "s:wp-medical-tourism",
+  "url": "https://en.wikipedia.org/wiki/Medical_tourism"
+ },
+ "kin": [
+  {
+   "to": "taiwan",
+   "as": "The country whose medical centres cluster in this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "The package the island is best known for selling across the strait and to Japan.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "Built on decades of endemic hepatitis B and the hepatology that followed it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The shopfront trade along Zhongxiao East Road rather than on the hospital campuses.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "High-volume short-stay work quoted at a published self-pay rate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "seoul",
+   "as": "The neighbouring East Asian cluster that turned its hospitals outward, where Taipei mostly did not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "singapore-city",
+   "as": "The other high-cost regional centre competing for the complex case.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A hub with no count this project could verify, which is itself the finding.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "National Taiwan University Hospital",
+   "url": "https://www.ntuh.gov.tw/"
+  },
+  {
+   "label": "Taipei Veterans General Hospital",
+   "url": "https://www.vghtpe.gov.tw/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-ntuh",
+  "s:wp-tvgh",
+  "s:wp-medical-tourism",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "streets and house numbers read off OpenStreetMap address tags; founding dates and bed counts from the two hospitals' Wikipedia entries"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "this project reasoning from the founding dates and from what it could not find; the inline marks say which stretches are trade practice"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general shape of an international medical service centre in a Taiwanese medical centre; unverified against any one hospital's page"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "a central point chosen to reach the three campuses, not a point anybody published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:National Taiwan University Hospital.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "Taipei's large hospitals are strung down the middle of the city from north to south.",
+ "region_terms": [
+  {
+   "key": "east-asia",
+   "name": "East Asia",
+   "note": "South Korea, Japan, Taiwan, China"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "The country whose medical centres cluster in this city.",
+   "rel": "whole"
+  },
+  {
+   "to": "executive-health-screening",
+   "type": "procedure",
+   "name": "Executive health screening",
+   "as": "The package the island is best known for selling across the strait and to Japan.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "type": "procedure",
+   "name": "Liver transplant",
+   "as": "Built on decades of endemic hepatitis B and the hepatology that followed it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dental-implant",
+   "type": "procedure",
+   "name": "Dental implant",
+   "as": "The shopfront trade along Zhongxiao East Road rather than on the hospital campuses.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "High-volume short-stay work quoted at a published self-pay rate.",
+   "rel": "procedure"
+  },
+  {
+   "to": "seoul",
+   "type": "hub",
+   "name": "Seoul",
+   "as": "The neighbouring East Asian cluster that turned its hospitals outward, where Taipei mostly did not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "singapore-city",
+   "type": "hub",
+   "name": "Singapore",
+   "as": "The other high-cost regional centre competing for the complex case.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A hub with no count this project could verify, which is itself the finding.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 20 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-ntuh",
+   "kind": "wikipedia",
+   "title": "National Taiwan University Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Taiwan_University_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-tvgh",
+   "kind": "wikipedia",
+   "title": "Taipei Veterans General Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taipei_Veterans_General_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-medical-tourism",
+   "kind": "wikipedia",
+   "title": "Medical tourism",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medical_tourism",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16",
+   "note": "the field's general article; used in this batch only for the Singapore foreign-patient expenditure figures, which it attributes to reporting rather than to a government release."
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:osm-nominatim",
+   "note": "streets and house numbers read off OpenStreetMap address tags; founding dates and bed counts from the two hospitals' Wikipedia entries"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "this project reasoning from the founding dates and from what it could not find; the inline marks say which stretches are trade practice"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general shape of an international medical service centre in a Taiwanese medical centre; unverified against any one hospital's page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:osm-nominatim",
+   "note": "a central point chosen to reach the three campuses, not a point anybody published"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "taiwan",
+   "type": "destination",
+   "name": "Taiwan",
+   "as": "Where the international medical centres are.",
+   "rel": "part"
+  }
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "schema": 1,
+ "id": "colombo",
+ "type": "hub",
+ "names": {
+  "name": "Colombo",
+  "aliases": [
+   "කොළඹ",
+   "கொழும்பு"
+  ],
+  "said": "Colombo is addressed by number. Colombo 2 is Slave Island and Nawaloka; Colombo 5 is Narahenpita and the Asiri group; Colombo 10 is Maligawatte. A taxi wants the number before the name."
+ },
+ "region": [
+  "south-asia"
+ ],
+ "facets": {
+  "iso2": "LK",
+  "radius_km": 15,
+  "specialty": [
+   "cardiology",
+   "ophthalmology",
+   "orthopaedics",
+   "oncology",
+   "health screening"
+  ],
+  "draws": [
+   "cataract-surgery",
+   "cabg",
+   "angioplasty-stent",
+   "knee-replacement",
+   "dental-implant"
+  ],
+  "languages": [
+   "Sinhala",
+   "Tamil",
+   "English",
+   "Dhivehi"
+  ]
+ },
+ "text": {
+  "what": "Sri Lanka's private hospitals sit almost entirely in Colombo and its suburbs, and several of them cluster in Narahenpita — Asiri, Asiri Surgical, Oasis and Ninewells among them. Nawaloka stands on Sir James Peiris Mawatha at Slave Island in Colombo 2; Asiri Central is at 110 Norris Canal Road in Maligawatte, Colombo 10; Lanka Hospitals is on Vijaya Kumaratunga Mawatha at Polhengoda junction, in Colombo 5. Durdans and Hemas fill in between. Nothing here is more than five kilometres from anything else.",
+  "story": "Sri Lanka runs a free public health service its own population uses, and the private hospitals sit beside rather than instead of it: more comfortable, more expensive, and concentrated in the capital and its suburbs in a way that leaves the rest of the island to the state.\n\n*Trade practice —* the cross-border flow into Colombo is regional and short-haul rather than intercontinental. The Maldives is a ninety-minute flight away with no tertiary hospital of its own, and Colombo is where a Maldivian cardiac or orthopaedic case has long been sent; Indian patients cross for some work in the other direction. This project has read no register that quantifies either, and carries both as the trade's account.\n\n*Inference —* the compactness is the useful fact for a directory. Five or six private hospitals inside a few kilometres of central Colombo means one tight harvest catches the whole private sector of a country, which is not true of any other hub in this batch.",
+  "how": "A Colombo private hospital bills itemised — consultant fee, theatre, room, investigations — rather than as a package, with the consultant's fee separate from the hospital's charge, and payment in Sri Lankan rupees at the point of discharge. Some hospitals maintain liaison arrangements for Maldivian patients and for the state schemes that refer them.",
+  "today": "As of 16 September 2026 the harvest point for this hub sits in central Colombo, with a 15-kilometre radius covering the city and its inner suburbs. No Colombo price has been read off a page into this directory, no Sri Lankan facility is on this project's cast list, and no inbound count for the country has been verified.",
+  "notes": "A description of where a small private sector stands. Not advice about using it."
+ },
+ "geo": {
+  "lat": 6.905,
+  "lon": 79.87,
+  "precision": "city",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "city": "Colombo",
+  "area": "Western Province",
+  "country": "LK"
+ },
+ "metrics": {
+  "note": "No inbound patient count is carried for Colombo. Nothing this project read gives a Sri Lankan figure attributable to a register, and the Maldivian flow described above is the trade's account rather than a measured one.",
+  "as_of": "2026-09-16",
+  "source": "s:wp-healthcare-sri-lanka",
+  "url": "https://en.wikipedia.org/wiki/Healthcare_in_Sri_Lanka"
+ },
+ "kin": [
+  {
+   "to": "sri-lanka",
+   "as": "The country whose entire private hospital sector is in this city and its suburbs.",
+   "rel": "whole"
+  },
+  {
+   "to": "cataract-surgery",
+   "as": "Short-stay volume work, the kind a regional patient can fly in and out for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "as": "The cardiac work Maldivian patients have long been referred here for, by the trade's account.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Quoted here itemised rather than as a package.",
+   "rel": "procedure"
+  },
+  {
+   "to": "panchakarma",
+   "as": "The Ayurvedic course sold elsewhere on the island, not in these hospitals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chennai",
+   "as": "The Indian cluster across the strait that takes the complex referrals Colombo does not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "as": "A capital with a whole private sector in five kilometres and no count anybody publishes.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "links": [
+  {
+   "label": "Lanka Hospitals",
+   "url": "https://www.lankahospitals.com/"
+  },
+  {
+   "label": "Nawaloka Hospitals",
+   "url": "https://www.nawaloka.com/"
+  }
+ ],
+ "sources": [
+  "s:osm-nominatim",
+  "s:wp-healthcare-sri-lanka",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:osm-nominatim",
+    "note": "streets and postal districts read off OpenStreetMap address tags; the Narahenpita grouping is from the Healthcare in Sri Lanka article"
+   },
+   "text.story": {
+    "tier": "tradition",
+    "note": "the Maldivian flow is the trade's account and is unverified; the inline marks say which stretches are inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the general billing shape of a Colombo private hospital, unverified against any one hospital's page"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:osm-nominatim",
+    "note": "a central point between the Narahenpita, Slave Island and Maligawatte hospitals, not a point anybody published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Colombo skyline.jpg"
+ ],
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-16",
+ "blurb": "Sri Lanka's private hospitals sit almost entirely in Colombo and its suburbs, and several of them cluster in Narahenpita — Asiri, Asiri Surgical, Oasis and Ninewells among them.",
+ "region_terms": [
+  {
+   "key": "south-asia",
+   "name": "South Asia",
+   "note": "India, Pakistan, Bangladesh, Sri Lanka, Nepal"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "The country whose entire private hospital sector is in this city and its suburbs.",
+   "rel": "whole"
+  },
+  {
+   "to": "cataract-surgery",
+   "type": "procedure",
+   "name": "Cataract surgery",
+   "as": "Short-stay volume work, the kind a regional patient can fly in and out for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "cabg",
+   "type": "procedure",
+   "name": "Coronary artery bypass grafting",
+   "as": "The cardiac work Maldivian patients have long been referred here for, by the trade's account.",
+   "rel": "procedure"
+  },
+  {
+   "to": "knee-replacement",
+   "type": "procedure",
+   "name": "Total knee replacement",
+   "as": "Quoted here itemised rather than as a package.",
+   "rel": "procedure"
+  },
+  {
+   "to": "panchakarma",
+   "type": "procedure",
+   "name": "Panchakarma",
+   "as": "The Ayurvedic course sold elsewhere on the island, not in these hospitals.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chennai",
+   "type": "hub",
+   "name": "Chennai",
+   "as": "The Indian cluster across the strait that takes the complex referrals Colombo does not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "what-the-data-cannot-see",
+   "type": "story",
+   "name": "What the data cannot see",
+   "as": "A capital with a whole private sector in five kilometres and no count anybody publishes.",
+   "rel": "story"
+  },
+  {
+   "to": "osm-facilities",
+   "type": "dataset",
+   "name": "OpenStreetMap hospitals, clinics and dental surgeries",
+   "as": "The harvest that pulls every mapped hospital, clinic and dental surgery within 15 kilometres of this point.",
+   "rel": "measured-by"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "Nominatim search over OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "queried by hand for the street and the point of each anchor hospital in this batch. A Nominatim answer is whatever a mapper typed and whatever the geocoder matched it to; the addr: tags are read here as the street, not as a postal address the hospital itself published."
+  },
+  {
+   "id": "s:wp-healthcare-sri-lanka",
+   "kind": "wikipedia",
+   "title": "Healthcare in Sri Lanka",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Sri_Lanka",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0",
+   "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-16",
+   "note": "hospital, clinic and dental points around each hub, fetched by tools/harvest_osm.py"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:osm-nominatim",
+   "note": "streets and postal districts read off OpenStreetMap address tags; the Narahenpita grouping is from the Healthcare in Sri Lanka article"
+  },
+  "text.story": {
+   "tier": "tradition",
+   "note": "the Maldivian flow is the trade's account and is unverified; the inline marks say which stretches are inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the general billing shape of a Colombo private hospital, unverified against any one hospital's page"
+  },
+  "text.today": {
+   "tier": "cited"
+  },
+  "geo": {
+   "tier": "inference",
+   "source": "s:osm-nominatim",
+   "note": "a central point between the Narahenpita, Slave Island and Maligawatte hospitals, not a point anybody published"
+  },
+  "address": {
+   "tier": "cited"
+  },
+  "metrics": {
+   "tier": "cited"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "sri-lanka",
+   "type": "destination",
+   "name": "Sri Lanka",
+   "as": "Where the private sector and the referrals abroad both sit.",
+   "rel": "part"
+  }
+ ]
+}

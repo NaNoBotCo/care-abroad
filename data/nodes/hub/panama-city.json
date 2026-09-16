@@ -1,0 +1,174 @@
+{
+ "schema": 1,
+ "id": "panama-city",
+ "type": "hub",
+ "names": {
+  "name": "Panama City",
+  "aliases": [
+   "Ciudad de Panamá",
+   "Panamá"
+  ],
+  "said": "Pa-na-MÁ, with the stress on the last syllable in Spanish and on the first in the English of the people who retire here. The private hospitals sit on the bay between Paitilla and Punta Pacífica, with a newer campus out at Costa del Este."
+ },
+ "region": [
+  "central-america"
+ ],
+ "facets": {
+  "iso2": "PA",
+  "radius_km": 18,
+  "specialty": [
+   "cosmetic surgery",
+   "dentistry",
+   "health screening",
+   "cardiology",
+   "oncology"
+  ],
+  "draws": [
+   "abdominoplasty",
+   "liposuction",
+   "dental-implant",
+   "executive-health-screening"
+  ],
+  "languages": [
+   "Spanish",
+   "English"
+  ]
+ },
+ "text": {
+  "what": "Panama's capital and, for this subject, the whole of the country: 410,354 people in the city proper at the 2023 census, 2,100,189 in the metropolitan area, a US-dollar economy and a hub airport at Tocumen. Its private hospitals stand within a few kilometres of each other on the Pacific shore — Punta Pacífica, Paitilla, Bella Vista, Costa del Este — and they sell to two markets at once: people who fly in, and North Americans who already live here.",
+  "story": "The institution the city is known for abroad is Pacífica Salud, which opened at Punta Pacífica in 2006 and added a second campus at Costa del Este in February 2022. Its own credential page leads with an affiliation to Johns Hopkins Medicine International held \"since the hospital's beginnings\" and renewed in 2017, extended to both campuses; it states a fifth Joint Commission International accreditation at Punta Pacífica and a first at Costa del Este, neither of them dated on the page, together with World Stroke Organization certification running 12 November 2025 to 12 November 2028.\n\nA hospital's old web address is not a hospital. hospitalpuntapacifica.com, the domain the institution traded under before the rebrand, now answers with a permanent redirect to a slot-machine site; *Inference —* that is a lapsed domain bought by somebody else, and the reason this record cites the hospital's current address and nothing else. A reader following an old link, or a facilitator's stale directory entry, lands on a casino.\n\nThe older part of the cluster is smaller and quieter about itself. Hospital Nacional opened as Clínica Nacional on 9 July 1973, took its present name on 20 August 1998, and runs 80 beds — 8 adult and 5 paediatric intensive care beds, a 5-bed neonatal unit — with a department whose job is foreign insurance programmes rather than foreign patients.\n\nThe part a visitor does not get is written into statute. Ley 6 of 16 June 1987, as amended, gives Panamanians *and foreigners resident in the national territory* aged 55 for women and 60 for men, plus every retiree and pensioner of any age, a 20% discount on consultation fees in general medicine and in medical and surgical specialties, and 15% off the total bill for private hospital and clinic services where the beneficiary holds no hospitalisation insurance. The ages rose to 57 and 62 in 1995.\n\n*Inference —* that provision is what separates this hub from San José or Medellín. Everywhere else in this directory the foreign patient is the one being priced for. Here the state has written a permanent discount for the resident retiree and left the week-long visitor paying list, so the same private ward holds two people paying different prices for the same night, and the one paying less is the one who lives here.",
+  "how": "*Trade practice —* consultation, then treatment, over a few days to three weeks. Prices are quoted in US dollars, because the balboa is fixed to it and US notes circulate, which takes the exchange-rate argument out of a subject it usually runs through. The marks the hospitals lead with are American ones — a US academic affiliation and a US-derived accreditation — which is the recognisable-name trade this directory records everywhere from Gebze to Escazú. Follow-up after a visitor goes home is by message or video call.",
+  "today": "As of 17 September 2026 Pacífica Salud states the Johns Hopkins Medicine International affiliation as current on its own credential page, with no end date and no year of renewal after 2017; this directory's Panama record carries no claim either way and none is made here. No Panama City price was read off any page for this record — a statement about the pages read, not about the world. The former hospitalpuntapacifica.com address redirects to a gambling host."
+ },
+ "geo": {
+  "lat": 8.9835,
+  "lon": -79.5155,
+  "precision": "city",
+  "source": "s:wp-panama-city"
+ },
+ "address": {
+  "city": "Panama City",
+  "area": "Panamá",
+  "country": "PA"
+ },
+ "tags": [
+  {
+   "tag": "insurer-direct",
+   "source": "s:wp-hospital-nacional",
+   "tier": "cited",
+   "note": "Hospital Nacional runs an International Insurances Department handling foreign insurance programmes alongside the Panamanian carriers"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation stated by Pacífica Salud as a fifth award at Punta Pacífica and a first at Costa del Este",
+   "year": null,
+   "valid_until": null,
+   "source": "s:pacificasalud-respaldo",
+   "url": "https://www.pacificasalud.com/en/respaldo-institucional/",
+   "note": "the hospital's own page carries no year for either award; JCI's own directory could not be read by this project, so nothing here is confirmed against the accreditor"
+  },
+  {
+   "by": "other",
+   "what": "Affiliation with Johns Hopkins Medicine International, stated as running since the hospital's beginnings and renewed in 2017",
+   "year": 2017,
+   "valid_until": null,
+   "source": "s:pacificasalud-respaldo",
+   "url": "https://www.pacificasalud.com/en/respaldo-institucional/",
+   "note": "an academic affiliation, not an accreditation: no inspection, no standard, no cycle. Counted here because the hospital leads with it"
+  }
+ ],
+ "kin": [
+  {
+   "to": "panama",
+   "as": "The country this cluster is, for practical purposes, the whole of.",
+   "rel": "destination"
+  },
+  {
+   "to": "san-jose-cr",
+   "as": "The neighbouring Central American cluster, older, larger and built on the same North American market.",
+   "rel": "contrast"
+  },
+  {
+   "to": "medellin",
+   "as": "The regional cosmetic capital, where the foreign patient is the one being priced for.",
+   "rel": "contrast"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "What a hub airport and a dollar economy sell well: fly in, be measured, fly out.",
+   "rel": "performs"
+  },
+  {
+   "to": "dental-implant",
+   "as": "The everyday work of the cluster, bought as often by a resident as by a visitor.",
+   "rel": "performs"
+  },
+  {
+   "to": "jci",
+   "as": "The mark the flagship hospital counts in fifths, without dating any of them.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "Quoted in US dollars here, which removes the currency argument and leaves the inclusion list.",
+   "rel": "step"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "A city that sells on price and publishes none, with a statutory discount that only residents can claim.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Pacífica Salud — respaldo institucional",
+   "url": "https://www.pacificasalud.com/en/respaldo-institucional/"
+  },
+  {
+   "label": "Ley 6 de 16 de junio de 1987 (Panamá)",
+   "url": "https://mici.gob.pa/wp-content/uploads/2021/09/01-03-ley-6-1987.pdf"
+  }
+ ],
+ "sources": [
+  "s:wp-panama-city",
+  "s:pacificasalud-about",
+  "s:pacificasalud-respaldo",
+  "s:wp-hospital-nacional",
+  "s:pa-ley-6-1987",
+  "s:wp-punta-pacifica"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:pacificasalud-respaldo",
+    "note": "the hospital's credentials and the Hospital Nacional dates were read off the named pages on 17 September 2026; the statute is quoted from the Gaceta text; the two stretches marked *Inference —* are this project's reading, and the domain redirect was observed from this machine on 2026-09-17"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shape of a Panamanian booking, hedged in the prose"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the redirect was observed from this machine on 2026-09-17; the affiliation sentence reports what the hospital's page states and makes no finding about the affiliation's current status"
+   },
+   "geo": {
+    "tier": "inference",
+    "source": "s:wp-panama-city",
+    "note": "a point set between the Paitilla and Punta Pacífica hospitals rather than on the city's own coordinate, so the harvest radius covers the cluster and reaches Costa del Este"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Panama City skyline.jpg",
+  "File:Punta Pacifica Panama.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

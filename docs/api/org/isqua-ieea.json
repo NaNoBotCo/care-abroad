@@ -1,0 +1,296 @@
+{
+ "schema": 1,
+ "id": "isqua-ieea",
+ "type": "org",
+ "names": {
+  "name": "ISQua External Evaluation Association",
+  "aliases": [
+   "ISQua EEA",
+   "IEEA",
+   "the accreditor of accreditors"
+  ],
+  "said": "The trade calls it the accreditor of accreditors, and that phrase does more work in marketing copy than in any contract."
+ },
+ "region": [
+  "global",
+  "europe-west"
+ ],
+ "facets": {
+  "kind": "accreditor",
+  "iso2": "IE",
+  "founded": 2018,
+  "status": "open"
+ },
+ "text": {
+  "what": "The body that assesses the bodies. Established by the International Society for Quality in Health Care in 2018 and trading from 2019, registered in Switzerland, it runs an International Accreditation Programme in four categories: health and social care standards, external evaluation organisations, surveyor training programmes, and quality and patient safety training programmes. It states plainly that it \"does not directly accredit health or social care services\".",
+  "story": "Every other accreditor on this site is a private or public body selling an inspection to the organisation it inspects. The obvious question — who inspects the inspector — has exactly one industrial answer, and this is it.\n\nThe answer is smaller than it sounds. ISQua EEA does not audit a hospital and does not re-run an accreditor's surveys. It assesses whether a standards set, an evaluation organisation, or a surveyor training programme meets its own published principles, and grants an award for four years against annual progress reports. The applicant pays: a once-off Access Fee \"entitles an organisation to enter the International Accreditation Programme and to receive the full information pack\", banded by the World Bank income group of the country the applicant operates from — 1,716 to 2,946 euros for 2026.\n\n*Inference —* so the chain runs applicant pays accreditor, accreditor pays meta-accreditor, and nobody in the chain is paid by a patient. That is worth stating once, without indignation, because it is the shape of the whole field and most pages that cite these marks leave it out.",
+  "how": "An organisation pays the Access Fee, receives the information pack, submits a self-assessment against the relevant ISQua EEA principles, and is reviewed by external surveyors. An award runs four years and requires an annual progress report with supporting evidence. Awards are dated on both ends, and accredited bodies publish the year range — AACI, for example, lists an organisational award for 2022 to 2026, a standards award for 2023 to 2027 and a surveyor training award for 2024 to 2028.",
+  "today": "As of 16 September 2026 ISQua EEA holds awards over Temos, Global Healthcare Accreditation, AACI, NABH, CBAHI, the ACHS EQuIP standards and Thailand's Healthcare Accreditation Institute, among others. ISQua itself remains a separate Dublin-based not-for-profit, Irish registered charity number 20072445.",
+  "notes": "Two countries sit on this record. The association is registered in Switzerland; the office the point is pinned on is ISQua's in Dublin, which is where the programme is run from. The country facet follows the point, so this record groups under Ireland on the maps and indexes."
+ },
+ "geo": {
+  "lat": 53.3498,
+  "lon": -6.2603,
+  "precision": "city",
+  "source": "s:isqua-about"
+ },
+ "address": {
+  "city": "Dublin",
+  "country": "IE"
+ },
+ "kin": [
+  {
+   "to": "jci",
+   "as": "One of the accreditors whose standards it sits above, and the largest.",
+   "rel": "accredits"
+  },
+  {
+   "to": "temos",
+   "as": "Holds its award; the first German accreditor to take one.",
+   "rel": "accredits"
+  },
+  {
+   "to": "gha",
+   "as": "Holds its award over the Standards for Medical Travel 5.0.",
+   "rel": "accredits"
+  },
+  {
+   "to": "aaci",
+   "as": "Holds three of its awards, each with a published year range.",
+   "rel": "accredits"
+  },
+  {
+   "to": "nabh",
+   "as": "Holds its award over the Indian hospital standards.",
+   "rel": "accredits"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Where the chain of who pays whom is followed to the end.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "International Accreditation Programme",
+   "url": "https://ieea.ch/international-accreditation-programme/"
+  },
+  {
+   "label": "ISQua",
+   "url": "https://isqua.org/"
+  }
+ ],
+ "sources": [
+  "s:ieea-iap",
+  "s:isqua-about"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ieea-iap"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:ieea-iap",
+    "note": "third paragraph marked as this project's inference"
+   },
+   "geo": {
+    "tier": "cited",
+    "source": "s:isqua-about",
+    "note": "ISQua's Dublin base; ISQua EEA is registered in Switzerland and publishes no street address this project could read"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "needs_verification": true,
+ "blurb": "The body that assesses the bodies. Established by the International Society for Quality in Health Care in 2018 and trading from 2019, registered in Switzerland, it runs an International Accreditation Programme in four…",
+ "region_terms": [
+  {
+   "key": "global",
+   "name": "Everywhere",
+   "note": "use for a node that belongs to no one country — a standard, a word, a risk"
+  },
+  {
+   "key": "europe-west",
+   "name": "Western Europe",
+   "note": "Germany, France, Belgium, the Netherlands, Ireland, the UK, Switzerland, Austria"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "One of the accreditors whose standards it sits above, and the largest.",
+   "rel": "accredits"
+  },
+  {
+   "to": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "Holds its award; the first German accreditor to take one.",
+   "rel": "accredits"
+  },
+  {
+   "to": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "Holds its award over the Standards for Medical Travel 5.0.",
+   "rel": "accredits"
+  },
+  {
+   "to": "aaci",
+   "type": "org",
+   "name": "American Accreditation Commission International",
+   "as": "Holds three of its awards, each with a published year range.",
+   "rel": "accredits"
+  },
+  {
+   "to": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "Holds its award over the Indian hospital standards.",
+   "rel": "accredits"
+  },
+  {
+   "to": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "Where the chain of who pays whom is followed to the end.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:ieea-iap",
+   "kind": "org",
+   "title": "International Accreditation Programme",
+   "publisher": "ISQua External Evaluation Association",
+   "url": "https://ieea.ch/international-accreditation-programme/",
+   "accessed": "2026-09-16",
+   "note": "four assessment categories, the statement that ISQua EEA does not directly accredit health or social care services, the once-off Access Fee and the 2026 fee band"
+  },
+  {
+   "id": "s:isqua-about",
+   "kind": "org",
+   "title": "International Society for Quality in Health Care",
+   "publisher": "ISQua",
+   "url": "https://isqua.org/",
+   "accessed": "2026-09-16",
+   "note": "Dublin base, Irish registered charity number 20072445, and the statement that ISQua EEA was established by ISQua in 2018"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:ieea-iap"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:ieea-iap",
+   "note": "third paragraph marked as this project's inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:ieea-iap"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:ieea-iap"
+  },
+  "geo": {
+   "tier": "cited",
+   "source": "s:isqua-about",
+   "note": "ISQua's Dublin base; ISQua EEA is registered in Switzerland and publishes no street address this project could read"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:ieea-iap"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dubai",
+   "type": "hub",
+   "name": "Dubai",
+   "as": "The body that accredits the standards a regulator writes, rather than the hospital.",
+   "rel": "org"
+  },
+  {
+   "from": "aaci",
+   "type": "org",
+   "name": "American Accreditation Commission International",
+   "as": "Holds three dated awards over this body, its standards and its surveyor training.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "achsi",
+   "type": "org",
+   "name": "ACHS International",
+   "as": "Holds the award over the EQuIP standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "cbahi",
+   "type": "org",
+   "name": "Saudi Central Board for Accreditation of Healthcare Institutions",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "gha",
+   "type": "org",
+   "name": "Global Healthcare Accreditation",
+   "as": "Holds the award over its Standards for Medical Travel 5.0.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "jci",
+   "type": "org",
+   "name": "Joint Commission International",
+   "as": "The body that accredits accreditors, and the answer to who checks this one.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "nabh",
+   "type": "org",
+   "name": "National Accreditation Board for Hospitals and Healthcare Providers",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "temos",
+   "type": "org",
+   "name": "Temos International Healthcare Accreditation",
+   "as": "The body holding an award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "thai-ha-institute",
+   "type": "org",
+   "name": "Healthcare Accreditation Institute",
+   "as": "Holds the award over these standards.",
+   "rel": "accredited-by"
+  },
+  {
+   "from": "jci-accredited-list",
+   "type": "dataset",
+   "name": "The JCI list of accredited organizations",
+   "as": "The body that accredits the accreditors, and the answer to who audits this register.",
+   "rel": "org"
+  },
+  {
+   "from": "the-accreditation-question",
+   "type": "story",
+   "name": "The accreditation question",
+   "as": "The body that assesses the bodies, and the only dated third-party check on a badge wall.",
+   "rel": "org"
+  }
+ ]
+}
