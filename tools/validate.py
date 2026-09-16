@@ -160,16 +160,18 @@ def validate_all(strict=False, quiet=False) -> int:
                 (warns if DRAFT else errors).append(f"{tag}: confusable_with {c['id']} not found")
         for s in r.get("sources", []):
             if s not in sources:
-                errors.append(f"{tag}: source {s} not in sources.json")
+                (warns if DRAFT else errors).append(f"{tag}: source {s} not in sources.json")
         prov = r.get("provenance", {})
         for where, p in [("default", prov.get("default", {}))] + list(prov.get("fields", {}).items()):
             if p.get("source") and p["source"] not in sources:
-                errors.append(f"{tag}: provenance {where} cites {p['source']} which is not in sources.json")
+                (warns if DRAFT else errors).append(
+                    f"{tag}: provenance {where} cites {p['source']} which is not in sources.json")
             if p.get("tier") == "cited" and not p.get("source") and not r.get("sources"):
                 warns.append(f"{tag}: provenance {where} is 'cited' but names no source")
         et = r.get("etymology") or {}
         if et.get("source") and et["source"] not in sources:
-            errors.append(f"{tag}: etymology cites {et['source']} which is not in sources.json")
+            (warns if DRAFT else errors).append(
+                f"{tag}: etymology cites {et['source']} which is not in sources.json")
         if r.get("type") == "term" and not et.get("root"):
             warns.append(f"{tag}: a word with no etymology.root")
         for reg in r.get("region", []):

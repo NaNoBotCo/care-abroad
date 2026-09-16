@@ -225,8 +225,13 @@ def rules_page(page, legality: dict, recs: list, geo: dict, site_url: str) -> st
     by_id = {r["id"]: r for r in recs}
     names = {c["iso"]: c["name"] for c in geo["countries"]}
     cells = {(r["subject"], r["country"]): r for r in legality["rows"]}
+    counts: dict = {}
+    for r in legality["rows"]:
+        counts[r["subject"]] = counts.get(r["subject"], 0) + 1
+    MAPPED = 5      # a question is a grid row once it has been read in five jurisdictions
     subjects = [{"id": s, "label": by_id[s]["names"]["name"] if s in by_id else s}
-                for s in legality["subjects"]]
+                for s in legality["subjects"] if counts.get(s, 0) >= MAPPED]
+    singles = [s for s in legality["subjects"] if counts.get(s, 0) < MAPPED]
     body = (f'<h1><span class="kind">Law</span>Rules</h1>'
             f'<p class="lede">Some people travel because treatment is cheaper elsewhere. Others travel because '
             f'it is lawful elsewhere. This grid is the second kind: one question down the side, one jurisdiction '
@@ -237,11 +242,20 @@ def rules_page(page, legality: dict, recs: list, geo: dict, site_url: str) -> st
                                 note=("A hatched cell means nobody here has read that law — a fact about this "
                                       "project, not about the country. Statutes change between a reading and a "
                                       "reader; the date in each cell is how old the reading is."))
+    if singles:
+        rows = [r for r in legality["rows"] if r["subject"] in singles]
+        body += ('<h3>Read once, on one country</h3><p class="mute">These sit on a country\'s own '
+                 'page rather than on the grid: one reading is a fact about that jurisdiction, not a '
+                 'map of the question.</p><ul>' + "".join(
+                     f'<li><b>{E(r["subject_name"])}</b> — {E(names.get(r["country"], r["country"]))}: '
+                     f'{E(viz.LEGAL.get(r["status"], {}).get("label", r["status"]))}'
+                     + (f'. {E(r["instrument"])}' if r.get("instrument") else "")
+                     + f' <span class="mute">(read {E(r["as_of"])})</span></li>' for r in rows) + "</ul>")
     if legality["rows"]:
         years = sorted({r["as_of"][:4] for r in legality["rows"]})
         body += (f'<p class="mute">Readings dated {E(years[0])}–{E(years[-1])}. '
                  f'{len(legality["rows"])} rows across {len(legality["countries"])} jurisdictions and '
-                 f'{len(subjects)} questions.</p>')
+                 f'{len(subjects)} questions mapped across borders{", and " + str(len(singles)) + " read once" if singles else ""}.</p>')
     body += '<h2>The rules themselves</h2><div class="cards">'
     for r in sorted([r for r in recs if r["type"] == "rule"], key=lambda r: r["names"]["name"].lower()):
         body += (f'<div class="card"><a class="t" href="../rule/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a>'

@@ -1,0 +1,104 @@
+{
+ "id": "cross-border-prescriptions",
+ "names": {
+  "name": "A prescription that crosses a border",
+  "aliases": [
+   "cross-border prescription",
+   "the common name rule",
+   "Directive 2012/52/EU"
+  ],
+  "said": "A brand name stops at the frontier. The common name does not."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north",
+  "europe-east"
+ ],
+ "facets": {
+  "kind": "treaty",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Commission Implementing Directive 2012/52/EU, made under Directive 2011/24/EU, sets what a prescription must carry to be dispensable in another EU Member State. Article 2 states the scope: it applies to prescriptions \"issued further to a request of a patient who intends to use them in another Member State\". The patient has to ask for one; an ordinary domestic prescription does not become portable by itself.",
+  "story": "The Annex is a list of four things, and the fourth is the one that does the work.\n\nPatient identification: surname or surnames, first names \"written out in full, i.e. no initials\", and date of birth. Authentication: the issue date. The prescriber: name, professional qualification, contact details including telephone or email with international dialling prefixes, work address with the Member State named, and a signature, written or digital.\n\nThen the product. The prescription gives the common name as defined in Directive 2001/83/EC, the pharmaceutical form, the quantity, the strength and the dosage regimen. A brand name is used only where the product is a biological medicinal product, or where the prescriber deems it medically necessary — and the prescriber then states why.\n\n*Inference —* the common-name rule is a translation device, and it is the same move accreditation makes in another part of this subject: replace a local identifier nobody abroad can read with a shared one they can. A pharmacist in Lisbon does not need to know a Finnish brand. They need an international non-proprietary name, a strength and a form.\n\nWhat the instrument does not do is make anything portable that was not portable already. It sets the form of a document. It does not oblige a pharmacy to stock the product, does not touch whether the medicine is authorised in the dispensing country, does not touch price or reimbursement, and expressly does not create a route for medicines that are controlled substances in either state.\n\nOutside the European Economic Area nothing equivalent exists. A prescription written in Bangkok is a piece of paper in Berlin, and the medicine a patient is discharged on may not be authorised, may be authorised at a different strength, or may be an entirely different molecule sold under a name that looks familiar.",
+  "how": "What a patient discharged abroad would have to establish: whether the medicine has an international non-proprietary name written on the discharge summary rather than only a local brand; whether it is authorised at home; whether the quantity supplied covers the gap until a home prescriber can see them; and whether any of it is a controlled drug, which is a customs question as well as a clinical one.\n\nThe World Health Organization's fact sheet on substandard and falsified medical products, dated 3 December 2024, is the background to the other half of this: what is bought to fill the gap, and where.",
+  "today": "As of 17 September 2026 the implementing directive stands as the EU rule. The parent directive's route closed to United Kingdom residents at the end of the transition period, and this project has not read what replaced it for prescriptions written in the EEA and presented in Britain."
+ },
+ "kin": [
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The parent instrument this one implements.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The document the common-name rule is really about.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step where the prescription is presented.",
+   "rel": "step"
+  },
+  {
+   "to": "counterfeit-medicines",
+   "as": "What fills the gap when the prescription will not travel.",
+   "rel": "risk"
+  },
+  {
+   "to": "patient-data-transfer",
+   "as": "The record that travels alongside it, under different law.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "The interval this instrument was written to shorten.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-national-contact-points",
+   "as": "Who a patient asks when a pharmacy refuses.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "Commission Implementing Directive 2012/52/EU, Article 2",
+   "url": "https://www.legislation.gov.uk/eudr/2012/52/article/2"
+  },
+  {
+   "label": "Commission Implementing Directive 2012/52/EU, Annex",
+   "url": "https://www.legislation.gov.uk/eudr/2012/52/annex"
+  }
+ ],
+ "sources": [
+  "s:eu-implementing-dir-2012-52",
+  "s:legislation-eu-directive-2011-24",
+  "s:who-substandard-falsified",
+  "s:nhs-eu-directive-route"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eu-implementing-dir-2012-52"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eu-implementing-dir-2012-52",
+    "note": "the Annex is quoted; the stretch marked *Inference —* is this project's reading"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the questions a discharged patient faces; no instrument sets them out"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

@@ -234,6 +234,15 @@
    "url": "https://int.livhospital.com/",
    "accessed": "2026-09-17",
    "note": "the group's own counters read on 17 September 2026: 723+ doctors, 1M+ patients, 20+ locations. Names Liv Hospital Ulus, Vadistanbul, Ankara, Gaziantep, Bona Dea and Istinye University Bahçeşehir Liv. Lists JCI accreditation with no year, ISO certification, the Türkiye international health tourism authorisation, a Ministry of Culture and Tourism authorisation and a four-star Global Hospital Rating."
+  },
+  {
+   "id": "s:cima-accreditations",
+   "kind": "web",
+   "title": "Accreditations — Hospital CIMA San José",
+   "publisher": "Hospital CIMA San José, Escazú",
+   "url": "https://hospitalcima.com/en/information-center/accreditations/",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026 after WebFetch failed on the site's certificate chain. States a sixth consecutive JCI Gold Seal against more than 1,200 standards, with no year for the first award, and ANCC Pathway to Excellence certification described as the only one held by a private hospital in Costa Rica or Central America. The page's payments section names the departments that process payment and prints no figure."
   }
  ]
 }

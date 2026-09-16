@@ -1,0 +1,114 @@
+{
+ "id": "advertising-rules",
+ "names": {
+  "name": "What a clinic may say",
+  "aliases": [
+   "healthcare advertising controls",
+   "promotion and information rules",
+   "KKLIU"
+  ],
+  "said": "Several states draw the same line and call it the same thing: information is allowed, advertising is not."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "advertising",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "The instruments that govern how a hospital, clinic or broker may promote treatment, and what it may claim. Four regimes are read here: Türkiye's promotion and information regulation, Malaysia's advertisement board approval, Singapore's advertising controls under the Healthcare Services Act 2020, and the United Kingdom's self-regulatory advertising code.",
+  "story": "Türkiye's is the one written with cross-border trade in view, and it was rewritten recently. The Regulation on Promotion and Information Activities in Health Services was published in the Resmî Gazete on 12 November 2025, No. 33075, repealing the regulation of 29 July 2023, No. 32263. Article 5 states the rule: implicit or explicit advertising in the provision of health services is prohibited. Article 8 then carves out the foreign market — promotion directed abroad may run on separate platforms, may not select a domestic audience, and must carry the HealthTürkiye logo.\n\n*Inference —* that is a state permitting to foreigners what it forbids to its own citizens, and doing so explicitly rather than by omission. A reader in London and a reader in Ankara looking at the same Turkish clinic are looking at two different regulatory objects.\n\nMalaysia licenses the advertisement itself. Under section 4B of the Medicines (Advertisement and Sale) Act 1956, with the Medicine Advertisements Board Regulations 1976, an advertisement needs Board approval before publication, and the Ministry's own answer is that all dissemination of information about products and healthcare services to attract public attention, including on the internet, is an advertisement.\n\nSingapore ties the permission to the licence. Advertising controls under the Healthcare Services Act 2020 came into force on 26 June 2023 for non-licensed providers and non-registered professionals, and only a licensee or its authorised person may advertise a licensable healthcare service, under section 31. Entities outside the licensing regime — the Ministry names chiropractic centres, beauty salons, fitness centres and massage parlours — may not claim to treat or cure.\n\nBritain regulates the claim rather than the trader. The CAP Code's section 12 requires that objective claims be backed by evidence, \"if relevant consisting of trials conducted on people\" (rule 12.1), that marketers \"must not discourage essential treatment for conditions for which medical supervision should be sought\" (12.2), and that \"Prescription-only medicines or prescription-only medical treatments may not be advertised to the public\" (12.12).\n\n*Inference —* every one of these instruments binds an advertiser inside its own jurisdiction, and the advertisement a patient reads was usually placed from another one. That is the gap the whole promotional trade in this field sits in, and none of the four regimes read here closes it.",
+  "how": "What a reader can check, and what they cannot: a Turkish provider's authorisation is on a published ministry register, and a Malaysian advertisement carries a serial number on its face. A claim made on a platform hosted elsewhere and served from elsewhere is outside all of them.\n\nWhat these instruments do not govern: the price quoted, the exclusion list attached to it, or what a facilitator says on a telephone call.",
+  "today": "As of 17 September 2026 the Turkish regulation of 12 November 2025 is the current instrument there. The Resmî Gazete page's certificate could not be verified on this date and the text was read on a Turkish portal's reproduction; the article numbers and the repeal are as that reproduction carries them."
+ },
+ "kin": [
+  {
+   "to": "turkiye-health-tourism-authorisation",
+   "as": "The licence a Turkish advertiser must hold before Article 8 lets it speak abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "malaysia-mhtc-licence",
+   "as": "The third Malaysian regime, alongside the statutory licence and the council membership.",
+   "rel": "kin"
+  },
+  {
+   "to": "turkiye",
+   "as": "The state that permits abroad what it forbids at home.",
+   "rel": "destination"
+  },
+  {
+   "to": "singapore",
+   "as": "The state that ties the permission to the licence.",
+   "rel": "destination"
+  },
+  {
+   "to": "malaysia",
+   "as": "The state that licenses the advertisement itself.",
+   "rel": "destination"
+  },
+  {
+   "to": "facilitator",
+   "as": "The party most of these instruments reach least.",
+   "rel": "term"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where the claim meets a number.",
+   "rel": "step"
+  },
+  {
+   "to": "stem-cell-regulation",
+   "as": "What may be said about a treatment holding no authorisation anywhere.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "The claim these codes do not reach.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Resmî Gazete, 12 November 2025, No. 33075",
+   "url": "https://resmigazete.gov.tr/eskiler/2025/11/20251112-2.htm"
+  },
+  {
+   "label": "CAP Code section 12",
+   "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html"
+  }
+ ],
+ "sources": [
+  "s:tr-tanitim-yonetmelik-2025",
+  "s:my-mab-kkliu",
+  "s:my-mab-guidelines",
+  "s:sg-hcsa-advertisement-regs-2021",
+  "s:sg-moh-advertising-controls",
+  "s:asa-cap-code-12",
+  "s:rg-saglik-turizmi-2017"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:tr-tanitim-yonetmelik-2025"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:asa-cap-code-12",
+    "note": "the stretches marked *Inference —* are this project's reading across the four regimes"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:tr-tanitim-yonetmelik-2025",
+    "note": "the official gazette page could not be verified on this date; the reproduction read is named in the source entry"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

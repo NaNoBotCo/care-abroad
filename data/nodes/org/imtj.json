@@ -17,13 +17,13 @@
   "kind": "trade-body",
   "iso2": "GB",
   "founded": 2007,
-  "status": "open"
+  "status": "unknown"
  },
  "text": {
   "what": "A British trade publication covering cross-border care, established in 2007 and edited by Keith Pollard. It publishes a biweekly newsletter and news coverage, sells market reports, and runs an annual summit and the Medical Travel Awards. It was published by Intuition Communication of Berkhamsted, which LaingBuisson acquired.",
-  "story": "The field has two houses that publish about itself, and this is the sceptical one. Its news coverage has spent years pulling apart the market-size claims the rest of the trade repeats, which makes it unusually useful and does not make it disinterested: it sells reports, sponsorship, conference places and award entries into the same industry it covers.\n\nThe awards are judged by a panel — reported as 21 medical travel experts chaired by the editor — and entrants pay to enter, which is the standard shape of a trade award. *Inference —* a trade award is evidence that a company entered a competition and a panel preferred its entry. It is not an inspection, it has no standard behind it, and it should never be counted alongside an accreditation.\n\nIts market reports are sold rather than published, so their methods sit behind a price. This record cannot say what is in them.",
+  "story": "The field has two houses that publish about itself, and this is the sceptical one. Its news coverage has spent years pulling apart the market-size claims the rest of the trade repeats, which makes it unusually useful and does not make it disinterested: it sells reports, sponsorship, conference places and award entries into the same industry it covers.\n\nThe awards are judged by a panel — reported as 21 medical travel experts chaired by the editor — and entrants pay to enter, which is the standard shape of a trade award. *Inference —* a trade award is evidence that a company entered a competition and a panel preferred its entry. It is not an inspection, it has no standard behind it, and it should never be counted alongside an accreditation.\n\nIts market reports are sold rather than published, so their methods sit behind a price. This record cannot say what is in them.\n\nThe ownership chain is documented. Intuition Communication, a Berkhamsted publisher, held the title from 2009; LaingBuisson announced the acquisition of Intuition on 1 March 2018, and Companies House records the renaming of company 04858023 from Intuition Communication Limited on 5 March 2018 and its dissolution on 14 March 2023, by which time the brand had moved to the parent. Who founded the journal in 2007 is not on the record anywhere this project could read.",
   "how": "Revenue comes from advertising, sponsorship, market report sales, the summit and the awards. Much of the news is free to read; the reports are not. IMTJ's own site refused every fetch from this project on 16 September 2026, so this record rests on the secondary source named in sources and the record is thinner than it should be.",
-  "today": "As of 16 September 2026 IMTJ continues as a trade title under LaingBuisson with Keith Pollard as editor in chief."
+  "today": "As of 17 September 2026 the title looks dormant rather than active, and this record says so because the alternative is to repeat a claim the sources do not support. imtj.com answers automated requests with a Cloudflare challenge and its article URLs return 301 or 401 rather than pages; the LaingBuisson News category for IMTJ, captured on 10 September 2026, carries nothing newer than November 2023; awards.imtj.com no longer resolves; and summit.imtj.com redirects to a generic events homepage. Keith Pollard's own site describes him as editor in chief and adds that the journal's future \"is currently under review by LaingBuisson\" — wording already present in a September 2024 capture, so it dates the statement rather than the state. Whether the journal has formally ceased is not something this project could establish."
  },
  "geo": {
   "lat": 51.76,
@@ -69,7 +69,13 @@
   }
  ],
  "sources": [
-  "s:imtj-wikipedia"
+  "s:imtj-wikipedia",
+  "s:imtj-about-2010-archive",
+  "s:imtj-about-2021-archive",
+  "s:laingbuisson-intuition-2018",
+  "s:ch-laingbuisson-international",
+  "s:keithpollard-about",
+  "s:laingbuissonnews-imtj-archive"
  ],
  "provenance": {
   "default": {
@@ -89,5 +95,5 @@
  },
  "confidence": "low",
  "needs_verification": true,
- "updated": "2026-09-16"
+ "updated": "2026-09-17"
 }

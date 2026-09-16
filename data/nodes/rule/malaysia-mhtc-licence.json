@@ -81,7 +81,7 @@
   }
  ],
  "sources": [
-  "s:my-act-586",
+  "s:my-act-586-overview",
   "s:malaysiahealthcare-about",
   "s:mhtc-wikipedia",
   "s:mhtc-mymt-2026",
@@ -90,7 +90,7 @@
  "provenance": {
   "default": {
    "tier": "cited",
-   "source": "s:my-act-586"
+   "source": "s:my-act-586-overview"
   },
   "fields": {
    "text.story": {

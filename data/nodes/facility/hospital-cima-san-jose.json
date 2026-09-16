@@ -4,27 +4,58 @@
  "type": "facility",
  "names": {
   "name": "Hospital CIMA San José",
-  "aliases": ["Hospital CIMA", "CIMA San José"],
+  "aliases": [
+   "Hospital CIMA",
+   "CIMA San José"
+  ],
   "said": "SEE-ma — the summit. The hospital stands in Escazú, the western suburb of San José where the embassies and the American residents are, on the Próspero Fernández motorway."
  },
- "region": ["central-america"],
+ "region": [
+  "central-america"
+ ],
  "facets": {
   "iso2": "CR",
   "ownership": "private",
   "founded": 2000,
-  "specialty": ["orthopaedics", "general surgery", "cardiology", "emergency medicine", "cosmetic surgery"],
-  "draws": ["knee-replacement", "hip-replacement", "gastric-sleeve", "abdominoplasty", "dental-implant"],
+  "specialty": [
+   "orthopaedics",
+   "general surgery",
+   "cardiology",
+   "emergency medicine",
+   "cosmetic surgery"
+  ],
+  "draws": [
+   "knee-replacement",
+   "hip-replacement",
+   "gastric-sleeve",
+   "abdominoplasty",
+   "dental-implant"
+  ],
   "status": "open",
-  "languages": ["Spanish", "English"]
+  "languages": [
+   "Spanish",
+   "English"
+  ]
  },
  "text": {
   "what": "A 103-bed tertiary acute-care hospital in Escazú, west of San José, opened in 2000 and owned by International Hospital Corporation, a Texas company that builds hospitals in Latin America. It holds Joint Commission International accreditation. It is the newer of the two San José hospitals in this directory and the one built, from the start, for a patient arriving from the north.",
-  "story": "The ownership is the story. International Hospital Corporation is an American developer; CIMA San José is one of its projects, opened in 2000 as a three-storey tertiary acute-care hospital with 103 beds, a large outpatient department, an emergency department with a trauma room, and surgery with its own recovery floor.\n\n*Inference —* that is a small hospital by the standards of the groups elsewhere in this batch, and the smallness is the design. A hundred beds in Escazú, twenty minutes from the international airport and inside the suburb where English is already spoken, is a different proposition from a thousand-bed university hospital in Berlin or Seoul. It is closer to a well-equipped district hospital that happens to sit at the end of a four-hour flight.\n\nCosta Rica's national scheme, PROMED, certifies providers for international patients out of the Cámara Costarricense de la Salud. It is membership with a seal.\n\nCIMA publishes no price. Secondary accounts date its first JCI award to May 2008 and count six consecutive gold seals; the hospital's own accreditation page could not be read for this record — the site's certificate chain failed to verify — so neither figure is asserted here.",
+  "story": "The ownership is the story. International Hospital Corporation is an American developer; CIMA San José is one of its projects, opened in 2000 as a three-storey tertiary acute-care hospital with 103 beds, a large outpatient department, an emergency department with a trauma room, and surgery with its own recovery floor.\n\n*Inference —* that is a small hospital by the standards of the groups elsewhere in this batch, and the smallness is the design. A hundred beds in Escazú, twenty minutes from the international airport and inside the suburb where English is already spoken, is a different proposition from a thousand-bed university hospital in Berlin or Seoul. It is closer to a well-equipped district hospital that happens to sit at the end of a four-hour flight.\n\nCosta Rica's national scheme, PROMED, certifies providers for international patients out of the Cámara Costarricense de la Salud. It is membership with a seal.\n\nThe hospital states a sixth consecutive JCI Gold Seal, against more than 1,200 standards, and gives no year for the first. It also holds ANCC Pathway to Excellence certification and says no other private hospital in Costa Rica or Central America does. Its payments page names the departments that verify and process a bill and prints no figure for anything.",
   "how": "*Trade practice —* Escazú works as a single unit: the hospital, the medical office towers attached to it, the hotels along the motorway, and the surgeons who consult in one and operate in the other. A patient arriving for orthopaedic or bariatric surgery is admitted from a hotel a few minutes away and discharged back to it, which is why the recovery stay rather than the ward stay is the long part of a Costa Rican trip.\n\nNo figure is published for any of it.",
-  "today": "As of 17 September 2026 the hospital is recorded at 103 beds, opened 2000, owned by International Hospital Corporation, and JCI accredited with no year carried here. No patient count, no foreign share and no price was found published."
+  "today": "As of 17 September 2026 the hospital is recorded at 103 beds, opened 2000, owned by International Hospital Corporation, and states a sixth consecutive JCI Gold Seal and ANCC Pathway to Excellence certification, neither dated on its own page. No patient count, no foreign share and no price was found published."
  },
- "geo": {"lat": 9.939643, "lon": -84.144329, "precision": "street", "source": "s:osm-nominatim"},
- "address": {"street": "Autopista Próspero Fernández, San Rafael de Escazú", "city": "San José", "area": "San José", "country": "CR", "postcode": "10203"},
+ "geo": {
+  "lat": 9.939643,
+  "lon": -84.144329,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Autopista Próspero Fernández, San Rafael de Escazú",
+  "city": "San José",
+  "area": "San José",
+  "country": "CR",
+  "postcode": "10203"
+ },
  "metrics": {
   "beds": 103,
   "annual_patients": null,
@@ -35,34 +66,126 @@
   "url": "https://en.wikipedia.org/wiki/Hospital_CIMA"
  },
  "tags": [
-  {"tag": "chain", "source": "s:wp-hospital-cima", "tier": "cited", "note": "owned by International Hospital Corporation, an American developer of hospitals in Latin America"},
-  {"tag": "no-price-published", "source": "s:wp-hospital-cima", "tier": "cited", "note": "no price list was found on the hospital's own site; its accreditation page could not be fetched for this record"},
-  {"tag": "international-office", "source": "s:promed-salud-cr", "tier": "cited", "note": "certified under Costa Rica's PROMED scheme for providers serving international patients"}
+  {
+   "tag": "chain",
+   "source": "s:wp-hospital-cima",
+   "tier": "cited",
+   "note": "owned by International Hospital Corporation, an American developer of hospitals in Latin America"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:cima-accreditations",
+   "tier": "cited",
+   "note": "the hospital's payments page names the departments that verify and process a bill and prints no figure for anything",
+   "url": "https://hospitalcima.com/en/information-center/accreditations/"
+  },
+  {
+   "tag": "international-office",
+   "source": "s:promed-salud-cr",
+   "tier": "cited",
+   "note": "certified under Costa Rica's PROMED scheme for providers serving international patients"
+  }
  ],
  "recognitions": [
-  {"by": "jci", "what": "Joint Commission International accreditation", "year": null, "valid_until": null, "source": "s:wp-hospital-cima", "url": "https://en.wikipedia.org/wiki/Hospital_CIMA", "note": "secondary accounts date the first award to May 2008 and count six consecutive gold seals; the hospital's own accreditation page could not be read for this record and neither figure is carried"},
-  {"by": "promed", "what": "PROMED, Costa Rica's national council certifying providers for international patients", "year": null, "valid_until": null, "source": "s:promed-salud-cr", "url": "https://salud.co.cr/english/", "note": "the record cites the scheme, not a certificate read for this hospital"}
+  {
+   "by": "jci",
+   "what": "Joint Commission International Gold Seal, earned for the sixth consecutive time against more than 1,200 standards",
+   "year": null,
+   "valid_until": null,
+   "source": "s:cima-accreditations",
+   "url": "https://hospitalcima.com/en/information-center/accreditations/",
+   "note": "the hospital states a sixth consecutive award and no year for the first; secondary accounts date that first award to May 2008 and the date is not asserted here"
+  },
+  {
+   "by": "other",
+   "what": "ANCC Pathway to Excellence certification, stated as held by no other private hospital in Costa Rica or Central America",
+   "year": null,
+   "valid_until": null,
+   "source": "s:cima-accreditations",
+   "url": "https://hospitalcima.com/en/information-center/accreditations/",
+   "note": "an American nursing-environment certification against six standards; outside this project's recognizer vocabulary"
+  },
+  {
+   "by": "promed",
+   "what": "PROMED, Costa Rica's national council certifying providers for international patients",
+   "year": null,
+   "valid_until": null,
+   "source": "s:promed-salud-cr",
+   "url": "https://salud.co.cr/english/",
+   "note": "the record cites the scheme, not a certificate read for this hospital"
+  }
  ],
  "kin": [
-  {"to": "san-jose-cr", "as": "The Escazú half of the San José cluster — motorway, medical towers, hotels, and the hospital in the middle of them.", "rel": "place"},
-  {"to": "costa-rica", "as": "An American-built hospital on Costa Rican soil, which is what the country's route to North American patients largely is.", "rel": "destination"},
-  {"to": "clinica-biblica", "as": "The older San José hospital, a 1929 mission clinic in the city centre against this 2000 development in the suburbs.", "rel": "contrast"},
-  {"to": "promed", "as": "The national council a Costa Rican provider joins to sell abroad.", "rel": "accredited-by"},
-  {"to": "jci", "as": "Its accreditor, undated in the sources read here.", "rel": "accredited-by"},
-  {"to": "knee-replacement", "as": "Among the operations the Escazú cluster sells, with the recovery stay in a hotel rather than a ward.", "rel": "performs"},
-  {"to": "the-companion", "as": "A hundred-bed hospital discharges early, and the recovery hotel is where the escort's week actually goes.", "rel": "step"},
-  {"to": "aftercare-at-home", "as": "Four hours from Miami, close enough that the follow-up is a flight and not a relocation.", "rel": "step"}
+  {
+   "to": "san-jose-cr",
+   "as": "The Escazú half of the San José cluster — motorway, medical towers, hotels, and the hospital in the middle of them.",
+   "rel": "place"
+  },
+  {
+   "to": "costa-rica",
+   "as": "An American-built hospital on Costa Rican soil, which is what the country's route to North American patients largely is.",
+   "rel": "destination"
+  },
+  {
+   "to": "clinica-biblica",
+   "as": "The older San José hospital, a 1929 mission clinic in the city centre against this 2000 development in the suburbs.",
+   "rel": "contrast"
+  },
+  {
+   "to": "promed",
+   "as": "The national council a Costa Rican provider joins to sell abroad.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "jci",
+   "as": "Its accreditor, undated in the sources read here.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "knee-replacement",
+   "as": "Among the operations the Escazú cluster sells, with the recovery stay in a hotel rather than a ward.",
+   "rel": "performs"
+  },
+  {
+   "to": "the-companion",
+   "as": "A hundred-bed hospital discharges early, and the recovery hotel is where the escort's week actually goes.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Four hours from Miami, close enough that the follow-up is a flight and not a relocation.",
+   "rel": "step"
+  }
  ],
  "links": [
-  {"label": "Hospital CIMA San José", "url": "https://hospitalcima.com/"}
+  {
+   "label": "Hospital CIMA San José",
+   "url": "https://hospitalcima.com/"
+  }
  ],
- "sources": ["s:wp-hospital-cima", "s:promed-salud-cr", "s:osm-nominatim"],
+ "sources": [
+  "s:wp-hospital-cima",
+  "s:cima-accreditations",
+  "s:promed-salud-cr",
+  "s:osm-nominatim"
+ ],
  "provenance": {
-  "default": {"tier": "cited"},
+  "default": {
+   "tier": "cited"
+  },
   "fields": {
-   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
-   "text.how": {"tier": "tradition", "note": "how the Escazú cluster works; marked in the prose"},
-   "metrics": {"tier": "cited", "source": "s:wp-hospital-cima"}
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "how the Escazú cluster works; marked in the prose"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-hospital-cima"
+   }
   }
  },
  "x_commons_files": [],

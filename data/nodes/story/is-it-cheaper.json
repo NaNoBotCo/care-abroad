@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "id": "is-it-cheaper",
+ "type": "story",
+ "names": {
+  "name": "Is it cheaper",
+  "aliases": [
+   "the price comparison, worked",
+   "one knee, two prices"
+  ],
+  "said": "The trade answers with a percentage. This page answers with two published numbers and a list of what neither of them contains."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "One operation, two published prices, worked to the end. A Bangkok hospital's knee package set against an English provider's self-pay list price for the same operation, with the implant, the nights past the package, the two flights and the follow-up at home added back in one line at a time. Every figure is read off a seller's own page with its own date and put through one dated exchange-rate table. The point of the exercise is not the ratio it produces. It is the count of lines nobody publishes.",
+  "story": "Bumrungrad International Hospital in Bangkok prices package JOINT04, a unilateral total knee replacement, at 356,500 baht, and states the price valid until 31 December 2026. Practice Plus Group in England lists knee replacement surgery at £13,799, under the line \"Prices correct as at April 2026\", with the initial consultation priced separately at £145. Put both through this site's single rate table, dated 16 September 2026, and they come to 10,707 and 18,596 US dollars. The English number is 1.74 times the Thai one. The difference between them is 7,889 dollars.\n\nThat ratio is the last defensible thing on this page, and it is already wrong, because the two numbers are not descriptions of the same object.\n\nThe English list says what it buys: a pre-operative nurse review, prescriptions, dressings and equipment, the anaesthetic, \"any overnight stay required\", physiotherapy, \"pathology and histology needed whilst admitted\", \"any post operative appointments required\", and a named consultant from start to finish. The Bangkok package buys three hours of theatre, the nursing and surgical team fees inside those three hours, three nights on the surgical ward, equipment and supplies, medications related to the procedure, the surgeon, an assistant surgeon if needed, and the anaesthesiologist. It then names nine things it does not buy: the implant, the first consultation and the follow-up visits, specialist consultations, nights beyond three and any intensive care, blood transfusion, laboratory and imaging before or after surgery, take-home medication, outpatient charges before admission, and complex or emergency cases. Seven of those nine sit inside the English price.\n\nThe first missing line is the largest. The Bangkok package excludes the implant, and says so in its own title. The English list does not name the implant on either side — neither as an inclusion nor as an exclusion — which is a different silence rather than a smaller one. No page read for this record, in any country, publishes what a knee implant costs. *Inference —* the 7,889-dollar difference is therefore headroom measured against an unpriced item. If the device and its fitting run to more than that at the Bangkok end, the trip is dearer before anybody boards an aircraft, and nothing published by either seller settles the question either way.\n\nThe second line is the nights. Three are named in Bangkok and the fourth is billed; in England the phrase is \"any overnight stay required\". The side of the comparison with a capped stay is the side that can overrun, and the overrun is priced by the party the patient is already committed to.\n\nThe third line is the flights, and this site's own price table is the evidence about them. Of 214 published price rows on disk, twelve name flights among their exclusions and none names them among the inclusions. There is no fare anywhere in the table, because a fare is not a published price with an inclusion list. What can be got is a scale: the International Air Transport Association's fact sheet, updated June 2026, forecasts 839 billion US dollars of passenger revenue in 2026 against 4,343 million origin-and-destination passengers. *Inference —* that is about 193 dollars a journey, it is this project's division rather than any figure the association publishes, and it is the average of every seat sold on earth including domestic hops, so it is the wrong number for London to Bangkok. It is the right number for the shape of the argument: against a 7,889-dollar gap, two long-haul fares move the answer without deciding it. Against a dental crown at a few hundred dollars, the fares are the entire transaction.\n\nThe fourth line is the follow-up at home, and the only published figures for it are failure figures. Gold Coast University Hospital in Queensland costed twelve patients presenting in 2012–13 with complications of cosmetic surgery done in Thailand at AUD$151,172.52 to that hospital in one year, averaging AUD$12,597.71 each. An NHS Scotland series of 81 patients over five years came to £755,559.68, \"an average of over £9,327.90 per patient\". Surgeons at the University of California San Diego reviewed 91 patients who had bariatric surgery in Mexico and then presented to them between 2014 and 2024, and put mean total hospital charges at $193,445.08 each. *Inference —* none of those is a term to add to a quotation. Each is conditional on something having gone wrong, and none has a denominator. What they establish is the size of the tail, not its likelihood.\n\nSo what the 1.74 covers is this: one hospital's package against one provider's list price, on their own stated dates, at one day's exchange rate, for the lines both sellers name. What it does not cover is the implant at either end, the consultation at either end, the nights past the third, the two fares, the hotel, the companion's bed, the physiotherapy after discharge, the six-week review, the revision if there is one, and the movement of the baht and the pound between the day the price was published and the day it is paid. A facilitator routing knees to Thai hospitals advertises 10,000 to 16,000 dollars for the operation; the top of that advertised range is 86 per cent of the English list price, and for hips the same facilitator's range tops out within 800 dollars of the English one.",
+  "how": "Every price on this site keeps the currency it was published in. The dollar figure beside it is that currency put through one table of mid-market rates dated 16 September 2026, printed on the page, and a price published in 2019 converted at that table is not what its patient paid — both dates sit on the row so the gap is visible. The rate table carries no card spread, no foreign-transaction fee and no cash-advance charge. The price page, the exclusion list and the validity date are read off the seller's own page rather than taken from a comparison site, and the arithmetic in this record is division, stated so it can be checked.",
+  "today": "As of 17 September 2026 this site holds 214 published price rows across 21 countries and twelve currencies: 69 packages, 62 list prices, 44 advertised ranges, 17 published estimates, 14 state tariffs, seven survey figures and one reimbursement. Thirty-six of them carry no exclusion list at all. Of those that carry both lists, 68 have more exclusions than inclusions. No regulator in any jurisdiction read for this project requires a seller to publish a common inclusion list, which is the reason two prices for the same operation cannot be subtracted from one another."
+ },
+ "kin": [
+  {
+   "to": "knee-replacement",
+   "as": "The operation worked end to end on this page.",
+   "rel": "procedure"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the Bangkok package that forms one half of the comparison.",
+   "rel": "facility"
+  },
+  {
+   "to": "hip-replacement",
+   "as": "The same arithmetic on the other joint, where the facilitator's advertised range nearly meets the English list price.",
+   "rel": "procedure"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The unpriced line the whole comparison turns on.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-price-that-isnt",
+   "as": "The companion piece: the exclusion lists themselves, across every procedure on this site.",
+   "rel": "story"
+  },
+  {
+   "to": "package-price",
+   "as": "The form of price this comparison is made of, and why two of them cannot be subtracted.",
+   "rel": "term"
+  },
+  {
+   "to": "reading-the-exclusions",
+   "as": "The step in the journey where the nine excluded lines are found, when they are found.",
+   "rel": "step"
+  },
+  {
+   "to": "exchange-rate-table",
+   "as": "The one dated rate table every dollar figure here passes through.",
+   "rel": "dataset"
+  },
+  {
+   "to": "the-follow-up-nobody-books",
+   "as": "The longer piece on the last line of the sum, and who ends up paying it.",
+   "rel": "story"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "Where the self-pay list price on this page is published.",
+   "rel": "place"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the package price on this page is sold.",
+   "rel": "place"
+  },
+  {
+   "to": "getting-a-quote",
+   "as": "The step where a headline number arrives and the device price does not.",
+   "rel": "step"
+  }
+ ],
+ "links": [
+  {
+   "label": "Bumrungrad package JOINT04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  },
+  {
+   "label": "Practice Plus Group — knee surgery self-pay prices",
+   "url": "https://practiceplusgroup.com/treatments/knee-surgery/"
+  },
+  {
+   "label": "IATA Industry Statistics fact sheet",
+   "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/industry-statistics/"
+  }
+ ],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:practiceplus-knee",
+  "s:practiceplus-hip",
+  "s:bumrungrad-joint08",
+  "s:defiant-prices",
+  "s:er-api",
+  "s:iata-industry-statistics",
+  "s:eplasty-cosmetic-tourism-cost",
+  "s:wounds-uk-cosmetic-tourism",
+  "s:spurzem-bariatric-tourism-2025",
+  "s:mbs-49318",
+  "s:cdc-yellowbook-travel-insurance",
+  "s:nordorthopaedics-prices"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every price is read off the seller's own page and cited; the four stretches of arithmetic and reasoning are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "harvested",
+    "source": "s:er-api",
+    "note": "the conversion method is this repository's, and the rate table is the harvested one"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "counts computed over the price rows on disk on 17 September 2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

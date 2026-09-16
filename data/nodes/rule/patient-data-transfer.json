@@ -1,0 +1,115 @@
+{
+ "id": "patient-data-transfer",
+ "names": {
+  "name": "Moving a medical record across a border",
+  "aliases": [
+   "health data transfer",
+   "GDPR Article 49",
+   "special category data"
+  ],
+  "said": "The record is the patient's evidence of what was done. Getting a copy is a right in one bloc and a favour nearly everywhere else."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Whether a patient can obtain their own medical record, and on what terms it may be sent to another country. In the European Economic Area, Regulation (EU) 2016/679 supplies both halves: health data is special category data under Article 9, Article 15 gives a right of access, Article 20 a right to portability in some circumstances, and Article 49 sets the derogations under which a transfer to a third country may proceed without an adequacy decision.",
+  "story": "Two rights that sound alike do different work. Article 15 gives the right to obtain confirmation of processing and a copy of the personal data undergoing processing, with a fee permitted only for further copies. Article 20 gives the right to receive the data in a structured, commonly used and machine-readable format and to have it transmitted directly to another controller — but only where the processing rests on consent or on a contract and is carried out by automated means, and direct transmission only where technically feasible.\n\n*Inference —* a hospital record held under a legal obligation or in the public interest is therefore reachable under Article 15 and often not under Article 20. For a patient who wants a copy, that distinction is invisible and irrelevant. For a hospital's data protection office it is the whole answer, and it is why a request phrased as portability sometimes fails where the same request phrased as access succeeds.\n\nDirective 2011/24/EU adds a duty on the treating side that does not depend on any of this: Article 4(2)(f) requires the Member State of treatment to ensure that patients receive a copy of the medical record, and Article 5(d) obliges the state of affiliation to provide access to records.\n\nOutside the bloc there is no equivalent. A hospital in a third country may hold records under its own law, may charge, may require a personal appearance, and may keep operative notes, imaging and pathology in three separate systems with three separate release procedures. Nothing in the destination's law is likely to contemplate a patient who has already flown home.\n\nArticle 49 is the clause that gets cited when a record has to move the other way — from an EEA clinic to a clinician abroad, or between a facilitator and a foreign hospital. Its derogations are narrow and situational, and they were not written for a routine commercial flow.\n\n*Inference —* the practical consequence lands on the home clinician. A patient presenting with a complication and no operative note is a patient whose surgeon, implant, technique and antibiotic are all unknown, and the revision is planned blind. The right of access is the mechanism that prevents that, and it exists in full in one bloc.",
+  "how": "What travels, and what a reader would have to ask for by name: the operation note, the anaesthetic chart, the implant sticker or lot number, the histopathology report, the discharge summary with drug names, the imaging itself rather than the report, and the consent form actually signed. A summary letter is not a record.\n\nFormat matters as much as content. Imaging held on a proprietary viewer is imaging a home hospital may not be able to open; a scanned photograph of a chart is not searchable and may not be legible.\n\nWhere a facilitator sits between the patient and the hospital, the records may be held by a company rather than a clinician, and the duties of confidentiality and the route to a copy differ accordingly.",
+  "today": "As of 17 September 2026 the GDPR articles named here are in force across the EEA. No comparable instrument was read for the destinations outside it, and this project does not assert that none exists — several states have data protection statutes this pass did not reach."
+ },
+ "kin": [
+  {
+   "to": "getting-your-records",
+   "as": "The step this rule governs, at the front of the journey.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The document that matters most, and the one most often a letter instead.",
+   "rel": "step"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "Where the absence of a record is discovered.",
+   "rel": "step"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The operation planned blind when the note did not travel.",
+   "rel": "risk"
+  },
+  {
+   "to": "eu-directive-2011-24",
+   "as": "The instrument that puts the duty on the treating side.",
+   "rel": "governed-by"
+  },
+  {
+   "to": "cross-border-prescriptions",
+   "as": "The other half of what a patient carries home.",
+   "rel": "kin"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "Why the implant's lot number is worth asking for by name.",
+   "rel": "risk"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "The record is the evidence, and the claim turns on it.",
+   "rel": "risk"
+  },
+  {
+   "to": "language-consent",
+   "as": "The consent form, in whichever language it was actually signed.",
+   "rel": "risk"
+  }
+ ],
+ "links": [
+  {
+   "label": "GDPR Article 9 — processing of special categories of personal data",
+   "url": "https://www.legislation.gov.uk/eur/2016/679/article/9"
+  },
+  {
+   "label": "GDPR Article 15 — right of access",
+   "url": "https://gdpr-info.eu/art-15-gdpr/"
+  },
+  {
+   "label": "GDPR Article 20 — right to data portability",
+   "url": "https://gdpr-info.eu/art-20-gdpr/"
+  }
+ ],
+ "sources": [
+  "s:eu-gdpr",
+  "s:gdpr-art-15",
+  "s:gdpr-art-20",
+  "s:dir-2011-24-chapter-ii",
+  "s:legislation-eu-directive-2011-24"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eu-gdpr"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:gdpr-art-20",
+    "note": "the article contents are read; the stretches marked *Inference —* are this project's reasoning"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the list of documents a record actually consists of; no instrument enumerates it"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

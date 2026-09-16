@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "id": "turkiye-hair-boom",
+ "type": "event",
+ "names": {
+  "name": "Türkiye's hair transplant boom",
+  "aliases": ["Istanbul hair clinics", "saç ekimi turizmi"],
+  "said": "Istanbul calls it saç ekimi. The trade sells it as a package with a hotel and a driver, and the bandaged forehead on the airport bus is the one visible sign of medical travel anywhere in the world."
+ },
+ "region": ["west-asia", "europe-south"],
+ "facets": {
+  "kind": "turning-point",
+  "when": 2022,
+  "iso2": "TR",
+  "status": "open"
+ },
+ "text": {
+  "what": "The growth of hair restoration surgery sold to foreign buyers in Türkiye, mostly in Istanbul, into the most visible single procedure in cross-border care. The event is dated here at 2022, the year the country's official health-travel count first passed 1.38 million, against 756,926 in 2019. No official series counts hair transplants separately, and this record carries no procedure-level total.",
+  "story": "The numbers that exist are these. USHAŞ, the Ministry of Health's international health services company, publishes a health-tourism series taken from Turkish Statistical Institute figures: 756,926 in 2019, 435,691 in 2020, 729,592 in 2021, 1,381,807 in 2022, 1,538,643 in 2023, 1,506,442 in 2024 and 1,398,580 in 2025, with revenue rising from USD 1.46 billion in 2019 to about USD 3.0 billion from 2023 onwards. The underlying count comes from a survey of departing visitors' stated purpose of visit — a border survey, not a patient register — so it counts nobody's operation and nobody's clinic.\n\n*Inference —* every per-procedure figure in circulation for this trade is an estimate somebody sold. This record carries none of them, and the absence is the finding: a sector large enough to have its own regulation has no published count of its own operations.\n\nWhat there is instead is the regulation, and it is unusually specific. The Saç Ekimi Birimleri Hakkında Yönetmelik of 6 May 2023 reserves the channel-opening stage of the operation to physicians holding the applicator certificate, forbids more than one patient in a room at a time, and caps a certified physician at five rooms. Rules are written against practices; a rule about how many patients may be in a room at once describes a room with several in it.\n\nThe professional objection ran ahead of the regulation and is worldwide rather than Turkish. The International Society of Hair Restoration Surgery's consumer alert, first issued in January 2017 and still carried in 2026, says that \"increasing numbers of unlicensed personnel worldwide are performing substantial medical aspects of hair restoration surgery and, in doing so, are putting patients at risk\", and that \"when doctors advertise their credentials and then delegate the surgery to unlicensed personnel, patients are being misled and placed at risk\". The page names no country and gives no figures, and this record does not supply either on its behalf."
+ },
+ "geo": {"lat": 41.0082, "lon": 28.9784, "precision": "city", "source": "s:ushas-saglik-turizmi-verileri"},
+ "address": {"city": "Istanbul", "country": "TR"},
+ "kin": [
+  {"to": "turkiye", "as": "The country page, where the official series and the licensing regime are set out.", "rel": "destination"},
+  {"to": "istanbul", "as": "Where most of the clinics are, and where the packages start at the airport.", "rel": "hub"},
+  {"to": "hair-transplant-fue", "as": "The operation being sold, and the stage of it the 2023 regulation reserves to a physician.", "rel": "procedure"},
+  {"to": "dhi-hair-transplant", "as": "The branded variant the clinics price above it.", "rel": "procedure"},
+  {"to": "turkiye-health-tourism-authorisation", "as": "The certificate a facility or intermediary must hold to sell any of this lawfully.", "rel": "rule"},
+  {"to": "ishrs", "as": "The professional society whose alert about unlicensed operators predates the regulation by six years.", "rel": "org"},
+  {"to": "covid-shutdown-2020", "as": "The collapse this recovery followed, and doubled.", "rel": "event"},
+  {"to": "counting-patients", "as": "A sector with its own regulation and no published count of its own operations.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "USHAŞ — health tourism data", "url": "https://www.ushas.gov.tr/en/saglik-turizmi-verileri/"},
+  {"label": "Saç Ekimi Birimleri Hakkında Yönetmelik (Resmî Gazete, 6 May 2023, No. 32182)", "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230506-11.htm"},
+  {"label": "ISHRS consumer alert", "url": "https://ishrs.org/consumer-alert/"}
+ ],
+ "sources": ["s:ushas-saglik-turizmi-verileri", "s:tuik-turizm-2025", "s:rg-32182-2023-sac-ekimi", "s:ishrs-consumer-alert", "s:haider-2025-hair-transplant-tourism"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:ushas-saglik-turizmi-verileri"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:ushas-saglik-turizmi-verileri", "note": "the series was read on the USHAŞ page on 2026-09-17 and the ISHRS wording on its own alert; the 2023 hair-transplant regulation is cited to the Resmî Gazete entry; the second paragraph is marked inference"},
+   "facets.when": {"tier": "inference", "note": "2022 is the first year the official series passes 1.38 million; no procedure-level series exists to date the boom more precisely"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-17"
+}

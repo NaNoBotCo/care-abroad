@@ -4,7 +4,12 @@
  "type": "procedure",
  "names": {
   "name": "Total knee replacement",
-  "aliases": ["total knee arthroplasty", "TKA", "knee arthroplasty", "knee replacement"],
+  "aliases": [
+   "total knee arthroplasty",
+   "TKA",
+   "knee arthroplasty",
+   "knee replacement"
+  ],
   "said": "Surgeons say TKA. Package pages say total knee replacement. Brokers say knee, and mean either one knee or two without saying which."
  },
  "etymology": {
@@ -12,7 +17,9 @@
   "tier": "tradition",
   "note": "bilateral means both knees in one anaesthetic; unilateral means one. A package priced for one is roughly half a package priced for two, and the two words are easy to miss on a price page."
  },
- "region": ["global"],
+ "region": [
+  "global"
+ ],
  "facets": {
   "family": "orthopaedic",
   "setting": "inpatient",
@@ -44,11 +51,31 @@
    "currency": "THB",
    "as_of": "2026-09-16",
    "kind": "package",
-   "includes": ["operating theatre, 3 hours", "nursing and surgical team fees within those 3 hours", "3 nights in the surgical ward", "medical equipment and supplies", "medications related to the procedure", "surgeon", "assistant surgeon if needed", "anaesthesiologist"],
-   "excludes": ["the implant", "first consultation and follow-up visits", "specialist consultations", "nights beyond 3, and any ICU", "blood transfusion", "laboratory and imaging before or after surgery", "take-home medication", "outpatient charges before admission", "complex or emergency cases"],
+   "includes": [
+    "operating theatre, 3 hours",
+    "nursing and surgical team fees within those 3 hours",
+    "3 nights in the surgical ward",
+    "medical equipment and supplies",
+    "medications related to the procedure",
+    "surgeon",
+    "assistant surgeon if needed",
+    "anaesthesiologist"
+   ],
+   "excludes": [
+    "the implant",
+    "first consultation and follow-up visits",
+    "specialist consultations",
+    "nights beyond 3, and any ICU",
+    "blood transfusion",
+    "laboratory and imaging before or after surgery",
+    "take-home medication",
+    "outpatient charges before admission",
+    "complex or emergency cases",
+    "patients the hospital rates high risk: organ failure, severe systemic disease at ASA classification III and above, a myocardial infarction within four weeks, HIV infection, or a previous knee operation unless the attending physician decides otherwise"
+   ],
    "source": "s:bumrungrad-joint04",
    "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery",
-   "note": "package JOINT04, price stated valid until 31 December 2026. The exclusion list is longer than the inclusion list, and the implant — often the single largest line on a knee bill — sits on it.",
+   "note": "package JOINT04, price stated valid until 31 December 2026. The exclusion list is longer than the inclusion list, and the implant — often the single largest line on a knee bill — sits on it. The page also carries an eligibility block above the inclusion list: the package is for the patient without complication, and it names who does not qualify. A package price is therefore a price for the straightforward case, which is the thing it is easy to read past.",
    "tier": "cited"
   },
   {
@@ -60,8 +87,12 @@
    "currency": "THB",
    "as_of": "2026-09-16",
    "kind": "package",
-   "includes": ["both knees in one admission"],
-   "excludes": ["the implant"],
+   "includes": [
+    "both knees in one admission"
+   ],
+   "excludes": [
+    "the implant"
+   ],
    "source": "s:bumrungrad-packages",
    "url": "https://www.bumrungrad.com/en/packages",
    "note": "bilateral, listed at 525,600 THB against a struck-through 584,000 THB. Two knees for less than twice one knee is the usual shape of a bilateral price.",
@@ -76,8 +107,13 @@
    "currency": "THB",
    "as_of": "2026-09-16",
    "kind": "package",
-   "includes": ["both knees", "robotic assistance (MAKO)"],
-   "excludes": ["the implant"],
+   "includes": [
+    "both knees",
+    "robotic assistance (MAKO)"
+   ],
+   "excludes": [
+    "the implant"
+   ],
    "source": "s:bumrungrad-packages",
    "url": "https://www.bumrungrad.com/en/packages",
    "note": "robot-assisted bilateral, listed at 945,000 THB against a struck-through 1,050,000 THB. The robot is a price tier, and whether it changes outcomes is argued in the literature rather than settled.",
@@ -85,33 +121,95 @@
   }
  ],
  "kin": [
-  {"to": "hip-replacement", "as": "The same trade, the other joint — and the one whose package price is usually higher.", "rel": "contrast"},
-  {"to": "bumrungrad", "as": "Publishes the knee package this page reads, implant excluded.", "rel": "performed-at"},
-  {"to": "thailand", "as": "Where the knee package on this page is sold.", "rel": "destination"},
-  {"to": "package-price", "as": "The pricing form this operation is usually sold in, and the reason its exclusions matter.", "rel": "term"},
-  {"to": "implant-excluded", "as": "The line item this operation's headline price usually leaves out.", "rel": "risk"},
-  {"to": "flying-after-surgery", "as": "The clot risk that sets how long after this operation a patient can board.", "rel": "risk"},
-  {"to": "waiting-lists", "as": "The queue at home that sends most knee patients abroad in the first place.", "rel": "kin"},
-  {"to": "follow-up-gap", "as": "Who takes the stitches out, and who sees the knee at six weeks.", "rel": "risk"},
-  {"to": "world-bank-health-spending", "as": "The series behind the map of what each country spends on health per person.", "rel": "measured-by"}
+  {
+   "to": "hip-replacement",
+   "as": "The same trade, the other joint — and the one whose package price is usually higher.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Publishes the knee package this page reads, implant excluded.",
+   "rel": "performed-at"
+  },
+  {
+   "to": "thailand",
+   "as": "Where the knee package on this page is sold.",
+   "rel": "destination"
+  },
+  {
+   "to": "package-price",
+   "as": "The pricing form this operation is usually sold in, and the reason its exclusions matter.",
+   "rel": "term"
+  },
+  {
+   "to": "implant-excluded",
+   "as": "The line item this operation's headline price usually leaves out.",
+   "rel": "risk"
+  },
+  {
+   "to": "flying-after-surgery",
+   "as": "The clot risk that sets how long after this operation a patient can board.",
+   "rel": "risk"
+  },
+  {
+   "to": "waiting-lists",
+   "as": "The queue at home that sends most knee patients abroad in the first place.",
+   "rel": "kin"
+  },
+  {
+   "to": "follow-up-gap",
+   "as": "Who takes the stitches out, and who sees the knee at six weeks.",
+   "rel": "risk"
+  },
+  {
+   "to": "world-bank-health-spending",
+   "as": "The series behind the map of what each country spends on health per person.",
+   "rel": "measured-by"
+  }
  ],
  "confusable_with": [
-  {"id": "hip-replacement", "tell": "Knee and hip packages are priced separately and recover differently; a broker's \"joint replacement\" quote names neither until you ask."}
+  {
+   "id": "hip-replacement",
+   "tell": "Knee and hip packages are priced separately and recover differently; a broker's \"joint replacement\" quote names neither until you ask."
+  }
  ],
  "links": [
-  {"label": "Bumrungrad package JOINT04", "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"}
+  {
+   "label": "Bumrungrad package JOINT04",
+   "url": "https://www.bumrungrad.com/en/packages/total-knee-replacement-surgery"
+  }
  ],
- "sources": ["s:bumrungrad-joint04", "s:bumrungrad-packages", "s:cdc-yellowbook-medical-tourism"],
+ "sources": [
+  "s:bumrungrad-joint04",
+  "s:bumrungrad-packages",
+  "s:cdc-yellowbook-medical-tourism"
+ ],
  "provenance": {
-  "default": {"tier": "cited"},
+  "default": {
+   "tier": "cited"
+  },
   "fields": {
-   "text.story": {"tier": "tradition", "note": "the trade's account of why this operation travels; the inline marks say which stretches are which"},
-   "text.how": {"tier": "tradition", "note": "standard operative description; the three-night figure is cited to the package page"},
-   "etymology": {"tier": "tradition"},
-   "prices": {"tier": "cited", "source": "s:bumrungrad-joint04"}
+   "text.story": {
+    "tier": "tradition",
+    "note": "the trade's account of why this operation travels; the inline marks say which stretches are which"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "standard operative description; the three-night figure is cited to the package page"
+   },
+   "etymology": {
+    "tier": "tradition"
+   },
+   "prices": {
+    "tier": "cited",
+    "source": "s:bumrungrad-joint04"
+   }
   }
  },
- "x_commons_files": ["File:Knee replacement implant.jpg", "File:Total Knee Replacement X-ray.jpg"],
+ "x_commons_files": [
+  "File:Knee replacement implant.jpg",
+  "File:Total Knee Replacement X-ray.jpg"
+ ],
  "confidence": "high",
  "updated": "2026-09-16"
 }

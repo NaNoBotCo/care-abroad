@@ -1,0 +1,294 @@
+{
+ "id": "gender-affirming-care-access",
+ "names": {
+  "name": "Access to gender-affirming care",
+  "aliases": [
+   "transition-related care",
+   "gender confirmation surgery access"
+  ],
+  "said": "The instrument a search turns up is usually about documents, not about treatment. They are different laws."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Whether an adult may lawfully obtain hormone therapy and gender-affirming surgery in a given jurisdiction, under what gate, and what the law says about minors. The rows below record access to CARE. They do not record legal gender recognition — changing a name or a marker on a document — which is a separate body of law that most comparative sources run together with this one.",
+  "story": "The conflation is the first thing that defeats a reader, and it defeated most of the research behind this record. Germany's Selbstbestimmungsgesetz, Ireland's Gender Recognition Act 2015, South Africa's Alteration of Sex Description and Sex Status Act 49 of 2003, Hungary's 2020 amendment: all of these are about registers and documents. None of them governs whether a surgeon may operate. In many countries nothing governs that by statute at all, and the rule is a professional body's, an insurer's, or a clinical guideline's.\n\nTürkiye is the exception that matters most here, because Türkiye is a destination. Article 40 of the Civil Code makes a court's permission a precondition of the surgery itself — over 18, unmarried, and holding an official health-council report from a training and research hospital — with a second court step afterwards for the register. One instrument, gating both. Whether it binds a foreign patient treated in a Turkish hospital is a question this project could not answer from anything it read, and that unanswered question sits underneath a substantial trade.\n\nBritain's instrument runs the other way: it restricts a medicine rather than a procedure. The 2024 Order bars new private prescriptions of gonadotrophin-releasing hormone analogues for puberty suppression in under-18s, exempts adults, and leaves NHS supply alone. It carries no expiry and its first review is due before 1 October 2027.\n\nThe United States has no federal instrument for adults. United States v. Skrmetti, decided 18 June 2025, held that Tennessee's statute is not subject to heightened scrutiny and passes rational-basis review, and expressly did not decide the adult question. The count of state bans for minors comes from a tracker that publishes its own date and method: 26 states and one territory at 16 September 2026.\n\n*Inference —* the single line in this table that speaks directly to a person arriving from elsewhere is Czech, and it is procedural: §§ 21 to 23 of Act 373/2011 contemplate an extract from medical records kept in another state, with a certified translation. Everything else in these statutes is written about residents, which means a traveller's position is usually a matter of what a clinic will do rather than what a law says.",
+  "how": "What a row does not carry: waiting times, whether the care is funded, what a home country's clinicians will do with a patient who was treated abroad, and whether a document issued after surgery in one state is recognised in another. The last is the recognition question, and it is the one this record deliberately does not answer.\n\nWhere a row says no-data, the reason is in the row's note. Most of them are the same reason: the instrument named to this project was a recognition statute, a guideline, or a page that could not be read on this pass.",
+  "today": "As of 17 September 2026 seven rows rest on an instrument or judgment that was read. Eighteen say no-data. Thailand and Türkiye are the two destinations in this table, and only one of them has a row this project would stand behind."
+ },
+ "legality": [
+  {
+   "country": "TR",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:tr-civil-code-art-40",
+   "instrument": "Turkish Civil Code, Article 40",
+   "conditions": "A court's permission is a precondition of the surgery itself, not only of the later change to the civil register: the applicant must be over 18, unmarried, and hold an official health-council report from a training and research hospital. A second court step follows the surgery for the registry change.",
+   "note": "The requirement of permanent incapacity to procreate was struck by Constitutional Court decision 2017/165, which this project has not read. Whether Article 40 binds a foreign patient treated in Türkiye is not answered by anything read on this pass, and Türkiye is a destination for this surgery — so this is the gap in the table that matters most."
+  },
+  {
+   "country": "GB",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:uk-gnrh-order-2024",
+   "instrument": "The Medicines (Gonadotrophin-Releasing Hormone Analogues) (Restrictions on Private Sales and Supplies) Order 2024 (SI 2024/1319)",
+   "conditions": "Adults are not restricted: article 6 permits private supply of these medicines to people aged 18 and over. Article 4 is the general prohibition the exemptions run from.",
+   "note": "Article 8 bars new private prescriptions of gonadotrophin-releasing hormone analogues for puberty suppression in under-18s, except for patients who had started before 3 June 2024 in England, Wales and Scotland or 27 August 2024 in Northern Ireland. Article 5 leaves NHS supply unaffected. The Order carries no expiry; article 9 requires a first review before 1 October 2027 and then at intervals of no more than four years."
+  },
+  {
+   "country": "US",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:us-skrmetti-2025",
+   "instrument": "No federal instrument governs adult access; state law governs. United States v. Skrmetti, No. 23-477, decided 18 June 2025.",
+   "conditions": "The Supreme Court held that Tennessee's statute is not subject to heightened scrutiny and satisfies rational-basis review. The Court expressly did not decide the position for adults.",
+   "note": "For minors, a named tracker with its own date: the Movement Advancement Project records 26 states and one territory banning this care for minors as of 16 September 2026, six of them making it a felony, with enforcement blocked by court rulings in Montana and Kansas at that date."
+  },
+  {
+   "country": "AR",
+   "status": "lawful",
+   "as_of": "2026-09-17",
+   "source": "s:ar-decreto-62-2025",
+   "instrument": "Ley 26.743 de Identidad de Género, artículo 11, as amended by Decreto 62/2025",
+   "conditions": "For adults, informed consent alone: no judicial or administrative authorisation, and the care sits within the compulsory medical programme.",
+   "note": "Decreto 62/2025, published 6 February 2025, bars hormonal and surgical intervention for under-18s. A federal appeal court in Paraná is reported to have held the decree unconstitutional; this project has not read that judgment."
+  },
+  {
+   "country": "ES",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:es-ley-4-2023",
+   "instrument": "Ley 4/2023, artículos 16, 17 y 19",
+   "conditions": "Registered on the strength of a research agent's reading; the article numbers were not re-read at the official gazette by the author of this record."
+  },
+  {
+   "country": "CZ",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:cz-act-373-2011",
+   "instrument": "Zákon č. 373/2011 Sb., §§ 21 to 23",
+   "conditions": "Surgical sex change at 18 or over, on written application and the unanimous positive opinion of an expert commission established by the Ministry of Health, made up of health professionals and a lawyer with knowledge of medical law; the commission must act within three months. Where the patient's legal capacity is restricted a court must also consent. The provisions contemplate an extract from medical records kept in another state, with a certified translation.",
+   "note": "The reference to foreign medical records is the only thing read on this pass in any of these statutes that speaks to a patient who comes from elsewhere."
+  },
+  {
+   "country": "RU",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:rferl-russia-gender-law-2023",
+   "instrument": "Federal Law of 24 July 2023 prohibiting medical interventions aimed at changing sex",
+   "conditions": "Hormone therapy and surgery are prohibited, with an exception only for congenital anomalies of sex formation in children.",
+   "note": "Read in a news report rather than in the statute. The federal law's number was not confirmed on any page read for this record and is therefore not printed."
+  },
+  {
+   "country": "TH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No statute governs. A Medical Council of Thailand regulation on gender-affirming healthcare is reported to have taken effect on 15 February 2025, with hormones from 18 and surgery from 20 on the patient's own consent. The regulation itself was not read, and the reports consulted were secondary. Thailand is a long-standing destination for this surgery, so this row is a gap rather than a finding."
+  },
+  {
+   "country": "ZA",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "The Alteration of Sex Description and Sex Status Act 49 of 2003 governs legal recognition, not access to care. No instrument governing care was found on this pass."
+  },
+  {
+   "country": "DE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "Germany's Selbstbestimmungsgesetz governs legal recognition, not access to care. An assessment guideline under the statutory health insurance system was suggested to this project and could not be confirmed at the section cited, so no instrument is named."
+  },
+  {
+   "country": "IE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "The Gender Recognition Act 2015 governs recognition, not care."
+  },
+  {
+   "country": "NL",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "Care is governed by a professional quality standard rather than a statute; it was not read on this pass."
+  },
+  {
+   "country": "BE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "Care runs under insurance conventions with named clinics rather than a statute; none was read."
+  },
+  {
+   "country": "FR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No care-specific instrument was found on this pass."
+  },
+  {
+   "country": "PT",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "Lei n.º 38/2018 was named to this project but its articles were not verified."
+  },
+  {
+   "country": "PL",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No statute was found on this pass."
+  },
+  {
+   "country": "HU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "The 2020 amendment governs recognition, not care."
+  },
+  {
+   "country": "SE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "Care runs under National Board of Health and Welfare knowledge support documents rather than a statute; they were not read on this pass."
+  },
+  {
+   "country": "FI",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "A ministerial decree was named to this project but not read."
+  },
+  {
+   "country": "CH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "The federal law portal renders by script and returned no text on this pass."
+  },
+  {
+   "country": "IN",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No Indian instrument was read on this pass."
+  },
+  {
+   "country": "IL",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No Israeli instrument was read on this pass."
+  },
+  {
+   "country": "JP",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No Japanese instrument was read on this pass."
+  },
+  {
+   "country": "KR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "No Korean instrument was read on this pass."
+  },
+  {
+   "country": "AU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:map-youth-care-bans",
+   "note": "State and territory law; no state instrument was read on this pass."
+  }
+ ],
+ "kin": [
+  {
+   "to": "vaginoplasty",
+   "as": "One of the operations these instruments reach.",
+   "rel": "procedure"
+  },
+  {
+   "to": "phalloplasty",
+   "as": "Another.",
+   "rel": "procedure"
+  },
+  {
+   "to": "top-surgery",
+   "as": "The third, and the one most often bought abroad.",
+   "rel": "procedure"
+  },
+  {
+   "to": "thailand",
+   "as": "A long-standing destination for this surgery, and a row this project could not source.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye",
+   "as": "A destination whose Civil Code gates the surgery through a court.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-states",
+   "as": "The source market whose federal position was decided in 2025 for minors and left open for adults.",
+   "rel": "destination"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The category this sits in.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "The argument, reported.",
+   "rel": "story"
+  },
+  {
+   "to": "language-consent",
+   "as": "What a consent form gates when the statute does not.",
+   "rel": "risk"
+  }
+ ],
+ "sources": [
+  "s:uk-gnrh-order-2024",
+  "s:tr-civil-code-art-40",
+  "s:us-skrmetti-2025",
+  "s:map-youth-care-bans",
+  "s:ar-decreto-62-2025",
+  "s:es-ley-4-2023",
+  "s:cz-act-373-2011",
+  "s:rferl-russia-gender-law-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:tr-civil-code-art-40"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:uk-gnrh-order-2024",
+    "note": "the stretch marked *Inference —* is this project's reasoning across the instruments read"
+   },
+   "legality": {
+    "tier": "cited",
+    "source": "s:map-youth-care-bans",
+    "note": "a no-data row records what this project could not read, and the note says why"
+   }
+  }
+ },
+ "confidence": "low",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

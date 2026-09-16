@@ -1,0 +1,291 @@
+{
+ "id": "transplant-prohibition",
+ "names": {
+  "name": "Buying an organ, and being transplanted abroad",
+  "aliases": [
+   "organ trade prohibition",
+   "transplant travel",
+   "the Declaration of Istanbul"
+  ],
+  "said": "The prohibition on payment is near-universal. The rule on who may receive an organ is national, and much harder to read."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Two questions that are usually run together and should not be. First: may a person be paid for an organ? Almost everywhere, no, and the statutes say so in similar words. Second: may a person who lives somewhere else receive an organ here, from a local donor or a local deceased-donor pool? That is national allocation law, it varies, and it is the harder of the two to read.",
+  "story": "The global frame is two documents, neither of them binding on anyone.\n\nThe World Health Assembly endorsed the WHO Guiding Principles on Human Cell, Tissue and Organ Transplantation in May 2010, in resolution WHA63.22. The professional frame is \"The Declaration of Istanbul on Organ Trafficking and Transplant Tourism\", first agreed in 2008 and revised in 2018, whose custodian group maintains it. Between them they set the norm every national statute in this table reflects: no payment, and allocation on clinical grounds within a national system.\n\nThe national statutes then diverge on the second question, and mostly by an indirect route. Germany's is the clearest example of a rule that closes a door without mentioning a border: § 8(1) of the Transplantation Act confines living donation of a kidney or liver lobe to close relatives, spouses, partners, fiancés, and persons evidently close in a special personal attachment. Nothing in it says foreigner. It does not need to.\n\nBritain's works through an authority instead. Section 33 of the Human Tissue Act 2004 makes a living-donor transplant an offence unless the Human Tissue Authority is satisfied that no reward has been given contrary to section 32 and that the regulations are met. Spain's works through gratuity and a judge: the living donor consents before a judge, and at least 24 hours must pass before the extraction.\n\n*Inference —* those three instruments do the same work in three different registers — relationship, licence, and formality — and none of them is a nationality rule. A reader who asks whether a country bars foreign recipients will not find the answer by reading the payment prohibition, which is the part of the law that is easy to find.\n\nThe empirical literature is thin and single-centre. A 2022 paper reports graft and patient outcomes for kidney recipients who were transplanted abroad and followed up at one centre; a 2021 review covers liver transplantation and infection risk. Neither is a count of how many people travel, because no registry collects one.\n\n*Inference —* twenty of the twenty-four rows below say no-data, and the pattern in which sites refused is itself informative: the statutes this project could read are those of states that publish their law in machine-readable form on a stable government portal, which is not the same set as the states this question is asked about.",
+  "how": "What a row does not answer: whether a foreign recipient may be listed on a national deceased-donor waiting list and on what terms, whether a transplant performed abroad is followed up at home, and whether a home transplant unit will accept a returning patient onto its immunosuppression and surveillance programme. That last is the practical question, and it is clinical policy rather than law.\n\nThe Global Observatory on Donation and Transplantation, run by the World Health Organization with Spain's national transplant organisation, publishes national activity figures. It counts procedures performed, not journeys made.",
+  "today": "As of 17 September 2026 six rows rest on a named instrument that was read. Eighteen say no-data. The gap is a sourcing failure on this pass and not a statement about those countries' law."
+ },
+ "legality": [
+  {
+   "country": "GB",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:uk-human-tissue-act-s33",
+   "instrument": "Human Tissue Act 2004, sections 32 and 33",
+   "conditions": "Giving or receiving a reward for the supply of controlled material is an offence under section 32, which also bars advertising. A transplant from a living donor is an offence under section 33 unless the Human Tissue Authority is satisfied that no reward has been given and the conditions in regulations are met. The gate is the Authority's approval, not residence.",
+   "note": "Section 33 carries up to 51 weeks and a fine at level 5."
+  },
+  {
+   "country": "US",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:us-nota-274e",
+   "instrument": "National Organ Transplant Act, 42 U.S.C. § 274e",
+   "conditions": "Unlawful to knowingly acquire, receive or otherwise transfer any human organ for valuable consideration. Removal, transport, processing and storage costs are carved out, as are the donor's travel, housing and lost wages. The statute sets no citizenship condition; allocation policy is a separate matter this project did not read.",
+   "note": "Up to USD 50,000 and five years."
+  },
+  {
+   "country": "DE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:de-tpg-8",
+   "instrument": "Transplantationsgesetz § 8(1) sentence 2, with § 17",
+   "conditions": "Living donation of a kidney, part of a liver or another non-regenerating organ is confined to first- and second-degree relatives, spouses, registered partners, fiancés, and persons evidently close to the donor in a special personal attachment. Trade in organs or tissues is prohibited by § 17, with reasonable procurement and transport costs excepted. The bar on an unrelated foreign recipient is a relationship rule, not a nationality one."
+  },
+  {
+   "country": "ES",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:es-rd-1723-2012",
+   "instrument": "Real Decreto 1723/2012, artículos 4 y 8, under Ley 30/1979",
+   "conditions": "Article 4.2 requires voluntariness, altruism, confidentiality, absence of profit motive and gratuity. Article 8 requires a living donor of full age and capacity to consent expressly before a judge, with at least 24 hours between the signed document and the extraction. Neither article distinguishes recipients by nationality or residence."
+  },
+  {
+   "country": "SG",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:sg-hota",
+   "instrument": "Human Organ Transplant Act 1987, Part 4",
+   "conditions": "Trading in organs and blood is prohibited.",
+   "note": "Part 4 was read for the trading prohibition; the Act's provisions on who may receive a transplant were not read on this pass."
+  },
+  {
+   "country": "TR",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:tr-law-2238",
+   "instrument": "Organ ve Doku Alınması, Saklanması, Aşılanması ve Nakli Hakkında Kanun (Kanun No. 2238), Madde 3",
+   "conditions": "Payment for organs and tissue is prohibited.",
+   "note": "Madde 3 was read for the payment prohibition. Türkiye's rules on transplants to foreign recipients were not read on this pass."
+  },
+  {
+   "country": "IN",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "The Transplantation of Human Organs and Tissues Act 1994 governs, with authorisation committees for donors who are not near relatives and separate provisions for foreign nationals. Indian statute sites returned 403 on this pass and the Act was not read."
+  },
+  {
+   "country": "IR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "Iran operates the one regulated, compensated living-kidney donation programme in the world, and it is widely reported to exclude foreign recipients. No Iranian instrument was read on this pass, and this project will not describe the programme from secondary accounts."
+  },
+  {
+   "country": "PH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "A 2008 Department of Health administrative order is reported to have ended transplants to foreign recipients. It was not read on this pass."
+  },
+  {
+   "country": "EG",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "Law 5 of 2010 governs; it was not read on this pass."
+  },
+  {
+   "country": "CN",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "The 2007 Regulation on Human Organ Transplantation and its replacement were not read on this pass."
+  },
+  {
+   "country": "PK",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Pakistani instrument was read on this pass."
+  },
+  {
+   "country": "IL",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "The Organ Transplant Law 2008 governs, including its treatment of reimbursement for travel abroad. It was not read on this pass."
+  },
+  {
+   "country": "JO",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Jordanian instrument was read on this pass."
+  },
+  {
+   "country": "SA",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Saudi instrument was read on this pass."
+  },
+  {
+   "country": "AE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Emirati instrument was read on this pass."
+  },
+  {
+   "country": "ZA",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "The National Health Act 61 of 2003 governs; the Act's PDF would not extract on this pass."
+  },
+  {
+   "country": "TH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "Thai Red Cross Society organ donation criteria govern in practice; no instrument was read on this pass."
+  },
+  {
+   "country": "MY",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Malaysian instrument was read on this pass."
+  },
+  {
+   "country": "LK",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Sri Lankan instrument was read on this pass."
+  },
+  {
+   "country": "NP",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Nepali instrument was read on this pass."
+  },
+  {
+   "country": "CO",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "Ley 1805 of 2016 is reported to have restricted transplants to foreign recipients. It was not read on this pass."
+  },
+  {
+   "country": "MX",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Mexican instrument was read on this pass."
+  },
+  {
+   "country": "CR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:godt-observatory",
+   "note": "No Costa Rican instrument was read on this pass."
+  }
+ ],
+ "kin": [
+  {
+   "to": "kidney-transplant",
+   "as": "The operation most of this law was written about.",
+   "rel": "procedure"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "The other, and the one with the published infection literature.",
+   "rel": "procedure"
+  },
+  {
+   "to": "transplant-harm",
+   "as": "What the outcome papers record.",
+   "rel": "risk"
+  },
+  {
+   "to": "declaration-of-istanbul-group",
+   "as": "The custodian of the professional norm this table sits under.",
+   "rel": "org"
+  },
+  {
+   "to": "istanbul-declaration-2008",
+   "as": "The year the norm was written down.",
+   "rel": "event"
+  },
+  {
+   "to": "who",
+   "as": "The body whose Guiding Principles the World Health Assembly endorsed in 2010.",
+   "rel": "org"
+  },
+  {
+   "to": "blood-supply-safety",
+   "as": "The neighbouring supply question, with the same payment argument attached.",
+   "rel": "risk"
+  },
+  {
+   "to": "circumvention",
+   "as": "The argument, reported.",
+   "rel": "story"
+  },
+  {
+   "to": "iran",
+   "as": "The one state running a regulated compensated donation programme, and the row this project could not source.",
+   "rel": "destination"
+  }
+ ],
+ "sources": [
+  "s:who-guiding-principles",
+  "s:declaration-of-istanbul",
+  "s:godt-observatory",
+  "s:uk-human-tissue-act-s33",
+  "s:uk-human-tissue-act-2004",
+  "s:us-nota-274e",
+  "s:usc-42-274e",
+  "s:de-tpg-8",
+  "s:de-tpg",
+  "s:es-rd-1723-2012",
+  "s:sg-hota",
+  "s:tr-law-2238",
+  "s:altheaby-transplant-tourism-2022",
+  "s:neupane-liver-transplant-2021"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:who-guiding-principles"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:de-tpg-8",
+    "note": "the three instruments are read; the stretches marked *Inference —* are this project's reasoning"
+   },
+   "legality": {
+    "tier": "cited",
+    "source": "s:godt-observatory",
+    "note": "a no-data row records that the instrument could not be read on this pass"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

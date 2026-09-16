@@ -1,0 +1,31 @@
+{
+ "sources": [
+  {
+   "id": "s:iata-industry-statistics",
+   "kind": "org",
+   "title": "Industry Statistics — fact sheet, table \"Global airline industry\", updated 6/2026",
+   "publisher": "International Air Transport Association, Sustainability and Economics",
+   "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/industry-statistics/",
+   "accessed": "2026-09-17",
+   "note": "read as a PDF and extracted with pdftotext. The rows used here are O-D passengers, million (4,343 forecast for 2026) and Passenger, USD billion (839 forecast for 2026). The fact sheet publishes no average-fare line; the figure derived from those two rows is marked as this project's arithmetic wherever it appears."
+  },
+  {
+   "id": "s:savric-equal-earth-2018",
+   "kind": "paper",
+   "title": "The Equal Earth map projection",
+   "publisher": "Savric B, Patterson T, Jenny B. International Journal of Geographical Information Science 2019;33(3):454-465, published online 7 August 2018, doi:10.1080/13658816.2018.1504949",
+   "url": "https://doi.org/10.1080/13658816.2018.1504949",
+   "accessed": "2026-09-17",
+   "note": "the publisher's page returned HTTP 403; the citation and the description of the projection as an equal-area pseudocylindrical world projection were read on the encyclopedia article registered as s:wp-equal-earth. The projection's coefficients are implemented in tools/worldmap.py."
+  },
+  {
+   "id": "s:wp-equal-earth",
+   "kind": "web",
+   "title": "Equal Earth projection",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Equal_Earth_projection",
+   "accessed": "2026-09-17",
+   "note": "used only for the citation and date of the projection paper, which could not be fetched from the publisher"
+  }
+ ]
+}

@@ -1,0 +1,292 @@
+{
+ "id": "assisted-dying-law",
+ "names": {
+  "name": "Assisted dying, and who may cross a border for it",
+  "aliases": [
+   "assisted suicide",
+   "euthanasia",
+   "medical assistance in dying",
+   "aid in dying"
+  ],
+  "said": "Nearly every permissive statute has a residence gate. The one that does not is the one people travel to."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "prohibition",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Whether assistance in dying is lawful, and whether the person assisted must live there. The second question is the one that makes this a cross-border subject at all, and the rows below record it where the instrument could be read.",
+  "story": "Switzerland's position is an omission rather than a permission. Article 115 of the Criminal Code punishes inciting or assisting suicide only where the person acts from a selfish motive. There is no clause about nationality and none about residence, because the article was not written about this at all — it was written about motive. The absence is what the organisations in Zurich and Basel operate in.\n\nEvery other permissive regime this project could read has closed that door, and they close it three different ways.\n\nSome write the gate into the statute. Spain's Ley Orgánica 3/2021 requires Spanish nationality, or lawful residence, or twelve months on the municipal register. France's law of 18 August 2026 requires French nationality or stable and regular residence, as one of five cumulative conditions. California requires a driver's licence, a voter registration, a property interest or a tax return.\n\nCanada does it through the health system instead. Section 241.2(1)(a) keys eligibility to entitlement to health services funded by a government in Canada, and forgives only \"any applicable minimum period of residence or waiting period\". A visitor with no provincial entitlement at all is not saved by that clause.\n\nThe Netherlands and Belgium do it through clinical structure. Neither Act contains a nationality or residence clause; the barrier is the due-care regime, which requires a physician to be satisfied of the voluntariness of the request and the hopelessness of the suffering, and a second independent physician to have seen the patient. *Inference —* that is a relationship, built over time, and it is not something a person acquires by arriving.\n\nOne door has opened. Oregon removed its residency requirement in 2023, after a federal suit settled; ORS 127.805 as amended carries no residency language. *Inference —* which means the common statement that Switzerland is the only jurisdiction admitting non-residents is now, at minimum, incomplete.\n\nThe argument this site reports and does not join runs in both directions. A residence gate prevents a state from becoming a destination for something its neighbours prohibit. It also means that a person's access to the option turns on where they happen to be registered, and that the people who travel are the people who can afford to.",
+  "how": "Reading a row: the status describes the position for a person who does not live there. A country marked unlawful may still permit the withdrawal of life-sustaining treatment, which is a different question this table does not record.\n\nWhat the rows do not carry: the cost of the assistance, the cost of repatriating a body, whether a home state prosecutes a relative who accompanied the person, and what a death certificate issued abroad says. The last of those is the one that reaches the family.",
+  "today": "As of 17 September 2026 eight rows below rest on an instrument that was read. Seventeen say no-data, most of them because an official statute site refused the connection on this pass. A no-data row here means this project did not read the law, not that the law is unclear."
+ },
+ "legality": [
+  {
+   "country": "CH",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:ch-criminal-code",
+   "instrument": "Swiss Criminal Code, Article 115",
+   "conditions": "The article punishes inciting or assisting suicide only where the person acts from a selfish motive. It sets no nationality condition and no residence condition, which is why Switzerland admits people who live elsewhere.",
+   "note": "Read on this pass at a private reproduction of the statute because the federal portal renders by script; the SR number is therefore not printed from that reading."
+  },
+  {
+   "country": "NL",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:nl-euthanasia-act-2002",
+   "instrument": "Wet toetsing levensbeëindiging op verzoek en hulp bij zelfdoding, artikel 2",
+   "conditions": "Six due-care criteria, among them that the physician be satisfied the request is voluntary and well-considered and the suffering unbearable with no prospect of improvement, and that a second independent physician has seen the patient. The Act carries no nationality or residence clause; the gate is the treating relationship those criteria presuppose."
+  },
+  {
+   "country": "BE",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:be-euthanasia-law-2002",
+   "instrument": "Loi du 28 mai 2002 relative à l'euthanasie, article 3",
+   "conditions": "Adult or emancipated minor, capable and conscious, a voluntary, considered and repeated request, a hopeless medical situation and constant unbearable suffering. No nationality or residence condition appears in the article."
+  },
+  {
+   "country": "ES",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:es-lo-3-2021",
+   "instrument": "Ley Orgánica 3/2021 de regulación de la eutanasia, artículo 5.1.a)",
+   "conditions": "Spanish nationality, or lawful residence in Spain, or a municipal register certificate showing more than twelve months in Spanish territory."
+  },
+  {
+   "country": "FR",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:fr-loi-2026-794",
+   "instrument": "LOI n° 2026-794 du 18 août 2026 relative à l'aide à mourir, article 4, inserting Code de la santé publique article L. 1111-12-2",
+   "conditions": "French nationality or stable and regular residence in France, as one of five cumulative conditions.",
+   "note": "A statute a month old at the date of this reading. Read on this pass by a research agent rather than by the author of this record; treat the article reference as unconfirmed by a second reader."
+  },
+  {
+   "country": "CA",
+   "status": "residents-only",
+   "as_of": "2026-09-17",
+   "source": "s:ca-criminal-code-241-2",
+   "instrument": "Criminal Code (R.S.C. 1985, c. C-46), section 241.2(1)(a)",
+   "conditions": "Eligibility is keyed to entitlement to health services funded by a government in Canada, forgiving only any applicable minimum period of residence or waiting period. A visitor with no provincial entitlement is not reached by that saving clause."
+  },
+  {
+   "country": "US",
+   "status": "lawful-with-conditions",
+   "as_of": "2026-09-17",
+   "source": "s:or-ors-127-805",
+   "instrument": "No federal statute read for this row; state law governs. Oregon Death with Dignity Act, ORS 127.805, as amended by Or. Laws 2023 ch. 241 § 2, and California End of Life Option Act, Health and Safety Code § 443.2(a)(3), are the two read here.",
+   "conditions": "The two states read here run opposite rules. Oregon's current text carries no residency clause: the requirement was removed in 2023 after a federal suit settled. California requires the applicant to be a resident of California, proved by a driver's licence or state identification, voter registration, property ownership or lease, or a recent state tax return.",
+   "note": "The federal position and the other states with such statutes were not read on this pass."
+  },
+  {
+   "country": "GB",
+   "status": "unlawful",
+   "as_of": "2026-09-17",
+   "source": "s:uk-suicide-act-1961",
+   "instrument": "Suicide Act 1961, section 2, as substituted by the Coroners and Justice Act 2009",
+   "note": "An act capable of encouraging or assisting suicide, done with intent, is an offence whether or not a suicide follows. Maximum 14 years."
+  },
+  {
+   "country": "PT",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "Lei n.º 22/2023 is reported to confine the route to Portuguese nationals and lawful residents, and the regime is reported not to be in force pending regulation, with provisions struck by the Constitutional Court. The statute was not read on this pass."
+  },
+  {
+   "country": "AT",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The Sterbeverfügungsgesetz is reported to require Austrian citizenship or habitual residence. The federal legal information system returned a server error on this pass and the provision was not read."
+  },
+  {
+   "country": "IT",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The position rests on Constitutional Court judgment 242/2019 on article 580 of the Penal Code rather than on a statute. Neither was read on this pass."
+  },
+  {
+   "country": "AU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "State and territory law. Victoria's Act is reported to require Australian citizenship or permanent residence plus twelve months' ordinary residence in the state; no state act was read on this pass."
+  },
+  {
+   "country": "NZ",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The End of Life Choice Act 2019 is reported to require New Zealand citizenship or permanent residence; the Act was not read on this pass."
+  },
+  {
+   "country": "DE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The position rests on a 2020 Federal Constitutional Court ruling; the judgment was not read on this pass and its case number is therefore not printed."
+  },
+  {
+   "country": "IE",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The Irish statute book refused the connection on this pass."
+  },
+  {
+   "country": "LU",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The Luxembourg legal portal refused the connection on this pass."
+  },
+  {
+   "country": "TR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The Turkish legislation portal's certificate could not be verified on this pass."
+  },
+  {
+   "country": "SG",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "Singapore Statutes Online returned 403 on this pass."
+  },
+  {
+   "country": "IN",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The position rests on a 2018 Supreme Court judgment permitting the withdrawal of life support rather than assistance in dying; the judgment was not read on this pass."
+  },
+  {
+   "country": "JP",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "No Japanese instrument was read on this pass."
+  },
+  {
+   "country": "KR",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "No Korean instrument was read on this pass."
+  },
+  {
+   "country": "TH",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "No Thai instrument was read on this pass."
+  },
+  {
+   "country": "MX",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "No Mexican instrument was read on this pass."
+  },
+  {
+   "country": "CO",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "Colombia's position rests on Constitutional Court decisions and a ministerial resolution; neither was read on this pass."
+  },
+  {
+   "country": "IL",
+   "status": "no-data",
+   "as_of": "2026-09-17",
+   "source": "s:who-guiding-principles",
+   "note": "The Israeli health ministry returned an empty response on this pass."
+  }
+ ],
+ "kin": [
+  {
+   "to": "assisted-dying",
+   "as": "The procedure these instruments govern.",
+   "rel": "procedure"
+  },
+  {
+   "to": "switzerland",
+   "as": "The destination the omission in Article 115 created.",
+   "rel": "destination"
+  },
+  {
+   "to": "circumvention-travel",
+   "as": "The category this sits in.",
+   "rel": "term"
+  },
+  {
+   "to": "circumvention",
+   "as": "The argument, reported.",
+   "rel": "story"
+  },
+  {
+   "to": "abortion-travel-law",
+   "as": "The other question where a residence gate is the whole instrument.",
+   "rel": "kin"
+  },
+  {
+   "to": "repatriation-cost",
+   "as": "The bill that follows, and that no row here carries.",
+   "rel": "risk"
+  },
+  {
+   "to": "the-companion",
+   "as": "The person who travels too, and whose position at home is a separate question.",
+   "rel": "pathway"
+  },
+  {
+   "to": "united-states",
+   "as": "The federation where one state opened the door and another keeps it shut.",
+   "rel": "destination"
+  }
+ ],
+ "sources": [
+  "s:ch-criminal-code",
+  "s:swissrights-stgb-115",
+  "s:nl-euthanasia-act-2002",
+  "s:be-euthanasia-law-2002",
+  "s:es-lo-3-2021",
+  "s:fr-loi-2026-794",
+  "s:ca-criminal-code-241-2",
+  "s:or-ors-127-805",
+  "s:us-ca-hsc-443-2",
+  "s:uk-suicide-act-1961",
+  "s:who-guiding-principles"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:ch-criminal-code"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:es-lo-3-2021",
+    "note": "the three kinds of gate are read off the instruments; the stretches marked *Inference —* are this project's reasoning"
+   },
+   "legality": {
+    "tier": "cited",
+    "source": "s:ch-criminal-code",
+    "note": "a no-data row records that the instrument could not be read on this pass"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

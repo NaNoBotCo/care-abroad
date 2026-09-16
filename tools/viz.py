@@ -415,7 +415,8 @@ def legality_matrix(subjects: list, countries: list, cells: dict, *, w=900, titl
     if not subjects or not countries:
         return ""
     names = country_names or {}
-    labw, cw, rh, padt = 210, max(19, min(34, (w - 210) // max(1, len(countries)))), 30, 74
+    labw = min(int(w * 0.36), max(150, int(6.6 * max(len(x["label"]) for x in subjects)) + 18))
+    cw, rh, padt = max(19, min(34, (w - labw) // max(1, len(countries)))), 30, 74
     h = padt + rh * len(subjects) + 12
     w2 = labw + cw * len(countries) + 8
     body = []

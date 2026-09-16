@@ -1,0 +1,76 @@
+{
+ "schema": 1,
+ "id": "severance",
+ "type": "facility",
+ "names": {
+  "name": "Severance Hospital",
+  "aliases": ["세브란스병원", "Yonsei University Health System", "Gwanghyewon"],
+  "said": "SEV-er-ance, for Louis Severance of Standard Oil, who paid for the building. It opened in 1885 as Gwanghyewon, the House of Extended Grace, a royal hospital founded by the American doctor Horace Newton Allen, and took the donor's name on 3 September 1904."
+ },
+ "region": ["east-asia"],
+ "facets": {
+  "iso2": "KR",
+  "ownership": "university",
+  "founded": 1885,
+  "specialty": ["robotic surgery", "cardiology", "oncology", "transplantation", "neurosciences"],
+  "draws": ["proton-therapy", "car-t", "kidney-transplant", "liver-transplant", "prostatectomy"],
+  "status": "open",
+  "languages": ["Korean", "English", "Russian", "Arabic", "Mongolian", "Mandarin"]
+ },
+ "text": {
+  "what": "The oldest hospital in South Korea and part of the Yonsei University Health System: 2,437 beds in Seodaemun-gu, Seoul, seeing about 2.5 million outpatients and 840,000 inpatients a year. It was founded in 1885 by Horace Newton Allen as Gwanghyewon, the country's first western-style hospital, renamed for its American donor in 1904, and joined to Yonsei University in 1957. It was the first Korean hospital accredited by Joint Commission International, in 2007.",
+  "story": "The 1885 date makes Severance the only hospital in this batch older than the countries most of its patients fly from, and the sequence of its names is a history of Korean medicine in three words: a royal hospital, an American donor's hospital, a national university's hospital.\n\nIt is a system rather than a building — Severance at Sinchon, Gangnam Severance, Yongin Severance, Wonju Severance Christian, and Songdo Severance under construction. The record pins Sinchon.\n\nThe volumes are the East Asian ones: 2.5 million outpatients a year and 840,000 inpatients. Both count attendances, not people. The robotic surgery programme reached twenty thousand operations by 2018, the first unit in the world to do so; the hospital reports about two thousand coronary artery operations and about thirteen hundred arrhythmia treatments a year.\n\n*Inference —* a hospital that reports its unit volumes by operation is doing something the accreditation marks elsewhere in this batch do not: saying how often it does the thing. Volume is not outcome, and this directory does not read it as one, but it is a fact about the unit rather than about the building.\n\nThe 2007 JCI accreditation was the first in Korea, three years before the country's foreign-patient registration regime began in earnest, and it dates the start of Korean hospitals selling abroad.",
+  "how": "Foreign patients reach it through the International Health Care Center, which states that an estimate of the cost of treatment can be provided on request before medical consent is given. *Trade practice —* that is the Korean shape: registration with the ministry, an in-hospital international centre, an estimate on request, and no published figure.\n\nNothing is priced on the public pages read for this record.",
+  "today": "As of 17 September 2026 the hospital carries 2,437 beds, about 2.5 million outpatients and 840,000 inpatients a year. Its own overview names JCI accreditation without a year; the accreditor's own account dates the first award to 2007 and calls it Korea's first. No price is published."
+ },
+ "geo": {"lat": 37.562262, "lon": 126.940392, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "50-1 Yonsei-ro, Seodaemun-gu", "city": "Seoul", "country": "KR", "postcode": "03722"},
+ "metrics": {
+  "beds": 2437,
+  "annual_patients": 2500000,
+  "annual_foreign_patients": null,
+  "note": "annual_patients counts OUTPATIENT ATTENDANCES, not people: about 2.5 million a year, with 840,000 inpatients counted separately and also as episodes rather than as individuals. A patient attending a clinic monthly is twelve. Beds are 2,437 at the Sinchon hospital this record pins; the Yonsei system runs four further hospitals. No foreign patient count is published by the hospital.",
+  "as_of": "2026",
+  "source": "s:wp-severance",
+  "url": "https://en.wikipedia.org/wiki/Severance_Hospital"
+ },
+ "tags": [
+  {"tag": "university-hospital", "source": "s:wp-severance", "tier": "cited", "note": "part of the Yonsei University Health System, joined to the university in 1957"},
+  {"tag": "teaching", "source": "s:severance-overview", "tier": "cited", "note": "the country's first western-style hospital, founded 1885, and a teaching hospital since"},
+  {"tag": "faith-based", "source": "s:wp-severance", "tier": "cited", "note": "founded by the American medical missionary Horace Newton Allen; the system still includes Wonju Severance Christian Hospital"},
+  {"tag": "international-office", "source": "s:severance-ihc", "tier": "cited", "note": "an International Health Care Center that states it can provide an estimated cost of treatment on request before medical consent", "url": "https://sev.severance.healthcare/sev-en/ihc/overview.do"},
+  {"tag": "no-price-published", "source": "s:severance-ihc", "tier": "cited", "note": "an estimate on request; no figure is published"},
+  {"tag": "outcomes-published", "source": "s:severance-overview", "tier": "cited", "note": "unit volumes by operation — the first 20,000 robotic operations in the world by 2018, about 2,000 coronary artery operations and about 1,300 arrhythmia treatments a year. Volume is not outcome and this project does not read it as one."}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation, first granted 2007 — the first Korean hospital to hold it", "year": 2007, "valid_until": null, "source": "s:wp-medical-tourism-south-korea", "url": "https://en.wikipedia.org/wiki/Medical_tourism_in_South_Korea", "note": "the hospital's own overview page names the accreditation and no year; 2007 and the first-in-Korea claim come from the accreditor's own account and from the Korean medical travel literature"},
+  {"by": "kohta", "what": "Registered with the Korean Ministry of Health and Welfare to treat foreign patients", "year": null, "valid_until": null, "source": "s:khidi-medicalkorea", "url": "http://www.medicalkorea.or.kr/en/aboutkhidi", "note": "the compulsory registration, not an accreditation"}
+ ],
+ "kin": [
+  {"to": "seoul", "as": "The oldest of the three Seoul hospitals here, at Sinchon in the north-west of the city.", "rel": "place"},
+  {"to": "south-korea", "as": "The first Korean hospital to take JCI accreditation, in 2007, which dates the country's selling abroad.", "rel": "destination"},
+  {"to": "asan-medical-center", "as": "The largest Korean hospital, opened a century after this one.", "rel": "contrast"},
+  {"to": "samsung-medical-center", "as": "The newest of the three, and the one that leads with its record systems.", "rel": "contrast"},
+  {"to": "jci", "as": "Its accreditor since 2007, the first award the body made in Korea.", "rel": "accredited-by"},
+  {"to": "korea-foreign-patient-registration", "as": "Operates under the registration every Korean facility treating foreign patients must hold.", "rel": "governed-by"},
+  {"to": "prostatectomy", "as": "Among the robotic work its unit volumes are reported for, the first programme in the world past twenty thousand operations.", "rel": "performs"},
+  {"to": "getting-a-quote", "as": "Its international centre states it can give an estimated cost before medical consent, which is where the price starts existing.", "rel": "step"},
+  {"to": "counting-patients", "as": "2.5 million outpatients and 840,000 inpatients, both counting attendances at one hospital in one system of five.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Severance Hospital", "url": "https://sev.severance.healthcare/sev-en/index.do"},
+  {"label": "International Health Care Center", "url": "https://sev.severance.healthcare/sev-en/ihc/overview.do"}
+ ],
+ "sources": ["s:wp-severance", "s:severance-en", "s:severance-overview", "s:severance-ihc", "s:khidi-medicalkorea", "s:wp-medical-tourism-south-korea", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "the Korean route's shape; the estimate-on-request sentence is cited"},
+   "metrics": {"tier": "cited", "source": "s:wp-severance"}
+  }
+ },
+ "x_commons_files": ["File:Severance Hospital.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

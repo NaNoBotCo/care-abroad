@@ -77,6 +77,11 @@
 "جمهورية مصر العربية"
 ],
 [
+"georgia",
+"sakartvelo",
+"საქართველო"
+],
+[
 "bundesrepublik deutschland",
 "deutschland",
 "germany"
@@ -494,6 +499,16 @@
 "tummy tuck"
 ],
 [
+"abortion",
+"induced abortion",
+"interrupción voluntaria del embarazo",
+"ivg",
+"medical abortion",
+"surgical abortion",
+"termination of pregnancy",
+"vacuum aspiration"
+],
+[
 "acl reconstruction",
 "aclr",
 "anterior cruciate ligament reconstruction",
@@ -505,6 +520,27 @@
 "rehab",
 "residential addiction treatment",
 "residential treatment programme"
+],
+[
+"all-on-4",
+"all-on-four",
+"fixed hybrid denture",
+"teeth in a day"
+],
+[
+"balloon angioplasty",
+"coronary angioplasty and stent",
+"pci",
+"percutaneous coronary intervention",
+"stenting"
+],
+[
+"accompanied suicide",
+"assisted dying",
+"assisted suicide",
+"physician-assisted death",
+"vad",
+"voluntary assisted dying"
 ],
 [
 "bbl",
@@ -529,6 +565,13 @@
 "fat transfer to the breast"
 ],
 [
+"cabg",
+"coronary artery bypass grafting",
+"coronary bypass",
+"heart bypass",
+"open heart surgery"
+],
+[
 "axicabtagene ciloleucel",
 "car t-cell therapy",
 "car-t",
@@ -536,10 +579,24 @@
 "tisagenlecleucel"
 ],
 [
+"cataract surgery",
+"iol surgery",
+"lens extraction with intraocular lens",
+"phaco",
+"phacoemulsification"
+],
+[
 "auditory prosthesis",
 "ci",
 "cochlear implant",
 "cochlear implantation"
+],
+[
+"cap",
+"dental crown",
+"e.max crown",
+"porcelain fused to metal crown",
+"zirconia crown"
 ],
 [
 "dental implant",
@@ -553,6 +610,14 @@
 "direct hair implantation (dhi)",
 "direct hair transplantation",
 "implanter pen technique"
+],
+[
+"dialysis away from home",
+"guest dialysis",
+"haemodialysis for travelling patients",
+"holiday dialysis",
+"transient dialysis",
+"vacation dialysis"
 ],
 [
 "adr",
@@ -594,6 +659,13 @@
 "smas facelift"
 ],
 [
+"full arch reconstruction",
+"full mouth reconstruction",
+"full mouth rehabilitation",
+"full mouth restoration",
+"smile makeover"
+],
+[
 "gamma knife radiosurgery",
 "gamma knife surgery",
 "leksell gamma knife",
@@ -631,11 +703,27 @@
 "sapphire fue"
 ],
 [
+"aortic valve replacement",
+"avr",
+"heart valve replacement",
+"mitral valve replacement",
+"mvr",
+"valve replacement"
+],
+[
 "hip arthroplasty",
 "tha",
 "thr",
 "total hip arthroplasty",
 "total hip replacement"
+],
+[
+"evo icl",
+"icl",
+"implantable collamer lens",
+"implantable contact lens",
+"phakic intraocular lens",
+"toric icl"
 ],
 [
 "icsi",
@@ -671,11 +759,26 @@
 "total knee replacement"
 ],
 [
+"femto-lasik",
+"laser eye surgery",
+"laser in situ keratomileusis",
+"laser vision correction",
+"lasik"
+],
+[
 "body contouring",
 "lipo",
 "lipoplasty",
 "liposuction",
 "suction-assisted lipectomy"
+],
+[
+"hepatic transplantation",
+"ldlt",
+"liver transplant",
+"living-donor liver transplant",
+"olt",
+"orthotopic liver transplantation"
 ],
 [
 "ayurveda cure",
@@ -695,6 +798,14 @@
 "preimplantation genetic testing"
 ],
 [
+"alt phalloplasty",
+"bottom surgery",
+"gender-affirming phalloplasty",
+"genital reconstruction",
+"phalloplasty",
+"rff phalloplasty"
+],
+[
 "particle therapy",
 "pbt",
 "proton beam radiotherapy",
@@ -708,6 +819,12 @@
 "open rhinoplasty",
 "rhinoplasty",
 "septorhinoplasty"
+],
+[
+"endodontic treatment",
+"rct",
+"root canal treatment",
+"root filling"
 ],
 [
 "reverse total shoulder replacement",
@@ -734,6 +851,15 @@
 "transforaminal lumbar interbody fusion"
 ],
 [
+"cell therapy",
+"exosome therapy",
+"regenerative medicine",
+"stem cell therapy",
+"stromal vascular fraction",
+"svf",
+"unapproved stem cell treatment"
+],
+[
 "gestational carrier",
 "gestational surrogacy",
 "host surrogacy",
@@ -741,10 +867,63 @@
 "traditional surrogacy"
 ],
 [
+"chest masculinisation",
+"chest reconstruction",
+"keyhole top surgery",
+"periareolar top surgery",
+"subcutaneous mastectomy",
+"top surgery"
+],
+[
+"gcs",
+"gender-affirming vaginoplasty",
+"genital reconstruction",
+"penile inversion vaginoplasty",
+"peritoneal vaginoplasty",
+"sex reassignment surgery",
+"srs",
+"vaginoplasty"
+],
+[
+"composite veneer",
+"dental veneers",
+"laminate veneer",
+"porcelain veneer",
+"smile makeover"
+],
+[
+"acibadem",
+"acıbadem altunizade hospital",
+"acıbadem healthcare group",
+"acıbadem sağlık grubu"
+],
+[
+"albert einstein israelite hospital",
+"einstein",
+"hospital israelita albert einstein"
+],
+[
+"ahd",
+"american hospital dubai",
+"المستشفى الأمريكي دبي"
+],
+[
+"anadolu health center",
+"anadolu medical center",
+"anadolu sağlık merkezi"
+],
+[
 "apollo greams road",
 "apollo hospitals, greams road, chennai",
 "apollo main hospital",
 "அப்பல்லோ மருத்துவமனை"
+],
+[
+"amc",
+"asan medical center",
+"seoul asan hospital",
+"seoul jungang hospital",
+"서울아산병원"
 ],
 [
 "bangkok hospital",
@@ -758,10 +937,30 @@
 "โรงพยาบาลบำรุงราษฎร์"
 ],
 [
+"charité healthcare services gmbh",
+"charité international patients",
+"charité — universitätsmedizin berlin",
+"chs"
+],
+[
+"clínica bíblica",
+"hospital clínica bíblica",
+"hospital clínico bíblico"
+],
+[
+"clínica las américas",
+"clínica las américas auna",
+"las américas auna"
+],
+[
 "fmri",
 "fortis gurgaon",
 "fortis memorial research institute",
 "fortis memorial research institute, gurugram"
+],
+[
+"fsfb",
+"fundación santa fe de bogotá"
 ],
 [
 "gleneagles hospital kuala lumpur",
@@ -770,15 +969,46 @@
 "hospital gleneagles kuala lumpur"
 ],
 [
+"hadassah ein kerem",
+"hadassah medical center",
+"hadassah mount scopus",
+"הדסה"
+],
+[
+"heidelberg university hospital",
+"ukhd",
+"universitätsklinikum heidelberg"
+],
+[
+"grupo ángeles servicios de salud",
+"hospital angeles tijuana",
+"hospital ángeles tijuana"
+],
+[
+"cima san josé",
+"hospital cima",
+"hospital cima san josé"
+],
+[
 "hospital pulau",
 "island hospital",
 "island hospital penang"
+],
+[
+"khcc",
+"king hussein cancer center",
+"مركز الحسين للسرطان"
 ],
 [
 "kdah",
 "kokilaben dhirubhai ambani hospital",
 "kokilaben hospital",
 "कोकिलाबेन धीरूभाई अंबानी हॉस्पिटल"
+],
+[
+"liv hastanesi",
+"liv hospital",
+"liv hospital ulus"
 ],
 [
 "max healthcare saket",
@@ -793,6 +1023,23 @@
 "मेदांता"
 ],
 [
+"medicana health group",
+"medicana international istanbul",
+"medicana sağlık grubu"
+],
+[
+"memorial healthcare group",
+"memorial hospitals group",
+"memorial şişli hastanesi",
+"memorial şişli hospital"
+],
+[
+"mount e",
+"mount elizabeth hospital",
+"mount elizabeth novena",
+"mount elizabeth orchard"
+],
+[
 "narayana health",
 "narayana hrudayalaya",
 "nh",
@@ -804,9 +1051,32 @@
 "prince court medical centre"
 ],
 [
+"raffles hospital",
+"raffles medical group",
+"raffleshospital"
+],
+[
 "samitivej",
 "samitivej sukhumvit hospital",
 "โรงพยาบาลสมิติเวช สุขุมวิท"
+],
+[
+"samsung medical center",
+"samsung seoul hospital",
+"smc",
+"삼성서울병원"
+],
+[
+"gwanghyewon",
+"severance hospital",
+"yonsei university health system",
+"세브란스병원"
+],
+[
+"chaim sheba medical center",
+"sheba medical center",
+"tel hashomer",
+"המרכז הרפואי שיבא"
 ],
 [
 "aftercare at home",
@@ -902,6 +1172,16 @@
 "when it goes wrong"
 ],
 [
+"discharged alone",
+"discharged to a hotel",
+"no responsible adult",
+"nobody at the other end"
+],
+[
+"pre-operative assessment on arrival",
+"unscreened for anaesthesia"
+],
+[
 "amr",
 "antimicrobial resistance acquired abroad",
 "carbapenem-resistant enterobacterales",
@@ -971,6 +1251,10 @@
 "the implant is excluded"
 ],
 [
+"interpreted consent",
+"language barrier consent"
+],
+[
 "cross-border liability",
 "legal recourse",
 "malpractice recourse across a border",
@@ -1000,6 +1284,13 @@
 "wound infection"
 ],
 [
+"accompanying person",
+"medical attendant",
+"refakatci",
+"the companion's costs",
+"the escort burden"
+],
+[
 "commercial transplantation",
 "organ trafficking",
 "transplant harm",
@@ -1008,6 +1299,136 @@
 [
 "stem cell clinics",
 "unproven stem cell treatment"
+],
+[
+"abortion access across borders",
+"the residence bar",
+"travelling for a termination"
+],
+[
+"healthcare advertising controls",
+"kkliu",
+"promotion and information rules",
+"what a clinic may say"
+],
+[
+"aid in dying",
+"assisted suicide",
+"euthanasia",
+"medical assistance in dying"
+],
+[
+"cross-border prescription",
+"directive 2012/52/eu",
+"the common name rule"
+],
+[
+"donor anonymity",
+"identity-release donation",
+"open-identity donors"
+],
+[
+"the cross-border healthcare directive",
+"the directive route",
+"the patient mobility directive"
+],
+[
+"gulf state-sponsored treatment abroad",
+"health office",
+"medical missions",
+"overseas medical treatment scheme"
+],
+[
+"access to gender-affirming care",
+"gender confirmation surgery access",
+"transition-related care"
+],
+[
+"e-medical attendant visa",
+"e-medical visa",
+"emed",
+"emedx",
+"india's e-medical visa"
+],
+[
+"elective treatment exclusion",
+"insurance exclusions for treatment abroad",
+"the travel policy gap"
+],
+[
+"attraction agency registration",
+"khidi registration",
+"korea's foreign patient attraction registration",
+"외국인환자 유치기관 등록"
+],
+[
+"act 586 licence",
+"malaysia's healthcare travel registration",
+"mhtc elite partner",
+"mhtc membership"
+],
+[
+"gdpr article 49",
+"health data transfer",
+"special category data"
+],
+[
+"article 20 authorisation",
+"planned treatment scheme",
+"s2 certificate",
+"the old e112",
+"the s2 route"
+],
+[
+"the schengen visa, for treatment",
+"type c visa",
+"uniform visa",
+"visa code annex ii"
+],
+[
+"atmp regulation",
+"hct/p",
+"minimal manipulation",
+"regenerative medicine law",
+"regulating cell and tissue therapies"
+],
+[
+"gestational surrogacy law",
+"parental orders",
+"surrogacy law across borders",
+"surrogate motherhood agreements"
+],
+[
+"non-immigrant o for medical treatment",
+"thailand's medical treatment visa",
+"tourist visa (medical treatment)",
+"tr (mt)"
+],
+[
+"organ trade prohibition",
+"the declaration of istanbul",
+"transplant travel"
+],
+[
+"authorised provider list",
+"uluslararası sağlık turizmi yetki belgesi",
+"yetki belgesi"
+],
+[
+"dha licence",
+"dhcc licence",
+"mohap licence",
+"sheryan"
+],
+[
+"nhs funding for treatment abroad",
+"planned treatment abroad",
+"s2 from england",
+"the proton overseas programme"
+],
+[
+"foreign hospital services",
+"medicare outside the united states"
 ],
 [
 "aaci",
@@ -1095,9 +1516,223 @@
 "world health organization"
 ],
 [
+"covid-19 pandemic, 2020",
+"the 2020 shutdown",
+"the year the borders closed"
+],
+[
+"cross-border healthcare directive",
+"patients' rights directive"
+],
+[
+"imtj summit",
+"medical travel awards"
+],
+[
+"fusarium solani meningitis outbreak",
+"matamoros epidural outbreak"
+],
+[
+"ndm-1, 2010",
+"new delhi metallo-beta-lactamase-1"
+],
+[
+"istanbul hair clinics",
+"saç ekimi turizmi",
+"türkiye's hair transplant boom"
+],
+[
+"asa class",
+"asa grade",
+"asa physical status",
+"asa ps classification"
+],
+[
+"bundled payment",
+"episode payment",
+"episode-based payment",
+"global payment"
+],
+[
+"case rate",
+"flat rate per case",
+"global fee",
+"per-case payment"
+],
+[
+"co-payment",
+"copay",
+"copayment",
+"patient contribution",
+"user charge"
+],
+[
+"cycle",
+"fresh cycle",
+"ivf cycle",
+"started cycle",
+"stimulated cycle",
+"treatment cycle"
+],
+[
+"ambulatory surgery",
+"day case",
+"day surgery",
+"day-care discharge",
+"outpatient surgery",
+"same-day surgery"
+],
+[
+"case mix group",
+"diagnosis related group",
+"diagnosis-related group",
+"drg",
+"fallpauschale",
+"g-drg"
+],
+[
+"broker",
+"facilitator",
+"intermediary",
+"medical travel agency",
+"medical travel agent",
+"patient coordinator"
+],
+[
+"follicular unit excision",
+"follicular unit extraction",
+"fue",
+"fue hair transplant"
+],
+[
+"follicular unit",
+"fu",
+"graft",
+"hair graft"
+],
+[
+"consent",
+"consent to treatment",
+"informed consent",
+"valid consent"
+],
+[
+"bed days",
+"inpatient days",
+"length of stay",
+"los",
+"ward nights"
+],
+[
+"e-medical visa",
+"health visa",
+"medical attendant visa",
+"medical visa",
+"treatment visa"
+],
+[
+"direct payment",
+"oop",
+"out-of-pocket",
+"out-of-pocket expenditure",
+"self-pay"
+],
+[
+"all-inclusive package",
+"fixed-price package",
+"package",
+"package price",
+"surgery package"
+],
+[
+"pre-approval",
+"preauthorization",
+"precertification",
+"prior approval",
+"prior authorisation",
+"prior authorization"
+],
+[
+"air ambulance",
+"medevac",
+"medical evacuation",
+"repatriation",
+"repatriation of remains"
+],
+[
+"corrective surgery",
+"redo",
+"revision",
+"revision arthroplasty",
+"revision surgery"
+],
+[
+"fee schedule",
+"national tariff",
+"reimbursement rate",
+"schedule fee",
+"tariff"
+],
+[
+"art success rates",
+"cdc assisted reproductive technology results",
+"nass",
+"national art surveillance system"
+],
+[
+"rates.json",
+"the dated exchange rate table",
+"usd base rate table"
+],
+[
+"choose a fertility clinic",
+"fertility treatment: trends and figures",
+"hfea fertility treatment results",
+"hfea register"
+],
+[
+"gold seal list",
+"jci accredited organizations directory"
+],
+[
+"admin 0 – countries",
+"natural earth country outlines",
+"ne_110m_admin_0_countries"
+],
+[
+"osm facilities harvest",
+"overpass hub query"
+],
+[
+"gho",
+"gho odata api",
+"who global health observatory"
+],
+[
+"bed density",
+"hospital beds per 1,000 people",
+"sh.med.beds.zs"
+],
+[
+"doctors per 1,000",
+"physician density",
+"physicians per 1,000 people",
+"sh.med.phys.zs"
+],
+[
 "current health expenditure per person",
 "health spending per capita",
 "sh.xpd.chex.pc.cd"
+],
+[
+"oop share",
+"out-of-pocket share of health spending",
+"sh.xpd.oopc.ch.zs"
+],
+[
+"international arrivals",
+"international tourist arrivals",
+"st.int.arvl"
 ],
 [
 "medical travel",

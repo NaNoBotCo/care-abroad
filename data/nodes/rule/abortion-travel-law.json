@@ -19,7 +19,7 @@
   "what": "Where a termination may lawfully be performed, on what grounds and to what gestational limit, and whether the law reaches someone who does not live there. The rows below record the position for an adult traveller: a row is marked lawful-with-conditions where a condition binds an adult who has come from elsewhere — grounds rather than request, spousal consent, a mandatory wait — and residents-only where the statute itself excludes non-residents.",
   "story": "Two statutes in this table exclude a non-resident outright, and one of them is not the one usually named.\n\nSingapore's is written on the face of the Act. Section 3 of the Termination of Pregnancy Act 1974 confines treatment to citizens, to wives of citizens, to work-pass holders and their wives, or to a person who has been \"a resident in Singapore for a period of at least 4 months immediately preceding\" — with one exception, where the procedure is needed to save the woman's life.\n\nCzechia's is older and quieter. Section 10 of zákon č. 66/1986 Sb. bars the procedure for foreign women who are in the country only temporarily. The provision is unamended and in force. The WHO Global Abortion Policies Database, which is the best comparative source in this field, records other Czech restrictions and not this one; it was read in the statute directly.\n\nEverywhere else the friction is procedural, and procedure is what defeats a traveller. Italy invites a seven-day pause. Germany requires counselling and then three days. Belgium, six. Hungary, Portugal and Ireland, three. Singapore and Malaysia, two. Thailand requires counselling on alternatives between 12 and 20 weeks. *Inference —* a waiting period is a residence requirement for anyone who has to buy two flights, and none of these statutes were written with that in mind.\n\nThe consent rules do the same work by another route. Japan's Maternal Health Act still requires the spouse's consent, waived only where the spouse is unknown, unable to express an intention, or dead. Taiwan and Türkiye require it on named grounds. Indonesia requires the husband's permission except for victims of rape. Korea's criminal provisions lapsed after the 2019 Constitutional Court decision and were never replaced, leaving a Mother and Child Health Act that was never amended and still carries spousal consent.\n\nThe two long-standing destinations in this table admit non-residents by the plain text of their statutes. The Netherlands' Act has no residence bar and no week limit on its face; the word for residence appears only in the statistical reporting article. Great Britain's Abortion Act 1967 has no residence or nationality requirement anywhere in section 1 — its constraints are the grounds, the two doctors' good-faith opinion and the approved place.",
   "how": "Reading a row: a gestational limit is counted from a date the statute names, and states do not all count from the same date — last menstrual period in Switzerland, conception in Belgium. A ground-based regime is not a limit regime, and a law that permits a termination does not oblige any particular doctor to perform one; conscientious objection is separately provided for in most of these systems and is not recorded here.\n\nThis table does not record cost, availability, distance to the nearest provider, or whether the procedure is funded. Ireland's row is the clearest case of the difference: lawful for a non-resident, free only for the ordinarily resident.",
-  "today": "As of 17 September 2026 most rows below are read in the WHO Global Abortion Policies Database's country records, which embed the survey data and the retrieved statute text, and several were additionally read against the national statute database — the URL on each row says which. The WHO database is not uniformly current: its last-updated dates run from 2017 for Morocco, Jordan and the United Arab Emirates to 2026 for Kenya, Mexico and Indonesia."
+  "today": "As of 17 September 2026 most rows below are read in the WHO Global Abortion Policies Database's country records, which embed the survey data and the retrieved statute text, and several were additionally read against the national statute database — the URL on each row says which. The WHO database is not uniformly current: its last-updated dates run from 2017 for Morocco, Jordan and the United Arab Emirates to 2026 for Kenya, Mexico and Indonesia. Italy's seven-day pause and Malta's near-total prohibition are named in the narrative above and do not carry rows of their own."
  },
  "legality": [
   {
@@ -98,14 +98,6 @@
    "conditions": "Twelve weeks from conception, and not until six days after the first consultation."
   },
   {
-   "country": "IT",
-   "status": "lawful-with-conditions",
-   "as_of": "2026-09-17",
-   "source": "s:it-legge-194-1978",
-   "instrument": "Legge 22 maggio 1978, n. 194, articoli 4 e 5",
-   "conditions": "The first 90 days; article 5 requires the doctor to invite the woman to pause for seven days."
-  },
-  {
    "country": "PT",
    "status": "lawful-with-conditions",
    "as_of": "2026-09-17",
@@ -130,14 +122,6 @@
    "instrument": "Nüfus Planlaması Hakkında Kanun (Kanun No. 2827), Madde 5 ve Madde 6",
    "conditions": "Ten weeks on request, and the consent of the husband is required for a married woman.",
    "url": "https://abortion-policies.srhr.org/country/turkey"
-  },
-  {
-   "country": "MT",
-   "status": "unlawful",
-   "as_of": "2026-09-17",
-   "source": "s:mt-criminal-code",
-   "instrument": "Criminal Code (Chapter 9), articles 241 and 243B",
-   "conditions": "Criminal in all cases but for the narrow exception added by Act XXII of 2023: before viability, where the woman's life is at immediate risk or her health in grave jeopardy."
   },
   {
    "country": "CH",
@@ -252,14 +236,6 @@
    "source": "s:who-gapd",
    "url": "https://abortion-policies.srhr.org/country/australia",
    "note": "State and territory law, not federal. The WHO database codes every field as varying by jurisdiction and lists no state act; no state act was read on this pass."
-  },
-  {
-   "country": "AE",
-   "status": "no-data",
-   "as_of": "2026-09-17",
-   "source": "s:who-gapd",
-   "url": "https://abortion-policies.srhr.org/country/united-arab-emirates",
-   "note": "The WHO record was last updated 7 May 2017 and predates Federal Decree-Law No. 31 of 2021, which this project did not read. The older position it records is near-total prohibition with spousal consent."
   }
  ],
  "kin": [
@@ -320,11 +296,9 @@
   "s:es-lo-2-2010",
   "s:fr-csp-l2212-1",
   "s:be-abortion-law-2018",
-  "s:it-legge-194-1978",
   "s:pt-codigo-penal-142",
   "s:pl-family-planning-act-1993",
   "s:tr-law-2827",
-  "s:mt-criminal-code",
   "s:ch-penal-118-120",
   "s:us-dobbs-2022",
   "s:za-choice-act-1996",

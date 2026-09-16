@@ -153,6 +153,17 @@ def price_rows(recs: list[dict], rates: dict | None) -> dict:
                 "source": p["source"], "url": p.get("url", ""), "note": p.get("note", ""),
                 "tier": p.get("tier", "cited"),
             })
+    # the same published number carried on two records counts twice on every chart, so
+    # say so rather than let the total drift
+    seen: dict = {}
+    for r in rows:
+        k = (r["procedure"], r["country"], r["amount"], r["amount_high"], r["currency"],
+             r["source"], r["as_of"])
+        seen.setdefault(k, []).append(r["on"])
+    for k, on in seen.items():
+        if len(on) > 1:
+            print(f"warn  the same price ({k[2]:,.0f} {k[4]} for {k[0]}, {k[5]}) sits on "
+                  f"{len(on)} records: {', '.join(on)}")
     rows.sort(key=lambda x: (x["procedure"] or "zz", x["usd"] if x["usd"] is not None else 9e12))
     return {"built": time.strftime("%Y-%m-%d"), "count": len(rows),
             "rate_date": rate_date, "rate_source": (rates or {}).get("url", ""),

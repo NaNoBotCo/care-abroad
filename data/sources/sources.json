@@ -29,6 +29,24 @@
    "note": "wholly owned subsidiary of ACHS, EQuIP standards, more than 25 countries and more than 1,600 member organisations"
   },
   {
+   "id": "s:acibadem-checkup-packages",
+   "kind": "web",
+   "title": "Check Up Paketleri ve Fiyatları 2026",
+   "publisher": "Acıbadem Sağlık Grubu",
+   "url": "https://www.acibadem.com.tr/check-up-paketleri/",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The page is titled check-up packages AND PRICES and lists the contents of each programme — examinations, radiology, laboratory and cardiology test counts — with a Fiyat Sor (ask the price) button in place of every figure. No amount is printed anywhere on it."
+  },
+  {
+   "id": "s:acibadem-int-about",
+   "kind": "web",
+   "title": "About us — Acıbadem Healthcare Group, international site",
+   "publisher": "Acıbadem Sağlık Grubu",
+   "url": "https://acibademinternational.com/about-us/",
+   "accessed": "2026-09-17",
+   "note": "the group's own figures for international patients: 45+ hospitals and clinics, 7 JCI-accredited hospitals, 3,300+ specialist physicians, patients from 90+ countries, 55 international patient offices"
+  },
+  {
    "id": "s:adams-dental-tourism-2017",
    "kind": "web",
    "title": "Dental tourism industry exploits workers in Mexico",
@@ -55,6 +73,15 @@
    "note": "around 71,000 foreign patients treated in German hospitals in 2008, led by Dutch, French and Belgian patients with growth from Russia, the UAE and China; in 85% of the hospitals surveyed foreign patients were under 1% of revenue. The figure is old and no newer national count was read for this record."
   },
   {
+   "id": "s:afp-horton-ndm1-2011",
+   "kind": "article",
+   "title": "'New Delhi' superbug unfairly named, admits editor",
+   "publisher": "Agence France-Presse, via Medical Xpress, January 2011",
+   "url": "https://medicalxpress.com/news/2011-01-delhi-superbug-unfairly-editor.html",
+   "accessed": "2026-09-17",
+   "note": "Richard Horton in Delhi: 'It was an error of judgement. We didn't think of its implications for which I sincerely apologise'; he said the name had unnecessarily stigmatised a single country and city, while standing by the study"
+  },
+  {
    "id": "s:afp-tunisia-2024",
    "kind": "news",
    "title": "Dans une Tunisie en crise, le tourisme médical est en pleine santé",
@@ -79,6 +106,33 @@
    "publisher": "Journal of Plastic, Reconstructive and Aesthetic Surgery 2024;99:462-467 (Ahari D, Zaccariah ZR, Preston M, Highton L), Wythenshawe Hospital",
    "url": "https://pubmed.ncbi.nlm.nih.gov/39476527/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:ahd-about",
+   "kind": "web",
+   "title": "Who We Are — American Hospital Dubai",
+   "publisher": "American Hospital Dubai",
+   "url": "https://www.ahdubai.com/about-us",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. Established 1996, part of the Mohamed & Obaid Al Mulla Group; 254 beds, acute general medical and surgical, more than 40 specialties, all physicians American board certified or equivalent; states it is the first hospital in the Middle East awarded the JCI and that its laboratory was the first in the region's private sector accredited by the College of American Pathologists; inaugural member of the Mayo Clinic Care Network; seven satellite clinics. The page footer carries the licence number MOH#Z8IXYQHM-041025."
+  },
+  {
+   "id": "s:ahd-normal-delivery",
+   "kind": "web",
+   "title": "Normal Delivery Package",
+   "publisher": "American Hospital Dubai",
+   "url": "https://www.ahdubai.com/health-packages/maternity-packages/normal-delivery-package",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The package page prints a full inclusion and exclusion list with no headline figure, and prices the exclusions instead: epidural anaesthesia Dhs 3,770, twin surcharge Dhs 2,050, routine medications capped at Dhs 450 and consumables at Dhs 1,500, baby vaccines about Dhs 300, a relative staying overnight Dhs 193 a day. It states the self-pay patient pays the entire package price in advance at sign-up, that a switch from normal delivery to caesarean is charged at the caesarean price, and that NICU, resuscitation and circumcision fall outside."
+  },
+  {
+   "id": "s:aljazeera-ndm1-india-2010",
+   "kind": "article",
+   "title": "India rejects superbug claims",
+   "publisher": "Al Jazeera, 13 August 2010",
+   "url": "https://www.aljazeera.com/news/2010/8/13/india-rejects-superbug-claims",
+   "accessed": "2026-09-17",
+   "note": "carries the Indian health ministry statement refuting the naming of the enzyme and the safety claim, and V M Katoch of the Indian Council of Medical Research"
   },
   {
    "id": "s:alkaelani-aesthetic-review-2023",
@@ -122,6 +176,24 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:amc-introduction",
+   "kind": "web",
+   "title": "Introduction — About Us",
+   "publisher": "Asan Medical Center, Seoul",
+   "url": "https://eng.amc.seoul.kr/gb/lang/about/contents/introduction.do",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own counters: 2,446 beds, 11,377 average daily outpatients, 654,536 inpatients a year, 47,460 highly sophisticated surgeries a year; established June 1989; 88 Olympic-ro 43-gil, Songpa-gu, Seoul 05505. It also carries the Newsweek placing — 22nd in the world and first in Korea for seven consecutive years — and KMAC's most-respected-hospital run."
+  },
+  {
+   "id": "s:anadolu-jci",
+   "kind": "web",
+   "title": "JCI — Joint Commission International",
+   "publisher": "Anadolu Sağlık Merkezi",
+   "url": "https://www.anadolumedicalcenter.com/quality-certificate/jci-joint-commission-international",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own statement: JCI first granted 2007, seventh accreditation earned, three-year re-survey cycle. The same page names Planetree Gold, the Association of European Cancer Institutes, ESMO and the Türkiye international health tourism authorisation certificate."
+  },
+  {
    "id": "s:antara-indonesia-outbound-2022",
    "kind": "web",
    "title": "One million Indonesians annually seek medical treatment abroad: gov't",
@@ -157,6 +229,15 @@
    "note": "names Dr Prathap C. Reddy as Founder, Chairman and states that he established Apollo Hospitals in 1983; the same page carries the group's own counts of hospitals, beds, doctors and accreditations"
   },
   {
+   "id": "s:ar-decreto-62-2025",
+   "kind": "gov",
+   "title": "Se limitan los tratamientos de hormonización y las intervenciones quirúrgicas en menores",
+   "publisher": "Government of Argentina (argentina.gob.ar)",
+   "url": "https://www.argentina.gob.ar/noticias/se-limitan-los-tratamientos-de-hormonizacion-y-las-intervenciones-quirurgicas-en-menores-0",
+   "accessed": "2026-09-17",
+   "note": "the government's own announcement of Decreto 62/2025, published 6 February 2025, amending article 11 of Ley 26.743; adults unaffected. A federal appeal court in Paraná is reported to have held the decree unconstitutional; this project has not read that judgment."
+  },
+  {
    "id": "s:artplastica-cennik",
    "kind": "web",
    "title": "Cennik zabiegow i operacji plastycznych",
@@ -164,6 +245,15 @@
    "url": "https://www.artplastica.pl/cennik-zabiegi-operacje-plastyczne/",
    "accessed": "2026-09-16",
    "note": "clinic's own price list in zloty; the page states the prices are indicative and may change at consultation, and lists hospitalisation at 800 PLN a day separately"
+  },
+  {
+   "id": "s:asa-cap-code-12",
+   "kind": "org",
+   "title": "CAP Code section 12 — medicines, medical devices, health-related products and beauty products",
+   "publisher": "Committees of Advertising Practice / Advertising Standards Authority, United Kingdom",
+   "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html",
+   "accessed": "2026-09-17",
+   "note": "rule 12.1 objective claims must be backed by evidence, if relevant trials on people; 12.2 marketers must not discourage essential treatment for conditions for which medical supervision should be sought; 12.12 prescription-only medicines or treatments may not be advertised to the public"
   },
   {
    "id": "s:aserf-gluteal-fat-grafting-2017",
@@ -275,6 +365,15 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:bangkokhospital-heart-packages",
+   "kind": "web",
+   "title": "Coronary artery angiography / percutaneous coronary intervention and Cardiovascular Surgery — package list",
+   "publisher": "Bangkok Heart Hospital, Bangkok Hospital",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026, prices stated valid until 31 October 2026: CABG Level 1 1,173,000 THB and Level 2 1,437,500 THB, 8 nights each; MICS CABG 1,500,000 THB, 7 nights; valve replacement or repair Level 1 966,000 THB and Level 2 1,196,000 THB, 8 nights; totally 3D endoscopic valve replacement or repair 1,400,000 THB, 7 nights; CAG and PCI transfemoral 299,000 THB and transradial 322,000 THB, 2 nights; CAG alone 62,100 to 69,000 THB. Exclusions name pre-assessment, other specialists' consultations, 'special device used during procedure', extra ICU or ward nights and home medications."
+  },
+  {
    "id": "s:bangkokhospital-knee-arthroscopy",
    "kind": "web",
    "title": "Arthroscopic Knee with Meniscus Repair (1 side, exclude implant) — package page",
@@ -301,6 +400,16 @@
    "note": "rates stated for 15 April 2026 to 30 November 2026"
   },
   {
+   "id": "s:bbc-latchman-inquest-2026",
+   "kind": "article",
+   "title": "Anaesthetic linked to hair transplant man's death",
+   "author": "Brian Farmer",
+   "publisher": "BBC News",
+   "year": 2026,
+   "url": "https://www.bbc.co.uk/news/articles/cx235r481dwo",
+   "accessed": "2026-09-17"
+  },
+  {
    "id": "s:bct-nexcar19",
    "kind": "paper",
    "title": "A Discount on the Cost of Cancer: India's Homegrown CAR-T Cell Therapy",
@@ -308,6 +417,24 @@
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11620990/",
    "accessed": "2026-09-16",
    "note": "gives NexCAR19's expected cost rather than a published list price, and says so"
+  },
+  {
+   "id": "s:be-abortion-law-2018",
+   "kind": "statute",
+   "title": "Loi du 15 octobre 2018 relative à l'interruption volontaire de grossesse, article 2",
+   "publisher": "Service public fédéral Justice, Belgium (ejustice)",
+   "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2018101503&table_name=loi",
+   "accessed": "2026-09-17",
+   "note": "12 weeks from conception, and the six-day reflection period between the first consultation and the procedure"
+  },
+  {
+   "id": "s:be-euthanasia-law-2002",
+   "kind": "statute",
+   "title": "Loi du 28 mai 2002 relative à l'euthanasie, article 3",
+   "publisher": "Service public fédéral Justice, Belgium (ejustice)",
+   "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2002052837&table_name=loi",
+   "accessed": "2026-09-17",
+   "note": "article 3 sets the conditions — adult or emancipated minor, capable and conscious, a voluntary, considered and repeated request, a hopeless medical situation and constant unbearable suffering. The article carries no nationality or residence condition."
   },
   {
    "id": "s:berger-2016-global-distribution",
@@ -354,6 +481,15 @@
    "note": "gives dated US acquisition costs for axicabtagene ciloleucel and lisocabtagene maraleucel for 2022 and 2023"
   },
   {
+   "id": "s:bmg-fallpauschalen",
+   "kind": "gov",
+   "title": "Fallpauschalen",
+   "publisher": "Bundesministerium für Gesundheit",
+   "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/f/fallpauschalen",
+   "accessed": "2026-09-17",
+   "note": "DRG billing voluntary for hospitals in 2003 and compulsory for somatic hospitals from 2004; convergence 2005-2009; a state-uniform base rate from 1 January 2010"
+  },
+  {
    "id": "s:boddy-discharge-communication",
    "kind": "paper",
    "title": "One template does not fit all: where next to improve hospital discharge communication to primary care?",
@@ -378,6 +514,15 @@
    "publisher": "British Pregnancy Advisory Service",
    "url": "https://www.bpas.org/abortion-care/considering-abortion/costs-and-pricing/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:bph-holiday-dialysis",
+   "kind": "web",
+   "title": "Holiday Dialysis Center — treatments and services",
+   "publisher": "Bangkok Hospital Phuket",
+   "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/phuket-holiday-dialysis-center-bpk/treatments-and-services",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own page: a conventional rate of 7,000 THB a session of four hours and an online haemodiafiltration rate of 8,000 THB, both stated to exclude medications. No validity date."
   },
   {
    "id": "s:bts-border-crossing",
@@ -416,6 +561,33 @@
    "note": "price stated valid until 31 December 2026, inclusive of the doctor's fee, per person, in Thai currency"
   },
   {
+   "id": "s:bumrungrad-eye-packages",
+   "kind": "web",
+   "title": "Eye Center — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/eye-center",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: ReLEx SMILE both eyes 102,000 THB; ICL single eye 129,000 THB; Toric ICL single eye 161,000 THB; phacoemulsification single eye with monofocal lens, Set 1, 85,400 THB; eye screening 4,100 THB"
+  },
+  {
+   "id": "s:bumrungrad-gyne03",
+   "kind": "web",
+   "title": "Total Laparoscopic Hysterectomy — package GYNE03",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/total-laparoscopic-hysterectomy",
+   "accessed": "2026-09-17",
+   "note": "265,000 THB against 285,000 under a Gynecological Awareness Month 2026 offer, stated valid from 12 August to 31 October 2026; three hours of theatre, two nights in a single room; exclusions name 'Special Medical supplies & Special Equipment used such as Ligasure Generator, Thunderbeat'"
+  },
+  {
+   "id": "s:bumrungrad-icl-single-eye",
+   "kind": "web",
+   "title": "ICL Single Eye — package IPDEYE42",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/icl-single-eye",
+   "accessed": "2026-09-17",
+   "note": "129,000 THB per eye, valid until 31 December 2026; out-patient only, overnight stays charged extra; includes the ICL device of the types specified"
+  },
+  {
    "id": "s:bumrungrad-joint-packages",
    "kind": "web",
    "title": "Sports Medicine & Joint Center — package list",
@@ -451,6 +623,33 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:bumrungrad-phaco-monofocal",
+   "kind": "web",
+   "title": "Phacoemulsification Single Eye with Monofocal Lens for Phacoemulsification Single Eye Set 1 — package IPDEYE40+IPDEYE4005",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/monofocal-lens-for-phacoemulsification-single-eye-set-1",
+   "accessed": "2026-09-17",
+   "note": "85,400 THB, prices stated valid until 31 December 2026. Inclusions name the monofocal lens, 'only the types specified in the package'; exclusions name physician's fees, consultations, pre-surgical screening, medication, supplies and other tests."
+  },
+  {
+   "id": "s:bumrungrad-relex-smile",
+   "kind": "web",
+   "title": "Vision correction with ReLEx SMILE for both eyes package — IPDEYE34",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/relex-smile",
+   "accessed": "2026-09-17",
+   "note": "102,000 THB for both eyes; the page states the package does not include the doctor's fee for the initial consultation or the examinations that decide suitability"
+  },
+  {
+   "id": "s:bumrungrad-robotic05",
+   "kind": "web",
+   "title": "Robotic-assisted radical prostatectomy (GA-TIVA) — package ROBOTIC05",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/robotic-assisted-radical-prostatectomy-ga-tiva",
+   "accessed": "2026-09-17",
+   "note": "1,014,000 THB, valid until 31 December 2026; five hours of theatre, four nights in a single room, biopsy of three specimens; exclusions name daily round physician fees, stays beyond four days, ICU, laboratory and imaging before and after"
+  },
+  {
    "id": "s:bumrungrad-spine-packages",
    "kind": "web",
    "title": "Spine Surgery — Spine Institute package list",
@@ -460,6 +659,33 @@
    "note": "endoscopic discectomy, ACDF, cervical disc replacement and TLIF prices"
   },
   {
+   "id": "s:bumrungrad-sur04",
+   "kind": "web",
+   "title": "Laparoscopic Cholecystectomy — package SUR04",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/laparoscopic-cholecystectomy",
+   "accessed": "2026-09-17",
+   "note": "240,930 THB against a struck-through 267,700 THB under a 'Special Campaign Discount Common Procedures' label; prices stated valid until 31 December 2026; 1.5 hours of theatre and one night in a single room"
+  },
+  {
+   "id": "s:bumrungrad-sur05",
+   "kind": "web",
+   "title": "Laparoscopic Inguinal Hernia Repair (Unilat) 1 Side — package SUR05",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/laparoscopic-inguinal-hernia-repair-1-side",
+   "accessed": "2026-09-17",
+   "note": "243,500 THB, valid until 31 December 2026; two hours of theatre and one night; exclusions name stays beyond one day, ICU, consultations, blood transfusion, pre- and post-operative tests and take-home medication"
+  },
+  {
+   "id": "s:bumrungrad-surgical-packages",
+   "kind": "web",
+   "title": "Surgical Clinic — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/surgical-clinics",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: laparoscopic cholecystectomy 240,930 THB against 267,700; robotic-assisted cholecystectomy 349,500; open inguinal hernia repair one side 199,600 and both sides 304,700; laparoscopic inguinal hernia repair one side 243,500 and both sides 382,000; robotic inguinal hernia repair one side 350,000 and both 430,000; robotic umbilical hernia repair 420,000"
+  },
+  {
    "id": "s:bumrungrad-tlif01",
    "kind": "web",
    "title": "Transforaminal Lumbar Interbody Fusion (TLIF) Surgery — package TLIF01",
@@ -467,6 +693,15 @@
    "url": "https://www.bumrungrad.com/en/packages/transforaminal-lumbar-interbody-fusion",
    "accessed": "2026-09-16",
    "note": "576,300 THB, two nights, implant and artificial bone graft excluded; valid until 31 December 2026"
+  },
+  {
+   "id": "s:bumrungrad-urology-packages",
+   "kind": "web",
+   "title": "Urology Center — package list",
+   "publisher": "Bumrungrad International Hospital",
+   "url": "https://www.bumrungrad.com/en/packages/packages-center/urology-center",
+   "accessed": "2026-09-17",
+   "note": "read with the browser on 17 September 2026: robotic-assisted radical prostatectomy 1,014,000 THB; transurethral resection of the prostate (TURP) 216,000 THB under either general anaesthesia or spinal block, three nights; Urolift 330,000; ReZum water vapour therapy 261,300; basic prostate check 7,500"
   },
   {
    "id": "s:ca-ahra-2004",
@@ -483,6 +718,24 @@
    "publisher": "Justice Laws Website, Government of Canada",
    "url": "https://laws-lois.justice.gc.ca/eng/acts/C-46/section-241.2.html",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:ca-fam-7962",
+   "kind": "statute",
+   "title": "California Family Code § 7962 — assisted reproduction agreements for gestational carriers",
+   "publisher": "California Legislative Information",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7962",
+   "accessed": "2026-09-17",
+   "note": "requires separate independent counsel for surrogate and intended parents, notarisation, and disclosure of how medical expenses are covered. The section carries no residency requirement and no cap on compensation."
+  },
+  {
+   "id": "s:ca-morgentaler-1988",
+   "kind": "ruling",
+   "title": "R. v. Morgentaler, [1988] 1 S.C.R. 30, with the Canada Health Act",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Canada",
+   "url": "https://abortion-policies.srhr.org/country/canada",
+   "accessed": "2026-09-17",
+   "note": "no criminal abortion law and no gestational limit in federal law; provincial insurance coverage varies, which is a funding question and not a legal bar"
   },
   {
    "id": "s:caa-surgical-conditions",
@@ -590,6 +843,24 @@
    "note": "clinic-level and national rows; the national rows carry locationabbr NA. Queried through the Socrata endpoint https://data.cdc.gov/resource/9tjt-seye.json"
   },
   {
+   "id": "s:cdc-art-about",
+   "kind": "org",
+   "title": "About assisted reproductive technology",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/about/index.html",
+   "accessed": "2026-09-17",
+   "note": "ART covers treatments in which eggs or embryos are handled; 'ART does NOT include treatments in which only sperm are handled (such as intrauterine insemination)'"
+  },
+  {
+   "id": "s:cdc-art-interpret",
+   "kind": "org",
+   "title": "How to interpret ART success rates",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/success-rates/interpret.html",
+   "accessed": "2026-09-17",
+   "note": "'Comparison of success rates across clinics may not be meaningful' and 'Clinic success rates do not reflect any one patient's chance of success', with the reasons given"
+  },
+  {
    "id": "s:cdc-art-surveillance",
    "kind": "org",
    "title": "ART Surveillance — national totals",
@@ -632,6 +903,15 @@
    "note": "Gaines J, Poy J, Musser KA, et al."
   },
   {
+   "id": "s:cdc-nass",
+   "kind": "org",
+   "title": "National ART Surveillance System (NASS)",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/php/nass/index.html",
+   "accessed": "2026-09-17",
+   "note": "'The Fertility Clinic Success Rate and Certification Act of 1992 mandates that clinics performing ART annually provide data to CDC'; 'A small number of clinics do not report data to CDC and are listed as nonreporters'; NASS estimated to contain about 98% of all US ART cycles"
+  },
+  {
    "id": "s:cdc-yellowbook-2026-medical-tourism",
    "kind": "org",
    "title": "Medical Tourism — CDC Yellow Book 2026, chapter by Rhett J. Stoney and Laura Leidel, page dated 23 April 2025",
@@ -659,6 +939,15 @@
    "note": "carries the USD 25,000 to over USD 250,000 medevac range, the Medicare and Medigap limits, and the finding that insurers fully paid two-thirds of travel health claims"
   },
   {
+   "id": "s:cellmedicine-stem-cell-cost",
+   "kind": "web",
+   "title": "How Much Does Stem Cell Therapy Cost?",
+   "publisher": "Stem Cell Institute, Panama City, Panama",
+   "url": "https://www.cellmedicine.com/how-much-does-stem-cell-therapy-cost/",
+   "accessed": "2026-09-17",
+   "note": "the clinic's own page: 15,825 USD for a child and 26,900 USD for an adult, stated to include airport customs clearance, ground transport and a hotel stay. The page names the conditions marketed and makes no statement about regulatory approval."
+  },
+  {
    "id": "s:cfr-31-515-560",
    "kind": "regulation",
    "title": "31 CFR § 515.560 — Travel-related transactions to, from, and within Cuba by persons subject to U.S. jurisdiction",
@@ -667,12 +956,99 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:cfr-409-10",
+   "kind": "statute",
+   "title": "42 CFR § 409.10 — Included services (inpatient hospital services)",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/409.10",
+   "accessed": "2026-09-17",
+   "note": "paragraph (b)(3) excludes physician services paid on a fee schedule basis"
+  },
+  {
+   "id": "s:cfr-412-2",
+   "kind": "statute",
+   "title": "42 CFR § 412.2 — Basis of payment",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/412.2",
+   "accessed": "2026-09-17",
+   "note": "paragraph (e) names the costs excluded from the prospective payment amounts and paid on a reasonable cost basis"
+  },
+  {
+   "id": "s:cfr-412-4",
+   "kind": "statute",
+   "title": "42 CFR § 412.4 — Discharges and transfers",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/412.4",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:cfr-424-122",
+   "kind": "statute",
+   "title": "42 CFR § 424.122 — emergency inpatient hospital services furnished in a foreign country",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.122",
+   "accessed": "2026-09-17",
+   "note": "the eCFR's own page redirected to an unblock gateway on this date; the CFR text was read at the Legal Information Institute"
+  },
+  {
+   "id": "s:cfr-424-124",
+   "kind": "statute",
+   "title": "42 CFR § 424.124 — foreign physician and ambulance services",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.124",
+   "accessed": "2026-09-17"
+  },
+  {
    "id": "s:ch-criminal-code",
    "kind": "statute",
    "title": "Swiss Criminal Code (SR 311.0), Article 115 — Inciting and assisting suicide (English translation)",
    "publisher": "Fedlex, the Swiss federal law portal",
    "url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20250101/en/html/fedlex-data-admin-ch-eli-cc-54-757_781_799-20250101-en-html.html",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:ch-laingbuisson-international",
+   "kind": "dataset",
+   "title": "LAINGBUISSON INTERNATIONAL LIMITED, company 04858023 — incorporation, previous names, dissolution",
+   "publisher": "Companies House (United Kingdom)",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/04858023",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:ch-penal-118-120",
+   "kind": "statute",
+   "title": "Code pénal suisse, articles 118, 119 et 120",
+   "publisher": "Fedlex, the Swiss federal law portal",
+   "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/fr",
+   "accessed": "2026-09-17",
+   "note": "12 weeks from the last menstrual period, on the written request of a woman invoking distress, after an in-depth consultation"
+  },
+  {
+   "id": "s:chavez-tijuana-2021",
+   "kind": "paper",
+   "title": "Online marketing practices of regenerative medicine clinics in US-Mexico border region: a web surveillance study",
+   "publisher": "Stem Cell Research & Therapy 2021;12(1):189 (Chavez J, Shah NA, Ruoss S, Cuomo RE, Ward SR, Mackey TK); doi 10.1186/s13287-021-02254-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33736697/",
+   "accessed": "2026-09-17",
+   "note": "searches run March to April 2019 in English and Spanish; 110 websites in Tijuana corresponding to 76 confirmed locations; 13 claimed licensing and 1 matched available licensing information"
+  },
+  {
+   "id": "s:chettawut-srs-faq",
+   "kind": "web",
+   "title": "Frequently asked questions of sex reassignment surgery",
+   "publisher": "Chettawut Plastic Surgery Center, Bangkok",
+   "url": "https://www.chet-plasticsurgery.com/frequent-asked-questions-of-sex-reassignment-surgery/",
+   "accessed": "2026-09-17",
+   "note": "publishes no package price; the only figure on the page is an extra charge of 32,000 THB where additional groin skin grafting is needed. States the dilation schedule: daily for two years to maintain depth, then two to three times a week, for life."
+  },
+  {
+   "id": "s:chs-charite-int",
+   "kind": "web",
+   "title": "Charité International Patients — Charité Healthcare Services",
+   "publisher": "Charité Healthcare Services GmbH, Berlin",
+   "url": "https://chs.charite.de/en/charite_international_patients",
+   "accessed": "2026-09-17",
+   "note": "the wholly owned subsidiary that handles administration for patients living outside Germany. The page states what the office does and gives its telephone hours, Monday to Friday 10:00 to 14:00. It publishes no price, no tariff and no deposit schedule."
   },
   {
    "id": "s:cihi-joint-replacement-waits",
@@ -689,6 +1065,15 @@
    "publisher": "Canadian Institute for Health Information, published 12 June 2025",
    "url": "https://www.cihi.ca/en/wait-times-for-priority-procedures-in-canada-2025",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cima-accreditations",
+   "kind": "web",
+   "title": "Accreditations — Hospital CIMA San José",
+   "publisher": "Hospital CIMA San José, Escazú",
+   "url": "https://hospitalcima.com/en/information-center/accreditations/",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026 after WebFetch failed on the site's certificate chain. States a sixth consecutive JCI Gold Seal against more than 1,200 standards, with no year for the first award, and ANCC Pathway to Excellence certification described as the only one held by a private hospital in Costa Rica or Central America. The page's payments section names the departments that process payment and prints no figure."
   },
   {
    "id": "s:circle-surrogacy-cost",
@@ -725,12 +1110,56 @@
    "note": "names the Medically Assisted Reproduction Law 2015, 69(I)/2015, and its amendments 194(I)/2015, 92(I)/2016, 113(I)/2018 and 166(I)/2023"
   },
   {
+   "id": "s:cms-acute-inpatient-pps",
+   "kind": "gov",
+   "title": "Acute Inpatient PPS",
+   "publisher": "US Centers for Medicare & Medicaid Services",
+   "url": "https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:cms-bpci",
+   "kind": "gov",
+   "title": "Bundled Payments for Care Improvement (BPCI) Initiative",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/bundled-payments",
+   "accessed": "2026-09-17",
+   "note": "Model 1 awardees from April 2013, Models 2, 3 and 4 from October 2013; carries each model's episode definition"
+  },
+  {
+   "id": "s:cms-bpci-advanced",
+   "kind": "gov",
+   "title": "BPCI Advanced",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/bpci-advanced",
+   "accessed": "2026-09-17",
+   "note": "first cohort from 1 October 2018; episode is the anchor stay or procedure plus 90 days"
+  },
+  {
+   "id": "s:cms-cjr",
+   "kind": "gov",
+   "title": "Comprehensive Care for Joint Replacement Model",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/cjr",
+   "accessed": "2026-09-17",
+   "note": "performance period 1 April 2016 to 31 December 2024; 90-day episode"
+  },
+  {
    "id": "s:cms-esrd-pps-2026",
    "kind": "org",
    "title": "Calendar Year 2026 End-Stage Renal Disease Prospective Payment System Final Rule (CMS-1830-F)",
    "publisher": "US Centers for Medicare and Medicaid Services",
    "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2026-end-stage-renal-disease-esrd-prospective-payment-system-final-rule",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:cms-team-model",
+   "kind": "gov",
+   "title": "Transforming Episode Accountability Model (TEAM)",
+   "publisher": "CMS Innovation Center",
+   "url": "https://www.cms.gov/priorities/innovation/innovation-models/team-model",
+   "accessed": "2026-09-17",
+   "note": "mandatory for selected hospitals, 1 January 2026 to 31 December 2030, five surgical categories, 30-day episode"
   },
   {
    "id": "s:cny-ivf-cost",
@@ -784,6 +1213,15 @@
    "note": "package prices read off the clinic's own page on 16 September 2026: FUE Sapphire from EUR 2,550 up to 4,000 grafts (+EUR 900 for a megasession up to 6,000), Micro Sapphire DHI from EUR 3,290 (+EUR 700), VIP DHI Sapphire with Dr Acar operating from EUR 8,000 (+EUR 2,000). The page states the package covers the procedure, hotel, airport and hotel transfers and aftercare products, and excludes flights, travel insurance, extra nights and personal expenses; it also tells readers that prices below EUR 1,500 are a warning sign."
   },
   {
+   "id": "s:covidsurg-bjs-2020",
+   "kind": "paper",
+   "title": "Elective surgery cancellations due to the COVID-19 pandemic: global predictive modelling to inform surgical recovery plans",
+   "publisher": "British Journal of Surgery 2020;107(11):1440-1449 (COVIDSurg Collaborative), doi:10.1002/bjs.11746",
+   "url": "https://academic.oup.com/bjs/article/107/11/1440/6139510",
+   "accessed": "2026-09-17",
+   "note": "a projection, not a count: 28,404,603 operations cancelled or postponed over 12 peak weeks, 2,367,050 a week, a 72.3% cancellation rate, 81.7% of benign-condition operations, 37.7% of cancer operations, 25.4% of elective caesarean sections; built from a global expert response study fed through a model"
+  },
+  {
    "id": "s:crooks-barbados-lawyers-2015",
    "kind": "paper",
    "title": "Inbound medical tourism to Barbados: a qualitative examination of local lawyers' prospective legal and regulatory concerns",
@@ -817,6 +1255,15 @@
    "url": "https://doi.org/10.7759/cureus.70683",
    "accessed": "2026-09-16",
    "note": "Jayakumar D, Bansal A, Albano JE, Mirhan JLG. Open access, CC BY 4.0; full text at Europe PMC, PMC11530259"
+  },
+  {
+   "id": "s:cz-act-373-2011",
+   "kind": "statute",
+   "title": "Zákon č. 373/2011 Sb., o specifických zdravotních službách — §§ 6, 10, 21–23",
+   "publisher": "Zákony pro lidi (AION CS), consolidated Czech statute text",
+   "url": "https://www.zakonyprolidi.cz/cs/2011-373",
+   "accessed": "2026-09-17",
+   "note": "§ 10(1) obliges the provider to preserve mutual anonymity between an anonymous donor and the infertile couple and between donor and child. § 6(1) requires the written application of a woman and a man who undergo the service together. §§ 21–23: surgical sex change at 18 or over, on written application and the unanimous positive opinion of a Ministry of Health expert commission, which must act within three months; the provisions contemplate an extract from medical records kept in another state, with a certified translation."
   },
   {
    "id": "s:cz-act-66-1986",
@@ -865,6 +1312,15 @@
    "publisher": "Bundesministerium der Justiz, gesetze-im-internet.de",
    "url": "https://www.gesetze-im-internet.de/tpg/__17.html",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:de-tpg-8",
+   "kind": "statute",
+   "title": "Transplantationsgesetz § 8 — Entnahme von Organen und Geweben bei lebenden Spendern",
+   "publisher": "Bundesministerium der Justiz, gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/tpg/__8.html",
+   "accessed": "2026-09-17",
+   "note": "§ 8(1) sentence 2 restricts living donation of a kidney, part of a liver or other non-regenerating organ to first- and second-degree relatives, spouses, registered partners, fiancés, or persons evidently close to the donor in a special personal attachment"
   },
   {
    "id": "s:declaration-of-istanbul",
@@ -963,6 +1419,15 @@
    "note": "Custodian Group formed 2010, sponsored by The Transplantation Society and the International Society of Nephrology, endorsed by more than 80 professional organisations, 2018 edition of the Declaration"
   },
   {
+   "id": "s:dictionary-com-top-surgery",
+   "kind": "dictionary",
+   "title": "top surgery",
+   "publisher": "Dictionary.com",
+   "url": "https://www.dictionary.com/browse/top-surgery",
+   "accessed": "2026-09-17",
+   "note": "records the term as first used 1990-95"
+  },
+  {
    "id": "s:dignitas-costs",
    "kind": "org",
    "title": "Costs of an accompanied suicide",
@@ -1006,6 +1471,24 @@
    "note": "1864 founding, Høvik headquarters, ownership by the Det Norske Veritas Foundation, and the Business Assurance division that certifies American hospitals"
   },
   {
+   "id": "s:doi-2008-lancet",
+   "kind": "journal",
+   "title": "Organ trafficking and transplant tourism and commercialism: the Declaration of Istanbul",
+   "publisher": "The Lancet 2008;372(9632):5-6 (Comment), doi:10.1016/S0140-6736(08)60967-8",
+   "url": "https://www.declarationofistanbul.org/images/Policy_Documents/Declaration%20of%20Istanbul_2008.pdf",
+   "accessed": "2026-09-17",
+   "note": "read in full from the custodian group's PDF: the summit ran in Istanbul 'from April 30 to May 1, 2008', convened by The Transplantation Society and the International Society of Nephrology; 152 participants from 78 countries; the panel carries the 2008 definitions of organ trafficking, transplant commercialism and travel for transplantation/transplant tourism; also the WHO 10% estimate attributed to a personal communication, and two-thirds of Pakistan's 2,000 kidney transplants going to foreign recipients by 2006"
+  },
+  {
+   "id": "s:doi-2018-edition",
+   "kind": "org",
+   "title": "The Declaration — 2018 edition",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/the-declaration",
+   "accessed": "2026-09-17",
+   "note": "the 2018 edition was presented in Madrid on 1 July 2018 during the TTS congress, after a public consultation; carries the revised transplant tourism definition built on non-resident patients"
+  },
+  {
    "id": "s:doi-2018-text",
    "kind": "org",
    "title": "The Declaration of Istanbul on Organ Trafficking and Transplant Tourism, 2018 edition — preamble, definitions and the eleven principles",
@@ -1013,6 +1496,15 @@
    "url": "https://www.declarationofistanbul.org/the-declaration",
    "accessed": "2026-09-16",
    "note": "the full text on the Custodian Group's own site; its preamble carries the 2007 estimate from Shimazono, Bulletin of the World Health Organization 85(12):955-962, and its references list the Council of Europe Convention against Trafficking in Human Organs, ETS No. 216, Santiago de Compostela, 25 March 2015"
+  },
+  {
+   "id": "s:doi-endorsements",
+   "kind": "org",
+   "title": "Endorsements",
+   "publisher": "Declaration of Istanbul Custodian Group",
+   "url": "https://www.declarationofistanbul.org/endorsements",
+   "accessed": "2026-09-17",
+   "note": "'Click to view the complete list of 173 endorsing organizations'; other pages on the same site still say more than 135 and more than 80"
   },
   {
    "id": "s:dubai-media-office-health-2023",
@@ -1058,6 +1550,15 @@
    "publisher": "Electronic Code of Federal Regulations, U.S. Government",
    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-L/part-1271",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:ecfr-42-416-52",
+   "kind": "law",
+   "title": "42 CFR 416.52 — Conditions for coverage: patient admission, assessment and discharge (ambulatory surgical centers)",
+   "publisher": "Electronic Code of Federal Regulations, US Office of the Federal Register",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-416/subpart-D/section-416.52",
+   "accessed": "2026-09-17",
+   "note": "paragraph (c)(3) on discharge in the company of a responsible adult. Source note at the section: 73 FR 68813, 18 November 2008, as amended at 84 FR 51814, 30 September 2019. eCFR states Title 42 current as of 15 September 2026"
   },
   {
    "id": "s:ecfr-42-424-h",
@@ -1120,12 +1621,30 @@
    "note": "one dated rate table; every converted price on the site names the date"
   },
   {
+   "id": "s:er-api-free-terms",
+   "kind": "web",
+   "title": "Free exchange rate API documentation — open endpoint",
+   "publisher": "ExchangeRate-API",
+   "url": "https://www.exchangerate-api.com/docs/free",
+   "accessed": "2026-09-17",
+   "note": "open endpoint updates once per day and carries time_last_update_utc and time_next_update_utc; attribution to ExchangeRate-API is required on pages using the rates; redistribution of the data is not permitted"
+  },
+  {
    "id": "s:es-ley-14-2006",
    "kind": "statute",
    "title": "Ley 14/2006, de 26 de mayo, sobre técnicas de reproducción humana asistida, artículos 5 y 10",
    "publisher": "Boletín Oficial del Estado",
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-9292",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:es-ley-4-2023",
+   "kind": "statute",
+   "title": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI",
+   "publisher": "Boletín Oficial del Estado",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+   "accessed": "2026-09-17",
+   "note": "registered on this pass on the strength of a subagent's reading of articles 16, 17 and 19; the article numbers were not re-read at the BOE by the author of the records that cite it"
   },
   {
    "id": "s:es-lo-2-2010",
@@ -1142,6 +1661,15 @@
    "publisher": "Boletín Oficial del Estado",
    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:es-rd-1723-2012",
+   "kind": "statute",
+   "title": "Real Decreto 1723/2012, por el que se regulan las actividades de obtención, utilización clínica y coordinación territorial de los órganos humanos, artículos 4 y 8",
+   "publisher": "Boletín Oficial del Estado",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-15715",
+   "accessed": "2026-09-17",
+   "note": "article 4.2 sets voluntariness, altruism, confidentiality, absence of profit motive and gratuity; article 8 requires a living donor of full age and capacity to give express consent before a judge, with at least 24 hours between the signed document and the extraction. Neither article distinguishes recipients by nationality or residence."
   },
   {
    "id": "s:eshre-about",
@@ -1198,12 +1726,237 @@
    "note": "clinic's own package prices in euro, quoted per session rather than per graft"
   },
   {
+   "id": "s:etymonline-anesthesia",
+   "kind": "dictionary",
+   "title": "anesthesia (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/anesthesia",
+   "accessed": "2026-09-17",
+   "note": "1721, from Greek anaisthesia; the surgical sense from 1846"
+  },
+  {
+   "id": "s:etymonline-authorize",
+   "kind": "dictionary",
+   "title": "authorize (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/authorize",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Latin auctor"
+  },
+  {
+   "id": "s:etymonline-bundle",
+   "kind": "dictionary",
+   "title": "bundle (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/bundle",
+   "accessed": "2026-09-17",
+   "note": "early 14c., from Middle Dutch bondel"
+  },
+  {
+   "id": "s:etymonline-case",
+   "kind": "dictionary",
+   "title": "case (n.1) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/case",
+   "accessed": "2026-09-17",
+   "note": "early 13c., from Latin casus; medical sense late 14c."
+  },
+  {
+   "id": "s:etymonline-consent",
+   "kind": "dictionary",
+   "title": "consent (n.), consent (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/consent",
+   "accessed": "2026-09-17",
+   "note": "c. 1300, from Latin consentire"
+  },
+  {
+   "id": "s:etymonline-cycle",
+   "kind": "dictionary",
+   "title": "cycle (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/cycle",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Greek kyklos"
+  },
+  {
+   "id": "s:etymonline-diagnosis",
+   "kind": "dictionary",
+   "title": "diagnosis (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/diagnosis",
+   "accessed": "2026-09-17",
+   "note": "1680s, from Greek diagnosis"
+  },
+  {
+   "id": "s:etymonline-exile",
+   "kind": "dictionary",
+   "title": "exile (n.), exile (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/exile",
+   "accessed": "2026-09-17",
+   "note": "c. 1300, from Latin exilium"
+  },
+  {
+   "id": "s:etymonline-facilitate",
+   "kind": "dictionary",
+   "title": "facilitate (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/facilitate",
+   "accessed": "2026-09-17",
+   "note": "1610s"
+  },
+  {
+   "id": "s:etymonline-graft",
+   "kind": "dictionary",
+   "title": "graft (n.1), graft (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/graft",
+   "accessed": "2026-09-17",
+   "note": "late 15c.; surgical sense 1871"
+  },
+  {
+   "id": "s:etymonline-mobility",
+   "kind": "dictionary",
+   "title": "mobility (n.), mobile (adj.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/mobility",
+   "accessed": "2026-09-17",
+   "note": "early 15c. / late 15c."
+  },
+  {
+   "id": "s:etymonline-package",
+   "kind": "dictionary",
+   "title": "package (n.), package deal — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/package",
+   "accessed": "2026-09-17",
+   "note": "1530s; bundle sense 1722; package deal 1952"
+  },
+  {
+   "id": "s:etymonline-pay",
+   "kind": "dictionary",
+   "title": "pay (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/pay",
+   "accessed": "2026-09-17",
+   "note": "c. 1200, from Latin pacare"
+  },
+  {
+   "id": "s:etymonline-pocket",
+   "kind": "dictionary",
+   "title": "pocket (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/pocket",
+   "accessed": "2026-09-17",
+   "note": "mid-14c.; the idiom out of pocket from the 1690s"
+  },
+  {
+   "id": "s:etymonline-prior",
+   "kind": "dictionary",
+   "title": "prior (adj.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/prior",
+   "accessed": "2026-09-17",
+   "note": "1714, from Latin prior"
+  },
+  {
+   "id": "s:etymonline-rate",
+   "kind": "dictionary",
+   "title": "rate (n.1) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/rate",
+   "accessed": "2026-09-17",
+   "note": "early 15c., from Medieval Latin rata pars, from Latin reri, to reckon"
+  },
+  {
+   "id": "s:etymonline-repatriate",
+   "kind": "dictionary",
+   "title": "repatriate (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/repatriate",
+   "accessed": "2026-09-17",
+   "note": "1610s, from Late Latin repatriare"
+  },
+  {
+   "id": "s:etymonline-revision",
+   "kind": "dictionary",
+   "title": "revision (n.), revise (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/revision",
+   "accessed": "2026-09-17",
+   "note": "1610s / 1560s"
+  },
+  {
+   "id": "s:etymonline-stay",
+   "kind": "dictionary",
+   "title": "stay (v.1), stay (n.3) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/stay",
+   "accessed": "2026-09-17",
+   "note": "mid-15c. / 1520s"
+  },
+  {
+   "id": "s:etymonline-tariff",
+   "kind": "dictionary",
+   "title": "tariff (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tariff",
+   "accessed": "2026-09-17",
+   "note": "1590s, from Italian tariffa and Arabic ta'rif"
+  },
+  {
+   "id": "s:etymonline-tourism",
+   "kind": "dictionary",
+   "title": "tourism (n.), tour (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tourism",
+   "accessed": "2026-09-17",
+   "note": "1811 / c. 1300"
+  },
+  {
+   "id": "s:etymonline-tourist",
+   "kind": "dictionary",
+   "title": "tourist (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tourist",
+   "accessed": "2026-09-17",
+   "note": "1772"
+  },
+  {
+   "id": "s:etymonline-visa",
+   "kind": "dictionary",
+   "title": "visa (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/visa",
+   "accessed": "2026-09-17",
+   "note": "1831, from French visa, Modern Latin charta visa"
+  },
+  {
+   "id": "s:etymonline-wellness",
+   "kind": "dictionary",
+   "title": "wellness (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/wellness",
+   "accessed": "2026-09-17",
+   "note": "1650s"
+  },
+  {
    "id": "s:eu-atmp-1394-2007",
    "kind": "statute",
    "title": "Regulation (EC) No 1394/2007 on advanced therapy medicinal products",
    "publisher": "The National Archives, legislation.gov.uk",
    "url": "https://www.legislation.gov.uk/eur/2007/1394/article/2",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:eu-dir-2011-24-art-8",
+   "kind": "statute",
+   "title": "Directive 2011/24/EU, Article 8 — healthcare that may be subject to prior authorisation",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/8",
+   "accessed": "2026-09-17",
+   "note": "read for the Art 8(2) categories — at least one overnight, or highly specialised and cost-intensive infrastructure — and the four Art 8(6) grounds for refusal"
   },
   {
    "id": "s:eu-directive-2011-24",
@@ -1247,6 +2000,23 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:eu-visa-code-annex-2",
+   "kind": "statute",
+   "title": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Annex II — non-exhaustive list of supporting documents",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/annex/II",
+   "accessed": "2026-09-17",
+   "note": "for travel undertaken for medical reasons, an official document of the medical institution confirming necessity for medical care in that institution and proof of sufficient financial means to pay for the treatment"
+  },
+  {
+   "id": "s:eu-visa-code-art-14",
+   "kind": "statute",
+   "title": "Regulation (EC) No 810/2009, Article 14 — supporting documents",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/article/14",
+   "accessed": "2026-09-17"
+  },
+  {
    "id": "s:eur-arch-ci-finland",
    "kind": "paper",
    "title": "The cost-effectiveness of unilateral cochlear implantation in the Finnish health care",
@@ -1254,6 +2024,15 @@
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12605616/",
    "accessed": "2026-09-16",
    "note": "its model parameter table gives a mean time to sound processor upgrade sourced to a manufacturer's internal database"
+  },
+  {
+   "id": "s:eurlex-2011-24-oj",
+   "kind": "law",
+   "title": "Directive 2011/24/EU of the European Parliament and of the Council of 9 March 2011 on the application of patients' rights in cross-border healthcare — Official Journal text",
+   "publisher": "Official Journal of the European Union, L 88/45, 4.4.2011",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011L0024",
+   "accessed": "2026-09-17",
+   "note": "read in the OJ PDF: Article 7(1) and 7(4) on reimbursement up to the home level, Article 8(1)(2)(5) on prior authorisation and the medically justifiable time limit, Article 6 on national contact points, Article 21 transposition by 25 October 2013, Article 22 entry into force on the 20th day after publication, signed at Strasbourg 9 March 2011 by J. BUZEK and GYORI E."
   },
   {
    "id": "s:euroistanbul-gastric-sleeve",
@@ -1340,6 +2119,42 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:fetter-drg-1980",
+   "kind": "paper",
+   "title": "Case mix definition by diagnosis-related groups",
+   "publisher": "Fetter RB, Shin Y, Freeman JL, Averill RF, Thompson JD. Medical Care 1980 Feb;18(2 Suppl):iii, 1-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7188781/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 7188781); the Yale origin story of the late 1960s is widely repeated and was not confirmed against a primary source for this record"
+  },
+  {
+   "id": "s:flores-interpreter-errors-2012",
+   "kind": "paper",
+   "title": "Errors of medical interpretation and their potential clinical consequences: a comparison of professional versus ad hoc versus no interpreters",
+   "publisher": "Flores G, Abreu M, Barone CP, Bachur R, Lin H. Annals of Emergency Medicine 2012;60(5):545-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22424655/",
+   "accessed": "2026-09-17",
+   "note": "57 audiotaped encounters over 30 months in the two largest paediatric emergency departments in Massachusetts, Spanish-speaking patients of limited English proficiency; 1,884 interpreter errors counted"
+  },
+  {
+   "id": "s:fr-csp-l2212-1",
+   "kind": "statute",
+   "title": "Code de la santé publique, article L2212-1, as amended by loi n° 2022-295",
+   "publisher": "Légifrance, Government of France",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045292636",
+   "accessed": "2026-09-17",
+   "note": "to the end of the fourteenth week on request; the article carries no residence condition"
+  },
+  {
+   "id": "s:fr-loi-2026-794",
+   "kind": "statute",
+   "title": "LOI n° 2026-794 du 18 août 2026 relative à l'aide à mourir, article 4, inserting Code de la santé publique article L. 1111-12-2",
+   "publisher": "Légifrance, Government of France",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054706877",
+   "accessed": "2026-09-17",
+   "note": "French nationality or stable and regular residence in France is one of five cumulative conditions. Read on this pass by a research agent rather than by the author of the records that cite it."
+  },
+  {
    "id": "s:freedom-dialysis-spain",
    "kind": "web",
    "title": "Spain - dialysis holidays",
@@ -1347,6 +2162,15 @@
    "url": "https://www.holidaydialysis.co.uk/spain.php",
    "accessed": "2026-09-16",
    "note": "an agency page, not a unit's own price list"
+  },
+  {
+   "id": "s:freedom-dialysis-turkey",
+   "kind": "web",
+   "title": "Dialysis in Turkey — units and approximate session prices",
+   "publisher": "Freedom, the Dialysis Holiday Specialists, Leicestershire",
+   "url": "https://www.holidaydialysis.co.uk/turkey.php",
+   "accessed": "2026-09-17",
+   "note": "an agency page, not a unit's own price list; every figure is prefixed 'approx.' and the page carries no date"
   },
   {
    "id": "s:frontiers-proton-2026",
@@ -1447,12 +2271,30 @@
    "note": "public directory searchable by region; entries carry start dates and, for some, an expiry date such as 24 November 2022 to 24 November 2025"
   },
   {
+   "id": "s:giostar-mexico-cost",
+   "kind": "web",
+   "title": "Stem Cell Therapy Mexico Cost at GIOSTAR Mexico",
+   "publisher": "GIOSTAR Mexico",
+   "url": "https://giostarmexico.com/stem-cell-therapy-mexico-cost-at-giostar-mexico-global-standards-transparent-pricing-financing-options/",
+   "accessed": "2026-09-17",
+   "note": "the clinic's own page, marked verified August 2026: packages by condition group, a stated cell count of 35-140 million across 1-4 vials, and a claim of COFEPRIS-certified facilities. No FDA approval is claimed."
+  },
+  {
    "id": "s:gleneagles-my",
    "kind": "web",
    "title": "Gleneagles Hospitals Malaysia — hospital list and bed counts",
    "publisher": "Gleneagles Hospitals Malaysia (IHH Healthcare)",
    "url": "https://gleneagles.com.my/hospitals/gleneagles-hospital-kuala-lumpur",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:globalhtc-imtj-awards",
+   "kind": "org",
+   "title": "IMTJ Medical Travel Awards — the 2014 inaugural announcement",
+   "publisher": "Global Healthcare Travel Council",
+   "year": 2014,
+   "url": "https://globalhtc.org/imtj-medical-travel-awards/",
+   "accessed": "2026-09-17"
   },
   {
    "id": "s:gmc-cosmetic-interventions",
@@ -1535,6 +2377,17 @@
    "note": "public-organisation status under the Royal Decree establishing the HAI, B.E. 2552 (2009), and the public Certificate Status pages"
   },
   {
+   "id": "s:haider-2025-hair-transplant-tourism",
+   "kind": "article",
+   "title": "The Allures and the Alarms of the Hair Transplant Tourism Industry",
+   "author": "Haider SA, Hasanzade S, Borna S, et al.",
+   "publisher": "Aesthetic Plastic Surgery 2025;49(17):4745–4753",
+   "year": 2025,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40660034/",
+   "accessed": "2026-09-17",
+   "note": "a narrative review; its widely repeated billion-dollar figure traces to a 2015 magazine article, and the review's own words for the sector are a data black hole"
+  },
+  {
    "id": "s:hanefeld-2013-nhs",
    "kind": "paper",
    "title": "Medical Tourism: A Cost or Benefit to the NHS?",
@@ -1560,6 +2413,56 @@
    "url": "https://www.hcch.net/en/projects/legislative-projects/parentage-surrogacy",
    "accessed": "2026-09-16",
    "note": "the intergovernmental project on cross-border parentage; cited here where a national instrument was not read"
+  },
+  {
+   "id": "s:headington-1984",
+   "kind": "paper",
+   "title": "Transverse microscopic anatomy of the human scalp. A basis for a morphometric approach to disorders of the hair follicle",
+   "publisher": "Headington JT. Archives of Dermatology 1984 Apr;120(4):449-56",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6703750/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 6703750); the definition of the follicular unit is quoted here from the ISHRS terminology document, which reproduces it"
+  },
+  {
+   "id": "s:healthcare-gov-coinsurance",
+   "kind": "gov",
+   "title": "Coinsurance — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/co-insurance/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-copayment",
+   "kind": "gov",
+   "title": "Copayment — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/co-payment/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-oop-max",
+   "kind": "gov",
+   "title": "Out-of-pocket maximum/limit — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-preauthorization",
+   "kind": "gov",
+   "title": "Preauthorization — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/preauthorization/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:heidelberg-finance",
+   "kind": "web",
+   "title": "Finance — International Patients",
+   "publisher": "Heidelberg University Hospital (Universitätsklinikum Heidelberg)",
+   "url": "https://www.heidelberg-university-hospital.com/finance",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own money page for patients from abroad. A cost estimate is written only after its specialists have read the submitted records; the whole estimated sum is transferred before treatment and the appointment is confirmed on receipt; actual costs are settled afterwards and a balance below the pre-payment is refunded by the same route it came. Payment by bank transfer, by cash at the Kopfklinik cashier, or by card. No schedule of amounts is published."
   },
   {
    "id": "s:hemasphere-cart-map",
@@ -1596,6 +2499,33 @@
    "note": "the UK regulator's annual register report; birth rates marked preliminary and not yet validated"
   },
   {
+   "id": "s:hfea-2024-methodology",
+   "kind": "org",
+   "title": "Fertility treatment 2024: quality and methodology report",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/quality-and-methodology-report/",
+   "accessed": "2026-09-17",
+   "note": "people are in the Register 'regardless of a person's residence'; 'We do not hold detailed information on partner intrauterine insemination (IUI), or treatments that takes place outside of licensed clinics'; regions are assigned 'based on the location of the clinic rather than patient's residency'; the Register runs since 1991 and is described as the longest running database of fertility treatment in the world"
+  },
+  {
+   "id": "s:hfea-2024-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2024: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/",
+   "accessed": "2026-09-17",
+   "note": "published 16 June 2026 from a register snapshot of 6 May 2026; 64,000 patients and over 100,000 treatment and freezing cycles in 2024; average IVF birth rate per embryo transferred 30%, 38% at ages 18-34 and 8% at 43-44; 2024 birth outcomes marked preliminary"
+  },
+  {
+   "id": "s:hfea-choose-clinic",
+   "kind": "org",
+   "title": "Finding the right clinic for you",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/choose-a-fertility-clinic/finding-the-best-fertility-clinic-for-you/",
+   "accessed": "2026-09-17",
+   "note": "'Use success rates as a rough guide and not a prediction', and the passage on differences of one or two percentage points being down to chance"
+  },
+  {
    "id": "s:hfea-costs-funding",
    "kind": "org",
    "title": "Costs and funding",
@@ -1619,6 +2549,15 @@
    "publisher": "Human Fertilisation and Embryology Authority",
    "url": "https://www.hfea.gov.uk/donation/donors/donating-your-sperm/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:hfea-donor-info",
+   "kind": "org",
+   "title": "Rules around releasing donor information",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/donation/donors/rules-around-releasing-donor-information/",
+   "accessed": "2026-09-17",
+   "note": "donations from 1 April 2005: non-identifying details at 16, identifying details at 18. Donations 1 August 1991 to 31 March 2005: non-identifying only. Nothing held before August 1991."
   },
   {
    "id": "s:hfea-egg-freezing",
@@ -1671,6 +2610,15 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:hibino-thailand-surrogacy-2020",
+   "kind": "paper",
+   "title": "Non-commercial Surrogacy in Thailand: Ethical, Legal, and Social Implications in Local and Global Contexts, by Yuri Hibino",
+   "publisher": "Asian Bioethics Review, via PubMed Central PMC7747428",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747428/",
+   "accessed": "2026-09-17",
+   "note": "the Act took effect 30 July 2015; trade in gametes and embryos, commercial surrogacy, brokering and promotion of third-party reproduction are prohibited, and only a couple perceived as legally married in Thailand may seek surrogacy. Also records that foreign clients were banned from procuring surrogacy in India by 2015 and that Cambodia prohibited surrogacy by ministerial order in October 2016."
+  },
+  {
    "id": "s:hipaa-access-164-524",
    "kind": "law",
    "title": "45 CFR § 164.524 — Access of individuals to protected health information",
@@ -1698,6 +2646,15 @@
    "note": "the HSE repays the lesser of what the patient paid in Northern Ireland and the price of the same care in the Irish public system, using diagnosis-related group codes; the maximum for an outpatient appointment is EUR 194 from 1 May 2023, EUR 178 for claims between 1 March 2021 and 30 April 2023. The patient pays first."
   },
   {
+   "id": "s:iata-industry-statistics",
+   "kind": "org",
+   "title": "Industry Statistics — fact sheet, table \"Global airline industry\", updated 6/2026",
+   "publisher": "International Air Transport Association, Sustainability and Economics",
+   "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/industry-statistics/",
+   "accessed": "2026-09-17",
+   "note": "read as a PDF and extracted with pdftotext. The rows used here are O-D passengers, million (4,343 forecast for 2026) and Passenger, USD billion (839 forecast for 2026). The fact sheet publishes no average-fare line; the figure derived from those two rows is marked as this project's arithmetic wherever it appears."
+  },
+  {
    "id": "s:icmart-about",
    "kind": "org",
    "title": "About ICMART",
@@ -1705,6 +2662,15 @@
    "url": "https://www.icmartivf.org/about/",
    "accessed": "2026-09-16",
    "note": "data collection since 1989, incorporated in California as a 501(c)(3) in 2003, non-State actor in official relations with WHO, receives anonymised tabulated summaries from national and regional registries rather than clinic-level data"
+  },
+  {
+   "id": "s:id-health-law-2023",
+   "kind": "statute",
+   "title": "Undang-Undang No. 17 Tahun 2023 tentang Kesehatan, with PP 28/2024 and KUHP 2023 Pasal 463",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Indonesia",
+   "url": "https://abortion-policies.srhr.org/country/indonesia",
+   "accessed": "2026-09-17",
+   "note": "rape or sexual violence, or a medical emergency; the husband's permission is required except for rape victims, and counselling is mandatory. Read in the WHO database's country record."
   },
   {
    "id": "s:ie-termination-act-2018",
@@ -1724,6 +2690,50 @@
    "note": "four assessment categories, the statement that ISQua EEA does not directly accredit health or social care services, the once-off Access Fee and the 2026 fee band"
   },
   {
+   "id": "s:imtj-about-2010-archive",
+   "kind": "web",
+   "title": "About us — International Medical Travel Journal (Internet Archive snapshot, 11 January 2010)",
+   "publisher": "IMTJ / Intuition Communication",
+   "url": "https://web.archive.org/web/20100111234956/http://www.imtj.com/about-us/",
+   "accessed": "2026-09-17",
+   "note": "imtj.com answers automated requests with a Cloudflare challenge, so the publication's own pages are read here through the Internet Archive"
+  },
+  {
+   "id": "s:imtj-about-2021-archive",
+   "kind": "web",
+   "title": "About IMTJ, the International Medical Travel Journal (Internet Archive snapshot, 13 April 2021)",
+   "publisher": "IMTJ / LaingBuisson",
+   "url": "https://web.archive.org/web/20210413081607/https://www.imtj.com/about/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:imtj-awards-2024-archive",
+   "kind": "web",
+   "title": "The IMTJ Medical Travel Awards (Internet Archive snapshot, 17 September 2024) — carries the 2022 cancellation notice",
+   "publisher": "LaingBuisson",
+   "url": "https://web.archive.org/web/20240917050124/https://awards.imtj.com/",
+   "accessed": "2026-09-17",
+   "note": "awards.imtj.com no longer resolves; this snapshot is the last published state"
+  },
+  {
+   "id": "s:imtj-summit-2019-archive",
+   "kind": "web",
+   "title": "IMTJ Medical Travel Summit 2019, Berlin (Internet Archive snapshot, 23 August 2019)",
+   "publisher": "IMTJ",
+   "year": 2019,
+   "url": "https://web.archive.org/web/20190823071607/https://summit.imtj.com/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:imtj-summit-2021-archive",
+   "kind": "web",
+   "title": "IMTJ Medical Travel Summit — postponement notice (Internet Archive snapshot, 16 March 2021)",
+   "publisher": "IMTJ / LaingBuisson",
+   "year": 2021,
+   "url": "https://web.archive.org/web/20210316102011/https://summit.imtj.com/",
+   "accessed": "2026-09-17"
+  },
+  {
    "id": "s:imtj-wikipedia",
    "kind": "wikipedia",
    "title": "International Medical Travel Journal",
@@ -1731,6 +2741,15 @@
    "url": "https://en.wikipedia.org/wiki/International_Medical_Travel_Journal",
    "accessed": "2026-09-16",
    "note": "established 2007, UK trade publication, biweekly newsletter, Keith Pollard as editor in chief, annual Medical Travel Awards; imtj.com refused every fetch on this date"
+  },
+  {
+   "id": "s:in-mtp-act-1971",
+   "kind": "statute",
+   "title": "The Medical Termination of Pregnancy Act 1971 and the Medical Termination of Pregnancy (Amendment) Act 2021",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for India",
+   "url": "https://abortion-policies.srhr.org/country/india",
+   "accessed": "2026-09-17",
+   "note": "grounds-based rather than on request; the WHO record states that only the consent of the woman is needed, with guardian consent under 18. indiacode.nic.in returned 403 on this date."
   },
   {
    "id": "s:in-surrogacy-act-2021",
@@ -1793,6 +2812,25 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:ishrs-2016-buyer-beware",
+   "kind": "org",
+   "title": "Buyer Beware: Medical Tourism for Hair Transplants Can Have Costly Consequences",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "year": 2016,
+   "url": "https://ishrs.org/buyer-beware-medical-tourism-for-hair-transplants-can-have-costly-consequences/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:ishrs-2025-census-release",
+   "kind": "org",
+   "title": "World Hair Transplant Repair Day press release, citing the ISHRS 2025 Practice Census",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "year": 2025,
+   "url": "https://ishrs.org/fifth-hair-transplant-repair-day/",
+   "accessed": "2026-09-17",
+   "note": "a professional society's survey of its own members, not a register"
+  },
+  {
    "id": "s:ishrs-black-market",
    "kind": "org",
    "title": "Black Market hair restoration — the Fight the FIGHT campaign",
@@ -1819,6 +2857,33 @@
    "url": "https://ishrs.org/wp-content/uploads/2022/04/Report-2022-ISHRS-Practice-Census_04-19-22-FINAL.pdf",
    "accessed": "2026-09-16",
    "note": "822 valid invitations, 197 responses, a 24 per cent response rate, an extrapolated 703,183 procedures worldwide in 2021, the sentence that the true number performed worldwide is unknown, 51.1 per cent reporting black-market clinics in their city, and a mean 6 per cent of cases as repairs of a previous black-market transplant"
+  },
+  {
+   "id": "s:ishrs-consumer-alert",
+   "kind": "org",
+   "title": "Consumer alert",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/consumer-alert/",
+   "accessed": "2026-09-17",
+   "note": "page carries dates 18 January 2017 and 30 January 2026; 'increasing numbers of unlicensed personnel worldwide are performing substantial medical aspects of hair restoration surgery'; names no country and gives no figures"
+  },
+  {
+   "id": "s:ishrs-fue-terminology-2019",
+   "kind": "org",
+   "title": "A 2019 Guide to Currently Accepted FUE and Implanter Terminology",
+   "publisher": "International Society of Hair Restoration Surgery; dated 15 July 2019, editor Robert H. True",
+   "url": "https://ishrs.org/wp-content/uploads/2019/08/July-15-2019-FUE-Terminology.pdf",
+   "accessed": "2026-09-17",
+   "note": "carries the Headington definition of the follicular unit, the 2018 renaming of FUE from extraction to excision, and the CFGE and CFGA measures"
+  },
+  {
+   "id": "s:ishrs-fue-what-is-it",
+   "kind": "org",
+   "title": "FUE — what is it?",
+   "publisher": "International Society of Hair Restoration Surgery",
+   "url": "https://ishrs.org/fue-what-is-it/",
+   "accessed": "2026-09-17",
+   "note": "follicular units of 1 to 4 hairs, punches 0.7 to 1.2 mm, overharvesting as an uncorrectable problem, and the society's black-market warning"
   },
   {
    "id": "s:ishrs-unlicensed-technicians",
@@ -1873,6 +2938,15 @@
    "note": "published 15 November 2021, updated 20 March 2023; carries the Ministry of Tourism's arrivals estimate and the ministry's account of the 2018 law"
   },
   {
+   "id": "s:it-legge-194-1978",
+   "kind": "statute",
+   "title": "Legge 22 maggio 1978, n. 194, articoli 4 e 5",
+   "publisher": "Normattiva, Government of Italy",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-05-22;194~art5",
+   "accessed": "2026-09-17",
+   "note": "the first 90 days, and the seven-day reflection the doctor must invite under article 5"
+  },
+  {
    "id": "s:jci-accreditation",
    "kind": "org",
    "title": "Joint Commission International — accreditation standards and accredited organizations",
@@ -1916,6 +2990,95 @@
    "note": "the Private Hospitals Association attributing the drop to visa restrictions on Sudanese, Libyan, Yemeni and Iraqi nationals. The page would not open for this project on the access date; the figure is carried from the publisher's own listing and is flagged for verification."
   },
   {
+   "id": "s:jp-asrm-2013",
+   "kind": "statute",
+   "title": "Act on the Safety of Regenerative Medicine (Act No. 85 of 27 November 2013), English translation",
+   "publisher": "Japanese Law Translation, Ministry of Justice, Japan",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4980/en",
+   "accessed": "2026-09-17",
+   "note": "registered from the Japanese Law Translation catalogue entry; the provisions cited in the records come from the peer-reviewed review registered alongside it"
+  },
+  {
+   "id": "s:jp-asrm-review-2019",
+   "kind": "paper",
+   "title": "Japan's challenges of translational regenerative medicine: Act on the safety of regenerative medicine",
+   "publisher": "Regenerative Therapy, via PubMed Central PMC6581824",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6581824/",
+   "accessed": "2026-09-17",
+   "note": "the Act classifies regenerative medicine as Class I (high risk), Class II (intermediate) and Class III (low), each reviewed by a certified committee, and applies to private practice as well as clinical research. By November 2015 private-practice applications stood at 2 Class I, 24 Class II and 1,794 Class III."
+  },
+  {
+   "id": "s:jp-maternal-health-act",
+   "kind": "statute",
+   "title": "母体保護法 (Maternal Health Act, Act No. 156 of 1948), article 14",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Japan",
+   "url": "https://abortion-policies.srhr.org/country/japan",
+   "accessed": "2026-09-17",
+   "note": "spousal consent is required, waived only where the spouse is unknown, cannot express an intention, or is dead. Read in the WHO database's copy of the Act rather than in the Japanese statute database."
+  },
+  {
+   "id": "s:jucm-case-rate-2017",
+   "kind": "web",
+   "title": "Understanding Case-Rate Reimbursement",
+   "publisher": "Journal of Urgent Care Medicine, 1 December 2017",
+   "url": "https://www.jucm.com/understanding-case-rate-reimbursement/",
+   "accessed": "2026-09-17",
+   "note": "a trade journal definition; no standards body publishes one"
+  },
+  {
+   "id": "s:kamol-phalloplasty",
+   "kind": "web",
+   "title": "Phalloplasty — flap options and candidacy requirements",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/phalloplasty/",
+   "accessed": "2026-09-17",
+   "note": "four flap techniques with the length each is said to produce, and a candidacy list: minimum age 20, at least one year of testosterone, one year living in the acquired gender, psychiatric clearance, and mastectomy and hysterectomy completed at least six months before. No price is published on the page."
+  },
+  {
+   "id": "s:kamol-srs",
+   "kind": "web",
+   "title": "Gender Reassignment Surgery / SRS — techniques and hospital stay",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/gender-reassignment-surgery-srs/",
+   "accessed": "2026-09-17",
+   "note": "five named techniques with operating times, and a stated stay of 4-6 nights. No price is published on the page."
+  },
+  {
+   "id": "s:kamol-top-surgery",
+   "kind": "web",
+   "title": "Top Surgery / Mastectomy — techniques, stay and recovery",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/top-surgery-mastectomy/",
+   "accessed": "2026-09-17",
+   "note": "states a stay of 2-5 nights depending on technique, suture removal at 7 days, return to work after 2 weeks and full healing at 4-6 months. No price is published on the page."
+  },
+  {
+   "id": "s:keithpollard-about",
+   "kind": "web",
+   "title": "About Keith / Career history of Keith Pollard",
+   "publisher": "keithpollard.com",
+   "url": "https://keithpollard.com/about/",
+   "accessed": "2026-09-17",
+   "note": "self-reported; the same wording about the journal's future being under review was already on the page in a September 2024 snapshot"
+  },
+  {
+   "id": "s:khcc-why",
+   "kind": "web",
+   "title": "Why KHCC",
+   "publisher": "King Hussein Cancer Center, Amman",
+   "url": "https://www.khcc.jo/en/why-khcc",
+   "accessed": "2026-09-17",
+   "note": "the centre's own claim to be the first institution in the developing world accredited by JCI as a disease-specific cancer centre, and the sixth in the world. The page gives no year, no bed count and no patient numbers."
+  },
+  {
+   "id": "s:khg-17b",
+   "kind": "statute",
+   "title": "Krankenhausfinanzierungsgesetz § 17b — Einführung eines pauschalierenden Entgeltsystems für DRG-Krankenhäuser",
+   "publisher": "Bundesministerium der Justiz, gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/khg/__17b.html",
+   "accessed": "2026-09-17"
+  },
+  {
    "id": "s:khidi-medicalkorea",
    "kind": "org",
    "title": "About KHIDI — Medical Korea",
@@ -1942,6 +3105,15 @@
    "note": "questionnaire of 273 Hungarian dentists plus 10 interviews with professional bodies; reports a complication rate in Hungarian dental care of around 5%, which the authors call similar to other European countries"
   },
   {
+   "id": "s:kr-act-13599",
+   "kind": "statute",
+   "title": "Act on Supporting Overseas Expansion of Medical Services and Attraction of International Patients (Act No. 13599, 22 December 2015)",
+   "publisher": "Korea Legislation Research Institute, Korea Law Translation Center",
+   "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=60070&type=part&key=36",
+   "accessed": "2026-09-17",
+   "note": "Article 6 registration conditions — specialists by department and malpractice cover for an institution; guaranty insurance, minimum capital and a domestic office for an agency. Article 7 bars transfer or lease of a certificate. Article 8 requires posting and foreign-language information on diagnosis, cost and dispute resolution. Unregistered operation: up to three years or 30 million won."
+  },
+  {
    "id": "s:kumarasamy-ndm1-2010",
    "kind": "paper",
    "title": "Emergence of a new antibiotic resistance mechanism in India, Pakistan, and the UK: a molecular, biological, and epidemiological study",
@@ -1950,12 +3122,39 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:kumarasamy-ndm1-pmc",
+   "kind": "paper",
+   "title": "Emergence of a new antibiotic resistance mechanism in India, Pakistan, and the UK: a molecular, biological, and epidemiological study — full text",
+   "publisher": "Lancet Infectious Diseases 2010;10(9):597-602, via PubMed Central PMC2933358",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2933358/",
+   "accessed": "2026-09-17",
+   "note": "read for the isolate counts (44 Chennai, 26 Haryana, 37 UK, 73 other sites), the 17 travel histories and 14 hospital admissions, the list of reasons for admission, the sentence on elective and cosmetic surgery, the interpretation sentence on calls in the popular press, and the funding statement"
+  },
+  {
    "id": "s:kuriyan-stem-cell-2017",
    "kind": "paper",
    "title": "Vision Loss after Intravitreal Injection of Autologous \"Stem Cells\" for AMD",
    "publisher": "New England Journal of Medicine 2017;376(11):1047-1053 (Kuriyan AE, Albini TA, Townsend JH, et al.)",
    "url": "https://pubmed.ncbi.nlm.nih.gov/28296617/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:laingbuisson-intuition-2018",
+   "kind": "web",
+   "title": "LaingBuisson announces the acquisition of Intuition Communication, 1 March 2018 (Internet Archive snapshot, 28 September 2023)",
+   "publisher": "LaingBuisson",
+   "year": 2018,
+   "url": "https://web.archive.org/web/20230928012944/https://www.laingbuisson.com/press-releases/laingbuisson-announces-acquisition-intuition-communication/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:laingbuissonnews-imtj-archive",
+   "kind": "web",
+   "title": "IMTJ news category (Internet Archive snapshot, 10 September 2026)",
+   "publisher": "LaingBuisson News",
+   "url": "https://web.archive.org/web/20260910213608/https://www.laingbuissonnews.com/category/imtj/",
+   "accessed": "2026-09-17",
+   "note": "the newest item on the page in a September 2026 capture is dated November 2023"
   },
   {
    "id": "s:laquotidienne-maroc-2022",
@@ -1985,12 +3184,39 @@
    "note": "states that a non-resident foreigner coming for treatment, and any companion, needs a Colombian health visa where the stay is expected to exceed 90 days, and points at the Cancillería de Colombia"
   },
   {
+   "id": "s:lasikplus-lasik-cost",
+   "kind": "web",
+   "title": "How Much Does LASIK Cost?",
+   "publisher": "LasikPlus, United States",
+   "url": "https://www.lasikplus.com/cost-of-lasik/",
+   "accessed": "2026-09-17",
+   "note": "states prices starting between $2,495 and $2,895 per eye 'before any discounts or promotions', covering the all-laser procedure, pre-operative exams and follow-up care, and cites a Market Scope survey range of $1,500 to $5,000 per eye across the United States"
+  },
+  {
    "id": "s:legislation-eu-directive-2011-24",
    "kind": "statute",
    "title": "Directive 2011/24/EU on the application of patients' rights in cross-border healthcare, Articles 7, 8 and 11 (text as held on legislation.gov.uk)",
    "publisher": "The National Archives, legislation.gov.uk",
    "url": "https://www.legislation.gov.uk/eudr/2011/24/article/7",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:liv-checkup",
+   "kind": "web",
+   "title": "Check-Up Packages — Complete Health Screening Services",
+   "publisher": "Liv Hospital (MLP Care), Istanbul",
+   "url": "https://int.livhospital.com/full-body-checkup/",
+   "accessed": "2026-09-17",
+   "note": "fifteen screening packages priced in US dollars on the hospital's own international site and read there on 17 September 2026, each stated as a starting price per person and each listing its test counts by category. LIV STANDARD MEN from 600 USD and LIV STANDARD WOMEN from 590 USD are the entry tier; LIV GOLD CANCER SCREENING from 3,200 USD is the top. The page states the prices include medical reports."
+  },
+  {
+   "id": "s:liv-int-home",
+   "kind": "web",
+   "title": "Liv Hospital — international site",
+   "publisher": "Liv Hospital, Istanbul",
+   "url": "https://int.livhospital.com/",
+   "accessed": "2026-09-17",
+   "note": "the group's own counters read on 17 September 2026: 723+ doctors, 1M+ patients, 20+ locations. Names Liv Hospital Ulus, Vadistanbul, Ankara, Gaziantep, Bona Dea and Istinye University Bahçeşehir Liv. Lists JCI accreditation with no year, ISO certification, the Türkiye international health tourism authorisation, a Ministry of Culture and Tourism authorisation and a four-star Global Hospital Rating."
   },
   {
    "id": "s:loc-israel-medical-tourism-law",
@@ -2011,12 +3237,120 @@
    "note": "a private provider's own description of the single-session treatment, the frame and the mask; not an independent body"
   },
   {
+   "id": "s:ltc-price-list",
+   "kind": "web",
+   "title": "Price List — surgery, facial feminisation, MTF GCS/SRS, body masculinisation",
+   "publisher": "The London Transgender Clinic, London",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/",
+   "accessed": "2026-09-17",
+   "note": "read with the browser tools. Every surgical line is prefixed 'Starts from'. The page states that an exact price cannot be given before consultation, that a formal quotation covers treatment, aftercare and the hospital stay where required, and that guide prices are subject to change. It carries no date. There is no phalloplasty or metoidioplasty row on it."
+  },
+  {
    "id": "s:mafi-cosmetic-tourism-cost-2026",
    "kind": "paper",
    "title": "Recurrent Clinical Burden and Cost of Cosmetic Surgery Tourism Complications: A Five-Year Retrospective Study From a UK Tertiary Centre",
    "publisher": "Cureus 2026;18(5):e109006 (Mafi P, Patel K, Hoque-Uddin S, Warner R), Queen Elizabeth Hospital Birmingham",
    "url": "https://pubmed.ncbi.nlm.nih.gov/42311717/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:malaysiahealthcare-about",
+   "kind": "org",
+   "title": "Malaysia Healthcare — about",
+   "publisher": "Malaysia Healthcare Travel Council",
+   "url": "https://malaysiahealthcare.org/about-us",
+   "accessed": "2026-09-17",
+   "note": "company registration number 201101035226; the site's own count of more than 80 partner hospitals and clinics. mhtc.org.my itself returned HTTP 500 on this date, as it did on 16 September 2026."
+  },
+  {
+   "id": "s:malo-all-on-four-2003",
+   "kind": "paper",
+   "title": "\"All-on-Four\" immediate-function concept with Brånemark System implants for completely edentulous mandibles: a retrospective clinical study",
+   "publisher": "Maló P, Rangert B, Nobre M. Clinical Implant Dentistry and Related Research 2003;5 Suppl 1:2-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12691645/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 12691645)"
+  },
+  {
+   "id": "s:map-youth-care-bans",
+   "kind": "org",
+   "title": "Bans on best practice medical care for transgender youth",
+   "publisher": "Movement Advancement Project",
+   "url": "https://www.mapresearch.org/equality-maps/healthcare/youth_medical_care_bans",
+   "accessed": "2026-09-17",
+   "note": "26 states and one territory, as of 16 September 2026, with 6 states and one territory making it a felony; the tracker records court rulings blocking enforcement in Montana and Kansas at that date. An advocacy organisation's tracker, which names its own date and method."
+  },
+  {
+   "id": "s:mbs-30443",
+   "kind": "gov",
+   "title": "MBS item 30443 — cholecystectomy, by any approach, without cholangiogram",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=30443&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $768.90, 75% benefit $576.70, fee shown as applying from 01-Jul-2026"
+  },
+  {
+   "id": "s:mbs-30648",
+   "kind": "gov",
+   "title": "MBS item 30648 — femoral or inguinal hernia or infantile hydrocele, repair of, patient 10 years or over",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=30648&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $556.05, 75% benefit $417.05; found through the MBS keyword search for inguinal hernia"
+  },
+  {
+   "id": "s:mbs-35653",
+   "kind": "gov",
+   "title": "MBS item 35653 — hysterectomy, abdominal, with or without removal of fallopian tubes and ovaries",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=35653&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $807.60, 75% benefit $605.70, fee shown as applying from 01-Jul-2026"
+  },
+  {
+   "id": "s:mbs-37210",
+   "kind": "gov",
+   "title": "MBS item 37210 — radical prostatectomy",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=37210&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $1,907.25, 75% benefit $1,430.45, fee shown as applying from 01-Jul-2026; descriptor names total excision of the prostate with nerve sparing where clinically indicated"
+  },
+  {
+   "id": "s:mbs-38307",
+   "kind": "gov",
+   "title": "MBS item 38307 — percutaneous coronary intervention, one coronary vascular territory",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38307&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $2,121.75, 75% benefit $1,591.35; descriptor covers angioplasty and 'transluminal insertion of one or more stents' on one territory and excludes aftercare"
+  },
+  {
+   "id": "s:mbs-38484",
+   "kind": "gov",
+   "title": "MBS item 38484 — aortic or pulmonary valve replacement with bioprosthesis or mechanical prosthesis",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38484&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $2,429.60, 75% benefit $1,822.20; the mitral or tricuspid equivalent, item 38499, carries the same fee"
+  },
+  {
+   "id": "s:mbs-38502",
+   "kind": "gov",
+   "title": "MBS item 38502 — coronary artery bypass, including cardiopulmonary bypass",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38502&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $2,819.90, 75% benefit $2,114.95; the item covers the surgeon's service, not the admission"
+  },
+  {
+   "id": "s:mbs-42702",
+   "kind": "gov",
+   "title": "MBS item 42702 — lens extraction and insertion of intraocular lens",
+   "publisher": "Australian Government Department of Health, Disability and Ageing",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=42702&qt=item",
+   "accessed": "2026-09-17",
+   "note": "schedule fee $910.35, 75% benefit $682.80, fee shown as applying from 01-Jul-2026. The descriptor excludes 'surgery performed to correct a refractive error, other than anisometropia that exceeds 3 dioptres and develops after the removal of cataract in the first eye'."
   },
   {
    "id": "s:mbs-48918",
@@ -2108,12 +3442,48 @@
    "note": "the index names the price documents; the figures themselves sit in linked files"
   },
   {
+   "id": "s:medicana-about",
+   "kind": "web",
+   "title": "About Us — Medicana Health Group",
+   "publisher": "Medicana Sağlık Grubu",
+   "url": "https://www.medicanainternational.com/en/our-corporate/about-us",
+   "accessed": "2026-09-17",
+   "note": "the group's own account: services begun 1992, 18 hospitals of which 16 across seven Turkish cities and two abroad at Winchester and Sarajevo, and more than 5.5 million patients a year. No bed count, no doctor count and no accreditation is named on the page."
+  },
+  {
+   "id": "s:medicana-int-istanbul",
+   "kind": "web",
+   "title": "Medicana International Istanbul Hospital",
+   "publisher": "Medicana Sağlık Grubu",
+   "url": "https://www.medicanainternational.com/en/international-istanbul",
+   "accessed": "2026-09-17",
+   "note": "the flagship's own page: 30,000 square metres, eight operating theatres, 26 observation beds, 26-plus clinical services, an international patient centre with full-time English, Russian, Arabic, Kurdish and Somali interpreters, and an image of the Türkiye health tourism authorisation certificate. The inpatient bed figure is blank in the page's own text."
+  },
+  {
    "id": "s:medicare-travel-outside-us",
    "kind": "web",
    "title": "Travel outside the U.S.",
    "publisher": "Medicare.gov, US Centers for Medicare & Medicaid Services",
    "url": "https://www.medicare.gov/coverage/travel-outside-the-u.s.",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:memorial-about",
+   "kind": "web",
+   "title": "About Us — Memorial Hospitals Group",
+   "publisher": "Memorial Sağlık Grubu",
+   "url": "https://www.memorial.com.tr/en/about-us",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026. The group's own counters: 92 medical units, 12 hospitals, 7,300+ employees, 1,510+ bed capacity, patients from 167 countries. Founder Turgut Aydın's message states the group took the JCI accreditation certificate first in Turkey and 21st in the world. The timeline page dates Memorial Şişli's opening, its heart centre, its transplant licence of March 2004 and the group's overseas offices."
+  },
+  {
+   "id": "s:memorial-sisli",
+   "kind": "web",
+   "title": "Şişli Hospital — Memorial",
+   "publisher": "Memorial Sağlık Grubu",
+   "url": "https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital",
+   "accessed": "2026-09-17",
+   "note": "read in the browser on 17 September 2026 for the address Piyalepaşa Bulvarı 34385, Şişli, Istanbul. The hospital page links health packages — cancer control and heart control programmes — under a contact form; no price appears on it."
   },
   {
    "id": "s:mexico-bariatrics-center-sleeve",
@@ -2168,6 +3538,23 @@
    "url": "https://www.milliman.com/en/insight/2025-us-organ-and-tissue-transplants-costs-utilization",
    "accessed": "2026-09-16",
    "note": "estimated US average billed charges per transplant for the window 30 days before admission to 180 days after discharge, broken into six components; the report states that billed charges are unlikely to equal the amount actually paid"
+  },
+  {
+   "id": "s:milliman-transplant-press-2025",
+   "kind": "report",
+   "title": "Milliman releases 2025 report on U.S. organ and tissue transplant costs, utilization, and emerging issues — press release, Seattle, 13 February 2025",
+   "publisher": "Milliman, Inc.",
+   "url": "https://media.milliman.com/v1/media/edge/images/millimaninc5660-milliman6442-prod27d5-0001/media/Milliman/PDFs/Press-releases/2025/2-13-25_Organ-Transplant-press-release.pdf",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:milliman-transplant-table-2025",
+   "kind": "report",
+   "title": "Estimated 2025 U.S. organ transplant costs — the interactive cost table accompanying the 2025 report",
+   "publisher": "Nick Ortner and Hanna Holzer, Milliman; table hosted at assets.milliman.com and embedded in the report page",
+   "url": "https://assets.milliman.com/downloads/2025-organ-transplant/index-font-2.html",
+   "accessed": "2026-09-17",
+   "note": "read with the browser tools because the figures are rendered by script. Gives, per organ, the total number of transplants estimated for 2025 and the estimated average billed charges: liver 10,916 and $1,017,800; kidney 28,092 and $446,800; double lung 2,938 and $2,346,500. The table's own footer reads: NOTE: ALL DATA IS ESTIMATED. SOURCE: ESTIMATES BASED ON OPTN, HRSA, AND MILLIMAN PROPRIETARY DATA"
   },
   {
    "id": "s:mmwr-dr-mycobacteria-2018",
@@ -2229,6 +3616,15 @@
    "note": "written answer to a parliamentary question from Dr Lam Pin Min, 22 January 2009, giving the Singapore Tourism Board's airport exit-survey estimates and the ministry's own doubt about the method"
   },
   {
+   "id": "s:mohapatra-ndm1-2013",
+   "kind": "journal",
+   "title": "Metallo-beta-lactamase 1 — why blame New Delhi & India?",
+   "publisher": "Indian Journal of Medical Research 2013;137(1):213-215 (Mohapatra PR)",
+   "url": "https://ijmr.org.in/metallo-lactamase-1-why-blame-new-delhi-india/",
+   "accessed": "2026-09-17",
+   "note": "'It is strongly felt that the organisms should not be named after cities, countries and races. The nomenclature should be based on their scientific characteristics.'"
+  },
+  {
    "id": "s:mohw-kr-foreign-patients-2024",
    "kind": "web",
    "title": "Korea Attracts 1.17 Million Foreign Patients in 2024",
@@ -2247,6 +3643,15 @@
    "note": "the ministry's annual English-language report; no national count of international patients was read from it for this record"
   },
   {
+   "id": "s:mt-criminal-code",
+   "kind": "statute",
+   "title": "Criminal Code (Chapter 9 of the Laws of Malta), articles 241 and 243B",
+   "publisher": "Legislation Malta (legislation.mt)",
+   "url": "https://legislation.mt/eli/cap/9/eng",
+   "accessed": "2026-09-17",
+   "note": "article 243B was added by Act XXII of 2023 and permits termination before viability only where the woman's life is at immediate risk or her health in grave jeopardy"
+  },
+  {
    "id": "s:mta-about",
    "kind": "org",
    "title": "About MTA",
@@ -2263,6 +3668,33 @@
    "url": "https://www.medicaltourism.com/mti/home",
    "accessed": "2026-09-16",
    "note": "authorship, the three editions and their destination counts, the three dimensions and 41 criteria, and the survey of 3,030 Americans"
+  },
+  {
+   "id": "s:my-act-586-overview",
+   "kind": "web",
+   "title": "Regulatory framework for setting up private healthcare facilities and services in Malaysia",
+   "publisher": "Halim Hong & Quek (HHQ), Malaysian law firm",
+   "url": "https://hhq.com.my/posts/regulatory-framework-for-setting-up-private-healthcare-facilities-and-services-in-malaysia/",
+   "accessed": "2026-09-17",
+   "note": "a practitioner overview, not the statute. Quoted for the Act 586 approval requirement and the Private Healthcare Facilities and Services (Private Hospitals and Other Private Healthcare Facilities) Regulations 2006. The Act's own text could not be read on this date: the Attorney General's Chambers page returned an invalid request, CommonLII returned 403, and the circulating PDF reprint would not extract."
+  },
+  {
+   "id": "s:my-mab-guidelines",
+   "kind": "gov",
+   "title": "Medicine Advertisements Board (MAB) guidelines and policy",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/documents/medicine-advertisements-board-mab-guidelines-and-policy.html",
+   "accessed": "2026-09-17",
+   "note": "the index page states the guidelines complement the Medicines (Advertisement and Sale) Act 1956 (Revised 1983) and the Medicine Advertisements Board Regulations 1976; the KKLIU serial number and its validity sit in the linked PDFs, which were not read"
+  },
+  {
+   "id": "s:my-mab-kkliu",
+   "kind": "gov",
+   "title": "Is it necessary for medical advertisements on the internet to get approval from MAB?",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/faq/it-necessary-medical-advertisements-internet-get-approval-mab.html",
+   "accessed": "2026-09-17",
+   "note": "the Ministry's own answer: all dissemination of information about products and healthcare services to attract public attention, including on the internet, is an advertisement, and section 4B of the Medicines (Advertisement and Sale) Act 1956 requires Medicine Advertisements Board approval before publication"
   },
   {
    "id": "s:nabh-home",
@@ -2290,6 +3722,16 @@
    "url": "https://www.naturalearthdata.com/",
    "license": "Public domain",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:natural-earth-terms",
+   "kind": "web",
+   "title": "Terms of Use",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "license": "Public domain",
+   "accessed": "2026-09-17",
+   "note": "'All versions of Natural Earth raster + vector map data found on this website are in the public domain.' and 'No permission is needed to use Natural Earth.' The same page disclaims responsibility for accuracy and content."
   },
   {
    "id": "s:nephrocare-holiday-dialysis",
@@ -2358,6 +3800,24 @@
    "url": "https://www.nhs.uk/conditions/ivf/",
    "accessed": "2026-09-16",
    "note": "page last reviewed 15 April 2025"
+  },
+  {
+   "id": "s:nhs-national-tariff",
+   "kind": "gov",
+   "title": "National tariff",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/pay-syst/national-tariff/",
+   "accessed": "2026-09-17",
+   "note": "states that the NHS Payment Scheme replaced the national tariff from 1 April 2023"
+  },
+  {
+   "id": "s:nhs-payment-scheme",
+   "kind": "gov",
+   "title": "NHS Payment Scheme",
+   "publisher": "NHS England",
+   "url": "https://www.england.nhs.uk/pay-syst/nhs-payment-scheme/",
+   "accessed": "2026-09-17",
+   "note": "the 2026/27 scheme took effect 1 April 2026; the page carries the primary-care and high-cost-drug exclusions"
   },
   {
    "id": "s:nhs-pbt-adult-guide",
@@ -2429,6 +3889,15 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:nl-abortion-act-1981",
+   "kind": "statute",
+   "title": "Wet afbreking zwangerschap (Wet van 1 mei 1981), artikelen 3, 6 en 11, as amended by the Wet van 22 augustus 2022 (Stb. 2022, 326)",
+   "publisher": "Overheid.nl, wetten.overheid.nl",
+   "url": "https://wetten.overheid.nl/BWBR0003396/",
+   "accessed": "2026-09-17",
+   "note": "no week limit in the Act and no residence or nationality bar; woonplaats appears only in the article 11 statistical reporting. The fixed five-day beraadtermijn was removed in 2022 and the doctor and the woman now set the term together."
+  },
+  {
    "id": "s:nl-donor-data-act",
    "kind": "statute",
    "title": "Wet donorgegevens kunstmatige bevruchting",
@@ -2443,6 +3912,15 @@
    "publisher": "Overheid.nl, wetten.overheid.nl",
    "url": "https://wetten.overheid.nl/BWBR0012410/2023-04-01/0/Hoofdstuk2",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:nobel-biocare-trademarks",
+   "kind": "web",
+   "title": "Trademarks",
+   "publisher": "Nobel Biocare Services AG",
+   "url": "https://www.nobelbiocare.com/en-us/trademarks",
+   "accessed": "2026-09-17",
+   "note": "lists All-on-4 as a registered trademark with \"treatment concept\" given as the suggested generic term; no registration number read"
   },
   {
    "id": "s:nordorthopaedics-prices",
@@ -2472,6 +3950,33 @@
    "note": "at the end of May 2026: 669,506 waiting for a first outpatient consultation, 115,450 for an inpatient or day-case appointment, 40,986 for a GI endoscopy, 34,049 suspended, 111,643 on the planned-procedure list"
   },
   {
+   "id": "s:nuremberg-code-bmj",
+   "kind": "web",
+   "title": "The Nuremberg Code (1947)",
+   "publisher": "reprinted in the BMJ, No 7070, Volume 313, page 1448, 7 December 1996",
+   "url": "https://media.tghn.org/medialibrary/2011/04/BMJ_No_7070_Volume_313_The_Nuremberg_Code.pdf",
+   "accessed": "2026-09-17",
+   "note": "Principle 1 opens: The voluntary consent of the human subject is absolutely essential"
+  },
+  {
+   "id": "s:odbl-1-0",
+   "kind": "web",
+   "title": "Open Database License (ODbL) v1.0",
+   "publisher": "Open Data Commons",
+   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-17",
+   "note": "the share-alike licence OpenStreetMap data carries: attribution, and any adapted database shared under the same terms"
+  },
+  {
+   "id": "s:oecd-alos-metadata-2025",
+   "kind": "dataset",
+   "title": "Hospital discharges and average length of stay by diagnostic categories — definitions, sources and methods",
+   "publisher": "OECD Health Statistics 2025",
+   "url": "https://stats.oecd.org/wbos/fileview2.aspx?IDFile=1aac08d9-99d5-4b52-9aa8-bbc8da33454b",
+   "accessed": "2026-09-17",
+   "note": "ALOS is bed-days divided by discharges, counted as date of discharge minus date of admission; day cases are excluded, and a day-care patient retained overnight because of a complication is counted as an inpatient discharge"
+  },
+  {
    "id": "s:oecd-health-statistics",
    "kind": "dataset",
    "title": "OECD Health Statistics",
@@ -2488,6 +3993,24 @@
    "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/sha-guidelines/49011758.pdf",
    "accessed": "2026-09-16",
    "note": "June 2011; states that trade in health care is typically 0.0 to 1.0% of total health spending for the vast majority of countries, that balance-of-payments sources have proved mostly inadequate, and that cosmetic surgery and patient transport sit on or outside the boundary of health care"
+  },
+  {
+   "id": "s:oecd-waiting-definitions-2025",
+   "kind": "report",
+   "title": "OECD Health Statistics 2025 — Definitions, Sources and Methods: waiting times for selected elective surgeries",
+   "publisher": "OECD, Health Division",
+   "url": "https://stats.oecd.org/wbos/fileview2.aspx?IDFile=cae608c4-fa81-4f56-8d7f-a0d4d609de80",
+   "accessed": "2026-09-17",
+   "note": "PDF dated 10 September 2025; carries the two waiting-time definitions, the inclusion of publicly-funded patients, the exclusion of the GP-referral-to-assessment stretch, the seven procedures with ICD-9-CM codes, the per-country 'Deviation from the definition' notes and the 'Data not available' entries for Austria, Belgium, Czechia, France, Germany, Japan, Korea, Latvia, Luxembourg, Mexico, the Slovak Republic, Switzerland, Türkiye and the United States"
+  },
+  {
+   "id": "s:oecd-waiting-sdmx",
+   "kind": "dataset",
+   "title": "Waiting times dataflow DSD_HEALTH_PROC@DF_WAITING, OECD SDMX API",
+   "publisher": "OECD",
+   "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,1.1/all?format=csvfile",
+   "accessed": "2026-09-17",
+   "note": "the extract read for this project holds 6,609 observations, 24 countries, 2000-2024, 19 countries reporting for 2024; WTSP 3,925 observations and WTPA 2,684; the 2024 knee-replacement medians quoted in the record were read from it"
   },
   {
    "id": "s:oecd-wikipedia",
@@ -2515,6 +4038,33 @@
    "url": "https://openlibrary.org/works/OL9228481W",
    "accessed": "2026-09-16",
    "note": "first publication year 2007; the author record /authors/OL3288597A carries thirteen works"
+  },
+  {
+   "id": "s:optegra-icl-costs",
+   "kind": "web",
+   "title": "ICL Surgery Costs",
+   "publisher": "Optegra Eye Health Care, United Kingdom",
+   "url": "https://www.optegra.com/laser-eye-surgery/icl-evo/costs/",
+   "accessed": "2026-09-17",
+   "note": "£3,595 per eye, described as a fixed price covering the virtual consultation, eye health check, treatment plan, the treatment and aftercare. The page carries no date of its own."
+  },
+  {
+   "id": "s:optegra-laser-costs",
+   "kind": "web",
+   "title": "Laser Eye Surgery Costs",
+   "publisher": "Optegra Eye Health Care, United Kingdom",
+   "url": "https://www.optegra.com/laser-eye-surgery/costs/",
+   "accessed": "2026-09-17",
+   "note": "prices stated per eye: LASEK £1,495, LASIK £2,095, ReLEx SMILE £2,695, Presbyond £2,995, each including consultations, treatment, aftercare, medication and any enhancement treatment if clinically required. The page carries no date of its own."
+  },
+  {
+   "id": "s:or-ors-127-805",
+   "kind": "statute",
+   "title": "Oregon Death with Dignity Act, ORS 127.805 (s. 2.01), as amended by Or. Laws 2023 ch. 241 § 2",
+   "publisher": "oregon.public.law, reproduction of the Oregon Revised Statutes",
+   "url": "https://oregon.public.law/statutes/ors_127.805",
+   "accessed": "2026-09-17",
+   "note": "the current text carries no residency clause; the requirement was removed by HB 2279 (2023) following the settlement of a federal suit in 2022"
   },
   {
    "id": "s:osm",
@@ -2563,6 +4113,15 @@
    "publisher": "Ayurveda Parkschloesschen, Bad Wildstein, Germany",
    "url": "https://www.ayurveda-parkschloesschen.de/uebersicht/panchakarma_kur_klassisch/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:pegasos-faqs",
+   "kind": "org",
+   "title": "FAQs — cost, refund policy and who may apply",
+   "publisher": "Pegasos Swiss Association, Basel",
+   "url": "https://pegasos-association.com/faqs/",
+   "accessed": "2026-09-17",
+   "note": "the answers are inside collapsed panels and were read out of the page text with the browser tools. States a cost of approximately CHF 10,000 covering paperwork, consultations, the appointment including drugs, cremation and couriering of ashes, paid in two instalments, with CHF 1,500 retained on withdrawal."
   },
   {
    "id": "s:penney-broker-consent-2011",
@@ -2616,6 +4175,15 @@
    "url": "https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidspn1311.pdf",
    "accessed": "2026-09-16",
    "note": "Oscar F. Picazo, October 2013, ISSN 1656-5266"
+  },
+  {
+   "id": "s:pl-98-21-statute",
+   "kind": "statute",
+   "title": "Social Security Amendments of 1983, Public Law 98-21, 97 Stat. 65, approved 20 April 1983 — Title VI, Prospective Payments for Medicare, section 601",
+   "publisher": "United States Statutes at Large, via govinfo",
+   "url": "https://www.govinfo.gov/content/pkg/STATUTE-97/pdf/STATUTE-97-Pg65.pdf",
+   "accessed": "2026-09-17",
+   "note": "carries the three-year phase-in: 75 per cent target and 25 per cent DRG for discharges on or after 1 October 1983"
   },
   {
    "id": "s:pl-family-planning-act-1993",
@@ -2747,6 +4315,24 @@
    "note": "read 16 September 2026: IVF with own eggs from EUR 3,000 including basic laboratory methods; donor egg programme with guarantee from EUR 5,950 including basic laboratory methods; frozen embryo transfer from EUR 990; egg freezing for non-medical reasons from EUR 1,990, which excludes medication and includes two years of storage; IUI from EUR 400; donor embryo transfer from EUR 1,850"
   },
   {
+   "id": "s:psri-liver-cost-2026",
+   "kind": "web",
+   "title": "Liver Transplant Cost in India 2026: Surgery Price, Recovery & Outcomes",
+   "publisher": "PSRI Hospital (Pushpawati Singhania Research Institute), Sheikh Sarai, New Delhi",
+   "url": "https://psrihospital.com/liver-transplant-cost-in-india-from-diagnosis-to-recovery/",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own page. Quotes a living-donor range of 18-20 lakh rupees and 30-35 lakh for deceased-donor and complex cases, a hospital stay of 10-15 days, and an international-patient service that includes medical visa letters and embassy documentation. The page carries no inclusion list beyond a prose sentence and no validity date."
+  },
+  {
+   "id": "s:pt-codigo-penal-142",
+   "kind": "statute",
+   "title": "Código Penal, artigo 142.º, as amended by Lei n.º 16/2007",
+   "publisher": "Diário da República, Portugal",
+   "url": "https://files.diariodarepublica.pt/1s/2007/04/07500/24172418.pdf",
+   "accessed": "2026-09-17",
+   "note": "10 weeks by the woman's choice, after a reflection period of not less than three days"
+  },
+  {
    "id": "s:ptcog-under-construction",
    "kind": "org",
    "title": "Particle therapy facilities under construction (update June 2026)",
@@ -2790,6 +4376,24 @@
    "note": "the group's retail screening store, priced online in Singapore dollars"
   },
   {
+   "id": "s:rassman-fue-2002",
+   "kind": "paper",
+   "title": "Follicular unit extraction: minimally invasive surgery for hair transplantation",
+   "publisher": "Rassman WR, Bernstein RM, McClellan R, Jones R, Worton E, Uyttendaele H. Dermatologic Surgery 2002 Aug;28(8):720-8",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12174065/",
+   "accessed": "2026-09-17",
+   "note": "citation verified through the NCBI esummary API on 17 September 2026 (PMID 12174065)"
+  },
+  {
+   "id": "s:rcoa-gpas-day-surgery-2021",
+   "kind": "org",
+   "title": "Chapter 6: Guidelines for the Provision of Anaesthesia Services for Day Surgery 2021, published 31 March 2021",
+   "publisher": "The Royal College of Anaesthetists (United Kingdom)",
+   "url": "https://rcoa.ac.uk/gpas/chapter-6",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page is refused to a plain fetch. Recommendation 5.25 (grade C, strong) on a responsible adult escorting the patient home and supporting them for 24 hours; 5.26 on private car or taxi; 5.24 on a 24-hour telephone number that is not an answerphone; 5.7 on preoperative assessment as early as possible in the pathway; 5.29 on the patient's copy of the discharge summary"
+  },
+  {
    "id": "s:reprofit-pricelist-2026",
    "kind": "web",
    "title": "Pricelist — Assisted Reproduction, valid from 01.01.2026 (document 0331.26ENG)",
@@ -2797,6 +4401,34 @@
    "url": "https://www.reprofit.cz/media/filer_public/3d/7a/3d7a97cf-ec54-477b-af94-585766aa8f35/0331eng_cenik_vykonu_ivf_pro_samoplatce.pdf",
    "accessed": "2026-09-16",
    "note": "the clinic's own self-payer price list, five pages, each line naming its inclusions and its exclusions"
+  },
+  {
+   "id": "s:rferl-russia-gender-law-2023",
+   "kind": "news",
+   "title": "Putin signs law banning gender-reassignment procedures",
+   "publisher": "Radio Free Europe/Radio Liberty",
+   "url": "https://www.rferl.org/a/russia-gender-reassignment-banned-putin-signs-law/32517157.html",
+   "accessed": "2026-09-17",
+   "note": "a news report, not the statute. The federal law number was not confirmed on any page read for this record, and is therefore not printed."
+  },
+  {
+   "id": "s:rg-32182-2023-sac-ekimi",
+   "kind": "web",
+   "title": "Saç Ekimi Birimleri Hakkında Yönetmelik, Resmî Gazete 6 Mayıs 2023, Sayı 32182",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2023,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230506-11.htm",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:rg-32882-2025",
+   "kind": "web",
+   "title": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik, Resmî Gazete 26 Nisan 2025, Sayı 32882",
+   "publisher": "T.C. Resmî Gazete",
+   "year": 2025,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm",
+   "accessed": "2026-09-17",
+   "note": "MADDE 17 repeals the 13/7/2017 regulation (RG 30123) that most secondary writing still cites"
   },
   {
    "id": "s:rg-saglik-turizmi-2017",
@@ -2817,12 +4449,30 @@
    "note": "buttock price list in zloty, gross, stated to cover the whole procedure including post-operative care"
   },
   {
+   "id": "s:rutnin-cataract-package",
+   "kind": "web",
+   "title": "CATARACT Surgery Package",
+   "publisher": "Rutnin Eye Hospital, Bangkok",
+   "url": "https://www.rutnin.com/en/promotion/detail.315.1.html",
+   "accessed": "2026-09-17",
+   "note": "the page carries the package terms and no price in text, stated updated 2 October 2023 and valid until 31 December 2026. Term 3 reads: 'If the ophthalmologist recommends the use of lenses other than those specified in the package, additional charges will apply.' Term 4 excludes doctor fees, consultation fees and pre-operative evaluation."
+  },
+  {
    "id": "s:sacper",
    "kind": "web",
    "title": "Sociedad Argentina de Cirugía Plástica, Estética y Reparadora",
    "publisher": "SACPER, Buenos Aires",
    "url": "https://www.sacper.org.ar/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:salgo-1957",
+   "kind": "law",
+   "title": "Salgo v. Leland Stanford Jr. University Board of Trustees, 154 Cal. App. 2d 560, 317 P.2d 170 (Cal. Ct. App., 22 October 1957)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/2619445/salgo-v-leland-stanford-jr-university-board-of-trustees/",
+   "accessed": "2026-09-17",
+   "note": "case name, citations, court and filing date verified through the CourtListener search API on 17 September 2026; the opinion text itself was not read for this record"
   },
   {
    "id": "s:samitivej-checkup-sukhumvit",
@@ -2876,6 +4526,15 @@
    "note": "prices in US dollars and Mexican pesos, read off the page on 16 September 2026; the page states that all prices are a base or starting-at price and carries no location qualifier, though the group lists clinics in Los Algodones, Cancún and Playa del Carmen"
   },
   {
+   "id": "s:savric-equal-earth-2018",
+   "kind": "paper",
+   "title": "The Equal Earth map projection",
+   "publisher": "Savric B, Patterson T, Jenny B. International Journal of Geographical Information Science 2019;33(3):454-465, published online 7 August 2018, doi:10.1080/13658816.2018.1504949",
+   "url": "https://doi.org/10.1080/13658816.2018.1504949",
+   "accessed": "2026-09-17",
+   "note": "the publisher's page returned HTTP 403; the citation and the description of the projection as an equal-area pseudocylindrical world projection were read on the encyclopedia article registered as s:wp-equal-earth. The projection's coefficients are implemented in tools/worldmap.py."
+  },
+  {
    "id": "s:sbcp",
    "kind": "web",
    "title": "Sociedade Brasileira de Cirurgia Plástica",
@@ -2891,6 +4550,15 @@
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2078548/",
    "accessed": "2026-09-16",
    "note": "74 matched pairs, lumbar puncture, thoracentesis and paracentesis, one US public teaching hospital, January 2004 to January 2006"
+  },
+  {
+   "id": "s:schloendorff-1914",
+   "kind": "law",
+   "title": "Schloendorff v. Society of the New York Hospital, 211 N.Y. 125, 105 N.E. 92 (N.Y. Court of Appeals, 14 April 1914)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/3599100/schloendorff-v-society-of-the-new-york-hospital/",
+   "accessed": "2026-09-17",
+   "note": "citations, court and date verified through the CourtListener search API on 17 September 2026"
   },
   {
    "id": "s:se-genetic-integrity-act",
@@ -2936,12 +4604,39 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:severance-overview",
+   "kind": "web",
+   "title": "Overview",
+   "publisher": "Severance Hospital, Yonsei University Health System",
+   "url": "https://sev.severance.healthcare/sev-en/about/overview.do",
+   "accessed": "2026-09-17",
+   "note": "founded 1885 by H. N. Allen as the country's first western-style hospital; names JCI accreditation without a year; carries unit volumes — the first 20,000 robotic operations in the world by 2018, about 2,000 coronary artery operations and about 1,300 arrhythmia treatments a year"
+  },
+  {
+   "id": "s:sg-hcsa-advertisement-regs-2021",
+   "kind": "statute",
+   "title": "Healthcare Services (Advertisement) Regulations 2021 (S 1033/2021), made under the Healthcare Services Act 2020",
+   "publisher": "Singapore Statutes Online, Attorney-General's Chambers",
+   "url": "https://sso.agc.gov.sg/SL/HSA2020-S1033-2021?DocDate=20211230",
+   "accessed": "2026-09-17",
+   "note": "registered from the Singapore Statutes Online listing; the regulations' own text returned 403 on this date, and the advertising controls described in the records that cite it come from the Ministry of Health's own newsroom pages"
+  },
+  {
    "id": "s:sg-hota",
    "kind": "statute",
    "title": "Human Organ Transplant Act 1987, Part 4 (prohibition of trading in organs and blood)",
    "publisher": "Singapore Statutes Online, Attorney-General's Chambers",
    "url": "https://sso.agc.gov.sg/Act/HOTA1987",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:sg-moh-advertising-controls",
+   "kind": "gov",
+   "title": "Non-licensed healthcare entities not permitted to make advertising claims",
+   "publisher": "Ministry of Health, Singapore",
+   "url": "https://www.moh.gov.sg/newsroom/non-licensed-healthcare-entities-not-permitted-to-make-advertising-claims",
+   "accessed": "2026-09-17",
+   "note": "advertising controls under the Healthcare Services Act 2020 came into force on 26 June 2023 for non-licensed providers and non-registered professionals; only licensees or their authorised persons may advertise a licensable healthcare service, under section 31"
   },
   {
    "id": "s:sg-termination-act",
@@ -2958,6 +4653,15 @@
    "publisher": "Human Reproduction 25(6):1361-1368, ESHRE Taskforce on Cross Border Reproductive Care",
    "url": "https://academic.oup.com/humrep/article/25/6/1361/2915759",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:shgm-yetkili-tesisler",
+   "kind": "org",
+   "title": "Bakanlığımızca Yetkilendirilmiş Sağlık Tesisleri — the four published lists of authorised facilities",
+   "publisher": "T.C. Sağlık Bakanlığı, Sağlık Turizmi Daire Başkanlığı",
+   "url": "https://shgmturizmdb.saglik.gov.tr/TR-67458/bakanligimizca-yetkilendirilmis-saglik-tesisleri-icin-tiklayiniz.html",
+   "accessed": "2026-09-17",
+   "note": "lists stamped 20 August 2026; the Ministry prints no total, so the counts here are the last sequence number in each list"
   },
   {
    "id": "s:smc-cuba",
@@ -3010,6 +4714,15 @@
    "note": "systematic review counting 120,756 patients reported in 538 peer-reviewed publications since 2000; it counts published patients, not treated patients"
   },
   {
+   "id": "s:stasi-thailand-art-act-2017",
+   "kind": "paper",
+   "title": "Protection for Children Born Through Assisted Reproductive Technologies Act, B.E. 2558: The Changing Profile of Surrogacy in Thailand, by Alessandro Stasi",
+   "publisher": "Clinical Medicine Insights: Reproductive Health, via PubMed Central PMC5753847",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753847/",
+   "accessed": "2026-09-17",
+   "note": "enacted by the National Legislative Assembly 19 February 2015. Section 21(1): the intending parents must be adult Thai citizens, or where only one is a Thai citizen must have been married at least three years, and must be a legally married couple whose wife cannot conceive. Penalties at sections 24 and 48 (surrogacy for profit: 10 years and up to 200,000 baht) and sections 27 and 49 (acting as an agent: 5 years and up to 100,000 baht)."
+  },
+  {
    "id": "s:statnews-kymriah-price",
    "kind": "news",
    "title": "The $475,000 price tag for a new cancer drug: crazy or meh?",
@@ -3017,6 +4730,15 @@
    "url": "https://www.statnews.com/2017/08/31/475000-price-tag-new-cancer-drug-crazy-meh/",
    "accessed": "2026-09-16",
    "note": "the first CAR-T list price, reported the day after approval"
+  },
+  {
+   "id": "s:statpearls-asa-physical-status",
+   "kind": "reference",
+   "title": "American Society of Anesthesiologists Physical Status Classification System — StatPearls, last updated 11 February 2025",
+   "publisher": "Hendrix JM, Garmon EH. StatPearls Publishing, NCBI Bookshelf NBK441940",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/",
+   "accessed": "2026-09-17",
+   "note": "used because the ASA's own statement page now redirects to a journal host that refuses automated access. Carries the 1941 introduction, the House of Delegates approval of 15 October 2014 and the amendment of 13 December 2020, the six ordinal classes plus the E designation, and the meta-analytic sensitivity, specificity and area under the curve for predicting postoperative mortality"
   },
   {
    "id": "s:stimezo-zwolle-kosten",
@@ -3035,6 +4757,15 @@
    "url": "https://supornclinic.com/patient-administration/",
    "accessed": "2026-09-16",
    "note": "a long-established destination clinic stating that it does not publish prices, and setting out its deposit, payment and cancellation schedule"
+  },
+  {
+   "id": "s:swissrights-stgb-115",
+   "kind": "web",
+   "title": "Article 115 of the Swiss Criminal Code (English), on a private reproduction of the statute",
+   "publisher": "swissrights.ch",
+   "url": "https://www.swissrights.ch/gesetze/Artikel-115-StGB-2025-EN.php",
+   "accessed": "2026-09-17",
+   "note": "a mirror, read because fedlex.admin.ch renders by script and did not return text on this date. The mirror does not display the SR number, so this project does not print one from it. The provision punishes inciting or assisting suicide only where the actor is led by a selfish motive; it carries no nationality or residence condition."
   },
   {
    "id": "s:tc-portugal-225-2018",
@@ -3091,12 +4822,39 @@
    "note": "fees by level of care and bed count, three-year fee schedule with first and second annual fees, assessor travel and accommodation excluded"
   },
   {
+   "id": "s:th-penal-code-301-305",
+   "kind": "statute",
+   "title": "ประมวลกฎหมายอาญา มาตรา 301 และ 305, as amended by the Criminal Code Amendment Act (No. 28) B.E. 2564 (2021)",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Thailand",
+   "url": "https://abortion-policies.srhr.org/country/thailand",
+   "accessed": "2026-09-17",
+   "note": "on request to 12 weeks; between 12 and 20 weeks an examination and alternative counselling are required under a 2022 decree"
+  },
+  {
    "id": "s:thacoor-nhs-cost-2019",
    "kind": "paper",
    "title": "Surgical Management of Cosmetic Surgery Tourism-Related Complications: Current Trends and Cost Analysis Study of the Financial Impact on the UK National Health Service",
    "publisher": "Aesthetic Surgery Journal 2019;39(7):786-791 (Thacoor A, van den Bosch P, Akhavani MA), Royal Free Hospital, London",
    "url": "https://pubmed.ncbi.nlm.nih.gov/30590431/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:thaiembassy-dc-mt-visa",
+   "kind": "gov",
+   "title": "Tourist Visa (Medical Treatment)",
+   "publisher": "Royal Thai Embassy, Washington DC",
+   "url": "https://washingtondc.thaiembassy.org/en/page/non-immigrant-visa-mt",
+   "accessed": "2026-09-17",
+   "note": "60 days' stay, a 30-day extension to a maximum of 90 days from entry, a letter of appointment from the hospital, and a funds test of USD 700 per person per month or USD 2,000 per family. The page says nothing about a companion."
+  },
+  {
+   "id": "s:thaiembassy-kl-mt-visa",
+   "kind": "gov",
+   "title": "Medical Treatment (MT) or Non-Immigrant (O) for Medical Treatment",
+   "publisher": "Royal Thai Embassy, Kuala Lumpur",
+   "url": "https://kualalumpur.thaiembassy.org/en/publicservice/medical-treatment-mt-or-non-immigrant-o-for-medical",
+   "accessed": "2026-09-17",
+   "note": "the mission that publishes the two classes under one heading, which is the fork a longer course takes"
   },
   {
    "id": "s:tijuana-bariatric-center-cost",
@@ -3115,6 +4873,15 @@
    "url": "https://saglikturizmi.saglik.gov.tr/EN,69063/healthcare-providers-authorized-by-the-ministry.html",
    "accessed": "2026-09-16",
    "note": "separate downloadable lists for hospitals, medical centres, private practices, other providers and authorised facilitators; page dated 20 August 2026"
+  },
+  {
+   "id": "s:tr-civil-code-art-40",
+   "kind": "statute",
+   "title": "Turkish Civil Code, Book I, Section I, Chapter II — Article 40 (change of sex)",
+   "publisher": "Legal Information Institute, Cornell Law School, Gender Justice collection",
+   "url": "https://www.law.cornell.edu/gender-justice/resource/turkish_civil_code_volume_i_section_i_chapter_ii_personal_status_registry",
+   "accessed": "2026-09-17",
+   "note": "court permission is a precondition of the surgery, not only of the registry change: over 18, unmarried, and an official health-council report from a training and research hospital. The procreative-incapacity requirement was struck by Constitutional Court decision 2017/165, which this project has not read."
   },
   {
    "id": "s:tr-health-tourism-reg-2017",
@@ -3160,6 +4927,15 @@
    "note": "departments including the Health Tourism Department and the Quality and Accreditation Department; address at Üniversiteler Mahallesi, Şehit Mehmet Bayraktar Caddesi No 3, Çankaya, Ankara"
   },
   {
+   "id": "s:tr-tanitim-yonetmelik-2025",
+   "kind": "statute",
+   "title": "Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Faaliyetleri Hakkında Yönetmelik (Resmî Gazete, 12 November 2025, No. 33075)",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://resmigazete.gov.tr/eskiler/2025/11/20251112-2.htm",
+   "accessed": "2026-09-17",
+   "note": "the Resmî Gazete page's certificate could not be verified on this date; the text was read on a Turkish accountancy portal's reproduction at alomaliye.com. Madde 5: implicit or explicit advertising in the provision of health services is prohibited. Madde 8: promotion directed abroad may run on separate platforms, may not select a domestic audience, and must carry the HealthTürkiye logo. Repeals the regulation of 29 July 2023, No. 32263."
+  },
+  {
    "id": "s:trnc-moh-art-tuzuk",
    "kind": "regulation",
    "title": "Üremeye Yardımcı Tedavi Merkezleri 381-2016 Madde 32 Altında Yapılan Tüzük (regulation on assisted reproduction centres, made under Article 32)",
@@ -3169,12 +4945,40 @@
    "note": "the ministry hosts this regulation, numbered 381/2016 and made under Article 32 of the assisted reproduction centres law. The PDF is a scan of printed pages and its text could not be extracted on this pass; only the ministry-published title and number were read, and the ministry's separate Üremeye Yardımcı Tedavi (assisted reproduction) portal was seen in its own service menu."
   },
   {
+   "id": "s:tuik-turizm-2025",
+   "kind": "dataset",
+   "title": "Turizm İstatistikleri, IV. Çeyrek: Ekim-Aralık ve Yıllık, 2025 (Sayı 54158) — table: Departing Visitors by Purpose of Visit, 2012–2026",
+   "publisher": "Türkiye İstatistik Kurumu (TurkStat)",
+   "year": 2026,
+   "url": "https://veriportali.tuik.gov.tr/Bulten/Index?p=Turizm-Istatistikleri-IV.-Ceyrek:-Ekim-Aralik-ve-Yillik,-2025-54158",
+   "accessed": "2026-09-17",
+   "note": "the health figure appears only in the attached statistical table, not in the bulletin text; its own footer names the source as the TurkStat Departing Visitors Survey — a border exit survey of stated purpose, not a count of patients treated"
+  },
+  {
+   "id": "s:tuik-turizm-2026q2",
+   "kind": "dataset",
+   "title": "Turizm İstatistikleri, II. Çeyrek: Nisan-Haziran, 2026 (Sayı 58143)",
+   "publisher": "Türkiye İstatistik Kurumu (TurkStat)",
+   "year": 2026,
+   "url": "https://veriportali.tuik.gov.tr/tr/press/58143",
+   "accessed": "2026-09-17"
+  },
+  {
    "id": "s:turner-knoepfler-2016",
    "kind": "paper",
    "title": "Selling Stem Cells in the USA: Assessing the Direct-to-Consumer Industry",
    "publisher": "Cell Stem Cell 2016;19(2):154-157 (Turner L, Knoepfler P)",
    "url": "https://pubmed.ncbi.nlm.nih.gov/27374789/",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:tw-eugenics-act",
+   "kind": "statute",
+   "title": "優生保健法 第九條 (Genetic Health Act, article 9)",
+   "publisher": "Laws and Regulations Database of the Republic of China (Taiwan), Ministry of Justice",
+   "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0070001",
+   "accessed": "2026-09-17",
+   "note": "a married woman relying on the sixth ground must have her spouse's consent. Taiwan is not in the WHO Global Abortion Policies Database and was read here directly."
   },
   {
    "id": "s:uci-leigh-turner",
@@ -3226,6 +5030,15 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:uk-human-tissue-act-s33",
+   "kind": "statute",
+   "title": "Human Tissue Act 2004, section 33 — restriction on transplants involving a live donor",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/33",
+   "accessed": "2026-09-17",
+   "note": "an offence unless the Human Tissue Authority is satisfied that no reward has been given contrary to section 32 and that the conditions in regulations are met"
+  },
+  {
    "id": "s:uk-suicide-act-1961",
    "kind": "statute",
    "title": "Suicide Act 1961, section 2 (as amended by the Coroners and Justice Act 2009)",
@@ -3240,6 +5053,33 @@
    "publisher": "The National Archives, legislation.gov.uk",
    "url": "https://www.legislation.gov.uk/ukpga/1985/49/section/2",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:un-tourism-statistics",
+   "kind": "dataset",
+   "title": "Tourism Statistics Database",
+   "publisher": "UN Tourism (World Tourism Organization)",
+   "url": "https://www.unwto.org/tourism-statistics/tourism-statistics-database",
+   "accessed": "2026-09-17",
+   "note": "the Yearbook and Compendium of Tourism Statistics, which the World Bank republishes as ST.INT.ARVL"
+  },
+  {
+   "id": "s:unwto-2020-arrivals",
+   "kind": "org",
+   "title": "2020: worst year in tourism history with 1 billion fewer international arrivals",
+   "publisher": "UN Tourism (World Tourism Organization), 28 January 2021",
+   "url": "https://www.untourism.int/news/2020-worst-year-in-tourism-history-with-1-billion-fewer-international-arrivals",
+   "accessed": "2026-09-17",
+   "note": "arrivals down 74% in 2020, 1 billion fewer than 2019, an estimated USD 1.3 trillion in lost export revenues, 100-120 million direct tourism jobs at risk; Asia-Pacific -84%, Middle East and Africa -75%, Europe -70%, Americas -69%"
+  },
+  {
+   "id": "s:us-ca-hsc-443-2",
+   "kind": "statute",
+   "title": "California End of Life Option Act, Health and Safety Code § 443.2(a)(3)",
+   "publisher": "California Legislative Information",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=443.2",
+   "accessed": "2026-09-17",
+   "note": "the applicant must be a resident of California, proved by a California driver's licence or state identification, California voter registration, ownership or lease of California property, or a California tax return for the most recent year"
   },
   {
    "id": "s:us-dobbs-2022",
@@ -3327,6 +5167,50 @@
    "note": "the programme's own objectives and published targets; read for what it does and does not set a number against"
   },
   {
+   "id": "s:wb-hospital-beds",
+   "kind": "dataset",
+   "title": "Hospital beds (per 1,000 people) — indicator SH.MED.BEDS.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition read off https://api.worldbank.org/v2/indicator/SH.MED.BEDS.ZS?format=json — inpatient beds in public, private, general and specialised hospitals and rehabilitation centres, acute and chronic care in most cases; WHO data supplemented by country data"
+  },
+  {
+   "id": "s:wb-oop-share",
+   "kind": "dataset",
+   "title": "Out-of-pocket expenditure (% of current health expenditure) — indicator SH.XPD.OOPC.CH.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition read off https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json; source organisation given as the WHO Global Health Expenditure Database, updated December 12th, 2025"
+  },
+  {
+   "id": "s:wb-physicians",
+   "kind": "dataset",
+   "title": "Physicians (per 1,000 people) — indicator SH.MED.PHYS.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition and source organisation read off the indicator metadata endpoint https://api.worldbank.org/v2/indicator/SH.MED.PHYS.ZS?format=json — 'Physicians include generalist and specialist medical practitioners'; sourced from WHO Global Health Workforce Statistics, the OECD and country data"
+  },
+  {
+   "id": "s:wb-tourist-arrivals",
+   "kind": "dataset",
+   "title": "International tourism, number of arrivals — indicator ST.INT.ARVL",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "the long definition and its caveats read off https://api.worldbank.org/v2/indicator/ST.INT.ARVL?format=json, including the sentences on differing national collection methods and on arrivals not being people; source organisation UN Tourism, Yearbook and Compendium of Tourism Statistics"
+  },
+  {
    "id": "s:wesgro-medical-tourism-study",
    "kind": "gov",
    "title": "Medical Tourism — an introduction and a Western Cape market study",
@@ -3378,6 +5262,24 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:who-gho-about",
+   "kind": "web",
+   "title": "About the Global Health Observatory",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/info/about-the-observatory",
+   "accessed": "2026-09-17",
+   "note": "the 194 Member States and 'over 1000 indicators' description, and the disclaimer that GHO datasets are WHO best estimates aiming at comparability and 'are not always the same as official national estimates'"
+  },
+  {
+   "id": "s:who-gho-odata",
+   "kind": "dataset",
+   "title": "GHO OData API",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/info/gho-odata-api",
+   "accessed": "2026-09-17",
+   "note": "the API at https://ghoapi.azureedge.net/api returned 3,099 indicator records and 202 dimensions on this date; the page carries no licence statement of its own"
+  },
+  {
    "id": "s:who-guiding-principles",
    "kind": "org",
    "title": "WHO Guiding Principles on Human Cell, Tissue and Organ Transplantation, as endorsed by the Sixty-third World Health Assembly, May 2010, in Resolution WHA63.22",
@@ -3386,12 +5288,48 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:who-health-workforce",
+   "kind": "dataset",
+   "title": "Health workforce — Global Health Observatory theme",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/data/themes/topics/health-workforce",
+   "accessed": "2026-09-17",
+   "note": "the WHO collection the World Bank names as the upstream of its physicians indicator"
+  },
+  {
+   "id": "s:who-nha-database",
+   "kind": "dataset",
+   "title": "Global Health Expenditure Database",
+   "publisher": "World Health Organization",
+   "url": "https://apps.who.int/nha/database",
+   "accessed": "2026-09-17",
+   "note": "the national health accounts database behind the World Bank's spending and out-of-pocket indicators"
+  },
+  {
+   "id": "s:who-pandemic-remarks-2020",
+   "kind": "web",
+   "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 — 11 March 2020",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+   "accessed": "2026-09-17",
+   "note": "'We have therefore made the assessment that COVID-19 can be characterized as a pandemic.'"
+  },
+  {
    "id": "s:who-substandard-falsified",
    "kind": "org",
    "title": "Substandard and falsified medical products — fact sheet dated 3 December 2024",
    "publisher": "World Health Organization",
    "url": "https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:who-terms-of-use",
+   "kind": "web",
+   "title": "Terms of use",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/about/policies/terms-of-use",
+   "accessed": "2026-09-17",
+   "note": "reproduction for research or private study is permitted 'but not for sale or for use in conjunction with commercial purposes'; WHO publications carry CC BY-NC-SA 3.0 IGO"
   },
   {
    "id": "s:who-wikipedia",
@@ -3418,6 +5356,15 @@
    "url": "https://wimpole.com/blog/hair-transplant-cost-uk-analysis/",
    "accessed": "2026-09-16",
    "note": "a clinic's own mystery-shopper survey: one photograph of a Norwood stage 2-3 patient sent to 104 UK clinics, data used from 58"
+  },
+  {
+   "id": "s:wma-helsinki",
+   "kind": "org",
+   "title": "WMA Declaration of Helsinki — Ethical Principles for Medical Research Involving Human Subjects",
+   "publisher": "World Medical Association",
+   "url": "https://www.wma.net/policies-post/wma-declaration-of-helsinki/",
+   "accessed": "2026-09-17",
+   "note": "adopted June 1964 at the 18th WMA General Assembly, Helsinki; most recently amended at the 75th General Assembly, Helsinki, 2024"
   },
   {
    "id": "s:wmda-global-database",
@@ -3447,6 +5394,16 @@
    "note": "the counters are cumulative from March 1982 to August 2026 and are the hospital's own"
   },
   {
+   "id": "s:worldbank-oop-indicator",
+   "kind": "dataset",
+   "title": "Out-of-pocket expenditure (% of current health expenditure), indicator SH.XPD.OOPC.CH.ZS",
+   "publisher": "World Bank Open Data, from the WHO Global Health Expenditure Database",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+   "api": "https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json",
+   "accessed": "2026-09-17",
+   "note": "definition and the source database read off the World Bank indicator API on 17 September 2026; the API records the WHO database as updated 12 December 2025"
+  },
+  {
    "id": "s:worldbank-open-data",
    "kind": "dataset",
    "title": "World Bank Open Data — health and tourism indicators",
@@ -3467,6 +5424,36 @@
    "note": "carries the BAAPS national audit figures and the NHS Scotland series"
   },
   {
+   "id": "s:wp-acibadem",
+   "kind": "wikipedia",
+   "title": "Acıbadem Healthcare Group",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Acibadem_Healthcare_Group",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "founded 1991 by Mehmet Ali Aydınlar; IHH Healthcare took a majority stake in 2011 and holds about 90 per cent after the 2018 share conversions; 29 hospitals and 15 medical centres; flagship Acıbadem Altunizade, Üsküdar, Istanbul"
+  },
+  {
+   "id": "s:wp-albert-einstein",
+   "kind": "wikipedia",
+   "title": "Hospital Israelita Albert Einstein",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hospital_Israelita_Albert_Einstein",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "society founded 1955 by members of the São Paulo Jewish community, hospital inaugurated 28 July 1971, run by the Sociedade Beneficente Israelita Brasileira Albert Einstein as a private nonprofit that also treats SUS patients; first health institution outside the United States accredited by JCI, in 1999; Morumbi, São Paulo. No bed, staff or patient counts on the page."
+  },
+  {
+   "id": "s:wp-all-on-4",
+   "kind": "wikipedia",
+   "title": "All-on-4",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/All-on-4",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "states that the name All-on-4 is a registered trademark of Nobel Biocare, used globally for both dental products and services; four implants, the back two tilted about 30 to 45 degrees, prosthesis placed within about 24 hours. The article carries editorial notices about promotional tone."
+  },
+  {
    "id": "s:wp-amman",
    "kind": "wikipedia",
    "title": "Amman",
@@ -3476,6 +5463,16 @@
    "note": "coordinates, population five million as of 2024; West Amman named as the modern economic centre against the historic east"
   },
   {
+   "id": "s:wp-anadolu",
+   "kind": "wikipedia",
+   "title": "Anadolu Medical Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anadolu_Medical_Center",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "opened 12 February 2005 by the Anadolu Foundation, affiliated with Johns Hopkins Medicine International; 209 beds plus 59 intensive care beds and 8 operating rooms; Gebze, Kocaeli"
+  },
+  {
    "id": "s:wp-andrade-poe",
    "kind": "web",
    "title": "Andrade Port of Entry",
@@ -3483,6 +5480,16 @@
    "url": "https://en.wikipedia.org/wiki/Andrade_Port_of_Entry",
    "accessed": "2026-09-16",
    "note": "established 1909 on a Southern Pacific branch line; about 6 miles west of Yuma; 11th in the United States for pedestrian crossings in 2010"
+  },
+  {
+   "id": "s:wp-angeles-tijuana",
+   "kind": "wikipedia",
+   "title": "Hospital Angeles Tijuana",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hospital_Angeles_Tijuana",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "opened 2005, Grupo Ángeles, Zona Río, eleven floors, 49 metres, 29,108 square metres, built 2002 to 2004, the first hospital in the city with a heliport. The article carries no bed count and no accreditation."
   },
   {
    "id": "s:wp-antalya",
@@ -3590,6 +5597,16 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:wp-charite",
+   "kind": "wikipedia",
+   "title": "Charité — Universitätsmedizin Berlin",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Charit%C3%A9",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "founded 1710; joint medical faculty of the Free University of Berlin and the Humboldt University; about 3,000 beds over four campuses — Charité Mitte, Benjamin Franklin in Lichterfelde, Virchow-Klinikum in Wedding and Berlin-Buch; 18,217 employees including 5,242 academic staff and 307 professors; annual budget 2.3 billion euro; Newsweek's 2026 list places it in the top 250"
+  },
+  {
    "id": "s:wp-clinica-biblica",
    "kind": "web",
    "title": "Hospital Clínica Bíblica",
@@ -3616,6 +5633,15 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:wp-equal-earth",
+   "kind": "web",
+   "title": "Equal Earth projection",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Equal_Earth_projection",
+   "accessed": "2026-09-17",
+   "note": "used only for the citation and date of the projection paper, which could not be fetched from the publisher"
+  },
+  {
    "id": "s:wp-fortis-healthcare",
    "kind": "web",
    "title": "Fortis Healthcare",
@@ -3640,6 +5666,16 @@
    "url": "https://en.wikipedia.org/wiki/Gleneagles_Hospital_Kuala_Lumpur",
    "license": "CC BY-SA 4.0",
    "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hadassah",
+   "kind": "wikipedia",
+   "title": "Hadassah Medical Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hadassah_Medical_Center",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "founded 1934, owned and largely funded by the Hadassah Women's Zionist Organization of America; two Jerusalem campuses, Mount Scopus opened 1939 and Ein Kerem established 1961; over 1,300 beds in total, 31 operating theatres, 9 intensive care units; teaching hospital of the Hebrew University; Newsweek 2025 placed it 242nd in the world"
   },
   {
    "id": "s:wp-havana",
@@ -3694,6 +5730,15 @@
    "note": "read for the private hospital count, physician density, the out-of-pocket share and Law No. 2 of 2018"
   },
   {
+   "id": "s:wp-healthcare-georgia",
+   "kind": "wikipedia",
+   "title": "Healthcare in Georgia (country)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Healthcare_in_Georgia_(country)",
+   "accessed": "2026-09-17",
+   "license": "CC BY-SA 4.0"
+  },
+  {
    "id": "s:wp-healthcare-singapore",
    "kind": "wikipedia",
    "title": "Healthcare in Singapore",
@@ -3719,6 +5764,26 @@
    "url": "https://en.wikipedia.org/wiki/Healthcare_in_Tunisia",
    "accessed": "2026-09-16",
    "note": "states the private sector holds 12% of total bed capacity and 70% of the top-range medical equipment, and that medical travel is the country's second largest employer and second highest foreign currency earner — a claim the page does not date or attribute to a statistics office"
+  },
+  {
+   "id": "s:wp-heidelberg-uh",
+   "kind": "wikipedia",
+   "title": "Heidelberg University Hospital",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heidelberg_University_Hospital",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "medical teaching at Heidelberg from 1388; an independent public-law institution with its own board, financially separate from the university; 1,991 beds as of 2020; over one million patients a year; Im Neuenheimer Feld; the heavy ion therapy centre and the National Center for Tumor Diseases; Newsweek 2026 placed it 12th in the world"
+  },
+  {
+   "id": "s:wp-hospital-cima",
+   "kind": "wikipedia",
+   "title": "Hospital CIMA",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hospital_CIMA",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "opened 2000, owned by International Hospital Corporation, 103 beds, tertiary acute care, JCI accredited with no year given"
   },
   {
    "id": "s:wp-hospitals-cuba",
@@ -4108,6 +6173,16 @@
    "accessed": "2026-09-16"
   },
   {
+   "id": "s:wp-sheba",
+   "kind": "wikipedia",
+   "title": "Sheba Medical Center",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sheba_Medical_Center",
+   "license": "CC BY-SA 4.0",
+   "accessed": "2026-09-17",
+   "note": "founded 1948 as Israel's first military hospital, civilian from 1953 under Chaim Sheba, government-affiliated, Tel HaShomer in Ramat Gan on an 800-dunam campus; about 1,580 beds, about 1,700 physicians and 12,000 other healthcare workers; over 1,000,000 patient visits a year including 200,000 emergency visits; Global Patient Services treats patients from over 100 countries; Newsweek ranked it 8th in the world in 2025"
+  },
+  {
    "id": "s:wp-sisli",
    "kind": "wikipedia",
    "title": "Şişli",
@@ -4222,6 +6297,15 @@
    "url": "https://en.wikipedia.org/wiki/Warsaw",
    "accessed": "2026-09-16",
    "note": "coordinates, population 1,866,729 at 31 December 2025, the 18 districts including Śródmieście, Mokotów, Wola and Ochota"
+  },
+  {
+   "id": "s:wpath-soc8",
+   "kind": "paper",
+   "title": "Standards of Care for the Health of Transgender and Gender Diverse People, Version 8",
+   "publisher": "Coleman E, Radix AE, Bouman WP, et al. International Journal of Transgender Health 2022;23(Suppl 1):S1-S259",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/",
+   "accessed": "2026-09-17",
+   "note": "published online 15 September 2022, DOI 10.1080/26895269.2022.2100644; the surgery chapter was not reached for this record and no terminology is attributed to it here"
   },
   {
    "id": "s:yanhee-plastic-prices",
