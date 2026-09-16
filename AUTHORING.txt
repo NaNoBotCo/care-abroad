@@ -254,7 +254,9 @@ WORDS
   circumvention-travel · reproductive-exile · package-price · bundled-payment
   facilitator · day-case · length-of-stay · drg · tariff · case-rate · out-of-pocket
   co-payment · prior-authorisation · graft · cycle · asa-grade · informed-consent
-  revision · repatriation · medical-visa · all-on-four · fue · top-surgery
+  revision · repatriation · medical-visa · fue
+  (all-on-four and top-surgery are PROCEDURES, not words — they are priced, so they sit
+   in the procedure list above and nowhere else)
 
 DATA
   world-bank-health-spending ✓ · world-bank-doctors · world-bank-beds

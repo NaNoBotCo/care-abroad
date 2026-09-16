@@ -898,9 +898,21 @@ def sources_page(sources: dict) -> str:
 
 
 def coverage_page(cov: dict) -> str:
+    def cell(v):
+        """A nested count table prints as a row of chips, not as raw JSON — the coverage
+        page is the one a sceptical reader opens first."""
+        if isinstance(v, dict):
+            return " ".join(f'<span class="chip">{E(str(k).replace("_", " "))} <b>{E(x)}</b></span>'
+                            for k, x in sorted(v.items(), key=lambda kv: (-kv[1] if isinstance(kv[1], (int, float)) else 0, kv[0])))
+        if isinstance(v, list):
+            return " ".join(f'<span class="chip">{E(x)}</span>' for x in v)
+        if isinstance(v, bool) or v is None:
+            return E("—" if v is None else v)
+        return E(f"{v:,}" if isinstance(v, int) else v)
+
     def tbl(d):
         return "<table>" + "".join(
-            f"<tr><th>{E(str(k).replace('_', ' '))}</th><td>{E(json.dumps(v, ensure_ascii=False) if isinstance(v, (dict, list)) else v)}</td></tr>"
+            f"<tr><th>{E(str(k).replace('_', ' '))}</th><td>{cell(v)}</td></tr>"
             for k, v in d.items()) + "</table>"
     body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Coverage</h1><p class="lede">{E(cov["scope"])}</p>'
             '<h2>Records</h2><table>' + "".join(
@@ -909,7 +921,11 @@ def coverage_page(cov: dict) -> str:
             '<h2>Prices</h2>' + tbl(cov["prices"])
             + '<h2>Law</h2>' + tbl(cov["legality"])
             + '<h2>Hospitals</h2>' + tbl(cov["facilities"])
-            + '<h2>The series behind the charts</h2>' + tbl(cov["indicators"])
+            + '<h2>The series behind the charts</h2><table>'
+            + '<tr><th>series</th><td><b>code</b> · unit · countries · newest year · fetched</td></tr>'
+            + "".join(f'<tr><th>{E(k.replace("_", " "))}</th><td><b>{E(v["code"])}</b> · {E(v["unit"])} · '
+                      f'{E(v["countries"])} countries · newest {E(v["newest_year"])} · fetched {E(v["fetched_at"])}</td></tr>'
+                      for k, v in cov["indicators"].items()) + "</table>"
             + f'<h2>Pictures</h2><p>{cov["images"]["count"]} on file. The licences accepted are '
               f'{E(", ".join(cov["images"]["licences_accepted"]))}. The visuals on this site are drawn from the '
               f'data rather than photographed, which is why that number is small.</p>'

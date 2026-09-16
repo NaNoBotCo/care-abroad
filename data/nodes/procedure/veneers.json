@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "id": "veneers",
+ "type": "procedure",
+ "names": {
+  "name": "Dental veneers",
+  "aliases": ["porcelain veneer", "composite veneer", "laminate veneer", "smile makeover"],
+  "said": "Sold by the tooth and bought by the set. A price list says one veneer; a patient means eight, ten or twenty, and the trade calls that a smile makeover."
+ },
+ "etymology": {
+  "root": "veneer: from German furnieren, to furnish or overlay, by way of French fournir — a thin facing laid over something plainer, borrowed from cabinetmaking into dentistry in the twentieth century. Laminate is Latin lamina, a thin plate.",
+  "tier": "tradition",
+  "note": "Composite veneers are built up on the tooth in the chair; porcelain and lithium disilicate veneers are made in a laboratory and bonded on. The two words sit in the same column of a price list at a third of the price apart."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "dental",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "A thin facing is bonded to the front of a tooth, usually after some enamel is removed. Composite versions are shaped in the chair in one visit; porcelain and glass-ceramic ones are made in a laboratory and fitted at a second appointment. Cosmetic in most jurisdictions, which is why no state schedule read for this record pays for them.",
+  "story": "Veneers are the dental procedure that travels as a set, and the price lists know it.\n\nBangkok International Dental Center prices a porcelain e.max veneer at 17,000 baht for one to five teeth and 16,000 for six or more, against a struck-through 19,000 — the discount arriving exactly at the sixth tooth. Composite veneers on the same page run 6,000 to 7,000 baht, and its Exaclear composite drops from 8,000 to 7,000 at the same threshold. Super-thin veneers are 18,000 to 19,000.\n\nMedicare Dental Clinic in Budapest prints the ceramic veneer as €227 of treatment plus €152 of laboratory work, and the full porcelain veneer at €237 plus €157 — the same two-line habit it applies to crowns, and within a few euro of its own crown prices.\n\nSani Dental Group in Los Algodones lists a porcelain veneer at $450 and a zirconia veneer at $490, each against a US comparison column — $1,100 and $1,500 — of the clinic's own making.\n\nIndex Medica in Kraków lists a porcelain veneer at £549 against what it calls an average UK price of £1,125, and a ceramic veneer at €575 against €1,249 for Ireland.\n\n*Inference —* multiply by the set. Ten upper teeth at the Bangkok six-or-more rate is 160,000 baht; ten in Budapest is €3,940 with the laboratory fees; ten in Los Algodones is $4,500. The per-tooth figure is the only one any of these pages publishes, and it is not the figure anyone pays.",
+  "how": "Shade taken, enamel reduced by a fraction of a millimetre, impressions or scans sent to a laboratory, temporaries fitted, and the set bonded on at a second visit — which for a foreign patient means either a stay of several days or a second flight. Composite veneers avoid the laboratory and the wait, and are quoted at a third to a quarter of the porcelain price on the pages read for this record.\n\nNo state schedule read here pays for any of it. The English NHS charge bands make no provision for cosmetic veneers, and the Australian schedule that pays for a cataract lens explicitly excludes surgery to correct appearance. Veneers are an out-of-pocket purchase wherever they are bought.",
+  "today": "As of 17 September 2026 a single veneer is published at 6,000 to 19,000 baht in Bangkok depending on material and count, €379 to €394 including laboratory fee in Budapest, $450 to $490 in Los Algodones and £549 in Kraków. Every one of those prices is for one tooth.",
+  "notes": "This page describes a dental procedure and the prices published for it. It is not dental advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "Clinic appointments, not an admission. The interval between preparation and fitting — the figure that decides whether a set of veneers is one trip or two — is stated on none of the four price pages read for this record.",
+  "as_of": "2026-09-17",
+  "source": "s:bidc-fees",
+  "url": "https://bangkokdentalcenter.com/fees/"
+ },
+ "prices": [
+  {
+   "procedure": "veneers",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 6000,
+   "amount_high": 19000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["one veneer, by material: composite 6,000 to 7,000; Exaclear composite 8,000 for one to five teeth and 7,000 for six or more; porcelain e.max 17,000 and 16,000 on the same scale; super-thin 18,000 to 19,000"],
+   "excludes": ["x-rays, medications, sterilisation, nursing fees and clinic service fees, charged separately", "every tooth after the first"],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "the e.max and Exaclear rows are printed against struck-through figures of 19,000 and 10,000, and both drop at the sixth tooth — the page is written for patients buying a set. Package rates stated applicable till 30 September 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "veneers",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 379,
+   "amount_high": 394,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["ceramic (zirconium) veneer at €227 treatment plus €152 fabrication; full porcelain veneer at €237 plus €157"],
+   "excludes": ["nothing stated beyond the treatment-and-laboratory split"],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "within a few euro of the same clinic's crown prices, which is what a veneer is: the same laboratory, less tooth removed.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "veneers",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 450,
+   "amount_high": 490,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["one porcelain veneer at $450 or one zirconia veneer at $490"],
+   "excludes": ["every tooth after the first"],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "MXN $9,000 and $9,800 printed beside the dollar figures, with a US comparison column of $1,100 and $1,500 that carries no source. The page states all prices are a base or starting price.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "veneers",
+   "country": "PL",
+   "city": "Kraków",
+   "amount": 549,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["one porcelain veneer; examination, x-rays and local anaesthetic listed as free"],
+   "excludes": ["every tooth after the first"],
+   "source": "s:indexmedica-prices",
+   "url": "https://www.indexmedica.com/prices/",
+   "note": "£549 against a column the clinic labels average UK price at £1,125; the euro table gives €575 against an Irish comparison of €1,249. A deposit of 80% of each stage is due on signing the treatment plan.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "dental-crown", "as": "The full cover, at much the same laboratory price and with far more tooth cut away.", "rel": "contrast"},
+  {"to": "full-mouth-restoration", "as": "What a set of these becomes when the back teeth are included.", "rel": "whole"},
+  {"to": "dental-implant", "as": "The other half of a dental travel bill, and the one that needs months rather than days.", "rel": "kin"},
+  {"to": "thailand", "as": "Where the veneer price drops at the sixth tooth.", "rel": "destination"},
+  {"to": "hungary", "as": "Where the veneer and the crown are priced within a few euro of each other.", "rel": "destination"},
+  {"to": "mexico", "as": "Where the veneer is quoted against a US comparison the clinic supplies.", "rel": "destination"},
+  {"to": "poland", "as": "Where the comparison column is labelled average UK price.", "rel": "destination"},
+  {"to": "budapest", "as": "The city whose clinics built the European dental trade on work like this.", "rel": "place"},
+  {"to": "insurance-exclusions", "as": "The reason no payer schedule read for this page carries a line for veneers.", "rel": "rule"},
+  {"to": "getting-a-quote", "as": "The step where one tooth becomes ten and the quote multiplies.", "rel": "step"},
+  {"to": "revision-at-home", "as": "Who rebonds a veneer that debonds after the flight, and at whose price.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "dental-crown", "tell": "A veneer faces the front of the tooth; a crown wraps all of it. Price lists put them in adjacent rows at similar figures, and the difference is how much tooth is left underneath."}
+ ],
+ "links": [
+  {"label": "BIDC dental fees", "url": "https://bangkokdentalcenter.com/fees/"},
+  {"label": "Sani Dental Group price list", "url": "https://sanidentalgroup.com/price-list"}
+ ],
+ "sources": ["s:bidc-fees", "s:mdental-budapest-prices", "s:sani-dental-prices", "s:indexmedica-prices", "s:mbs-42702"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:bidc-fees", "note": "figures read off each clinic's own page on the accessed date; the multiplication at the end is marked as this project's arithmetic"},
+   "text.how": {"tier": "tradition", "note": "standard veneer sequence; the exclusion from state schedules is cited to the NHS bands and the Australian item descriptor"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:bidc-fees"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Dental veneers.jpg", "File:Porcelain veneer.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

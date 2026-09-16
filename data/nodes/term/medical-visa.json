@@ -19,7 +19,7 @@
  },
  "text": {
   "what": "An entry permission issued for treatment. Some states run a dedicated class that names the hospital and admits a companion; others treat a patient arriving for surgery as an ordinary visitor. Which applies decides how long the patient may stay, whether anyone may come with them, and whether the journey appears in any official figure.",
-  "story": "India's scheme states what a government thinks a treatment trip needs. The e-Medical Visa runs \"One year (365 days) from the date of arrival into India\" with multiple entries, and requires a \"Copy of Letter from the Hospital concerned in India on its letterhead which including the date / tentative date which admission have been suggested\". Beside it sits the e-Medical Attendant Visa, and the rule is arithmetic: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\".\n\nThe Schengen Visa Code takes the other route. Regulation (EC) No 810/2009 sets out the supporting documents and the conditions for issue under a general visitor class; there is no separate medical category, and a patient travelling for treatment is assessed on purpose of journey, means of subsistence and intention to leave like any other applicant.\n\n*Inference —* where no medical class exists the trip is invisible to migration statistics, which is one reason the counts of who travels for care are as poor as they are.",
+  "story": "India's scheme states what a government thinks a treatment trip needs. The e-Medical Visa runs \"One year (365 days) from the date of arrival into India\" with multiple entries, and requires a \"Copy of Letter from the Hospital concerned in India on its letterhead which including the date / tentative date which admission have been suggested\". Beside it sits the e-Medical Attendant Visa, and the rule is arithmetic: \"Only two e-Medical Attendant Visas will be granted against one e-Medical Visa (patient)\".\n\nEurope takes the other route. A patient travelling into the Schengen area for treatment applies under the general short-stay conditions of the Visa Code, Regulation (EC) No 810/2009: Article 14 sets the supporting documents — purpose of journey, accommodation, means of subsistence, and information allowing an assessment of the intention to leave — and Article 15 sets the travel medical insurance minimum. The treatment is a purpose of journey, not a class of its own.\n\n*Inference —* where no medical class exists the trip is invisible to migration statistics, which is one reason the counts of who travels for care are as poor as they are.",
   "how": "A medical class typically wants the hospital's letter, evidence of funds and a return ticket, and typically runs from a date fixed weeks ahead. Treatment dates move; visa validity does not move with them. A change of provider after arrival is then a paperwork problem as well as a clinical one.",
   "today": "As of 17 September 2026 the visa classes that name treatment are held on individual rule records on this site, each naming its own instrument and date. The Indian classes described here are read off the Government of India's own e-Visa page."
  },
@@ -30,13 +30,18 @@
    "rel": "step"
   },
   {
-   "to": "india",
-   "as": "The destination whose e-Medical class this record reads.",
-   "rel": "destination"
+   "to": "india-e-medical-visa",
+   "as": "The instrument behind the class this record reads, with its own dates.",
+   "rel": "rule"
+  },
+  {
+   "to": "schengen-medical-visa",
+   "as": "The other shape: general short-stay conditions applied to a treatment journey.",
+   "rel": "rule"
   },
   {
    "to": "the-companion",
-   "as": "The person a medical class does or does not admit — India allows two.",
+   "as": "The person a medical class does or does not admit — India grants two.",
    "rel": "step"
   },
   {

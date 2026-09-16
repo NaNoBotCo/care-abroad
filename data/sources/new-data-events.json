@@ -1,15 +1,203 @@
 {
  "note": "Sources added by the data-events batch: the datasets behind the charts, the events on the timeline, and the people. Merged into sources.json by build.py.",
  "sources": [
-  {"id": "s:wb-physicians", "kind": "dataset", "title": "Physicians (per 1,000 people) — indicator SH.MED.PHYS.ZS", "publisher": "World Bank Open Data", "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS", "license": "CC BY 4.0", "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by", "accessed": "2026-09-17", "note": "definition and source organisation read off the indicator metadata endpoint https://api.worldbank.org/v2/indicator/SH.MED.PHYS.ZS?format=json — 'Physicians include generalist and specialist medical practitioners'; sourced from WHO Global Health Workforce Statistics, the OECD and country data"},
-  {"id": "s:wb-hospital-beds", "kind": "dataset", "title": "Hospital beds (per 1,000 people) — indicator SH.MED.BEDS.ZS", "publisher": "World Bank Open Data", "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS", "license": "CC BY 4.0", "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by", "accessed": "2026-09-17", "note": "definition read off https://api.worldbank.org/v2/indicator/SH.MED.BEDS.ZS?format=json — inpatient beds in public, private, general and specialised hospitals and rehabilitation centres, acute and chronic care in most cases; WHO data supplemented by country data"},
-  {"id": "s:wb-oop-share", "kind": "dataset", "title": "Out-of-pocket expenditure (% of current health expenditure) — indicator SH.XPD.OOPC.CH.ZS", "publisher": "World Bank Open Data", "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS", "license": "CC BY 4.0", "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by", "accessed": "2026-09-17", "note": "definition read off https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json; source organisation given as the WHO Global Health Expenditure Database, updated December 12th, 2025"},
-  {"id": "s:wb-tourist-arrivals", "kind": "dataset", "title": "International tourism, number of arrivals — indicator ST.INT.ARVL", "publisher": "World Bank Open Data", "url": "https://data.worldbank.org/indicator/ST.INT.ARVL", "license": "CC BY 4.0", "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by", "accessed": "2026-09-17", "note": "the long definition and its caveats read off https://api.worldbank.org/v2/indicator/ST.INT.ARVL?format=json, including the sentences on differing national collection methods and on arrivals not being people; source organisation UN Tourism, Yearbook and Compendium of Tourism Statistics"},
-  {"id": "s:who-health-workforce", "kind": "dataset", "title": "Health workforce — Global Health Observatory theme", "publisher": "World Health Organization", "url": "https://www.who.int/data/gho/data/themes/topics/health-workforce", "accessed": "2026-09-17", "note": "the WHO collection the World Bank names as the upstream of its physicians indicator"},
-  {"id": "s:who-nha-database", "kind": "dataset", "title": "Global Health Expenditure Database", "publisher": "World Health Organization", "url": "https://apps.who.int/nha/database", "accessed": "2026-09-17", "note": "the national health accounts database behind the World Bank's spending and out-of-pocket indicators"},
-  {"id": "s:un-tourism-statistics", "kind": "dataset", "title": "Tourism Statistics Database", "publisher": "UN Tourism (World Tourism Organization)", "url": "https://www.unwto.org/tourism-statistics/tourism-statistics-database", "accessed": "2026-09-17", "note": "the Yearbook and Compendium of Tourism Statistics, which the World Bank republishes as ST.INT.ARVL"},
-  {"id": "s:natural-earth-terms", "kind": "web", "title": "Terms of Use", "publisher": "Natural Earth", "url": "https://www.naturalearthdata.com/about/terms-of-use/", "license": "Public domain", "accessed": "2026-09-17", "note": "'All versions of Natural Earth raster + vector map data found on this website are in the public domain.' and 'No permission is needed to use Natural Earth.' The same page disclaims responsibility for accuracy and content."},
-  {"id": "s:odbl-1-0", "kind": "web", "title": "Open Database License (ODbL) v1.0", "publisher": "Open Data Commons", "url": "https://opendatacommons.org/licenses/odbl/1-0/", "accessed": "2026-09-17", "note": "the share-alike licence OpenStreetMap data carries: attribution, and any adapted database shared under the same terms"},
-  {"id": "s:er-api-free-terms", "kind": "web", "title": "Free exchange rate API documentation — open endpoint", "publisher": "ExchangeRate-API", "url": "https://www.exchangerate-api.com/docs/free", "accessed": "2026-09-17", "note": "open endpoint updates once per day and carries time_last_update_utc and time_next_update_utc; attribution to ExchangeRate-API is required on pages using the rates; redistribution of the data is not permitted"}
+  {
+   "id": "s:wb-physicians",
+   "kind": "dataset",
+   "title": "Physicians (per 1,000 people) — indicator SH.MED.PHYS.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition and source organisation read off the indicator metadata endpoint https://api.worldbank.org/v2/indicator/SH.MED.PHYS.ZS?format=json — 'Physicians include generalist and specialist medical practitioners'; sourced from WHO Global Health Workforce Statistics, the OECD and country data"
+  },
+  {
+   "id": "s:wb-hospital-beds",
+   "kind": "dataset",
+   "title": "Hospital beds (per 1,000 people) — indicator SH.MED.BEDS.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition read off https://api.worldbank.org/v2/indicator/SH.MED.BEDS.ZS?format=json — inpatient beds in public, private, general and specialised hospitals and rehabilitation centres, acute and chronic care in most cases; WHO data supplemented by country data"
+  },
+  {
+   "id": "s:wb-oop-share",
+   "kind": "dataset",
+   "title": "Out-of-pocket expenditure (% of current health expenditure) — indicator SH.XPD.OOPC.CH.ZS",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "definition read off https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json; source organisation given as the WHO Global Health Expenditure Database, updated December 12th, 2025"
+  },
+  {
+   "id": "s:wb-tourist-arrivals",
+   "kind": "dataset",
+   "title": "International tourism, number of arrivals — indicator ST.INT.ARVL",
+   "publisher": "World Bank Open Data",
+   "url": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+   "license": "CC BY 4.0",
+   "license_url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+   "accessed": "2026-09-17",
+   "note": "the long definition and its caveats read off https://api.worldbank.org/v2/indicator/ST.INT.ARVL?format=json, including the sentences on differing national collection methods and on arrivals not being people; source organisation UN Tourism, Yearbook and Compendium of Tourism Statistics"
+  },
+  {
+   "id": "s:who-health-workforce",
+   "kind": "dataset",
+   "title": "Health workforce — Global Health Observatory theme",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/data/themes/topics/health-workforce",
+   "accessed": "2026-09-17",
+   "note": "the WHO collection the World Bank names as the upstream of its physicians indicator"
+  },
+  {
+   "id": "s:who-nha-database",
+   "kind": "dataset",
+   "title": "Global Health Expenditure Database",
+   "publisher": "World Health Organization",
+   "url": "https://apps.who.int/nha/database",
+   "accessed": "2026-09-17",
+   "note": "the national health accounts database behind the World Bank's spending and out-of-pocket indicators"
+  },
+  {
+   "id": "s:un-tourism-statistics",
+   "kind": "dataset",
+   "title": "Tourism Statistics Database",
+   "publisher": "UN Tourism (World Tourism Organization)",
+   "url": "https://www.unwto.org/tourism-statistics/tourism-statistics-database",
+   "accessed": "2026-09-17",
+   "note": "the Yearbook and Compendium of Tourism Statistics, which the World Bank republishes as ST.INT.ARVL"
+  },
+  {
+   "id": "s:natural-earth-terms",
+   "kind": "web",
+   "title": "Terms of Use",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+   "license": "Public domain",
+   "accessed": "2026-09-17",
+   "note": "'All versions of Natural Earth raster + vector map data found on this website are in the public domain.' and 'No permission is needed to use Natural Earth.' The same page disclaims responsibility for accuracy and content."
+  },
+  {
+   "id": "s:odbl-1-0",
+   "kind": "web",
+   "title": "Open Database License (ODbL) v1.0",
+   "publisher": "Open Data Commons",
+   "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "accessed": "2026-09-17",
+   "note": "the share-alike licence OpenStreetMap data carries: attribution, and any adapted database shared under the same terms"
+  },
+  {
+   "id": "s:er-api-free-terms",
+   "kind": "web",
+   "title": "Free exchange rate API documentation — open endpoint",
+   "publisher": "ExchangeRate-API",
+   "url": "https://www.exchangerate-api.com/docs/free",
+   "accessed": "2026-09-17",
+   "note": "open endpoint updates once per day and carries time_last_update_utc and time_next_update_utc; attribution to ExchangeRate-API is required on pages using the rates; redistribution of the data is not permitted"
+  },
+  {
+   "id": "s:oecd-waiting-definitions-2025",
+   "kind": "report",
+   "title": "OECD Health Statistics 2025 — Definitions, Sources and Methods: waiting times for selected elective surgeries",
+   "publisher": "OECD, Health Division",
+   "url": "https://stats.oecd.org/wbos/fileview2.aspx?IDFile=cae608c4-fa81-4f56-8d7f-a0d4d609de80",
+   "accessed": "2026-09-17",
+   "note": "PDF dated 10 September 2025; carries the two waiting-time definitions, the inclusion of publicly-funded patients, the exclusion of the GP-referral-to-assessment stretch, the seven procedures with ICD-9-CM codes, the per-country 'Deviation from the definition' notes and the 'Data not available' entries for Austria, Belgium, Czechia, France, Germany, Japan, Korea, Latvia, Luxembourg, Mexico, the Slovak Republic, Switzerland, Türkiye and the United States"
+  },
+  {
+   "id": "s:oecd-waiting-sdmx",
+   "kind": "dataset",
+   "title": "Waiting times dataflow DSD_HEALTH_PROC@DF_WAITING, OECD SDMX API",
+   "publisher": "OECD",
+   "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,1.1/all?format=csvfile",
+   "accessed": "2026-09-17",
+   "note": "the extract read for this project holds 6,609 observations, 24 countries, 2000-2024, 19 countries reporting for 2024; WTSP 3,925 observations and WTPA 2,684; the 2024 knee-replacement medians quoted in the record were read from it"
+  },
+  {
+   "id": "s:who-gho-about",
+   "kind": "web",
+   "title": "About the Global Health Observatory",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/info/about-the-observatory",
+   "accessed": "2026-09-17",
+   "note": "the 194 Member States and 'over 1000 indicators' description, and the disclaimer that GHO datasets are WHO best estimates aiming at comparability and 'are not always the same as official national estimates'"
+  },
+  {
+   "id": "s:who-gho-odata",
+   "kind": "dataset",
+   "title": "GHO OData API",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/data/gho/info/gho-odata-api",
+   "accessed": "2026-09-17",
+   "note": "the API at https://ghoapi.azureedge.net/api returned 3,099 indicator records and 202 dimensions on this date; the page carries no licence statement of its own"
+  },
+  {
+   "id": "s:who-terms-of-use",
+   "kind": "web",
+   "title": "Terms of use",
+   "publisher": "World Health Organization",
+   "url": "https://www.who.int/about/policies/terms-of-use",
+   "accessed": "2026-09-17",
+   "note": "reproduction for research or private study is permitted 'but not for sale or for use in conjunction with commercial purposes'; WHO publications carry CC BY-NC-SA 3.0 IGO"
+  },
+  {
+   "id": "s:hfea-2024-trends",
+   "kind": "org",
+   "title": "Fertility treatment 2024: trends and figures",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/",
+   "accessed": "2026-09-17",
+   "note": "published 16 June 2026 from a register snapshot of 6 May 2026; 64,000 patients and over 100,000 treatment and freezing cycles in 2024; average IVF birth rate per embryo transferred 30%, 38% at ages 18-34 and 8% at 43-44; 2024 birth outcomes marked preliminary"
+  },
+  {
+   "id": "s:hfea-2024-methodology",
+   "kind": "org",
+   "title": "Fertility treatment 2024: quality and methodology report",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/about-us/publications/research-and-data/fertility-treatment-2024-trends-and-figures/quality-and-methodology-report/",
+   "accessed": "2026-09-17",
+   "note": "people are in the Register 'regardless of a person's residence'; 'We do not hold detailed information on partner intrauterine insemination (IUI), or treatments that takes place outside of licensed clinics'; regions are assigned 'based on the location of the clinic rather than patient's residency'; the Register runs since 1991 and is described as the longest running database of fertility treatment in the world"
+  },
+  {
+   "id": "s:hfea-choose-clinic",
+   "kind": "org",
+   "title": "Finding the right clinic for you",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/choose-a-fertility-clinic/finding-the-best-fertility-clinic-for-you/",
+   "accessed": "2026-09-17",
+   "note": "'Use success rates as a rough guide and not a prediction', and the passage on differences of one or two percentage points being down to chance"
+  },
+  {
+   "id": "s:cdc-nass",
+   "kind": "org",
+   "title": "National ART Surveillance System (NASS)",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/php/nass/index.html",
+   "accessed": "2026-09-17",
+   "note": "'The Fertility Clinic Success Rate and Certification Act of 1992 mandates that clinics performing ART annually provide data to CDC'; 'A small number of clinics do not report data to CDC and are listed as nonreporters'; NASS estimated to contain about 98% of all US ART cycles"
+  },
+  {
+   "id": "s:cdc-art-interpret",
+   "kind": "org",
+   "title": "How to interpret ART success rates",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/success-rates/interpret.html",
+   "accessed": "2026-09-17",
+   "note": "'Comparison of success rates across clinics may not be meaningful' and 'Clinic success rates do not reflect any one patient's chance of success', with the reasons given"
+  },
+  {
+   "id": "s:cdc-art-about",
+   "kind": "org",
+   "title": "About assisted reproductive technology",
+   "publisher": "US Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/art/about/index.html",
+   "accessed": "2026-09-17",
+   "note": "ART covers treatments in which eggs or embryos are handled; 'ART does NOT include treatments in which only sperm are handled (such as intrauterine insemination)'"
+  }
  ]
 }

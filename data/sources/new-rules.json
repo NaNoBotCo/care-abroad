@@ -1,0 +1,444 @@
+{
+ "sources": [
+  {
+   "id": "s:eu-dir-2011-24-art-8",
+   "kind": "statute",
+   "title": "Directive 2011/24/EU, Article 8 — healthcare that may be subject to prior authorisation",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eudr/2011/24/article/8",
+   "accessed": "2026-09-17",
+   "note": "read for the Art 8(2) categories — at least one overnight, or highly specialised and cost-intensive infrastructure — and the four Art 8(6) grounds for refusal"
+  },
+  {
+   "id": "s:cfr-424-122",
+   "kind": "statute",
+   "title": "42 CFR § 424.122 — emergency inpatient hospital services furnished in a foreign country",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.122",
+   "accessed": "2026-09-17",
+   "note": "the eCFR's own page redirected to an unblock gateway on this date; the CFR text was read at the Legal Information Institute"
+  },
+  {
+   "id": "s:cfr-424-124",
+   "kind": "statute",
+   "title": "42 CFR § 424.124 — foreign physician and ambulance services",
+   "publisher": "Legal Information Institute, Cornell Law School",
+   "url": "https://www.law.cornell.edu/cfr/text/42/424.124",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:thaiembassy-dc-mt-visa",
+   "kind": "gov",
+   "title": "Tourist Visa (Medical Treatment)",
+   "publisher": "Royal Thai Embassy, Washington DC",
+   "url": "https://washingtondc.thaiembassy.org/en/page/non-immigrant-visa-mt",
+   "accessed": "2026-09-17",
+   "note": "60 days' stay, a 30-day extension to a maximum of 90 days from entry, a letter of appointment from the hospital, and a funds test of USD 700 per person per month or USD 2,000 per family. The page says nothing about a companion."
+  },
+  {
+   "id": "s:thaiembassy-kl-mt-visa",
+   "kind": "gov",
+   "title": "Medical Treatment (MT) or Non-Immigrant (O) for Medical Treatment",
+   "publisher": "Royal Thai Embassy, Kuala Lumpur",
+   "url": "https://kualalumpur.thaiembassy.org/en/publicservice/medical-treatment-mt-or-non-immigrant-o-for-medical",
+   "accessed": "2026-09-17",
+   "note": "the mission that publishes the two classes under one heading, which is the fork a longer course takes"
+  },
+  {
+   "id": "s:kr-act-13599",
+   "kind": "statute",
+   "title": "Act on Supporting Overseas Expansion of Medical Services and Attraction of International Patients (Act No. 13599, 22 December 2015)",
+   "publisher": "Korea Legislation Research Institute, Korea Law Translation Center",
+   "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=60070&type=part&key=36",
+   "accessed": "2026-09-17",
+   "note": "Article 6 registration conditions — specialists by department and malpractice cover for an institution; guaranty insurance, minimum capital and a domestic office for an agency. Article 7 bars transfer or lease of a certificate. Article 8 requires posting and foreign-language information on diagnosis, cost and dispute resolution. Unregistered operation: up to three years or 30 million won."
+  },
+  {
+   "id": "s:my-act-586-overview",
+   "kind": "web",
+   "title": "Regulatory framework for setting up private healthcare facilities and services in Malaysia",
+   "publisher": "Halim Hong & Quek (HHQ), Malaysian law firm",
+   "url": "https://hhq.com.my/posts/regulatory-framework-for-setting-up-private-healthcare-facilities-and-services-in-malaysia/",
+   "accessed": "2026-09-17",
+   "note": "a practitioner overview, not the statute. Quoted for the Act 586 approval requirement and the Private Healthcare Facilities and Services (Private Hospitals and Other Private Healthcare Facilities) Regulations 2006. The Act's own text could not be read on this date: the Attorney General's Chambers page returned an invalid request, CommonLII returned 403, and the circulating PDF reprint would not extract."
+  },
+  {
+   "id": "s:malaysiahealthcare-about",
+   "kind": "org",
+   "title": "Malaysia Healthcare — about",
+   "publisher": "Malaysia Healthcare Travel Council",
+   "url": "https://malaysiahealthcare.org/about-us",
+   "accessed": "2026-09-17",
+   "note": "company registration number 201101035226; the site's own count of more than 80 partner hospitals and clinics. mhtc.org.my itself returned HTTP 500 on this date, as it did on 16 September 2026."
+  },
+  {
+   "id": "s:my-mab-kkliu",
+   "kind": "gov",
+   "title": "Is it necessary for medical advertisements on the internet to get approval from MAB?",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/faq/it-necessary-medical-advertisements-internet-get-approval-mab.html",
+   "accessed": "2026-09-17",
+   "note": "the Ministry's own answer: all dissemination of information about products and healthcare services to attract public attention, including on the internet, is an advertisement, and section 4B of the Medicines (Advertisement and Sale) Act 1956 requires Medicine Advertisements Board approval before publication"
+  },
+  {
+   "id": "s:my-mab-guidelines",
+   "kind": "gov",
+   "title": "Medicine Advertisements Board (MAB) guidelines and policy",
+   "publisher": "Pharmaceutical Services Programme, Ministry of Health Malaysia",
+   "url": "https://pharmacy.moh.gov.my/en/documents/medicine-advertisements-board-mab-guidelines-and-policy.html",
+   "accessed": "2026-09-17",
+   "note": "the index page states the guidelines complement the Medicines (Advertisement and Sale) Act 1956 (Revised 1983) and the Medicine Advertisements Board Regulations 1976; the KKLIU serial number and its validity sit in the linked PDFs, which were not read"
+  },
+  {
+   "id": "s:eu-visa-code-annex-2",
+   "kind": "statute",
+   "title": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Annex II — non-exhaustive list of supporting documents",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/annex/II",
+   "accessed": "2026-09-17",
+   "note": "for travel undertaken for medical reasons, an official document of the medical institution confirming necessity for medical care in that institution and proof of sufficient financial means to pay for the treatment"
+  },
+  {
+   "id": "s:eu-visa-code-art-14",
+   "kind": "statute",
+   "title": "Regulation (EC) No 810/2009, Article 14 — supporting documents",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/article/14",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:hfea-donor-info",
+   "kind": "org",
+   "title": "Rules around releasing donor information",
+   "publisher": "Human Fertilisation and Embryology Authority",
+   "url": "https://www.hfea.gov.uk/donation/donors/rules-around-releasing-donor-information/",
+   "accessed": "2026-09-17",
+   "note": "donations from 1 April 2005: non-identifying details at 16, identifying details at 18. Donations 1 August 1991 to 31 March 2005: non-identifying only. Nothing held before August 1991."
+  },
+  {
+   "id": "s:ca-fam-7962",
+   "kind": "statute",
+   "title": "California Family Code § 7962 — assisted reproduction agreements for gestational carriers",
+   "publisher": "California Legislative Information",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=7962",
+   "accessed": "2026-09-17",
+   "note": "requires separate independent counsel for surrogate and intended parents, notarisation, and disclosure of how medical expenses are covered. The section carries no residency requirement and no cap on compensation."
+  },
+  {
+   "id": "s:cz-act-373-2011",
+   "kind": "statute",
+   "title": "Zákon č. 373/2011 Sb., o specifických zdravotních službách — §§ 6, 10, 21–23",
+   "publisher": "Zákony pro lidi (AION CS), consolidated Czech statute text",
+   "url": "https://www.zakonyprolidi.cz/cs/2011-373",
+   "accessed": "2026-09-17",
+   "note": "§ 10(1) obliges the provider to preserve mutual anonymity between an anonymous donor and the infertile couple and between donor and child. § 6(1) requires the written application of a woman and a man who undergo the service together. §§ 21–23: surgical sex change at 18 or over, on written application and the unanimous positive opinion of a Ministry of Health expert commission, which must act within three months; the provisions contemplate an extract from medical records kept in another state, with a certified translation."
+  },
+  {
+   "id": "s:stasi-thailand-art-act-2017",
+   "kind": "paper",
+   "title": "Protection for Children Born Through Assisted Reproductive Technologies Act, B.E. 2558: The Changing Profile of Surrogacy in Thailand, by Alessandro Stasi",
+   "publisher": "Clinical Medicine Insights: Reproductive Health, via PubMed Central PMC5753847",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753847/",
+   "accessed": "2026-09-17",
+   "note": "enacted by the National Legislative Assembly 19 February 2015. Section 21(1): the intending parents must be adult Thai citizens, or where only one is a Thai citizen must have been married at least three years, and must be a legally married couple whose wife cannot conceive. Penalties at sections 24 and 48 (surrogacy for profit: 10 years and up to 200,000 baht) and sections 27 and 49 (acting as an agent: 5 years and up to 100,000 baht)."
+  },
+  {
+   "id": "s:hibino-thailand-surrogacy-2020",
+   "kind": "paper",
+   "title": "Non-commercial Surrogacy in Thailand: Ethical, Legal, and Social Implications in Local and Global Contexts, by Yuri Hibino",
+   "publisher": "Asian Bioethics Review, via PubMed Central PMC7747428",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747428/",
+   "accessed": "2026-09-17",
+   "note": "the Act took effect 30 July 2015; trade in gametes and embryos, commercial surrogacy, brokering and promotion of third-party reproduction are prohibited, and only a couple perceived as legally married in Thailand may seek surrogacy. Also records that foreign clients were banned from procuring surrogacy in India by 2015 and that Cambodia prohibited surrogacy by ministerial order in October 2016."
+  },
+  {
+   "id": "s:es-rd-1723-2012",
+   "kind": "statute",
+   "title": "Real Decreto 1723/2012, por el que se regulan las actividades de obtención, utilización clínica y coordinación territorial de los órganos humanos, artículos 4 y 8",
+   "publisher": "Boletín Oficial del Estado",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-15715",
+   "accessed": "2026-09-17",
+   "note": "article 4.2 sets voluntariness, altruism, confidentiality, absence of profit motive and gratuity; article 8 requires a living donor of full age and capacity to give express consent before a judge, with at least 24 hours between the signed document and the extraction. Neither article distinguishes recipients by nationality or residence."
+  },
+  {
+   "id": "s:es-ley-4-2023",
+   "kind": "statute",
+   "title": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI",
+   "publisher": "Boletín Oficial del Estado",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+   "accessed": "2026-09-17",
+   "note": "registered on this pass on the strength of a subagent's reading of articles 16, 17 and 19; the article numbers were not re-read at the BOE by the author of the records that cite it"
+  },
+  {
+   "id": "s:tr-civil-code-art-40",
+   "kind": "statute",
+   "title": "Turkish Civil Code, Book I, Section I, Chapter II — Article 40 (change of sex)",
+   "publisher": "Legal Information Institute, Cornell Law School, Gender Justice collection",
+   "url": "https://www.law.cornell.edu/gender-justice/resource/turkish_civil_code_volume_i_section_i_chapter_ii_personal_status_registry",
+   "accessed": "2026-09-17",
+   "note": "court permission is a precondition of the surgery, not only of the registry change: over 18, unmarried, and an official health-council report from a training and research hospital. The procreative-incapacity requirement was struck by Constitutional Court decision 2017/165, which this project has not read."
+  },
+  {
+   "id": "s:map-youth-care-bans",
+   "kind": "org",
+   "title": "Bans on best practice medical care for transgender youth",
+   "publisher": "Movement Advancement Project",
+   "url": "https://www.mapresearch.org/equality-maps/healthcare/youth_medical_care_bans",
+   "accessed": "2026-09-17",
+   "note": "26 states and one territory, as of 16 September 2026, with 6 states and one territory making it a felony; the tracker records court rulings blocking enforcement in Montana and Kansas at that date. An advocacy organisation's tracker, which names its own date and method."
+  },
+  {
+   "id": "s:ar-decreto-62-2025",
+   "kind": "gov",
+   "title": "Se limitan los tratamientos de hormonización y las intervenciones quirúrgicas en menores",
+   "publisher": "Government of Argentina (argentina.gob.ar)",
+   "url": "https://www.argentina.gob.ar/noticias/se-limitan-los-tratamientos-de-hormonizacion-y-las-intervenciones-quirurgicas-en-menores-0",
+   "accessed": "2026-09-17",
+   "note": "the government's own announcement of Decreto 62/2025, published 6 February 2025, amending article 11 of Ley 26.743; adults unaffected. A federal appeal court in Paraná is reported to have held the decree unconstitutional; this project has not read that judgment."
+  },
+  {
+   "id": "s:rferl-russia-gender-law-2023",
+   "kind": "news",
+   "title": "Putin signs law banning gender-reassignment procedures",
+   "publisher": "Radio Free Europe/Radio Liberty",
+   "url": "https://www.rferl.org/a/russia-gender-reassignment-banned-putin-signs-law/32517157.html",
+   "accessed": "2026-09-17",
+   "note": "a news report, not the statute. The federal law number was not confirmed on any page read for this record, and is therefore not printed."
+  },
+  {
+   "id": "s:tr-tanitim-yonetmelik-2025",
+   "kind": "statute",
+   "title": "Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Faaliyetleri Hakkında Yönetmelik (Resmî Gazete, 12 November 2025, No. 33075)",
+   "publisher": "Resmî Gazete, Republic of Türkiye (Ministry of Health)",
+   "url": "https://resmigazete.gov.tr/eskiler/2025/11/20251112-2.htm",
+   "accessed": "2026-09-17",
+   "note": "the Resmî Gazete page's certificate could not be verified on this date; the text was read on a Turkish accountancy portal's reproduction at alomaliye.com. Madde 5: implicit or explicit advertising in the provision of health services is prohibited. Madde 8: promotion directed abroad may run on separate platforms, may not select a domestic audience, and must carry the HealthTürkiye logo. Repeals the regulation of 29 July 2023, No. 32263."
+  },
+  {
+   "id": "s:asa-cap-code-12",
+   "kind": "org",
+   "title": "CAP Code section 12 — medicines, medical devices, health-related products and beauty products",
+   "publisher": "Committees of Advertising Practice / Advertising Standards Authority, United Kingdom",
+   "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html",
+   "accessed": "2026-09-17",
+   "note": "rule 12.1 objective claims must be backed by evidence, if relevant trials on people; 12.2 marketers must not discourage essential treatment for conditions for which medical supervision should be sought; 12.12 prescription-only medicines or treatments may not be advertised to the public"
+  },
+  {
+   "id": "s:sg-hcsa-advertisement-regs-2021",
+   "kind": "statute",
+   "title": "Healthcare Services (Advertisement) Regulations 2021 (S 1033/2021), made under the Healthcare Services Act 2020",
+   "publisher": "Singapore Statutes Online, Attorney-General's Chambers",
+   "url": "https://sso.agc.gov.sg/SL/HSA2020-S1033-2021?DocDate=20211230",
+   "accessed": "2026-09-17",
+   "note": "registered from the Singapore Statutes Online listing; the regulations' own text returned 403 on this date, and the advertising controls described in the records that cite it come from the Ministry of Health's own newsroom pages"
+  },
+  {
+   "id": "s:sg-moh-advertising-controls",
+   "kind": "gov",
+   "title": "Non-licensed healthcare entities not permitted to make advertising claims",
+   "publisher": "Ministry of Health, Singapore",
+   "url": "https://www.moh.gov.sg/newsroom/non-licensed-healthcare-entities-not-permitted-to-make-advertising-claims",
+   "accessed": "2026-09-17",
+   "note": "advertising controls under the Healthcare Services Act 2020 came into force on 26 June 2023 for non-licensed providers and non-registered professionals; only licensees or their authorised persons may advertise a licensable healthcare service, under section 31"
+  },
+  {
+   "id": "s:jp-asrm-2013",
+   "kind": "statute",
+   "title": "Act on the Safety of Regenerative Medicine (Act No. 85 of 27 November 2013), English translation",
+   "publisher": "Japanese Law Translation, Ministry of Justice, Japan",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4980/en",
+   "accessed": "2026-09-17",
+   "note": "registered from the Japanese Law Translation catalogue entry; the provisions cited in the records come from the peer-reviewed review registered alongside it"
+  },
+  {
+   "id": "s:jp-asrm-review-2019",
+   "kind": "paper",
+   "title": "Japan's challenges of translational regenerative medicine: Act on the safety of regenerative medicine",
+   "publisher": "Regenerative Therapy, via PubMed Central PMC6581824",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6581824/",
+   "accessed": "2026-09-17",
+   "note": "the Act classifies regenerative medicine as Class I (high risk), Class II (intermediate) and Class III (low), each reviewed by a certified committee, and applies to private practice as well as clinical research. By November 2015 private-practice applications stood at 2 Class I, 24 Class II and 1,794 Class III."
+  },
+  {
+   "id": "s:be-euthanasia-law-2002",
+   "kind": "statute",
+   "title": "Loi du 28 mai 2002 relative à l'euthanasie, article 3",
+   "publisher": "Service public fédéral Justice, Belgium (ejustice)",
+   "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2002052837&table_name=loi",
+   "accessed": "2026-09-17",
+   "note": "article 3 sets the conditions — adult or emancipated minor, capable and conscious, a voluntary, considered and repeated request, a hopeless medical situation and constant unbearable suffering. The article carries no nationality or residence condition."
+  },
+  {
+   "id": "s:fr-loi-2026-794",
+   "kind": "statute",
+   "title": "LOI n° 2026-794 du 18 août 2026 relative à l'aide à mourir, article 4, inserting Code de la santé publique article L. 1111-12-2",
+   "publisher": "Légifrance, Government of France",
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054706877",
+   "accessed": "2026-09-17",
+   "note": "French nationality or stable and regular residence in France is one of five cumulative conditions. Read on this pass by a research agent rather than by the author of the records that cite it."
+  },
+  {
+   "id": "s:or-ors-127-805",
+   "kind": "statute",
+   "title": "Oregon Death with Dignity Act, ORS 127.805 (s. 2.01), as amended by Or. Laws 2023 ch. 241 § 2",
+   "publisher": "oregon.public.law, reproduction of the Oregon Revised Statutes",
+   "url": "https://oregon.public.law/statutes/ors_127.805",
+   "accessed": "2026-09-17",
+   "note": "the current text carries no residency clause; the requirement was removed by HB 2279 (2023) following the settlement of a federal suit in 2022"
+  },
+  {
+   "id": "s:us-ca-hsc-443-2",
+   "kind": "statute",
+   "title": "California End of Life Option Act, Health and Safety Code § 443.2(a)(3)",
+   "publisher": "California Legislative Information",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=443.2",
+   "accessed": "2026-09-17",
+   "note": "the applicant must be a resident of California, proved by a California driver's licence or state identification, California voter registration, ownership or lease of California property, or a California tax return for the most recent year"
+  },
+  {
+   "id": "s:de-tpg-8",
+   "kind": "statute",
+   "title": "Transplantationsgesetz § 8 — Entnahme von Organen und Geweben bei lebenden Spendern",
+   "publisher": "Bundesministerium der Justiz, gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/tpg/__8.html",
+   "accessed": "2026-09-17",
+   "note": "§ 8(1) sentence 2 restricts living donation of a kidney, part of a liver or other non-regenerating organ to first- and second-degree relatives, spouses, registered partners, fiancés, or persons evidently close to the donor in a special personal attachment"
+  },
+  {
+   "id": "s:uk-human-tissue-act-s33",
+   "kind": "statute",
+   "title": "Human Tissue Act 2004, section 33 — restriction on transplants involving a live donor",
+   "publisher": "The National Archives, legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/33",
+   "accessed": "2026-09-17",
+   "note": "an offence unless the Human Tissue Authority is satisfied that no reward has been given contrary to section 32 and that the conditions in regulations are met"
+  },
+  {
+   "id": "s:swissrights-stgb-115",
+   "kind": "web",
+   "title": "Article 115 of the Swiss Criminal Code (English), on a private reproduction of the statute",
+   "publisher": "swissrights.ch",
+   "url": "https://www.swissrights.ch/gesetze/Artikel-115-StGB-2025-EN.php",
+   "accessed": "2026-09-17",
+   "note": "a mirror, read because fedlex.admin.ch renders by script and did not return text on this date. The mirror does not display the SR number, so this project does not print one from it. The provision punishes inciting or assisting suicide only where the actor is led by a selfish motive; it carries no nationality or residence condition."
+  },
+  {
+   "id": "s:nl-abortion-act-1981",
+   "kind": "statute",
+   "title": "Wet afbreking zwangerschap (Wet van 1 mei 1981), artikelen 3, 6 en 11, as amended by the Wet van 22 augustus 2022 (Stb. 2022, 326)",
+   "publisher": "Overheid.nl, wetten.overheid.nl",
+   "url": "https://wetten.overheid.nl/BWBR0003396/",
+   "accessed": "2026-09-17",
+   "note": "no week limit in the Act and no residence or nationality bar; woonplaats appears only in the article 11 statistical reporting. The fixed five-day beraadtermijn was removed in 2022 and the doctor and the woman now set the term together."
+  },
+  {
+   "id": "s:be-abortion-law-2018",
+   "kind": "statute",
+   "title": "Loi du 15 octobre 2018 relative à l'interruption volontaire de grossesse, article 2",
+   "publisher": "Service public fédéral Justice, Belgium (ejustice)",
+   "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2018101503&table_name=loi",
+   "accessed": "2026-09-17",
+   "note": "12 weeks from conception, and the six-day reflection period between the first consultation and the procedure"
+  },
+  {
+   "id": "s:fr-csp-l2212-1",
+   "kind": "statute",
+   "title": "Code de la santé publique, article L2212-1, as amended by loi n° 2022-295",
+   "publisher": "Légifrance, Government of France",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045292636",
+   "accessed": "2026-09-17",
+   "note": "to the end of the fourteenth week on request; the article carries no residence condition"
+  },
+  {
+   "id": "s:it-legge-194-1978",
+   "kind": "statute",
+   "title": "Legge 22 maggio 1978, n. 194, articoli 4 e 5",
+   "publisher": "Normattiva, Government of Italy",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-05-22;194~art5",
+   "accessed": "2026-09-17",
+   "note": "the first 90 days, and the seven-day reflection the doctor must invite under article 5"
+  },
+  {
+   "id": "s:pt-codigo-penal-142",
+   "kind": "statute",
+   "title": "Código Penal, artigo 142.º, as amended by Lei n.º 16/2007",
+   "publisher": "Diário da República, Portugal",
+   "url": "https://files.diariodarepublica.pt/1s/2007/04/07500/24172418.pdf",
+   "accessed": "2026-09-17",
+   "note": "10 weeks by the woman's choice, after a reflection period of not less than three days"
+  },
+  {
+   "id": "s:mt-criminal-code",
+   "kind": "statute",
+   "title": "Criminal Code (Chapter 9 of the Laws of Malta), articles 241 and 243B",
+   "publisher": "Legislation Malta (legislation.mt)",
+   "url": "https://legislation.mt/eli/cap/9/eng",
+   "accessed": "2026-09-17",
+   "note": "article 243B was added by Act XXII of 2023 and permits termination before viability only where the woman's life is at immediate risk or her health in grave jeopardy"
+  },
+  {
+   "id": "s:ch-penal-118-120",
+   "kind": "statute",
+   "title": "Code pénal suisse, articles 118, 119 et 120",
+   "publisher": "Fedlex, the Swiss federal law portal",
+   "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/fr",
+   "accessed": "2026-09-17",
+   "note": "12 weeks from the last menstrual period, on the written request of a woman invoking distress, after an in-depth consultation"
+  },
+  {
+   "id": "s:tw-eugenics-act",
+   "kind": "statute",
+   "title": "優生保健法 第九條 (Genetic Health Act, article 9)",
+   "publisher": "Laws and Regulations Database of the Republic of China (Taiwan), Ministry of Justice",
+   "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0070001",
+   "accessed": "2026-09-17",
+   "note": "a married woman relying on the sixth ground must have her spouse's consent. Taiwan is not in the WHO Global Abortion Policies Database and was read here directly."
+  },
+  {
+   "id": "s:jp-maternal-health-act",
+   "kind": "statute",
+   "title": "母体保護法 (Maternal Health Act, Act No. 156 of 1948), article 14",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Japan",
+   "url": "https://abortion-policies.srhr.org/country/japan",
+   "accessed": "2026-09-17",
+   "note": "spousal consent is required, waived only where the spouse is unknown, cannot express an intention, or is dead. Read in the WHO database's copy of the Act rather than in the Japanese statute database."
+  },
+  {
+   "id": "s:id-health-law-2023",
+   "kind": "statute",
+   "title": "Undang-Undang No. 17 Tahun 2023 tentang Kesehatan, with PP 28/2024 and KUHP 2023 Pasal 463",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Indonesia",
+   "url": "https://abortion-policies.srhr.org/country/indonesia",
+   "accessed": "2026-09-17",
+   "note": "rape or sexual violence, or a medical emergency; the husband's permission is required except for rape victims, and counselling is mandatory. Read in the WHO database's country record."
+  },
+  {
+   "id": "s:in-mtp-act-1971",
+   "kind": "statute",
+   "title": "The Medical Termination of Pregnancy Act 1971 and the Medical Termination of Pregnancy (Amendment) Act 2021",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for India",
+   "url": "https://abortion-policies.srhr.org/country/india",
+   "accessed": "2026-09-17",
+   "note": "grounds-based rather than on request; the WHO record states that only the consent of the woman is needed, with guardian consent under 18. indiacode.nic.in returned 403 on this date."
+  },
+  {
+   "id": "s:th-penal-code-301-305",
+   "kind": "statute",
+   "title": "ประมวลกฎหมายอาญา มาตรา 301 และ 305, as amended by the Criminal Code Amendment Act (No. 28) B.E. 2564 (2021)",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Thailand",
+   "url": "https://abortion-policies.srhr.org/country/thailand",
+   "accessed": "2026-09-17",
+   "note": "on request to 12 weeks; between 12 and 20 weeks an examination and alternative counselling are required under a 2022 decree"
+  },
+  {
+   "id": "s:ca-morgentaler-1988",
+   "kind": "ruling",
+   "title": "R. v. Morgentaler, [1988] 1 S.C.R. 30, with the Canada Health Act",
+   "publisher": "World Health Organization, Global Abortion Policies Database country record for Canada",
+   "url": "https://abortion-policies.srhr.org/country/canada",
+   "accessed": "2026-09-17",
+   "note": "no criminal abortion law and no gestational limit in federal law; provincial insurance coverage varies, which is a funding question and not a legal bar"
+  }
+ ],
+ "note": "Sources added by the rules batch. The first block was fetched and read on 2026-09-16; the second on 2026-09-17. Each entry's accessed date says which, and where a page could not be read the note says so rather than leaving the gap silent."
+}

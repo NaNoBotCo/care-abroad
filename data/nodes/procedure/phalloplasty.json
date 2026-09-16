@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "id": "phalloplasty",
+ "type": "procedure",
+ "names": {
+  "name": "Phalloplasty",
+  "aliases": ["gender-affirming phalloplasty", "RFF phalloplasty", "ALT phalloplasty", "bottom surgery", "genital reconstruction"],
+  "said": "Surgeons name the flap — radial forearm, anterolateral thigh, latissimus dorsi, SCIP — because the flap sets the donor scar, the number of operations and the price. Price lists name the stage. Nobody prices the whole thing in one line, and a page that does is pricing one stage of it."
+ },
+ "etymology": {
+  "root": "phallos, Greek, the penis, and in older usage the carved or carried image of one; plus -plasty, from plastos, moulded. Metoidioplasty, the other operation in this family, is built on Greek meta-, change of position, and aidoion, the genitals — a word Greek used as a euphemism, from aidos, shame.",
+  "tier": "tradition",
+  "note": "Phalloplasty builds a penis from tissue taken somewhere else. Metoidioplasty releases and lengthens the clitoris, which testosterone has already enlarged, and does not use a flap. They are different operations with different prices, different stages and different donor scars, and both get called bottom surgery."
+ },
+ "region": ["global", "southeast-asia", "north-america", "europe-west"],
+ "facets": {
+  "family": "gender-affirming",
+  "setting": "staged",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A penis is built from a flap of the patient's own skin, fat and nerve — most often the forearm, otherwise the thigh, groin or back — transferred to the pubis and connected to blood vessels and nerves there. Where urethral lengthening is done, a tube is made inside the flap so that urine passes through the new organ; that is the part that leaks, narrows and needs repair most often. Rigidity, where it is wanted, comes later from an implanted prosthesis, and testicular prostheses later still. The work is staged across separate admissions and usually separate years.",
+  "story": "The clearest published statement about what this operation costs is a Bangkok hospital's list, and it is published one stage at a time. Yanhee Hospital prices a total phalloplasty at 426,000 baht with fourteen nights attached; before it, urethral prefabrication on the forearm at 97,700 with one night, and vaginal closure at 199,000 with five; after it, a coronoplasty at 96,000, a penile prosthesis at 99,000 and a scrotal prosthesis at 96,000, the last two stated to exclude the implants themselves. *Inference —* the six rows add to 1,013,700 baht before any implant, which is the number a reader comparing this with a single headline price is actually looking for, and no page publishes it.\n\nThe same table carries a line that is rarer than the prices. Vaginal closure is quoted at 199,000 baht where the hysterectomy was done at Yanhee and 228,800 where it was done, in the table's own words, at \"Other Places\". A staged operation split across two countries costs more at the second one, and here somebody has put a figure on it.\n\nIn the United States the Gender Confirmation Center estimates phalloplasty at 35,000 to 50,000 dollars and then says something a price page rarely says: the operation is \"not available to cash-pay patients\" and needs insurance pre-approval, while metoidioplasty, vaginectomy and groin flap phalloplasty are available without it. That is a surgical practice declining to sell the largest operation on its own list for cash. In London, the private list that publishes guide prices for chest surgery and for vaginoplasty has no phalloplasty or metoidioplasty row on it at all.\n\n*Inference —* those two absences point the same way. This is the operation in the gender-affirming set with the most stages, the most revisions and the longest tail of complications, and the pages that would otherwise quote a price are the pages that stop.",
+  "how": "General anaesthesia, long operations, and an admission per stage. The flap is raised with its artery, vein and sensory nerve, moved, and plumbed in under a microscope; the donor site is grafted and leaves a permanent scar the size of the flap. Where the urethra is lengthened, it is usually prefabricated in a separate earlier operation. Hospital stays on the one published table run from one night for the prefabrication to fourteen for the phalloplasty itself. Candidacy conditions are published by the clinics rather than imposed by them alone: one Bangkok hospital lists a minimum age of 20, at least a year of testosterone, a year living in the acquired gender, psychiatric clearance, and mastectomy and hysterectomy completed at least six months earlier.",
+  "today": "Two countries' provider pages carrying a phalloplasty price were read on 17 September 2026 — a Thai staged list and a US practice's estimate that comes with a refusal to take cash for it. Between those two numbers sit a different currency, a different number of stages, a different definition of what is included, and the implants, which the Thai list excludes by name.",
+  "notes": "This page describes an operation. It is not advice about whether to have one, or where."
+ },
+ "metrics": {
+  "stay_days": 14,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "Fourteen nights is the ward stay attached to the Stage 3 total phalloplasty row on the Yanhee price table; the other stages on the same table carry one, two, three and five nights. No source read for this record publishes a wait before flying or a recovery span, and a staged operation has no single recovery to measure.",
+  "as_of": "2026-09-17",
+  "source": "s:yanhee-plastic-prices",
+  "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"
+ },
+ "prices": [
+  {
+   "procedure": "phalloplasty",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 426000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["14 nights in hospital, as stated in the nights column"],
+   "excludes": ["urethral prefabrication of the forearm, listed separately at 97,700 with 1 night", "vaginal closure, listed at 199,000 with 5 nights where the earlier hysterectomy was done at the same hospital", "coronoplasty at 96,000", "penile prosthesis at 99,000 and scrotal prosthesis at 96,000, both stated to exclude the implant", "everything outside the ward: hotel, flights, the weeks between stages"],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "listed as STAGE 3: Total Phalloplasty. The table carries no validity date and no inclusion list. Its exclusion of the prosthesis implants is the same move a joint package makes when it excludes the joint.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "phalloplasty",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 228800,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["vaginal closure after a hysterectomy performed elsewhere", "5 nights"],
+   "excludes": ["the phalloplasty itself and every other stage"],
+   "source": "s:yanhee-plastic-prices",
+   "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/",
+   "note": "the same row costs 199,000 baht where the earlier stage was done at this hospital and 228,800 where it was done, in the table's own words, at Other Places. A published surcharge for arriving mid-course from another surgeon is unusual enough to carry on its own.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "phalloplasty",
+   "country": "US",
+   "city": "San Francisco",
+   "amount": 35000,
+   "amount_high": 50000,
+   "currency": "USD",
+   "as_of": "2024-10-15",
+   "kind": "estimate",
+   "includes": ["hospital stays", "post-operative supplies while in the hospital", "occupational therapy"],
+   "excludes": ["medications", "travel", "cash-paying patients altogether: the page states phalloplasty is not available to them and requires insurance pre-approval"],
+   "source": "s:gcc-bottom-surgery-cost",
+   "url": "https://www.genderconfirmation.com/bottom-surgery-cost/",
+   "note": "the practice's own estimate, on a page marked medically reviewed 15 October 2024. Metoidioplasty is estimated at 23,000 to 24,500 dollars on the same page and is available without insurance, as are vaginectomy, scrotectomy and groin flap phalloplasty.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "gender-affirming-care-access", "as": "Whether the health system at home does this at all, and who it will do it for.", "rel": "governed-by"},
+  {"to": "vaginoplasty", "as": "The other genital operation: one admission against this one's four.", "rel": "contrast"},
+  {"to": "top-surgery", "as": "Stage one on the same Thai list, at a quarter of the price and two nights.", "rel": "kin"},
+  {"to": "hysterectomy", "as": "Priced as an earlier stage on the same list, and a stated precondition on a Bangkok hospital's candidacy page.", "rel": "kin"},
+  {"to": "thailand", "as": "Where the one staged price list read for this record is published.", "rel": "destination"},
+  {"to": "bangkok", "as": "The city holding that hospital and the surgeons whose flap techniques are on their pages without prices.", "rel": "hub"},
+  {"to": "united-states", "as": "Where a practice publishes an estimate for this operation and declines to sell it for cash.", "rel": "destination"},
+  {"to": "revision-at-home", "as": "Urethral fistula and stricture are the complications that arrive after the flight, and they need a surgeon.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Four stages across years, and the record of the first three sitting in another country.", "rel": "risk"},
+  {"to": "implant-excluded", "as": "The prosthesis is excluded from the prosthesis row, in the same way an artificial joint is excluded from a joint package.", "rel": "risk"},
+  {"to": "getting-a-quote", "as": "The step where a staged operation has to be added up, because no page adds it up.", "rel": "step"},
+  {"to": "reading-the-exclusions", "as": "Where the words Other Places, and what they cost, would be found.", "rel": "step"}
+ ],
+ "confusable_with": [
+  {"id": "vaginoplasty", "tell": "Both are called bottom surgery and both are called genital reconstruction. One is a single admission with a dilation regime after it; the other is a sequence of admissions with an implant at the end."}
+ ],
+ "links": [
+  {"label": "Yanhee Hospital plastic surgery price table", "url": "https://www.yanhee.net/pricing-packages/plastic-surgery-prices/"},
+  {"label": "Kamol Cosmetic Hospital — flap options and candidacy", "url": "https://kamolhospital.com/services/phalloplasty/"},
+  {"label": "Gender Confirmation Center — bottom surgery costs", "url": "https://www.genderconfirmation.com/bottom-surgery-cost/"}
+ ],
+ "sources": ["s:yanhee-plastic-prices", "s:gcc-bottom-surgery-cost", "s:kamol-phalloplasty", "s:ltc-price-list"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:yanhee-plastic-prices", "note": "every row is read off the named page; the addition of the six stages and the paragraph about why the other lists stop are marked Inference"},
+   "text.how": {"tier": "cited", "source": "s:kamol-phalloplasty", "note": "flap description is standard; the candidacy list and the stay figures are read off the named pages"},
+   "etymology": {"tier": "tradition"},
+   "prices": {"tier": "cited", "source": "s:yanhee-plastic-prices"},
+   "metrics": {"tier": "cited", "source": "s:yanhee-plastic-prices"}
+  }
+ },
+ "x_commons_files": ["File:Radial forearm free flap donor site.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "id": "sheba",
+ "type": "facility",
+ "names": {
+  "name": "Sheba Medical Center",
+  "aliases": ["Tel HaShomer", "המרכז הרפואי שיבא", "Chaim Sheba Medical Center"],
+  "said": "SHEE-va, for Chaim Sheba, the physician who turned it civilian in 1953. Israelis call it Tel HaShomer, after the place: an 800-dunam campus in east Ramat Gan, not in Tel Aviv proper."
+ },
+ "region": ["west-asia"],
+ "facets": {
+  "iso2": "IL",
+  "ownership": "public",
+  "founded": 1948,
+  "specialty": ["oncology", "cardiology", "rehabilitation", "paediatric haemato-oncology", "women's health"],
+  "draws": ["car-t", "bone-marrow-transplant", "proton-therapy", "ivf"],
+  "status": "open",
+  "languages": ["Hebrew", "English", "Arabic", "Russian"]
+ },
+ "text": {
+  "what": "Israel's largest hospital: about 1,580 beds on an 800-dunam campus at Tel HaShomer in east Ramat Gan, government-affiliated and attached to Tel Aviv University. It opened in 1948 as the army's hospital for casualties of that year's war and became civilian in 1953 under Chaim Sheba. Its Global Patient Services department treats patients from more than a hundred countries.",
+  "story": "The hospital was founded as a military institution and the inheritance shows in what it is known for: rehabilitation, trauma, post-traumatic stress, and the research units built around them.\n\nIts published figures are unusually specific for this directory. About 1,580 beds across acute, rehabilitation and specialty hospitals; about 1,700 physicians and 12,000 other healthcare workers, with a further 1,700 staff and nearly a thousand volunteers and researchers; more than a million patient visits a year of which 200,000 are emergency visits; more than two million medical tests; a budget of 320 million dollars.\n\nThe patient figure counts VISITS. *Inference —* a million visits at a hospital with 1,580 beds is an outpatient system with an inpatient hospital inside it, and reading it as a million people would be reading it wrong by a wide margin.\n\nWhat brings foreign patients is the cell therapy: CAR-T and tumour-infiltrating lymphocyte immunotherapy are what Global Patient Services leads with, and they are treatments a patient travels for because they are not available at home rather than because they are cheaper. Newsweek placed the hospital eighth in the world in 2025.\n\nIsrael regulates this trade directly. The Knesset passed medical tourism legislation in 2018 setting conditions on how public hospitals may treat foreign patients, after years of argument about whether a public hospital's foreign work displaces its citizens.",
+  "how": "Foreign patients reach the hospital through Global Patient Services, which is the department the 2018 law regulates. *Trade practice —* a cell therapy referral runs on pathology, prior treatment records and eligibility for a protocol, not on a package: the question answered first is whether the patient qualifies, and the price question comes after.\n\nNo price schedule is published. Israel's Ministry of Health publishes the framework; the hospital publishes the department.",
+  "today": "As of 17 September 2026 the hospital states about 1,580 beds, about 1,700 physicians, 12,000 other healthcare workers, over a million patient visits a year including 200,000 emergency visits, and patients from over a hundred countries through Global Patient Services. Newsweek's 2025 list placed it eighth in the world."
+ },
+ "geo": {"lat": 32.047184, "lon": 34.845201, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Sderot Aharon Katzir, Tel HaShomer", "city": "Ramat Gan", "area": "Tel Aviv District", "country": "IL", "postcode": "5262657"},
+ "metrics": {
+  "beds": 1580,
+  "doctors": 1700,
+  "staff": 12000,
+  "annual_patients": 1000000,
+  "annual_foreign_patients": null,
+  "foreign_patient_countries": 100,
+  "note": "annual_patients counts VISITS, not people: over 1,000,000 patient visits a year, of which 200,000 are emergency visits. A patient attending an outpatient clinic six times is six. Beds are about 1,580 across the acute, rehabilitation and specialty hospitals on one campus. Staff here is the 12,000 healthcare workers other than physicians; a further 1,700 staff and nearly a thousand volunteers and researchers are counted separately in the source. The foreign country figure is where patients come from — over 100 — and no count of foreign patients themselves is published.",
+  "as_of": "2026",
+  "source": "s:wp-sheba",
+  "url": "https://en.wikipedia.org/wiki/Sheba_Medical_Center"
+ },
+ "tags": [
+  {"tag": "public-hospital", "source": "s:wp-sheba", "tier": "cited", "note": "government-affiliated, founded 1948 as the army's hospital and civilian since 1953"},
+  {"tag": "university-hospital", "source": "s:wp-sheba", "tier": "cited", "note": "affiliated with Tel Aviv University"},
+  {"tag": "international-office", "source": "s:wp-sheba", "tier": "cited", "note": "Global Patient Services, treating patients from over a hundred countries"},
+  {"tag": "interpreter", "source": "s:wp-sheba", "tier": "cited", "note": "multilingual support stated as part of Global Patient Services"},
+  {"tag": "transplant-programme", "source": "s:wp-sheba", "tier": "cited", "note": "cell therapy — CAR-T and tumour-infiltrating lymphocyte immunotherapy — named as what international patients come for"},
+  {"tag": "no-price-published", "source": "s:israel-moh-medical-tourism", "tier": "cited", "note": "no schedule is published by the hospital; the ministry publishes the regulatory framework instead"}
+ ],
+ "recognitions": [
+  {"by": "newsweek-statista", "what": "Ranked eighth in the world in the 2025 Newsweek list, its highest placing among Asian and Israeli hospitals", "year": 2025, "valid_until": null, "source": "s:wp-sheba", "url": "https://en.wikipedia.org/wiki/Sheba_Medical_Center", "note": "a ranking by survey and published indicators, counted and not weighted by this project"}
+ ],
+ "kin": [
+  {"to": "tel-aviv", "as": "The hospital the Tel Aviv cluster is built on, though its campus is in Ramat Gan rather than the city.", "rel": "place"},
+  {"to": "israel", "as": "The country's largest hospital, and the one the 2018 medical tourism law was written around.", "rel": "destination"},
+  {"to": "car-t", "as": "Among the cell therapies its international department leads with — a treatment travelled for because it is unavailable at home, not because it is cheap.", "rel": "performs"},
+  {"to": "hadassah", "as": "Jerusalem's teaching hospital, funded by an American women's organisation, against a government hospital founded by an army.", "rel": "contrast"},
+  {"to": "king-hussein-cancer-center", "as": "The other regional cancer centre in this batch, an hour's drive and a closed border away.", "rel": "contrast"},
+  {"to": "deciding-whether", "as": "A patient who travels for a therapy unavailable at home is answering a different question from one travelling for a price.", "rel": "step"},
+  {"to": "counting-patients", "as": "A million a year, and the word in the source is visits.", "rel": "story"},
+  {"to": "unproven-stem-cell", "as": "A regulated cell-therapy programme in a public hospital is the thing an unproven clinic imitates the vocabulary of.", "rel": "contrast"}
+ ],
+ "links": [
+  {"label": "Sheba Medical Center", "url": "https://eng.sheba.co.il/"},
+  {"label": "Medical Tourism in Israel — Ministry of Health", "url": "https://www.gov.il/en/pages/medical-tourism-israel"}
+ ],
+ "sources": ["s:wp-sheba", "s:israel-moh-medical-tourism", "s:loc-israel-medical-tourism-law", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "the shape of a cell therapy referral; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:wp-sheba"}
+  }
+ },
+ "x_commons_files": ["File:Sheba Medical Center.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

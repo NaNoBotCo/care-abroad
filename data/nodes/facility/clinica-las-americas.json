@@ -1,0 +1,69 @@
+{
+ "schema": 1,
+ "id": "clinica-las-americas",
+ "type": "facility",
+ "names": {
+  "name": "Clínica Las Américas",
+  "aliases": ["Las Américas Auna", "Clínica Las Américas Auna"],
+  "said": "KLEE-nee-ka las a-MEH-ree-kas. Now trading as Las Américas Auna, after the Peruvian healthcare group Auna that owns Grupo Las Américas; the clinic sits on Diagonal 75B in western Medellín."
+ },
+ "region": ["south-america"],
+ "facets": {
+  "iso2": "CO",
+  "ownership": "private",
+  "founded": 1994,
+  "specialty": ["oncology", "cardiovascular", "orthopaedics", "health screening", "transplantation"],
+  "draws": ["executive-health-screening", "knee-replacement", "hip-replacement", "bone-marrow-transplant"],
+  "status": "open",
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "A high-complexity private clinic in western Medellín, part of Grupo Las Américas and owned by the Peruvian healthcare group Auna. Its international office is the part of it this directory is about: a department that handles entry to Colombia, the health visa, yellow fever vaccination and flights alongside the medical arrangements.",
+  "story": "Medellín is the second Colombian city in this directory and it sells differently from Bogotá. The Bogotá hospital is a foundation with no shareholders and an academic accreditation. Las Américas is a commercial clinic inside a regional group that runs hospitals in Peru, Colombia and Mexico.\n\nWhat its international office publishes is not clinical. It is a procedure: how to enter Colombia, which visa class covers medical treatment, where the yellow fever vaccination is needed, how the flights work, and which insurers it deals with. Executive check-ups head its service list.\n\n*Inference —* an international department that leads with the visa and the vaccination rather than with the surgery is describing its actual work. The clinical decision is made once; the paperwork is made continuously, and it is the part a patient abroad cannot do alone.\n\nNo bed count, no patient count and no accreditation was found published in the pages read for this record.",
+  "how": "*Trade practice —* the Medellín route runs on Colombians abroad, on the Caribbean and on the Andean republics, with cosmetic surgery drawing a separate and largely unaccredited trade in the same city that does not pass through a clinic of this kind. The international office is the funnel: enquiry, records, estimate, visa letter, arrival.\n\nNo price is published on any page read here.",
+  "today": "As of 17 September 2026 the international office states its services — executive check-ups, a service portfolio, insurer arrangements, travel planning, medical visa guidance and yellow fever advice — at Diagonal 75B No. 2A-80/140, Medellín. No bed count, patient count, accreditation or price was found."
+ },
+ "geo": {"lat": 6.213953, "lon": -75.595759, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Diagonal 75B No. 2A-80/140", "city": "Medellín", "area": "Antioquia", "country": "CO", "postcode": "050024"},
+ "metrics": {
+  "beds": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "None published in the pages read. The clinic's international office describes what it does and where it is; it gives no capacity figure, no patient count and no count of the countries its patients come from. Absence here means absence from these pages, not from the clinic's records.",
+  "as_of": "2026",
+  "source": "s:lasamericas-international",
+  "url": "https://www.lasamericas.com.co/oficina-internacional"
+ },
+ "tags": [
+  {"tag": "international-office", "source": "s:lasamericas-international", "tier": "cited", "note": "a dedicated office for national and international patients handling the whole journey, not only the treatment", "url": "https://www.lasamericas.com.co/oficina-internacional"},
+  {"tag": "visa-support", "source": "s:lasamericas-visa", "tier": "cited", "note": "the office publishes a step-by-step page on Colombia's medical visa", "url": "https://www.lasamericas.com.co/oficina-internacional/paso-a-paso/visa-medica-en-colombia"},
+  {"tag": "chain", "source": "s:lasamericas-international", "tier": "cited", "note": "part of Grupo Las Américas, owned by the regional healthcare group Auna"},
+  {"tag": "insurer-direct", "source": "s:lasamericas-international", "tier": "cited", "note": "the international office publishes its insurance company arrangements as one of its listed services"},
+  {"tag": "no-price-published", "source": "s:lasamericas-international", "tier": "cited", "note": "the service portfolio is published; no figure is attached to any of it"}
+ ],
+ "kin": [
+  {"to": "medellin", "as": "The high-complexity clinic at the centre of the city's formal medical traffic, distinct from its cosmetic trade.", "rel": "place"},
+  {"to": "colombia", "as": "The Medellín route into Colombian private medicine, run through an international office that starts with the visa.", "rel": "destination"},
+  {"to": "fundacion-santa-fe", "as": "Bogotá's foundation hospital: no shareholders and an academic accreditation, against a commercial clinic in a regional group.", "rel": "contrast"},
+  {"to": "the-visa", "as": "Publishes a step-by-step page on Colombia's medical visa, which is the step its office exists for.", "rel": "step"},
+  {"to": "executive-health-screening", "as": "Heads its own service list, ahead of any operation.", "rel": "performs"},
+  {"to": "choosing-a-facilitator", "as": "An in-house international office is the alternative to a broker, and it is the clinic's own staff.", "rel": "step"},
+  {"to": "bbl", "as": "Medellín's cosmetic trade runs beside this clinic and not through it, which is the distinction a reader of a city page needs.", "rel": "contrast"}
+ ],
+ "links": [
+  {"label": "Oficina Internacional Las Américas", "url": "https://www.lasamericas.com.co/oficina-internacional"}
+ ],
+ "sources": ["s:lasamericas-international", "s:lasamericas-visa", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim", "note": "the OpenStreetMap point for the Torre Médica Las Américas on Diagonal 75B"},
+   "text.how": {"tier": "tradition", "note": "where Medellín's inbound traffic comes from; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:lasamericas-international"}
+  }
+ },
+ "x_commons_files": [],
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

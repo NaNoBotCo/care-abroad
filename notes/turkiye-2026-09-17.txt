@@ -1,0 +1,88 @@
+TÜRKİYE — WHAT WAS READ OFF THE PRIMARY SOURCES, 17 SEPTEMBER 2026
+=================================================================
+Filed here because two of these correct things most secondary writing on the subject
+still gets wrong, and because the rule record turkiye-health-tourism-authorisation was
+being drafted from the older instrument.
+
+1. THE 2017 REGULATION IS REPEALED
+   In force: Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik,
+   Resmî Gazete 26 April 2025, Sayı 32882. MADDE 17 repeals the 13/7/2017 regulation
+   (RG 30123). Anything citing 30123 as current is out of date.
+
+   What it requires:
+     MADDE 5(1)  the authorisation certificate is compulsory for the facility AND the
+                 intermediary — Ministry licenses the facility, USHAŞ the intermediary
+     MADDE 5(5)  non-transferable; 5(4) a separate certificate per branch
+     MADDE 6(1)(b) TÜSKA accreditation for hospitals, medical centres, medical
+                 laboratories and dialysis centres; deadline 31/12/2026
+     MADDE 6(1)(c) complication insurance compulsory for theatre procedures;
+                 deadline 31/12/2025
+     MADDE 6(1)(e) a facility may not buy intermediary services from an unlicensed party
+     MADDE 6(3)  complications and medical malpractice expressly inside the holder's
+                 responsibility
+     MADDE 7     an international health tourism unit with a documented foreign-language
+                 speaker; agencies need 24/7 capacity in at least two languages
+     MADDE 8(4)  registration on the HealthTürkiye portal is compulsory
+     MADDE 11(1) pricing is set by the Ministry
+     MADDE 9     annual performance evaluation by USHAŞ; 3-month then 6-month suspension,
+                 cancellation after a failed second control evaluation
+     MADDE 16    cancellation for a year of inactivity; no new certificate for a year
+
+2. HAIR TRANSPLANTS HAVE THEIR OWN RULE
+   Saç Ekimi Birimleri Hakkında Yönetmelik, RG 6 May 2023, Sayı 32182 (amended 3 Nov 2023
+   and Sept 2025).
+     MADDE 9(3)   only physicians holding the applicator certificate may perform the
+                  channel-opening stage
+     MADDE 9(4)   assistants work only under a certified physician
+     MADDE 9(6)   one certified physician covers at most five rooms
+     MADDE 10(3)  every case logged with technique, graft count, region, before and
+                  72-hour photographs, and the names of the team — with one carve-out:
+                  the six-month photograph is not required for inbound health-tourism
+                  patients
+     MADDE 10(4)  one patient per room at a time
+     MADDE 11(5)  fine of 1–3% of the previous month's gross service revenue; on
+                  persistence the activity certificate is cancelled with no re-issue
+     MADDE 11(1)  inspection at least once a year, plus unscheduled on complaint
+   Public register: sacekimmerkezi.saglik.gov.tr (MADDE 12(2)).
+
+   Read for the record: the 2023 prohibitions map one-for-one onto the practices ISHRS
+   had been alleging since 2016. That is regulatory acknowledgement, and it is better
+   evidence than any trade-press assertion.
+
+3. THE OFFICIAL SERIES, AND WHAT IT COUNTS
+   TÜİK, Departing Visitors Survey, table "Geliş Nedenine Göre Çıkış Yapan Ziyaretçiler",
+   column "Sağlık ve tıbbi nedenler (1 yıldan az)". A border exit survey of STATED
+   PURPOSE. Not a count of patients treated, not a count of people.
+
+     2019   756,926        2023  1,538,643
+     2020   435,691 *      2024  1,506,442
+     2021   729,592        2025  1,398,580  (of which 250,401 Turkish citizens resident abroad)
+     2022 1,381,807        2026 H1 563,327
+     * Q2 2020 not published: no border surveys during the pandemic.
+
+   USHAŞ republishes those counts and adds an income series, attributing both to TÜİK.
+   Income: 2019 USD 1.459bn · 2023 USD 3.006bn · 2024 USD 3.023bn · 2025 USD 3.022bn ·
+   2026 H1 USD 1.580bn. The person counts match TÜİK exactly, so USHAŞ and TÜİK are one
+   source, not two.
+
+   Per-visitor spend: NOT PUBLISHED by anyone. Dividing the two gives about USD 2,160,
+   which is arithmetic and is labelled as such wherever it appears here.
+
+4. HOW MANY FACILITIES HOLD THE CERTIFICATE
+   Counted from the Ministry's four published lists, all stamped 20 August 2026:
+     hospitals 542 · medical centres 135 · physician offices 2,468 · other 1,581.
+   Total 4,726, which is a sum made here; the Ministry prints no total.
+   The count of authorised intermediaries is not published anywhere that could be read.
+
+5. TWO CIRCULATING FIGURES THIS CONTRADICTS
+   "Türkiye's health tourism income topped $4.5 billion in 2015" (TÜRSAB, via ISHRS 2016)
+   cannot be reconciled with the official series, which does not reach USD 3bn until 2023.
+   "About US$1 billion a year" for hair transplants (Haider et al. 2025, Aesthetic Plastic
+   Surgery) appears in a peer-reviewed journal but traces to a 2015 magazine article. The
+   same review calls the sector a data black hole, which is the part worth carrying.
+
+6. NOT SOURCED — leave empty rather than fill
+   TÜİK-published health income or per-visitor spend as a TÜİK table · a published count
+   of authorised intermediaries · a peer-reviewed count of hair-restoration travel to
+   Türkiye · a Türk Tabipleri Birliği statement on unlicensed technicians · a published
+   count of clinics closed by inspection · any split of the 1.4m figure by procedure.

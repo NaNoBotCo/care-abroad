@@ -1,0 +1,74 @@
+{
+ "schema": 1,
+ "id": "heidelberg-university-hospital",
+ "type": "facility",
+ "names": {
+  "name": "Heidelberg University Hospital",
+  "aliases": ["Universitätsklinikum Heidelberg", "UKHD"],
+  "said": "Universitätsklinikum Heidelberg. Medical teaching in the town dates to 1388; the hospital is a separate legal body from the university, an Anstalt des öffentlichen Rechts with its own board and its own accounts."
+ },
+ "region": ["europe-west"],
+ "facets": {
+  "iso2": "DE",
+  "ownership": "university",
+  "founded": 1388,
+  "specialty": ["oncology", "heavy ion therapy", "surgery", "internal medicine", "paediatrics"],
+  "draws": ["proton-therapy", "car-t", "bone-marrow-transplant", "liver-transplant"],
+  "status": "open",
+  "languages": ["German", "English", "Arabic", "Russian"]
+ },
+ "text": {
+  "what": "A 1,991-bed public university hospital at Im Neuenheimer Feld in Heidelberg, treating over a million patients a year. It is an independent public-law institution with its own board, administratively and financially separate from Heidelberg University. Its international office runs an English-language site for patients from abroad, and that site publishes the payment terms rather than the prices.",
+  "story": "The hospital dates its medical teaching to 1388 and its present form to a campus in the Neuenheimer Feld north of the Neckar. It holds the National Center for Tumor Diseases jointly with the German Cancer Research Center, and a heavy ion therapy facility whose 600-tonne rotating gantry is the piece of equipment the hospital is most often named for abroad. Newsweek's 2026 list placed it twelfth in the world.\n\nWhat it publishes about money is worth reading closely, because it is the German answer to the package price and the closest thing in this batch to a German tariff.\n\nA cost estimate exists only after the hospital's specialists have read the submitted records — \"An overview of the expected treatment costs will be generated based on the treatment offer submitted by the expert\" — and the hospital says plainly that the estimate may move. Then: \"Once you've committed to receiving treatment at Heidelberg University Hospital, we ask that the entire sum be transferred to the account of Heidelberg University Hospital as given on the cost estimate.\" The appointment is confirmed on receipt of that transfer. After discharge the actual cost is worked out, and \"if these costs are below the pre-payment, the balance will be refunded immediately\" by the same route it arrived. Complications can require a further payment.\n\n*Inference —* that is the opposite instrument from a fixed package. A package transfers the risk of the bill to the hospital and caps the patient's exposure at the advertised figure. A pre-payment against an estimate transfers the risk to the patient and reconciles afterwards. Neither is hidden; they are different contracts, and a reader comparing a Bangkok package with a Heidelberg estimate is comparing two different things.",
+  "how": "Records first, decision second, estimate third, whole sum in advance, treatment, then reconciliation. Payment by bank transfer, by cash at the cashier's office on the ground floor of the Kopfklinik, or by card online or at the office.\n\nNo schedule of amounts is published for any procedure, so nothing here can be compared against a price list elsewhere without the hospital's own estimate in hand.",
+  "today": "As of 17 September 2026 the hospital carries 1,991 beds, the 2020 figure, and states over a million patients a year. Newsweek's 2026 list placed it twelfth in the world. The finance page publishes the advance-payment and refund terms in full and publishes no amount."
+ },
+ "geo": {"lat": 49.417152, "lon": 8.664723, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Im Neuenheimer Feld", "city": "Heidelberg", "area": "Baden-Württemberg", "country": "DE", "postcode": "69120"},
+ "metrics": {
+  "beds": 1991,
+  "annual_patients": 1000000,
+  "annual_foreign_patients": null,
+  "note": "annual_patients counts TREATMENTS, not people: the hospital states over a million patients a year treated across a campus whose outpatient work dwarfs its inpatient work, and does not separate the two. Beds are 1,991 as of 2020 and are not restated in the source. No count of international patients is published.",
+  "as_of": "2020",
+  "source": "s:wp-heidelberg-uh",
+  "url": "https://en.wikipedia.org/wiki/Heidelberg_University_Hospital"
+ },
+ "tags": [
+  {"tag": "university-hospital", "source": "s:wp-heidelberg-uh", "tier": "cited", "note": "an independent public-law institution with its own board, separate from Heidelberg University in administration and finance"},
+  {"tag": "public-hospital", "source": "s:wp-heidelberg-uh", "tier": "cited"},
+  {"tag": "teaching", "source": "s:wp-heidelberg-uh", "tier": "cited", "note": "medical teaching in Heidelberg dated by the hospital to 1388"},
+  {"tag": "international-office", "source": "s:heidelberg-finance", "tier": "cited", "note": "a Medical International Office with its own English-language site and its own bank account", "url": "https://www.heidelberg-university-hospital.com/finance"},
+  {"tag": "no-price-published", "source": "s:heidelberg-finance", "tier": "cited", "note": "the finance page publishes the payment mechanism in full — estimate, whole sum in advance, reconciliation, refund — and no amount for anything"},
+  {"tag": "complication-cover", "source": "s:heidelberg-finance", "tier": "cited", "note": "the opposite of cover, and named here so the page says so: the hospital states that complications may require a further payment beyond the estimate"}
+ ],
+ "recognitions": [
+  {"by": "newsweek-statista", "what": "Ranked twelfth in the world in the 2026 Newsweek list", "year": 2026, "valid_until": null, "source": "s:wp-heidelberg-uh", "url": "https://en.wikipedia.org/wiki/Heidelberg_University_Hospital", "note": "a ranking by survey and published indicators; counted, not weighted"}
+ ],
+ "kin": [
+  {"to": "germany", "as": "The German university hospital that publishes its payment terms, which is as close as this country gets to a tariff for a foreign self-payer.", "rel": "destination"},
+  {"to": "charite-international", "as": "Berlin's arrangement: a company beside the hospital, publishing its telephone hours where this one publishes its refund rule.", "rel": "contrast"},
+  {"to": "the-deposit", "as": "The whole estimated sum before the appointment is confirmed, refunded to source if the final bill is lower.", "rel": "step"},
+  {"to": "getting-a-quote", "as": "No estimate exists until its specialists have read the records, and the hospital says the estimate may move.", "rel": "step"},
+  {"to": "deposit-and-refund", "as": "Publishes the refund rule as well as the deposit rule, which is the half most deposit pages leave out.", "rel": "risk"},
+  {"to": "proton-therapy", "as": "Its heavy ion facility is what its name travels on, and the 600-tonne gantry is the reason.", "rel": "performs"},
+  {"to": "reading-the-exclusions", "as": "The exclusion here is open-ended: a complication is charged beyond the estimate, and the page says so.", "rel": "step"},
+  {"to": "bumrungrad", "as": "A package caps the patient's exposure at the advertised figure; a pre-payment against an estimate does not.", "rel": "contrast"},
+  {"to": "is-it-cheaper", "as": "A Bangkok package and a Heidelberg estimate are two different contracts, and comparing their numbers compares nothing.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Heidelberg University Hospital — International Patients", "url": "https://www.heidelberg-university-hospital.com/"},
+  {"label": "Finance", "url": "https://www.heidelberg-university-hospital.com/finance"}
+ ],
+ "sources": ["s:wp-heidelberg-uh", "s:heidelberg-finance", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "metrics": {"tier": "cited", "source": "s:wp-heidelberg-uh"}
+  }
+ },
+ "x_commons_files": ["File:Universitätsklinikum Heidelberg.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

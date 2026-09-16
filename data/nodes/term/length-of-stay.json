@@ -15,13 +15,13 @@
   "first_attested": "1520s for the noun stay",
   "tier": "cited",
   "source": "s:etymonline-stay",
-  "note": "Nights and days are not the same count. A stay admitted on Monday and discharged on Wednesday is two nights, and three hospital days under most statistical conventions."
+  "note": "Nights and days are not the same count everywhere, so the rule has to be named. The OECD counts a stay as the date of discharge minus the date of admission, which makes it a count of nights: admitted on the 25th and discharged on the 26th is one."
  },
  "text": {
   "what": "How long a patient occupies a hospital bed. On a price page it is a number of nights the seller has budgeted for; in a health statistic it is a measured average across discharges. The first is a forecast and the second is a result, and the word does not distinguish them.",
-  "story": "On a package the number is a boundary. Bumrungrad's knee package names three nights in the surgical ward and excludes \"nights beyond 3, and any ICU\"; its hip package names four. Both figures are what the hospital has priced, not what a given knee will need. A fourth night is not a complication in the clinical sense and is still a bill.\n\n*Trade practice —* the trade quotes the stay twice over and means different things each time: nights in the ward, and then days in the country before the surgeon will sign a fitness-to-fly note. The second number is longer than the first, and it is the one that sets the hotel bill, the companion's leave and the changeable fare.\n\n*Inference —* a short published stay is also a selling point, which gives the number a direction. Nothing on a package page is audited against what the ward actually recorded.",
-  "how": "Three questions make a stay figure readable: whether the quoted number is nights or days; what a night past the package costs and whether that rate is published; and whether intensive care sits inside the count or outside it, which it usually does.",
-  "today": "As of 17 September 2026 the stay figures on this site's procedure records are read off sellers' package pages and are labelled as such. Comparable national averages exist in OECD Health Statistics, which measures discharges rather than packages, and the two cannot be substituted for one another."
+  "story": "On a package the number is a boundary. Bumrungrad's knee package names three nights in the surgical ward and excludes \"nights beyond 3, and any ICU\"; its hip package names four. Both figures are what the hospital has priced, not what a given knee will need. A fourth night is not a complication in the clinical sense and is still a bill.\n\nThe statistical version counts something else. The OECD calculates average length of stay by dividing bed-days by discharges, counting a stay as \"the date of discharge minus the date of admission\", and excludes day cases from the measure entirely — while counting as inpatient discharges \"[p]atients admitted as day-care patients but who have been retained overnight due to complication\". The unplanned night is exactly the event that moves an episode from one category to the other.\n\n*Trade practice —* the trade quotes the stay twice over and means different things each time: nights in the ward, and then days in the country before the surgeon will sign a fitness-to-fly note. The second number is longer than the first, and it is the one that sets the hotel bill, the companion's leave and the changeable fare.\n\n*Inference —* a short published stay is also a selling point, which gives the number a direction. Nothing on a package page is audited against what the ward recorded.",
+  "how": "Three questions make a stay figure readable: whether the quoted number is nights or days and under whose rule; what a night past the package costs and whether that rate is published; and whether intensive care sits inside the count or outside it, which it usually does.",
+  "today": "As of 17 September 2026 the stay figures on this site's procedure records are read off sellers' package pages and are labelled as such. National averages on the OECD definition measure discharges rather than packages, and the two cannot be substituted for one another."
  },
  "kin": [
   {
@@ -59,7 +59,7 @@
   "s:etymonline-stay",
   "s:bumrungrad-joint04",
   "s:bumrungrad-joint08",
-  "s:oecd-health-statistics"
+  "s:oecd-alos-metadata-2025"
  ],
  "provenance": {
   "default": {
@@ -75,8 +75,7 @@
    }
   }
  },
- "confidence": "medium",
- "needs_verification": true,
+ "confidence": "high",
  "schema": 1,
  "type": "term",
  "region": [

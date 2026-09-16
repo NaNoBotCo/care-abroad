@@ -1,0 +1,77 @@
+{
+ "id": "fue",
+ "names": {
+  "name": "FUE",
+  "aliases": [
+   "follicular unit excision",
+   "follicular unit extraction",
+   "FUE hair transplant"
+  ],
+  "said": "Clinics still say extraction. The society that certifies the surgeons changed the E to excision in 2018, and the change was about what kind of act it is."
+ },
+ "etymology": {
+  "root": "An initialism, and the interesting part is the middle letter. The technique was published as follicular unit extraction by Rassman, Bernstein and colleagues in Dermatologic Surgery in August 2002. In 2018 the International Society of Hair Restoration Surgery renamed it: \"the International Society of Hair Restoration Surgery formally changed FUE terminology from Follicular Unit 'Extraction' to Follicular Unit 'Excision' in order to more accurately define FUE as a surgical procedure. Excision is the combination of 'incision' followed by 'extraction.'\"",
+  "first_attested": "2002, Dermatologic Surgery 28(8):720-728; renamed in 2018",
+  "tier": "cited",
+  "source": "s:ishrs-fue-terminology-2019",
+  "note": "Extraction sounds like pulling something out. Excision says a cut was made. The society changed the word because the second is what happens."
+ },
+ "text": {
+  "what": "Harvesting hair by cutting individual follicular units out of the donor area one at a time through small circular punches, rather than taking a strip of scalp and dissecting it. No ward, no general anaesthetic, no implant: the cost is almost entirely staff time, which is why the trade relocated to where staff time is cheaper.",
+  "story": "The renaming is the record of an argument about what the operation is. A society that certifies surgeons has an interest in the answer, and it said so in terms: excision is incision followed by extraction, and incision is surgery. The same society names the practice that follows from treating it as anything less — \"the problematic rise today of unlicensed technicians (the so-called black market)\" performing the harvesting.\n\n*Inference —* the pricing unit and the labour question are the same question. FUE is sold per graft, so the count is the price, and the count is produced by however many pairs of hands the clinic puts on the case. A technique whose cost is staff time and whose price is a unit count has both its incentives pointing the same way.",
+  "how": "Punches run from 0.7 to 1.2 mm, manual, motorised or robotic. Grafts are counted out of the donor area and placed into incisions in the recipient area, in a session running most of a day. The donor area does not regenerate: overharvesting it, or going outside the safe zone, is described by the society as \"an uncorrectable problem\".",
+  "today": "As of 17 September 2026 clinic pages in this trade use extraction and excision interchangeably, eight years after the society changed the term. This site records the price and the unit the seller used, and does not convert between clinics."
+ },
+ "kin": [
+  {
+   "to": "graft",
+   "as": "The unit this technique is sold in, and the one whose definition decides the count.",
+   "rel": "term"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The operation these three letters name.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "as": "The branded variant sold beside it, with an implanter pen instead of forceps.",
+   "rel": "contrast"
+  },
+  {
+   "to": "istanbul",
+   "as": "The city that made this technique a commodity.",
+   "rel": "hub"
+  },
+  {
+   "to": "revision",
+   "as": "What follows an overharvested donor area, and what cannot be undone.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:ishrs-fue-terminology-2019",
+  "s:rassman-fue-2002",
+  "s:ishrs-fue-what-is-it"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "F"
+ }
+}

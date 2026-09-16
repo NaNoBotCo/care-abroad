@@ -1,0 +1,149 @@
+{
+ "schema": 1,
+ "id": "root-canal",
+ "type": "procedure",
+ "names": {
+  "name": "Root canal treatment",
+  "aliases": ["endodontic treatment", "root filling", "RCT"],
+  "said": "Dentists say endodontics. Price lists say root canal and then say which tooth, because a molar has three or four canals and a front tooth has one."
+ },
+ "etymology": {
+  "root": "endodontic: Greek endon, within, plus odous, odontos, a tooth — the work inside the tooth. Canal is Latin canalis, a channel: the space the nerve and blood vessels ran in before they died.",
+  "tier": "tradition",
+  "note": "The tooth's name on the price list is the price: anterior, premolar, molar, in ascending order of canals and of money."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "dental",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "The dead or infected pulp is removed, the canals inside the root are cleaned, shaped and filled, and the tooth is sealed. The NHS describes it as treatment for infection at the centre of a tooth. One or two appointments under local anaesthetic, and the tooth usually needs a crown afterwards, which is a second bill.",
+  "story": "This is the cheapest procedure in the dental batch and the one whose price lists diverge the most, because three of the four sort by tooth and one sorts by the clock.\n\nBangkok International Dental Center prices by which tooth it is: anterior 11,000 baht, premolar 14,000, molar 17,000. Sani Dental Group in Los Algodones flattens it — root canal, any tooth, $340, with retreatment at $370 — and prints a US comparison of $1,100 beside it that carries no source. Index Medica in Kraków prices only the front tooth on the page read for this record, at £120, against what the clinic calls an average UK price of £700.\n\nMedicare Dental Clinic in Budapest prices it by time: €123 for thirty minutes, €175 for forty-five, €243 for an hour, and then a second scale for a specialist — €476 to finish a front tooth in one session, €715 for a molar. *Inference —* a page that sells minutes and a page that sells teeth cannot be compared line to line, and the specialist rows are the only figures on any of the four that price the difficulty of the case rather than its position in the mouth.\n\nAgainst all of them sits the English NHS band 2 charge, £76.60, which covers root canal treatment along with fillings, extractions and gum treatment in the same course. The patient's share, not the cost.",
+  "how": "Isolate the tooth, open it, find the canals, clean and shape them, fill them, seal the top. Where it fails or an old filling has to come out, the same clinics list retreatment at a higher price — $370 against $340 in Los Algodones.\n\nWhat these pages do not price is the crown the treated tooth usually needs, which is on the same lists at 13,000 to 25,000 baht, €336 to €394, $120 to $600 and £355 to £429. A quoted root canal is half a plan.",
+  "today": "As of 17 September 2026 root canal treatment is published at 11,000 to 17,000 baht in Bangkok by tooth, €123 to €715 in Budapest by time and by seniority, $340 flat in Los Algodones and £120 for a front tooth in Kraków, against an English NHS band 2 patient charge of £76.60 for the whole course.",
+  "notes": "This page describes a dental procedure and the prices published for it. It is not dental advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "A clinic appointment. None of the four price pages read for this record states how many visits the price assumes, which for a patient on a return ticket is the operative number; the Budapest list is the only one that names a single-session option and charges a specialist's fee for it.",
+  "as_of": "2026-09-17",
+  "source": "s:nhs-root-canal",
+  "url": "https://www.nhs.uk/conditions/root-canal-treatment/"
+ },
+ "prices": [
+  {
+   "procedure": "root-canal",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 11000,
+   "amount_high": 17000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["root canal treatment by tooth: anterior 11,000, premolar 14,000, molar 17,000"],
+   "excludes": ["the crown the tooth usually needs afterwards", "x-rays, medications, sterilisation, nursing fees and clinic service fees, charged separately", "sterilisation at 150 to 250 baht per visit"],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "the page states package rates are applicable till 30 September 2026 and that prices are not inclusive of x-rays, medications, sterilization, nursing fees and clinic service fees.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "root-canal",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 123,
+   "amount_high": 715,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["chair time: €123 for 30 minutes, €175 for 45, €243 for 60", "or a specialist finishing in one session: €476 front tooth, €715 molar"],
+   "excludes": ["the crown", "the post and core where the tooth needs one"],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "the only page of the four read for this record that prices endodontics by time rather than by tooth, and the only one with a separate specialist scale. A molar finished in one sitting by a specialist is nearly six times the half-hour rate.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "root-canal",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 340,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["root canal, any tooth"],
+   "excludes": ["the crown", "retreatment, listed separately at $370"],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "listed at $340 with MXN $6,800 beside it and a US comparison column of $1,100 that carries no source. One price for a front tooth and a molar alike, which no other list read for this record does. The page states all prices are a base or starting price.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "root-canal",
+   "country": "PL",
+   "city": "Kraków",
+   "amount": 120,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["root canal treatment for a front tooth", "examination, x-rays and local anaesthetic, which the page lists as free"],
+   "excludes": ["premolars and molars, not priced on the page read for this record", "the crown"],
+   "source": "s:indexmedica-prices",
+   "url": "https://www.indexmedica.com/prices/",
+   "note": "£120 against a column the clinic labels average UK price at £700; the euro table gives €129 against an Irish comparison of €550. The comparison columns are the clinic's own.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "root-canal",
+   "country": "GB",
+   "amount": 76.6,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": ["band 2: root canal treatment to treat an infection or inflammation, plus fillings, extractions and extensive gum treatment in the same course"],
+   "excludes": ["a crown, which moves the course into band 3 at £332.10", "private treatment"],
+   "source": "s:nhs-dental-charges",
+   "url": "https://www.nhs.uk/nhs-services/dentists/dental-costs/understanding-nhs-dental-charges/",
+   "note": "the patient's charge in England for a course of treatment, not the cost of the work; one charge however many teeth the course covers. The page states it was last reviewed on 13 March 2025 and does not give the date the amounts took effect.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "dental-crown", "as": "What the treated tooth usually needs next, on the same list and at several times the price.", "rel": "kin"},
+  {"to": "dental-implant", "as": "The alternative when the tooth cannot be saved, at ten to twenty times the cost.", "rel": "contrast"},
+  {"to": "full-mouth-restoration", "as": "The larger job that counts root canals among its lines.", "rel": "whole"},
+  {"to": "thailand", "as": "Where the price is set by which tooth it is.", "rel": "destination"},
+  {"to": "hungary", "as": "Where endodontics is sold by the half hour.", "rel": "destination"},
+  {"to": "mexico", "as": "Where one price covers any tooth in the mouth.", "rel": "destination"},
+  {"to": "poland", "as": "Where the front tooth is priced and the molar is not.", "rel": "destination"},
+  {"to": "united-kingdom", "as": "The source market whose band 2 charge of £76.60 sits under all of these.", "rel": "destination"},
+  {"to": "getting-a-quote", "as": "The step at which by-the-tooth and by-the-hour turn out not to compare.", "rel": "step"},
+  {"to": "revision-at-home", "as": "Who retreats a root filling that fails after the flight home.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "dental-crown", "tell": "The root canal empties and fills the inside of the tooth; the crown covers the outside. Most teeth that get the first need the second, and they are priced apart."}
+ ],
+ "links": [
+  {"label": "NHS — root canal treatment", "url": "https://www.nhs.uk/conditions/root-canal-treatment/"},
+  {"label": "Index Medica price list", "url": "https://www.indexmedica.com/prices/"}
+ ],
+ "sources": ["s:nhs-root-canal", "s:nhs-dental-charges", "s:bidc-fees", "s:mdental-budapest-prices", "s:sani-dental-prices", "s:indexmedica-prices"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:nhs-root-canal"},
+   "text.story": {"tier": "cited", "source": "s:mdental-budapest-prices", "note": "figures read off each clinic's own page on the accessed date; the comparison stretch is marked as this project's reasoning"},
+   "text.how": {"tier": "tradition", "note": "standard endodontic sequence; the prices named are cited to the four lists"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:nhs-root-canal"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Root canal treatment.jpg", "File:Endodontic therapy diagram.png"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

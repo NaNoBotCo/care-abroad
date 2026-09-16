@@ -1,0 +1,76 @@
+{
+ "schema": 1,
+ "id": "king-hussein-cancer-center",
+ "type": "facility",
+ "names": {
+  "name": "King Hussein Cancer Center",
+  "aliases": ["KHCC", "مركز الحسين للسرطان", "King Hussein Cancer Foundation and Center"],
+  "said": "Said KHCC in the trade. Named for King Hussein bin Talal, who died of cancer in 1999; the centre took his name in 2001 and sits on Queen Rania Street in Amman."
+ },
+ "region": ["west-asia"],
+ "facets": {
+  "iso2": "JO",
+  "ownership": "nonprofit",
+  "founded": 2001,
+  "specialty": ["oncology", "paediatric oncology", "bone marrow transplantation", "radiation oncology", "surgical oncology"],
+  "draws": ["bone-marrow-transplant", "car-t", "proton-therapy", "gamma-knife"],
+  "status": "open",
+  "languages": ["Arabic", "English"]
+ },
+ "text": {
+  "what": "A 352-bed independent non-governmental, non-profit cancer centre on Queen Rania Street in Amman, established in 2001 and chaired by Princess Ghida Talal. It treats patients from across the Arab world and states that it was the first institution in the developing world accredited by Joint Commission International as a disease-specific cancer centre, and the sixth in the world.",
+  "story": "The centre is the reason Jordan appears in this directory as a destination rather than only as a source market. About 7,000 new patients a year, 14,000 admissions and roughly 250,000 outpatient clinic visits, staffed by over 400 oncology doctors, 1,100 oncology nurses, about 100 pharmacists and 1,500 administrators and technicians, across three buildings of 108,700 square metres.\n\nWhat is unusual is where the foreign patients come from and why. The published research on KHCC's non-Jordanian caseload is a literature of displacement: a study of 968 non-Jordanian children treated between 2011 and 2022 found them Syrian (29 per cent), Palestinian (26 per cent), Iraqi (23 per cent) and Yemeni (17 per cent); there are separate published series on Palestinian patients, on Libyan patients over more than a decade, and on central nervous system tumours in patients from conflict areas of the Middle East and North Africa.\n\n*Inference —* that is cross-border care, and it belongs in the same directory as a knee in Bangkok, but it is not the same transaction. A child brought from Syria for leukaemia treatment is not comparing prices. The field's headline counts of millions of medical travellers absorb both, which is one of the reasons those counts say so little.\n\nJordan's private hospital sector reports about a billion dollars of annual earnings from patients arriving for care, driven by the region; the association that publishes that figure is a trade body and the figure is revenue rather than patients.\n\nNo overall foreign share for the centre is published in the sources read here.",
+  "how": "*Trade practice —* a regional cancer referral to Amman is arranged through embassies, government health offices, charitable funds and the centre's own foundation as often as by the family directly, and the money question is answered by a sponsor rather than by a patient. Treatment is a course rather than an episode, so the stay is months and the escort is a family that moves.\n\nNo price schedule is published.",
+  "today": "As of 17 September 2026 the centre carries 352 beds, states about 7,000 new patients a year, 14,000 admissions and about 250,000 outpatient visits, and names JCI, College of American Pathologists and ANCC Magnet accreditation with no year against any of them on the pages read here. It states it was the first in the developing world accredited by JCI as a disease-specific cancer centre and the sixth in the world."
+ },
+ "geo": {"lat": 32.004421, "lon": 35.876506, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Queen Rania Street, Al Jubeiha", "city": "Amman", "country": "JO", "postcode": "11196"},
+ "metrics": {
+  "beds": 352,
+  "doctors": 400,
+  "annual_patients": 7000,
+  "annual_foreign_patients": null,
+  "note": "annual_patients here counts PEOPLE, not visits, and it counts NEW people: about 7,000 new patients a year. The centre separately reports 14,000 admissions and about 250,000 outpatient clinic visits a year, which do count episodes and attendances. The doctor figure is over 400 oncology physicians, alongside 1,100 oncology nurses, about 100 pharmacists and 1,500 administrators and technicians. No overall foreign share is published; the only quantified foreign series read here is a study of 968 non-Jordanian CHILDREN treated between 2011 and 2022.",
+  "as_of": "2026",
+  "source": "s:wp-khcc",
+  "url": "https://en.wikipedia.org/wiki/King_Hussein_Cancer_Center"
+ },
+ "tags": [
+  {"tag": "paediatric", "source": "s:wp-khcc", "tier": "cited", "note": "treats cancer across all ages; its non-Jordanian paediatric caseload is the part with published research behind it"},
+  {"tag": "transplant-programme", "source": "s:wp-khcc", "tier": "cited", "note": "bone marrow transplantation and stem cell banking"},
+  {"tag": "international-office", "source": "s:khcc-why", "tier": "cited", "note": "the centre states it serves patients from Jordan and across the Middle East", "url": "https://www.khcc.jo/en/why-khcc"},
+  {"tag": "no-price-published", "source": "s:khcc-why", "tier": "cited", "note": "no schedule appears on the centre's own pages read for this record"},
+  {"tag": "teaching", "source": "s:wp-khcc", "tier": "cited", "note": "AAHRPP accreditation of its human research protection programme is named among its certifications"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation as a disease-specific cancer centre — the first in the developing world and the sixth in the world, by the centre's own statement", "year": null, "valid_until": null, "source": "s:khcc-why", "url": "https://www.khcc.jo/en/why-khcc", "note": "the centre's own page carries the claim and no year; secondary accounts date the award to February 2006 and that year is not asserted here"},
+  {"by": "other", "what": "College of American Pathologists laboratory accreditation, stated as the first in Jordan and the fifth in the Arab world, and ANCC Magnet recognition for nursing", "year": null, "valid_until": null, "source": "s:wp-khcc", "url": "https://en.wikipedia.org/wiki/King_Hussein_Cancer_Center", "note": "two American bodies outside this project's recognizer vocabulary, named as the centre names them and undated on the page"}
+ ],
+ "kin": [
+  {"to": "amman", "as": "The institution the Amman cluster is built around, on Queen Rania Street.", "rel": "place"},
+  {"to": "jordan", "as": "The reason the country is a destination and not only a source market.", "rel": "destination"},
+  {"to": "bone-marrow-transplant", "as": "Among the programmes that bring children across borders to Amman.", "rel": "performs"},
+  {"to": "jci", "as": "Its accreditor, in the disease-specific category rather than the hospital-wide one.", "rel": "accredited-by"},
+  {"to": "sheba", "as": "The other regional cancer centre in this batch, an hour's drive and a closed border away.", "rel": "contrast"},
+  {"to": "who-travels", "as": "A caseload that is Syrian, Palestinian, Iraqi and Yemeni before it is anything else, and a literature of displacement rather than of price.", "rel": "story"},
+  {"to": "counting-patients", "as": "7,000 new patients, 14,000 admissions and 250,000 outpatient visits are three different numbers about the same year.", "rel": "story"},
+  {"to": "the-companion", "as": "A course of cancer treatment measured in months moves a family, not an escort.", "rel": "step"}
+ ],
+ "links": [
+  {"label": "King Hussein Cancer Center", "url": "https://www.khcc.jo/en"},
+  {"label": "Why KHCC", "url": "https://www.khcc.jo/en/why-khcc"}
+ ],
+ "sources": ["s:wp-khcc", "s:khcc-why", "s:agbi-jordan-2026", "s:wp-health-in-jordan", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "how a sponsored regional cancer referral is arranged; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:wp-khcc"}
+  }
+ },
+ "x_commons_files": ["File:King Hussein Cancer Center.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

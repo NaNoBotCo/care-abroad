@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "id": "hadassah",
+ "type": "facility",
+ "names": {
+  "name": "Hadassah Medical Center",
+  "aliases": ["Hadassah Ein Kerem", "Hadassah Mount Scopus", "הדסה"],
+  "said": "ha-DAH-sa. The name is the organisation's before it is the hospital's: Hadassah, the Women's Zionist Organization of America, founded the medical work in Jerusalem and still underwrites a large part of its budget."
+ },
+ "region": ["west-asia"],
+ "facets": {
+  "iso2": "IL",
+  "ownership": "nonprofit",
+  "founded": 1934,
+  "specialty": ["oncology", "neurosurgery", "cardiology", "transplantation", "ophthalmology"],
+  "draws": ["bone-marrow-transplant", "gamma-knife", "kidney-transplant", "ivf"],
+  "status": "open",
+  "languages": ["Hebrew", "English", "Arabic", "Russian"]
+ },
+ "text": {
+  "what": "A Jerusalem hospital on two campuses — Mount Scopus, opened 1939, and Ein Kerem, established 1961 — with more than 1,300 beds between them, 31 operating theatres and nine intensive care units. It is owned and part-funded by the Hadassah Women's Zionist Organization of America, and it is the teaching hospital of the Hebrew University of Jerusalem for medicine, dentistry, nursing, public health and pharmacology.",
+  "story": "An American membership organisation owning and subsidising a hospital in another country is a form this directory meets nowhere else. Hadassah founded the medical work in 1934 and still underwrites a large part of the budget; the fundraising is in the United States and the beds are in Jerusalem.\n\nEin Kerem carried 700 beds before 2012 and added about 500 more with a tower that opened that year. Mount Scopus carries over 300. Since 27 February 2025 the Jerusalem light rail's Red Line has served Ein Kerem with two stations.\n\nThe hospital is Israel's most productive in research by the Nature Index for 2024 to 2025, at around 900 peer-reviewed papers a year. Newsweek's 2025 list placed it fourth in Israel and 242nd in the world. *Inference —* that pair of placings, one national and one global, is the more useful reading of a ranking: the same institution is near the top of a small system and in the middle of a large list, and neither number says anything about a particular operation.\n\nIsrael's 2018 medical tourism legislation governs how its hospitals may treat foreign patients, and the argument it settled — whether foreign work in a subsidised hospital displaces citizens — applies here with an extra turn, because the subsidy is foreign too.",
+  "how": "*Trade practice —* foreign patients reach Hadassah through its international department and through the Hadassah organisation's own networks abroad, which is a referral route no commercial group has. Neurosurgery, oncology and transplantation carry most of it.\n\nNo price schedule was found published for either campus.",
+  "today": "As of 17 September 2026 the two campuses carry over 1,300 beds, 31 operating theatres and nine intensive care units. Newsweek's 2025 list placed the hospital fourth in Israel and 242nd in the world, and the Nature Index named it Israel's leading hospital for scientific output in 2024 to 2025. No patient count, foreign share or price was sourced for this record."
+ },
+ "geo": {"lat": 31.764957, "lon": 35.150017, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Ein Kerem campus, Kiryat Hadassah", "city": "Jerusalem", "country": "IL", "postcode": "9574320"},
+ "metrics": {
+  "beds": 1300,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "Over 1,300 beds across BOTH campuses — Ein Kerem, which held 700 before the 2012 tower added about 500 more, and Mount Scopus, which holds over 300. The record pins Ein Kerem; the bed figure is the pair. No patient count of any kind, and no foreign share, was found published. Research output, about 900 peer-reviewed papers a year, is the only annual number sourced here, and it counts papers.",
+  "as_of": "2025",
+  "source": "s:wp-hadassah",
+  "url": "https://en.wikipedia.org/wiki/Hadassah_Medical_Center"
+ },
+ "tags": [
+  {"tag": "university-hospital", "source": "s:wp-hadassah", "tier": "cited", "note": "teaching hospital of the Hebrew University of Jerusalem for medicine, dentistry, nursing, public health and pharmacology"},
+  {"tag": "teaching", "source": "s:wp-hadassah", "tier": "cited"},
+  {"tag": "outcomes-published", "source": "s:wp-hadassah", "tier": "cited", "note": "about 900 peer-reviewed publications a year and Israel's top hospital by the 2024-2025 Nature Index — research output, which is not the same thing as clinical outcome reporting, and the note says so"},
+  {"tag": "international-office", "source": "s:israel-moh-medical-tourism", "tier": "cited", "note": "operates under the framework the Israeli Ministry of Health publishes for hospitals treating foreign patients"},
+  {"tag": "no-price-published", "source": "s:wp-hadassah", "tier": "cited", "note": "no schedule was found for either campus in the sources read"}
+ ],
+ "recognitions": [
+  {"by": "newsweek-statista", "what": "Fourth in Israel and 242nd in the world in the 2025 Newsweek list", "year": 2025, "valid_until": null, "source": "s:wp-hadassah", "url": "https://en.wikipedia.org/wiki/Hadassah_Medical_Center", "note": "the national and the global placing for the same hospital in the same year, carried together because neither means much alone"}
+ ],
+ "kin": [
+  {"to": "israel", "as": "Jerusalem's teaching hospital, owned by an American organisation and governed by Israel's 2018 medical tourism law.", "rel": "destination"},
+  {"to": "sheba", "as": "The larger Israeli hospital, government-founded by an army, against a hospital founded and part-funded by a women's organisation abroad.", "rel": "contrast"},
+  {"to": "tel-aviv", "as": "The cluster an hour west; Jerusalem has no hub record of its own in this directory.", "rel": "place"},
+  {"to": "gamma-knife", "as": "Among the neurosurgical work its foreign referrals come for.", "rel": "performs"},
+  {"to": "bone-marrow-transplant", "as": "Among the programmes that draw regional and diaspora referrals.", "rel": "performs"},
+  {"to": "the-accreditation-question", "as": "Fourth in a small country and 242nd in the world, from one ranking in one year.", "rel": "story"},
+  {"to": "second-opinion", "as": "A hospital reached through a diaspora organisation's networks is often reached for a second reading first.", "rel": "step"}
+ ],
+ "links": [
+  {"label": "Hadassah Medical Organization", "url": "https://www.hadassah.org.il/en/"}
+ ],
+ "sources": ["s:wp-hadassah", "s:israel-moh-medical-tourism", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim", "note": "the OpenStreetMap point for the Ein Kerem campus, which this record pins of the two"},
+   "text.how": {"tier": "tradition", "note": "how referrals reach a diaspora-funded hospital; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:wp-hadassah"}
+  }
+ },
+ "x_commons_files": ["File:Hadassah Ein Kerem.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "informed-consent",
+ "names": {
+  "name": "Informed consent",
+  "aliases": [
+   "consent",
+   "valid consent",
+   "consent to treatment"
+  ],
+  "said": "Lawyers call it a doctrine. Hospitals call it a form. The two are not the same object, and abroad it is usually the form that arrives."
+ },
+ "etymology": {
+  "root": "consent, c. 1300, \"approval, voluntary acceptance of what is done or proposed\", from Old French consentir and Latin consentire, to agree or accord, literally to feel together, from com-, with, plus sentire, to feel. The qualifier is American and legal: the phrase informed consent is generally traced to Salgo v. Leland Stanford Jr. University Board of Trustees, 154 Cal. App. 2d 560, 317 P.2d 170, decided by the California Court of Appeal on 22 October 1957.",
+  "first_attested": "c. 1300 for consent; 1957 for the phrase in an American decision",
+  "tier": "cited",
+  "source": "s:etymonline-consent",
+  "note": "Feeling together is a high bar. A signature is not evidence that it happened."
+ },
+ "text": {
+  "what": "A patient's agreement to a procedure, given after being told what it involves, what it risks and what the alternatives are. It is a doctrine about a conversation, evidenced by a document, and the document travels much better than the conversation does.",
+  "story": "The principle is older than the phrase. In Schloendorff v. Society of the New York Hospital, 211 N.Y. 125, decided on 14 April 1914, Cardozo put it as a right: every adult of sound mind decides what is done with their own body, and a surgeon operating without consent commits an assault. Research ethics reached the same place from the other direction — the Nuremberg Code of 1947 opens \"The voluntary consent of the human subject is absolutely essential\", and the World Medical Association's Declaration of Helsinki, adopted in June 1964 and amended as recently as 2024, carries it into research practice.\n\nWhat happens to the doctrine across a language barrier has been measured, in a country with interpreters on site. Schenker and colleagues found that charts of English-speaking patients at a US hospital with on-site professional interpreter services were more likely than those of patients with limited English to carry full documentation of informed consent: 53% against 28%.\n\n*Inference —* that is the floor, not the ceiling. It is what a consent process looks like where interpreters are employed, the patient can complain to a regulator, and a lawyer can be found locally. A consent signed on arrival, in a second language, hours before surgery, has none of those three.",
+  "how": "Three things make a consent process readable from outside: whether the conversation happened before the flight or after it, whether it happened in a language the patient reads, and who was in the room when the alternatives were discussed. What a broker's website said months earlier is marketing, and is not part of it.",
+  "today": "As of 17 September 2026 the only systematic evidence on this in the cross-border trade is content analysis of what intermediaries publish, not observation of consent conversations. Nobody audits the conversation."
+ },
+ "kin": [
+  {
+   "to": "arrival-and-consent",
+   "as": "The step where the form is signed, usually the day before surgery.",
+   "rel": "step"
+  },
+  {
+   "to": "language-consent",
+   "as": "The risk this doctrine runs into across a language barrier.",
+   "rel": "risk"
+  },
+  {
+   "to": "second-opinion",
+   "as": "What the alternatives half of the doctrine actually requires.",
+   "rel": "step"
+  },
+  {
+   "to": "getting-your-records",
+   "as": "The file without which a receiving surgeon is consenting a patient blind.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "What a defective consent is worth in a forum the patient cannot reach.",
+   "rel": "risk"
+  },
+  {
+   "to": "facilitator",
+   "as": "The party whose website is not part of the consent, whatever it said.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-consent",
+  "s:salgo-1957",
+  "s:schloendorff-1914",
+  "s:nuremberg-code-bmj",
+  "s:wma-helsinki",
+  "s:schenker-consent-language",
+  "s:penney-broker-consent-2011"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "I"
+ }
+}

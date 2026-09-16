@@ -1,0 +1,194 @@
+{
+ "schema": 1,
+ "id": "albert-einstein-sao-paulo",
+ "type": "facility",
+ "names": {
+  "name": "Hospital Israelita Albert Einstein",
+  "aliases": [
+   "Albert Einstein Israelite Hospital",
+   "Einstein",
+   "Sociedade Beneficente Israelita Brasileira Albert Einstein"
+  ],
+  "said": "ospi-TAU izra-ay-LEE-ta AL-bert ine-SHTINE. In São Paulo it is simply Einstein, and the Morumbi campus is what the name means."
+ },
+ "region": [
+  "south-america"
+ ],
+ "facets": {
+  "iso2": "BR",
+  "ownership": "nonprofit",
+  "founded": 1971,
+  "specialty": [
+   "oncology",
+   "cardiology",
+   "transplantation",
+   "neurosciences",
+   "health screening"
+  ],
+  "draws": [
+   "kidney-transplant",
+   "liver-transplant",
+   "bone-marrow-transplant",
+   "executive-health-screening"
+  ],
+  "status": "open",
+  "languages": [
+   "Portuguese",
+   "English",
+   "Spanish"
+  ]
+ },
+ "text": {
+  "what": "A private nonprofit hospital in Morumbi, on the south side of São Paulo, inaugurated on 28 July 1971 and run by the Sociedade Beneficente Israelita Brasileira Albert Einstein, a charitable society founded in 1955 by members of the city's Jewish community. In 1999 it became the first health institution outside the United States accredited by Joint Commission International.",
+  "story": "The society came first, in 1955; the hospital opened sixteen years later. It has kept the charitable form: a private nonprofit that also treats patients of the SUS, Brazil's public health system, and runs a social assistance programme in the Paraisópolis favela beside its own campus.\n\nThe 1999 JCI accreditation is the fact this hospital is cited for everywhere in the trade, and it is worth being exact about what it was: the first institution outside the United States to be accredited by the body, not the first accredited hospital in Latin America and not a ranking. JCI began accrediting outside the United States that year, and Einstein was the first through the door.\n\n*Inference —* that sequence made Einstein the reference every later Latin American hospital's international department was measured against, and it is why a São Paulo hospital appears in a directory whose Brazilian traffic is mostly Brazilians returning from abroad rather than foreigners arriving.\n\nNewsweek placed it among the top thirty hospitals in the world in 2024. It runs a nursing school, a medical school since 2016 and a health-management degree.",
+  "how": "*Trade practice —* Einstein's international work is referral rather than package: complex oncology, transplantation and cardiology reached through consultants and insurers rather than through a price page. Brazil's inbound flow is regional — the Southern Cone and Portuguese-speaking Africa — and its outbound flow, of Brazilians going elsewhere for cosmetic and fertility work, is larger.\n\nNo bed count, staff count or patient count appears on the encyclopaedia entry read for this record, and no price.",
+  "today": "As of 17 September 2026 the hospital is a private nonprofit under the Sociedade Beneficente Israelita Brasileira Albert Einstein, holds JCI accreditation first granted in 1999, and was placed among the world's top thirty by Newsweek in 2024. No capacity or patient figure was sourced for this record."
+ },
+ "geo": {
+  "lat": -23.599613,
+  "lon": -46.71488,
+  "precision": "street",
+  "source": "s:osm-nominatim"
+ },
+ "address": {
+  "street": "Rua Ruggero Fasano, Morumbi",
+  "city": "São Paulo",
+  "area": "São Paulo",
+  "country": "BR",
+  "postcode": "05650-905"
+ },
+ "metrics": {
+  "beds": null,
+  "doctors": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "Not published in the source read. The encyclopaedia entry carries the hospital's history, its legal form and its accreditation, and no bed, staff or patient figure at all. The hospital's own about page returned a 403 to every fetch attempted for this record, so the gap is this project's and not necessarily the hospital's.",
+  "as_of": "2026",
+  "source": "s:wp-albert-einstein",
+  "url": "https://en.wikipedia.org/wiki/Hospital_Israelita_Albert_Einstein"
+ },
+ "tags": [
+  {
+   "tag": "faith-based",
+   "source": "s:wp-albert-einstein",
+   "tier": "cited",
+   "note": "founded by members of the São Paulo Jewish community as the Sociedade Beneficente Israelita Brasileira, 1955"
+  },
+  {
+   "tag": "teaching",
+   "source": "s:wp-albert-einstein",
+   "tier": "cited",
+   "note": "a nursing school, a medical school since 2016 and a health-management degree"
+  },
+  {
+   "tag": "public-hospital",
+   "source": "s:wp-albert-einstein",
+   "tier": "cited",
+   "note": "not public, but a private nonprofit that treats SUS patients under Brazil's public system alongside private ones — the tag marks the public-funded work, and the note is the qualifier"
+  },
+  {
+   "tag": "no-price-published",
+   "source": "s:wp-albert-einstein",
+   "tier": "cited",
+   "note": "no price was found in the sources read for this record"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "jci",
+   "what": "Joint Commission International accreditation — the first health institution outside the United States to hold it",
+   "year": 1999,
+   "valid_until": null,
+   "source": "s:wp-albert-einstein",
+   "url": "https://en.wikipedia.org/wiki/Hospital_Israelita_Albert_Einstein",
+   "note": "first outside the United States, which is a date in JCI's history as much as in the hospital's: the body began accrediting abroad that year"
+  },
+  {
+   "by": "newsweek-statista",
+   "what": "Placed among the top thirty hospitals in the world in the 2024 Newsweek ranking",
+   "year": 2024,
+   "valid_until": null,
+   "source": "s:wp-albert-einstein",
+   "url": "https://en.wikipedia.org/wiki/Hospital_Israelita_Albert_Einstein",
+   "note": "a survey-and-indicator ranking; counted here, not weighted"
+  }
+ ],
+ "kin": [
+  {
+   "to": "brazil",
+   "as": "The Brazilian hospital foreign referrals reach first, in a country whose larger flow is Brazilians leaving.",
+   "rel": "destination"
+  },
+  {
+   "to": "jci",
+   "as": "The first institution outside the United States it accredited, in 1999.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "Took the same mark three years later in Bangkok, and built a much larger foreign trade on it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "liver-transplant",
+   "as": "Among the complex programmes its international referrals come for.",
+   "rel": "performs"
+  },
+  {
+   "to": "executive-health-screening",
+   "as": "Sold here as a referral product rather than a published package.",
+   "rel": "performs"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "1999, first outside the United States — the date the accreditation trade starts from.",
+   "rel": "story"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A hospital cited everywhere in this field that publishes no count of anything.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Hospital Israelita Albert Einstein",
+   "url": "https://www.einstein.br/"
+  }
+ ],
+ "sources": [
+  "s:wp-albert-einstein",
+  "s:osm-nominatim"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "how a referral hospital's international work runs, and the direction of Brazil's flows; marked in the prose"
+   },
+   "metrics": {
+    "tier": "cited",
+    "source": "s:wp-albert-einstein",
+    "note": "a record of what the source does not carry"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm-nominatim",
+    "note": "the street and postcode as OpenStreetMap carries them for the Morumbi campus, not an address the hospital published"
+   }
+  }
+ },
+ "x_commons_files": [
+  "File:Hospital Israelita Albert Einstein.jpg"
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

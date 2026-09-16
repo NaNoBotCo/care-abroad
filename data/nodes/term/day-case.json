@@ -1,0 +1,86 @@
+{
+ "id": "day-case",
+ "names": {
+  "name": "Day case",
+  "aliases": [
+   "day surgery",
+   "ambulatory surgery",
+   "same-day surgery",
+   "outpatient surgery",
+   "day-care discharge"
+  ],
+  "said": "British hospitals say day case. American ones say ambulatory or outpatient. Statisticians say day-care discharge, and count it separately or not at all."
+ },
+ "etymology": {
+  "root": "case is early 13c., \"what befalls one; state of affairs\", from Old French cas and Latin casus, a chance or mishap, literally \"a falling\", from the root meaning to fall; medicine took it for \"an instance of a disease\" in the late 14c. A day case is an instance of disease that begins and ends inside one day — an administrative boundary wearing a clinical word.",
+  "first_attested": "late 14c. for the medical sense of case",
+  "tier": "cited",
+  "source": "s:etymonline-case",
+  "note": "The category is defined by intention. A patient admitted as a day case who stays the night is reclassified, not merely charged extra."
+ },
+ "text": {
+  "what": "Treatment that occupies a hospital bed for part of a day and no night. The OECD's definition is procedural: \"A day-care discharge is the release of a patient who was formally admitted in a hospital for receiving planned medical and paramedical services, and who was discharged on the same day.\" Formal admission is the part people miss — a day case is an admission, not a clinic visit.",
+  "story": "The category is built on an intention, and the statistics say what happens when the intention fails. The OECD excludes day cases from its average length of stay altogether, and counts among inpatient discharges \"[p]atients admitted as day-care patients but who have been retained overnight due to complication\". One unplanned night moves the episode into a different category of the national statistics.\n\n*Tradition holds —* the trade traces its founding to James Nicoll at the Glasgow Royal Hospital for Sick Children, who reported a large series of children's operations done without an overnight stay in the British Medical Journal in 1909, and argued that keeping such cases in beds wasted the hospital's resources. This project has not read the original paper and carries neither the case count nor the exact citation.\n\n*Inference —* the same reclassification is what a day-case price does not cover. A quoted day-case fee is the price of the intended pathway. The bed the patient did not plan to use is billed on the ward's terms, and it is the first line on almost every exclusion list.",
+  "how": "Three conditions keep a case in the category: an operation short enough to recover from by evening, an anaesthetic light enough to leave, and somebody at the other end. For a patient in a foreign city the third condition is a hotel room and a companion, which is where the day case and the escort burden meet.",
+  "today": "As of 17 September 2026 the procedure records on this site state the nights a seller's package names, and note where a procedure is ordinarily a day case at home and is sold abroad with a ward night attached."
+ },
+ "kin": [
+  {
+   "to": "length-of-stay",
+   "as": "The count this category is excluded from, and rejoins the moment a night is added.",
+   "rel": "contrast"
+  },
+  {
+   "to": "knee-arthroscopy",
+   "as": "An operation that is usually this at home and is sold abroad with a night in it.",
+   "rel": "procedure"
+  },
+  {
+   "to": "package-price",
+   "as": "The price that assumes the intended pathway held.",
+   "rel": "term"
+  },
+  {
+   "to": "the-companion",
+   "as": "The person a day case requires and a foreign trip may not have.",
+   "rel": "step"
+  },
+  {
+   "to": "asa-grade",
+   "as": "The assessment that decides whether a case stays a day case.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-case",
+  "s:oecd-alos-metadata-2025"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the Nicoll paragraph is marked as the trade's account; the paper was not read for this record"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "D"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "id": "fundacion-santa-fe",
+ "type": "facility",
+ "names": {
+  "name": "Fundación Santa Fe de Bogotá",
+  "aliases": ["Hospital Universitario Fundación Santa Fe de Bogotá", "FSFB"],
+  "said": "fun-da-SYON SAN-ta FEH. A foundation before it is a hospital: created 2 November 1972 as a private body with no owners and no shareholders, and the university hospital is what the foundation runs."
+ },
+ "region": ["south-america"],
+ "facets": {
+  "iso2": "CO",
+  "ownership": "nonprofit",
+  "founded": 1972,
+  "specialty": ["oncology", "cardiovascular", "orthopaedics", "transplantation", "neurosciences"],
+  "draws": ["kidney-transplant", "knee-replacement", "hip-replacement", "bone-marrow-transplant"],
+  "status": "open",
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "A private nonprofit foundation in northern Bogotá, created on 2 November 1972 with no owners and no shareholders, whose university hospital on Calle 119 was the first organisation in Colombia accredited by Joint Commission International as an academic medical centre. It has held that accreditation through six consecutive cycles.",
+  "story": "Gloria González de Esguerra, Pedro Gómez Valderrama and the physicians Alfonso Esguerra Fajardo, Enrique Urdaneta Holguín, Alejandro Jiménez Arango and José Félix Patiño Restrepo founded the body in 1972. Its legal form — a foundation with no proprietors — is the fact that separates it from every listed hospital group elsewhere in this directory.\n\nThe JCI record is unusually complete because the hospital publishes it as a timeline rather than as a seal: first cycle 2010, then 2013, 2016, 2019, 2022 and 2025. The hospital states it was the first in Colombia to be certified, in 2009, and that twenty-one of its clinical care programmes hold separate JCI certification as clinical care centres.\n\n*Inference —* that is the difference between an accreditation and a certificate. A hospital-wide accreditation says the building meets a standard; twenty-one programme certifications say twenty-one named pathways were examined one at a time. Both are voluntary and the applicant pays.\n\nIn November 2016 the foundation opened a twelve-storey extension adding 148 hospitalisation beds.",
+  "how": "*Trade practice —* Bogotá's international traffic runs on the Caribbean, the Andean republics and the Colombian diaspora rather than on North American self-payers, and a foundation hospital with an academic accreditation sells complexity rather than price: transplants, oncology, cardiovascular surgery. The enquiry goes to the international patient service, the records are read, and an estimate follows.\n\nNo price is published.",
+  "today": "As of 17 September 2026 the hospital states six JCI cycles — 2010, 2013, 2016, 2019, 2022 and 2025 — and twenty-one JCI-certified clinical care centres. The 148 beds added in November 2016 are an addition and not a total; no total bed count, patient count or foreign share was found published."
+ },
+ "geo": {"lat": 4.696564, "lon": -74.032925, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Calle 119 No. 7-75", "city": "Bogotá", "area": "Bogotá D.C.", "country": "CO", "postcode": "110111"},
+ "metrics": {
+  "beds": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "The only bed figure sourced is an INCREMENT, not a total: 148 hospitalisation beds added by the twelve-storey extension opened in November 2016. A hospital's total is not the sum of its extensions, so the total stays empty. No patient count and no foreign share was found published.",
+  "as_of": "2026",
+  "source": "s:fsfb-jci",
+  "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci"
+ },
+ "tags": [
+  {"tag": "university-hospital", "source": "s:fsfb-jci", "tier": "cited", "note": "accredited by JCI in the academic medical centre category, the first organisation in Colombia in that category"},
+  {"tag": "teaching", "source": "s:fsfb-jci", "tier": "cited"},
+  {"tag": "international-office", "source": "s:fsfb-jci", "tier": "cited", "note": "the foundation runs a paciente internacional service alongside the hospital"},
+  {"tag": "no-price-published", "source": "s:fsfb-jci", "tier": "cited", "note": "no price list was found on the foundation's own pages"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation as an academic medical centre hospital, through six consecutive cycles — 2010, 2013, 2016, 2019, 2022 and 2025 — plus separate JCI certification of twenty-one clinical care centres", "year": 2010, "valid_until": null, "source": "s:fsfb-jci", "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci", "note": "the hospital states it was first certified in Colombia in 2009 and dates its first accreditation cycle to 2010; the year carried here is the first cycle as the hospital's own timeline prints it"}
+ ],
+ "kin": [
+  {"to": "bogota", "as": "The academic hospital the Bogotá cluster is anchored on, in the north of the city on Calle 119.", "rel": "place"},
+  {"to": "colombia", "as": "The country's first JCI-accredited organisation, and the one that sells complexity rather than a price.", "rel": "destination"},
+  {"to": "clinica-las-americas", "as": "Medellín's answer: a commercial group with an international office against a foundation with no shareholders.", "rel": "contrast"},
+  {"to": "jci", "as": "Its accreditor since 2010, in the academic medical centre category, renewed five times.", "rel": "accredited-by"},
+  {"to": "kidney-transplant", "as": "Among the programmes carrying a separate JCI clinical care centre certification.", "rel": "performs"},
+  {"to": "the-accreditation-question", "as": "One hospital-wide accreditation and twenty-one programme certifications, all voluntary and all paid for by the applicant.", "rel": "story"},
+  {"to": "getting-a-quote", "as": "With no price published, the estimate after the records are read is the only figure.", "rel": "step"}
+ ],
+ "links": [
+  {"label": "Fundación Santa Fe de Bogotá", "url": "https://fundacionsantafedebogota.com/"},
+  {"label": "Certificación Joint Commission International", "url": "https://fundacionsantafedebogota.com/publicaciones/certificacion-joint-comission-international-jci"}
+ ],
+ "sources": ["s:fsfb-jci", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "where Bogotá's inbound traffic comes from and how an enquiry is handled; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:fsfb-jci"}
+  }
+ },
+ "x_commons_files": ["File:Fundación Santa Fe de Bogotá.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

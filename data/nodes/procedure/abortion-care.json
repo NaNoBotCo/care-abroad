@@ -1,0 +1,119 @@
+{
+ "schema": 1,
+ "id": "abortion-care",
+ "type": "procedure",
+ "names": {
+  "name": "Abortion",
+  "aliases": ["termination of pregnancy", "induced abortion", "medical abortion", "surgical abortion", "vacuum aspiration", "interrupción voluntaria del embarazo", "IVG"],
+  "said": "Clinics say the abortion pill for the tablets and surgical for the procedure. Statutes say termination of pregnancy. Registers say induced abortion and count by gestational week, because the week is what the law usually turns on."
+ },
+ "etymology": {
+  "root": "abortion: Latin abortio, from aboriri, to miscarry or pass away — ab-, away, plus oriri, to rise or be born. The Latin word covered what English separates into miscarriage and induced abortion, and several languages still use one word for both; a statistic that does not say which it counts is not readable.",
+  "tier": "tradition",
+  "note": "Medical abortion means drugs — mifepristone followed by misoprostol — and no instruments. Surgical abortion means vacuum aspiration up to about fourteen weeks and dilatation and evacuation after it. Price lists are usually organised by that split and then by week, because both the price and the law change at the week boundaries."
+ },
+ "region": ["global", "europe-west", "north-america"],
+ "facets": {
+  "family": "reproductive",
+  "setting": "day-case",
+  "anaesthesia": "varies"
+ },
+ "text": {
+  "what": "A pregnancy is ended, either with drugs or with a procedure. The drug route is two medicines taken a day or two apart, most of it completed at home, and it is used in early pregnancy. The procedure route empties the uterus through the cervix — by suction in the first trimester, by instruments later — takes minutes, and is done under local anaesthetic, sedation or general anaesthetic depending on the gestation and the clinic. Both are day cases; later gestations may take two days and a night.",
+  "story": "Almost nothing about this journey is medical. The procedure is short and the same in every country that performs it; what differs is whether it may be performed, up to what week, on whose authorisation, and who pays. Where the law at home says no and the law next door says yes, the difference between them is a plane ticket, and that is the whole of the market.\n\nThe pricing follows the law rather than the medicine. The British Pregnancy Advisory Service publishes one list in two currencies, sterling and euro, which is the clearest single artefact of cross-border travel in this directory: an organisation states that \"97% of the women we see, have their treatment paid for by the NHS (or another government department)\" and prices the remaining cases in the currency of the countries its other patients come from. On that list the abortion pill under ten weeks is £622 in total, £180 of it consultation; surgical treatment to fourteen weeks is £1,166; fourteen to twenty weeks £1,373; over twenty weeks £3,044. It notes special prices for women from the Republic of Ireland and the Channel Islands, restricts its pills-by-post service to England and Wales, and points European patients to the Abortion Support Network.\n\nIn the Netherlands the price is not published at all, and the reason is the same. Abortuskliniek Stimezo in Zwolle states that treatment is free for women living in the Netherlands, paid directly by the Ministry of Health, with no deductible and no notification of the insurer or the family doctor. For a woman who lives elsewhere it gives a telephone number: \"Bel ons op 038 - 421 7000 voor een persoonlijke prijsopgave.\" A tariff that exists for residents and becomes a phone call for everyone else is a legal boundary with a price attached.\n\nIn the United States the split runs inside the country rather than across a border, and a provider's price page shows it: carafem publishes ranges beginning at nothing — in-office abortion pill appointments at 0 to 475 dollars, procedures at 0 to 550 in Atlanta and Washington and 0 to 600 in Chicago — with the floor explained by abortion funds rather than by insurance.\n\nBy post, a route with no destination country at all: Women on Web, a Canadian non-profit, states that \"A donation of €90 can give one woman or pregnant person access to this essential health service\" and describes working across almost 200 countries \"in a complex technology landscape that involves Internet censorship\".\n\nThe country-by-country reading of who may be treated, up to which week, on whose authority, sits on this directory's abortion travel law page. It is not on this one, because it changes and a stale legal row is a wrong one.",
+  "how": "Medical abortion: mifepristone, then misoprostol 24 to 48 hours later, with the bleeding and cramping that follow taking hours to a day. Surgical abortion: cervical preparation, then vacuum aspiration or, later, dilatation and evacuation, followed by an hour or two of recovery. Both need a way to reach a clinician if bleeding is heavy or pain is severe, and that is the part a journey home interrupts. Prices are quoted by gestational week and by method, and the consultation is frequently a separate line: on the one full list read for this record it is £180 of a £622 total.",
+  "today": "As of 17 September 2026 two countries' provider pages carrying published abortion prices were read for this record, the United Kingdom and the United States, and a third, the Netherlands, publishes a price of zero for residents and a telephone number for everyone else. The dual-currency column on the British list is the closest thing in this directory to a published price for a border.",
+  "notes": "This page describes a procedure and reports published prices and published statements. It is not medical advice and it is not legal advice, and it takes no position on the law of any country."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "A day case in both routes; the later gestations on the one full price list read here are still priced as treatment rather than as an admission. No source read for this record publishes a wait before flying, and the constraint after a medical abortion is being within reach of a clinician while the bleeding settles rather than the flight itself.",
+  "as_of": "2026-09-17",
+  "source": "s:bpas-prices",
+  "url": "https://www.bpas.org/abortion-care/considering-abortion/costs-and-pricing/"
+ },
+ "prices": [
+  {
+   "procedure": "abortion-care",
+   "country": "GB",
+   "amount": 622,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["consultation, £180", "treatment, £442", "abortion pill treatment up to 10 weeks"],
+   "excludes": ["anything after 10 weeks, which is priced on separate lines", "travel and accommodation"],
+   "source": "s:bpas-prices",
+   "url": "https://www.bpas.org/abortion-care/considering-abortion/costs-and-pricing/",
+   "note": "the provider publishes every line twice, in sterling and in euro: this one is €820. It states that 97% of the women it sees have treatment paid for by the NHS or another government department, and that special prices apply for women from the Republic of Ireland and the Channel Islands.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "abortion-care",
+   "country": "GB",
+   "amount": 1166,
+   "amount_high": 3044,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["consultation at £180 in every band", "surgical treatment"],
+   "excludes": ["travel and accommodation", "any second visit"],
+   "source": "s:bpas-prices",
+   "url": "https://www.bpas.org/abortion-care/considering-abortion/costs-and-pricing/",
+   "note": "the surgical bands on the same list: to 14 weeks £1,166 total (€1,520), 14-20 weeks £1,373 (€1,790), over 20 weeks £3,044 (€3,970). The price roughly doubles at twenty weeks, which is also where several European statutes stop.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "abortion-care",
+   "country": "US",
+   "amount": 0,
+   "amount_high": 600,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["the in-office appointment"],
+   "excludes": ["travel between states, which for many of this provider's patients is the larger number", "any figure the page does not name"],
+   "source": "s:carafem-cost",
+   "url": "https://carafem.org/cost",
+   "note": "ranges by clinic city: in-office abortion pill 0-475 dollars in Atlanta and Chicago and 0-450 in Washington DC; in-office procedure 0-550 in Atlanta and Washington and 0-600 in Chicago. Online evaluation and video visit are 0-399. The zero floor is explained on the page by partnership with abortion funds, not by insurance.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "abortion-travel-law", "as": "Where the country-by-country reading sits: who may be treated, up to what week, and on whose authorisation.", "rel": "governed-by"},
+  {"to": "circumvention-travel", "as": "The name for crossing a border to do lawfully what home law forbids.", "rel": "term"},
+  {"to": "united-kingdom", "as": "Where a provider publishes one price list in two currencies, sterling and euro.", "rel": "destination"},
+  {"to": "united-states", "as": "Where the same journey runs between states and a provider's price floor is an abortion fund.", "rel": "destination"},
+  {"to": "ireland", "as": "The route the euro column on the British list was written for.", "rel": "destination"},
+  {"to": "cross-border-prescriptions", "as": "The by-post route, where the medicine crosses the border instead of the patient.", "rel": "rule"},
+  {"to": "getting-a-quote", "as": "The step at which a resident's price of zero becomes a non-resident's telephone call.", "rel": "step"},
+  {"to": "reading-the-exclusions", "as": "The consultation is a separate line on every list read here, and it is a third of the smallest total.", "rel": "step"},
+  {"to": "the-flight-home", "as": "Where a day case stops being a day case: the bleeding and the distance from a clinician.", "rel": "step"},
+  {"to": "patient-data-transfer", "as": "What is recorded, who is told, and what follows the patient home — a Dutch clinic states it informs neither insurer nor family doctor.", "rel": "rule"},
+  {"to": "ivf", "as": "The other reproductive procedure whose travel is set by what each country's law allows rather than by price.", "rel": "contrast"}
+ ],
+ "confusable_with": [
+  {"id": "ivf", "tell": "Both are called reproductive travel and both are driven by statute rather than by surgery, but one is sought to end a pregnancy and the other to begin one, and no country's law treats them as the same question."}
+ ],
+ "links": [
+  {"label": "BPAS abortion and contraception price list", "url": "https://www.bpas.org/abortion-care/considering-abortion/costs-and-pricing/"},
+  {"label": "carafem — cost", "url": "https://carafem.org/cost"},
+  {"label": "Abortuskliniek Stimezo Zwolle — kosten van abortus", "url": "https://www.stimezo-zwolle.nl/kosten-abortus/"}
+ ],
+ "sources": ["s:bpas-prices", "s:carafem-cost", "s:stimezo-zwolle-kosten", "s:women-on-web"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.what": {"tier": "tradition", "note": "standard description of the two routes; the gestational boundaries follow the price lists rather than any one statute"},
+   "text.story": {"tier": "cited", "source": "s:bpas-prices", "note": "every price and every quotation is read off the named page"},
+   "text.how": {"tier": "tradition", "note": "standard clinical sequence; the £180 consultation figure is cited to the price list"},
+   "etymology": {"tier": "tradition"},
+   "prices": {"tier": "cited", "source": "s:bpas-prices"},
+   "metrics": {"tier": "cited", "source": "s:bpas-prices"}
+  }
+ },
+ "x_commons_files": ["File:Mifepristone and misoprostol.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

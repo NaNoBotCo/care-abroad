@@ -1,0 +1,153 @@
+{
+ "schema": 1,
+ "id": "cabg",
+ "type": "procedure",
+ "names": {
+  "name": "Coronary artery bypass grafting",
+  "aliases": ["CABG", "heart bypass", "coronary bypass", "open heart surgery"],
+  "said": "Surgeons say cabbage, spelling it CABG. Price pages say heart bypass. Neither says how many grafts, and the graft count is part of the price everywhere it is published."
+ },
+ "etymology": {
+  "root": "coronary: Latin corona, a crown — the arteries wreathe the heart. Graft is Old French greffe, a shoot for planting, from Greek graphion, a stylus, which the cutting resembled. Bypass is plain English engineering, borrowed by cardiac surgery in the 1960s for a road around a blockage.",
+  "tier": "tradition",
+  "note": "Off-pump means the heart keeps beating; on-pump means a machine takes over circulation. Package pages price the two together, and MICS — minimally invasive cardiac surgery, through a small incision between the ribs — as a tier above both."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "cardiac",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A length of vein from the leg or artery from the chest wall is sewn around a blocked coronary artery so blood reaches the muscle beyond it. Several grafts in one operation is usual. Eight nights in hospital on the Bangkok packages read for this record, seven for the minimally invasive version, and weeks before a long flight.",
+  "story": "This is the operation that taught the world to argue about medical prices, and the argument rests on one pair of numbers from 2013.\n\nBloomberg reported that year that Narayana Health had brought coronary bypass surgery to 95,000 rupees, about 1,583 US dollars at the time, and set the same operation at the Cleveland Clinic in Ohio at 106,385 dollars. Devi Shetty, who founded the group, said then that he meant to reach 800 dollars within a decade. The pair has been reprinted ever since, usually without its date and usually without the fact that the Indian figure is an Indian patient's bill at an Indian hospital rather than a package sold to somebody who flew in. It is carried here as what it is: two figures published in 2013, thirteen years before this record was written.\n\nWhat a foreign patient can read off a page today is narrower and duller. Bangkok Heart Hospital, part of Bangkok Hospital, publishes its cardiovascular surgery packages with the nights inside them: off-pump or on-pump bypass at Level 1, 1,173,000 baht for eight nights; Level 2, 1,437,500 baht for the same eight; the minimally invasive version at 1,500,000 baht against a struck-through 1,725,000, for seven. Prices stated valid until 31 October 2026.\n\nThe exclusion list is where the money moves. The package covers theatre, the surgical and anaesthetic team, the critical care unit and the stated nights. It does not cover pre-assessment and medical clearance, other specialists' consultations, \"special device used during procedure\", extra nights in intensive care or on the ward, or medication taken home. A bypass that stays eight nights costs what the page says; one that needs a tenth night does not.\n\n*Inference —* Level 1 and Level 2 are the page's own way of pricing the difficulty of the case without describing it. A reader cannot tell from the page which level their heart is.",
+  "how": "General anaesthesia, the chest opened through the breastbone or, for the minimally invasive version, between the ribs, grafts taken from the leg, forearm or chest wall, the heart stopped and supported by a bypass machine or left beating, the grafts sewn on, the chest closed. Intensive care for a day or two, then the ward.\n\nWhere a state pays rather than a patient, the number looks nothing like a package. The Australian Medicare Benefits Schedule sets the surgeon's fee for item 38502 — coronary artery bypass including cardiopulmonary bypass — at $2,819.90, with a 75% benefit of $2,114.95. That is a fee for one doctor's service, not the admission: the hospital, the theatre, the intensive care and the anaesthetist are billed separately. Comparing it with a Bangkok package price compares a line with a bill.",
+  "today": "As of 17 September 2026 the published Thai package prices for this operation run 1,173,000 to 1,500,000 baht with seven or eight nights inside them and the special device outside. The Indian figure the subject is famous for, 95,000 rupees, was published in 2013 against 106,385 US dollars at the Cleveland Clinic in the same report, and neither end has been restated in a source read here since.",
+  "notes": "This page describes an operation and the prices published for it. It is not medical advice."
+ },
+ "metrics": {
+  "stay_days": 8,
+  "days_before_flying": 10,
+  "recovery_weeks": 12,
+  "mortality_per_1000": null,
+  "note": "Eight nights is the ward and critical-care stay named in the Bangkok Heart Hospital bypass packages read for this record, seven for the minimally invasive version; it is those packages' figure, not a clinical standard. The ten-day figure is the CDC's guidance not to fly for ten days after chest surgery. The twelve weeks is the span usually quoted for return to ordinary activity and varies widely. No registry read for this record publishes mortality for the hospitals named on this page, so that field stays empty.",
+  "as_of": "2026-09-17",
+  "source": "s:cdc-yellowbook-medical-tourism",
+  "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+ },
+ "prices": [
+  {
+   "procedure": "cabg",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 1173000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": ["operating room and recovery room", "specified medical supplies and medications used during the procedure", "surgeon team and anaesthesiologist fees for the specified procedure", "intermediate critical care unit and critical care unit", "standard inpatient room for the stated 8 nights", "hospital fee, meals and related medical equipment during hospitalisation"],
+   "excludes": ["pre-assessment and medical clearance before the procedure", "consultation fees where other specialists are required", "special device used during the procedure", "medical expense arising from the patient's underlying conditions", "additional nights in the critical care unit or beyond the stated stay", "rooms other than standard", "home medications"],
+   "source": "s:bangkokhospital-heart-packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "note": "off-pump or on-pump CABG Level 1, 8 nights. Level 2 is 1,437,500 THB for the same 8 nights. Prices stated valid until 31 October 2026. The levels are not defined on the page.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "cabg",
+   "country": "TH",
+   "city": "Bangkok",
+   "facility": "bangkok-hospital",
+   "amount": 1500000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "package",
+   "includes": ["minimally invasive cardiac surgery bypass (MICS CABG)", "7 nights in hospital", "theatre, surgical team and anaesthesiologist as for the other cardiac packages"],
+   "excludes": ["as the other cardiac packages: pre-assessment, other specialists, special device used during the procedure, extra nights, home medications"],
+   "source": "s:bangkokhospital-heart-packages",
+   "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery",
+   "note": "listed at 1,500,000 THB against a struck-through 1,725,000 THB, marked New, 7 nights — one night fewer than the open operation at a higher price. Valid until 31 October 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "cabg",
+   "country": "IN",
+   "city": "Bengaluru",
+   "facility": "narayana-health",
+   "amount": 95000,
+   "currency": "INR",
+   "as_of": "2013",
+   "kind": "estimate",
+   "includes": ["coronary bypass surgery, as reported"],
+   "excludes": ["unstated — the report names no inclusion list"],
+   "source": "s:wp-devi-shetty",
+   "url": "https://en.wikipedia.org/wiki/Devi_Shetty",
+   "note": "Bloomberg reported in 2013 that Narayana had brought coronary bypass to 95,000 rupees, about 1,583 US dollars then. A group figure for domestic patients, not a package sold to a foreign one, and thirteen years old at the time this record was written. It is the single most reprinted number in this subject.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "cabg",
+   "country": "US",
+   "city": "Cleveland",
+   "amount": 106385,
+   "currency": "USD",
+   "as_of": "2013",
+   "kind": "estimate",
+   "includes": ["coronary bypass surgery, as reported"],
+   "excludes": ["unstated — the report names no inclusion list"],
+   "source": "s:wp-devi-shetty",
+   "url": "https://en.wikipedia.org/wiki/Devi_Shetty",
+   "note": "the other end of the same 2013 Bloomberg comparison: the same operation at the Cleveland Clinic in Ohio at 106,385 US dollars. Carried here only because the Indian figure is carried; one without the other is half a sentence.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "cabg",
+   "country": "AU",
+   "amount": 2819.9,
+   "currency": "AUD",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": ["the surgeon's service for item 38502: coronary artery bypass including cardiopulmonary bypass, with harvesting of the left internal mammary artery or vein graft material"],
+   "excludes": ["the hospital, the theatre, the anaesthetist, the intensive care and the ward — all billed under their own items or by the hospital", "aftercare"],
+   "source": "s:mbs-38502",
+   "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38502&qt=item",
+   "note": "the Medicare Benefits Schedule fee, with a 75% benefit of $2,114.95, read on 17 September 2026. A schedule fee is what the state reckons one doctor's service is worth, not what a bypass costs; the Bangkok package beside it is a whole admission.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "angioplasty-stent", "as": "The catheter alternative, a tenth of the price on the same hospital's page and a different argument about who needs which.", "rel": "contrast"},
+  {"to": "heart-valve-replacement", "as": "The other open-heart operation, priced below this one on the same Bangkok list.", "rel": "kin"},
+  {"to": "narayana-health", "as": "The group whose 2013 figure made this operation the subject's standard comparison.", "rel": "performed-at"},
+  {"to": "bangkok-hospital", "as": "Publishes the bypass packages this page reads, special device excluded.", "rel": "performed-at"},
+  {"to": "india", "as": "Where the volume argument about this operation was made.", "rel": "destination"},
+  {"to": "thailand", "as": "Where the operation is sold as a package with the nights counted.", "rel": "destination"},
+  {"to": "united-states", "as": "The other end of the 2013 comparison, and the market it was aimed at.", "rel": "destination"},
+  {"to": "australia", "as": "Where the state prices the surgeon's service rather than the admission.", "rel": "destination"},
+  {"to": "bengaluru", "as": "The city outside which the cheap-bypass argument was built.", "rel": "place"},
+  {"to": "tariff", "as": "What a schedule fee is, and why it cannot be read against a package price.", "rel": "term"},
+  {"to": "flying-after-surgery", "as": "The rule that keeps a chest-surgery patient on the ground for ten days.", "rel": "risk"},
+  {"to": "repatriation-cost", "as": "What it costs to bring home a patient whose bypass went wrong abroad.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Who reads the echocardiogram at three months, and where.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "angioplasty-stent", "tell": "A bypass reroutes blood around a blockage with sewn grafts and opens the chest; a stent props the artery open from inside through a wrist or groin puncture. Both are sold as heart treatment and they differ by a factor of four on the same hospital's price page."}
+ ],
+ "links": [
+  {"label": "Bangkok Heart Hospital — cardiovascular surgery packages", "url": "https://www.bangkokhospital.com/en/bangkok-heart/package/heart-catheterization-surgery"},
+  {"label": "MBS item 38502", "url": "https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=38502&qt=item"}
+ ],
+ "sources": ["s:bangkokhospital-heart-packages", "s:wp-devi-shetty", "s:mbs-38502", "s:cdc-yellowbook-medical-tourism", "s:wp-narayana-health"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:bangkokhospital-heart-packages", "note": "the package figures and exclusions read off the hospital's own page on 17 September 2026; the 2013 pair is cited to the report as reproduced in the named source; the closing stretch is this project's reasoning and is marked"},
+   "text.how": {"tier": "tradition", "note": "standard operative description; the Australian schedule fee is cited to the item page"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:cdc-yellowbook-medical-tourism"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Coronary artery bypass surgery Image 657C-PH.jpg", "File:Heart saphenous coronary grafts.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

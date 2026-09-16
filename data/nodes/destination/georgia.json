@@ -1,0 +1,44 @@
+{
+ "schema": 1,
+ "id": "georgia",
+ "type": "destination",
+ "names": {
+  "name": "Georgia",
+  "aliases": ["საქართველო", "Sakartvelo"],
+  "said": "Sakartvelo. Not the American state, which is the first thing every search for it has to get past."
+ },
+ "region": ["west-asia", "europe-east"],
+ "facets": {
+  "iso2": "GE",
+  "direction": "both",
+  "currency": "GEL",
+  "languages": ["Georgian", "Russian", "English"]
+ },
+ "text": {
+  "what": "A small, almost entirely privatised health system on the edge of Europe, selling to patients from the Caucasus, the Russian-speaking world and the Gulf. Its draw is a combination three other destinations rarely offer together: no visa for most arrivals, prices below Türkiye's, and a set of treatments that are lawful here and restricted next door.",
+  "story": "The system was privatised between 2007 and 2012, and most primary and secondary providers are private for-profit entities. A universal government-sponsored programme followed in 2013, covering Georgian residents; the trade in foreign patients sits alongside it and on the same hospital floors.\n\n*Trade practice —* what brings foreign patients is usually a rule rather than a price. Surrogacy and donor treatment have drawn patients from countries that prohibit them, and the regional traffic in dentistry and cosmetic work runs on the same logic as every border corridor: the next country over is dearer or closed.\n\n*Inference —* the country publishes very little about any of it. Licensing sits with the State Regulation Agency for Medical Activities, which registers facilities rather than counting the people who fly to them, so this record carries no arrival number at all rather than repeating one from a trade summary."
+ },
+ "geo": {"lat": 41.7151, "lon": 44.8271, "precision": "country", "source": "s:natural-earth"},
+ "metrics": {
+  "note": "No inbound patient count is carried. Nothing this project could read publishes one for Georgia.",
+  "as_of": "2026-09-17",
+  "source": "s:wp-healthcare-georgia"
+ },
+ "kin": [
+  {"to": "tbilisi", "as": "Where nearly all of it happens.", "rel": "part"},
+  {"to": "turkiye", "as": "The larger neighbour it undercuts, and the one most of its own outbound patients fly to.", "rel": "contrast"},
+  {"to": "surrogacy", "as": "One of the treatments that brings patients here from countries that prohibit it.", "rel": "procedure"},
+  {"to": "circumvention-travel", "as": "The word for most of why anyone flies here.", "rel": "term"}
+ ],
+ "sources": ["s:wp-healthcare-georgia", "s:natural-earth"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:wp-healthcare-georgia"},
+  "fields": {
+   "text.story": {"tier": "tradition", "note": "the privatisation dates and the 2013 programme are cited; the inline marks say which stretches are trade practice and which are inference"},
+   "geo": {"tier": "harvested", "source": "s:natural-earth"}
+  }
+ },
+ "needs_verification": true,
+ "confidence": "low",
+ "updated": "2026-09-17"
+}

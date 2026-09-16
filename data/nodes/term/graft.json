@@ -1,0 +1,78 @@
+{
+ "id": "graft",
+ "names": {
+  "name": "Graft",
+  "aliases": [
+   "follicular unit",
+   "FU",
+   "hair graft"
+  ],
+  "said": "A hair clinic's graft is a follicular unit of one to four hairs. A surgeon's graft is transplanted tissue. The same word prices two different things."
+ },
+ "etymology": {
+  "root": "Late 15c., an alteration of Middle English graff, from Old French graife, \"grafting knife, carving tool; stylus, pen\", from Latin graphium, stylus, from Greek grapheion, stylus, from graphein, to write. The shoot inserted into another plant was pencil-shaped like a stylus, and took the stylus's name. The surgical sense of the verb follows in 1868 and of the noun in 1871. The corruption sense — graft as bribery, American English from about 1859 — is a separate word and unrelated.",
+  "first_attested": "late 15c. for the horticultural noun; 1868 and 1871 for the surgical senses",
+  "tier": "cited",
+  "source": "s:etymonline-graft",
+  "note": "In hair restoration a graft is one follicular unit, not one hair. A price per graft is a price per cluster."
+ },
+ "text": {
+  "what": "In the older surgical sense, tissue moved from one place to another and expected to take. In the hair trade — where most of this subject's graft prices come from — a graft is one follicular unit: a naturally occurring cluster of one to four hairs with its sebaceous lobules and arrector pili muscle. The unit was described histologically before it was ever sold.",
+  "story": "Headington described the follicular unit in the Archives of Dermatology in April 1984, and the International Society of Hair Restoration Surgery quotes him in its own terminology standard: \"The follicular unit (FU) of the adult human scalp usually consists of two to four terminal follicles and one or rarely two vellus follicles, the associated sebaceous lobules, and the insertions of the arrector pili muscles of the terminal follicles.\" The society's patient page puts the same thing in trade terms: clinics remove \"natural clusters of hairs grouped in 1-4 hairs each\", with punches \"from 0.7 to 1.2 mm in size\".\n\nThat range of one to four is the whole problem with the unit as a price. The society's 2019 terminology document defines two further measures, Calculated Follicles per Graft Expected and Calculated Follicles per Graft Achieved, which exist because a graft count on its own does not say how many follicles were moved.\n\n*Inference —* the arithmetic follows from the definition. A donor area yielding three-hair units can be dissected into single-hair grafts, and the same hair then sells as three times the number. Nothing on a quotation states the follicles-per-graft figure, so two clinics quoting 4,000 grafts may be quoting hair counts that differ by a factor of two or more.",
+  "how": "Two numbers make a graft quote readable and neither is usually published: hairs per graft, and where on the donor area the grafts came from. The society names overharvesting the donor area, or harvesting outside the safe zone, as \"an uncorrectable problem\", and it names \"the problematic rise today of unlicensed technicians (the so-called black market)\" as the risk attached to volume work.",
+  "today": "As of 17 September 2026 every hair price on this site is recorded with the unit the seller used — per graft, per session or per package — because the three cannot be converted into one another."
+ },
+ "kin": [
+  {
+   "to": "fue",
+   "as": "The technique sold by the graft, which is why the unit matters at all.",
+   "rel": "term"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The operation this unit prices.",
+   "rel": "procedure"
+  },
+  {
+   "to": "dhi-hair-transplant",
+   "as": "The other technique sold in the same unit, whose prices state it no more clearly.",
+   "rel": "procedure"
+  },
+  {
+   "to": "istanbul",
+   "as": "Where most of the world's graft prices are quoted.",
+   "rel": "hub"
+  },
+  {
+   "to": "package-price",
+   "as": "The form that removes the unit altogether by selling a session instead.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:etymonline-graft",
+  "s:headington-1984",
+  "s:ishrs-fue-terminology-2019",
+  "s:ishrs-fue-what-is-it"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "region": [
+  "global"
+ ],
+ "updated": "2026-09-17",
+ "facets": {
+  "letter": "G"
+ }
+}

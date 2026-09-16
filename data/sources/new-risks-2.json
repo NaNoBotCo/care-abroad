@@ -1,0 +1,40 @@
+{
+ "sources": [
+  {
+   "id": "s:rcoa-gpas-day-surgery-2021",
+   "kind": "org",
+   "title": "Chapter 6: Guidelines for the Provision of Anaesthesia Services for Day Surgery 2021, published 31 March 2021",
+   "publisher": "The Royal College of Anaesthetists (United Kingdom)",
+   "url": "https://rcoa.ac.uk/gpas/chapter-6",
+   "accessed": "2026-09-17",
+   "note": "read in a browser because the page is refused to a plain fetch. Recommendation 5.25 (grade C, strong) on a responsible adult escorting the patient home and supporting them for 24 hours; 5.26 on private car or taxi; 5.24 on a 24-hour telephone number that is not an answerphone; 5.7 on preoperative assessment as early as possible in the pathway; 5.29 on the patient's copy of the discharge summary"
+  },
+  {
+   "id": "s:ecfr-42-416-52",
+   "kind": "law",
+   "title": "42 CFR 416.52 — Conditions for coverage: patient admission, assessment and discharge (ambulatory surgical centers)",
+   "publisher": "Electronic Code of Federal Regulations, US Office of the Federal Register",
+   "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-416/subpart-D/section-416.52",
+   "accessed": "2026-09-17",
+   "note": "paragraph (c)(3) on discharge in the company of a responsible adult. Source note at the section: 73 FR 68813, 18 November 2008, as amended at 84 FR 51814, 30 September 2019. eCFR states Title 42 current as of 15 September 2026"
+  },
+  {
+   "id": "s:statpearls-asa-physical-status",
+   "kind": "reference",
+   "title": "American Society of Anesthesiologists Physical Status Classification System — StatPearls, last updated 11 February 2025",
+   "publisher": "Hendrix JM, Garmon EH. StatPearls Publishing, NCBI Bookshelf NBK441940",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441940/",
+   "accessed": "2026-09-17",
+   "note": "used because the ASA's own statement page now redirects to a journal host that refuses automated access. Carries the 1941 introduction, the House of Delegates approval of 15 October 2014 and the amendment of 13 December 2020, the six ordinal classes plus the E designation, and the meta-analytic sensitivity, specificity and area under the curve for predicting postoperative mortality"
+  },
+  {
+   "id": "s:flores-interpreter-errors-2012",
+   "kind": "paper",
+   "title": "Errors of medical interpretation and their potential clinical consequences: a comparison of professional versus ad hoc versus no interpreters",
+   "publisher": "Flores G, Abreu M, Barone CP, Bachur R, Lin H. Annals of Emergency Medicine 2012;60(5):545-53",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22424655/",
+   "accessed": "2026-09-17",
+   "note": "57 audiotaped encounters over 30 months in the two largest paediatric emergency departments in Massachusetts, Spanish-speaking patients of limited English proficiency; 1,884 interpreter errors counted"
+  }
+ ]
+}

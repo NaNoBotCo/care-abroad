@@ -1,0 +1,151 @@
+{
+ "schema": 1,
+ "id": "dental-crown",
+ "type": "procedure",
+ "names": {
+  "name": "Dental crown",
+  "aliases": ["cap", "porcelain fused to metal crown", "zirconia crown", "e.max crown"],
+  "said": "Patients say cap. Price lists say crown and then name a material, because the material is the price."
+ },
+ "etymology": {
+  "root": "crown: Latin corona, a wreath or circlet, used in anatomy for the part of a tooth above the gum long before it named the thing fitted over it. Zirconia is from zircon, the mineral, by way of Persian zargun, gold-coloured; e.max is a brand of lithium disilicate glass-ceramic.",
+  "tier": "tradition",
+  "note": "A crown fitted to a natural tooth and a crown fitted to an implant are the same object with different prices; the implant crown usually carries the abutment's price beside it."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "dental",
+  "setting": "day-case",
+  "anaesthesia": "local"
+ },
+ "text": {
+  "what": "A tooth is reduced to a stump, an impression or scan is taken, a laboratory makes a cover in metal, porcelain-fused-to-metal, lithium disilicate or zirconia, and it is cemented or screwed on. Two visits usually, or one where the clinic mills the crown on site. It is the commonest single line on a dental travel bill because almost every other treatment ends with one.",
+  "story": "Four price lists, four ways of writing the same tooth.\n\nBangkok International Dental Center runs by material: porcelain fused to non-precious alloy 13,000 baht, to palladium 20,000, to gold 25,000, all-ceramic e.max 19,500 for one to five teeth and 18,500 for six or more, zirconia 21,000 and 20,000 on the same sliding scale, a one-day all-ceramic crown 25,000. The discount for the sixth tooth is the page telling a reader what kind of patient it is written for.\n\nMedicare Dental Clinic in Budapest prints two numbers per crown and means their sum: porcelain fused to metal €202 plus €134 of laboratory fee, zirconia €226 plus €152, full porcelain €237 plus €157.\n\nSani Dental Group in Los Algodones runs from an all-metal crown at $120 to porcelain-fused-to-gold at $600, with a \"US COST\" column beside each — $400 against the metal crown, $1,700 against the gold — which is the seller's own comparison and names no source.\n\nIndex Medica in Kraków does the same thing in the opposite direction, printing what it calls an average UK price beside its own: £900 against its £355 for a metal-based porcelain crown, £1,200 against its £429 for full-ceramic zirconia.\n\n*Inference —* three of the four pages sell the crown against a number from the patient's home country that the clinic itself supplies. The one state tariff read for this record — the English NHS band 3 charge of £332.10, which covers a crown along with dentures, bridges and orthodontics — is the only figure on this page whose author is not also the seller.",
+  "how": "Priced by material first and by count second. Where a clinic prices implants, the implant crown appears as its own line: 25,000 baht in Bangkok on every implant row, $720 in Los Algodones including the abutment. Where a clinic prices laboratory work separately, as Budapest does, the crown's real price is two lines added together.\n\nIn England the patient's share is not a price at all but a band: a flat £332.10 for band 3 treatment, one charge however many crowns the course contains, with the rest met by the health service. A private crown in the same country is quoted per tooth and is not on that scale.",
+  "today": "As of 17 September 2026 a single crown is published at 13,000 to 25,000 baht in Bangkok, €336 to €394 including laboratory fee in Budapest, $120 to $600 in Los Algodones and £355 to £429 in Kraków, against an English NHS band 3 patient charge of £332.10 for a course of treatment that may contain several.",
+  "notes": "This page describes a dental procedure and the prices published for it. It is not dental advice."
+ },
+ "metrics": {
+  "stay_days": 0,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "note": "A clinic appointment, not an admission. The number a travelling patient needs — how many days between preparation and fitting — is stated on none of the four price pages read for this record, though one of them sells a crown milled in a single day.",
+  "as_of": "2026-09-17",
+  "source": "s:bidc-fees",
+  "url": "https://bangkokdentalcenter.com/fees/"
+ },
+ "prices": [
+  {
+   "procedure": "dental-crown",
+   "country": "TH",
+   "city": "Bangkok",
+   "amount": 13000,
+   "amount_high": 25000,
+   "currency": "THB",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["the crown itself, by material"],
+   "excludes": ["x-rays, medications, sterilisation, nursing fees and clinic service fees, charged separately", "sterilisation at 150 to 250 baht per visit", "root canal treatment where the tooth needs it first"],
+   "source": "s:bidc-fees",
+   "url": "https://bangkokdentalcenter.com/fees/",
+   "note": "the range runs porcelain fused to non-precious alloy 13,000, palladium 20,000, gold 25,000, e.max 19,500 for one to five teeth and 18,500 for six or more, zirconia 21,000 and 20,000, one-day all-ceramic 25,000. Several rows are printed against struck-through figures of 22,000. Package rates stated applicable till 30 September 2026.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-crown",
+   "country": "HU",
+   "city": "Budapest",
+   "amount": 378,
+   "currency": "EUR",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["zirconia crown: €226 treatment plus €152 fabrication"],
+   "excludes": ["nothing stated beyond the split; the post and core, if the tooth needs one, is a separate line"],
+   "source": "s:mdental-budapest-prices",
+   "url": "https://www.mdentalclinic.eu/prices",
+   "note": "porcelain fused to metal is €202 plus €134 for €336, full porcelain €237 plus €157 for €394. The clinic's note above the table states that many treatments carry both a treatment price and a separate fabrication or laboratory fee.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-crown",
+   "country": "MX",
+   "city": "Los Algodones",
+   "amount": 120,
+   "amount_high": 600,
+   "currency": "USD",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["the crown, by material"],
+   "excludes": ["the implant or abutment where the crown sits on one — the implant crown including abutment is its own line at $720"],
+   "source": "s:sani-dental-prices",
+   "url": "https://sanidentalgroup.com/price-list",
+   "note": "all-metal $120, porcelain fused to metal $230, e.max $395, zirconia $490, porcelain fused to gold $600, temporary crown $30, each with a peso figure beside it. The page prints a US comparison column — $400, $1,250, $1,500, $1,600, $1,700 — that carries no source, and states that all prices are a base or starting price.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-crown",
+   "country": "PL",
+   "city": "Kraków",
+   "amount": 355,
+   "amount_high": 429,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "list",
+   "includes": ["the crown; the page lists examination, x-rays and local anaesthetic as free"],
+   "excludes": ["nothing stated for the crown itself"],
+   "source": "s:indexmedica-prices",
+   "url": "https://www.indexmedica.com/prices/",
+   "note": "metal-based porcelain £355 against a column the clinic labels average UK price at £900; full-ceramic zirconoxide £429 against £1,200. The euro table gives €389 and €469 against Irish comparisons of €1,110 and €1,430. A deposit of 80% of each stage is due on signing the treatment plan.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "dental-crown",
+   "country": "GB",
+   "amount": 332.1,
+   "currency": "GBP",
+   "as_of": "2026-09-17",
+   "kind": "tariff",
+   "includes": ["band 3: a crown, and everything in bands 1 and 2 in the same course of treatment", "dentures, bridges and orthodontic treatment fall in the same band"],
+   "excludes": ["private treatment", "cosmetic work the service does not provide"],
+   "source": "s:nhs-dental-charges",
+   "url": "https://www.nhs.uk/nhs-services/dentists/dental-costs/understanding-nhs-dental-charges/",
+   "note": "the patient's charge in England, not the cost of the work: one band 3 charge of £332.10 covers a course of treatment however many crowns it contains, against £27.90 for band 1 and £76.60 for band 2. The page states it was last reviewed on 13 March 2025 and does not state when the amounts took effect.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "dental-implant", "as": "The root this crown is often screwed to, and the line it is billed apart from.", "rel": "part"},
+  {"to": "root-canal", "as": "What usually comes first, on the same bill and the same trip.", "rel": "kin"},
+  {"to": "veneers", "as": "The thinner cousin, covering the front of a tooth rather than the whole of it.", "rel": "contrast"},
+  {"to": "full-mouth-restoration", "as": "The job that counts these in tens.", "rel": "whole"},
+  {"to": "thailand", "as": "Where the price falls when the sixth tooth is crowned.", "rel": "destination"},
+  {"to": "hungary", "as": "Where the laboratory fee is a line of its own beside every crown.", "rel": "destination"},
+  {"to": "poland", "as": "Where the clinic prints an average UK price beside its own.", "rel": "destination"},
+  {"to": "united-kingdom", "as": "The source market whose band 3 charge of £332.10 is the number these lists are written against.", "rel": "destination"},
+  {"to": "budapest", "as": "The city that made dental travel a European industry.", "rel": "place"},
+  {"to": "los-algodones", "as": "The border town where a crown is quoted against a US figure the clinic supplies itself.", "rel": "place"},
+  {"to": "getting-a-quote", "as": "The step where a crown quote turns out to exclude the laboratory fee.", "rel": "step"},
+  {"to": "revision-at-home", "as": "Who recements a crown that comes off at home, and what they charge.", "rel": "risk"}
+ ],
+ "confusable_with": [
+  {"id": "veneers", "tell": "A crown covers the whole tooth and needs most of it cut away; a veneer covers the front face only."}
+ ],
+ "links": [
+  {"label": "NHS dental charges — bands 1, 2 and 3", "url": "https://www.nhs.uk/nhs-services/dentists/dental-costs/understanding-nhs-dental-charges/"},
+  {"label": "BIDC dental fees", "url": "https://bangkokdentalcenter.com/fees/"}
+ ],
+ "sources": ["s:bidc-fees", "s:mdental-budapest-prices", "s:sani-dental-prices", "s:indexmedica-prices", "s:nhs-dental-charges"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:bidc-fees", "note": "every figure read off the named page on the accessed date; the closing stretch is this project's reasoning and is marked"},
+   "text.how": {"tier": "cited", "source": "s:nhs-dental-charges"},
+   "etymology": {"tier": "tradition"},
+   "metrics": {"tier": "cited", "source": "s:bidc-fees"},
+   "prices": {"tier": "cited"}
+  }
+ },
+ "x_commons_files": ["File:Dental crown.jpg", "File:Zirconia crown.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}
