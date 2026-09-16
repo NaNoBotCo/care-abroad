@@ -479,21 +479,26 @@ def journey_page(page, recs: list, site_url: str) -> str:
     # the spine, drawn: eight stages, each as wide as the number of steps in it
     live = [(st, by_stage.get(st, [])) for st in STAGE_ORDER if by_stage.get(st)]
     if live:
-        w, h, gap = 900, 92, 4
+        w, h, gap = 900, 108, 4
         total = sum(len(rs) for _, rs in live)
         x = 0
         segs = []
         for i, (st, rs) in enumerate(live):
             sw = (w - gap * (len(live) - 1)) * len(rs) / total
             cls = ["s1", "s3", "s2"][i % 3]
-            segs.append(f'<a href="#{E(st)}"><rect class="{cls}" x="{x:.1f}" y="26" width="{sw:.1f}" '
+            segs.append(f'<a href="#{E(st)}"><rect class="{cls}" x="{x:.1f}" y="48" width="{sw:.1f}" '
                         f'height="26" rx="4" opacity=".85" data-tip="<b>{E(STAGE_LABEL.get(st, st))}</b>'
                         f'{len(rs)} step{"s" if len(rs) != 1 else ""}"></rect></a>')
             anchor = "start" if i == 0 else ("end" if i == len(live) - 1 else "middle")
             tx = x if anchor == "start" else (x + sw if anchor == "end" else x + sw / 2)
-            segs.append(f'<text class="viz-ax" text-anchor="{anchor}" x="{tx:.1f}" y="20">'
-                        f'{E(STAGE_LABEL.get(st, st))}</text>')
-            segs.append(f'<text class="viz-val" text-anchor="{anchor}" x="{tx:.1f}" y="70">{len(rs)}</text>')
+            lab = STAGE_LABEL.get(st, st)
+            # a narrow stage would print its label over its neighbour's, so the labels
+            # sit on two rows and a tick joins the lower ones to their block
+            ly = 20 if i % 2 == 0 else 38
+            segs.append(f'<text class="viz-ax" text-anchor="{anchor}" x="{tx:.1f}" y="{ly}">{E(lab)}</text>')
+            if ly == 38:
+                segs.append(f'<line class="viz-grid" x1="{tx:.1f}" y1="42" x2="{tx:.1f}" y2="{26+18}" opacity=".5"/>')
+            segs.append(f'<text class="viz-val" text-anchor="{anchor}" x="{tx:.1f}" y="86">{len(rs)}</text>')
             x += sw + gap
         body += (f'<figure class="fig"><svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" '
                  f'role="img" aria-label="The eight stages, sized by how many steps sit in each">'

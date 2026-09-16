@@ -1,0 +1,136 @@
+{
+ "schema": 1,
+ "id": "the-follow-up-nobody-books",
+ "type": "story",
+ "names": {
+  "name": "The follow-up nobody books",
+  "aliases": [
+   "who takes the stitches out",
+   "where the bill for the second operation lands"
+  ],
+  "said": "The package called it follow-up and meant the week in the hotel. At home it means whoever is on take at two in the morning."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "The operation is bought in one country and its consequences are managed in another. Wound checks, stitch removal, physiotherapy and the first sight of a complication happen at home, performed by clinicians who were not party to the consent, did not choose the implant, hold no record beyond what the patient carries, and were paid nothing. Nine published series from four countries have costed what arrives at their own doors. None of them has a denominator, and that is the second half of the subject.",
+  "story": "The asymmetry is stated plainly by the NHS for its own readers: \"If you have complications after an operation in the UK, it's the surgeon's responsibility to provide follow-up treatment\", while \"Overseas clinics may not provide follow-up treatment, or they may not provide it to the same standard as in the UK.\" Nothing in that sentence is disputed by anybody. What follows from it is a transfer, and the only parties who count the transfer are the ones receiving it.\n\nSo the ledgers all come from public hospitals. A cost analysis at Gold Coast University Hospital in Queensland totalled twelve patients presenting in the 2012–13 financial year with complications of cosmetic surgery performed in Thailand: AUD$151,172.52 to that hospital in one year, averaging AUD$12,597.71 a patient, running from AUD$1,190.28 to AUD$33,060.02. That is a single hospital, a single year, a single specialty and a single country of origin, and it is one of the better-documented numbers in this entire subject.\n\nThe United Kingdom has published five of them and they agree in shape. A London teaching hospital costed 24 patients surgically managed between 2006 and 2018 at USD 406,233, a mean of USD 16,296 and a range from USD 817 to USD 41,778, with gluteal enhancement the commonest procedure at 38 per cent and infection the commonest complication at 92 per cent; most of the operations had been done in Türkiye. A major trauma centre reviewing January 2013 to August 2017 found 20 patients and costed them against national tariffs by severity: eight minor at £3,448, eight intermediate at £18,271, four major at £42,083.59 — and all four major complications were gluteal augmentations. A Manchester breast unit saw 25 patients across twelve months in 2022 and 2023, 20 of them operated on abroad and 15 of those in Türkiye, at a cost of at least £37,000. A London hospital across seventeen months to 2025 found that 96 per cent of its surgical patients presenting with complications had been operated on abroad, 73 per cent in Türkiye, at an estimated £110,690. A Birmingham tertiary centre screened 749 records for 2020 to 2025 and found 29 patients making 58 hospital presentations, 82.8 per cent of the procedures done in Türkiye, mean inpatient stay 9.2 days, 27 theatre interventions, and — the figure that distinguishes it — 48.3 per cent of presentations were repeat attendances after an earlier complication. Total £518,058.47, mean £17,864 a patient, individual presentations from about £46 to £57,691. Separately, an NHS Scotland series of 81 patients over five years came to £755,559.68, \"an average of over £9,327.90 per patient\", alongside audit figures reporting UK residents needing NHS hospital treatment after surgery abroad up \"by 94% in 3 years\", \"75% citing Turkey as the origin of their surgery\", and an average NHS cost of \"£15,000 per person, depending on the treatment required\".\n\nThe largest per-patient figure in this file is American and is not cosmetic. Surgeons at the University of California San Diego, thirty miles from the Mexican border, reviewed 91 patients who had bariatric surgery in Mexico and then presented to them with complications between 2014 and 2024. A sleeve gastrectomy in 69.2 per cent of them. A leak at the staple line or the join in 33.0 per cent. Admission in 56.0 per cent, intensive care in 19.8 per cent, and three deaths — 3.3 per cent. Mean total hospital charges came to $193,445.08 a patient, and to $424,975.89 where the complication was a leak.\n\nThe newest series is Australian and adds the timing. Res and colleagues reviewed patients presenting to Westmead Hospital in New South Wales across July 2022 to January 2023 and May to December 2024: 24 patients, Türkiye the country of surgery in 54.2 per cent, abdominoplasty the commonest procedure at 54.2 per cent, and 58.3 per cent having had multiple procedures in one sitting. Wound dehiscence in 45.8 per cent, infection in 41.7. Median time from surgery to presentation, 3.8 weeks. The authors state that costing was outside the study's scope. *Inference —* 3.8 weeks is the number to hold beside a price page. It is after the return flight, after the travel policy has lapsed, after the hotel recovery the package paid for, and after the operating clinic has closed the file.\n\nWhat arrives is not only a patient but an absence of information. The Manchester unit recorded the precise date of surgery for 48 per cent of its patients, the name of the clinic for 8 per cent, and the name of the surgeon for 0 per cent, with 72 per cent presenting within eight weeks. That is not a study of infection or of technique. It is a study of what walks through the door: a patient, a complication, and no identifiable counterparty. The second surgeon then operates without an operative note, without the implant model, on tissue that has been opened once already, against an organism that may be atypical and slow-growing.\n\nThe duties that would prevent this exist and do not travel. The General Medical Council requires a doctor on its register to give patients a named contact for complications outside working hours, to provide written information detailed enough \"to enable another medical professional to take over the patient's care\", to keep records organised so that patients treated with a particular device can be identified if a safety concern arises, and to be clear at the outset about what is in a quoted price \"including possible charges for revision or routine follow up\". Those bind a doctor on the UK register. The clinic that performed the operation is not on it. The American Medical Association's guiding principles, reproduced in the CDC's chapter, ask that \"local follow-up care should be coordinated\" before travel and that coverage include the cost of follow-up on return; the same chapter notes that \"some overseas facilities and healthcare professionals charge substantial fees for follow-up care in addition to the base cost\". None of it is enforceable at a distance, and follow-up offered by message or video cannot take a swab, remove a suture or drain a collection.\n\n*Inference —* the arithmetic underneath is a transfer with no invoice. The fee was paid to a private provider in one country; the correction is paid for by a public system in another that was never party to the transaction and cannot bill anyone for it. Every total above is a floor rather than an estimate, because no national system records in its own data that an episode of care was caused by treatment obtained abroad, so there is no denominator and no rate can be computed from any of them. Two further things are unresolved on the record. A publicly funded system will treat a complication; whether it will redo an unsatisfactory cosmetic result is usually answered no, and this project found no published national policy stating where that line sits. And the professional bodies publishing loudest about this — the Australian plastic surgeons' society among them — argue that restricted theatre access and cost at home are pushing patients out, which is an argument from a body with an interest in where its members' patients are operated on. Both of those are reported here and neither is settled.",
+  "how": "Each series counts arrivals at one hospital over a fixed period in one specialty, costed either against national tariffs or against the hospital's own billed charges — and a billed charge is not an amount paid. They cannot be added into a national figure and they cannot be turned into a complication rate, because nobody counts the people who travelled and came home well. What they establish is the direction of the transfer, the concentration of the origin country in the cosmetic series, the interval before presentation, and the order of magnitude of a single bad outcome.",
+  "today": "As of 17 September 2026 the five UK plastic surgery series on this site total roughly £1.1 million across 123 patients, at five hospitals, over periods running from one year to twelve; NHS Scotland's 81 patients over five years add £755,559.68 to that. No country publishes a national figure, no destination publishes what its own clinics spend on revisions, and no published measure exists anywhere of how many people who travelled for surgery attended any follow-up at all. The figures that exist are recording rates in the patients who came back with a problem — a sample selected for having one."
+ },
+ "kin": [
+  {
+   "to": "follow-up-gap",
+   "as": "The risk record for the interval this piece is about, and the recording rates inside it.",
+   "rel": "risk"
+  },
+  {
+   "to": "revision-at-home",
+   "as": "The five UK ledgers in full, with each series and its period.",
+   "rel": "risk"
+  },
+  {
+   "to": "aftercare-at-home",
+   "as": "The step in the journey that this is the failure of.",
+   "rel": "step"
+  },
+  {
+   "to": "the-discharge-summary",
+   "as": "The document that would close the gap, when it exists and is in a language the next clinician reads.",
+   "rel": "step"
+  },
+  {
+   "to": "when-it-goes-wrong",
+   "as": "Where the patient goes at week three, and who is on take.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "Without the surgeon's name, recorded for none of 25 patients in one series, there is no defendant.",
+   "rel": "risk"
+  },
+  {
+   "to": "turkiye",
+   "as": "Named as the country of the first operation in most of the UK and Australian series.",
+   "rel": "destination"
+  },
+  {
+   "to": "united-kingdom",
+   "as": "The system that published its own ledgers, which is the only reason this page has numbers.",
+   "rel": "destination"
+  },
+  {
+   "to": "australia",
+   "as": "Where the newest series puts the median interval before presentation at 3.8 weeks.",
+   "rel": "destination"
+  },
+  {
+   "to": "mexico",
+   "as": "Where the largest per-patient charge in this file originated, in bariatric work counted from San Diego.",
+   "rel": "destination"
+  },
+  {
+   "to": "bbl",
+   "as": "Gluteal augmentation was the commonest procedure and the source of every major complication in two series.",
+   "rel": "procedure"
+  },
+  {
+   "to": "is-it-cheaper",
+   "as": "The comparison this is the missing last term of.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "NHS — cosmetic surgery abroad",
+   "url": "https://www.nhs.uk/conditions/cosmetic-procedures/going-abroad-for-cosmetic-surgery/"
+  },
+  {
+   "label": "GMC — guidance for doctors who offer cosmetic interventions",
+   "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/cosmetic-interventions"
+  }
+ ],
+ "sources": [
+  "s:nhs-cosmetic-surgery-abroad",
+  "s:eplasty-cosmetic-tourism-cost",
+  "s:wounds-uk-cosmetic-tourism",
+  "s:thacoor-nhs-cost-2019",
+  "s:farid-cosmetic-abroad-2019",
+  "s:ahari-breast-unit-2024",
+  "s:whiteman-nhs-burden-2025",
+  "s:mafi-cosmetic-tourism-cost-2026",
+  "s:spurzem-bariatric-tourism-2025",
+  "s:anzjs-cosmetic-tourism-2026",
+  "s:asps-cosmetic-tourism-2024",
+  "s:gmc-cosmetic-interventions",
+  "s:cdc-yellowbook-2026-medical-tourism",
+  "s:cdc-yellowbook-medical-tourism",
+  "s:gov-uk-foreign-travel-insurance",
+  "s:alkaelani-aesthetic-review-2023"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "every figure is read off the published series and carried on the risk and pathway records; the readings of what they can support are marked Inference inline"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "this project's account of what a single-centre cost series can and cannot show"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:mafi-cosmetic-tourism-cost-2026"
+   }
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

@@ -153,9 +153,25 @@ Read AUTHORING.txt. Copy an exemplar, change every field, keep the id in the fil
 cite only ids in sources.json, run validate.py.
 
 
+WHAT IS IN IT
+------------
+329 records: 52 countries, 40 city clusters, 58 procedures,
+34 hospitals written up beside 17,520 points harvested from OpenStreetMap,
+22 organizations, 23 rules, 23 risks, 17 journey steps, 26 words,
+13 datasets, 8 events, 5 people and 8 longer pieces.
+
+243 published prices across 23 countries, dated 2013 to 2026-09-17.
+151 readings of named legal instruments across 55 jurisdictions.
+762 sources.
+
+8 of the 34 hospitals written up carry a price of their own. That ratio is a
+finding about the trade rather than a gap in the directory.
+
+
 NOT HERE YET
 ------------
 A domain. Field observations. Photographs for most records. Outcome data per unit
 outside the few registries that publish it. Complication and revision rates for work
 done abroad, which almost nobody counts. Prices in most countries, because most
-hospitals publish none.
+hospitals publish none. The OpenStreetMap harvest covers 29 of the 40 clusters;
+`python3 tools/harvest_osm.py --resume` finishes the rest.
