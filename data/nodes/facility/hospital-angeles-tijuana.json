@@ -1,0 +1,67 @@
+{
+ "schema": 1,
+ "id": "hospital-angeles-tijuana",
+ "type": "facility",
+ "names": {
+  "name": "Hospital Angeles Tijuana",
+  "aliases": ["Hospital Ángeles Tijuana", "Grupo Ángeles Servicios de Salud"],
+  "said": "ospi-TAL AN-hel-es. Eleven storeys on Paseo de los Héroes in the Zona Río, the built-up river district of Tijuana, with a heliport on the roof of the tower beside it."
+ },
+ "region": ["mexico"],
+ "facets": {
+  "iso2": "MX",
+  "ownership": "private",
+  "founded": 2005,
+  "specialty": ["bariatric surgery", "orthopaedics", "oncology", "cardiology", "general surgery"],
+  "draws": ["gastric-sleeve", "gastric-bypass", "knee-replacement", "hip-replacement", "abdominoplasty"],
+  "status": "open",
+  "languages": ["Spanish", "English"]
+ },
+ "text": {
+  "what": "An eleven-storey private hospital of 29,108 square metres in the Zona Río of Tijuana, opened in 2005 and run by Grupo Ángeles, Mexico's largest private hospital company. It stands about twenty minutes' drive from the San Ysidro border crossing, which is the fact that puts it in this directory.",
+  "story": "The hospital was built between 2002 and 2004 and opened in 2005, mixed-use — medical centre and office space — and among the tallest buildings in Tijuana's central business district. It was the first hospital in the city with a heliport, on the roof of a connected five-storey tower.\n\nWhat the encyclopaedia entry does not carry, and what could not be sourced for this record, is a bed count, an accreditation, or a patient number of any kind.\n\n*Inference —* the gap is worth stating rather than filling. Tijuana is the most-written-about border medical market in the world and its largest private hospital publishes less about itself than a 209-bed cancer centre outside Istanbul does. The traffic across San Ysidro is measured by border agencies and by researchers, not by the hospitals.\n\nWhat is measured, and measured carefully, is what goes wrong. The United States Centers for Disease Control investigated an outbreak of extensively drug-resistant carbapenemase-producing Pseudomonas aeruginosa among American patients who had bariatric surgery in Tijuana, and published it in Emerging Infectious Diseases. That investigation names clinics in the city; it does not name this hospital.",
+  "how": "*Trade practice —* the Tijuana route is short and largely unaccompanied by an airline: a patient drives or walks across at San Ysidro or Otay Mesa, is collected on the Mexican side, is operated on within a day or two, and returns across the border within a week. Bariatric surgery and dentistry carry most of it. The consequence is structural rather than clinical — the follow-up happens in another country's health system, and the surgeon who operated has no way to see the patient again.\n\nGrupo Ángeles publishes no price for the Tijuana hospital.",
+  "today": "As of 17 September 2026 no bed count, no accreditation, no patient count and no price for this hospital was found published in any source read for this record. The building facts — eleven floors, 49 metres, 29,108 square metres, opened 2005, the first heliport in the city — are what the public record carries."
+ },
+ "geo": {"lat": 32.518123, "lon": -117.007772, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Paseo de los Héroes 10999, Zona Urbana Río Tijuana", "city": "Tijuana", "area": "Baja California", "country": "MX", "postcode": "22010"},
+ "metrics": {
+  "beds": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "Nothing. No bed count, no patient count, no foreign share and no accreditation was found published for this hospital. That is a statement about this disk and these sources, not proof that the hospital publishes nothing; the building measurements are the only quantities in the public record read here.",
+  "as_of": "2026",
+  "source": "s:wp-angeles-tijuana",
+  "url": "https://en.wikipedia.org/wiki/Hospital_Angeles_Tijuana"
+ },
+ "tags": [
+  {"tag": "chain", "source": "s:wp-angeles-tijuana", "tier": "cited", "note": "owned and run by Grupo Ángeles, Mexico's largest private hospital company"},
+  {"tag": "no-price-published", "source": "s:wp-angeles-tijuana", "tier": "cited", "note": "no price and no accreditation was found for this hospital in the sources read"}
+ ],
+ "kin": [
+  {"to": "tijuana", "as": "The largest private hospital in the city, twenty minutes from the San Ysidro crossing.", "rel": "place"},
+  {"to": "mexico", "as": "The border-town end of Mexican private medicine, where the patient walks across rather than flies in.", "rel": "destination"},
+  {"to": "gastric-sleeve", "as": "The operation the Tijuana market is built on, and the one the CDC's outbreak investigation followed.", "rel": "performs"},
+  {"to": "los-algodones", "as": "The other Mexican border cluster: dentistry in a village of surgeries against surgery in a city hospital.", "rel": "contrast"},
+  {"to": "antimicrobial-resistance", "as": "American bariatric patients operated on in this city carried extensively drug-resistant Pseudomonas home, which the CDC investigated and published.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "A border crossing between the operating surgeon and every subsequent appointment.", "rel": "risk"},
+  {"to": "revision-at-home", "as": "The revision happens on the American side, at American prices, with no record from the Mexican side.", "rel": "risk"},
+  {"to": "what-the-data-cannot-see", "as": "The most-written-about border medical market in the world, and its largest hospital publishes no number about itself.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Hospital Angeles Tijuana", "url": "https://en.hospitalangeles.com/tijuana"}
+ ],
+ "sources": ["s:wp-angeles-tijuana", "s:cdc-eid-tijuana-vim", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "the shape of a border crossing for surgery; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:wp-angeles-tijuana", "note": "a record of what could not be found published"}
+  }
+ },
+ "x_commons_files": ["File:Hospital Angeles Tijuana.jpg"],
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

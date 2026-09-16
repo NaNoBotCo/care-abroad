@@ -1,0 +1,130 @@
+{
+ "note": "Sources added by the proc-gender-transplant batch on 17 September 2026 — liver transplant, the three gender-affirming procedures, unproven cell products, abortion care, assisted dying and travelling dialysis. Every page below was fetched and read on that date; where a page is script-rendered the browser tools were used and the note says so.",
+ "sources": [
+  {
+   "id": "s:milliman-transplant-table-2025",
+   "kind": "report",
+   "title": "Estimated 2025 U.S. organ transplant costs — the interactive cost table accompanying the 2025 report",
+   "publisher": "Nick Ortner and Hanna Holzer, Milliman; table hosted at assets.milliman.com and embedded in the report page",
+   "url": "https://assets.milliman.com/downloads/2025-organ-transplant/index-font-2.html",
+   "accessed": "2026-09-17",
+   "note": "read with the browser tools because the figures are rendered by script. Gives, per organ, the total number of transplants estimated for 2025 and the estimated average billed charges: liver 10,916 and $1,017,800; kidney 28,092 and $446,800; double lung 2,938 and $2,346,500. The table's own footer reads: NOTE: ALL DATA IS ESTIMATED. SOURCE: ESTIMATES BASED ON OPTN, HRSA, AND MILLIMAN PROPRIETARY DATA"
+  },
+  {
+   "id": "s:milliman-transplant-press-2025",
+   "kind": "report",
+   "title": "Milliman releases 2025 report on U.S. organ and tissue transplant costs, utilization, and emerging issues — press release, Seattle, 13 February 2025",
+   "publisher": "Milliman, Inc.",
+   "url": "https://media.milliman.com/v1/media/edge/images/millimaninc5660-milliman6442-prod27d5-0001/media/Milliman/PDFs/Press-releases/2025/2-13-25_Organ-Transplant-press-release.pdf",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:psri-liver-cost-2026",
+   "kind": "web",
+   "title": "Liver Transplant Cost in India 2026: Surgery Price, Recovery & Outcomes",
+   "publisher": "PSRI Hospital (Pushpawati Singhania Research Institute), Sheikh Sarai, New Delhi",
+   "url": "https://psrihospital.com/liver-transplant-cost-in-india-from-diagnosis-to-recovery/",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own page. Quotes a living-donor range of 18-20 lakh rupees and 30-35 lakh for deceased-donor and complex cases, a hospital stay of 10-15 days, and an international-patient service that includes medical visa letters and embassy documentation. The page carries no inclusion list beyond a prose sentence and no validity date."
+  },
+  {
+   "id": "s:ltc-price-list",
+   "kind": "web",
+   "title": "Price List — surgery, facial feminisation, MTF GCS/SRS, body masculinisation",
+   "publisher": "The London Transgender Clinic, London",
+   "url": "https://www.thelondontransgenderclinic.uk/price-list/",
+   "accessed": "2026-09-17",
+   "note": "read with the browser tools. Every surgical line is prefixed 'Starts from'. The page states that an exact price cannot be given before consultation, that a formal quotation covers treatment, aftercare and the hospital stay where required, and that guide prices are subject to change. It carries no date. There is no phalloplasty or metoidioplasty row on it."
+  },
+  {
+   "id": "s:kamol-srs",
+   "kind": "web",
+   "title": "Gender Reassignment Surgery / SRS — techniques and hospital stay",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/gender-reassignment-surgery-srs/",
+   "accessed": "2026-09-17",
+   "note": "five named techniques with operating times, and a stated stay of 4-6 nights. No price is published on the page."
+  },
+  {
+   "id": "s:kamol-top-surgery",
+   "kind": "web",
+   "title": "Top Surgery / Mastectomy — techniques, stay and recovery",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/top-surgery-mastectomy/",
+   "accessed": "2026-09-17",
+   "note": "states a stay of 2-5 nights depending on technique, suture removal at 7 days, return to work after 2 weeks and full healing at 4-6 months. No price is published on the page."
+  },
+  {
+   "id": "s:kamol-phalloplasty",
+   "kind": "web",
+   "title": "Phalloplasty — flap options and candidacy requirements",
+   "publisher": "Kamol Cosmetic Hospital, Bangkok",
+   "url": "https://kamolhospital.com/services/phalloplasty/",
+   "accessed": "2026-09-17",
+   "note": "four flap techniques with the length each is said to produce, and a candidacy list: minimum age 20, at least one year of testosterone, one year living in the acquired gender, psychiatric clearance, and mastectomy and hysterectomy completed at least six months before. No price is published on the page."
+  },
+  {
+   "id": "s:chettawut-srs-faq",
+   "kind": "web",
+   "title": "Frequently asked questions of sex reassignment surgery",
+   "publisher": "Chettawut Plastic Surgery Center, Bangkok",
+   "url": "https://www.chet-plasticsurgery.com/frequent-asked-questions-of-sex-reassignment-surgery/",
+   "accessed": "2026-09-17",
+   "note": "publishes no package price; the only figure on the page is an extra charge of 32,000 THB where additional groin skin grafting is needed. States the dilation schedule: daily for two years to maintain depth, then two to three times a week, for life."
+  },
+  {
+   "id": "s:cellmedicine-stem-cell-cost",
+   "kind": "web",
+   "title": "How Much Does Stem Cell Therapy Cost?",
+   "publisher": "Stem Cell Institute, Panama City, Panama",
+   "url": "https://www.cellmedicine.com/how-much-does-stem-cell-therapy-cost/",
+   "accessed": "2026-09-17",
+   "note": "the clinic's own page: 15,825 USD for a child and 26,900 USD for an adult, stated to include airport customs clearance, ground transport and a hotel stay. The page names the conditions marketed and makes no statement about regulatory approval."
+  },
+  {
+   "id": "s:giostar-mexico-cost",
+   "kind": "web",
+   "title": "Stem Cell Therapy Mexico Cost at GIOSTAR Mexico",
+   "publisher": "GIOSTAR Mexico",
+   "url": "https://giostarmexico.com/stem-cell-therapy-mexico-cost-at-giostar-mexico-global-standards-transparent-pricing-financing-options/",
+   "accessed": "2026-09-17",
+   "note": "the clinic's own page, marked verified August 2026: packages by condition group, a stated cell count of 35-140 million across 1-4 vials, and a claim of COFEPRIS-certified facilities. No FDA approval is claimed."
+  },
+  {
+   "id": "s:chavez-tijuana-2021",
+   "kind": "paper",
+   "title": "Online marketing practices of regenerative medicine clinics in US-Mexico border region: a web surveillance study",
+   "publisher": "Stem Cell Research & Therapy 2021;12(1):189 (Chavez J, Shah NA, Ruoss S, Cuomo RE, Ward SR, Mackey TK); doi 10.1186/s13287-021-02254-4",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33736697/",
+   "accessed": "2026-09-17",
+   "note": "searches run March to April 2019 in English and Spanish; 110 websites in Tijuana corresponding to 76 confirmed locations; 13 claimed licensing and 1 matched available licensing information"
+  },
+  {
+   "id": "s:bph-holiday-dialysis",
+   "kind": "web",
+   "title": "Holiday Dialysis Center — treatments and services",
+   "publisher": "Bangkok Hospital Phuket",
+   "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/phuket-holiday-dialysis-center-bpk/treatments-and-services",
+   "accessed": "2026-09-17",
+   "note": "the hospital's own page: a conventional rate of 7,000 THB a session of four hours and an online haemodiafiltration rate of 8,000 THB, both stated to exclude medications. No validity date."
+  },
+  {
+   "id": "s:freedom-dialysis-turkey",
+   "kind": "web",
+   "title": "Dialysis in Turkey — units and approximate session prices",
+   "publisher": "Freedom, the Dialysis Holiday Specialists, Leicestershire",
+   "url": "https://www.holidaydialysis.co.uk/turkey.php",
+   "accessed": "2026-09-17",
+   "note": "an agency page, not a unit's own price list; every figure is prefixed 'approx.' and the page carries no date"
+  },
+  {
+   "id": "s:pegasos-faqs",
+   "kind": "org",
+   "title": "FAQs — cost, refund policy and who may apply",
+   "publisher": "Pegasos Swiss Association, Basel",
+   "url": "https://pegasos-association.com/faqs/",
+   "accessed": "2026-09-17",
+   "note": "the answers are inside collapsed panels and were read out of the page text with the browser tools. States a cost of approximately CHF 10,000 covering paperwork, consultations, the appointment including drugs, cremation and couriering of ashes, paid in two instalments, with CHF 1,500 retained on withdrawal."
+  }
+ ]
+}

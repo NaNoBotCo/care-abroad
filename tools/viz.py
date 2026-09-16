@@ -381,6 +381,9 @@ def bars(rows: list, *, w=760, unit="", title="", note="", ident="bars", row_h=2
     if not rows:
         return ""
     hi = max(r["value"] for r in rows) or 1
+    # the gutter grows to the longest label rather than clipping it, and the plot gives
+    # way instead — a chart that eats a word to keep its bars long has lost the argument
+    label_w = min(int(w * 0.42), max(label_w, int(6.4 * max(len(str(r["label"])) for r in rows)) + 18))
     padr = 64
     plot = w - label_w - padr
     h = row_h * len(rows) + 14

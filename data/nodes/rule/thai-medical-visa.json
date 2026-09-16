@@ -1,0 +1,104 @@
+{
+ "id": "thai-medical-visa",
+ "names": {
+  "name": "Thailand's medical treatment visa",
+  "aliases": [
+   "Tourist Visa (Medical Treatment)",
+   "TR (MT)",
+   "Non-Immigrant O for medical treatment"
+  ],
+  "said": "The consulates call it MT. It sits inside the visitor category, not beside it."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "kind": "visa",
+  "iso2": "TH",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "A visitor visa endorsed for medical treatment, issued by Thai embassies and consulates, admitting the holder for treatment at a hospital in Thailand. The Royal Thai Embassy in Washington describes it as allowing \"foreign nationals to stay in Thailand for up to 60 days for the purpose of recieving medical treatment\", with \"An extension for an additional 30 days\" possible, \"allowing for a maximum total stay of 90 days from the date of entry\". Longer courses run under the Non-Immigrant O category instead.",
+  "story": "Thailand's class is a hospital letter attached to a visitor visa, and the difference from India's approach is worth reading side by side. India built a separate e-Medical class with its own duration and its own attendant class. Thailand endorsed the visitor visa and set a ceiling of 90 days.\n\n*Inference —* the consequence for anyone counting is direct. A patient admitted on an endorsed visitor visa is, in the migration statistics, a visitor. Thailand's arrival figures therefore cannot be read as a count of patients, and the counts that circulate for the country come from elsewhere — usually a market-research summary aggregating hospital visits by foreigners, which sweeps in residents and holidaymakers alike.\n\nThe requirements the consulates publish are the ordinary visitor set plus one document that is not: \"A letter of appointment from the hospital or medical center\". Washington's page also names a funds test of USD 700 per person per month or USD 2,000 per family. The embassy in Kuala Lumpur publishes the same class under the joint heading Medical Treatment (MT) or Non-Immigrant (O) for medical treatment, which is the fork a longer course takes.\n\nThe visa exemption that most arrivals use is a separate track and it moved recently: it falls from 60 days to 30 on 15 September 2026. *Inference —* that shortens the window for anyone who intended to arrive visa-free and have a procedure, which is a large share of the dental and cosmetic trade.",
+  "how": "The application wants a passport valid six months or more, the completed form and photographs, the hospital's letter naming the treatment and its expected duration, evidence of funds and onward or return travel. Extension is applied for inside Thailand at an immigration office. Where treatment runs past the ceiling, the patient reports to immigration on a 90-day cycle with medical certificates from the state or private hospital where they are admitted.\n\nWhat the published pages do not say: whether a companion is admitted under the same class. Neither consular page read for this record addresses an accompanying person, which is the single clearest difference from India's arrangement, where the attendant class exists and is capped at two.",
+  "today": "As of 17 September 2026 the class is published by individual Thai missions rather than as one national page, and the wording differs between them — Washington, Kuala Lumpur, Munich and Pretoria each set out their own document list. The 60-day permitted stay and the 30-day extension are read off the Washington mission's page."
+ },
+ "kin": [
+  {
+   "to": "the-visa",
+   "as": "The step this rule sits inside.",
+   "rel": "pathway"
+  },
+  {
+   "to": "thailand",
+   "as": "The country that issues it.",
+   "rel": "destination"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The contrast: a dedicated class, with its own attendant visa and a year's validity.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bangkok",
+   "as": "Where nearly every holder is treated.",
+   "rel": "hub"
+  },
+  {
+   "to": "medical-visa",
+   "as": "The word, and what it does and does not name here.",
+   "rel": "term"
+  },
+  {
+   "to": "counting-patients",
+   "as": "Why a patient on an endorsed visitor visa is a patient nobody counted.",
+   "rel": "story"
+  },
+  {
+   "to": "the-companion",
+   "as": "The person these pages do not mention.",
+   "rel": "step"
+  },
+  {
+   "to": "addiction-rehab",
+   "as": "One of the long courses that outruns the 90-day ceiling.",
+   "rel": "procedure"
+  }
+ ],
+ "links": [
+  {
+   "label": "Royal Thai Embassy, Washington DC — Tourist Visa (Medical Treatment)",
+   "url": "https://washingtondc.thaiembassy.org/en/page/non-immigrant-visa-mt"
+  },
+  {
+   "label": "Royal Thai Embassy, Kuala Lumpur — Medical Treatment (MT) or Non-Immigrant (O)",
+   "url": "https://kualalumpur.thaiembassy.org/en/publicservice/medical-treatment-mt-or-non-immigrant-o-for-medical"
+  }
+ ],
+ "sources": [
+  "s:thaiembassy-dc-mt-visa",
+  "s:thaiembassy-kl-mt-visa"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thaiembassy-dc-mt-visa"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:thaiembassy-dc-mt-visa",
+    "note": "the stretches marked *Inference —* are this project reasoning from the consular pages"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:thaiembassy-dc-mt-visa"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

@@ -1,0 +1,113 @@
+{
+ "id": "malaysia-mhtc-licence",
+ "names": {
+  "name": "Malaysia's healthcare travel registration",
+  "aliases": [
+   "MHTC membership",
+   "MHTC Elite Partner",
+   "Act 586 licence"
+  ],
+  "said": "Two different things get called a licence here, and only one of them is issued by law."
+ },
+ "region": [
+  "southeast-asia"
+ ],
+ "facets": {
+  "kind": "licensing",
+  "iso2": "MY",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Malaysia has a statutory licence to operate a private hospital and a separate, non-statutory membership scheme for hospitals selling to foreign patients. The licence is issued under the Private Healthcare Facilities and Services Act 1998 (Act 586): no person may establish or maintain a private healthcare facility, other than a private medical or dental clinic, without the approval of the Director General of Health. The membership is the Malaysia Healthcare Travel Council's, and it is a trade register, not a permit.",
+  "story": "The Council was set up by the Ministry of Health in 2005, incorporated as an independent entity in 2011, and moved from the Ministry of Health to the Ministry of Finance in 2018. Its own site lists more than 80 partner hospitals and clinics, and it grades them — Elite Partner at the top, where the Council states that every Elite Partner holds accreditation from an international body such as Joint Commission International, the Malaysian Society for Quality in Health, the Australian Council on Healthcare Standards, Temos, or the Reproductive Technology Accreditation Committee.\n\n*Inference —* the distinction matters to a reader trying to check a hospital. Losing the Act 586 licence closes the hospital. Losing Council membership closes a marketing channel. Both are called accreditation in the brochures, and they are different instruments with different consequences, held by different bodies, and only one of them is enforced by a regulator.\n\nA selection committee drawn from the private and government sectors decides membership. *Inference —* a committee that both promotes an industry and vets its members is doing two jobs, and this project counts recognitions rather than weighting them for exactly that reason.",
+  "how": "The statutory route: approval to establish, then a licence to operate, from the Director General of Health, under Act 586 and its regulations. The Act covers private hospitals, ambulatory care centres, blood banks, hospice care, nursing homes, psychiatric hospitals and community mental health centres.\n\nThe Council route: application to MHTC, evaluation by its committee, and a tier. What the tier signals is an accreditation held elsewhere.\n\nAdvertising is a third regime again: under section 4B of the Medicines (Advertisement and Sale) Act 1956 and the Medicine Advertisements Board Regulations 1976, a healthcare advertisement needs Board approval before publication and carries a KKLIU serial number, valid six months.",
+  "today": "As of 17 September 2026 MHTC's own site could not be read directly — mhtc.org.my returned a server error on 16 September 2026 and again on this date — and the counts here are read off malaysiahealthcare.org and the Council's Wikipedia entry. The statutory position under Act 586 is read off the Ministry of Health's own publication of the Act."
+ },
+ "kin": [
+  {
+   "to": "malaysia",
+   "as": "The country whose two regimes these are.",
+   "rel": "destination"
+  },
+  {
+   "to": "mhtc",
+   "as": "The council that runs the membership half.",
+   "rel": "org"
+  },
+  {
+   "to": "kuala-lumpur",
+   "as": "Where most member hospitals are.",
+   "rel": "hub"
+  },
+  {
+   "to": "penang",
+   "as": "The second cluster, and the one that draws from Indonesia.",
+   "rel": "hub"
+  },
+  {
+   "to": "gleneagles-kl",
+   "as": "One of the member hospitals.",
+   "rel": "facility"
+  },
+  {
+   "to": "island-hospital-penang",
+   "as": "Another, in the northern cluster.",
+   "rel": "facility"
+  },
+  {
+   "to": "jci",
+   "as": "The accreditation the top membership tier is built on.",
+   "rel": "accredited-by"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "Why two things called accreditation are not the same instrument.",
+   "rel": "story"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "The third regime, and the KKLIU number on every advertisement.",
+   "rel": "kin"
+  }
+ ],
+ "links": [
+  {
+   "label": "Private Healthcare Facilities and Services Act 1998 (Act 586) — Ministry of Health Malaysia",
+   "url": "https://www.moh.gov.my/index.php/pages/view/198"
+  },
+  {
+   "label": "Malaysia Healthcare Travel Council",
+   "url": "https://malaysiahealthcare.org/"
+  }
+ ],
+ "sources": [
+  "s:my-act-586",
+  "s:malaysiahealthcare-about",
+  "s:mhtc-wikipedia",
+  "s:mhtc-mymt-2026",
+  "s:my-mab-kkliu"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:my-act-586"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:malaysiahealthcare-about",
+    "note": "the stretches marked *Inference —* are this project's reading of the difference between the two instruments"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:mhtc-wikipedia",
+    "note": "mhtc.org.my was unreachable on both attempts"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

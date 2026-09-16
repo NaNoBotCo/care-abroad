@@ -1,0 +1,46 @@
+{
+ "schema": 1,
+ "id": "mexico-fungal-meningitis-2023",
+ "type": "event",
+ "names": {
+  "name": "The Matamoros fungal meningitis outbreak, 2023",
+  "aliases": ["Fusarium solani meningitis outbreak", "Matamoros epidural outbreak"],
+  "said": "In the clinics it was an epidural for a cosmetic operation. In the case notes it is fungal meningitis after epidural anaesthesia, and the fungus is one nobody expected to find in a spine."
+ },
+ "region": ["mexico", "north-america"],
+ "facets": {
+  "kind": "outbreak",
+  "when": 2023,
+  "iso2": "MX",
+  "status": "one-off"
+ },
+ "text": {
+  "what": "An outbreak of fungal meningitis among people — almost all of them residents of the United States — who had procedures under epidural anaesthesia at two clinics in Matamoros, Tamaulipas, in the first five months of 2023. Both clinics, River Side Surgical Center and Clinica K-3, were closed on 13 May 2023. By 31 August 2023 the CDC's tally stood at 10 confirmed cases, 14 probable, nine suspected, 151 persons under investigation, and 12 deaths.",
+  "story": "The exposure was defined by a date range and a room, not by an operation: \"Anyone who had procedures under epidural anaesthesia in these clinics from January 1 to May 13, 2023, is at risk for fungal meningitis.\" Most of the operations were cosmetic. The route of infection ran through the anaesthesia rather than the surgery, which is why patients who had entirely different procedures shared the same exposure.\n\nThree United States laboratories and the Mexican national laboratory detected fungal signals consistent with the Fusarium solani species complex in patients' cerebrospinal fluid, and a highly resistant strain of Fusarium solani was isolated from one patient. Fusarium is a mould of soil and water; meningitis caused by it is rare, hard to treat and treated with drugs that many strains resist.\n\nThe tracing shows what a cross-border outbreak costs in time. The Mexican Ministry of Health gave the CDC a list of United States residents who had procedures at the two clinics in the exposure window, and the CDC recorded the list's limits plainly: \"Some of the listed contact information is incorrect or incomplete and some at-risk persons have been identified who were not on the list.\" Health departments in several states then worked the list by telephone to reach people who felt well and tell them to have a lumbar puncture.\n\n*Inference —* the counts are counts of people found, and there is no denominator. Nobody published how many patients were anaesthetised in those two clinics in those nineteen weeks, so no rate can be computed from twelve deaths, and this record does not compute one. What the numbers do support is the ratio inside them: on 31 August 2023 the persons under investigation outnumbered the confirmed cases fifteen to one.",
+  "today": "The CDC page is archived and was last updated on 27 October 2023. Both clinics remained closed from 13 May 2023; this record carries no later Mexican regulatory finding, because none was read for it."
+ },
+ "geo": {"lat": 25.8797, "lon": -97.5042, "precision": "city", "source": "s:cdc-meningitis-matamoros"},
+ "address": {"city": "Matamoros", "area": "Tamaulipas", "country": "MX"},
+ "kin": [
+  {"to": "mexico", "as": "The country page where this outbreak sits alongside the border dental trade and the Tijuana bariatric trade.", "rel": "destination"},
+  {"to": "fungal-meningitis", "as": "The risk record: what it is, how it is found, and who treats it.", "rel": "risk"},
+  {"to": "dominican-republic-ntm-outbreak", "as": "The other multi-state outbreak traced to clinics abroad, five years earlier and bacterial rather than fungal.", "rel": "event"},
+  {"to": "anaesthetic-risk-unscreened", "as": "The exposure here was the anaesthesia, not the operation.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Patients were traced by telephone from a list, weeks after they had flown home.", "rel": "risk"},
+  {"to": "revision-at-home", "as": "Every counted case was managed by a hospital in the patient's own country.", "rel": "risk"},
+  {"to": "counting-patients", "as": "Twelve deaths with no denominator is the shape of almost every number in this field.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "CDC — fungal meningitis outbreak associated with procedures under epidural anesthesia in Matamoros", "url": "https://archive.cdc.gov/www_cdc_gov/hai/outbreaks/meningitis-epidural-anesthesia.html"}
+ ],
+ "sources": ["s:cdc-meningitis-matamoros", "s:cdc-yellowbook-medical-tourism"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:cdc-meningitis-matamoros"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:cdc-meningitis-matamoros", "note": "every quoted sentence was read on the archived CDC page; the closing paragraph is marked inference"},
+   "geo": {"tier": "inference", "note": "the city of Matamoros, not either clinic's address, which the CDC page does not give"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

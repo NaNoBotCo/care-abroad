@@ -1,0 +1,111 @@
+{
+ "id": "turkiye-health-tourism-authorisation",
+ "names": {
+  "name": "Türkiye's international health tourism authorisation certificate",
+  "aliases": [
+   "uluslararası sağlık turizmi yetki belgesi",
+   "yetki belgesi",
+   "authorised provider list"
+  ],
+  "said": "Sağlık turizmi yetki belgesi. Facility and intermediary both need one, and the Ministry publishes who holds them."
+ },
+ "region": [
+  "west-asia"
+ ],
+ "facets": {
+  "kind": "licensing",
+  "iso2": "TR",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "A compulsory Ministry of Health certificate for any facility treating international patients and any intermediary bringing them, under the Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik, published in the Resmî Gazete on 13 July 2017, No. 30123. Article 5(1) makes the certificate compulsory for both, and the Ministry halts the activity of anyone trading without one. An intermediary must be a group A travel agency licensed under Law No. 1618 of 1972.",
+  "story": "Türkiye built a licensing regime around a trade that was already large, and the shape of the regime says what the state was worried about.\n\nThe facility is the obvious half. The intermediary is the half that matters. By requiring the broker to hold a group A travel agency licence under Law 1618 — the 1972 statute governing travel agencies — the regulation dragged the facilitator inside an existing, inspectable licensing system rather than inventing a new one. A person arranging a hair transplant for a foreign buyer is, in Turkish law, running a travel agency, with the bonds, the premises and the registered manager that implies.\n\nTransitional Article 1 gave those already trading one year to comply. Article 16 put the regulation in force on publication.\n\nThe Ministry publishes the registers: separate downloadable lists of authorised hospitals, medical centres, private practices, other providers and authorised facilitators, held by the Health Services General Directorate's health tourism department. *Inference —* a published register is the one thing a reader abroad can actually check, and it checks a narrow thing: that the holder is authorised to trade with foreign patients. It is not a quality rating and the Ministry does not present it as one.\n\nAdvertising is governed separately and was rewritten in 2025 — see the advertising record, where the current regulation's treatment of foreign-directed promotion is set out.",
+  "how": "The certificate is issued by the Ministry of Health. The published lists are the register; a facility or intermediary that is not on them is not authorised, whatever its own site says.\n\nWhat the regime does not do: set prices, guarantee a clinical outcome, or make the intermediary liable for the clinical work. It licenses the trade, and it gives the Ministry a power to stop an unlicensed one.\n\nÜSHAŞ, the state's international health services company, publishes health tourism data by year, which is the nearest thing Türkiye has to an official count of arrivals for treatment.",
+  "today": "As of 17 September 2026 the 2017 regulation stands and the Ministry's authorised-provider page carries lists dated 20 August 2026. The promotion and information regulation that governs how holders may advertise was replaced on 12 November 2025."
+ },
+ "kin": [
+  {
+   "to": "turkiye",
+   "as": "The country whose regime this is.",
+   "rel": "destination"
+  },
+  {
+   "to": "turkiye-health-services-directorate",
+   "as": "The directorate that issues the certificate and publishes the register.",
+   "rel": "org"
+  },
+  {
+   "to": "istanbul",
+   "as": "Where most certificate holders are.",
+   "rel": "hub"
+  },
+  {
+   "to": "facilitator",
+   "as": "The role this regulation turns into a licensed travel agency.",
+   "rel": "term"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step at which the register can be checked.",
+   "rel": "step"
+  },
+  {
+   "to": "advertising-rules",
+   "as": "The separate regulation that governs what a certificate holder may say abroad.",
+   "rel": "kin"
+  },
+  {
+   "to": "hair-transplant-fue",
+   "as": "The procedure that built the trade the regulation was written for.",
+   "rel": "procedure"
+  },
+  {
+   "to": "turkiye-hair-boom",
+   "as": "The years the volume arrived.",
+   "rel": "event"
+  },
+  {
+   "to": "acibadem",
+   "as": "The kind of hospital group that holds the certificate.",
+   "rel": "facility"
+  }
+ ],
+ "links": [
+  {
+   "label": "Resmî Gazete, 13 July 2017, No. 30123 — the regulation",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2017/07/20170713-3.htm"
+  },
+  {
+   "label": "Ministry of Health — healthcare providers authorised by the Ministry",
+   "url": "https://saglikturizmi.saglik.gov.tr/EN,69063/healthcare-providers-authorized-by-the-ministry.html"
+  }
+ ],
+ "sources": [
+  "s:rg-saglik-turizmi-2017",
+  "s:tr-health-tourism-reg-2017",
+  "s:tr-authorised-providers",
+  "s:tr-shgm",
+  "s:ushas-saglik-turizmi-verileri"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:rg-saglik-turizmi-2017"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:rg-saglik-turizmi-2017",
+    "note": "the stretch marked *Inference —* is this project's reading of what a register does"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:tr-authorised-providers"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

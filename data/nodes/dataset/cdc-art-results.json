@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "cdc-art-results",
+ "type": "dataset",
+ "names": {
+  "name": "CDC assisted reproductive technology results",
+  "aliases": ["NASS", "National ART Surveillance System", "ART Success Rates"],
+  "said": "American clinics call it the CDC report. Reporting is federal law, and the law was passed because clinics were advertising their own numbers."
+ },
+ "region": ["global", "north-america"],
+ "facets": {"publisher": "US Centers for Disease Control and Prevention"},
+ "text": {
+  "what": "What every reporting fertility clinic in the United States did in a year, and what came of it. \"The Fertility Clinic Success Rate and Certification Act of 1992 mandates that clinics performing ART annually provide data to CDC for ART procedures they perform\", and the CDC calculates standardised success rates from the returns. The most recent final year is 2022: \"In 2022, there were 435,426 ART cycles performed on 251,542 unique patients at 457 reporting U.S. clinics.\"",
+  "story": "Those cycles produced 94,039 live-birth deliveries and 98,289 live-born infants, about 2.6% of all infants born in the United States that year. A further 184,423 of the reported cycles were egg or embryo banking, where everything was frozen for later.\n\nCompliance is not complete: \"A small number of clinics do not report data to CDC and are listed as nonreporters\", and because most of those are small the CDC estimates the system \"contains information on about 98% of all ART cycles in the United States\". A register with a statute behind it still names the clinics that will not answer.\n\nAnd like its British counterpart the CDC publishes the table under a warning: \"Comparison of success rates across clinics may not be meaningful\", and \"Clinic success rates do not reflect any one patient's chance of success\". Its reasons are the ones that defeat every clinic league table — different patients, different selection, different methods, rates that reflect cycles more than a year old, and small clinics whose numbers swing on a handful of cases.\n\n*Inference —* for this site the series is a benchmark rather than a destination record. It gives a dated, statutory, per-clinic figure for the country most fertility travellers leave rather than enter, which makes it the sharpest available measure of what a patient gives up by travelling to a market that publishes nothing comparable.",
+  "notes": "ART is defined narrowly: treatments in which eggs or embryos are handled. Treatment in which only sperm are handled — intrauterine insemination — is outside it, as is ovulation induction with drugs alone."
+ },
+ "dataset": {
+  "publisher": "US Centers for Disease Control and Prevention, Division of Reproductive Health",
+  "url": "https://www.cdc.gov/art/",
+  "api": "https://data.cdc.gov/resource/9tjt-seye.json",
+  "license": "US Government work; no licence statement was captured on the pages read on 17 September 2026",
+  "unit": "ART cycles, and outcomes per cycle, per transfer and per retrieval",
+  "indicator": "National ART Surveillance System (NASS)",
+  "years": "1995 to 2022; 2022 is the most recent final year published",
+  "countries": 1,
+  "updated_by_publisher": "annually, as required by statute",
+  "counts": "Every ART cycle performed at a reporting United States clinic in the calendar year — cycles, patients, transfers, live-birth deliveries and infants — reported clinic by clinic and nationally. National figures are noncumulative and cover only cycles performed in the reporting year.",
+  "does_not_count": "Anything done outside a United States clinic. A US resident who travels to Mexico, Spain, Greece or the Czech Republic for IVF is outside the system entirely, and no American series counts them. It counts no intrauterine insemination and no ovulation induction, because neither is ART by CDC's definition; it counts nothing from the clinics listed as nonreporters, about 2% of cycles by CDC's own estimate; and its clinic rates describe cycles more than a year old, which the CDC says plainly should not be read as any individual's chance of success."
+ },
+ "kin": [
+  {"to": "hfea-results", "as": "The British counterpart: a register with a statute behind it, publishing rates and warning against comparing them.", "rel": "dataset"},
+  {"to": "ivf", "as": "The treatment counted, cycle by cycle.", "rel": "procedure"},
+  {"to": "icsi", "as": "Counted inside the same cycles, as a laboratory method rather than a separate treatment.", "rel": "procedure"},
+  {"to": "egg-donation", "as": "Reported separately in the clinic tables, because donor cycles carry different rates.", "rel": "procedure"},
+  {"to": "united-states", "as": "The country the register covers, and the largest source market for fertility travel in this directory.", "rel": "destination"},
+  {"to": "counting-patients", "as": "A mandatory national register that still cannot see a patient who left.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "CDC — ART surveillance", "url": "https://www.cdc.gov/art/php/surveillance/index.html"},
+  {"label": "National ART Surveillance System", "url": "https://www.cdc.gov/art/php/nass/index.html"},
+  {"label": "How to interpret ART success rates", "url": "https://www.cdc.gov/art/success-rates/interpret.html"}
+ ],
+ "sources": ["s:cdc-art", "s:cdc-nass", "s:cdc-art-surveillance", "s:cdc-art-interpret", "s:cdc-art-about", "s:cdc-art-2022-summary"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:cdc-art-surveillance"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:cdc-nass", "note": "the 2022 totals are from the CDC surveillance page, the reporting and nonreporter sentences from the NASS page, the warnings from the interpretation page; the closing paragraph is marked inference"},
+   "text.notes": {"tier": "cited", "source": "s:cdc-art-about"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

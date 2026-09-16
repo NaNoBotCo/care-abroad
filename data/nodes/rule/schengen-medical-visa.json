@@ -1,0 +1,106 @@
+{
+ "id": "schengen-medical-visa",
+ "names": {
+  "name": "The Schengen visa, for treatment",
+  "aliases": [
+   "uniform visa",
+   "type C visa",
+   "Visa Code Annex II"
+  ],
+  "said": "There is no medical class. There is a purpose of journey, and a document that proves it."
+ },
+ "region": [
+  "europe-west",
+  "europe-central",
+  "europe-south",
+  "europe-north"
+ ],
+ "facets": {
+  "kind": "visa",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "Europe issues no dedicated treatment visa. A patient travelling to the Schengen area for care applies for the ordinary short-stay uniform visa under Regulation (EC) No 810/2009, the Community Code on Visas, and proves the purpose of the journey with a hospital document. Annex II names it: for travel undertaken for medical reasons, \"an official document of the medical institution confirming necessity for medical care in that institution and proof of sufficient financial means to pay for the medical treatment\".",
+  "story": "The contrast with India and Thailand is the point. India created a class and capped the attendants at two. Thailand endorses a visitor visa and caps the stay at 90 days. The Schengen states created nothing: the patient is a visitor with a hospital letter, and the letter is one item on Annex II's non-exhaustive list alongside the ones for business travellers and students.\n\nArticle 14(1)(a) requires \"documents indicating the purpose of the journey\", plus accommodation, means of subsistence for the stay and the return, and information allowing an assessment of the applicant's intention to leave before the visa expires. Article 15 adds travel medical insurance covering \"repatriation for medical reasons, urgent medical attention and/or emergency hospital treatment or death\", with minimum cover of EUR 30,000.\n\n*Inference —* the insurance requirement and the treatment being travelled for do not meet. A policy written to cover an emergency and repatriation is not a policy covering the planned operation; the Visa Code asks for the first and says nothing about the second. A patient can therefore satisfy Article 15 in full and be entirely uninsured for the thing they came to do.\n\nThe ninety-day ceiling is the other constraint. A uniform visa is a short stay — 90 days in any 180 — which is enough for most surgery and not enough for a long oncology or rehabilitation course. Longer stays are national long-stay visas, issued by each Member State under its own law, and there the picture fragments.",
+  "how": "Application to the consulate of the main destination, with the hospital document, the funds evidence, the insurance certificate and the ordinary supporting set. Article 14(6) lets a consulate waive requirements for applicants with a known record of lawful visa use.\n\nWhat this route does not do: name the hospital on the visa, admit a companion as of right, or move if the treatment date slips. A companion applies as an ordinary visitor and proves their own purpose, which is somebody else's treatment.\n\nThe United Kingdom and Ireland are outside the Schengen area and run their own routes.",
+  "today": "As of 17 September 2026 the Visa Code as amended is the instrument, and Annex II is still the list. No Schengen state issues a visa class named for medical treatment; the purpose of journey is a document, not a category."
+ },
+ "kin": [
+  {
+   "to": "the-visa",
+   "as": "The step this rule sits inside.",
+   "rel": "pathway"
+  },
+  {
+   "to": "india-e-medical-visa",
+   "as": "The contrast: a named class, a year long, with an attendant visa attached.",
+   "rel": "contrast"
+  },
+  {
+   "to": "thai-medical-visa",
+   "as": "The middle case: a visitor visa with a medical endorsement.",
+   "rel": "contrast"
+  },
+  {
+   "to": "insurance-exclusions",
+   "as": "Why Article 15 cover and cover for the operation are different things.",
+   "rel": "kin"
+  },
+  {
+   "to": "spain",
+   "as": "One Schengen destination with a large inbound fertility trade and no treatment visa.",
+   "rel": "destination"
+  },
+  {
+   "to": "germany",
+   "as": "Another, drawing patients from the Gulf and the former Soviet states.",
+   "rel": "destination"
+  },
+  {
+   "to": "the-companion",
+   "as": "Who has to apply separately, and prove someone else's purpose.",
+   "rel": "step"
+  },
+  {
+   "to": "counting-patients",
+   "as": "A visitor visa with a hospital letter leaves no category to count.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Regulation (EC) No 810/2009, Article 14",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/article/14"
+  },
+  {
+   "label": "Regulation (EC) No 810/2009, Article 15",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/article/15"
+  },
+  {
+   "label": "Regulation (EC) No 810/2009, Annex II",
+   "url": "https://www.legislation.gov.uk/eur/2009/810/annex/II"
+  }
+ ],
+ "sources": [
+  "s:eu-visa-code-810-2009",
+  "s:eu-visa-code-annex-2",
+  "s:eu-visa-code-art-14"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:eu-visa-code-annex-2"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:eu-visa-code-810-2009",
+    "note": "the stretch marked *Inference —* is this project reading Article 15 against the purpose of the journey"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

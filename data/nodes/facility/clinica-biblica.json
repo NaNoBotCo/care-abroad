@@ -1,0 +1,76 @@
+{
+ "schema": 1,
+ "id": "clinica-biblica",
+ "type": "facility",
+ "names": {
+  "name": "Hospital Clínica Bíblica",
+  "aliases": ["Clínica Bíblica", "Hospital Clínico Bíblico"],
+  "said": "KLEE-nee-ka BEE-blee-ka — the Bible Clinic. Henry and Susan Strachan of the Latin American Mission founded it in 1929 under the older name Hospital Clínico Bíblico, and the mission's name stayed on the building after the mission left it."
+ },
+ "region": ["central-america"],
+ "facets": {
+  "iso2": "CR",
+  "ownership": "private",
+  "founded": 1929,
+  "specialty": ["orthopaedics", "bariatric surgery", "cosmetic surgery", "dentistry", "cardiology"],
+  "draws": ["gastric-sleeve", "gastric-bypass", "dental-implant", "knee-replacement", "abdominoplasty"],
+  "status": "open",
+  "languages": ["Spanish", "English", "French"]
+ },
+ "text": {
+  "what": "A private hospital in central San José, on Avenida 14, founded in 1929 by Henry and Susan Strachan of the Latin American Mission and now the largest private hospital in Costa Rica. It is one of the two San José hospitals an American or Canadian patient is routed to, and it is the older of them by seventy years.",
+  "story": "The Strachans built a mission clinic. What grew on the site is a general hospital that sells surgery to North Americans four hours' flight from Miami, and the mission name survived the change of purpose intact.\n\nThe hospital states ninety-six years of operation and leads its own front page with recognitions rather than with capacity: the Joint Commission International gold seal, a MERCO ranking, an Intellat listing among Latin American hospitals for 2025, an América Economía ranking, a Newsweek rating. *Inference —* a hospital that puts five listings above the fold and no bed count below it is selling reassurance to a buyer who cannot inspect the building.\n\nIt publishes no price. The Spanish site carries a page headed Presupuestos — estimates — which is a request form covering surgery, imaging, pharmacy and maternity, and prints no figure on any of them. The one number on the public site is an emergency insurance plan from 16,500 colones.\n\nCosta Rica's own answer to that gap is PROMED, the national council run out of the Cámara Costarricense de la Salud, which certifies providers for international patients. It is a membership scheme with a seal, not a price register.",
+  "how": "*Trade practice —* the Costa Rican route runs through the hospital's international desk or through a facilitator in the patient's own country: records by email, a surgeon's opinion, a written estimate, a deposit, and a recovery stay in San José or Escazú before the flight home. Dental and bariatric work carries the shortest chain and the largest share of the traffic.\n\nWhat the hospital publishes is what it is accredited by and what it is ranked by. What it does not publish is what any of it costs.",
+  "today": "As of 17 September 2026 the hospital states ninety-six years of operation and holds the Joint Commission International gold seal, with no year given for the first award on the page read here. Reported bed counts range from 96 to 250 across secondary sources and none is stated on the hospital's own site; the figure is left empty here rather than picked."
+ },
+ "geo": {"lat": 9.92748, "lon": -84.079144, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Avenida 14, Calle Central y Primera", "city": "San José", "country": "CR", "postcode": "10104"},
+ "metrics": {
+  "beds": null,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "note": "No bed count, no patient count and no foreign share is published on the hospital's own site. Secondary sources give 96, 150 and 250 beds; three numbers that disagree are not a number, so this stays a gap. The hospital's own front page states ninety-six years of operation, which dates the founding to 1929 and is the only quantity on it.",
+  "as_of": "2026",
+  "source": "s:clinica-biblica",
+  "url": "https://www.clinicabiblica.com/en/"
+ },
+ "tags": [
+  {"tag": "faith-based", "source": "s:wp-clinica-biblica", "tier": "cited", "note": "founded 1929 as the Hospital Clínico Bíblico by Henry and Susan Strachan of the Latin American Mission"},
+  {"tag": "no-price-published", "source": "s:clinica-biblica-presupuestos", "tier": "cited", "note": "the Presupuestos page is a quotation request form for surgery, imaging, pharmacy and maternity; no figure is printed", "url": "https://www.clinicabiblica.com/es/presupuestos"},
+  {"tag": "international-office", "source": "s:clinica-biblica", "tier": "cited", "note": "the hospital runs an international programme and a quotation desk; the site is published in English alongside Spanish"},
+  {"tag": "interpreter", "source": "s:clinica-biblica", "tier": "cited", "note": "an English-language site and bilingual clinical staff; the languages are not enumerated on the page"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International accreditation, shown on the hospital's own front page as the gold seal", "year": null, "valid_until": null, "source": "s:clinica-biblica", "url": "https://www.clinicabiblica.com/en/", "note": "the hospital is widely described as the first in Costa Rica to take JCI, and secondary sources date it to 2007; no year appears on the hospital's own page and none is asserted here"},
+  {"by": "newsweek-statista", "what": "Listed in the Newsweek global hospital rating, named among the recognitions on the hospital's own front page", "year": null, "valid_until": null, "source": "s:clinica-biblica", "url": "https://www.clinicabiblica.com/en/", "note": "a survey-and-indicator ranking, counted here and not weighted"},
+  {"by": "promed", "what": "Costa Rica's national council for international-patient providers, run from the Cámara Costarricense de la Salud", "year": null, "valid_until": null, "source": "s:promed-salud-cr", "url": "https://salud.co.cr/english/", "note": "a membership and seal scheme rather than a clinical inspection; the record cites the scheme, not a certificate read for this hospital"}
+ ],
+ "kin": [
+  {"to": "san-jose-cr", "as": "The older of the two private hospitals the San José cluster is built around, and the one in the city centre rather than the western suburbs.", "rel": "place"},
+  {"to": "costa-rica", "as": "The country's largest private hospital, and the institution most often meant when Costa Rica is named as a destination.", "rel": "destination"},
+  {"to": "hospital-cima-san-jose", "as": "The other San José hospital in this directory: American-built, in Escazú, opened seventy-one years later.", "rel": "contrast"},
+  {"to": "promed", "as": "The national certification council a Costa Rican provider joins to sell to foreign patients.", "rel": "accredited-by"},
+  {"to": "jci", "as": "Its accreditor, shown as the gold seal on its own front page without a date.", "rel": "accredited-by"},
+  {"to": "gastric-sleeve", "as": "Among the operations the Costa Rican route is bought for, and one of the shortest chains from enquiry to flight.", "rel": "performs"},
+  {"to": "dental-implant", "as": "The other short chain, and the one that brings back the same patient in stages.", "rel": "performs"},
+  {"to": "getting-a-quote", "as": "The Presupuestos form is where the price starts existing, and the only place it does.", "rel": "step"},
+  {"to": "the-accreditation-question", "as": "Five listings above the fold and no bed count below it.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Hospital Clínica Bíblica", "url": "https://www.clinicabiblica.com/en/"},
+  {"label": "Presupuestos", "url": "https://www.clinicabiblica.com/es/presupuestos"}
+ ],
+ "sources": ["s:clinica-biblica", "s:clinica-biblica-presupuestos", "s:wp-clinica-biblica", "s:promed-salud-cr", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "the Costa Rican route as the trade runs it; marked in the prose"},
+   "metrics": {"tier": "cited", "source": "s:clinica-biblica", "note": "a record of what is NOT published"}
+  }
+ },
+ "x_commons_files": ["File:Hospital Clínica Bíblica.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

@@ -1,0 +1,122 @@
+{
+ "schema": 1,
+ "id": "liver-transplant",
+ "type": "procedure",
+ "names": {
+  "name": "Liver transplant",
+  "aliases": ["orthotopic liver transplantation", "OLT", "living-donor liver transplant", "LDLT", "hepatic transplantation"],
+  "said": "Surgeons say deceased-donor or living-donor before anything else, because that word sets the waiting time, the second operating table and, across a border, the law. Price pages say liver transplant package and often say neither."
+ },
+ "etymology": {
+  "root": "hepatic: Greek hēpar, hēpatos, liver — the root under hepatitis and under the hepatic artery the graft is plumbed onto. Orthotopic: Greek orthos, upright or correct, plus topos, place; the new liver goes where the old one was, which is why the old one has to come out first. A kidney does not work that way.",
+  "tier": "tradition",
+  "note": "LDLT, living-donor liver transplantation, takes part of a healthy person's liver — usually the right lobe for an adult recipient, the left lateral segment for a child — and both sides regrow. A price quoted for a deceased-donor graft and a price quoted for a living donor are not the same object: the second one buys two operations on two people, one of whom is well."
+ },
+ "region": ["global"],
+ "facets": {
+  "family": "transplant",
+  "setting": "inpatient",
+  "anaesthesia": "general"
+ },
+ "text": {
+  "what": "A diseased liver is removed and replaced, either with a whole organ from a deceased donor or with a lobe cut from a living one. The graft is joined to the recipient's hepatic artery, portal vein, inferior vena cava and bile duct, and the bile duct is where most of the later trouble comes from. The recipient takes immunosuppressant drugs for as long as the graft works. A living donor has healthy liver tissue removed, gains nothing clinically, and keeps the scar.",
+  "story": "The law comes before the price on this page, for the same reason it does on the kidney page: two people go to theatre and only one of them is ill.\n\nThe standing international text is the Declaration of Istanbul on Organ Trafficking and Transplant Tourism, agreed in Istanbul in April 2008 and revised in Madrid in July 2018. It defines the neutral act plainly — \"Travel for transplantation is the movement of persons across jurisdictional borders for transplantation purposes\" — and then separates it from the two things it is routinely confused with, the trafficking of organs and the trafficking of people for organ removal. Its fourth principle sets the line the statutes are drawn against: \"Organ donation should be a financially neutral act.\" The World Health Organization put the same rule in its Guiding Principles, endorsed by the World Health Assembly in May 2010, which allow reimbursement of a donor's verifiable expenses and forbid donation \"without any monetary payment or other reward of monetary value\".\n\nNational law then splits on two questions that are easy to run together. Whether a non-resident may be transplanted in the country at all. And whether a living donor who is not related to the recipient may donate, and on whose authority — a committee, a court, a ministry. Some countries permit both under conditions, some permit residents only, and purchase is prohibited nearly everywhere: in the United States the National Organ Transplant Act makes it unlawful to transfer a human organ \"for valuable consideration\" where the transfer affects interstate commerce, while putting the donor's travel, housing and lost wages outside that phrase. One instrument, one date, one jurisdiction at a time, the reading sits on this directory's transplant prohibition page rather than here.\n\nWhat the published follow-up records is specific to this organ and it is not encouraging. A 2021 review in the World Journal of Hepatology found \"improper pre-and post-transplant infectious screening, inadequate opportunistic infection prophylaxis, and loss to follow-up\" among patients who had travelled. It carries a Saudi series comparing grafts obtained in China with domestic ones — sepsis 9.5% against 0.83%, acquired hepatitis B 5.4% against 0%, biliary complications 32.4% against 11.7% — and a Taiwanese survival comparison, domestic against abroad, of 89.2%, 79.5% and 75.2% at one, five and ten years against 79.8%, 62.3% and 49.9%.\n\n*Inference —* those figures count patients who came home and presented somewhere that published. A recipient who died abroad is in nobody's series.",
+  "how": "General anaesthesia and a long operation; the recipient is opened, the old liver dissected off the vena cava, the graft implanted and four sets of plumbing joined. Intensive care follows, then a ward stay measured in weeks rather than nights: PSRI Hospital in Delhi, which publishes a price, tells patients to expect 10-15 days in hospital and a few months at home. Immunosuppression starts immediately and does not stop. Where the donor is living, a second team operates on a healthy person the same day, and that person's own recovery, complications and lost earnings sit outside every package price read for this record.",
+  "today": "Two published prices were read for this record on 17 September 2026 and they are not comparable. Milliman's actuarial table puts estimated average US billed charges for a liver transplant at 1,017,800 dollars against 446,800 for a kidney, with 10,916 liver transplants estimated for 2025. PSRI Hospital in Delhi publishes 18-20 lakh rupees for a living-donor transplant and 30-35 lakh for deceased-donor and complex cases, prose inclusions and no validity date. No third country's provider page carrying a liver transplant price was found for this batch, and no page found anywhere states a price for a non-resident specifically. A directory can report that absence; it cannot fill it.",
+  "notes": "This page describes an operation and reports what named instruments and published studies say about it. It is not medical advice and it is not legal advice, and it does not tell anyone what to do."
+ },
+ "metrics": {
+  "stay_days": null,
+  "days_before_flying": null,
+  "recovery_weeks": null,
+  "success_rate_pct": null,
+  "note": "No single published stay figure is carried. PSRI Hospital publishes a range of 10-15 days in hospital, which is a hospital's own guidance to its patients rather than a clinical standard, and the Taiwanese and Saudi outcome figures in the story are series, not rates that would survive being averaged. The constraint after this operation is the immunosuppression and the monitoring, and no source read here states a wait before flying.",
+  "as_of": "2026-09-17",
+  "source": "s:psri-liver-cost-2026",
+  "url": "https://psrihospital.com/liver-transplant-cost-in-india-from-diagnosis-to-recovery/"
+ },
+ "prices": [
+  {
+   "procedure": "liver-transplant",
+   "country": "US",
+   "amount": 1017800,
+   "currency": "USD",
+   "as_of": "2025",
+   "kind": "estimate",
+   "includes": ["estimated average billed charges for one liver transplant episode"],
+   "excludes": ["the difference between a billed charge and a negotiated or paid rate", "immunosuppressants for the life of the graft"],
+   "source": "s:milliman-transplant-table-2025",
+   "url": "https://assets.milliman.com/downloads/2025-organ-transplant/index-font-2.html",
+   "note": "an actuarial estimate, not a quoted price and not a bill anyone paid. The same table puts a kidney at 446,800 and a double lung at 2,346,500, and estimates 10,916 liver transplants in the United States in 2025. Its own footer reads: NOTE: ALL DATA IS ESTIMATED.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "liver-transplant",
+   "country": "IN",
+   "city": "New Delhi",
+   "amount": 1800000,
+   "amount_high": 2000000,
+   "currency": "INR",
+   "as_of": "2026",
+   "kind": "estimate",
+   "includes": ["pre-operative evaluation and testing", "donor matching", "surgery, anaesthesia and surgeon fees", "hospital accommodation and intensive care", "medications", "post-transplant follow-up and monitoring"],
+   "excludes": ["nothing is named as excluded on the page, which is itself the gap", "travel, accommodation for the family, and the donor's lost earnings"],
+   "source": "s:psri-liver-cost-2026",
+   "url": "https://psrihospital.com/liver-transplant-cost-in-india-from-diagnosis-to-recovery/",
+   "note": "living-donor transplant, standard cases, on the hospital's own page. The inclusion list is a prose sentence rather than a package schedule, and the page carries no validity date. The same hospital advertises medical visa letters and embassy documentation for international patients.",
+   "tier": "cited"
+  },
+  {
+   "procedure": "liver-transplant",
+   "country": "IN",
+   "city": "New Delhi",
+   "amount": 3000000,
+   "amount_high": 3500000,
+   "currency": "INR",
+   "as_of": "2026",
+   "kind": "estimate",
+   "includes": ["deceased-donor transplants and complex cases, the page naming transplant for hepatocellular carcinoma among them"],
+   "excludes": ["the same unnamed remainder as the row above"],
+   "source": "s:psri-liver-cost-2026",
+   "url": "https://psrihospital.com/liver-transplant-cost-in-india-from-diagnosis-to-recovery/",
+   "note": "the upper band on the same page. The distance between 18 lakh and 35 lakh is the difference between a straightforward living-donor case and a cancer case, not between two hospitals.",
+   "tier": "cited"
+  }
+ ],
+ "kin": [
+  {"to": "kidney-transplant", "as": "The same law and the same donor question, a shorter operation and less than half the bill.", "rel": "kin"},
+  {"to": "transplant-prohibition", "as": "Where the country-by-country reading sits: whether a non-resident may be transplanted, and whether an unrelated living donor may give.", "rel": "governed-by"},
+  {"to": "transplant-harm", "as": "What the published follow-up records about grafts obtained abroad, for the recipient and for the donor.", "rel": "risk"},
+  {"to": "declaration-of-istanbul-group", "as": "Keeps the international text this page quotes, and revised it in Madrid in 2018.", "rel": "org"},
+  {"to": "istanbul-declaration-2008", "as": "The April 2008 summit where the definitions on this page were agreed.", "rel": "event"},
+  {"to": "who", "as": "Guiding Principle 5, endorsed by the World Health Assembly in 2010, is the rule the national statutes are written against.", "rel": "org"},
+  {"to": "bone-marrow-transplant", "as": "The other graft here that needs a second healthy person to agree to something.", "rel": "kin"},
+  {"to": "india", "as": "Where the only hospital-published liver transplant price read for this record is sold.", "rel": "destination"},
+  {"to": "bloodborne-virus", "as": "Acquired hepatitis B ran at 5.4% against 0% in the series this page carries.", "rel": "risk"},
+  {"to": "follow-up-gap", "as": "Loss to follow-up is named in the published review as one of the three mechanisms of harm.", "rel": "risk"},
+  {"to": "malpractice-recourse", "as": "Who answers for an operation performed where the recipient cannot sue and the donor cannot be traced.", "rel": "risk"},
+  {"to": "medical-visa", "as": "The document the hospital that published this price offers to write a letter for.", "rel": "rule"}
+ ],
+ "confusable_with": [
+  {"id": "kidney-transplant", "tell": "A kidney goes in the lower abdomen and the old ones stay; a liver replaces its predecessor in the same bed. The law is the same, the bill is not, and only one of the two has dialysis as an alternative while the patient waits."}
+ ],
+ "links": [
+  {"label": "Neupane et al., World Journal of Hepatology 2021;13(7):717-722", "url": "https://www.wjgnet.com/1948-5182/full/v13/i7/717.htm"},
+  {"label": "Milliman's 2025 transplant cost table", "url": "https://assets.milliman.com/downloads/2025-organ-transplant/index-font-2.html"},
+  {"label": "The Declaration of Istanbul, 2018 edition", "url": "https://www.declarationofistanbul.org/the-declaration"}
+ ],
+ "sources": ["s:neupane-liver-transplant-2021", "s:milliman-transplant-table-2025", "s:milliman-transplant-press-2025", "s:psri-liver-cost-2026", "s:declaration-of-istanbul", "s:doi-2018-text", "s:who-guiding-principles", "s:usc-42-274e"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:neupane-liver-transplant-2021", "note": "the instrument quotations are from the Declaration and the WHO Guiding Principles; the outcome figures are the review's, carried with the comparison it makes; the closing paragraph is marked Inference"},
+   "text.how": {"tier": "cited", "source": "s:psri-liver-cost-2026", "note": "the operative description is standard; the stay figure is the hospital's own"},
+   "etymology": {"tier": "tradition"},
+   "prices": {"tier": "cited", "source": "s:milliman-transplant-table-2025"},
+   "metrics": {"tier": "cited", "source": "s:psri-liver-cost-2026"}
+  }
+ },
+ "x_commons_files": ["File:Liver transplant.jpg", "File:Liver anatomy.jpg"],
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

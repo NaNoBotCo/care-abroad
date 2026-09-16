@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "id": "who-global-health-observatory",
+ "type": "dataset",
+ "names": {
+  "name": "WHO Global Health Observatory",
+  "aliases": ["GHO", "GHO OData API"],
+  "said": "The GHO is where a health number becomes comparable — and comparable means adjusted, which is not the same as what the country said."
+ },
+ "region": ["global"],
+ "facets": {"publisher": "World Health Organization"},
+ "text": {
+  "what": "The World Health Organization's public statistics repository. In its own words, \"The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States. It provides access to over 1000 indicators on priority health topics\". Its OData interface answered with 3,099 indicator records and 202 dimensions when this record was written, on 17 September 2026.",
+  "story": "The sentence that matters on this site is WHO's own disclaimer: \"Many of these datasets represent the best estimates of WHO using methodologies for specific indicators that aim for comparability across countries and time; they are updated as more recent or revised data become available, or when there are changes to the methodology being used. Therefore, they are not always the same as official national estimates\".\n\nRead that twice before reading any chart. A GHO figure is not the number a ministry published; it is a number WHO modelled so that a hundred ministries can be put on one axis, and it moves when the model changes rather than when the country does. Both the World Bank health-spending series and the out-of-pocket series on this site come through WHO databases of this family, so the caveat travels with them.\n\n*Inference —* the repository is organised by disease, risk factor and health system, and none of its thousand-odd indicators is about a patient crossing a border. Health workforce, hospital beds, service coverage and financial protection are all here; treatment purchased in one country by a resident of another is not an indicator anybody publishes.",
+  "how": "The OData API at ghoapi.azureedge.net takes no key: /api/Indicator lists the indicator codes, /api/Dimension the dimensions, and /api/{IndicatorCode} returns the observations for one of them. This site does not draw a chart directly from the GHO; it reaches most of these numbers through the World Bank's republished versions, which carry country codes already.",
+  "notes": "Terms of use, read on 17 September 2026: WHO's site terms permit reproduction for research or private study \"but not for sale or for use in conjunction with commercial purposes\", and its publications carry CC BY-NC-SA 3.0 IGO, which allows non-commercial reuse with acknowledgement. The GHO API page carries no licence statement of its own and gives an email address for enquiries."
+ },
+ "dataset": {
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/data/gho",
+  "api": "https://ghoapi.azureedge.net/api/Indicator",
+  "license": "WHO terms of use — non-commercial reuse with attribution; commercial use by written permission",
+  "unit": "varies by indicator; each row is one observation of one indicator for one place, time and disaggregation",
+  "years": "varies by indicator; no single reference year",
+  "countries": 194,
+  "updated_by_publisher": "continuously, as data and methods are revised",
+  "counts": "Health statistics for WHO Member States, most of them modelled to be comparable across countries and across time.",
+  "does_not_count": "Anybody who crossed a border for treatment. No indicator in the repository counts a foreign patient, a treatment bought abroad, or a payment made in another country's health system. Its figures are also WHO estimates rather than national returns, so a value here may differ from the one the same country publishes at home — WHO says so itself — and it can change because the method changed rather than because anything happened."
+ },
+ "kin": [
+  {"to": "who", "as": "The publisher, in its own record.", "rel": "org"},
+  {"to": "world-bank-health-spending", "as": "The republished form most of this site actually reads, with the country codes attached.", "rel": "dataset"},
+  {"to": "world-bank-out-of-pocket", "as": "Comes through the same WHO expenditure database, and inherits the same caveat.", "rel": "dataset"},
+  {"to": "counting-patients", "as": "A repository of a thousand indicators with no field for a patient who travelled.", "rel": "story"},
+  {"to": "what-the-data-cannot-see", "as": "The gap is structural, not an oversight: nobody collects it.", "rel": "story"}
+ ],
+ "links": [
+  {"label": "Global Health Observatory", "url": "https://www.who.int/data/gho"},
+  {"label": "About the Observatory", "url": "https://www.who.int/data/gho/info/about-the-observatory"},
+  {"label": "GHO OData API", "url": "https://www.who.int/data/gho/info/gho-odata-api"}
+ ],
+ "sources": ["s:who-gho", "s:who-gho-about", "s:who-gho-odata", "s:who-terms-of-use"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:who-gho-about"},
+  "fields": {
+   "text.what": {"tier": "cited", "source": "s:who-gho-about", "note": "the indicator and dimension counts were read off the OData API on 2026-09-17; the 'over 1000' figure is WHO's own"},
+   "text.story": {"tier": "cited", "source": "s:who-gho-about", "note": "the closing paragraph is marked inference"},
+   "text.notes": {"tier": "cited", "source": "s:who-terms-of-use"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

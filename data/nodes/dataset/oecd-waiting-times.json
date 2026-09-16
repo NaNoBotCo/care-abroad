@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "id": "oecd-waiting-times",
+ "type": "dataset",
+ "names": {
+  "name": "OECD waiting times for elective surgery",
+  "aliases": ["DSD_HEALTH_PROC@DF_WAITING", "waiting times for selected elective surgeries"],
+  "said": "Health systems call it the list. The OECD measures it two different ways, and a country that publishes one of them is not comparable with a country that publishes the other."
+ },
+ "region": ["global"],
+ "facets": {"publisher": "OECD"},
+ "text": {
+  "what": "How long patients wait for seven non-emergency operations in the countries that measure it. Part of OECD Health Statistics, published with a definitions document dated 10 September 2025. The extract fetched here holds 6,609 observations from 24 countries, 2000 to 2024, covering cataract surgery, coronary angioplasty, coronary bypass, prostatectomy, hysterectomy, hip replacement and knee replacement, each pinned to ICD-9-CM procedure codes.",
+  "story": "Two clocks, and they do not tell the same time. \"Waiting times from specialist assessment to treatment includes the time elapsed for patients on the non-emergency (elective) surgery waiting list from the date they were added to the waiting list for the procedure (following specialist assessment) to the date they were admitted for treatment\" — a retrospective measure, taken from people who have already had the operation. \"Waiting times of patients on the list includes the time elapsed for patients on the non-emergency (elective) surgery waiting list from the date they were added to the waiting list for the procedure (following specialist assessment) to a designated census date\" — a snapshot of people still waiting, which includes those who will wait longest. In this extract 3,925 observations use the first and 2,684 the second.\n\nBoth clocks start late. The OECD excludes \"the time elapsed from the date of referral of the general practitioner to the date of specialist assessment (in some countries, this is referred to as 'outpatient waiting time')\". For a patient the wait begins at the family doctor; in this series it begins after somebody has already been seen by a consultant, and in several countries that first stretch is the longer one.\n\nThe definitions document then records, country by country, where a country departs from the definition. Norway's own note says its figures \"are longer because they start from the date the GP referral is received, not the date the GP referral is assessed\", and concludes that \"waiting times published for Norway are longer than they would be using the OECD definition\". Australia measures from placement on the list because assessment dates are not collected. Romania excludes revision hip and knee operations. Denmark changed method in 2020 and broke its own series.\n\nMedian waits for a knee replacement in 2024 give the range: Italy 45 days and Denmark 55 on the specialist-to-treatment clock, Poland 109, Canada 151, Spain 166.3, Finland 193, New Zealand 217, Chile 797. On the census clock the same year, the United Kingdom recorded 185 days, Poland 476, Slovenia 730 and Chile 1,181. The United Kingdom reports only the census measure, so no cell in this table compares a British wait with an Italian one.\n\n*Inference —* the queue is half the reason anyone travels for planned surgery, and this is the only cross-country measurement of it. It is also the series most likely to be quoted without its clock, its country note or its year."
+ },
+ "dataset": {
+  "publisher": "OECD Health Statistics, Health Division",
+  "url": "https://www.oecd.org/en/data/datasets/oecd-health-statistics.html",
+  "api": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,1.1/all?format=csvfile",
+  "license": "OECD terms and conditions; the definitions document and the SDMX extract were read directly, the terms page refused an automated fetch on 17 September 2026",
+  "unit": "days (mean or median), or % of patients waiting more than three months",
+  "indicator": "DSD_HEALTH_PROC@DF_WAITING",
+  "years": "2000 to 2024; 19 countries report for 2024",
+  "countries": 24,
+  "updated_by_publisher": "annually, with the OECD Health Statistics release",
+  "counts": "Waiting time for seven named elective procedures, for \"all publicly-funded patients (including patients who have received the treatment either by publicly- or privately-owned providers)\", reported either as the wait of patients treated or as the wait so far of patients still on the list at a census date.",
+  "does_not_count": "The wait before the specialist. The clock starts after assessment, so the months between a family doctor's referral and a consultant's opinion are outside the series by definition. It counts no privately-funded patient, which removes the domestic private route that competes with travelling abroad. It counts no country that does not publish: Austria, Belgium, Czechia, France, Germany, Japan, Korea, Latvia, Luxembourg, Mexico, the Slovak Republic, Switzerland, Türkiye and the United States are all marked data not available, and several of them are among the largest sources of patients travelling for planned surgery. And it counts nobody who left the list — died, gave up, went private, or flew somewhere else."
+ },
+ "kin": [
+  {"to": "knee-replacement", "as": "One of the seven procedures, and the one this site prices most closely.", "rel": "procedure"},
+  {"to": "cataract-surgery", "as": "The shortest queue in the series and the commonest operation in it.", "rel": "procedure"},
+  {"to": "united-kingdom", "as": "Reports only the census measure, 185 days median for a knee in 2024, so it compares with nobody who reports the other.", "rel": "measures"},
+  {"to": "s2-route", "as": "The entitlement a long queue can turn into a funded trip across a European border.", "rel": "rule"},
+  {"to": "eu-directive-2011-24", "as": "The instrument that lets a patient leave the queue and claim the home tariff back.", "rel": "rule"},
+  {"to": "is-it-cheaper", "as": "The other half of the comparison: the wait at home against the fee abroad.", "rel": "story"},
+  {"to": "oecd", "as": "The publisher, and the same body that measured how little of this trade the health accounts can see.", "rel": "org"}
+ ],
+ "links": [
+  {"label": "OECD Health Statistics", "url": "https://www.oecd.org/en/data/datasets/oecd-health-statistics.html"},
+  {"label": "Definitions, sources and methods — waiting times for selected elective surgeries", "url": "https://stats.oecd.org/wbos/fileview2.aspx?IDFile=cae608c4-fa81-4f56-8d7f-a0d4d609de80"}
+ ],
+ "sources": ["s:oecd-waiting-definitions-2025", "s:oecd-waiting-sdmx", "s:oecd-health-statistics"],
+ "provenance": {
+  "default": {"tier": "cited", "source": "s:oecd-waiting-definitions-2025"},
+  "fields": {
+   "text.story": {"tier": "cited", "source": "s:oecd-waiting-definitions-2025", "note": "the quoted definitions and country notes are from the OECD definitions document; the 2024 medians and the observation counts were read off the SDMX extract on 2026-09-17; the closing paragraph is marked inference"}
+  }
+ },
+ "confidence": "high",
+ "updated": "2026-09-17"
+}

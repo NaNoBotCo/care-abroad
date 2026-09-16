@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "id": "anadolu-medical-center",
+ "type": "facility",
+ "names": {
+  "name": "Anadolu Medical Center",
+  "aliases": ["Anadolu Sağlık Merkezi", "Anadolu Health Center"],
+  "said": "Anadolu is Anatolia — the Asian landmass Türkiye sits on. The hospital is not in Istanbul: it stands at Gebze in Kocaeli province, on the D-100 at the Bayramoğlu exit, about an hour east of the city."
+ },
+ "region": ["west-asia"],
+ "facets": {
+  "iso2": "TR",
+  "ownership": "nonprofit",
+  "founded": 2005,
+  "specialty": ["oncology", "bone marrow transplantation", "radiation oncology", "haematology"],
+  "draws": ["bone-marrow-transplant", "proton-therapy", "gamma-knife", "car-t"],
+  "status": "open",
+  "languages": ["Turkish", "English", "Arabic", "Russian", "Romanian"]
+ },
+ "text": {
+  "what": "A 209-bed hospital at Gebze in Kocaeli, opened on 12 February 2005 by the Anadolu Foundation and affiliated since 2002 with Johns Hopkins Medicine International. It began as a cancer centre and works as a general hospital built around one: bone marrow transplantation, radiation oncology, haematology. It holds Joint Commission International accreditation first granted in 2007 and renewed six times since.",
+  "story": "The Anadolu Foundation, the charitable arm of the Anadolu Group, built the hospital at Gebze rather than in Istanbul, on the highway between the city and the Marmara industrial belt and near Sabiha Gökçen airport. Its clinical identity was set at the start: a cancer centre with 209 beds, 59 intensive care beds and eight operating rooms, able to run up to 22 stem cell transplants at once.\n\nThe Johns Hopkins Medicine International affiliation dates from 2002, three years before the doors opened. *Inference —* the sequence is the point. The American name was contracted before the building existed, which is what an affiliation of this kind is for: it is a recognisable mark attached to a hospital nobody abroad had yet heard of.\n\nJCI accreditation followed in 2007 and has been re-surveyed every three years since, seven awards in all. The cancer centre also holds Planetree Gold certification for person-centred care and is a designated clinical cancer centre of the Organisation of European Cancer Institutes. The hospital states it treats patients from more than 65 countries.",
+  "how": "The hospital sits outside Istanbul, so the journey has a road leg in it that an Istanbul hospital's does not: transfers from either Istanbul airport are part of what the international office arranges rather than a taxi ride. *Trade practice —* an oncology enquiry here is document-heavy — pathology slides, imaging, prior treatment records — and the estimate follows a tumour board rather than a price list.\n\nNothing is published as a price. The hospital's quality pages carry the accreditations; the treatment pages carry no figure.",
+  "today": "As of 17 September 2026 the hospital states its seventh consecutive JCI accreditation, the Johns Hopkins Medicine affiliation, Planetree Gold certification, ESMO and Association of European Cancer Institutes recognition for the cancer centre, and the Türkiye international health tourism authorisation certificate. The 209-bed figure and the 59 intensive care beds are the counts carried in the encyclopaedia entry rather than a current statement from the hospital."
+ },
+ "geo": {"lat": 40.817961, "lon": 29.353312, "precision": "street", "source": "s:osm-nominatim"},
+ "address": {"street": "Cumhuriyet Mahallesi, D-100 Karayolu, Bayramoğlu exit", "city": "Gebze", "area": "Kocaeli", "country": "TR", "postcode": "34940"},
+ "metrics": {
+  "beds": 209,
+  "annual_patients": null,
+  "annual_foreign_patients": null,
+  "foreign_patient_countries": 65,
+  "note": "209 inpatient beds, with a further 59 intensive care beds and eight operating rooms counted separately. The country figure is the hospital's own statement of where its patients come from — more than 65 — and is not a count of patients. No patient count of any kind was found published, and no price.",
+  "as_of": "2026",
+  "source": "s:wp-anadolu",
+  "url": "https://en.wikipedia.org/wiki/Anadolu_Medical_Center"
+ },
+ "tags": [
+  {"tag": "international-office", "source": "s:anadolu-jci", "tier": "cited", "note": "the hospital holds the Türkiye international health tourism authorisation certificate, which presupposes the department"},
+  {"tag": "transplant-programme", "source": "s:wp-anadolu", "tier": "cited", "note": "bone marrow transplantation, with capacity stated for up to 22 stem cell transplants at once"},
+  {"tag": "no-price-published", "source": "s:anadolu-jci", "tier": "cited", "note": "the hospital's quality and treatment pages name accreditations and procedures; no figure appears"},
+  {"tag": "interpreter", "source": "s:wp-anadolu", "tier": "cited", "note": "outpatient clinics also run in Ataşehir, Istanbul; the hospital states patients from more than 65 countries"}
+ ],
+ "recognitions": [
+  {"by": "jci", "what": "Joint Commission International hospital accreditation, first granted 2007 and re-surveyed every three years to a seventh award", "year": 2007, "valid_until": null, "source": "s:anadolu-jci", "url": "https://www.anadolumedicalcenter.com/quality-certificate/jci-joint-commission-international", "note": "the hospital's own statement; JCI publishes no end date on its directory entry, so valid_until stays empty"},
+  {"by": "moh-tr", "what": "Türkiye international health tourism authorisation certificate", "year": null, "valid_until": null, "source": "s:anadolu-jci", "url": "https://www.anadolumedicalcenter.com/quality-certificate/jci-joint-commission-international", "note": "named among the hospital's certificates without a date"},
+  {"by": "other", "what": "Planetree Gold certification for person-centred care, and recognition of the cancer centre by the Association of European Cancer Institutes and the European Society for Medical Oncology", "year": null, "valid_until": null, "source": "s:anadolu-jci", "url": "https://www.anadolumedicalcenter.com/quality-certificate/jci-joint-commission-international", "note": "three bodies not in this project's recognizer vocabulary, named here as the hospital names them"}
+ ],
+ "kin": [
+  {"to": "turkiye", "as": "The country's cancer hospital with the oldest American affiliation, contracted in 2002 before the building opened.", "rel": "destination"},
+  {"to": "istanbul", "as": "An hour east of the city and outside it, at Gebze on the D-100 — the trade counts it Istanbul, the map does not.", "rel": "place"},
+  {"to": "bone-marrow-transplant", "as": "The programme the hospital was built around, with capacity stated for 22 simultaneous stem cell transplants.", "rel": "performs"},
+  {"to": "jci", "as": "The accreditor whose mark it has held since 2007, re-surveyed every three years to a seventh award.", "rel": "accredited-by"},
+  {"to": "acibadem", "as": "The other Turkish name a foreign oncology enquiry lands on, and a group of forty-five buildings against this one.", "rel": "contrast"},
+  {"to": "turkiye-health-tourism-authorisation", "as": "Holds the certificate, which it lists among its quality documents.", "rel": "governed-by"},
+  {"to": "the-accreditation-question", "as": "An American affiliation signed three years before the hospital opened is what an accreditation mark is bought to do.", "rel": "story"},
+  {"to": "getting-your-records", "as": "An oncology referral here starts with slides and imaging rather than with a form.", "rel": "step"}
+ ],
+ "links": [
+  {"label": "Anadolu Medical Center", "url": "https://www.anadolumedicalcenter.com/"}
+ ],
+ "sources": ["s:wp-anadolu", "s:anadolu-jci", "s:osm-nominatim"],
+ "provenance": {
+  "default": {"tier": "cited"},
+  "fields": {
+   "geo": {"tier": "harvested", "source": "s:osm-nominatim"},
+   "text.how": {"tier": "tradition", "note": "the shape of an oncology enquiry from abroad; the last paragraph is cited"},
+   "metrics": {"tier": "cited", "source": "s:wp-anadolu"}
+  }
+ },
+ "x_commons_files": ["File:Anadolu Sağlık Merkezi.jpg"],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-17"
+}

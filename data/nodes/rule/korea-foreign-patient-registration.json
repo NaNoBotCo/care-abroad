@@ -1,0 +1,109 @@
+{
+ "id": "korea-foreign-patient-registration",
+ "names": {
+  "name": "Korea's foreign patient attraction registration",
+  "aliases": [
+   "외국인환자 유치기관 등록",
+   "attraction agency registration",
+   "KHIDI registration"
+  ],
+  "said": "The statute's own phrase is \"attracting international patients\", and it covers the website as well as the ward."
+ },
+ "region": [
+  "east-asia"
+ ],
+ "facets": {
+  "kind": "licensing",
+  "iso2": "KR",
+  "status": "in-force"
+ },
+ "text": {
+  "what": "A compulsory registration for any medical institution treating foreign patients and any agency recruiting them, under the Act on Supporting Overseas Expansion of Medical Services and Attraction of International Patients, Act No. 13599 of 22 December 2015, effective 23 June 2016. Registration runs three years and is renewed. Operating without it carries up to three years' imprisonment or a fine of up to 30 million won.",
+  "story": "Korea regulated the broker and the hospital in the same statute, and it defined the regulated activity broadly. Attracting international patients covers consultation and reservation, providing treatment information through foreign-language websites, and arranging visas, transport and accommodation. A company that only runs a Russian-language landing page for a Seoul dermatology clinic is inside the Act.\n\nArticle 6 sets the conditions and they differ by who is registering. A medical institution must assign specialists by department and hold malpractice liability insurance or belong to a mutual aid scheme. An attraction agency must hold guaranty insurance, meet a minimum capital requirement, and keep a domestic office — which is the provision that keeps the broker inside Korean jurisdiction.\n\nArticle 7 forbids transferring or leasing a registration certificate and forbids attracting patients under another party's name. Article 8 requires the certificate to be posted and requires information in foreign languages on diagnosis, treatment costs and dispute resolution.\n\n*Inference —* the insurance conditions are the interesting part. Most national regimes in this field license premises. Korea's licenses the financial exposure: the hospital must be insured against its own error, the broker must be bonded against its own failure, and the patient's route to either runs through a Korean office rather than an offshore website.\n\nRegistration is processed through the Korea Health Industry Development Institute, a government-affiliated institute under the Ministry of Health and Welfare, which also publishes the registered lists.",
+  "how": "Application is online through KHIDI, followed by postal submission, to the provincial or municipal government. Renewal is every three years; a lapsed registration is nullified.\n\nEnforcement runs through corrective orders, revocation of registration, administrative fines up to 5 million won, and the criminal penalty for unregistered operation. Article 27 provides monetary awards for reporting violations.\n\nWhat the registration does not do: fix prices, or make the agency clinically responsible. Article 8's duty is disclosure — the diagnosis, the cost and the route to a dispute, in a language the patient reads.",
+  "today": "As of 17 September 2026 the Act stands as amended and KHIDI runs the register. The Ministry of Health and Welfare reported 1.17 million foreign patients for 2024; that is the registration system's own count of patients recorded by registered institutions, and it counts episodes recorded under the Act rather than people."
+ },
+ "kin": [
+  {
+   "to": "south-korea",
+   "as": "The country whose statute this is.",
+   "rel": "destination"
+  },
+  {
+   "to": "khidi",
+   "as": "The institute that runs the register and publishes the count.",
+   "rel": "org"
+  },
+  {
+   "to": "seoul",
+   "as": "Where most registered institutions are.",
+   "rel": "hub"
+  },
+  {
+   "to": "asan-medical-center",
+   "as": "One of the registered institutions.",
+   "rel": "facility"
+  },
+  {
+   "to": "severance",
+   "as": "Another, with its own international centre.",
+   "rel": "facility"
+  },
+  {
+   "to": "facilitator",
+   "as": "The role this Act bonds, capitalises and keeps onshore.",
+   "rel": "term"
+  },
+  {
+   "to": "choosing-a-facilitator",
+   "as": "The step at which the register and the guaranty insurance matter.",
+   "rel": "step"
+  },
+  {
+   "to": "malpractice-recourse",
+   "as": "The exposure Article 6 insures against, inside one jurisdiction.",
+   "rel": "risk"
+  },
+  {
+   "to": "counting-patients",
+   "as": "What a registration-based count does and does not count.",
+   "rel": "story"
+  }
+ ],
+ "links": [
+  {
+   "label": "Act on Supporting Overseas Expansion of Medical Services and Attraction of International Patients — Korea Law Translation Center",
+   "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=60070&type=part&key=36"
+  },
+  {
+   "label": "KHIDI — Medical Korea",
+   "url": "http://www.medicalkorea.or.kr/en/aboutkhidi"
+  }
+ ],
+ "sources": [
+  "s:kr-act-13599",
+  "s:khidi-medicalkorea",
+  "s:mohw-kr-foreign-patients-2024"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:kr-act-13599"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:kr-act-13599",
+    "note": "read in the Korea Law Translation Center's English text; the stretch marked *Inference —* is this project's reading"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:mohw-kr-foreign-patients-2024"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "rule",
+ "updated": "2026-09-17"
+}

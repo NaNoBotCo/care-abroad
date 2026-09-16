@@ -1,0 +1,100 @@
+{
+ "schema": 1,
+ "id": "jci-accredited-list",
+ "type": "dataset",
+ "names": {
+  "name": "The JCI list of accredited organizations",
+  "aliases": [
+   "JCI accredited organizations directory",
+   "Gold Seal list"
+  ],
+  "said": "Hospitals call it being on the list. It is a register of organisations that applied, paid and passed, kept by the body they paid."
+ },
+ "region": [
+  "global"
+ ],
+ "facets": {
+  "publisher": "Joint Commission International"
+ },
+ "text": {
+  "what": "The directory of hospitals, clinics and programmes outside the United States currently holding Joint Commission International accreditation. It is the register behind almost every accreditation claim in this trade, and the only place a reader can check whether the mark on a hospital's homepage is still live.",
+  "story": "It is not a survey of hospitals. An organisation decides to apply, signs a contract, pays, prepares, and is surveyed on an agreed date; accreditation then runs three years. So the list maps demand for inspection, not distribution of quality. A hospital absent from it may never have applied, may have let it lapse, may hold a different mark, or may have failed — the list does not distinguish those four, and three of them look identical from outside.\n\nThat selection has a geography. Accreditation costs money in a currency the applicant may not earn, and the hospitals that buy it are disproportionately the ones selling to foreigners, because the mark is worth most where the buyer cannot judge the hospital any other way. A country with a strong public system and no export trade can have excellent hospitals and almost no entries.\n\n*Inference —* counting is therefore the only defensible use. This site records an accreditation as an event with a body, a date and a source, and eleven facility records on this disk carry a JCI row. None of them is read as a score, none is weighed against another body's mark, and none is treated as current evidence about a hospital without its date.",
+  "today": "As of 17 September 2026 the directory could not be read by this project. jointcommissioninternational.org answers with a permanent redirect to jointcommission.org/en/, and every path under it refused an automated request with HTTP 403 — robots.txt included. No count of accredited organisations is carried here for that reason. Every accreditation on this site is therefore taken from the accredited hospital's own page or from a named secondary source, with the date it was read."
+ },
+ "dataset": {
+  "publisher": "Joint Commission International",
+  "url": "https://www.jointcommission.org/en/who-we-are/who-we-work-with/find-accredited-organizations/",
+  "license": "no reuse terms retrieved; the site refused every automated request on 17 September 2026",
+  "unit": "accredited organizations, one row per organization",
+  "years": "a live directory of current accreditations, with no published archive of lapsed ones",
+  "countries": null,
+  "updated_by_publisher": "continuously, as surveys are completed and accreditations expire",
+  "counts": "Organizations that applied for JCI accreditation, paid for the survey, met the standards on the survey date, and are inside a three-year cycle.",
+  "does_not_count": "Everybody who did not apply. This is a register of purchased inspections, so it maps who bought one rather than who is any good, and no hospital appears in it involuntarily. It carries no outcome data — no infection rate, no mortality, no revision rate — no price, no patient volume, and no record of a complaint. Nor does it show the lapsed: an accreditation that expired leaves a hospital's website long after it leaves the list, and the list itself keeps no public history of who used to be on it."
+ },
+ "kin": [
+  {
+   "to": "jci",
+   "as": "The body that keeps the list, sells the standards and takes the fee.",
+   "rel": "org"
+  },
+  {
+   "to": "the-accreditation-question",
+   "as": "What a bought inspection proves, argued at length.",
+   "rel": "story"
+  },
+  {
+   "to": "bumrungrad",
+   "as": "On the list since 2002, the first hospital in Asia to be.",
+   "rel": "facility"
+  },
+  {
+   "to": "osm-facilities",
+   "as": "The opposite selection problem: a map of who got mapped, against a register of who applied.",
+   "rel": "dataset"
+  },
+  {
+   "to": "temos",
+   "as": "A rival register, built for facilities treating international patients.",
+   "rel": "org"
+  },
+  {
+   "to": "isqua-ieea",
+   "as": "The body that accredits the accreditors, and the answer to who audits this register.",
+   "rel": "org"
+  }
+ ],
+ "links": [
+  {
+   "label": "Find accredited organizations (Joint Commission)",
+   "url": "https://www.jointcommission.org/en/who-we-are/who-we-work-with/find-accredited-organizations/"
+  }
+ ],
+ "sources": [
+  "s:jci-accreditation",
+  "s:jci-wikipedia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:jci-wikipedia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the three-year cycle, the applicant-pays structure and the scheduled survey are cited to the source; the selection argument and the count of eleven facility records are this project's"
+   },
+   "dataset.does_not_count": {
+    "tier": "inference",
+    "note": "what a voluntary purchased register cannot contain, reasoned from how the scheme works"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the redirect and the 403 were observed from this machine on 2026-09-17"
+   }
+  }
+ },
+ "needs_verification": true,
+ "confidence": "medium",
+ "updated": "2026-09-17"
+}

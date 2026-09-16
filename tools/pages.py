@@ -49,7 +49,7 @@ def map_page(page, countries: dict, geo: dict, recs: list, site_url: str, wb: di
     for iso, name, d in worldmap.country_paths(geo, fit):
         paths.append(f'<path id="c-{E(iso)}" data-iso="{E(iso)}" d="{d}" class="viz-nodata" '
                      f'stroke="var(--panel)" stroke-width=".5"></path>')
-    # EVERY country the publisher covers, not only the ones this directory writes about.
+    # Every country the publisher covers, not only the ones this directory writes about.
     # Drawing the join table instead would paint a map of this project's attention and
     # call it a map of the world.
     values: dict = {}
@@ -121,6 +121,7 @@ function paint(key){{
    '</span><span>'+fmt(Math.max.apply(null,vals))+'</span><span style="margin-left:.6rem">'+
    painted+' countries coloured, '+(svg.querySelectorAll("path[data-iso]").length-painted)+' hatched</span>';
  note.innerHTML=esc(m.name)+(m.unit?", "+esc(m.unit):"")+" &middot; "+esc(m.source)+
+   (m.publisher_title?' &middot; published as &ldquo;'+esc(m.publisher_title)+'&rdquo;':"")+
    (m.url?' &middot; <a href="'+esc(m.url)+'" rel="noopener">the series</a>':"")+
    (m.fetched_at?" &middot; fetched "+esc(m.fetched_at):"")+
    " &middot; bins hold equal numbers of countries, so the colour is a rank, not a ratio";
@@ -414,6 +415,24 @@ def numbers_page(page, recs: list, countries: dict, prices: dict, legality: dict
                                "up here. Accreditation is an inspection the applicant pays for; it is not a "
                                "score, and this chart ranks nothing."))
 
+    # the years the field turned, off the event records
+    evs = []
+    for r in recs:
+        if r["type"] != "event":
+            continue
+        f = r.get("facets") or {}
+        yr = f.get("when") or f.get("founded")
+        try:
+            yr = int(str(yr)[:4])
+        except (TypeError, ValueError):
+            continue
+        evs.append({"year": yr, "label": r["names"]["name"], "tip": r["blurb"][:180]})
+    if len(evs) >= 2:
+        body += viz.timeline(evs, ident="turns", title="The years it turned",
+                             note=("Every event record that carries a year. A field with no census of "
+                                   "itself still has dates: a declaration, a directive, an outbreak, a "
+                                   "paper, a year the borders shut."))
+
     body += ('<h2>What is missing, said plainly</h2><ul>'
              + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
              f'<p>{E(cov["prices"]["reading_an_absence"])}</p>'
@@ -443,12 +462,37 @@ def journey_page(page, recs: list, site_url: str) -> str:
             f'<p class="lede">Deciding, booking, flying, consenting, recovering, going home, and the part '
             f'nobody quotes for. Each step says what happens, who does it, what money and what paper move, and '
             f'where it commonly fails. None of it says what anyone should do.</p>')
+    # the spine, drawn: eight stages, each as wide as the number of steps in it
+    live = [(st, by_stage.get(st, [])) for st in STAGE_ORDER if by_stage.get(st)]
+    if live:
+        w, h, gap = 900, 92, 4
+        total = sum(len(rs) for _, rs in live)
+        x = 0
+        segs = []
+        for i, (st, rs) in enumerate(live):
+            sw = (w - gap * (len(live) - 1)) * len(rs) / total
+            cls = ["s1", "s3", "s2"][i % 3]
+            segs.append(f'<a href="#{E(st)}"><rect class="{cls}" x="{x:.1f}" y="26" width="{sw:.1f}" '
+                        f'height="26" rx="4" opacity=".85" data-tip="<b>{E(STAGE_LABEL.get(st, st))}</b>'
+                        f'{len(rs)} step{"s" if len(rs) != 1 else ""}"></rect></a>')
+            anchor = "start" if i == 0 else ("end" if i == len(live) - 1 else "middle")
+            tx = x if anchor == "start" else (x + sw if anchor == "end" else x + sw / 2)
+            segs.append(f'<text class="viz-ax" text-anchor="{anchor}" x="{tx:.1f}" y="20">'
+                        f'{E(STAGE_LABEL.get(st, st))}</text>')
+            segs.append(f'<text class="viz-val" text-anchor="{anchor}" x="{tx:.1f}" y="70">{len(rs)}</text>')
+            x += sw + gap
+        body += (f'<figure class="fig"><svg viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" '
+                 f'role="img" aria-label="The eight stages, sized by how many steps sit in each">'
+                 f'{"".join(segs)}</svg>'
+                 f'<figcaption>Each block is as wide as the number of steps written up in that stage, '
+                 f'which is a fact about this directory rather than about how long any part takes.'
+                 f'</figcaption></figure>')
     n = 0
     for st in STAGE_ORDER:
         rs = by_stage.get(st)
         if not rs:
             continue
-        body += f'<h2>{E(STAGE_LABEL.get(st, st))}</h2><div class="cards">'
+        body += f'<h2 id="{E(st)}">{E(STAGE_LABEL.get(st, st))}</h2><div class="cards">'
         for r in sorted(rs, key=lambda r: r["names"]["name"].lower()):
             n += 1
             risks = [k for k in r.get("kin_out", []) if k["type"] == "risk"]

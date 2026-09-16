@@ -1,0 +1,244 @@
+{
+ "sources": [
+  {
+   "id": "s:etymonline-package",
+   "kind": "dictionary",
+   "title": "package (n.), package deal — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/package",
+   "accessed": "2026-09-17",
+   "note": "1530s; bundle sense 1722; package deal 1952"
+  },
+  {
+   "id": "s:etymonline-facilitate",
+   "kind": "dictionary",
+   "title": "facilitate (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/facilitate",
+   "accessed": "2026-09-17",
+   "note": "1610s"
+  },
+  {
+   "id": "s:etymonline-tariff",
+   "kind": "dictionary",
+   "title": "tariff (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tariff",
+   "accessed": "2026-09-17",
+   "note": "1590s, from Italian tariffa and Arabic ta'rif"
+  },
+  {
+   "id": "s:etymonline-revision",
+   "kind": "dictionary",
+   "title": "revision (n.), revise (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/revision",
+   "accessed": "2026-09-17",
+   "note": "1610s / 1560s"
+  },
+  {
+   "id": "s:etymonline-repatriate",
+   "kind": "dictionary",
+   "title": "repatriate (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/repatriate",
+   "accessed": "2026-09-17",
+   "note": "1610s, from Late Latin repatriare"
+  },
+  {
+   "id": "s:etymonline-visa",
+   "kind": "dictionary",
+   "title": "visa (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/visa",
+   "accessed": "2026-09-17",
+   "note": "1831, from French visa, Modern Latin charta visa"
+  },
+  {
+   "id": "s:etymonline-cycle",
+   "kind": "dictionary",
+   "title": "cycle (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/cycle",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Greek kyklos"
+  },
+  {
+   "id": "s:etymonline-stay",
+   "kind": "dictionary",
+   "title": "stay (v.1), stay (n.3) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/stay",
+   "accessed": "2026-09-17",
+   "note": "mid-15c. / 1520s"
+  },
+  {
+   "id": "s:etymonline-pocket",
+   "kind": "dictionary",
+   "title": "pocket (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/pocket",
+   "accessed": "2026-09-17",
+   "note": "mid-14c.; the idiom out of pocket from the 1690s"
+  },
+  {
+   "id": "s:etymonline-pay",
+   "kind": "dictionary",
+   "title": "pay (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/pay",
+   "accessed": "2026-09-17",
+   "note": "c. 1200, from Latin pacare"
+  },
+  {
+   "id": "s:etymonline-authorize",
+   "kind": "dictionary",
+   "title": "authorize (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/authorize",
+   "accessed": "2026-09-17",
+   "note": "late 14c., from Latin auctor"
+  },
+  {
+   "id": "s:etymonline-prior",
+   "kind": "dictionary",
+   "title": "prior (adj.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/prior",
+   "accessed": "2026-09-17",
+   "note": "1714, from Latin prior"
+  },
+  {
+   "id": "s:etymonline-graft",
+   "kind": "dictionary",
+   "title": "graft (n.1), graft (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/graft",
+   "accessed": "2026-09-17",
+   "note": "late 15c.; surgical sense 1871"
+  },
+  {
+   "id": "s:etymonline-tourism",
+   "kind": "dictionary",
+   "title": "tourism (n.), tour (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tourism",
+   "accessed": "2026-09-17",
+   "note": "1811 / c. 1300"
+  },
+  {
+   "id": "s:etymonline-tourist",
+   "kind": "dictionary",
+   "title": "tourist (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/tourist",
+   "accessed": "2026-09-17",
+   "note": "1772"
+  },
+  {
+   "id": "s:etymonline-exile",
+   "kind": "dictionary",
+   "title": "exile (n.), exile (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/exile",
+   "accessed": "2026-09-17",
+   "note": "c. 1300, from Latin exilium"
+  },
+  {
+   "id": "s:etymonline-bundle",
+   "kind": "dictionary",
+   "title": "bundle (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/bundle",
+   "accessed": "2026-09-17",
+   "note": "early 14c., from Middle Dutch bondel"
+  },
+  {
+   "id": "s:etymonline-consent",
+   "kind": "dictionary",
+   "title": "consent (n.), consent (v.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/consent",
+   "accessed": "2026-09-17",
+   "note": "c. 1300, from Latin consentire"
+  },
+  {
+   "id": "s:etymonline-wellness",
+   "kind": "dictionary",
+   "title": "wellness (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/wellness",
+   "accessed": "2026-09-17",
+   "note": "1650s"
+  },
+  {
+   "id": "s:etymonline-mobility",
+   "kind": "dictionary",
+   "title": "mobility (n.), mobile (adj.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/mobility",
+   "accessed": "2026-09-17",
+   "note": "early 15c. / late 15c."
+  },
+  {
+   "id": "s:etymonline-case",
+   "kind": "dictionary",
+   "title": "case (n.1) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/case",
+   "accessed": "2026-09-17",
+   "note": "early 13c., from Latin casus; medical sense late 14c."
+  },
+  {
+   "id": "s:etymonline-diagnosis",
+   "kind": "dictionary",
+   "title": "diagnosis (n.) — etymology",
+   "publisher": "Online Etymology Dictionary, compiled by Douglas Harper",
+   "url": "https://www.etymonline.com/word/diagnosis",
+   "accessed": "2026-09-17",
+   "note": "1680s, from Greek diagnosis"
+  },
+  {
+   "id": "s:worldbank-oop-indicator",
+   "kind": "dataset",
+   "title": "Out-of-pocket expenditure (% of current health expenditure), indicator SH.XPD.OOPC.CH.ZS",
+   "publisher": "World Bank Open Data, from the WHO Global Health Expenditure Database",
+   "url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS",
+   "api": "https://api.worldbank.org/v2/indicator/SH.XPD.OOPC.CH.ZS?format=json",
+   "accessed": "2026-09-17",
+   "note": "definition and the source database read off the World Bank indicator API on 17 September 2026; the API records the WHO database as updated 12 December 2025"
+  },
+  {
+   "id": "s:healthcare-gov-copayment",
+   "kind": "gov",
+   "title": "Copayment — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/co-payment/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-coinsurance",
+   "kind": "gov",
+   "title": "Coinsurance — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/co-insurance/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-preauthorization",
+   "kind": "gov",
+   "title": "Preauthorization — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/preauthorization/",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:healthcare-gov-oop-max",
+   "kind": "gov",
+   "title": "Out-of-pocket maximum/limit — glossary",
+   "publisher": "HealthCare.gov, US Centers for Medicare & Medicaid Services",
+   "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/",
+   "accessed": "2026-09-17"
+  }
+ ]
+}

@@ -45,6 +45,7 @@ def merge_sources() -> dict:
     base = jload(SOURCES)
     have = {s["id"] for s in base["sources"]}
     added = 0
+    done = SOURCES.parent / "merged"
     for p in sorted(SOURCES.parent.glob("new-*.json")):
         d = jload(p)
         for s in d.get("sources", []):
@@ -52,7 +53,11 @@ def merge_sources() -> dict:
                 base["sources"].append(s)
                 have.add(s["id"])
                 added += 1
-        p.unlink()
+        # moved rather than deleted: a drafting agent may still be appending to its own
+        # file, and a batch that watches its register vanish mid-run cannot tell a merge
+        # from a loss
+        done.mkdir(exist_ok=True)
+        p.replace(done / p.name)
     if added:
         base["sources"].sort(key=lambda s: s["id"])
         jdump(base, SOURCES)
@@ -297,7 +302,8 @@ def countries_table(recs: list[dict], wb: dict | None, prices: dict, fac: dict, 
             if iso in rows:
                 rows[iso]["indicators"][key] = {"value": v["value"], "year": v["year"]}
     return {"built": time.strftime("%Y-%m-%d"), "count": len(rows),
-            "indicator_meta": {k: {kk: ind[kk] for kk in ("code", "name", "unit", "source", "license", "url", "fetched_at", "countries")}
+            "indicator_meta": {k: {kk: ind.get(kk) for kk in ("code", "name", "unit", "source", "license",
+                                                              "url", "fetched_at", "countries", "publisher_title")}
                                for k, ind in (((wb or {}).get("indicators") or {}).items())},
             "note": "Joined on ISO 3166-1 alpha-2. A country with no row is a country nothing here touches yet.",
             "countries": dict(sorted(rows.items()))}

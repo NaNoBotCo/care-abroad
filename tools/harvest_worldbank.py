@@ -38,8 +38,16 @@ INDICATORS = {
     "life": ("SP.DYN.LE00.IN", "Life expectancy at birth", "years"),
     "gdp_pc": ("NY.GDP.PCAP.CD", "GDP per person", "current US$"),
     "population": ("SP.POP.TOTL", "Population", "people"),
-    "arrivals": ("ST.INT.ARVL", "International tourist arrivals", "people a year"),
-    "receipts": ("ST.INT.RCPT.CD", "International tourism receipts", "current US$"),
+    "arrivals": ("ST.INT.ARVL", "Inbound visitor arrivals", "people a year"),
+    "receipts": ("ST.INT.RCPT.CD", "Inbound travel receipts", "current US$"),
+}
+
+# Two of the World Bank's own series titles use a word this project's style rules keep out
+# of its prose. The label on the button is ours; the publisher's title travels with it so
+# the series can still be found by the name its publisher gives it.
+PUBLISHER_TITLE = {
+    "arrivals": "International tourism, number of arrivals",
+    "receipts": "International tourism, receipts (current US$)",
 }
 
 
@@ -96,6 +104,7 @@ def main() -> int:
             "code": code, "name": name, "unit": unit,
             "source": "World Bank Open Data", "license": LICENSE, "license_url": LICENSE_URL,
             "url": f"https://data.worldbank.org/indicator/{code}",
+            "publisher_title": PUBLISHER_TITLE.get(key),
             "fetched_at": time.strftime("%Y-%m-%d"), "since": a.since,
             "countries": len(vals),
             "years": sorted({v["year"] for v in vals.values()}),
