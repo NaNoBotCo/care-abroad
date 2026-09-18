@@ -18,6 +18,8 @@ import csv
 import html
 import json
 import os
+
+import fleet
 import shutil
 import sys
 import time
@@ -142,7 +144,7 @@ figure{margin:0 0 1rem}
 .card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.04rem}
 .card p{margin:.3rem 0 0;font-size:.89rem;color:var(--mute)}
 footer{max-width:68rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.84rem;border-top:1px solid var(--line);font-family:var(--ui)}
-.bots a{margin-right:.7rem}
+.bots a{margin-right:.7rem}.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}
 .btn{display:inline-block;padding:.5rem 1rem;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--blue);font-family:var(--ui);font-size:.9rem}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--blue)}
@@ -236,6 +238,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <div class="bots">For the machines: <a href="{r}api/nodes.json">nodes.json</a> <a href="{r}api/countries.json">countries.json</a> <a href="{r}api/prices.json">prices.json</a> <a href="{r}api/legality.json">legality.json</a> <a href="{r}api/facilities.json">facilities.json</a> <a href="{r}api/kin.json">kin.json</a> <a href="{r}nodes.jsonl">nodes.jsonl</a> <a href="{r}nodes.csv">nodes.csv</a> <a href="{r}llms-full.txt">llms-full.txt</a> <a href="{r}sitemap.xml">sitemap.xml</a> <a href="{r}feed.xml">feed.xml</a></div>
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Country outlines from <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. Health and tourism indicators from <a href="https://data.worldbank.org/">World Bank Open Data</a>, CC BY 4.0. Hospital and clinic points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Each field carries a provenance tier.</p>
 <p>Nothing here is medical advice or legal advice. It is a directory of what other people have published, with the dates they published it.</p>
+{fleet.row_html("care-abroad")}
 </footer>
 </body>
 </html>
@@ -877,7 +880,7 @@ def front_page(recs: list[dict], by_id: dict, countries: dict, types: dict, cov:
                            "clusters, procedures, hospitals, published prices, the rules that make a treatment "
                            "lawful or not for a visitor, the risks, the vocabulary and the datasets behind every "
                            "chart. One JSON record per node, with a provenance tier per field."),
-           "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "isAccessibleForFree": True,
+           "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "publisher": fleet.publisher_ld(), "includedInDataCatalog": fleet.catalog_ld(), "isAccessibleForFree": True,
            "keywords": ["medical travel", "cross-border healthcare", "patient mobility", "hospital prices",
                         "JCI accreditation", "health system indicators"],
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json",
@@ -1354,6 +1357,8 @@ def main() -> int:
         json.dumps({"groups": groups, "words": []}, ensure_ascii=False), encoding="utf-8")
 
     (SITE / "llms.txt").write_text(llms_txt(recs, cov), encoding="utf-8")
+
+    fleet.decorate(SITE, "care-abroad")
     (SITE / "llms-full.txt").write_text(llms_full(recs, sources), encoding="utf-8")
     (SITE / "sitemap.xml").write_text(sitemap(recs), encoding="utf-8")
     (SITE / "robots.txt").write_text(robots(), encoding="utf-8")
