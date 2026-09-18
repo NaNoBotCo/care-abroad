@@ -181,12 +181,13 @@ hospitals publish none. The OpenStreetMap harvest covers 29 of the 40 clusters;
 
 
 LICENCE
-Records, prose and pages: CC BY-SA 4.0. Other layers — upstream data,
+Records, prose and pages: CC BY 4.0. Other layers — upstream data,
 pictures, tools — keep their own terms, set out in LICENSE.
 
-COMMERCIAL LICENCE
-If share-alike doesn't fit your use — a corpus, a product, a model — a
-commercial licence is available. Open an issue and say what you need:
+USING IT
+Attribution is the whole of the condition — copy it, adapt it, sell it,
+index it, train on it, and say where it came from. Open an issue if
+something is missing:
 https://github.com/NaNoBotCo/care-abroad/issues
 
 ---
