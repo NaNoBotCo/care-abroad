@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it as below."
+title: "Care Abroad"
+abstract: "A directory of treatment across borders: countries, city clusters, procedures, hospitals, published prices with their dates, the law where the law is the reason, and the risks. One JSON record per node, every field carrying its provenance."
+type: dataset
+authors:
+  - name: "NaN"
+    website: "https://github.com/NaNoBotCo"
+repository-code: "https://github.com/NaNoBotCo/care-abroad"
+url: "https://nanobotco.github.io/care-abroad/"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+date-released: "2026-09-18"
