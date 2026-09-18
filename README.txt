@@ -178,3 +178,13 @@ outside the few registries that publish it. Complication and revision rates for 
 done abroad, which almost nobody counts. Prices in most countries, because most
 hospitals publish none. The OpenStreetMap harvest covers 29 of the 40 clusters;
 `python3 tools/harvest_osm.py --resume` finishes the rest.
+
+
+LICENCE
+Records, prose and pages: CC BY-SA 4.0. Other layers — upstream data,
+pictures, tools — keep their own terms, set out in LICENSE.
+
+COMMERCIAL LICENCE
+If share-alike doesn't fit your use — a corpus, a product, a model — a
+commercial licence is available. Open an issue and say what you need:
+https://github.com/NaNoBotCo/care-abroad/issues
