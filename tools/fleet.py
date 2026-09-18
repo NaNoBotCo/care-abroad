@@ -40,6 +40,18 @@ def row_html(self_id: str = "", label: str = "More from NaNoBotCo", cls: str = "
     return f'<div class="{cls}">{html.escape(label)}: ' + " · ".join(out) + "</div>"
 
 
+def support_html(cls: str = "support", roster: dict | None = None) -> str:
+    """The contact and sponsor line Nan asked for on 2026-09-18 — same shape as
+    the one that went on every README."""
+    r = roster or load()
+    links = " · ".join(
+        f'<a href="{html.escape(s["url"])}" rel="noopener" target="_blank">{html.escape(s["name"])}</a>'
+        for s in r["sites"] if s.get("lane") == "support")
+    return (f'<div class="{cls}">Contact: Nan · '
+            f'<a href="mailto:{html.escape(r["contact"])}">{html.escape(r["contact"])}</a>'
+            f' · Sponsor: {links}</div>')
+
+
 def llms_section(self_id: str = "", heading: str = "## Elsewhere from the same publisher", roster: dict | None = None) -> str:
     r = roster or load()
     lines = [heading, ""]

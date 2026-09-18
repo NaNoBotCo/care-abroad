@@ -144,7 +144,7 @@ figure{margin:0 0 1rem}
 .card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.04rem}
 .card p{margin:.3rem 0 0;font-size:.89rem;color:var(--mute)}
 footer{max-width:68rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.84rem;border-top:1px solid var(--line);font-family:var(--ui)}
-.bots a{margin-right:.7rem}.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}
+.bots a{margin-right:.7rem}.support{margin:.45rem 0 0}.support a{margin-right:.5rem}.fleet{margin:.6rem 0 0;line-height:1.9}.fleet a{margin-right:.55rem;white-space:nowrap}
 .btn{display:inline-block;padding:.5rem 1rem;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--blue);font-family:var(--ui);font-size:.9rem}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--blue)}
@@ -239,6 +239,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Country outlines from <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. Health and tourism indicators from <a href="https://data.worldbank.org/">World Bank Open Data</a>, CC BY 4.0. Hospital and clinic points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Each field carries a provenance tier.</p>
 <p>Nothing here is medical advice or legal advice. It is a directory of what other people have published, with the dates they published it.</p>
 {fleet.row_html("care-abroad")}
+{fleet.support_html()}
 </footer>
 </body>
 </html>
