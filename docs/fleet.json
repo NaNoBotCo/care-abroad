@@ -94,6 +94,15 @@
       "sitemap": "https://nanobotco.github.io/goin-fast/sitemap.xml"
     },
     {
+      "id": "three-body",
+      "name": "The Three-Body Problem",
+      "url": "https://nanobotco.github.io/three-body/",
+      "note": "the mathematics of the three-body problem in plain words, with the orbits found rather than copied",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/three-body/sitemap.xml"
+    },
+    {
       "id": "amulet-atlas",
       "name": "Amulet Atlas",
       "url": "https://nanobotco.github.io/amulet-atlas/",
