@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "canonical": "https://nanobotco.github.io/index/fleet.json",
   "publisher": "NaNoBotCo",
   "contact": "nan@motdang.net",
@@ -16,6 +16,36 @@
       "sitemap": "https://motdang.net/sitemap.xml"
     },
     {
+      "id": "mae-hong-son-loop",
+      "name": "The Mae Hong Son Loop",
+      "th": "วงรอบแม่ฮ่องสอน",
+      "url": "https://nanobotco.github.io/mae-hong-son-loop/",
+      "note": "motorcycling the 600 km loop out of Chiang Mai — curves counted, air measured",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml"
+    },
+    {
+      "id": "muay-thai",
+      "name": "Muay Thai",
+      "th": "มวยไทย",
+      "url": "https://motdang.net/muay-thai/",
+      "note": "the eight limbs, the thirty named techniques, the ceremony, and every gym on the map",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://motdang.net/muay-thai/sitemap.xml"
+    },
+    {
+      "id": "chiang-mai-roads",
+      "name": "Roads of Chiang Mai",
+      "th": "ถนนหนทางเจียงใหม่",
+      "url": "https://motdang.net/roads/",
+      "note": "the square of 1296, four rings, and what each one did to the city — counted from the map",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://motdang.net/roads/sitemap.xml"
+    },
+    {
       "id": "wichaa",
       "name": "wichaa",
       "th": "วิชา",
@@ -24,6 +54,44 @@
       "lane": "directory",
       "audience": "th",
       "sitemap": "https://wichaa.net/sitemap.xml"
+    },
+    {
+      "id": "hand-poke",
+      "name": "Hand Poke",
+      "th": "สักด้วยมือ",
+      "url": "https://nanobotco.github.io/hand-poke/",
+      "note": "28 traditions of marking skin by hand — the leg-tattoo zone of Burma, the Shan States and Lanna, counted",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://nanobotco.github.io/hand-poke/sitemap.xml"
+    },
+    {
+      "id": "black-holes",
+      "name": "Black Holes, Drawn",
+      "url": "https://nanobotco.github.io/black-holes/",
+      "note": "black holes modelled and drawn from the equations — generators, the past, present and future, the legends",
+      "lane": "directory",
+      "audience": "world",
+      "sitemap": "https://nanobotco.github.io/black-holes/sitemap.xml"
+    },
+    {
+      "id": "quantum-computing",
+      "name": "Quantum Computing, plainly",
+      "th": "ควอนตัมคอมพิวติง",
+      "url": "https://nanobotco.github.io/quantum-computing/",
+      "note": "the history and theory of quantum computing in plain words, with demos; refreshed weekly",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/quantum-computing/sitemap.xml"
+    },
+    {
+      "id": "goin-fast",
+      "name": "Goin' Fast",
+      "url": "https://nanobotco.github.io/goin-fast/",
+      "note": "a dirt-simple explainer about speed — twenty measured speeds from the ground under the house to light, and what each one costs",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/goin-fast/sitemap.xml"
     },
     {
       "id": "amulet-atlas",
@@ -191,5 +259,14 @@
       "lane": "support",
       "audience": "all"
     }
-  ]
+  ],
+  "maker": {
+    "name": "Hongdam",
+    "url": "https://hongdam.net/",
+    "city": "Chiang Rai",
+    "country": "TH",
+    "note": "the studio these sites are built in",
+    "th": "หงส์ดำ",
+    "city_th": "เชียงราย"
+  }
 }

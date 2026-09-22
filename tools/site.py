@@ -240,6 +240,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <p>Nothing here is medical advice or legal advice. It is a directory of what other people have published, with the dates they published it.</p>
 {fleet.row_html("care-abroad")}
 {fleet.support_html()}
+{fleet.maker_html()}
 </footer>
 </body>
 </html>
