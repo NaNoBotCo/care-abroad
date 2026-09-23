@@ -103,6 +103,15 @@
       "sitemap": "https://nanobotco.github.io/three-body/sitemap.xml"
     },
     {
+      "id": "exceptional-magic",
+      "name": "Exceptional Magic",
+      "lane": "directory",
+      "audience": "world",
+      "note": "the octonions, triality, the magic square and E8, computed and drawn — a plain-spoken reading of one paper",
+      "url": "https://nanobotco.github.io/exceptional-magic/",
+      "sitemap": "https://nanobotco.github.io/exceptional-magic/sitemap.xml"
+    },
+    {
       "id": "amulet-atlas",
       "name": "Amulet Atlas",
       "url": "https://nanobotco.github.io/amulet-atlas/",
