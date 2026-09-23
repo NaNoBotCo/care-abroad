@@ -239,7 +239,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Country outlines from <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. Health and tourism indicators from <a href="https://data.worldbank.org/">World Bank Open Data</a>, CC BY 4.0. Hospital and clinic points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Each field carries a provenance tier.</p>
 <p>Nothing here is medical advice or legal advice. It is a directory of what other people have published, with the dates they published it.</p>
 {fleet.row_html("care-abroad")}
-{fleet.support_html()}
+{fleet.support_html(self_id="care-abroad")}
 {fleet.maker_html()}
 </footer>
 </body>
