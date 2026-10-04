@@ -99,7 +99,7 @@
   "fields": {
    "text.story": {
     "tier": "inference",
-    "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument and it is not legal advice"
+    "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument"
    },
    "text.how": {
     "tier": "tradition",
@@ -236,7 +236,7 @@
   },
   "text.story": {
    "tier": "inference",
-   "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument and it is not legal advice"
+   "note": "the four-obstacle paragraph is this project reasoning from the cited legal literature, marked inline; it is not a reading of any named instrument"
   },
   "text.how": {
    "tier": "tradition",

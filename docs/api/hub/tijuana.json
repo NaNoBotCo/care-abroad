@@ -100,7 +100,7 @@
   },
   {
    "to": "stem-cell-unproven",
-   "as": "Sold here to patients who cannot buy it at home, which is the whole of its business model.",
+   "as": "Sold here to patients who cannot get it at home, which is the whole of its business model.",
    "rel": "performs"
   },
   {
@@ -225,7 +225,7 @@
    "to": "stem-cell-unproven",
    "type": "procedure",
    "name": "Unapproved stem cell treatment",
-   "as": "Sold here to patients who cannot buy it at home, which is the whole of its business model.",
+   "as": "Sold here to patients who cannot get it at home, which is the whole of its business model.",
    "rel": "performs"
   },
   {

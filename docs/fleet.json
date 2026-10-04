@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-27",
   "canonical": "https://nanobotco.github.io/index/fleet.json",
   "publisher": "NaNoBotCo",
   "contact": "nan@motdang.net",
@@ -15,6 +15,27 @@
       "audience": "th",
       "sitemap": "https://motdang.net/sitemap.xml",
       "repo": "https://github.com/NaNoBotCo/mot-dang"
+    },
+    {
+      "id": "the-plan",
+      "name": "The Plan",
+      "th": "แผนมดแดง",
+      "url": "https://motdang.net/the-plan/",
+      "note": "Mot Dang's pitch deck: a business plan in twelve dimensions, for an audience of robots",
+      "lane": "directory",
+      "audience": "en",
+      "repo": "https://github.com/NaNoBotCo/the-plan"
+    },
+    {
+      "id": "chiang-rai",
+      "name": "Chiang Rai, Slowly",
+      "th": "แอ่วเชียงราย",
+      "url": "https://motdang.net/chiang-rai/",
+      "note": "the Golden Triangle, three temples, lantern night, and the slow boat to Laos",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://motdang.net/chiang-rai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chiang-rai"
     },
     {
       "id": "mae-hong-son-loop",
@@ -48,6 +69,38 @@
       "audience": "th",
       "sitemap": "https://motdang.net/roads/sitemap.xml",
       "repo": "https://github.com/NaNoBotCo/chiang-mai-roads"
+    },
+    {
+      "id": "field",
+      "name": "Field",
+      "th": "ภาคสนาม",
+      "url": "https://motdang.net/field/",
+      "note": "street-level capture for Mot Dang — places added from their own signs, each with its photograph",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://motdang.net/field/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/field"
+    },
+    {
+      "id": "golden-triangle",
+      "name": "Golden Triangle",
+      "th": "สามเหลี่ยมทองคำ",
+      "url": "https://nanobotco.github.io/golden-triangle/",
+      "note": "where the Ruak meets the Mekong — Sop Ruak, Chiang Saen, the hills and the river",
+      "lane": "directory",
+      "audience": "th",
+      "repo": "https://github.com/NaNoBotCo/golden-triangle"
+    },
+    {
+      "id": "prostar-magic",
+      "name": "Prostar Magic Shop",
+      "th": "โปรสตาร์ แมจิก ช้อป",
+      "url": "https://nanobotco.github.io/prostar-magic/",
+      "note": "magic shop on Kotchasarn Road by the Chiang Mai moat — props, shows, lessons",
+      "lane": "directory",
+      "audience": "th",
+      "sitemap": "https://nanobotco.github.io/prostar-magic/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/prostar-magic"
     },
     {
       "id": "wichaa",
@@ -112,6 +165,50 @@
       "repo": "https://github.com/NaNoBotCo/three-body"
     },
     {
+      "id": "chaos",
+      "name": "Chaos, Drawn",
+      "th": "ทฤษฎีความอลวน",
+      "url": "https://nanobotco.github.io/chaos/",
+      "note": "chaos theory in plain words — every picture drawn from the equation, and the two tools that hold up under it: the law of large numbers and resilient systems",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/chaos/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chaos"
+    },
+    {
+      "id": "indras-net",
+      "name": "Indra's Net, Drawn",
+      "th": "ตาข่ายพระอินทร์",
+      "url": "https://nanobotco.github.io/indras-net/",
+      "note": "Indra's Net in plain words — the jewel net read sixteen ways, and drawn live from the math of mirrors",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/indras-net/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/indras-net"
+    },
+    {
+      "id": "split-screen",
+      "name": "Split Screen",
+      "th": "ภาพคู่",
+      "url": "https://nanobotco.github.io/split-screen/",
+      "note": "RFK Jr. on one side, the thing on the other — a catalog of the pictures since Sept 2023, with the math",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/split-screen/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/split-screen"
+    },
+    {
+      "id": "talking-board",
+      "name": "Talking Board",
+      "th": "กระดานวิญญาณ",
+      "url": "https://nanobotco.github.io/talking-board/",
+      "note": "A parlour talking board — bots in the empty seats, a lens on the planchette, a notebook for what comes through",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://nanobotco.github.io/talking-board/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/talking-board"
+    },
+    {
       "id": "exceptional-magic",
       "name": "Exceptional Magic",
       "lane": "directory",
@@ -120,6 +217,15 @@
       "url": "https://nanobotco.github.io/exceptional-magic/",
       "sitemap": "https://nanobotco.github.io/exceptional-magic/sitemap.xml",
       "repo": "https://github.com/NaNoBotCo/exceptional-magic"
+    },
+    {
+      "id": "factoring",
+      "name": "Big Numbers, Split",
+      "lane": "directory",
+      "audience": "world",
+      "note": "factoring from Eratosthenes to Shor — the records, the Riemann Hypothesis, and what it means for a bitcoin wallet; a hundred zeta zeros computed, every claim beside what it did",
+      "url": "https://nanobotco.github.io/factoring/",
+      "sitemap": "https://nanobotco.github.io/factoring/sitemap.xml"
     },
     {
       "id": "amulet-atlas",
@@ -250,6 +356,25 @@
       "audience": "all"
     },
     {
+      "id": "hunpayont",
+      "name": "Hun Payont",
+      "th": "หุ่นพยนต์",
+      "url": "https://hunpayont.net/",
+      "note": "free phone apps, free data, and work — made in northern Thailand",
+      "lane": "product",
+      "audience": "th"
+    },
+    {
+      "id": "onemansideshow",
+      "name": "One Man Sideshow",
+      "th": "วันแมนไซด์โชว์",
+      "url": "https://nanobotco.github.io/onemansideshow/",
+      "note": "a sourced city directory run by one person and a fleet of AI agents — the kit free, setup with training ฿25,000 Thai companies / US$25,000 everyone else",
+      "lane": "product",
+      "audience": "world",
+      "sitemap": "https://nanobotco.github.io/onemansideshow/sitemap.xml"
+    },
+    {
       "id": "defiant",
       "name": "Defiant",
       "url": "https://defiant.to/",
@@ -268,6 +393,17 @@
       "audience": "th"
     },
     {
+      "id": "chiangmaivisadesk",
+      "name": "Chiang Mai Visa Desk",
+      "th": "เชียงใหม่วีซ่าเดสก์",
+      "url": "https://chiangmaivisadesk.com/",
+      "note": "work permits, Thai company registration, retirement extensions, 90-day reports and border runs from Chiang Mai",
+      "lane": "company",
+      "audience": "world",
+      "sitemap": "https://chiangmaivisadesk.com/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/visa-desk"
+    },
+    {
       "id": "hakfarang",
       "name": "ฮักฝรั่ง",
       "url": "https://hakfarang.net/",
@@ -284,6 +420,226 @@
       "lane": "directory",
       "audience": "world",
       "repo": "https://github.com/NaNoBotCo/offramp"
+    },
+    {
+      "id": "poplucky",
+      "name": "Poplucky",
+      "th": "ป๊อปลัคกี้",
+      "url": "https://poplucky.net/",
+      "note": "the Pop Mart collector's catalogue — every blind box in the words collectors use",
+      "lane": "directory",
+      "audience": "en",
+      "sitemap": "https://poplucky.net/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/poplucky"
+    },
+    {
+      "id": "bots-crave",
+      "name": "What Bots Craaave",
+      "th": "บอตหิวอะไร",
+      "url": "https://nanobotco.github.io/bots-crave/",
+      "note": "An Idiocracy-style 'splainer: bots crave new information and checkable sources; we've been feeding them links to ourselves. Two reels, one for people, one for bots",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/bots-crave/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/bots-crave"
+    },
+    {
+      "id": "pct",
+      "name": "The Pacific Crest Trail",
+      "th": "เส้นทางแปซิฟิกเครสต์",
+      "url": "https://nanobotco.github.io/pct/",
+      "note": "The PCT from Mexico to Canada: the trail, its towns, fire, snow and flood maps, places for sale, trail traditions, and Burney Mountain Guest Ranch at mile 1411",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/pct/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/pct"
+    },
+    {
+      "id": "rain-chiang-mai",
+      "name": "Rain in Chiang Mai",
+      "th": "ฝนเชียงใหม่",
+      "url": "https://nanobotco.github.io/rain-chiang-mai/",
+      "note": "Is it raining in Chiang Mai right now? Live radar and forecast, rainfall numbers, the rain clock, royal rainmaking, Ping River floods, and rain legends",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/rain-chiang-mai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/rain-chiang-mai"
+    },
+    {
+      "id": "chemtrails",
+      "name": "Chemtrails? It's ice.",
+      "th": "เคมเทรล? มันคือน้ำแข็ง",
+      "url": "https://nanobotco.github.io/chemtrails/",
+      "note": "Why jet trails form and stay, drawn with math, with a live check of whether planes over you will leave them now",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/chemtrails/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chemtrails"
+    },
+    {
+      "id": "rhine",
+      "name": "The Rhine Deck",
+      "th": "สำรับไรน์",
+      "url": "https://nanobotco.github.io/rhine/",
+      "note": "J.B. Rhine's ESP tests from Duke to play against a server that deals every card, with pooled tallies and a daily forecast, for people and robots",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/rhine/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/rhine"
+    },
+    {
+      "id": "nitpick",
+      "name": "Nitpick",
+      "th": "จับทุกป้าย",
+      "url": "https://nanobotco.github.io/nitpick/",
+      "note": "How the Mac reads every sign in a 360 photo first, so a model looks only where it must; a demo on 12 photos of Mahidol Road",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/nitpick/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/nitpick"
+    },
+    {
+      "id": "all-factored",
+      "name": "All Factored",
+      "th": "แยกหมดแล้ว",
+      "url": "https://nanobotco.github.io/all-factored/",
+      "note": "Post-quantum, drawn with math in English and Thai: factoring, Shor's rhythm trick, curves, lattice locks, and which of our sites are already switched",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/all-factored/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/all-factored"
+    },
+    {
+      "id": "golden-gate",
+      "name": "The Golden Gate Bridge",
+      "th": "สะพานโกลเดนเกต",
+      "url": "https://nanobotco.github.io/golden-gate/",
+      "note": "The Golden Gate drawn by arithmetic under the live sun, moon, fog and tide: hang the cable, run Kelvin's tide wheels, see what fits under, hear the railing sing, paint it, measure it from where you are",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/golden-gate/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/golden-gate"
+    },
+    {
+      "id": "chains-drawn",
+      "name": "Chains, Drawn",
+      "th": "โซ่ วาดให้ดู",
+      "url": "https://nanobotco.github.io/chains-drawn/",
+      "note": "ChainsAtlas and the other ways blockchains talk, as toys: a stove in every town, recipe cards with fingerprints, levers, judges, a mule pen and a key rack",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/chains-drawn/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chains-drawn"
+    },
+    {
+      "id": "hired-burglars",
+      "name": "Hired Burglars",
+      "th": "ขโมยรับจ้าง",
+      "url": "https://nanobotco.github.io/hired-burglars/",
+      "note": "Pen tests, red teams, security licences, white-label resellers, awards and startup equity, as toys in English and Thai",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/hired-burglars/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/hired-burglars"
+    },
+    {
+      "id": "expedite",
+      "name": "Hodie · Saint Expedite",
+      "th": "วันนี้ · นักบุญเอ็กซ์เปดิต",
+      "url": "https://nanobotco.github.io/expedite/",
+      "note": "The saint of today, as toys: catch the crow that says tomorrow, turn a list to today, set a red spirit house, count his days, print your thanks",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/expedite/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/expedite"
+    },
+    {
+      "id": "phnom-penh",
+      "name": "Psar Phnom Penh",
+      "th": "ตลาดพนมเปญ",
+      "url": "https://nanobotco.github.io/phnom-penh/",
+      "note": "Phnom Penh near and now: places, river, moon, holidays, Grab rides",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/phnom-penh/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/phnom-penh"
+    },
+    {
+      "id": "moving-day",
+      "name": "Moving Day",
+      "th": "วันย้ายบ้าน",
+      "url": "https://nanobotco.github.io/moving-day/",
+      "note": "Moving from one AI to another, step by step: export your chats, carry your memories and instructions, settle them into the new place. Thai and English",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/moving-day/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/moving-day"
+    },
+    {
+      "id": "warp-and-weft",
+      "name": "Warp and Weft",
+      "th": "เส้นยืน เส้นพุ่ง",
+      "url": "https://nanobotco.github.io/warp-and-weft/",
+      "note": "Silk and weaving drawn by arithmetic: a loom weaving a Khmer silk hol of humped cattle, the draft as a matrix product, ikat tie-and-dye, seven borders, satins by number theory, a silkworm's cocoon, the Silk Road, Cambodian and Thai weaving. English, Thai, Khmer",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/warp-and-weft/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/warp-and-weft"
+    },
+    {
+      "id": "birds-chiang-mai",
+      "name": "Birds of Chiang Mai",
+      "th": "นกเชียงใหม่",
+      "url": "https://nanobotco.github.io/birds-chiang-mai/",
+      "note": "23 birds of Chiang Mai drawn by arithmetic under the live sky over Doi Suthep, with real recordings, a live spectrogram, the Coucal Clock that calls at dawn and dusk, a chorus wheel, the mountain from moat to Doi Inthanon, and the birds of the Himmapan",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/birds-chiang-mai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/birds-chiang-mai"
+    },
+    {
+      "id": "lersi",
+      "name": "Lersi · the hermit's stretches",
+      "th": "ฤๅษีดัดตน",
+      "url": "https://nanobotco.github.io/lersi/",
+      "note": "41 positions of lersi dat ton drawn with math in a gilt Lanna niche; search, filter, build a routine with breath timing, send it as a link or a picture card",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/lersi/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/lersi"
+    },
+    {
+      "id": "tham-luang",
+      "name": "Tham Luang, Drawn",
+      "th": "ถ้ำหลวง วาดด้วยคณิต",
+      "url": "https://nanobotco.github.io/tham-luang/",
+      "note": "The 2018 Tham Luang cave rescue drawn with math: eighteen days under the Sleeping Lady, the way in, the 38 × 72 cm squeeze, a billion litres of water, the thinning air, the way out, the ten thousand people, and those remembered, Erik Brown among them",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/tham-luang/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/tham-luang"
+    },
+    {
+      "id": "gc-ms",
+      "name": "GC-MS: Who Tests It",
+      "th": "จีซี-เอ็มเอส ใครตรวจได้บ้าง",
+      "url": "https://nanobotco.github.io/gc-ms/",
+      "note": "GC-MS labs across Thailand on one map, what Chiang Mai University charges, and how the machine works from syringe to spectrum: race the smells of durian, holy basil and jasmine rice",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/gc-ms/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/gc-ms"
+    },
+    {
+      "id": "kranok",
+      "name": "Kranok, Drawn",
+      "th": "กนก วาดด้วยคณิต",
+      "url": "https://nanobotco.github.io/kranok/",
+      "note": "Kranok, the flame of Thai ornament, drawn with math: the curl, the one graph that bends a flame, the three-figure kranok, flames on flames, the coiled-stem scroll, seven ways to repeat a border, gold on black lacquer and Lanna lai kham",
+      "lane": "directory",
+      "audience": "all",
+      "sitemap": "https://nanobotco.github.io/kranok/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/kranok"
     },
     {
       "id": "patreon",

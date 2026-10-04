@@ -19,7 +19,7 @@
  "text": {
   "what": "Whether a patient can obtain their own medical record, and on what terms it may be sent to another country. In the European Economic Area, Regulation (EU) 2016/679 supplies both halves: health data is special category data under Article 9, Article 15 gives a right of access, Article 20 a right to portability in some circumstances, and Article 49 sets the derogations under which a transfer to a third country may proceed without an adequacy decision.",
   "story": "Two rights that sound alike do different work. Article 15 gives the right to obtain confirmation of processing and a copy of the personal data undergoing processing, with a fee permitted only for further copies. Article 20 gives the right to receive the data in a structured, commonly used and machine-readable format and to have it transmitted directly to another controller — but only where the processing rests on consent or on a contract and is carried out by automated means, and direct transmission only where technically feasible.\n\n*Inference —* a hospital record held under a legal obligation or in the public interest is therefore reachable under Article 15 and often not under Article 20. For a patient who wants a copy, that distinction is invisible and irrelevant. For a hospital's data protection office it is the whole answer, and it is why a request phrased as portability sometimes fails where the same request phrased as access succeeds.\n\nDirective 2011/24/EU adds a duty on the treating side that does not depend on any of this: Article 4(2)(f) requires the Member State of treatment to ensure that patients receive a copy of the medical record, and Article 5(d) obliges the state of affiliation to provide access to records.\n\nOutside the bloc there is no equivalent. A hospital in a third country may hold records under its own law, may charge, may require a personal appearance, and may keep operative notes, imaging and pathology in three separate systems with three separate release procedures. Nothing in the destination's law is likely to contemplate a patient who has already flown home.\n\nArticle 49 is the clause that gets cited when a record has to move the other way — from an EEA clinic to a clinician abroad, or between a facilitator and a foreign hospital. Its derogations are narrow and situational, and they were not written for a routine commercial flow.\n\n*Inference —* the practical consequence lands on the home clinician. A patient presenting with a complication and no operative note is a patient whose surgeon, implant, technique and antibiotic are all unknown, and the revision is planned blind. The right of access is the mechanism that prevents that, and it exists in full in one bloc.",
-  "how": "What travels, and what a reader would have to ask for by name: the operation note, the anaesthetic chart, the implant sticker or lot number, the histopathology report, the discharge summary with drug names, the imaging itself rather than the report, and the consent form actually signed. A summary letter is not a record.\n\nFormat matters as much as content. Imaging held on a proprietary viewer is imaging a home hospital may not be able to open; a scanned photograph of a chart is not searchable and may not be legible.\n\nWhere a facilitator sits between the patient and the hospital, the records may be held by a company rather than a clinician, and the duties of confidentiality and the route to a copy differ accordingly.",
+  "how": "The record that travels is a list of named items: the operation note, the anaesthetic chart, the implant sticker or lot number, the histopathology report, the discharge summary with drug names, the imaging itself rather than the report, and the consent form actually signed. A summary letter is not a record.\n\nFormat matters as much as content. Imaging held on a proprietary viewer is imaging a home hospital may not be able to open; a scanned photograph of a chart is not searchable and may not be legible.\n\nWhere a facilitator sits between the patient and the hospital, the records may be held by a company rather than a clinician, and the duties of confidentiality and the route to a copy differ accordingly.",
   "today": "As of 17 September 2026 the GDPR articles named here are in force across the EEA. No comparable instrument was read for the destinations outside it, and this project does not assert that none exists — several states have data protection statutes this pass did not reach."
  },
  "kin": [
@@ -55,7 +55,7 @@
   },
   {
    "to": "implant-excluded",
-   "as": "Why the implant's lot number is worth asking for by name.",
+   "as": "Why the implant is listed by name and lot number.",
    "rel": "risk"
   },
   {
@@ -167,7 +167,7 @@
    "to": "implant-excluded",
    "type": "risk",
    "name": "The implant is excluded",
-   "as": "Why the implant's lot number is worth asking for by name.",
+   "as": "Why the implant is listed by name and lot number.",
    "rel": "risk"
   },
   {

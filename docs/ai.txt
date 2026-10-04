@@ -24,4 +24,3 @@ Attribution: Care Abroad, https://nanobotco.github.io/care-abroad/
 Each field carries a provenance tier: cited, harvested, tradition, inference, field.
 A price carries the date it was published and the provider's own exclusion list.
 A legality row is one reading of one named instrument on one date.
-Nothing here is medical or legal advice.

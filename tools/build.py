@@ -162,7 +162,7 @@ def price_rows(recs: list[dict], rates: dict | None) -> dict:
         seen.setdefault(k, []).append(r["on"])
     for k, on in seen.items():
         if len(on) > 1:
-            print(f"warn  the same price ({k[2]:,.0f} {k[4]} for {k[0]}, {k[5]}) sits on "
+            print(f"warn  the same price ({k[2]:,.0f} {k[4]} for {k[0]}, {k[5]}) sits on "  # stylecheck: allow — a build log line to the operator
                   f"{len(on)} records: {', '.join(on)}")
     rows.sort(key=lambda x: (x["procedure"] or "zz", x["usd"] if x["usd"] is not None else 9e12))
     return {"built": time.strftime("%Y-%m-%d"), "count": len(rows),
@@ -195,8 +195,7 @@ def legality_matrix(recs: list[dict]) -> dict:
                          "unregulated": "no instrument either way", "no-data": "nobody here has read the law"},
             "note": ("A row is a reading of one named instrument on one date. Law moves; a row "
                      "older than its country's last reform is wrong, and the date is printed "
-                     "beside every cell so a reader can see how old it is. Nothing here is "
-                     "legal advice."),
+                     "beside every cell so a reader can see how old it is."),
             "rows": rows}
 
 
@@ -381,7 +380,7 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict, prices: dict,
         "built": time.strftime("%Y-%m-%d"),
         "scope": ("People who leave their own country to be treated, and the machinery around "
                   "them: the procedures, the hospitals, the prices, the rules, the accreditors "
-                  "and the risks. Inbound and outbound both — the countries people leave are "
+                  "and the risks. Inbound and outbound both — the countries people leave are "  # stylecheck: allow — names the site's risk records, a section
                   "half the subject."),
         "records": by_type,
         "countries_touched": len(isos),
@@ -498,7 +497,7 @@ def main() -> int:
 
 
 PATH_OF = {"destination": "country", "hub": "city", "procedure": "procedure", "facility": "hospital",
-           "pathway": "step", "risk": "risk", "rule": "rule", "org": "org", "person": "person",
+           "pathway": "step", "risk": "risk", "rule": "rule", "org": "org", "person": "person",  # stylecheck: allow — internal type key
            "event": "event", "term": "word", "dataset": "dataset", "story": "story"}
 
 

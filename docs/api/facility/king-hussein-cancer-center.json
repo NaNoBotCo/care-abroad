@@ -450,7 +450,7 @@
    "from": "gcc-sponsored-treatment-abroad",
    "type": "rule",
    "name": "Gulf state-sponsored treatment abroad",
-   "as": "One of the regional hospitals such schemes buy from.",
+   "as": "One of the regional hospitals such schemes buy care from.",
    "rel": "facility"
   }
  ]

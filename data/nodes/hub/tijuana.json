@@ -33,7 +33,7 @@
   {"to": "gastric-bypass", "as": "The other weight-loss operation on the package lists here.", "rel": "performs"},
   {"to": "antimicrobial-resistance", "as": "What the CDC actually found: an organism resistant to the first-line drugs, carried home in 19 states.", "rel": "risk"},
   {"to": "surgical-site-infection", "as": "The route the resistant organism took — abdominal wounds after sleeve gastrectomy.", "rel": "risk"},
-  {"to": "stem-cell-unproven", "as": "Sold here to patients who cannot buy it at home, which is the whole of its business model.", "rel": "performs"},
+  {"to": "stem-cell-unproven", "as": "Sold here to patients who cannot get it at home, which is the whole of its business model.", "rel": "performs"},
   {"to": "circumvention", "as": "Travel undertaken because the thing is not available at home; Tijuana is the North American case.", "rel": "story"},
   {"to": "malpractice-recourse", "as": "What a patient has, and does not have, when the surgeon is in another jurisdiction twenty minutes away.", "rel": "risk"}
  ],

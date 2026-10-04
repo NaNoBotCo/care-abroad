@@ -89,7 +89,7 @@
   },
   {
    "to": "ivf",
-   "as": "Sold here to a regional market that often cannot buy it at home.",
+   "as": "Sold here to a regional market that often cannot get it at home.",
    "rel": "procedure"
   },
   {
@@ -199,7 +199,7 @@
    "to": "ivf",
    "type": "procedure",
    "name": "In vitro fertilisation",
-   "as": "Sold here to a regional market that often cannot buy it at home.",
+   "as": "Sold here to a regional market that often cannot get it at home.",
    "rel": "procedure"
   },
   {

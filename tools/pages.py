@@ -236,7 +236,7 @@ def rules_page(page, legality: dict, recs: list, geo: dict, site_url: str) -> st
             f'<p class="lede">Some people travel because treatment is cheaper elsewhere. Others travel because '
             f'it is lawful elsewhere. This grid is the second kind: one question down the side, one jurisdiction '
             f'across the top, and every cell a reading of one named instrument on one date. Hover a cell for the '
-            f'instrument and the date it was read. Nothing here is legal advice.</p>')
+            f'instrument and the date it was read.</p>')
     body += viz.legality_matrix(subjects, legality["countries"], cells, w=940,
                                 country_names=names, ident="legal",
                                 note=("A hatched cell means nobody here has read that law — a fact about this "
@@ -475,7 +475,7 @@ def journey_page(page, recs: list, site_url: str) -> str:
     body = (f'<h1><span class="kind">The order it happens in</span>The journey</h1>'
             f'<p class="lede">Deciding, booking, flying, consenting, recovering, going home, and the part '
             f'nobody quotes for. Each step says what happens, who does it, what money and what paper move, and '
-            f'where it commonly fails. None of it says what anyone should do.</p>')
+            f'where it commonly fails.</p>')
     # the spine, drawn: eight stages, each as wide as the number of steps in it
     live = [(st, by_stage.get(st, [])) for st in STAGE_ORDER if by_stage.get(st)]
     if live:
@@ -514,7 +514,7 @@ def journey_page(page, recs: list, site_url: str) -> str:
         body += f'<h2 id="{E(st)}">{E(STAGE_LABEL.get(st, st))}</h2><div class="cards">'
         for r in sorted(rs, key=lambda r: r["names"]["name"].lower()):
             n += 1
-            risks = [k for k in r.get("kin_out", []) if k["type"] == "risk"]
+            risks = [k for k in r.get("kin_out", []) if k["type"] == "risk"]  # stylecheck: allow — internal type key
             body += (f'<div class="card"><a class="t" href="../step/{E(r["id"])}/index.html">'
                      f'{n}. {E(r["names"]["name"])}</a><p>{E(r["blurb"])}</p>'
                      + ("".join(f'<span class="chip">{E(k["name"])}</span>' for k in risks[:3]))
