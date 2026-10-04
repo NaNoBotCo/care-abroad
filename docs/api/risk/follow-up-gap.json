@@ -645,7 +645,7 @@
    "from": "transplant-harm",
    "type": "risk",
    "name": "Transplant harm",
-   "as": "Immunosuppression makes the gap immediately dangerous rather than eventually.",
+   "as": "Under immunosuppression the gap does harm immediately rather than eventually.",
    "rel": "kin"
   },
   {

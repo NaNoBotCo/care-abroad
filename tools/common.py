@@ -28,7 +28,7 @@ VENDOR = ROOT / "vendor"
 PROJECTS = Path(os.environ.get("NAN_PROJECTS") or (Path.home() / "Developer" / "claude code projects"))
 SEARCH_CORE = Path(os.environ.get("SEARCH_CORE") or (PROJECTS / "search-core"))
 
-TYPES = ("destination", "hub", "procedure", "facility", "pathway", "risk", "rule",
+TYPES = ("destination", "hub", "procedure", "facility", "pathway", "risk", "rule",  # stylecheck: allow — internal type key
          "org", "person", "event", "term", "dataset", "story")
 TIERS = ("cited", "harvested", "tradition", "inference", "field")
 TIER_LABEL = {
@@ -83,7 +83,7 @@ def load_sources() -> dict:
             for s in jload(p).get("sources", []):
                 out.setdefault(s["id"], s)
         except (ValueError, KeyError, AttributeError):
-            print(f"warn  {p.name}: not a sources file")
+            print(f"warn  {p.name}: not a sources file")  # stylecheck: allow — a log line to the operator
     return out
 
 

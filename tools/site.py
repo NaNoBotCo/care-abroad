@@ -42,13 +42,13 @@ AUTHOR = {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}
 CARDS_DIR = ROOT / "cards"
 
 PATH_OF = {"destination": "country", "hub": "city", "procedure": "procedure", "facility": "hospital",
-           "pathway": "step", "risk": "risk", "rule": "rule", "org": "org", "person": "person",
+           "pathway": "step", "risk": "risk", "rule": "rule", "org": "org", "person": "person",  # stylecheck: allow — internal type key
            "event": "event", "term": "word", "dataset": "dataset", "story": "story"}
 DIR_OF = {"destination": "countries", "hub": "cities", "procedure": "procedures", "facility": "hospitals",
-          "pathway": "journey", "risk": "risks", "rule": "rules", "org": "organizations",
+          "pathway": "journey", "risk": "risks", "rule": "rules", "org": "organizations",  # stylecheck: allow — internal type key and section path
           "person": "people", "event": "events", "term": "words", "dataset": "data", "story": "stories"}
 KIND_OF = {"destination": "a country", "hub": "a cluster", "procedure": "a procedure",
-           "facility": "a hospital", "pathway": "a step", "risk": "a risk", "rule": "a rule",
+           "facility": "a hospital", "pathway": "a step", "risk": "a risk", "rule": "a rule",  # stylecheck: allow — type label for the risk records
            "org": "an organization", "person": "a person", "event": "an event", "term": "a word",
            "dataset": "a series", "story": "a long one"}
 
@@ -188,7 +188,7 @@ NAV = [("index.html", "Everything"), ("map/index.html", "Map"), ("prices/index.h
        ("rules/index.html", "Rules"), ("near/index.html", "Near me"), ("journey/index.html", "Journey"),
        ("numbers/index.html", "Numbers"), ("countries/index.html", "Countries"),
        ("procedures/index.html", "Procedures"), ("hospitals/index.html", "Hospitals"),
-       ("risks/index.html", "Risks"), ("words/index.html", "Words"), ("data/index.html", "Data"),
+       ("risks/index.html", "Risks"), ("words/index.html", "Words"), ("data/index.html", "Data"),  # stylecheck: allow — nav label for the risk records
        ("search/index.html", "Search"), ("sources/index.html", "Sources"),
        ("coverage/index.html", "Coverage"), ("api/index.json", "API"), ("llms.txt", "llms.txt")]
 
@@ -240,7 +240,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 <footer>
 <div class="bots">For the machines: <a href="{r}api/nodes.json">nodes.json</a> <a href="{r}api/countries.json">countries.json</a> <a href="{r}api/prices.json">prices.json</a> <a href="{r}api/legality.json">legality.json</a> <a href="{r}api/facilities.json">facilities.json</a> <a href="{r}api/kin.json">kin.json</a> <a href="{r}nodes.jsonl">nodes.jsonl</a> <a href="{r}nodes.csv">nodes.csv</a> <a href="{r}llms-full.txt">llms-full.txt</a> <a href="{r}sitemap.xml">sitemap.xml</a> <a href="{r}feed.xml">feed.xml</a></div>
 <p>Records licensed <a href="{DATA_LICENSE}">CC BY 4.0</a>. Country outlines from <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public domain. Health and tourism indicators from <a href="https://data.worldbank.org/">World Bank Open Data</a>, CC BY 4.0. Hospital and clinic points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Each field carries a provenance tier.</p>
-<p>Nothing here is medical advice or legal advice. It is a directory of what other people have published, with the dates they published it.</p>
+<p>A directory of what other people have published, with the dates they published it.</p>
 {fleet.row_html("care-abroad")}
 {fleet.support_html(self_id="care-abroad")}
 {fleet.maker_html()}
@@ -406,7 +406,7 @@ def node_jsonld(r: dict) -> list:
             base["sameAs"] = [x["url"] for x in r["links"]]
     elif r["type"] == "procedure":
         base.update({"@type": "MedicalProcedure"})
-    elif r["type"] == "risk":
+    elif r["type"] == "risk":  # stylecheck: allow — internal type key
         base.update({"@type": "MedicalRiskFactor"})
     elif r["type"] in ("destination", "hub"):
         base.update({"@type": "Place"})
@@ -650,7 +650,7 @@ def node_page(r: dict, by_id: dict, sources: dict, countries: dict) -> str:
                  + viz.legality_matrix(subs, sorted({x["country"] for x in r["legality"]}), cells,
                                        w=880, country_names=ISO_NAME, ident=f"leg-{r['id']}",
                                        note=("One reading of one named instrument on one date. Law moves; the "
-                                             "date in each cell is how old the reading is. Nothing here is legal advice."))
+                                             "date in each cell is how old the reading is."))
                  + f'<p class="mute">The whole grid across every question: <a href="{rel(depth)}rules/index.html">the rules page</a>.</p>')
 
     # facts table
@@ -827,7 +827,7 @@ def front_page(recs: list[dict], by_id: dict, countries: dict, types: dict, cov:
     body = ('<div class="hero"><h1><span class="kind">a directory of treatment across borders</span>'
             'Care Abroad</h1>'
             f'<p class="lede">{E(TAGLINE.capitalize())}. Countries, clusters, hospitals, operations, prices as '
-            f'published, the law where the law is the reason, and the risks nobody quotes for. Every field says '
+            f'published, the law where the law is the reason, and the risks nobody quotes for. Every field says '  # stylecheck: allow — names the site's risk records, a section
             f'where it came from.</p>'
             '<div class="cta"><a class="btn" href="prices/index.html">What it costs</a>'
             '<a class="btn ghost" href="map/index.html">The map</a>'
@@ -883,7 +883,7 @@ def front_page(recs: list[dict], by_id: dict, countries: dict, types: dict, cov:
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": SITE_NAME,
            "description": ("A structured directory of treatment across borders: destination countries, city "
                            "clusters, procedures, hospitals, published prices, the rules that make a treatment "
-                           "lawful or not for a visitor, the risks, the vocabulary and the datasets behind every "
+                           "lawful or not for a visitor, the risks, the vocabulary and the datasets behind every "  # stylecheck: allow — names the site's risk records, a section
                            "chart. One JSON record per node, with a provenance tier per field."),
            "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "publisher": fleet.publisher_ld(), "includedInDataCatalog": fleet.catalog_ld(), "isAccessibleForFree": True,
            "keywords": ["medical travel", "cross-border healthcare", "patient mobility", "hospital prices",
@@ -900,7 +900,7 @@ def front_page(recs: list[dict], by_id: dict, countries: dict, types: dict, cov:
                                "query-input": "required name=search_term_string"}}]
     return page(f"{SITE_NAME} — {TAGLINE}", body, depth,
                 "A directory of treatment across borders: countries, clusters, hospitals, procedures, published "
-                "prices with their dates, the law, and the risks — each field with its source.",
+                "prices with their dates, the law, and the risks — each field with its source.",  # stylecheck: allow — names the site's risk records, a section
                 jl, SITE_URL + "/", card="index", share_title=SITE_NAME)
 
 
@@ -1060,13 +1060,12 @@ def llms_txt(recs: list[dict], cov: dict) -> str:
     lines = [f"# {SITE_NAME}", "",
              "> A structured directory of treatment across borders: destination countries, city clusters, "
              "procedures, hospitals, published prices with their dates and inclusion lists, the rules that make "
-             "a treatment lawful or not for a visitor, the risks, the vocabulary, and the datasets behind every "
+             "a treatment lawful or not for a visitor, the risks, the vocabulary, and the datasets behind every "  # stylecheck: allow — names the site's risk records, a section
              "chart. One JSON record per node; each field carries a provenance tier (cited / harvested / "
              "tradition / inference / field); records say what their neighbours are to them in both directions.",
              "", f"Records are CC BY 4.0 ({DATA_LICENSE}). Country outlines Natural Earth, public domain. "
                  f"Health indicators World Bank Open Data, CC BY 4.0. Hospital points OpenStreetMap, ODbL 1.0 "
                  f"(share-alike). Scope and gaps: {SITE_URL}/api/coverage.json",
-             "", "Nothing here is medical or legal advice.",
              "", "## Data",
              f"- [All records, JSON]({SITE_URL}/api/nodes.json)",
              f"- [Directory index, JSON]({SITE_URL}/api/index.json)",
@@ -1179,8 +1178,7 @@ def ai_txt() -> str:
             f"Attribution: {SITE_NAME}, {SITE_URL}/\n\n"
             "Each field carries a provenance tier: cited, harvested, tradition, inference, field.\n"
             "A price carries the date it was published and the provider's own exclusion list.\n"
-            "A legality row is one reading of one named instrument on one date.\n"
-            "Nothing here is medical or legal advice.\n")
+            "A legality row is one reading of one named instrument on one date.\n")
 
 
 def humans_txt(recs: list[dict], cov: dict) -> str:

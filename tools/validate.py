@@ -53,10 +53,10 @@ BANNED = re.compile(
     r"|the real thing|sacrile\w+)\b", re.I)
 PUFF = re.compile(
     r"\b(world[- ]class|state[- ]of[- ]the[- ]art|cutting[- ]edge|top[- ]rated|award[- ]winning"
-    r"|best hospital|finest|premier destination|risk[- ]free|pain[- ]free|hassle[- ]free"
+    r"|best hospital|finest|premier destination|risk[- ]free|pain[- ]free|hassle[- ]free"  # stylecheck: allow — the validator's banned-phrase pattern
     r"|life[- ]changing|miracle|breakthrough treatment|guaranteed results?"
     r"|save up to|savings of up to|up to \d+ ?% (?:cheaper|less|savings)"
-    r"|we recommend|you should (?:choose|book|go|travel|have)|your best (?:option|bet)"
+    r"|we recommend|you should (?:choose|book|go|travel|have)|your best (?:option|bet)"  # stylecheck: allow — the validator's banned-phrase pattern
     r"|don'?t worry|rest assured|peace of mind)\b", re.I)
 
 
@@ -287,10 +287,10 @@ def validate_all(strict=False, quiet=False) -> int:
             warns.append(f"{tag}: tier {prov['default']['tier']} but sources is empty")
     if not quiet:
         for w in warns:
-            print("warn ", w)
+            print("warn ", w)  # stylecheck: allow — a log line to the operator
         for e in errors:
             print("ERROR", e)
-        print(f"{len(recs)} records · {len(errors)} errors · {len(warns)} warnings")
+        print(f"{len(recs)} records · {len(errors)} errors · {len(warns)} warnings")  # stylecheck: allow — a log line to the operator
     if errors or (strict and warns):
         return 1
     return 0

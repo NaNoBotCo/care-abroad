@@ -63,7 +63,7 @@ SANS = "/System/Library/Fonts/Supplemental/Arial.ttf"
 SERIF = "/System/Library/Fonts/Supplemental/Georgia.ttf"
 
 TYPE_LABEL = {"destination": "A COUNTRY", "hub": "A CLUSTER", "procedure": "A PROCEDURE",
-              "facility": "A HOSPITAL", "pathway": "A STEP", "risk": "A RISK", "rule": "A RULE",
+              "facility": "A HOSPITAL", "pathway": "A STEP", "risk": "A RISK", "rule": "A RULE",  # stylecheck: allow — type label for the risk records
               "org": "AN ORGANIZATION", "person": "A PERSON", "event": "AN EVENT",
               "term": "A WORD", "dataset": "A SERIES", "story": "A LONG ONE"}
 SITE_MARK = "CARE ABROAD"
@@ -301,7 +301,7 @@ def record_card(rec: dict, ctx: dict) -> Image.Image:
         chips.append((rec["etymology"]["root"])[:52])
     elif t == "pathway" and f.get("stage"):
         chips.append(f["stage"].replace("-", " "))
-    elif t == "risk" and f.get("kind"):
+    elif t == "risk" and f.get("kind"):  # stylecheck: allow — internal type key
         chips.append(f["kind"])
     x = PAD
     cf = FB(20)
@@ -365,7 +365,7 @@ def main(argv: list[str]) -> int:
         n += 1
     standing = [
         ("index", "Care Abroad", "Who goes where, what it costs, and who checked. Countries, clusters, "
-                                 "hospitals, procedures, published prices, the law, and the risks.",
+                                 "hospitals, procedures, published prices, the law, and the risks.",  # stylecheck: allow — names the site's risk records, a section
          "a directory of treatment across borders",
          mini_map(lit={iso for iso, row in countries.items() if row.get("destination")}),
          [(f'{sum(cov["records"].values()):,}', "records"), (f'{prices["count"]:,}', "prices"),
@@ -397,7 +397,7 @@ def main(argv: list[str]) -> int:
     for t in jload(api / "vocab" / "types.json")["entries"]:
         standing.append((
             {"destination": "countries", "hub": "cities", "procedure": "procedures",
-             "facility": "hospitals", "pathway": "journey", "risk": "risks", "rule": "rules",
+             "facility": "hospitals", "pathway": "journey", "risk": "risks", "rule": "rules",  # stylecheck: allow — internal type key and section name
              "org": "organizations", "person": "people", "event": "events", "term": "words",
              "dataset": "data", "story": "stories"}[t["key"]],
             t["name"], t["blurb"], "care abroad", None, None))

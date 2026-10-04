@@ -1,5 +1,5 @@
 {
- "built": "2026-09-23",
+ "built": "2026-10-04",
  "edges": [
   {
    "to": "brazil",
@@ -4565,7 +4565,7 @@
    "to": "ivf",
    "type": "procedure",
    "name": "In vitro fertilisation",
-   "as": "Sold here to a regional market that often cannot buy it at home.",
+   "as": "Sold here to a regional market that often cannot get it at home.",
    "rel": "procedure",
    "from": "dubai"
   },
@@ -6397,7 +6397,7 @@
    "to": "stem-cell-unproven",
    "type": "procedure",
    "name": "Unapproved stem cell treatment",
-   "as": "Sold here to patients who cannot buy it at home, which is the whole of its business model.",
+   "as": "Sold here to patients who cannot get it at home, which is the whole of its business model.",
    "rel": "performs",
    "from": "tijuana"
   },
@@ -16165,7 +16165,7 @@
    "to": "follow-up-gap",
    "type": "risk",
    "name": "The follow-up gap",
-   "as": "Immunosuppression makes the gap immediately dangerous rather than eventually.",
+   "as": "Under immunosuppression the gap does harm immediately rather than eventually.",
    "rel": "kin",
    "from": "transplant-harm"
   },
@@ -16741,7 +16741,7 @@
    "to": "king-hussein-cancer-center",
    "type": "facility",
    "name": "King Hussein Cancer Center",
-   "as": "One of the regional hospitals such schemes buy from.",
+   "as": "One of the regional hospitals such schemes buy care from.",
    "rel": "facility",
    "from": "gcc-sponsored-treatment-abroad"
   },
@@ -17149,7 +17149,7 @@
    "to": "implant-excluded",
    "type": "risk",
    "name": "The implant is excluded",
-   "as": "Why the implant's lot number is worth asking for by name.",
+   "as": "Why the implant is listed by name and lot number.",
    "rel": "risk",
    "from": "patient-data-transfer"
   },

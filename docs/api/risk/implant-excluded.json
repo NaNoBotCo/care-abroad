@@ -457,7 +457,7 @@
    "from": "patient-data-transfer",
    "type": "rule",
    "name": "Moving a medical record across a border",
-   "as": "Why the implant's lot number is worth asking for by name.",
+   "as": "Why the implant is listed by name and lot number.",
    "rel": "risk"
   },
   {
