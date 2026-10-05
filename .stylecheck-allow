@@ -1,0 +1,441 @@
+# path	line text	why (stylecheck ADVICE hits kept: facts, others' words, schema)
+data/nodes/dataset/cdc-art-results.json	tish counterpart the CDC publishes the table under a warning: \"Compar	a measured risk, a law, or a source's warning reported as fact
+data/nodes/dataset/cdc-art-results.json	ister with a statute behind it, publishing rates and warning against c	kin note: what the linked record is, stated as fact
+data/nodes/dataset/cdc-art-results.json	g and nonreporter sentences from the NASS page, the warnings from the 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/dataset/hfea-results.json	 year and vice versa\". A published comparison and a warning not to co	a measured risk, a law, or a source's warning reported as fact
+data/nodes/dataset/hfea-results.json	andatory reporting, clinic-level rates, and the same warning against c	kin note: what the linked record is, stated as fact
+data/nodes/dataset/who-global-health-observatory.json	\n*Inference —* the repository is organised by disease, risk factor an	a measured risk, a law, or a source's warning reported as fact
+data/nodes/dataset/world-bank-tourism-arrivals.json	unt nationals resident abroad while others do not: \"Caution should th	a source's own words, quoted
+data/nodes/destination/australia.json	d at whose cost, once the patient has landed.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/australia.json	surgery to presentation is the gap, measured.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/australia.json	: "Present in 41.7% of the Australian series.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/canada.json	en the operation happened in another country.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/colombia.json	  {"to": "bbl-mortality", "as": "The risk attached 	kin note: what the linked record is, stated as fact
+data/nodes/destination/colombia.json	gicentre manages differently from a hospital.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/dominican-republic.json	organism that made this country a case study.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/dominican-republic.json	38 confirmed patients flew home with in 2017.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/dominican-republic.json	er were admitted in the United States for it.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/dominican-republic.json	octors at home, weeks after discharge abroad.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/germany.json	e largest cross-border number in Europe comes with a warning attached 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/destination/hungary.json	rown that fails after the second flight home.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/indonesia.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/iran.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/iran.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/israel.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/japan.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/lithuania.json	f nights and follow-up before the flight home; the clot risk sets that	a measured risk, a law, or a source's warning reported as fact
+data/nodes/destination/lithuania.json	een a cosmetic operation and the flight home.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/destination/mexico.json	amoros clinics sent home with their patients.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/mexico.json	ns after invasive procedures in this country.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/mexico.json	193,445.08 a patient in the San Diego series.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/nepal.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/north-cyprus.json	t and no home regulator can reach the clinic.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/saudi-arabia.json	s this a source market rather than a trickle.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/tunisia.json	s of a package sold across the Mediterranean.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/turkiye.json	ge telling readers that a price below EUR 1,500 is a warning sign, des	a measured risk, a law, or a source's warning reported as fact
+data/nodes/destination/turkiye.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/destination/turkiye.json	"s:ishrs-buyer-beware",	node type or kin relation name, not reader copy
+data/nodes/destination/uae.json	's own bylaw, with a per-diem attached to it.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/united-kingdom.json	operation the NHS performs and did not price.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/destination/united-states.json	 phrase for most of the traffic on this site.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/destination/vietnam.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/event/covid-shutdown-2020.json	 and between 100 and 120 million direct tourism jobs at risk. By regio	a measured risk, a law, or a source's warning reported as fact
+data/nodes/event/directive-2011-24-adopted.json	al equipment\", or presents a particular patient-safety risk. Article 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/event/dominican-republic-ntm-outbreak.json	 water and solutions are where it comes from.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/dominican-republic-ntm-outbreak.json	38 confirmed patients flew home with in 2017.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/dominican-republic-ntm-outbreak.json	 of 15 needing further surgery in the second.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/dominican-republic-ntm-outbreak.json	octors at home, weeks after discharge abroad.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/istanbul-declaration-2008.json	 of this trade that leaves no patient record.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/mexico-fungal-meningitis-2023.json	 in these clinics from January 1 to May 13, 2023, is at risk for funga	a source's own words, quoted
+data/nodes/event/mexico-fungal-meningitis-2023.json	  {"to": "fungal-meningitis", "as": "The risk record: w	kin note: what the linked record is, stated as fact
+data/nodes/event/mexico-fungal-meningitis-2023.json	  {"to": "anaesthetic-risk-unscreene	node type or kin relation name, not reader copy
+data/nodes/event/mexico-fungal-meningitis-2023.json	from a list, weeks after they had flown home.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/mexico-fungal-meningitis-2023.json	d by a hospital in the patient's own country.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/ndm-1-2010.json	 you link it to our antibiotics policy … say it is dangerous to get op	a source's own words, quoted
+data/nodes/event/ndm-1-2010.json	  {"to": "antimicrobial-resistance", "as": "The risk this pape	kin note: what the linked record is, stated as fact
+data/nodes/event/ndm-1-2010.json	 most of these organisms take into a patient.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/event/turkiye-hair-boom.json	ation surgery and, in doing so, are putting patients at risk\", and th	a source's own words, quoted
+data/nodes/facility/bangkok-hospital.json	st line on a joint bill is not in the number.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/facility/bumrungrad.json	d without the implant, which the page states.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/facility/heidelberg-university-hospital.json	nstrument from a fixed package. A package transfers the risk of the bi	a measured risk, a law, or a source's warning reported as fact
+data/nodes/facility/heidelberg-university-hospital.json	ich is the half most deposit pages leave out.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/facility/hospital-angeles-tijuana.json	me, which the CDC investigated and published.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/facility/hospital-angeles-tijuana.json	ing surgeon and every subsequent appointment.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/facility/hospital-angeles-tijuana.json	prices, with no record from the Mexican side.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/facility/medanta.json	r's ceiling instead of left out of the quote.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/facility/samsung-medical-center.json	a hospital is also a place infections happen.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/amman.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/antalya.json	   "as": "The clot risk that deci	kin note: what the linked record is, stated as fact
+data/nodes/hub/antalya.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/cancun.json	ns can be sold on a one-week resort schedule.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/istanbul.json	ry issued a release on 18 May 2016 naming Turkey and warning that unqu	a measured risk, a law, or a source's warning reported as fact
+data/nodes/hub/istanbul.json	he surgical society that has named this city in its warnings about unl	kin note: what the linked record is, stated as fact
+data/nodes/hub/istanbul.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/istanbul.json	"s:ishrs-buyer-beware",	node type or kin relation name, not reader copy
+data/nodes/hub/johannesburg.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/los-algodones.json	wn in Ohio when it fails, and at whose price.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/los-algodones.json	 not true of anywhere else in this directory.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/medellin.json	 is the one with a named death rate attached.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/medellin.json	body-contouring stay, not the operating time.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/medellin.json	nt faces in a rented flat rather than a ward.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/hub/monterrey.json	erpreters on request — which is not the norm.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/nicosia.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/nuevo-progreso.json	  {"to": "counterfeit-medicines", "as": "The risk that atta	kin note: what the linked record is, stated as fact
+data/nodes/hub/nuevo-progreso.json	nt is parked twenty minutes away until April.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/hub/phuket.json	re on an island whose patients arrive by air.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/phuket.json	eek check is somebody else's, somewhere else.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/santo-domingo.json	s city a case study, twice, four years apart.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/santo-domingo.json	n a country the surgeon does not practise in.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/santo-domingo.json	uired in a clinic that has since been closed.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/santo-domingo.json	 shows up in who notices a wound going wrong.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/hub/singapore-city.json	lator and a court that will hear a complaint.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/sopron.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/tijuana.json	 first-line drugs, carried home in 19 states.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/tijuana.json	 — abdominal wounds after sleeve gastrectomy.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/hub/tijuana.json	 in another jurisdiction twenty minutes away.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/hub/tunis.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/hub/vilnius.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/declaration-of-istanbul-group.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/defiant.json	ian broker sites in 2010 — found that most published no risk informati	a measured risk, a law, or a source's warning reported as fact
+data/nodes/org/defiant.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/defiant.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/dha-dubai.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/hfea.json	reasoning and date from its own page, the comparison warning from the 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/org/isaps.json	   "as": "A risk measured 	kin note: what the linked record is, stated as fact
+data/nodes/org/isaps.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/ishrs.json	a country early. The society's release of 18 May 2016 warned that unqu	a measured risk, a law, or a source's warning reported as fact
+data/nodes/org/ishrs.json	   "as": "The growth its warnings ran along	kin note: what the linked record is, stated as fact
+data/nodes/org/ishrs.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/org/ishrs.json	"s:ishrs-2016-buyer-beware",	node type or kin relation name, not reader copy
+data/nodes/org/ishrs.json	22 census report, the 2016 allegations from the buyer-beware release, 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/pathway/aftercare-at-home.json	"as": "The risk record for the hole this step falls into.",	kin note: what the linked record is, stated as fact
+data/nodes/pathway/aftercare-at-home.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/aftercare-at-home.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/aftercare-at-home.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/arrival-and-consent.json	   "as": "The risk this step	kin note: what the linked record is, stated as fact
+data/nodes/pathway/arrival-and-consent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/arrival-and-consent.json	"to": "anaesthetic-risk-unscreened",	node type or kin relation name, not reader copy
+data/nodes/pathway/arrival-and-consent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/arrival-and-consent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/booking-the-flight.json	he reason: \"Air travel and major surgery increase your risk of a bloo	a source's own words, quoted
+data/nodes/pathway/booking-the-flight.json	"as": "The clinical risk the booked return date runs into.",	kin note: what the linked record is, stated as fact
+data/nodes/pathway/booking-the-flight.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/booking-the-flight.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/choosing-a-facilitator.json	websites in the summer of 2010: 47% made no mention of risks, only two	a measured risk, a law, or a source's warning reported as fact
+data/nodes/pathway/choosing-a-facilitator.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/complaint-and-claim.json	"as": "The risk record this step is the procedure for.",	kin note: what the linked record is, stated as fact
+data/nodes/pathway/complaint-and-claim.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/deciding-whether.json	ounted what they told a reader: 47% made no mention of risks at all, o	a measured risk, a law, or a source's warning reported as fact
+data/nodes/pathway/deciding-whether.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/getting-a-quote.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/getting-your-records.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/in-hospital.json	e. *Inference —* that is the structure of the financial risk in this s	a measured risk, a law, or a source's warning reported as fact
+data/nodes/pathway/in-hospital.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/in-hospital.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/in-hospital.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/reading-the-exclusions.json	tment when the original ticket cannot be used; it also warns that EHIC	a measured risk, a law, or a source's warning reported as fact
+data/nodes/pathway/reading-the-exclusions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/reading-the-exclusions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/second-opinion.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-companion.json	"as": "The risk record for what this person carries.",	kin note: what the linked record is, stated as fact
+data/nodes/pathway/the-companion.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-companion.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-deposit.json	"as": "The risk this step creates, and who carries it.",	kin note: what the linked record is, stated as fact
+data/nodes/pathway/the-deposit.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-discharge-summary.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-discharge-summary.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-flight-home.json	mechanism: \"Air travel and major surgery increase your risk of a bloo	a source's own words, quoted
+data/nodes/pathway/the-flight-home.json	"as": "The risk record for this leg, with the guidance in full.",	kin note: what the linked record is, stated as fact
+data/nodes/pathway/the-flight-home.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-flight-home.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/the-flight-home.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/when-it-goes-wrong.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/when-it-goes-wrong.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/pathway/when-it-goes-wrong.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/person/leigh-turner.json	"as": "The risk record, where his enumeration sets the scale.",	kin note: what the linked record is, stated as fact
+data/nodes/person/leigh-turner.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/abdominoplasty.json	ter-surgery", "as": "The wound, the drains and the clot risk that set 	kin note: what the linked record is, stated as fact
+data/nodes/procedure/abdominoplasty.json	his operation and the flight home both raise.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/acl-reconstruction.json	t or abdominal surgery, applied by analogy for the clot risk of lower-	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/acl-reconstruction.json	ilitation after a two-night admission abroad.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/all-on-four.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/all-on-four.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/angioplasty-stent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/angioplasty-stent.json	"to": "counterfeit-medicines",	node type or kin relation name, not reader copy
+data/nodes/procedure/angioplasty-stent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/angioplasty-stent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/assisted-dying.json	efused and what is kept when it is withdrawn.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/bbl.json	r injection was associated with significantly increased risk; injectio	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/bbl.json	  {"to": "bbl-mortality", "as": "The risk this oper	kin note: what the linked record is, stated as fact
+data/nodes/procedure/bbl.json	other place harvested fat is injected, with a different risk profile."	kin note: what the linked record is, stated as fact
+data/nodes/procedure/bbl.json	fter-surgery", "as": "Sitting restrictions and the clot risk of the fl	kin note: what the linked record is, stated as fact
+data/nodes/procedure/bbl.json	he fat one, and the one the flight home adds.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/bbl.json	do, and where, when the death happens abroad.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/bbl.json	 complication after the flight, and who pays.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/bone-marrow-transplant.json	ant in this directory where a second person carries the risk.", "rel":	kin note: what the linked record is, stated as fact
+data/nodes/procedure/bone-marrow-transplant.json	y a patient through the weeks without marrow.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/bone-marrow-transplant.json	ne system, and what a patient can carry home.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/bone-marrow-transplant.json	ll-time carer, which no package price covers.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/bone-marrow-transplant.json	ares itself months later, in another country.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/breast-augmentation.json	is usually inside it, which is the exception.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/breast-augmentation.json	card, and who scans the breast in five years.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/breast-augmentation.json	to the buttock are different operations with different risks, and only	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/cabg.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/cabg.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/cabg.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/car-t.json	dispensed only by hospitals specially certified under a Risk Evaluatio	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/car-t.json	rer, which is the part no price list carries.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/cataract-surgery.json	ens — and reopens by naming only some lenses.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/cataract-surgery.json	 the day after, and who sees it at six weeks.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/cochlear-implant.json	or replacing a failed internal device, alongside a 4.8% risk of intern	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/cochlear-implant.json	 and a programming appointment that does not.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/cochlear-implant.json	 a failed internal device, and on whose bill.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/cochlear-implant.json	eration that is not a price for the hardware.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/dental-crown.json	that comes off at home, and what they charge.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/dental-implant.json	. The clinic's own note above the table reads: \"Please note that many	a source's own words, quoted
+data/nodes/procedure/dental-implant.json	oint implant, written smaller and more often.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/dental-implant.json	 six-month check, and who fixes a failed one.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/dialysis-holiday.json	 a unit has a machine for the patient at all.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/disc-replacement.json	oves the device the operation is named after.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/egg-donation.json	 pricing device as much as a clinical one: it moves the risk of a poor	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/egg-freezing.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/executive-health-screening.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/facelift.json	to": "informed-consent", "as": "The facial nerve is the risk that cons	kin note: what the linked record is, stated as fact
+data/nodes/procedure/full-mouth-restoration.json	ecks a rebuilt bite at six months, and where.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/gallbladder-removal.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/gallbladder-removal.json	o investigates the pain that did not go away.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gamma-knife.json	at six months, back home, that nobody booked.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-balloon.json	ter, in the country the patient went home to.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-balloon.json	 the months it was bought for did not happen.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-bypass.json	s the package does not cover. Those sit on the rule and risk records.\	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/gastric-bypass.json	ompulsory, once the coordinator's calls stop.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-bypass.json	 country that did not do the first operation.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-bypass.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/gastric-sleeve.json	size, and the distinction matters because the operative risk and the a	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/gastric-sleeve.json	age's six months of video calls have run out.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-sleeve.json	 leaks, strictures or has to become a bypass.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/gastric-sleeve.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/gastric-sleeve.json	 the package prices separately or not at all.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/hair-transplant-fue.json	esign and recipient site creation - and it names three risks when unli	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/heart-valve-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/heart-valve-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/heart-valve-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/heart-valve-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/hernia-repair.json	o deals with chronic groin pain after a mesh.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/hernia-repair.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/hernia-repair.json	ound at two weeks once the patient has flown.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/hip-replacement.json	commonly apply to major lower-limb surgery for the clot risk; no page 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/hip-replacement.json	 and the English price list does not mention.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/hip-replacement.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/hip-replacement.json	es when the cup loosens, and who pays for it.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/hysterectomy.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/hysterectomy.json	   "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/hysterectomy.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/hysterectomy.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/icl.json	 lens, and narrows by naming only some types.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/icl.json	, and who takes the lens out in thirty years.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/kidney-transplant.json	 abroad, for the recipient and for the donor.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/kidney-transplant.json	transplant here where a healthy second person takes the risk.", "rel":	kin note: what the linked record is, stated as fact
+data/nodes/procedure/kidney-transplant.json	unscreened donor can transmit with the graft.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/kidney-transplant.json	ent cannot sue and the donor cannot be found.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/kidney-transplant.json	te, and a clinic that must take it on anyway.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/knee-replacement.json	commonly apply to major lower-limb surgery for the clot risk; the twel	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/knee-replacement.json	    "patients the hospital rates high risk: organ fa	alias or search term, the name others use
+data/nodes/procedure/knee-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/knee-replacement.json	   "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/knee-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/knee-replacement.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/lasik.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/lasik.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/procedure/liposuction.json	x months. Volume removed is the figure that changes the risk profile, 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/liposuction.json	  {"to": "anaesthetic-risk-unscreene	node type or kin relation name, not reader copy
+data/nodes/procedure/liver-transplant.json	 abroad, for the recipient and for the donor.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/liver-transplant.json	% against 0% in the series this page carries.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/liver-transplant.json	eview as one of the three mechanisms of harm.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/liver-transplant.json	nt cannot sue and the donor cannot be traced.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/panchakarma.json	  {"to": "counterfeit-medicines	node type or kin relation name, not reader copy
+data/nodes/procedure/phalloplasty.json	ve after the flight, and they need a surgeon.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/phalloplasty.json	f the first three sitting in another country.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/phalloplasty.json	icial joint is excluded from a joint package.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/prostatectomy.json	er, and who measures the PSA at three months.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/prostatectomy.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/proton-therapy.json	 treatment abroad costs beyond the treatment.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/rhinoplasty.json	 what price, once the patient has flown back.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/rhinoplasty.json	: "The splint comes off before the flight, and the clot risk of the fl	kin note: what the linked record is, stated as fact
+data/nodes/procedure/root-canal.json	oot filling that fails after the flight home.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/shoulder-replacement.json	 schedule fee leaves entirely outside itself.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/shoulder-replacement.json	weeks of physiotherapy after the flight home.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/spinal-fusion.json	abdominal surgery, applied here by analogy for the clot risk and not s	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/spinal-fusion.json	the first line on the Bangkok exclusion list.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/spinal-fusion.json	  {"to": "flying-after-surgery", "as": "The clot risk that sets	kin note: what the linked record is, stated as fact
+data/nodes/procedure/spinal-fusion.json	 imaging that shows whether the bone knitted.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/stem-cell-unproven.json	ction on 25 June. The FDA's statement that day put the risks as \"blin	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/stem-cell-unproven.json	 rate. The FDA names blindness, infection and death as risks; the thre	a measured risk, a law, or a source's warning reported as fact
+data/nodes/procedure/stem-cell-unproven.json	easured it, and what the case reports record.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/stem-cell-unproven.json	rought against a provider in another country.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/stem-cell-unproven.json	  {"to": "counterfeit-medicines	node type or kin relation name, not reader copy
+data/nodes/procedure/surrogacy.json	n arrangement across two jurisdictions fails.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/surrogacy.json	is returned when a journey ends between them.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/procedure/top-surgery.json	fter a general anaesthetic and a chest wound.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/top-surgery.json	 the first fortnight, often after the flight.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/top-surgery.json	out, and who looks at the scars at six weeks.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/vaginoplasty.json	h, and where the price for that is published.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/vaginoplasty.json	instruction, and nobody abroad supervises it.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/vaginoplasty.json	ration was performed in another jurisdiction.", "rel": "risk"},	node type or kin relation name, not reader copy
+data/nodes/procedure/veneers.json	debonds after the flight, and at whose price.", "rel": "risk"}	node type or kin relation name, not reader copy
+data/nodes/risk/alone-after-discharge.json	"as": "The step this risk is the absence of.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/alone-after-discharge.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/anaesthetic-risk-unscreened.json	"id": "anaesthetic-risk-unscreened",	node type or kin relation name, not reader copy
+data/nodes/risk/anaesthetic-risk-unscreened.json	nnot be used alone to determine anesthesia or surgical risks because o	a source's own words, quoted
+data/nodes/risk/anaesthetic-risk-unscreened.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/antimicrobial-resistance.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/bbl-mortality.json	"as": "Where the fat comes from, and its own share of the risk.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/bbl-mortality.json	"to": "anaesthetic-risk-unscreened",	node type or kin relation name, not reader copy
+data/nodes/risk/bbl-mortality.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/blood-supply-safety.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/bloodborne-virus.json	ection prevention and control practices place people at risk for \"blo	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/bloodborne-virus.json	cubation.\n\n*Inference —* the consequence is that this risk has no nu	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/bloodborne-virus.json	   "as": "The upstream half of the same risk, and the 	kin note: what the linked record is, stated as fact
+data/nodes/risk/bloodborne-virus.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/candida-auris.json	  "how": "Risk concentra	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/candida-auris.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/counterfeit-medicines.json	"id": "counterfeit-medicines",	node type or kin relation name, not reader copy
+data/nodes/risk/counterfeit-medicines.json	"counterfeit medicines",	alias or search term, the name others use
+data/nodes/risk/counterfeit-medicines.json	"falsified medical products",	alias or search term, the name others use
+data/nodes/risk/counterfeit-medicines.json	hat": "A medicine that is not what its label says: falsified in its id	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/counterfeit-medicines.json	ow- and middle-income countries are substandard or falsified, a figure	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/counterfeit-medicines.json	"Neither a patient nor a pharmacist can identify a falsified product b	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/counterfeit-medicines.json	ow- and middle-income countries are substandard or falsified, from WHO	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/counterfeit-medicines.json	"s:who-substandard-falsified",	node type or kin relation name, not reader copy
+data/nodes/risk/counterfeit-medicines.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/deposit-and-refund.json	s role in follow-up care — while discussion of surgical risk was absen	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/deposit-and-refund.json	included business dimensions and discussion of surgical risk was absen	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/deposit-and-refund.json	"as": "The step this risk is about.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/deposit-and-refund.json	"to": "anaesthetic-risk-unscreened",	node type or kin relation name, not reader copy
+data/nodes/risk/deposit-and-refund.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/dvt-pe.json	 and part of it travels to the lung. Surgery raises the risk and long-	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/dvt-pe.json	  "story": "The travel half of the risk has been 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/dvt-pe.json	gery is compression, early mobilisation and, for higher-risk operation	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/dvt-pe.json	easured figure this site carries is the 26% increase in risk per two h	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/dvt-pe.json	avel-associated venous thromboembolism and a 26% higher risk per addit	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/dvt-pe.json	 regional anaesthesia is preferred partly to lower this risk.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/dvt-pe.json	iatric surgery, where the underlying weight is itself a risk factor fo	kin note: what the linked record is, stated as fact
+data/nodes/risk/dvt-pe.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/flying-after-surgery.json	t a fresh surgical wound. The last of those is the clot risk, and it i	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/flying-after-surgery.json	"as": "The clot risk that the seated hours add to the surgical one.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/flying-after-surgery.json	s commonly apply the same ten-day interval for the clot risk.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/flying-after-surgery.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/follow-up-gap.json	"as": "The step this risk is the absence of.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/follow-up-gap.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/fungal-meningitis.json	"to": "anaesthetic-risk-unscreened",	node type or kin relation name, not reader copy
+data/nodes/risk/fungal-meningitis.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/implant-excluded.json	"as": "The pricing form this risk lives inside.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/implant-excluded.json	"as": "Also on that exclusion list, and a risk rather than a charge.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/implant-excluded.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/language-consent.json	he package and paid on its arrangements, which puts the risk conversat	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/language-consent.json	   "as": "The step this risk sits insi	kin note: what the linked record is, stated as fact
+data/nodes/risk/language-consent.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/malpractice-recourse.json	"as": "The step this risk decides the outcome of.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/malpractice-recourse.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/nontuberculous-mycobacteria.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/repatriation-cost.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/revision-at-home.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/surgical-site-infection.json	"as": "The step this risk turns into.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/surgical-site-infection.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/the-escort-burden.json	"as": "The step this risk is the price of.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/the-escort-burden.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/transplant-harm.json	r side is the reason this record is filed as an ethical risk rather th	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/transplant-harm.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/risk/unproven-stem-cell.json	y have no established benefit\", placing the patient at risk both from	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/unproven-stem-cell.json	ause it undercuts the geographic framing. This is not a risk that begi	a measured risk, a law, or a source's warning reported as fact
+data/nodes/risk/unproven-stem-cell.json	"as": "The step this risk is most often avoided at.",	kin note: what the linked record is, stated as fact
+data/nodes/risk/unproven-stem-cell.json	"to": "counterfeit-medicines",	node type or kin relation name, not reader copy
+data/nodes/risk/unproven-stem-cell.json	"type": "risk",	node type or kin relation name, not reader copy
+data/nodes/rule/abortion-travel-law.json	   "conditions": "Grounds only: danger to life o	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/assisted-dying-law.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/cross-border-prescriptions.json	ealth Organization's fact sheet on substandard and falsified medical p	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/cross-border-prescriptions.json	"to": "counterfeit-medicines",	node type or kin relation name, not reader copy
+data/nodes/rule/cross-border-prescriptions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/cross-border-prescriptions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/cross-border-prescriptions.json	"s:who-substandard-falsified",	node type or kin relation name, not reader copy
+data/nodes/rule/donor-anonymity-law.json	ly in extraordinary circumstances carrying a definite danger to the ch	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/donor-anonymity-law.json	y, in extraordinary circumstances carrying a definite danger to the li	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/eu-directive-2011-24.json	re or medical equipment\", care presenting a particular risk, or care 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/eu-directive-2011-24.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/gender-affirming-care-access.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/insurance-exclusions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/insurance-exclusions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/insurance-exclusions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/insurance-exclusions.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/korea-foreign-patient-registration.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/patient-data-transfer.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/patient-data-transfer.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/patient-data-transfer.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/patient-data-transfer.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/s2-route.json	t does not undo: a co-payment. \"This could mean you have to pay a per	a source's own words, quoted
+data/nodes/rule/stem-cell-regulation.json	ufacturers. The Act classifies regenerative medicine by risk into Clas	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/stem-cell-regulation.json	"as": "The risk record, and the published harms.",	kin note: what the linked record is, stated as fact
+data/nodes/rule/stem-cell-regulation.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/stem-cell-regulation.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/transplant-prohibition.json	 2021 review covers liver transplantation and infection risk. Neither 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/rule/transplant-prohibition.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/transplant-prohibition.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/turkiye-health-tourism-authorisation.json	"s:ishrs-2016-buyer-beware"	node type or kin relation name, not reader copy
+data/nodes/rule/uae-clinic-licensing.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/uk-nhs-treatment-abroad.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/us-medicare-abroad.json	e Medicare claims for your travel medical costs. You need to submit an	a source's own words, quoted
+data/nodes/rule/us-medicare-abroad.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/rule/us-medicare-abroad.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/story/how-this-was-built.json	 a named hospital or clinic, one step of the journey, a risk, a rule, 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/story/how-this-was-built.json	d BUILD_DRAFT=1 downgrades unwritten kin targets to warnings while rec	a measured risk, a law, or a source's warning reported as fact
+data/nodes/story/how-this-was-built.json	ters, 34 hospitals and clinics, 26 words, 23 rules, 23 risks, 22 organ	a measured risk, a law, or a source's warning reported as fact
+data/nodes/story/is-it-cheaper.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/story/the-follow-up-nobody-books.json	   "as": "The risk record fo	kin note: what the linked record is, stated as fact
+data/nodes/story/the-follow-up-nobody-books.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/story/the-follow-up-nobody-books.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/story/the-follow-up-nobody-books.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/story/the-follow-up-nobody-books.json	ure is read off the published series and carried on the risk and pathw	a measured risk, a law, or a source's warning reported as fact
+data/nodes/story/the-price-that-isnt.json	   "as": "The risk record fo	kin note: what the linked record is, stated as fact
+data/nodes/story/the-price-that-isnt.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/story/the-word-itself.json	aring in two unrelated registers in 1997 — once as a warning about res	a measured risk, a law, or a source's warning reported as fact
+data/nodes/story/what-the-data-cannot-see.json	n, and dataset.does_not_count beside it; the validator warns when eith	a measured risk, a law, or a source's warning reported as fact
+data/nodes/story/who-travels.json	es, did not choose the hospital and is not carrying the risk, and no p	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/asa-grade.json	"to": "anaesthetic-risk-unscreened",	node type or kin relation name, not reader copy
+data/nodes/term/asa-grade.json	   "as": "The risk this scal	kin note: what the linked record is, stated as fact
+data/nodes/term/asa-grade.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/bundled-payment.json	 the readmission the payer's problem and the hospital's risk; a 30-day	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/bundled-payment.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/case-rate.json	named procedure, with no grouping for severity, and the risk of a sick	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/case-rate.json	the public instead of negotiated with a payer — and the risk it carrie	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/facilitator.json	websites in the summer of 2010: 47% made no mention of risks, two of t	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/facilitator.json	   "as": "The risk that foll	kin note: what the linked record is, stated as fact
+data/nodes/term/facilitator.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/graft.json	ensed technicians (the so-called black market)\" as the risk attached 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/informed-consent.json	dure, given after being told what it involves, what it risks and what 	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/informed-consent.json	"as": "The risk this doctrine runs into across a language barrier.",	kin note: what the linked record is, stated as fact
+data/nodes/term/informed-consent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/informed-consent.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/length-of-stay.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/medical-tourism.json	Mark Sauer used it in a title in Human Reproduction, warning that rest	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/out-of-pocket.json	rd. A plan's out-of-pocket maximum is \"the most you have to pay for c	a source's own words, quoted
+data/nodes/term/package-price.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/patient-mobility.json	ght stay, highly specialised infrastructure, particular risk, or a pro	a measured risk, a law, or a source's warning reported as fact
+data/nodes/term/repatriation.json	   "as": "The risk record be	kin note: what the linked record is, stated as fact
+data/nodes/term/repatriation.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/repatriation.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/revision.json	   "as": "The risk this word	kin note: what the linked record is, stated as fact
+data/nodes/term/revision.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/nodes/term/revision.json	"rel": "risk"	node type or kin relation name, not reader copy
+data/search/care.thesaurus.json	"counterfeit medicines",	alias or search term, the name others use
+data/search/care.thesaurus.json	"falsified medical products",	alias or search term, the name others use
+data/search/care.thesaurus.json	"substandard and falsified medicines"	alias or search term, the name others use
+data/vocab/facets.json	 type, with their known values. Open: an unknown value warns, never fa	schema or vocabulary text for the validator
+data/vocab/facets.json	"risk",	schema or vocabulary text for the validator
+data/vocab/regions.json	 record may name a region not listed here; validate.py warns so it can	schema or vocabulary text for the validator
+data/vocab/types.json	"key": "risk",	node type or kin relation name, not reader copy
+data/vocab/types.json	"one": "risk",	node type or kin relation name, not reader copy
+data/vocab/types.json	"path": "risk",	node type or kin relation name, not reader copy
+schema/node.schema.json	ocedure, a hospital or clinic, a step in the journey, a risk, a rule, 	schema or vocabulary text for the validator
+schema/node.schema.json	stination", "hub", "procedure", "facility", "pathway", "risk", "rule",	node type or kin relation name, not reader copy
+schema/node.schema.json	st, validated against data/vocab/regions.json with a warning"	schema or vocabulary text for the validator
+schema/node.schema.json	               "accredits", "accredited-by", "risk", "step",	node type or kin relation name, not reader copy
