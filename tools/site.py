@@ -20,6 +20,7 @@ import json
 import os
 
 import fleet
+import ogcards
 import shutil
 import sys
 import time
@@ -1303,6 +1304,7 @@ def main() -> int:
     if SITE.exists():
         shutil.rmtree(SITE)
     SITE.mkdir(parents=True)
+    ogcards.copy(ROOT, SITE)
     shutil.copytree(API, SITE / "api")
     shutil.copytree(ROOT / "schema", SITE / "schema")
     (SITE / "vendor").mkdir()
@@ -1321,7 +1323,7 @@ def main() -> int:
 
     (SITE / "index.html").write_text(
         front_page(recs, by_id, countries, types, cov, prices, legality, facilities, geo), encoding="utf-8")
-    (SITE / "wander.html").write_text(wander_page(recs), encoding="utf-8")
+    (SITE / "wander.html").write_text(ogcards.apply(wander_page(recs), "wander.html", SITE_URL), encoding="utf-8")
     for t in types["entries"]:
         d = SITE / DIR_OF[t["key"]]
         d.mkdir(exist_ok=True)
